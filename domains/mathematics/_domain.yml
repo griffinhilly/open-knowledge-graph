@@ -1,0 +1,49 @@
+domain: mathematics
+title: Mathematics
+description: >
+  The systematic study of structure, pattern, quantity, and change through
+  rigorous logical reasoning. The most purely sequential domain in human
+  knowledge -- every concept has clear prerequisites and gaps compound.
+courses:
+  - id: 4th-grade
+    title: 4th Grade Math
+    stage: concrete-operations
+  - id: 5th-grade
+    title: 5th Grade Math
+    stage: concrete-operations
+  - id: prealgebra
+    title: Prealgebra
+    stage: abstract-reasoning
+  - id: algebra-1
+    title: Algebra 1
+    stage: abstract-reasoning
+  - id: geometry
+    title: Geometry
+    stage: abstract-reasoning
+  - id: algebra-2
+    title: Algebra 2
+    stage: abstract-reasoning
+  - id: precalculus
+    title: Precalculus
+    stage: formal-systems
+  - id: calculus-1
+    title: Calculus 1
+    stage: formal-systems
+  - id: calculus-2
+    title: Calculus 2
+    stage: formal-systems
+  - id: linear-algebra
+    title: Linear Algebra
+    stage: formal-systems
+  - id: multivariable-calculus
+    title: Multivariable Calculus
+    stage: formal-systems
+  - id: methods-of-proof
+    title: Methods of Proof
+    stage: formal-systems
+  - id: probability-and-statistics
+    title: Probability & Statistics
+    stage: formal-systems
+  - id: discrete-math
+    title: Discrete Math
+    stage: formal-systems
