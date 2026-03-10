@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: ir-spectroscopy-basics
   type: soft
+- id: simple-harmonic-motion
+  type: soft
+- id: wave-properties-intro
+  type: soft
+- id: electromagnetic-spectrum
+  type: soft
 builds-toward:
 - raman-spectroscopy-theory
 - vibrational-modes-and-symmetry

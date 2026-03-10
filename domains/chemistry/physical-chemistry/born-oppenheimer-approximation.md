@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: soft
+- id: schrodinger-equation-intro
+  type: soft
+- id: wave-particle-duality
+  type: soft
 builds-toward:
 - molecular-orbital-theory-advanced
 - potential-energy-surfaces

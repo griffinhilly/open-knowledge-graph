@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: logarithms-intro
   type: soft
+- id: natural-logarithm-and-e
+  type: soft
 tags:
 - activation-energy
 - frequency-factor

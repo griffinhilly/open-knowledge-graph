@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: atomic-structure-basics
   type: soft
+- id: electromagnetic-spectrum
+  type: soft
+- id: wave-properties-intro
+  type: soft
+- id: spin-quantum-number
+  type: soft
 builds-toward:
 - ir-spectroscopy-basics
 tags:

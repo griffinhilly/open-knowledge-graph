@@ -12,6 +12,12 @@ prerequisites:
   type: soft
 - id: arrhenius-equation
   type: soft
+- id: electric-potential
+  type: soft
+- id: electric-current-and-resistance
+  type: soft
+- id: exponential-functions-and-graphs
+  type: soft
 tags:
 - Butler-Volmer
 - overpotential

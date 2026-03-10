@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: simple-harmonic-motion
   type: soft
+- id: spring-mass-system
+  type: soft
+- id: differential-equations-intro-separable
+  type: soft
 builds-toward:
 - vibrational-spectroscopy-theory
 - selection-rules-spectroscopy

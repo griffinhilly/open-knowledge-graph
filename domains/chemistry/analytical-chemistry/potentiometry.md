@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: ph-and-acid-base-calculations
   type: soft
+- id: electric-potential
+  type: soft
+- id: electric-current-and-resistance
+  type: soft
 builds-toward:
 - voltammetry
 - coulometry

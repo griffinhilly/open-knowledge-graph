@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: calibration-curve-methods
   type: soft
+- id: electromagnetic-spectrum
+  type: soft
+- id: photon-model
+  type: soft
+- id: emission-absorption-spectra
+  type: soft
 builds-toward:
 - fluorescence-spectroscopy
 tags:

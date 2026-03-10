@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: emission-absorption-spectra
   type: soft
+- id: electromagnetic-waves
+  type: soft
+- id: photon-model
+  type: soft
 tags:
 - UV-Vis
 - Franck-Condon

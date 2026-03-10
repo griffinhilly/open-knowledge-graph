@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: emission-absorption-spectra
   type: soft
+- id: atomic-orbitals
+  type: soft
+- id: electromagnetic-spectrum
+  type: soft
 builds-toward:
 - inductively-coupled-plasma
 tags:

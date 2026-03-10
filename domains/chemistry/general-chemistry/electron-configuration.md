@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: periodic-table-overview
   type: soft
+- id: quantum-numbers
+  type: soft
+- id: pauli-exclusion-principle
+  type: soft
 builds-toward:
 - periodic-trends
 - ionic-bonding

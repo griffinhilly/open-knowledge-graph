@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: solution-concentration
   type: hard
+- id: logarithms-intro
+  type: soft
 builds-toward:
 - uv-vis-spectroscopy-analytical
 - atomic-absorption-spectroscopy

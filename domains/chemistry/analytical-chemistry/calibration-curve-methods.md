@@ -11,6 +11,8 @@ prerequisites:
   type: soft
 - id: linear-regression
   type: soft
+- id: scatterplots-and-correlation
+  type: soft
 builds-toward:
 - method-validation
 tags:

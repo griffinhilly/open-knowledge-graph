@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: moment-of-inertia
   type: soft
+- id: angular-momentum
+  type: soft
 builds-toward:
 - rotational-spectroscopy
 - selection-rules-spectroscopy

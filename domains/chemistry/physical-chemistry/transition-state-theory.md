@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: arrhenius-equation
   type: soft
+- id: potential-energy
+  type: soft
+- id: exponential-functions-and-graphs
+  type: soft
+- id: maxwell-boltzmann-distribution
+  type: soft
 builds-toward:
 - unimolecular-reaction-mechanisms
 tags:

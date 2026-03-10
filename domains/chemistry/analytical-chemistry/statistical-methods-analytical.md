@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: measures-of-spread
   type: soft
+- id: normal-distribution-intro
+  type: soft
+- id: hypothesis-testing-fundamentals
+  type: soft
+- id: confidence-intervals-means
+  type: soft
 builds-toward:
 - calibration-curve-methods
 - method-validation

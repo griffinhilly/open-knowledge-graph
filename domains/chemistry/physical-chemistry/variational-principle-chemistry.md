@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: soft
+- id: schrodinger-equation-intro
+  type: soft
+- id: differential-equations-intro-separable
+  type: soft
 builds-toward:
 - molecular-orbital-theory-advanced
 - huckel-molecular-orbital-theory

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: entropy-intro
   type: soft
+- id: second-law-of-thermodynamics
+  type: soft
+- id: entropy-in-thermodynamic-processes
+  type: soft
 builds-toward:
 - chemical-equilibrium
 - electrochemical-cells

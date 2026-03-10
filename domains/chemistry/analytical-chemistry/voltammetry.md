@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: diffusion-and-ficks-laws
   type: soft
+- id: electric-potential
+  type: soft
+- id: electric-current-and-resistance
+  type: soft
+- id: rc-circuits
+  type: soft
 tags:
 - voltammetry
 - cyclic voltammetry

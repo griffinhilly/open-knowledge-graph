@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: nmr-spectroscopy-basics
   type: soft
+- id: electromagnetic-spectrum
+  type: soft
+- id: wave-properties-intro
+  type: soft
 tags:
 - IR
 - spectroscopy

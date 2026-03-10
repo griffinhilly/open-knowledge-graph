@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: rigid-rotor-model
   type: soft
+- id: exponential-functions-and-graphs
+  type: soft
+- id: sigma-notation
+  type: soft
 builds-toward:
 - statistical-thermodynamics-applications
 tags:

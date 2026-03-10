@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: half-life-decay-law
   type: soft
+- id: nuclear-structure
+  type: soft
+- id: radioactive-decay
+  type: soft
+- id: mass-energy-equivalence
+  type: soft
 tags:
 - radioactivity
 - alpha-decay

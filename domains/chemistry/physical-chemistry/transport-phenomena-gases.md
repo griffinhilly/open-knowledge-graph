@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: maxwell-boltzmann-distribution
   type: hard
+- id: rms-speed-and-kinetic-energy
+  type: soft
 builds-toward:
 - diffusion-and-ficks-laws
 tags:

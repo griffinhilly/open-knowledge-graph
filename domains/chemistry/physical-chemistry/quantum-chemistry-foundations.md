@@ -14,6 +14,12 @@ prerequisites:
   type: soft
 - id: electron-configuration
   type: soft
+- id: wave-particle-duality
+  type: soft
+- id: particle-in-a-box
+  type: soft
+- id: differential-equations-intro-separable
+  type: soft
 builds-toward:
 - born-oppenheimer-approximation
 - hydrogen-atom-wavefunctions

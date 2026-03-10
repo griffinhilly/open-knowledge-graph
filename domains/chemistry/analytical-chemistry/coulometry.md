@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: electrochemistry-basics
   type: hard
+- id: electric-current-and-resistance
+  type: soft
+- id: electric-charge-and-coulombs-law
+  type: soft
 tags:
 - coulometry
 - Faraday's law

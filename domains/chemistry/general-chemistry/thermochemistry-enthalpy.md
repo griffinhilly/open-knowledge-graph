@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: calorimetry
   type: soft
+- id: first-law-of-thermodynamics
+  type: soft
+- id: heat-and-internal-energy
+  type: soft
 builds-toward:
 - entropy-and-gibbs-free-energy
 - chemical-equilibrium

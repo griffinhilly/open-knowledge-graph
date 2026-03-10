@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: chemical-equations-balancing
   type: hard
+- id: electric-potential
+  type: soft
+- id: electric-potential-energy
+  type: soft
 builds-toward:
 - electrochemical-cells
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: logarithms-intro
   type: soft
+- id: logarithm-properties
+  type: soft
 tags:
 - pH
 - pOH

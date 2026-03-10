@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: differential-equations-intro-separable
   type: soft
+- id: partial-derivatives
+  type: soft
+- id: kinetic-theory-of-gases
+  type: soft
 tags:
 - Ficks-laws
 - diffusion-coefficient

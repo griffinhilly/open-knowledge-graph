@@ -6,6 +6,12 @@ course: general-chemistry
 prerequisites:
 - id: nuclear-structure
   type: soft
+- id: bohr-model
+  type: soft
+- id: emission-absorption-spectra
+  type: soft
+- id: wave-particle-duality
+  type: soft
 builds-toward:
 - periodic-table-overview
 - electron-configuration

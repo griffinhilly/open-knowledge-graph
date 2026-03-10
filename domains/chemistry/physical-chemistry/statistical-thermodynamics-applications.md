@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: thermochemistry-enthalpy
   type: soft
+- id: equipartition-theorem
+  type: soft
+- id: entropy-in-thermodynamic-processes
+  type: soft
+- id: heat-capacity-of-gases
+  type: soft
 builds-toward:
 - transition-state-theory
 tags:

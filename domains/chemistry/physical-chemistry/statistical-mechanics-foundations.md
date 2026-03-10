@@ -12,6 +12,14 @@ prerequisites:
   type: soft
 - id: chemical-equilibrium
   type: soft
+- id: kinetic-theory-of-gases
+  type: soft
+- id: entropy-intro
+  type: soft
+- id: probability-axioms
+  type: soft
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
 - molecular-partition-functions
 - statistical-thermodynamics-applications

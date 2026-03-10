@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: entropy-and-gibbs-free-energy
   type: soft
+- id: electric-potential
+  type: soft
+- id: ohms-law
+  type: soft
+- id: electric-current-and-resistance
+  type: soft
 tags:
 - galvanic-cell
 - electrolytic-cell

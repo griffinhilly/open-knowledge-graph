@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: selection-rules-spectroscopy
   type: hard
+- id: rotational-kinematics
+  type: soft
+- id: electromagnetic-spectrum
+  type: soft
+- id: angular-momentum
+  type: soft
 builds-toward:
 - vibrational-spectroscopy-theory
 tags:

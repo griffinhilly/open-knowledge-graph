@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: atomic-orbitals
   type: soft
+- id: schrodinger-equation-intro
+  type: soft
+- id: wavefunction-and-probability
+  type: soft
 builds-toward:
 - molecular-orbital-theory-advanced
 - variational-principle-chemistry

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: titrimetric-analysis-intro
   type: soft
+- id: electric-current-and-resistance
+  type: soft
+- id: ohms-law
+  type: soft
 tags:
 - conductometry
 - conductance
