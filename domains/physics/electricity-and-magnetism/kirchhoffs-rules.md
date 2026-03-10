@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conservation-of-energy
   type: soft
+- id: systems-elimination
+  type: soft
 builds-toward:
 - rc-circuits
 - rl-circuits

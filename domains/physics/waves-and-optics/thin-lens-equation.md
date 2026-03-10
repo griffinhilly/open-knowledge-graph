@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mirror-equation
   type: soft
+- id: solving-rational-equations
+  type: soft
 builds-toward:
 - lens-combinations
 - optical-instruments

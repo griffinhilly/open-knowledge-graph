@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: normal-distribution-intro
   type: soft
+- id: exponential-functions-and-graphs
+  type: soft
+- id: definite-integral-definition
+  type: soft
 tags:
 - maxwell-boltzmann
 - speed-distribution

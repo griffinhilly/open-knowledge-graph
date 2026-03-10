@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: operations-with-complex-numbers
   type: soft
+- id: complex-numbers-intro
+  type: soft
 builds-toward:
 - ac-power-and-resonance
 tags:

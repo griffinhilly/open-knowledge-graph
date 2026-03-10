@@ -6,6 +6,8 @@ course: classical-mechanics
 prerequisites:
 - id: torque
   type: hard
+- id: definite-integral-definition
+  type: soft
 builds-toward:
 - rotational-dynamics
 - angular-momentum

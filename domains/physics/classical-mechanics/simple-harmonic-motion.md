@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: derivatives-of-trigonometric-functions
   type: soft
+- id: differential-equations-intro-separable
+  type: soft
+- id: amplitude-period-phase-shift
+  type: soft
 builds-toward:
 - spring-mass-system
 - simple-pendulum

@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: de-broglie-wavelength
   type: soft
+- id: complex-numbers-intro
+  type: soft
+- id: partial-derivatives
+  type: soft
 builds-toward:
 - particle-in-a-box
 - quantum-tunneling

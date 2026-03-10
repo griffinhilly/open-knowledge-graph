@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vectors-in-two-dimensions
   type: hard
+- id: right-triangle-trigonometry-intro
+  type: soft
 builds-toward:
 - friction-forces
 - circular-motion-dynamics

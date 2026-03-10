@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: dot-product
   type: hard
+- id: line-integrals-vector-fields
+  type: soft
+- id: curl-and-divergence
+  type: soft
 builds-toward:
 - maxwells-equations-overview
 - magnetic-flux-and-induction

@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: newtons-first-law
   type: hard
+- id: systems-elimination
+  type: soft
+- id: vectors-in-two-dimensions
+  type: soft
 builds-toward:
 - rotational-dynamics
 tags:

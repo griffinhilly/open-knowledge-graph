@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: derivative-as-slope-of-tangent
   type: soft
+- id: graphing-linear-equations
+  type: soft
 builds-toward:
 - kinematic-equations
 - kinematics-2d

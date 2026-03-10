@@ -6,6 +6,8 @@ course: modern-physics
 prerequisites:
 - id: nuclear-structure
   type: hard
+- id: differential-equations-intro-separable
+  type: soft
 builds-toward:
 - half-life-decay-law
 - nuclear-fission-fusion

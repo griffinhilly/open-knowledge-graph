@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: length-contraction
   type: hard
+- id: operations-with-radicals
+  type: soft
+- id: linear-transformations
+  type: soft
 builds-toward:
 - relativistic-velocity-addition
 - relativistic-momentum-energy

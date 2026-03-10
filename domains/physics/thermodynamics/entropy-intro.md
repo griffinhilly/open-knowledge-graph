@@ -6,6 +6,8 @@ course: thermodynamics
 prerequisites:
 - id: second-law-of-thermodynamics
   type: hard
+- id: natural-logarithm-and-e
+  type: soft
 builds-toward:
 - entropy-in-thermodynamic-processes
 - statistical-interpretation-of-entropy

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cross-product
   type: hard
+- id: line-integrals-vector-fields
+  type: soft
 builds-toward:
 - amperes-law
 - magnetic-flux-and-induction

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: free-fall
   type: hard
+- id: vectors-in-two-dimensions
+  type: soft
+- id: parametric-equations-intro
+  type: soft
 builds-toward:
 - circular-motion-kinematics
 tags:

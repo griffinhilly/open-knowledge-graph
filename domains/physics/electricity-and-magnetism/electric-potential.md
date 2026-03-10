@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: electric-field
   type: soft
+- id: gradient-vector
+  type: soft
+- id: line-integrals-vector-fields
+  type: soft
 builds-toward:
 - capacitance
 - conductors-in-electrostatics

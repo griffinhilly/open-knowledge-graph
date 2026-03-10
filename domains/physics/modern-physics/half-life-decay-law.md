@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: exponential-functions-and-graphs
   type: hard
+- id: exponential-growth-and-decay
+  type: soft
+- id: natural-logarithm-and-e
+  type: soft
 builds-toward:
 - nuclear-fission-fusion
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vectors-in-two-dimensions
   type: soft
+- id: definite-integral-definition
+  type: soft
 builds-toward:
 - conservation-of-momentum
 - rotational-dynamics

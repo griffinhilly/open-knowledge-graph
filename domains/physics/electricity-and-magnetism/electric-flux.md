@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dot-product
   type: hard
+- id: flux-integrals
+  type: soft
 builds-toward:
 - gauss-law
 tags:

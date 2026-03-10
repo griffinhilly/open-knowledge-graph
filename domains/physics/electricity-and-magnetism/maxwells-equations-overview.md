@@ -12,6 +12,12 @@ prerequisites:
   type: hard
 - id: dielectrics
   type: soft
+- id: curl-and-divergence
+  type: soft
+- id: divergence-theorem
+  type: soft
+- id: stokes-theorem
+  type: soft
 builds-toward:
 - electromagnetic-waves
 tags:

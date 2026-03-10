@@ -6,6 +6,10 @@ course: classical-mechanics
 prerequisites:
 - id: kinematics-2d
   type: hard
+- id: radian-measure
+  type: soft
+- id: arc-length-circles
+  type: soft
 builds-toward:
 - circular-motion-dynamics
 - rotational-kinematics

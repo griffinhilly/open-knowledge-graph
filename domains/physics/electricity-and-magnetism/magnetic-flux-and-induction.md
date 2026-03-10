@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electric-flux
   type: soft
+- id: flux-integrals
+  type: soft
 builds-toward:
 - faradays-law
 tags:

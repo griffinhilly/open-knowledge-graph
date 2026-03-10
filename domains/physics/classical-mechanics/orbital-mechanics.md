@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: conservation-of-energy
   type: soft
+- id: polar-coordinates
+  type: soft
+- id: conic-sections-ellipses
+  type: soft
 builds-toward:
 - keplers-laws
 tags:

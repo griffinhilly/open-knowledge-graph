@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: amplitude-period-phase-shift
   type: soft
+- id: graphing-sine-and-cosine
+  type: soft
 builds-toward:
 - wave-speed-medium
 - transverse-and-longitudinal-waves

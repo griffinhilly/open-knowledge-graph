@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: probability-axioms
   type: soft
+- id: combinations
+  type: soft
+- id: natural-logarithm-and-e
+  type: soft
 tags:
 - Boltzmann
 - microstates

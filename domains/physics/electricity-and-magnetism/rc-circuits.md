@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: differential-equations-intro-separable
   type: soft
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
 - ac-circuits-fundamentals
 - lc-and-rlc-circuits

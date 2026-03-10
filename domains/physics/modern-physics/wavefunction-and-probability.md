@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: simple-probability
   type: soft
+- id: definite-integral-definition
+  type: soft
+- id: complex-numbers-intro
+  type: soft
 builds-toward:
 - schrodinger-equation-intro
 - particle-in-a-box

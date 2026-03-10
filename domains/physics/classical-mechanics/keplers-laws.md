@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conservation-of-angular-momentum
   type: soft
+- id: conic-sections-ellipses
+  type: soft
 tags:
 - Kepler
 - planetary-motion

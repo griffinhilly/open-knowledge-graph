@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: electric-charge-and-coulombs-law
   type: hard
+- id: divergence-theorem
+  type: soft
+- id: curl-and-divergence
+  type: soft
 builds-toward:
 - maxwells-equations-overview
 - conductors-in-electrostatics

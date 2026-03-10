@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: work-as-integral
   type: soft
+- id: definite-integral-definition
+  type: soft
 builds-toward:
 - kinetic-energy
 - potential-energy

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: graphing-sine-and-cosine
   type: soft
+- id: complex-numbers-intro
+  type: soft
 builds-toward:
 - impedance-and-reactance
 - ac-power-and-resonance

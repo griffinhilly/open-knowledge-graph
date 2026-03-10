@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: derivative-notation
   type: hard
+- id: flux-integrals
+  type: soft
+- id: curl-and-divergence
+  type: soft
 builds-toward:
 - lenzs-law
 - inductance-and-inductors

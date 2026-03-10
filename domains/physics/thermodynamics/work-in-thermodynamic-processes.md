@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: work-as-integral
   type: soft
+- id: definite-integral-definition
+  type: soft
 builds-toward:
 - first-law-of-thermodynamics
 - thermodynamic-processes
