@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: logarithms-intro
   type: soft
+- id: ac-power-and-resonance
+  type: soft
 builds-toward:
 - passive-filter-design
 tags:

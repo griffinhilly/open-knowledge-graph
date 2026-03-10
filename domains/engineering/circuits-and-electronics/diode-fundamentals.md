@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: electrochemistry-basics
   type: soft
+- id: electric-current-and-resistance
+  type: soft
 builds-toward:
 - diode-circuit-applications
 - bjt-transistor-fundamentals

@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: differential-equations-intro-separable
   type: soft
+- id: energy-stored-in-fields
+  type: soft
 builds-toward:
 - first-order-transient-circuits
 - second-order-transient-circuits

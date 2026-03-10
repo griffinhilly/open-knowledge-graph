@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: conservation-of-energy
   type: soft
+- id: dot-product
+  type: soft
 builds-toward:
 - impulse-momentum-particles
 tags:

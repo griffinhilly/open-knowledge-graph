@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: complex-numbers-intro
   type: hard
+- id: partial-fractions
+  type: soft
 builds-toward:
 - block-diagram-algebra
 - time-domain-response-first-order

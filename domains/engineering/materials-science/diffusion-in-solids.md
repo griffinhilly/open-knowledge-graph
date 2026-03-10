@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: arrhenius-equation
   type: soft
+- id: partial-derivatives
+  type: soft
 builds-toward:
 - heat-treatment-of-steels
 - sintering-and-powder-processing

@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: ac-circuits-fundamentals
   type: soft
+- id: amplitude-period-phase-shift
+  type: soft
 builds-toward:
 - impedance-analysis
 - ac-circuit-analysis-methods

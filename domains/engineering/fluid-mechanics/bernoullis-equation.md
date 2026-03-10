@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: fluid-statics-pressure
   type: hard
+- id: work-and-energy
+  type: soft
 builds-toward:
 - flow-measurement-methods
 - pipe-system-losses

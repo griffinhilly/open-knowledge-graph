@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: differential-equations-intro-separable
   type: soft
+- id: derivative-as-slope-of-tangent
+  type: soft
 builds-toward:
 - kinematics-particles-curvilinear
 - dynamics-newtons-second-law

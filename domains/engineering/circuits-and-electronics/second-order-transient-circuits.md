@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: characteristic-polynomial
   type: soft
+- id: differential-equations-intro-separable
+  type: hard
 builds-toward:
 - resonance-circuits
 tags:

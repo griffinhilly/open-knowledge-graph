@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: characteristic-polynomial
   type: hard
+- id: polynomial-functions-degree-and-leading-coefficient
+  type: soft
 builds-toward:
 - root-locus-method
 - gain-and-phase-margins

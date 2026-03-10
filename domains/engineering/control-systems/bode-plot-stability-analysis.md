@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: transfer-functions-control
   type: hard
+- id: logarithms-intro
+  type: hard
+- id: operations-with-complex-numbers
+  type: soft
 builds-toward:
 - nyquist-stability-criterion
 - gain-and-phase-margins

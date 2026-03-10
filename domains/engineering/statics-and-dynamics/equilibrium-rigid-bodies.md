@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: static-equilibrium
   type: soft
+- id: torque
+  type: soft
 builds-toward:
 - truss-method-of-joints
 - frames-machines-analysis

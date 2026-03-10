@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: thevenin-norton-equivalents
   type: soft
+- id: operations-with-complex-numbers
+  type: hard
+- id: ac-circuits-fundamentals
+  type: soft
 builds-toward:
 - ac-power-analysis-circuits
 - frequency-response-and-bode-plots

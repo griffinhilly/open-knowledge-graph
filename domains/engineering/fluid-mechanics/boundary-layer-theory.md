@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: dimensional-analysis-and-similarity
   type: soft
+- id: partial-derivatives
+  type: soft
+- id: differential-equations-intro-separable
+  type: soft
 builds-toward:
 - drag-and-lift-aerodynamics
 tags:

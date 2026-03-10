@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: impedance-and-reactance
   type: soft
+- id: operations-with-complex-numbers
+  type: hard
 builds-toward:
 - ac-circuit-analysis-methods
 - resonance-circuits

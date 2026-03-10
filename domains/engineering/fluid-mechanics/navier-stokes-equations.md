@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: continuity-equation-fluid
   type: hard
+- id: curl-and-divergence
+  type: hard
+- id: vector-fields
+  type: soft
 builds-toward:
 - laminar-pipe-flow
 - boundary-layer-theory

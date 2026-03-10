@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: complex-numbers-intro
   type: hard
+- id: improper-integrals-convergence
+  type: soft
 builds-toward:
 - transfer-functions-control
 - state-space-representation-control

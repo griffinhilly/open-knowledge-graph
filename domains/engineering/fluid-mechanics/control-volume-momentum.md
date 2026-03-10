@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: bernoullis-equation
   type: soft
+- id: double-integrals-cartesian
+  type: soft
 builds-toward:
 - pipe-system-losses
 - hydraulic-machinery-intro

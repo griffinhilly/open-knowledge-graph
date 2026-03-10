@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: matrix-operations
   type: hard
+- id: eigenvalues-and-eigenvectors
+  type: hard
+- id: rank-and-nullity-theorem
+  type: soft
 builds-toward:
 - state-feedback-pole-placement
 - luenberger-observer

@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: polar-coordinates
   type: soft
+- id: projectile-motion
+  type: soft
+- id: vectors-in-two-dimensions
+  type: hard
 builds-toward:
 - dynamics-newtons-second-law
 tags:

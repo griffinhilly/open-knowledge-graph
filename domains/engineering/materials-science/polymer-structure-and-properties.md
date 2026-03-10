@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: functional-groups-overview
   type: soft
+- id: covalent-bonding
+  type: soft
 builds-toward:
 - polymer-mechanical-behavior
 tags:

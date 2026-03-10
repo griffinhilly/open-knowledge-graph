@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: gaussian-elimination
   type: soft
+- id: systems-elimination
+  type: soft
 builds-toward:
 - mesh-current-method
 - superposition-theorem-circuits

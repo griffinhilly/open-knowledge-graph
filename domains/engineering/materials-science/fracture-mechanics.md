@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: mechanical-testing-methods
   type: soft
+- id: stress-intensity-factor
+  type: soft
+- id: partial-derivatives
+  type: soft
 builds-toward:
 - fatigue-in-materials
 - fracture-toughness-and-design

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: free-body-diagrams
   type: soft
+- id: static-equilibrium
+  type: soft
+- id: newtons-second-law
+  type: soft
 builds-toward:
 - mechanical-testing-methods
 - plastic-deformation-mechanisms

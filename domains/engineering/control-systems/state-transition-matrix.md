@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: matrix-operations
   type: hard
+- id: diagonalization
+  type: soft
 builds-toward:
 - controllability-and-observability
 tags:

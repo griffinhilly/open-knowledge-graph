@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: thermal-expansion
   type: soft
+- id: specific-heat-capacity
+  type: soft
 builds-toward:
 - heat-treatment-of-steels
 tags:

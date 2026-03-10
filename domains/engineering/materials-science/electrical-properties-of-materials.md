@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: electron-configuration
   type: soft
+- id: electric-current-and-resistance
+  type: soft
 tags:
 - conductivity
 - semiconductors
