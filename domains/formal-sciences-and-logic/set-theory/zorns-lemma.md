@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partial-orders
   type: hard
+- id: well-ordering-principle
+  type: soft
 builds-toward:
 - cardinal-arithmetic
 tags:

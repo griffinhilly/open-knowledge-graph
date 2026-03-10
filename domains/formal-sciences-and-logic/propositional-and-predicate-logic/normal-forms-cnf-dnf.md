@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: boolean-algebra
   type: soft
+- id: truth-tables
+  type: soft
 builds-toward:
 - propositional-compactness
 - sequent-calculus-intro

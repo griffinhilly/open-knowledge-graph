@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mathematical-induction
   type: soft
+- id: well-ordering-principle
+  type: soft
 builds-toward:
 - transfinite-recursion
 - well-ordering-theorem

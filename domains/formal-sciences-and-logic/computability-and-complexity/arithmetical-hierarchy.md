@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: godels-incompleteness-theorems
   type: soft
+- id: mathematical-induction
+  type: soft
+- id: cardinality-and-countability
+  type: soft
 tags:
 - computability
 - definability

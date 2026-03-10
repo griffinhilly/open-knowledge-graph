@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: adjunction-unit-and-counit
   type: soft
+- id: equivalence-relations
+  type: soft
 tags:
 - equivalence of categories
 - essentially surjective

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: binary-relations
   type: soft
+- id: mathematical-induction
+  type: soft
+- id: set-theory-basics
+  type: soft
 builds-toward:
 - church-turing-thesis
 - halting-problem

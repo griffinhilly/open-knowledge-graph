@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: composition-of-functions
   type: soft
+- id: set-theory-basics
+  type: soft
+- id: injective-surjective-bijective
+  type: soft
 builds-toward:
 - functors
 - isomorphisms-in-categories

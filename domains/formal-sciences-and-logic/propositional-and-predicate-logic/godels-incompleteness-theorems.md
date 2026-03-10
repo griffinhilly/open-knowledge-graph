@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: lowenheim-skolem-theorem
   type: soft
+- id: mathematical-induction
+  type: soft
+- id: cantor-diagonalization
+  type: soft
 builds-toward:
 - intuitionistic-logic-intro
 tags:

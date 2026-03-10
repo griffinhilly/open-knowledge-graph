@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: cardinal-arithmetic
   type: soft
+- id: cardinality-and-countability
+  type: soft
+- id: cantor-diagonalization
+  type: soft
 builds-toward:
 - independence-results-set-theory
 tags:

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: nondeterministic-turing-machines
   type: soft
+- id: big-o-notation
+  type: soft
+- id: algorithm-complexity
+  type: soft
 builds-toward:
 - pspace-and-complexity-hierarchy
 tags:

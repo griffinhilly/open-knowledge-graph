@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: proof-by-contradiction
   type: soft
+- id: logical-equivalences
+  type: soft
+- id: conditional-and-biconditional
+  type: soft
 builds-toward:
 - sequent-calculus-intro
 - propositional-soundness-completeness

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: fol-soundness-completeness
   type: soft
+- id: set-theory-basics
+  type: soft
+- id: equivalence-relations
+  type: soft
 builds-toward:
 - lowenheim-skolem-theorem
 tags:

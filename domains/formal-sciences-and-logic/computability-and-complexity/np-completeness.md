@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: polynomial-time-reductions
   type: hard
+- id: big-o-notation
+  type: soft
 builds-toward:
 - cook-levin-theorem
 - pspace-and-complexity-hierarchy

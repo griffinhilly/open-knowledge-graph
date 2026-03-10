@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: boolean-algebra
   type: soft
+- id: big-o-notation
+  type: soft
 tags:
 - NP-complete
 - SAT

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: axiom-of-replacement
   type: hard
+- id: mathematical-induction
+  type: soft
+- id: well-ordering-principle
+  type: soft
 builds-toward:
 - infinite-cardinal-numbers
 - cofinality-and-regular-cardinals

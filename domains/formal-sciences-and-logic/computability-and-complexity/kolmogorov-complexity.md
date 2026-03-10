@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: big-o-notation
   type: soft
+- id: combinations
+  type: soft
 tags:
 - algorithmic-information-theory
 - randomness

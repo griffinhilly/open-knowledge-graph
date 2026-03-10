@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: computability-reductions
   type: soft
+- id: big-o-notation
+  type: soft
 builds-toward:
 - np-completeness
 - cook-levin-theorem

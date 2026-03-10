@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: truth-tables
   type: hard
+- id: logical-equivalences
+  type: soft
 builds-toward:
 - tautologies-and-contradictions
 - propositional-soundness-completeness

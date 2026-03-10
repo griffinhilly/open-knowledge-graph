@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: cantor-diagonalization
   type: soft
+- id: big-o-notation
+  type: soft
+- id: algorithm-complexity
+  type: soft
 tags:
 - complexity
 - hierarchy

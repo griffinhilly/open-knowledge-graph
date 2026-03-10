@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: initial-and-terminal-objects
   type: soft
+- id: cartesian-product
+  type: soft
 builds-toward:
 - limits-and-colimits
 - equalizers-and-coequalizers

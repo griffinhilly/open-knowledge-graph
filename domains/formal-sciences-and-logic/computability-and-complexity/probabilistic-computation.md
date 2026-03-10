@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: nondeterministic-turing-machines
   type: soft
+- id: conditional-probability
+  type: soft
 tags:
 - complexity
 - randomness

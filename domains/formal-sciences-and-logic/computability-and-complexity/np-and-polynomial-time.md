@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: nondeterministic-turing-machines
   type: hard
+- id: big-o-notation
+  type: soft
+- id: algorithm-complexity
+  type: soft
 builds-toward:
 - np-completeness
 - polynomial-time-reductions

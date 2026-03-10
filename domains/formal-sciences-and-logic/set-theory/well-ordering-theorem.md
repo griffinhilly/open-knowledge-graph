@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: partial-orders
   type: soft
+- id: well-ordering-principle
+  type: soft
 builds-toward:
 - infinite-cardinal-numbers
 - cardinal-arithmetic

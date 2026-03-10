@@ -6,6 +6,8 @@ course: set-theory
 prerequisites:
 - id: naive-set-theory
   type: hard
+- id: set-theory-basics
+  type: soft
 builds-toward:
 - zfc-axioms-overview
 - axiom-of-separation

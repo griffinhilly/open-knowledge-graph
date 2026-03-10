@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: naive-set-theory
   type: hard
+- id: set-theory-basics
+  type: soft
+- id: set-operations
+  type: soft
 builds-toward:
 - axiom-of-separation
 - axiom-of-replacement

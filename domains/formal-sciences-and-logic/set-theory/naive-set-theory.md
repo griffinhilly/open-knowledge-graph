@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: propositional-syntax
   type: soft
+- id: set-operations
+  type: soft
 builds-toward:
 - russells-paradox
 - zfc-axioms-overview

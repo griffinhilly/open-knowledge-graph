@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: cantor-diagonalization
   type: soft
+- id: cardinality-and-countability
+  type: soft
 builds-toward:
 - continuum-hypothesis
 - cofinality-and-regular-cardinals

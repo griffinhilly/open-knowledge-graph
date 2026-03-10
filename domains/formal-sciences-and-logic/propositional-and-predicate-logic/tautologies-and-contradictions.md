@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: logical-equivalences
   type: soft
+- id: truth-tables
+  type: soft
 builds-toward:
 - normal-forms-cnf-dnf
 - propositional-soundness-completeness

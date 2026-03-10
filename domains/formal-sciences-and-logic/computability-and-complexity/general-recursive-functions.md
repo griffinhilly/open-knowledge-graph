@@ -6,6 +6,8 @@ course: computability-and-complexity
 prerequisites:
 - id: primitive-recursive-functions
   type: hard
+- id: mathematical-induction
+  type: soft
 builds-toward:
 - church-turing-thesis
 tags:

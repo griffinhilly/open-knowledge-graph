@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: transfinite-recursion
   type: soft
+- id: cardinality-and-countability
+  type: soft
 builds-toward:
 - independence-results-set-theory
 tags:

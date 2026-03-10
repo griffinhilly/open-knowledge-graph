@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: axiom-of-choice
   type: soft
+- id: cardinality-and-countability
+  type: soft
 builds-toward:
 - continuum-hypothesis
 tags:
