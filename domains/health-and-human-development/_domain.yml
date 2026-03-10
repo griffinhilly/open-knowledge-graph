@@ -1,0 +1,17 @@
+domain: health-and-human-development
+title: Health & Human Development
+description: The study of human health, wellness, and development across the lifespan.
+  From anatomy to public health, nutrition to child development.
+courses:
+- id: anatomy-and-physiology
+  title: Anatomy & Physiology
+  stage: abstract-reasoning
+- id: nutrition-science
+  title: Nutrition Science
+  stage: abstract-reasoning
+- id: public-health
+  title: Public Health
+  stage: abstract-reasoning
+- id: child-development
+  title: Child Development
+  stage: abstract-reasoning
