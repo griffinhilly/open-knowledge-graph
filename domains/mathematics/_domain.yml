@@ -5,6 +5,18 @@ description: >
   rigorous logical reasoning. The most purely sequential domain in human
   knowledge -- every concept has clear prerequisites and gaps compound.
 courses:
+  - id: kindergarten
+    title: Kindergarten Math
+    stage: pre-formal
+  - id: 1st-grade
+    title: 1st Grade Math
+    stage: pre-formal
+  - id: 2nd-grade
+    title: 2nd Grade Math
+    stage: concrete-operations
+  - id: 3rd-grade
+    title: 3rd Grade Math
+    stage: concrete-operations
   - id: 4th-grade
     title: 4th Grade Math
     stage: concrete-operations
