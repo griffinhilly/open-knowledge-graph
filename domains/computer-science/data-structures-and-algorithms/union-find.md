@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: time-space-complexity
   type: soft
+- id: equivalence-relations
+  type: soft
 tags:
 - union-find
 - disjoint-sets

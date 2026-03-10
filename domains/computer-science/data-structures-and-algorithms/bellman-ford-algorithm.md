@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: breadth-first-search
   type: soft
+- id: graph-theory-intro
+  type: soft
 tags:
 - shortest-path
 - Bellman-Ford

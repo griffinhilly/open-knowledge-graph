@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: time-space-complexity
   type: hard
+- id: recurrence-relations
+  type: soft
 builds-toward:
 - memoization-and-tabulation
 tags:

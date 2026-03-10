@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: nondeterministic-complexity
   type: soft
+- id: big-o-notation
+  type: soft
+- id: algorithm-complexity
+  type: soft
 tags:
 - PSPACE
 - L

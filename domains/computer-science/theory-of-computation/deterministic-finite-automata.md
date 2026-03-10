@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: set-theory-basics
   type: soft
+- id: set-operations
+  type: soft
 builds-toward:
 - nondeterministic-finite-automata
 - regular-language-properties

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: recursion-basics
   type: soft
+- id: logarithms-intro
+  type: soft
 builds-toward:
 - binary-search-trees
 - divide-and-conquer-strategy

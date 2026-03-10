@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: arrays-and-lists
   type: soft
+- id: recurrence-relations
+  type: soft
 tags:
 - memoization
 - tabulation

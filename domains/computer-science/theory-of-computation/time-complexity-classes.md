@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: big-o-notation
   type: soft
+- id: algorithm-complexity
+  type: soft
 builds-toward:
 - nondeterministic-complexity
 - space-complexity-classes

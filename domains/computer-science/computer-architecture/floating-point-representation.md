@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: scientific-notation-intro
   type: soft
+- id: exponents-intro
+  type: soft
 builds-toward:
 - arithmetic-logic-unit
 tags:

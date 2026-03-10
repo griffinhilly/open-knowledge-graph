@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: graph-theory-intro
   type: soft
+- id: graph-connectivity
+  type: soft
 builds-toward:
 - dynamic-programming-intro
 tags:

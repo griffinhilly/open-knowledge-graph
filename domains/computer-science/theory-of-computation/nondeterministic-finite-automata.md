@@ -6,6 +6,10 @@ course: theory-of-computation
 prerequisites:
 - id: deterministic-finite-automata
   type: hard
+- id: set-theory-basics
+  type: soft
+- id: set-operations
+  type: soft
 builds-toward:
 - nfa-to-dfa-conversion
 - kleene-theorem

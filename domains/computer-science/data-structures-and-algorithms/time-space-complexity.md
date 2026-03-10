@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: recursion-basics
   type: soft
+- id: algorithm-complexity
+  type: soft
+- id: logarithms-intro
+  type: soft
 builds-toward:
 - amortized-analysis
 - merge-sort

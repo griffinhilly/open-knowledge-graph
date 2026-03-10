@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: chomsky-normal-form
   type: soft
+- id: mathematical-induction
+  type: soft
+- id: proof-by-contradiction
+  type: soft
 builds-toward:
 - turing-machines
 tags:

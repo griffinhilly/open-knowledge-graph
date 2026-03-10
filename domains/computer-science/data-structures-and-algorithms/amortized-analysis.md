@@ -6,6 +6,10 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: time-space-complexity
   type: hard
+- id: big-o-notation
+  type: soft
+- id: algorithm-complexity
+  type: soft
 builds-toward:
 - union-find
 - hash-tables

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: undecidability-reductions
   type: soft
+- id: big-o-notation
+  type: soft
+- id: algorithm-complexity
+  type: soft
 builds-toward:
 - cook-levin-theorem
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: primary-and-foreign-keys
   type: hard
+- id: binary-relations
+  type: soft
 builds-toward:
 - database-normalization-1nf-2nf
 - database-normalization-3nf-bcnf

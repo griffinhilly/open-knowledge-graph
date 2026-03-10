@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: heaps-and-priority-queues
   type: soft
+- id: mathematical-induction
+  type: soft
+- id: big-o-notation
+  type: soft
 builds-toward:
 - dijkstras-algorithm
 tags:

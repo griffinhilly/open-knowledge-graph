@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: proof-by-contradiction
   type: soft
+- id: mathematical-induction
+  type: soft
 builds-toward:
 - pumping-lemma-cfl
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: time-space-complexity
   type: soft
+- id: logarithms-intro
+  type: soft
 tags:
 - AVL-tree
 - balanced-BST

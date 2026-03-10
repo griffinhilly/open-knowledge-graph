@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: set-theory-basics
   type: soft
+- id: cardinality-and-countability
+  type: soft
+- id: mathematical-induction
+  type: soft
 builds-toward:
 - halting-problem
 - recognizability-vs-decidability

@@ -12,6 +12,12 @@ prerequisites:
   type: hard
 - id: time-space-complexity
   type: hard
+- id: logarithms-intro
+  type: soft
+- id: mathematical-induction
+  type: soft
+- id: big-o-notation
+  type: soft
 tags:
 - sorting
 - lower-bounds

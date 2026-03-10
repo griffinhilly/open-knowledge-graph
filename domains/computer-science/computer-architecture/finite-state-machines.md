@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: combinational-circuit-design
   type: hard
+- id: set-theory-basics
+  type: soft
+- id: boolean-algebra
+  type: soft
 builds-toward:
 - sequential-circuit-design
 - cpu-control-unit

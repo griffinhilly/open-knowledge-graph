@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: time-space-complexity
   type: hard
+- id: modular-arithmetic
+  type: soft
 builds-toward:
 - tries
 - memoization-and-tabulation

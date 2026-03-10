@@ -6,6 +6,10 @@ course: computer-architecture
 prerequisites:
 - id: binary-arithmetic
   type: hard
+- id: integers-and-number-line
+  type: soft
+- id: adding-integers
+  type: soft
 builds-toward:
 - adder-circuits
 - arithmetic-logic-unit

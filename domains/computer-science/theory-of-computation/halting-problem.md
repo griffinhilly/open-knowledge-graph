@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cantor-diagonalization
   type: soft
+- id: cardinality-and-countability
+  type: soft
 builds-toward:
 - undecidability-reductions
 - rice-theorem

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: registers-and-register-files
   type: soft
+- id: boolean-algebra
+  type: soft
+- id: logic-gates-and-circuits
+  type: soft
 builds-toward:
 - cpu-datapath
 - cpu-control-unit

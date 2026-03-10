@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: while-loops
   type: soft
+- id: mathematical-induction
+  type: soft
 builds-toward:
 - algorithm-design-basics
 tags:

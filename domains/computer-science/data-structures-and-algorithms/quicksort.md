@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: time-space-complexity
   type: hard
+- id: divide-and-conquer-recurrences
+  type: soft
+- id: big-o-notation
+  type: soft
 builds-toward:
 - sorting-lower-bounds
 tags:
