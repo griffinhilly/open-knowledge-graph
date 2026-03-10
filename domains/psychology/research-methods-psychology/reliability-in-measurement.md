@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: measurement-scales-psychology
   type: soft
+- id: correlation-coefficient
+  type: soft
+- id: measures-of-spread
+  type: soft
 builds-toward:
 - validity-in-measurement
 tags:

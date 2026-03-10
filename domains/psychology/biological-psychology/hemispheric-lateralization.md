@@ -6,6 +6,8 @@ course: biological-psychology
 prerequisites:
 - id: cerebral-cortex-organization
   type: hard
+- id: central-vs-peripheral-nervous-system
+  type: soft
 tags:
 - split-brain
 - lateralization

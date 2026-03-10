@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: genetics-and-behavior
   type: soft
+- id: cell-cycle-overview
+  type: soft
+- id: dna-structure
+  type: soft
 builds-toward:
 - nature-nurture-debate
 - critical-periods-sensitive-periods

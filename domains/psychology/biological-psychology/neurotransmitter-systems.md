@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: biological-psychology-overview
   type: hard
+- id: neuron-structure-and-function
+  type: soft
 builds-toward:
 - receptor-types-and-signaling
 - psychopharmacology-basics

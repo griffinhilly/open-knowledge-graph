@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: psychological-research-ethics
   type: soft
+- id: hypothesis-testing-fundamentals
+  type: soft
 builds-toward:
 - control-and-experimental-groups
 - random-assignment

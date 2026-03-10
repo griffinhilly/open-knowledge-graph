@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: confounding-variables
   type: soft
+- id: correlation-coefficient
+  type: soft
 builds-toward:
 - inferential-statistics-psychology
 - replication-and-open-science

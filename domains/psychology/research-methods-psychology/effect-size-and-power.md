@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: type-i-and-type-ii-errors
   type: soft
+- id: hypothesis-testing-fundamentals
+  type: soft
+- id: measures-of-spread
+  type: soft
+- id: normal-distribution-intro
+  type: soft
 builds-toward:
 - replication-and-open-science
 tags:

@@ -6,6 +6,10 @@ course: biological-psychology
 prerequisites:
 - id: brain-lobes-and-functions
   type: hard
+- id: nervous-system-overview
+  type: soft
+- id: central-vs-peripheral-nervous-system
+  type: soft
 builds-toward:
 - limbic-system-and-emotion
 - sleep-stages-and-cycles

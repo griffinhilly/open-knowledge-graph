@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: brain-lobes-and-functions
   type: soft
+- id: nervous-system-overview
+  type: soft
 builds-toward:
 - visual-processing-pathway
 - auditory-processing-pathway

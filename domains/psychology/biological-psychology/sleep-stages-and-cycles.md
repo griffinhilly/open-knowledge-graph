@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: subcortical-structures
   type: soft
+- id: nervous-system-overview
+  type: soft
 builds-toward:
 - sleep-functions-and-disorders
 - states-of-consciousness

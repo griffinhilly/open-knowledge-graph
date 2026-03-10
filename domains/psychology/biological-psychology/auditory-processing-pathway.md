@@ -6,6 +6,8 @@ course: biological-psychology
 prerequisites:
 - id: sensory-pathways-overview
   type: hard
+- id: nervous-system-overview
+  type: soft
 builds-toward:
 - hemispheric-lateralization
 tags:

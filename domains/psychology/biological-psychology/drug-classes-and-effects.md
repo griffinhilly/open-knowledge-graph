@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: states-of-consciousness
   type: soft
+- id: synaptic-transmission
+  type: soft
 tags:
 - stimulants
 - depressants

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: operational-definitions
   type: soft
+- id: sampling-methods
+  type: soft
+- id: sample-vs-population
+  type: soft
 builds-toward:
 - reliability-in-measurement
 - validity-in-measurement

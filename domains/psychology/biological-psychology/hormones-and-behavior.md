@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: endocrine-system-overview
   type: soft
+- id: hormone-signaling-mechanisms
+  type: soft
 tags:
 - cortisol
 - testosterone

@@ -6,6 +6,10 @@ course: biological-psychology
 prerequisites:
 - id: scientific-method-psychology
   type: hard
+- id: nervous-system-overview
+  type: soft
+- id: central-vs-peripheral-nervous-system
+  type: soft
 builds-toward:
 - glial-cells-and-support
 - neurotransmitter-systems

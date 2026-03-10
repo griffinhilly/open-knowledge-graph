@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: t-test-for-means
   type: soft
+- id: confidence-intervals-means
+  type: soft
 builds-toward:
 - effect-size-and-power
 - replication-and-open-science

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: genetics-and-behavior
   type: hard
+- id: mendelian-genetics
+  type: soft
+- id: epigenetics-intro
+  type: soft
 builds-toward:
 - temperament-and-early-personality
 - critical-periods-sensitive-periods

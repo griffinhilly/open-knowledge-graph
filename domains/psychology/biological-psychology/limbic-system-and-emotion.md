@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: neurotransmitter-systems
   type: soft
+- id: nervous-system-overview
+  type: soft
 builds-toward:
 - hormones-and-behavior
 - states-of-consciousness

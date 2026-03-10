@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: biological-psychology-overview
   type: hard
+- id: nervous-system-overview
+  type: soft
 builds-toward:
 - cerebral-cortex-organization
 - limbic-system-and-emotion

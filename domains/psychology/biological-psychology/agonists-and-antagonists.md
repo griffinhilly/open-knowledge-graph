@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: receptor-types-and-signaling
   type: hard
+- id: synaptic-transmission
+  type: soft
+- id: cell-signaling-intro
+  type: soft
 builds-toward:
 - drug-classes-and-effects
 tags:

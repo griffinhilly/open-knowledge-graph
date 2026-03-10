@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: receptor-types-and-signaling
   type: hard
+- id: synaptic-transmission
+  type: soft
+- id: neuromuscular-junction
+  type: soft
 builds-toward:
 - agonists-and-antagonists
 - drug-classes-and-effects

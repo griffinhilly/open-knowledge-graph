@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: epigenetics-intro
   type: soft
+- id: gene-expression-overview
+  type: soft
 tags:
 - heritability
 - twin-studies

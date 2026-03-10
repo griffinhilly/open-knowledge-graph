@@ -6,6 +6,10 @@ course: biological-psychology
 prerequisites:
 - id: brain-lobes-and-functions
   type: hard
+- id: central-vs-peripheral-nervous-system
+  type: soft
+- id: nervous-system-overview
+  type: soft
 builds-toward:
 - hemispheric-lateralization
 - visual-processing-pathway

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mean-median-mode
   type: soft
+- id: measures-of-spread
+  type: soft
 builds-toward:
 - reliability-in-measurement
 - inferential-statistics-psychology

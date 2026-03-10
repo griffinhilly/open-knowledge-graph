@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cell-signaling-intro
   type: soft
+- id: hormone-signaling-mechanisms
+  type: soft
 builds-toward:
 - agonists-and-antagonists
 - psychopharmacology-basics

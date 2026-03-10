@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: psychological-research-ethics
   type: soft
+- id: mean-median-mode
+  type: soft
+- id: histograms-and-frequency-distributions
+  type: soft
 builds-toward:
 - naturalistic-observation
 - survey-research-methods

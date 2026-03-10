@@ -6,6 +6,10 @@ course: biological-psychology
 prerequisites:
 - id: sensory-pathways-overview
   type: hard
+- id: nervous-system-overview
+  type: soft
+- id: central-vs-peripheral-nervous-system
+  type: soft
 builds-toward:
 - psychopharmacology-basics
 tags:

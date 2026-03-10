@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: cerebral-cortex-organization
   type: soft
+- id: neuron-structure-and-function
+  type: soft
 tags:
 - LTP
 - LTD
