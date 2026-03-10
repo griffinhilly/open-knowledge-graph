@@ -1,0 +1,20 @@
+domain: biology
+title: Biology
+description: The study of living organisms, their structure, function, growth, evolution,
+  and interactions. From molecular machinery inside cells to ecosystems spanning continents.
+courses:
+- id: cell-biology
+  title: Cell Biology
+  stage: abstract-reasoning
+- id: genetics-and-molecular-biology
+  title: Genetics & Molecular Biology
+  stage: formal-systems
+- id: physiology
+  title: Physiology
+  stage: formal-systems
+- id: ecology-and-evolution
+  title: Ecology & Evolution
+  stage: formal-systems
+- id: microbiology
+  title: Microbiology
+  stage: formal-systems
