@@ -1,0 +1,16 @@
+domain: social-sciences
+title: Social Sciences
+description: The study of human societies, social relationships, and institutions.
+courses:
+- id: sociology
+  title: Sociology
+  stage: abstract-reasoning
+- id: anthropology
+  title: Anthropology
+  stage: abstract-reasoning
+- id: political-science
+  title: Political Science
+  stage: abstract-reasoning
+- id: human-geography
+  title: Human Geography
+  stage: abstract-reasoning
