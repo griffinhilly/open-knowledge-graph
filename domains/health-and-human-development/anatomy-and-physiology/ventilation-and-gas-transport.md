@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: homeostasis-and-feedback
   type: hard
+- id: gas-exchange-and-diffusion
+  type: soft
+- id: diffusion-and-ficks-laws
+  type: soft
 builds-toward:
 - fluid-balance-and-electrolytes
 tags:

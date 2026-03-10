@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: homeostasis-and-feedback
   type: hard
+- id: renal-physiology-and-fluid-balance
+  type: soft
 tags:
 - fluid-compartments
 - osmolarity

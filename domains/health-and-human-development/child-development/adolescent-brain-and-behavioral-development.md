@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: endocrine-glands-and-hormones
   type: soft
+- id: nervous-system-overview
+  type: soft
+- id: neuron-structure-and-function
+  type: soft
 builds-toward:
 - puberty-and-adolescent-physical-development
 - moral-development-in-children

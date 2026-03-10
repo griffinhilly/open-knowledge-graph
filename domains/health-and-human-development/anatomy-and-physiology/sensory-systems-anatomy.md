@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: action-potential
   type: hard
+- id: neuron-structure-and-function
+  type: soft
+- id: synaptic-transmission
+  type: soft
 tags:
 - vision
 - hearing

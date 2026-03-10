@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: population-growth-models
   type: soft
+- id: innate-immune-response
+  type: soft
+- id: infectious-disease-epidemiology
+  type: soft
 builds-toward:
 - global-burden-of-disease
 - health-policy-and-advocacy

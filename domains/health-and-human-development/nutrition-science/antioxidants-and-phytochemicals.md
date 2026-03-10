@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: inflammation-and-wound-healing
   type: soft
+- id: organic-chemistry-intro
+  type: soft
+- id: aromatic-compounds-intro
+  type: soft
 tags:
 - antioxidants
 - phytochemicals

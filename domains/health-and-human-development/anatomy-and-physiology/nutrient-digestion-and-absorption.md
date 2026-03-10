@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: passive-transport
   type: soft
+- id: digestive-system-overview
+  type: soft
+- id: enzyme-structure-and-function
+  type: soft
 tags:
 - carbohydrates
 - proteins

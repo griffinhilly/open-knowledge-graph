@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: community-ecology-intro
   type: soft
+- id: infectious-disease-epidemiology
+  type: soft
 builds-toward:
 - one-health-framework
 - global-burden-of-disease

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: enzyme-structure-and-function
   type: soft
+- id: organic-chemistry-intro
+  type: soft
 builds-toward:
 - nutritional-deficiency-disorders
 - sports-nutrition-basics

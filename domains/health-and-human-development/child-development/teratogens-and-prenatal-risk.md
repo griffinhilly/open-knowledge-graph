@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: endocrine-glands-and-hormones
   type: soft
+- id: dna-mutations
+  type: soft
+- id: cell-cycle-overview
+  type: soft
 builds-toward:
 - developmental-screening-and-assessment
 - early-intervention-and-developmental-support

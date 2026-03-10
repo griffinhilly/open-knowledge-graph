@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: synaptic-transmission
   type: soft
+- id: nervous-system-overview
+  type: soft
 builds-toward:
 - sensory-systems-anatomy
 tags:

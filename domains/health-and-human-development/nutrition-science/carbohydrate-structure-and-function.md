@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: glycolysis
   type: soft
+- id: organic-chemistry-intro
+  type: soft
+- id: functional-groups-overview
+  type: soft
 builds-toward:
 - dietary-fiber-and-gut-health
 - energy-metabolism-and-calories

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: atp-synthesis
   type: soft
+- id: skeletal-muscle-contraction
+  type: soft
 tags:
 - ATP
 - anaerobic

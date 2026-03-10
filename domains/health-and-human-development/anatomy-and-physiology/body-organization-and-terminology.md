@@ -3,7 +3,11 @@ id: body-organization-and-terminology
 title: Body Organization and Anatomical Terminology
 domain: health-and-human-development
 course: anatomy-and-physiology
-prerequisites: []
+prerequisites:
+- id: cell-theory
+  type: soft
+- id: eukaryotic-cells
+  type: soft
 builds-toward:
 - tissue-types-and-histology
 - skeletal-system-anatomy

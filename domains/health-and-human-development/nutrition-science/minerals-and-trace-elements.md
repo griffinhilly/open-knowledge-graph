@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: fluid-balance-and-electrolytes
   type: soft
+- id: periodic-table-overview
+  type: soft
+- id: ionic-bonding
+  type: soft
 builds-toward:
 - nutritional-deficiency-disorders
 - dietary-guidelines-and-recommendations

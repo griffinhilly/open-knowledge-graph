@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ribosomes-and-protein-synthesis-intro
   type: soft
+- id: organic-chemistry-intro
+  type: soft
 builds-toward:
 - sports-nutrition-basics
 - protein-quality-and-dietary-sources

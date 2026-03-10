@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: organelles-overview
   type: soft
+- id: cell-theory
+  type: soft
 builds-toward:
 - skeletal-system-anatomy
 - muscular-system-anatomy

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: school-age-cognitive-and-social-development
   type: soft
+- id: nervous-system-overview
+  type: soft
+- id: neuron-structure-and-function
+  type: soft
 builds-toward:
 - early-intervention-and-developmental-support
 tags:

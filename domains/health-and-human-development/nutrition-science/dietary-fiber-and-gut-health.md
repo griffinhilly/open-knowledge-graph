@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: digestive-system-overview
   type: soft
+- id: gut-motility-and-secretion
+  type: soft
 builds-toward:
 - nutritional-deficiency-disorders
 - obesity-and-metabolic-syndrome

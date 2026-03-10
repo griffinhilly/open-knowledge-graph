@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: cell-membrane-structure
   type: soft
+- id: organic-chemistry-intro
+  type: soft
+- id: functional-groups-overview
+  type: soft
 builds-toward:
 - energy-metabolism-and-calories
 - obesity-and-metabolic-syndrome

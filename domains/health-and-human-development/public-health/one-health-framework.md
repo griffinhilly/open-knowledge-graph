@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: microbial-ecology-overview
   type: soft
+- id: infectious-disease-epidemiology
+  type: soft
 builds-toward:
 - health-policy-and-advocacy
 tags:

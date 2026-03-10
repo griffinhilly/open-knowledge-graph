@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: diagnostic-microbiology
   type: soft
+- id: infectious-disease-epidemiology
+  type: soft
 builds-toward:
 - outbreak-investigation
 - herd-immunity-and-vaccination

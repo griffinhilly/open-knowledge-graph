@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: endocrine-glands-and-hormones
   type: soft
+- id: meiosis
+  type: soft
+- id: cell-cycle-overview
+  type: soft
+- id: dna-replication
+  type: soft
 builds-toward:
 - teratogens-and-prenatal-risk
 - neonatal-reflexes-and-sensory-capabilities

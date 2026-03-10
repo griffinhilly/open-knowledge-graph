@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: hypothalamus-pituitary-axis
   type: soft
+- id: endocrine-system-overview
+  type: soft
+- id: hormone-signaling-mechanisms
+  type: soft
 builds-toward:
 - adolescent-brain-and-behavioral-development
 tags:
