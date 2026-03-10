@@ -1,0 +1,21 @@
+domain: physics
+title: Physics
+description: The study of matter, energy, and the fundamental forces governing the
+  natural world, from subatomic particles to the structure of the universe. Heavily
+  mathematical — every physics concept builds on mathematical prerequisites.
+courses:
+- id: classical-mechanics
+  title: Classical Mechanics
+  stage: formal-systems
+- id: electricity-and-magnetism
+  title: Electricity & Magnetism
+  stage: formal-systems
+- id: thermodynamics
+  title: Thermodynamics
+  stage: formal-systems
+- id: waves-and-optics
+  title: Waves & Optics
+  stage: formal-systems
+- id: modern-physics
+  title: Modern Physics
+  stage: advanced
