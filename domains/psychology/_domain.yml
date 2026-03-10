@@ -1,0 +1,20 @@
+domain: psychology
+title: Psychology & Cognitive Science
+description: The scientific study of mind and behavior, from neural mechanisms to
+  social dynamics. Bridges biology, philosophy, and social science.
+courses:
+- id: research-methods-psychology
+  title: Research Methods in Psychology
+  stage: abstract-reasoning
+- id: biological-psychology
+  title: Biological Psychology
+  stage: formal-systems
+- id: cognitive-psychology
+  title: Cognitive Psychology
+  stage: formal-systems
+- id: developmental-psychology
+  title: Developmental Psychology
+  stage: abstract-reasoning
+- id: social-psychology
+  title: Social Psychology
+  stage: abstract-reasoning
