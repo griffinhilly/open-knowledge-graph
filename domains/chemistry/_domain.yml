@@ -1,0 +1,18 @@
+domain: chemistry
+title: Chemistry
+description: The study of matter, its properties, composition, structure, and the
+  changes it undergoes during chemical reactions. Bridges physics and biology through
+  understanding of atomic and molecular behavior.
+courses:
+- id: general-chemistry
+  title: General Chemistry
+  stage: formal-systems
+- id: organic-chemistry
+  title: Organic Chemistry
+  stage: formal-systems
+- id: physical-chemistry
+  title: Physical Chemistry
+  stage: advanced
+- id: analytical-chemistry
+  title: Analytical Chemistry
+  stage: advanced
