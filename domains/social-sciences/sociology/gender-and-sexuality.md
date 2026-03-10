@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: socialization
   type: hard
+- id: mean-median-mode
+  type: soft
+- id: simple-probability
+  type: soft
 builds-toward:
 - intersectionality
 tags:

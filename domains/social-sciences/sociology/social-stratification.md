@@ -6,6 +6,12 @@ course: sociology
 prerequisites:
 - id: social-structure-and-agency
   type: hard
+- id: mean-median-mode
+  type: soft
+- id: measures-of-spread
+  type: soft
+- id: histograms-and-frequency-distributions
+  type: soft
 builds-toward:
 - race-and-ethnicity
 - gender-and-sexuality

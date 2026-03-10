@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: ethnography-methods
   type: soft
+- id: simple-probability
+  type: soft
+- id: mean-median-mode
+  type: soft
+- id: sampling-methods
+  type: soft
 builds-toward:
 - globalization-cultural-change
 tags:

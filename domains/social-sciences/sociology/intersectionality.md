@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: social-stratification
   type: soft
+- id: mean-median-mode
+  type: soft
+- id: measures-of-spread
+  type: soft
 tags:
 - intersectionality
 - kimberlé-crenshaw

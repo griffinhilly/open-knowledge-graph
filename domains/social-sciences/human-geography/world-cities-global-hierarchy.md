@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: economic-geography-fundamentals
   type: soft
+- id: mean-median-mode
+  type: soft
+- id: ratios
+  type: soft
 builds-toward:
 - geopolitics-and-power
 tags:

@@ -12,6 +12,12 @@ prerequisites:
   type: soft
 - id: civil-society
   type: soft
+- id: simple-probability
+  type: soft
+- id: ratios
+  type: soft
+- id: sampling-methods
+  type: soft
 builds-toward:
 - regime-change-and-democratization
 tags:

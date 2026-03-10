@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: cultural-diffusion-geography
   type: soft
+- id: ratios
+  type: soft
+- id: mean-median-mode
+  type: soft
 builds-toward:
 - geopolitics-and-power
 - resource-geography

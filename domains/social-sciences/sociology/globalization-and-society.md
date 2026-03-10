@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: urbanization-and-city-life
   type: soft
+- id: ratios
+  type: soft
+- id: percent-increase-decrease
+  type: soft
 tags:
 - globalization
 - world-systems

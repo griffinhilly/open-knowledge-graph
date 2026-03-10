@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: urbanization-and-city-life
   type: soft
+- id: ratios
+  type: soft
+- id: mean-median-mode
+  type: soft
+- id: coordinate-plane-intro
+  type: soft
 builds-toward:
 - world-cities-global-hierarchy
 - spatial-interaction-theory

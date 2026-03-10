@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: scale-drawings-and-maps
   type: soft
+- id: coordinate-plane-intro
+  type: soft
+- id: ratios
+  type: soft
 builds-toward:
 - population-distribution-density
 - spatial-interaction-theory

@@ -6,6 +6,12 @@ course: human-geography
 prerequisites:
 - id: human-geography-overview
   type: hard
+- id: ratios
+  type: soft
+- id: mean-median-mode
+  type: soft
+- id: histograms-and-frequency-distributions
+  type: soft
 builds-toward:
 - demographic-transition-model
 - migration-theory-push-pull

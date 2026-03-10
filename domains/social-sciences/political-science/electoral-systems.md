@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: constitutionalism
   type: soft
+- id: ratios
+  type: soft
+- id: percent-concept
+  type: soft
+- id: proportions
+  type: soft
 builds-toward:
 - political-parties-and-party-systems
 - political-culture-and-participation

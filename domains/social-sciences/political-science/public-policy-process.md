@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: political-parties-and-party-systems
   type: soft
+- id: mean-median-mode
+  type: soft
+- id: simple-probability
+  type: soft
+- id: measures-of-spread
+  type: soft
 tags:
 - public policy
 - agenda setting

@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: political-geography-states-borders
   type: soft
+- id: ratios
+  type: soft
+- id: percent-concept
+  type: soft
+- id: proportional-relationships
+  type: soft
 builds-toward:
 - geopolitics-and-power
 tags:

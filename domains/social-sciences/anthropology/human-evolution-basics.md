@@ -6,6 +6,10 @@ course: anthropology
 prerequisites:
 - id: anthropology-overview
   type: hard
+- id: simple-probability
+  type: soft
+- id: exponential-growth-and-decay
+  type: soft
 builds-toward:
 - archaeological-methods
 - identity-and-selfhood-anthropology

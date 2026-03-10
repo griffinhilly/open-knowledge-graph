@@ -12,6 +12,12 @@ prerequisites:
   type: soft
 - id: sociological-research-methods
   type: soft
+- id: mean-median-mode
+  type: soft
+- id: ratios
+  type: soft
+- id: scatterplots-and-correlation
+  type: soft
 builds-toward:
 - regime-change-and-democratization
 tags:

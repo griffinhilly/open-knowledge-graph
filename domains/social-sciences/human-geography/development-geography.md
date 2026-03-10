@@ -10,6 +10,14 @@ prerequisites:
   type: soft
 - id: globalization-and-society
   type: soft
+- id: mean-median-mode
+  type: soft
+- id: ratios
+  type: soft
+- id: scatterplots-and-correlation
+  type: soft
+- id: measures-of-spread
+  type: soft
 builds-toward:
 - colonialism-geographic-legacy
 - resource-geography

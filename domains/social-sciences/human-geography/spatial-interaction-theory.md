@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: economic-geography-fundamentals
   type: soft
+- id: proportional-relationships
+  type: soft
+- id: ratios
+  type: soft
+- id: direct-and-inverse-variation
+  type: soft
 builds-toward:
 - world-cities-global-hierarchy
 tags:

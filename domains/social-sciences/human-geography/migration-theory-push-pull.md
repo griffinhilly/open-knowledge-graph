@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: demographic-transition-model
   type: soft
+- id: ratios
+  type: soft
+- id: percent-increase-decrease
+  type: soft
+- id: rates-of-change-preview
+  type: soft
 builds-toward:
 - cultural-diffusion-geography
 - urban-geography-fundamentals

@@ -6,6 +6,12 @@ course: anthropology
 prerequisites:
 - id: anthropology-overview
   type: hard
+- id: sampling-methods
+  type: soft
+- id: mean-median-mode
+  type: soft
+- id: measures-of-spread
+  type: soft
 builds-toward:
 - material-culture
 tags:

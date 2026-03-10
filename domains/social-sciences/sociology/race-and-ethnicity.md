@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: culture-and-society
   type: soft
+- id: mean-median-mode
+  type: soft
+- id: simple-probability
+  type: soft
+- id: histograms-and-frequency-distributions
+  type: soft
 builds-toward:
 - intersectionality
 tags:

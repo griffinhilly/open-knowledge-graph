@@ -6,6 +6,12 @@ course: human-geography
 prerequisites:
 - id: economic-geography-fundamentals
   type: hard
+- id: ratios
+  type: soft
+- id: proportional-relationships
+  type: soft
+- id: coordinate-plane-intro
+  type: soft
 builds-toward:
 - development-geography
 - colonialism-geographic-legacy

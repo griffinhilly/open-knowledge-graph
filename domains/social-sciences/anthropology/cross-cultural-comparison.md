@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: sociological-research-methods
   type: soft
+- id: mean-median-mode
+  type: soft
+- id: sampling-methods
+  type: soft
+- id: measures-of-spread
+  type: soft
 builds-toward:
 - economic-anthropology
 - political-anthropology

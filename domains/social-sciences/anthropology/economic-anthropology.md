@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: social-stratification
   type: soft
+- id: ratios
+  type: soft
+- id: mean-median-mode
+  type: soft
+- id: proportional-relationships
+  type: soft
 builds-toward:
 - globalization-cultural-change
 - political-anthropology

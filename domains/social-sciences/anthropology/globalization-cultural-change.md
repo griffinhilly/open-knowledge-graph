@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: material-culture
   type: soft
+- id: ratios
+  type: soft
+- id: rates-of-change-preview
+  type: soft
 builds-toward:
 - identity-and-selfhood-anthropology
 tags:

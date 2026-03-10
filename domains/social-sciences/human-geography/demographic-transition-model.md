@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: social-stratification
   type: soft
+- id: exponential-growth-and-decay
+  type: soft
+- id: ratios
+  type: soft
+- id: percent-concept
+  type: soft
+- id: rates-of-change-preview
+  type: soft
 builds-toward:
 - migration-theory-push-pull
 - development-geography

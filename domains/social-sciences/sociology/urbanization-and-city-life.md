@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: social-structure-and-agency
   type: soft
+- id: histograms-and-frequency-distributions
+  type: soft
+- id: mean-median-mode
+  type: soft
+- id: percent-increase-decrease
+  type: soft
 builds-toward:
 - globalization-and-society
 tags:

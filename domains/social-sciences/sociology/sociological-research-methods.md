@@ -10,6 +10,16 @@ prerequisites:
   type: soft
 - id: sample-vs-population
   type: soft
+- id: hypothesis-testing-fundamentals
+  type: soft
+- id: mean-median-mode
+  type: soft
+- id: measures-of-spread
+  type: soft
+- id: simple-probability
+  type: soft
+- id: scatterplots-and-correlation
+  type: soft
 tags:
 - methods
 - ethnography

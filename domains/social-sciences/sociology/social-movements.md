@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: collective-behavior-and-crowds
   type: hard
+- id: simple-probability
+  type: soft
+- id: ratios
+  type: soft
 tags:
 - social-movements
 - resource-mobilization
