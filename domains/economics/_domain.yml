@@ -1,0 +1,17 @@
+domain: economics
+title: Economics & Political Economy
+description: The study of how societies allocate scarce resources, from individual
+  decision-making to national and global economic systems.
+courses:
+- id: microeconomics
+  title: Microeconomics
+  stage: abstract-reasoning
+- id: macroeconomics
+  title: Macroeconomics
+  stage: abstract-reasoning
+- id: econometrics
+  title: Econometrics
+  stage: formal-systems
+- id: financial-economics
+  title: Financial Economics
+  stage: formal-systems
