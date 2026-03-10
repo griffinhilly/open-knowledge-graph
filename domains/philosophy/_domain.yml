@@ -1,0 +1,23 @@
+domain: philosophy
+title: Philosophy & Ethics
+description: The systematic study of fundamental questions about existence, knowledge,
+  values, reason, mind, and language.
+courses:
+- id: logic-and-critical-thinking
+  title: Logic & Critical Thinking
+  stage: abstract-reasoning
+- id: epistemology
+  title: Epistemology
+  stage: formal-systems
+- id: metaphysics
+  title: Metaphysics
+  stage: formal-systems
+- id: ethics
+  title: Ethics
+  stage: abstract-reasoning
+- id: political-philosophy
+  title: Political Philosophy
+  stage: abstract-reasoning
+- id: philosophy-of-mind
+  title: Philosophy of Mind
+  stage: formal-systems
