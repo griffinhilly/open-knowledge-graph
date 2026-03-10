@@ -1,0 +1,16 @@
+domain: practical-life-skills
+title: Practical Life Skills
+description: Essential knowledge for functioning effectively in daily life.
+courses:
+- id: financial-literacy
+  title: Financial Literacy
+  stage: abstract-reasoning
+- id: cooking-and-nutrition
+  title: Cooking & Nutrition
+  stage: concrete-operations
+- id: home-maintenance
+  title: Home Maintenance
+  stage: concrete-operations
+- id: digital-literacy
+  title: Digital Literacy
+  stage: concrete-operations
