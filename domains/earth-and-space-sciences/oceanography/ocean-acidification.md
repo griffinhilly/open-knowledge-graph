@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: anthropogenic-climate-forcing
   type: soft
+- id: acid-base-chemistry
+  type: hard
+- id: ph-and-acid-base-calculations
+  type: soft
+- id: chemical-equilibrium
+  type: soft
 builds-toward:
 - coral-reef-ecosystems
 tags:

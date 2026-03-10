@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: stellar-end-states
   type: soft
+- id: slope-concept
+  type: soft
 builds-toward:
 - big-bang-cosmology
 - dark-matter-and-dark-energy

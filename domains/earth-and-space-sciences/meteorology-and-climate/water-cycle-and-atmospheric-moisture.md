@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: intermolecular-forces
   type: soft
+- id: latent-heat
+  type: soft
 builds-toward:
 - cloud-formation-and-types
 - precipitation-types-and-processes

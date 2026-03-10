@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: hertzsprung-russell-diagram
   type: soft
+- id: nuclear-structure
+  type: soft
+- id: nuclear-chemistry
+  type: soft
+- id: atomic-structure-basics
+  type: soft
 builds-toward:
 - stellar-evolution-main-sequence-to-giant
 - big-bang-cosmology

@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: intermolecular-forces
   type: soft
+- id: blackbody-radiation
+  type: soft
+- id: heat-transfer-radiation
+  type: soft
 builds-toward:
 - climate-change-science
 - anthropogenic-climate-forcing

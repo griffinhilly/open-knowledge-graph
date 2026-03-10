@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: stellar-properties-luminosity-temperature
   type: hard
+- id: blackbody-radiation
+  type: soft
+- id: atomic-structure-basics
+  type: soft
 builds-toward:
 - hertzsprung-russell-diagram
 - nebulae-and-star-formation

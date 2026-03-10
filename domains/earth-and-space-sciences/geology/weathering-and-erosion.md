@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: intermolecular-forces
   type: soft
+- id: chemical-equilibrium
+  type: soft
 builds-toward:
 - sedimentary-rocks
 - sediment-transport-and-deposition

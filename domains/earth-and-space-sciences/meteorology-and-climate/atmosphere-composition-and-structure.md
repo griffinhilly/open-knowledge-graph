@@ -3,7 +3,11 @@ id: atmosphere-composition-and-structure
 title: Atmosphere Composition and Structure
 domain: earth-and-space-sciences
 course: meteorology-and-climate
-prerequisites: []
+prerequisites:
+- id: ideal-gas-law
+  type: soft
+- id: atomic-structure-basics
+  type: soft
 builds-toward:
 - atmospheric-pressure-and-altitude
 - greenhouse-effect

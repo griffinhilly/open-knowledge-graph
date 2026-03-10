@@ -6,6 +6,10 @@ course: geology
 prerequisites:
 - id: rock-cycle
   type: soft
+- id: heat-transfer-convection
+  type: soft
+- id: conservation-of-energy
+  type: soft
 builds-toward:
 - tectonic-boundaries
 - volcanoes-and-volcanism

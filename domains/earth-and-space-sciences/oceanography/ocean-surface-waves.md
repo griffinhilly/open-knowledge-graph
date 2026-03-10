@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: seawater-properties
   type: soft
+- id: wave-energy-and-intensity
+  type: soft
 builds-toward:
 - tides
 - coastal-processes-and-waves

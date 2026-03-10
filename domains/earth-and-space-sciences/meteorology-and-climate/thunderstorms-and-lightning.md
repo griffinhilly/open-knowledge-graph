@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: electric-charge-and-coulombs-law
   type: soft
+- id: electric-field
+  type: soft
 builds-toward:
 - severe-weather-systems
 tags:

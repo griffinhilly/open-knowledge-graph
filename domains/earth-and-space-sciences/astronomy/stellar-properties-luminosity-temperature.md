@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: blackbody-radiation
   type: hard
+- id: electromagnetic-spectrum
+  type: soft
 builds-toward:
 - stellar-spectral-classification
 - hertzsprung-russell-diagram

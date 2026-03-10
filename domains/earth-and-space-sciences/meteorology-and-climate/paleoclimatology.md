@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: radiometric-dating
   type: soft
+- id: nuclear-chemistry
+  type: soft
+- id: half-life-decay-law
+  type: soft
 builds-toward:
 - climate-change-science
 tags:

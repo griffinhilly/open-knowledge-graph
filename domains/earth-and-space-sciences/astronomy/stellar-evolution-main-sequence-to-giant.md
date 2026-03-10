@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: nebulae-and-star-formation
   type: hard
+- id: nuclear-fission-fusion
+  type: soft
+- id: conservation-of-energy
+  type: soft
 builds-toward:
 - stellar-end-states
 - galaxy-morphology-and-classification

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: atmosphere-composition-and-structure
   type: hard
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
 - pressure-systems-and-winds
 - coriolis-effect

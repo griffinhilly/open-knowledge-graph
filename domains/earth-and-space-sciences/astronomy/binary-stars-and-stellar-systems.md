@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: doppler-effect
   type: soft
+- id: keplers-laws
+  type: soft
+- id: conservation-of-angular-momentum
+  type: soft
 builds-toward:
 - exoplanet-detection-methods
 - stellar-end-states

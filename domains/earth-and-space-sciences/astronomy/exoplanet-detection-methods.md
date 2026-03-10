@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: solar-system-structure
   type: soft
+- id: keplers-laws
+  type: soft
 tags:
 - exoplanets
 - transit-method

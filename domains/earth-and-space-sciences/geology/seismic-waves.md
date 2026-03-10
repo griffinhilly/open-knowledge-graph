@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: transverse-and-longitudinal-waves
   type: soft
+- id: wave-speed-medium
+  type: soft
 builds-toward:
 - earth-interior-structure
 tags:

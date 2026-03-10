@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: blackbody-radiation
   type: soft
+- id: special-relativity-postulates
+  type: soft
 builds-toward:
 - dark-matter-and-dark-energy
 tags:

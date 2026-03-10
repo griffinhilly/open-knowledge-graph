@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: atmospheric-pressure-and-altitude
   type: hard
+- id: phase-transitions
+  type: soft
+- id: latent-heat
+  type: soft
 builds-toward:
 - precipitation-types-and-processes
 - thunderstorms-and-lightning

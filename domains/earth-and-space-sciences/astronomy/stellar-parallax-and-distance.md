@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: right-triangle-trigonometry-intro
   type: hard
+- id: trigonometric-ratios-review
+  type: soft
+- id: similar-triangles-aa
+  type: soft
 builds-toward:
 - stellar-properties-luminosity-temperature
 - galaxy-morphology-and-classification

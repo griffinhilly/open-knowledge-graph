@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: stellar-properties-luminosity-temperature
   type: hard
+- id: blackbody-radiation
+  type: soft
+- id: logarithms-intro
+  type: soft
 builds-toward:
 - stellar-nucleosynthesis
 - stellar-evolution-main-sequence-to-giant

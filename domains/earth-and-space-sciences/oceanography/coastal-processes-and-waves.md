@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: tides
   type: soft
+- id: wave-energy-and-intensity
+  type: soft
+- id: wave-superposition
+  type: soft
 builds-toward:
 - coral-reef-ecosystems
 tags:

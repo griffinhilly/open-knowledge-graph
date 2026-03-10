@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: heat-and-internal-energy
   type: soft
+- id: specific-heat-capacity
+  type: soft
 builds-toward:
 - el-nino-southern-oscillation
 - sea-level-change

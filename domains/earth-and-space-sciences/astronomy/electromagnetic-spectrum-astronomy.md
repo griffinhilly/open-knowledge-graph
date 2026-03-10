@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: blackbody-radiation
   type: hard
+- id: electromagnetic-waves
+  type: soft
 builds-toward:
 - telescopes-and-observing-methods
 - stellar-properties-luminosity-temperature

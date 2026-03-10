@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: kinematics-2d
   type: soft
+- id: vectors-in-two-dimensions
+  type: soft
 builds-toward:
 - pressure-systems-and-winds
 - global-atmospheric-circulation

@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: nuclear-chemistry
   type: soft
+- id: radioactive-decay
+  type: hard
+- id: exponential-growth-and-decay
+  type: hard
 builds-toward:
 - stratigraphy
 - fossils-and-paleontology

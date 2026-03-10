@@ -6,6 +6,10 @@ course: geology
 prerequisites:
 - id: minerals-and-crystal-structure
   type: hard
+- id: ionic-bonding
+  type: soft
+- id: covalent-bonding
+  type: soft
 builds-toward:
 - igneous-rocks
 - sedimentary-rocks

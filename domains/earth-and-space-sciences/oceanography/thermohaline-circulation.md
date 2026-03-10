@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: coriolis-effect
   type: soft
+- id: heat-transfer-convection
+  type: soft
+- id: temperature-and-thermal-equilibrium
+  type: soft
 builds-toward:
 - polar-oceanography
 - sea-level-change

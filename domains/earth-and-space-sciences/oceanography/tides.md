@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ocean-surface-waves
   type: soft
+- id: trigonometric-ratios-review
+  type: soft
 builds-toward:
 - coastal-processes-and-waves
 tags:

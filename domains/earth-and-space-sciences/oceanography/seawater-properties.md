@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: colligative-properties
   type: soft
+- id: ionic-bonding
+  type: soft
+- id: specific-heat-capacity
+  type: soft
 builds-toward:
 - ocean-layering-and-stratification
 - thermohaline-circulation

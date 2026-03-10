@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: reflection-law
   type: soft
+- id: electromagnetic-waves
+  type: soft
+- id: thin-lens-equation
+  type: soft
+- id: diffraction-gratings
+  type: soft
 builds-toward:
 - stellar-spectral-classification
 - stellar-properties-luminosity-temperature
