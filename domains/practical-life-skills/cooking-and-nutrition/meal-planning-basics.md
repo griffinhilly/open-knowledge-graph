@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: reading-recipes
   type: soft
+- id: adding-subtracting-decimals
+  type: soft
+- id: ratios
+  type: soft
 builds-toward:
 - grocery-shopping-and-budgeting
 tags:

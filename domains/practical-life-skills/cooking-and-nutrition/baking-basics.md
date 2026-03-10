@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: reading-recipes
   type: hard
+- id: fractions-halves-thirds-fourths
+  type: soft
+- id: multiplying-fractions
+  type: soft
+- id: adding-fractions-unlike-denominators
+  type: soft
 tags:
 - baking
 - oven

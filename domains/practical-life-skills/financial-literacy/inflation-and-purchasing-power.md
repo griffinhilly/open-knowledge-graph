@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: percent-increase-decrease
   type: soft
+- id: percent-concept
+  type: soft
 builds-toward:
 - investment-risk-and-return
 - retirement-accounts

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: time-value-of-money
   type: hard
+- id: percent-concept
+  type: soft
 builds-toward:
 - index-fund-investing
 tags:

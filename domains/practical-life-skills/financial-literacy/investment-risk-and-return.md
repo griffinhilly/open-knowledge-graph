@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: time-value-of-money
   type: hard
+- id: percent-concept
+  type: soft
+- id: mean-median-mode
+  type: soft
+- id: simple-probability
+  type: soft
 builds-toward:
 - stock-market-fundamentals
 - bonds-and-fixed-income

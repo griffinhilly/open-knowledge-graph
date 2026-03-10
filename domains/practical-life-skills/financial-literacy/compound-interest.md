@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: exponential-growth-and-decay
   type: soft
+- id: percent-concept
+  type: soft
+- id: exponents-intro
+  type: soft
 builds-toward:
 - inflation-and-purchasing-power
 - debt-management-strategies

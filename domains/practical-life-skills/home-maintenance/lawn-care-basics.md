@@ -3,7 +3,9 @@ id: lawn-care-basics
 title: Lawn Care Basics
 domain: practical-life-skills
 course: home-maintenance
-prerequisites: []
+prerequisites:
+- id: area-of-rectangles
+  type: soft
 builds-toward:
 - seasonal-home-maintenance
 - garden-and-planting-basics

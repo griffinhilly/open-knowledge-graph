@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: food-groups-and-macronutrients
   type: hard
+- id: percent-concept
+  type: soft
+- id: ratios
+  type: soft
 builds-toward:
 - grocery-shopping-and-budgeting
 - meal-planning-basics

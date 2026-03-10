@@ -3,7 +3,11 @@ id: personal-budget-fundamentals
 title: Personal Budget Fundamentals
 domain: practical-life-skills
 course: financial-literacy
-prerequisites: []
+prerequisites:
+- id: adding-subtracting-decimals
+  type: soft
+- id: percent-concept
+  type: soft
 builds-toward:
 - net-worth-tracking
 - emergency-fund-planning

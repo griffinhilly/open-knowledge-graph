@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: exponents-intro
   type: hard
+- id: exponential-growth-and-decay
+  type: soft
 builds-toward:
 - compound-interest
 - mortgage-and-home-buying

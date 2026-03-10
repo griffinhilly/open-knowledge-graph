@@ -6,6 +6,12 @@ course: cooking-and-nutrition
 prerequisites:
 - id: kitchen-safety-and-hygiene
   type: hard
+- id: fractions-halves-thirds-fourths
+  type: soft
+- id: multiplying-fractions
+  type: soft
+- id: ratios
+  type: soft
 builds-toward:
 - boiling-and-simmering
 - sauteing-and-pan-cooking

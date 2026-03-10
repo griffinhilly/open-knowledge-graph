@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: compound-interest
   type: hard
+- id: percent-concept
+  type: soft
+- id: adding-subtracting-decimals
+  type: soft
 builds-toward:
 - mortgage-and-home-buying
 tags:

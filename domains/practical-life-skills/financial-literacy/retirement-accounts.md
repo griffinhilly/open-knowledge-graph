@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: inflation-and-purchasing-power
   type: soft
+- id: exponential-growth-and-decay
+  type: soft
+- id: percent-concept
+  type: soft
 tags:
 - retirement
 - 401k

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: investment-risk-and-return
   type: hard
+- id: percent-concept
+  type: soft
+- id: percent-increase-decrease
+  type: soft
 builds-toward:
 - retirement-accounts
 tags:

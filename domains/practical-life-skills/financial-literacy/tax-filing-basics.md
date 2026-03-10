@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: percent-concept
   type: soft
+- id: adding-subtracting-decimals
+  type: soft
 builds-toward:
 - retirement-accounts
 tags:

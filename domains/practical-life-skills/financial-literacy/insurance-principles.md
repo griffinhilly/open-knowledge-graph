@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: emergency-fund-planning
   type: soft
+- id: percent-concept
+  type: soft
+- id: simple-probability
+  type: soft
 tags:
 - insurance
 - risk-management

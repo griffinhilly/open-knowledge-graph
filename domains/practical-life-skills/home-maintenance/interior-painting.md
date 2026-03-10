@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: wall-patching-and-repair
   type: soft
+- id: area-of-rectangles
+  type: soft
+- id: perimeter
+  type: soft
 tags:
 - painting
 - interiors

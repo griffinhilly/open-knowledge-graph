@@ -6,6 +6,8 @@ course: financial-literacy
 prerequisites:
 - id: personal-budget-fundamentals
   type: hard
+- id: adding-subtracting-decimals
+  type: soft
 builds-toward:
 - insurance-principles
 - debt-management-strategies

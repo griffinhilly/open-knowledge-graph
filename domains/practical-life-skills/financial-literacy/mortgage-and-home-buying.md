@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: net-worth-tracking
   type: soft
+- id: percent-concept
+  type: soft
+- id: exponential-growth-and-decay
+  type: soft
 tags:
 - mortgage
 - amortization

@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: personal-budget-fundamentals
   type: soft
+- id: adding-subtracting-decimals
+  type: soft
+- id: percent-concept
+  type: soft
+- id: making-change-simple
+  type: soft
 tags:
 - grocery
 - budgeting

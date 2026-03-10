@@ -6,6 +6,10 @@ course: financial-literacy
 prerequisites:
 - id: personal-budget-fundamentals
   type: hard
+- id: adding-subtracting-decimals
+  type: soft
+- id: percent-concept
+  type: soft
 builds-toward:
 - mortgage-and-home-buying
 - retirement-accounts

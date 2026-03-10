@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: plumbing-basics
   type: soft
+- id: adding-subtracting-decimals
+  type: soft
+- id: percent-concept
+  type: soft
 tags:
 - decision-making
 - professional-services

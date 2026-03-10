@@ -8,6 +8,12 @@ prerequisites:
   type: soft
 - id: personal-budget-fundamentals
   type: soft
+- id: order-of-operations
+  type: soft
+- id: percent-concept
+  type: soft
+- id: adding-subtracting-decimals
+  type: soft
 tags:
 - spreadsheets
 - excel

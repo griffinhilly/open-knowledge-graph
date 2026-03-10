@@ -6,6 +6,10 @@ course: home-maintenance
 prerequisites:
 - id: lawn-care-basics
   type: soft
+- id: area-of-rectangles
+  type: soft
+- id: perimeter
+  type: soft
 builds-toward:
 - pest-control-basics
 tags:

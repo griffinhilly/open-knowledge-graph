@@ -6,6 +6,8 @@ course: financial-literacy
 prerequisites:
 - id: personal-budget-fundamentals
   type: hard
+- id: percent-concept
+  type: soft
 builds-toward:
 - debt-management-strategies
 - mortgage-and-home-buying

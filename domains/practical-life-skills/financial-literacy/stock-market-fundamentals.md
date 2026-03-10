@@ -6,6 +6,10 @@ course: financial-literacy
 prerequisites:
 - id: investment-risk-and-return
   type: hard
+- id: percent-increase-decrease
+  type: soft
+- id: mean-median-mode
+  type: soft
 builds-toward:
 - index-fund-investing
 tags:
