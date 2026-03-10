@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: thought-experiments
   type: soft
+- id: first-order-logic-syntax
+  type: soft
+- id: first-order-semantics
+  type: soft
 tags:
 - counterexample
 - refutation

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: propositional-syntax
   type: soft
+- id: first-order-logic-syntax
+  type: soft
 builds-toward:
 - modus-ponens-tollens
 - counterexample-method

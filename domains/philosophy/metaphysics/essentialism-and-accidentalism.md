@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: modal-logic-intro
   type: soft
+- id: first-order-logic-syntax
+  type: soft
 builds-toward:
 - possible-worlds-semantics
 tags:

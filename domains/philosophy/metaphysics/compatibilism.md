@@ -6,6 +6,8 @@ course: metaphysics
 prerequisites:
 - id: free-will-and-determinism
   type: hard
+- id: modal-logic-intro
+  type: soft
 tags:
 - compatibilism
 - free will

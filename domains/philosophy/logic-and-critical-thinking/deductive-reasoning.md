@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: argument-structure
   type: hard
+- id: natural-deduction-propositional
+  type: soft
 builds-toward:
 - validity-and-soundness
 - modus-ponens-tollens

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: identity-theory
   type: hard
+- id: church-turing-thesis
+  type: soft
 builds-toward:
 - chinese-room-argument
 - turing-test-and-machine-minds

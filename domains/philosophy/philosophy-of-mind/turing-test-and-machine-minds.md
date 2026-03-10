@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: church-turing-thesis
   type: soft
+- id: turing-machines
+  type: soft
 builds-toward:
 - extended-mind-thesis
 tags:

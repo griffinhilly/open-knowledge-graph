@@ -6,6 +6,8 @@ course: metaphysics
 prerequisites:
 - id: possible-worlds-semantics
   type: hard
+- id: modal-logic-intro
+  type: soft
 tags:
 - modal realism
 - David Lewis

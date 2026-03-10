@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: propositional-syntax
   type: soft
+- id: natural-deduction-propositional
+  type: soft
+- id: propositional-semantics
+  type: soft
 builds-toward:
 - counterexample-method
 tags:

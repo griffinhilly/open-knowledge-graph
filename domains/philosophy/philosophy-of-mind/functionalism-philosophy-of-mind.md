@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: physicalism-about-mind
   type: soft
+- id: church-turing-thesis
+  type: soft
 builds-toward:
 - multiple-realizability
 - chinese-room-argument

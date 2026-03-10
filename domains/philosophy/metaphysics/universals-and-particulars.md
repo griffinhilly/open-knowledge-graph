@@ -6,6 +6,10 @@ course: metaphysics
 prerequisites:
 - id: substance-and-property
   type: hard
+- id: first-order-logic-syntax
+  type: soft
+- id: first-order-semantics
+  type: soft
 builds-toward:
 - bundle-theory
 - trope-theory

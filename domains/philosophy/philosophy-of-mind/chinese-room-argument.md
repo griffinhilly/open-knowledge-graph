@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: church-turing-thesis
   type: soft
+- id: turing-machines
+  type: soft
 builds-toward:
 - turing-test-and-machine-minds
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: what-is-metaphysics
   type: soft
+- id: propositional-semantics
+  type: soft
 builds-toward:
 - moral-realism
 - moral-relativism

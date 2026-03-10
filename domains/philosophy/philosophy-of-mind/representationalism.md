@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: functionalism-philosophy-of-mind
   type: soft
+- id: first-order-semantics
+  type: soft
 builds-toward:
 - extended-mind-thesis
 tags:

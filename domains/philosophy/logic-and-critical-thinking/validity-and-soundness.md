@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: propositional-semantics
   type: soft
+- id: tautologies-and-contradictions
+  type: soft
+- id: propositional-soundness-completeness
+  type: soft
 builds-toward:
 - counterexample-method
 - modus-ponens-tollens

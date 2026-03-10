@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: metaethics-intro
   type: soft
+- id: naive-set-theory
+  type: soft
 builds-toward:
 - rawlsian-justice
 - libertarianism-political

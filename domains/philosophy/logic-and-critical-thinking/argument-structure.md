@@ -3,7 +3,9 @@ id: argument-structure
 title: 'Argument Structure: Premises and Conclusions'
 domain: philosophy
 course: logic-and-critical-thinking
-prerequisites: []
+prerequisites:
+- id: propositional-syntax
+  type: soft
 builds-toward:
 - deductive-reasoning
 - inductive-reasoning

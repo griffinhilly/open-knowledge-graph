@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: ontological-categories
   type: soft
+- id: first-order-semantics
+  type: soft
 builds-toward:
 - representationalism
 - chinese-room-argument

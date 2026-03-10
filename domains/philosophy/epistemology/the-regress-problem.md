@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: argument-structure
   type: soft
+- id: natural-deduction-propositional
+  type: soft
 builds-toward:
 - foundationalism
 - coherentism

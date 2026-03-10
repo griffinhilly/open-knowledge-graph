@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: validity-and-soundness
   type: soft
+- id: propositional-semantics
+  type: soft
 builds-toward:
 - gettier-problems
 - the-regress-problem

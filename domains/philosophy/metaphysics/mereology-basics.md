@@ -6,6 +6,10 @@ course: metaphysics
 prerequisites:
 - id: ontological-categories
   type: hard
+- id: naive-set-theory
+  type: soft
+- id: first-order-logic-syntax
+  type: soft
 tags:
 - mereology
 - composition

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: universals-and-particulars
   type: soft
+- id: first-order-semantics
+  type: soft
 builds-toward:
 - expressivism-in-ethics
 - error-theory

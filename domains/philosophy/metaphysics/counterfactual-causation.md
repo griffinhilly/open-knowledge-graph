@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: possible-worlds-semantics
   type: soft
+- id: modal-logic-intro
+  type: soft
 tags:
 - counterfactuals
 - David Lewis

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: inductive-reasoning
   type: soft
+- id: propositional-syntax
+  type: soft
 builds-toward:
 - rationalism-vs-empiricism
 - cartesian-skepticism
