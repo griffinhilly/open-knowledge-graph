@@ -1,0 +1,18 @@
+domain: formal-sciences-and-logic
+title: Formal Sciences & Logic
+description: The study of formal systems, abstract structures, and deductive reasoning.
+  Extends beyond mathematics into philosophical logic, metalogic, and the foundations
+  of formal reasoning itself.
+courses:
+- id: propositional-and-predicate-logic
+  title: Propositional & Predicate Logic
+  stage: formal-systems
+- id: set-theory
+  title: Set Theory
+  stage: formal-systems
+- id: computability-and-complexity
+  title: Computability & Complexity
+  stage: advanced
+- id: category-theory
+  title: Category Theory
+  stage: advanced
