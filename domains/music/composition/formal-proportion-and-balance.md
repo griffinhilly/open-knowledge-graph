@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: theme-and-variations
   type: soft
+- id: ratios
+  type: soft
+- id: proportions
+  type: soft
 builds-toward:
 - climax-and-tension-release
 tags:

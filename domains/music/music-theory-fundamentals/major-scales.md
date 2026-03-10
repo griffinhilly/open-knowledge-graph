@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: accidentals-and-enharmonics
   type: hard
+- id: number-patterns-and-relationships
+  type: soft
 builds-toward:
 - minor-scales
 - key-signatures

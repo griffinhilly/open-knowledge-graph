@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: time-signatures-and-meter
   type: soft
+- id: graphing-sine-and-cosine
+  type: soft
+- id: ratios
+  type: soft
 tags:
 - DAW
 - MIDI

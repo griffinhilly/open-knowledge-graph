@@ -6,6 +6,8 @@ course: music-theory-fundamentals
 prerequisites:
 - id: note-names-and-octaves
   type: hard
+- id: modular-arithmetic
+  type: soft
 builds-toward:
 - intervals-basics
 - major-scales

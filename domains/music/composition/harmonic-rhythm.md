@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: time-signatures-and-meter
   type: soft
+- id: fractions-halves-thirds-fourths
+  type: soft
+- id: ratios
+  type: soft
 builds-toward:
 - melodic-harmonization
 - climax-and-tension-release

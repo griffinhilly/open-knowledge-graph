@@ -6,6 +6,8 @@ course: music-theory-fundamentals
 prerequisites:
 - id: time-signatures-and-meter
   type: hard
+- id: fractions-halves-thirds-fourths
+  type: soft
 builds-toward:
 - compound-meter
 - chord-progressions

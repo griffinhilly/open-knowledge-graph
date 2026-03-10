@@ -6,6 +6,8 @@ course: music-theory-fundamentals
 prerequisites:
 - id: staff-and-clefs
   type: hard
+- id: ratios
+  type: soft
 builds-toward:
 - accidentals-and-enharmonics
 - intervals-basics

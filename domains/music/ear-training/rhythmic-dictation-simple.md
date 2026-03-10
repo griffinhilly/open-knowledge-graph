@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: audiation-and-inner-hearing
   type: soft
+- id: fractions-halves-thirds-fourths
+  type: soft
 builds-toward:
 - rhythmic-dictation-compound
 - melodic-dictation-stepwise

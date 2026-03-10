@@ -6,6 +6,10 @@ course: music-theory-fundamentals
 prerequisites:
 - id: time-signatures-and-meter
   type: hard
+- id: fractions-halves-thirds-fourths
+  type: soft
+- id: adding-fractions-unlike-denominators
+  type: soft
 builds-toward:
 - rhythm-and-syncopation
 tags:

@@ -6,6 +6,10 @@ course: music-theory-fundamentals
 prerequisites:
 - id: note-durations-and-rests
   type: hard
+- id: fractions-halves-thirds-fourths
+  type: soft
+- id: ratios
+  type: soft
 builds-toward:
 - rhythm-and-syncopation
 - compound-meter

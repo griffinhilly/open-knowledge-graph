@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: audiation-and-inner-hearing
   type: soft
+- id: ratios
+  type: soft
 builds-toward:
 - interval-singing
 - chord-quality-by-ear

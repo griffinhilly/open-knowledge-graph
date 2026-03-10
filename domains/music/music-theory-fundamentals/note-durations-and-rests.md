@@ -6,6 +6,8 @@ course: music-theory-fundamentals
 prerequisites:
 - id: staff-and-clefs
   type: hard
+- id: fractions-halves-thirds-fourths
+  type: soft
 builds-toward:
 - time-signatures-and-meter
 - rhythm-and-syncopation

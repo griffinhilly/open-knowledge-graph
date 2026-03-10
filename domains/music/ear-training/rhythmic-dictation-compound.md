@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: compound-meter
   type: hard
+- id: fractions-halves-thirds-fourths
+  type: soft
+- id: adding-fractions-unlike-denominators
+  type: soft
 builds-toward:
 - melodic-dictation-with-leaps
 tags:

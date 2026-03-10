@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: accidentals-and-enharmonics
   type: hard
+- id: ratios
+  type: soft
 builds-toward:
 - interval-quality
 - major-scales

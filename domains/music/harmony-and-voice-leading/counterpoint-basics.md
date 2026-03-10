@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: voice-leading-principles
   type: soft
+- id: ratios
+  type: soft
 builds-toward:
 - species-counterpoint
 - four-part-writing

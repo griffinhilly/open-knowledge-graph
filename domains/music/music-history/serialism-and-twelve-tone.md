@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: interval-quality
   type: soft
+- id: modular-arithmetic
+  type: soft
+- id: permutations
+  type: soft
 tags:
 - serialism
 - twelve-tone

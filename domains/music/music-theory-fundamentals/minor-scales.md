@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: interval-quality
   type: soft
+- id: number-patterns-and-relationships
+  type: soft
 builds-toward:
 - key-signatures
 - diatonic-harmony

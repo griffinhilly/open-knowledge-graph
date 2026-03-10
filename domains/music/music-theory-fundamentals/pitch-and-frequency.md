@@ -3,7 +3,11 @@ id: pitch-and-frequency
 title: Pitch and Frequency
 domain: music
 course: music-theory-fundamentals
-prerequisites: []
+prerequisites:
+- id: ratios
+  type: soft
+- id: logarithms-intro
+  type: soft
 builds-toward:
 - staff-and-clefs
 - note-names-and-octaves

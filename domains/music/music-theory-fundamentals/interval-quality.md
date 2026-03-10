@@ -6,6 +6,8 @@ course: music-theory-fundamentals
 prerequisites:
 - id: intervals-basics
   type: hard
+- id: ratios
+  type: soft
 builds-toward:
 - major-scales
 - minor-scales
