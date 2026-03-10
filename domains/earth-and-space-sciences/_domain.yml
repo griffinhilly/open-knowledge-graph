@@ -1,0 +1,17 @@
+domain: earth-and-space-sciences
+title: Earth & Space Sciences
+description: The study of Earth's systems and the broader universe. From minerals
+  and plate tectonics to stellar evolution and cosmology.
+courses:
+- id: geology
+  title: Geology
+  stage: abstract-reasoning
+- id: meteorology-and-climate
+  title: Meteorology & Climate
+  stage: abstract-reasoning
+- id: oceanography
+  title: Oceanography
+  stage: abstract-reasoning
+- id: astronomy
+  title: Astronomy & Astrophysics
+  stage: formal-systems
