@@ -1,0 +1,16 @@
+domain: language-and-communication
+title: Language & Communication
+description: The study of human language — its structure, use, and power.
+courses:
+- id: grammar-and-syntax
+  title: Grammar & Syntax
+  stage: concrete-operations
+- id: rhetoric-and-composition
+  title: Rhetoric & Composition
+  stage: abstract-reasoning
+- id: linguistics
+  title: Linguistics
+  stage: formal-systems
+- id: public-speaking
+  title: Public Speaking
+  stage: abstract-reasoning
