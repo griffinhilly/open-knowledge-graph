@@ -1,0 +1,19 @@
+domain: literature
+title: Literature
+description: The study of written works as art forms that illuminate the human condition.
+courses:
+- id: literary-analysis
+  title: Literary Analysis
+  stage: abstract-reasoning
+- id: fiction
+  title: 'Fiction: Genres & Forms'
+  stage: abstract-reasoning
+- id: poetry
+  title: Poetry
+  stage: abstract-reasoning
+- id: drama
+  title: Drama
+  stage: abstract-reasoning
+- id: critical-theory
+  title: Critical Theory
+  stage: formal-systems
