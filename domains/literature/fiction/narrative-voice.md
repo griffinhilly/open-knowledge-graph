@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: diction-and-style
   type: hard
+- id: discourse-analysis
+  type: soft
 builds-toward:
 - stream-of-consciousness
 tags:

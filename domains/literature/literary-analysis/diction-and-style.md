@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: figurative-language
   type: soft
+- id: lexical-semantics
+  type: soft
+- id: morphological-structure
+  type: soft
 builds-toward:
 - tone-and-mood
 - literary-argument-writing

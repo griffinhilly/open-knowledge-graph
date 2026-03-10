@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: point-of-view-narrative-perspective
   type: soft
+- id: discourse-analysis
+  type: soft
+- id: syntactic-structure
+  type: soft
 builds-toward:
 - reader-response-theory
 - post-structuralism

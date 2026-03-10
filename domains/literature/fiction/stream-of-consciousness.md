@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: unreliable-narrator
   type: soft
+- id: syntactic-structure
+  type: soft
 builds-toward:
 - narrative-voice
 tags:

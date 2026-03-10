@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: diction-and-style
   type: soft
+- id: discourse-analysis
+  type: soft
 builds-toward:
 - irony-in-literature
 - thematic-development

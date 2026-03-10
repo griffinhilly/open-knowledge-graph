@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: setting-and-atmosphere
   type: soft
+- id: descriptive-writing
+  type: soft
 builds-toward:
 - symbolism-in-literature
 - thematic-development

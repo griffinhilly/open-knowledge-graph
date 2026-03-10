@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: syntactic-structure
   type: soft
+- id: linguistic-typology
+  type: soft
 builds-toward:
 - semiotics-and-signs
 - narratology

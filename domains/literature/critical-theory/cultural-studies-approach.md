@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: ideological-criticism
   type: soft
+- id: sociolinguistics-intro
+  type: soft
+- id: language-variation-and-change
+  type: soft
 builds-toward:
 - intersectionality-in-criticism
 tags:

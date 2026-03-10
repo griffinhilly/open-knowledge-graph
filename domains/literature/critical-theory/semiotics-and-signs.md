@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: lexical-semantics
   type: soft
+- id: speech-act-theory
+  type: soft
+- id: compositional-semantics
+  type: soft
 builds-toward:
 - post-structuralism
 - ideological-criticism

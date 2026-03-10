@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: paragraph-structure
   type: soft
+- id: syntactic-structure
+  type: soft
+- id: sentence-structure-basics
+  type: soft
 builds-toward:
 - plot-structure
 - characterization-methods

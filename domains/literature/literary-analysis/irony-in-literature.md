@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: point-of-view-narrative-perspective
   type: soft
+- id: linguistic-pragmatics
+  type: soft
+- id: conversational-implicature
+  type: soft
 builds-toward:
 - thematic-development
 - literary-argument-writing

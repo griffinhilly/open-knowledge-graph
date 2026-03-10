@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: narrative-writing
   type: hard
+- id: speech-act-theory
+  type: soft
+- id: discourse-analysis
+  type: soft
 builds-toward:
 - short-story-form
 - narrative-voice

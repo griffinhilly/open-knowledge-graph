@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: diction-and-style
   type: hard
+- id: discourse-analysis
+  type: soft
 builds-toward:
 - poetic-persona-and-speaker
 - imagery-in-poetry

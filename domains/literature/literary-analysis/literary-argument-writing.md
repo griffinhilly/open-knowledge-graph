@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: textual-evidence-and-citation
   type: hard
+- id: argument-structure
+  type: soft
 builds-toward:
 - thematic-development
 - intertextuality-and-allusion

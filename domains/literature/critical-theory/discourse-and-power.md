@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: discourse-analysis
   type: hard
+- id: sociolinguistics-intro
+  type: soft
 builds-toward:
 - cultural-studies-approach
 - ecocriticism

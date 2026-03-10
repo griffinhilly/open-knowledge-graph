@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: symbolism-in-literature
   type: soft
+- id: historical-linguistics
+  type: soft
 builds-toward:
 - literary-argument-writing
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: diction-and-style
   type: soft
+- id: syntactic-structure
+  type: soft
 builds-toward:
 - structuralism-in-literature
 - reader-response-theory

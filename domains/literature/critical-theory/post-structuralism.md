@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: semiotics-and-signs
   type: soft
+- id: discourse-analysis
+  type: soft
 builds-toward:
 - deconstruction
 - discourse-and-power

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: theatrical-conventions
   type: soft
+- id: linguistic-pragmatics
+  type: soft
+- id: conversational-implicature
+  type: soft
 builds-toward:
 - dramatic-subtext
 - well-made-play

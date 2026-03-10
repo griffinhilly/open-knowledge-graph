@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: new-criticism-and-formalism
   type: soft
+- id: speech-act-theory
+  type: soft
+- id: linguistic-pragmatics
+  type: soft
 builds-toward:
 - cultural-studies-approach
 tags:

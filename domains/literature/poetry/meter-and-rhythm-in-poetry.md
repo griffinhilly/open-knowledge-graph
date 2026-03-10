@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: articulatory-phonetics
   type: soft
+- id: phonological-systems
+  type: soft
 builds-toward:
 - iambic-pentameter
 - scansion

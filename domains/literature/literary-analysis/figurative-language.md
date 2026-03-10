@@ -6,6 +6,10 @@ course: literary-analysis
 prerequisites:
 - id: close-reading-techniques
   type: hard
+- id: lexical-semantics
+  type: soft
+- id: compositional-semantics
+  type: soft
 builds-toward:
 - imagery-in-literature
 - symbolism-in-literature

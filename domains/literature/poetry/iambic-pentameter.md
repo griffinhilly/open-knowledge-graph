@@ -6,6 +6,8 @@ course: poetry
 prerequisites:
 - id: meter-and-rhythm-in-poetry
   type: hard
+- id: articulatory-phonetics
+  type: soft
 builds-toward:
 - sonnet-form
 - blank-verse

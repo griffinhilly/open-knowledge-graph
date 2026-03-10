@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: intertextuality-and-allusion
   type: soft
+- id: sociolinguistics-intro
+  type: soft
+- id: language-variation-and-change
+  type: soft
 builds-toward:
 - cultural-studies-approach
 - intersectionality-in-criticism

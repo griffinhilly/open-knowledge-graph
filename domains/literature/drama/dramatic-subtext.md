@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: dramatic-conflict
   type: soft
+- id: speech-act-theory
+  type: soft
+- id: linguistic-pragmatics
+  type: soft
 builds-toward:
 - modern-realist-drama
 tags:

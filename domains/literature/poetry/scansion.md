@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: iambic-pentameter
   type: soft
+- id: articulatory-phonetics
+  type: soft
+- id: phonological-systems
+  type: soft
 builds-toward:
 - poetic-form-overview
 - sonnet-form

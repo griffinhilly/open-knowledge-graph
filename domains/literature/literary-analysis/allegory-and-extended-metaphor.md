@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: theme-identification
   type: soft
+- id: lexical-semantics
+  type: soft
 builds-toward:
 - thematic-development
 - intertextuality-and-allusion

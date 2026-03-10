@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: irony-in-literature
   type: soft
+- id: speech-act-theory
+  type: soft
 builds-toward:
 - poetic-tradition-and-influence
 tags:
