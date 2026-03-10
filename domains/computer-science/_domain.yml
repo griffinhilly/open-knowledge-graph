@@ -1,0 +1,24 @@
+domain: computer-science
+title: Computer Science & Information
+description: The study of computation, algorithms, data structures, and information
+  processing. Spans from practical programming to theoretical foundations of what
+  can and cannot be computed.
+courses:
+- id: programming-fundamentals
+  title: Programming Fundamentals
+  stage: abstract-reasoning
+- id: data-structures-and-algorithms
+  title: Data Structures & Algorithms
+  stage: formal-systems
+- id: computer-architecture
+  title: Computer Architecture
+  stage: formal-systems
+- id: operating-systems
+  title: Operating Systems
+  stage: formal-systems
+- id: databases
+  title: Databases
+  stage: formal-systems
+- id: theory-of-computation
+  title: Theory of Computation
+  stage: advanced
