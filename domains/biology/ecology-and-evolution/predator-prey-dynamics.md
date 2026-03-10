@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: population-regulation
   type: soft
+- id: differential-equations-intro-separable
+  type: soft
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
 - species-interactions
 - community-ecology-intro

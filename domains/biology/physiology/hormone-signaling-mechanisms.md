@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cell-membrane-structure
   type: soft
+- id: organic-chemistry-intro
+  type: soft
 builds-toward:
 - hypothalamus-pituitary-axis
 tags:

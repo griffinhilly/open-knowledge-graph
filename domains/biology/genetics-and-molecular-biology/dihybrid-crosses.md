@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: mendelian-genetics
   type: hard
+- id: simple-probability
+  type: soft
+- id: combinations
+  type: soft
 builds-toward:
 - genetic-mapping
 tags:

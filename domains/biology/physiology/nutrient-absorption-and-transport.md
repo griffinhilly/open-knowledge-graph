@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: active-transport
   type: hard
+- id: solution-concentration
+  type: soft
+- id: diffusion-and-ficks-laws
+  type: soft
 tags:
 - absorption
 - villi

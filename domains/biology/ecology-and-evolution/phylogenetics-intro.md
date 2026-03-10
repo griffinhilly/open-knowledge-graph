@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: dna-structure
   type: soft
+- id: trees-in-graph-theory
+  type: soft
 builds-toward:
 - cladistics-and-systematics
 - molecular-evolution

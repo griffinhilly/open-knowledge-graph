@@ -6,6 +6,10 @@ course: physiology
 prerequisites:
 - id: cardiovascular-system-overview
   type: hard
+- id: solution-concentration
+  type: soft
+- id: ph-and-acid-base-calculations
+  type: soft
 builds-toward:
 - innate-immune-response
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: gel-electrophoresis
   type: soft
+- id: chemical-kinetics
+  type: soft
 builds-toward:
 - recombinant-dna-technology
 - genomics-overview

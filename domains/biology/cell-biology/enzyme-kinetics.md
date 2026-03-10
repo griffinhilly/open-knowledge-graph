@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: chemical-kinetics
   type: soft
+- id: graphing-rational-functions
+  type: soft
 builds-toward:
 - glycolysis
 - krebs-cycle

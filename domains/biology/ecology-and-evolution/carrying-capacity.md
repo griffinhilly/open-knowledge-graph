@@ -6,6 +6,10 @@ course: ecology-and-evolution
 prerequisites:
 - id: population-growth-models
   type: hard
+- id: exponential-functions-and-graphs
+  type: soft
+- id: exponential-growth-and-decay
+  type: soft
 builds-toward:
 - population-regulation
 - life-history-strategies

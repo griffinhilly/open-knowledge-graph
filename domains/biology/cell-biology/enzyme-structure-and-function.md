@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: intermolecular-forces
   type: soft
+- id: organic-chemistry-intro
+  type: soft
 builds-toward:
 - enzyme-kinetics
 - glycolysis

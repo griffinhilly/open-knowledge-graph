@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: mitochondria-structure-and-function
   type: hard
+- id: organic-chemistry-intro
+  type: soft
+- id: thermochemistry-enthalpy
+  type: soft
 builds-toward:
 - krebs-cycle
 tags:

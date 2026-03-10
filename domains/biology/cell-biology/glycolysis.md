@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: enzyme-kinetics
   type: soft
+- id: organic-chemistry-intro
+  type: soft
+- id: reaction-mechanisms-overview
+  type: soft
 builds-toward:
 - pyruvate-oxidation
 - krebs-cycle

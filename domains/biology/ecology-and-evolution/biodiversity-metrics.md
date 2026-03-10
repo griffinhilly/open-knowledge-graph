@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: cladistics-and-systematics
   type: soft
+- id: logarithms-intro
+  type: soft
+- id: simple-probability
+  type: soft
 builds-toward:
 - biodiversity-and-conservation
 - island-biogeography

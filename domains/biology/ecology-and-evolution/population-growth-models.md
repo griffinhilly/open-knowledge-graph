@@ -6,6 +6,10 @@ course: ecology-and-evolution
 prerequisites:
 - id: population-ecology-intro
   type: hard
+- id: exponential-functions-and-graphs
+  type: soft
+- id: differential-equations-intro-separable
+  type: soft
 builds-toward:
 - carrying-capacity
 - population-regulation

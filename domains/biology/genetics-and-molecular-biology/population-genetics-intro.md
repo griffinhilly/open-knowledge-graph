@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: non-mendelian-inheritance
   type: soft
+- id: simple-probability
+  type: soft
+- id: probability-axioms
+  type: soft
 tags:
 - Hardy-Weinberg
 - allele frequency

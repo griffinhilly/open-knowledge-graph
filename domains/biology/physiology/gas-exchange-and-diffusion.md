@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cardiovascular-system-overview
   type: soft
+- id: ph-and-acid-base-calculations
+  type: soft
 builds-toward:
 - respiratory-control-mechanisms
 tags:

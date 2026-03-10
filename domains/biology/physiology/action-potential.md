@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: active-transport
   type: hard
+- id: electrochemistry-basics
+  type: soft
 builds-toward:
 - synaptic-transmission
 - skeletal-muscle-contraction

@@ -6,6 +6,10 @@ course: genetics-and-molecular-biology
 prerequisites:
 - id: chromosomal-theory-of-inheritance
   type: hard
+- id: simple-probability
+  type: soft
+- id: ratios
+  type: soft
 builds-toward:
 - dominance-and-recessiveness
 - dihybrid-crosses

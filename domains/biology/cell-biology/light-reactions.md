@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: electron-transport-chain
   type: soft
+- id: electrochemistry-basics
+  type: soft
+- id: electrochemical-cells
+  type: soft
 builds-toward:
 - calvin-cycle
 tags:

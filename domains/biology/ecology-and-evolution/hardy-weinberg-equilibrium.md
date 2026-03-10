@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: genetic-drift
   type: soft
+- id: simple-probability
+  type: soft
+- id: solving-quadratics-by-factoring
+  type: soft
 builds-toward:
 - speciation
 - molecular-evolution

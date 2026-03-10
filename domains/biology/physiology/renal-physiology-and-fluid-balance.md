@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: blood-pressure-regulation
   type: soft
+- id: solution-concentration
+  type: soft
+- id: colligative-properties
+  type: soft
 tags:
 - kidney
 - nephron

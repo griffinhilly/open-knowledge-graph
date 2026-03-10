@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: enzyme-structure-and-function
   type: soft
+- id: diffusion-and-ficks-laws
+  type: soft
+- id: electrochemistry-basics
+  type: soft
 builds-toward:
 - cell-signaling-intro
 tags:

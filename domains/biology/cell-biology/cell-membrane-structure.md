@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: molecular-polarity
   type: soft
+- id: functional-groups-overview
+  type: soft
 builds-toward:
 - passive-transport
 - active-transport

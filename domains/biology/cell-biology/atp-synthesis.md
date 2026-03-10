@@ -6,6 +6,10 @@ course: cell-biology
 prerequisites:
 - id: electron-transport-chain
   type: hard
+- id: entropy-and-gibbs-free-energy
+  type: soft
+- id: electrochemical-cells
+  type: soft
 builds-toward:
 - photosynthesis-overview
 tags:

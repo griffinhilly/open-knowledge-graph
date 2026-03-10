@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: enzyme-kinetics
   type: soft
+- id: organic-chemistry-intro
+  type: soft
+- id: thermochemistry-enthalpy
+  type: soft
 builds-toward:
 - electron-transport-chain
 tags:

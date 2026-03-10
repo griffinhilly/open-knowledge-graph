@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: cellular-respiration-overview
   type: soft
+- id: chemical-equations-balancing
+  type: soft
 builds-toward:
 - nutrient-cycling
 - climate-change-ecology

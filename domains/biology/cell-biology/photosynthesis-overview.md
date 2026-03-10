@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cellular-respiration-overview
   type: soft
+- id: thermochemistry-enthalpy
+  type: soft
 builds-toward:
 - light-reactions
 - calvin-cycle

@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: meiosis
   type: soft
+- id: ratios
+  type: soft
+- id: simple-probability
+  type: soft
 builds-toward:
 - genomics-overview
 tags:

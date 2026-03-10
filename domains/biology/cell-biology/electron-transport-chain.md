@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: electrochemistry-basics
   type: soft
+- id: entropy-and-gibbs-free-energy
+  type: soft
 builds-toward:
 - atp-synthesis
 - light-reactions
