@@ -1,0 +1,20 @@
+domain: engineering
+title: Engineering & Technology
+description: The application of scientific and mathematical principles to design,
+  build, and optimize systems and structures.
+courses:
+- id: statics-and-dynamics
+  title: Statics & Dynamics
+  stage: formal-systems
+- id: materials-science
+  title: Materials Science
+  stage: formal-systems
+- id: fluid-mechanics
+  title: Fluid Mechanics
+  stage: formal-systems
+- id: circuits-and-electronics
+  title: Circuits & Electronics
+  stage: formal-systems
+- id: control-systems
+  title: Control Systems
+  stage: advanced
