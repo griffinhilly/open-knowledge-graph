@@ -1,0 +1,20 @@
+domain: history
+title: History & Civilization
+description: The study of human societies across time, from earliest civilizations
+  to the modern world. Chronological structure provides natural ordering.
+courses:
+- id: historical-methods
+  title: Historical Methods
+  stage: abstract-reasoning
+- id: ancient-civilizations
+  title: Ancient Civilizations
+  stage: abstract-reasoning
+- id: medieval-world
+  title: Medieval World
+  stage: abstract-reasoning
+- id: early-modern-period
+  title: Early Modern Period
+  stage: abstract-reasoning
+- id: modern-history
+  title: Modern History
+  stage: abstract-reasoning
