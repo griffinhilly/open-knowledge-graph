@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: annuities-and-perpetuities
   type: hard
+- id: geometric-series
+  type: soft
 builds-toward:
 - price-earnings-valuation
 - capital-asset-pricing-model

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: exponential-growth-and-decay
   type: soft
+- id: geometric-sequences-and-series
+  type: soft
 builds-toward:
 - annuities-and-perpetuities
 tags:

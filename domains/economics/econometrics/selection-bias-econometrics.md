@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: endogeneity
   type: hard
+- id: conditional-probability
+  type: soft
+- id: probability-axioms
+  type: soft
 builds-toward:
 - difference-in-differences
 - instrumental-variables

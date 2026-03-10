@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: monetary-policy-tools
   type: hard
+- id: systems-substitution
+  type: soft
+- id: systems-graphing
+  type: soft
 builds-toward:
 - open-economy-macroeconomics
 tags:

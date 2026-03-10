@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: geometric-series
   type: soft
+- id: geometric-sequences-and-series
+  type: soft
 builds-toward:
 - bond-pricing
 - dividend-discount-model

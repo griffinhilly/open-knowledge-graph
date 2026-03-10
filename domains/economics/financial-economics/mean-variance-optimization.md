@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: expected-return-and-variance-of-assets
   type: hard
+- id: lagrange-multipliers
+  type: soft
+- id: matrices-intro
+  type: soft
+- id: optimization-problems
+  type: soft
 builds-toward:
 - efficient-frontier-portfolio-theory
 - capital-asset-pricing-model

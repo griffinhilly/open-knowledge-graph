@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: random-variables-intro
   type: hard
+- id: sequences-convergence
+  type: soft
+- id: differential-equations-intro-separable
+  type: soft
 builds-toward:
 - serial-correlation
 tags:

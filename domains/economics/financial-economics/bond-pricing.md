@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: annuities-and-perpetuities
   type: soft
+- id: geometric-series
+  type: soft
 builds-toward:
 - yield-to-maturity
 - duration-and-convexity

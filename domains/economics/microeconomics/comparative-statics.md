@@ -6,6 +6,10 @@ course: microeconomics
 prerequisites:
 - id: market-equilibrium
   type: hard
+- id: implicit-differentiation
+  type: soft
+- id: partial-derivatives
+  type: soft
 builds-toward:
 - price-elasticity-of-demand
 - consumer-surplus-microeconomics

@@ -10,6 +10,14 @@ prerequisites:
   type: hard
 - id: sampling-distributions
   type: hard
+- id: partial-derivatives
+  type: soft
+- id: probability-axioms
+  type: soft
+- id: optimization-problems
+  type: soft
+- id: natural-logarithm-and-e
+  type: soft
 builds-toward:
 - logit-probit-models
 tags:

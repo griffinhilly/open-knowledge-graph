@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: variance-of-random-variables
   type: hard
+- id: residuals-and-goodness-of-fit
+  type: soft
 builds-toward:
 - robust-standard-errors
 tags:

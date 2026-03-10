@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: quantity-theory-of-money
   type: soft
+- id: scatterplots-and-correlation
+  type: soft
 builds-toward:
 - monetary-policy-tools
 tags:

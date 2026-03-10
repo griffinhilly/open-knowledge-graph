@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gdp-components
   type: soft
+- id: geometric-series
+  type: soft
 builds-toward:
 - is-lm-model
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: correlation-coefficient
   type: hard
+- id: matrices-intro
+  type: soft
 builds-toward:
 - robust-standard-errors
 tags:

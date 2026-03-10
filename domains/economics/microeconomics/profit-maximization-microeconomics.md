@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: derivative-as-slope-of-tangent
   type: soft
+- id: optimization-problems
+  type: soft
+- id: first-derivative-test
+  type: soft
+- id: second-derivative-test
+  type: soft
 builds-toward:
 - perfect-competition
 - monopoly-microeconomics

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: random-variables-intro
   type: hard
+- id: variance-of-random-variables
+  type: soft
 builds-toward:
 - multiple-regression-model
 - heteroskedasticity

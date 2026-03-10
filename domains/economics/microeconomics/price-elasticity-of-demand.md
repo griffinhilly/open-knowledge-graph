@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: percent-increase-decrease
   type: soft
+- id: derivative-as-slope-of-tangent
+  type: soft
 builds-toward:
 - income-and-cross-price-elasticity
 - price-discrimination

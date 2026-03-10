@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: anova-one-way
   type: soft
+- id: hypothesis-testing-fundamentals
+  type: soft
 builds-toward:
 - r-squared-and-model-fit
 - multiple-regression-model

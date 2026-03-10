@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: functions-of-several-variables
   type: soft
+- id: partial-derivatives
+  type: soft
 builds-toward:
 - short-run-costs
 - long-run-costs-economies-of-scale

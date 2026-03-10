@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: risk-and-return-tradeoff
   type: hard
+- id: matrices-intro
+  type: soft
+- id: variance-of-random-variables
+  type: soft
 builds-toward:
 - capital-asset-pricing-model
 - risk-adjusted-performance-measures

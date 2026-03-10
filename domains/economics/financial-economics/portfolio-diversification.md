@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: correlation-coefficient
   type: hard
+- id: variance-of-random-variables
+  type: soft
 builds-toward:
 - mean-variance-optimization
 - efficient-frontier-portfolio-theory

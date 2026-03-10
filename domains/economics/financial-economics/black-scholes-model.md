@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: natural-logarithm-and-e
   type: soft
+- id: partial-derivatives
+  type: soft
+- id: differential-equations-intro-separable
+  type: soft
 tags:
 - black-scholes
 - options-pricing

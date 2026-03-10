@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: scarcity-and-opportunity-cost
   type: soft
+- id: exponential-growth-and-decay
+  type: soft
+- id: exponent-rules-product-power-quotient
+  type: soft
 builds-toward:
 - present-value-and-discounting
 - future-value-and-compounding

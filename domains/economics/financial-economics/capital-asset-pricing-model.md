@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: beta-and-systematic-risk
   type: hard
+- id: expected-value
+  type: soft
+- id: variance-of-random-variables
+  type: soft
+- id: linear-regression
+  type: soft
 builds-toward:
 - arbitrage-pricing-theory
 - risk-adjusted-performance-measures

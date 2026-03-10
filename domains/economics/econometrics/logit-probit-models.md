@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: maximum-likelihood-econometrics
   type: hard
+- id: normal-distribution-intro
+  type: soft
+- id: continuous-random-variables
+  type: soft
 tags:
 - logit
 - probit

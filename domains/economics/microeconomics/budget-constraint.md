@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: graphing-linear-equations
   type: soft
+- id: slope-intercept-form
+  type: soft
 builds-toward:
 - consumer-optimum
 - income-and-substitution-effects

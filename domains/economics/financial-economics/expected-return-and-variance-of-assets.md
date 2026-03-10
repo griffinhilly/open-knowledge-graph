@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: normal-distribution-intro
   type: soft
+- id: expected-value
+  type: soft
 builds-toward:
 - portfolio-diversification
 - mean-variance-optimization

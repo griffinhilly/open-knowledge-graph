@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: marginal-utility-and-consumer-choice
   type: soft
+- id: lagrange-multipliers
+  type: soft
+- id: optimization-problems
+  type: soft
 builds-toward:
 - income-and-substitution-effects
 - demand-curve-derivation

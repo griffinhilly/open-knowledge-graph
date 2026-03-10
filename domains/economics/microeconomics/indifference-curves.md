@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: budget-constraint
   type: soft
+- id: partial-derivatives
+  type: soft
+- id: implicit-differentiation
+  type: soft
 builds-toward:
 - consumer-optimum
 - income-and-substitution-effects

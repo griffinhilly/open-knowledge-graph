@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: variance-of-random-variables
   type: soft
+- id: scatterplots-and-correlation
+  type: soft
 builds-toward:
 - ols-assumptions
 - multiple-regression-model

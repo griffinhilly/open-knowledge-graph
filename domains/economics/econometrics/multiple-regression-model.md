@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: matrix-operations
   type: soft
+- id: linear-regression
+  type: soft
 builds-toward:
 - coefficient-interpretation-regression
 - f-test-joint-significance

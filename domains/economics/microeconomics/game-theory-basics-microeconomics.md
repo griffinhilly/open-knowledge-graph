@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: oligopoly-and-strategic-behavior
   type: soft
+- id: expected-value
+  type: soft
+- id: matrix-operations
+  type: soft
 builds-toward:
 - nash-equilibrium-microeconomics
 tags:

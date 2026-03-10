@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: exponential-functions-and-graphs
   type: soft
+- id: geometric-series
+  type: soft
 builds-toward:
 - net-present-value
 - bond-pricing

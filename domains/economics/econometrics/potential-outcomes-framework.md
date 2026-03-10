@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: expected-value
   type: hard
+- id: probability-axioms
+  type: soft
+- id: conditional-probability
+  type: soft
 builds-toward:
 - selection-bias-econometrics
 - difference-in-differences

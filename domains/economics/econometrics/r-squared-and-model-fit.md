@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: f-test-joint-significance
   type: soft
+- id: correlation-coefficient
+  type: soft
 builds-toward:
 - omitted-variable-bias
 - multicollinearity

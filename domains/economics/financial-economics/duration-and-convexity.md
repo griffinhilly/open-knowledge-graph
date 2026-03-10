@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: yield-to-maturity
   type: hard
+- id: derivatives-of-exponential-functions
+  type: soft
+- id: higher-order-derivatives
+  type: soft
 builds-toward:
 - term-structure-of-interest-rates
 tags:
