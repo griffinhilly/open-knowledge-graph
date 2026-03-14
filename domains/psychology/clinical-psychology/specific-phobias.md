@@ -4,14 +4,14 @@ title: Specific Phobias
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: dsm-5-diagnostic-framework
+- id: anxiety-disorders-overview
   type: hard
-builds-toward:
-- exposure-therapy-techniques
 tags:
-- anxiety
 - phobia
-- fear-conditioning
+- anxiety
+- fear
+- avoidance
+- conditioning
 stage: advanced
 status: draft
 ---
@@ -19,4 +19,4 @@ status: draft
 # Specific Phobias
 
 ## Core Idea
-Specific phobias are marked fears of circumscribed objects or situations triggering immediate anxiety and avoidance. Different subtypes (animal, situational, blood-injection-injury) have distinct etiologies and treatment considerations.
+Specific Phobias are marked, persistent fears of circumscribed objects or situations (animals, heights, flying, blood) that are disproportionate to actual danger. They develop through classical conditioning, observational learning, or information transmission and typically remain stable without treatment. Despite being among the most common anxiety disorders, many individuals adapt through avoidance rather than seeking treatment.

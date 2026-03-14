@@ -4,15 +4,18 @@ title: Bipolar I Disorder
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: dsm-5-diagnostic-framework
-  type: hard
+- id: major-depressive-disorder
+  type: soft
+- id: mood-disorder-neurobiology
+  type: soft
 builds-toward:
-- antipsychotics-clinical-applications
-- mood-stabilizers-clinical-applications
+- mood-stabilizers-anxiolytics
 tags:
 - bipolar
 - mania
-- mood-cycling
+- mood
+- cycling
+- episode
 stage: advanced
 status: draft
 ---
@@ -20,4 +23,4 @@ status: draft
 # Bipolar I Disorder
 
 ## Core Idea
-Bipolar I Disorder is defined by episodes of mania (abnormally elevated mood, increased activity, decreased sleep) alternating with depressive episodes. Manic episodes may include psychosis and represent distinct neurobiology from unipolar depression.
+Bipolar I Disorder is defined by at least one manic episode with elevated, expansive, or irritable mood, increased goal-directed activity, decreased need for sleep, racing thoughts, and risky behavior. Manic episodes represent a marked change from baseline and typically last days to weeks. Most individuals also experience depressive episodes; the unpredictable cycling creates significant psychosocial disruption in relationships, work, and finances.

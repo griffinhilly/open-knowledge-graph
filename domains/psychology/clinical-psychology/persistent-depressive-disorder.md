@@ -6,12 +6,14 @@ course: clinical-psychology
 prerequisites:
 - id: major-depressive-disorder
   type: soft
-builds-toward:
-- psychodynamic-psychotherapy-clinical
+- id: adult-development-lifespan
+  type: soft
 tags:
-- depression
 - dysthymia
+- depression
+- mood
 - chronic
+- persistent
 stage: advanced
 status: draft
 ---
@@ -19,4 +21,4 @@ status: draft
 # Persistent Depressive Disorder (Dysthymia)
 
 ## Core Idea
-Persistent Depressive Disorder involves chronic depressed mood for 2+ years with fewer symptoms than major depression but longer duration. Individuals often experience depression as baseline, affecting personality development and relationships.
+Persistent Depressive Disorder (dysthymia) is a chronic mood disturbance lasting at least two years with depressed mood most days and fewer but still significant symptoms than MDD. Many individuals experience superimposed depressive episodes (double depression). The chronicity fundamentally shapes identity, relationships, and coping; treatment must address both the chronic baseline and acute exacerbations.

@@ -1,22 +1,26 @@
 ---
 id: eating-disorders-overview
-title: 'Eating Disorders: Overview and Etiology'
+title: 'Eating Disorders: Overview and Classification'
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: dsm-5-diagnostic-framework
-  type: hard
+- id: clinical-assessment-overview
+  type: soft
+- id: cognitive-psychology-overview
+  type: soft
 builds-toward:
 - anorexia-nervosa
 - bulimia-nervosa
 tags:
 - eating-disorder
-- body-image
+- anorexia
+- bulimia
+- binge-eating
 stage: advanced
 status: draft
 ---
 
-# Eating Disorders: Overview and Etiology
+# Eating Disorders: Overview and Classification
 
 ## Core Idea
-Eating disorders involve persistent disturbances in eating behaviors and related thoughts causing physical and psychological consequences. They reflect complex interactions of genetic vulnerability, personality factors, sociocultural pressures, and psychological distress.
+Eating Disorders (Anorexia Nervosa, Bulimia Nervosa, Binge-Eating Disorder) involve maladaptive eating behaviors and related cognitions (body image disturbance, overvaluation of weight/shape control). They have the highest mortality rate of any psychiatric disorder and involve significant medical complications. Etiology includes genetic predisposition, temperamental factors (perfectionism, neuroticism), and sociocultural pressures around thinness and body ideals.

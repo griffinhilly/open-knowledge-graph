@@ -4,14 +4,15 @@ title: Alcohol Use Disorder
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: substance-use-disorders-overview
+- id: substance-use-disorder-overview
   type: hard
-builds-toward:
-- antidepressants-clinical-applications
+- id: addiction-neurobiology-dopamine
+  type: soft
 tags:
 - alcohol
 - substance-use
 - addiction
+- aud
 stage: advanced
 status: draft
 ---
@@ -19,4 +20,4 @@ status: draft
 # Alcohol Use Disorder
 
 ## Core Idea
-Alcohol Use Disorder involves problematic drinking with tolerance, withdrawal, continued use despite consequences, and impairment. Alcohol affects GABA, glutamate, and dopamine systems with significant medical and cognitive consequences.
+Alcohol Use Disorder involves problematic alcohol use with tolerance, withdrawal, unsuccessful cut-down attempts, and continued use despite harm. Alcohol is a CNS depressant affecting GABAergic and glutamatergic systems; chronic use causes neuroadaptations producing withdrawal syndrome (tremor, seizures, delirium tremens in severe cases). AUD has significant medical consequences (liver cirrhosis, cardiomyopathy, neuropathy) and major psychosocial impacts.

@@ -5,13 +5,15 @@ domain: psychology
 course: clinical-psychology
 prerequisites:
 - id: bipolar-i-disorder
+  type: hard
+- id: major-depressive-disorder
   type: soft
-builds-toward:
-- antidepressants-clinical-applications
 tags:
 - bipolar
 - hypomania
-- depression
+- mood
+- cycling
+- bipolar-ii
 stage: advanced
 status: draft
 ---
@@ -19,4 +21,4 @@ status: draft
 # Bipolar II Disorder
 
 ## Core Idea
-Bipolar II Disorder involves hypomania (less severe than mania, without psychosis) alternating with major depression. Many present primarily with depression, making accurate identification critical as antidepressant monotherapy may destabilize mood.
+Bipolar II Disorder is characterized by at least one hypomanic episode (similar to mania but shorter, typically 4 days, and without marked functional impairment or psychosis) and at least one major depressive episode. Hypomania may feel productive or creative rather than pathological, leading to underdiagnosis. In Bipolar II, depressive episodes are often more severe and frequent than the hypomanic periods.
