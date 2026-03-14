@@ -1,0 +1,2600 @@
+{
+  "quorum-sensing": [
+    "MERGE builds-toward: microbial-pathogenesis -> host-pathogen-interactions"
+  ],
+  "plot-structure": [
+    "MERGE builds-toward: narrative-arc-and-pacing -> narrative-pacing"
+  ],
+  "imagery-in-poetry": [
+    "MERGE builds-toward: extended-metaphor-in-poetry -> allegory-and-extended-metaphor",
+    "FLAG bidirectional: poetic-voice-and-tone <-> imagery-in-poetry (skipped, needs review)",
+    "ADD soft prereq: sound-devices-in-poetry (same-course)"
+  ],
+  "addition-within-100": [
+    "MERGE builds-toward: addition-within-1000 -> three-digit-addition"
+  ],
+  "fractions-of-a-set": [
+    "MERGE builds-toward: ratio-concept -> ratios"
+  ],
+  "two-digit-by-one-digit-multiplication": [
+    "MERGE builds-toward: partial-products-multiplication-3rd -> estimation-in-multiplication",
+    "ADD soft prereq: estimation-in-multiplication (same-course)"
+  ],
+  "comparing-ordering-whole-numbers": [
+    "MERGE builds-toward: number-line-integers -> integers-and-number-line"
+  ],
+  "arithmetic-sequences": [
+    "MERGE builds-toward: arithmetic-series -> arithmetic-sequences-and-series",
+    "ADD soft prereq: arithmetic-patterns-3rd (cross-course)",
+    "ADD soft prereq: function-tables (cross-course)"
+  ],
+  "direct-and-inverse-variation": [
+    "MERGE builds-toward: rational-functions -> graphing-rational-functions",
+    "REMOVE builds-toward: algebra-2-variation (vague/course-level)",
+    "ADD soft prereq: solving-proportions (cross-course)"
+  ],
+  "discriminant": [
+    "MERGE builds-toward: complex-numbers -> complex-numbers-intro",
+    "MERGE builds-toward: conic-sections -> conic-sections-overview"
+  ],
+  "geometric-sequences": [
+    "MERGE builds-toward: exponential-functions -> exponential-functions-and-graphs"
+  ],
+  "graphing-quadratics": [
+    "MERGE builds-toward: transformations-of-functions -> function-transformations",
+    "MERGE builds-toward: conic-sections -> conic-sections-overview"
+  ],
+  "operations-with-radicals": [
+    "MERGE builds-toward: complex-numbers -> complex-numbers-intro"
+  ],
+  "parallel-and-perpendicular-slopes": [
+    "MERGE builds-toward: geometry-proofs -> coordinate-geometry-proofs",
+    "REMOVE builds-toward: analytic-geometry (vague/course-level)"
+  ],
+  "quadratic-formula": [
+    "MERGE builds-toward: complex-numbers -> complex-numbers-intro",
+    "MERGE builds-toward: completing-the-square -> solving-quadratic-equations-completing-the-square",
+    "ADD soft prereq: literal-equations (same-course)",
+    "ADD soft prereq: radical-expressions-simplifying (same-course)"
+  ],
+  "radical-expressions-simplifying": [
+    "MERGE builds-toward: distance-formula -> segment-and-distance"
+  ],
+  "rational-expressions-intro": [
+    "MERGE builds-toward: rational-equations -> solving-rational-equations",
+    "MERGE builds-toward: asymptotes -> rational-functions-and-asymptotes",
+    "REMOVE builds-toward: algebra-2-rational-functions (vague/course-level)",
+    "ADD soft prereq: negative-exponents (same-course)"
+  ],
+  "vertex-form": [
+    "MERGE builds-toward: completing-the-square -> solving-quadratic-equations-completing-the-square",
+    "MERGE builds-toward: transformations-of-functions -> function-transformations"
+  ],
+  "conic-sections-circles": [
+    "MERGE builds-toward: precalculus-conics -> conic-sections-overview",
+    "ADD soft prereq: coordinate-geometry-proofs (cross-course)"
+  ],
+  "conic-sections-ellipses": [
+    "MERGE builds-toward: precalculus-conics -> conic-sections-overview"
+  ],
+  "conic-sections-hyperbolas": [
+    "MERGE builds-toward: precalculus-conics -> conic-sections-overview"
+  ],
+  "conic-sections-parabolas": [
+    "MERGE builds-toward: precalculus-conics -> conic-sections-overview",
+    "ADD soft prereq: coordinate-geometry-proofs (cross-course)"
+  ],
+  "fundamental-theorem-of-algebra": [
+    "MERGE builds-toward: precalculus-polynomial-theory -> polynomial-division-review",
+    "ADD soft prereq: graphing-polynomial-functions (same-course)",
+    "ADD soft prereq: operations-with-complex-numbers (same-course)",
+    "ADD soft prereq: rational-root-theorem (same-course)"
+  ],
+  "geometric-sequences-and-series": [
+    "MERGE builds-toward: infinite-series -> series-definition-and-partial-sums"
+  ],
+  "natural-logarithm-and-e": [
+    "MERGE builds-toward: calculus-limits -> limit-definition-intuitive",
+    "MERGE builds-toward: calculus-derivatives -> derivative-as-slope-of-tangent",
+    "ADD soft prereq: solving-exponential-equations (same-course)",
+    "ADD soft prereq: solving-logarithmic-equations (same-course)"
+  ],
+  "piecewise-functions": [
+    "MERGE builds-toward: continuity -> continuity-definition",
+    "ADD soft prereq: absolute-value-equations (cross-course)",
+    "ADD soft prereq: absolute-value-inequalities (cross-course)"
+  ],
+  "sigma-notation": [
+    "MERGE builds-toward: calculus-integrals -> riemann-sums"
+  ],
+  "sine-cosine-tangent-ratios": [
+    "MERGE builds-toward: trigonometric-functions -> trigonometric-ratios-review"
+  ],
+  "special-right-triangles-30-60-90": [
+    "MERGE builds-toward: trigonometric-functions -> trigonometric-ratios-review"
+  ],
+  "special-right-triangles-45-45-90": [
+    "MERGE builds-toward: trigonometric-functions -> trigonometric-ratios-review",
+    "ADD soft prereq: sine-cosine-tangent-ratios (same-course)"
+  ],
+  "angle-relationships": [
+    "MERGE builds-toward: geometry-angles -> angle-basics-and-classification",
+    "MERGE builds-toward: parallel-lines-transversals -> parallel-lines-and-transversals"
+  ],
+  "area-of-circles": [
+    "MERGE builds-toward: volume-of-cylinders -> volume-of-prisms-and-cylinders"
+  ],
+  "area-of-trapezoids": [
+    "MERGE builds-toward: geometry-area -> area-of-regular-polygons"
+  ],
+  "area-of-triangles": [
+    "MERGE builds-toward: geometry-area -> area-of-regular-polygons",
+    "ADD soft prereq: area-and-perimeter-problems (cross-course)",
+    "ADD soft prereq: area-rectilinear-shapes (cross-course)",
+    "ADD soft prereq: area-of-parallelograms (same-course)"
+  ],
+  "box-and-whisker-plots": [
+    "MERGE builds-toward: statistics-descriptive -> measures-of-spread",
+    "REMOVE builds-toward: data-analysis (vague/course-level)"
+  ],
+  "mean-median-mode-with-data-sets": [
+    "MERGE builds-toward: statistics-descriptive -> measures-of-spread"
+  ],
+  "percent-increase-decrease": [
+    "MERGE builds-toward: exponential-growth -> exponential-growth-and-decay"
+  ],
+  "scale-drawings-and-maps": [
+    "MERGE builds-toward: similar-figures -> similar-triangles-aa",
+    "MERGE builds-toward: geometry-similarity -> similar-triangles-aa"
+  ],
+  "simple-probability": [
+    "MERGE builds-toward: statistics-probability -> probability-axioms"
+  ],
+  "solving-proportions": [
+    "MERGE builds-toward: similar-figures -> similar-triangles-aa"
+  ],
+  "stem-and-leaf-plots": [
+    "MERGE builds-toward: histograms -> histograms-and-frequency-distributions"
+  ],
+  "surface-area-intro": [
+    "MERGE builds-toward: surface-area-prisms-cylinders -> surface-area-of-prisms",
+    "REMOVE builds-toward: geometry-3d (vague/course-level)",
+    "ADD soft prereq: area-of-parallelograms (same-course)",
+    "ADD soft prereq: area-of-trapezoids (same-course)"
+  ],
+  "volume-of-prisms": [
+    "MERGE builds-toward: volume-of-cylinders -> volume-of-prisms-and-cylinders",
+    "REMOVE builds-toward: geometry-3d (vague/course-level)"
+  ],
+  "absolute-value-inequalities": [
+    "REMOVE builds-toward: tolerance-and-error (vague/course-level)"
+  ],
+  "systems-word-problems": [
+    "REMOVE builds-toward: algebra-2-systems (vague/course-level)"
+  ],
+  "binomial-theorem": [
+    "REMOVE builds-toward: calculus-series (vague/course-level)"
+  ],
+  "matrices-intro": [
+    "REMOVE builds-toward: linear-algebra-course (vague/course-level)"
+  ],
+  "normal-distribution-intro": [
+    "REMOVE builds-toward: probability-and-statistics-course (vague/course-level)"
+  ],
+  "probability-with-combinatorics": [
+    "REMOVE builds-toward: probability-and-statistics-course (vague/course-level)",
+    "ADD soft prereq: binomial-theorem (same-course)"
+  ],
+  "solving-exponential-equations": [
+    "REMOVE builds-toward: calculus-applications (vague/course-level)",
+    "ADD soft prereq: exponential-growth-and-decay (same-course)"
+  ],
+  "solving-rational-equations": [
+    "REMOVE builds-toward: precalculus-applications (vague/course-level)",
+    "ADD soft prereq: graphing-rational-functions (same-course)",
+    "ADD soft prereq: solving-radical-equations (same-course)"
+  ],
+  "volume-of-spheres": [
+    "REMOVE builds-toward: calculus-applications (vague/course-level)"
+  ],
+  "commutative-property-multiplication": [
+    "REMOVE builds-toward: multiplication-facts-within-100 (would create cycle)"
+  ],
+  "medieval-mali-empire": [
+    "REMOVE builds-toward: trans-saharan-trade (would create cycle)"
+  ],
+  "naturalistic-observation": [
+    "REMOVE builds-toward: reliability-in-measurement (would create cycle)"
+  ],
+  "puberty-and-adolescent-physical-development": [
+    "REMOVE builds-toward: adolescent-brain-and-behavioral-development (would create cycle)"
+  ],
+  "shutdown-and-breakeven": [
+    "REMOVE builds-toward: perfect-competition (would create cycle)"
+  ],
+  "nash-equilibrium-microeconomics": [
+    "REMOVE builds-toward: oligopoly-and-strategic-behavior (would create cycle)"
+  ],
+  "f-test-joint-significance": [
+    "REMOVE builds-toward: multiple-regression-model (would create cycle)"
+  ],
+  "demand-curve-derivation": [
+    "REMOVE builds-toward: price-elasticity-of-demand (would create cycle)"
+  ],
+  "biostatistics-in-public-health": [
+    "REMOVE builds-toward: epidemiologic-study-designs (would create cycle)"
+  ],
+  "chain-rule-multivariable": [
+    "REMOVE builds-toward: gradient-vector (would create cycle)"
+  ],
+  "two-stage-least-squares": [
+    "REMOVE builds-toward: causal-inference-econometrics (would create cycle)"
+  ],
+  "paleography-and-document-reading": [
+    "REMOVE builds-toward: source-criticism (would create cycle)"
+  ],
+  "volcanoes-and-volcanism": [
+    "REMOVE builds-toward: rock-cycle (would create cycle)"
+  ],
+  "art-history-iconography": [
+    "ADD soft prereq: ancient-egyptian-art (same-course)",
+    "ADD soft prereq: ancient-greek-art (same-course)"
+  ],
+  "art-history-patronage": [
+    "ADD soft prereq: byzantine-and-medieval-art (same-course)",
+    "ADD soft prereq: renaissance-humanism-and-art (same-course)"
+  ],
+  "neoclassicism-and-romanticism": [
+    "ADD soft prereq: dutch-golden-age-painting (same-course)"
+  ],
+  "art-history-style-and-period": [
+    "ADD soft prereq: non-western-art-traditions (same-course)"
+  ],
+  "responsive-design-principles": [
+    "ADD soft prereq: accessibility-in-design (same-course)",
+    "FLAG bidirectional: design-systems-and-consistency <-> responsive-design-principles (skipped, needs review)",
+    "ADD soft prereq: print-vs-digital-design-contexts (same-course)",
+    "FLAG bidirectional: user-centered-design-thinking <-> responsive-design-principles (skipped, needs review)"
+  ],
+  "design-systems-and-consistency": [
+    "ADD soft prereq: accessibility-in-design (same-course)",
+    "ADD soft prereq: alignment-and-proximity-in-layout (same-course)",
+    "ADD soft prereq: logo-design-principles (same-course)",
+    "ADD soft prereq: print-vs-digital-design-contexts (same-course)",
+    "FLAG bidirectional: responsive-design-principles <-> design-systems-and-consistency (skipped, needs review)",
+    "ADD soft prereq: user-centered-design-thinking (same-course)"
+  ],
+  "type-pairing-and-hierarchy": [
+    "ADD soft prereq: alignment-and-proximity-in-layout (same-course)"
+  ],
+  "ui-design-fundamentals": [
+    "ADD soft prereq: alignment-and-proximity-in-layout (same-course)",
+    "ADD soft prereq: color-theory-in-design (same-course)",
+    "ADD soft prereq: icon-and-symbol-design (same-course)"
+  ],
+  "print-vs-digital-design-contexts": [
+    "ADD soft prereq: branding-and-identity-design (same-course)",
+    "ADD soft prereq: type-pairing-and-hierarchy (same-course)"
+  ],
+  "visual-hierarchy-in-design": [
+    "ADD soft prereq: gestalt-principles-in-design (same-course)",
+    "ADD soft prereq: whitespace-and-breathing-room (same-course)"
+  ],
+  "accessibility-in-design": [
+    "ADD soft prereq: icon-and-symbol-design (same-course)"
+  ],
+  "user-centered-design-thinking": [
+    "FLAG bidirectional: responsive-design-principles <-> user-centered-design-thinking (skipped, needs review)"
+  ],
+  "branding-and-identity-design": [
+    "ADD soft prereq: type-pairing-and-hierarchy (same-course)"
+  ],
+  "grid-systems-and-layout": [
+    "ADD soft prereq: whitespace-and-breathing-room (same-course)"
+  ],
+  "plein-air-painting": [
+    "ADD soft prereq: acrylic-painting-fundamentals (same-course)",
+    "ADD soft prereq: oil-painting-basics (same-course)"
+  ],
+  "still-life-composition": [
+    "ADD soft prereq: charcoal-drawing (same-course)",
+    "FLAG bidirectional: chiaroscuro <-> still-life-composition (skipped, needs review)",
+    "ADD soft prereq: compositional-sketching (same-course)",
+    "ADD soft prereq: one-point-perspective (same-course)",
+    "ADD soft prereq: two-point-perspective (same-course)"
+  ],
+  "figure-drawing-fundamentals": [
+    "ADD soft prereq: charcoal-drawing (same-course)"
+  ],
+  "portraiture-fundamentals": [
+    "FLAG bidirectional: chiaroscuro <-> portraiture-fundamentals (skipped, needs review)",
+    "ADD soft prereq: compositional-sketching (same-course)"
+  ],
+  "observational-drawing-practice": [
+    "ADD soft prereq: gesture-drawing (same-course)"
+  ],
+  "chiaroscuro": [
+    "FLAG bidirectional: portraiture-fundamentals <-> chiaroscuro (skipped, needs review)",
+    "FLAG bidirectional: still-life-composition <-> chiaroscuro (skipped, needs review)"
+  ],
+  "watercolor-techniques": [
+    "ADD soft prereq: still-life-composition (same-course)"
+  ],
+  "foreshortening": [
+    "ADD soft prereq: two-point-perspective (same-course)"
+  ],
+  "unity-and-variety": [
+    "ADD soft prereq: atmospheric-perspective (same-course)",
+    "ADD soft prereq: texture-in-art (same-course)"
+  ],
+  "color-temperature": [
+    "ADD soft prereq: color-mixing (same-course)"
+  ],
+  "value-and-tone": [
+    "ADD soft prereq: color-mixing (same-course)",
+    "ADD soft prereq: color-temperature (same-course)"
+  ],
+  "color-relationships": [
+    "ADD soft prereq: color-temperature (same-course)"
+  ],
+  "atmospheric-perspective": [
+    "ADD soft prereq: light-and-shadow (same-course)"
+  ],
+  "emphasis-and-focal-point": [
+    "ADD soft prereq: light-and-shadow (same-course)",
+    "ADD soft prereq: proportion-and-scale (same-course)"
+  ],
+  "balance-in-composition": [
+    "ADD soft prereq: proportion-and-scale (same-course)"
+  ],
+  "contrast-in-design": [
+    "ADD soft prereq: texture-in-art (same-course)"
+  ],
+  "shape-and-form": [
+    "ADD soft prereq: value-and-tone (same-course)"
+  ],
+  "photosynthesis-overview": [
+    "ADD soft prereq: atp-synthesis (same-course)"
+  ],
+  "mitosis": [
+    "ADD soft prereq: cell-cycle-regulation (same-course)"
+  ],
+  "cell-cycle-regulation": [
+    "ADD soft prereq: cell-signaling-intro (same-course)"
+  ],
+  "meiosis": [
+    "ADD soft prereq: cytokinesis (same-course)"
+  ],
+  "active-transport": [
+    "ADD soft prereq: endoplasmic-reticulum-and-golgi (same-course)"
+  ],
+  "cell-signaling-intro": [
+    "ADD soft prereq: endoplasmic-reticulum-and-golgi (same-course)"
+  ],
+  "speciation": [
+    "ADD soft prereq: adaptation-and-fitness (same-course)",
+    "ADD soft prereq: hardy-weinberg-equilibrium (same-course)"
+  ],
+  "island-biogeography": [
+    "FLAG bidirectional: biodiversity-metrics <-> island-biogeography (skipped, needs review)"
+  ],
+  "molecular-evolution": [
+    "FLAG bidirectional: cladistics-and-systematics <-> molecular-evolution (skipped, needs review)",
+    "ADD soft prereq: hardy-weinberg-equilibrium (same-course)"
+  ],
+  "keystone-species": [
+    "ADD soft prereq: ecological-succession (same-course)",
+    "FLAG bidirectional: trophic-levels-and-food-webs <-> keystone-species (skipped, needs review)"
+  ],
+  "biodiversity-metrics": [
+    "ADD soft prereq: ecological-succession (same-course)",
+    "FLAG bidirectional: island-biogeography <-> biodiversity-metrics (skipped, needs review)"
+  ],
+  "biodiversity-and-conservation": [
+    "ADD soft prereq: ecosystem-services (same-course)"
+  ],
+  "trophic-levels-and-food-webs": [
+    "FLAG bidirectional: keystone-species <-> trophic-levels-and-food-webs (skipped, needs review)",
+    "ADD soft prereq: species-interactions (same-course)"
+  ],
+  "predator-prey-dynamics": [
+    "ADD soft prereq: life-history-strategies (same-course)"
+  ],
+  "cladistics-and-systematics": [
+    "FLAG bidirectional: molecular-evolution <-> cladistics-and-systematics (skipped, needs review)"
+  ],
+  "species-interactions": [
+    "ADD soft prereq: predator-prey-dynamics (same-course)"
+  ],
+  "community-ecology-intro": [
+    "ADD soft prereq: predator-prey-dynamics (same-course)"
+  ],
+  "genetic-mapping": [
+    "ADD soft prereq: sex-linked-inheritance (same-course)"
+  ],
+  "non-mendelian-inheritance": [
+    "ADD soft prereq: sex-linked-inheritance (same-course)"
+  ],
+  "gene-regulation-prokaryotes": [
+    "ADD soft prereq: translation (same-course)"
+  ],
+  "gene-regulation-eukaryotes": [
+    "ADD soft prereq: translation (same-course)"
+  ],
+  "infectious-disease-epidemiology": [
+    "ADD soft prereq: antibiotic-resistance-mechanisms (same-course)"
+  ],
+  "microbial-fermentation": [
+    "ADD soft prereq: bacterial-growth-and-reproduction (same-course)"
+  ],
+  "microbial-ecology-overview": [
+    "ADD soft prereq: bacterial-growth-and-reproduction (same-course)",
+    "ADD soft prereq: fungal-biology-overview (same-course)"
+  ],
+  "antibiotic-resistance-mechanisms": [
+    "ADD soft prereq: biofilm-formation (same-course)"
+  ],
+  "human-microbiome": [
+    "ADD soft prereq: biofilm-formation (same-course)"
+  ],
+  "diagnostic-microbiology": [
+    "ADD soft prereq: biofilm-formation (same-course)",
+    "ADD soft prereq: sterilization-and-disinfection (same-course)"
+  ],
+  "microbial-biotechnology": [
+    "ADD soft prereq: fungal-biology-overview (same-course)",
+    "ADD soft prereq: nitrogen-fixation-microbiology (same-course)"
+  ],
+  "emerging-infectious-diseases": [
+    "ADD soft prereq: human-microbiome (same-course)"
+  ],
+  "nitrogen-fixation-microbiology": [
+    "ADD soft prereq: microbial-ecology-overview (same-course)"
+  ],
+  "host-pathogen-interactions": [
+    "ADD soft prereq: viral-replication-cycle (same-course)"
+  ],
+  "hypothalamus-pituitary-axis": [
+    "ADD soft prereq: hormone-signaling-mechanisms (same-course)"
+  ],
+  "adaptive-immune-response": [
+    "ADD soft prereq: positive-feedback-mechanisms (same-course)"
+  ],
+  "inflammation-and-wound-healing": [
+    "ADD soft prereq: positive-feedback-mechanisms (same-course)"
+  ],
+  "nervous-system-overview": [
+    "ADD soft prereq: synaptic-transmission (same-course)"
+  ],
+  "titrimetric-analysis-intro": [
+    "ADD soft prereq: gravimetric-analysis (same-course)"
+  ],
+  "gravimetric-analysis": [
+    "ADD soft prereq: sample-preparation (same-course)"
+  ],
+  "atomic-absorption-spectroscopy": [
+    "ADD soft prereq: sample-preparation (same-course)"
+  ],
+  "chromatography-fundamentals": [
+    "ADD soft prereq: sample-preparation (same-course)"
+  ],
+  "chemical-equilibrium": [
+    "ADD soft prereq: entropy-and-gibbs-free-energy (same-course)"
+  ],
+  "thermochemistry-enthalpy": [
+    "ADD soft prereq: gas-stoichiometry (same-course)"
+  ],
+  "solution-concentration": [
+    "ADD soft prereq: intermolecular-forces (same-course)"
+  ],
+  "electrochemistry-basics": [
+    "ADD soft prereq: metallic-bonding (same-course)"
+  ],
+  "carbonyl-chemistry-intro": [
+    "ADD soft prereq: alcohol-reactions (same-course)",
+    "ADD soft prereq: alcohols-and-ethers (same-course)"
+  ],
+  "amines-structure-and-properties": [
+    "ADD soft prereq: carboxylic-acids-and-derivatives (same-course)",
+    "ADD soft prereq: nucleophilic-acyl-substitution (same-course)"
+  ],
+  "stereochemistry-intro": [
+    "ADD soft prereq: cycloalkanes (same-course)"
+  ],
+  "sn1-reaction": [
+    "ADD soft prereq: diastereomers-and-meso-compounds (same-course)"
+  ],
+  "sn2-reaction": [
+    "ADD soft prereq: diastereomers-and-meso-compounds (same-course)"
+  ],
+  "alcohols-and-ethers": [
+    "ADD soft prereq: e1-elimination (same-course)",
+    "ADD soft prereq: sn1-reaction (same-course)",
+    "ADD soft prereq: sn2-reaction (same-course)"
+  ],
+  "aromatic-compounds-intro": [
+    "ADD soft prereq: electrophilic-addition-to-alkenes (same-course)"
+  ],
+  "nucleophilic-acyl-substitution": [
+    "FLAG bidirectional: enols-and-enolate-chemistry <-> nucleophilic-acyl-substitution (skipped, needs review)"
+  ],
+  "functional-groups-overview": [
+    "ADD soft prereq: iupac-nomenclature-alkanes (same-course)"
+  ],
+  "enols-and-enolate-chemistry": [
+    "FLAG bidirectional: nucleophilic-acyl-substitution <-> enols-and-enolate-chemistry (skipped, needs review)"
+  ],
+  "carboxylic-acids-and-derivatives": [
+    "ADD soft prereq: nucleophilic-addition-to-carbonyls (same-course)"
+  ],
+  "vibrational-spectroscopy-theory": [
+    "ADD soft prereq: born-oppenheimer-approximation (same-course)",
+    "ADD soft prereq: rotational-spectroscopy (same-course)"
+  ],
+  "electronic-spectroscopy-theory": [
+    "ADD soft prereq: huckel-molecular-orbital-theory (same-course)",
+    "ADD soft prereq: vibrational-modes-and-symmetry (same-course)"
+  ],
+  "transport-phenomena-gases": [
+    "ADD soft prereq: intermolecular-potential-models (same-course)"
+  ],
+  "cpu-datapath": [
+    "ADD soft prereq: assembly-language-basics (same-course)",
+    "ADD soft prereq: encoder-decoder-circuits (same-course)",
+    "ADD soft prereq: sequential-circuit-design (same-course)"
+  ],
+  "memory-organization": [
+    "ADD soft prereq: assembly-language-basics (same-course)",
+    "ADD soft prereq: encoder-decoder-circuits (same-course)"
+  ],
+  "pipelining-fundamentals": [
+    "ADD soft prereq: cpu-control-unit (same-course)"
+  ],
+  "arithmetic-logic-unit": [
+    "ADD soft prereq: floating-point-representation (same-course)"
+  ],
+  "registers-and-register-files": [
+    "ADD soft prereq: multiplexers-and-demultiplexers (same-course)"
+  ],
+  "cpu-control-unit": [
+    "ADD soft prereq: sequential-circuit-design (same-course)"
+  ],
+  "adder-circuits": [
+    "ADD soft prereq: twos-complement (same-course)"
+  ],
+  "hash-tables": [
+    "ADD soft prereq: amortized-analysis (same-course)"
+  ],
+  "binary-search-trees": [
+    "ADD soft prereq: binary-search-algorithm (same-course)"
+  ],
+  "divide-and-conquer-strategy": [
+    "ADD soft prereq: binary-search-algorithm (same-course)"
+  ],
+  "topological-sort": [
+    "ADD soft prereq: breadth-first-search (same-course)"
+  ],
+  "union-find": [
+    "ADD soft prereq: depth-first-search (same-course)"
+  ],
+  "dijkstras-algorithm": [
+    "ADD soft prereq: greedy-algorithms (same-course)"
+  ],
+  "dynamic-programming-intro": [
+    "ADD soft prereq: topological-sort (same-course)"
+  ],
+  "depth-first-search": [
+    "ADD soft prereq: tree-traversals (same-course)"
+  ],
+  "breadth-first-search": [
+    "ADD soft prereq: tree-traversals (same-course)"
+  ],
+  "indexing-concepts": [
+    "ADD soft prereq: database-schema-design (same-course)"
+  ],
+  "database-security": [
+    "ADD soft prereq: database-schema-design (same-course)"
+  ],
+  "primary-and-foreign-keys": [
+    "ADD soft prereq: entity-relationship-diagrams (same-course)"
+  ],
+  "query-optimization": [
+    "ADD soft prereq: hash-indexes (same-course)",
+    "ADD soft prereq: sql-joins (same-course)",
+    "ADD soft prereq: sql-views (same-course)"
+  ],
+  "cap-theorem": [
+    "ADD soft prereq: key-value-stores (same-course)"
+  ],
+  "sql-select-basics": [
+    "ADD soft prereq: relational-algebra (same-course)"
+  ],
+  "query-execution-plans": [
+    "ADD soft prereq: sql-aggregation (same-course)",
+    "ADD soft prereq: sql-joins (same-course)",
+    "ADD soft prereq: sql-subqueries (same-course)"
+  ],
+  "file-system-implementation": [
+    "ADD soft prereq: directory-structures (same-course)"
+  ],
+  "io-management": [
+    "FLAG bidirectional: disk-scheduling <-> io-management (skipped, needs review)"
+  ],
+  "disk-scheduling": [
+    "FLAG bidirectional: io-management <-> disk-scheduling (skipped, needs review)"
+  ],
+  "string-operations": [
+    "ADD soft prereq: basic-input-output (same-course)",
+    "ADD soft prereq: type-conversion (same-course)"
+  ],
+  "algorithm-design-basics": [
+    "ADD soft prereq: debugging-basics (same-course)",
+    "ADD soft prereq: list-comprehensions (same-course)",
+    "ADD soft prereq: methods-and-attributes (same-course)",
+    "ADD soft prereq: nested-loops (same-course)"
+  ],
+  "list-comprehensions": [
+    "ADD soft prereq: nested-loops (same-course)"
+  ],
+  "basic-input-output": [
+    "ADD soft prereq: string-basics (same-course)",
+    "ADD soft prereq: type-conversion (same-course)"
+  ],
+  "error-handling-exceptions": [
+    "ADD soft prereq: type-conversion (same-course)"
+  ],
+  "turing-machines": [
+    "ADD soft prereq: cfg-pda-equivalence (same-course)",
+    "ADD soft prereq: pumping-lemma-cfl (same-course)"
+  ],
+  "decidability": [
+    "ADD soft prereq: church-turing-thesis (same-course)",
+    "ADD soft prereq: turing-machine-variants (same-course)"
+  ],
+  "halting-problem": [
+    "ADD soft prereq: church-turing-thesis (same-course)"
+  ],
+  "pumping-lemma-cfl": [
+    "ADD soft prereq: closure-properties-cfl (same-course)"
+  ],
+  "pumping-lemma-regular": [
+    "ADD soft prereq: closure-properties-regular (same-course)"
+  ],
+  "pushdown-automata": [
+    "ADD soft prereq: context-free-grammars (same-course)"
+  ],
+  "undecidability-reductions": [
+    "ADD soft prereq: recognizability-vs-decidability (same-course)"
+  ],
+  "stellar-end-states": [
+    "ADD soft prereq: binary-stars-and-stellar-systems (same-course)"
+  ],
+  "telescopes-and-observing-methods": [
+    "ADD soft prereq: celestial-coordinates (same-course)"
+  ],
+  "dark-matter-and-dark-energy": [
+    "ADD soft prereq: milky-way-structure (same-course)"
+  ],
+  "planetary-formation": [
+    "FLAG bidirectional: nebulae-and-star-formation <-> planetary-formation (skipped, needs review)"
+  ],
+  "nebulae-and-star-formation": [
+    "FLAG bidirectional: planetary-formation <-> nebulae-and-star-formation (skipped, needs review)"
+  ],
+  "stellar-spectral-classification": [
+    "ADD soft prereq: telescopes-and-observing-methods (same-course)"
+  ],
+  "stellar-properties-luminosity-temperature": [
+    "ADD soft prereq: telescopes-and-observing-methods (same-course)"
+  ],
+  "stratigraphy": [
+    "FLAG bidirectional: radiometric-dating <-> stratigraphy (skipped, needs review)"
+  ],
+  "fossils-and-paleontology": [
+    "ADD soft prereq: radiometric-dating (same-course)"
+  ],
+  "hydrogeology-groundwater": [
+    "ADD soft prereq: soil-formation (same-course)"
+  ],
+  "radiometric-dating": [
+    "FLAG bidirectional: stratigraphy <-> radiometric-dating (skipped, needs review)"
+  ],
+  "severe-weather-systems": [
+    "ADD soft prereq: air-masses-and-fronts (same-course)",
+    "ADD soft prereq: precipitation-types-and-processes (same-course)",
+    "ADD soft prereq: weather-map-analysis (same-course)"
+  ],
+  "feedback-mechanisms-in-climate": [
+    "ADD soft prereq: anthropogenic-climate-forcing (same-course)"
+  ],
+  "ocean-atmosphere-interactions": [
+    "ADD soft prereq: climate-zones-and-biomes (same-course)"
+  ],
+  "climate-change-science": [
+    "ADD soft prereq: climate-zones-and-biomes (same-course)"
+  ],
+  "paleoclimatology": [
+    "ADD soft prereq: ocean-atmosphere-interactions (same-course)"
+  ],
+  "thunderstorms-and-lightning": [
+    "ADD soft prereq: precipitation-types-and-processes (same-course)"
+  ],
+  "el-nino-southern-oscillation": [
+    "ADD soft prereq: ocean-gyres-and-boundary-currents (same-course)",
+    "ADD soft prereq: ocean-upwelling (same-course)"
+  ],
+  "sea-level-change": [
+    "ADD soft prereq: polar-oceanography (same-course)"
+  ],
+  "bivariate-regression": [
+    "ADD soft prereq: econometrics-intro (same-course)"
+  ],
+  "robust-standard-errors": [
+    "ADD soft prereq: multicollinearity (same-course)"
+  ],
+  "omitted-variable-bias": [
+    "ADD soft prereq: r-squared-and-model-fit (same-course)"
+  ],
+  "multicollinearity": [
+    "ADD soft prereq: r-squared-and-model-fit (same-course)"
+  ],
+  "panel-data-basics": [
+    "ADD soft prereq: robust-standard-errors (same-course)"
+  ],
+  "difference-in-differences": [
+    "ADD soft prereq: selection-bias-econometrics (same-course)"
+  ],
+  "instrumental-variables": [
+    "ADD soft prereq: selection-bias-econometrics (same-course)"
+  ],
+  "serial-correlation": [
+    "ADD soft prereq: stationarity-and-unit-roots (same-course)"
+  ],
+  "risk-adjusted-performance-measures": [
+    "ADD soft prereq: arbitrage-pricing-theory (same-course)",
+    "ADD soft prereq: market-anomalies-and-puzzles (same-course)"
+  ],
+  "price-earnings-valuation": [
+    "ADD soft prereq: dividend-discount-model (same-course)"
+  ],
+  "capital-asset-pricing-model": [
+    "ADD soft prereq: dividend-discount-model (same-course)"
+  ],
+  "term-structure-of-interest-rates": [
+    "ADD soft prereq: duration-and-convexity (same-course)"
+  ],
+  "annuities-and-perpetuities": [
+    "ADD soft prereq: future-value-and-compounding (same-course)"
+  ],
+  "efficient-market-hypothesis": [
+    "ADD soft prereq: price-earnings-valuation (same-course)"
+  ],
+  "market-anomalies-and-puzzles": [
+    "ADD soft prereq: price-earnings-valuation (same-course)"
+  ],
+  "risk-and-return-tradeoff": [
+    "ADD soft prereq: stock-valuation-fundamentals (same-course)",
+    "ADD soft prereq: term-structure-of-interest-rates (same-course)",
+    "ADD soft prereq: yield-to-maturity (same-course)"
+  ],
+  "fiscal-policy-macroeconomics": [
+    "ADD soft prereq: business-cycles (same-course)"
+  ],
+  "monetary-policy-tools": [
+    "ADD soft prereq: business-cycles (same-course)",
+    "ADD soft prereq: inflation-and-price-level (same-course)",
+    "FLAG bidirectional: phillips-curve <-> monetary-policy-tools (skipped, needs review)",
+    "ADD soft prereq: quantity-theory-of-money (same-course)"
+  ],
+  "is-lm-model": [
+    "ADD soft prereq: fiscal-multiplier (same-course)"
+  ],
+  "as-ad-model": [
+    "ADD soft prereq: inflation-and-price-level (same-course)"
+  ],
+  "fiscal-multiplier": [
+    "ADD soft prereq: interest-rates-and-loanable-funds (same-course)"
+  ],
+  "phillips-curve": [
+    "FLAG bidirectional: monetary-policy-tools <-> phillips-curve (skipped, needs review)"
+  ],
+  "interest-rates-and-loanable-funds": [
+    "ADD soft prereq: money-supply-and-money-creation (same-course)"
+  ],
+  "economic-growth-theory": [
+    "ADD soft prereq: real-vs-nominal-gdp (same-course)"
+  ],
+  "supply-and-demand-basics": [
+    "ADD soft prereq: comparative-advantage-and-trade (same-course)",
+    "ADD soft prereq: production-possibilities-frontier (same-course)"
+  ],
+  "price-elasticity-of-demand": [
+    "ADD soft prereq: comparative-statics (same-course)"
+  ],
+  "consumer-surplus-microeconomics": [
+    "ADD soft prereq: comparative-statics (same-course)",
+    "ADD soft prereq: price-elasticity-of-demand (same-course)"
+  ],
+  "consumer-theory-utility": [
+    "ADD soft prereq: income-and-cross-price-elasticity (same-course)"
+  ],
+  "profit-maximization-microeconomics": [
+    "ADD soft prereq: long-run-costs-economies-of-scale (same-course)"
+  ],
+  "indifference-curves": [
+    "ADD soft prereq: marginal-utility-and-consumer-choice (same-course)"
+  ],
+  "budget-constraint": [
+    "ADD soft prereq: marginal-utility-and-consumer-choice (same-course)"
+  ],
+  "externalities-and-market-failure": [
+    "ADD soft prereq: nash-equilibrium-microeconomics (same-course)",
+    "ADD soft prereq: natural-monopoly (same-course)"
+  ],
+  "public-goods-and-common-resources": [
+    "ADD soft prereq: natural-monopoly (same-course)"
+  ],
+  "monopoly-microeconomics": [
+    "ADD soft prereq: perfect-competition (same-course)",
+    "ADD soft prereq: shutdown-and-breakeven (same-course)"
+  ],
+  "welfare-analysis-microeconomics": [
+    "ADD soft prereq: perfect-competition (same-course)",
+    "ADD soft prereq: price-discrimination (same-course)"
+  ],
+  "bjt-transistor-fundamentals": [
+    "ADD soft prereq: diode-circuit-applications (same-course)"
+  ],
+  "operational-amplifier-fundamentals": [
+    "ADD soft prereq: mosfet-transistor-fundamentals (same-course)"
+  ],
+  "mesh-current-method": [
+    "ADD soft prereq: node-voltage-method (same-course)"
+  ],
+  "lead-lag-compensators": [
+    "ADD soft prereq: pid-control (same-course)"
+  ],
+  "gain-and-phase-margins": [
+    "ADD soft prereq: routh-hurwitz-criterion (same-course)"
+  ],
+  "controllability-and-observability": [
+    "ADD soft prereq: state-transition-matrix (same-course)"
+  ],
+  "steady-state-error-analysis": [
+    "ADD soft prereq: time-domain-response-second-order (same-course)"
+  ],
+  "routh-hurwitz-criterion": [
+    "ADD soft prereq: time-domain-response-second-order (same-course)"
+  ],
+  "hydrostatic-forces-on-surfaces": [
+    "ADD soft prereq: buoyancy-and-archimedes (same-course)"
+  ],
+  "pipe-system-losses": [
+    "ADD soft prereq: control-volume-momentum (same-course)"
+  ],
+  "hydraulic-machinery-intro": [
+    "ADD soft prereq: control-volume-momentum (same-course)"
+  ],
+  "control-volume-momentum": [
+    "ADD soft prereq: hydrostatic-forces-on-surfaces (same-course)"
+  ],
+  "potential-flow-theory": [
+    "ADD soft prereq: navier-stokes-equations (same-course)"
+  ],
+  "drag-and-lift-aerodynamics": [
+    "ADD soft prereq: potential-flow-theory (same-course)"
+  ],
+  "heat-treatment-of-steels": [
+    "ADD soft prereq: thermal-properties-of-materials (same-course)"
+  ],
+  "equilibrium-rigid-bodies": [
+    "ADD soft prereq: equilibrium-particles-3d (same-course)"
+  ],
+  "support-reactions-beams": [
+    "ADD soft prereq: equivalent-force-systems (same-course)"
+  ],
+  "dry-friction-coulombs-law": [
+    "ADD soft prereq: frames-machines-analysis (same-course)"
+  ],
+  "frames-machines-analysis": [
+    "ADD soft prereq: truss-method-of-sections (same-course)"
+  ],
+  "impulse-momentum-particles": [
+    "ADD soft prereq: work-energy-particles (same-course)"
+  ],
+  "limits-and-colimits": [
+    "FLAG bidirectional: adjoint-functors <-> limits-and-colimits (skipped, needs review)",
+    "ADD soft prereq: comma-categories (same-course)"
+  ],
+  "adjoint-functors": [
+    "ADD soft prereq: comma-categories (same-course)",
+    "ADD soft prereq: initial-and-terminal-objects (same-course)",
+    "FLAG bidirectional: limits-and-colimits <-> adjoint-functors (skipped, needs review)",
+    "ADD soft prereq: products-and-coproducts (same-course)",
+    "ADD soft prereq: pullbacks-and-pushouts (same-course)",
+    "ADD soft prereq: yoneda-lemma (same-course)"
+  ],
+  "representable-functors": [
+    "ADD soft prereq: full-and-faithful-functors (same-course)",
+    "ADD soft prereq: functor-categories (same-course)"
+  ],
+  "yoneda-lemma": [
+    "ADD soft prereq: full-and-faithful-functors (same-course)",
+    "ADD soft prereq: limits-and-colimits (same-course)"
+  ],
+  "equalizers-and-coequalizers": [
+    "ADD soft prereq: products-and-coproducts (same-course)"
+  ],
+  "equivalence-of-categories": [
+    "ADD soft prereq: yoneda-lemma (same-course)"
+  ],
+  "general-recursive-functions": [
+    "ADD soft prereq: lambda-calculus (same-course)"
+  ],
+  "re-and-co-re-languages": [
+    "ADD soft prereq: rices-theorem (same-course)"
+  ],
+  "natural-deduction-fol": [
+    "ADD soft prereq: first-order-semantics (same-course)"
+  ],
+  "model-theory-basics": [
+    "ADD soft prereq: fol-compactness (same-course)",
+    "ADD soft prereq: propositional-compactness (same-course)"
+  ],
+  "intuitionistic-logic-intro": [
+    "ADD soft prereq: godels-incompleteness-theorems (same-course)"
+  ],
+  "propositional-soundness-completeness": [
+    "ADD soft prereq: sequent-calculus-intro (same-course)"
+  ],
+  "infinite-cardinal-numbers": [
+    "ADD soft prereq: axiom-of-power-set (same-course)",
+    "ADD soft prereq: transfinite-induction (same-course)",
+    "ADD soft prereq: transfinite-recursion (same-course)"
+  ],
+  "von-neumann-ordinals": [
+    "ADD soft prereq: axiom-of-replacement (same-course)",
+    "ADD soft prereq: axiom-of-separation (same-course)"
+  ],
+  "cofinality-and-regular-cardinals": [
+    "ADD soft prereq: cantor-theorem (same-course)"
+  ],
+  "well-ordering-theorem": [
+    "ADD soft prereq: transfinite-induction (same-course)"
+  ],
+  "cardinal-arithmetic": [
+    "ADD soft prereq: zorns-lemma (same-course)"
+  ],
+  "endocrine-glands-and-hormones": [
+    "FLAG bidirectional: bone-remodeling-and-homeostasis <-> endocrine-glands-and-hormones (skipped, needs review)"
+  ],
+  "fluid-balance-and-electrolytes": [
+    "ADD soft prereq: bone-remodeling-and-homeostasis (same-course)"
+  ],
+  "bone-remodeling-and-homeostasis": [
+    "FLAG bidirectional: endocrine-glands-and-hormones <-> bone-remodeling-and-homeostasis (skipped, needs review)",
+    "ADD soft prereq: fat-soluble-vitamins (cross-course)"
+  ],
+  "muscular-system-anatomy": [
+    "ADD soft prereq: skeletal-system-anatomy (same-course)"
+  ],
+  "moral-development-in-children": [
+    "FLAG bidirectional: adolescent-brain-and-behavioral-development <-> moral-development-in-children (skipped, needs review)"
+  ],
+  "school-age-cognitive-and-social-development": [
+    "ADD soft prereq: moral-development-in-children (same-course)",
+    "ADD soft prereq: parenting-styles-and-outcomes-child-dev (same-course)",
+    "ADD soft prereq: play-types-and-developmental-functions (same-course)"
+  ],
+  "adolescent-brain-and-behavioral-development": [
+    "FLAG bidirectional: moral-development-in-children <-> adolescent-brain-and-behavioral-development (skipped, needs review)",
+    "ADD soft prereq: parenting-styles-and-outcomes-child-dev (same-course)"
+  ],
+  "toddler-social-emotional-development": [
+    "ADD soft prereq: play-types-and-developmental-functions (same-course)"
+  ],
+  "developmental-screening-and-assessment": [
+    "ADD soft prereq: school-age-cognitive-and-social-development (same-course)",
+    "ADD soft prereq: teratogens-and-prenatal-risk (same-course)"
+  ],
+  "energy-metabolism-and-calories": [
+    "ADD soft prereq: carbohydrate-structure-and-function (same-course)",
+    "ADD soft prereq: dietary-fats-and-lipids (same-course)"
+  ],
+  "nutritional-deficiency-disorders": [
+    "ADD soft prereq: dietary-fiber-and-gut-health (same-course)",
+    "ADD soft prereq: dietary-protein-and-amino-acids (same-course)"
+  ],
+  "obesity-and-metabolic-syndrome": [
+    "ADD soft prereq: dietary-fiber-and-gut-health (same-course)",
+    "ADD soft prereq: nutritional-assessment-methods (same-course)"
+  ],
+  "nutritional-assessment-methods": [
+    "ADD soft prereq: energy-balance-and-body-composition (same-course)"
+  ],
+  "malnutrition-and-undernutrition": [
+    "ADD soft prereq: nutritional-assessment-methods (same-course)"
+  ],
+  "sports-nutrition-basics": [
+    "ADD soft prereq: water-soluble-vitamins (same-course)"
+  ],
+  "chronic-disease-epidemiology": [
+    "ADD soft prereq: disease-prevention-levels (same-course)"
+  ],
+  "health-policy-and-advocacy": [
+    "ADD soft prereq: environmental-health-determinants (same-course)",
+    "ADD soft prereq: health-promotion-models (same-course)",
+    "ADD soft prereq: herd-immunity-and-vaccination (same-course)",
+    "ADD soft prereq: one-health-framework (same-course)",
+    "ADD soft prereq: public-health-ethics (same-course)",
+    "ADD soft prereq: screening-and-early-detection (same-course)"
+  ],
+  "screening-and-early-detection": [
+    "ADD soft prereq: health-promotion-models (same-course)",
+    "ADD soft prereq: public-health-ethics (same-course)"
+  ],
+  "global-burden-of-disease": [
+    "ADD soft prereq: herd-immunity-and-vaccination (same-course)",
+    "ADD soft prereq: infectious-disease-surveillance (same-course)",
+    "ADD soft prereq: outbreak-investigation (same-course)",
+    "ADD soft prereq: vector-borne-disease-ecology (same-course)"
+  ],
+  "one-health-framework": [
+    "ADD soft prereq: herd-immunity-and-vaccination (same-course)"
+  ],
+  "disease-prevention-levels": [
+    "ADD soft prereq: measures-of-association (same-course)"
+  ],
+  "vector-borne-disease-ecology": [
+    "ADD soft prereq: outbreak-investigation (same-course)"
+  ],
+  "silk-road-trade-network": [
+    "ADD soft prereq: ancient-chinese-dynasties (same-course)",
+    "ADD soft prereq: ancient-mediterranean-trade (same-course)"
+  ],
+  "comparing-ancient-civilizations": [
+    "ADD soft prereq: ancient-chinese-dynasties (same-course)",
+    "ADD soft prereq: ancient-mediterranean-trade (same-course)",
+    "ADD soft prereq: ancient-social-stratification (same-course)",
+    "ADD soft prereq: ancient-urbanization (same-course)",
+    "ADD soft prereq: bronze-age-collapse (same-course)",
+    "ADD soft prereq: egyptian-religion-and-afterlife (same-course)",
+    "ADD soft prereq: fall-of-western-rome (same-course)",
+    "ADD soft prereq: greek-philosophy-origins (same-course)",
+    "ADD soft prereq: hydraulic-civilization-theory (same-course)",
+    "ADD soft prereq: origins-of-world-religions (same-course)",
+    "ADD soft prereq: silk-road-trade-network (same-course)"
+  ],
+  "bronze-age-collapse": [
+    "ADD soft prereq: ancient-technological-innovation (same-course)"
+  ],
+  "ancient-urbanization": [
+    "ADD soft prereq: ancient-technological-innovation (same-course)",
+    "ADD soft prereq: cuneiform-and-early-writing (same-course)",
+    "ADD soft prereq: hydraulic-civilization-theory (same-course)"
+  ],
+  "roman-republic-constitution": [
+    "ADD soft prereq: athenian-democracy-origins (same-course)"
+  ],
+  "ancient-greece-polis": [
+    "ADD soft prereq: bronze-age-collapse (same-course)"
+  ],
+  "hellenistic-period": [
+    "ADD soft prereq: greek-philosophy-origins (same-course)"
+  ],
+  "roman-empire-rise": [
+    "ADD soft prereq: hellenistic-period (same-course)"
+  ],
+  "origins-of-world-religions": [
+    "ADD soft prereq: hellenistic-period (same-course)",
+    "ADD soft prereq: roman-empire-rise (same-course)",
+    "ADD soft prereq: silk-road-trade-network (same-course)"
+  ],
+  "ancient-mediterranean-trade": [
+    "ADD soft prereq: roman-empire-rise (same-course)"
+  ],
+  "atlantic-slave-trade": [
+    "ADD soft prereq: columbian-exchange (same-course)"
+  ],
+  "early-modern-global-trade-networks": [
+    "ADD soft prereq: columbian-exchange (same-course)"
+  ],
+  "colonial-plantation-economy": [
+    "ADD soft prereq: early-modern-global-trade-networks (same-course)"
+  ],
+  "social-contract-theory-historical": [
+    "ADD soft prereq: english-civil-war-glorious-revolution (same-course)"
+  ],
+  "enlightenment-origins": [
+    "ADD soft prereq: english-civil-war-glorious-revolution (same-course)",
+    "ADD soft prereq: mercantilism (same-course)"
+  ],
+  "age-of-exploration": [
+    "ADD soft prereq: ottoman-empire-early-modern (same-course)"
+  ],
+  "early-modern-state-formation": [
+    "ADD soft prereq: protestant-reformation (same-course)"
+  ],
+  "digital-history-tools": [
+    "ADD soft prereq: archaeological-evidence (same-course)",
+    "ADD soft prereq: visual-history-methods (same-course)"
+  ],
+  "historical-argument-structure": [
+    "ADD soft prereq: corroboration-and-triangulation (same-course)",
+    "ADD soft prereq: counterfactual-reasoning (same-course)"
+  ],
+  "oral-history-methods": [
+    "ADD soft prereq: corroboration-and-triangulation (same-course)",
+    "ADD soft prereq: silences-in-the-archive (same-course)"
+  ],
+  "public-history-and-audience": [
+    "ADD soft prereq: cultural-history-approach (same-course)",
+    "ADD soft prereq: oral-history-methods (same-course)",
+    "ADD soft prereq: positionality-in-history (same-course)",
+    "ADD soft prereq: visual-history-methods (same-course)"
+  ],
+  "historiography-intro": [
+    "ADD soft prereq: historical-argument-structure (same-course)",
+    "ADD soft prereq: periodization (same-course)"
+  ],
+  "social-history-approach": [
+    "ADD soft prereq: quantitative-history-methods (same-course)"
+  ],
+  "positionality-in-history": [
+    "ADD soft prereq: silences-in-the-archive (same-course)"
+  ],
+  "medieval-trade-revival": [
+    "ADD soft prereq: black-death (same-course)",
+    "ADD soft prereq: crusades (same-course)",
+    "ADD soft prereq: viking-age (same-course)"
+  ],
+  "mongol-empire": [
+    "ADD soft prereq: crusades (same-course)"
+  ],
+  "crusades": [
+    "ADD soft prereq: great-schism-1054 (same-course)",
+    "ADD soft prereq: islamic-golden-age (same-course)"
+  ],
+  "trans-saharan-trade": [
+    "ADD soft prereq: islamic-caliphates (same-course)"
+  ],
+  "black-death": [
+    "ADD soft prereq: medieval-agricultural-revolution (same-course)",
+    "ADD soft prereq: mongol-conquest-effects (same-course)"
+  ],
+  "silk-road-medieval-era": [
+    "FLAG bidirectional: mongol-conquest-effects <-> silk-road-medieval-era (skipped, needs review)"
+  ],
+  "mongol-conquest-effects": [
+    "FLAG bidirectional: silk-road-medieval-era <-> mongol-conquest-effects (skipped, needs review)"
+  ],
+  "great-zimbabwe": [
+    "ADD soft prereq: trans-saharan-trade (same-course)"
+  ],
+  "decolonization": [
+    "ADD soft prereq: abolition-movement (same-course)",
+    "ADD soft prereq: holocaust (same-course)"
+  ],
+  "globalization": [
+    "ADD soft prereq: civil-rights-movement (same-course)"
+  ],
+  "nationalism-and-nation-states": [
+    "FLAG bidirectional: congress-of-vienna <-> nationalism-and-nation-states (skipped, needs review)"
+  ],
+  "cold-war-origins": [
+    "ADD soft prereq: holocaust (same-course)"
+  ],
+  "postcolonial-history": [
+    "ADD soft prereq: memory-and-commemoration (same-course)"
+  ],
+  "congress-of-vienna": [
+    "FLAG bidirectional: nationalism-and-nation-states <-> congress-of-vienna (skipped, needs review)"
+  ],
+  "world-war-i-origins": [
+    "ADD soft prereq: revolutions-of-1848 (same-course)"
+  ],
+  "rise-of-fascism": [
+    "ADD soft prereq: russian-revolution (same-course)"
+  ],
+  "end-of-cold-war": [
+    "ADD soft prereq: vietnam-war (same-course)"
+  ],
+  "sentence-structure-basics": [
+    "ADD soft prereq: adjectives-and-adverbs (same-course)",
+    "ADD soft prereq: noun-phrases (same-course)"
+  ],
+  "run-on-sentences-and-fragments": [
+    "ADD soft prereq: compound-sentences (same-course)"
+  ],
+  "subject-verb-agreement": [
+    "ADD soft prereq: prepositional-phrases (same-course)"
+  ],
+  "semicolons-and-colons": [
+    "ADD soft prereq: run-on-sentences-and-fragments (same-course)"
+  ],
+  "paragraph-structure": [
+    "ADD soft prereq: semicolons-and-colons (same-course)"
+  ],
+  "complex-sentence-construction": [
+    "ADD soft prereq: subject-verb-agreement (same-course)",
+    "ADD soft prereq: verb-tense (same-course)"
+  ],
+  "linguistic-typology": [
+    "ADD soft prereq: constituency-and-phrases (same-course)",
+    "ADD soft prereq: historical-linguistics (same-course)",
+    "ADD soft prereq: language-variation-and-change (same-course)",
+    "ADD soft prereq: sound-change-and-reconstruction (same-course)",
+    "ADD soft prereq: writing-systems (same-course)"
+  ],
+  "language-acquisition": [
+    "ADD soft prereq: constituency-and-phrases (same-course)"
+  ],
+  "historical-linguistics": [
+    "ADD soft prereq: writing-systems (same-course)"
+  ],
+  "ceremonial-and-special-occasion-speaking": [
+    "ADD soft prereq: call-to-action-in-speeches (same-course)",
+    "ADD soft prereq: informative-speaking (same-course)"
+  ],
+  "question-and-answer-management": [
+    "ADD soft prereq: debate-format-and-structure (same-course)",
+    "ADD soft prereq: refutation-in-debate (same-course)"
+  ],
+  "debate-format-and-structure": [
+    "ADD soft prereq: impromptu-speaking (same-course)"
+  ],
+  "extemporaneous-speaking": [
+    "ADD soft prereq: informative-speaking (same-course)",
+    "ADD soft prereq: visual-aids-in-presentations (same-course)"
+  ],
+  "informative-speaking": [
+    "ADD soft prereq: nonverbal-communication-in-speaking (same-course)",
+    "ADD soft prereq: verbal-transitions-in-speaking (same-course)"
+  ],
+  "persuasive-speech-design": [
+    "ADD soft prereq: nonverbal-communication-in-speaking (same-course)",
+    "ADD soft prereq: speech-introductions-and-conclusions (same-course)",
+    "ADD soft prereq: storytelling-in-public-speaking (same-course)",
+    "ADD soft prereq: verbal-transitions-in-speaking (same-course)",
+    "ADD soft prereq: vocal-delivery-techniques (same-course)"
+  ],
+  "essay-organization": [
+    "ADD soft prereq: argument-structure-toulmin (same-course)"
+  ],
+  "pathos-and-emotional-appeal": [
+    "FLAG bidirectional: narrative-writing <-> pathos-and-emotional-appeal (skipped, needs review)"
+  ],
+  "persuasive-writing": [
+    "ADD soft prereq: pathos-and-emotional-appeal (same-course)",
+    "ADD soft prereq: writing-modes-overview (same-course)"
+  ],
+  "narrative-writing": [
+    "FLAG bidirectional: pathos-and-emotional-appeal <-> narrative-writing (skipped, needs review)"
+  ],
+  "synthesis-in-writing": [
+    "ADD soft prereq: persuasive-writing (same-course)"
+  ],
+  "revision-strategies": [
+    "ADD soft prereq: synthesis-in-writing (same-course)"
+  ],
+  "discourse-and-power": [
+    "ADD soft prereq: deconstruction (same-course)",
+    "ADD soft prereq: new-historicism (same-course)"
+  ],
+  "ideological-criticism": [
+    "ADD soft prereq: deconstruction (same-course)",
+    "ADD soft prereq: semiotics-and-signs (same-course)"
+  ],
+  "cultural-studies-approach": [
+    "ADD soft prereq: discourse-and-power (same-course)",
+    "ADD soft prereq: new-historicism (same-course)",
+    "ADD soft prereq: reader-response-theory (same-course)"
+  ],
+  "postcolonial-criticism": [
+    "ADD soft prereq: feminist-literary-criticism (same-course)"
+  ],
+  "reader-response-theory": [
+    "ADD soft prereq: narratology (same-course)"
+  ],
+  "post-structuralism": [
+    "ADD soft prereq: narratology (same-course)"
+  ],
+  "structuralism-in-literature": [
+    "ADD soft prereq: new-criticism-and-formalism (same-course)"
+  ],
+  "modern-realist-drama": [
+    "ADD soft prereq: catharsis-in-drama (same-course)",
+    "ADD soft prereq: dramatic-conflict (same-course)",
+    "ADD soft prereq: dramatic-subtext (same-course)",
+    "ADD soft prereq: tragic-hero-and-hamartia (same-course)",
+    "ADD soft prereq: tragicomedy (same-course)"
+  ],
+  "absurdist-theatre": [
+    "ADD soft prereq: catharsis-in-drama (same-course)",
+    "ADD soft prereq: epic-theatre-and-brecht (same-course)",
+    "ADD soft prereq: stagecraft-and-mise-en-scene (same-course)"
+  ],
+  "tragic-hero-and-hamartia": [
+    "ADD soft prereq: dramatic-conflict (same-course)"
+  ],
+  "well-made-play": [
+    "ADD soft prereq: dramatic-irony-in-drama (same-course)"
+  ],
+  "aristotelian-tragedy": [
+    "ADD soft prereq: greek-chorus (same-course)"
+  ],
+  "dramatic-subtext": [
+    "ADD soft prereq: soliloquy-and-aside (same-course)"
+  ],
+  "epic-theatre-and-brecht": [
+    "ADD soft prereq: soliloquy-and-aside (same-course)",
+    "ADD soft prereq: stagecraft-and-mise-en-scene (same-course)"
+  ],
+  "catharsis-in-drama": [
+    "ADD soft prereq: tragic-hero-and-hamartia (same-course)"
+  ],
+  "short-story-form": [
+    "ADD soft prereq: dialogue-in-fiction (same-course)"
+  ],
+  "narrative-voice": [
+    "ADD soft prereq: dialogue-in-fiction (same-course)",
+    "FLAG bidirectional: stream-of-consciousness <-> narrative-voice (skipped, needs review)"
+  ],
+  "unreliable-narrator": [
+    "ADD soft prereq: frame-narrative (cross-course)"
+  ],
+  "magical-realism": [
+    "ADD soft prereq: gothic-fiction (same-course)"
+  ],
+  "historical-fiction": [
+    "ADD soft prereq: literary-realism (same-course)"
+  ],
+  "narrative-pacing": [
+    "ADD soft prereq: mystery-genre (same-course)",
+    "ADD soft prereq: novel-form (same-course)"
+  ],
+  "stream-of-consciousness": [
+    "FLAG bidirectional: narrative-voice <-> stream-of-consciousness (skipped, needs review)"
+  ],
+  "dystopian-fiction": [
+    "ADD soft prereq: novel-form (same-course)"
+  ],
+  "genre-fiction-overview": [
+    "ADD soft prereq: short-story-form (same-course)"
+  ],
+  "thematic-development": [
+    "ADD soft prereq: allegory-and-extended-metaphor (same-course)",
+    "ADD soft prereq: irony-in-literature (same-course)",
+    "FLAG bidirectional: literary-argument-writing <-> thematic-development (skipped, needs review)",
+    "ADD soft prereq: point-of-view-narrative-perspective (same-course)",
+    "ADD soft prereq: tone-and-mood (same-course)",
+    "ADD soft prereq: unreliable-narrator (same-course)"
+  ],
+  "intertextuality-and-allusion": [
+    "ADD soft prereq: allegory-and-extended-metaphor (same-course)",
+    "FLAG bidirectional: literary-argument-writing <-> intertextuality-and-allusion (skipped, needs review)",
+    "ADD soft prereq: thematic-development (same-course)"
+  ],
+  "literary-argument-writing": [
+    "ADD soft prereq: character-motivation-and-development (same-course)",
+    "ADD soft prereq: diction-and-style (same-course)",
+    "FLAG bidirectional: intertextuality-and-allusion <-> literary-argument-writing (skipped, needs review)",
+    "ADD soft prereq: irony-in-literature (same-course)",
+    "FLAG bidirectional: thematic-development <-> literary-argument-writing (skipped, needs review)",
+    "ADD soft prereq: theme-identification (same-course)",
+    "ADD soft prereq: tone-and-mood (same-course)"
+  ],
+  "tone-and-mood": [
+    "ADD soft prereq: point-of-view-narrative-perspective (same-course)",
+    "ADD soft prereq: setting-and-atmosphere (same-course)"
+  ],
+  "irony-in-literature": [
+    "ADD soft prereq: unreliable-narrator (same-course)"
+  ],
+  "poetic-tradition-and-influence": [
+    "ADD soft prereq: dramatic-monologue-in-poetry (same-course)",
+    "ADD soft prereq: elegy-form (same-course)",
+    "ADD soft prereq: haiku-form (same-course)",
+    "ADD soft prereq: ode-form (same-course)",
+    "ADD soft prereq: sonnet-form (same-course)",
+    "ADD soft prereq: villanelle-form (same-course)",
+    "ADD soft prereq: volta-in-poetry (same-course)"
+  ],
+  "poetic-compression-and-economy": [
+    "ADD soft prereq: enjambment-in-poetry (same-course)",
+    "ADD soft prereq: haiku-form (same-course)"
+  ],
+  "poetic-voice-and-tone": [
+    "FLAG bidirectional: imagery-in-poetry <-> poetic-voice-and-tone (skipped, needs review)",
+    "ADD soft prereq: sound-devices-in-poetry (same-course)"
+  ],
+  "poetic-form-overview": [
+    "ADD soft prereq: scansion (same-course)"
+  ],
+  "sonnet-form": [
+    "ADD soft prereq: scansion (same-course)"
+  ],
+  "two-digit-addition-no-regrouping": [
+    "ADD soft prereq: addition-within-20 (same-course)"
+  ],
+  "skip-counting-by-2s": [
+    "ADD soft prereq: counting-to-100 (same-course)"
+  ],
+  "skip-counting-by-5s": [
+    "ADD soft prereq: counting-to-100 (same-course)"
+  ],
+  "addition-within-20": [
+    "ADD soft prereq: number-line-0-to-20 (same-course)"
+  ],
+  "subtraction-within-20": [
+    "ADD soft prereq: number-line-0-to-20 (same-course)"
+  ],
+  "multi-digit-multiplication": [
+    "ADD soft prereq: arrays (cross-course)",
+    "ADD soft prereq: equal-groups (cross-course)",
+    "ADD soft prereq: repeated-addition-to-multiplication (cross-course)",
+    "ADD soft prereq: associative-property-multiplication (cross-course)",
+    "ADD soft prereq: estimation-in-multiplication (cross-course)",
+    "ADD soft prereq: multiplication-facts-within-100 (cross-course)",
+    "ADD soft prereq: two-digit-by-one-digit-multiplication (cross-course)"
+  ],
+  "area-of-rectangles": [
+    "ADD soft prereq: arrays (cross-course)",
+    "ADD soft prereq: area-by-counting-squares (cross-course)"
+  ],
+  "rounding-whole-numbers": [
+    "ADD soft prereq: comparing-three-digit-numbers (cross-course)",
+    "ADD soft prereq: number-line-to-1000 (cross-course)",
+    "ADD soft prereq: rounding-to-nearest-hundred (cross-course)",
+    "ADD soft prereq: rounding-to-nearest-ten (cross-course)"
+  ],
+  "intro-to-decimals": [
+    "ADD soft prereq: dollars-and-cents-notation (cross-course)"
+  ],
+  "measuring-in-feet-and-meters": [
+    "FLAG bidirectional: estimating-lengths <-> measuring-in-feet-and-meters (skipped, needs review)"
+  ],
+  "line-plot-measurements": [
+    "ADD soft prereq: estimating-lengths (same-course)",
+    "ADD soft prereq: line-plots-3rd (cross-course)"
+  ],
+  "intro-to-fractions": [
+    "ADD soft prereq: fractions-halves-thirds-fourths (cross-course)"
+  ],
+  "comparing-fractions": [
+    "ADD soft prereq: fractions-halves-thirds-fourths (cross-course)",
+    "ADD soft prereq: comparing-unit-fractions (cross-course)",
+    "ADD soft prereq: fractions-on-number-line (same-course)"
+  ],
+  "fractions-on-number-line": [
+    "ADD soft prereq: fractions-halves-thirds-fourths (cross-course)",
+    "ADD soft prereq: unit-fractions (cross-course)"
+  ],
+  "data-and-graphs-intro": [
+    "ADD soft prereq: line-plot-measurements (cross-course)",
+    "ADD soft prereq: scaled-bar-graphs (cross-course)"
+  ],
+  "mean-median-mode": [
+    "ADD soft prereq: line-plot-measurements (cross-course)",
+    "ADD soft prereq: bar-graphs-3rd (cross-course)",
+    "ADD soft prereq: line-plots-3rd (cross-course)",
+    "ADD soft prereq: line-plots (cross-course)",
+    "ADD soft prereq: interpreting-data-tables (same-course)"
+  ],
+  "measurement-conversions-customary": [
+    "ADD soft prereq: measuring-in-feet-and-meters (cross-course)",
+    "ADD soft prereq: liquid-volume (cross-course)",
+    "ADD soft prereq: area-of-rectangles (same-course)",
+    "ADD soft prereq: perimeter (same-course)"
+  ],
+  "measurement-conversions-metric": [
+    "ADD soft prereq: measuring-in-feet-and-meters (cross-course)",
+    "ADD soft prereq: liquid-volume (cross-course)",
+    "ADD soft prereq: mass-grams-kilograms (cross-course)",
+    "ADD soft prereq: measurement-conversions-customary (same-course)"
+  ],
+  "estimating-lengths": [
+    "FLAG bidirectional: measuring-in-feet-and-meters <-> estimating-lengths (skipped, needs review)"
+  ],
+  "subtraction-within-100": [
+    "ADD soft prereq: mental-math-add-subtract-tens (same-course)"
+  ],
+  "two-step-word-problems": [
+    "FLAG bidirectional: money-word-problems <-> two-step-word-problems (skipped, needs review)",
+    "ADD soft prereq: three-digit-addition (same-course)",
+    "ADD soft prereq: three-digit-subtraction (same-course)"
+  ],
+  "three-digit-addition": [
+    "ADD soft prereq: number-line-to-1000 (same-course)",
+    "ADD soft prereq: three-digit-number-forms (same-course)"
+  ],
+  "factors-and-multiples": [
+    "ADD soft prereq: repeated-addition-to-multiplication (cross-course)",
+    "ADD soft prereq: arithmetic-patterns-3rd (cross-course)",
+    "ADD soft prereq: multiples-of-a-number (cross-course)"
+  ],
+  "line-graphs": [
+    "ADD soft prereq: scaled-bar-graphs (cross-course)",
+    "ADD soft prereq: bar-graphs-3rd (cross-course)",
+    "ADD soft prereq: interpreting-data-tables (same-course)"
+  ],
+  "scaled-bar-graphs": [
+    "ADD soft prereq: scaled-picture-graphs (same-course)"
+  ],
+  "interpreting-data-bar-graphs": [
+    "ADD soft prereq: scaled-picture-graphs (cross-course)",
+    "ADD soft prereq: line-plots (same-course)"
+  ],
+  "three-digit-number-forms": [
+    "ADD soft prereq: skip-counting-by-100s (same-course)"
+  ],
+  "number-line-to-1000": [
+    "ADD soft prereq: skip-counting-by-100s (same-course)"
+  ],
+  "mental-math-add-subtract-hundreds": [
+    "ADD soft prereq: skip-counting-by-100s (same-course)",
+    "ADD soft prereq: rounding-to-nearest-hundred (cross-course)"
+  ],
+  "elapsed-time": [
+    "ADD soft prereq: telling-time-to-5-minutes (cross-course)",
+    "ADD soft prereq: telling-time-to-minute (cross-course)"
+  ],
+  "multi-digit-addition": [
+    "ADD soft prereq: three-digit-addition (cross-course)",
+    "ADD soft prereq: two-digit-addition-with-regrouping (cross-course)",
+    "ADD soft prereq: two-step-word-problems (cross-course)"
+  ],
+  "multi-digit-subtraction": [
+    "ADD soft prereq: three-digit-subtraction (cross-course)",
+    "ADD soft prereq: two-digit-subtraction-with-regrouping (cross-course)",
+    "ADD soft prereq: two-step-word-problems (cross-course)"
+  ],
+  "money-word-problems": [
+    "FLAG bidirectional: two-step-word-problems <-> money-word-problems (skipped, needs review)"
+  ],
+  "area-of-parallelograms": [
+    "ADD soft prereq: area-and-perimeter-problems (cross-course)",
+    "ADD soft prereq: area-rectilinear-shapes (cross-course)"
+  ],
+  "decomposing-shapes": [
+    "ADD soft prereq: area-rectilinear-shapes (cross-course)"
+  ],
+  "number-patterns-and-relationships": [
+    "ADD soft prereq: arithmetic-patterns-3rd (cross-course)"
+  ],
+  "equivalent-fractions": [
+    "ADD soft prereq: comparing-unit-fractions (cross-course)",
+    "ADD soft prereq: fractions-sixths-eighths (cross-course)",
+    "ADD soft prereq: whole-number-fractions (cross-course)",
+    "ADD soft prereq: prime-and-composite-numbers (same-course)"
+  ],
+  "intro-to-long-division": [
+    "ADD soft prereq: division-as-grouping (cross-course)",
+    "ADD soft prereq: division-facts-within-100 (cross-course)",
+    "ADD soft prereq: division-word-problems (cross-course)",
+    "ADD soft prereq: multiplication-division-relationship (cross-course)"
+  ],
+  "estimation-strategies": [
+    "ADD soft prereq: estimation-in-multiplication (cross-course)",
+    "ADD soft prereq: multi-step-word-problems-3rd (cross-course)",
+    "ADD soft prereq: rounding-to-nearest-hundred (cross-course)",
+    "ADD soft prereq: rounding-to-nearest-ten (cross-course)",
+    "ADD soft prereq: multiples-of-ten (same-course)"
+  ],
+  "percent-concept": [
+    "ADD soft prereq: fractions-of-a-set (cross-course)",
+    "ADD soft prereq: proportions (same-course)"
+  ],
+  "multiplying-fractions": [
+    "ADD soft prereq: fractions-of-a-set (cross-course)"
+  ],
+  "comparing-unit-fractions": [
+    "ADD soft prereq: fractions-sixths-eighths (same-course)"
+  ],
+  "adding-fractions-like-denominators": [
+    "ADD soft prereq: fractions-sixths-eighths (cross-course)",
+    "ADD soft prereq: mixed-numbers-and-improper-fractions (same-course)"
+  ],
+  "converting-metric-units": [
+    "ADD soft prereq: mass-grams-kilograms (cross-course)",
+    "ADD soft prereq: measurement-conversions-5th (same-course)"
+  ],
+  "prime-and-composite-numbers": [
+    "ADD soft prereq: multiples-of-a-number (cross-course)"
+  ],
+  "unknown-factor-problems": [
+    "FLAG bidirectional: multiplication-division-relationship <-> unknown-factor-problems (skipped, needs review)"
+  ],
+  "fractions-as-division": [
+    "ADD soft prereq: multiplication-division-relationship (cross-course)",
+    "FLAG bidirectional: dividing-decimals <-> fractions-as-division (skipped, needs review)"
+  ],
+  "fractions-sixths-eighths": [
+    "ADD soft prereq: partition-shapes-equal-parts (same-course)"
+  ],
+  "unit-fractions": [
+    "ADD soft prereq: partition-shapes-equal-parts (same-course)"
+  ],
+  "division-facts-within-100": [
+    "ADD soft prereq: unknown-factor-problems (same-course)"
+  ],
+  "multiplication-division-relationship": [
+    "FLAG bidirectional: unknown-factor-problems <-> multiplication-division-relationship (skipped, needs review)"
+  ],
+  "one-step-equations": [
+    "ADD soft prereq: unknown-factor-problems (cross-course)",
+    "ADD soft prereq: combining-like-terms (same-course)",
+    "ADD soft prereq: opposites-and-additive-inverses (same-course)",
+    "ADD soft prereq: writing-and-interpreting-expressions (same-course)"
+  ],
+  "mixed-numbers-and-improper-fractions": [
+    "ADD soft prereq: whole-number-fractions (cross-course)"
+  ],
+  "adding-fractions-unlike-denominators": [
+    "ADD soft prereq: comparing-fractions (cross-course)"
+  ],
+  "comparing-decimals": [
+    "ADD soft prereq: comparing-fractions (cross-course)",
+    "ADD soft prereq: relating-fractions-and-decimals (cross-course)",
+    "ADD soft prereq: reading-writing-decimals (same-course)"
+  ],
+  "rounding-decimals": [
+    "ADD soft prereq: estimation-strategies (cross-course)"
+  ],
+  "patterns-and-sequences": [
+    "ADD soft prereq: input-output-tables (same-course)"
+  ],
+  "writing-numerical-expressions": [
+    "ADD soft prereq: input-output-tables (cross-course)",
+    "ADD soft prereq: patterns-and-sequences (cross-course)"
+  ],
+  "classifying-2d-shapes": [
+    "ADD soft prereq: line-symmetry (cross-course)"
+  ],
+  "decimal-place-value": [
+    "ADD soft prereq: relating-fractions-and-decimals (cross-course)"
+  ],
+  "multiplying-decimals": [
+    "ADD soft prereq: adding-subtracting-decimals (same-course)",
+    "ADD soft prereq: multiplying-dividing-by-powers-of-ten (same-course)"
+  ],
+  "adding-subtracting-decimals": [
+    "ADD soft prereq: comparing-decimals (same-course)",
+    "ADD soft prereq: reading-writing-decimals (same-course)"
+  ],
+  "mixed-number-arithmetic": [
+    "ADD soft prereq: dividing-fractions (same-course)"
+  ],
+  "dividing-decimals": [
+    "FLAG bidirectional: fractions-as-division <-> dividing-decimals (skipped, needs review)",
+    "ADD soft prereq: multiplying-dividing-by-powers-of-ten (same-course)"
+  ],
+  "dividing-fractions": [
+    "ADD soft prereq: multiplying-mixed-numbers (same-course)"
+  ],
+  "multiplying-polynomials": [
+    "ADD soft prereq: adding-subtracting-polynomials (same-course)"
+  ],
+  "factoring-gcf": [
+    "ADD soft prereq: adding-subtracting-polynomials (same-course)"
+  ],
+  "geometric-series": [
+    "ADD soft prereq: geometric-sequences (cross-course)"
+  ],
+  "solving-multi-step-equations": [
+    "ADD soft prereq: variables-and-expressions-review (same-course)",
+    "ADD soft prereq: properties-of-operations (cross-course)",
+    "ADD soft prereq: rational-numbers-operations (cross-course)"
+  ],
+  "literal-equations": [
+    "ADD soft prereq: variables-and-expressions-review (same-course)"
+  ],
+  "linear-regression": [
+    "ADD soft prereq: writing-linear-equations (cross-course)"
+  ],
+  "polynomials-intro": [
+    "ADD soft prereq: zero-exponent (same-course)"
+  ],
+  "negative-exponents": [
+    "ADD soft prereq: zero-exponent (same-course)",
+    "ADD soft prereq: scientific-notation-intro (cross-course)"
+  ],
+  "inverse-functions": [
+    "ADD soft prereq: composition-of-functions (same-course)"
+  ],
+  "polynomial-long-division": [
+    "ADD soft prereq: graphing-polynomial-functions (same-course)"
+  ],
+  "solving-quadratic-equations-completing-the-square": [
+    "ADD soft prereq: operations-with-complex-numbers (same-course)"
+  ],
+  "polynomial-functions-degree-and-leading-coefficient": [
+    "ADD soft prereq: quadratic-inequalities (same-course)"
+  ],
+  "rational-exponents": [
+    "ADD soft prereq: radical-functions-and-graphs (same-course)"
+  ],
+  "quadratic-inequalities": [
+    "ADD soft prereq: solving-absolute-value-equations-review (same-course)"
+  ],
+  "fundamental-theorem-of-calculus-part-1": [
+    "ADD soft prereq: antiderivatives (same-course)"
+  ],
+  "u-substitution": [
+    "ADD soft prereq: basic-integration-rules (same-course)"
+  ],
+  "riemann-sums": [
+    "ADD soft prereq: basic-integration-rules (same-course)"
+  ],
+  "limit-definition-of-derivative": [
+    "ADD soft prereq: continuity-definition (same-course)"
+  ],
+  "optimization-problems": [
+    "ADD soft prereq: curve-sketching (same-course)",
+    "ADD soft prereq: related-rates (same-course)"
+  ],
+  "implicit-differentiation": [
+    "ADD soft prereq: derivatives-of-logarithmic-functions (same-course)",
+    "ADD soft prereq: quotient-rule (same-course)",
+    "ADD soft prereq: chain-rule-multivariable (cross-course)",
+    "ADD soft prereq: inverse-trigonometric-functions (cross-course)"
+  ],
+  "concavity-and-inflection-points": [
+    "ADD soft prereq: higher-order-derivatives (same-course)"
+  ],
+  "fundamental-theorem-of-calculus-part-2": [
+    "ADD soft prereq: indefinite-integrals (same-course)"
+  ],
+  "lhopitals-rule": [
+    "ADD soft prereq: infinite-limits (same-course)",
+    "ADD soft prereq: mean-value-theorem (same-course)"
+  ],
+  "mean-value-theorem": [
+    "ADD soft prereq: intermediate-value-theorem (same-course)"
+  ],
+  "improper-integrals-convergence": [
+    "ADD soft prereq: lhopitals-rule (cross-course)",
+    "ADD soft prereq: partial-fraction-decomposition-integration (same-course)"
+  ],
+  "taylor-series": [
+    "ADD soft prereq: lhopitals-rule (cross-course)"
+  ],
+  "continuity-definition": [
+    "ADD soft prereq: limit-laws (same-course)",
+    "ADD soft prereq: piecewise-functions-graphing (cross-course)"
+  ],
+  "infinite-limits": [
+    "ADD soft prereq: one-sided-limits (same-course)"
+  ],
+  "work-as-integral": [
+    "ADD soft prereq: optimization-problems (cross-course)",
+    "ADD soft prereq: dot-product (cross-course)"
+  ],
+  "curve-sketching": [
+    "ADD soft prereq: second-derivative-test (same-course)"
+  ],
+  "comparison-test": [
+    "ADD soft prereq: divergence-test (same-course)",
+    "ADD soft prereq: improper-integrals-divergence (same-course)",
+    "ADD soft prereq: integral-test (same-course)"
+  ],
+  "p-series": [
+    "ADD soft prereq: integral-test (same-course)"
+  ],
+  "trigonometric-integrals": [
+    "ADD soft prereq: integration-by-parts (same-course)",
+    "ADD soft prereq: amplitude-period-phase-shift (cross-course)",
+    "ADD soft prereq: half-angle-identities (cross-course)"
+  ],
+  "absolute-vs-conditional-convergence": [
+    "ADD soft prereq: limit-comparison-test (same-course)",
+    "ADD soft prereq: ratio-test (same-course)"
+  ],
+  "taylor-polynomials": [
+    "ADD soft prereq: power-series (same-course)",
+    "ADD soft prereq: binomial-theorem-expansion (cross-course)"
+  ],
+  "convergence-test-strategy": [
+    "ADD soft prereq: telescoping-series (same-course)"
+  ],
+  "arc-length": [
+    "ADD soft prereq: trigonometric-substitution (same-course)",
+    "ADD soft prereq: central-angles-and-arcs (cross-course)",
+    "ADD soft prereq: circumference (cross-course)"
+  ],
+  "divide-and-conquer-recurrences": [
+    "ADD soft prereq: algorithm-complexity (same-course)"
+  ],
+  "graph-connectivity": [
+    "ADD soft prereq: graph-representation (same-course)"
+  ],
+  "generating-functions-intro": [
+    "ADD soft prereq: multinomial-coefficients (same-course)"
+  ],
+  "coordinate-geometry-proofs": [
+    "ADD soft prereq: angle-bisectors (same-course)",
+    "ADD soft prereq: dilations (same-course)",
+    "ADD soft prereq: geometric-transformations-translations (same-course)",
+    "ADD soft prereq: inscribed-angles (same-course)",
+    "ADD soft prereq: isosceles-triangle-theorem (same-course)",
+    "ADD soft prereq: medians-and-centroids (same-course)",
+    "ADD soft prereq: midsegment-theorem (same-course)",
+    "ADD soft prereq: perpendicular-bisectors (same-course)",
+    "ADD soft prereq: proportions-in-similar-triangles (same-course)",
+    "ADD soft prereq: pythagorean-theorem-converse (same-course)",
+    "ADD soft prereq: rectangle-properties (same-course)",
+    "ADD soft prereq: reflections (same-course)",
+    "ADD soft prereq: rhombus-properties (same-course)",
+    "ADD soft prereq: rotations (same-course)",
+    "ADD soft prereq: tangent-lines-to-circles (same-course)",
+    "ADD soft prereq: trapezoid-properties (same-course)"
+  ],
+  "radian-measure": [
+    "ADD soft prereq: arc-length-circles (cross-course)",
+    "ADD soft prereq: sector-area (cross-course)"
+  ],
+  "perpendicular-bisectors": [
+    "ADD soft prereq: cpctc (same-course)",
+    "ADD soft prereq: isosceles-triangle-theorem (same-course)"
+  ],
+  "parallelogram-properties": [
+    "ADD soft prereq: cpctc (same-course)"
+  ],
+  "triangle-inequality": [
+    "ADD soft prereq: exterior-angle-theorem (same-course)"
+  ],
+  "dilations": [
+    "ADD soft prereq: geometric-transformations-translations (same-course)"
+  ],
+  "right-triangle-trigonometry-intro": [
+    "ADD soft prereq: proportions-in-similar-triangles (same-course)"
+  ],
+  "unit-circle": [
+    "ADD soft prereq: special-right-triangles-30-60-90 (cross-course)",
+    "ADD soft prereq: special-right-triangles-45-45-90 (cross-course)",
+    "ADD soft prereq: converting-degrees-and-radians (same-course)"
+  ],
+  "similar-triangles-aa": [
+    "ADD soft prereq: triangle-inequality (same-course)"
+  ],
+  "comparing-quantities": [
+    "ADD soft prereq: cardinality-principle (same-course)",
+    "ADD soft prereq: matching-numerals-to-quantities (same-course)",
+    "ADD soft prereq: subitizing (same-course)"
+  ],
+  "combining-small-groups": [
+    "ADD soft prereq: comparing-quantities (same-course)",
+    "ADD soft prereq: subitizing (same-course)"
+  ],
+  "sorting-by-attributes": [
+    "ADD soft prereq: describing-2d-shapes (same-course)"
+  ],
+  "subitizing": [
+    "ADD soft prereq: matching-numerals-to-quantities (same-course)"
+  ],
+  "least-squares-approximation": [
+    "ADD soft prereq: column-space (same-course)",
+    "ADD soft prereq: rank-and-nullity-theorem (same-course)"
+  ],
+  "diagonalization": [
+    "ADD soft prereq: matrix-composition (same-course)"
+  ],
+  "change-of-basis": [
+    "ADD soft prereq: matrix-composition (same-course)"
+  ],
+  "inner-product-spaces": [
+    "ADD soft prereq: matrix-transpose-properties (same-course)"
+  ],
+  "eigenvalues-and-eigenvectors": [
+    "ADD soft prereq: transformation-matrices (same-course)"
+  ],
+  "existence-proofs": [
+    "ADD soft prereq: proof-by-cases (same-course)"
+  ],
+  "cardinality-and-countability": [
+    "ADD soft prereq: proof-by-contradiction (same-course)"
+  ],
+  "proof-by-contradiction": [
+    "ADD soft prereq: proof-by-contrapositive (same-course)"
+  ],
+  "injective-surjective-bijective": [
+    "ADD soft prereq: uniqueness-proofs (same-course)"
+  ],
+  "partial-orders": [
+    "ADD soft prereq: well-ordering-principle (same-course)"
+  ],
+  "conservative-fields": [
+    "ADD soft prereq: directional-derivatives (same-course)"
+  ],
+  "greens-theorem": [
+    "ADD soft prereq: fundamental-theorem-line-integrals (same-course)"
+  ],
+  "stokes-theorem": [
+    "ADD soft prereq: fundamental-theorem-line-integrals (same-course)"
+  ],
+  "lagrange-multipliers": [
+    "ADD soft prereq: second-partials-test (same-course)"
+  ],
+  "divergence-theorem": [
+    "ADD soft prereq: stokes-theorem (same-course)"
+  ],
+  "jacobian-change-of-variables": [
+    "ADD soft prereq: triple-integrals-cylindrical-spherical (same-course)",
+    "ADD soft prereq: triple-integrals (same-course)"
+  ],
+  "line-integrals-scalar": [
+    "ADD soft prereq: vector-fields (same-course)"
+  ],
+  "absolute-value": [
+    "ADD soft prereq: comparing-and-ordering-integers (same-course)",
+    "ADD soft prereq: opposites-and-additive-inverses (same-course)"
+  ],
+  "one-step-inequalities": [
+    "ADD soft prereq: comparing-and-ordering-integers (same-course)"
+  ],
+  "percent-of-a-number": [
+    "ADD soft prereq: converting-fractions-decimals-percents (same-course)",
+    "ADD soft prereq: solving-proportions (same-course)"
+  ],
+  "graphing-linear-equations": [
+    "ADD soft prereq: coordinate-plane-all-four-quadrants (cross-course)",
+    "ADD soft prereq: function-tables (cross-course)",
+    "ADD soft prereq: proportional-relationships (cross-course)"
+  ],
+  "slope-concept": [
+    "ADD soft prereq: coordinate-plane-all-four-quadrants (cross-course)",
+    "ADD soft prereq: function-tables (cross-course)",
+    "ADD soft prereq: proportional-relationships (cross-course)"
+  ],
+  "subtracting-integers": [
+    "ADD soft prereq: opposites-and-additive-inverses (same-course)"
+  ],
+  "combining-like-terms": [
+    "ADD soft prereq: properties-of-operations (same-course)"
+  ],
+  "distributive-property": [
+    "ADD soft prereq: properties-of-operations (same-course)"
+  ],
+  "two-step-equations": [
+    "ADD soft prereq: rational-numbers-operations (same-course)",
+    "ADD soft prereq: writing-and-interpreting-expressions (same-course)"
+  ],
+  "power-series": [
+    "ADD soft prereq: binomial-theorem-expansion (cross-course)"
+  ],
+  "chain-rule": [
+    "ADD soft prereq: composition-of-functions-advanced (cross-course)"
+  ],
+  "inverse-functions-review": [
+    "ADD soft prereq: composition-of-functions-advanced (same-course)"
+  ],
+  "polar-graphs": [
+    "ADD soft prereq: conic-sections-overview (same-course)"
+  ],
+  "parametric-equations-intro": [
+    "ADD soft prereq: conic-sections-overview (same-course)"
+  ],
+  "graphing-sine-and-cosine": [
+    "ADD soft prereq: converting-degrees-and-radians (same-course)",
+    "ADD soft prereq: even-and-odd-functions (same-course)"
+  ],
+  "solving-trigonometric-equations": [
+    "ADD soft prereq: double-angle-identities (same-course)",
+    "ADD soft prereq: half-angle-identities (same-course)",
+    "ADD soft prereq: sum-and-difference-identities (same-course)"
+  ],
+  "trigonometric-identities-pythagorean": [
+    "ADD soft prereq: even-and-odd-functions (same-course)"
+  ],
+  "derivatives-of-trigonometric-functions": [
+    "ADD soft prereq: graphing-sine-and-cosine (cross-course)",
+    "ADD soft prereq: graphing-tangent-and-reciprocal-trig (cross-course)"
+  ],
+  "trigonometric-substitution": [
+    "ADD soft prereq: graphing-tangent-and-reciprocal-trig (cross-course)"
+  ],
+  "polar-coordinates": [
+    "ADD soft prereq: law-of-sines (same-course)"
+  ],
+  "one-sided-limits": [
+    "ADD soft prereq: piecewise-functions-graphing (cross-course)"
+  ],
+  "differential-equations-intro-separable": [
+    "ADD soft prereq: solving-trigonometric-equations (cross-course)"
+  ],
+  "standard-normal-and-z-scores": [
+    "ADD soft prereq: continuous-random-variables (same-course)"
+  ],
+  "measures-of-spread": [
+    "ADD soft prereq: histograms-and-frequency-distributions (same-course)"
+  ],
+  "z-test-for-means": [
+    "ADD soft prereq: p-values-and-significance (same-course)"
+  ],
+  "t-test-for-means": [
+    "ADD soft prereq: p-values-and-significance (same-course)"
+  ],
+  "binomial-distribution": [
+    "ADD soft prereq: variance-of-random-variables (same-course)"
+  ],
+  "contrapuntal-composition": [
+    "ADD soft prereq: bass-line-composition (same-course)"
+  ],
+  "arranging-for-small-ensemble": [
+    "ADD soft prereq: bass-line-composition (same-course)",
+    "ADD soft prereq: countermelody-writing (same-course)"
+  ],
+  "texture-in-composition": [
+    "FLAG bidirectional: contrapuntal-composition <-> texture-in-composition (skipped, needs review)",
+    "ADD soft prereq: countermelody-writing (same-course)"
+  ],
+  "climax-and-tension-release": [
+    "ADD soft prereq: contrapuntal-composition (same-course)"
+  ],
+  "lead-sheet-notation": [
+    "FLAG bidirectional: improvisation-frameworks <-> lead-sheet-notation (skipped, needs review)",
+    "ADD soft prereq: melodic-harmonization (same-course)",
+    "ADD soft prereq: text-setting-principles (same-course)"
+  ],
+  "improvisation-frameworks": [
+    "FLAG bidirectional: lead-sheet-notation <-> improvisation-frameworks (skipped, needs review)"
+  ],
+  "theme-and-variations": [
+    "FLAG bidirectional: ostinato-and-ground-bass <-> theme-and-variations (skipped, needs review)"
+  ],
+  "formal-proportion-and-balance": [
+    "ADD soft prereq: ostinato-and-ground-bass (same-course)",
+    "ADD soft prereq: text-setting-principles (same-course)"
+  ],
+  "ostinato-and-ground-bass": [
+    "FLAG bidirectional: theme-and-variations <-> ostinato-and-ground-bass (skipped, needs review)"
+  ],
+  "sight-singing-stepwise-melodies": [
+    "ADD soft prereq: audiation-and-inner-hearing (same-course)",
+    "ADD soft prereq: call-and-response-echo-singing (same-course)",
+    "ADD soft prereq: interval-singing (same-course)"
+  ],
+  "melodic-dictation-stepwise": [
+    "ADD soft prereq: call-and-response-echo-singing (same-course)",
+    "ADD soft prereq: melodic-contour-recognition (same-course)"
+  ],
+  "interval-recognition-by-ear": [
+    "ADD soft prereq: melodic-contour-recognition (same-course)"
+  ],
+  "harmonic-dictation-basic": [
+    "ADD soft prereq: melodic-dictation-with-leaps (same-course)"
+  ],
+  "melodic-dictation-with-leaps": [
+    "ADD soft prereq: rhythmic-dictation-compound (same-course)",
+    "ADD soft prereq: scale-degree-tendencies (same-course)"
+  ],
+  "modulation-techniques": [
+    "FLAG bidirectional: augmented-sixth-chords <-> modulation-techniques (skipped, needs review)",
+    "FLAG bidirectional: chromatic-mediant-chords <-> modulation-techniques (skipped, needs review)",
+    "ADD soft prereq: neapolitan-chord (same-course)"
+  ],
+  "four-part-writing": [
+    "ADD soft prereq: counterpoint-basics (same-course)",
+    "FLAG bidirectional: dominant-seventh-resolution <-> four-part-writing (skipped, needs review)",
+    "ADD soft prereq: functional-harmony (same-course)",
+    "ADD soft prereq: non-chord-tones (same-course)",
+    "FLAG bidirectional: species-counterpoint <-> four-part-writing (skipped, needs review)"
+  ],
+  "voice-leading-principles": [
+    "ADD soft prereq: figured-bass (same-course)",
+    "ADD soft prereq: non-chord-tones (same-course)"
+  ],
+  "dominant-seventh-resolution": [
+    "FLAG bidirectional: four-part-writing <-> dominant-seventh-resolution (skipped, needs review)"
+  ],
+  "secondary-dominants": [
+    "ADD soft prereq: four-part-writing (same-course)",
+    "ADD soft prereq: functional-harmony (same-course)"
+  ],
+  "species-counterpoint": [
+    "FLAG bidirectional: four-part-writing <-> species-counterpoint (skipped, needs review)"
+  ],
+  "chromatic-mediant-chords": [
+    "FLAG bidirectional: modulation-techniques <-> chromatic-mediant-chords (skipped, needs review)"
+  ],
+  "augmented-sixth-chords": [
+    "FLAG bidirectional: modulation-techniques <-> augmented-sixth-chords (skipped, needs review)"
+  ],
+  "counterpoint-basics": [
+    "ADD soft prereq: non-chord-tones (same-course)"
+  ],
+  "pivot-chord-modulation": [
+    "ADD soft prereq: tonicization (same-course)"
+  ],
+  "classical-period-overview": [
+    "ADD soft prereq: baroque-counterpoint-and-fugue (same-course)"
+  ],
+  "romantic-period-overview": [
+    "ADD soft prereq: classical-sonata-form (same-course)",
+    "ADD soft prereq: opera-history (same-course)"
+  ],
+  "baroque-music-overview": [
+    "ADD soft prereq: renaissance-madrigal (same-course)"
+  ],
+  "romantic-nationalism-in-music": [
+    "ADD soft prereq: world-music-traditions (same-course)"
+  ],
+  "diatonic-harmony": [
+    "ADD soft prereq: chord-inversions (same-course)",
+    "ADD soft prereq: modes (same-course)",
+    "ADD soft prereq: seventh-chords (same-course)"
+  ],
+  "rhythm-and-syncopation": [
+    "FLAG bidirectional: compound-meter <-> rhythm-and-syncopation (skipped, needs review)"
+  ],
+  "major-scales": [
+    "ADD soft prereq: interval-quality (same-course)"
+  ],
+  "modes": [
+    "ADD soft prereq: key-signatures (same-course)",
+    "ADD soft prereq: minor-scales (same-course)"
+  ],
+  "compound-meter": [
+    "FLAG bidirectional: rhythm-and-syncopation <-> compound-meter (skipped, needs review)"
+  ],
+  "chord-progressions": [
+    "ADD soft prereq: rhythm-and-syncopation (same-course)"
+  ],
+  "cartesian-skepticism": [
+    "FLAG bidirectional: a-priori-and-a-posteriori <-> cartesian-skepticism (skipped, needs review)"
+  ],
+  "a-priori-and-a-posteriori": [
+    "FLAG bidirectional: cartesian-skepticism <-> a-priori-and-a-posteriori (skipped, needs review)"
+  ],
+  "epistemology-of-disagreement": [
+    "ADD soft prereq: contextualism-in-epistemology (same-course)",
+    "ADD soft prereq: epistemic-virtues (same-course)"
+  ],
+  "reliabilism": [
+    "ADD soft prereq: epistemic-luck (same-course)",
+    "ADD soft prereq: responses-to-gettier (same-course)"
+  ],
+  "internalism-vs-externalism": [
+    "ADD soft prereq: infinitism (same-course)"
+  ],
+  "foundationalism": [
+    "ADD soft prereq: rationalism-vs-empiricism (same-course)"
+  ],
+  "epistemic-virtues": [
+    "ADD soft prereq: responses-to-gettier (same-course)",
+    "ADD soft prereq: testimony-as-knowledge (same-course)"
+  ],
+  "applied-ethics-intro": [
+    "ADD soft prereq: act-vs-rule-utilitarianism (same-course)",
+    "ADD soft prereq: categorical-imperative (same-course)",
+    "ADD soft prereq: contractualism (same-course)",
+    "ADD soft prereq: moral-luck (same-course)",
+    "ADD soft prereq: moral-relativism (same-course)",
+    "ADD soft prereq: trolley-problem (same-course)",
+    "ADD soft prereq: utilitarianism (same-course)"
+  ],
+  "contractualism": [
+    "ADD soft prereq: categorical-imperative (same-course)",
+    "ADD soft prereq: moral-realism (same-course)"
+  ],
+  "bioethics": [
+    "ADD soft prereq: contractualism (same-course)",
+    "ADD soft prereq: trolley-problem (same-course)"
+  ],
+  "environmental-ethics": [
+    "ADD soft prereq: contractualism (same-course)"
+  ],
+  "error-theory": [
+    "ADD soft prereq: expressivism-in-ethics (same-course)"
+  ],
+  "expressivism-in-ethics": [
+    "ADD soft prereq: moral-relativism (same-course)"
+  ],
+  "trolley-problem": [
+    "ADD soft prereq: utilitarianism (same-course)"
+  ],
+  "evaluating-evidence": [
+    "ADD soft prereq: abductive-reasoning (same-course)"
+  ],
+  "counterexample-method": [
+    "ADD soft prereq: logical-form (same-course)",
+    "ADD soft prereq: modus-ponens-tollens (same-course)"
+  ],
+  "thought-experiments": [
+    "ADD soft prereq: socratic-method (same-course)"
+  ],
+  "trope-theory": [
+    "ADD soft prereq: bundle-theory (same-course)"
+  ],
+  "possible-worlds-semantics": [
+    "FLAG bidirectional: essentialism-and-accidentalism <-> possible-worlds-semantics (skipped, needs review)"
+  ],
+  "essentialism-and-accidentalism": [
+    "FLAG bidirectional: possible-worlds-semantics <-> essentialism-and-accidentalism (skipped, needs review)",
+    "ADD soft prereq: universals-and-particulars (same-course)"
+  ],
+  "counterfactual-causation": [
+    "ADD soft prereq: regularity-theory-of-causation (same-course)"
+  ],
+  "property-dualism": [
+    "ADD soft prereq: hard-problem-of-consciousness (same-course)",
+    "ADD soft prereq: philosophical-zombies (same-course)",
+    "ADD soft prereq: substance-dualism (same-course)"
+  ],
+  "philosophical-zombies": [
+    "ADD soft prereq: knowledge-argument (same-course)"
+  ],
+  "chinese-room-argument": [
+    "ADD soft prereq: multiple-realizability (same-course)"
+  ],
+  "turing-test-and-machine-minds": [
+    "ADD soft prereq: multiple-realizability (same-course)"
+  ],
+  "epiphenomenalism": [
+    "ADD soft prereq: philosophical-zombies (same-course)",
+    "ADD soft prereq: substance-dualism (same-course)"
+  ],
+  "anomalous-monism": [
+    "ADD soft prereq: property-dualism (same-course)"
+  ],
+  "extended-mind-thesis": [
+    "ADD soft prereq: representationalism (same-course)",
+    "ADD soft prereq: turing-test-and-machine-minds (same-course)"
+  ],
+  "mental-causation": [
+    "ADD soft prereq: substance-dualism (same-course)"
+  ],
+  "political-authority-and-legitimacy": [
+    "ADD soft prereq: hobbesian-sovereignty (same-course)",
+    "ADD soft prereq: lockean-natural-rights (same-course)",
+    "ADD soft prereq: rousseau-general-will (same-course)"
+  ],
+  "political-obligation": [
+    "ADD soft prereq: hobbesian-sovereignty (same-course)",
+    "ADD soft prereq: lockean-natural-rights (same-course)"
+  ],
+  "political-liberalism": [
+    "ADD soft prereq: liberty-negative-and-positive (same-course)"
+  ],
+  "conservation-of-momentum": [
+    "ADD soft prereq: center-of-mass (same-course)"
+  ],
+  "rotational-dynamics": [
+    "ADD soft prereq: center-of-mass (same-course)",
+    "ADD soft prereq: circular-motion-dynamics (same-course)",
+    "ADD soft prereq: static-equilibrium (same-course)"
+  ],
+  "moment-of-inertia": [
+    "ADD soft prereq: center-of-mass (same-course)"
+  ],
+  "spring-mass-system": [
+    "ADD soft prereq: conservation-of-energy (same-course)"
+  ],
+  "work-and-energy": [
+    "ADD soft prereq: friction-forces (same-course)"
+  ],
+  "conservation-of-energy": [
+    "ADD soft prereq: friction-forces (same-course)"
+  ],
+  "kinematics-2d": [
+    "ADD soft prereq: kinematic-equations (same-course)"
+  ],
+  "friction-forces": [
+    "ADD soft prereq: newtons-third-law (same-course)"
+  ],
+  "circular-motion-kinematics": [
+    "ADD soft prereq: projectile-motion (same-course)"
+  ],
+  "electromagnetic-waves": [
+    "ADD soft prereq: ac-power-and-resonance (same-course)"
+  ],
+  "magnetic-flux-and-induction": [
+    "ADD soft prereq: amperes-law (same-course)",
+    "ADD soft prereq: biot-savart-law (same-course)"
+  ],
+  "conductors-in-electrostatics": [
+    "ADD soft prereq: electric-potential (same-course)"
+  ],
+  "maxwells-equations-overview": [
+    "ADD soft prereq: energy-stored-in-fields (same-course)"
+  ],
+  "inductance-and-inductors": [
+    "ADD soft prereq: lenzs-law (same-course)"
+  ],
+  "biot-savart-law": [
+    "ADD soft prereq: magnetic-force-on-current-carrying-conductors (same-course)"
+  ],
+  "wave-particle-duality": [
+    "ADD soft prereq: bohr-model (same-course)",
+    "ADD soft prereq: compton-scattering (same-course)"
+  ],
+  "nuclear-fission-fusion": [
+    "ADD soft prereq: half-life-decay-law (same-course)",
+    "ADD soft prereq: radioactive-decay (same-course)"
+  ],
+  "quantum-numbers": [
+    "ADD soft prereq: particle-in-a-box (same-course)"
+  ],
+  "radioactive-decay": [
+    "ADD soft prereq: quantum-tunneling (same-course)"
+  ],
+  "relativistic-momentum-energy": [
+    "ADD soft prereq: relativistic-velocity-addition (same-course)"
+  ],
+  "latent-heat": [
+    "FLAG bidirectional: calorimetry <-> latent-heat (skipped, needs review)"
+  ],
+  "adiabatic-processes": [
+    "ADD soft prereq: heat-capacity-of-gases (same-course)"
+  ],
+  "heat-transfer-radiation": [
+    "ADD soft prereq: heat-transfer-conduction (same-course)"
+  ],
+  "carnot-efficiency": [
+    "ADD soft prereq: heat-transfer-radiation (same-course)"
+  ],
+  "heat-engines": [
+    "ADD soft prereq: isobaric-and-isochoric-processes (same-course)"
+  ],
+  "calorimetry": [
+    "FLAG bidirectional: latent-heat <-> calorimetry (skipped, needs review)"
+  ],
+  "heat-transfer-conduction": [
+    "ADD soft prereq: thermal-expansion (same-course)"
+  ],
+  "youngs-double-slit": [
+    "ADD soft prereq: electromagnetic-spectrum (same-course)",
+    "ADD soft prereq: huygens-principle (same-course)",
+    "ADD soft prereq: wave-energy-and-intensity (same-course)"
+  ],
+  "diffraction-gratings": [
+    "ADD soft prereq: electromagnetic-spectrum (same-course)"
+  ],
+  "polarization-of-light": [
+    "ADD soft prereq: electromagnetic-spectrum (same-course)"
+  ],
+  "refraction-intro": [
+    "ADD soft prereq: huygens-principle (same-course)"
+  ],
+  "single-slit-diffraction": [
+    "ADD soft prereq: huygens-principle (same-course)"
+  ],
+  "sound-intensity-and-decibels": [
+    "ADD soft prereq: resonance-strings-and-pipes (same-course)",
+    "ADD soft prereq: wave-energy-and-intensity (same-course)"
+  ],
+  "doppler-effect": [
+    "ADD soft prereq: sound-intensity-and-decibels (same-course)"
+  ],
+  "thin-film-interference": [
+    "ADD soft prereq: youngs-double-slit (same-course)"
+  ],
+  "vegetable-preparation": [
+    "ADD soft prereq: boiling-and-simmering (same-course)"
+  ],
+  "meal-planning-basics": [
+    "ADD soft prereq: reading-nutrition-labels (same-course)"
+  ],
+  "sauteing-and-pan-cooking": [
+    "ADD soft prereq: vegetable-preparation (same-course)"
+  ],
+  "roasting-techniques": [
+    "ADD soft prereq: vegetable-preparation (same-course)"
+  ],
+  "digital-privacy-fundamentals": [
+    "ADD soft prereq: phishing-and-scams (same-course)"
+  ],
+  "mortgage-and-home-buying": [
+    "ADD soft prereq: debt-management-strategies (same-course)"
+  ],
+  "debt-management-strategies": [
+    "ADD soft prereq: emergency-fund-planning (same-course)"
+  ],
+  "investment-risk-and-return": [
+    "ADD soft prereq: inflation-and-purchasing-power (same-course)"
+  ],
+  "retirement-accounts": [
+    "ADD soft prereq: net-worth-tracking (same-course)"
+  ],
+  "diy-vs-hire-professional": [
+    "ADD soft prereq: circuit-breakers-and-fuses (same-course)",
+    "ADD soft prereq: fixing-leaky-faucets (same-course)",
+    "ADD soft prereq: pest-control-basics (same-course)",
+    "ADD soft prereq: unclogging-drains (same-course)"
+  ],
+  "pest-control-basics": [
+    "ADD soft prereq: garden-and-planting-basics (same-course)"
+  ],
+  "interior-painting": [
+    "ADD soft prereq: power-tool-safety (same-course)"
+  ],
+  "wall-patching-and-repair": [
+    "ADD soft prereq: power-tool-safety (same-course)"
+  ],
+  "hemispheric-lateralization": [
+    "ADD soft prereq: auditory-processing-pathway (same-course)"
+  ],
+  "visual-processing-pathway": [
+    "ADD soft prereq: cerebral-cortex-organization (same-course)"
+  ],
+  "sensory-pathways-overview": [
+    "ADD soft prereq: cerebral-cortex-organization (same-course)"
+  ],
+  "neuroplasticity": [
+    "ADD soft prereq: glial-cells-and-support (same-course)"
+  ],
+  "psychopharmacology-basics": [
+    "ADD soft prereq: glial-cells-and-support (same-course)",
+    "ADD soft prereq: pain-and-somatosensory-processing (same-course)"
+  ],
+  "states-of-consciousness": [
+    "ADD soft prereq: limbic-system-and-emotion (same-course)"
+  ],
+  "expertise-and-chunking": [
+    "ADD soft prereq: attention-divided (same-course)",
+    "ADD soft prereq: cognitive-load-theory (same-course)"
+  ],
+  "cognitive-biases-overview": [
+    "ADD soft prereq: attention-selective (same-course)",
+    "ADD soft prereq: problem-solving-strategies (same-course)"
+  ],
+  "metacognition": [
+    "ADD soft prereq: cognitive-load-theory (same-course)"
+  ],
+  "analogical-reasoning-cognitive": [
+    "ADD soft prereq: mental-imagery (same-course)"
+  ],
+  "identity-development-adolescence": [
+    "ADD soft prereq: attachment-styles (same-course)"
+  ],
+  "attachment-theory": [
+    "ADD soft prereq: critical-periods-sensitive-periods (same-course)"
+  ],
+  "vygotsky-sociocultural-theory": [
+    "ADD soft prereq: language-acquisition-development (same-course)"
+  ],
+  "critical-periods-sensitive-periods": [
+    "ADD soft prereq: nature-nurture-debate (same-course)"
+  ],
+  "adolescent-cognitive-development": [
+    "ADD soft prereq: parenting-styles-and-outcomes (same-course)",
+    "ADD soft prereq: theory-of-mind-development (same-course)"
+  ],
+  "moral-development-kohlberg": [
+    "ADD soft prereq: piaget-formal-operational (same-course)"
+  ],
+  "nature-nurture-debate": [
+    "ADD soft prereq: prenatal-development (same-course)"
+  ],
+  "temperament-and-early-personality": [
+    "ADD soft prereq: prenatal-development (same-course)"
+  ],
+  "parenting-styles-and-outcomes": [
+    "ADD soft prereq: vygotsky-sociocultural-theory (same-course)"
+  ],
+  "validity-in-measurement": [
+    "ADD soft prereq: blinding-in-experiments (same-course)",
+    "ADD soft prereq: case-study-method (same-course)",
+    "ADD soft prereq: survey-research-methods (same-course)"
+  ],
+  "inferential-statistics-psychology": [
+    "ADD soft prereq: correlational-research-design (same-course)",
+    "ADD soft prereq: measurement-scales-psychology (same-course)",
+    "ADD soft prereq: random-assignment (same-course)",
+    "ADD soft prereq: validity-in-measurement (same-course)"
+  ],
+  "confounding-variables": [
+    "ADD soft prereq: random-assignment (same-course)"
+  ],
+  "descriptive-research-methods": [
+    "ADD soft prereq: sampling-in-psychology (same-course)"
+  ],
+  "reliability-in-measurement": [
+    "ADD soft prereq: survey-research-methods (same-course)"
+  ],
+  "prejudice-and-discrimination": [
+    "ADD soft prereq: fundamental-attribution-error (same-course)",
+    "ADD soft prereq: self-serving-bias (same-course)"
+  ],
+  "stereotyping-and-implicit-bias": [
+    "ADD soft prereq: fundamental-attribution-error (same-course)"
+  ],
+  "deindividuation": [
+    "ADD soft prereq: obedience-to-authority (same-course)"
+  ],
+  "social-identity-theory": [
+    "ADD soft prereq: social-comparison-theory (same-course)"
+  ],
+  "groupthink": [
+    "ADD soft prereq: social-comparison-theory (same-course)"
+  ],
+  "economic-anthropology": [
+    "ADD soft prereq: cross-cultural-comparison (same-course)",
+    "ADD soft prereq: material-culture (same-course)"
+  ],
+  "political-anthropology": [
+    "ADD soft prereq: cross-cultural-comparison (same-course)",
+    "ADD soft prereq: economic-anthropology (same-course)"
+  ],
+  "medical-anthropology": [
+    "ADD soft prereq: cultural-relativism (same-course)"
+  ],
+  "globalization-cultural-change": [
+    "ADD soft prereq: economic-anthropology (same-course)",
+    "ADD soft prereq: medical-anthropology (same-course)",
+    "ADD soft prereq: political-anthropology (same-course)"
+  ],
+  "cultural-relativism": [
+    "ADD soft prereq: ethnography-methods (same-course)"
+  ],
+  "identity-and-selfhood-anthropology": [
+    "ADD soft prereq: globalization-cultural-change (same-course)",
+    "ADD soft prereq: human-evolution-basics (same-course)",
+    "ADD soft prereq: language-and-culture (same-course)",
+    "ADD soft prereq: myth-and-symbolism (same-course)"
+  ],
+  "archaeological-methods": [
+    "ADD soft prereq: human-evolution-basics (same-course)"
+  ],
+  "cross-cultural-comparison": [
+    "ADD soft prereq: language-and-culture (same-course)"
+  ],
+  "resource-geography": [
+    "ADD soft prereq: agricultural-geography (same-course)",
+    "ADD soft prereq: colonialism-geographic-legacy (same-course)",
+    "ADD soft prereq: development-geography (same-course)",
+    "FLAG bidirectional: geopolitics-and-power <-> resource-geography (skipped, needs review)"
+  ],
+  "economic-geography-fundamentals": [
+    "ADD soft prereq: agricultural-geography (same-course)"
+  ],
+  "development-geography": [
+    "ADD soft prereq: agricultural-geography (same-course)",
+    "ADD soft prereq: industrial-location-theory (same-course)",
+    "ADD soft prereq: migration-theory-push-pull (same-course)"
+  ],
+  "geopolitics-and-power": [
+    "ADD soft prereq: colonialism-geographic-legacy (same-course)",
+    "FLAG bidirectional: resource-geography <-> geopolitics-and-power (skipped, needs review)",
+    "ADD soft prereq: world-cities-global-hierarchy (same-course)"
+  ],
+  "urban-geography-fundamentals": [
+    "ADD soft prereq: cultural-landscape (same-course)",
+    "ADD soft prereq: migration-theory-push-pull (same-course)"
+  ],
+  "cultural-landscape": [
+    "ADD soft prereq: environmental-determinism-possibilism (same-course)"
+  ],
+  "population-distribution-density": [
+    "ADD soft prereq: geographic-information-systems-intro (same-course)"
+  ],
+  "spatial-interaction-theory": [
+    "ADD soft prereq: geographic-information-systems-intro (same-course)",
+    "ADD soft prereq: urban-geography-fundamentals (same-course)"
+  ],
+  "colonialism-geographic-legacy": [
+    "ADD soft prereq: industrial-location-theory (same-course)"
+  ],
+  "world-cities-global-hierarchy": [
+    "ADD soft prereq: spatial-interaction-theory (same-course)"
+  ],
+  "political-culture-and-participation": [
+    "ADD soft prereq: electoral-systems (same-course)",
+    "ADD soft prereq: political-parties-and-party-systems (same-course)"
+  ],
+  "comparative-politics": [
+    "ADD soft prereq: federalism-and-decentralization (same-course)"
+  ],
+  "public-policy-process": [
+    "ADD soft prereq: federalism-and-decentralization (same-course)"
+  ],
+  "civil-society": [
+    "ADD soft prereq: interest-groups-and-lobbying (same-course)"
+  ],
+  "regime-change-and-democratization": [
+    "ADD soft prereq: political-culture-and-participation (same-course)"
+  ],
+  "social-structure-and-agency": [
+    "ADD soft prereq: sociological-imagination (same-course)"
+  ]
+}

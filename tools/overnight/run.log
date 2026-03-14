@@ -1,0 +1,1786 @@
+2026-03-09 23:27:40,917 [INFO] Added K-3 courses to _domain.yml: ['kindergarten', '1st-grade', '2nd-grade', '3rd-grade']
+2026-03-09 23:27:40,917 [INFO] Queue: 27 subjects remaining out of 27 total
+2026-03-09 23:27:40,917 [INFO]   1. math-kindergarten — Kindergarten Math
+2026-03-09 23:27:40,917 [INFO]   2. math-1st-grade — 1st Grade Math
+2026-03-09 23:27:40,917 [INFO]   3. math-2nd-grade — 2nd Grade Math
+2026-03-09 23:27:40,917 [INFO]   4. math-3rd-grade — 3rd Grade Math
+2026-03-09 23:27:40,917 [INFO]   5. math-linear-algebra — Linear Algebra
+2026-03-09 23:27:40,917 [INFO]   6. math-multivariable-calculus — Multivariable Calculus
+2026-03-09 23:27:40,917 [INFO]   7. math-methods-of-proof — Methods of Proof
+2026-03-09 23:27:40,918 [INFO]   8. math-probability-and-statistics — Probability & Statistics
+2026-03-09 23:27:40,918 [INFO]   9. math-discrete-math — Discrete Math
+2026-03-09 23:27:40,918 [INFO]   10. physics — Physics
+2026-03-09 23:27:40,918 [INFO]   11. computer-science — Computer Science & Information
+2026-03-09 23:27:40,918 [INFO]   12. formal-sciences-and-logic — Formal Sciences & Logic
+2026-03-09 23:27:40,918 [INFO]   13. chemistry — Chemistry
+2026-03-09 23:27:40,918 [INFO]   14. biology — Biology
+2026-03-09 23:27:40,918 [INFO]   15. earth-and-space-sciences — Earth & Space Sciences
+2026-03-09 23:27:40,918 [INFO]   16. economics — Economics & Political Economy
+2026-03-09 23:27:40,918 [INFO]   17. psychology — Psychology & Cognitive Science
+2026-03-09 23:27:40,918 [INFO]   18. engineering — Engineering & Technology
+2026-03-09 23:27:40,918 [INFO]   19. health-and-human-development — Health & Human Development
+2026-03-09 23:27:40,918 [INFO]   20. history — History & Civilization
+2026-03-09 23:27:40,918 [INFO]   21. philosophy — Philosophy & Ethics
+2026-03-09 23:27:40,918 [INFO]   22. social-sciences — Social Sciences
+2026-03-09 23:27:40,918 [INFO]   23. language-and-communication — Language & Communication
+2026-03-09 23:27:40,919 [INFO]   24. literature — Literature
+2026-03-09 23:27:40,919 [INFO]   25. music — Music
+2026-03-09 23:27:40,919 [INFO]   26. arts-and-aesthetics — Arts & Aesthetics
+2026-03-09 23:27:40,919 [INFO]   27. practical-life-skills — Practical Life Skills
+2026-03-09 23:28:41,705 [INFO] Queue: 1 subjects remaining out of 27 total
+2026-03-09 23:28:41,705 [INFO] 
+[1/1] Processing math-kindergarten...
+2026-03-09 23:28:41,705 [INFO] ============================================================
+2026-03-09 23:28:41,705 [INFO] STARTING: math-kindergarten (Kindergarten Math)
+2026-03-09 23:28:41,705 [INFO] ============================================================
+2026-03-09 23:28:41,707 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 13321 chars)
+2026-03-09 23:28:42,966 [ERROR] Claude exited with code 1
+2026-03-09 23:28:42,966 [ERROR] stderr: Error: Claude Code cannot be launched inside another Claude Code session.
+Nested sessions share runtime resources and will crash all active sessions.
+To bypass this check, unset the CLAUDECODE environment variable.
+
+2026-03-09 23:28:42,966 [ERROR] No output from agent for math-kindergarten
+2026-03-09 23:28:42,966 [WARNING] FAILED: math-kindergarten — continuing to next subject
+2026-03-09 23:28:42,967 [INFO] 
+============================================================
+2026-03-09 23:28:42,967 [INFO] OVERNIGHT RUN COMPLETE
+2026-03-09 23:28:42,967 [INFO]   Completed: 0
+2026-03-09 23:28:42,967 [INFO]   Failed: 1
+2026-03-09 23:28:42,967 [INFO]   Failed subjects: ['math-kindergarten']
+2026-03-09 23:28:42,967 [INFO]   Total in queue: 27
+2026-03-09 23:28:42,967 [INFO] ============================================================
+2026-03-09 23:28:58,379 [INFO] Queue: 1 subjects remaining out of 27 total
+2026-03-09 23:28:58,379 [INFO] 
+[1/1] Processing math-kindergarten...
+2026-03-09 23:28:58,379 [INFO] ============================================================
+2026-03-09 23:28:58,379 [INFO] STARTING: math-kindergarten (Kindergarten Math)
+2026-03-09 23:28:58,379 [INFO] ============================================================
+2026-03-09 23:28:58,381 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 13321 chars)
+2026-03-09 23:30:53,457 [INFO] Generated 25 files for math-kindergarten
+2026-03-09 23:30:53,702 [WARNING] Validation issues for math-kindergarten:
+2026-03-09 23:30:53,702 [WARNING] Validating Open Knowledge Graph...
+
+  Scanned 397 files, 397 valid topics
+
+  Topics by course:
+    4th-grade: 36
+    5th-grade: 33
+    algebra-1: 41
+    algebra-2: 47
+    calculus-1: 42
+    calculus-2: 37
+    geometry: 53
+    kindergarten: 25
+    prealgebra: 45
+    precalculus: 38
+
+  Root topics (no prerequisites, not depended on): 4
+    - measurement-comparison-length
+    - measurement-comparison-weight
+    - positional-words
+    - time-sequencing-daily-events
+
+Warnings (367):
+  WARN   domains\mathematics\algebra-1\rational-expressions-intro.md: Prerequisite 'simplifying-fractions' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\arithmetic-sequences-and-series.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\binomial-theorem.md: Prerequisite 'polynomial-multiplication' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'square-roots' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\composition-of-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\exponential-functions-and-graphs.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\graphing-polynomial-functions.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\logarithm-properties.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\mathemat
+2026-03-09 23:30:53,869 [INFO] Committed math-kindergarten
+2026-03-09 23:30:53,869 [INFO] COMPLETED: math-kindergarten (1/27 total)
+2026-03-09 23:30:53,869 [INFO] 
+============================================================
+2026-03-09 23:30:53,870 [INFO] OVERNIGHT RUN COMPLETE
+2026-03-09 23:30:53,870 [INFO]   Completed: 1
+2026-03-09 23:30:53,870 [INFO]   Failed: 0
+2026-03-09 23:30:53,870 [INFO]   Total in queue: 27
+2026-03-09 23:30:53,870 [INFO] ============================================================
+2026-03-09 23:31:06,158 [INFO] Queue: 26 subjects remaining out of 27 total
+2026-03-09 23:31:06,158 [INFO] 
+[1/26] Processing math-1st-grade...
+2026-03-09 23:31:06,158 [INFO] ============================================================
+2026-03-09 23:31:06,158 [INFO] STARTING: math-1st-grade (1st Grade Math)
+2026-03-09 23:31:06,158 [INFO] ============================================================
+2026-03-09 23:31:06,160 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 13875 chars)
+2026-03-09 23:37:21,577 [INFO] Generated 28 files for math-1st-grade
+2026-03-09 23:37:21,830 [WARNING] Validation issues for math-1st-grade:
+2026-03-09 23:37:21,830 [WARNING] Validating Open Knowledge Graph...
+
+  Scanned 425 files, 425 valid topics
+
+  Topics by course:
+    1st-grade: 28
+    4th-grade: 36
+    5th-grade: 33
+    algebra-1: 41
+    algebra-2: 47
+    calculus-1: 42
+    calculus-2: 37
+    geometry: 53
+    kindergarten: 25
+    prealgebra: 45
+    precalculus: 38
+
+  Root topics (no prerequisites, not depended on): 1
+    - measurement-comparison-weight
+
+Warnings (375):
+  WARN   domains\mathematics\algebra-1\rational-expressions-intro.md: Prerequisite 'simplifying-fractions' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\arithmetic-sequences-and-series.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\binomial-theorem.md: Prerequisite 'polynomial-multiplication' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'square-roots' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\composition-of-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\exponential-functions-and-graphs.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\graphing-polynomial-functions.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\logarithm-properties.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\matrices-intro.md: Prerequisite 'systems-of-linear-equations' 
+2026-03-09 23:37:21,989 [INFO] Committed math-1st-grade
+2026-03-09 23:37:21,989 [INFO] COMPLETED: math-1st-grade (2/27 total)
+2026-03-09 23:37:26,990 [INFO] 
+[2/26] Processing math-2nd-grade...
+2026-03-09 23:37:26,990 [INFO] ============================================================
+2026-03-09 23:37:26,991 [INFO] STARTING: math-2nd-grade (2nd Grade Math)
+2026-03-09 23:37:26,991 [INFO] ============================================================
+2026-03-09 23:37:26,994 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 14439 chars)
+2026-03-09 23:42:22,876 [INFO] Generated 30 files for math-2nd-grade
+2026-03-09 23:42:23,157 [WARNING] Validation issues for math-2nd-grade:
+2026-03-09 23:42:23,157 [WARNING] Validating Open Knowledge Graph...
+
+  Scanned 455 files, 455 valid topics
+
+  Topics by course:
+    1st-grade: 28
+    2nd-grade: 30
+    4th-grade: 36
+    5th-grade: 33
+    algebra-1: 41
+    algebra-2: 47
+    calculus-1: 42
+    calculus-2: 37
+    geometry: 53
+    kindergarten: 25
+    prealgebra: 45
+    precalculus: 38
+
+  Root topics (no prerequisites, not depended on): 1
+    - measurement-comparison-weight
+
+Warnings (423):
+  WARN   domains\mathematics\algebra-1\rational-expressions-intro.md: Prerequisite 'simplifying-fractions' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\arithmetic-sequences-and-series.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\binomial-theorem.md: Prerequisite 'polynomial-multiplication' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'square-roots' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\composition-of-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\exponential-functions-and-graphs.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\graphing-polynomial-functions.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\logarithm-properties.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\matrices-intro.md: Prerequisite 'systems-of-
+2026-03-09 23:42:23,313 [INFO] Committed math-2nd-grade
+2026-03-09 23:42:23,314 [INFO] COMPLETED: math-2nd-grade (3/27 total)
+2026-03-09 23:42:28,315 [INFO] 
+[3/26] Processing math-3rd-grade...
+2026-03-09 23:42:28,316 [INFO] ============================================================
+2026-03-09 23:42:28,316 [INFO] STARTING: math-3rd-grade (3rd Grade Math)
+2026-03-09 23:42:28,316 [INFO] ============================================================
+2026-03-09 23:42:28,320 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 15281 chars)
+2026-03-09 23:54:46,974 [INFO] Generated 33 files for math-3rd-grade
+2026-03-09 23:54:47,269 [WARNING] Validation issues for math-3rd-grade:
+2026-03-09 23:54:47,269 [WARNING] Validating Open Knowledge Graph...
+
+  Scanned 488 files, 488 valid topics
+
+  Topics by course:
+    1st-grade: 28
+    2nd-grade: 30
+    3rd-grade: 33
+    4th-grade: 36
+    5th-grade: 33
+    algebra-1: 41
+    algebra-2: 47
+    calculus-1: 42
+    calculus-2: 37
+    geometry: 53
+    kindergarten: 25
+    prealgebra: 45
+    precalculus: 38
+
+Warnings (486):
+  WARN   domains\mathematics\algebra-1\rational-expressions-intro.md: Prerequisite 'simplifying-fractions' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\arithmetic-sequences-and-series.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\binomial-theorem.md: Prerequisite 'polynomial-multiplication' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'square-roots' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\composition-of-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\exponential-functions-and-graphs.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\graphing-polynomial-functions.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\logarithm-properties.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\matrices-intro.md: Prerequisite 'systems-of-linear-equations' not found (may not exist yet)
+  WARN   domains\mathema
+2026-03-09 23:54:47,423 [INFO] Committed math-3rd-grade
+2026-03-09 23:54:47,423 [INFO] COMPLETED: math-3rd-grade (4/27 total)
+2026-03-09 23:54:52,424 [INFO] 
+[4/26] Processing math-linear-algebra...
+2026-03-09 23:54:52,425 [INFO] ============================================================
+2026-03-09 23:54:52,425 [INFO] STARTING: math-linear-algebra (Linear Algebra)
+2026-03-09 23:54:52,425 [INFO] ============================================================
+2026-03-09 23:54:52,430 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 16275 chars)
+2026-03-10 00:00:25,517 [INFO] Generated 35 files for math-linear-algebra
+2026-03-10 00:00:25,847 [WARNING] Validation issues for math-linear-algebra:
+2026-03-10 00:00:25,847 [WARNING] Validating Open Knowledge Graph...
+
+  Scanned 523 files, 523 valid topics
+
+  Topics by course:
+    1st-grade: 28
+    2nd-grade: 30
+    3rd-grade: 33
+    4th-grade: 36
+    5th-grade: 33
+    algebra-1: 41
+    algebra-2: 47
+    calculus-1: 42
+    calculus-2: 37
+    geometry: 53
+    kindergarten: 25
+    linear-algebra: 35
+    prealgebra: 45
+    precalculus: 38
+
+Warnings (505):
+  WARN   domains\mathematics\algebra-1\rational-expressions-intro.md: Prerequisite 'simplifying-fractions' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\arithmetic-sequences-and-series.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\binomial-theorem.md: Prerequisite 'polynomial-multiplication' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'square-roots' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\composition-of-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\exponential-functions-and-graphs.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\graphing-polynomial-functions.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\logarithm-properties.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\matrices-intro.md: Prerequisite 'systems-of-linear-equations' not found (may not exist yet)
+ 
+2026-03-10 00:00:26,022 [INFO] Committed math-linear-algebra
+2026-03-10 00:00:26,023 [INFO] COMPLETED: math-linear-algebra (5/27 total)
+2026-03-10 00:00:31,024 [INFO] 
+[5/26] Processing math-multivariable-calculus...
+2026-03-10 00:00:31,024 [INFO] ============================================================
+2026-03-10 00:00:31,024 [INFO] STARTING: math-multivariable-calculus (Multivariable Calculus)
+2026-03-10 00:00:31,024 [INFO] ============================================================
+2026-03-10 00:00:31,030 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 16923 chars)
+2026-03-10 00:08:49,201 [WARNING] JSON in code fence failed to parse: Extra data: line 18 column 6 (char 1629)
+2026-03-10 00:08:49,202 [WARNING] Extracted JSON block failed to parse: Extra data: line 18 column 6 (char 1625)
+2026-03-10 00:08:49,202 [ERROR] Could not extract valid JSON from agent output
+2026-03-10 00:08:49,202 [ERROR] Failed to extract JSON for math-multivariable-calculus
+2026-03-10 00:08:49,202 [WARNING] FAILED: math-multivariable-calculus — continuing to next subject
+2026-03-10 00:08:54,203 [INFO] 
+[6/26] Processing math-methods-of-proof...
+2026-03-10 00:08:54,203 [INFO] ============================================================
+2026-03-10 00:08:54,204 [INFO] STARTING: math-methods-of-proof (Methods of Proof)
+2026-03-10 00:08:54,204 [INFO] ============================================================
+2026-03-10 00:08:54,208 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 16912 chars)
+2026-03-10 00:12:10,985 [INFO] Generated 25 files for math-methods-of-proof
+2026-03-10 00:12:11,323 [WARNING] Validation issues for math-methods-of-proof:
+2026-03-10 00:12:11,323 [WARNING] Validating Open Knowledge Graph...
+
+  Scanned 548 files, 548 valid topics
+
+  Topics by course:
+    1st-grade: 28
+    2nd-grade: 30
+    3rd-grade: 33
+    4th-grade: 36
+    5th-grade: 33
+    algebra-1: 41
+    algebra-2: 47
+    calculus-1: 42
+    calculus-2: 37
+    geometry: 53
+    kindergarten: 25
+    linear-algebra: 35
+    methods-of-proof: 25
+    prealgebra: 45
+    precalculus: 38
+
+Warnings (518):
+  WARN   domains\mathematics\algebra-1\rational-expressions-intro.md: Prerequisite 'simplifying-fractions' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\arithmetic-sequences-and-series.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\binomial-theorem.md: Prerequisite 'polynomial-multiplication' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'square-roots' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\composition-of-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\exponential-functions-and-graphs.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\graphing-polynomial-functions.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\logarithm-properties.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\matrices-intro.md: Prerequisite 'systems-of-linear-equations' not fo
+2026-03-10 00:12:11,487 [INFO] Committed math-methods-of-proof
+2026-03-10 00:12:11,488 [INFO] COMPLETED: math-methods-of-proof (6/27 total)
+2026-03-10 00:12:16,489 [INFO] 
+[7/26] Processing math-probability-and-statistics...
+2026-03-10 00:12:16,489 [INFO] ============================================================
+2026-03-10 00:12:16,489 [INFO] STARTING: math-probability-and-statistics (Probability & Statistics)
+2026-03-10 00:12:16,489 [INFO] ============================================================
+2026-03-10 00:12:16,493 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 17574 chars)
+2026-03-10 00:16:54,360 [INFO] Generated 35 files for math-probability-and-statistics
+2026-03-10 00:16:54,705 [WARNING] Validation issues for math-probability-and-statistics:
+2026-03-10 00:16:54,705 [WARNING] Validating Open Knowledge Graph...
+
+  Scanned 583 files, 583 valid topics
+
+  Topics by course:
+    1st-grade: 28
+    2nd-grade: 30
+    3rd-grade: 33
+    4th-grade: 36
+    5th-grade: 33
+    algebra-1: 41
+    algebra-2: 47
+    calculus-1: 42
+    calculus-2: 37
+    geometry: 53
+    kindergarten: 25
+    linear-algebra: 35
+    methods-of-proof: 25
+    prealgebra: 45
+    precalculus: 38
+    probability-and-statistics: 35
+
+Warnings (528):
+  WARN   domains\mathematics\algebra-1\rational-expressions-intro.md: Prerequisite 'simplifying-fractions' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\arithmetic-sequences-and-series.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\binomial-theorem.md: Prerequisite 'polynomial-multiplication' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'square-roots' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\composition-of-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\exponential-functions-and-graphs.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\graphing-polynomial-functions.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\logarithm-properties.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\matrices-intro.md: Prerequisite '
+2026-03-10 00:16:54,870 [INFO] Committed math-probability-and-statistics
+2026-03-10 00:16:54,870 [INFO] COMPLETED: math-probability-and-statistics (7/27 total)
+2026-03-10 00:16:59,871 [INFO] 
+[8/26] Processing math-discrete-math...
+2026-03-10 00:16:59,872 [INFO] ============================================================
+2026-03-10 00:16:59,872 [INFO] STARTING: math-discrete-math (Discrete Math)
+2026-03-10 00:16:59,872 [INFO] ============================================================
+2026-03-10 00:16:59,875 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 18371 chars)
+2026-03-10 00:23:56,189 [INFO] Generated 30 files for math-discrete-math
+2026-03-10 00:23:56,550 [WARNING] Validation issues for math-discrete-math:
+2026-03-10 00:23:56,550 [WARNING] Validating Open Knowledge Graph...
+
+  Scanned 613 files, 613 valid topics
+
+  Topics by course:
+    1st-grade: 28
+    2nd-grade: 30
+    3rd-grade: 33
+    4th-grade: 36
+    5th-grade: 33
+    algebra-1: 41
+    algebra-2: 47
+    calculus-1: 42
+    calculus-2: 37
+    discrete-math: 30
+    geometry: 53
+    kindergarten: 25
+    linear-algebra: 35
+    methods-of-proof: 25
+    prealgebra: 45
+    precalculus: 38
+    probability-and-statistics: 35
+
+Warnings (533):
+  WARN   domains\mathematics\algebra-1\rational-expressions-intro.md: Prerequisite 'simplifying-fractions' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\arithmetic-sequences-and-series.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\binomial-theorem.md: Prerequisite 'polynomial-multiplication' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'square-roots' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\composition-of-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\exponential-functions-and-graphs.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\graphing-polynomial-functions.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\logarithm-properties.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\matrices-in
+2026-03-10 00:23:56,713 [INFO] Committed math-discrete-math
+2026-03-10 00:23:56,713 [INFO] COMPLETED: math-discrete-math (8/27 total)
+2026-03-10 00:24:01,714 [INFO] 
+[9/26] Processing physics...
+2026-03-10 00:24:01,715 [INFO] ============================================================
+2026-03-10 00:24:01,715 [INFO] STARTING: physics (Physics)
+2026-03-10 00:24:01,715 [INFO] ============================================================
+2026-03-10 00:24:01,721 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 20919 chars)
+2026-03-10 00:49:04,663 [ERROR] File generation failed for physics: list indices must be integers or slices, not str
+2026-03-10 00:49:04,663 [WARNING] FAILED: physics — continuing to next subject
+2026-03-10 00:49:09,664 [INFO] 
+[10/26] Processing computer-science...
+2026-03-10 00:49:09,664 [INFO] ============================================================
+2026-03-10 00:49:09,664 [INFO] STARTING: computer-science (Computer Science & Information)
+2026-03-10 00:49:09,664 [INFO] ============================================================
+2026-03-10 00:49:09,669 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 21392 chars)
+2026-03-10 01:19:10,886 [ERROR] Claude timed out after 1800s
+2026-03-10 01:19:10,886 [ERROR] No output from agent for computer-science
+2026-03-10 01:19:10,887 [WARNING] FAILED: computer-science — continuing to next subject
+2026-03-10 01:19:15,888 [INFO] 
+[11/26] Processing formal-sciences-and-logic...
+2026-03-10 01:19:15,888 [INFO] ============================================================
+2026-03-10 01:19:15,888 [INFO] STARTING: formal-sciences-and-logic (Formal Sciences & Logic)
+2026-03-10 01:19:15,888 [INFO] ============================================================
+2026-03-10 01:19:15,893 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 20849 chars)
+2026-03-10 01:36:23,797 [ERROR] File generation failed for formal-sciences-and-logic: list indices must be integers or slices, not str
+2026-03-10 01:36:23,798 [WARNING] FAILED: formal-sciences-and-logic — continuing to next subject
+2026-03-10 01:36:28,799 [INFO] 
+[12/26] Processing chemistry...
+2026-03-10 01:36:28,799 [INFO] ============================================================
+2026-03-10 01:36:28,799 [INFO] STARTING: chemistry (Chemistry)
+2026-03-10 01:36:28,799 [INFO] ============================================================
+2026-03-10 01:36:28,804 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 20819 chars)
+2026-03-10 02:00:38,639 [INFO] Generated 0 files for chemistry
+2026-03-10 02:00:39,015 [WARNING] Validation issues for chemistry:
+2026-03-10 02:00:39,015 [WARNING] Validating Open Knowledge Graph...
+
+  Scanned 613 files, 613 valid topics
+
+  Topics by course:
+    1st-grade: 28
+    2nd-grade: 30
+    3rd-grade: 33
+    4th-grade: 36
+    5th-grade: 33
+    algebra-1: 41
+    algebra-2: 47
+    calculus-1: 42
+    calculus-2: 37
+    discrete-math: 30
+    geometry: 53
+    kindergarten: 25
+    linear-algebra: 35
+    methods-of-proof: 25
+    prealgebra: 45
+    precalculus: 38
+    probability-and-statistics: 35
+
+Warnings (533):
+  WARN   domains\mathematics\algebra-1\rational-expressions-intro.md: Prerequisite 'simplifying-fractions' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\arithmetic-sequences-and-series.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\binomial-theorem.md: Prerequisite 'polynomial-multiplication' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'square-roots' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\composition-of-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\exponential-functions-and-graphs.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\graphing-polynomial-functions.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\logarithm-properties.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\matrices-in
+2026-03-10 02:00:39,069 [INFO] Committed chemistry
+2026-03-10 02:00:39,069 [INFO] COMPLETED: chemistry (9/27 total)
+2026-03-10 02:00:44,070 [INFO] 
+[13/26] Processing biology...
+2026-03-10 02:00:44,070 [INFO] ============================================================
+2026-03-10 02:00:44,070 [INFO] STARTING: biology (Biology)
+2026-03-10 02:00:44,070 [INFO] ============================================================
+2026-03-10 02:00:44,075 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 20996 chars)
+2026-03-10 02:30:45,231 [ERROR] Claude timed out after 1800s
+2026-03-10 02:30:45,232 [ERROR] No output from agent for biology
+2026-03-10 02:30:45,232 [WARNING] FAILED: biology — continuing to next subject
+2026-03-10 02:30:50,233 [INFO] 
+[14/26] Processing earth-and-space-sciences...
+2026-03-10 02:30:50,234 [INFO] ============================================================
+2026-03-10 02:30:50,234 [INFO] STARTING: earth-and-space-sciences (Earth & Space Sciences)
+2026-03-10 02:30:50,234 [INFO] ============================================================
+2026-03-10 02:30:50,238 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 20779 chars)
+2026-03-10 03:00:51,485 [ERROR] Claude timed out after 1800s
+2026-03-10 03:00:51,485 [ERROR] No output from agent for earth-and-space-sciences
+2026-03-10 03:00:51,486 [WARNING] FAILED: earth-and-space-sciences — continuing to next subject
+2026-03-10 03:00:56,487 [INFO] 
+[15/26] Processing economics...
+2026-03-10 03:00:56,487 [INFO] ============================================================
+2026-03-10 03:00:56,487 [INFO] STARTING: economics (Economics & Political Economy)
+2026-03-10 03:00:56,487 [INFO] ============================================================
+2026-03-10 03:00:56,493 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 20846 chars)
+2026-03-10 03:05:01,232 [INFO] Queue: 18 subjects remaining out of 27 total
+2026-03-10 03:05:01,235 [INFO] 
+[1/18] Processing math-multivariable-calculus...
+2026-03-10 03:05:01,235 [INFO] ============================================================
+2026-03-10 03:05:01,235 [INFO] STARTING: math-multivariable-calculus (Multivariable Calculus)
+2026-03-10 03:05:01,235 [INFO] ============================================================
+2026-03-10 03:05:01,238 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 19034 chars)
+2026-03-10 03:10:13,813 [INFO] Generated 35 files for math-multivariable-calculus
+2026-03-10 03:10:14,215 [WARNING] Validation issues for math-multivariable-calculus:
+2026-03-10 03:10:14,215 [WARNING] Validating Open Knowledge Graph...
+
+  Scanned 648 files, 648 valid topics
+
+  Topics by course:
+    1st-grade: 28
+    2nd-grade: 30
+    3rd-grade: 33
+    4th-grade: 36
+    5th-grade: 33
+    algebra-1: 41
+    algebra-2: 47
+    calculus-1: 42
+    calculus-2: 37
+    discrete-math: 30
+    geometry: 53
+    kindergarten: 25
+    linear-algebra: 35
+    methods-of-proof: 25
+    multivariable-calculus: 35
+    prealgebra: 45
+    precalculus: 38
+    probability-and-statistics: 35
+
+Warnings (549):
+  WARN   domains\mathematics\algebra-1\rational-expressions-intro.md: Prerequisite 'simplifying-fractions' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\arithmetic-sequences-and-series.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\binomial-theorem.md: Prerequisite 'polynomial-multiplication' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'square-roots' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\complex-numbers-intro.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\composition-of-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\exponential-functions-and-graphs.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\graphing-polynomial-functions.md: Prerequisite 'solving-quadratic-equations-by-factoring' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'function-notation' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\inverse-functions.md: Prerequisite 'solving-linear-equations' not found (may not exist yet)
+  WARN   domains\mathematics\algebra-2\logarithm-properties.md: Prerequisite 'exponent-rules' not found (may not exist yet)
+  WARN   domains\ma
+2026-03-10 03:10:14,419 [INFO] Committed math-multivariable-calculus
+2026-03-10 03:10:14,419 [INFO] COMPLETED: math-multivariable-calculus (10/27 total)
+2026-03-10 03:10:19,420 [INFO] 
+[2/18] Processing physics...
+2026-03-10 03:10:19,420 [INFO] ============================================================
+2026-03-10 03:10:19,420 [INFO] STARTING: physics (Physics)
+2026-03-10 03:10:19,420 [INFO] ============================================================
+2026-03-10 03:10:19,425 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 21714 chars)
+2026-03-10 03:16:19,374 [ERROR] File generation failed for economics: list indices must be integers or slices, not str
+2026-03-10 03:16:19,375 [WARNING] FAILED: economics — continuing to next subject
+2026-03-10 03:16:24,375 [INFO] 
+[16/26] Processing psychology...
+2026-03-10 03:16:24,376 [INFO] ============================================================
+2026-03-10 03:16:24,376 [INFO] STARTING: psychology (Psychology & Cognitive Science)
+2026-03-10 03:16:24,376 [INFO] ============================================================
+2026-03-10 03:16:24,380 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 21992 chars)
+2026-03-10 03:30:56,358 [WARNING] JSON in code fence failed to parse: Extra data: line 16 column 6 (char 1460)
+2026-03-10 03:30:56,358 [WARNING] Extracted JSON block failed to parse: Extra data: line 16 column 6 (char 1456)
+2026-03-10 03:30:56,358 [ERROR] Could not extract valid JSON from agent output
+2026-03-10 03:30:56,358 [ERROR] Failed to extract JSON for psychology
+2026-03-10 03:30:56,358 [WARNING] FAILED: psychology — continuing to next subject
+2026-03-10 03:31:01,359 [INFO] 
+[17/26] Processing engineering...
+2026-03-10 03:31:01,359 [INFO] ============================================================
+2026-03-10 03:31:01,359 [INFO] STARTING: engineering (Engineering & Technology)
+2026-03-10 03:31:01,359 [INFO] ============================================================
+2026-03-10 03:31:01,363 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 21895 chars)
+2026-03-10 03:40:20,600 [ERROR] Claude timed out after 1800s
+2026-03-10 03:40:20,600 [ERROR] No output from agent for physics
+2026-03-10 03:40:20,601 [WARNING] FAILED: physics — continuing to next subject
+2026-03-10 03:40:25,602 [INFO] 
+[3/18] Processing computer-science...
+2026-03-10 03:40:25,602 [INFO] ============================================================
+2026-03-10 03:40:25,603 [INFO] STARTING: computer-science (Computer Science & Information)
+2026-03-10 03:40:25,603 [INFO] ============================================================
+2026-03-10 03:40:25,606 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 22187 chars)
+2026-03-10 03:47:45,393 [ERROR] File generation failed for engineering: list indices must be integers or slices, not str
+2026-03-10 03:47:45,393 [WARNING] FAILED: engineering — continuing to next subject
+2026-03-10 03:47:50,394 [INFO] 
+[18/26] Processing health-and-human-development...
+2026-03-10 03:47:50,394 [INFO] ============================================================
+2026-03-10 03:47:50,394 [INFO] STARTING: health-and-human-development (Health & Human Development)
+2026-03-10 03:47:50,394 [INFO] ============================================================
+2026-03-10 03:47:50,395 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 6114 chars)
+2026-03-10 06:36:41,287 [INFO] Queue: 116 remaining / 125 total
+2026-03-10 06:36:41,287 [INFO]   1. [domain-setup] physics--setup — Physics
+2026-03-10 06:36:41,287 [INFO]   2. [domain-course] physics--classical-mechanics — Classical Mechanics
+2026-03-10 06:36:41,287 [INFO]   3. [domain-course] physics--electricity-and-magnetism — Electricity & Magnetism
+2026-03-10 06:36:41,287 [INFO]   4. [domain-course] physics--thermodynamics — Thermodynamics
+2026-03-10 06:36:41,288 [INFO]   5. [domain-course] physics--waves-and-optics — Waves & Optics
+2026-03-10 06:36:41,288 [INFO]   6. [domain-course] physics--modern-physics — Modern Physics
+2026-03-10 06:36:41,288 [INFO]   7. [domain-setup] computer-science--setup — Computer Science & Information
+2026-03-10 06:36:41,289 [INFO]   8. [domain-course] computer-science--programming-fundamentals — Programming Fundamentals
+2026-03-10 06:36:41,289 [INFO]   9. [domain-course] computer-science--data-structures-and-algorithms — Data Structures & Algorithms
+2026-03-10 06:36:41,289 [INFO]   10. [domain-course] computer-science--computer-architecture — Computer Architecture
+2026-03-10 06:36:41,289 [INFO]   11. [domain-course] computer-science--operating-systems — Operating Systems
+2026-03-10 06:36:41,289 [INFO]   12. [domain-course] computer-science--databases — Databases
+2026-03-10 06:36:41,289 [INFO]   13. [domain-course] computer-science--theory-of-computation — Theory of Computation
+2026-03-10 06:36:41,289 [INFO]   14. [domain-setup] formal-sciences-and-logic--setup — Formal Sciences & Logic
+2026-03-10 06:36:41,289 [INFO]   15. [domain-course] formal-sciences-and-logic--propositional-and-predicate-logic — Propositional & Predicate Logic
+2026-03-10 06:36:41,289 [INFO]   16. [domain-course] formal-sciences-and-logic--set-theory — Set Theory
+2026-03-10 06:36:41,289 [INFO]   17. [domain-course] formal-sciences-and-logic--computability-and-complexity — Computability & Complexity
+2026-03-10 06:36:41,289 [INFO]   18. [domain-course] formal-sciences-and-logic--category-theory — Category Theory
+2026-03-10 06:36:41,289 [INFO]   19. [domain-setup] chemistry--setup — Chemistry
+2026-03-10 06:36:41,289 [INFO]   20. [domain-course] chemistry--general-chemistry — General Chemistry
+2026-03-10 06:36:41,289 [INFO]   21. [domain-course] chemistry--organic-chemistry — Organic Chemistry
+2026-03-10 06:36:41,289 [INFO]   22. [domain-course] chemistry--physical-chemistry — Physical Chemistry
+2026-03-10 06:36:41,289 [INFO]   23. [domain-course] chemistry--analytical-chemistry — Analytical Chemistry
+2026-03-10 06:36:41,289 [INFO]   24. [domain-setup] biology--setup — Biology
+2026-03-10 06:36:41,289 [INFO]   25. [domain-course] biology--cell-biology — Cell Biology
+2026-03-10 06:36:41,289 [INFO]   26. [domain-course] biology--genetics-and-molecular-biology — Genetics & Molecular Biology
+2026-03-10 06:36:41,289 [INFO]   27. [domain-course] biology--physiology — Physiology
+2026-03-10 06:36:41,289 [INFO]   28. [domain-course] biology--ecology-and-evolution — Ecology & Evolution
+2026-03-10 06:36:41,289 [INFO]   29. [domain-course] biology--microbiology — Microbiology
+2026-03-10 06:36:41,289 [INFO]   30. [domain-setup] earth-and-space-sciences--setup — Earth & Space Sciences
+2026-03-10 06:36:41,289 [INFO]   31. [domain-course] earth-and-space-sciences--geology — Geology
+2026-03-10 06:36:41,289 [INFO]   32. [domain-course] earth-and-space-sciences--meteorology-and-climate — Meteorology & Climate
+2026-03-10 06:36:41,289 [INFO]   33. [domain-course] earth-and-space-sciences--oceanography — Oceanography
+2026-03-10 06:36:41,289 [INFO]   34. [domain-course] earth-and-space-sciences--astronomy — Astronomy & Astrophysics
+2026-03-10 06:36:41,289 [INFO]   35. [domain-setup] economics--setup — Economics & Political Economy
+2026-03-10 06:36:41,289 [INFO]   36. [domain-course] economics--microeconomics — Microeconomics
+2026-03-10 06:36:41,289 [INFO]   37. [domain-course] economics--macroeconomics — Macroeconomics
+2026-03-10 06:36:41,289 [INFO]   38. [domain-course] economics--econometrics — Econometrics
+2026-03-10 06:36:41,289 [INFO]   39. [domain-course] economics--financial-economics — Financial Economics
+2026-03-10 06:36:41,289 [INFO]   40. [domain-setup] psychology--setup — Psychology & Cognitive Science
+2026-03-10 06:36:41,289 [INFO]   41. [domain-course] psychology--research-methods-psychology — Research Methods in Psychology
+2026-03-10 06:36:41,289 [INFO]   42. [domain-course] psychology--biological-psychology — Biological Psychology
+2026-03-10 06:36:41,289 [INFO]   43. [domain-course] psychology--cognitive-psychology — Cognitive Psychology
+2026-03-10 06:36:41,289 [INFO]   44. [domain-course] psychology--developmental-psychology — Developmental Psychology
+2026-03-10 06:36:41,289 [INFO]   45. [domain-course] psychology--social-psychology — Social Psychology
+2026-03-10 06:36:41,289 [INFO]   46. [domain-setup] engineering--setup — Engineering & Technology
+2026-03-10 06:36:41,289 [INFO]   47. [domain-course] engineering--statics-and-dynamics — Statics & Dynamics
+2026-03-10 06:36:41,289 [INFO]   48. [domain-course] engineering--materials-science — Materials Science
+2026-03-10 06:36:41,289 [INFO]   49. [domain-course] engineering--fluid-mechanics — Fluid Mechanics
+2026-03-10 06:36:41,289 [INFO]   50. [domain-course] engineering--circuits-and-electronics — Circuits & Electronics
+2026-03-10 06:36:41,289 [INFO]   51. [domain-course] engineering--control-systems — Control Systems
+2026-03-10 06:36:41,289 [INFO]   52. [domain-setup] health-and-human-development--setup — Health & Human Development
+2026-03-10 06:36:41,289 [INFO]   53. [domain-course] health-and-human-development--anatomy-and-physiology — Anatomy & Physiology
+2026-03-10 06:36:41,289 [INFO]   54. [domain-course] health-and-human-development--nutrition-science — Nutrition Science
+2026-03-10 06:36:41,289 [INFO]   55. [domain-course] health-and-human-development--public-health — Public Health
+2026-03-10 06:36:41,289 [INFO]   56. [domain-course] health-and-human-development--child-development — Child Development
+2026-03-10 06:36:41,289 [INFO]   57. [domain-setup] history--setup — History & Civilization
+2026-03-10 06:36:41,289 [INFO]   58. [domain-course] history--historical-methods — Historical Methods
+2026-03-10 06:36:41,289 [INFO]   59. [domain-course] history--ancient-civilizations — Ancient Civilizations
+2026-03-10 06:36:41,290 [INFO]   60. [domain-course] history--medieval-world — Medieval World
+2026-03-10 06:36:41,290 [INFO]   61. [domain-course] history--early-modern-period — Early Modern Period
+2026-03-10 06:36:41,290 [INFO]   62. [domain-course] history--modern-history — Modern History
+2026-03-10 06:36:41,290 [INFO]   63. [domain-setup] philosophy--setup — Philosophy & Ethics
+2026-03-10 06:36:41,290 [INFO]   64. [domain-course] philosophy--logic-and-critical-thinking — Logic & Critical Thinking
+2026-03-10 06:36:41,290 [INFO]   65. [domain-course] philosophy--epistemology — Epistemology
+2026-03-10 06:36:41,290 [INFO]   66. [domain-course] philosophy--metaphysics — Metaphysics
+2026-03-10 06:36:41,290 [INFO]   67. [domain-course] philosophy--ethics — Ethics
+2026-03-10 06:36:41,290 [INFO]   68. [domain-course] philosophy--political-philosophy — Political Philosophy
+2026-03-10 06:36:41,290 [INFO]   69. [domain-course] philosophy--philosophy-of-mind — Philosophy of Mind
+2026-03-10 06:36:41,290 [INFO]   70. [domain-setup] social-sciences--setup — Social Sciences
+2026-03-10 06:36:41,290 [INFO]   71. [domain-course] social-sciences--sociology — Sociology
+2026-03-10 06:36:41,290 [INFO]   72. [domain-course] social-sciences--anthropology — Anthropology
+2026-03-10 06:36:41,290 [INFO]   73. [domain-course] social-sciences--political-science — Political Science
+2026-03-10 06:36:41,290 [INFO]   74. [domain-course] social-sciences--human-geography — Human Geography
+2026-03-10 06:36:41,290 [INFO]   75. [domain-setup] language-and-communication--setup — Language & Communication
+2026-03-10 06:36:41,290 [INFO]   76. [domain-course] language-and-communication--grammar-and-syntax — Grammar & Syntax
+2026-03-10 06:36:41,290 [INFO]   77. [domain-course] language-and-communication--rhetoric-and-composition — Rhetoric & Composition
+2026-03-10 06:36:41,290 [INFO]   78. [domain-course] language-and-communication--linguistics — Linguistics
+2026-03-10 06:36:41,290 [INFO]   79. [domain-course] language-and-communication--public-speaking — Public Speaking
+2026-03-10 06:36:41,290 [INFO]   80. [domain-setup] literature--setup — Literature
+2026-03-10 06:36:41,290 [INFO]   81. [domain-course] literature--literary-analysis — Literary Analysis
+2026-03-10 06:36:41,290 [INFO]   82. [domain-course] literature--fiction — Fiction: Genres & Forms
+2026-03-10 06:36:41,290 [INFO]   83. [domain-course] literature--poetry — Poetry
+2026-03-10 06:36:41,290 [INFO]   84. [domain-course] literature--drama — Drama
+2026-03-10 06:36:41,290 [INFO]   85. [domain-course] literature--critical-theory — Critical Theory
+2026-03-10 06:36:41,290 [INFO]   86. [domain-setup] music--setup — Music
+2026-03-10 06:36:41,290 [INFO]   87. [domain-course] music--music-theory-fundamentals — Music Theory Fundamentals
+2026-03-10 06:36:41,290 [INFO]   88. [domain-course] music--harmony-and-voice-leading — Harmony & Voice Leading
+2026-03-10 06:36:41,290 [INFO]   89. [domain-course] music--music-history — Music History
+2026-03-10 06:36:41,290 [INFO]   90. [domain-course] music--ear-training — Ear Training & Aural Skills
+2026-03-10 06:36:41,290 [INFO]   91. [domain-course] music--composition — Composition
+2026-03-10 06:36:41,290 [INFO]   92. [domain-setup] arts-and-aesthetics--setup — Arts & Aesthetics
+2026-03-10 06:36:41,290 [INFO]   93. [domain-course] arts-and-aesthetics--visual-elements-and-principles — Visual Elements & Principles
+2026-03-10 06:36:41,290 [INFO]   94. [domain-course] arts-and-aesthetics--drawing-and-painting — Drawing & Painting
+2026-03-10 06:36:41,290 [INFO]   95. [domain-course] arts-and-aesthetics--art-history — Art History
+2026-03-10 06:36:41,290 [INFO]   96. [domain-course] arts-and-aesthetics--design-principles — Design Principles
+2026-03-10 06:36:41,290 [INFO]   97. [domain-setup] practical-life-skills--setup — Practical Life Skills
+2026-03-10 06:36:41,290 [INFO]   98. [domain-course] practical-life-skills--financial-literacy — Financial Literacy
+2026-03-10 06:36:41,290 [INFO]   99. [domain-course] practical-life-skills--cooking-and-nutrition — Cooking & Nutrition
+2026-03-10 06:36:41,290 [INFO]   100. [domain-course] practical-life-skills--home-maintenance — Home Maintenance
+2026-03-10 06:36:41,290 [INFO]   101. [domain-course] practical-life-skills--digital-literacy — Digital Literacy
+2026-03-10 06:36:41,290 [INFO]   102. [cross-domain-review] physics--crosslinks — Physics
+2026-03-10 06:36:41,290 [INFO]   103. [cross-domain-review] computer-science--crosslinks — Computer Science & Information
+2026-03-10 06:36:41,290 [INFO]   104. [cross-domain-review] formal-sciences-and-logic--crosslinks — Formal Sciences & Logic
+2026-03-10 06:36:41,290 [INFO]   105. [cross-domain-review] chemistry--crosslinks — Chemistry
+2026-03-10 06:36:41,290 [INFO]   106. [cross-domain-review] biology--crosslinks — Biology
+2026-03-10 06:36:41,290 [INFO]   107. [cross-domain-review] earth-and-space-sciences--crosslinks — Earth & Space Sciences
+2026-03-10 06:36:41,290 [INFO]   108. [cross-domain-review] economics--crosslinks — Economics & Political Economy
+2026-03-10 06:36:41,290 [INFO]   109. [cross-domain-review] psychology--crosslinks — Psychology & Cognitive Science
+2026-03-10 06:36:41,290 [INFO]   110. [cross-domain-review] engineering--crosslinks — Engineering & Technology
+2026-03-10 06:36:41,290 [INFO]   111. [cross-domain-review] health-and-human-development--crosslinks — Health & Human Development
+2026-03-10 06:36:41,290 [INFO]   112. [cross-domain-review] philosophy--crosslinks — Philosophy & Ethics
+2026-03-10 06:36:41,290 [INFO]   113. [cross-domain-review] social-sciences--crosslinks — Social Sciences
+2026-03-10 06:36:41,290 [INFO]   114. [cross-domain-review] literature--crosslinks — Literature
+2026-03-10 06:36:41,290 [INFO]   115. [cross-domain-review] music--crosslinks — Music
+2026-03-10 06:36:41,291 [INFO]   116. [cross-domain-review] practical-life-skills--crosslinks — Practical Life Skills
+2026-03-10 06:36:49,097 [INFO] Queue: 116 remaining / 125 total
+2026-03-10 06:36:49,097 [INFO] 
+[1/116] physics--setup (domain-setup)
+2026-03-10 06:36:49,101 [INFO] Created domain structure: physics (5 courses)
+2026-03-10 06:36:49,101 [INFO] 
+[2/116] physics--classical-mechanics (domain-course)
+2026-03-10 06:36:49,101 [INFO] ============================================================
+2026-03-10 06:36:49,101 [INFO] STARTING: physics--classical-mechanics
+2026-03-10 06:36:49,101 [INFO] ============================================================
+2026-03-10 06:36:49,105 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 18249 chars)
+2026-03-10 06:45:54,613 [INFO] Generated 34 files for physics--classical-mechanics
+2026-03-10 06:45:55,032 [WARNING] Validation issues for physics--classical-mechanics (continuing anyway)
+2026-03-10 06:45:55,202 [INFO] Committed physics--classical-mechanics
+2026-03-10 06:45:55,202 [INFO] COMPLETED: physics--classical-mechanics (11/125 total)
+2026-03-10 06:45:58,204 [INFO] 
+[3/116] physics--electricity-and-magnetism (domain-course)
+2026-03-10 06:45:58,204 [INFO] ============================================================
+2026-03-10 06:45:58,204 [INFO] STARTING: physics--electricity-and-magnetism
+2026-03-10 06:45:58,204 [INFO] ============================================================
+2026-03-10 06:45:58,209 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 18969 chars)
+2026-03-10 06:49:46,307 [INFO] Generated 32 files for physics--electricity-and-magnetism
+2026-03-10 06:49:46,732 [WARNING] Validation issues for physics--electricity-and-magnetism (continuing anyway)
+2026-03-10 06:49:46,894 [INFO] Committed physics--electricity-and-magnetism
+2026-03-10 06:49:46,894 [INFO] COMPLETED: physics--electricity-and-magnetism (12/125 total)
+2026-03-10 06:49:49,896 [INFO] 
+[4/116] physics--thermodynamics (domain-course)
+2026-03-10 06:49:49,896 [INFO] ============================================================
+2026-03-10 06:49:49,896 [INFO] STARTING: physics--thermodynamics
+2026-03-10 06:49:49,896 [INFO] ============================================================
+2026-03-10 06:49:49,901 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 19553 chars)
+2026-03-10 06:53:46,911 [INFO] Generated 32 files for physics--thermodynamics
+2026-03-10 06:53:47,366 [WARNING] Validation issues for physics--thermodynamics (continuing anyway)
+2026-03-10 06:53:47,536 [INFO] Committed physics--thermodynamics
+2026-03-10 06:53:47,536 [INFO] COMPLETED: physics--thermodynamics (13/125 total)
+2026-03-10 06:53:50,538 [INFO] 
+[5/116] physics--waves-and-optics (domain-course)
+2026-03-10 06:53:50,538 [INFO] ============================================================
+2026-03-10 06:53:50,538 [INFO] STARTING: physics--waves-and-optics
+2026-03-10 06:53:50,538 [INFO] ============================================================
+2026-03-10 06:53:50,543 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 20317 chars)
+2026-03-10 06:57:42,217 [INFO] Generated 33 files for physics--waves-and-optics
+2026-03-10 06:57:42,670 [WARNING] Validation issues for physics--waves-and-optics (continuing anyway)
+2026-03-10 06:57:42,832 [INFO] Committed physics--waves-and-optics
+2026-03-10 06:57:42,833 [INFO] COMPLETED: physics--waves-and-optics (14/125 total)
+2026-03-10 06:57:45,834 [INFO] 
+[6/116] physics--modern-physics (domain-course)
+2026-03-10 06:57:45,835 [INFO] ============================================================
+2026-03-10 06:57:45,835 [INFO] STARTING: physics--modern-physics
+2026-03-10 06:57:45,835 [INFO] ============================================================
+2026-03-10 06:57:45,841 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 21066 chars)
+2026-03-10 07:03:56,317 [INFO] Generated 30 files for physics--modern-physics
+2026-03-10 07:03:56,794 [WARNING] Validation issues for physics--modern-physics (continuing anyway)
+2026-03-10 07:03:56,969 [INFO] Committed physics--modern-physics
+2026-03-10 07:03:56,970 [INFO] COMPLETED: physics--modern-physics (15/125 total)
+2026-03-10 07:03:59,971 [INFO] 
+[7/116] computer-science--setup (domain-setup)
+2026-03-10 07:03:59,977 [INFO] Created domain structure: computer-science (6 courses)
+2026-03-10 07:03:59,978 [INFO] 
+[8/116] computer-science--programming-fundamentals (domain-course)
+2026-03-10 07:03:59,978 [INFO] ============================================================
+2026-03-10 07:03:59,978 [INFO] STARTING: computer-science--programming-fundamentals
+2026-03-10 07:03:59,978 [INFO] ============================================================
+2026-03-10 07:03:59,981 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 18227 chars)
+2026-03-10 07:06:55,164 [INFO] Generated 28 files for computer-science--programming-fundamentals
+2026-03-10 07:06:55,652 [WARNING] Validation issues for computer-science--programming-fundamentals (continuing anyway)
+2026-03-10 07:06:55,809 [INFO] Committed computer-science--programming-fundamentals
+2026-03-10 07:06:55,809 [INFO] COMPLETED: computer-science--programming-fundamentals (17/125 total)
+2026-03-10 07:06:58,811 [INFO] 
+[9/116] computer-science--data-structures-and-algorithms (domain-course)
+2026-03-10 07:06:58,811 [INFO] ============================================================
+2026-03-10 07:06:58,811 [INFO] STARTING: computer-science--data-structures-and-algorithms
+2026-03-10 07:06:58,811 [INFO] ============================================================
+2026-03-10 07:06:58,816 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 18912 chars)
+2026-03-10 07:13:15,690 [INFO] Generated 28 files for computer-science--data-structures-and-algorithms
+2026-03-10 07:13:16,172 [WARNING] Validation issues for computer-science--data-structures-and-algorithms (continuing anyway)
+2026-03-10 07:13:16,331 [INFO] Committed computer-science--data-structures-and-algorithms
+2026-03-10 07:13:16,332 [INFO] COMPLETED: computer-science--data-structures-and-algorithms (18/125 total)
+2026-03-10 07:13:19,333 [INFO] 
+[10/116] computer-science--computer-architecture (domain-course)
+2026-03-10 07:13:19,334 [INFO] ============================================================
+2026-03-10 07:13:19,334 [INFO] STARTING: computer-science--computer-architecture
+2026-03-10 07:13:19,334 [INFO] ============================================================
+2026-03-10 07:13:19,338 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 19379 chars)
+2026-03-10 07:20:16,811 [INFO] Generated 28 files for computer-science--computer-architecture
+2026-03-10 07:20:17,313 [WARNING] Validation issues for computer-science--computer-architecture (continuing anyway)
+2026-03-10 07:20:17,478 [INFO] Committed computer-science--computer-architecture
+2026-03-10 07:20:17,478 [INFO] COMPLETED: computer-science--computer-architecture (19/125 total)
+2026-03-10 07:20:20,479 [INFO] 
+[11/116] computer-science--operating-systems (domain-course)
+2026-03-10 07:20:20,479 [INFO] ============================================================
+2026-03-10 07:20:20,479 [INFO] STARTING: computer-science--operating-systems
+2026-03-10 07:20:20,480 [INFO] ============================================================
+2026-03-10 07:20:20,485 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 20005 chars)
+2026-03-10 07:23:59,680 [INFO] Generated 28 files for computer-science--operating-systems
+2026-03-10 07:24:00,195 [WARNING] Validation issues for computer-science--operating-systems (continuing anyway)
+2026-03-10 07:24:00,362 [INFO] Committed computer-science--operating-systems
+2026-03-10 07:24:00,362 [INFO] COMPLETED: computer-science--operating-systems (20/125 total)
+2026-03-10 07:24:03,363 [INFO] 
+[12/116] computer-science--databases (domain-course)
+2026-03-10 07:24:03,363 [INFO] ============================================================
+2026-03-10 07:24:03,364 [INFO] STARTING: computer-science--databases
+2026-03-10 07:24:03,364 [INFO] ============================================================
+2026-03-10 07:24:03,368 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 20590 chars)
+2026-03-10 07:31:28,715 [INFO] Generated 29 files for computer-science--databases
+2026-03-10 07:31:29,236 [WARNING] Validation issues for computer-science--databases (continuing anyway)
+2026-03-10 07:31:29,393 [INFO] Committed computer-science--databases
+2026-03-10 07:31:29,393 [INFO] COMPLETED: computer-science--databases (21/125 total)
+2026-03-10 07:31:32,394 [INFO] 
+[13/116] computer-science--theory-of-computation (domain-course)
+2026-03-10 07:31:32,395 [INFO] ============================================================
+2026-03-10 07:31:32,395 [INFO] STARTING: computer-science--theory-of-computation
+2026-03-10 07:31:32,395 [INFO] ============================================================
+2026-03-10 07:31:32,400 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 21225 chars)
+2026-03-10 07:35:40,449 [INFO] Generated 29 files for computer-science--theory-of-computation
+2026-03-10 07:35:40,982 [WARNING] Validation issues for computer-science--theory-of-computation (continuing anyway)
+2026-03-10 07:35:41,142 [INFO] Committed computer-science--theory-of-computation
+2026-03-10 07:35:41,142 [INFO] COMPLETED: computer-science--theory-of-computation (22/125 total)
+2026-03-10 07:35:44,143 [INFO] 
+[14/116] formal-sciences-and-logic--setup (domain-setup)
+2026-03-10 07:35:44,150 [INFO] Created domain structure: formal-sciences-and-logic (4 courses)
+2026-03-10 07:35:44,151 [INFO] 
+[15/116] formal-sciences-and-logic--propositional-and-predicate-logic (domain-course)
+2026-03-10 07:35:44,151 [INFO] ============================================================
+2026-03-10 07:35:44,151 [INFO] STARTING: formal-sciences-and-logic--propositional-and-predicate-logic
+2026-03-10 07:35:44,151 [INFO] ============================================================
+2026-03-10 07:35:44,154 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 18291 chars)
+2026-03-10 07:38:41,390 [INFO] Generated 20 files for formal-sciences-and-logic--propositional-and-predicate-logic
+2026-03-10 07:38:41,945 [WARNING] Validation issues for formal-sciences-and-logic--propositional-and-predicate-logic (continuing anyway)
+2026-03-10 07:38:42,089 [INFO] Committed formal-sciences-and-logic--propositional-and-predicate-logic
+2026-03-10 07:38:42,089 [INFO] COMPLETED: formal-sciences-and-logic--propositional-and-predicate-logic (24/125 total)
+2026-03-10 07:38:45,090 [INFO] 
+[16/116] formal-sciences-and-logic--set-theory (domain-course)
+2026-03-10 07:38:45,091 [INFO] ============================================================
+2026-03-10 07:38:45,091 [INFO] STARTING: formal-sciences-and-logic--set-theory
+2026-03-10 07:38:45,091 [INFO] ============================================================
+2026-03-10 07:38:45,093 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 18728 chars)
+2026-03-10 07:45:23,565 [INFO] Generated 20 files for formal-sciences-and-logic--set-theory
+2026-03-10 07:45:24,118 [WARNING] Validation issues for formal-sciences-and-logic--set-theory (continuing anyway)
+2026-03-10 07:45:24,270 [INFO] Committed formal-sciences-and-logic--set-theory
+2026-03-10 07:45:24,270 [INFO] COMPLETED: formal-sciences-and-logic--set-theory (25/125 total)
+2026-03-10 07:45:27,271 [INFO] 
+[17/116] formal-sciences-and-logic--computability-and-complexity (domain-course)
+2026-03-10 07:45:27,271 [INFO] ============================================================
+2026-03-10 07:45:27,271 [INFO] STARTING: formal-sciences-and-logic--computability-and-complexity
+2026-03-10 07:45:27,271 [INFO] ============================================================
+2026-03-10 07:45:27,276 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 19242 chars)
+2026-03-10 07:51:05,922 [INFO] Generated 20 files for formal-sciences-and-logic--computability-and-complexity
+2026-03-10 07:51:06,502 [WARNING] Validation issues for formal-sciences-and-logic--computability-and-complexity (continuing anyway)
+2026-03-10 07:51:06,650 [INFO] Committed formal-sciences-and-logic--computability-and-complexity
+2026-03-10 07:51:06,651 [INFO] COMPLETED: formal-sciences-and-logic--computability-and-complexity (26/125 total)
+2026-03-10 07:51:09,652 [INFO] 
+[18/116] formal-sciences-and-logic--category-theory (domain-course)
+2026-03-10 07:51:09,652 [INFO] ============================================================
+2026-03-10 07:51:09,652 [INFO] STARTING: formal-sciences-and-logic--category-theory
+2026-03-10 07:51:09,652 [INFO] ============================================================
+2026-03-10 07:51:09,659 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 19655 chars)
+2026-03-10 07:54:09,461 [INFO] Generated 21 files for formal-sciences-and-logic--category-theory
+2026-03-10 07:54:10,042 [WARNING] Validation issues for formal-sciences-and-logic--category-theory (continuing anyway)
+2026-03-10 07:54:10,204 [INFO] Committed formal-sciences-and-logic--category-theory
+2026-03-10 07:54:10,205 [INFO] COMPLETED: formal-sciences-and-logic--category-theory (27/125 total)
+2026-03-10 07:54:13,205 [INFO] 
+[19/116] chemistry--setup (domain-setup)
+2026-03-10 07:54:13,211 [INFO] Created domain structure: chemistry (4 courses)
+2026-03-10 07:54:13,212 [INFO] 
+[20/116] chemistry--general-chemistry (domain-course)
+2026-03-10 07:54:13,212 [INFO] ============================================================
+2026-03-10 07:54:13,212 [INFO] STARTING: chemistry--general-chemistry
+2026-03-10 07:54:13,212 [INFO] ============================================================
+2026-03-10 07:54:13,216 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 21711 chars)
+2026-03-10 08:01:04,070 [INFO] Generated 28 files for chemistry--general-chemistry
+2026-03-10 08:01:04,662 [WARNING] Validation issues for chemistry--general-chemistry (continuing anyway)
+2026-03-10 08:01:04,830 [INFO] Committed chemistry--general-chemistry
+2026-03-10 08:01:04,831 [INFO] COMPLETED: chemistry--general-chemistry (29/125 total)
+2026-03-10 08:01:07,832 [INFO] 
+[21/116] chemistry--organic-chemistry (domain-course)
+2026-03-10 08:01:07,832 [INFO] ============================================================
+2026-03-10 08:01:07,832 [INFO] STARTING: chemistry--organic-chemistry
+2026-03-10 08:01:07,832 [INFO] ============================================================
+2026-03-10 08:01:07,839 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 22365 chars)
+2026-03-10 08:08:24,649 [INFO] Generated 28 files for chemistry--organic-chemistry
+2026-03-10 08:08:25,265 [WARNING] Validation issues for chemistry--organic-chemistry (continuing anyway)
+2026-03-10 08:08:25,426 [INFO] Committed chemistry--organic-chemistry
+2026-03-10 08:08:25,426 [INFO] COMPLETED: chemistry--organic-chemistry (30/125 total)
+2026-03-10 08:08:28,427 [INFO] 
+[22/116] chemistry--physical-chemistry (domain-course)
+2026-03-10 08:08:28,427 [INFO] ============================================================
+2026-03-10 08:08:28,427 [INFO] STARTING: chemistry--physical-chemistry
+2026-03-10 08:08:28,427 [INFO] ============================================================
+2026-03-10 08:08:28,432 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 23016 chars)
+2026-03-10 08:13:31,124 [INFO] Generated 28 files for chemistry--physical-chemistry
+2026-03-10 08:13:31,746 [WARNING] Validation issues for chemistry--physical-chemistry (continuing anyway)
+2026-03-10 08:13:31,911 [INFO] Committed chemistry--physical-chemistry
+2026-03-10 08:13:31,911 [INFO] COMPLETED: chemistry--physical-chemistry (31/125 total)
+2026-03-10 08:13:34,912 [INFO] 
+[23/116] chemistry--analytical-chemistry (domain-course)
+2026-03-10 08:13:34,912 [INFO] ============================================================
+2026-03-10 08:13:34,913 [INFO] STARTING: chemistry--analytical-chemistry
+2026-03-10 08:13:34,913 [INFO] ============================================================
+2026-03-10 08:13:34,918 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 23888 chars)
+2026-03-10 08:17:40,047 [INFO] Generated 28 files for chemistry--analytical-chemistry
+2026-03-10 08:17:40,698 [WARNING] Validation issues for chemistry--analytical-chemistry (continuing anyway)
+2026-03-10 08:17:40,861 [INFO] Committed chemistry--analytical-chemistry
+2026-03-10 08:17:40,861 [INFO] COMPLETED: chemistry--analytical-chemistry (32/125 total)
+2026-03-10 08:17:43,862 [INFO] 
+[24/116] biology--setup (domain-setup)
+2026-03-10 08:17:43,869 [INFO] Created domain structure: biology (5 courses)
+2026-03-10 08:17:43,869 [INFO] 
+[25/116] biology--cell-biology (domain-course)
+2026-03-10 08:17:43,869 [INFO] ============================================================
+2026-03-10 08:17:43,869 [INFO] STARTING: biology--cell-biology
+2026-03-10 08:17:43,869 [INFO] ============================================================
+2026-03-10 08:17:43,874 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 21009 chars)
+2026-03-10 08:20:58,368 [INFO] Generated 29 files for biology--cell-biology
+2026-03-10 08:20:59,023 [WARNING] Validation issues for biology--cell-biology (continuing anyway)
+2026-03-10 08:20:59,182 [INFO] Committed biology--cell-biology
+2026-03-10 08:20:59,183 [INFO] COMPLETED: biology--cell-biology (34/125 total)
+2026-03-10 08:21:02,184 [INFO] 
+[26/116] biology--genetics-and-molecular-biology (domain-course)
+2026-03-10 08:21:02,184 [INFO] ============================================================
+2026-03-10 08:21:02,184 [INFO] STARTING: biology--genetics-and-molecular-biology
+2026-03-10 08:21:02,184 [INFO] ============================================================
+2026-03-10 08:21:02,189 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 21701 chars)
+2026-03-10 08:24:32,598 [INFO] Generated 28 files for biology--genetics-and-molecular-biology
+2026-03-10 08:24:33,262 [WARNING] Validation issues for biology--genetics-and-molecular-biology (continuing anyway)
+2026-03-10 08:24:33,425 [INFO] Committed biology--genetics-and-molecular-biology
+2026-03-10 08:24:33,425 [INFO] COMPLETED: biology--genetics-and-molecular-biology (35/125 total)
+2026-03-10 08:24:36,426 [INFO] 
+[27/116] biology--physiology (domain-course)
+2026-03-10 08:24:36,426 [INFO] ============================================================
+2026-03-10 08:24:36,426 [INFO] STARTING: biology--physiology
+2026-03-10 08:24:36,426 [INFO] ============================================================
+2026-03-10 08:24:36,432 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 22179 chars)
+2026-03-10 08:32:57,751 [INFO] Generated 28 files for biology--physiology
+2026-03-10 08:32:58,420 [WARNING] Validation issues for biology--physiology (continuing anyway)
+2026-03-10 08:32:58,593 [INFO] Committed biology--physiology
+2026-03-10 08:32:58,593 [INFO] COMPLETED: biology--physiology (36/125 total)
+2026-03-10 08:33:01,594 [INFO] 
+[28/116] biology--ecology-and-evolution (domain-course)
+2026-03-10 08:33:01,594 [INFO] ============================================================
+2026-03-10 08:33:01,594 [INFO] STARTING: biology--ecology-and-evolution
+2026-03-10 08:33:01,594 [INFO] ============================================================
+2026-03-10 08:33:01,601 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 23006 chars)
+2026-03-10 08:36:38,067 [INFO] Generated 29 files for biology--ecology-and-evolution
+2026-03-10 08:36:38,771 [WARNING] Validation issues for biology--ecology-and-evolution (continuing anyway)
+2026-03-10 08:36:38,928 [INFO] Committed biology--ecology-and-evolution
+2026-03-10 08:36:38,929 [INFO] COMPLETED: biology--ecology-and-evolution (37/125 total)
+2026-03-10 08:36:41,930 [INFO] 
+[29/116] biology--microbiology (domain-course)
+2026-03-10 08:36:41,930 [INFO] ============================================================
+2026-03-10 08:36:41,930 [INFO] STARTING: biology--microbiology
+2026-03-10 08:36:41,930 [INFO] ============================================================
+2026-03-10 08:36:41,936 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 23625 chars)
+2026-03-10 08:46:06,154 [INFO] Generated 10 files for biology--microbiology
+2026-03-10 08:46:06,860 [WARNING] Validation issues for biology--microbiology (continuing anyway)
+2026-03-10 08:46:07,002 [INFO] Committed biology--microbiology
+2026-03-10 08:46:07,003 [INFO] COMPLETED: biology--microbiology (38/125 total)
+2026-03-10 08:46:10,003 [INFO] 
+[30/116] earth-and-space-sciences--setup (domain-setup)
+2026-03-10 08:46:10,010 [INFO] Created domain structure: earth-and-space-sciences (4 courses)
+2026-03-10 08:46:10,011 [INFO] 
+[31/116] earth-and-space-sciences--geology (domain-course)
+2026-03-10 08:46:10,011 [INFO] ============================================================
+2026-03-10 08:46:10,011 [INFO] STARTING: earth-and-space-sciences--geology
+2026-03-10 08:46:10,011 [INFO] ============================================================
+2026-03-10 08:46:10,015 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 24554 chars)
+2026-03-10 08:50:09,265 [INFO] Generated 22 files for earth-and-space-sciences--geology
+2026-03-10 08:50:09,976 [WARNING] Validation issues for earth-and-space-sciences--geology (continuing anyway)
+2026-03-10 08:50:10,130 [INFO] Committed earth-and-space-sciences--geology
+2026-03-10 08:50:10,130 [INFO] COMPLETED: earth-and-space-sciences--geology (40/125 total)
+2026-03-10 08:50:13,131 [INFO] 
+[32/116] earth-and-space-sciences--meteorology-and-climate (domain-course)
+2026-03-10 08:50:13,131 [INFO] ============================================================
+2026-03-10 08:50:13,131 [INFO] STARTING: earth-and-space-sciences--meteorology-and-climate
+2026-03-10 08:50:13,132 [INFO] ============================================================
+2026-03-10 08:50:13,137 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 25130 chars)
+2026-03-10 08:53:55,265 [INFO] Generated 22 files for earth-and-space-sciences--meteorology-and-climate
+2026-03-10 08:53:56,007 [WARNING] Validation issues for earth-and-space-sciences--meteorology-and-climate (continuing anyway)
+2026-03-10 08:53:56,162 [INFO] Committed earth-and-space-sciences--meteorology-and-climate
+2026-03-10 08:53:56,162 [INFO] COMPLETED: earth-and-space-sciences--meteorology-and-climate (41/125 total)
+2026-03-10 08:53:59,163 [INFO] 
+[33/116] earth-and-space-sciences--oceanography (domain-course)
+2026-03-10 08:53:59,163 [INFO] ============================================================
+2026-03-10 08:53:59,163 [INFO] STARTING: earth-and-space-sciences--oceanography
+2026-03-10 08:53:59,163 [INFO] ============================================================
+2026-03-10 08:53:59,169 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 25697 chars)
+2026-03-10 08:57:14,822 [INFO] Generated 23 files for earth-and-space-sciences--oceanography
+2026-03-10 08:57:15,657 [WARNING] Validation issues for earth-and-space-sciences--oceanography (continuing anyway)
+2026-03-10 08:57:15,823 [INFO] Committed earth-and-space-sciences--oceanography
+2026-03-10 08:57:15,823 [INFO] COMPLETED: earth-and-space-sciences--oceanography (42/125 total)
+2026-03-10 08:57:18,824 [INFO] 
+[34/116] earth-and-space-sciences--astronomy (domain-course)
+2026-03-10 08:57:18,824 [INFO] ============================================================
+2026-03-10 08:57:18,824 [INFO] STARTING: earth-and-space-sciences--astronomy
+2026-03-10 08:57:18,824 [INFO] ============================================================
+2026-03-10 08:57:18,829 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 26370 chars)
+2026-03-10 09:03:40,419 [INFO] Generated 22 files for earth-and-space-sciences--astronomy
+2026-03-10 09:03:41,229 [WARNING] Validation issues for earth-and-space-sciences--astronomy (continuing anyway)
+2026-03-10 09:03:41,404 [INFO] Committed earth-and-space-sciences--astronomy
+2026-03-10 09:03:41,405 [INFO] COMPLETED: earth-and-space-sciences--astronomy (43/125 total)
+2026-03-10 09:03:44,406 [INFO] 
+[35/116] economics--setup (domain-setup)
+2026-03-10 09:03:44,409 [INFO] Created domain structure: economics (4 courses)
+2026-03-10 09:03:44,410 [INFO] 
+[36/116] economics--microeconomics (domain-course)
+2026-03-10 09:03:44,410 [INFO] ============================================================
+2026-03-10 09:03:44,410 [INFO] STARTING: economics--microeconomics
+2026-03-10 09:03:44,410 [INFO] ============================================================
+2026-03-10 09:03:44,414 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 18208 chars)
+2026-03-10 09:07:37,657 [INFO] Generated 35 files for economics--microeconomics
+2026-03-10 09:07:38,562 [WARNING] Validation issues for economics--microeconomics (continuing anyway)
+2026-03-10 09:07:38,772 [INFO] Committed economics--microeconomics
+2026-03-10 09:07:38,772 [INFO] COMPLETED: economics--microeconomics (45/125 total)
+2026-03-10 09:07:41,773 [INFO] 
+[37/116] economics--macroeconomics (domain-course)
+2026-03-10 09:07:41,773 [INFO] ============================================================
+2026-03-10 09:07:41,773 [INFO] STARTING: economics--macroeconomics
+2026-03-10 09:07:41,773 [INFO] ============================================================
+2026-03-10 09:07:41,778 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 19174 chars)
+2026-03-10 09:11:40,094 [INFO] Generated 28 files for economics--macroeconomics
+2026-03-10 09:11:40,936 [WARNING] Validation issues for economics--macroeconomics (continuing anyway)
+2026-03-10 09:11:41,109 [INFO] Committed economics--macroeconomics
+2026-03-10 09:11:41,109 [INFO] COMPLETED: economics--macroeconomics (46/125 total)
+2026-03-10 09:11:44,110 [INFO] 
+[38/116] economics--econometrics (domain-course)
+2026-03-10 09:11:44,110 [INFO] ============================================================
+2026-03-10 09:11:44,110 [INFO] STARTING: economics--econometrics
+2026-03-10 09:11:44,110 [INFO] ============================================================
+2026-03-10 09:11:44,116 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 19823 chars)
+2026-03-10 09:15:29,803 [INFO] Generated 29 files for economics--econometrics
+2026-03-10 09:15:30,625 [WARNING] Validation issues for economics--econometrics (continuing anyway)
+2026-03-10 09:15:30,790 [INFO] Committed economics--econometrics
+2026-03-10 09:15:30,790 [INFO] COMPLETED: economics--econometrics (47/125 total)
+2026-03-10 09:15:33,791 [INFO] 
+[39/116] economics--financial-economics (domain-course)
+2026-03-10 09:15:33,791 [INFO] ============================================================
+2026-03-10 09:15:33,791 [INFO] STARTING: economics--financial-economics
+2026-03-10 09:15:33,791 [INFO] ============================================================
+2026-03-10 09:15:33,797 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 20554 chars)
+2026-03-10 09:23:16,272 [INFO] Generated 28 files for economics--financial-economics
+2026-03-10 09:23:17,109 [WARNING] Validation issues for economics--financial-economics (continuing anyway)
+2026-03-10 09:23:17,266 [INFO] Committed economics--financial-economics
+2026-03-10 09:23:17,267 [INFO] COMPLETED: economics--financial-economics (48/125 total)
+2026-03-10 09:23:20,268 [INFO] 
+[40/116] psychology--setup (domain-setup)
+2026-03-10 09:23:20,272 [INFO] Created domain structure: psychology (5 courses)
+2026-03-10 09:23:20,272 [INFO] 
+[41/116] psychology--research-methods-psychology (domain-course)
+2026-03-10 09:23:20,272 [INFO] ============================================================
+2026-03-10 09:23:20,273 [INFO] STARTING: psychology--research-methods-psychology
+2026-03-10 09:23:20,273 [INFO] ============================================================
+2026-03-10 09:23:20,276 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 21158 chars)
+2026-03-10 09:25:47,311 [INFO] Generated 22 files for psychology--research-methods-psychology
+2026-03-10 09:25:48,193 [WARNING] Validation issues for psychology--research-methods-psychology (continuing anyway)
+2026-03-10 09:25:48,347 [INFO] Committed psychology--research-methods-psychology
+2026-03-10 09:25:48,348 [INFO] COMPLETED: psychology--research-methods-psychology (50/125 total)
+2026-03-10 09:25:51,349 [INFO] 
+[42/116] psychology--biological-psychology (domain-course)
+2026-03-10 09:25:51,349 [INFO] ============================================================
+2026-03-10 09:25:51,349 [INFO] STARTING: psychology--biological-psychology
+2026-03-10 09:25:51,349 [INFO] ============================================================
+2026-03-10 09:25:51,355 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 21683 chars)
+2026-03-10 09:28:54,549 [INFO] Generated 22 files for psychology--biological-psychology
+2026-03-10 09:28:55,422 [WARNING] Validation issues for psychology--biological-psychology (continuing anyway)
+2026-03-10 09:28:55,584 [INFO] Committed psychology--biological-psychology
+2026-03-10 09:28:55,584 [INFO] COMPLETED: psychology--biological-psychology (51/125 total)
+2026-03-10 09:28:58,585 [INFO] 
+[43/116] psychology--cognitive-psychology (domain-course)
+2026-03-10 09:28:58,585 [INFO] ============================================================
+2026-03-10 09:28:58,585 [INFO] STARTING: psychology--cognitive-psychology
+2026-03-10 09:28:58,585 [INFO] ============================================================
+2026-03-10 09:28:58,589 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 22271 chars)
+2026-03-10 09:34:14,277 [INFO] Generated 22 files for psychology--cognitive-psychology
+2026-03-10 09:34:15,143 [WARNING] Validation issues for psychology--cognitive-psychology (continuing anyway)
+2026-03-10 09:34:15,295 [INFO] Committed psychology--cognitive-psychology
+2026-03-10 09:34:15,295 [INFO] COMPLETED: psychology--cognitive-psychology (52/125 total)
+2026-03-10 09:34:18,296 [INFO] 
+[44/116] psychology--developmental-psychology (domain-course)
+2026-03-10 09:34:18,296 [INFO] ============================================================
+2026-03-10 09:34:18,297 [INFO] STARTING: psychology--developmental-psychology
+2026-03-10 09:34:18,297 [INFO] ============================================================
+2026-03-10 09:34:18,302 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 22792 chars)
+2026-03-10 09:37:06,208 [INFO] Generated 22 files for psychology--developmental-psychology
+2026-03-10 09:37:07,112 [WARNING] Validation issues for psychology--developmental-psychology (continuing anyway)
+2026-03-10 09:37:07,258 [INFO] Committed psychology--developmental-psychology
+2026-03-10 09:37:07,259 [INFO] COMPLETED: psychology--developmental-psychology (53/125 total)
+2026-03-10 09:37:10,259 [INFO] 
+[45/116] psychology--social-psychology (domain-course)
+2026-03-10 09:37:10,260 [INFO] ============================================================
+2026-03-10 09:37:10,260 [INFO] STARTING: psychology--social-psychology
+2026-03-10 09:37:10,260 [INFO] ============================================================
+2026-03-10 09:37:10,266 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 23407 chars)
+2026-03-10 09:40:14,579 [INFO] Generated 23 files for psychology--social-psychology
+2026-03-10 09:40:15,493 [WARNING] Validation issues for psychology--social-psychology (continuing anyway)
+2026-03-10 09:40:15,654 [INFO] Committed psychology--social-psychology
+2026-03-10 09:40:15,654 [INFO] COMPLETED: psychology--social-psychology (54/125 total)
+2026-03-10 09:40:18,655 [INFO] 
+[46/116] engineering--setup (domain-setup)
+2026-03-10 09:40:18,661 [INFO] Created domain structure: engineering (5 courses)
+2026-03-10 09:40:18,662 [INFO] 
+[47/116] engineering--statics-and-dynamics (domain-course)
+2026-03-10 09:40:18,662 [INFO] ============================================================
+2026-03-10 09:40:18,662 [INFO] STARTING: engineering--statics-and-dynamics
+2026-03-10 09:40:18,662 [INFO] ============================================================
+2026-03-10 09:40:18,668 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 24591 chars)
+2026-03-10 09:46:03,889 [INFO] Generated 23 files for engineering--statics-and-dynamics
+2026-03-10 09:46:04,799 [WARNING] Validation issues for engineering--statics-and-dynamics (continuing anyway)
+2026-03-10 09:46:04,957 [INFO] Committed engineering--statics-and-dynamics
+2026-03-10 09:46:04,957 [INFO] COMPLETED: engineering--statics-and-dynamics (56/125 total)
+2026-03-10 09:46:07,958 [INFO] 
+[48/116] engineering--materials-science (domain-course)
+2026-03-10 09:46:07,958 [INFO] ============================================================
+2026-03-10 09:46:07,958 [INFO] STARTING: engineering--materials-science
+2026-03-10 09:46:07,958 [INFO] ============================================================
+2026-03-10 09:46:07,964 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 25185 chars)
+2026-03-10 09:49:17,978 [INFO] Generated 23 files for engineering--materials-science
+2026-03-10 09:49:18,899 [WARNING] Validation issues for engineering--materials-science (continuing anyway)
+2026-03-10 09:49:19,063 [INFO] Committed engineering--materials-science
+2026-03-10 09:49:19,063 [INFO] COMPLETED: engineering--materials-science (57/125 total)
+2026-03-10 09:49:22,064 [INFO] 
+[49/116] engineering--fluid-mechanics (domain-course)
+2026-03-10 09:49:22,064 [INFO] ============================================================
+2026-03-10 09:49:22,064 [INFO] STARTING: engineering--fluid-mechanics
+2026-03-10 09:49:22,065 [INFO] ============================================================
+2026-03-10 09:49:22,072 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 25743 chars)
+2026-03-10 09:52:47,605 [INFO] Generated 22 files for engineering--fluid-mechanics
+2026-03-10 09:52:48,549 [WARNING] Validation issues for engineering--fluid-mechanics (continuing anyway)
+2026-03-10 09:52:48,707 [INFO] Committed engineering--fluid-mechanics
+2026-03-10 09:52:48,708 [INFO] COMPLETED: engineering--fluid-mechanics (58/125 total)
+2026-03-10 09:52:51,709 [INFO] 
+[50/116] engineering--circuits-and-electronics (domain-course)
+2026-03-10 09:52:51,709 [INFO] ============================================================
+2026-03-10 09:52:51,709 [INFO] STARTING: engineering--circuits-and-electronics
+2026-03-10 09:52:51,709 [INFO] ============================================================
+2026-03-10 09:52:51,716 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 26318 chars)
+2026-03-10 09:59:21,003 [INFO] Generated 22 files for engineering--circuits-and-electronics
+2026-03-10 09:59:21,949 [WARNING] Validation issues for engineering--circuits-and-electronics (continuing anyway)
+2026-03-10 09:59:22,109 [INFO] Committed engineering--circuits-and-electronics
+2026-03-10 09:59:22,109 [INFO] COMPLETED: engineering--circuits-and-electronics (59/125 total)
+2026-03-10 09:59:25,110 [INFO] 
+[51/116] engineering--control-systems (domain-course)
+2026-03-10 09:59:25,110 [INFO] ============================================================
+2026-03-10 09:59:25,110 [INFO] STARTING: engineering--control-systems
+2026-03-10 09:59:25,110 [INFO] ============================================================
+2026-03-10 09:59:25,116 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 26907 chars)
+2026-03-10 10:06:50,821 [INFO] Generated 22 files for engineering--control-systems
+2026-03-10 10:06:51,753 [WARNING] Validation issues for engineering--control-systems (continuing anyway)
+2026-03-10 10:06:51,910 [INFO] Committed engineering--control-systems
+2026-03-10 10:06:51,911 [INFO] COMPLETED: engineering--control-systems (60/125 total)
+2026-03-10 10:06:54,911 [INFO] 
+[52/116] health-and-human-development--setup (domain-setup)
+2026-03-10 10:06:54,917 [INFO] Created domain structure: health-and-human-development (4 courses)
+2026-03-10 10:06:54,917 [INFO] 
+[53/116] health-and-human-development--anatomy-and-physiology (domain-course)
+2026-03-10 10:06:54,917 [INFO] ============================================================
+2026-03-10 10:06:54,917 [INFO] STARTING: health-and-human-development--anatomy-and-physiology
+2026-03-10 10:06:54,917 [INFO] ============================================================
+2026-03-10 10:06:54,919 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 8526 chars)
+2026-03-10 10:09:55,099 [INFO] Generated 20 files for health-and-human-development--anatomy-and-physiology
+2026-03-10 10:09:56,059 [WARNING] Validation issues for health-and-human-development--anatomy-and-physiology (continuing anyway)
+2026-03-10 10:09:56,209 [INFO] Committed health-and-human-development--anatomy-and-physiology
+2026-03-10 10:09:56,209 [INFO] COMPLETED: health-and-human-development--anatomy-and-physiology (62/125 total)
+2026-03-10 10:09:59,210 [INFO] 
+[54/116] health-and-human-development--nutrition-science (domain-course)
+2026-03-10 10:09:59,210 [INFO] ============================================================
+2026-03-10 10:09:59,211 [INFO] STARTING: health-and-human-development--nutrition-science
+2026-03-10 10:09:59,211 [INFO] ============================================================
+2026-03-10 10:09:59,213 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 9116 chars)
+2026-03-10 10:12:52,544 [INFO] Generated 21 files for health-and-human-development--nutrition-science
+2026-03-10 10:12:53,524 [WARNING] Validation issues for health-and-human-development--nutrition-science (continuing anyway)
+2026-03-10 10:12:53,664 [INFO] Committed health-and-human-development--nutrition-science
+2026-03-10 10:12:53,664 [INFO] COMPLETED: health-and-human-development--nutrition-science (63/125 total)
+2026-03-10 10:12:56,665 [INFO] 
+[55/116] health-and-human-development--public-health (domain-course)
+2026-03-10 10:12:56,665 [INFO] ============================================================
+2026-03-10 10:12:56,665 [INFO] STARTING: health-and-human-development--public-health
+2026-03-10 10:12:56,665 [INFO] ============================================================
+2026-03-10 10:12:56,670 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 9742 chars)
+2026-03-10 10:16:05,244 [INFO] Generated 20 files for health-and-human-development--public-health
+2026-03-10 10:16:06,244 [WARNING] Validation issues for health-and-human-development--public-health (continuing anyway)
+2026-03-10 10:16:06,400 [INFO] Committed health-and-human-development--public-health
+2026-03-10 10:16:06,400 [INFO] COMPLETED: health-and-human-development--public-health (64/125 total)
+2026-03-10 10:16:09,400 [INFO] 
+[56/116] health-and-human-development--child-development (domain-course)
+2026-03-10 10:16:09,401 [INFO] ============================================================
+2026-03-10 10:16:09,401 [INFO] STARTING: health-and-human-development--child-development
+2026-03-10 10:16:09,401 [INFO] ============================================================
+2026-03-10 10:16:09,404 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 10331 chars)
+2026-03-10 10:19:46,701 [INFO] Generated 21 files for health-and-human-development--child-development
+2026-03-10 10:19:47,682 [WARNING] Validation issues for health-and-human-development--child-development (continuing anyway)
+2026-03-10 10:19:47,841 [INFO] Committed health-and-human-development--child-development
+2026-03-10 10:19:47,842 [INFO] COMPLETED: health-and-human-development--child-development (65/125 total)
+2026-03-10 10:19:50,842 [INFO] 
+[57/116] history--setup (domain-setup)
+2026-03-10 10:19:50,847 [INFO] Created domain structure: history (5 courses)
+2026-03-10 10:19:50,848 [INFO] 
+[58/116] history--historical-methods (domain-course)
+2026-03-10 10:19:50,848 [INFO] ============================================================
+2026-03-10 10:19:50,848 [INFO] STARTING: history--historical-methods
+2026-03-10 10:19:50,848 [INFO] ============================================================
+2026-03-10 10:19:50,848 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 2602 chars)
+2026-03-10 10:23:05,938 [INFO] Generated 26 files for history--historical-methods
+2026-03-10 10:23:06,936 [WARNING] Validation issues for history--historical-methods (continuing anyway)
+2026-03-10 10:23:07,096 [INFO] Committed history--historical-methods
+2026-03-10 10:23:07,097 [INFO] COMPLETED: history--historical-methods (67/125 total)
+2026-03-10 10:23:10,098 [INFO] 
+[59/116] history--ancient-civilizations (domain-course)
+2026-03-10 10:23:10,098 [INFO] ============================================================
+2026-03-10 10:23:10,098 [INFO] STARTING: history--ancient-civilizations
+2026-03-10 10:23:10,098 [INFO] ============================================================
+2026-03-10 10:23:10,099 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 3262 chars)
+2026-03-10 10:26:47,266 [INFO] Generated 25 files for history--ancient-civilizations
+2026-03-10 10:26:48,306 [WARNING] Validation issues for history--ancient-civilizations (continuing anyway)
+2026-03-10 10:26:48,457 [INFO] Committed history--ancient-civilizations
+2026-03-10 10:26:48,457 [INFO] COMPLETED: history--ancient-civilizations (68/125 total)
+2026-03-10 10:26:51,458 [INFO] 
+[60/116] history--medieval-world (domain-course)
+2026-03-10 10:26:51,458 [INFO] ============================================================
+2026-03-10 10:26:51,458 [INFO] STARTING: history--medieval-world
+2026-03-10 10:26:51,458 [INFO] ============================================================
+2026-03-10 10:26:51,460 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 3883 chars)
+2026-03-10 10:35:44,470 [INFO] Generated 25 files for history--medieval-world
+2026-03-10 10:35:45,519 [WARNING] Validation issues for history--medieval-world (continuing anyway)
+2026-03-10 10:35:45,690 [INFO] Committed history--medieval-world
+2026-03-10 10:35:45,691 [INFO] COMPLETED: history--medieval-world (69/125 total)
+2026-03-10 10:35:48,692 [INFO] 
+[61/116] history--early-modern-period (domain-course)
+2026-03-10 10:35:48,692 [INFO] ============================================================
+2026-03-10 10:35:48,692 [INFO] STARTING: history--early-modern-period
+2026-03-10 10:35:48,692 [INFO] ============================================================
+2026-03-10 10:35:48,694 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 4383 chars)
+2026-03-10 10:43:24,514 [INFO] Generated 25 files for history--early-modern-period
+2026-03-10 10:43:25,630 [WARNING] Validation issues for history--early-modern-period (continuing anyway)
+2026-03-10 10:43:25,804 [INFO] Committed history--early-modern-period
+2026-03-10 10:43:25,804 [INFO] COMPLETED: history--early-modern-period (70/125 total)
+2026-03-10 10:43:28,805 [INFO] 
+[62/116] history--modern-history (domain-course)
+2026-03-10 10:43:28,805 [INFO] ============================================================
+2026-03-10 10:43:28,805 [INFO] STARTING: history--modern-history
+2026-03-10 10:43:28,805 [INFO] ============================================================
+2026-03-10 10:43:28,807 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 4998 chars)
+2026-03-10 10:47:02,256 [INFO] Generated 25 files for history--modern-history
+2026-03-10 10:47:03,297 [WARNING] Validation issues for history--modern-history (continuing anyway)
+2026-03-10 10:47:03,453 [INFO] Committed history--modern-history
+2026-03-10 10:47:03,453 [INFO] COMPLETED: history--modern-history (71/125 total)
+2026-03-10 10:47:06,454 [INFO] 
+[63/116] philosophy--setup (domain-setup)
+2026-03-10 10:47:06,461 [INFO] Created domain structure: philosophy (6 courses)
+2026-03-10 10:47:06,461 [INFO] 
+[64/116] philosophy--logic-and-critical-thinking (domain-course)
+2026-03-10 10:47:06,462 [INFO] ============================================================
+2026-03-10 10:47:06,462 [INFO] STARTING: philosophy--logic-and-critical-thinking
+2026-03-10 10:47:06,462 [INFO] ============================================================
+2026-03-10 10:47:06,462 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 4613 chars)
+2026-03-10 10:49:43,130 [INFO] Generated 21 files for philosophy--logic-and-critical-thinking
+2026-03-10 10:49:44,198 [WARNING] Validation issues for philosophy--logic-and-critical-thinking (continuing anyway)
+2026-03-10 10:49:44,360 [INFO] Committed philosophy--logic-and-critical-thinking
+2026-03-10 10:49:44,360 [INFO] COMPLETED: philosophy--logic-and-critical-thinking (73/125 total)
+2026-03-10 10:49:47,361 [INFO] 
+[65/116] philosophy--epistemology (domain-course)
+2026-03-10 10:49:47,361 [INFO] ============================================================
+2026-03-10 10:49:47,361 [INFO] STARTING: philosophy--epistemology
+2026-03-10 10:49:47,361 [INFO] ============================================================
+2026-03-10 10:49:47,364 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 5049 chars)
+2026-03-10 10:52:44,403 [INFO] Generated 20 files for philosophy--epistemology
+2026-03-10 10:52:45,481 [WARNING] Validation issues for philosophy--epistemology (continuing anyway)
+2026-03-10 10:52:45,645 [INFO] Committed philosophy--epistemology
+2026-03-10 10:52:45,645 [INFO] COMPLETED: philosophy--epistemology (74/125 total)
+2026-03-10 10:52:48,646 [INFO] 
+[66/116] philosophy--metaphysics (domain-course)
+2026-03-10 10:52:48,646 [INFO] ============================================================
+2026-03-10 10:52:48,646 [INFO] STARTING: philosophy--metaphysics
+2026-03-10 10:52:48,646 [INFO] ============================================================
+2026-03-10 10:52:48,648 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 5449 chars)
+2026-03-10 10:55:56,546 [INFO] Generated 22 files for philosophy--metaphysics
+2026-03-10 10:55:57,618 [WARNING] Validation issues for philosophy--metaphysics (continuing anyway)
+2026-03-10 10:55:57,779 [INFO] Committed philosophy--metaphysics
+2026-03-10 10:55:57,779 [INFO] COMPLETED: philosophy--metaphysics (75/125 total)
+2026-03-10 10:56:00,780 [INFO] 
+[67/116] philosophy--ethics (domain-course)
+2026-03-10 10:56:00,780 [INFO] ============================================================
+2026-03-10 10:56:00,780 [INFO] STARTING: philosophy--ethics
+2026-03-10 10:56:00,780 [INFO] ============================================================
+2026-03-10 10:56:00,783 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 5978 chars)
+2026-03-10 10:58:54,693 [INFO] Generated 20 files for philosophy--ethics
+2026-03-10 10:58:55,799 [WARNING] Validation issues for philosophy--ethics (continuing anyway)
+2026-03-10 10:58:55,954 [INFO] Committed philosophy--ethics
+2026-03-10 10:58:55,954 [INFO] COMPLETED: philosophy--ethics (76/125 total)
+2026-03-10 10:58:58,955 [INFO] 
+[68/116] philosophy--political-philosophy (domain-course)
+2026-03-10 10:58:58,955 [INFO] ============================================================
+2026-03-10 10:58:58,955 [INFO] STARTING: philosophy--political-philosophy
+2026-03-10 10:58:58,955 [INFO] ============================================================
+2026-03-10 10:58:58,958 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 6351 chars)
+2026-03-10 11:02:17,227 [INFO] Generated 20 files for philosophy--political-philosophy
+2026-03-10 11:02:18,312 [WARNING] Validation issues for philosophy--political-philosophy (continuing anyway)
+2026-03-10 11:02:18,462 [INFO] Committed philosophy--political-philosophy
+2026-03-10 11:02:18,462 [INFO] COMPLETED: philosophy--political-philosophy (77/125 total)
+2026-03-10 11:02:21,463 [INFO] 
+[69/116] philosophy--philosophy-of-mind (domain-course)
+2026-03-10 11:02:21,463 [INFO] ============================================================
+2026-03-10 11:02:21,463 [INFO] STARTING: philosophy--philosophy-of-mind
+2026-03-10 11:02:21,463 [INFO] ============================================================
+2026-03-10 11:02:21,466 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 6823 chars)
+2026-03-10 11:05:43,341 [INFO] Generated 21 files for philosophy--philosophy-of-mind
+2026-03-10 11:05:44,441 [WARNING] Validation issues for philosophy--philosophy-of-mind (continuing anyway)
+2026-03-10 11:05:44,607 [INFO] Committed philosophy--philosophy-of-mind
+2026-03-10 11:05:44,607 [INFO] COMPLETED: philosophy--philosophy-of-mind (78/125 total)
+2026-03-10 11:05:47,608 [INFO] 
+[70/116] social-sciences--setup (domain-setup)
+2026-03-10 11:05:47,615 [INFO] Created domain structure: social-sciences (4 courses)
+2026-03-10 11:05:47,615 [INFO] 
+[71/116] social-sciences--sociology (domain-course)
+2026-03-10 11:05:47,616 [INFO] ============================================================
+2026-03-10 11:05:47,616 [INFO] STARTING: social-sciences--sociology
+2026-03-10 11:05:47,616 [INFO] ============================================================
+2026-03-10 11:05:47,619 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 18168 chars)
+2026-03-10 11:08:27,992 [INFO] Generated 20 files for social-sciences--sociology
+2026-03-10 11:08:29,108 [WARNING] Validation issues for social-sciences--sociology (continuing anyway)
+2026-03-10 11:08:29,268 [INFO] Committed social-sciences--sociology
+2026-03-10 11:08:29,268 [INFO] COMPLETED: social-sciences--sociology (80/125 total)
+2026-03-10 11:08:32,269 [INFO] 
+[72/116] social-sciences--anthropology (domain-course)
+2026-03-10 11:08:32,269 [INFO] ============================================================
+2026-03-10 11:08:32,269 [INFO] STARTING: social-sciences--anthropology
+2026-03-10 11:08:32,269 [INFO] ============================================================
+2026-03-10 11:08:32,276 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 18660 chars)
+2026-03-10 11:11:30,981 [INFO] Generated 20 files for social-sciences--anthropology
+2026-03-10 11:11:32,107 [WARNING] Validation issues for social-sciences--anthropology (continuing anyway)
+2026-03-10 11:11:32,275 [INFO] Committed social-sciences--anthropology
+2026-03-10 11:11:32,275 [INFO] COMPLETED: social-sciences--anthropology (81/125 total)
+2026-03-10 11:11:35,277 [INFO] 
+[73/116] social-sciences--political-science (domain-course)
+2026-03-10 11:11:35,277 [INFO] ============================================================
+2026-03-10 11:11:35,277 [INFO] STARTING: social-sciences--political-science
+2026-03-10 11:11:35,277 [INFO] ============================================================
+2026-03-10 11:11:35,282 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 19136 chars)
+2026-03-10 11:14:28,486 [INFO] Generated 20 files for social-sciences--political-science
+2026-03-10 11:14:29,608 [WARNING] Validation issues for social-sciences--political-science (continuing anyway)
+2026-03-10 11:14:29,760 [INFO] Committed social-sciences--political-science
+2026-03-10 11:14:29,760 [INFO] COMPLETED: social-sciences--political-science (82/125 total)
+2026-03-10 11:14:32,762 [INFO] 
+[74/116] social-sciences--human-geography (domain-course)
+2026-03-10 11:14:32,762 [INFO] ============================================================
+2026-03-10 11:14:32,762 [INFO] STARTING: social-sciences--human-geography
+2026-03-10 11:14:32,762 [INFO] ============================================================
+2026-03-10 11:14:32,766 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 19637 chars)
+2026-03-10 11:21:04,134 [INFO] Generated 20 files for social-sciences--human-geography
+2026-03-10 11:21:05,317 [WARNING] Validation issues for social-sciences--human-geography (continuing anyway)
+2026-03-10 11:21:05,474 [INFO] Committed social-sciences--human-geography
+2026-03-10 11:21:05,475 [INFO] COMPLETED: social-sciences--human-geography (83/125 total)
+2026-03-10 11:21:08,476 [INFO] 
+[75/116] language-and-communication--setup (domain-setup)
+2026-03-10 11:21:08,481 [INFO] Created domain structure: language-and-communication (4 courses)
+2026-03-10 11:21:08,482 [INFO] 
+[76/116] language-and-communication--grammar-and-syntax (domain-course)
+2026-03-10 11:21:08,482 [INFO] ============================================================
+2026-03-10 11:21:08,482 [INFO] STARTING: language-and-communication--grammar-and-syntax
+2026-03-10 11:21:08,482 [INFO] ============================================================
+2026-03-10 11:21:08,482 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 2681 chars)
+2026-03-10 11:23:05,533 [INFO] Generated 23 files for language-and-communication--grammar-and-syntax
+2026-03-10 11:23:06,692 [WARNING] Validation issues for language-and-communication--grammar-and-syntax (continuing anyway)
+2026-03-10 11:23:06,859 [INFO] Committed language-and-communication--grammar-and-syntax
+2026-03-10 11:23:06,859 [INFO] COMPLETED: language-and-communication--grammar-and-syntax (85/125 total)
+2026-03-10 11:23:09,860 [INFO] 
+[77/116] language-and-communication--rhetoric-and-composition (domain-course)
+2026-03-10 11:23:09,860 [INFO] ============================================================
+2026-03-10 11:23:09,860 [INFO] STARTING: language-and-communication--rhetoric-and-composition
+2026-03-10 11:23:09,860 [INFO] ============================================================
+2026-03-10 11:23:09,860 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 3219 chars)
+2026-03-10 11:25:38,959 [INFO] Generated 20 files for language-and-communication--rhetoric-and-composition
+2026-03-10 11:25:40,163 [WARNING] Validation issues for language-and-communication--rhetoric-and-composition (continuing anyway)
+2026-03-10 11:25:40,320 [INFO] Committed language-and-communication--rhetoric-and-composition
+2026-03-10 11:25:40,320 [INFO] COMPLETED: language-and-communication--rhetoric-and-composition (86/125 total)
+2026-03-10 11:25:43,321 [INFO] 
+[78/116] language-and-communication--linguistics (domain-course)
+2026-03-10 11:25:43,322 [INFO] ============================================================
+2026-03-10 11:25:43,322 [INFO] STARTING: language-and-communication--linguistics
+2026-03-10 11:25:43,322 [INFO] ============================================================
+2026-03-10 11:25:43,323 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 3601 chars)
+2026-03-10 11:31:06,701 [INFO] Generated 20 files for language-and-communication--linguistics
+2026-03-10 11:31:07,899 [WARNING] Validation issues for language-and-communication--linguistics (continuing anyway)
+2026-03-10 11:31:08,066 [INFO] Committed language-and-communication--linguistics
+2026-03-10 11:31:08,067 [INFO] COMPLETED: language-and-communication--linguistics (87/125 total)
+2026-03-10 11:31:11,068 [INFO] 
+[79/116] language-and-communication--public-speaking (domain-course)
+2026-03-10 11:31:11,068 [INFO] ============================================================
+2026-03-10 11:31:11,068 [INFO] STARTING: language-and-communication--public-speaking
+2026-03-10 11:31:11,068 [INFO] ============================================================
+2026-03-10 11:31:11,070 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 4056 chars)
+2026-03-10 11:34:19,255 [INFO] Generated 20 files for language-and-communication--public-speaking
+2026-03-10 11:34:20,475 [WARNING] Validation issues for language-and-communication--public-speaking (continuing anyway)
+2026-03-10 11:34:20,653 [INFO] Committed language-and-communication--public-speaking
+2026-03-10 11:34:20,653 [INFO] COMPLETED: language-and-communication--public-speaking (88/125 total)
+2026-03-10 11:34:23,655 [INFO] 
+[80/116] literature--setup (domain-setup)
+2026-03-10 11:34:23,660 [INFO] Created domain structure: literature (5 courses)
+2026-03-10 11:34:23,661 [INFO] 
+[81/116] literature--literary-analysis (domain-course)
+2026-03-10 11:34:23,661 [INFO] ============================================================
+2026-03-10 11:34:23,661 [INFO] STARTING: literature--literary-analysis
+2026-03-10 11:34:23,661 [INFO] ============================================================
+2026-03-10 11:34:23,662 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 4582 chars)
+2026-03-10 11:37:11,939 [INFO] Generated 20 files for literature--literary-analysis
+2026-03-10 11:37:13,203 [WARNING] Validation issues for literature--literary-analysis (continuing anyway)
+2026-03-10 11:37:13,368 [INFO] Committed literature--literary-analysis
+2026-03-10 11:37:13,368 [INFO] COMPLETED: literature--literary-analysis (90/125 total)
+2026-03-10 11:37:16,369 [INFO] 
+[82/116] literature--fiction (domain-course)
+2026-03-10 11:37:16,369 [INFO] ============================================================
+2026-03-10 11:37:16,369 [INFO] STARTING: literature--fiction
+2026-03-10 11:37:16,369 [INFO] ============================================================
+2026-03-10 11:37:16,372 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 5121 chars)
+2026-03-10 11:40:19,899 [INFO] Generated 20 files for literature--fiction
+2026-03-10 11:40:21,115 [WARNING] Validation issues for literature--fiction (continuing anyway)
+2026-03-10 11:40:21,274 [INFO] Committed literature--fiction
+2026-03-10 11:40:21,274 [INFO] COMPLETED: literature--fiction (91/125 total)
+2026-03-10 11:40:24,274 [INFO] 
+[83/116] literature--poetry (domain-course)
+2026-03-10 11:40:24,275 [INFO] ============================================================
+2026-03-10 11:40:24,275 [INFO] STARTING: literature--poetry
+2026-03-10 11:40:24,275 [INFO] ============================================================
+2026-03-10 11:40:24,277 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 5446 chars)
+2026-03-10 11:42:54,790 [INFO] Generated 21 files for literature--poetry
+2026-03-10 11:42:56,009 [WARNING] Validation issues for literature--poetry (continuing anyway)
+2026-03-10 11:42:56,163 [INFO] Committed literature--poetry
+2026-03-10 11:42:56,163 [INFO] COMPLETED: literature--poetry (92/125 total)
+2026-03-10 11:42:59,163 [INFO] 
+[84/116] literature--drama (domain-course)
+2026-03-10 11:42:59,164 [INFO] ============================================================
+2026-03-10 11:42:59,164 [INFO] STARTING: literature--drama
+2026-03-10 11:42:59,164 [INFO] ============================================================
+2026-03-10 11:42:59,167 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 5859 chars)
+2026-03-10 11:46:06,143 [INFO] Generated 20 files for literature--drama
+2026-03-10 11:46:07,355 [WARNING] Validation issues for literature--drama (continuing anyway)
+2026-03-10 11:46:07,512 [INFO] Committed literature--drama
+2026-03-10 11:46:07,512 [INFO] COMPLETED: literature--drama (93/125 total)
+2026-03-10 11:46:10,513 [INFO] 
+[85/116] literature--critical-theory (domain-course)
+2026-03-10 11:46:10,514 [INFO] ============================================================
+2026-03-10 11:46:10,514 [INFO] STARTING: literature--critical-theory
+2026-03-10 11:46:10,514 [INFO] ============================================================
+2026-03-10 11:46:10,516 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 6352 chars)
+2026-03-10 11:50:31,764 [INFO] Generated 20 files for literature--critical-theory
+2026-03-10 11:50:33,008 [WARNING] Validation issues for literature--critical-theory (continuing anyway)
+2026-03-10 11:50:33,146 [INFO] Committed literature--critical-theory
+2026-03-10 11:50:33,146 [INFO] COMPLETED: literature--critical-theory (94/125 total)
+2026-03-10 11:50:36,147 [INFO] 
+[86/116] music--setup (domain-setup)
+2026-03-10 11:50:36,153 [INFO] Created domain structure: music (5 courses)
+2026-03-10 11:50:36,153 [INFO] 
+[87/116] music--music-theory-fundamentals (domain-course)
+2026-03-10 11:50:36,153 [INFO] ============================================================
+2026-03-10 11:50:36,153 [INFO] STARTING: music--music-theory-fundamentals
+2026-03-10 11:50:36,153 [INFO] ============================================================
+2026-03-10 11:50:36,156 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 18105 chars)
+2026-03-10 11:53:09,706 [INFO] Generated 21 files for music--music-theory-fundamentals
+2026-03-10 11:53:10,970 [WARNING] Validation issues for music--music-theory-fundamentals (continuing anyway)
+2026-03-10 11:53:11,127 [INFO] Committed music--music-theory-fundamentals
+2026-03-10 11:53:11,127 [INFO] COMPLETED: music--music-theory-fundamentals (96/125 total)
+2026-03-10 11:53:14,129 [INFO] 
+[88/116] music--harmony-and-voice-leading (domain-course)
+2026-03-10 11:53:14,129 [INFO] ============================================================
+2026-03-10 11:53:14,129 [INFO] STARTING: music--harmony-and-voice-leading
+2026-03-10 11:53:14,129 [INFO] ============================================================
+2026-03-10 11:53:14,134 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 18515 chars)
+2026-03-10 12:00:29,439 [INFO] Generated 20 files for music--harmony-and-voice-leading
+2026-03-10 12:00:30,703 [WARNING] Validation issues for music--harmony-and-voice-leading (continuing anyway)
+2026-03-10 12:00:30,869 [INFO] Committed music--harmony-and-voice-leading
+2026-03-10 12:00:30,869 [INFO] COMPLETED: music--harmony-and-voice-leading (97/125 total)
+2026-03-10 12:00:33,870 [INFO] 
+[89/116] music--music-history (domain-course)
+2026-03-10 12:00:33,870 [INFO] ============================================================
+2026-03-10 12:00:33,870 [INFO] STARTING: music--music-history
+2026-03-10 12:00:33,870 [INFO] ============================================================
+2026-03-10 12:00:33,875 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 18885 chars)
+2026-03-10 12:06:21,079 [INFO] Generated 20 files for music--music-history
+2026-03-10 12:06:22,381 [WARNING] Validation issues for music--music-history (continuing anyway)
+2026-03-10 12:06:22,552 [INFO] Committed music--music-history
+2026-03-10 12:06:22,553 [INFO] COMPLETED: music--music-history (98/125 total)
+2026-03-10 12:06:25,554 [INFO] 
+[90/116] music--ear-training (domain-course)
+2026-03-10 12:06:25,554 [INFO] ============================================================
+2026-03-10 12:06:25,554 [INFO] STARTING: music--ear-training
+2026-03-10 12:06:25,554 [INFO] ============================================================
+2026-03-10 12:06:25,560 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 19395 chars)
+2026-03-10 12:12:06,395 [INFO] Generated 20 files for music--ear-training
+2026-03-10 12:12:08,023 [WARNING] Validation issues for music--ear-training (continuing anyway)
+2026-03-10 12:12:08,358 [INFO] Committed music--ear-training
+2026-03-10 12:12:08,358 [INFO] COMPLETED: music--ear-training (99/125 total)
+2026-03-10 12:12:11,359 [INFO] 
+[91/116] music--composition (domain-course)
+2026-03-10 12:12:11,359 [INFO] ============================================================
+2026-03-10 12:12:11,359 [INFO] STARTING: music--composition
+2026-03-10 12:12:11,359 [INFO] ============================================================
+2026-03-10 12:12:11,362 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 19890 chars)
+2026-03-10 12:15:43,321 [INFO] Generated 21 files for music--composition
+2026-03-10 12:15:44,592 [WARNING] Validation issues for music--composition (continuing anyway)
+2026-03-10 12:15:44,750 [INFO] Committed music--composition
+2026-03-10 12:15:44,750 [INFO] COMPLETED: music--composition (100/125 total)
+2026-03-10 12:15:47,751 [INFO] 
+[92/116] arts-and-aesthetics--setup (domain-setup)
+2026-03-10 12:15:47,756 [INFO] Created domain structure: arts-and-aesthetics (4 courses)
+2026-03-10 12:15:47,756 [INFO] 
+[93/116] arts-and-aesthetics--visual-elements-and-principles (domain-course)
+2026-03-10 12:15:47,756 [INFO] ============================================================
+2026-03-10 12:15:47,756 [INFO] STARTING: arts-and-aesthetics--visual-elements-and-principles
+2026-03-10 12:15:47,756 [INFO] ============================================================
+2026-03-10 12:15:47,757 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 2669 chars)
+2026-03-10 12:17:51,360 [INFO] Generated 18 files for arts-and-aesthetics--visual-elements-and-principles
+2026-03-10 12:17:52,798 [WARNING] Validation issues for arts-and-aesthetics--visual-elements-and-principles (continuing anyway)
+2026-03-10 12:17:52,955 [INFO] Committed arts-and-aesthetics--visual-elements-and-principles
+2026-03-10 12:17:52,955 [INFO] COMPLETED: arts-and-aesthetics--visual-elements-and-principles (102/125 total)
+2026-03-10 12:17:55,957 [INFO] 
+[94/116] arts-and-aesthetics--drawing-and-painting (domain-course)
+2026-03-10 12:17:55,957 [INFO] ============================================================
+2026-03-10 12:17:55,957 [INFO] STARTING: arts-and-aesthetics--drawing-and-painting
+2026-03-10 12:17:55,957 [INFO] ============================================================
+2026-03-10 12:17:55,958 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 3035 chars)
+2026-03-10 12:20:47,507 [INFO] Generated 18 files for arts-and-aesthetics--drawing-and-painting
+2026-03-10 12:20:48,862 [WARNING] Validation issues for arts-and-aesthetics--drawing-and-painting (continuing anyway)
+2026-03-10 12:20:49,025 [INFO] Committed arts-and-aesthetics--drawing-and-painting
+2026-03-10 12:20:49,025 [INFO] COMPLETED: arts-and-aesthetics--drawing-and-painting (103/125 total)
+2026-03-10 12:20:52,026 [INFO] 
+[95/116] arts-and-aesthetics--art-history (domain-course)
+2026-03-10 12:20:52,026 [INFO] ============================================================
+2026-03-10 12:20:52,026 [INFO] STARTING: arts-and-aesthetics--art-history
+2026-03-10 12:20:52,026 [INFO] ============================================================
+2026-03-10 12:20:52,027 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 3400 chars)
+2026-03-10 12:23:26,942 [INFO] Generated 18 files for arts-and-aesthetics--art-history
+2026-03-10 12:23:28,281 [WARNING] Validation issues for arts-and-aesthetics--art-history (continuing anyway)
+2026-03-10 12:23:28,439 [INFO] Committed arts-and-aesthetics--art-history
+2026-03-10 12:23:28,439 [INFO] COMPLETED: arts-and-aesthetics--art-history (104/125 total)
+2026-03-10 12:23:31,440 [INFO] 
+[96/116] arts-and-aesthetics--design-principles (domain-course)
+2026-03-10 12:23:31,440 [INFO] ============================================================
+2026-03-10 12:23:31,440 [INFO] STARTING: arts-and-aesthetics--design-principles
+2026-03-10 12:23:31,440 [INFO] ============================================================
+2026-03-10 12:23:31,442 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 3849 chars)
+2026-03-10 12:26:36,529 [INFO] Generated 18 files for arts-and-aesthetics--design-principles
+2026-03-10 12:26:38,317 [WARNING] Validation issues for arts-and-aesthetics--design-principles (continuing anyway)
+2026-03-10 12:26:38,488 [INFO] Committed arts-and-aesthetics--design-principles
+2026-03-10 12:26:38,488 [INFO] COMPLETED: arts-and-aesthetics--design-principles (105/125 total)
+2026-03-10 12:26:41,489 [INFO] 
+[97/116] practical-life-skills--setup (domain-setup)
+2026-03-10 12:26:41,494 [INFO] Created domain structure: practical-life-skills (4 courses)
+2026-03-10 12:26:41,495 [INFO] 
+[98/116] practical-life-skills--financial-literacy (domain-course)
+2026-03-10 12:26:41,495 [INFO] ============================================================
+2026-03-10 12:26:41,495 [INFO] STARTING: practical-life-skills--financial-literacy
+2026-03-10 12:26:41,495 [INFO] ============================================================
+2026-03-10 12:26:41,499 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 18179 chars)
+2026-03-10 12:28:59,876 [INFO] Generated 16 files for practical-life-skills--financial-literacy
+2026-03-10 12:29:01,311 [WARNING] Validation issues for practical-life-skills--financial-literacy (continuing anyway)
+2026-03-10 12:29:01,468 [INFO] Committed practical-life-skills--financial-literacy
+2026-03-10 12:29:01,468 [INFO] COMPLETED: practical-life-skills--financial-literacy (107/125 total)
+2026-03-10 12:29:04,468 [INFO] 
+[99/116] practical-life-skills--cooking-and-nutrition (domain-course)
+2026-03-10 12:29:04,469 [INFO] ============================================================
+2026-03-10 12:29:04,469 [INFO] STARTING: practical-life-skills--cooking-and-nutrition
+2026-03-10 12:29:04,469 [INFO] ============================================================
+2026-03-10 12:29:04,475 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 18587 chars)
+2026-03-10 12:31:14,232 [INFO] Generated 16 files for practical-life-skills--cooking-and-nutrition
+2026-03-10 12:31:15,621 [WARNING] Validation issues for practical-life-skills--cooking-and-nutrition (continuing anyway)
+2026-03-10 12:31:15,784 [INFO] Committed practical-life-skills--cooking-and-nutrition
+2026-03-10 12:31:15,784 [INFO] COMPLETED: practical-life-skills--cooking-and-nutrition (108/125 total)
+2026-03-10 12:31:18,785 [INFO] 
+[100/116] practical-life-skills--home-maintenance (domain-course)
+2026-03-10 12:31:18,785 [INFO] ============================================================
+2026-03-10 12:31:18,785 [INFO] STARTING: practical-life-skills--home-maintenance
+2026-03-10 12:31:18,786 [INFO] ============================================================
+2026-03-10 12:31:18,791 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 18986 chars)
+2026-03-10 12:33:19,994 [INFO] Generated 16 files for practical-life-skills--home-maintenance
+2026-03-10 12:33:21,388 [WARNING] Validation issues for practical-life-skills--home-maintenance (continuing anyway)
+2026-03-10 12:33:21,556 [INFO] Committed practical-life-skills--home-maintenance
+2026-03-10 12:33:21,556 [INFO] COMPLETED: practical-life-skills--home-maintenance (109/125 total)
+2026-03-10 12:33:24,557 [INFO] 
+[101/116] practical-life-skills--digital-literacy (domain-course)
+2026-03-10 12:33:24,558 [INFO] ============================================================
+2026-03-10 12:33:24,558 [INFO] STARTING: practical-life-skills--digital-literacy
+2026-03-10 12:33:24,558 [INFO] ============================================================
+2026-03-10 12:33:24,562 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 19340 chars)
+2026-03-10 12:35:15,097 [INFO] Generated 16 files for practical-life-skills--digital-literacy
+2026-03-10 12:35:16,526 [WARNING] Validation issues for practical-life-skills--digital-literacy (continuing anyway)
+2026-03-10 12:35:16,689 [INFO] Committed practical-life-skills--digital-literacy
+2026-03-10 12:35:16,689 [INFO] COMPLETED: practical-life-skills--digital-literacy (110/125 total)
+2026-03-10 12:35:19,690 [INFO] 
+[102/116] physics--crosslinks (cross-domain-review)
+2026-03-10 12:35:19,690 [INFO] ============================================================
+2026-03-10 12:35:19,691 [INFO] STARTING: physics--crosslinks
+2026-03-10 12:35:19,691 [INFO] ============================================================
+2026-03-10 12:35:19,702 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 24669 chars)
+2026-03-10 12:36:33,103 [INFO] Applied 35 cross-domain edits for physics
+2026-03-10 12:36:33,327 [INFO] Committed physics--crosslinks
+2026-03-10 12:36:33,328 [INFO] COMPLETED: physics--crosslinks (111/125 total)
+2026-03-10 12:36:36,329 [INFO] 
+[103/116] computer-science--crosslinks (cross-domain-review)
+2026-03-10 12:36:36,329 [INFO] ============================================================
+2026-03-10 12:36:36,329 [INFO] STARTING: computer-science--crosslinks
+2026-03-10 12:36:36,329 [INFO] ============================================================
+2026-03-10 12:36:36,333 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 25567 chars)
+2026-03-10 12:37:32,880 [INFO] Applied 31 cross-domain edits for computer-science
+2026-03-10 12:37:33,096 [INFO] Committed computer-science--crosslinks
+2026-03-10 12:37:33,096 [INFO] COMPLETED: computer-science--crosslinks (112/125 total)
+2026-03-10 12:37:36,097 [INFO] 
+[104/116] formal-sciences-and-logic--crosslinks (cross-domain-review)
+2026-03-10 12:37:36,097 [INFO] ============================================================
+2026-03-10 12:37:36,097 [INFO] STARTING: formal-sciences-and-logic--crosslinks
+2026-03-10 12:37:36,097 [INFO] ============================================================
+2026-03-10 12:37:36,102 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 21089 chars)
+2026-03-10 12:38:36,952 [INFO] Applied 31 cross-domain edits for formal-sciences-and-logic
+2026-03-10 12:38:37,160 [INFO] Committed formal-sciences-and-logic--crosslinks
+2026-03-10 12:38:37,160 [INFO] COMPLETED: formal-sciences-and-logic--crosslinks (113/125 total)
+2026-03-10 12:38:40,161 [INFO] 
+[105/116] chemistry--crosslinks (cross-domain-review)
+2026-03-10 12:38:40,161 [INFO] ============================================================
+2026-03-10 12:38:40,161 [INFO] STARTING: chemistry--crosslinks
+2026-03-10 12:38:40,161 [INFO] ============================================================
+2026-03-10 12:38:40,167 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 26139 chars)
+2026-03-10 12:39:50,764 [INFO] Applied 37 cross-domain edits for chemistry
+2026-03-10 12:39:50,975 [INFO] Committed chemistry--crosslinks
+2026-03-10 12:39:50,975 [INFO] COMPLETED: chemistry--crosslinks (114/125 total)
+2026-03-10 12:39:53,976 [INFO] 
+[106/116] biology--crosslinks (cross-domain-review)
+2026-03-10 12:39:53,976 [INFO] ============================================================
+2026-03-10 12:39:53,976 [INFO] STARTING: biology--crosslinks
+2026-03-10 12:39:53,976 [INFO] ============================================================
+2026-03-10 12:39:53,983 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 25849 chars)
+2026-03-10 12:40:58,329 [INFO] Applied 30 cross-domain edits for biology
+2026-03-10 12:40:58,524 [INFO] Committed biology--crosslinks
+2026-03-10 12:40:58,525 [INFO] COMPLETED: biology--crosslinks (115/125 total)
+2026-03-10 12:41:01,526 [INFO] 
+[107/116] earth-and-space-sciences--crosslinks (cross-domain-review)
+2026-03-10 12:41:01,526 [INFO] ============================================================
+2026-03-10 12:41:01,526 [INFO] STARTING: earth-and-space-sciences--crosslinks
+2026-03-10 12:41:01,526 [INFO] ============================================================
+2026-03-10 12:41:01,532 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 27410 chars)
+2026-03-10 12:42:24,359 [INFO] Applied 32 cross-domain edits for earth-and-space-sciences
+2026-03-10 12:42:24,556 [INFO] Committed earth-and-space-sciences--crosslinks
+2026-03-10 12:42:24,556 [INFO] COMPLETED: earth-and-space-sciences--crosslinks (116/125 total)
+2026-03-10 12:42:27,557 [INFO] 
+[108/116] economics--crosslinks (cross-domain-review)
+2026-03-10 12:42:27,557 [INFO] ============================================================
+2026-03-10 12:42:27,557 [INFO] STARTING: economics--crosslinks
+2026-03-10 12:42:27,557 [INFO] ============================================================
+2026-03-10 12:42:27,562 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 22761 chars)
+2026-03-10 12:43:35,071 [INFO] Applied 36 cross-domain edits for economics
+2026-03-10 12:43:35,289 [INFO] Committed economics--crosslinks
+2026-03-10 12:43:35,289 [INFO] COMPLETED: economics--crosslinks (117/125 total)
+2026-03-10 12:43:38,290 [INFO] 
+[109/116] psychology--crosslinks (cross-domain-review)
+2026-03-10 12:43:38,290 [INFO] ============================================================
+2026-03-10 12:43:38,290 [INFO] STARTING: psychology--crosslinks
+2026-03-10 12:43:38,290 [INFO] ============================================================
+2026-03-10 12:43:38,296 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 25947 chars)
+2026-03-10 12:44:23,183 [INFO] Applied 30 cross-domain edits for psychology
+2026-03-10 12:44:23,365 [INFO] Committed psychology--crosslinks
+2026-03-10 12:44:23,365 [INFO] COMPLETED: psychology--crosslinks (118/125 total)
+2026-03-10 12:44:26,366 [INFO] 
+[110/116] engineering--crosslinks (cross-domain-review)
+2026-03-10 12:44:26,366 [INFO] ============================================================
+2026-03-10 12:44:26,366 [INFO] STARTING: engineering--crosslinks
+2026-03-10 12:44:26,366 [INFO] ============================================================
+2026-03-10 12:44:26,372 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 29167 chars)
+2026-03-10 12:45:24,871 [INFO] Applied 29 cross-domain edits for engineering
+2026-03-10 12:45:25,068 [INFO] Committed engineering--crosslinks
+2026-03-10 12:45:25,068 [INFO] COMPLETED: engineering--crosslinks (119/125 total)
+2026-03-10 12:45:28,069 [INFO] 
+[111/116] health-and-human-development--crosslinks (cross-domain-review)
+2026-03-10 12:45:28,069 [INFO] ============================================================
+2026-03-10 12:45:28,069 [INFO] STARTING: health-and-human-development--crosslinks
+2026-03-10 12:45:28,069 [INFO] ============================================================
+2026-03-10 12:45:28,073 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 11680 chars)
+2026-03-10 12:46:35,472 [INFO] Applied 25 cross-domain edits for health-and-human-development
+2026-03-10 12:46:35,662 [INFO] Committed health-and-human-development--crosslinks
+2026-03-10 12:46:35,663 [INFO] COMPLETED: health-and-human-development--crosslinks (120/125 total)
+2026-03-10 12:46:38,663 [INFO] 
+[112/116] philosophy--crosslinks (cross-domain-review)
+2026-03-10 12:46:38,664 [INFO] ============================================================
+2026-03-10 12:46:38,664 [INFO] STARTING: philosophy--crosslinks
+2026-03-10 12:46:38,664 [INFO] ============================================================
+2026-03-10 12:46:38,666 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 9025 chars)
+2026-03-10 12:47:23,272 [INFO] Applied 25 cross-domain edits for philosophy
+2026-03-10 12:47:23,449 [INFO] Committed philosophy--crosslinks
+2026-03-10 12:47:23,449 [INFO] COMPLETED: philosophy--crosslinks (121/125 total)
+2026-03-10 12:47:26,450 [INFO] 
+[113/116] social-sciences--crosslinks (cross-domain-review)
+2026-03-10 12:47:26,450 [INFO] ============================================================
+2026-03-10 12:47:26,450 [INFO] STARTING: social-sciences--crosslinks
+2026-03-10 12:47:26,450 [INFO] ============================================================
+2026-03-10 12:47:26,455 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 20480 chars)
+2026-03-10 12:48:15,370 [INFO] Applied 30 cross-domain edits for social-sciences
+2026-03-10 12:48:15,570 [INFO] Committed social-sciences--crosslinks
+2026-03-10 12:48:15,570 [INFO] COMPLETED: social-sciences--crosslinks (122/125 total)
+2026-03-10 12:48:18,571 [INFO] 
+[114/116] literature--crosslinks (cross-domain-review)
+2026-03-10 12:48:18,571 [INFO] ============================================================
+2026-03-10 12:48:18,572 [INFO] STARTING: literature--crosslinks
+2026-03-10 12:48:18,572 [INFO] ============================================================
+2026-03-10 12:48:18,574 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 7319 chars)
+2026-03-10 12:48:24,578 [ERROR] Claude exited with code 1
+2026-03-10 12:48:24,578 [WARNING] FAILED: literature--crosslinks
+2026-03-10 12:48:27,579 [INFO] 
+[115/116] music--crosslinks (cross-domain-review)
+2026-03-10 12:48:27,579 [INFO] ============================================================
+2026-03-10 12:48:27,579 [INFO] STARTING: music--crosslinks
+2026-03-10 12:48:27,579 [INFO] ============================================================
+2026-03-10 12:48:27,582 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 21700 chars)
+2026-03-10 12:48:33,391 [ERROR] Claude exited with code 1
+2026-03-10 12:48:33,391 [WARNING] FAILED: music--crosslinks
+2026-03-10 12:48:36,392 [INFO] 
+[116/116] practical-life-skills--crosslinks (cross-domain-review)
+2026-03-10 12:48:36,392 [INFO] ============================================================
+2026-03-10 12:48:36,392 [INFO] STARTING: practical-life-skills--crosslinks
+2026-03-10 12:48:36,392 [INFO] ============================================================
+2026-03-10 12:48:36,397 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 19883 chars)
+2026-03-10 12:48:42,448 [ERROR] Claude exited with code 1
+2026-03-10 12:48:42,448 [WARNING] FAILED: practical-life-skills--crosslinks
+2026-03-10 12:48:42,449 [INFO] 
+============================================================
+2026-03-10 12:48:42,449 [INFO] OVERNIGHT RUN COMPLETE
+2026-03-10 12:48:42,449 [INFO]   Completed: 122
+2026-03-10 12:48:42,449 [INFO]   Failed: 3
+2026-03-10 12:48:42,449 [INFO]   Failed: ['literature--crosslinks', 'music--crosslinks', 'practical-life-skills--crosslinks']
+2026-03-10 12:48:42,449 [INFO] ============================================================
+2026-03-10 13:09:16,534 [INFO] Retrying 3 failed subjects
+2026-03-10 13:09:16,535 [INFO] Queue: 3 remaining / 125 total
+2026-03-10 13:09:16,535 [INFO] 
+[1/3] literature--crosslinks (cross-domain-review)
+2026-03-10 13:09:16,535 [INFO] ============================================================
+2026-03-10 13:09:16,535 [INFO] STARTING: literature--crosslinks
+2026-03-10 13:09:16,535 [INFO] ============================================================
+2026-03-10 13:09:16,537 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 7319 chars)
+2026-03-10 13:09:59,177 [INFO] Applied 29 cross-domain edits for literature
+2026-03-10 13:09:59,387 [INFO] Committed literature--crosslinks
+2026-03-10 13:09:59,387 [INFO] COMPLETED: literature--crosslinks (123/125 total)
+2026-03-10 13:10:02,388 [INFO] 
+[2/3] music--crosslinks (cross-domain-review)
+2026-03-10 13:10:02,388 [INFO] ============================================================
+2026-03-10 13:10:02,389 [INFO] STARTING: music--crosslinks
+2026-03-10 13:10:02,389 [INFO] ============================================================
+2026-03-10 13:10:02,393 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 21700 chars)
+2026-03-10 13:10:58,883 [INFO] Applied 20 cross-domain edits for music
+2026-03-10 13:10:59,076 [INFO] Committed music--crosslinks
+2026-03-10 13:10:59,077 [INFO] COMPLETED: music--crosslinks (124/125 total)
+2026-03-10 13:11:02,077 [INFO] 
+[3/3] practical-life-skills--crosslinks (cross-domain-review)
+2026-03-10 13:11:02,077 [INFO] ============================================================
+2026-03-10 13:11:02,077 [INFO] STARTING: practical-life-skills--crosslinks
+2026-03-10 13:11:02,078 [INFO] ============================================================
+2026-03-10 13:11:02,081 [INFO] Running: claude --print --dangerously-skip-permissions --model sonnet (prompt: 19883 chars)
+2026-03-10 13:11:47,107 [INFO] Applied 26 cross-domain edits for practical-life-skills
+2026-03-10 13:11:47,287 [INFO] Committed practical-life-skills--crosslinks
+2026-03-10 13:11:47,287 [INFO] COMPLETED: practical-life-skills--crosslinks (125/125 total)
+2026-03-10 13:11:47,287 [INFO] 
+============================================================
+2026-03-10 13:11:47,287 [INFO] OVERNIGHT RUN COMPLETE
+2026-03-10 13:11:47,287 [INFO]   Completed: 125
+2026-03-10 13:11:47,287 [INFO]   Failed: 0
+2026-03-10 13:11:47,287 [INFO] ============================================================
