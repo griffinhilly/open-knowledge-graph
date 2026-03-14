@@ -16,7 +16,7 @@ tags:
 - incomplete protein
 - complementary proteins
 - protein quality
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

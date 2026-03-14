@@ -17,7 +17,7 @@ tags:
 - participant observation
 - qualitative methods
 - emic/etic
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -26,7 +26,7 @@ tags:
 - assessment
 - ASQ
 - early-identification
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Developmental Screening and Assessment

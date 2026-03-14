@@ -14,7 +14,7 @@ tags:
 - values
 - symbols
 - material-culture
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - framing
 - political-opportunity
 - new-social-movements
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -20,7 +20,7 @@ tags:
 - ECG
 - chambers
 - valves
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

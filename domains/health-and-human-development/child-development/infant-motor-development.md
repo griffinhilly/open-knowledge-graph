@@ -18,7 +18,7 @@ tags:
 - gross-motor
 - fine-motor
 - infancy
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

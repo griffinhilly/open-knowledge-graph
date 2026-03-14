@@ -19,7 +19,7 @@ tags:
 - attack-rate
 - case-definition
 - field-epidemiology
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

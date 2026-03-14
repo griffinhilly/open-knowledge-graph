@@ -20,7 +20,7 @@ tags:
 - RDA
 - food patterns
 - MyPlate
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

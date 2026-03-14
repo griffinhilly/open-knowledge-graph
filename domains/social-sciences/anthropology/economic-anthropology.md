@@ -30,7 +30,7 @@ tags:
 - Mauss
 - gift
 - Polanyi
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Economic Anthropology: Exchange and Reciprocity

@@ -18,7 +18,7 @@ tags:
 - hypothesis-testing
 - regression
 - p-values
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Biostatistics in Public Health

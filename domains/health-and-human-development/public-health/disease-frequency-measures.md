@@ -18,7 +18,7 @@ tags:
 - prevalence
 - rates
 - biostatistics
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

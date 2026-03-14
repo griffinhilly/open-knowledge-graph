@@ -14,7 +14,7 @@ tags:
 - in-group
 - judgment
 - Sumner
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

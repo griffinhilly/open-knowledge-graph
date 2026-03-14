@@ -22,7 +22,7 @@ tags:
 - power
 - strategic geography
 - gerrymandering
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Geopolitics and the Geography of Power

@@ -15,7 +15,7 @@ tags:
 - executive
 - legislative
 - judiciary
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

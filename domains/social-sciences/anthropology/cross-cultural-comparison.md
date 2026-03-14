@@ -27,7 +27,7 @@ tags:
 - HRAF
 - universals
 - variation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Cross-Cultural Comparison

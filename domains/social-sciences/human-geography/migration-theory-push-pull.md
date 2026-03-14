@@ -26,7 +26,7 @@ tags:
 - diaspora
 - Ravenstein
 - mobility
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

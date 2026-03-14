@@ -21,7 +21,7 @@ tags:
 - notifiable-disease
 - sentinel-surveillance
 - public-health-systems
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

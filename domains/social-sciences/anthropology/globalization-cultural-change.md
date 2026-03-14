@@ -29,7 +29,7 @@ tags:
 - Appadurai
 - creolization
 - diaspora
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Globalization and Cultural Change

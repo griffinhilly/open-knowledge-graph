@@ -19,7 +19,7 @@ tags:
 - sensory-receptors
 - transduction
 - somatosensory
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

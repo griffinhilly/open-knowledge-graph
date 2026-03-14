@@ -13,7 +13,7 @@ tags:
 - four-fields
 - discipline
 - holism
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

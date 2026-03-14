@@ -21,7 +21,7 @@ tags:
 - grammar
 - Chomsky
 - critical-period
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

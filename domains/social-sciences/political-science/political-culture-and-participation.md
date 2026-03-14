@@ -30,7 +30,7 @@ tags:
 - social capital
 - voting
 - Almond and Verba
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Political Culture and Civic Participation

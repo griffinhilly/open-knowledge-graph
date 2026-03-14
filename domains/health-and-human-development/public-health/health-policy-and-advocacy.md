@@ -28,7 +28,7 @@ tags:
 - advocacy
 - stakeholders
 - implementation-science
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Health Policy Development and Advocacy

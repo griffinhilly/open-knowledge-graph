@@ -14,7 +14,7 @@ tags:
 - marriage
 - household
 - domestic-labor
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

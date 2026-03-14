@@ -19,7 +19,7 @@ tags:
 - protein
 - fat
 - energy
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

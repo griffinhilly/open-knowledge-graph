@@ -20,7 +20,7 @@ tags:
 - reflexes
 - sensory-development
 - newborn
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

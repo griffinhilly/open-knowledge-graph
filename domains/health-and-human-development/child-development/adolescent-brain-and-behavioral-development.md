@@ -25,7 +25,7 @@ tags:
 - risk-taking
 - reward-sensitivity
 - brain-development
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Adolescent Brain Development and Behavioral Change

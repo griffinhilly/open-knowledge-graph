@@ -18,7 +18,7 @@ tags:
 - mores
 - taboos
 - sanctions
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

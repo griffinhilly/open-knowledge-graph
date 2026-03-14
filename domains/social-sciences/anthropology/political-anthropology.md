@@ -21,7 +21,7 @@ tags:
 - state
 - political organization
 - headman
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Political Anthropology: Power Without the State

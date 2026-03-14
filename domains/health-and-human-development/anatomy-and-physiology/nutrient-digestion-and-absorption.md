@@ -23,7 +23,7 @@ tags:
 - villi
 - microvilli
 - portal-circulation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

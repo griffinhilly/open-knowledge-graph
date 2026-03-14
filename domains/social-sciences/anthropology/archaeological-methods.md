@@ -22,7 +22,7 @@ tags:
 - typology
 - dating methods
 - artifact
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Archaeological Methods and Interpretation

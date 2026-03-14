@@ -17,7 +17,7 @@ tags:
 - adipose tissue
 - leptin
 - weight regulation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - identity
 - primary-secondary
 - agents-of-socialization
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

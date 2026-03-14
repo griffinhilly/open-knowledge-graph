@@ -15,7 +15,7 @@ tags:
 - credentialism
 - cultural-capital
 - social-reproduction
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

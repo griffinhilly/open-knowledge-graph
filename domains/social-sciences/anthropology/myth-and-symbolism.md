@@ -16,7 +16,7 @@ tags:
 - Lévi-Strauss
 - Geertz
 - structuralism
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

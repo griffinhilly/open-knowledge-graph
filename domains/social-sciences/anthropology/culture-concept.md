@@ -19,7 +19,7 @@ tags:
 - symbols
 - learned behavior
 - shared meaning
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

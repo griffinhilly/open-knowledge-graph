@@ -21,7 +21,7 @@ tags:
 - secondary-prevention
 - tertiary-prevention
 - public-health
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 # Levels of Disease Prevention

@@ -24,7 +24,7 @@ tags:
 - Aedes
 - reservoir-host
 - vector-control
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Vector-Borne Disease Ecology and Control

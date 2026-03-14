@@ -19,7 +19,7 @@ tags:
 - case-control
 - randomized-trial
 - epidemiology
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

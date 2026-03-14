@@ -22,7 +22,7 @@ tags:
 - transitions
 - waves of democracy
 - hybrid regimes
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Regime Change and Democratization

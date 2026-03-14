@@ -23,7 +23,7 @@ tags:
 - cardiovascular-disease
 - cancer-epidemiology
 - risk-factor-surveillance
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Chronic Disease Epidemiology and Risk Factor Surveillance

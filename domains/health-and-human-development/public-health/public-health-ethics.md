@@ -20,7 +20,7 @@ tags:
 - beneficence
 - public-health-law
 - stewardship
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

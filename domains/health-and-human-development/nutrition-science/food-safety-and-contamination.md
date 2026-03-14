@@ -16,7 +16,7 @@ tags:
 - pathogens
 - HACCP
 - food preservation
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

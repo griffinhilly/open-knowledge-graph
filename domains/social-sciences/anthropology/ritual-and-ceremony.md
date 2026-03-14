@@ -17,7 +17,7 @@ tags:
 - liminality
 - Turner
 - van Gennep
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

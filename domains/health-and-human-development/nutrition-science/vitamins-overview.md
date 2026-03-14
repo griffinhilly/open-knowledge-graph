@@ -17,7 +17,7 @@ tags:
 - fat-soluble
 - water-soluble
 - deficiency
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

@@ -17,7 +17,7 @@ tags:
 - endogamy
 - polygamy
 - bridewealth
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 
