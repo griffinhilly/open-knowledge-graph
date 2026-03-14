@@ -4,16 +4,15 @@ title: Quotient Rings
 domain: mathematics
 course: abstract-algebra
 prerequisites:
-- id: subrings-and-ideals
+- id: subrings-ideals
   type: hard
-- id: quotient-groups
-  type: soft
 builds-toward:
-- first-isomorphism-theorem-for-rings
+- first-isomorphism-theorem-rings
+- integral-domains
 tags:
-- quotient
-- ideals
-- factor-rings
+- quotient-ring
+- R/I
+- coset-multiplication
 stage: advanced
 status: draft
 ---
@@ -21,4 +20,4 @@ status: draft
 # Quotient Rings
 
 ## Core Idea
-For an ideal I of R, the quotient ring R/I has cosets as elements with (a + I) + (b + I) = (a + b) + I and (a + I)(b + I) = (ab) + I. R/I is a ring with zero element 0 + I and |R/I| = |R|/|I| when finite.
+For an ideal I of a ring R, the quotient ring R/I consists of cosets a + I with addition and multiplication defined component-wise. The natural map R → R/I is a homomorphism with kernel I.

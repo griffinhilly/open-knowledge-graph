@@ -7,11 +7,13 @@ prerequisites:
 - id: group-homomorphisms
   type: hard
 builds-toward:
-- first-isomorphism-theorem-for-groups
+- cosets-lagrange-theorem
+- first-isomorphism-theorem-groups
 tags:
 - isomorphisms
-- equivalence
-- structure
+- bijective
+- structure-preserving
+- equivalent-groups
 stage: advanced
 status: draft
 ---
@@ -19,4 +21,4 @@ status: draft
 # Group Isomorphisms
 
 ## Core Idea
-An isomorphism is a bijective homomorphism showing two groups have identical abstract structure. Isomorphic groups have the same multiplication tables up to relabeling. For finite groups, isomorphism can be verified by checking order preservation on all elements.
+A group isomorphism is a bijective homomorphism. Two groups are isomorphic if there exists an isomorphism between them, meaning they have identical algebraic structure. Isomorphic groups differ only in notation.

@@ -4,14 +4,15 @@ title: Finite Fields
 domain: mathematics
 course: abstract-algebra
 prerequisites:
-- id: field-definition-and-examples
+- id: splitting-fields
   type: hard
-- id: quotient-rings
-  type: soft
+builds-toward:
+- galois-groups
 tags:
-- finite-fields
-- galois-fields
-- structure
+- finite-field
+- Fq
+- GF
+- frobenius
 stage: advanced
 status: draft
 ---
@@ -19,4 +20,4 @@ status: draft
 # Finite Fields
 
 ## Core Idea
-Every finite field has order p^n for prime p and positive integer n. There is a unique field of order p^n up to isomorphism, denoted F_{p^n}. The multiplicative group is cyclic of order p^n − 1. Finite fields are splitting fields of x^{p^n} − x over F_p.
+A finite field has q = pⁿ elements for a prime p and positive integer n. For each prime power q there exists a unique finite field up to isomorphism. The Frobenius automorphism x ↦ xᵖ generates the Galois group of F_q over F_p.

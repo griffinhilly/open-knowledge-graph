@@ -4,18 +4,18 @@ title: Field Extensions
 domain: mathematics
 course: abstract-algebra
 prerequisites:
-- id: field-definition-and-examples
+- id: field-definition-examples
   type: hard
 - id: vector-spaces
-  type: soft
+  type: hard
 builds-toward:
-- algebraic-and-transcendental-elements
+- algebraic-transcendental-elements
 - splitting-fields
-- galois-groups
 tags:
-- field-extensions
+- extension
 - degree
-- dimension
+- vector-space
+- multiplicative
 stage: advanced
 status: draft
 ---
@@ -23,4 +23,4 @@ status: draft
 # Field Extensions
 
 ## Core Idea
-A field extension F/K is a field F containing K as a subfield. The degree [F:K] is the dimension of F as a vector space over K. The tower law: [F:K] = [F:E][E:K] for intermediate E. Every element in a finite extension satisfies a polynomial equation over K.
+A field extension K/F is a pair of fields with F ⊆ K. K is a vector space over F, and its dimension is the degree [K : F]. The multiplicative property holds: [K : F] = [K : E][E : F] for intermediate fields E.

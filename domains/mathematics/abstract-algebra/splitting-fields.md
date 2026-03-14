@@ -4,17 +4,15 @@ title: Splitting Fields
 domain: mathematics
 course: abstract-algebra
 prerequisites:
-- id: field-extensions
-  type: hard
-- id: polynomial-rings
+- id: algebraic-transcendental-elements
   type: hard
 builds-toward:
 - galois-groups
-- fundamental-theorem-of-galois-theory
+- finite-fields
 tags:
-- splitting-fields
-- roots
-- separable
+- splitting-field
+- root
+- complete-factorization
 stage: advanced
 status: draft
 ---
@@ -22,4 +20,4 @@ status: draft
 # Splitting Fields
 
 ## Core Idea
-The splitting field of a polynomial f over K is the smallest field extension F/K where f splits into linear factors. Every polynomial has a splitting field unique up to isomorphism. Galois theory studies automorphisms fixing K acting on splitting fields.
+A splitting field of a polynomial f(x) ∈ F[x] is the smallest field extension of F in which f splits into linear factors. Splitting fields exist and are unique up to isomorphism.

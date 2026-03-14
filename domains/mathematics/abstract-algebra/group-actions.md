@@ -4,14 +4,16 @@ title: Group Actions
 domain: mathematics
 course: abstract-algebra
 prerequisites:
-- id: group-definition-and-examples
+- id: permutation-groups
   type: hard
 builds-toward:
 - orbit-stabilizer-theorem
+- class-equation
 tags:
-- actions
-- symmetries
-- applications
+- action
+- group-acting
+- orbit
+- stabilizer
 stage: advanced
 status: draft
 ---
@@ -19,4 +21,4 @@ status: draft
 # Group Actions
 
 ## Core Idea
-A group action of G on set X is a map G × X → X with (g₁g₂) · x = g₁ · (g₂ · x) and e · x = x. Actions formalize symmetry: transitive actions have one orbit, faithful actions have trivial kernel, free actions have no fixed points except for identity.
+An action of a group G on a set X is a function G × X → X satisfying (gh)x = g(hx) and ex = x. Group actions formalize the notion of a group 'acting' on a set by transformations, unifying permutation groups, matrix groups, and abstract symmetries.

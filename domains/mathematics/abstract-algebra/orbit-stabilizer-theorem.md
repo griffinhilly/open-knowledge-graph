@@ -7,10 +7,12 @@ prerequisites:
 - id: group-actions
   type: hard
 builds-toward:
-- the-class-equation
+- class-equation
+- sylow-theorems
 tags:
-- orbits
-- stabilizers
+- orbit
+- stabilizer
+- orbit-stabilizer
 - counting
 stage: advanced
 status: draft
@@ -19,4 +21,4 @@ status: draft
 # Orbit-Stabilizer Theorem
 
 ## Core Idea
-The orbit Orb(x) = {g · x : g ∈ G} and stabilizer Stab(x) = {g ∈ G : g · x = x} satisfy |Orb(x)| · |Stab(x)| = |G|. Orbits partition X and stabilizers are subgroups. This theorem is fundamental for counting and understanding actions.
+For a group action of G on a finite set X and any x ∈ X, the orbit Orb(x) and stabilizer Stab(x) satisfy |Orb(x)| · |Stab(x)| = |G|. This relates local structure to global structure.

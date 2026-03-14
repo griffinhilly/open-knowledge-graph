@@ -7,12 +7,13 @@ prerequisites:
 - id: polynomial-rings
   type: hard
 builds-toward:
+- field-extensions
 - splitting-fields
-- insolvability-of-the-quintic
 tags:
 - irreducible
 - eisenstein
-- factorization
+- content
+- primitive
 stage: advanced
 status: draft
 ---
@@ -20,4 +21,4 @@ status: draft
 # Irreducibility Criteria
 
 ## Core Idea
-A polynomial is irreducible if it is not a product of two non-constant polynomials. Eisenstein's criterion: if prime p divides all but the leading coefficient and p² does not divide the constant term, then the polynomial is irreducible. Irreducibles are primes in polynomial rings.
+A polynomial is irreducible if it cannot be factored into non-constant polynomials. Eisenstein's criterion provides a sufficient condition for irreducibility over fields and principal ideal domains.

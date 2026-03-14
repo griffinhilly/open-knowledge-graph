@@ -4,16 +4,15 @@ title: Integral Domains
 domain: mathematics
 course: abstract-algebra
 prerequisites:
-- id: ring-definition-and-examples
+- id: first-isomorphism-theorem-rings
   type: hard
 builds-toward:
 - principal-ideal-domains
 - unique-factorization-domains
-- maximal-and-prime-ideals
 tags:
-- integral-domains
+- integral-domain
 - no-zero-divisors
-- divisibility
+- cancellation
 stage: advanced
 status: draft
 ---
@@ -21,4 +20,4 @@ status: draft
 # Integral Domains
 
 ## Core Idea
-An integral domain is a commutative ring with unity where ab = 0 implies a = 0 or b = 0 (no zero divisors). Fields are integral domains. Cancellation law holds: ac = bc and c ≠ 0 imply a = b. Every finite integral domain is a field.
+An integral domain is a commutative ring with unity in which there are no zero divisors: ab = 0 implies a = 0 or b = 0. Integral domains are the natural setting for factorization and divisibility.

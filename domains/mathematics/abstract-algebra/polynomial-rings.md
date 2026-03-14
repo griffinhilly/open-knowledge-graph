@@ -4,15 +4,15 @@ title: Polynomial Rings
 domain: mathematics
 course: abstract-algebra
 prerequisites:
-- id: ring-definition-and-examples
+- id: unique-factorization-domains
   type: hard
 builds-toward:
 - irreducibility-criteria
-- splitting-fields
+- field-extensions
 tags:
-- polynomials
-- rings
-- structure
+- polynomial-ring
+- R[x]
+- evaluation-homomorphism
 stage: advanced
 status: draft
 ---
@@ -20,4 +20,4 @@ status: draft
 # Polynomial Rings
 
 ## Core Idea
-The polynomial ring R[x] consists of polynomials with coefficients in R. If R is a UFD, so is R[x]. Roots correspond to linear factors; the remainder theorem relates evaluation to division. Polynomial rings are central to both algebra and number theory.
+For a ring R, the polynomial ring R[x] is the set of polynomials with coefficients in R. If R is a UFD, so is R[x]. If F is a field, F[x] is a principal ideal domain.

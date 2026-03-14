@@ -7,11 +7,12 @@ prerequisites:
 - id: principal-ideal-domains
   type: hard
 builds-toward:
-- irreducibility-criteria
+- polynomial-rings
 tags:
 - ufd
 - unique-factorization
-- divisibility
+- irreducible
+- prime
 stage: advanced
 status: draft
 ---
@@ -19,4 +20,4 @@ status: draft
 # Unique Factorization Domains
 
 ## Core Idea
-A unique factorization domain (UFD) is an integral domain where every nonzero non-unit factors uniquely into irreducibles up to order and units. PIDs are UFDs. Polynomial rings over UFDs are UFDs. The integers and Z[x] are UFDs.
+A unique factorization domain (UFD) is an integral domain in which every nonzero, non-unit element can be factored uniquely (up to order and units) into irreducible elements.

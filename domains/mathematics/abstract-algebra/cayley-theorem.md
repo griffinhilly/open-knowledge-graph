@@ -4,14 +4,14 @@ title: Cayley's Theorem
 domain: mathematics
 course: abstract-algebra
 prerequisites:
-- id: group-homomorphisms
-  type: hard
 - id: permutation-groups
   type: hard
+- id: group-isomorphisms
+  type: soft
 tags:
 - cayley
-- permutation-representation
 - embedding
+- permutation-representation
 stage: advanced
 status: draft
 ---
@@ -19,4 +19,4 @@ status: draft
 # Cayley's Theorem
 
 ## Core Idea
-Every finite group G is isomorphic to a subgroup of the symmetric group S_n for some n. Specifically, G embeds in S_{|G|} via left multiplication: each g ∈ G gives the permutation x ↦ gx. This shows every abstract group can be realized as a permutation group.
+Every group G is isomorphic to a subgroup of some symmetric group Sₙ. The left-multiplication action of G on itself embeds G into Sₙ where n = |G|. This shows that abstract group theory is equivalent to the concrete theory of permutation groups.

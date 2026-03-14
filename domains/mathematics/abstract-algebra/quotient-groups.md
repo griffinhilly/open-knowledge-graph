@@ -7,11 +7,12 @@ prerequisites:
 - id: normal-subgroups
   type: hard
 builds-toward:
-- first-isomorphism-theorem-for-groups
+- first-isomorphism-theorem-groups
+- second-isomorphism-theorem-groups
 tags:
 - quotient
-- cosets
-- factor-groups
+- coset-multiplication
+- G/N
 stage: advanced
 status: draft
 ---
@@ -19,4 +20,4 @@ status: draft
 # Quotient Groups
 
 ## Core Idea
-For normal subgroup N of G, the quotient G/N has cosets as elements and operation (gN)(hN) = (gh)N. The map g ↦ gN is a surjective homomorphism with kernel N and |G/N| = |G|/|N|.
+If N is a normal subgroup of G, the set of cosets G/N forms a group under coset multiplication: (aN)(bN) = (ab)N. The quotient group G/N has order |G| / |N|.

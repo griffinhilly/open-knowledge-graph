@@ -4,15 +4,16 @@ title: Normal Subgroups
 domain: mathematics
 course: abstract-algebra
 prerequisites:
-- id: cosets-and-lagrange-theorem
+- id: cosets-lagrange-theorem
   type: hard
 builds-toward:
 - quotient-groups
-- first-isomorphism-theorem-for-groups
+- first-isomorphism-theorem-groups
 tags:
 - normal
-- kernels
-- quotients
+- kernel
+- conjugate
+- invariant
 stage: advanced
 status: draft
 ---
@@ -20,4 +21,4 @@ status: draft
 # Normal Subgroups
 
 ## Core Idea
-A subgroup N is normal if gN = Ng for all g ∈ G, equivalently if gNg^{-1} = N. Kernels of homomorphisms are always normal. Normal subgroups are necessary for quotient group operations to be well-defined.
+A subgroup N is normal if gNg⁻¹ = N for all g ∈ G, equivalently gN = Ng for all g. Normal subgroups are precisely the kernels of homomorphisms. Only for normal subgroups does the set of cosets form a group.

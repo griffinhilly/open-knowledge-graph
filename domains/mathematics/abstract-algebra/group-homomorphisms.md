@@ -4,17 +4,17 @@ title: Group Homomorphisms
 domain: mathematics
 course: abstract-algebra
 prerequisites:
-- id: group-definition-and-examples
+- id: group-basic-properties
   type: hard
-- id: linear-transformations
-  type: soft
 builds-toward:
 - group-isomorphisms
-- cayley-theorem
+- cosets-lagrange-theorem
+- normal-subgroups
 tags:
 - homomorphisms
 - structure-preserving
-- maps
+- kernel
+- image
 stage: advanced
 status: draft
 ---
@@ -22,4 +22,4 @@ status: draft
 # Group Homomorphisms
 
 ## Core Idea
-A group homomorphism φ: G → H preserves structure: φ(ab) = φ(a)φ(b). The kernel ker(φ) = {g : φ(g) = e} is always a normal subgroup. The image im(φ) is always a subgroup of H. Homomorphisms reveal structural relationships between groups.
+A group homomorphism φ: G → H preserves the group operation: φ(ab) = φ(a)φ(b). The kernel ker(φ) = {a ∈ G : φ(a) = e} is a normal subgroup, and the image im(φ) is a subgroup of H. Homomorphisms reveal the underlying structure of groups.

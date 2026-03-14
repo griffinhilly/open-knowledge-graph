@@ -4,16 +4,14 @@ title: Sylow Theorems
 domain: mathematics
 course: abstract-algebra
 prerequisites:
-- id: the-class-equation
-  type: hard
-- id: cosets-and-lagrange-theorem
+- id: class-equation
   type: hard
 builds-toward:
-- applications-of-sylow-theorems
+- applications-sylow-theorems
 tags:
-- sylow
+- sylow-p-subgroup
+- sylow-theorems
 - p-groups
-- existence
 stage: advanced
 status: draft
 ---
@@ -21,4 +19,4 @@ status: draft
 # Sylow Theorems
 
 ## Core Idea
-If p^k divides |G| but p^{k+1} does not, then G has a Sylow p-subgroup of order p^k. The number n_p of Sylow p-subgroups divides |G|/p^k and n_p ≡ 1 (mod p). Sylow theorems guarantee existence and constrain the number of p-subgroups.
+For a finite group G of order pᵏm with gcd(p, m) = 1, Sylow's theorems assert the existence of p-Sylow subgroups of order pᵏ, that all such subgroups are conjugate, and that the number of p-Sylow subgroups divides m and is ≡ 1 (mod p).

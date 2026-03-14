@@ -4,18 +4,18 @@ title: Permutation Groups
 domain: mathematics
 course: abstract-algebra
 prerequisites:
-- id: group-definition-and-examples
+- id: group-definition-examples
   type: hard
-- id: mathematical-induction
-  type: soft
 builds-toward:
-- symmetric-groups
+- cycle-notation-decomposition
+- sign-permutation
 - dihedral-groups
 - cayley-theorem
 tags:
 - permutations
-- symmetric-groups
-- examples
+- Sₙ
+- symmetric-group
+- bijections
 stage: advanced
 status: draft
 ---
@@ -23,4 +23,4 @@ status: draft
 # Permutation Groups
 
 ## Core Idea
-A permutation of set X is a bijection X → X. The symmetric group S_n has n! elements and is non-abelian for n ≥ 3. Permutation groups are fundamental examples; Cayley's theorem proves every finite group is isomorphic to a permutation group.
+The symmetric group Sₙ is the group of all bijections (permutations) of an n-element set under composition. Permutation groups are fundamental: every finite group is a subgroup of some symmetric group. The order of Sₙ is n!.

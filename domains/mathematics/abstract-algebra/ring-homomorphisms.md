@@ -4,17 +4,15 @@ title: Ring Homomorphisms
 domain: mathematics
 course: abstract-algebra
 prerequisites:
-- id: ring-definition-and-examples
+- id: ring-definition-examples
   type: hard
-- id: group-homomorphisms
-  type: soft
 builds-toward:
+- subrings-ideals
 - quotient-rings
-- first-isomorphism-theorem-for-rings
 tags:
-- homomorphisms
-- rings
-- structure-preserving
+- ring-homomorphism
+- kernel
+- ideal
 stage: advanced
 status: draft
 ---
@@ -22,4 +20,4 @@ status: draft
 # Ring Homomorphisms
 
 ## Core Idea
-A ring homomorphism φ: R → S preserves both operations: φ(a + b) = φ(a) + φ(b) and φ(ab) = φ(a)φ(b). The kernel is an ideal; the image is a subring. Ring homomorphisms generalize group homomorphisms to two operations.
+A ring homomorphism φ: R → S preserves both addition and multiplication: φ(a + b) = φ(a) + φ(b) and φ(ab) = φ(a)φ(b). The kernel of φ is an ideal of R.
