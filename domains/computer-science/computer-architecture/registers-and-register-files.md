@@ -4,30 +4,29 @@ title: Registers and Register Files
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: flip-flops-and-latches
+- id: d-flip-flop-design
   type: hard
-- id: multiplexers-and-demultiplexers
+- id: sequential-circuit-design
   type: soft
 builds-toward:
 - cpu-datapath
-- assembly-language-basics
-- cpu-control-unit
+- memory-array-organization
 tags:
 - registers
-- register-file
-- CPU
 - storage
+- register-file
+- datapath
 stage: formal-systems
-status: validated
+status: draft
 ---
+
 # Registers and Register Files
 
 ## Core Idea
-A register is a small, fast memory element built from n flip-flops that stores an n-bit value such as the contents of a CPU word. A register file is an array of registers accessible by address, analogous to a tiny RAM built directly into the CPU. Modern CPUs have 8 to 32 general-purpose registers plus special-purpose registers (program counter, stack pointer, flags register). Register access is faster than cache by an order of magnitude, making them the top level of the memory hierarchy.
+Registers are arrays of flip-flops that store multi-bit values (often 32 or 64 bits), while register files are collections of named registers with multiplexed read and write ports. They provide fast, on-chip storage for operands and intermediate results.
 
 ## How It's Best Learned
-Design a 4-bit register with parallel load from a D flip-flop array. Then build a small 4×4-bit register file with read and write ports using decoders. Trace a register read/write cycle in a MIPS or RISC-V datapath diagram.
+Design a 4-register by 8-bit register file with dual read ports and single write port; trace address decoding and data paths.
 
 ## Common Misconceptions
-- CPU registers are not the same as processor caches — registers are explicitly addressed in instructions, while caches are transparent to the instruction set.
-- The number of registers is architecturally fixed and visible to the programmer; adding more registers changes the ISA.
+Registers cannot hold different values per bit unless explicitly stored separately. Register file write typically takes one clock cycle and read is combinational.
