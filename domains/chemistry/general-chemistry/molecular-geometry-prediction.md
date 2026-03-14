@@ -1,25 +1,24 @@
 ---
 id: molecular-geometry-prediction
-title: Predicting Molecular Geometry from VSEPR
+title: 'Molecular Geometry: VSEPR Theory and 3D Structure'
 domain: chemistry
 course: general-chemistry
 prerequisites:
-- id: vsepr-theory
-  type: hard
-- id: lewis-structures
+- id: lewis-structures-basics
   type: hard
 builds-toward:
-- molecular-polarity
-- hybridization
+- polarity-and-dipole-moments
+- intermolecular-forces-overview
 tags:
 - VSEPR
 - molecular geometry
 - electron geometry
+- 3D structure
 stage: formal-systems
 status: draft
 ---
 
-# Predicting Molecular Geometry from VSEPR
+# Molecular Geometry: VSEPR Theory and 3D Structure
 
 ## Core Idea
-VSEPR theory predicts that bonding and lone pairs of electrons arrange themselves to minimize repulsion. This determines the three-dimensional shape of molecules.
+The Valence Shell Electron Pair Repulsion (VSEPR) theory predicts molecular shape based on the repulsion between electron pairs (bonding and lone pairs) around a central atom. Electron geometry describes all electron pairs; molecular geometry describes only atoms. Common shapes include linear, trigonal planar, tetrahedral, trigonal pyramidal, and bent.

@@ -1,31 +1,21 @@
 ---
 id: kinetic-molecular-theory
-title: Kinetic Molecular Theory of Gases
+title: Kinetic Molecular Theory and Gas Behavior
 domain: chemistry
 course: general-chemistry
 prerequisites:
-- id: gas-laws
-  type: hard
-- id: mole-concept
+- id: gas-laws-ideal-gas
   type: soft
-builds-toward:
-- real-gases-van-der-waals
-- intermolecular-forces
 tags:
-- kinetic molecular theory
-- gas properties
+- kinetic theory
 - molecular motion
+- pressure
+- temperature
 stage: formal-systems
 status: draft
 ---
 
-# Kinetic Molecular Theory of Gases
+# Kinetic Molecular Theory and Gas Behavior
 
 ## Core Idea
-Kinetic molecular theory explains gas behavior through the motion of particles. It assumes gases consist of particles in constant random motion, with collisions that are perfectly elastic.
-
-## How It's Best Learned
-Use KMT postulates to derive relationships between pressure, volume, and temperature.
-
-## Common Misconceptions
-Confusing average kinetic energy with pressure; forgetting that KMT assumes ideal behavior.
+Kinetic molecular theory explains gas behavior by proposing that gases consist of tiny particles in constant random motion. Pressure results from particle collisions with container walls; temperature is proportional to average kinetic energy. The theory explains gas laws and predicts that real gases deviate at high pressure or low temperature where intermolecular forces matter.
