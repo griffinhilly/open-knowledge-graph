@@ -1,26 +1,24 @@
 ---
 id: postmodern-historiography
-title: Postmodern Historiography
+title: Postmodern Challenges to Historical Knowledge
 domain: history
 course: historiography
 prerequisites:
-- id: historiography-intro
+- id: historiography-philosophy-intro
   type: hard
-- id: hayden-white-linguistic-turn
+- id: linguistic-turn-historiography
+  type: hard
+- id: postmodern-historiography
   type: soft
-builds-toward:
-- foucault-genealogy
-- postcolonial-historiography
 tags:
-- postmodernism
-- deconstruction
-- metanarrative
-- late-20th-century
+- postmodern
+- theory
+- critique
 stage: advanced
 status: draft
 ---
 
-# Postmodern Historiography
+# Postmodern Challenges to Historical Knowledge
 
 ## Core Idea
-Postmodern historiography challenges the possibility of objective historical truth and linear narrative progress, arguing instead that historical 'facts' are constructed through discourse and power relations. Influenced by figures like Michel Foucault and Jacques Derrida, postmodern historians deconstruct grand narratives, expose silences and exclusions, and explore how history legitimates present power structures. This approach has been both generative and controversial for its skepticism toward historical evidence itself.
+Postmodern critiques question whether historians can represent the past accurately, whether evidence has fixed meaning, and whether grand narratives are naive illusions. Thinkers like Foucault deny progressive historical knowledge. Yet extreme postmodernism risks collapsing historical knowledge into fiction. Modern historiography asks: How should historians respond to postmodern skepticism while maintaining rigorous standards?
