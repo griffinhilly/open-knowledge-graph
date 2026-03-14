@@ -1,23 +1,33 @@
 ---
 id: marginal-propensity-to-consume-mpc
-title: Marginal Propensity to Consume
+title: The Marginal Propensity to Consume
 domain: economics
 course: macroeconomics
 prerequisites:
-- id: consumption-function-and-income-dependency
+- id: consumption-function-keynesian
   type: hard
 builds-toward:
-- government-spending-multiplier
+- marginal-propensity-to-save-mps
 - fiscal-multiplier
+- aggregate-demand-expenditure-approach
 tags:
+- mpc
 - consumption
-- parameter
-- multiplier
+- marginal
+- income
 stage: abstract-reasoning
 status: draft
 ---
 
-# Marginal Propensity to Consume
+# The Marginal Propensity to Consume
 
 ## Core Idea
-The marginal propensity to consume (MPC) is the fraction of an additional dollar of disposable income that households spend on consumption—the slope of the consumption function. MPC is typically between 0 and 1, varying by income level, age, and economic conditions. The MPC is a crucial determinant of the fiscal multiplier: the higher the MPC, the larger the multiplier effect of government spending.
+The marginal propensity to consume (MPC) is the fraction of an additional dollar of disposable income that households spend (0 < MPC < 1). Typically 0.75–0.95 in developed economies.
+
+## How It's Best Learned
+Calculate MPC as slope: MPC = ΔC / ΔY_d. Use real income change scenarios and connect to fiscal multiplier effects.
+
+## Common Misconceptions
+- Confusing MPC with average propensity to consume.
+- Assuming MPC is constant across income levels.
+- Treating MPC as equivalent to elasticity.
