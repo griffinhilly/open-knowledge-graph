@@ -1,24 +1,20 @@
 ---
 id: quasi-maximum-likelihood-estimation
-title: Quasi-Maximum Likelihood Estimation (QMLE)
+title: Quasi-Maximum Likelihood Estimation
 domain: economics
 course: econometrics
 prerequisites:
 - id: maximum-likelihood-econometrics
   type: hard
-- id: heteroskedasticity
-  type: soft
-builds-toward:
-- logit-probit-models
 tags:
 - estimation
-- likelihood
-- qmle
+- maximum-likelihood
+- misspecification
 stage: formal-systems
 status: draft
 ---
 
-# Quasi-Maximum Likelihood Estimation (QMLE)
+# Quasi-Maximum Likelihood Estimation
 
 ## Core Idea
-QMLE maximizes a potentially misspecified likelihood to estimate parameters; under regularity conditions, the estimator remains consistent and asymptotically normal with a sandwich (Huber-White) covariance estimator. This robustness makes QMLE useful when the true distribution is unknown but a working model is available.
+QML estimates models by maximizing a (possibly incorrect) log-likelihood function. Under mild regularity conditions, QML estimators are consistent and asymptotically normal even if the true distribution differs. The covariance matrix requires a sandwich adjustment accounting for likelihood misspecification.
