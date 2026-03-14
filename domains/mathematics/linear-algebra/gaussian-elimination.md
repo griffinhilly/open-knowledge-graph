@@ -1,6 +1,6 @@
 ---
 id: gaussian-elimination
-title: Gaussian Elimination
+title: Gaussian Elimination and Row Reduction
 domain: mathematics
 course: linear-algebra
 prerequisites:
@@ -8,16 +8,16 @@ prerequisites:
   type: hard
 builds-toward:
 - row-echelon-form
-- rank-and-nullity-theorem
+- reduced-row-echelon-form
 tags:
-- gaussian-elimination
-- row-reduction
-- solving-systems
+- systems
+- gaussian elimination
+- row operations
 stage: formal-systems
 status: draft
 ---
 
-# Gaussian Elimination
+# Gaussian Elimination and Row Reduction
 
 ## Core Idea
-Gaussian elimination uses elementary row operations (swapping, scaling, adding multiples) to transform Ax = b into an equivalent system in row-echelon form, revealing solution structure. The process is systematic and finite, making it the foundational algorithm for solving linear systems.
+Gaussian elimination solves linear systems by applying elementary row operations (swapping rows, scaling, adding multiples) to transform the augmented matrix into simpler form. These operations preserve the solution set. The algorithm produces row echelon form or reduced row echelon form for direct solution.

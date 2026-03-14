@@ -4,13 +4,14 @@ title: Matrix Addition and Subtraction
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: matrices-intro
+- id: matrices-definition
   type: hard
 builds-toward:
 - matrix-multiplication
-- vector-spaces
+- matrix-transpose
 tags:
-- matrix-operations
+- matrices
+- operations
 - addition
 stage: formal-systems
 status: draft
@@ -19,4 +20,4 @@ status: draft
 # Matrix Addition and Subtraction
 
 ## Core Idea
-Two matrices of the same size add and subtract element-wise: (A + B)ᵢⱼ = aᵢⱼ + bᵢⱼ. These operations are associative, commutative, and closed within the set of m × n matrices. Matrix addition is the natural extension of vector addition to rectangular arrays.
+Two matrices of the same size are added/subtracted entry-wise: (A + B)_ij = a_ij + b_ij. Matrix addition is commutative, associative, and has an identity (the zero matrix). These operations make m × n matrices into a vector space themselves, denoted M_{m,n}.

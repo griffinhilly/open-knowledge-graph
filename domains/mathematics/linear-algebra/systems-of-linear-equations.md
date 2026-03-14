@@ -1,25 +1,23 @@
 ---
 id: systems-of-linear-equations
-title: Systems of Linear Equations (Linear Algebra Perspective)
+title: Systems of Linear Equations and Matrix Form
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: matrices-intro
-  type: hard
-- id: matrix-addition-subtraction
+- id: matrices-definition
   type: hard
 builds-toward:
 - gaussian-elimination
-- rank-and-nullity-theorem
+- rank-nullity-theorem
 tags:
 - systems
-- linear-equations
-- matrix-form
+- linear equations
+- ax=b
 stage: formal-systems
 status: draft
 ---
 
-# Systems of Linear Equations (Linear Algebra Perspective)
+# Systems of Linear Equations and Matrix Form
 
 ## Core Idea
-A system of m linear equations in n unknowns is written compactly as Ax = b, where A is m × n, x is the solution vector, and b is the right-hand side. The solution set is either empty (inconsistent), a unique point (consistent, full rank), or infinite (consistent, rank deficiency). Matrix structure reveals the nature of solutions.
+A system of m linear equations in n unknowns can be written as Ax = b, where A is m × n, x is the unknown vector, and b is the constant vector. A system is consistent (has solutions) if and only if b is in the column space of A. The solution set forms an affine subspace.

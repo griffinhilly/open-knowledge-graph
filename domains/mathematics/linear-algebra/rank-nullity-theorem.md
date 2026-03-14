@@ -1,26 +1,22 @@
 ---
 id: rank-nullity-theorem
-title: Rank, Nullity, and the Rank-Nullity Theorem
+title: Rank-Nullity Theorem
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: row-echelon-form-rref
+- id: kernel-image-rank
   type: hard
-- id: basis-and-dimension
-  type: soft
-builds-toward:
-- linear-transformations-definition
-- kernel-and-image
-- least-squares-approximation
+- id: dimension-vector-space
+  type: hard
 tags:
-- rank
-- nullity
-- dimension
+- rank-nullity
+- dimensions
+- linear transformations
 stage: formal-systems
 status: draft
 ---
 
-# Rank, Nullity, and the Rank-Nullity Theorem
+# Rank-Nullity Theorem
 
 ## Core Idea
-For an m×n matrix A, rank(A) is the number of pivot columns (dimension of column space), and nullity(A) = n − rank(A) (dimension of null space). The rank-nullity theorem states: rank(A) + nullity(A) = n. This fundamental relationship constrains the structure of solutions to Ax = b and underpins the dimension theorem for linear transformations.
+For a linear transformation T: V → W with V finite-dimensional: dim(V) = rank(T) + nullity(T), where rank(T) = dim(im(T)) and nullity(T) = dim(ker(T)). For an m × n matrix A: rank(A) + nullity(A) = n. This fundamental relation connects the sizes of key subspaces.

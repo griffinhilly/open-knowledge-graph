@@ -4,17 +4,16 @@ title: Inner Product Spaces
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: vector-spaces
+- id: dot-product-definition
   type: hard
-- id: dot-product
+- id: vector-spaces-definition
   type: hard
 builds-toward:
-- orthogonal-projections
-- gram-schmidt-process
+- orthogonal-vectors-orthonormal-bases
 tags:
-- inner-product
-- abstract-spaces
-- geometry
+- inner product
+- spaces
+- orthogonality
 stage: formal-systems
 status: draft
 ---
@@ -22,4 +21,4 @@ status: draft
 # Inner Product Spaces
 
 ## Core Idea
-An inner product on a vector space V is a function ⟨·,·⟩: V × V → ℝ satisfying conjugate symmetry, linearity in the second argument, and positive definiteness. It generalizes the dot product and defines a norm ‖v‖ = √⟨v,v⟩. Inner products enable notions of angle, orthogonality, and projection in abstract spaces.
+An inner product on a vector space V is a function ⟨·,·⟩: V × V → ℝ satisfying positivity (⟨v,v⟩ ≥ 0), symmetry, and linearity in the second argument. The dot product is the standard inner product on R^n. Inner products induce norms and enable defining orthogonality and projections.

@@ -1,25 +1,20 @@
 ---
 id: characteristic-polynomial
-title: Characteristic Polynomial
+title: Characteristic Polynomial and Diagonalization
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: determinants-2x2-3x3
+- id: eigenvalues-eigenvectors
   type: hard
-- id: matrix-multiplication
-  type: hard
-builds-toward:
-- eigenvalues-and-eigenvectors
-- diagonalization
 tags:
-- characteristic-polynomial
+- characteristic polynomial
+- diagonalization
 - eigenvalues
-- determinant
 stage: formal-systems
 status: draft
 ---
 
-# Characteristic Polynomial
+# Characteristic Polynomial and Diagonalization
 
 ## Core Idea
-The characteristic polynomial of n × n matrix A is p(λ) = det(A − λI), a polynomial of degree n. The eigenvalues of A are the roots of p(λ). By the Cayley–Hamilton theorem, A satisfies its own characteristic equation: p(A) = 0.
+The characteristic polynomial of A is det(A − λI), whose roots are eigenvalues. A matrix is diagonalizable if its eigenvectors form a complete basis. Diagonalizable matrices A satisfy A = PDP^{-1}, where D is diagonal and P is the eigenvector matrix. Similar matrices share eigenvalues and determinant.

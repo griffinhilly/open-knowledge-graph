@@ -1,26 +1,22 @@
 ---
 id: reduced-row-echelon-form
-title: Reduced Row Echelon Form (RREF)
+title: Reduced Row Echelon Form
 domain: mathematics
 course: linear-algebra
 prerequisites:
 - id: row-echelon-form
   type: hard
 builds-toward:
-- matrix-inverses
-- rank-and-nullity-theorem
+- rank-nullity-theorem
 tags:
+- systems
 - rref
-- reduced-row-echelon-form
-- unique-form
+- normal form
 stage: formal-systems
 status: draft
 ---
 
-# Reduced Row Echelon Form (RREF)
+# Reduced Row Echelon Form
 
 ## Core Idea
-Reduced row echelon form is the unique matrix form where each pivot is 1, each pivot is the only nonzero entry in its column, and pivots move strictly rightward. RREF is obtained by back-substitution after REF. The RREF of [A | I] gives A⁻¹ (when A is invertible), and RREF is the unique row-equivalent form of any matrix.
-
-## How It's Best Learned
-Compute RREF for small matrices by hand using Gaussian elimination with back-substitution. Compare RREF forms across different matrices to see the unique structure.
+Reduced row echelon form (RREF) is the unique simplest form where: matrix is in REF, all pivots equal 1, and all entries above and below pivots are zero. RREF reveals solutions directly with no back-substitution. Every matrix has a unique RREF, which determines rank and solution structure.

@@ -1,23 +1,31 @@
 ---
 id: vector-subspaces
-title: Subspaces and the Subspace Test
+title: Subspaces and Closure Properties
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: vector-spaces
+- id: vector-spaces-definition
   type: hard
 builds-toward:
-- basis-and-dimension
-- span-and-basis
-- kernel-and-image
+- span-spanning-set
+- basis-definition
+- dimension-vector-space
 tags:
 - subspaces
-- subspace-test
+- closure
+- subsets
 stage: formal-systems
 status: draft
 ---
 
-# Subspaces and the Subspace Test
+# Subspaces and Closure Properties
 
 ## Core Idea
-A subspace W of a vector space V is a subset closed under addition and scalar multiplication (and containing the zero vector). The subspace test: W is a subspace iff (1) 0 ∈ W, (2) u, v ∈ W ⟹ u + v ∈ W, (3) u ∈ W, c ∈ F ⟹ cu ∈ W. Intersection of subspaces is a subspace; union is not.
+A subspace of a vector space V is a non-empty subset W that is closed under addition and scalar multiplication. Equivalently, W is a subspace if and only if for any u, v in W and scalar c, we have u + v and cu in W. Subspaces inherit all vector space properties from V.
+
+## How It's Best Learned
+Start with geometric examples: lines and planes through the origin in R^3 are subspaces. Test the closure conditions explicitly. Practice with null spaces and column spaces of matrices.
+
+## Common Misconceptions
+- Forgetting that subspaces must contain the zero vector.
+- Thinking lines or planes not through the origin are subspaces; they are affine subsets, not subspaces.

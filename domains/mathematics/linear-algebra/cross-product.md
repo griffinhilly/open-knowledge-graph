@@ -1,25 +1,20 @@
 ---
 id: cross-product
-title: Cross Product in R³
+title: Cross Product in R^3
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: vectors-in-rn
+- id: vectors-in-rn-definition
   type: hard
-- id: dot-product
-  type: hard
-builds-toward:
-- determinants-2x2-3x3
-- linear-transformations
 tags:
-- cross-product
-- 3d-geometry
-- determinant
+- vectors
+- cross product
+- r3
 stage: formal-systems
 status: draft
 ---
 
-# Cross Product in R³
+# Cross Product in R^3
 
 ## Core Idea
-The cross product of two vectors u and v in R³ produces a vector perpendicular to both, with magnitude equal to the area of the parallelogram they span. The formula u × v = (u₂v₃ − u₃v₂, u₃v₁ − u₁v₃, u₁v₂ − u₂v₁) can be expressed as a determinant. The cross product is anti-commutative: u × v = −(v × u).
+The cross product u × v in R^3 produces a vector perpendicular to both u and v with magnitude ||u|| ||v|| sin(θ). It can be computed using: u × v = (u₂v₃ − u₃v₂, u₃v₁ − u₁v₃, u₁v₂ − u₂v₁). The cross product is anti-commutative and non-associative.

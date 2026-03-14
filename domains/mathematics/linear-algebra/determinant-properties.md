@@ -1,25 +1,23 @@
 ---
 id: determinant-properties
-title: Determinant Properties and Computation
+title: Properties of Determinants
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: determinants-2x2-3x3
+- id: determinant-computation
   type: hard
 builds-toward:
-- matrix-inverses
-- characteristic-polynomial
-- rank-and-nullity-theorem
+- cramers-rule
+- eigenvalues-eigenvectors
 tags:
-- determinant
+- determinants
 - properties
-- computation
-- cofactors
+- linear algebra
 stage: formal-systems
 status: draft
 ---
 
-# Determinant Properties and Computation
+# Properties of Determinants
 
 ## Core Idea
-Determinants satisfy key properties: det(AB) = det(A)det(B), det(Aᵀ) = det(A), det(A⁻¹) = 1/det(A), and multiplying a row by c multiplies the determinant by c. Row operations can simplify computation: swapping rows negates det, adding a multiple of one row to another preserves det. Cofactor expansion allows recursive computation for any size.
+Key properties: det(AB) = det(A)det(B), det(A^T) = det(A), det(cA) = c^n det(A). Row operations: swapping rows negates det; scaling a row by c multiplies det by c; adding row multiples doesn't change det. A matrix is invertible iff det(A) ≠ 0.

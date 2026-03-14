@@ -1,30 +1,24 @@
 ---
 id: determinant-computation
-title: Determinant Computation and Interpretation
+title: Computing Determinants
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: matrix-addition-multiplication
+- id: matrices-definition
   type: hard
 builds-toward:
-- matrix-inverses-computation
-- eigenvalues-eigenvectors-introduction
-- linear-systems-consistency
+- determinant-properties
+- cramers-rule
+- eigenvalues-eigenvectors
 tags:
 - determinants
 - computation
-- properties
+- algorithms
 stage: formal-systems
 status: draft
 ---
 
-# Determinant Computation and Interpretation
+# Computing Determinants
 
 ## Core Idea
-The determinant det(A) is a scalar that encodes properties of a square matrix: invertibility (det(A) ≠ 0), the signed volume scaling of the linear transformation, and the orientation of vectors. Determinants are computed via cofactor expansion, row reduction, or products of pivots. The determinant product rule: det(AB) = det(A)det(B).
-
-## How It's Best Learned
-Start with 2×2 formula by hand. Use cofactor expansion for 3×3. See how row operations affect determinants. Relate det(A) to volume of a parallelepiped formed by matrix rows.
-
-## Common Misconceptions
-Determinant is NOT the product of diagonal entries except for triangular matrices. Row operations change the determinant in predictable ways. det(A+B) ≠ det(A) + det(B).
+The determinant of an n × n matrix is a scalar with geometric meaning (signed volume of the parallelepiped spanned by columns). For 2×2: det([a b; c d]) = ad − bc. For larger matrices, use cofactor expansion C_ij = (−1)^{i+j} M_ij or row reduction. det(A) = 0 iff A is singular.

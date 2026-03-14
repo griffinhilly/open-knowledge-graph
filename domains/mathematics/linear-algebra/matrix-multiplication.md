@@ -4,19 +4,18 @@ title: Matrix Multiplication
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: matrix-addition-subtraction
+- id: matrices-definition
   type: hard
-- id: dot-product
-  type: hard
+- id: dot-product-definition
+  type: soft
 builds-toward:
-- matrix-transpose
-- linear-transformations
-- matrix-representation-linear-transformations
-- determinants-2x2-3x3
+- linear-transformation-definition
+- systems-of-linear-equations
+- matrix-inverses
 tags:
-- matrix-multiplication
-- composition
-- linear-transformations
+- matrices
+- multiplication
+- operations
 stage: formal-systems
 status: draft
 ---
@@ -24,4 +23,4 @@ status: draft
 # Matrix Multiplication
 
 ## Core Idea
-The product of an m × p matrix A and a p × n matrix B is an m × n matrix C where cᵢⱼ = Σₖ aᵢₖ bₖⱼ (row of A dotted with column of B). Matrix multiplication is associative but not commutative. It represents composition of linear transformations and has deep geometric meaning.
+If A is m × n and B is n × p, their product AB is m × p where (AB)_ij = Σ_k a_ik b_kj. Matrix multiplication is associative and distributes over addition but is NOT commutative. It represents function composition for linear transformations. Multiplication is possible only when inner dimensions match.

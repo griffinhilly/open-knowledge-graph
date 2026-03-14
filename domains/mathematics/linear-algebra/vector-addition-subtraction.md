@@ -4,16 +4,16 @@ title: Vector Addition and Subtraction
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: vectors-in-rn
+- id: vectors-in-rn-definition
   type: hard
 builds-toward:
-- dot-product
-- vector-norms-magnitude
-- vector-spaces
+- vector-spaces-definition
+- span-spanning-set
+- linear-independence
 tags:
-- vector-operations
+- vectors
+- operations
 - addition
-- geometry
 stage: formal-systems
 status: draft
 ---
@@ -21,4 +21,11 @@ status: draft
 # Vector Addition and Subtraction
 
 ## Core Idea
-Vector addition combines two vectors component-wise to produce a new vector; geometrically, this is the parallelogram rule. Subtraction is similarly component-wise and represents the reverse direction. These operations are closed in R^n and satisfy associativity and commutativity, forming the basis for vector space structure.
+Vectors are added and subtracted component-wise: (u₁ + v₁, u₂ + v₂, ..., uₙ + vₙ). Geometrically, addition follows the parallelogram rule; subtraction finds the vector between two points. These operations satisfy closure, associativity, and commutativity, forming the foundation of vector space structure.
+
+## How It's Best Learned
+Visualize in R^2 using arrows. Add vectors tip-to-tail or using the parallelogram method. Verify algebraically with components. Then practice with higher dimensions using notation only.
+
+## Common Misconceptions
+- Thinking vector addition is like adding magnitudes; magnitudes don't add linearly.
+- Incorrectly applying operations component-by-component when vectors have different dimensions.

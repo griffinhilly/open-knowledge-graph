@@ -1,6 +1,6 @@
 ---
 id: row-echelon-form
-title: Row Echelon Form (REF)
+title: Row Echelon Form and Back Substitution
 domain: mathematics
 course: linear-algebra
 prerequisites:
@@ -8,16 +8,15 @@ prerequisites:
   type: hard
 builds-toward:
 - reduced-row-echelon-form
-- rank-and-nullity-theorem
 tags:
-- row-echelon-form
-- ref
-- matrix-form
+- systems
+- row echelon form
+- matrices
 stage: formal-systems
 status: draft
 ---
 
-# Row Echelon Form (REF)
+# Row Echelon Form and Back Substitution
 
 ## Core Idea
-Row echelon form is a matrix structure where all nonzero rows are above zero rows, and the leading entry (pivot) in each nonzero row is to the right of the pivot above it. REF is obtained by Gaussian elimination and reveals the rank of a matrix and the solution structure of Ax = b.
+A matrix is in row echelon form if non-zero rows appear before zero rows and each non-zero row has a leading (pivot) entry to the right of the pivot above. REF allows back-substitution to find solutions. Pivot columns identify basic variables; non-pivot columns identify free variables.

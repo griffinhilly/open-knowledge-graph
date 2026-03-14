@@ -1,25 +1,23 @@
 ---
 id: matrix-inverses
-title: Matrix Inverses
+title: Invertible Matrices and Matrix Inverses
 domain: mathematics
 course: linear-algebra
 prerequisites:
 - id: matrix-multiplication
   type: hard
-- id: determinants-2x2-3x3
-  type: hard
 builds-toward:
-- linear-transformations
-- matrix-representation-linear-transformations
+- systems-of-linear-equations
+- rank-nullity-theorem
 tags:
-- matrix-inverse
+- matrices
+- inverses
 - invertibility
-- nonsingular
 stage: formal-systems
 status: draft
 ---
 
-# Matrix Inverses
+# Invertible Matrices and Matrix Inverses
 
 ## Core Idea
-An n × n matrix A is invertible if there exists A⁻¹ such that AA⁻¹ = A⁻¹A = I. Invertibility is equivalent to det(A) ≠ 0, full rank, and having trivial null space. The inverse can be computed via the adjugate formula, Gauss–Jordan elimination, or LU decomposition.
+A square matrix A is invertible if there exists A^{-1} such that AA^{-1} = A^{-1}A = I. A matrix is invertible if and only if it has full rank and non-zero determinant. Invertibility is equivalent to being non-singular and having linearly independent rows and columns.

@@ -4,16 +4,16 @@ title: Matrix Transpose
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: matrix-multiplication
+- id: matrices-definition
   type: hard
 builds-toward:
-- determinants-2x2-3x3
 - matrix-inverses
-- orthogonal-projections
+- determinant-properties
+- eigenvalues-eigenvectors
 tags:
+- matrices
 - transpose
-- matrix-operations
-- symmetry
+- symmetric
 stage: formal-systems
 status: draft
 ---
@@ -21,7 +21,4 @@ status: draft
 # Matrix Transpose
 
 ## Core Idea
-The transpose of an m × n matrix A, denoted Aᵀ, is the n × m matrix obtained by interchanging rows and columns. Key properties: (Aᵀ)ᵀ = A, (AB)ᵀ = BᵀAᵀ, and (A + B)ᵀ = Aᵀ + Bᵀ. Symmetric matrices satisfy A = Aᵀ and appear frequently in applications.
-
-## How It's Best Learned
-Compute transposes of small matrices and verify properties with 2×3 and 3×2 examples. Then explore symmetric matrices and their special role in diagonalization.
+The transpose of A, denoted A^T, swaps rows and columns: (A^T)_ij = a_ji. Properties: (A^T)^T = A, (AB)^T = B^T A^T, (A + B)^T = A^T + B^T. A symmetric matrix satisfies A = A^T. The transpose is essential for defining adjoints and studying eigenvalues.

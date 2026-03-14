@@ -1,25 +1,25 @@
 ---
 id: linear-independence
-title: Linear Independence
+title: Linear Independence and Linear Dependence
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: vector-spaces
+- id: vector-spaces-definition
   type: hard
-- id: scalar-multiplication-vectors
+- id: scalar-multiplication
   type: hard
 builds-toward:
-- basis-and-dimension
-- rank-and-nullity-theorem
+- basis-definition
+- span-spanning-set
 tags:
-- linear-independence
+- linear independence
 - dependence
-- unique-representation
+- vectors
 stage: formal-systems
 status: draft
 ---
 
-# Linear Independence
+# Linear Independence and Linear Dependence
 
 ## Core Idea
-Vectors v₁, ..., vₖ are linearly independent if the only solution to c₁v₁ + ... + cₖvₖ = 0 is c₁ = ... = cₖ = 0. Independence means no vector is a linear combination of others. A set is linearly dependent if at least one vector is in the span of the others.
+Vectors v₁, ..., vₖ are linearly independent if c₁v₁ + ... + cₖvₖ = 0 implies all c_i = 0. They are linearly dependent if a non-trivial combination equals zero. Independence means no vector is a combination of others. For matrices: columns are independent iff rank equals the number of columns.
