@@ -1,30 +1,26 @@
 ---
 id: chromatic-polynomial
-title: The Chromatic Polynomial
+title: Chromatic Polynomials and Deletion-Contraction
 domain: mathematics
 course: graph-theory-and-combinatorics
 prerequisites:
-- id: chromatic-number-bounds
+- id: graph-coloring
   type: hard
-builds-toward:
-- edge-coloring-vizings-theorem
-- list-coloring
 tags:
-- chromatic-polynomial
-- deletion-contraction
-- counting
+- graph-theory
+- coloring
+- polynomials
 stage: abstract-reasoning
 status: draft
 ---
 
-# The Chromatic Polynomial
+# Chromatic Polynomials and Deletion-Contraction
 
 ## Core Idea
-The chromatic polynomial P(G, k) counts proper k-colorings of G. It satisfies the deletion-contraction recurrence: P(G, k) = P(G−e, k) − P(G/e, k). The chromatic number χ(G) is the smallest k where P(G, k) > 0.
+The chromatic polynomial P(G, k) counts the number of proper k-colorings of a graph G. It satisfies the deletion-contraction recurrence P(G, k) = P(G-e, k) - P(G/e, k), which recursively reduces to base cases. Chromatic polynomials encode structural information and can be analyzed algebraically to determine graph properties.
 
 ## How It's Best Learned
-Compute chromatic polynomials for small graphs using deletion-contraction. Verify the formula P(K_n, k) = k(k−1)^(n−1) and use it to predict coloring counts.
+Compute chromatic polynomials for small graphs (paths, cycles, stars) by hand using deletion-contraction, verifying by direct enumeration.
 
 ## Common Misconceptions
-- Confusing the chromatic polynomial (counts colorings) with the chromatic number (the minimum colors needed).
-- Thinking the polynomial has a nice closed form for all graphs (only special families do).
+The chromatic polynomial is NOT the same as the number of proper colorings for a fixed G; rather, it's a polynomial in k that gives the count for any number of colors k.

@@ -1,23 +1,19 @@
 ---
 id: exponential-generating-functions
-title: Exponential Generating Functions
+title: Exponential Generating Functions and Labeled Structures
 domain: mathematics
 course: graph-theory-and-combinatorics
 prerequisites:
 - id: generating-functions-advanced
-  type: hard
-builds-toward:
-- catalan-numbers
-- stirling-numbers
+  type: soft
 tags:
-- exponential-generating-functions
-- egf
-- labeled-structures
+- combinatorics
+- generating-functions
 stage: abstract-reasoning
 status: draft
 ---
 
-# Exponential Generating Functions
+# Exponential Generating Functions and Labeled Structures
 
 ## Core Idea
-Exponential generating functions (EGFs) count labeled combinatorial structures (permutations, labeled trees). The EGF F(x) = Σ(a_n x^n / n!) encodes the sequence {a_n}. Multiplication of EGFs corresponds to labeled structure composition, making them essential for counting problems on labeled sets.
+Exponential generating functions (EGFs) are F(x) = Σ(aₙ/n!)x^n and encode labeled structures (permutations, labeled graphs). Multiplying EGFs corresponds to merging labeled structures, making them ideal for labeled enumeration. The symbolic method with EGFs elegantly counts labeled graphs, trees, and other structures via transfer between combinatorics and analysis.

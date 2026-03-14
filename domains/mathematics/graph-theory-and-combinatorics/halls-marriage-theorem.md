@@ -4,15 +4,14 @@ title: Hall's Marriage Theorem
 domain: mathematics
 course: graph-theory-and-combinatorics
 prerequisites:
-- id: matchings-bipartite-graphs
+- id: bipartite-matching
   type: hard
 builds-toward:
-- konig-theorem
-- network-flows-max-flow-min-cut
+- konigs-theorem
 tags:
-- halls-theorem
-- matching-conditions
-- combinatorial-optimization
+- graph-theory
+- matching
+- bipartite
 stage: abstract-reasoning
 status: draft
 ---
@@ -20,12 +19,10 @@ status: draft
 # Hall's Marriage Theorem
 
 ## Core Idea
-Hall's Marriage Theorem states that a bipartite graph has a matching saturating the left part if and only if every subset S of left vertices has at least |S| neighbors. This elegant criterion connects the existence of a perfect matching to a simple neighborhood condition.
+Hall's Marriage Theorem characterizes when a perfect matching exists in a bipartite graph: a perfect matching from set A to set B exists if and only if for every subset S of A, |N(S)| ≥ |S| (neighborhood has at least as many vertices). This elegant criterion translates matching existence into a set-theoretic condition.
 
 ## How It's Best Learned
-Test the theorem on explicit bipartite graphs by checking the neighborhood condition for all subsets. Identify which subset violates the condition when a perfect matching fails to exist.
+Prove the forward direction (perfect matching ⟹ Hall's condition) directly, then apply Hall's condition to concrete examples like assigning students to dorm rooms.
 
 ## Common Misconceptions
-- Thinking the condition is sufficient for matchings that match all vertices (it only guarantees left saturation).
-- Overlooking that the condition must hold for every subset, not just a few examples.
-- Confusing Hall's theorem with König's theorem or thinking they answer the same question.
+The condition must hold for ALL subsets S, not just single vertices or pairs. Checking only single vertices is insufficient.

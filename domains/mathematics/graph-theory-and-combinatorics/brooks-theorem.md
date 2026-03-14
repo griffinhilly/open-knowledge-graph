@@ -7,9 +7,8 @@ prerequisites:
 - id: chromatic-number-bounds
   type: hard
 tags:
-- brooks-theorem
-- chromatic-number
-- tight-bounds
+- graph-theory
+- coloring
 stage: abstract-reasoning
 status: draft
 ---
@@ -17,11 +16,10 @@ status: draft
 # Brooks' Theorem
 
 ## Core Idea
-Brooks' theorem refines the degree bound: for connected graphs that are neither complete nor odd cycles, χ(G) ≤ Δ(G). This is tight for many graph families and shows that the crude bound χ(G) ≤ Δ(G) + 1 can often be improved.
+Brooks' Theorem states that any connected graph with maximum degree Δ has chromatic number at most Δ, except for complete graphs and odd cycles (which need Δ+1). This result elegantly shows that maximum degree is nearly always sufficient for coloring, vastly improving the trivial Δ+1 bound.
 
 ## How It's Best Learned
-Find graphs where χ(G) = Δ(G) and others where χ(G) < Δ(G). Verify that complete graphs and odd cycles are the only exceptions.
+First examine the exceptions (Kₙ and odd cycles) to understand why they require Δ+1 colors. Then trace through greedy colorings on larger graphs to see how the proof's degree arguments work.
 
 ## Common Misconceptions
-- Forgetting the exceptions (complete graphs and odd cycles) when applying Brooks' theorem.
-- Thinking the bound is always tight for every graph class.
+Brooks' theorem says AT MOST Δ colors suffice (not exactly Δ), and the exceptions are specific. Cliques Kₙ need n colors (which equals degree n-1 plus one).

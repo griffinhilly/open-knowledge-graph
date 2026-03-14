@@ -1,22 +1,19 @@
 ---
 id: extremal-graph-theory
-title: Extremal Graph Theory
+title: Extremal Graph Theory and Forbidden Subgraphs
 domain: mathematics
 course: graph-theory-and-combinatorics
 prerequisites:
-- id: turan-theorem
-  type: hard
-builds-toward:
-- probabilistic-method-graphs
+- id: turans-theorem
+  type: soft
 tags:
-- extremal-graphs
-- forbidden-subgraphs
-- edge-density
+- graph-theory
+- extremal
 stage: abstract-reasoning
 status: draft
 ---
 
-# Extremal Graph Theory
+# Extremal Graph Theory and Forbidden Subgraphs
 
 ## Core Idea
-Extremal graph theory studies how dense a graph can be while avoiding a forbidden subgraph H. The extremal number ex(n, H) is the maximum edges in an n-vertex H-free graph. Beyond Turán's clique result, extremal problems form a rich field with connections to algebra and probability.
+Extremal graph theory studies the maximum number of edges in graphs avoiding certain subgraphs. Given forbidden graphs H, ex(n, H) is the maximum edges in n-vertex graphs with no copy of H. Classical results include Turán (forbidding cliques), Kővári-Sós-Turán (forbidding complete bipartite graphs), and connections to combinatorial designs and incidence geometry.

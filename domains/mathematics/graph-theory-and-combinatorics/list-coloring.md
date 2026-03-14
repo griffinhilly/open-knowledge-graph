@@ -1,23 +1,25 @@
 ---
 id: list-coloring
-title: List Coloring and the List Chromatic Number
+title: List Coloring and Choosability
 domain: mathematics
 course: graph-theory-and-combinatorics
 prerequisites:
-- id: edge-coloring-vizings-theorem
-  type: soft
+- id: graph-coloring
+  type: hard
 tags:
-- list-coloring
-- choosability
-- advanced-coloring
+- graph-theory
+- coloring
 stage: abstract-reasoning
 status: draft
 ---
 
-# List Coloring and the List Chromatic Number
+# List Coloring and Choosability
 
 ## Core Idea
-In list coloring, each vertex has a list of allowed colors, and a coloring must assign each vertex a color from its list. The list chromatic number (or choosability) ch(G) is the minimum list size guaranteeing a coloring exists for any assignment of lists. For many graphs, ch(G) > χ(G), surprising at first.
+List coloring (choosability) is a generalization where each vertex has a list of available colors, and the goal is to color vertices from their lists with no adjacent vertices sharing a color. The list chromatic number is always at least chromatic number and often larger, revealing finer structural properties.
 
 ## How It's Best Learned
-Construct adversarial list assignments showing when a small list size fails, demonstrating that ch(G) > χ(G) is possible. Verify the list chromatic number for small graphs.
+Construct list-assignments and try to find valid colorings; observe how the structure of lists and graph connectivity interact.
+
+## Common Misconceptions
+List chromatic number can be much larger than standard chromatic number; having more total colors available doesn't guarantee good list colorability.

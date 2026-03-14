@@ -6,13 +6,9 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: group-actions
   type: hard
-- id: generating-functions-advanced
-  type: soft
 tags:
-- polya-enumeration
-- burnside-lemma
-- group-actions
-- symmetry
+- combinatorics
+- enumeration
 stage: abstract-reasoning
 status: draft
 ---
@@ -20,4 +16,10 @@ status: draft
 # Pólya Enumeration Theorem
 
 ## Core Idea
-Pólya's enumeration theorem counts labeled and unlabeled combinatorial objects up to symmetry. By combining Burnside's lemma with generating functions, it elegantly counts necklaces, bracelets, and other symmetric structures. The cycle index polynomial encodes the group action.
+Pólya's Enumeration Theorem counts equivalence classes of structures under group actions via the cycle index polynomial of the group. If G acts on positions and we color with c colors, the number of distinct colorings is (1/|G|) Σ c^(cyc(g)) over g in G, where cyc(g) is the number of cycles. This solves counting problems involving symmetries.
+
+## How It's Best Learned
+Apply the theorem to necklaces and bracelets using the cyclic group, verifying results by hand enumeration for small cases.
+
+## Common Misconceptions
+The formula counts distinct colorings under the group action, not all colorings; it 'quotients out' the symmetry.
