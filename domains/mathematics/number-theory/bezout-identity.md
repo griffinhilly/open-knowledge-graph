@@ -4,14 +4,17 @@ title: Bézout's Identity
 domain: mathematics
 course: number-theory
 prerequisites:
+- id: divisibility-theory-formal
+  type: hard
 - id: euclidean-algorithm
   type: hard
 builds-toward:
 - linear-diophantine-equations
+- chinese-remainder-theorem
 tags:
+- bezout
 - gcd
 - linear-combinations
-- bézout
 stage: advanced
 status: draft
 ---
@@ -19,10 +22,10 @@ status: draft
 # Bézout's Identity
 
 ## Core Idea
-Bézout's identity states that for any integers a and b with gcd(a,b) = d, there exist integers x and y such that ax + by = d. This fundamental result connects the greatest common divisor to linear combinations and enables solving linear Diophantine equations. The extended Euclidean algorithm provides a constructive proof.
+Bézout's identity states that for any integers a and b, there exist integers x and y such that ax + by = gcd(a,b). This fundamental result expresses the gcd as a linear combination of a and b, directly connecting divisibility to linear Diophantine equations.
 
 ## How It's Best Learned
-First apply the Euclidean algorithm to find gcd(a,b), then work backward to express the gcd as a linear combination. Practice with several examples where the linear combination is non-obvious.
+Use the extended Euclidean algorithm to compute gcd(a,b) and simultaneously find the Bézout coefficients x and y. Verify with examples like gcd(35,15) step-by-step.
 
 ## Common Misconceptions
-The coefficients x and y are not unique; any solution plus a multiple of (b/d, −a/d) gives another solution. Not all linear combinations of a and b equal the gcd—only the minimum positive linear combination does.
+Thinking the coefficients x and y are unique (infinitely many solutions exist). Assuming x and y must be positive.

@@ -4,14 +4,15 @@ title: Algebraic Integers
 domain: mathematics
 course: number-theory
 prerequisites:
+- id: field-extensions
+  type: hard
 - id: ring-definition-and-examples
   type: hard
 builds-toward:
 - gaussian-integers
-- norm-in-algebraic-number-fields
+- norm-algebraic-number-fields
 tags:
 - algebraic-integers
-- number-fields
 - algebraic-number-theory
 stage: advanced
 status: draft
@@ -20,4 +21,4 @@ status: draft
 # Algebraic Integers
 
 ## Core Idea
-An algebraic integer is a root of a monic polynomial with integer coefficients. The set of algebraic integers forms a ring, generalizing ordinary integers ℤ. Understanding algebraic integers is essential for studying unique factorization in number fields and solving Diophantine equations in extensions.
+An algebraic integer is a complex root of a monic integer polynomial. Algebraic integers in a number field K form a ring, generalizing ℤ. Gaussian integers ℤ[i] and Eisenstein integers ℤ[ω] exemplify this structure.

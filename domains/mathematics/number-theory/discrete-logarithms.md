@@ -4,12 +4,14 @@ title: Discrete Logarithms
 domain: mathematics
 course: number-theory
 prerequisites:
-- id: primitive-roots-and-cyclic-groups-mod-p
+- id: primitive-roots-cyclic-groups-mod-p
+  type: hard
+- id: order-element-modulo-n
   type: hard
 tags:
-- discrete-logarithm
-- cyclic-groups
+- discrete-log
 - cryptography
+- cyclic-groups
 stage: advanced
 status: draft
 ---
@@ -17,4 +19,4 @@ status: draft
 # Discrete Logarithms
 
 ## Core Idea
-The discrete logarithm problem is: given g, h in a cyclic group, find x such that g^x = h. This problem is believed to be hard for large finite fields and underpins the security of Diffie-Hellman key exchange, ElGamal encryption, and elliptic-curve cryptography.
+Given a primitive root g mod p and nonzero residue a, the discrete logarithm is the unique k (mod p-1) such that g^k ≡ a (mod p). Computing discrete logs is believed hard; this one-way function underpins Diffie-Hellman and elliptic-curve cryptography.

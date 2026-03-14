@@ -8,11 +8,11 @@ prerequisites:
   type: hard
 builds-toward:
 - best-rational-approximations
-- pell-equation
+- pells-equation
 tags:
 - continued-fractions
-- approximations
-- diophantine
+- approximation
+- irrationals
 stage: advanced
 status: draft
 ---
@@ -20,4 +20,4 @@ status: draft
 # Continued Fractions
 
 ## Core Idea
-Every real number has a unique continued fraction expansion [a_0; a_1, a_2, ...]. For rationals, the expansion terminates in O(log n) steps (connected to the Euclidean algorithm); for irrationals like √D, periodic patterns encode Diophantine information crucial for solving Pell equations and approximation problems.
+Every real number has a unique continued fraction expansion [a_0; a_1, a_2, ...]. Rational expansions terminate; quadratic irrationals become periodic. The convergents give best rational approximations in a precise sense.
