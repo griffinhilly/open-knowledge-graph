@@ -760,6 +760,10 @@ canvas.addEventListener("mousemove", (e) => {{
   }} else {{
     if (hoveredNode) {{ hoveredNode = null; draw(); }}
     tooltip.style.display = "none";
+    // Show pointer cursor when hovering outer ring (domain labels)
+    const wp = screenToWorld(e.clientX, e.clientY);
+    const hoverR = Math.hypot(wp.x, wp.y);
+    canvas.style.cursor = hoverR > {STAGE_BANDS['advanced'][1] * 500 - 30} ? "pointer" : "grab";
   }}
 }});
 
@@ -773,9 +777,28 @@ canvas.addEventListener("mousedown", (e) => {{
 canvas.addEventListener("mouseup", (e) => {{
   isDragging = false;
   canvas.style.cursor = "grab";
-  // Click (not drag) on a node → open detail page
-  if (!dragMoved && hoveredNode) {{
-    window.open("topics/" + hoveredNode.id + ".html", "_blank");
+  // Click (not drag) → open detail page or domain hierarchy
+  if (!dragMoved) {{
+    if (hoveredNode) {{
+      window.open("topics/" + hoveredNode.id + ".html", "_blank");
+    }} else {{
+      // Check if click is in the outer ring (domain label area)
+      const wp = screenToWorld(e.clientX, e.clientY);
+      const clickR = Math.hypot(wp.x, wp.y);
+      if (clickR > {STAGE_BANDS['advanced'][1] * 500 - 30}) {{
+        let clickAngle = Math.atan2(wp.y, wp.x);
+        if (clickAngle < 0) clickAngle += Math.PI * 2;
+        for (const s of data.sectors) {{
+          let start = s.start, end = s.end;
+          if (start < 0) start += Math.PI * 2;
+          if (end < 0) end += Math.PI * 2;
+          if (clickAngle >= start && clickAngle <= end) {{
+            window.location.href = s.domain + "-hierarchy.html";
+            break;
+          }}
+        }}
+      }}
+    }}
   }}
 }});
 canvas.addEventListener("mousemove", (e) => {{

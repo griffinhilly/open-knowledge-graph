@@ -545,7 +545,9 @@ canvas.addEventListener("mousemove", (e) => {{
           ctx.beginPath();
           ctx.moveTo(ed.s.x, ed.s.y);
           ctx.lineTo(ed.t.x, ed.t.y);
-          ctx.strokeStyle = "rgba(255,255,255,0.5)";
+          ctx.strokeStyle = ed.t === closest
+            ? "rgba(80,180,255,0.6)"
+            : "rgba(255,160,80,0.6)";
           ctx.lineWidth = 1.5;
           ctx.stroke();
         }}
