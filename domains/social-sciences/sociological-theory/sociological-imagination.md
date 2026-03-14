@@ -7,25 +7,23 @@ prerequisites:
 - id: intro-to-sociology
   type: hard
 builds-toward:
-- symbolic-interactionism-foundations
-- structural-functionalism
-- conflict-theory-sociology
-- pierre-bourdieu-habitus-field
+- theory-paradigm-sociology
+- social-structure-and-agency
 tags:
-- foundational
-- theory
 - mills
-stage: abstract-reasoning
+- sociological-perspective
+- individual-society
+stage: advanced
 status: draft
 ---
 
 # The Sociological Imagination
 
 ## Core Idea
-C. Wright Mills' sociological imagination is the ability to connect personal troubles to public issues, understanding how individual experiences are shaped by broader historical and social structures. It enables sociologists to see the relationship between biography and history, between the personal and the social.
+C. Wright Mills's concept of the sociological imagination is the ability to connect personal troubles to public issues and to see how biography and history intersect within society. It requires viewing individual experiences not as purely personal but as shaped by historical forces and social institutions. This perspective enables us to understand how private problems are often structural or institutional in nature, not merely individual failings.
 
 ## How It's Best Learned
-Read Mills directly (The Sociological Imagination); practice identifying how personal experiences (unemployment, relationship breakup, health issues) reflect larger social patterns and historical forces.
+Practice translating personal experiences into sociological questions. For instance, examine unemployment not as individual failure but as a product of economic systems, historical cycles, and structural change.
 
 ## Common Misconceptions
-Confusing sociology with psychology by focusing only on individual traits rather than structural forces. Assuming sociology is just 'common sense' about people.
+- The sociological imagination means everything is determined by society and individuals have no responsibility. - It is the same as sympathy or empathy for others' problems. - It suggests all personal troubles are actually political issues.
