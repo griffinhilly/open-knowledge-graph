@@ -4,35 +4,24 @@ title: Two-Digit by One-Digit Multiplication
 domain: mathematics
 course: 3rd-grade
 prerequisites:
-- id: multiplication-facts-within-100
+- id: multiplication-facts-threes-through-nines
   type: hard
-- id: place-value-hundreds
+- id: distributive-property-3rd
   type: hard
-- id: associative-property-multiplication
-  type: soft
-- id: distributive-property-intro
-  type: soft
-- id: estimation-in-multiplication
+- id: place-value-tens-and-ones
   type: soft
 builds-toward:
 - multi-digit-multiplication
-- estimation-in-multiplication
 tags:
 - multiplication
-- two-digit
+- algorithms
 - place-value
-- strategies
+- two-digit
 stage: concrete-operations
-status: validated
+status: draft
 ---
+
 # Two-Digit by One-Digit Multiplication
 
 ## Core Idea
-Multiplying a two-digit number by a one-digit number extends students' fact knowledge using place value. For example, 4×23 = 4×20 + 4×3 = 80 + 12 = 92. Students use area models, partial products, and the standard algorithm to organize this thinking. This is a critical bridge toward multi-digit multiplication.
-
-## How It's Best Learned
-Area models make the decomposition visual: draw a rectangle with width 4 and length split into 20 and 3. Label each part. Partial products notation makes the thinking transparent before introducing the compact standard algorithm.
-
-## Common Misconceptions
-- Students who rush to the algorithm forget to multiply by the tens digit, only multiplying by the ones.
-- Place value errors: 4×20 is 80, not 8.
+To multiply 24 × 3, use the distributive property: break 24 into 20 + 4, then (20 × 3) + (4 × 3) = 60 + 12 = 72. Area models (rectangles divided into tens and ones) support this strategy before introducing the standard vertical algorithm.
