@@ -114,3 +114,7 @@ The `tools/validate.py` script enforces:
 6. `course` matches an existing subdirectory in the domain
 7. `builds-toward` entries are consistent with other topics' prerequisites (warning, not error)
 8. No duplicate IDs across the entire graph
+
+## DAG as Pedagogical Simplification
+
+The prerequisite graph is a directed acyclic graph (DAG). Real knowledge contains circular interdependencies (e.g., plate tectonics informs the rock cycle and vice versa); the DAG represents a pedagogically useful linearization, not a claim that knowledge is acyclic. Where topics mutually inform each other, the prerequisite direction reflects the most common introductory teaching sequence.
