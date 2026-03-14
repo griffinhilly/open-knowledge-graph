@@ -1,34 +1,30 @@
 ---
 id: last-glacial-maximum
-title: The Last Glacial Maximum and Climate State
+title: 'The Last Glacial Maximum: Earth''s Recent Coldest Period'
 domain: earth-and-space-sciences
 course: climate-science
 prerequisites:
-- id: glacial-interglacial-cycles
-  type: hard
 - id: paleoclimatology
   type: hard
 - id: milankovitch-orbital-cycles
   type: soft
 builds-toward:
-- paleoclimate-proxy-interpretation
-- climate-sensitivity-radiative-feedbacks
+- glacial-interglacial-cycles
+- paleoclimate-data-model-comparison
 tags:
-- glacial-climate
-- paleoclimate-event
+- last-glacial-maximum
+- lgm
 - ice-sheets
-- tropical-climate
+- sea-level
+- paleoclimate-constraints
 stage: advanced
 status: draft
 ---
 
-# The Last Glacial Maximum and Climate State
+# The Last Glacial Maximum: Earth's Recent Coldest Period
 
 ## Core Idea
-The Last Glacial Maximum (~20,000 years ago) was the coldest point in the recent ice age, with vast ice sheets over North America and Eurasia and atmospheric CO₂ at 180 ppm. Proxy evidence indicates global temperature was 4–7°C colder than preindustrial, with enhanced cooling at high latitudes and smaller changes in the tropics. The LGM state, constrained by multiple proxies and simulated by climate models, provides a test case for understanding climate sensitivity and forcing-feedback interactions.
+The Last Glacial Maximum (LGM; ~23-19 ka) represents Earth's coldest recent period with maximum ice-sheet extent and lowest sea level (~120 m below present). Global temperatures were 4-7°C cooler than pre-industrial; CO2 was ~190 ppm, CH4 was ~380 ppb. LGM boundary conditions (ice-sheet topography, atmospheric composition) are critical constraints for paleoclimate modeling and understanding climate sensitivity.
 
 ## How It's Best Learned
-Map the ice-sheet extent and compute the albedo increase. Compare modern versus LGM climate maps and note regional anomalies. Run ensemble climate model simulations forced by LGM boundary conditions and compare to proxy-inferred patterns.
-
-## Common Misconceptions
-- Assuming the LGM was uniformly colder globally; tropical cooling was small (1–3°C) while polar regions cooled by 10°C or more. - Overlooking the role of CO₂; the LGM was colder partly due to low CO₂, but also ice-albedo feedback, different ocean circulation, and dust.
+Compile LGM ice-sheet reconstructions from dating glacial deposits and using sea-level and isostatic data. Compare paleoclimate model simulations at LGM conditions to observed ice-sheet extent, δ18O in ice cores and sediments, and sea-level data. Evaluate how well models capture the cold LGM climate.

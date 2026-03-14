@@ -1,35 +1,26 @@
 ---
 id: glacial-interglacial-cycles
-title: 'Glacial-Interglacial Cycles: Mechanisms and Feedbacks'
+title: Glacial-Interglacial Cycles and Orbital Forcing
 domain: earth-and-space-sciences
 course: climate-science
 prerequisites:
 - id: milankovitch-orbital-cycles
   type: hard
-- id: paleoclimate-proxies
-  type: soft
-- id: ice-core-paleoclimate-analysis
+- id: ice-sheet-climate-coupling
   type: soft
 builds-toward:
-- last-glacial-maximum
-- younger-dryas-event
+- paleoclimate-data-model-comparison
 tags:
-- glacial
-- cycles
-- ice-sheets
-- co2
-- feedbacks
+- glacial-cycles
+- eccentricity
+- obliquity
+- precession
+- feedback-amplification
 stage: advanced
 status: draft
 ---
 
-# Glacial-Interglacial Cycles: Mechanisms and Feedbacks
+# Glacial-Interglacial Cycles and Orbital Forcing
 
 ## Core Idea
-Glacial-interglacial cycles (100 ka period, Pleistocene) are driven by Milankovitch forcing but amplified by climate feedbacks: CO₂ rise/fall during deglaciation/glaciation (via ocean biology and thermohaline circulation), ice-albedo feedback (more ice → more reflection → cooling), and dust-climate feedbacks. Ice sheets grow during insolation minima at high northern latitudes and collapse during maxima. The mechanism linking orbital forcing, atmospheric CO₂, and ice-sheet growth involves ocean-atmosphere-cryosphere interactions operating over millennia.
-
-## How It's Best Learned
-Examine stacked paleoclimate records (δ¹⁸O as ice volume proxy, CO₂, CH₄, dust) and identify phase relationships. Use climate models to test which feedbacks are essential for the observed amplitude.
-
-## Common Misconceptions
-Glaciations are not caused solely by Milankovitch forcing; internal feedbacks (CO₂, ice-albedo, dust) are essential for large-amplitude cycles. Also, ice sheets do not respond instantaneously to orbital changes; significant lag, hysteresis, and internal variability occur.
+Glacial-interglacial cycles (~100 kyr for the past 900 kyr) are driven by orbital eccentricity modulating precession and obliquity effects on insolation. Orbital forcing alone is weak (~0.1°C); ice-albedo, CO2, and ocean circulation feedbacks amplify orbital changes into ~10°C global temperature variations and ice-sheet extent oscillations.
