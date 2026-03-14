@@ -6,17 +6,17 @@ course: numerical-analysis
 prerequisites:
 - id: richardson-extrapolation
   type: hard
-- id: composite-quadrature-rules
+- id: composite-quadrature
   type: hard
 tags:
 - romberg
+- integration
 - extrapolation
-- acceleration
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
 # Romberg Integration
 
 ## Core Idea
-Romberg integration combines composite trapezoidal rules at progressively finer step sizes using Richardson extrapolation, achieving rapid convergence. A table is built where each row represents finer meshes, and extrapolation eliminates error terms successively, increasing convergence order at each step. The method is adaptive and practical for smooth integrands.
+Romberg integration systematically applies composite trapezoidal rules with successive halvings of step size, then uses Richardson extrapolation to accelerate convergence. The method builds a triangular array where each new entry combines results from halved step size with previous entries to cancel error terms. Romberg achieves high accuracy efficiently and provides adaptive error estimation.

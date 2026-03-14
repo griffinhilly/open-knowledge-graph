@@ -6,17 +6,19 @@ course: numerical-analysis
 prerequisites:
 - id: taylor-series
   type: hard
+- id: rounding-errors
+  type: hard
 builds-toward:
-- richardsons-extrapolation
+- richardson-extrapolation
 tags:
-- numerical-derivatives
-- finite-differences
-- error-analysis
-stage: advanced
+- differentiation
+- finite-difference
+- numerical
+stage: abstract-reasoning
 status: draft
 ---
 
 # Numerical Differentiation
 
 ## Core Idea
-Numerical differentiation approximates derivatives using finite difference formulas like forward (f(x+h)-f(x))/h or central (f(x+h)-f(x-h))/(2h). There is a fundamental trade-off: smaller h reduces truncation error from Taylor approximation but increases rounding error from floating-point arithmetic. Optimal h balances these competing errors.
+Numerical differentiation approximates f'(x) using finite differences: forward (f(x+h)-f(x))/h, backward (f(x)-f(x-h))/h, or centered (f(x+h)-f(x-h))/(2h). Taylor analysis shows centered differences have O(h²) truncation error but are sensitive to rounding errors for very small h. Choosing h requires balancing truncation and rounding error—typically h ≈ √(machine epsilon).

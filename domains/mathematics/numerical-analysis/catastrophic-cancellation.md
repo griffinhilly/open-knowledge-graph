@@ -4,22 +4,26 @@ title: Catastrophic Cancellation
 domain: mathematics
 course: numerical-analysis
 prerequisites:
-- id: floating-point-representation
-  type: hard
-- id: machine-epsilon-and-rounding-errors
+- id: rounding-errors
   type: hard
 builds-toward:
-- numerical-stability-and-conditioning
-- numerical-differentiation
+- numerical-stability
 tags:
 - cancellation
-- loss-of-precision
 - subtraction
-stage: advanced
+- error-amplification
+stage: abstract-reasoning
 status: draft
 ---
 
 # Catastrophic Cancellation
 
 ## Core Idea
-Catastrophic cancellation occurs when subtracting two nearly equal numbers, resulting in severe loss of significant digits despite each number being accurately represented. Although each operand may be accurate to machine precision, their difference can have very few correct digits when leading significant figures cancel. This is a major source of error in many numerical algorithms and motivates careful problem reformulation.
+Catastrophic cancellation occurs when subtracting two nearly equal floating point numbers, losing most significant digits in the result. A relative error of 10⁻¹⁶ in the inputs can become an error of magnitude 1 in the output. Recognizing and avoiding this phenomenon through algebraic reformulation is critical for stable algorithms.
+
+## How It's Best Learned
+Compute examples like √(x²+1) - √(x²) for large x using direct and rationalized forms to see the difference in accuracy.
+
+## Common Misconceptions
+- Thinking all subtraction loses precision equally; only nearly-equal magnitudes cause catastrophic cancellation.
+- Assuming higher precision (using doubles instead of floats) solves all cancellation problems; reformulation is often necessary.

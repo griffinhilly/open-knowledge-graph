@@ -5,18 +5,17 @@ domain: mathematics
 course: numerical-analysis
 prerequisites: []
 builds-toward:
-- machine-epsilon-and-rounding-errors
-- catastrophic-cancellation
-- numerical-stability-and-conditioning
+- machine-epsilon
+- rounding-errors
 tags:
 - floating-point
+- representation
 - computer-arithmetic
-- precision
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
 # Floating Point Representation
 
 ## Core Idea
-Floating point numbers are stored in computers using a fixed number of bits, typically in binary scientific notation with a sign, mantissa, and exponent. This representation allows computers to handle very large and very small numbers but introduces inherent limitations on precision. Understanding floating point representation is essential for recognizing when and why numerical errors arise.
+Floating point numbers are represented in computers using a fixed number of bits: a sign bit, an exponent, and a mantissa (fractional part). The IEEE 754 standard defines how these are encoded and how arithmetic operations are performed. This limited precision representation allows computers to store a wide range of values but introduces systematic errors in computation.

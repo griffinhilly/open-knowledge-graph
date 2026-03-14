@@ -4,17 +4,19 @@ title: Cubic Spline Interpolation
 domain: mathematics
 course: numerical-analysis
 prerequisites:
-- id: lagrange-polynomial-interpolation
+- id: chebyshev-nodes
+  type: soft
+- id: interpolation-error-analysis
   type: hard
 tags:
-- spline
-- piecewise-polynomial
-- smoothness
-stage: advanced
+- splines
+- cubic
+- interpolation
+stage: abstract-reasoning
 status: draft
 ---
 
 # Cubic Spline Interpolation
 
 ## Core Idea
-Cubic spline interpolation fits smooth piecewise cubic polynomials through data points, ensuring continuity of position, first, and second derivatives at the knots. This approach avoids oscillations inherent in high-degree polynomial interpolation while maintaining sufficient smoothness. Splines are essential in computer graphics, CAD, and scientific computing.
+Cubic spline interpolation uses piecewise cubic polynomials with continuous first and second derivatives at the nodes. This approach avoids Runge's phenomenon and produces smooth, stable interpolants without oscillation. Cubic splines are widely used in computer graphics, CAD, and numerical analysis because they balance smoothness with computational efficiency.

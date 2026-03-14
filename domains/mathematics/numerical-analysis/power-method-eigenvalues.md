@@ -7,16 +7,16 @@ prerequisites:
 - id: eigenvalues-and-eigenvectors
   type: hard
 builds-toward:
-- qr-algorithm-eigenvalues
+- qr-algorithm
 tags:
 - power-method
-- eigenvalue-computation
-- dominant-eigenvalue
-stage: advanced
+- eigenvalues
+- iteration
+stage: abstract-reasoning
 status: draft
 ---
 
 # Power Method for Eigenvalues
 
 ## Core Idea
-The power method finds the dominant eigenvalue (largest in magnitude) and corresponding eigenvector by iterating x^{(k+1)} = Ax^{(k)} / ||Ax^{(k)}||. The method converges linearly with rate |λ₂/λ₁| when |λ₁| > |λ₂|. It is simple and efficient for sparse matrices but finds only the dominant eigenvalue.
+The power method finds the largest (in absolute value) eigenvalue and its eigenvector by repeatedly multiplying a random vector by the matrix: v^{(k+1)} = Av^{(k)} / ‖Av^{(k)}‖. Convergence is geometric with rate determined by the ratio of the two largest eigenvalues. Simple to implement, the power method is practical for large sparse matrices but slow when eigenvalues are close.

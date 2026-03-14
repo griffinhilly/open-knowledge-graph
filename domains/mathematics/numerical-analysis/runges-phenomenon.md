@@ -4,21 +4,20 @@ title: Runge's Phenomenon
 domain: mathematics
 course: numerical-analysis
 prerequisites:
-- id: lagrange-polynomial-interpolation
-  type: hard
 - id: interpolation-error-analysis
   type: hard
 builds-toward:
-- chebyshev-nodes-optimal-interpolation
+- chebyshev-nodes
+- cubic-spline-interpolation
 tags:
 - runges-phenomenon
 - oscillation
-- equally-spaced-nodes
-stage: advanced
+- interpolation
+stage: abstract-reasoning
 status: draft
 ---
 
 # Runge's Phenomenon
 
 ## Core Idea
-Runge's phenomenon demonstrates that increasing the degree of polynomial interpolation with equally-spaced nodes can increase rather than decrease error, particularly near the interval boundaries. The nodal polynomial oscillates wildly with large magnitude away from the central cluster of roots, amplifying even moderate derivatives. This fundamental limitation motivates the use of nonuniform node placement.
+For certain smooth functions like f(x) = 1/(1+x²), polynomial interpolation on equally-spaced nodes exhibits wild oscillations that grow unboundedly as the number of nodes increases. This Runge phenomenon demonstrates that increasing polynomial degree with equally-spaced nodes is not a reliable path to better approximation. The root cause is the large node product |∏(x - x_i)| near the interval endpoints.

@@ -3,20 +3,21 @@ id: lagrange-polynomial-interpolation
 title: Lagrange Polynomial Interpolation
 domain: mathematics
 course: numerical-analysis
-prerequisites: []
+prerequisites:
+- id: polynomial-rings
+  type: soft
 builds-toward:
-- newtons-divided-differences
+- newton-divided-differences
 - interpolation-error-analysis
-- newton-cotes-quadrature
 tags:
 - interpolation
-- polynomial
-- lagrange-basis
-stage: advanced
+- polynomials
+- lagrange
+stage: abstract-reasoning
 status: draft
 ---
 
 # Lagrange Polynomial Interpolation
 
 ## Core Idea
-Lagrange interpolation constructs the unique polynomial of degree n-1 passing through n points using a sum of basis polynomials, each of which equals 1 at one data point and 0 at all others. This representation is elegant for theoretical work and explicit formula derivation but can suffer numerical instability for many points due to large basis polynomial oscillations.
+Given n+1 distinct points (x_i, y_i), Lagrange interpolation constructs the unique polynomial of degree ≤n passing through all points using L_i(x) = ∏_{j≠i} (x - x_j)/(x_i - x_j). The Lagrange form P(x) = Σ y_i L_i(x) is elegant and explicit but becomes numerically unstable when adding new points since all basis functions must be recomputed.

@@ -4,22 +4,22 @@ title: Interpolation Error Analysis
 domain: mathematics
 course: numerical-analysis
 prerequisites:
-- id: lagrange-polynomial-interpolation
+- id: newton-divided-differences
   type: hard
 - id: taylor-series
   type: hard
 builds-toward:
 - runges-phenomenon
-- chebyshev-nodes-optimal-interpolation
+- chebyshev-nodes
 tags:
-- interpolation-error
-- error-bounds
-- remainder-term
-stage: advanced
+- error-analysis
+- interpolation
+- bounds
+stage: abstract-reasoning
 status: draft
 ---
 
 # Interpolation Error Analysis
 
 ## Core Idea
-The error in polynomial interpolation satisfies e(x) = (x-x_0)(x-x_1)...(x-x_n)f^{(n+1)}(ξ)/(n+1)! for some ξ in the data interval, showing error depends on both the nodal polynomial and the (n+1)th derivative. This formula explains where errors are large or small and motivates optimal choice of nodes to minimize the maximum nodal polynomial.
+If P(x) interpolates f at n+1 points, the error E(x) = f(x) - P(x) satisfies |E(x)| ≤ (max |f^{(n+1)}|)/(n+1)! |∏(x - x_i)|. This bound reveals that error depends on the (n+1)-th derivative of f and the magnitude of the node product. For smooth functions with well-chosen nodes, interpolation error can be very small; poor node placement causes large errors.

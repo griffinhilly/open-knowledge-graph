@@ -1,22 +1,29 @@
 ---
 id: bisection-method
-title: Bisection Method
+title: Bisection Method for Root Finding
 domain: mathematics
 course: numerical-analysis
 prerequisites:
-- id: mean-value-theorem
+- id: intermediate-value-theorem
   type: hard
 builds-toward:
 - order-of-convergence
 tags:
 - root-finding
-- bracketing
+- bisection
 - convergence
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
-# Bisection Method
+# Bisection Method for Root Finding
 
 ## Core Idea
-The bisection method finds a root of a continuous function by repeatedly halving an interval where the function changes sign, guaranteed by the Intermediate Value Theorem. At each iteration, the function is evaluated at the midpoint and the appropriate half-interval is retained. The method is slow but guaranteed to converge for continuous functions and is extremely robust.
+The bisection method finds roots by repeatedly halving an interval where the function changes sign, guaranteed by the intermediate value theorem. Each iteration halves the remaining uncertainty, achieving linear convergence. Although slow, bisection is robust and requires only continuity and an initial sign change, with no derivatives or special tuning needed.
+
+## How It's Best Learned
+Implement bisection for simple functions like x³ - 2 = 0, tracking how the interval shrinks with each iteration and observing linear error reduction.
+
+## Common Misconceptions
+- Thinking bisection is fast just because it converges reliably; convergence is slow compared to faster methods.
+- Assuming bisection works without locating an initial sign change; finding such an interval is the user's responsibility.

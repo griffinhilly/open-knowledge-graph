@@ -4,20 +4,20 @@ title: Fixed Point Iteration
 domain: mathematics
 course: numerical-analysis
 prerequisites:
-- id: mean-value-theorem
+- id: contraction-mapping
   type: soft
 builds-toward:
 - order-of-convergence
-- jacobi-iterative-method
+- newton-method-convergence
 tags:
 - fixed-point
 - iteration
-- convergence
-stage: advanced
+- root-finding
+stage: abstract-reasoning
 status: draft
 ---
 
 # Fixed Point Iteration
 
 ## Core Idea
-Fixed point iteration solves equations of the form g(x) = x by iterating x_{n+1} = g(x_n) from an initial guess. Convergence is guaranteed when g is a contraction mapping near the fixed point, quantified by the Banach Fixed Point Theorem: if |g'(x)| < 1 in a neighborhood of the solution, iteration converges linearly.
+Fixed point iteration solves f(x) = 0 by rewriting it as x = g(x) and iterating x_{n+1} = g(x_n). Convergence is guaranteed by the contraction mapping theorem if |g'(x)| < 1 near the fixed point. This method is foundational to understanding iterative algorithms and generalizes to systems of equations and complex domains.
