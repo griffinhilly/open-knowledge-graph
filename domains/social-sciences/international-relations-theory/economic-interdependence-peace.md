@@ -1,27 +1,32 @@
 ---
 id: economic-interdependence-peace
-title: Economic Interdependence and Conflict
+title: Economic Interdependence and Cooperation
 domain: social-sciences
 course: international-relations-theory
 prerequisites:
+- id: liberalism-in-ir
+  type: hard
 - id: international-political-economy-basics
   type: hard
-- id: comparative-advantage-and-trade
-  type: soft
+builds-toward:
+- trade-regimes-and-cooperation
+- sanctions-and-statecraft
 tags:
-- trade
+- liberalism
 - interdependence
 - peace
-- conflict
-- commercial-peace
+- trade
 stage: advanced
 status: draft
 ---
 
-# Economic Interdependence and Conflict
+# Economic Interdependence and Cooperation
 
 ## Core Idea
-Liberal IPE argues that economic interdependence—dense trade and financial integration—reduces incentives for war because conflict would be mutually costly. However, realists counter that interdependence creates vulnerabilities and triggers competition for resources, market share, and relative gains. The empirical relationship between trade and peace is contested.
+Liberal theory argues that economic interdependence reduces conflict by increasing the cost of war and creating incentives for cooperation. When two countries rely on each other for trade and investment, war disrupts both economies, making conflict costly. Interdependence also creates channels for communication and shared interests in economic growth. Empirically, wealthy democracies with high trade dependence rarely fight each other, though causation is debated: does trade create peace or do peaceful states trade more?
 
 ## How It's Best Learned
-Examine cases where trade and interdependence increased but conflict still occurred (World War I, current US-China tensions) and cases where interdependence promoted peace (EU integration, US-Japan post-WWII). Measure trade intensity and war frequency across dyads to test competing hypotheses.
+Compare pre-WWI European interdependence (high trade but war occurred) with post-WWII European integration (high trade and peace). What changed?
+
+## Common Misconceptions
+Trade does not guarantee peace—states can still fight over trade, tariffs, or resource control. Interdependence may also create conflict if one side fears dependency.
