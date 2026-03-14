@@ -1,24 +1,23 @@
 ---
 id: spatial-epidemiology
-title: Spatial Epidemiology and Geographic Patterns
+title: Spatial Epidemiology and Geographic Analysis
 domain: health-and-human-development
 course: epidemiology
 prerequisites:
-- id: epidemiologic-study-designs
-  type: soft
-- id: outbreak-investigation
-  type: soft
-- id: hierarchical-models-epidemiology
+- id: environmental-epidemiology-assessment
+  type: hard
+- id: disease-frequency-measures
   type: soft
 tags:
 - spatial-analysis
-- disease-mapping
-- hotspots
+- geographic-variation
+- mapping
+- spatial-autocorrelation
 stage: advanced
 status: draft
 ---
 
-# Spatial Epidemiology and Geographic Patterns
+# Spatial Epidemiology and Geographic Analysis
 
 ## Core Idea
-Spatial epidemiology examines geographic patterns of disease—clustering, hotspots, and associations with geographic exposures. Spatial autocorrelation (disease rates in neighboring areas are correlated) violates standard independence assumptions; spatial regression models (conditional autoregressive, spatial lag models) account for neighbor effects. Geospatial methods map disease risk and identify priority areas for targeted public health interventions. Distance-based measures (nearest-neighbor distance, Moran's I) test for spatial clustering. Modern applications integrate satellite-derived environmental data (temperature, rainfall, land use) with disease surveillance.
+Spatial epidemiology examines geographic disease variation and identifies clusters and hotspots. Spatial data exhibit autocorrelation (nearby locations more similar than distant ones), violating independence assumptions. Spatial regression and cluster detection algorithms identify areas of unusually high or low risk.

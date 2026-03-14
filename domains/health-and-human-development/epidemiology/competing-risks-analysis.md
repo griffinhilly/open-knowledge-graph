@@ -8,12 +8,10 @@ prerequisites:
   type: hard
 - id: kaplan-meier-estimator
   type: hard
-builds-toward:
-- joint-longitudinal-competing-event-models
 tags:
 - survival-analysis
-- incidence
-- multiple-events
+- competing-events
+- cumulative-incidence
 stage: advanced
 status: draft
 ---
@@ -21,10 +19,4 @@ status: draft
 # Competing Risks Analysis
 
 ## Core Idea
-Competing risks occur when subjects can experience multiple distinct events (e.g., death from cancer vs. other causes, treatment switching vs. continuation) and the occurrence of one event prevents future observation of the other. Standard survival methods (Kaplan-Meier, Cox regression) overestimate event risks by treating competing events as censoring. Competing risks analysis properly estimates event probabilities using cause-specific hazards or cumulative incidence functions that account for risk competition.
-
-## How It's Best Learned
-Compare standard Kaplan-Meier and cumulative incidence curves for a disease outcome when competing mortality exists; interpret differences.
-
-## Common Misconceptions
-Treating competing events as censored gives correct risk estimates. Cause-specific hazards directly show absolute risk; cumulative incidence is needed for that.
+Competing risks occur when individuals may experience one of several mutually exclusive events. Standard Kaplan-Meier and Cox methods are inappropriate because censoring is not independent. Cumulative incidence functions and competing risk regression properly estimate the probability of each event.

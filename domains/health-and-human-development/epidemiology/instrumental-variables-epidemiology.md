@@ -1,32 +1,30 @@
 ---
 id: instrumental-variables-epidemiology
-title: Instrumental Variables for Causal Inference
+title: Instrumental Variables in Epidemiology
 domain: health-and-human-development
 course: epidemiology
 prerequisites:
-- id: counterfactual-framework
-  type: hard
 - id: confounding-epidemiology
   type: hard
-- id: multivariable-regression-epi
+- id: counterfactual-framework
   type: hard
 builds-toward:
-- mediation-analysis-epidemiology
+- mendelian-randomization
 tags:
 - causal-inference
-- confounding
 - unmeasured-confounding
+- two-stage-regression
 stage: advanced
 status: draft
 ---
 
-# Instrumental Variables for Causal Inference
+# Instrumental Variables in Epidemiology
 
 ## Core Idea
-Instrumental variables are characteristics that influence exposure but affect the outcome only through the exposure pathway, enabling causal inference when unmeasured confounding exists. Valid instruments must satisfy three criteria: association with exposure, no direct effect on outcome, and no association with unmeasured confounders of the exposure-outcome relationship. IV analysis produces consistent causal estimates even in the presence of hidden confounding.
+An instrumental variable (IV) is a variable that influences the exposure but does not directly affect the outcome except through the exposure. IV analysis can identify causal effects under unmeasured confounding if the IV satisfies relevance, exclusion, and monotonicity assumptions.
 
 ## How It's Best Learned
-Work through genetic epidemiology examples where genetic variants serve as natural instruments; implement two-stage least squares regression.
+Begin with the conceptual framework (relevance, exclusion, monotonicity). Implement two-stage least squares and check IV strength using first-stage F-statistics. Examine sensitivity to violations of the exclusion restriction.
 
 ## Common Misconceptions
-Any variable correlated with exposure works as an instrumental variable. Weak instruments are nearly as valid as strong instruments (weak instruments lead to large biases). IV estimates are causal only if the exclusion restriction holds.
+- Any variable correlated with exposure can serve as an IV (only variables unaffected by unmeasured confounders qualify). - IV analysis solves all confounding (it requires strong assumption about no direct effect on outcome). - Weak IVs are acceptable (weak IVs produce biased estimates; strong first-stage is essential).

@@ -1,24 +1,23 @@
 ---
 id: marginal-structural-models
-title: Marginal Structural Models
+title: Marginal Structural Models for Longitudinal Data
 domain: health-and-human-development
 course: epidemiology
 prerequisites:
-- id: time-varying-exposures-and-covariates
+- id: time-varying-confounders
   type: hard
-- id: counterfactual-framework
+- id: inverse-probability-weighting
   type: hard
-- id: propensity-score-methods
-  type: soft
 tags:
-- g-methods
-- time-dependent-confounding
+- longitudinal-analysis
+- marginal-models
 - causal-inference
+- time-varying-treatment
 stage: advanced
 status: draft
 ---
 
-# Marginal Structural Models
+# Marginal Structural Models for Longitudinal Data
 
 ## Core Idea
-Marginal structural models (MSMs) are weighted regression models that estimate causal effects in the presence of time-dependent confounding—when past exposure affects future confounders that also affect the outcome. Standard regression adjustment is biased when confounders are affected by prior exposure. MSMs use inverse probability of treatment weights (IPTW) to create a pseudopopulation in which exposure is independent of confounders; analyzing this pseudopopulation yields unbiased effect estimates. MSMs are particularly useful for evaluating sequential treatment decisions and studying treatment switching.
+Marginal structural models estimate causal effects of time-varying exposures on outcomes in the presence of time-varying confounding affected by prior exposure. MSMs use inverse probability weighting of observed outcomes on exposure history, producing marginal treatment effects analogous to those from a randomized experiment following the observed exposure pattern.
