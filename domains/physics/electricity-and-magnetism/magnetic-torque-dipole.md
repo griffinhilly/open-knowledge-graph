@@ -4,14 +4,14 @@ title: Torque on Magnetic Dipoles
 domain: physics
 course: electricity-and-magnetism
 prerequisites:
-- id: magnetic-force-conductors
+- id: magnetic-force-current-wires
   type: hard
 builds-toward:
-- biot-savart-field
+- inductance-circuits-rl-transients
 tags:
-- magnetic-dipole
 - torque
-- moment
+- dipole
+- rotation
 stage: formal-systems
 status: draft
 ---
@@ -19,4 +19,4 @@ status: draft
 # Torque on Magnetic Dipoles
 
 ## Core Idea
-A current loop of area A carrying current I has magnetic dipole moment μ⃗ = IA n̂. In a uniform magnetic field, the net force is zero but the loop experiences torque τ⃗ = μ⃗ × B⃗. Potential energy is U = −μ⃗·B⃗. In non-uniform fields, dipoles experience a net force toward stronger field regions. This is the principle behind electric motors and magnetic alignment.
+A current loop with magnetic moment μ = IA (A is area vector) in field B experiences torque τ = μ × B. Torque tends to align the dipole with the field. Potential energy is U = −μ⋅B.
