@@ -59,3 +59,33 @@ courses:
   - id: discrete-math
     title: Discrete Math
     stage: formal-systems
+  - id: differential-equations
+    title: Differential Equations
+    stage: advanced
+  - id: real-analysis
+    title: Real Analysis
+    stage: advanced
+  - id: abstract-algebra
+    title: Abstract Algebra
+    stage: advanced
+  - id: topology
+    title: Topology
+    stage: advanced
+  - id: complex-analysis
+    title: Complex Analysis
+    stage: advanced
+  - id: number-theory
+    title: Number Theory
+    stage: advanced
+  - id: probability-and-mathematical-statistics
+    title: Probability & Mathematical Statistics
+    stage: advanced
+  - id: numerical-analysis
+    title: Numerical Analysis
+    stage: advanced
+  - id: graph-theory-and-combinatorics
+    title: Graph Theory & Combinatorics
+    stage: advanced
+  - id: measure-theory-and-functional-analysis
+    title: Measure Theory & Functional Analysis
+    stage: advanced

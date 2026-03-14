@@ -18,3 +18,6 @@ courses:
 - id: modern-history
   title: Modern History
   stage: abstract-reasoning
+- id: historiography
+  title: Historiography & Philosophy of History
+  stage: advanced

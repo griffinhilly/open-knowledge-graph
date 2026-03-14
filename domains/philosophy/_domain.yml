@@ -21,3 +21,9 @@ courses:
 - id: philosophy-of-mind
   title: Philosophy of Mind
   stage: formal-systems
+- id: philosophy-of-science
+  title: Philosophy of Science
+  stage: advanced
+- id: philosophy-of-language
+  title: Philosophy of Language
+  stage: advanced

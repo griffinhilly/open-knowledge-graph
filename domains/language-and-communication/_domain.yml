@@ -17,3 +17,6 @@ courses:
 - id: public-speaking
   title: Public Speaking
   stage: abstract-reasoning
+- id: advanced-linguistics
+  title: Advanced Linguistics
+  stage: advanced

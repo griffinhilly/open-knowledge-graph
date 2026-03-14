@@ -16,3 +16,6 @@ courses:
 - id: category-theory
   title: Category Theory
   stage: advanced
+- id: model-theory
+  title: Model Theory
+  stage: advanced
