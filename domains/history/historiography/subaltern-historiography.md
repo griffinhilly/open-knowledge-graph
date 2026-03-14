@@ -1,26 +1,27 @@
 ---
 id: subaltern-historiography
-title: Subaltern Historiography and Colonial Perspective
+title: Subaltern Studies and Postcolonial Historiography
 domain: history
 course: historiography
 prerequisites:
-- id: historiography-philosophy-intro
+- id: gayatri-spivak-subaltern
   type: hard
 - id: postcolonial-historiography
   type: hard
-- id: gayatri-spivak-subaltern
-  type: hard
 builds-toward:
-- gender-history-theory
+- postcolonial-historiography
+- indigenous-historiography
+- postcolonial-research-methods
 tags:
-- postcolonial
 - subaltern
-- methodology
+- postcolonial
+- marginalized
+- voices
 stage: advanced
 status: draft
 ---
 
-# Subaltern Historiography and Colonial Perspective
+# Subaltern Studies and Postcolonial Historiography
 
 ## Core Idea
-Subaltern historiography asks: How can we write history from the perspective of colonized, oppressed, and marginalized people when archives are dominated by colonizers' and elites' voices? Gayatri Spivak's question 'Can the subaltern speak?' highlights how dominant historiography silences subordinated groups. Subaltern historians use fragments, silences, and indirect evidence to recover agency and voice.
+Subaltern studies, originating in Indian historiography, examines experiences of subordinated groups within colonial and postcolonial contexts. Gayatri Spivak's central question—'Can the subaltern speak?'—highlights the epistemological challenge: how can historians represent voices of those systematically excluded from record-making? This approach combines rigorous source analysis with awareness of necessary silences and what cannot be recovered from archives shaped by colonialism.
