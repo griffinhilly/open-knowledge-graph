@@ -9,9 +9,9 @@ prerequisites:
 builds-toward:
 - bayes-theorem
 tags:
-- total-probability
-- partition
-- law-of-total-probability
+- probability
+- conditional-probability
+- partitions
 stage: formal-systems
 status: draft
 ---
@@ -19,4 +19,10 @@ status: draft
 # Law of Total Probability
 
 ## Core Idea
-If events B₁, B₂, ..., Bₙ partition the sample space (are mutually exclusive and exhaustive), then for any event A: P(A) = Σ P(A|Bᵢ) × P(Bᵢ). This law decomposes the probability of an event into a weighted sum over all possible conditioning scenarios, useful when direct computation is difficult but conditional probabilities are known.
+If events B₁, B₂, ..., Bₙ partition the sample space, then P(A) = Σ P(A|Bᵢ)P(Bᵢ). This rule allows us to calculate the probability of an event by conditioning on all possible ways it can occur.
+
+## How It's Best Learned
+Work through examples involving disease diagnosis or quality control where you condition on a known partition. Draw tree diagrams showing all paths to the target event. Practice recognizing when this rule applies.
+
+## Common Misconceptions
+Not verifying that the events form a partition (they must be mutually exclusive and exhaustive). Forgetting to sum over all conditioning events. Confusing this with just conditional probability.

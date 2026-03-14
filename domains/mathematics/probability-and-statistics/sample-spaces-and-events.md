@@ -3,16 +3,14 @@ id: sample-spaces-and-events
 title: Sample Spaces and Events
 domain: mathematics
 course: probability-and-statistics
-prerequisites:
-- id: probability-axioms
-  type: hard
+prerequisites: []
 builds-toward:
-- conditional-probability
-- counting-principles
+- probability-rules-for-events
+- law-of-total-probability
 tags:
+- foundations
 - probability
-- sample-space
-- events
+- set-theory
 stage: formal-systems
 status: draft
 ---
@@ -20,10 +18,10 @@ status: draft
 # Sample Spaces and Events
 
 ## Core Idea
-A sample space is the complete set of all possible outcomes of an experiment. An event is any subset of the sample space. The probability of an event is computed as the sum of probabilities of its constituent outcomes. Events can be combined using set operations (union, intersection, complement) which correspond to logical operations (or, and, not).
+A sample space is the set of all possible outcomes of an experiment. An event is any subset of the sample space. Understanding sample spaces and events is essential for assigning probabilities and reasoning about random phenomena.
 
 ## How It's Best Learned
-Explicitly list sample spaces for simple experiments (rolling dice, drawing cards). Practice identifying events and expressing them in set notation.
+Start with concrete experiments like coin flips and dice rolls. Draw Venn diagrams to visualize events and their relationships. Practice identifying sample spaces and events in various real-world scenarios.
 
 ## Common Misconceptions
-Assuming all outcomes in a sample space have equal probability. Confusing an event with a single outcome.
+Confusing an event with a single outcome. Thinking the sample space is always numerical. Not recognizing that the same experiment can have different sample spaces depending on what outcomes we care about.
