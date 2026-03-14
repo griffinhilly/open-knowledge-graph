@@ -1,24 +1,25 @@
 ---
 id: ramsey-cass-koopmans-model
-title: Ramsey-Cass-Koopmans Growth Model
+title: Ramsey-Cass-Koopmans Model
 domain: economics
 course: advanced-macroeconomics
 prerequisites:
-- id: euler-equation-intertemporal-choice
+- id: dynamic-optimization-macroeconomics
   type: hard
-- id: neoclassical-growth-steady-state
-  type: soft
+- id: solow-growth-model
+  type: hard
 builds-toward:
-- endogenous-growth-theory
+- household-optimization-consumption-savings
+- euler-equation-consumption
 tags:
-- ramsey-model
-- optimal-growth
-- forward-looking-agents
-stage: advanced
+- growth
+- optimization
+- infinite-horizon
+stage: formal-modeling
 status: draft
 ---
 
-# Ramsey-Cass-Koopmans Growth Model
+# Ramsey-Cass-Koopmans Model
 
 ## Core Idea
-The Ramsey model endogenizes savings by deriving it from Euler equations. Households maximize lifetime utility, saving and consuming optimally; equilibrium growth and capital accumulation emerge from first-order conditions. The model delivers lower steady-state capital than exogenous savings models and predicts convergence paths.
+The Ramsey-Cass-Koopmans (RCK) model endogenizes consumption and savings decisions by having households solve an infinite-horizon optimization problem. Unlike Solow, which assumes a fixed savings rate, RCK derives savings from utility maximization given interest rates and wages. The model shows how households trade off present consumption against future consumption opportunities, with the equilibrium growth rate still determined by preference parameters and exogenous technological progress.

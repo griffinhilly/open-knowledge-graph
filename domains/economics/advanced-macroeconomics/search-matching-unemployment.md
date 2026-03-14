@@ -1,22 +1,24 @@
 ---
 id: search-matching-unemployment
-title: Search and Matching Model of Unemployment
+title: Search and Matching Models of Unemployment
 domain: economics
 course: advanced-macroeconomics
 prerequisites:
-- id: unemployment-measurement
-  type: soft
+- id: types-of-unemployment
+  type: hard
+- id: dynamic-optimization-macroeconomics
+  type: hard
 builds-toward:
-- wage-setting-equilibrium
+- wage-dynamics-labor-frictions
 tags:
-- search-and-matching
 - unemployment
-- job-search-friction
-stage: advanced
+- search
+- matching
+stage: formal-modeling
 status: draft
 ---
 
-# Search and Matching Model of Unemployment
+# Search and Matching Models of Unemployment
 
 ## Core Idea
-The search and matching model treats unemployment as frictional, arising from imperfect job-worker matching. Job finding depends on a matching function m(u,v) relating unemployed workers and job vacancies. Equilibrium unemployment balances job destruction against job finding, depending on search efficiency and wage-setting dynamics.
+Search and matching models recognize that finding jobs and workers takes time. Workers search among job opportunities; firms search among worker applicants; matches occur only after search. This friction creates unemployment even when jobs exist and workers want to work. The model generates realistic unemployment dynamics: workers do not instantly find jobs, firms do not instantly fill vacancies, and job separation creates frictional unemployment. Matching functions describe how worker and firm searches translate into employment relationships.

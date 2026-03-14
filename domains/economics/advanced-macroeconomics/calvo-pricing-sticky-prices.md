@@ -4,21 +4,21 @@ title: Calvo Pricing and Sticky Prices
 domain: economics
 course: advanced-macroeconomics
 prerequisites:
-- id: new-keynesian-framework-overview
+- id: new-keynesian-framework
   type: hard
-- id: monopolistic-competition
+- id: price-discrimination
   type: soft
 builds-toward:
 - phillips-curve-new-keynesian
 tags:
-- calvo-pricing
+- pricing
 - sticky-prices
-- price-setting
-stage: advanced
+- nominal-rigidities
+stage: formal-modeling
 status: draft
 ---
 
 # Calvo Pricing and Sticky Prices
 
 ## Core Idea
-The Calvo model assumes each firm has probability θ of adjusting prices each period. This creates endogenous price stickiness and inflation inertia: firms set prices as weighted averages of current and expected future marginal costs, so inflation responds gradually to monetary policy changes.
+Calvo pricing assumes firms can adjust prices only randomly (with constant probability each period), creating a realistic form of price rigidity. Unlike menu-cost models, Calvo pricing leads to tractable equilibria and is widely used in DSGE models. The key insight is that firms optimally reset prices but must sometimes sell at stale prices, creating nominal inertia. This staggered pricing structure causes monetary shocks to have real effects on output and employment in the short run.

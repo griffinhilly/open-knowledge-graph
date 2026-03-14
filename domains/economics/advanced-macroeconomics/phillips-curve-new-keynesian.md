@@ -1,24 +1,25 @@
 ---
 id: phillips-curve-new-keynesian
-title: New Keynesian Phillips Curve
+title: Phillips Curve Derivation in New Keynesian Models
 domain: economics
 course: advanced-macroeconomics
 prerequisites:
 - id: calvo-pricing-sticky-prices
   type: hard
 - id: phillips-curve
-  type: soft
+  type: hard
 builds-toward:
-- monetary-policy-transmission-mechanisms
+- dsge-models
+- monetary-policy-transmission
 tags:
 - phillips-curve
-- inflation-dynamics
-- forward-looking
-stage: advanced
+- inflation
+- new-keynesian
+stage: formal-modeling
 status: draft
 ---
 
-# New Keynesian Phillips Curve
+# Phillips Curve Derivation in New Keynesian Models
 
 ## Core Idea
-The NKPC is a forward-looking Phillips curve: π_t = βE_t[π_{t+1}] + κ(y_t - ȳ), where inflation depends on expected future inflation and the output gap. This replaces lagged inflation with expected inflation, making credible monetary policy more powerful by reducing inflation expectations.
+The New Keynesian Phillips curve shows that inflation depends on expected future inflation, the output gap, and marginal costs. Unlike the traditional Phillips curve (which posits a stable unemployment-inflation tradeoff), the NKPC is forward-looking and depends on real variables. This microfounded derivation from Calvo pricing explains why monetary policy affects inflation through demand pressure on costs, not backward-looking wage adjustment, and why supply shocks can cause stagflation.
