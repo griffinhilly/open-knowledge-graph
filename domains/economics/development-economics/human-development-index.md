@@ -1,26 +1,25 @@
 ---
 id: human-development-index
-title: The Human Development Index (HDI)
+title: The Human Development Index
 domain: economics
 course: development-economics
 prerequisites:
-- id: development-definition-and-measurement
+- id: economic-development-definition
   type: hard
-- id: gdp-and-national-income
+- id: gross-domestic-product-development-measurement
   type: soft
 builds-toward:
-- multidimensional-poverty-measurement
+- multidimensional-poverty-index
+- human-capital-accumulation-development
 tags:
 - HDI
+- development
 - measurement
-- health
-- education
-- income
 stage: advanced
 status: draft
 ---
 
-# The Human Development Index (HDI)
+# The Human Development Index
 
 ## Core Idea
-The HDI combines income (GDP per capita), health (life expectancy), and education (mean and expected years of schooling) into a single index ranking development. Created by Mahbub ul Haq and Amartya Sen, the HDI shifted global development discourse away from income-only comparisons. Countries often rank differently on HDI vs. GDP per capita, revealing that income and human outcomes diverge.
+The Human Development Index combines GDP per capita, life expectancy, and education into a composite development measure. HDI rankings frequently diverge from GDP rankings, revealing that economic growth does not automatically translate to improved health and education outcomes. This multidimensional approach better captures realized human capabilities.

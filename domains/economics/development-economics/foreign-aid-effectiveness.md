@@ -1,25 +1,21 @@
 ---
 id: foreign-aid-effectiveness
-title: Foreign Aid and Development
+title: Foreign Aid and Development Effectiveness
 domain: economics
 course: development-economics
 prerequisites:
-- id: development-definition-and-measurement
+- id: institutions-economic-development
   type: soft
-- id: institutions-and-development
+- id: causal-inference-econometrics
   type: soft
-builds-toward:
-- development-policy-evaluation
 tags:
-- foreign aid
-- ODA
-- aid effectiveness
-- development
+- foreign-aid
+- effectiveness
 stage: advanced
 status: draft
 ---
 
-# Foreign Aid and Development
+# Foreign Aid and Development Effectiveness
 
 ## Core Idea
-Official Development Assistance (~$150 billion annually) shows weak cross-country correlation with growth, raising questions about absorption and fungibility. Evidence suggests aid is more effective in countries with strong institutions and clear absorptive capacity. The debate shifted from 'does aid work' to 'when and how does aid work'.
+Foreign aid transfers income to poor countries, but effectiveness depends critically on recipient governance quality. Aid to weak-governance countries often disappears through corruption. Aid to strong-governance countries proves highly effective. The debate centers on whether aid should be conditional on governance improvements or flow unconditionally. Research increasingly shows aid effectiveness depends on institutional preconditions.
