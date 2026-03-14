@@ -1,23 +1,22 @@
 ---
 id: peripatric-speciation
-title: Peripatric Speciation and the Founder Effect
+title: Peripatric Speciation and Founder Effects
 domain: biology
 course: evolutionary-biology
 prerequisites:
-- id: reproductive-isolation
+- id: allopatric-speciation
   type: hard
-- id: genetic-drift-process
-  type: hard
+- id: genetic-drift
+  type: soft
 tags:
 - speciation
+- genetic-drift
 - founder-effect
-- drift
-- small-populations
 stage: advanced
 status: draft
 ---
 
-# Peripatric Speciation and the Founder Effect
+# Peripatric Speciation and Founder Effects
 
 ## Core Idea
-Peripatric speciation proposes that rapid speciation occurs when small, unrepresentative populations (founders) colonize new areas. Genetic drift in the small founding population causes rapid allele frequency change and reproductive isolation from the source population. The founder effect—loss of genetic variation at colonization—accelerates divergence and can fix reproductive barriers through drift alone.
+Peripatric speciation is a special case of allopatric speciation in which a small founding population colonizes a new area. Genetic drift in the small population rapidly changes allele frequencies and may quickly establish reproductive isolation even from the ancestral population. Island colonization exemplifies peripatric speciation.

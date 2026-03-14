@@ -1,23 +1,25 @@
 ---
 id: sexual-selection
-title: Sexual Selection and Mate Choice
+title: Sexual Selection
 domain: biology
 course: evolutionary-biology
 prerequisites:
-- id: directional-stabilizing-selection
-  type: hard
 - id: natural-selection
   type: hard
+- id: adaptation-and-fitness
+  type: soft
+builds-toward:
+- evolution-of-sex
+- signal-evolution
 tags:
 - selection
 - mating
-- secondary-sexual-traits
-- sexual-dimorphism
+- reproduction
 stage: advanced
 status: draft
 ---
 
-# Sexual Selection and Mate Choice
+# Sexual Selection
 
 ## Core Idea
-Sexual selection is natural selection arising from competition for mates or variation in attractiveness to mates, often driving evolution of exaggerated traits (peacock tails, antlers) that may reduce survival. Intrasexual selection (male-male competition) and intersexual selection (female choice) can act in different directions, producing dramatic sexual dimorphism. Sexual selection can override natural selection.
+Sexual selection arises from competition for mates (intrasexual) or mate choice (intersexual) and can drive rapid evolution of secondary sexual traits. Traits costly for survival can increase in frequency if they improve mating success sufficiently. Sexual selection explains elaborate ornaments like peacock tails and complex courtship behaviors.

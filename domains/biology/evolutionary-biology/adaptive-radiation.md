@@ -1,23 +1,24 @@
 ---
 id: adaptive-radiation
-title: Adaptive Radiation and Diversification
+title: Adaptive Radiation
 domain: biology
 course: evolutionary-biology
 prerequisites:
-- id: allopatric-speciation
+- id: speciation
   type: hard
+- id: natural-selection
+  type: soft
 builds-toward:
-- extinction-and-recovery
+- ecological-opportunity
 tags:
 - speciation
-- ecological-opportunity
-- diversification
-- rapid-evolution
+- macroevolution
+- diversity
 stage: advanced
 status: draft
 ---
 
-# Adaptive Radiation and Diversification
+# Adaptive Radiation
 
 ## Core Idea
-Adaptive radiation is rapid diversification of an ancestral lineage into multiple species, typically occurring when populations colonize new environments with ecological opportunity (few competitors, many niches). Classic examples include Darwin's finches, Hawaiian honeycreepers, and cichlid fishes. Radiations involve both speciation (reproductive isolation) and adaptive evolution (ecological specialization).
+Adaptive radiation is the rapid diversification of ancestral lineages into multiple species occupying distinct ecological niches. Classic examples include Darwin's finches, Hawaiian honeycreepers, and East African cichlids. Radiations typically require ecological opportunity, absence of competitors, and traits enabling morphological innovation.

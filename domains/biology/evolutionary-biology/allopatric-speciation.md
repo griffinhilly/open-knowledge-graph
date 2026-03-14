@@ -4,17 +4,15 @@ title: Allopatric Speciation
 domain: biology
 course: evolutionary-biology
 prerequisites:
-- id: reproductive-isolation
-  type: hard
-- id: gene-flow-migration
+- id: speciation
   type: hard
 builds-toward:
-- adaptive-radiation
+- peripatric-speciation
+- ring-species
 tags:
 - speciation
 - geographic-isolation
-- allopatry
-- divergence
+- macroevolution
 stage: advanced
 status: draft
 ---
@@ -22,4 +20,4 @@ status: draft
 # Allopatric Speciation
 
 ## Core Idea
-Allopatric speciation occurs when geographic barriers prevent gene flow between populations, allowing them to diverge through drift and local selection until reproductive isolation evolves. Accumulation of neutral differences (drift) and adaptive differences (local selection) eventually makes populations reproductively incompatible. This is the most widely accepted mode of speciation and explains much biodiversity.
+Allopatric speciation occurs when geographic barriers prevent gene flow between populations, allowing independent evolution and accumulation of reproductive isolation. This is the dominant mode of speciation and is supported by patterns of biogeography and molecular clocks. Secondary contact between allopatric populations reveals degree of reproductive isolation achieved.

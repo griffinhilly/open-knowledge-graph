@@ -1,25 +1,25 @@
 ---
 id: evolutionary-game-theory
-title: Evolutionary Game Theory Foundations
+title: Evolutionary Game Theory
 domain: biology
 course: evolutionary-biology
 prerequisites:
-- id: kin-selection-hamilton
+- id: natural-selection
   type: hard
-- id: conditional-probability
+- id: probability-axioms
   type: soft
 builds-toward:
-- hawk-dove-game
+- evolutionary-stable-strategy
+- arms-race-coevolution
 tags:
 - game-theory
-- strategy
-- fitness-payoff
-- frequency-dependent
+- behavior
+- evolution
 stage: advanced
 status: draft
 ---
 
-# Evolutionary Game Theory Foundations
+# Evolutionary Game Theory
 
 ## Core Idea
-Evolutionary game theory applies game theory to biology: strategies compete based on fitness payoffs, which depend on both the actor's choice and others' choices in the population. A strategy's success is frequency-dependent—the best choice depends on what others are doing. This framework explains the evolution of cooperation, conflict, and mixed strategies in nature.
+Evolutionary game theory applies game theory to evolution by treating organisms as players with fitness payoffs determined by strategy frequencies in the population. Strategies that perform well against the current population composition can invade, leading to dynamic equilibria. Game theory explains cooperation, conflict, and signaling evolution.
