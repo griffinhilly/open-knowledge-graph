@@ -4,23 +4,23 @@ title: 'Compensator Realization: Active and Passive Networks'
 domain: engineering
 course: control-systems
 prerequisites:
+- id: transfer-functions-control
+  type: hard
 - id: lead-compensator-design
-  type: hard
-- id: lag-compensator-design
-  type: hard
+  type: soft
 builds-toward:
-- practical-control-system-implementation
+- lead-lag-compensation-design
 tags:
-- circuit-realization
-- op-amp
-- rc-network
-- passive-network
-- active-network
-stage: abstract-reasoning
+- compensator
+- realization
+- active
+- passive
+- implementation
+stage: advanced
 status: draft
 ---
 
 # Compensator Realization: Active and Passive Networks
 
 ## Core Idea
-Compensators designed in frequency domain must be implemented as physical circuits. Lead and lag networks can be realized using passive RC circuits (low power, limited gain) or active circuits with operational amplifiers (high impedance, adjustable poles and zeros).
+A compensator transfer function (designed in root locus or Bode plots) must be realized physically using circuits or software. Active realizations (op-amps) allow arbitrary pole-zero placement and gain. Passive realizations (RC networks) are simpler but limited to specific transfer function structures and introduce impedance loading. Understanding realization constraints ensures designed controllers can be practically implemented.
