@@ -1,31 +1,22 @@
 ---
 id: cfg-pda-equivalence
-title: CFG–PDA Equivalence
+title: Equivalence of CFGs and Pushdown Automata
 domain: computer-science
 course: theory-of-computation
 prerequisites:
-- id: pushdown-automata
-  type: hard
-- id: chomsky-normal-form
+- id: pushdown-automata-and-recognition
   type: hard
 builds-toward:
-- closure-properties-cfl
-- pumping-lemma-cfl
-- turing-machines
+- normal-forms-for-context-free-grammars
 tags:
-- CFG
-- PDA
+- cfg
+- pda
 - equivalence
-- context-free-languages
-stage: advanced
-status: validated
+stage: abstract-reasoning
+status: draft
 ---
 
-# CFG–PDA Equivalence
+# Equivalence of CFGs and Pushdown Automata
 
 ## Core Idea
-The CFGs and PDAs are equivalent models: a language is context-free if and only if some PDA recognizes it. The proof goes both ways — any CFG can be converted to a PDA (using a one-state PDA that simulates leftmost derivations), and any PDA can be converted to a CFG. This equivalence firmly establishes the context-free languages as a well-defined class, analogous to Kleene's theorem for regular languages. The construction from CFG to PDA mirrors the Earley/CYK parsing algorithms in practice.
-
-## Common Misconceptions
-- Thinking the CFG-to-PDA construction requires multiple states — a single state plus the stack is sufficient.
-- Confusing the equivalence of CFG and (nondeterministic) PDA with the equivalence of deterministic PDA and some grammar class — deterministic PDAs correspond to a strictly smaller class (DCFLs).
+A language is context-free if and only if it is recognized by some pushdown automaton. This equivalence is established by converting CFGs to PDAs and PDAs to CFGs. It demonstrates that context-free grammars and pushdown automata are equally expressive computational models.

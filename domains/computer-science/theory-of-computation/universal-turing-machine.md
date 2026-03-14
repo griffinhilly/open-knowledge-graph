@@ -1,27 +1,23 @@
 ---
 id: universal-turing-machine
-title: Universal Turing Machines and Computational Universality
+title: Universal Turing Machine and Self-Simulation
 domain: computer-science
 course: theory-of-computation
 prerequisites:
-- id: multi-tape-turing-machines
+- id: turing-machine-variants
   type: hard
-- id: church-turing-thesis
-  type: soft
 builds-toward:
-- halting-problem
-- diagonalization-and-uncomputability
+- church-turing-thesis
+- decidable-languages
 tags:
-- universal-tm
-- simulation
-- encoding
-- universality
-- self-reference
-stage: advanced
+- universal-turing-machine
+- self-simulation
+- computation
+stage: abstract-reasoning
 status: draft
 ---
 
-# Universal Turing Machines and Computational Universality
+# Universal Turing Machine and Self-Simulation
 
 ## Core Idea
-A universal Turing machine (UTM) simulates any other TM given its description as input. The existence of a UTM embodies computation as computable: all algorithms can run on a single programmable machine. This self-referential property—a TM processing descriptions of TMs—enables encoding TMs as strings, which is crucial for undecidability proofs like the halting problem.
+A universal Turing machine is a machine that can simulate any other Turing machine given an encoding of that machine and its input. This demonstrates that a single machine can perform any computation, a foundational concept in theoretical computer science and the basis for the Church-Turing thesis.
