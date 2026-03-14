@@ -1,22 +1,24 @@
 ---
 id: cournot-competition
-title: Cournot Competition
+title: 'Cournot Competition: Quantity Competition in Oligopoly'
 domain: economics
 course: advanced-microeconomics
 prerequisites:
 - id: oligopoly-and-strategic-behavior
   type: hard
-- id: nash-equilibrium-microeconomics
-  type: hard
+- id: profit-maximization-microeconomics
+  type: soft
+builds-toward:
+- bertrand-competition
+- stackelberg-competition
 tags:
 - industrial-organization
 - oligopoly
-- quantity-competition
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 
-# Cournot Competition
+# Cournot Competition: Quantity Competition in Oligopoly
 
 ## Core Idea
-In Cournot competition, firms simultaneously choose quantities to maximize profit. Each firm treats rivals' quantities as given. Nash equilibrium: each firm's quantity choice is optimal given others' choices. With N identical firms and linear demand P = a - Q, equilibrium quantity per firm is q* = (a - c)/(N+1) where c is marginal cost. As N → ∞, price → marginal cost (perfect competition).
+Firms simultaneously choose quantities of a homogeneous product; price clears the market. Each firm's profit depends on its output and rivals' outputs. Cournot-Nash equilibrium occurs where each firm optimizes given rivals' quantities. As competitors increase, equilibrium price approaches marginal cost. Cournot yields prices between monopoly and perfect competition.

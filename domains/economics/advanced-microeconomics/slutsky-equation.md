@@ -1,31 +1,27 @@
 ---
 id: slutsky-equation
-title: The Slutsky Equation
+title: 'The Slutsky Equation: Income and Substitution Effects'
 domain: economics
 course: advanced-microeconomics
 prerequisites:
-- id: consumer-theory-utility
+- id: indifference-curves
   type: hard
 - id: income-and-substitution-effects
   type: hard
+- id: consumer-theory-utility
+  type: hard
 builds-toward:
-- revealed-preference-theory
-- hicksian-demand
+- compensating-and-equivalent-variation
+- consumer-duality-and-expenditure-function
 tags:
 - consumer-theory
-- substitution
-- income-effect
-stage: abstract-reasoning
+- demand
+- welfare
+stage: advanced
 status: draft
 ---
 
-# The Slutsky Equation
+# The Slutsky Equation: Income and Substitution Effects
 
 ## Core Idea
-The Slutsky equation decomposes the total price effect into a substitution effect (change in quantity demanded holding utility constant) and an income effect (change due to real income change). Mathematically: ∂x/∂p = ∂xʰ/∂p - x(∂x/∂m), where xʰ is Hicksian demand. This decomposition is fundamental to understanding consumer responses to price shocks.
-
-## How It's Best Learned
-Start by graphically decomposing price changes into substitution and income effects. Then derive the Slutsky equation algebraically. Practice with specific utility functions like Cobb-Douglas to verify the decomposition works.
-
-## Common Misconceptions
-Confusing Marshallian (ordinary) demand with Hicksian (compensated) demand. Thinking the substitution effect can be positive. Mixing up which term represents which effect.
+The Slutsky equation decomposes the total change in quantity demanded from a price change into substitution and income effects: ∂q/∂p = (∂q/∂p)_u - q(∂q/∂m). The first term (substitution effect) reflects movement along the indifference curve, while the second (income effect) captures the change in real purchasing power. This decomposition reveals whether goods are normal, inferior, or Giffen.

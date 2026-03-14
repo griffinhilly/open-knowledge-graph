@@ -1,24 +1,23 @@
 ---
 id: bertrand-competition
-title: Bertrand Competition
+title: 'Bertrand Competition: Price Competition in Oligopoly'
 domain: economics
 course: advanced-microeconomics
 prerequisites:
 - id: oligopoly-and-strategic-behavior
   type: hard
-- id: nash-equilibrium-microeconomics
-  type: hard
+- id: cournot-competition
+  type: soft
 builds-toward:
-- bertrand-paradox
+- product-differentiation
 tags:
 - industrial-organization
 - oligopoly
-- price-competition
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 
-# Bertrand Competition
+# Bertrand Competition: Price Competition in Oligopoly
 
 ## Core Idea
-In Bertrand competition, firms simultaneously set prices and sell as much as demanded at that price. With identical products, the Nash equilibrium is P = MC (marginal cost), same as perfect competition. This is the Bertrand paradox: duopoly with price competition yields competitive outcome, contrasting with Cournot duopoly profit. With differentiated products, equilibrium prices exceed marginal cost.
+Firms simultaneously set prices; consumers buy from the cheapest seller. With homogeneous products, any firm can undercut competitors to capture the entire market. This drives prices to marginal cost (near-perfect-competition outcome) with just two firms. Bertrand equilibrium illustrates the importance of product differentiation: differentiation creates pricing power by reducing substitutability.

@@ -1,31 +1,24 @@
 ---
 id: revealed-preference-theory
-title: Revealed Preference Theory
+title: 'Revealed Preference Theory: Preference Recovery from Choices'
 domain: economics
 course: advanced-microeconomics
 prerequisites:
-- id: consumer-theory-utility
+- id: consumer-optimum
   type: hard
-- id: comparative-statics
-  type: soft
+- id: budget-constraint
+  type: hard
 builds-toward:
-- weak-axiom-revealed-preference
-- strong-axiom-revealed-preference
+- consumer-duality-and-expenditure-function
 tags:
 - consumer-theory
-- rationality
-- preferences
-stage: abstract-reasoning
+- choice-theory
+- axioms
+stage: advanced
 status: draft
 ---
 
-# Revealed Preference Theory
+# Revealed Preference Theory: Preference Recovery from Choices
 
 ## Core Idea
-Revealed preference theory studies rationality through observed choices rather than utilities. If a consumer chooses bundle A when B is affordable, we say A is revealed preferred to B. This axiom-based approach avoids needing to assume utility functions exist and makes rationality empirically testable.
-
-## How It's Best Learned
-Begin with simple two-good examples and graphically show revealed preference relations. Build understanding of the axioms before formalizing. Use real choice data from experiments to test violations.
-
-## Common Misconceptions
-Thinking revealed preference requires no assumptions (it requires rationality axioms). Confusing 'revealed preferred' with 'utility greater than'. Not recognizing that rationality is falsifiable under this framework.
+Revealed preference reconstructs preferences purely from observed choices without assuming a utility function. If bundle A is chosen when B is affordable, then A is revealed preferred to B. The Weak Axiom (WARP) and Strong Axiom (SARP) ensure consistency: violations indicate choices inconsistent with any utility-maximizing behavior. This data-driven approach recovers ordinal preferences from market observations.

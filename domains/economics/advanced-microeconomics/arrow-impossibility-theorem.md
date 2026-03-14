@@ -1,25 +1,17 @@
 ---
 id: arrow-impossibility-theorem
-title: Arrow's Impossibility Theorem
+title: Arrow's Impossibility Theorem and Social Choice
 domain: economics
 course: advanced-microeconomics
-prerequisites:
-- id: nash-equilibrium-microeconomics
-  type: soft
-- id: game-theory-basics-microeconomics
-  type: soft
+prerequisites: []
 tags:
 - social-choice
 - voting
-- impossibility
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 
-# Arrow's Impossibility Theorem
+# Arrow's Impossibility Theorem and Social Choice
 
 ## Core Idea
-Arrow's Impossibility Theorem states that no social choice function (voting rule) can satisfy all of: unrestricted domain, non-dictatorship, Pareto efficiency, and independence of irrelevant alternatives. The theorem implies any democratic voting rule has flaws: either it restricts preferences, creates a dictator, violates Pareto, or depends on irrelevant alternatives.
-
-## How It's Best Learned
-Prove the theorem for three alternatives. Show violations of each axiom with different voting rules: majority rule, Borda count, plurality. Discuss implications for democracy.
+Arrow's Impossibility Theorem shows that no voting rule simultaneously satisfies: unrestricted domain (any preference profile), unanimity (if all prefer A to B, society does), independence of irrelevant alternatives (society's A vs. B ranking depends only on voters' relative preferences), and non-dictatorship (no single voter dictates). This fundamental result reveals unavoidable tradeoffs in aggregating preferences into collective decisions.
