@@ -21,7 +21,7 @@ tags:
 - force
 - acceleration
 - dynamics
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

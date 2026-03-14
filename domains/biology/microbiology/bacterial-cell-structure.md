@@ -13,7 +13,7 @@ builds-toward:
   - antibiotic-resistance-mechanisms
   - host-pathogen-interactions
 tags: [bacteria, prokaryote, cell-wall, cell-membrane, flagella, ribosomes, nucleoid]
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

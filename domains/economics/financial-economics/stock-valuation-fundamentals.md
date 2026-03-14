@@ -17,7 +17,7 @@ tags:
 - intrinsic-value
 - dcf
 - stocks
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

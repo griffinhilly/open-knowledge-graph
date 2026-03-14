@@ -17,7 +17,7 @@ tags:
 - malleability
 - ductility
 - alloys
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

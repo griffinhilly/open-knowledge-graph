@@ -19,7 +19,7 @@ tags:
 - limiting-factors
 - resources
 - population-ceiling
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - beat frequency
 - interference
 - tuning
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

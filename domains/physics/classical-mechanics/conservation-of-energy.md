@@ -20,7 +20,7 @@ tags:
 - conservation-of-energy
 - mechanical-energy
 - conservative-forces
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Conservation of Mechanical Energy

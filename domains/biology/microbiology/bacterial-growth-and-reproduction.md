@@ -10,7 +10,7 @@ builds-toward:
   - microbial-fermentation
   - microbial-ecology-overview
 tags: [binary-fission, growth-curve, lag-phase, log-phase, stationary-phase, doubling-time]
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

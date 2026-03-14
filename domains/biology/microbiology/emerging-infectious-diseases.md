@@ -20,7 +20,7 @@ tags:
 - One Health
 - SARS-CoV-2
 - pandemic preparedness
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Emerging Infectious Diseases

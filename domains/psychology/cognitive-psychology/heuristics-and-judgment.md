@@ -16,7 +16,7 @@ tags:
 - representativeness
 - anchoring
 - decision-making
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

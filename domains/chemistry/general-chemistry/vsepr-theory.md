@@ -15,7 +15,7 @@ tags:
 - bond-angles
 - lone-pairs
 - hybridization
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

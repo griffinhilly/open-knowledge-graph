@@ -18,7 +18,7 @@ tags:
 - present-value
 - discounting
 - cash-flows
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -17,7 +17,7 @@ tags:
 - B-field
 - magnetism
 - dipole
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 

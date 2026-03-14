@@ -16,7 +16,7 @@ tags:
 - kinematics
 - constant-acceleration
 - equations-of-motion
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

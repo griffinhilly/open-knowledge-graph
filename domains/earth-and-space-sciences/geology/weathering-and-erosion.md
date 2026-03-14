@@ -24,7 +24,7 @@ tags:
 - chemical-weathering
 - mechanical-weathering
 - hydrolysis
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

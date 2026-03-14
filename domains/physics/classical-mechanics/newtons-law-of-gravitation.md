@@ -15,7 +15,7 @@ tags:
 - gravitation
 - inverse-square-law
 - gravitational-force
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - compressibility
 - surface-tension
 - continuum
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

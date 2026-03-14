@@ -18,7 +18,7 @@ tags:
 - somatosensory-cortex
 - pain
 - phantom-limb
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

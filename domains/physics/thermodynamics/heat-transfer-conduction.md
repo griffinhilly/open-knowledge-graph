@@ -16,7 +16,7 @@ tags:
 - heat-transfer
 - thermal-conductivity
 - fourier-law
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 # Heat Transfer: Conduction

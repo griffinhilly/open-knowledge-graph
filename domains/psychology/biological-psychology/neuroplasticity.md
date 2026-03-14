@@ -21,7 +21,7 @@ tags:
 - cortical-reorganization
 - learning
 - development
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Neuroplasticity

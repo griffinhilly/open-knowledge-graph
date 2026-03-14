@@ -22,7 +22,7 @@ tags:
 - oscillation
 - restoring-force
 - sinusoidal
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

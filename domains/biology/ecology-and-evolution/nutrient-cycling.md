@@ -16,7 +16,7 @@ tags:
 - detritivores
 - mineralization
 - soil-nutrients
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

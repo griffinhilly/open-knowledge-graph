@@ -13,7 +13,7 @@ tags:
 - deduction
 - logic
 - Wason-selection
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

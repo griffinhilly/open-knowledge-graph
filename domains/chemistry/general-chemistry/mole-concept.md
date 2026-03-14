@@ -16,7 +16,7 @@ tags:
 - molar-mass
 - conversion
 - dimensional-analysis
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

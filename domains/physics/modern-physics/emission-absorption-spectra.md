@@ -15,7 +15,7 @@ tags:
 - atomic
 - energy-levels
 - balmer-series
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

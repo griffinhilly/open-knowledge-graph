@@ -19,7 +19,7 @@ tags:
 - logistic-growth
 - intrinsic-rate
 - population-dynamics
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

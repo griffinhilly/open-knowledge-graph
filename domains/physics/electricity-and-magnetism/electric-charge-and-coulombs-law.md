@@ -16,7 +16,7 @@ tags:
 - coulombs-law
 - electrostatics
 - force
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 

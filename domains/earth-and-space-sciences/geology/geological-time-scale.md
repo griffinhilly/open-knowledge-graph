@@ -19,7 +19,7 @@ tags:
 - periods
 - epochs
 - stratigraphy
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

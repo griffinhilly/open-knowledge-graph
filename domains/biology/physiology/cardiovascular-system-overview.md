@@ -19,7 +19,7 @@ tags:
 - circulation
 - pulmonary
 - systemic
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 

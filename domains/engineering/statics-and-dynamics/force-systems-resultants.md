@@ -18,7 +18,7 @@ tags:
 - forces
 - resultants
 - vectors
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

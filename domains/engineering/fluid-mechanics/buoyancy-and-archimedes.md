@@ -13,7 +13,7 @@ tags:
 - Archimedes
 - flotation
 - submerged bodies
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 

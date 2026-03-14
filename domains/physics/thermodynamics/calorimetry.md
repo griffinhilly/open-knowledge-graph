@@ -15,7 +15,7 @@ tags:
 - heat-exchange
 - thermal-equilibrium
 - conservation-of-energy
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

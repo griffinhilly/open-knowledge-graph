@@ -14,7 +14,7 @@ tags:
 - imagery
 - spatial-cognition
 - mental-rotation
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

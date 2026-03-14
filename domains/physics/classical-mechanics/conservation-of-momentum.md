@@ -16,7 +16,7 @@ tags:
 - conservation-of-momentum
 - isolated-system
 - collisions
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Conservation of Linear Momentum

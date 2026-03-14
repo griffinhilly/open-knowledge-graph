@@ -13,7 +13,7 @@ tags:
 - attention
 - dual-task
 - capacity
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

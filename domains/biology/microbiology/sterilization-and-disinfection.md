@@ -20,7 +20,7 @@ tags:
 - pasteurization
 - D-value
 - endospore resistance
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -24,7 +24,7 @@ tags:
 - seawater
 - temperature
 - pressure
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

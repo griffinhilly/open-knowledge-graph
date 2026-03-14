@@ -15,7 +15,7 @@ tags:
 - prostaglandins
 - fibroblasts
 - tissue repair
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Inflammation and Wound Healing

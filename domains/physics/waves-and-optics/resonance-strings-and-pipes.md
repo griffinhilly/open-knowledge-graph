@@ -15,7 +15,7 @@ tags:
 - open pipe
 - closed pipe
 - overtones
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -23,7 +23,7 @@ tags:
 - reducing-agent
 - half-reaction
 - activity-series
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Oxidation-Reduction Reactions

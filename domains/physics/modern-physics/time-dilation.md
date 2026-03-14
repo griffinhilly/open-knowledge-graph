@@ -15,7 +15,7 @@ tags:
 - time
 - gamma-factor
 - proper-time
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

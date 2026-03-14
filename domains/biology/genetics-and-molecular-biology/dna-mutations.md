@@ -18,7 +18,7 @@ tags:
 - missense
 - nonsense
 - silent
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

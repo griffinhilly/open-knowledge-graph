@@ -18,7 +18,7 @@ tags:
 - coral bleaching
 - symbiosis
 - biodiversity
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

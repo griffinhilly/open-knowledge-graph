@@ -17,7 +17,7 @@ tags:
 - selection
 - fitness
 - adaptation
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

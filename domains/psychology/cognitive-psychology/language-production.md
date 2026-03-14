@@ -11,7 +11,7 @@ tags:
 - production
 - speech-errors
 - psycholinguistics
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

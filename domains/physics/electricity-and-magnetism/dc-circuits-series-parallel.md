@@ -17,7 +17,7 @@ tags:
 - parallel
 - resistors
 - EMF
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

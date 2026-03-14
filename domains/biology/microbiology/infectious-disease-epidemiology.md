@@ -23,7 +23,7 @@ tags:
 - epidemic
 - pandemic
 - incubation period
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Infectious Disease Epidemiology

@@ -18,7 +18,7 @@ tags:
 - mole-ratio
 - theoretical-yield
 - excess-reagent
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

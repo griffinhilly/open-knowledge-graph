@@ -13,7 +13,7 @@ tags:
 - coefficient-of-expansion
 - linear-expansion
 - volumetric-expansion
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 

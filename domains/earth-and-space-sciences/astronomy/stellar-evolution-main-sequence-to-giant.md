@@ -24,7 +24,7 @@ tags:
 - planetary-nebula
 - supernova
 - mass-dependent-evolution
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

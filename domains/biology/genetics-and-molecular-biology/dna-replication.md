@@ -18,7 +18,7 @@ tags:
 - DNA polymerase
 - semi-conservative
 - Okazaki fragments
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

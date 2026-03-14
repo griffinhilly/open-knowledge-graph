@@ -20,7 +20,7 @@ tags:
 - brainstem
 - cerebellum
 - reticular-formation
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

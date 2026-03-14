@@ -22,7 +22,7 @@ tags:
 - habitat-loss
 - invasive-species
 - endangered-species
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Biodiversity Conservation and Extinction Threats

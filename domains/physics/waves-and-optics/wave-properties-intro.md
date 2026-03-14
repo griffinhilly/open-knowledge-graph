@@ -20,7 +20,7 @@ tags:
 - frequency
 - amplitude
 - period
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 

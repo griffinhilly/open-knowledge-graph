@@ -21,7 +21,7 @@ tags:
 - solubility
 - percent-composition
 - solution
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Solution Concentration

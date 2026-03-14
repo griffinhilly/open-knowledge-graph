@@ -16,7 +16,7 @@ tags:
 - trophic-pyramid
 - 10-percent-rule
 - primary-productivity
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

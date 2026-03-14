@@ -17,7 +17,7 @@ tags:
   - protozoa
   - algae
   - classification
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - current
 - resistance
 - circuits
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

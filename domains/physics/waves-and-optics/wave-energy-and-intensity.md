@@ -17,7 +17,7 @@ tags:
 - amplitude
 - inverse square law
 - power
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

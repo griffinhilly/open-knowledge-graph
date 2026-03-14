@@ -13,7 +13,7 @@ tags:
 - forgetting
 - interference
 - decay
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

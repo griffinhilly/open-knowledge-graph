@@ -20,7 +20,7 @@ tags:
 - gravitational-microlensing
 - hot-Jupiters
 - Kepler-mission
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

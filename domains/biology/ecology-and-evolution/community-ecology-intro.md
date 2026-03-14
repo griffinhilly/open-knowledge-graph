@@ -21,7 +21,7 @@ tags:
 - species-richness
 - diversity
 - assemblage
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Community Ecology: Structure and Organization

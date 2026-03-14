@@ -24,7 +24,7 @@ tags:
 - fission
 - fusion
 - radiometric-dating
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

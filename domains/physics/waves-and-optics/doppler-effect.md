@@ -16,7 +16,7 @@ tags:
 - moving source
 - moving observer
 - redshift
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # The Doppler Effect

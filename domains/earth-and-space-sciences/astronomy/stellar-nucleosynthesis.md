@@ -26,7 +26,7 @@ tags:
 - r-process
 - heavy-elements
 - iron-peak
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

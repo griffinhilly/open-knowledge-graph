@@ -21,7 +21,7 @@ tags:
 - work-output
 - hot-reservoir
 - cold-reservoir
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Heat Engines

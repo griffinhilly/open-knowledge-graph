@@ -17,7 +17,7 @@ tags:
 - tension
 - elasticity
 - density
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

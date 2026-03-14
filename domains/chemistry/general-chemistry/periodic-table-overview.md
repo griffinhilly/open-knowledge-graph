@@ -19,7 +19,7 @@ tags:
 - nonmetals
 - metalloids
 - blocks
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - static-friction
 - kinetic-friction
 - normal-force
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 # Friction: Static and Kinetic

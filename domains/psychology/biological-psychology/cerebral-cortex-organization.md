@@ -20,7 +20,7 @@ tags:
 - columns
 - primary-areas
 - association-cortex
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

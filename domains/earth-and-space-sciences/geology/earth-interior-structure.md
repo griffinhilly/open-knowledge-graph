@@ -15,7 +15,7 @@ tags:
 - lithosphere
 - asthenosphere
 - seismic-discontinuities
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

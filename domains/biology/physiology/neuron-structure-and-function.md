@@ -18,7 +18,7 @@ tags:
 - axon
 - myelin
 - nervous system
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

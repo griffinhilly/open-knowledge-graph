@@ -16,7 +16,7 @@ tags:
 - antinodes
 - harmonics
 - modes
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

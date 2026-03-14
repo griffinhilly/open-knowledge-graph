@@ -19,7 +19,7 @@ tags:
 - index of refraction
 - angles
 - quantitative refraction
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

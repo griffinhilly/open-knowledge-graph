@@ -17,7 +17,7 @@ tags:
 - stochastic
 - allele-frequency
 - small-populations
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

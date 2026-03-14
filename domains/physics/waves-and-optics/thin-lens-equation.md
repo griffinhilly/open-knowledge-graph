@@ -19,7 +19,7 @@ tags:
 - magnification
 - focal length
 - image distance
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

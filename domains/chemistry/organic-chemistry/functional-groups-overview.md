@@ -20,7 +20,7 @@ tags:
 - reactivity
 - classification
 - polarity
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Functional Groups in Organic Chemistry

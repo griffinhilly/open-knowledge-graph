@@ -24,7 +24,7 @@ tags:
 - thalamus
 - primary-cortex
 - sensation
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Sensory Pathways Overview

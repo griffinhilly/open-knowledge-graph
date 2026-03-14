@@ -19,7 +19,7 @@ tags:
 - idiosyncratic-risk
 - systematic-risk
 - portfolio
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

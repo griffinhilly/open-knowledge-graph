@@ -18,7 +18,7 @@ tags:
 - stefan-boltzmann
 - blackbody
 - emissivity
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 # Heat Transfer: Radiation

@@ -20,7 +20,7 @@ tags:
 - Fick's law
 - hemoglobin
 - oxygen dissociation curve
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

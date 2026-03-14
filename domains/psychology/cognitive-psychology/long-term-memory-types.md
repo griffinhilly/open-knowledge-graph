@@ -18,7 +18,7 @@ tags:
 - procedural
 - episodic
 - semantic
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

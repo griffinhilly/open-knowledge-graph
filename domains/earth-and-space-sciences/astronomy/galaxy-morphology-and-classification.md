@@ -19,7 +19,7 @@ tags:
 - barred-spirals
 - irregular-galaxies
 - lenticular-galaxies
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

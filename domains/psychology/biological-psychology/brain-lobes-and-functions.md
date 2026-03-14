@@ -23,7 +23,7 @@ tags:
 - temporal-lobe
 - occipital-lobe
 - cortex
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - astrocytes
 - myelin
 - blood-brain-barrier
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

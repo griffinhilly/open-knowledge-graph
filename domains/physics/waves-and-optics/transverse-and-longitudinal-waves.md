@@ -15,7 +15,7 @@ tags:
 - mechanical waves
 - compression
 - rarefaction
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - energy
 - joule-heating
 - circuits
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

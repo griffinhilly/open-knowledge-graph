@@ -18,7 +18,7 @@ tags:
 - 2d-motion
 - vectors
 - components
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Kinematics in Two Dimensions

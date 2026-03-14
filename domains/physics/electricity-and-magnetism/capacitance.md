@@ -17,7 +17,7 @@ tags:
 - capacitors
 - charge-storage
 - parallel-plate
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -21,7 +21,7 @@ tags:
 - producers
 - consumers
 - decomposers
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 # Trophic Levels and Food Webs

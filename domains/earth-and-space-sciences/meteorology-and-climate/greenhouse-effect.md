@@ -24,7 +24,7 @@ tags:
 - CO2
 - water-vapor
 - infrared
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

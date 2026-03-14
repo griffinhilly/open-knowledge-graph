@@ -22,7 +22,7 @@ tags:
 - FMT
 - commensals
 - probiotics
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Human Microbiome

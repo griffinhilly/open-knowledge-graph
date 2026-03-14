@@ -19,7 +19,7 @@ tags:
 - index-fossils
 - trace-fossils
 - evolution
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 # Fossils and Paleontology

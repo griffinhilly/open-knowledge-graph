@@ -17,7 +17,7 @@ tags:
 - dorsal-stream
 - ventral-stream
 - vision
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Visual Processing Pathway

@@ -17,7 +17,7 @@ tags:
 - cation
 - anion
 - crystal-lattice
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

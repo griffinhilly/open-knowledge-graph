@@ -18,7 +18,7 @@ tags:
 - nonpolar-molecule
 - symmetry
 - bond-dipole
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

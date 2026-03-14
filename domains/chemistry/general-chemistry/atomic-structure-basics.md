@@ -22,7 +22,7 @@ tags:
 - isotopes
 - atomic-number
 - mass-number
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 

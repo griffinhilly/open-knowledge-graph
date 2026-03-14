@@ -17,7 +17,7 @@ tags:
 - compounding
 - interest
 - growth
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

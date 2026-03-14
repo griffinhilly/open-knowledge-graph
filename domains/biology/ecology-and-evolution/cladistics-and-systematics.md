@@ -14,7 +14,7 @@ tags:
 - taxonomy
 - systematics
 - monophyly
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

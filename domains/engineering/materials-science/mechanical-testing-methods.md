@@ -15,7 +15,7 @@ tags:
 - impact-test
 - charpy
 - mechanical-testing
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

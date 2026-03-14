@@ -23,7 +23,7 @@ tags:
 - thunder
 - CAPE
 - severe-convection
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 # Thunderstorms and Lightning

@@ -12,7 +12,7 @@ builds-toward:
   - host-pathogen-interactions
   - emerging-infectious-diseases
 tags: [virus, lytic-cycle, lysogenic-cycle, bacteriophage, replication, assembly]
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

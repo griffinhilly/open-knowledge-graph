@@ -22,7 +22,7 @@ tags:
 - x-ray
 - gamma-ray
 - multi-wavelength
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - virtual image
 - image distance
 - laterally inverted
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 

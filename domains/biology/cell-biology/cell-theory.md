@@ -11,7 +11,7 @@ tags:
 - foundations
 - history-of-biology
 - cell-theory
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

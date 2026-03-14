@@ -18,7 +18,7 @@ tags:
 - small intestine
 - pancreas
 - liver
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 

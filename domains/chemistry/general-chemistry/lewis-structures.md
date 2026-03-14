@@ -17,7 +17,7 @@ tags:
 - bonding-pairs
 - octet-rule
 - polyatomic-ions
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

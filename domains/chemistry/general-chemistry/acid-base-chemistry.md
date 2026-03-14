@@ -18,7 +18,7 @@ tags:
 - strong-acid
 - weak-acid
 - amphoteric
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

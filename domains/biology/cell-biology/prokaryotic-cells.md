@@ -13,7 +13,7 @@ tags:
 - prokaryotes
 - bacteria
 - cell-structure
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

@@ -20,7 +20,7 @@ tags:
 - decay-constant
 - exponential
 - carbon-dating
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

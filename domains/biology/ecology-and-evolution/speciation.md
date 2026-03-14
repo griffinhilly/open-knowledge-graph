@@ -24,7 +24,7 @@ tags:
 - reproductive-isolation
 - allopatry
 - sympatry
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Speciation

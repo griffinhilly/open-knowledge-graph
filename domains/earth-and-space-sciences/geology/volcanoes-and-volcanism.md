@@ -19,7 +19,7 @@ tags:
 - shield
 - stratovolcano
 - pyroclastic
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 # Volcanoes and Volcanism

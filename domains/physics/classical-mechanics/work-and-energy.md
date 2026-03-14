@@ -23,7 +23,7 @@ tags:
 - energy
 - dot-product
 - force-displacement
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Work Done by a Force

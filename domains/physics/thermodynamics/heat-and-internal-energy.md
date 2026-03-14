@@ -17,7 +17,7 @@ tags:
 - internal-energy
 - thermal-energy
 - energy-transfer
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 

@@ -20,7 +20,7 @@ tags:
 - bonding
 - skeletal structures
 - intro
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

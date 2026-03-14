@@ -18,7 +18,7 @@ tags:
 - learning
 - instructional-design
 - working-memory
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

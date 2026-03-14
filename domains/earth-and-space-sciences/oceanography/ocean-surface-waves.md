@@ -19,7 +19,7 @@ tags:
 - wave height
 - fetch
 - dispersion
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

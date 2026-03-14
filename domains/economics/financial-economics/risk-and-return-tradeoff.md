@@ -25,7 +25,7 @@ tags:
 - risk-aversion
 - return
 - sharpe-ratio
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Risk and Return Tradeoff

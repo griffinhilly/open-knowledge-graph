@@ -18,7 +18,7 @@ tags:
 - system-2
 - automatic
 - controlled
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

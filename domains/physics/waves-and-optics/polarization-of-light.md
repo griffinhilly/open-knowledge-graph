@@ -18,7 +18,7 @@ tags:
 - transverse wave
 - electric field
 - Brewster's angle
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Polarization of Light

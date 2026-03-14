@@ -20,7 +20,7 @@ tags:
 - mantle-convection
 - continental-drift
 - seafloor-spreading
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - rRNA
 - non-coding RNA
 - RNA structure
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

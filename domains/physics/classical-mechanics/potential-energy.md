@@ -14,7 +14,7 @@ tags:
 - gravitational-PE
 - elastic-PE
 - Hooke-law
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

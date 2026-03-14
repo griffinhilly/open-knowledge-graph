@@ -17,7 +17,7 @@ tags:
 - coefficients
 - reaction-types
 - stoichiometric-ratio
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

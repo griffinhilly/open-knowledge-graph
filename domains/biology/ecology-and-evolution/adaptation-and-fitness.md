@@ -15,7 +15,7 @@ tags:
 - fitness
 - phenotype
 - evolution
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

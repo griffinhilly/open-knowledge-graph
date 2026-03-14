@@ -21,7 +21,7 @@ tags:
 - efflux-pumps
 - beta-lactamase
 - horizontal-gene-transfer
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Antibiotic Resistance Mechanisms

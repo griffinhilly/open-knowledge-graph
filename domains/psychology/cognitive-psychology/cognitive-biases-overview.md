@@ -20,7 +20,7 @@ tags:
 - judgment
 - decision-making
 - heuristics
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Cognitive Biases and Judgment Under Uncertainty

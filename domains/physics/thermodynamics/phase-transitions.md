@@ -18,7 +18,7 @@ tags:
 - condensation
 - freezing
 - solid-liquid-gas
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 

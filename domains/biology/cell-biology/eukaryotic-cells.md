@@ -16,7 +16,7 @@ tags:
 - eukaryotes
 - cell-structure
 - compartmentalization
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - planetary-motion
 - elliptical-orbit
 - orbital-period
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

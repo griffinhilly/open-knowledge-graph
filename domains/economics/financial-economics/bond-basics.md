@@ -18,7 +18,7 @@ tags:
 - coupon
 - face-value
 - debt-securities
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - critical-point
 - PT-diagram
 - supercritical
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

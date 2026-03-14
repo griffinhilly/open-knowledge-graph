@@ -14,7 +14,7 @@ tags:
 - induction
 - generalization
 - category-learning
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

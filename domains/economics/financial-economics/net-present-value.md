@@ -16,7 +16,7 @@ tags:
 - investment-decision
 - capital-budgeting
 - dcf
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

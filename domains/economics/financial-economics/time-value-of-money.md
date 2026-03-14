@@ -20,7 +20,7 @@ tags:
 - discounting
 - compounding
 - finance-foundations
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

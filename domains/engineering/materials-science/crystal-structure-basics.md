@@ -21,7 +21,7 @@ tags:
 - unit-cell
 - lattice
 - structure
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

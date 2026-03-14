@@ -13,7 +13,7 @@ tags:
 - elastic
 - inelastic
 - perfectly-inelastic
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

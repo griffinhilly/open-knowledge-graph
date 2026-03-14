@@ -23,7 +23,7 @@ tags:
 - chemical
 - biogenic
 - strata
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - telescope
 - angular magnification
 - resolving power
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

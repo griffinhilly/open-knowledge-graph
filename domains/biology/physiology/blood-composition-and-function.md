@@ -19,7 +19,7 @@ tags:
 - platelets
 - plasma
 - hemoglobin
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -20,7 +20,7 @@ tags:
 - potential
 - equipotential
 - electrostatics
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

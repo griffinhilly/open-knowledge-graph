@@ -16,7 +16,7 @@ tags:
 - organelles
 - cell-function
 - compartmentalization
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

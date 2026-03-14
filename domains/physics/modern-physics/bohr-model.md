@@ -20,7 +20,7 @@ tags:
 - energy-levels
 - quantization
 - bohr
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

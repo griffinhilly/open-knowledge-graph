@@ -13,7 +13,7 @@ tags:
 - SHM
 - oscillation
 - gravity
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

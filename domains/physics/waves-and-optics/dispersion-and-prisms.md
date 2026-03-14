@@ -14,7 +14,7 @@ tags:
 - spectrum
 - rainbow
 - index of refraction
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

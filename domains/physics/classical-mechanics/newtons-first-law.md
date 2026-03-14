@@ -14,7 +14,7 @@ tags:
 - inertia
 - force
 - equilibrium
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 

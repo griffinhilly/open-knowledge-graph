@@ -18,7 +18,7 @@ tags:
 - DNA
 - RNA
 - protein
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - focal length
 - object distance
 - image distance
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

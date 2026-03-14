@@ -14,7 +14,7 @@ tags:
 - E=mc2
 - rest-energy
 - nuclear
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

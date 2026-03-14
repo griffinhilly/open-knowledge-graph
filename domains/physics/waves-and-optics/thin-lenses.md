@@ -18,7 +18,7 @@ tags:
 - diverging lens
 - focal point
 - principal axis
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

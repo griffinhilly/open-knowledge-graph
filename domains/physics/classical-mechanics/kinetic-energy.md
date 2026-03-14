@@ -15,7 +15,7 @@ tags:
 - energy
 - speed
 - mass
-stage: formal-systems
+stage: concrete-operations
 status: validated
 ---
 

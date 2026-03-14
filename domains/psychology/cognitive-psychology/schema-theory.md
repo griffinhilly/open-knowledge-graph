@@ -15,7 +15,7 @@ tags:
 - schemas
 - knowledge-representation
 - top-down-processing
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

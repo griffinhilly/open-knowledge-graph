@@ -17,7 +17,7 @@ tags:
 - analogy
 - transfer
 - structure-mapping
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 # Analogical Reasoning and Transfer

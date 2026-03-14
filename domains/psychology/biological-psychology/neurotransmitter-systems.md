@@ -21,7 +21,7 @@ tags:
 - glutamate
 - acetylcholine
 - neurotransmitters
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

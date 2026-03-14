@@ -10,7 +10,7 @@ builds-toward:
   - microbial-ecology-overview
   - microbial-biotechnology
 tags: [fungi, yeast, mold, hyphae, spores, chitin, mycology]
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 
