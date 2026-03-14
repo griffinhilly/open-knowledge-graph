@@ -6,10 +6,14 @@ course: computer-architecture
 prerequisites:
 - id: flip-flops-and-latches
   type: hard
+- id: sequential-circuit-design
+  type: soft
+builds-toward:
+- state-machine-in-processor-design
 tags:
+- sequential-circuits
 - shift-register
-- sequential-logic
-- data-conversion
+- serial-parallel
 stage: formal-systems
 status: draft
 ---
@@ -17,4 +21,4 @@ status: draft
 # Shift Register Design and Applications
 
 ## Core Idea
-Shift registers move data left or right by one position per clock cycle. Applications include serial-to-parallel conversion, parallel-to-serial conversion, delay buffers, and pattern generation.
+A shift register is a chain of flip-flops that shifts data left or right. Serial-in, parallel-out (SIPO) shift registers convert serial data to parallel; parallel-in, serial-out (PISO) do the reverse. Shift registers are used for serial communication, pattern detection, and controlling sequencing of operations.
