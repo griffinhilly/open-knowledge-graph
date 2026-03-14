@@ -1,34 +1,23 @@
 ---
 id: addition-subtraction-relationship
-title: Addition and Subtraction as Inverse Operations
+title: Addition and Subtraction Relationship
 domain: mathematics
 course: 1st-grade
 prerequisites:
-- id: fact-families
+- id: addition-within-10
   type: hard
-- id: addition-within-20
-  type: hard
-- id: subtraction-within-20
+- id: subtraction-within-10
   type: hard
 builds-toward:
-- addition-subtraction-word-problems
+- fact-families
 tags:
 - inverse-operations
-- addition
-- subtraction
-- algebraic-thinking
+- relationships
 stage: pre-formal
-status: validated
+status: draft
 ---
 
-# Addition and Subtraction as Inverse Operations
+# Addition and Subtraction Relationship
 
 ## Core Idea
-Addition and subtraction are inverse operations: each undoes the other. If 6 + 4 = 10, then 10 − 4 = 6 and 10 − 6 = 4. Recognizing this relationship allows students to use addition to check subtraction and to find missing addends in equations like ? + 4 = 10. This inverse relationship is the earliest form of algebraic thinking.
-
-## How It's Best Learned
-Use story contexts where something is added and then taken away to restore the original. Number bond models make the part-part-whole structure concrete and show how any one piece can be found when the other two are known.
-
-## Common Misconceptions
-- Treating addition and subtraction as completely separate with no connection.
-- Difficulty identifying which number is the whole versus the parts in a number bond situation.
+Addition and subtraction are inverse operations: if 5+3=8, then 8-3=5 and 8-5=3. Recognizing this relationship helps students see that fact families belong together and supports flexible thinking.

@@ -4,37 +4,26 @@ title: 'Place Value: Tens and Ones'
 domain: mathematics
 course: 1st-grade
 prerequisites:
-- id: counting-to-20
-  type: hard
-- id: counting-objects-to-20
-  type: hard
-- id: cardinality-principle
+- id: skip-counting-by-10s
   type: hard
 builds-toward:
-- counting-to-100
 - comparing-two-digit-numbers
-- adding-tens
-- skip-counting-by-10s
 - two-digit-addition-no-regrouping
 tags:
 - place-value
-- tens
-- ones
-- two-digit-numbers
-- number-sense
+- positional-notation
 stage: pre-formal
-status: validated
+status: draft
 ---
 
 # Place Value: Tens and Ones
 
 ## Core Idea
-Every two-digit number is composed of some number of tens and some ones. The number 37 means 3 groups of ten and 7 individual ones: 30 + 7 = 37. The position of a digit tells you its value — the tens place is worth ten times more than the ones place. This is the foundation for all multi-digit arithmetic.
+A two-digit number like 23 is composed of 2 tens and 3 ones (meaning 20 + 3). Understanding place value reveals that the position of a digit determines its value—fundamental to all multi-digit arithmetic.
 
 ## How It's Best Learned
-Use base-ten blocks (ten-rods and unit cubes) extensively, letting students build numbers before recording them. Bundle groups of ten craft sticks to physically experience regrouping. Connect the concrete representation to the written numeral digit by digit.
+Use base-ten blocks, bundle sticks, and place value charts. Have students represent the same number in multiple ways.
 
 ## Common Misconceptions
-- Writing 37 as '307' (treating three tens and seven ones as three, zero, seven).
-- Thinking the '3' in 37 represents 3 rather than 30.
-- Difficulty with round numbers like 40 that have 0 ones.
+- Viewing 23 as separate digits '2' and '3' rather than 20 and 3.
+- Confusion between digit placement and its actual value.

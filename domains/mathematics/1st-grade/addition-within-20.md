@@ -6,35 +6,26 @@ course: 1st-grade
 prerequisites:
 - id: addition-within-10
   type: hard
-- id: counting-to-20
-  type: hard
-- id: number-recognition-11-20
-  type: hard
-- id: number-line-0-to-20
-  type: soft
 builds-toward:
-- subtraction-within-20
-- addition-subtraction-relationship
-- addition-subtraction-word-problems
 - two-digit-addition-no-regrouping
+- addition-subtraction-word-problems
 tags:
 - addition
 - arithmetic
-- within-20
-- number-sense
-- make-a-ten
+- single-digit
 stage: pre-formal
-status: validated
+status: draft
 ---
+
 # Addition Within 20
 
 ## Core Idea
-Addition within 20 extends joining skills to sums up to 20. Key strategies include making a ten (8 + 5 = 8 + 2 + 3 = 13) and using doubles (7 + 7 = 14) and near-doubles. Building fluency with sums to 20 is a cornerstone of early arithmetic that supports all future computation.
+Adding two numbers with a sum to 20 extends earlier skills using strategies like counting on, making ten, and ten-frame visualization. Fluency with these facts is fundamental to later arithmetic.
 
 ## How It's Best Learned
-Teach 'make a ten' using two ten-frames visually. Doubles facts (1+1 through 10+10) should be memorized first, then near-doubles (6 + 7 = 6 + 6 + 1). Connect each strategy to the number line so students see the jumps.
+Use ten frames, number lines, and manipulatives. Emphasize the commutative property. Practice counting on rather than recounting from one.
 
 ## Common Misconceptions
-- Relying solely on counting all rather than using efficient strategies like making a ten.
-- Confusion between teen numbers and their digit representations (e.g., writing 13 as 31).
-- Not recognizing that addends can be reordered (commutative property).
+- Recounting from one instead of counting on.
+- Difficulty with teen numbers (11-19).
+- Confusion about which strategy is most efficient for a given problem.

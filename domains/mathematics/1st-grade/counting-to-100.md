@@ -6,34 +6,26 @@ course: 1st-grade
 prerequisites:
 - id: counting-to-20
   type: hard
-- id: ordering-numbers-to-20
-  type: hard
-- id: place-value-tens-and-ones
-  type: soft
 builds-toward:
-- skip-counting-by-2s
-- skip-counting-by-5s
 - skip-counting-by-10s
-- comparing-two-digit-numbers
+- place-value-tens-and-ones
 tags:
 - counting
 - number-sequence
-- '100'
-- number-sense
-- hundred-chart
+- foundational
 stage: pre-formal
-status: validated
+status: draft
 ---
 
 # Counting to 100
 
 ## Core Idea
-Counting to 100 means reciting the number sequence correctly from 1 to 100 and eventually starting from any number. Students learn the decade pattern — after 19 comes 20, after 29 comes 30 — and see that each new decade resets the ones digit to zero. The hundred chart is a powerful tool that reveals the structure of our base-ten system.
+Extending counting skills to 100 builds on patterns learned to 20. Students notice that the sequence repeats: 1-10, 11-20, 21-30, and so on. This develops number sense essential for place value understanding.
 
 ## How It's Best Learned
-Use a hundred chart daily for counting practice. Practice counting from different starting points, not only from 1. Highlight decade numbers (10, 20, 30…) in a different color to emphasize the repeating pattern.
+Use number charts, hundreds boards, and daily calendar counting. Sing counting songs and emphasize the repeating pattern.
 
 ## Common Misconceptions
-- Trouble at decade transitions (saying 'twenty-nine, twenty-ten' instead of thirty).
-- Inventing nonsense names for teen numbers (e.g., 'onety-one').
-- Skipping or repeating numbers in the middle ranges, especially the 40s and 50s.
+- Skipping numbers in the sequence.
+- Assuming teen numbers (11-19) don't follow a pattern.
+- Confusing the pattern in decades (20s, 30s, 40s).
