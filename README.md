@@ -48,7 +48,7 @@ The Markdown body contains a human-readable explanation, pedagogical notes, and 
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/open-knowledge-graph.git
+git clone https://github.com/griffinhilly/open-knowledge-graph.git
 cd open-knowledge-graph
 
 # Validate the graph (requires Python 3.10+, PyYAML)
