@@ -5,30 +5,20 @@ domain: social-sciences
 course: sociological-theory
 prerequisites:
 - id: sociological-imagination
-  type: soft
-- id: comte-positivism-sociology
-  type: soft
+  type: hard
 builds-toward:
-- parsons-systems-theory
-- robert-merton-sociology
-- institution-theory-sociology
-- sociology-of-knowledge
+- talcott-parsons-action-systems
+- robert-merton-functional-analysis
 tags:
-- macro-sociology
 - functionalism
+- macro-sociology
 - structure
-- stability
-stage: advanced
+- function
+stage: abstract-reasoning
 status: draft
 ---
 
 # Structural Functionalism
 
 ## Core Idea
-Structural functionalism views society as an integrated system where institutions perform functions (meeting needs, maintaining order). Like biological organisms, social systems have structures adapted to survive. Change is gradual adaptation; deviance and conflict disrupt equilibrium. The perspective explains social stability but struggles with explaining change and conflict.
-
-## How It's Best Learned
-Analyze a social institution (family, education, religion). What functions does it perform? How do these maintain social order?
-
-## Common Misconceptions
-Functionalism isn't saying whatever exists is beneficial—institutions can have latent dysfunctions and unintended consequences.
+Structural functionalism views society as a system of interconnected parts (institutions, norms, roles) that function to maintain social stability and integration. Each part serves functions for the whole; social change occurs to restore equilibrium when dysfunctions arise.
