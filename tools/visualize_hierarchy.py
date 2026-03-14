@@ -284,6 +284,18 @@ canvas {{ display:block; }}
   padding:3px 10px; cursor:pointer; font-size:13px; color:#ccc;
 }}
 #controls button:hover {{ background:#3a3a5a; }}
+#nav {{
+  position:fixed; top:16px; left:50%; transform:translateX(-50%);
+  background:rgba(26,26,46,0.92); border:1px solid #333;
+  border-radius:8px; padding:6px 14px; z-index:10;
+  display:flex; gap:12px;
+}}
+#nav a {{
+  color:#aaa; text-decoration:none; font-size:13px;
+  padding:2px 8px; border-radius:4px;
+  transition:color 0.2s, background 0.2s;
+}}
+#nav a:hover {{ color:#eee; background:rgba(255,255,255,0.08); }}
 </style>
 </head>
 <body>
@@ -297,6 +309,10 @@ canvas {{ display:block; }}
 </div>
 
 <div id="legend"></div>
+<div id="nav">
+  <a href="index.html">All Domains</a>
+  <a href="radial-graph.html">Radial Graph</a>
+</div>
 <div id="controls">
   <button onclick="resetView()">Reset</button>
   <button onclick="zoomBtn(1.3)">+</button>
