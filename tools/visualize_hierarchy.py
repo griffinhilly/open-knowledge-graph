@@ -671,7 +671,10 @@ h1 {{ color:#eee; margin-bottom:8px; font-size:28px; }}
 <div class="grid">
 {rows}
 </div>
-<a href="full-graph-hierarchy.html" class="full-link">View Full Cross-Domain Graph</a>
+<div style="margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;">
+<a href="radial-graph.html" class="full-link" style="background:#3a2a6a;">View Radial Graph (All Domains)</a>
+<a href="full-graph-hierarchy.html" class="full-link">View Hierarchy Graph (All Domains)</a>
+</div>
 </body>
 </html>"""
 
