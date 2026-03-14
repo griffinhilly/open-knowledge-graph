@@ -1,31 +1,25 @@
 ---
 id: natural-isomorphisms
-title: Natural Isomorphisms and Categorical Equivalence
+title: Natural Isomorphisms Between Functors
 domain: formal-sciences-and-logic
 course: category-theory
 prerequisites:
 - id: natural-transformations
   type: hard
-- id: isomorphisms-in-categories
+- id: functors
   type: hard
 builds-toward:
 - equivalence-of-categories
-- categorical-equivalence
+- adjoint-functors
 tags:
-- natural-transformations
-- isomorphisms
+- functors
 - equivalence
-stage: abstract-reasoning
+- natural-transformations
+stage: advanced
 status: draft
 ---
 
-# Natural Isomorphisms and Categorical Equivalence
+# Natural Isomorphisms Between Functors
 
 ## Core Idea
-A natural isomorphism is a natural transformation where every component is an isomorphism, providing a notion of 'categorical sameness' for functors. When two functors are related by a natural isomorphism, they are genuinely equivalent in the categorical sense. This formalizes the intuition that two functors accomplish the same categorical work even if their explicit definitions differ.
-
-## How It's Best Learned
-Study examples where natural isomorphisms arise: between different but equivalent constructions of free objects, between different homology theories, and between adjoint pairs. Verify componentwise that each morphism is indeed an isomorphism.
-
-## Common Misconceptions
-Natural isomorphism is not the same as isomorphism of functors in the functor category; commutativity of the naturality squares is essential. Some students confuse it with identity of functors.
+A natural isomorphism between functors F, G: C → D is a natural transformation α: F ⇒ G where each component α_c: F(c) → G(c) is an isomorphism. Natural isomorphisms express that two functors are 'the same up to isomorphism' in a way respecting naturality. They form the 2-morphisms in the 2-category Cat.

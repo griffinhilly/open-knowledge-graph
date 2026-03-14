@@ -1,33 +1,29 @@
 ---
 id: additive-categories
-title: Additive Categories
+title: Additive Categories and Direct Sums
 domain: formal-sciences-and-logic
 course: category-theory
 prerequisites:
-- id: categories-and-morphisms
+- id: monomorphisms-epimorphisms
   type: hard
-- id: initial-and-terminal-objects
+- id: zero-objects-and-morphisms
   type: hard
 - id: products-and-coproducts
-  type: hard
+  type: soft
 builds-toward:
-- abelian-categories
-- biproducts-in-categories
+- exact-sequences
+- abelian-structure-properties
+- projective-objects
+- injective-objects
 tags:
-- additive-structure
-- abelian-groups
-- hom-sets
-stage: abstract-reasoning
+- algebraic-structure
+- limits
+- homological-algebra
+stage: advanced
 status: draft
 ---
 
-# Additive Categories
+# Additive Categories and Direct Sums
 
 ## Core Idea
-An additive category is a category enriched in abelian groups where hom-sets admit addition operations compatible with morphism composition, and where finite products coincide with finite coproducts (called biproducts). Additive categories generalize the structure of modules and provide the algebraic foundation for homological algebra.
-
-## How It's Best Learned
-Begin with the category of abelian groups and modules over a ring. Verify that morphism sets form abelian groups under pointwise addition and that biproducts exist. Then examine more abstract additive categories and their universal properties.
-
-## Common Misconceptions
-Additivity does not require the category to have zero objects, though it ensures their existence. Another misconception: not every category enriched over abelian groups is additive without additional structure.
+An additive category is an Ab-enriched category where Hom-sets are abelian groups and composition is bilinear. Finite products and coproducts coincide (both are direct sums). Additive categories provide the minimal algebraic structure to define exact sequences and chain complexes, forming the foundation of homological algebra.
