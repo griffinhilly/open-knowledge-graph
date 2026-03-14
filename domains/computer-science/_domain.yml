@@ -22,15 +22,3 @@ courses:
 - id: theory-of-computation
   title: Theory of Computation
   stage: advanced
-- id: artificial-intelligence
-  title: Artificial Intelligence & Machine Learning
-  stage: advanced
-- id: computer-networking
-  title: Computer Networking
-  stage: advanced
-- id: compilers
-  title: Compilers & Programming Languages
-  stage: advanced
-- id: distributed-systems
-  title: Distributed Systems
-  stage: advanced
