@@ -6,14 +6,16 @@ course: philosophy-of-science
 prerequisites:
 - id: universals-and-particulars
   type: hard
-- id: properties-intrinsic-extrinsic
+- id: essentialism-and-accidentalism
   type: soft
 builds-toward:
-- laws-of-nature-metaphysics
+- reduction-emergence-science
+- philosophy-of-biology
 tags:
 - natural-kinds
 - classification
-- metaphysics
+- essence
+- species
 stage: advanced
 status: draft
 ---
@@ -21,4 +23,4 @@ status: draft
 # Natural Kinds and Scientific Classification
 
 ## Core Idea
-Natural kinds are categories whose members share deep, non-arbitrary properties—like chemical elements or biological species—in contrast to conventional kinds like 'furniture.' Identifying natural kinds is crucial for meaningful scientific taxonomy, enabling induction and generalization across nature.
+Are scientific categories like 'gold', 'acid', 'gene', or 'species' discovered in nature or imposed by human interests? Natural kind theory holds that some classifications carve nature at its joints: genuine categories reflecting real boundaries based on underlying essences or causal structures. Scientific progress often involves discovering what really distinguishes entities. The nature of natural kinds shapes our understanding of scientific taxonomy, reduction, and the objectivity of science.

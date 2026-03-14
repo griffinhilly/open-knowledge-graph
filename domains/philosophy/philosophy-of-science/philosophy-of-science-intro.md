@@ -5,12 +5,14 @@ domain: philosophy
 course: philosophy-of-science
 prerequisites: []
 builds-toward:
-- problem-of-demarcation
-- scientific-explanation-introduction
+- demarcation-problem-science
+- scientific-method-and-observation
+- logical-positivism
+- kuhn-paradigm-theory
 tags:
-- intro
 - foundations
-- nature-of-science
+- methodology
+- meta-science
 stage: advanced
 status: draft
 ---
@@ -18,4 +20,12 @@ status: draft
 # Introduction to Philosophy of Science
 
 ## Core Idea
-Philosophy of science examines the nature, methods, and presuppositions of scientific inquiry itself. It asks what makes something science, how scientific knowledge differs from other forms of knowledge, and whether scientific theories truly describe reality or merely predict phenomena. These questions underlie debates about which activities deserve the label 'science' and how we should trust scientific claims.
+Philosophy of science examines the nature, methods, and limits of scientific knowledge. It investigates questions like: What distinguishes science from non-science? How do observations relate to theories? What makes scientific explanations valid? This course explores major schools of thought that have shaped our understanding of how science works.
+
+## How It's Best Learned
+Begin with historical case studies (Copernican revolution, germ theory, quantum mechanics) to see how philosophical questions arise from actual scientific practice. Then examine formal criteria (falsifiability, confirmation) and historical accounts of scientific change.
+
+## Common Misconceptions
+- Science is a simple accumulation of facts discovered through neutral observation.
+- There is one 'scientific method' universally applied.
+- Philosophical questions about science are separate from actual scientific work.
