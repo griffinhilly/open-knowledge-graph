@@ -1,26 +1,25 @@
 ---
 id: basis-and-dimension
-title: Basis and Dimension of Vector Spaces
+title: Basis and Dimension
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: span-and-basis
+- id: linear-independence
+  type: hard
+- id: span-of-vectors
   type: hard
 builds-toward:
-- change-of-basis-matrices
-- linear-transformations-definition
-- rank-nullity-theorem
+- rank-and-nullity-theorem
+- change-of-basis
 tags:
 - basis
 - dimension
+- coordinates
 stage: formal-systems
 status: draft
 ---
 
-# Basis and Dimension of Vector Spaces
+# Basis and Dimension
 
 ## Core Idea
-Every finite-dimensional vector space has a basis, and all bases have the same size—the dimension dim(V). A set of n linearly independent vectors in an n-dimensional space is a basis. Dimension is additive: dim(U + W) = dim(U) + dim(W) − dim(U ∩ W). Coordinates relative to a basis provide an isomorphism with Rⁿ.
-
-## How It's Best Learned
-Find bases for familiar spaces: {1, x, x²} for polynomials of degree ≤ 2 (dim = 3); standard basis eᵢ for Rⁿ (dim = n). Use row reduction to find basis for column/null space.
+A basis of vector space V is a linearly independent spanning set. Every basis has the same cardinality, called the dimension of V. Dimension is the minimum number of vectors needed to span V and the maximum size of a linearly independent set. Coordinates relative to a basis are unique.

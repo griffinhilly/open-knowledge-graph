@@ -1,29 +1,24 @@
 ---
 id: vector-spaces
-title: 'Vector Spaces: Axioms and Examples'
+title: Vector Spaces
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: vectors-in-rn-operations
+- id: vectors-in-rn
   type: hard
-- id: group-definition-and-examples
-  type: soft
 builds-toward:
-- vector-subspaces
-- basis-and-dimension
+- subspaces
 - linear-independence
+- basis-and-dimension
 tags:
 - vector-spaces
+- abstract-spaces
 - axioms
-- abstract
 stage: formal-systems
 status: draft
 ---
 
-# Vector Spaces: Axioms and Examples
+# Vector Spaces
 
 ## Core Idea
-A vector space over a field F is a set V with addition and scalar multiplication satisfying 8 axioms (closure, associativity, identity, inverses, distributivity, etc.). Familiar examples: Rⁿ, polynomial spaces, function spaces, and matrices. Abstract vector spaces unify diverse mathematical objects under a single algebraic structure.
-
-## How It's Best Learned
-Verify axioms for concrete examples like R³ and polynomials of degree ≤ 2. Identify which sets are and are not vector spaces (e.g., symmetric 2×2 matrices vs. all 2×2 matrices with det = 1).
+A vector space over ℝ is a set V with addition and scalar multiplication satisfying eight axioms: closure, associativity, commutativity, additive identity, additive inverses, distributivity, associativity of scalar multiplication, and scalar multiplicative identity. Examples include Rⁿ, polynomials of degree ≤ n, and continuous functions on [a,b].

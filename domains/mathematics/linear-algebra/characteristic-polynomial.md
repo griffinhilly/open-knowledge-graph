@@ -1,24 +1,25 @@
 ---
 id: characteristic-polynomial
-title: Characteristic Polynomial and Eigenvalue Computation
+title: Characteristic Polynomial
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: linear-transformation-matrix-representation
+- id: determinants-2x2-3x3
   type: hard
-- id: determinant-computation
+- id: matrix-multiplication
   type: hard
 builds-toward:
-- eigenvalues-eigenvectors-introduction
-- diagonalization-similar-matrices
+- eigenvalues-and-eigenvectors
+- diagonalization
 tags:
 - characteristic-polynomial
 - eigenvalues
+- determinant
 stage: formal-systems
 status: draft
 ---
 
-# Characteristic Polynomial and Eigenvalue Computation
+# Characteristic Polynomial
 
 ## Core Idea
-The characteristic polynomial is char(A) = det(A − λI), a polynomial of degree n. Its roots are the eigenvalues of A. For an n×n matrix, the characteristic polynomial has degree n, yielding at most n eigenvalues (counting multiplicity). Cayley-Hamilton theorem: A satisfies its own characteristic equation, char(A) = 0.
+The characteristic polynomial of n × n matrix A is p(λ) = det(A − λI), a polynomial of degree n. The eigenvalues of A are the roots of p(λ). By the Cayley–Hamilton theorem, A satisfies its own characteristic equation: p(A) = 0.

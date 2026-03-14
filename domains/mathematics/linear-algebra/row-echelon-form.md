@@ -1,35 +1,23 @@
 ---
 id: row-echelon-form
-title: Row Echelon Form and Reduced Row Echelon Form
+title: Row Echelon Form (REF)
 domain: mathematics
 course: linear-algebra
 prerequisites:
 - id: gaussian-elimination
   type: hard
 builds-toward:
-- matrix-inverses
-- null-space
-- linear-independence
+- reduced-row-echelon-form
 - rank-and-nullity-theorem
 tags:
-- RREF
-- REF
-- pivot
-- free variables
-- reduced row echelon
+- row-echelon-form
+- ref
+- matrix-form
 stage: formal-systems
-status: validated
+status: draft
 ---
 
-# Row Echelon Form and Reduced Row Echelon Form
+# Row Echelon Form (REF)
 
 ## Core Idea
-A matrix is in row echelon form (REF) when all zero rows are at the bottom and each nonzero row's leading entry (pivot) lies strictly to the right of the pivot in the row above. Reduced row echelon form (RREF) adds two requirements: each pivot equals 1 and is the only nonzero entry in its column. Every matrix has a unique RREF, reached by continuing Gaussian elimination with upward-elimination steps (Gauss-Jordan elimination). The pivot columns and free variables read directly off the RREF, revealing the structure of the solution set.
-
-## How It's Best Learned
-Distinguish carefully between REF and RREF: REF suffices for back-substitution; RREF makes the solution explicit without back-substitution. Practice identifying pivot positions and counting free variables from RREF before applying it to null space and rank calculations.
-
-## Common Misconceptions
-- Students confuse REF and RREF; only RREF is unique, while multiple REFs exist for the same matrix.
-- A column containing a pivot does not mean the corresponding variable is freely chosen — it means it is a basic (determined) variable.
-- Rows of all zeros are valid in RREF and must be pushed to the bottom.
+Row echelon form is a matrix structure where all nonzero rows are above zero rows, and the leading entry (pivot) in each nonzero row is to the right of the pivot above it. REF is obtained by Gaussian elimination and reveals the rank of a matrix and the solution structure of Ax = b.

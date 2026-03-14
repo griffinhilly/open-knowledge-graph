@@ -1,33 +1,28 @@
 ---
 id: dot-product
-title: Dot Product and Orthogonality
+title: Dot Product (Inner Product in R^n)
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: vectors-in-rn-operations
+- id: vector-addition-subtraction
   type: hard
-- id: vector-norms
+- id: scalar-multiplication-vectors
   type: hard
 builds-toward:
-- linear-transformations-definition
-- orthogonality-and-orthonormal-sets
-- gram-schmidt-orthogonalization
+- vector-norms-magnitude
+- cross-product
+- orthogonal-projections
+- inner-product-spaces
 tags:
 - dot-product
-- orthogonality
 - inner-product
+- angle
 - projection
 stage: formal-systems
 status: draft
 ---
 
-# Dot Product and Orthogonality
+# Dot Product (Inner Product in R^n)
 
 ## Core Idea
-The dot product of vectors u and v is u·v = u₁v₁ + u₂v₂ + ... + uₙvₙ, which equals ||u|| ||v|| cos(θ) where θ is the angle between them. Two vectors are orthogonal if their dot product is zero. The dot product enables computing angles, projections, and lengths—fundamental to geometry and optimization.
-
-## How It's Best Learned
-Compute dot products algebraically first, then relate the result to geometric angle. Use u·v = 0 to verify orthogonality. Explore the relationship cos(θ) = (u·v)/(||u|| ||v||).
-
-## Common Misconceptions
-The dot product is not element-wise multiplication—it's a sum of products. Orthogonality (u·v = 0) does not mean the vectors are perpendicular in everyday language; it's a precise algebraic condition.
+The dot product of two vectors u and v is the sum of products of corresponding components: u · v = u₁v₁ + u₂v₂ + ... + uₙvₙ. It measures alignment between vectors and connects to angle via cos(θ) = (u · v)/(‖u‖‖v‖). The dot product is zero precisely when vectors are orthogonal.
