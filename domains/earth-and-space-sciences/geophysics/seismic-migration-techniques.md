@@ -4,15 +4,17 @@ title: Seismic Migration and Depth Imaging
 domain: earth-and-space-sciences
 course: geophysics
 prerequisites:
-- id: seismic-reflection-surveys
+- id: seismic-data-processing-and-filtering
   type: hard
-- id: seismic-wave-migration
+- id: seismic-velocity-depth-models
   type: hard
+builds-toward:
+- seismic-interpretation-structural-mapping
 tags:
 - seismic
-- imaging
 - migration
-- depth
+- imaging
+- depth-conversion
 stage: advanced
 status: draft
 ---
@@ -20,4 +22,4 @@ status: draft
 # Seismic Migration and Depth Imaging
 
 ## Core Idea
-Migration algorithms collapse diffraction hyperbolas and position reflections at their true depths by accounting for wave propagation in the velocity model. Kirchhoff, finite-difference, and reverse-time migration are the main families of depth-imaging methods.
+Seismic migration repositions reflected events to their true subsurface locations by accounting for dipping layers and velocity variations. Time migration assumes constant velocity, while depth migration uses accurate velocity models to correct for lateral velocity changes. Modern pre-stack depth migration (PSDM) produces depth-converted images essential for exploration and accurate structural interpretation.
