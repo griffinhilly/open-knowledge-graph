@@ -1,25 +1,22 @@
 ---
 id: multidimensional-poverty-measurement
-title: 'Multidimensional Poverty: Beyond Income'
+title: Multidimensional Poverty Indices
 domain: economics
 course: development-economics
 prerequisites:
-- id: development-definition-and-measurement
+- id: development-measurement-fundamentals
   type: hard
-- id: human-development-index
-  type: soft
 builds-toward:
-- poverty-traps-and-development-thresholds
+- poverty-traps-and-persistence
 tags:
 - poverty
 - measurement
 - multidimensional
-- deprivation
 stage: advanced
 status: draft
 ---
 
-# Multidimensional Poverty: Beyond Income
+# Multidimensional Poverty Indices
 
 ## Core Idea
-The Multidimensional Poverty Index (MPI) recognizes that poverty is simultaneous deprivation in health, education, and living standards—not just low income. A person earning $2/day with electricity and a school nearby experiences poverty differently from someone on the same income with no access to these services. The MPI captures these overlapping hardships.
+Poverty is not one-dimensional. The Alkire-Foster index captures multiple deprivations—malnutrition, lack of education, no electricity, insecure housing—simultaneously. A person is poor if deprived in enough dimensions, even if income is above a line. This reveals different policy priorities than income-based measures.

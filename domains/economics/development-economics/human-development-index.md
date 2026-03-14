@@ -4,17 +4,12 @@ title: The Human Development Index
 domain: economics
 course: development-economics
 prerequisites:
-- id: economic-development-definition
+- id: development-measurement-fundamentals
   type: hard
-- id: gross-domestic-product-development-measurement
-  type: soft
-builds-toward:
-- multidimensional-poverty-index
-- human-capital-accumulation-development
 tags:
 - HDI
-- development
 - measurement
+- welfare
 stage: advanced
 status: draft
 ---
@@ -22,4 +17,4 @@ status: draft
 # The Human Development Index
 
 ## Core Idea
-The Human Development Index combines GDP per capita, life expectancy, and education into a composite development measure. HDI rankings frequently diverge from GDP rankings, revealing that economic growth does not automatically translate to improved health and education outcomes. This multidimensional approach better captures realized human capabilities.
+The HDI combines life expectancy, education (mean and expected years), and GNI per capita into a single index scaled 0–1. It enables cross-country comparisons of development progress and reveals that countries at similar income levels achieve vastly different human outcomes based on health and education investment.

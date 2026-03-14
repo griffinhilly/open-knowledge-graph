@@ -1,23 +1,25 @@
 ---
 id: trade-and-development
-title: Trade and Development
+title: Trade, Comparative Advantage, and Development
 domain: economics
 course: development-economics
 prerequisites:
 - id: comparative-advantage-and-trade
   type: hard
-- id: structural-transformation-economic-development
+- id: economic-growth-theory
   type: soft
+builds-toward:
+- export-diversification-and-growth
+- foreign-direct-investment
 tags:
 - trade
-- comparative advantage
 - development
-- export-led growth
+- growth
 stage: advanced
 status: draft
 ---
 
-# Trade and Development
+# Trade, Comparative Advantage, and Development
 
 ## Core Idea
-Trade can accelerate development: exporting manufactures allows poor countries to scale production, reduce unit costs, and move up value chains (as East Asia did). However, commodity exporters face terms-of-trade shocks; rent-seeking can block industrialization; and adjustment costs are real. Successful trade-based development requires complementary policies: education, infrastructure, and institutions.
+Trade enables specialization, allows countries to import capital goods, and creates access to larger markets. Technology spillovers from trade partners accelerate learning. However, adjustment costs are steep for workers in displaced industries; institutions matter—weak governance and poor education limit benefits. Import substitution (protecting infant industries) can be justified but requires sunset clauses and productivity discipline.

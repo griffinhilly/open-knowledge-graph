@@ -1,24 +1,24 @@
 ---
 id: lewis-model-structural-transformation
-title: 'The Lewis Model: Structural Transformation'
+title: The Lewis Model and Structural Transformation
 domain: economics
 course: development-economics
 prerequisites:
 - id: production-function-microeconomics
   type: hard
-- id: wage-setting-equilibrium
-  type: soft
+- id: economic-growth-theory
+  type: hard
 builds-toward:
-- dual-economy-agricultural-industrial
-- agricultural-productivity-development
+- agriculture-and-development
 tags:
-- Lewis-model
-- structural-change
+- structural-transformation
+- lewis-model
+- development
 stage: advanced
 status: draft
 ---
 
-# The Lewis Model: Structural Transformation
+# The Lewis Model and Structural Transformation
 
 ## Core Idea
-Arthur Lewis described development as a two-stage process: an agricultural economy with surplus labor employed at a fixed subsistence wage, followed by capital accumulation gradually absorbing agricultural workers into modern industrial production. As the labor surplus exhausts, wages rise and the economy fully transitions to modern sectors. This model explains both industrialization dynamics and the diminishing marginal effect of rural labor.
+The Lewis model describes the classic development transition: a traditional agricultural sector with surplus labor (low productivity, subsistence wage) supplies workers to a modern industrial sector at a fixed wage above subsistence. Capital accumulates in industry as long as agricultural surplus exists. Development ends when agricultural surplus is exhausted and wages rise.

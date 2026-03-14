@@ -1,23 +1,24 @@
 ---
 id: migration-and-development
-title: Migration and Development
+title: Migration, Remittances, and Development
 domain: economics
 course: development-economics
 prerequisites:
-- id: labor-markets-developing-economies
+- id: demographic-transition
   type: hard
-- id: human-capital-development-economics
+- id: labor-market-signaling
   type: soft
+builds-toward:
+- inequality-kuznets-curve
 tags:
 - migration
 - remittances
-- brain drain
 - development
 stage: advanced
 status: draft
 ---
 
-# Migration and Development
+# Migration, Remittances, and Development
 
 ## Core Idea
-Rural-to-urban and international migration are central to development but contested. Migration raises incomes for migrants and families (via remittances) but can cause brain drain if the most educated leave. Remittances are now a major capital flow to developing countries, sometimes exceeding foreign aid and private investment.
+International migration reallocates labor from low-wage to high-wage economies, benefiting migrants and receiving countries but creating selection (high-ability emigrate) and skill-drain risks for sending countries. Remittances supplement household income in sending countries and now exceed official aid. Internal migration (rural-to-urban) drives urbanization and structural transformation; quality of urban institutions determines whether migrants thrive or end in slums.
