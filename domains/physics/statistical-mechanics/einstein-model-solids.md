@@ -1,24 +1,24 @@
 ---
 id: einstein-model-solids
-title: The Einstein Model of Solids
+title: Einstein Model of Solids
 domain: physics
 course: statistical-mechanics
 prerequisites:
-- id: quantum-harmonic-oscillator
+- id: heat-capacity-of-gases
   type: hard
-- id: planck-distribution-blackbody
+- id: partition-function-definition
   type: soft
 builds-toward:
-- debye-model-lattice-dynamics
+- debye-model-solids
 tags:
-- einstein-model
-- harmonic-oscillator
-- specific-heat
+- solids
+- phonons
+- heat-capacity
 stage: advanced
 status: draft
 ---
 
-# The Einstein Model of Solids
+# Einstein Model of Solids
 
 ## Core Idea
-Einstein modeled a crystal as 3N independent quantum harmonic oscillators (one per atom). Each oscillator has energy levels E_n = ℏω(n + 1/2). At high T, this recovers the Dulong-Petit law C_V = 3Nk. At low T, the exponential Boltzmann suppression of excited states gives C_V ∝ exp(-ℏω/kT), predicting very soft specific heat that overshoots the observed T³ behavior.
+The Einstein model treats N atoms as 3N independent harmonic oscillators all with frequency ω_E. Heat capacity C_V = 3Nk (Θ_E/T)^2 exp(−Θ_E/T) / [exp(−Θ_E/T)−1]^2, where Θ_E = ℏω_E/k. It captures the high-temperature limit C_V = 3R but predicts C_V → 0 too steeply at low T, lacking the T^3 behavior of the Debye model.

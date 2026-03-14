@@ -1,25 +1,25 @@
 ---
 id: microcanonical-ensemble
-title: The Microcanonical Ensemble (Fixed E, N, V)
+title: Microcanonical Ensemble (NVE)
 domain: physics
 course: statistical-mechanics
 prerequisites:
-- id: statistical-ensembles-intro
+- id: ensemble-theory-fundamentals
   type: hard
-- id: ideal-gas-law
-  type: soft
+- id: entropy-intro
+  type: hard
 builds-toward:
-- thermodynamic-limit-statmech
-- phase-transition-equilibrium
+- canonical-ensemble
+- partition-function-definition
 tags:
-- microcanonical
+- ensemble
 - isolated-system
-- ergodic
+- constant-energy
 stage: advanced
 status: draft
 ---
 
-# The Microcanonical Ensemble (Fixed E, N, V)
+# Microcanonical Ensemble (NVE)
 
 ## Core Idea
-The microcanonical ensemble describes an isolated system with fixed total energy E, particle number N, and volume V. Every accessible microstate has equal probability 1/Ω, where Ω is the number of accessible microstates. Entropy is S = k ln(Ω), providing a microscopic foundation for the second law of thermodynamics.
+The microcanonical ensemble describes an isolated system with fixed energy E, volume V, and particle number N. All microstates with energy exactly E are equally probable. Entropy is proportional to the logarithm of the multiplicity Ω(E,V,N), and all thermodynamic quantities follow from the fundamental relation S(E,V,N).

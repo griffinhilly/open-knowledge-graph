@@ -1,26 +1,25 @@
 ---
 id: canonical-ensemble
-title: The Canonical Ensemble (Fixed T, N, V)
+title: Canonical Ensemble (NVT)
 domain: physics
 course: statistical-mechanics
 prerequisites:
-- id: statistical-ensembles-intro
+- id: ensemble-theory-fundamentals
   type: hard
-- id: first-law-of-thermodynamics
-  type: soft
+- id: temperature-and-thermal-equilibrium
+  type: hard
 builds-toward:
-- canonical-partition-function
-- free-energy-thermodynamic-relations
-- mean-field-theory-statmech
+- partition-function-definition
+- helmholtz-free-energy
 tags:
-- canonical
-- thermal-contact
-- heat-bath
+- ensemble
+- thermal-reservoir
+- temperature-control
 stage: advanced
 status: draft
 ---
 
-# The Canonical Ensemble (Fixed T, N, V)
+# Canonical Ensemble (NVT)
 
 ## Core Idea
-The canonical ensemble describes a system in thermal contact with a heat bath at temperature T, with fixed N and V. Microstates have probability proportional to exp(-E_i/kT). This ensemble is most relevant for laboratory experiments where temperature is controlled, and its partition function determines all thermodynamic properties via Helmholtz free energy F = -kT ln(Z).
+The canonical ensemble describes a system in thermal contact with a heat bath at temperature T, with fixed N and V. Microstates have probabilities proportional to exp(−E/kT), where the Boltzmann factor exp(−E/kT) is the fundamental weight. This is the most commonly used ensemble in practice.
