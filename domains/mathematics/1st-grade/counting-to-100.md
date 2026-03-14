@@ -8,6 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - skip-counting-by-10s
+- number-recognition-1-100
 - place-value-tens-and-ones
 tags:
 - counting
@@ -20,12 +21,4 @@ status: draft
 # Counting to 100
 
 ## Core Idea
-Extending counting skills to 100 builds on patterns learned to 20. Students notice that the sequence repeats: 1-10, 11-20, 21-30, and so on. This develops number sense essential for place value understanding.
-
-## How It's Best Learned
-Use number charts, hundreds boards, and daily calendar counting. Sing counting songs and emphasize the repeating pattern.
-
-## Common Misconceptions
-- Skipping numbers in the sequence.
-- Assuming teen numbers (11-19) don't follow a pattern.
-- Confusing the pattern in decades (20s, 30s, 40s).
+Counting from 1 to 100 builds fluency with the number sequence and reveals the pattern of tens (10, 20, 30, etc.). This skill is foundational for understanding place value and developing number sense. Students learn that numbers follow a predictable pattern, making it easier to work with larger numbers.
