@@ -1,31 +1,29 @@
 ---
 id: t-cell-activation-costimulation
-title: 'T Cell Activation: Two-Signal Model and Costimulation'
+title: T Cell Activation and Costimulatory Signals
 domain: biology
 course: immunology
 prerequisites:
-- id: t-cell-receptor-structure-and-function
+- id: t-cell-receptor-structure
   type: hard
-- id: cell-signaling-intro
+- id: antigen-presentation-mechanisms
   type: hard
+- id: cytokines-and-chemokines
+  type: soft
 builds-toward:
-- cd4-helper-t-cells
+- cd4-t-helper-cells
 - cd8-cytotoxic-t-cells
+- regulatory-t-cells-immune-tolerance
 tags:
-- t-cell-activation
-- costimulation
-- signal-1-signal-2
+- adaptive
+- t-cell
+- activation
+- signaling
 stage: advanced
 status: draft
 ---
 
-# T Cell Activation: Two-Signal Model and Costimulation
+# T Cell Activation and Costimulatory Signals
 
 ## Core Idea
-Complete T cell activation requires two signals: Signal 1 (TCR recognition of MHC-peptide) provides antigen-specificity but is insufficient alone; Signal 2 (costimulation through CD28-B7 interaction) is essential for full activation and prevents anergy. B7 molecules (CD80/B86) are expressed by antigen-presenting cells activated via innate immunity. CD28 ligation amplifies TCR signaling, enhances IL-2 production, and promotes survival. Inhibitory signals (PD-1, CTLA-4) provide negative feedback to terminate responses.
-
-## How It's Best Learned
-Contrast T cell activation (Signal 1 + Signal 2) with anergy (Signal 1 alone). Diagram CD28 signaling amplification of TCR pathways.
-
-## Common Misconceptions
-- Signal 2 is always required for T cell activation (activated dendritic cells provide strong costimulation, but some situations allow activation without it). - CD28 has no signaling capability (CD28 actively amplifies TCR signaling through PI3K and LCK recruitment).
+T cell activation requires two signals: TCR engagement with MHC-peptide (signal 1) and costimulation via CD28 binding CD80/CD86 on antigen-presenting cells (signal 2). Signal 1 alone leads to anergy (functional inactivation). Costimulation induces IL-2 production and IL-2 receptor upregulation, driving proliferation and differentiation.

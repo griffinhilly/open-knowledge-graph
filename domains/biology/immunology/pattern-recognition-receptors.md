@@ -1,31 +1,31 @@
 ---
 id: pattern-recognition-receptors
-title: Pattern Recognition Receptors and PAMPs
+title: Pattern Recognition Receptors (PRRs)
 domain: biology
 course: immunology
 prerequisites:
+- id: innate-immunity-overview
+  type: hard
 - id: cell-signaling-intro
   type: hard
-- id: innate-immune-response
-  type: hard
 builds-toward:
-- toll-like-receptors-signaling
-- natural-killer-cells
+- toll-like-receptors
+- complement-system-overview
 tags:
-- innate-immunity
-- pattern-recognition
+- innate
 - signaling
+- pattern-recognition
 stage: advanced
 status: draft
 ---
 
-# Pattern Recognition Receptors and PAMPs
+# Pattern Recognition Receptors (PRRs)
 
 ## Core Idea
-Pattern recognition receptors (PRRs) are germline-encoded proteins that detect conserved molecular patterns on pathogens (PAMPs) and damaged cells (DAMPs). These receptors include TLRs, NOD-like receptors, C-type lectin receptors, and RIG-I-like receptors, each recognizing distinct microbial structures. PRR ligation initiates signaling cascades that activate both innate responses and bridge to adaptive immunity.
+Pattern recognition receptors are germline-encoded sensors that detect pathogen-associated molecular patterns (PAMPs) and damage-associated molecular patterns (DAMPs). PRR families include toll-like receptors, NOD-like receptors, and lectin receptors on both cell surfaces and intracellular compartments. PRR engagement initiates signaling cascades that produce inflammatory mediators and type I interferons.
 
 ## How It's Best Learned
-Map different PRR families to the PAMPs they recognize and the pathogens that express them. Draw signaling pathways from ligation to transcription factor activation.
+Study specific PRRs and their ligands (TLR4 for LPS, TLR3 for dsRNA, dectin-1 for β-glucans) before generalizing to the broader PRR family concept.
 
 ## Common Misconceptions
-- All PRRs signal through the same pathway (false: multiple distinct pathways exist). - PRRs are only on immune cells (false: many cell types express PRRs).
+Not all PRRs are on the cell surface; many function intracellularly. PAMPs are not inherently dangerous—they are simply evolutionary-conserved structures that distinguish pathogens from host.

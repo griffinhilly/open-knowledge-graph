@@ -1,30 +1,26 @@
 ---
 id: cd8-cytotoxic-t-cells
-title: CD8+ Cytotoxic T Lymphocyte Differentiation and Killing
+title: CD8+ Cytotoxic T Lymphocytes (CTLs)
 domain: biology
 course: immunology
 prerequisites:
-- id: thymic-selection-positive-negative
-  type: hard
 - id: t-cell-activation-costimulation
   type: hard
+- id: antigen-presentation-mechanisms
+  type: hard
 builds-toward:
-- t-cell-memory-formation
+- immunological-memory-secondary-response
+- tumor-immunology
 tags:
-- cd8
+- adaptive
+- t-cell
 - cytotoxicity
-- cytotoxic-t-lymphocytes
+- killing
 stage: advanced
 status: draft
 ---
 
-# CD8+ Cytotoxic T Lymphocyte Differentiation and Killing
+# CD8+ Cytotoxic T Lymphocytes (CTLs)
 
 ## Core Idea
-CD8+ cytotoxic T lymphocytes (CTLs) recognize virus-infected and tumor cells through MHC-I-peptide complexes and kill them via two main mechanisms: perforin/granzyme (rapid, direct killing via pore formation and caspase activation) and Fas-FasL (apoptosis signaling). CD8+ differentiation requires IL-12 and IL-15 signaling from dendritic cells. Activated CTLs migrate to peripheral tissues where they efficiently target infected cells while sparing nearby uninfected cells.
-
-## How It's Best Learned
-Diagram CTL-target cell synapses showing TCR engagement, granule exocytosis, and perforin/granzyme delivery. Compare the kinetics and cellular targets of perforin and Fas-mediated killing.
-
-## Common Misconceptions
-- CD8+ T cells kill only infected cells (they also kill tumor cells and antibody-coated cells in ADCC). - Perforin creates pores allowing granzymes to enter (granzymes enter via multiple mechanisms including endosomal escape).
+CD8+ T cells recognize antigen-MHC-I and differentiate into cytotoxic T lymphocytes capable of killing infected or abnormal cells. CD8+ activation requires TCR engagement with MHC-I-peptide and costimulation, often provided by CD4+ T helper cells or innate signaling. CTLs kill via perforin-granzyme and Fas-FasL pathways, inducing target cell apoptosis.
