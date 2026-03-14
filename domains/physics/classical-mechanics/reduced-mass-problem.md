@@ -6,16 +6,11 @@ course: classical-mechanics
 prerequisites:
 - id: center-of-mass-motion
   type: hard
-- id: newtons-law-of-gravitation
-  type: soft
-- id: orbital-mechanics
-  type: soft
-builds-toward:
-- orbital-mechanics
 tags:
+- two-body
 - gravitation
-- two-body-problems
-- orbits
+- reduced-mass
+- orbital-mechanics
 stage: formal-systems
 status: draft
 ---
@@ -23,4 +18,4 @@ status: draft
 # Reduced Mass Problem
 
 ## Core Idea
-Two-body gravitational problems reduce to equivalent one-body problems using reduced mass μ = m₁m₂/(m₁+m₂). The relative motion follows the same equations as a particle of mass μ in a fixed gravitational potential, greatly simplifying analysis of binary systems, planet-moon configurations, and close binary stars.
+In a two-body gravitational system (e.g., Earth–Sun or binary stars), the center of mass moves with constant velocity, and the relative motion reduces to a single-body problem: a reduced mass μ = m₁ m₂ / (m₁ + m₂) orbits a fixed potential with mass M = m₁ + m₂. When one mass dominates (m₁ >> m₂), the reduced mass μ ≈ m₂, and the lighter body orbits the heavier one.

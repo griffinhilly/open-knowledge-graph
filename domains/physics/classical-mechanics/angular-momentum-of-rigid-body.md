@@ -11,8 +11,8 @@ prerequisites:
 builds-toward:
 - conservation-of-angular-momentum
 tags:
-- rotation
 - angular-momentum
+- rotation
 - dynamics
 stage: formal-systems
 status: draft
@@ -21,4 +21,4 @@ status: draft
 # Angular Momentum of Rigid Body
 
 ## Core Idea
-For a rigid body rotating about a fixed axis, angular momentum L = Iω where I is the moment of inertia. This rotational analog of linear momentum determines how the body responds to applied torques and is conserved when no external torques act.
+For a rigid body rotating about a fixed axis, angular momentum L = I ω, where I is the moment of inertia about that axis. The rotational equation of motion τ_net = I α = dL/dt shows that torque changes angular momentum, exactly as force changes linear momentum. When no external torque acts, L is conserved.

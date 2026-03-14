@@ -4,18 +4,17 @@ title: Work by Non-Conservative Forces
 domain: physics
 course: classical-mechanics
 prerequisites:
-- id: work-and-energy
-  type: hard
 - id: work-energy-theorem
+  type: hard
+- id: friction-forces
   type: hard
 builds-toward:
 - mechanical-energy-and-non-conservative-forces
-- energy-dissipation-in-damped-oscillations
 tags:
-- energy
 - work
+- energy
 - friction
-- non-conservative-forces
+- dissipation
 stage: formal-systems
 status: draft
 ---
@@ -23,4 +22,4 @@ status: draft
 # Work by Non-Conservative Forces
 
 ## Core Idea
-Non-conservative forces like friction do path-dependent work, unlike conservative forces. The work done by non-conservative forces equals the change in mechanical energy and provides a quantitative connection between energy dissipation and dissipative forces through the work-energy theorem.
+Non-conservative forces (friction, air resistance) do path-dependent work and dissipate mechanical energy into heat. The work-energy theorem still holds—W_total = ΔKE—but you must explicitly include W_friction and other non-conservative work. Mechanical energy (KE + PE) decreases by an amount equal to the magnitude of work done by these forces.

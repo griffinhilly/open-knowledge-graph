@@ -4,16 +4,17 @@ title: Non-Inertial Frames and Pseudo-Forces
 domain: physics
 course: classical-mechanics
 prerequisites:
-- id: relative-motion-and-reference-frames
-  type: hard
 - id: newtons-second-law
+  type: hard
+- id: relative-motion-and-reference-frames
   type: hard
 builds-toward:
 - rotating-reference-frames
 tags:
 - reference-frames
-- dynamics
-- forces
+- pseudo-forces
+- inertial
+- non-inertial
 stage: formal-systems
 status: draft
 ---
@@ -21,4 +22,4 @@ status: draft
 # Non-Inertial Frames and Pseudo-Forces
 
 ## Core Idea
-In accelerating (non-inertial) reference frames, fictitious or pseudo-forces appear to explain observed motion. The pseudo-force equals minus mass times frame acceleration. Newton's laws can be written in the same form in non-inertial frames provided we include these additional apparent forces.
+In an accelerating (non-inertial) reference frame, Newton's laws appear to fail unless you introduce pseudo-forces F_pseudo = −m a_frame that account for the frame's acceleration. For example, a car accelerating forward makes passengers feel pushed backward (a pseudo-force). With pseudo-forces included, Newton's laws apply identically in non-inertial frames as in inertial frames.

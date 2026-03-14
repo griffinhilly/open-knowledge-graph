@@ -4,13 +4,15 @@ title: Phase and Amplitude in Forced Oscillations
 domain: physics
 course: classical-mechanics
 prerequisites:
-- id: resonance-and-resonance-frequency
+- id: driven-harmonic-oscillator
   type: hard
+builds-toward:
+- resonance-and-resonance-frequency
 tags:
 - oscillations
 - phase
-- resonance
-- frequency-response
+- amplitude
+- forcing
 stage: formal-systems
 status: draft
 ---
@@ -18,4 +20,4 @@ status: draft
 # Phase and Amplitude in Forced Oscillations
 
 ## Core Idea
-In a driven oscillator, both amplitude and phase of oscillation relative to the driving force vary with frequency. Below resonance the oscillation leads the force, at resonance they are 90° out of phase, and above resonance the oscillation lags. These relationships fully characterize the frequency response.
+In steady-state forced oscillation, the amplitude A(ω) = F₀/√[(k−mω²)² + (bω)²] and phase lag φ(ω) both vary with driving frequency. At low ω, the oscillator is nearly in phase with the drive (φ ≈ 0°); at ω = ω₀, the phase lag is 90°; at high ω, it lags by nearly 180°. Energy transfer from the driving force is maximum when force and velocity are in phase (at resonance for high-Q systems).

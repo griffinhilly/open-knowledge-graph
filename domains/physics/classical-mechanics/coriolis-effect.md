@@ -7,10 +7,10 @@ prerequisites:
 - id: rotating-reference-frames
   type: hard
 tags:
-- rotation
-- reference-frames
-- Earth
+- coriolis
+- rotating-frames
 - geophysics
+- deflection
 stage: formal-systems
 status: draft
 ---
@@ -18,4 +18,4 @@ status: draft
 # Coriolis Effect
 
 ## Core Idea
-The Coriolis effect arises when objects move in rotating reference frames like Earth. Moving objects experience a pseudo-force perpendicular to both velocity and the rotation axis, causing rightward deflection in the Northern Hemisphere and leftward in the Southern. This effect is crucial for weather patterns, ocean currents, and ballistic trajectories.
+The Coriolis force F_cor = −2 m ω × v deflects moving objects in rotating frames (e.g., on Earth, which rotates at ω ≈ 7.3 × 10⁻⁵ rad/s). In the Northern Hemisphere, moving objects are deflected rightward; in the Southern Hemisphere, leftward. This effect is crucial for large-scale phenomena: hurricanes rotate due to Coriolis deflection, ocean currents curve, and ballistic trajectories deviate significantly over long distances.

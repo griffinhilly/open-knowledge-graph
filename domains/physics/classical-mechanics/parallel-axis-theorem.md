@@ -7,12 +7,11 @@ prerequisites:
 - id: moment-of-inertia
   type: hard
 builds-toward:
-- rotational-kinetic-energy
+- rotational-dynamics
 tags:
-- rotation
 - moment-of-inertia
-- rigid-bodies
-- geometry
+- rotation
+- theorem
 stage: formal-systems
 status: draft
 ---
@@ -20,4 +19,4 @@ status: draft
 # Parallel Axis Theorem
 
 ## Core Idea
-The moment of inertia about any axis I equals the moment of inertia about a parallel axis through the center of mass (I_cm) plus the mass times the square of the perpendicular distance between axes: I = I_cm + Md². This theorem dramatically simplifies moment of inertia calculations for many geometries.
+The moment of inertia about any axis equals the moment about a parallel axis through the center of mass plus M·d², where d is the distance between the axes: I = I_CM + M·d². This theorem eliminates the need to integrate for every possible axis; compute I_CM once, then use the simple formula for any parallel axis.

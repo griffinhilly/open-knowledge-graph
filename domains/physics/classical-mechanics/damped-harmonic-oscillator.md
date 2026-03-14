@@ -7,15 +7,14 @@ prerequisites:
 - id: simple-harmonic-motion
   type: hard
 - id: friction-forces
-  type: hard
+  type: soft
 builds-toward:
-- resonance-and-resonance-frequency
-- energy-dissipation-in-damped-oscillations
+- driven-harmonic-oscillator
 tags:
 - oscillations
 - damping
-- energy-dissipation
-- decay
+- friction
+- differential-equations
 stage: formal-systems
 status: draft
 ---
@@ -23,4 +22,4 @@ status: draft
 # Damped Harmonic Oscillator
 
 ## Core Idea
-Damping forces proportional to velocity cause oscillations to decay over time. The damping strength determines behavior: underdamped systems oscillate with decaying amplitude, critically damped systems return without oscillating, and overdamped systems return slowly. The transition between regimes is qualitatively distinct.
+A damped oscillator experiences a restoring force (−kx) and velocity-dependent friction (−bv). The equation m d²x/dt² + b dx/dt + kx = 0 exhibits three regimes: underdamped (oscillates while decaying), critically damped (no oscillation, fastest return to equilibrium), and overdamped (slow decay without oscillation). Damping reduces the oscillation frequency compared to the undamped case.

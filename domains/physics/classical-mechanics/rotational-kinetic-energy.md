@@ -8,14 +8,14 @@ prerequisites:
   type: hard
 - id: moment-of-inertia
   type: hard
-- id: rolling-without-slipping
+- id: rotational-kinematics
   type: hard
 builds-toward:
-- conservation-of-energy
+- rolling-without-slipping
 tags:
-- energy
-- rotation
 - kinetic-energy
+- rotation
+- energy
 stage: formal-systems
 status: draft
 ---
@@ -23,4 +23,4 @@ status: draft
 # Rotational Kinetic Energy
 
 ## Core Idea
-A rotating rigid body has kinetic energy KE_rot = (1/2)Iω². For rolling motion, total kinetic energy combines translational and rotational parts: KE_total = (1/2)mv_cm² + (1/2)Iω². Energy conservation problems must account for both contributions when analyzing rolling bodies.
+A rotating object has kinetic energy KE_rot = ½ I ω², where I is the moment of inertia about the rotation axis and ω is angular velocity. This is the rotational analog of KE = ½ m v². For an object both rotating and translating, total KE = ½ m v_CM² + ½ I_CM ω², where both terms contribute to the energy.

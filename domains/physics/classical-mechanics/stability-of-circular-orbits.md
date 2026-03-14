@@ -4,17 +4,14 @@ title: Stability of Circular Orbits
 domain: physics
 course: classical-mechanics
 prerequisites:
-- id: keplers-laws
-  type: soft
-- id: conservation-of-angular-momentum
+- id: orbital-elements-and-trajectories
   type: hard
-- id: orbital-energy-and-escape-velocity
-  type: soft
-builds-toward:
-- orbital-mechanics
+- id: circular-motion-dynamics
+  type: hard
 tags:
 - orbits
 - stability
+- gravitation
 - dynamics
 stage: formal-systems
 status: draft
@@ -23,4 +20,4 @@ status: draft
 # Stability of Circular Orbits
 
 ## Core Idea
-Circular orbits are equilibrium positions where centripetal force equals gravitational force. Small perturbations lead to oscillations about the equilibrium without causing escape, demonstrating that circular orbits (at correct velocities) are stable against small disturbances—a fundamental insight into planetary system structure.
+Circular orbits in a 1/r gravitational potential are stable: small radial or tangential perturbations lead to slightly elliptical orbits that remain bound, not runaway trajectories. The effective potential U_eff(r) = L²/(2μr²) − G M μ / r has a minimum at the stable circular orbit radius. This stability is specific to the 1/r force law; other force laws (e.g., f ∝ r) can be unstable.

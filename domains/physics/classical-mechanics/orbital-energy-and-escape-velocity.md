@@ -8,16 +8,13 @@ prerequisites:
   type: hard
 - id: conservation-of-energy
   type: hard
-- id: keplers-laws
-  type: soft
 builds-toward:
-- vis-viva-equation
 - orbital-elements-and-trajectories
-- stability-of-circular-orbits
 tags:
 - gravitation
 - orbits
 - energy
+- escape-velocity
 stage: formal-systems
 status: draft
 ---
@@ -25,4 +22,4 @@ status: draft
 # Orbital Energy and Escape Velocity
 
 ## Core Idea
-Total orbital energy E = KE + PE determines orbit type: negative energy means bound elliptical orbit, zero means parabolic escape trajectory, positive means hyperbolic trajectory. Escape velocity v_esc = √(2GM/R) is the minimum speed to escape a gravitational field entirely.
+A bound circular orbit at radius r has total energy E = −G M m / (2r), entirely determined by the semi-major axis. Escape velocity v_esc = √(2 G M / R) is the minimum speed at Earth's surface to reach infinity with v = 0 (E = 0). For any object, the relationship between E, v, and r determines orbit type: elliptical (E < 0), parabolic (E = 0), or hyperbolic (E > 0).

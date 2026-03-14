@@ -6,15 +6,14 @@ course: classical-mechanics
 prerequisites:
 - id: rotational-kinematics
   type: hard
-- id: instantaneous-center-of-rotation
+- id: circular-motion-kinematics
   type: soft
 builds-toward:
 - rotational-kinetic-energy
 tags:
-- kinematics
 - rolling
+- kinematics
 - constraints
-- rotation
 stage: formal-systems
 status: draft
 ---
@@ -22,4 +21,4 @@ status: draft
 # Rolling Without Slipping
 
 ## Core Idea
-In rolling without slipping, the velocity of the center of mass relates to angular velocity by v_cm = ωR, and the contact point has zero velocity at each instant. This kinematic constraint elegantly relates translational and rotational motion and is essential for analyzing rolling bodies.
+Rolling without slipping enforces the kinematic constraint v_CM = R ω: the center-of-mass velocity equals radius times angular velocity. This couples translation and rotation, reducing degrees of freedom. In energy analysis, rolling objects combine translational KE (½ m v²) and rotational KE (½ I ω²); the fraction going to each depends on the moment of inertia (e.g., 1/3 rotational for a solid cylinder, 2/5 for a solid sphere).

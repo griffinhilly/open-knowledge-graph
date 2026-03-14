@@ -6,16 +6,15 @@ course: classical-mechanics
 prerequisites:
 - id: orbital-energy-and-escape-velocity
   type: hard
-- id: keplers-laws
-  type: soft
-- id: vis-viva-equation
-  type: soft
+- id: angular-momentum
+  type: hard
 builds-toward:
-- orbital-mechanics
+- stability-of-circular-orbits
 tags:
 - orbits
 - gravitation
-- mechanics
+- trajectories
+- orbital-mechanics
 stage: formal-systems
 status: draft
 ---
@@ -23,4 +22,4 @@ status: draft
 # Orbital Elements and Trajectories
 
 ## Core Idea
-Six orbital elements uniquely specify an orbit: semi-major axis (a), eccentricity (e), inclination (i), longitude of ascending node (Ω), argument of periapsis (ω), and mean anomaly (M). These parameters completely determine an object's position and velocity in space and how they evolve with time.
+Orbital shape is uniquely determined by total energy E and angular momentum L. Low energy (E < 0) and high L yield elliptical orbits with semi-major axis a = −G M m / (2 E) and eccentricity e = √[1 + 2 E L² / (μ (G M)²)]. The orbit is closed (periodic) for E < 0, parabolic for E = 0, and hyperbolic for E > 0. Each orbit is conic section about the central mass.

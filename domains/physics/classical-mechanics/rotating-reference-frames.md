@@ -6,14 +6,13 @@ course: classical-mechanics
 prerequisites:
 - id: non-inertial-frames-and-pseudo-forces
   type: hard
-- id: circular-motion-dynamics
-  type: soft
 builds-toward:
 - coriolis-effect
 tags:
 - reference-frames
 - rotation
-- forces
+- pseudo-forces
+- centrifugal
 stage: formal-systems
 status: draft
 ---
@@ -21,4 +20,4 @@ status: draft
 # Rotating Reference Frames
 
 ## Core Idea
-In uniformly rotating frames, two pseudo-forces appear: centrifugal force (pushing outward) and Coriolis force (perpendicular to velocity). These forces explain motion as perceived by rotating observers and are essential for understanding phenomena like weather patterns, gyroscopic behavior, and particle confinement in rotating systems.
+In a reference frame rotating with angular velocity ω, two pseudo-forces appear: the centrifugal force F_cf = m ω² r (pointing outward) and the Coriolis force F_cor = −2 m ω × v (perpendicular to velocity). The centrifugal force vanishes in the inertial frame (it accounts for centripetal acceleration in the rotating frame); the Coriolis force deflects moving objects perpendicular to their velocity.

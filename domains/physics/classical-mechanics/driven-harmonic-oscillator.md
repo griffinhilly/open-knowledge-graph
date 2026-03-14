@@ -4,17 +4,15 @@ title: Driven Harmonic Oscillator
 domain: physics
 course: classical-mechanics
 prerequisites:
-- id: simple-harmonic-motion
+- id: damped-harmonic-oscillator
   type: hard
-- id: work-and-energy
-  type: soft
 builds-toward:
 - resonance-and-resonance-frequency
 tags:
 - oscillations
-- driven-oscillations
-- dynamics
+- driven
 - forcing
+- steady-state
 stage: formal-systems
 status: draft
 ---
@@ -22,4 +20,4 @@ status: draft
 # Driven Harmonic Oscillator
 
 ## Core Idea
-When an external driving force is applied to a harmonic oscillator, the system experiences forced oscillations. The amplitude and phase of response depend critically on the driving frequency relative to the natural frequency, creating rich behavior from low-frequency following to high-frequency suppression.
+When a periodic external force F(t) = F₀ cos(ωt) drives a damped oscillator, the system reaches a steady-state oscillation at the driving frequency ω. The amplitude and phase depend strongly on ω and damping: near the natural frequency (resonance), the amplitude is large. Far from resonance, the oscillator is either in phase (below resonance) or 180° out of phase (above resonance) with the drive.

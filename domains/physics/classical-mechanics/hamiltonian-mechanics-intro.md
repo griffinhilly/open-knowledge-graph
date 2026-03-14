@@ -1,24 +1,21 @@
 ---
 id: hamiltonian-mechanics-intro
-title: Hamiltonian Mechanics Introduction
+title: Hamiltonian Mechanics (Introduction)
 domain: physics
 course: classical-mechanics
 prerequisites:
 - id: lagrangian-mechanics-intro
   type: hard
-- id: conservation-of-energy
-  type: soft
-builds-toward:
-- phase-space-trajectories
 tags:
-- dynamics
+- hamiltonian
 - formalism
 - mechanics
+- phase-space
 stage: formal-systems
 status: draft
 ---
 
-# Hamiltonian Mechanics Introduction
+# Hamiltonian Mechanics (Introduction)
 
 ## Core Idea
-The Hamiltonian formalism uses H = KE + PE and describes evolution through Hamilton's equations in terms of position and momentum. The Hamiltonian typically equals total energy and provides a framework for understanding phase space structure, conservation laws, and serves as the bridge to statistical mechanics and quantum mechanics.
+Hamiltonian mechanics uses the Hamiltonian H = T + V (total energy) and canonical variables (position q, momentum p). Hamilton's equations ∂H/∂p = dq/dt and −∂H/∂q = dp/dt are first-order, time-reversible, and symmetric in q and p, making phase-space analysis elegant. For time-independent systems, H is conserved (energy conservation), and this formalism is the foundation for quantum mechanics via the Schrödinger equation.

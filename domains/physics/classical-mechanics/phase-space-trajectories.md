@@ -4,14 +4,15 @@ title: Phase Space Trajectories
 domain: physics
 course: classical-mechanics
 prerequisites:
-- id: hamiltonian-mechanics-intro
+- id: simple-harmonic-motion
   type: hard
-- id: work-and-energy
-  type: soft
+builds-toward:
+- lagrangian-mechanics-intro
 tags:
-- dynamics
 - phase-space
-- formalism
+- dynamics
+- trajectories
+- energy
 stage: formal-systems
 status: draft
 ---
@@ -19,4 +20,4 @@ status: draft
 # Phase Space Trajectories
 
 ## Core Idea
-Phase space (position and momentum coordinates) provides a complete description of system state. System evolution traces trajectories in phase space that lie on constant-energy surfaces for conservative systems. The geometry of phase space trajectories reveals stability, periodic orbits, and structure—information not easily visible in configuration space.
+Phase space plots position x vs. momentum p (or velocity v) show the complete instantaneous state of a dynamical system. For a harmonic oscillator, the curve traced out is an ellipse (from E = ½ m v² + ½ k x² = const). Closed curves represent periodic motion; open curves represent unbounded motion. Phase-space trajectories reveal dynamics without solving equations explicitly and are key to analyzing stability and chaos.

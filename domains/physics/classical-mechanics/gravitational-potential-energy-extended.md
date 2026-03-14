@@ -13,6 +13,7 @@ builds-toward:
 tags:
 - gravitation
 - potential-energy
+- energy
 - orbits
 stage: formal-systems
 status: draft
@@ -21,4 +22,4 @@ status: draft
 # Gravitational Potential Energy (Extended)
 
 ## Core Idea
-Gravitational potential energy between two masses is U = -GMm/r, which approaches zero as r → ∞. This expression shows that unlike the uniform-field approximation U = mgh, the full gravitational PE is negative and follows an inverse-distance relationship, crucial for analyzing orbital mechanics.
+Gravitational potential energy between two masses is U(r) = −G m₁ m₂ / r (with U = 0 at r = ∞). Unlike the near-Earth approximation U = mgh (linear in height), the true gravitational PE is inversely proportional to distance and negative, indicating an attractive interaction. Total mechanical energy E = KE + U is conserved in gravitational systems, determining whether orbits are bound (E < 0) or unbound (E ≥ 0).
