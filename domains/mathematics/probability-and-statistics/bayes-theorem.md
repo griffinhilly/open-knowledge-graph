@@ -6,27 +6,24 @@ course: probability-and-statistics
 prerequisites:
 - id: conditional-probability
   type: hard
-- id: independence-and-multiplication-rule
-  type: soft
+- id: law-of-total-probability
+  type: hard
 tags:
-- bayes-theorem
-- prior
+- bayes
 - posterior
+- prior
 - likelihood
-- medical-testing
 stage: formal-systems
-status: validated
+status: draft
 ---
 
 # Bayes' Theorem
 
 ## Core Idea
-Bayes' theorem provides a way to update probabilities given new evidence: P(A | B) = P(B | A) · P(A) / P(B). The denominator P(B) is expanded using the law of total probability: P(B) = P(B | A)·P(A) + P(B | Aᶜ)·P(Aᶜ). Bayes' theorem formalizes how prior beliefs (P(A)) are updated by data (the likelihood P(B | A)) to produce posterior beliefs (P(A | B)), making it the foundation of Bayesian statistics.
+Bayes' theorem gives the posterior probability P(B|A) = P(A|B) × P(B) / P(A), allowing us to reverse the direction of conditioning. It describes how to update prior beliefs P(B) when we observe evidence A, using the likelihood P(A|B). This is foundational for statistical inference and decision-making under uncertainty.
 
 ## How It's Best Learned
-Medical screening is the canonical application: given a rare disease (low prior) and an imperfect test (high sensitivity), compute the probability a positive test actually indicates disease. The result surprises most students and builds genuine appreciation for the theorem.
+Start with medical testing scenarios (positive test → disease probability). Work through multi-step examples with explicit calculation of the denominator using the law of total probability.
 
 ## Common Misconceptions
-- Ignoring the base rate (prior probability) — leading to incorrect intuitions about rare events.
-- Confusing the likelihood P(B | A) with the posterior P(A | B).
-- Treating Bayes' theorem as a formula to memorize rather than a consequence of conditional probability definitions.
+Confusing P(A|B) with P(B|A) (base rate fallacy). Forgetting to normalize by P(A) in the denominator.

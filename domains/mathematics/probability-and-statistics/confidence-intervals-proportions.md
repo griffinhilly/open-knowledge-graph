@@ -4,28 +4,27 @@ title: Confidence Intervals for Proportions
 domain: mathematics
 course: probability-and-statistics
 prerequisites:
-- id: binomial-distribution
+- id: central-limit-theorem
   type: hard
-- id: confidence-intervals-means
+- id: binomial-distribution
   type: soft
+builds-toward:
+- hypothesis-testing-fundamentals
 tags:
 - confidence-interval
 - proportion
-- p-hat
-- margin-of-error
+- binomial
 stage: formal-systems
-status: validated
+status: draft
 ---
 
 # Confidence Intervals for Proportions
 
 ## Core Idea
-A confidence interval for a population proportion p uses the sample proportion p̂ = x/n as the point estimate, giving the interval p̂ ± z* · √(p̂(1−p̂)/n). The standard error √(p̂(1−p̂)/n) is maximized at p̂ = 0.5, making the 'worst case' margin of error 1/(2√n). The normal approximation is valid when both np̂ ≥ 10 and n(1−p̂) ≥ 10. This interval is widely used in polling, survey research, and quality control.
+A confidence interval for a population proportion p is computed from sample proportion p̂. When the sample size is large enough that both np̂ and n(1-p̂) exceed 10, the sample proportion is approximately normal, and we can use: p̂ ± z* × √(p̂(1-p̂)/n). The margin of error decreases with larger sample size and larger confidence level. For smaller samples, exact binomial methods or continuity corrections provide better coverage.
 
 ## How It's Best Learned
-Connect to political polling: most news reports cite a ±3% margin of error. Show students how this corresponds to n ≈ 1000 at the 95% confidence level using the worst-case formula. Emphasize that p̂ = 0.5 gives the widest interval.
+Compute confidence intervals for proportions in polling contexts. Understand how sample size affects margin of error. Compare normal approximation to exact binomial.
 
 ## Common Misconceptions
-- Using the formula when success/failure conditions are not met (very small or very large p̂).
-- Forgetting that the margin of error depends on p̂ — it is not simply ±1/√n.
-- Misinterpreting the confidence level as the probability that the true p is in the interval.
+Using normal approximation when np̂ or n(1-p̂) < 10. Confusing sample proportion p̂ with population proportion p. Thinking margin of error accounts for all sources of error (sampling only).

@@ -6,29 +6,24 @@ course: probability-and-statistics
 prerequisites:
 - id: hypothesis-testing-fundamentals
   type: hard
-- id: p-values-and-significance
-  type: soft
+builds-toward:
+- z-test-and-t-test-for-means
 tags:
-- type-I-error
-- type-II-error
+- type-i-error
+- type-ii-error
 - false-positive
 - false-negative
-- power
-- alpha
-- beta
 stage: formal-systems
-status: validated
+status: draft
 ---
 
 # Type I and Type II Errors
 
 ## Core Idea
-A Type I error (false positive) occurs when H₀ is true but we reject it; its probability equals α, the significance level. A Type II error (false negative) occurs when H₀ is false but we fail to reject it; its probability is β. The power of a test, 1 − β, is the probability of correctly rejecting a false H₀. Reducing α decreases Type I errors but increases Type II errors — the two error rates trade off. Increasing sample size is the primary way to reduce both simultaneously.
+A Type I error (false positive) occurs when we reject H₀ when it is actually true; its probability is the significance level α. A Type II error (false negative) occurs when we fail to reject H₀ when the alternative is actually true; its probability is β. The power of a test is 1 - β, the probability of correctly rejecting a false H₀. Decreasing α (more conservative) increases β, so trade-offs exist. Larger sample sizes reduce both α and β for a fixed α threshold.
 
 ## How It's Best Learned
-Use a medical testing analogy: Type I error = wrongly diagnosing a healthy person with disease; Type II error = missing a true disease. Different domains have different tolerances for each error type. Draw the four-cell outcome table (H₀ true/false × reject/fail to reject) and fill in each cell's meaning and probability.
+Create a 2×2 table (truth vs. decision) and label all four outcomes. Relate Type I/II errors to real consequences (medical testing, legal trials). Discuss why lower α increases Type II error.
 
 ## Common Misconceptions
-- Thinking α is the probability of making an error overall — it is the probability of a specific error (Type I) when H₀ is true.
-- Assuming that a non-significant result means H₀ is true — it may simply reflect low power.
-- Confusing power (1 − β) with the significance level α.
+Confusing Type I with Type II error. Thinking we can make α = β = 0 simultaneously. Forgetting that α is fixed at the start; we don't compute it from data. Misunderstanding power in the context of sample size.

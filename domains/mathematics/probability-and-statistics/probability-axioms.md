@@ -1,36 +1,28 @@
 ---
 id: probability-axioms
-title: Probability Axioms and Sample Spaces
+title: Probability Axioms
 domain: mathematics
 course: probability-and-statistics
-prerequisites:
-- id: simple-probability
-  type: hard
-- id: set-theory-basics
-  type: soft
+prerequisites: []
 builds-toward:
-- complement-and-addition-rules
+- sample-spaces-and-events
 - conditional-probability
 - random-variables-intro
 tags:
-- probability-axioms
-- sample-space
-- events
-- kolmogorov
-- set-theory
+- probability
+- foundations
+- axioms
 stage: formal-systems
-status: validated
+status: draft
 ---
 
-# Probability Axioms and Sample Spaces
+# Probability Axioms
 
 ## Core Idea
-A sample space S is the set of all possible outcomes of a random experiment, and an event is any subset of S. Kolmogorov's three axioms define probability formally: (1) P(A) ≥ 0 for all events A; (2) P(S) = 1; (3) for mutually exclusive events, P(A ∪ B) = P(A) + P(B). All other probability rules follow logically from these axioms, making them the foundation of the entire theory.
+The three axioms of probability establish a consistent mathematical framework: (1) probabilities are non-negative real numbers; (2) the probability of the sample space is 1; (3) for disjoint events, P(A ∪ B) = P(A) + P(B). These axioms ensure that any valid probability assignment is logically consistent and provides the foundation for all probability theory.
 
 ## How It's Best Learned
-Begin with concrete experiments (dice, cards, coins) and explicitly list sample spaces. Then formalize: which subsets count as events? Derive complement rule and addition rule as theorems from the axioms. This bridges students' intuitive probability sense to a rigorous framework.
+Start with familiar examples (coin flips, dice) and verify that intuitive probabilities satisfy the axioms. Then explore why these axioms prevent contradictions.
 
 ## Common Misconceptions
-- Assuming all outcomes in a sample space are equally likely — they need not be.
-- Confusing mutually exclusive events with independent events.
-- Thinking the sample space must be finite — it can be countably or uncountably infinite.
+Thinking probabilities can be negative or greater than 1. Confusing the sample space with individual outcomes.

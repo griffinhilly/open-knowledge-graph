@@ -1,35 +1,31 @@
 ---
 id: central-limit-theorem
-title: The Central Limit Theorem
+title: Central Limit Theorem
 domain: mathematics
 course: probability-and-statistics
 prerequisites:
 - id: sampling-distributions
   type: hard
-- id: normal-distribution-intro
+- id: normal-distribution
   type: hard
 builds-toward:
 - confidence-intervals-means
-- z-test-for-means
+- hypothesis-testing-fundamentals
 tags:
 - central-limit-theorem
-- CLT
-- normal-approximation
-- sample-size
-- convergence
+- clt
+- approximate-normality
 stage: formal-systems
-status: validated
+status: draft
 ---
 
-# The Central Limit Theorem
+# Central Limit Theorem
 
 ## Core Idea
-The Central Limit Theorem (CLT) states that for sufficiently large sample sizes, the sampling distribution of the sample mean x̄ is approximately normal, regardless of the shape of the underlying population distribution. Formally, x̄ ~ N(μ, σ²/n) approximately when n is large (a common rule of thumb is n ≥ 30 for symmetric populations, larger for skewed ones). The CLT is the theoretical justification for using normal-based inference methods on non-normal populations.
+The Central Limit Theorem states that for samples of size n drawn from any distribution with mean μ and standard deviation σ, the sample mean x̄ is approximately normally distributed with mean μ and standard deviation σ/√n, regardless of the population's shape—provided n is sufficiently large. This remarkable result justifies using normal-based inference methods for non-normal populations and explains why the normal distribution is so prevalent in statistics.
 
 ## How It's Best Learned
-Demonstrate the CLT visually: start with a strongly skewed population (e.g., exponential), draw samples of increasing size n = 2, 5, 10, 30, 100, and show the distribution of x̄ becoming increasingly bell-shaped. This simulation is the most convincing proof available at this level.
+Simulate sampling from non-normal populations (uniform, exponential, bimodal). Observe that sample means become more normal as n increases. Verify the standard error formula σ/√n.
 
 ## Common Misconceptions
-- Thinking the CLT says the population becomes normal as n increases — it says the sampling distribution of x̄ does.
-- Applying the n ≥ 30 rule as an absolute threshold rather than a rough guideline.
-- Forgetting that the CLT applies to x̄, not to individual observations from the population.
+Thinking CLT applies to individual observations (it applies to sample means/sums). Assuming small samples have normal sampling distributions. Forgetting that the population doesn't need to be normal—only sample means do.

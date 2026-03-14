@@ -1,34 +1,26 @@
 ---
 id: chi-square-test
-title: Chi-Square Tests
+title: Chi-Square Test
 domain: mathematics
 course: probability-and-statistics
 prerequisites:
 - id: hypothesis-testing-fundamentals
   type: hard
-- id: expected-value
-  type: hard
-- id: combinations
-  type: soft
 tags:
 - chi-square
 - goodness-of-fit
 - independence
-- contingency-table
-- categorical
 stage: formal-systems
-status: validated
+status: draft
 ---
 
-# Chi-Square Tests
+# Chi-Square Test
 
 ## Core Idea
-Chi-square tests apply to categorical data. The goodness-of-fit test compares observed frequencies to expected frequencies under a hypothesized distribution: χ² = Σ (O − E)² / E. The test of independence assesses whether two categorical variables are associated in a two-way table. In both cases, χ² measures the total discrepancy between observed and expected counts and follows a chi-square distribution with appropriate degrees of freedom under H₀.
+The chi-square test assesses whether observed frequencies in categories differ significantly from expected frequencies under a null hypothesis. For a goodness-of-fit test, it compares observed category frequencies to theoretical (expected) frequencies. For a test of independence, it tests whether two categorical variables are independent in a contingency table. The test statistic is χ² = Σ(Observed - Expected)²/Expected, which follows a chi-square distribution when the null hypothesis is true and expected frequencies are sufficiently large (typically ≥ 5).
 
 ## How It's Best Learned
-Compute expected counts (row total × column total / grand total) in a contingency table by hand before using software. Verify that all expected counts are at least 5 before applying the chi-square approximation. Contrast the independence test with the two-sample z-test — both test association but chi-square handles more than two categories.
+Set up null hypotheses for goodness-of-fit scenarios (coin fairness, six-sided die). Create contingency tables and test independence. Verify that expected frequencies meet assumptions.
 
 ## Common Misconceptions
-- Using observed counts in the formula instead of expected counts in the denominator — always E in the denominator.
-- Applying chi-square when expected cell counts are below 5 — the approximation breaks down.
-- Concluding causation from a significant test of independence — association is not causation.
+Using chi-square with expected frequencies < 5. Confusing goodness-of-fit with independence tests. Forgetting that small p-values indicate deviation from the null, not confirmation of hypotheses. Thinking chi-square tests directionality (they don't).

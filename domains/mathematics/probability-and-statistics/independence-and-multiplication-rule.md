@@ -6,27 +6,27 @@ course: probability-and-statistics
 prerequisites:
 - id: conditional-probability
   type: hard
+- id: probability-axioms
+  type: hard
 builds-toward:
-- bayes-theorem
+- compound-probability
 - binomial-distribution
-- geometric-distribution
+- random-variables-intro
 tags:
 - independence
 - multiplication-rule
-- independent-events
+- dependent-events
 stage: formal-systems
-status: validated
+status: draft
 ---
 
 # Independence and the Multiplication Rule
 
 ## Core Idea
-Two events A and B are independent if P(A | B) = P(A) — knowing B occurred gives no information about A. Equivalently, A and B are independent if and only if P(A ∩ B) = P(A) · P(B). This multiplication rule extends to sequences: for n independent events, P(A₁ ∩ A₂ ∩ … ∩ Aₙ) = P(A₁) · P(A₂) · … · P(Aₙ). Independence is a model assumption that must be justified, not assumed automatically.
+Two events A and B are independent if P(A|B) = P(A), meaning knowledge of B does not change the probability of A. For independent events, P(A ∩ B) = P(A) × P(B). The multiplication rule generalizes to: P(A ∩ B) = P(A) × P(B|A) for any events, which is essential for computing probabilities of sequences of outcomes.
 
 ## How It's Best Learned
-Use coin flips and card draws with replacement vs. without replacement to illustrate the difference between independent and dependent events. Emphasize verifying independence algebraically using the product rule, not just intuition.
+Contrast independent scenarios (flipping two coins) with dependent ones (drawing cards without replacement). Verify independence by checking if P(A|B) = P(A).
 
 ## Common Misconceptions
-- The gambler's fallacy: believing prior coin flips influence future ones.
-- Confusing independence with mutual exclusivity — mutually exclusive non-trivial events are actually dependent.
-- Assuming physical separation of events implies statistical independence.
+Assuming events are independent when they are not (e.g., weather today and tomorrow). Confusing 'mutually exclusive' with 'independent'.

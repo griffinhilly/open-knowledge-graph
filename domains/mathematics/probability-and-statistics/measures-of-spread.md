@@ -1,38 +1,32 @@
 ---
 id: measures-of-spread
-title: 'Measures of Spread: Range, Variance, and Standard Deviation'
+title: Measures of Spread
 domain: mathematics
 course: probability-and-statistics
 prerequisites:
 - id: mean-median-mode
   type: hard
-- id: sigma-notation
-  type: soft
-- id: histograms-and-frequency-distributions
-  type: soft
 builds-toward:
+- five-number-summary
 - boxplots-and-five-number-summary
-- variance-of-random-variables
-- standard-normal-and-z-scores
-- correlation-coefficient
 tags:
-- standard-deviation
-- variance
-- range
 - spread
-- descriptive-statistics
+- variability
+- range
+- iqr
+- variance
+- std-dev
 stage: formal-systems
-status: validated
+status: draft
 ---
-# Measures of Spread: Range, Variance, and Standard Deviation
+
+# Measures of Spread
 
 ## Core Idea
-While measures of center locate a distribution, measures of spread describe how dispersed data values are around that center. The range (max − min) is simple but sensitive to outliers. Variance averages squared deviations from the mean, and standard deviation is its square root — restoring the original units. Population standard deviation uses division by n; sample standard deviation uses n − 1 (Bessel's correction) to produce an unbiased estimate.
+Measures of spread quantify variability in data. Range = max - min (sensitive to outliers). Interquartile range (IQR) = Q3 - Q1 (robust to outliers). Variance = average squared deviation from mean. Standard deviation = √variance (in original units). These measures answer 'how spread out is the data?' and are essential for understanding data distributions, comparing datasets, and assessing consistency.
 
 ## How It's Best Learned
-Have students compute standard deviation by hand for small datasets (5–8 values), tracking each step in a table: deviation, squared deviation, average. Then verify with a calculator. Contrast two datasets with the same mean but very different spreads — this makes the purpose of the statistic visceral.
+Compute all measures for the same dataset. Add outliers and observe which measures change. Plot data showing how visual spread matches numerical measures.
 
 ## Common Misconceptions
-- Using n instead of n − 1 when estimating population variance from a sample.
-- Thinking standard deviation is the average distance from the mean (it is the square root of the average squared distance).
-- Treating negative deviations as errors — they must be squared or absolute-valued to avoid cancellation.
+Confusing variance and standard deviation. Thinking IQR includes all data. Believing range alone describes spread adequately.

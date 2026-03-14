@@ -1,32 +1,26 @@
 ---
 id: exponential-distribution
-title: The Exponential Distribution
+title: Exponential Distribution
 domain: mathematics
 course: probability-and-statistics
 prerequisites:
 - id: continuous-random-variables
   type: hard
-- id: exponential-functions-review
-  type: soft
 tags:
-- exponential-distribution
+- exponential
 - waiting-time
 - memoryless
-- rate-parameter
-- reliability
 stage: formal-systems
-status: validated
+status: draft
 ---
 
-# The Exponential Distribution
+# Exponential Distribution
 
 ## Core Idea
-The exponential distribution with rate parameter λ models the waiting time until the next event from a Poisson process, with PDF f(x) = λe^(−λx) for x ≥ 0. Its mean is 1/λ and variance is 1/λ². Like the geometric distribution, it is memoryless: P(X > s + t | X > s) = P(X > t). It is the continuous analog of the geometric distribution and arises naturally in survival analysis, queueing theory, and reliability engineering.
+The exponential distribution with rate parameter λ > 0 has PDF f(x) = λe^(-λx) for x ≥ 0, and models waiting times until an event when events occur at a constant rate λ. Mean is 1/λ and variance is 1/λ². The exponential distribution is memoryless: P(X > s + t | X > s) = P(X > t), meaning remaining time doesn't depend on elapsed time. It naturally arises as the continuous analog of the geometric distribution.
 
 ## How It's Best Learned
-Pair with the Poisson distribution: if calls arrive at rate λ per hour, then inter-arrival times follow Exp(λ). Compute CDF probabilities using F(x) = 1 − e^(−λx) without needing tables. The memoryless property can be derived directly from this formula.
+Derive memoryless property algebraically. Model real waiting time scenarios (customer service, radioactive decay). Relate to Poisson processes.
 
 ## Common Misconceptions
-- Confusing the rate parameter λ with the mean — the mean is 1/λ, not λ.
-- Thinking the exponential distribution applies to any non-negative continuous random variable.
-- Applying it to processes where waiting times are not memoryless (e.g., machine aging increases failure probability).
+Confusing rate λ with scale parameter 1/λ. Not recognizing memorylessness property. Applying exponential without constant rate assumption.

@@ -4,33 +4,29 @@ title: Sampling Distributions
 domain: mathematics
 course: probability-and-statistics
 prerequisites:
-- id: sampling-methods
+- id: random-variables-intro
   type: hard
-- id: expected-value
-  type: hard
-- id: variance-of-random-variables
+- id: sample-spaces-and-events
   type: soft
 builds-toward:
 - central-limit-theorem
 - confidence-intervals-means
+- confidence-intervals-proportions
 tags:
 - sampling-distribution
 - sample-mean
-- standard-error
-- variability
+- sample-proportion
 stage: formal-systems
-status: validated
+status: draft
 ---
 
 # Sampling Distributions
 
 ## Core Idea
-A sampling distribution is the probability distribution of a statistic (like the sample mean x̄) over all possible samples of a given size n from a population. If the population has mean μ and standard deviation σ, then the sampling distribution of x̄ has mean μ (unbiased) and standard deviation σ/√n (the standard error). The standard error shrinks as n increases, meaning larger samples produce more precise estimates of μ.
+A sampling distribution is the probability distribution of a statistic (like sample mean or sample proportion) computed from all possible samples of a given size from a population. The sampling distribution of the sample mean x̄ has mean μ and standard deviation σ/√n (the standard error). Sampling distributions form the foundation of statistical inference by describing how statistics vary from sample to sample and enabling us to quantify uncertainty in estimators.
 
 ## How It's Best Learned
-Run repeated sampling simulations: draw 100 random samples of size n from a known population, compute x̄ for each, and plot the distribution of x̄ values. This concretely shows that statistics are themselves random variables with their own distributions.
+Simulate drawing many samples and computing statistics for each. Observe that the sampling distribution of means is less spread out than the population. Verify theoretical standard errors match simulation results.
 
 ## Common Misconceptions
-- Confusing the population standard deviation σ with the standard error σ/√n.
-- Thinking the sampling distribution describes the distribution of individual data values.
-- Not recognizing that increasing sample size reduces standard error but does not change the population distribution.
+Confusing the population distribution with the sampling distribution. Thinking larger samples have larger standard errors. Assuming sampling distribution is normal without sufficient sample size or population normality.

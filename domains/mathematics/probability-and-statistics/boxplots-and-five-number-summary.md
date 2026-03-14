@@ -1,34 +1,26 @@
 ---
 id: boxplots-and-five-number-summary
-title: Boxplots and the Five-Number Summary
+title: Boxplots and Five-Number Summary
 domain: mathematics
 course: probability-and-statistics
 prerequisites:
-- id: box-and-whisker-plots
+- id: five-number-summary
   type: hard
-- id: measures-of-spread
-  type: hard
-- id: histograms-and-frequency-distributions
-  type: soft
 tags:
 - boxplot
-- five-number-summary
-- IQR
-- quartiles
-- outliers
+- outlier-detection
+- distribution-shape
 stage: formal-systems
-status: validated
+status: draft
 ---
 
-# Boxplots and the Five-Number Summary
+# Boxplots and Five-Number Summary
 
 ## Core Idea
-The five-number summary — minimum, Q1, median, Q3, maximum — divides a dataset into four equal-frequency parts and forms the basis of a boxplot. The interquartile range (IQR = Q3 − Q1) measures the spread of the middle 50% of data and is resistant to outliers. Formal outlier detection uses the 1.5 × IQR rule: values below Q1 − 1.5·IQR or above Q3 + 1.5·IQR are flagged as potential outliers and plotted as separate points.
+A boxplot is a graphical representation of the five-number summary with a box spanning Q1 to Q3 (containing 50% of data), a line at the median, and whiskers extending to the minimum and maximum (or to boundaries determined by the 1.5×IQR outlier rule). Boxplots excel at comparing multiple distributions and identifying outliers. They reveal symmetry and skewness without assuming any particular distribution family.
 
 ## How It's Best Learned
-Compare side-by-side boxplots of two or more groups — this is the primary use case. Students should practice reading IQR, identifying outliers, and comparing distributions from the box shape alone. Emphasize that equal-area boxes do not mean equal-height bars.
+Draw boxplots directly from five-number summaries. Compare boxplots of different datasets. Identify and discuss outliers defined by the 1.5×IQR rule.
 
 ## Common Misconceptions
-- Thinking the box width represents the number of observations rather than the IQR.
-- Assuming symmetric boxes mean normally distributed data.
-- Forgetting that the 1.5 × IQR rule identifies suspected outliers, not definitive ones.
+Thinking the box always contains 50% of the data (true only for symmetric distributions when whiskers are equal). Confusing box width with IQR magnitude. Misidentifying which points are labeled as outliers.

@@ -1,40 +1,32 @@
 ---
 id: binomial-distribution
-title: The Binomial Distribution
+title: Binomial Distribution
 domain: mathematics
 course: probability-and-statistics
 prerequisites:
-- id: random-variables-intro
-  type: hard
-- id: combinations
+- id: discrete-random-variables
   type: hard
 - id: independence-and-multiplication-rule
   type: hard
-- id: expected-value
-  type: soft
-- id: variance-of-random-variables
-  type: soft
 builds-toward:
-- geometric-distribution
-- confidence-intervals-proportions
+- normal-distribution
+- sampling-distributions
 tags:
-- binomial-distribution
+- binomial
+- discrete-distribution
 - bernoulli
 - trials
-- n-choose-k
-- success-failure
 stage: formal-systems
-status: validated
+status: draft
 ---
-# The Binomial Distribution
+
+# Binomial Distribution
 
 ## Core Idea
-A binomial random variable counts the number of successes in n independent trials, each with success probability p. Its PMF is P(X = k) = C(n, k) · pᵏ · (1−p)ⁿ⁻ᵏ. The mean is μ = np and variance is σ² = np(1−p). The binomial distribution applies when: fixed number of trials, each trial is independent, only two outcomes (success/failure), and constant p.
+The binomial distribution models the number of successes in n independent Bernoulli trials, each with success probability p. Its PMF is P(X = k) = C(n,k) × p^k × (1-p)^(n-k), where C(n,k) is the binomial coefficient. The mean is np and variance is np(1-p). Binomial distributions arise whenever we count successes in a fixed number of identical, independent trials.
 
 ## How It's Best Learned
-The four BINS conditions (Binary, Independent, Number-fixed, Same-probability) give students a checklist. Practice identifying whether a scenario qualifies before computing. Use normal approximation to binomial for large n as a preview of the central limit theorem.
+Derive the binomial formula from first principles using counting and independence. Explore how the distribution changes with n and p using simulation or calculation.
 
 ## Common Misconceptions
-- Applying binomial without checking the independence condition (sampling without replacement from small populations violates this).
-- Confusing n (number of trials) with k (number of successes).
-- Using n instead of np for the mean.
+Assuming binomial applies without independent trials or equal p. Confusing binomial coefficients with probabilities. Misremembering whether variance is np or np(1-p).
