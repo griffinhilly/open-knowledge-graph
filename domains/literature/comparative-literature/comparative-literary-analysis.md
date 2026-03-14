@@ -1,34 +1,33 @@
 ---
 id: comparative-literary-analysis
-title: 'Comparative Literary Analysis: Methods and Foundations'
+title: Methods of Comparative Literary Analysis
 domain: literature
 course: comparative-literature
 prerequisites:
-- id: literary-criticism-overview
+- id: comparative-literature-intro
   type: hard
-- id: literary-argument-writing
+- id: close-reading-techniques
   type: hard
+- id: narratology
+  type: soft
 builds-toward:
-- intertextuality-kristeva
-- dialogism-bakhtin
-- literary-movements-comparative
-- genre-analysis-comparative
+- stylometry-distant-reading
+- literary-cosmopolitanism
 tags:
-- methods
+- methodology
+- reading-practice
 - analysis
-- foundations
-- comparative
-stage: foundational
+stage: advanced
 status: draft
 ---
 
-# Comparative Literary Analysis: Methods and Foundations
+# Methods of Comparative Literary Analysis
 
 ## Core Idea
-Comparative literary analysis examines works from different cultures, periods, or traditions to identify patterns, differences, and relationships that illuminate how meaning is created across contexts. Rather than studying texts in isolation, comparison reveals how similar aesthetic problems are solved differently and what assumptions underlie particular literary choices. This method moves beyond universal claims to appreciate both convergence and irreducible difference.
+Comparative analysis requires adapting close-reading techniques to works separated by language, historical period, and cultural context. Key methods include formal comparison (structure, genre, style), thematic analysis (tracking motifs across works), genealogical tracing (influence and intertextuality), and contextual positioning (how a work fits into multiple literary histories). The goal is to identify meaningful resonances while respecting irreducible differences.
 
 ## How It's Best Learned
-Begin by selecting two poems or short fiction pieces on similar themes from different traditions (e.g., love, loss, identity). Write a detailed comparison focusing on three formal or thematic dimensions, noting what each tradition emphasizes and what might explain those choices.
+Practice by choosing two texts that seem to address similar themes but come from different contexts (e.g., German Romanticism and Japanese Meiji literature), and analyze them in parallel. Ask: What narrative strategies do they share? Where do they diverge? Why?
 
 ## Common Misconceptions
-Comparative analysis does not seek universal truths or suggest that all cultures solve artistic problems identically. Difference is as important as similarity. Additionally, comparison is not a hierarchy—finding that traditions differ does not make one superior; it reveals distinct priorities and contexts.
+That comparison requires equivalence—that texts are comparable only if they're 'about the same thing.' Productive comparison often emerges from unexpected juxtapositions that reveal hidden assumptions in each work.

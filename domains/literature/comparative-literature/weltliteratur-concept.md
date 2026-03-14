@@ -1,32 +1,31 @@
 ---
 id: weltliteratur-concept
-title: 'Weltliteratur: Goethe and World Literary Consciousness'
+title: 'Weltliteratur: Goethe and World Literature'
 domain: literature
 course: comparative-literature
 prerequisites:
-- id: literary-criticism-overview
+- id: comparative-literature-intro
   type: hard
-- id: world-literature-concept
+- id: literary-criticism-overview
   type: soft
 builds-toward:
-- world-literature-debates
-- literary-periodization-global
+- damrosch-world-literature-concept
+- literary-cosmopolitanism
 tags:
-- Goethe
 - world-literature
-- history
 - cosmopolitanism
-stage: foundational
+- canon
+stage: advanced
 status: draft
 ---
 
-# Weltliteratur: Goethe and World Literary Consciousness
+# Weltliteratur: Goethe and World Literature
 
 ## Core Idea
-Goethe's concept of Weltliteratur imagines a literary world-system in which great national literatures enter into dialogue. Though Goethe's formulation is Eurocentric, contemporary theorists have reclaimed and reimagined Weltliteratur as a vocabulary for thinking about literary circulation, translation, and shared aesthetic values across linguistic and national difference.
+Goethe coined the term 'Weltliteratur' (world literature) in the early 19th century to describe a vision of literary culture that transcended national boundaries. He believed that great works spoke across languages and cultures, creating an imagined conversation among authors and readers worldwide. This concept challenged the assumption that national literary traditions were self-contained and instead positioned literature as a global phenomenon shaped by circulation and exchange.
 
 ## How It's Best Learned
-Read Goethe's own statements on Weltliteratur alongside contemporary theorists' engagements (Damrosch, Casanova, Apter). Trace how the concept has been critiqued for Eurocentrism and remade to serve different projects.
+Read Goethe's scattered remarks on Weltliteratur, then trace how the concept evolved through 20th-century literary criticism. Notice how later theorists (Damrosch, Casanova) both build on and critique Goethe's universalist vision.
 
 ## Common Misconceptions
-Weltliteratur is not uncritical cosmopolitanism. Contemporary theorists use the concept strategically while acknowledging its colonial origins and assumptions about which literatures matter and why.
+That Goethe meant 'all literature is equally good' or that national traditions don't matter. Goethe was describing a historical process of literary circulation, not erasing difference or national identity.
