@@ -4,19 +4,16 @@ title: Logical Consequence and Entailment
 domain: formal-sciences-and-logic
 course: propositional-and-predicate-logic
 prerequisites:
-- id: propositional-semantics
-  type: hard
-- id: model-interpretation-and-satisfaction
+- id: logical-equivalence-formulas
   type: hard
 builds-toward:
-- propositional-soundness-completeness
-- fol-soundness-completeness
-- syntactic-versus-semantic-consequence
+- satisfiability-and-unsatisfiability
+- deduction-theorem-propositional
+- compactness-propositional-logic
 tags:
-- semantics
+- propositional-logic
 - consequence
-- entailment
-- validity
+- inference
 stage: formal-systems
 status: draft
 ---
@@ -24,12 +21,11 @@ status: draft
 # Logical Consequence and Entailment
 
 ## Core Idea
-A formula φ is a logical consequence of a set of formulas Γ (written Γ ⊨ φ) if φ is true in every model where all formulas in Γ are true. This is the fundamental semantic notion of entailment: it captures the idea that φ must be true whenever Γ is true. Logical consequence is the semantic counterpart to syntactic derivability (⊢), and establishing their equivalence is the subject of completeness theorems.
+A set of formulas Γ entails a formula φ (written Γ ⊨ φ) if every interpretation that makes all formulas in Γ true also makes φ true. This semantic notion of consequence is central to understanding what it means for one set of premises to logically justify a conclusion.
 
 ## How It's Best Learned
-Use truth tables for simple propositional examples (e.g., show that {P, P→Q} ⊨ Q). Move to first-order by discussing models and interpretations explicitly. Draw out the difference between a formula being true in a model vs. true under all models. Practice checking entailment by attempting to build counterexamples.
+Distinguish between entailment (semantic, truth-based) and derivability (syntactic, proof-based). Work with small concrete examples showing when entailment holds and when counterexamples exist.
 
 ## Common Misconceptions
-- Confusing logical consequence (⊨, semantic) with syntactic derivability (⊢) — they're related but different.
-- Thinking that φ follows from Γ means Γ logically implies φ in English (close, but the formal definition requires truth in all models).
-- Forgetting that entailment is about all models; a single model where Γ→φ holds doesn't prove Γ ⊨ φ.
+- Confusing entailment with the material conditional (→): A ⊨ B means every model of A is a model of B, not that A → B is true.
+- Thinking that A ⊨ B means A and B must have similar structure.
