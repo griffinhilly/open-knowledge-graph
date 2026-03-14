@@ -3,7 +3,7 @@
 
 Produces Math Academy-style graph(s):
 - Small dot nodes colored by course, packed tightly
-- Y-position determined by topological depth (roots at bottom)
+- Y-position determined by course order (basics at top, advanced at bottom)
 - Force simulation for X-spreading within each rank
 - Dense cross-connections visible
 - Labels appear on hover only
@@ -293,7 +293,7 @@ canvas {{ display:block; }}
 <div id="stats">
   <h2>{title}</h2>
   <p>{len(nodes)} topics &middot; {len(edges)} edges &middot; {max_depth + 1} layers</p>
-  <p>Scroll to zoom &middot; Drag to pan &middot; Hover for details</p>
+  <p>Scroll to zoom &middot; Drag to pan &middot; Hover for details &middot; Click to open topic</p>
 </div>
 
 <div id="legend"></div>
@@ -358,7 +358,7 @@ courseIndices.forEach(ci => {{
 
 courseIndices.forEach((ci, bandIdx) => {{
   const band = courseBands[ci];
-  const bandCenterY = H * 0.94 - bandIdx * bandSpacing;
+  const bandCenterY = H * 0.06 + bandIdx * bandSpacing;
   const bandWidth = graphW * (0.10 + 0.90 * (band.length / maxBandSize));
   const dr = courseDepthRanges[ci];
   const depthRange = dr.max - dr.min;
