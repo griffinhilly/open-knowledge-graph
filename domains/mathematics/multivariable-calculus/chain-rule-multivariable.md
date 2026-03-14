@@ -1,6 +1,6 @@
 ---
 id: chain-rule-multivariable
-title: The Multivariable Chain Rule
+title: Chain Rule for Multivariable Functions
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
@@ -8,27 +8,18 @@ prerequisites:
   type: hard
 - id: chain-rule
   type: hard
-- id: tangent-planes
-  type: soft
 builds-toward:
 - implicit-differentiation
+- directional-derivatives-gradient
 tags:
 - chain-rule
-- composite-functions
-- tree-diagram
-- total-derivative
+- composition
+- derivatives
 stage: formal-systems
-status: validated
+status: draft
 ---
-# The Multivariable Chain Rule
+
+# Chain Rule for Multivariable Functions
 
 ## Core Idea
-If z = f(x, y) and both x and y depend on a parameter t, then dz/dt = (∂f/∂x)(dx/dt) + (∂f/∂y)(dy/dt). More generally, if z depends on x and y, and each depends on s and t, then ∂z/∂s = (∂z/∂x)(∂x/∂s) + (∂z/∂y)(∂y/∂s). The key rule is: the derivative of a composite function sums contributions from every path from the output to the input variable in the dependency diagram. Tree diagrams make the structure of these sums transparent.
-
-## How It's Best Learned
-Teach tree diagrams explicitly. Draw a tree from z to its intermediate variables (x, y) and then to the final parameters (t or s, t). Each path from root to leaf contributes one product of partials. Verify with a concrete example where f can be substituted directly, so students can check their chain rule answer against direct computation.
-
-## Common Misconceptions
-- Using dz/dx instead of ∂z/∂x when z also depends on y is incorrect; ordinary derivative notation implies only one independent variable.
-- When x and y both depend on the same variable t, BOTH contributions must be added — students sometimes include only one.
-- The multivariable chain rule reduces to the single-variable chain rule when the intermediate variables are each functions of a single parameter.
+If f(x, y) has continuous partials and x = x(t), y = y(t), then df/dt = (∂f/∂x)(dx/dt) + (∂f/∂y)(dy/dt). For compositions like f(g(x, y), h(x, y)), the chain rule tracks how changes propagate through each layer.

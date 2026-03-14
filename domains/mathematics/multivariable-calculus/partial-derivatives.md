@@ -1,38 +1,26 @@
 ---
 id: partial-derivatives
-title: Partial Derivatives
+title: 'Partial Derivatives: Definition and Computation'
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: multivariable-limits
+- id: limits-continuity-multivariable
   type: hard
-- id: derivative-notation
-  type: hard
-- id: functions-of-several-variables
+- id: derivative-as-slope-of-tangent
   type: hard
 builds-toward:
-- higher-order-partial-derivatives
-- gradient-vector
-- tangent-planes
+- rates-of-change-partial-derivatives
+- higher-order-partials
 - chain-rule-multivariable
-- critical-points-multivariable
 tags:
 - partial-derivatives
-- differentiation
-- multivariable
+- partial-notation
+- computation
 stage: formal-systems
-status: validated
+status: draft
 ---
 
-# Partial Derivatives
+# Partial Derivatives: Definition and Computation
 
 ## Core Idea
-The partial derivative ∂f/∂x measures the rate of change of f with respect to x while all other variables are held constant. It is computed exactly like an ordinary derivative, treating all other variables as constants. Geometrically, ∂f/∂x at a point gives the slope of the curve obtained by slicing the surface z = f(x, y) with a plane y = constant. Partial derivatives quantify sensitivity to each input variable independently.
-
-## How It's Best Learned
-Students who know single-variable differentiation can compute partial derivatives immediately — just hold other variables fixed. The challenge is not computation but interpretation. Emphasize the 'hold other variables fixed' rule and have students verify partial derivatives by drawing the corresponding cross-sectional slice of the surface.
-
-## Common Misconceptions
-- ∂f/∂x is not the same as df/dx; the partial derivative is only the rate of change in the x-direction.
-- Existence of both partial derivatives at a point does not imply differentiability or even continuity.
-- ∂²f/∂x∂y usually equals ∂²f/∂y∂x (Clairaut's theorem), but not always for pathological functions.
+The partial derivative ∂f/∂x is the ordinary derivative with respect to x while holding all other variables constant. Partial derivatives measure instantaneous rates of change along coordinate axes and are computed using single-variable differentiation rules.

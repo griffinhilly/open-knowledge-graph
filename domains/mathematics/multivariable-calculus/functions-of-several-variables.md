@@ -1,36 +1,26 @@
 ---
 id: functions-of-several-variables
-title: Functions of Several Variables
+title: 'Functions of Several Variables: Definition and Domain'
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: domain-and-range
+- id: 3d-coordinate-systems
   type: hard
-- id: vectors-in-3d
-  type: soft
-- id: continuity-definition
-  type: soft
+- id: function-notation-review
+  type: hard
 builds-toward:
-- multivariable-limits
+- limits-continuity-multivariable
 - partial-derivatives
+- contour-maps
 tags:
-- multivariable
-- level-curves
+- multivariate-functions
 - domain
-- graph
+- range
 stage: formal-systems
-status: validated
+status: draft
 ---
 
-# Functions of Several Variables
+# Functions of Several Variables: Definition and Domain
 
 ## Core Idea
-A function of two variables f(x, y) assigns a single real number to each point in a subset of ℝ². Its graph is a surface in ℝ³, and its level curves f(x, y) = c are the two-dimensional slices obtained by cutting the surface at height c. Functions of three variables f(x, y, z) have level surfaces rather than level curves. Visualizing multivariable functions requires switching among algebraic expressions, tables of values, level curve maps, and 3D surface plots.
-
-## How It's Best Learned
-Draw level curve diagrams for several standard functions (paraboloid, saddle surface, cone) before introducing any calculus. Students familiar with topographic maps already understand level curves intuitively. Make explicit how moving along a level curve differs from moving across level curves.
-
-## Common Misconceptions
-- A function of two variables maps ℝ² → ℝ, not ℝ² → ℝ². Its graph lives in ℝ³, not ℝ².
-- Level curves are subsets of the domain, not subsets of the graph.
-- The domain of f(x, y) can be any subset of ℝ², not necessarily an interval.
+A function of n variables is a rule f: D ⊆ ℝⁿ → ℝ mapping n-tuples (x₁, ..., xₙ) to real numbers. The domain D is the set of valid inputs; understanding domain restrictions (division by zero, logarithms, square roots) is essential in multivariable calculus.
