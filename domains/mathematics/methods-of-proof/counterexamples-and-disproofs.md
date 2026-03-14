@@ -4,12 +4,14 @@ title: Counterexamples and Disproofs
 domain: mathematics
 course: methods-of-proof
 prerequisites:
-- id: predicates-and-quantifiers
+- id: predicates-and-quantifiers-intro
   type: hard
+- id: proof-structure-terminology
+  type: soft
 tags:
 - proof
+- counterexample
 - negation
-- falsification
 stage: formal-systems
 status: draft
 ---
@@ -17,11 +19,4 @@ status: draft
 # Counterexamples and Disproofs
 
 ## Core Idea
-A counterexample is a specific instance making a universal statement false. A single counterexample disproves '∀x P(x)', providing the most efficient way to show a statement is false.
-
-## How It's Best Learned
-When faced with a universal claim, try to find one instance violating it. Counterexamples are often easier to verify than full proofs.
-
-## Common Misconceptions
-- Thinking you need to prove the statement is false everywhere, when one counterexample suffices.
-- Confusing a counterexample to one statement with a proof of its negation.
+To disprove a universal statement 'For all x, P(x)', we need only find a single counterexample where P(x) is false. A counterexample is a concrete instance proving the statement false. Disproofs by counterexample are often simpler than constructing positive proofs and are the primary tool for showing that conjectures are false.

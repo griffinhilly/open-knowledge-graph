@@ -4,14 +4,13 @@ title: Proof by Contrapositive
 domain: mathematics
 course: methods-of-proof
 prerequisites:
-- id: direct-proof
+- id: conditional-and-biconditional-statements
   type: hard
-builds-toward:
-- proof-by-contradiction
+- id: proof-structure-terminology
+  type: hard
 tags:
 - proof
 - contrapositive
-- equivalence
 stage: formal-systems
 status: draft
 ---
@@ -19,11 +18,4 @@ status: draft
 # Proof by Contrapositive
 
 ## Core Idea
-Proof by contrapositive exploits the logical equivalence p → q ≡ ¬q → ¬p. Instead of proving p → q directly, assume ¬q and derive ¬p. This is sometimes easier than direct proof.
-
-## How It's Best Learned
-Identify when proving the contrapositive simplifies the argument compared to direct proof; it often works well for statements about non-divisibility or non-membership.
-
-## Common Misconceptions
-- Confusing the contrapositive (logically equivalent) with the converse (not equivalent).
-- Forgetting to negate both hypothesis and conclusion.
+To prove 'If P then Q', we can instead prove the contrapositive: 'If not Q then not P'. Since a conditional and its contrapositive are logically equivalent, proving one proves the other. This technique is powerful when the contrapositive is easier to establish than the original statement or when assuming the negation of the conclusion leads naturally to the negation of the hypothesis.

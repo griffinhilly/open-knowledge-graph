@@ -5,12 +5,12 @@ domain: mathematics
 course: methods-of-proof
 prerequisites: []
 builds-toward:
-- truth-tables
-- logical-equivalences
+- truth-tables-intro
+- logical-equivalences-intro
 tags:
 - logic
-- propositional
-- connectives
+- foundations
+- statements
 stage: formal-systems
 status: draft
 ---
@@ -18,11 +18,4 @@ status: draft
 # Statements and Logical Connectives
 
 ## Core Idea
-A statement is a declarative sentence that is either true or false. Logical connectives (AND, OR, NOT) combine statements to form compound statements whose truth depends on the truth values of components.
-
-## How It's Best Learned
-Start with simple statements, then combine two at a time using one connective. Use everyday language examples before symbolic notation.
-
-## Common Misconceptions
-- Confusing 'or' (inclusive) with exclusive 'or' used in everyday speech.
-- Thinking NOT applies only to the next word rather than the entire statement.
+A logical statement is a declarative sentence that is either true or false, never both. Logical connectives—AND, OR, NOT, IF-THEN—combine simple statements into compound statements, allowing us to express complex logical relationships precisely. Mastering these connectives is the foundation for all formal reasoning.

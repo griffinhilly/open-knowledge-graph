@@ -4,14 +4,16 @@ title: Proof by Contradiction
 domain: mathematics
 course: methods-of-proof
 prerequisites:
-- id: tautologies-and-contradictions
+- id: negation-of-quantified-statements
+  type: hard
+- id: proof-structure-terminology
   type: hard
 builds-toward:
-- existence-proofs
+- proof-by-cases-exhaustion
 tags:
 - proof
 - contradiction
-- indirect
+- reductio-ad-absurdum
 stage: formal-systems
 status: draft
 ---
@@ -19,11 +21,4 @@ status: draft
 # Proof by Contradiction
 
 ## Core Idea
-Proof by contradiction assumes the negation of the desired conclusion and derives a logical contradiction. Since contradictions are impossible, the assumption must be false, making the original statement true.
-
-## How It's Best Learned
-Use it for impossibility results or when assuming the opposite leads to an obvious absurdity. Classic example: proving √2 is irrational.
-
-## Common Misconceptions
-- Confusing the contradiction you're deriving (which can be anything false) with the original statement.
-- Using 'contradiction' loosely for any disagreement rather than logical contradiction.
+In a proof by contradiction, we assume the negation of our goal and derive a contradiction (a statement that is both true and false). Since the assumption leads to an absurdity, the original statement must be true. This technique works for any statement, not just conditionals, making it versatile for goals that resist direct proof.
