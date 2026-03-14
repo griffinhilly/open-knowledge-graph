@@ -4,22 +4,21 @@ title: Real Business Cycle Theory
 domain: economics
 course: advanced-macroeconomics
 prerequisites:
-- id: ramsey-cass-koopmans-model
-  type: hard
-- id: business-cycles
+- id: solow-growth-model
   type: hard
 builds-toward:
-- technology-shocks-rbc
-- new-keynesian-framework
+- monetary-neutrality-long-run
+- new-keynesian-model-baseline
 tags:
 - business-cycles
-- rbc
-- real-shocks
-stage: formal-modeling
+- productivity-shocks
+- competitive-equilibrium
+- flexible-prices
+stage: graduate-level
 status: draft
 ---
 
 # Real Business Cycle Theory
 
 ## Core Idea
-Real Business Cycle theory explains economic fluctuations as optimal responses by rational households and firms to real shocks (primarily technology shocks), without invoking nominal rigidities or market failures. In the RBC model, agents solve dynamic optimization problems; shocks to total factor productivity cause endogenous movements in consumption, investment, and hours worked that mimic observed business cycles. The theory emphasizes that business cycles reflect supply-side fluctuations and real productivity changes, not demand-side failures.
+RBC theory models business cycles as efficient responses to exogenous technology shocks in competitive markets with flexible prices, rational expectations, and perfectly functioning financial markets. Persistent technology shocks drive both output and employment fluctuations through intertemporal substitution and income effects on labor supply, with no involuntary unemployment in equilibrium. RBC models minimize a role for monetary policy in stabilization and predict that output fluctuations reflect optimal responses to real fundamentals rather than nominal frictions.

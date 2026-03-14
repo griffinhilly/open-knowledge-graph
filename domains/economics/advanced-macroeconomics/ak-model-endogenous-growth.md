@@ -4,19 +4,17 @@ title: AK Model of Endogenous Growth
 domain: economics
 course: advanced-macroeconomics
 prerequisites:
-- id: endogenous-growth-romer
-  type: soft
-- id: endogenous-growth-lucas
-  type: soft
+- id: endogenous-growth-theory
+  type: hard
 tags:
-- growth
-- capital
-- endogenous
-stage: formal-modeling
+- endogenous-growth
+- constant-returns
+- capital-accumulation
+stage: graduate-level
 status: draft
 ---
 
 # AK Model of Endogenous Growth
 
 ## Core Idea
-The AK model simplifies endogenous growth by assuming output is linear in capital (Y = AK), eliminating diminishing returns that force exogenous growth in neoclassical models. This constant-returns-to-capital specification allows the savings rate to determine long-run growth: higher savings mean faster growth permanently. While highly stylized, the AK model illustrates the key property of endogenous growth models—that policy can affect long-run growth—and serves as a pedagogical foundation for understanding growth mechanisms.
+The AK model assumes constant returns to a broad capital aggregate (including human capital, infrastructure, and knowledge), eliminating the diminishing returns that limit growth in Solow-type models. With constant marginal returns to capital, the savings rate directly determines the growth rate, creating a knife-edge equilibrium where growth is endogenous and persistent. Though analytically simple, the model illustrates how broad-based capital accumulation without technological bottlenecks can sustain long-run growth.

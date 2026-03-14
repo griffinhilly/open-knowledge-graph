@@ -4,22 +4,23 @@ title: Solow Growth Model
 domain: economics
 course: advanced-macroeconomics
 prerequisites:
-- id: economic-growth-theory
+- id: dynamic-optimization-macro
   type: hard
 - id: production-function-microeconomics
   type: hard
 builds-toward:
 - steady-state-analysis-growth
-- capital-accumulation-steady-state
+- endogenous-growth-theory
+- real-business-cycle-theory
 tags:
-- growth
-- capital
+- growth-models
 - neoclassical
-stage: formal-modeling
+- capital-accumulation
+stage: graduate-level
 status: draft
 ---
 
 # Solow Growth Model
 
 ## Core Idea
-The Solow model explains long-run economic growth through capital accumulation, labor growth, and technological progress. The model shows that without technological change, economies converge to a steady state where capital and output per worker are constant. This framework became the baseline for understanding why some countries grow faster than others and where sustained growth ultimately comes from, though it leaves the source of technological progress unexplained.
+The Solow model explains long-run economic growth through capital accumulation, labor force growth, and exogenous technological progress operating under diminishing returns to capital. It identifies the steady-state growth rate as determined solely by population growth and productivity growth—not by savings behavior—because capital accumulation has diminishing payoffs. The model's key insight is that only technological progress can sustain indefinite per-capita growth in a competitive economy.

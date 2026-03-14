@@ -1,22 +1,30 @@
 ---
 id: rational-expectations-macro
-title: Rational Expectations in Macroeconomic Models
+title: Rational Expectations in Macroeconomics
 domain: economics
 course: advanced-macroeconomics
 prerequisites:
-- id: conditional-probability
+- id: bayesian-games
   type: soft
 builds-toward:
-- new-keynesian-framework-overview
+- expectation-formation-mechanisms
+- phillips-curve-dynamics
+- dsge-models-framework
 tags:
-- rational-expectations
-- expectations-formation
+- expectations
+- information
 - model-consistency
-stage: advanced
+stage: graduate-level
 status: draft
 ---
 
-# Rational Expectations in Macroeconomic Models
+# Rational Expectations in Macroeconomics
 
 ## Core Idea
-Rational expectations assume agents form expectations using all available information and the true economic model. Agents do not make systematic forecast errors. This implies that expected values equal conditional expectations given information, and anticipated policy changes have different effects than unanticipated changes.
+Rational expectations theory posits that economic agents form expectations using all available information and the correct economic model, making their forecasts unbiased on average. Under rational expectations, agents do not systematically make repeated forecasting errors and expectations respond immediately to new information. This framework contrasts sharply with adaptive expectations and has profound implications for the effectiveness of monetary and fiscal policy.
+
+## How It's Best Learned
+Study the Lucas critique to understand how policy changes can invalidate historical relationships when expectations adjust. Compare rational expectations predictions to empirical forecasting errors to appreciate both the theory's power and its limitations.
+
+## Common Misconceptions
+Rational expectations does not mean perfect foresight or that agents have unlimited cognitive ability—it means efficient use of available information. It also does not imply markets are always in equilibrium or that policy is ineffective; only that expectations are unbiased.

@@ -1,25 +1,27 @@
 ---
 id: endogenous-growth-theory
-title: Endogenous Growth Theory and Increasing Returns
+title: Endogenous Growth Theory
 domain: economics
 course: advanced-macroeconomics
 prerequisites:
-- id: neoclassical-growth-steady-state
+- id: ramsey-cass-koopmans-model
   type: hard
-- id: externalities-and-market-failure
-  type: soft
+- id: solow-growth-model
+  type: hard
 builds-toward:
-- romer-growth-model-research
-- lucas-growth-human-capital
+- romer-growth-model
+- lucas-human-capital-model
+- ak-model-endogenous-growth
 tags:
-- endogenous-growth
-- technological-change
+- growth-models
+- innovation
+- human-capital
 - increasing-returns
-stage: advanced
+stage: graduate-level
 status: draft
 ---
 
-# Endogenous Growth Theory and Increasing Returns
+# Endogenous Growth Theory
 
 ## Core Idea
-Endogenous growth models explain long-run growth as the result of agents' profit-maximizing decisions. Key insight: knowledge exhibits non-rivalry—the marginal cost of using existing knowledge is zero—enabling sustained growth through capital and R&D accumulation without exogenous technological progress.
+Endogenous growth models explain persistent per-capita growth through mechanisms endogenous to the economic system—human capital accumulation, R&D, spillovers, or learning-by-doing—rather than exogenous technological progress. Unlike Solow, these models show how policy (education subsidies, R&D incentives, IP protection) and private innovation incentives directly affect long-run growth rates. They highlight the role of increasing returns, knowledge externalities, and monopolistic competition in sustaining endogenous growth.

@@ -1,25 +1,22 @@
 ---
 id: monetary-policy-transmission
-title: Monetary Policy Transmission Mechanisms
+title: Monetary Policy Transmission Channels
 domain: economics
 course: advanced-macroeconomics
 prerequisites:
-- id: dsge-models
+- id: new-keynesian-model-baseline
   type: hard
-- id: monetary-policy-tools
+- id: taylor-rule-monetary-policy
   type: hard
-builds-toward:
-- taylor-rule-monetary-policy
-- zero-lower-bound-monetary-policy
 tags:
-- monetary-policy
-- transmission
-- interest-rates
-stage: formal-modeling
+- policy-channels
+- propagation
+- lags
+stage: graduate-level
 status: draft
 ---
 
-# Monetary Policy Transmission Mechanisms
+# Monetary Policy Transmission Channels
 
 ## Core Idea
-Monetary transmission describes how central bank actions (changes to money supply or interest rates) affect real variables like employment and output. The traditional interest rate channel operates through savings decisions and investment spending. The expectations channel works through how policy changes beliefs about future inflation and the path of interest rates. Modern frameworks also include credit channels where monetary policy affects bank lending and borrowing costs.
+Monetary policy transmission describes the channels through which interest-rate changes propagate to real economic outcomes: interest-sensitive spending (consumption, investment), exchange-rate appreciation/depreciation, asset price effects on wealth, credit conditions, and expectations about future income and inflation. Transmission is neither automatic nor immediate; typical lags of 6–18 months precede maximum output effects. New Keynesian models emphasize intertemporal substitution and expectations-driven demand shifts as key channels.

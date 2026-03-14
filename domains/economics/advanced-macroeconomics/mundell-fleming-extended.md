@@ -1,22 +1,25 @@
 ---
 id: mundell-fleming-extended
-title: Mundell-Fleming Model and Open Economy Macroeconomics
+title: Mundell-Fleming Model with Capital Mobility
 domain: economics
 course: advanced-macroeconomics
 prerequisites:
 - id: open-economy-macroeconomics
-  type: soft
-- id: is-lm-model
-  type: soft
+  type: hard
+- id: exchange-rates-macroeconomics
+  type: hard
+builds-toward:
+- capital-flows-balance-of-payments
 tags:
-- mundell-fleming
 - open-economy
-- capital-mobility
-stage: advanced
+- exchange-rates
+- capital-flows
+- trilemma
+stage: graduate-level
 status: draft
 ---
 
-# Mundell-Fleming Model and Open Economy Macroeconomics
+# Mundell-Fleming Model with Capital Mobility
 
 ## Core Idea
-The Mundell-Fleming model extends IS-LM to an open economy with perfect capital mobility and flexible exchange rates. Key results: monetary policy is effective (expansionary policy depreciates currency and increases output), while fiscal policy is weak (crowds out net exports). Exchange rates adjust to maintain interest rate parity.
+The extended Mundell-Fleming model incorporates perfect capital mobility and flexible exchange rates into the IS-LM framework for open economies. It reveals the policy trilemma: countries cannot simultaneously maintain fixed exchange rates, independent monetary policy, and perfect capital mobility. The model shows that monetary policy is potent in floating regimes but ineffective in fixed regimes, while fiscal policy effectiveness reverses depending on capital mobility and exchange-rate regime.

@@ -1,25 +1,22 @@
 ---
 id: steady-state-analysis-growth
-title: Steady-State Analysis and Long-Run Equilibrium
+title: Steady-State Analysis in Growth Models
 domain: economics
 course: advanced-macroeconomics
 prerequisites:
 - id: solow-growth-model
   type: hard
-- id: comparative-statics
-  type: hard
 builds-toward:
-- endogenous-growth-romer
-- overlapping-generations-models
+- golden-rule-capital-accumulation
 tags:
-- equilibrium
-- growth
-- long-run
-stage: formal-modeling
+- equilibrium-analysis
+- long-run-growth
+- dynamics
+stage: graduate-level
 status: draft
 ---
 
-# Steady-State Analysis and Long-Run Equilibrium
+# Steady-State Analysis in Growth Models
 
 ## Core Idea
-A steady state is an equilibrium path where key variables grow at constant rates (or remain constant in per-capita terms). Analysis of steady states reveals the long-run properties of an economy and how exogenous shocks to parameters permanently shift the growth path. Stability analysis determines whether the economy actually converges to steady state or diverges, making steady-state theory essential for understanding long-run macroeconomic outcomes.
+A steady state in growth models is a balanced-growth path where all variables grow at constant rates and capital-to-labor ratios remain constant. Analyzing steady-state properties reveals long-run equilibrium capital stocks, consumption levels, and growth rates that determine welfare. Stability analysis around the steady state shows whether economies converge to equilibrium or diverge after disturbances, providing crucial insights into long-run economic behavior.

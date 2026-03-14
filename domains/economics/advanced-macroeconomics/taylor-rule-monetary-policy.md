@@ -1,24 +1,25 @@
 ---
 id: taylor-rule-monetary-policy
-title: Taylor Rule and Interest Rate Rules
+title: Taylor Rule and Monetary Policy
 domain: economics
 course: advanced-macroeconomics
 prerequisites:
-- id: monetary-policy-transmission
+- id: monetary-policy-tools
   type: hard
-- id: inflation-and-price-level
+- id: phillips-curve-dynamics
   type: hard
 builds-toward:
-- zero-lower-bound-monetary-policy
+- zero-lower-bound-constraint
+- monetary-policy-transmission
 tags:
-- taylor-rule
-- monetary-policy
-- interest-rates
-stage: formal-modeling
+- policy-rules
+- interest-rate-setting
+- central-banking
+stage: graduate-level
 status: draft
 ---
 
-# Taylor Rule and Interest Rate Rules
+# Taylor Rule and Monetary Policy
 
 ## Core Idea
-The Taylor rule specifies how central banks set nominal interest rates as a function of inflation and output gaps: interest rates rise when inflation exceeds target or output exceeds potential. This simple rule has been remarkably successful at describing actual central bank behavior and generates near-optimal monetary policy in many models. The rule embodies the principle that monetary policy should be systematic and forward-looking rather than discretionary, creating predictability for financial markets and households.
+The Taylor rule describes systematic monetary policy as an interest-rate response to inflation and output gaps: i = r* + π + α(π − π*) + β(y − y*), making policy explicit and predictable. This simple rule captures actual central bank behavior and provides a benchmark for evaluating whether deviations improve or worsen outcomes. Extensions address the zero lower bound, financial conditions, and asset price stability.
