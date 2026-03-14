@@ -1,31 +1,31 @@
 ---
 id: sestina-form
-title: Sestina Form
+title: 'The Sestina: Complex Form and Repetition'
 domain: literature
 course: poetry
 prerequisites:
-- id: sonnet-form
+- id: poetic-form-overview
   type: hard
-- id: rhyme-scheme
-  type: soft
-builds-toward:
-- poetic-tradition-and-influence
+- id: poetic-repetition-and-refrain
+  type: hard
 tags:
-- sestina
-- fixed-form
-- repetition
+- form
 - constraint
+- repetition
+- complexity
 stage: abstract-reasoning
 status: draft
 ---
 
-# Sestina Form
+# The Sestina: Complex Form and Repetition
 
 ## Core Idea
-A sophisticated fixed form using six end words that repeat in a mathematically precise pattern across six stanzas. The pattern creates intricate weaving of words and meanings: if the end words in the first stanza are A-B-C-D-E-F, the second stanza ends with F-A-E-B-D-C, creating a spiral effect. This formal constraint often reveals unexpected connections between repeated words and generates meaning through obsessive repetition. The form culminates in a final three-line envoi using all six words.
+The sestina is a complex 39-line form using six stanzas of six lines each plus a three-line envoi, with end-words repeating according to a strict numerical pattern rather than rhyme. This demanding formal constraint creates intricate sonic and semantic echoes, challenging the poet to find meaningful continuities across repetitions.
 
 ## How It's Best Learned
-Begin by mapping the end-word pattern of published sestinas (Elizabeth Bishop, Dante, Swinburne) to see how the constraint creates the form's logic. Then attempt a draft sestina with concrete end words (e.g., numbers, place names) to focus on pattern before worrying about meaning.
+Study published sestinas (e.g., by Elizabeth Bishop, Algernon Charles Swinburne) to see how poets navigate the rigid constraints. Track the six end-words across all stanzas. Attempt a sestina draft to experience the constraint viscerally.
 
 ## Common Misconceptions
-- Thinking the repetition of end words feels artificial or forced; in fact, constraint-based forms often create unexpected semantic resonances. - Believing the form requires 'difficult' or archaic language; sestinas work equally well with contemporary, conversational diction.
+- The sestina is merely a clever formal game with no emotional or semantic depth.
+- Every sestina must use six random end-words; the choice of end-words is crucial to the poem's meaning.
+- Once you master the pattern, writing a good sestina is straightforward; finding words and making sense through repetition remains genuinely difficult.

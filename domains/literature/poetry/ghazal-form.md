@@ -1,33 +1,33 @@
 ---
 id: ghazal-form
-title: Ghazal Form
+title: 'The Ghazal: Arabic and South Asian Form'
 domain: literature
 course: poetry
 prerequisites:
 - id: poetic-form-overview
   type: hard
-- id: poetic-tradition-and-influence
-  type: soft
+- id: rhyme-scheme
+  type: hard
 builds-toward:
-- poetic-voice-and-tone
+- monorhyme
 tags:
-- ghazal
-- Arabic
-- Persian
-- couplet
-- refrain
-- autonomous
+- form
+- arabic
+- monorhyme
+- cultural-specificity
 stage: abstract-reasoning
 status: draft
 ---
 
-# Ghazal Form
+# The Ghazal: Arabic and South Asian Form
 
 ## Core Idea
-An Arabic and Persian lyric form consisting of autonomous couplets (called 'shers') that may stand alone yet belong to a unified whole. Each couplet is complete in itself, allowing the poet to shift between seemingly unrelated images, emotions, or ideas without narrative progression. The form traditionally opens with a couplet where both lines rhyme, followed by couplets where only the second line contains the rhyme and refrain. This structure creates a unique balance between unity and fragmentation.
+The ghazal is an Arabic/Persian/South Asian poetic form of rhymed couplets (called 'shers') that are thematically independent yet formally linked, with a monorhyme and a unified rhyming word (qafia) in the first couplet and all subsequent couplets. Each couplet can stand alone as a complete thought, yet the whole creates a complex emotional or philosophical meditation.
 
 ## How It's Best Learned
-Read complete ghazals (Hafiz, Rumi) alongside contemporary English-language examples (Agha Shahid Ali, Adrienne Rich) to understand how the form accommodates both classical and modern sensibilities. Notice how the refrain and rhyme create cohesion despite thematic leaps.
+Read ghazals by Agha Shahid Ali, Rabia Basri, and other practitioners in English and translation. Study the refrain-word and rhyming-word system. Notice how each couplet stands alone but contributes to an overall emotional landscape. Attempt writing couplets that work both independently and in sequence.
 
 ## Common Misconceptions
-- Thinking the autonomous couplets lack thematic connection; actually, there is often an underlying emotional or spiritual coherence. - Assuming the form is bound to traditional religious or courtly content; contemporary ghazals address any subject matter.
+- The ghazal is a single unified narrative or argument; it's a collection of independent 'shers' held together by form and emotional tone.
+- The ghazal is inaccessible to English-language writers; English poets have successfully adapted the form.
+- Translating ghazals from Urdu/Arabic to English compromises the form; translation practice is ongoing and generative.

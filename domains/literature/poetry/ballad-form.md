@@ -1,33 +1,34 @@
 ---
 id: ballad-form
-title: Ballad Form
+title: 'The Ballad: Narrative Folk Form'
 domain: literature
 course: poetry
 prerequisites:
+- id: quatrain-four-line-stanza
+  type: hard
 - id: poetic-form-overview
   type: hard
-- id: meter-and-rhythm-in-poetry
-  type: soft
 builds-toward:
-- poetic-tradition-and-influence
+- narrative-poetry
 tags:
-- ballad
+- form
 - narrative
 - folk
-- quatrain
-- refrain
-- storytelling
+- oral
+- tradition
 stage: abstract-reasoning
 status: draft
 ---
 
-# Ballad Form
+# The Ballad: Narrative Folk Form
 
 ## Core Idea
-A narrative poetic form with folk origins, traditionally characterized by quatrains, often in iambic tetrameter or alternating tetrameter and trimeter. Ballads tell stories of adventure, tragedy, love, or injustice and often employ a refrain that emphasizes emotional or thematic weight. The form's origins in oral and musical tradition mean that sound, repetition, and memorability are essential to its effect. Many ballads feature a dramatic shift or revelation in the final stanzas.
+The ballad is a narrative form in quatrains, traditionally designed for oral transmission and folk tradition, often telling stories of love, loss, or adventure. The simple rhyme scheme (often abab or abcb) and predictable meter make ballads memorable and singable, enabling their survival in oral culture.
 
 ## How It's Best Learned
-Examine traditional ballads (e.g., 'Barbara Allen,' 'Sir Patrick Spens') to understand how form supports narrative economy. Notice how refrains change meaning as context shifts. Study contemporary ballad-form poems to see how the form adapts to modern subject matter.
+Listen to folk ballads and ballad-influenced songs. Read printed versions of traditional ballads (e.g., 'Barbara Allen', 'Lord Randall'). Analyze their narrative economy and emotional impact. Attempt a short ballad yourself, focusing on dialogue and character.
 
 ## Common Misconceptions
-- Assuming ballads must be old or deal with ancient subjects; contemporary poets use ballad form for modern narratives. - Thinking the refrain is merely decorative; it often carries thematic weight and shifts meaning across repetitions.
+- Ballads are only historical artifacts, not a living form; contemporary poets still use ballad form.
+- Ballads must be simple or naive; they often contain sophisticated emotional or moral complexity.
+- Ballads are always tragic; while many are, ballads encompass many narrative types.
