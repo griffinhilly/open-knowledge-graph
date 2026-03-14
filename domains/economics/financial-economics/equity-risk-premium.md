@@ -1,25 +1,27 @@
 ---
 id: equity-risk-premium
-title: The Equity Risk Premium
+title: Equity Risk Premium and Market Return Expectations
 domain: economics
 course: financial-economics
 prerequisites:
-- id: beta-and-systematic-risk
+- id: risk-and-return-tradeoff
   type: hard
-- id: capital-asset-pricing-model
-  type: soft
+- id: expected-return-and-variance-of-assets
+  type: hard
 builds-toward:
-- growth-vs-value-investing
-- dividend-policy-and-valuation
+- cost-of-equity-capm
 tags:
-- equity
-- risk
-- returns
+- capm
+- expected-return
+- risk-premium
 stage: formal-systems
 status: draft
 ---
 
-# The Equity Risk Premium
+# Equity Risk Premium and Market Return Expectations
 
 ## Core Idea
-The equity risk premium is the additional expected return investors demand for holding stocks rather than risk-free assets, compensating for higher volatility and uncertainty. It is central to asset pricing and varies across time periods, countries, and methodologies. Historical premiums typically range from 3–8% annually but are subject to substantial estimation uncertainty.
+The equity risk premium is the expected return on stocks minus the risk-free rate. Historical estimates ≈ 5–7%; forward-looking estimates use dividend growth projections or earnings yields. This premium drives the slope of the security market line.
+
+## How It's Best Learned
+Compare historical equity risk premium (annualized stock returns minus Treasury returns) across decades. Estimate forward premium using dividend growth model or compare to current equity yields.
