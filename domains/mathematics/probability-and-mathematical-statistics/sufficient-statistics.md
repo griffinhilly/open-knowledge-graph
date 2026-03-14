@@ -6,16 +6,15 @@ course: probability-and-mathematical-statistics
 prerequisites:
 - id: conditional-expectation
   type: hard
-- id: random-variables-as-measurable-functions
+- id: exponential-family
   type: soft
 builds-toward:
-- fisher-information
-- umvue
-- maximum-likelihood-estimation-theory
+- rao-blackwell-theorem
+- cramer-rao-lower-bound
 tags:
-- sufficiency
-- estimation
-- data-reduction
+- sufficient-statistics
+- statistics
+- inference
 stage: abstract-reasoning
 status: draft
 ---
@@ -23,4 +22,4 @@ status: draft
 # Sufficient Statistics
 
 ## Core Idea
-A statistic T(X) is sufficient for parameter θ if the conditional distribution of X given T(X) does not depend on θ. By the factorization criterion, T is sufficient iff L(θ;x) = g(T(x),θ)h(x) where h is θ-free. Sufficient statistics capture all information relevant to θ, enabling data reduction without information loss.
+A statistic T(X) is sufficient for θ if the conditional distribution of X given T(X) does not depend on θ. Intuitively, T captures all information about θ in the data. The factorization theorem: T is sufficient iff f(x|θ) = g(T(x)|θ)h(x) where h doesn't depend on θ. Sufficient statistics form the basis for efficient inference.

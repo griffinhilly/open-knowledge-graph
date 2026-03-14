@@ -6,15 +6,15 @@ course: probability-and-mathematical-statistics
 prerequisites:
 - id: bayes-theorem
   type: hard
-- id: probability-spaces-measure-theoretic
-  type: soft
+- id: conditional-expectation
+  type: hard
 builds-toward:
 - conjugate-priors
 - bayesian-point-estimation
 tags:
-- bayesian
-- prior
-- posterior
+- bayesian-inference
+- probability
+- statistics
 stage: abstract-reasoning
 status: draft
 ---
@@ -22,4 +22,4 @@ status: draft
 # Bayesian Inference Foundations
 
 ## Core Idea
-Bayesian inference treats unknown parameters as random variables with a prior π(θ). The posterior π(θ|x) ∝ L(θ|x)π(θ) is computed by Bayes' theorem. Inference is based on the posterior: credible intervals, point estimates, and predictions. Bayesian methods incorporate prior beliefs and naturally quantify uncertainty.
+Bayesian inference treats θ as a random variable with prior distribution π(θ). Given data X, the posterior is π(θ|X) ∝ L(θ|X)π(θ) by Bayes' theorem. The posterior combines prior beliefs with data. Inference is based on the posterior: point estimates, credible intervals, and predictions all follow from the posterior distribution.

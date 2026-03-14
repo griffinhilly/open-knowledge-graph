@@ -12,8 +12,8 @@ builds-toward:
 - bayesian-point-estimation
 tags:
 - conjugate-priors
-- exponential-family
-- posterior
+- bayesian-inference
+- statistics
 stage: abstract-reasoning
 status: draft
 ---
@@ -21,4 +21,4 @@ status: draft
 # Conjugate Priors
 
 ## Core Idea
-A prior π(θ) is conjugate to the likelihood if the posterior is in the same family as the prior. For exponential family likelihoods, conjugate priors exist with natural forms. Example: Beta prior for Bernoulli gives Beta posterior. Conjugate priors enable closed-form computation and have intuitive interpretation.
+A prior π is conjugate for a likelihood if the posterior π(θ|X) is in the same family as the prior. For exponential family likelihoods, conjugate priors exist and have closed-form posteriors. Examples: Beta prior for Binomial likelihood, Normal prior for Normal likelihood with known variance. Conjugate priors simplify Bayesian computation.

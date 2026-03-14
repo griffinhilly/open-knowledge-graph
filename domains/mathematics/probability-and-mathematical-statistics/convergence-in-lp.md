@@ -9,11 +9,11 @@ prerequisites:
 - id: inner-product-spaces
   type: soft
 builds-toward:
-- relationships-between-modes-of-convergence
+- relationships-modes-convergence
 tags:
 - convergence
 - lp-spaces
-- norms
+- functional-analysis
 stage: abstract-reasoning
 status: draft
 ---
@@ -21,4 +21,4 @@ status: draft
 # Convergence in L^p
 
 ## Core Idea
-Random variables X_n converge in L^p to X if E[|X_n - X|^p] → 0, with norm ||X||_p = (E[|X|^p])^{1/p}. L^2 convergence (mean square convergence) is particularly important and implies convergence in probability. These spaces form complete normed vector spaces (Banach spaces).
+Xₙ converges to X in L^p if lim_{n→∞} E[|Xₙ - X|^p] = 0, equivalently ||Xₙ - X||_p → 0 in the L^p norm. L^p spaces form a Banach space of random variables with finite p-th moment. Convergence in L² (mean square convergence) is particularly important because it preserves inner products.

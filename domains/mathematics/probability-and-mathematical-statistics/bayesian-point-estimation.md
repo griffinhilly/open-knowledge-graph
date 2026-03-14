@@ -4,14 +4,16 @@ title: Bayesian Point Estimation
 domain: mathematics
 course: probability-and-mathematical-statistics
 prerequisites:
-- id: conditional-expectation
-  type: hard
-- id: bayesian-inference-foundations
+- id: conjugate-priors
   type: soft
+- id: bayesian-inference-foundations
+  type: hard
+builds-toward:
+- martingales-introduction
 tags:
-- bayesian
+- bayesian-estimation
 - point-estimation
-- posterior
+- statistics
 stage: abstract-reasoning
 status: draft
 ---
@@ -19,4 +21,4 @@ status: draft
 # Bayesian Point Estimation
 
 ## Core Idea
-Bayesian point estimates are derived from the posterior: the posterior mean E[θ|x] minimizes squared loss; the posterior mode (MAP) minimizes 0-1 loss; the posterior median minimizes absolute error loss. The posterior mean is often preferred as it incorporates the full posterior and minimizes squared error.
+Common Bayesian point estimators are the posterior mean (minimizes squared error loss), posterior median (minimizes absolute error loss), and posterior mode (maximizes posterior). The choice depends on the loss function. Bayesian estimators naturally incorporate prior information and adapt to the posterior distribution.

@@ -4,17 +4,18 @@ title: Moment Generating Functions
 domain: mathematics
 course: probability-and-mathematical-statistics
 prerequisites:
-- id: expectation-measure-theoretic
+- id: variance-higher-moments-rigorous
   type: hard
-- id: exponential-functions-and-graphs
+- id: taylor-series
   type: soft
 builds-toward:
 - characteristic-functions
 - central-limit-theorem-rigorous
+- multivariate-normal-distribution
 tags:
-- moments
 - mgf
-- convergence
+- generating-functions
+- moments
 stage: abstract-reasoning
 status: draft
 ---
@@ -22,4 +23,4 @@ status: draft
 # Moment Generating Functions
 
 ## Core Idea
-The moment generating function M_X(t) = E[e^{tX}] encodes all moments: E[X^n] = M_X^{(n)}(0). MGFs uniquely determine distributions (when they exist near 0), and continuity of MGFs implies convergence in distribution. They are powerful tools for studying sums of independent random variables.
+The moment generating function (MGF) is M(t) = E[e^{tX}], defined for t in some neighborhood of 0. If M(t) exists, all moments can be recovered: E[Xᵏ] = M^{(k)}(0). The MGF uniquely determines the distribution, and convergence of MGFs implies convergence of distributions.

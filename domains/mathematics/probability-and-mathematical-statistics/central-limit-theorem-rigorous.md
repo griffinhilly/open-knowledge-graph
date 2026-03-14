@@ -8,15 +8,16 @@ prerequisites:
   type: hard
 - id: convergence-in-distribution
   type: hard
-- id: normal-distribution-intro
+- id: multivariate-normal-distribution
   type: soft
 builds-toward:
-- asymptotic-normality-of-mle
-- confidence-intervals-rigorous
+- maximum-likelihood-estimation-theory
+- confidence-intervals-rigorous-theory
+- asymptotic-normality-mle
 tags:
-- clt
+- central-limit-theorem
 - limit-theorems
-- normal-approximation
+- probability
 stage: abstract-reasoning
 status: draft
 ---
@@ -24,4 +25,10 @@ status: draft
 # Central Limit Theorem (Rigorous via Characteristic Functions)
 
 ## Core Idea
-If X_1, X_2, ... are i.i.d. with E[X_i] = μ and Var(X_i) = σ², then √n(X̄_n - μ)/σ converges in distribution to N(0,1). The rigorous proof uses the continuity theorem: characteristic functions of the normalized sum converge pointwise to the standard normal's. The CLT holds for arbitrary distributions (finite variance) and is the foundation of statistical inference.
+If {Xₙ} are i.i.d. with mean μ and variance σ², then (Sₙ - nμ)/(σ√n) converges in distribution to N(0,1). The rigorous proof uses characteristic functions: φₙ(t/√n) → e^{-t²/2} for all t. The CLT explains why the normal distribution is ubiquitous—sums of many independent random variables are approximately normal regardless of the original distribution.
+
+## How It's Best Learned
+Prove the CLT using characteristic functions. Apply the CLT to non-normal parent distributions to verify the approximation. Use the CLT to justify normal approximations in statistical inference.
+
+## Common Misconceptions
+- Thinking the CLT applies without finite variance; finite variance is required. - Assuming convergence means they are equal for all n; it is only in the limit. - Forgetting that convergence is in distribution, not almost sure.

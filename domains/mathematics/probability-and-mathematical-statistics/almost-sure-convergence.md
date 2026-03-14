@@ -4,17 +4,17 @@ title: Almost Sure Convergence
 domain: mathematics
 course: probability-and-mathematical-statistics
 prerequisites:
-- id: random-variables-as-measurable-functions
-  type: hard
-- id: limit-definition-intuitive
+- id: convergence-in-probability
   type: soft
+- id: borel-cantelli-lemmas
+  type: hard
 builds-toward:
-- relationships-between-modes-of-convergence
+- relationships-modes-convergence
 - strong-law-of-large-numbers
 tags:
 - convergence
 - almost-sure
-- sample-paths
+- limit-theorems
 stage: abstract-reasoning
 status: draft
 ---
@@ -22,4 +22,4 @@ status: draft
 # Almost Sure Convergence
 
 ## Core Idea
-A sequence X_n converges almost surely to X if P(lim_{n→∞} X_n = X) = 1. This is convergence of individual sample paths (realizations), the strongest form of stochastic convergence. It implies convergence in probability but not vice versa.
+A sequence {Xₙ} converges almost surely to X if P(lim_{n→∞} Xₙ = X) = 1, equivalently P({ω: lim_{n→∞} Xₙ(ω) = X(ω)}) = 1. This is the strongest form of convergence, meaning the pointwise limit exists for all ω except on a set of probability zero.

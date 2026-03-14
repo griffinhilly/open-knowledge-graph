@@ -1,26 +1,25 @@
 ---
 id: exponential-family
-title: The Exponential Family
+title: Exponential Family of Distributions
 domain: mathematics
 course: probability-and-mathematical-statistics
 prerequisites:
-- id: distribution-and-density-functions
+- id: distribution-functions-densities-rigorous
   type: hard
-- id: sufficient-statistics
+- id: maximum-likelihood-estimation-theory
   type: soft
 builds-toward:
-- fisher-information
-- maximum-likelihood-estimation-theory
+- sufficient-statistics
 - conjugate-priors
 tags:
 - exponential-family
-- natural-parameters
-- sufficient-statistics
+- distributions
+- statistics
 stage: abstract-reasoning
 status: draft
 ---
 
-# The Exponential Family
+# Exponential Family of Distributions
 
 ## Core Idea
-Exponential family distributions have densities f(x|θ) = h(x) exp(η(θ)·T(x) - A(θ)). Here T(x) is sufficient, η(θ) are natural parameters, and A(θ) is the log-partition function. The family includes normal, exponential, binomial, Poisson, and gamma. Exponential families have special properties: sufficient statistics have known distributions and conjugate priors exist.
+A family of distributions {f(x|θ)} belongs to the exponential family if it has the form f(x|θ) = h(x) exp{Σⱼ ηⱼ(θ)Tⱼ(x) - A(θ)}, where A(θ) is the log-partition function. Examples include normal, binomial, Poisson, and exponential. The exponential family is mathematically convenient: sufficient statistics are easy to identify, conjugate priors exist, and maximum likelihood estimators often have closed forms.

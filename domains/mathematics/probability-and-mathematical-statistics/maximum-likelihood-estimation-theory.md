@@ -4,17 +4,18 @@ title: Maximum Likelihood Estimation (Theory)
 domain: mathematics
 course: probability-and-mathematical-statistics
 prerequisites:
-- id: sufficient-statistics
+- id: exponential-family
   type: soft
-- id: expectation-measure-theoretic
+- id: optimization-problems
   type: soft
 builds-toward:
 - consistency-of-estimators
-- asymptotic-normality-of-mle
+- asymptotic-normality-mle
+- likelihood-ratio-tests
 tags:
 - mle
 - estimation
-- likelihood
+- statistics
 stage: abstract-reasoning
 status: draft
 ---
@@ -22,4 +23,10 @@ status: draft
 # Maximum Likelihood Estimation (Theory)
 
 ## Core Idea
-The maximum likelihood estimator θ̂_n = argmax L(θ) chooses the parameter maximizing the likelihood of observed data. Under regularity conditions, MLEs are consistent, asymptotically normal with variance 1/nI(θ), and asymptotically efficient. Theory covers existence, uniqueness, and limiting behavior.
+The maximum likelihood estimator (MLE) θ̂ₙ maximizes the likelihood L(θ|X) = ∏ᵢ f(Xᵢ|θ). MLEs have desirable asymptotic properties: consistency, asymptotic normality, and efficiency (achieving the Cramer-Rao bound asymptotically). Under regularity conditions, θ̂ₙ solves ∂log L/∂θ = 0 and is unique.
+
+## How It's Best Learned
+Compute MLEs for standard families (normal, exponential, binomial). Verify regularity conditions. Apply the asymptotic normality result to construct confidence intervals.
+
+## Common Misconceptions
+- Thinking MLEs are always unbiased; MLEs can be biased for finite samples. - Assuming the MLE always has a closed form; many MLEs require numerical optimization. - Forgetting that asymptotic normality requires regularity conditions.

@@ -1,25 +1,25 @@
 ---
 id: cramer-rao-lower-bound
-title: The Cramér-Rao Lower Bound
+title: Cramer-Rao Lower Bound
 domain: mathematics
 course: probability-and-mathematical-statistics
 prerequisites:
 - id: fisher-information
   type: hard
-- id: expectation-measure-theoretic
-  type: soft
+- id: variance-higher-moments-rigorous
+  type: hard
 builds-toward:
 - umvue
-- consistency-of-estimators
+- asymptotic-normality-mle
 tags:
 - cramer-rao
-- bounds
-- variance
+- lower-bounds
+- estimation
 stage: abstract-reasoning
 status: draft
 ---
 
-# The Cramér-Rao Lower Bound
+# Cramer-Rao Lower Bound
 
 ## Core Idea
-For an unbiased estimator T̂ of θ, Var(T̂) ≥ 1/I(θ) where I(θ) is Fisher information. This universal bound reveals the fundamental limit on estimation precision. Estimators achieving the bound have variance 1/I(θ) and are asymptotically efficient (UMVUEs).
+For any unbiased estimator T of θ, Var(T) ≥ 1/I(θ). The bound is tight: equality holds iff T is the uniformly minimum variance unbiased estimator (UMVUE). The CRLB shows that Fisher information lower-bounds estimator precision. MLEs are asymptotically efficient, achieving the CRLB in the limit.

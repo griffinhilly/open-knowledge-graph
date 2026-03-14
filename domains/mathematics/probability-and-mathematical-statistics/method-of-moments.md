@@ -1,10 +1,10 @@
 ---
 id: method-of-moments
-title: Method of Moments Estimation
+title: Method of Moments
 domain: mathematics
 course: probability-and-mathematical-statistics
 prerequisites:
-- id: expectation-measure-theoretic
+- id: variance-higher-moments-rigorous
   type: hard
 - id: weak-law-of-large-numbers
   type: soft
@@ -13,12 +13,12 @@ builds-toward:
 tags:
 - method-of-moments
 - estimation
-- empirical-moments
+- statistics
 stage: abstract-reasoning
 status: draft
 ---
 
-# Method of Moments Estimation
+# Method of Moments
 
 ## Core Idea
-Method of moments estimators set sample moments m̂_k equal to population moments E[X^k] and solve for parameters. For example, if X ~ Gamma(α, β) with E[X] = α/β and E[X²] = (α+α²)/β², this yields estimators of α and β. MoM estimators are consistent but often less efficient than MLEs; they are computationally simple.
+The method of moments equates sample moments with population moments: set m̂ₖ = μₖ(θ) where m̂ₖ = (1/n)Σ Xᵢᵏ. Solve for θ. This approach is simple but less efficient than MLE. Method of moments estimators are consistent by the WLLN and asymptotically normal under suitable conditions.

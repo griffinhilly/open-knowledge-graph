@@ -8,10 +8,12 @@ prerequisites:
   type: hard
 - id: likelihood-ratio-tests
   type: soft
+builds-toward:
+- confidence-intervals-rigorous-theory
 tags:
+- ump-tests
 - hypothesis-testing
-- power
-- ump
+- statistics
 stage: abstract-reasoning
 status: draft
 ---
@@ -19,4 +21,4 @@ status: draft
 # Uniformly Most Powerful Tests
 
 ## Core Idea
-A test is uniformly most powerful (UMP) at level α if it maximizes power against all alternatives simultaneously. By the Neyman-Pearson lemma, UMP tests exist for one-sided hypotheses with monotone likelihood ratio. For two-sided hypotheses, UMP tests typically do not exist.
+A UMP test maximizes power (Type II error) uniformly over all alternatives. By Neyman-Pearson, UMP tests exist for simple vs. simple hypotheses. For composite alternatives (e.g., H₁: θ > θ₀), UMP tests may not exist, but UMP unbiased tests sometimes do. The likelihood ratio test is often asymptotically UMP.

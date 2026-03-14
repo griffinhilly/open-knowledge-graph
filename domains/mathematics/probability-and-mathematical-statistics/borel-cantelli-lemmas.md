@@ -1,24 +1,25 @@
 ---
 id: borel-cantelli-lemmas
-title: The Borel-Cantelli Lemmas
+title: Borel-Cantelli Lemmas
 domain: mathematics
 course: probability-and-mathematical-statistics
 prerequisites:
-- id: independence-of-sigma-algebras
+- id: independence-sigma-algebras
   type: hard
-- id: series-convergence-rigorous
-  type: soft
+- id: probability-spaces-measure-theoretic
+  type: hard
 builds-toward:
+- almost-sure-convergence
 - strong-law-of-large-numbers
 tags:
-- borel-cantelli
-- independence
-- tail-events
+- limit-theorems
+- convergence
+- probability
 stage: abstract-reasoning
 status: draft
 ---
 
-# The Borel-Cantelli Lemmas
+# Borel-Cantelli Lemmas
 
 ## Core Idea
-The first Borel-Cantelli lemma: if Σ P(A_n) < ∞, then P(lim sup A_n) = 0 (only finitely many A_n occur). The second: if Σ P(A_n) = ∞ and the A_n are independent, then P(lim sup A_n) = 1 (infinitely many occur a.s.). Together they characterize behavior of infinite event sequences.
+If {Aₙ} are events with Σ P(Aₙ) < ∞, then P(lim sup Aₙ) = 0 (first Borel-Cantelli lemma). Conversely, if {Aₙ} are independent with Σ P(Aₙ) = ∞, then P(lim sup Aₙ) = 1 (second Borel-Cantelli lemma). These lemmas control the tail behavior of event sequences and are crucial for proving almost sure convergence.

@@ -6,13 +6,13 @@ course: probability-and-mathematical-statistics
 prerequisites:
 - id: convergence-in-probability
   type: hard
-- id: weak-law-of-large-numbers
+- id: maximum-likelihood-estimation-theory
   type: soft
 builds-toward:
-- asymptotic-normality-of-mle
+- asymptotic-normality-mle
 tags:
 - consistency
-- convergence
+- asymptotics
 - estimation
 stage: abstract-reasoning
 status: draft
@@ -21,4 +21,4 @@ status: draft
 # Consistency of Estimators
 
 ## Core Idea
-An estimator T̂_n is consistent for θ if T̂_n converges in probability to θ as n → ∞. Consistency ensures that with sufficient data, the estimator approaches the true parameter. MLEs are consistent under regularity conditions; method of moments estimators are consistent by the WLLN. Inconsistent estimators should be rejected.
+An estimator θ̂ₙ is consistent if θ̂ₙ converges in probability to θ as n → ∞. Consistency is a minimum requirement for reasonable estimators—as sample size grows, the estimator should approach the truth. Under regularity conditions, MLEs and method of moments estimators are consistent.

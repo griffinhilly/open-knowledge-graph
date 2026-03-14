@@ -4,17 +4,18 @@ title: Strong Law of Large Numbers
 domain: mathematics
 course: probability-and-mathematical-statistics
 prerequisites:
+- id: weak-law-of-large-numbers
+  type: soft
 - id: almost-sure-convergence
   type: hard
 - id: borel-cantelli-lemmas
   type: hard
 builds-toward:
-- markov-chains-convergence
-- bayesian-inference-foundations
+- central-limit-theorem-rigorous
 tags:
+- law-of-large-numbers
 - limit-theorems
-- slln
-- sample-paths
+- probability
 stage: abstract-reasoning
 status: draft
 ---
@@ -22,4 +23,4 @@ status: draft
 # Strong Law of Large Numbers
 
 ## Core Idea
-If X_1, X_2, ... are i.i.d. with E[X_i] = μ, then (X_1 + ... + X_n)/n → μ almost surely. This is convergence of sample paths themselves, stronger than the weak law. The proof uses Kronecker's lemma; convergence is nearly certain, not merely probable.
+If {Xₙ} are i.i.d. with finite mean μ, then Sₙ/n converges almost surely to μ: P(lim_{n→∞} Sₙ/n = μ) = 1. This is stronger than the weak law. The proof uses the Borel-Cantelli lemmas (for bounded random variables) or truncation arguments. The SLLN provides certainty (up to sets of probability zero) rather than just high probability.

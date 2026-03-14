@@ -10,11 +10,10 @@ prerequisites:
   type: soft
 builds-toward:
 - uniformly-most-powerful-tests
-- confidence-intervals-rigorous
 tags:
+- likelihood-ratio-tests
 - hypothesis-testing
-- likelihood-ratio
-- wilks-theorem
+- statistics
 stage: abstract-reasoning
 status: draft
 ---
@@ -22,4 +21,4 @@ status: draft
 # Likelihood Ratio Tests
 
 ## Core Idea
-The likelihood ratio statistic is Λ = L(θ̂_H0)/L(θ̂). Under H_0, -2 log Λ converges in distribution to χ²_{df} by Wilks' theorem (df = dim(Θ) - dim(Θ_0)). LRTs are asymptotically optimal and invariant to reparameterization, unifying many standard tests.
+The likelihood ratio test rejects H₀ when Λ = L(θ̂₀|X)/L(θ̂|X) < c, where θ̂₀ is the MLE under H₀ and θ̂ is the unrestricted MLE. Under H₀, -2log(Λ) converges in distribution to χ²_r where r is the dimension reduction. LR tests are general and achieve optimal Type II error (power) asymptotically.

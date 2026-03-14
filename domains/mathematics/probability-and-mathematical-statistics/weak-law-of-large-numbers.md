@@ -6,15 +6,17 @@ course: probability-and-mathematical-statistics
 prerequisites:
 - id: convergence-in-probability
   type: hard
+- id: independence-sigma-algebras
+  type: hard
 - id: chebyshev-bounds
   type: soft
 builds-toward:
-- method-of-moments
-- consistency-of-estimators
+- strong-law-of-large-numbers
+- central-limit-theorem-rigorous
 tags:
+- law-of-large-numbers
 - limit-theorems
-- lln
-- average
+- probability
 stage: abstract-reasoning
 status: draft
 ---
@@ -22,4 +24,4 @@ status: draft
 # Weak Law of Large Numbers
 
 ## Core Idea
-If X_1, X_2, ... are i.i.d. with E[X_i] = μ, then the sample mean (X_1 + ... + X_n)/n converges in probability to μ. This justifies using empirical averages to estimate population means. The proof uses Chebyshev's inequality; it extends to dependent variables under mixing conditions.
+If {Xₙ} are i.i.d. random variables with finite mean μ, then Sₙ/n = (X₁ + ... + Xₙ)/n converges in probability to μ. The key assumption is finite variance (or more generally, applying Chebyshev's inequality). The weak LLN guarantees that sample means stabilize around the true mean, justifying empirical estimation.

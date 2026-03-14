@@ -1,25 +1,25 @@
 ---
 id: convergence-in-distribution
-title: Convergence in Distribution (Weak Convergence)
+title: Convergence in Distribution
 domain: mathematics
 course: probability-and-mathematical-statistics
 prerequisites:
-- id: characteristic-functions
+- id: distribution-functions-densities-rigorous
   type: hard
-- id: distribution-and-density-functions
+- id: characteristic-functions
   type: soft
 builds-toward:
+- relationships-modes-convergence
 - central-limit-theorem-rigorous
-- relationships-between-modes-of-convergence
 tags:
 - convergence
 - distribution
-- weak-convergence
+- limit-theorems
 stage: abstract-reasoning
 status: draft
 ---
 
-# Convergence in Distribution (Weak Convergence)
+# Convergence in Distribution
 
 ## Core Idea
-Random variables X_n converge in distribution to X if CDFs F_n(x) → F(x) at continuity points of F. Equivalently, characteristic functions φ_n(t) → φ(t) for all t. The limiting X need not exist on the same probability space as the X_n.
+Xₙ converges to X in distribution if lim_{n→∞} Fₙ(x) = F(x) at continuity points of F, or equivalently lim_{n→∞} φₙ(t) = φ(t) for all t. This is the weakest form of convergence—Xₙ and X need not be defined on the same probability space. Characteristic function convergence provides the most convenient criterion.

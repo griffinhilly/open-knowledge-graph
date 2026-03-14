@@ -1,22 +1,24 @@
 ---
 id: stationary-distributions
-title: Stationary Distributions of Markov Chains
+title: Stationary Distributions
 domain: mathematics
 course: probability-and-mathematical-statistics
 prerequisites:
 - id: markov-chains
   type: hard
+- id: convergence-in-distribution
+  type: soft
 builds-toward:
-- markov-chains-convergence
+- martingales-introduction
 tags:
+- stationary-distributions
 - markov-chains
-- stationary-distribution
-- equilibrium
+- probability
 stage: abstract-reasoning
 status: draft
 ---
 
-# Stationary Distributions of Markov Chains
+# Stationary Distributions
 
 ## Core Idea
-A stationary distribution π satisfies πP = π. For irreducible, aperiodic, finite-state Markov chains, a unique stationary distribution exists and is the limiting distribution regardless of initial state. Stationary distributions model long-run behavior and are crucial for MCMC: if the chain has the posterior as stationary distribution, samples approximate the posterior.
+A probability distribution π is stationary for a Markov chain with transition kernel P if π = πP, or equivalently ∫π(dx)P(x, A) = π(A) for all measurable A. For irreducible aperiodic chains, the distribution converges to a unique stationary distribution. Stationary distributions characterize long-run behavior.

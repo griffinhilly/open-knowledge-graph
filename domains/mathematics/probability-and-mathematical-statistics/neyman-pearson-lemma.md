@@ -1,23 +1,25 @@
 ---
 id: neyman-pearson-lemma
-title: The Neyman-Pearson Lemma
+title: Neyman-Pearson Lemma
 domain: mathematics
 course: probability-and-mathematical-statistics
 prerequisites:
-- id: probability-spaces-measure-theoretic
+- id: maximum-likelihood-estimation-theory
+  type: hard
+- id: type-i-and-type-ii-errors
   type: soft
 builds-toward:
 - likelihood-ratio-tests
 - uniformly-most-powerful-tests
 tags:
-- hypothesis-testing
 - neyman-pearson
-- power
+- hypothesis-testing
+- statistics
 stage: abstract-reasoning
 status: draft
 ---
 
-# The Neyman-Pearson Lemma
+# Neyman-Pearson Lemma
 
 ## Core Idea
-For testing H_0: θ = θ_0 vs H_1: θ = θ_1, the likelihood ratio test {L(θ_1)/L(θ_0) > c} is most powerful for a given significance level. This establishes likelihood ratio tests as optimal, justifying their widespread use. For composite hypotheses, the generalization leads to uniformly most powerful tests.
+For testing H₀: θ = θ₀ vs H₁: θ = θ₁, the most powerful test rejects H₀ when L(θ₁|X)/L(θ₀|X) > k for some k determined by the significance level. The Neyman-Pearson lemma characterizes the optimal test in terms of likelihood ratios. This is the foundation for constructing best hypothesis tests.

@@ -6,15 +6,15 @@ course: probability-and-mathematical-statistics
 prerequisites:
 - id: expectation-measure-theoretic
   type: hard
-- id: conditional-probability
+- id: independence-sigma-algebras
   type: soft
 builds-toward:
-- martingales-intro
+- martingales-introduction
 - bayesian-inference-foundations
 tags:
 - conditional-expectation
 - sigma-algebras
-- integration
+- probability
 stage: abstract-reasoning
 status: draft
 ---
@@ -22,4 +22,4 @@ status: draft
 # Conditional Expectation
 
 ## Core Idea
-Conditional expectation E[X|ℊ] given a sigma-algebra ℊ is the orthogonal projection of X onto ℊ-measurable random variables in L². It satisfies ∫_A E[X|ℊ] dP = ∫_A X dP for all A ∈ ℊ. This unifies discrete conditioning, continuous conditioning, and extends to conditioning on sigma-algebras.
+Conditional expectation E[X|G] with respect to a sigma-algebra G is the unique G-measurable random variable satisfying E[E[X|G]·1_A] = E[X·1_A] for all A ∈ G. It generalizes discrete conditional expectation and has properties: E[E[X|G]] = E[X], E[aX + bY|G] = aE[X|G] + bE[Y|G], and the tower property E[E[X|G₁]|G₂] = E[X|G₂] when G₂ ⊆ G₁.

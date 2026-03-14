@@ -4,18 +4,19 @@ title: Multivariate Normal Distribution
 domain: mathematics
 course: probability-and-mathematical-statistics
 prerequisites:
-- id: central-limit-theorem-rigorous
-  type: soft
-- id: distribution-and-density-functions
+- id: joint-distributions-marginals-rigorous
   type: hard
-- id: matrix-operations
+- id: characteristic-functions
+  type: soft
+- id: linear-transformations
   type: soft
 builds-toward:
-- asymptotic-normality-of-mle
+- central-limit-theorem-rigorous
+- bayesian-inference-foundations
 tags:
-- multivariate
-- normal-distribution
-- gaussian
+- multivariate-normal
+- distributions
+- statistics
 stage: abstract-reasoning
 status: draft
 ---
@@ -23,4 +24,4 @@ status: draft
 # Multivariate Normal Distribution
 
 ## Core Idea
-A random vector X ∈ ℝ^k follows N(μ, Σ) if every linear combination is univariate normal. The density is f(x) = (2π)^{-k/2}|Σ|^{-1/2} exp(-½(x-μ)'Σ^{-1}(x-μ)). Marginals and conditionals are normal. The multivariate CLT yields multivariate normality of limiting distributions.
+A random vector X ~ N(μ, Σ) has characteristic function φ(t) = exp(it'μ - ½t'Σt). The MVN is closed under linear transformations and marginals. A joint distribution is MVN if every linear combination of components is univariate normal. The MVN is fundamental in statistical inference because the sample mean vector is MVN for large samples.

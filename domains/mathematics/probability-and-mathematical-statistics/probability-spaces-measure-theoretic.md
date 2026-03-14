@@ -4,17 +4,18 @@ title: Probability Spaces (Measure-Theoretic Definition)
 domain: mathematics
 course: probability-and-mathematical-statistics
 prerequisites:
-- id: sigma-algebras-and-measurable-sets
+- id: sigma-algebras-measurable-sets
   type: hard
 - id: probability-axioms
   type: hard
 builds-toward:
 - random-variables-as-measurable-functions
-- distribution-and-density-functions
+- expectation-measure-theoretic
+- conditional-expectation
 tags:
-- foundations
-- measure-theory
 - probability
+- measure-theory
+- foundations
 stage: abstract-reasoning
 status: draft
 ---
@@ -22,4 +23,10 @@ status: draft
 # Probability Spaces (Measure-Theoretic Definition)
 
 ## Core Idea
-A probability space (Ω, ℱ, P) consists of a sample space Ω, a sigma-algebra ℱ of events, and a probability measure P: ℱ → [0,1] satisfying countable additivity. This rigorous framework replaces informal probability with a mathematical structure satisfying the Kolmogorov axioms. It enables treating probability on arbitrary spaces and justifies conditioning and independence.
+A probability space is a triple (Ω, ℱ, P) where Ω is a sample space, ℱ is a sigma-algebra of events, and P is a probability measure satisfying σ-additivity: P(∪ₙAₙ) = ΣₙP(Aₙ) for disjoint countable unions. This measure-theoretic definition extends the axioms of probability to handle infinite sample spaces. It provides the rigorous foundation for modern probability theory.
+
+## How It's Best Learned
+Review the axioms of probability first. Then see how sigma-algebras enable handling infinite sample spaces rigorously. Work examples: discrete spaces, ℝ with Borel sets, ℝⁿ.
+
+## Common Misconceptions
+- Thinking the axioms alone guarantee countable additivity; countable additivity must be stated explicitly. - Confusing the sample space with the event space; ℱ ⊆ P(Ω). - Assuming any partition of Ω generates a sigma-algebra.

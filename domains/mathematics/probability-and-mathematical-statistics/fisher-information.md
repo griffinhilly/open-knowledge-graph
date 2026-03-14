@@ -6,17 +6,15 @@ course: probability-and-mathematical-statistics
 prerequisites:
 - id: expectation-measure-theoretic
   type: hard
-- id: distribution-and-density-functions
+- id: distribution-functions-densities-rigorous
   type: hard
-- id: chain-rule
-  type: soft
 builds-toward:
 - cramer-rao-lower-bound
-- asymptotic-normality-of-mle
+- asymptotic-normality-mle
 tags:
 - fisher-information
-- likelihood
-- second-derivative
+- information-theory
+- statistics
 stage: abstract-reasoning
 status: draft
 ---
@@ -24,4 +22,4 @@ status: draft
 # Fisher Information
 
 ## Core Idea
-Fisher information is I(θ) = E[(∂ log L/∂θ)²] = -E[∂² log L/∂θ²], measuring information the data carries about θ. For exponential families, I(θ) = A''(θ). Larger information means the parameter is more precisely determined. It is fundamental to the Cramér-Rao lower bound and asymptotic efficiency theory.
+The Fisher information is I(θ) = E[(∂log f(X|θ)/∂θ)²] = -E[∂²log f(X|θ)/∂θ²]. It quantifies how much information the data carries about θ: larger I means θ is more precisely estimable. For n i.i.d. observations, Iₙ(θ) = nI(θ). Fisher information appears in the Cramer-Rao bound and characterizes the asymptotic variance of MLEs.
