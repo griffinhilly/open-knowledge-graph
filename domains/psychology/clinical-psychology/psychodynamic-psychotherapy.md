@@ -1,24 +1,23 @@
 ---
 id: psychodynamic-psychotherapy
-title: Psychodynamic Psychotherapy
+title: Psychodynamic Psychotherapy and Transference
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: clinical-assessment-overview
+- id: case-formulation-and-treatment-planning
+  type: hard
+- id: attachment-theory
   type: soft
-- id: identity-development-adolescence
-  type: soft
+builds-toward:
+- evidence-based-treatment-practice
 tags:
 - psychodynamic
-- therapy
-- unconscious
-- insight
-- psychoanalysis
+- transference
 stage: advanced
 status: draft
 ---
 
-# Psychodynamic Psychotherapy
+# Psychodynamic Psychotherapy and Transference
 
 ## Core Idea
-Psychodynamic therapy derives from psychoanalytic theory, focusing on unconscious conflicts, internalized early relationships, and defense mechanisms. It emphasizes exploration with less structure than CBT, using free association and therapist interpretation. Core mechanisms include developing insight into patterns, working through transference (relationship with therapist reflecting past relationships), and building a corrective emotional experience.
+Psychodynamic Psychotherapy examines how unconscious processes, early relationships, and current relationship patterns maintain distress. Transference—unconscious feelings toward the therapist derived from past relationships—is central to the work. The therapeutic alliance and therapist's ability to work with transference facilitate insight and lasting change.

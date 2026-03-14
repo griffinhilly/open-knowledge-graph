@@ -4,16 +4,16 @@ title: Social Anxiety Disorder
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: anxiety-disorders-overview
+- id: dsm-5-diagnostic-criteria-and-classification
   type: hard
-- id: social-cognition
+- id: stereotyping-and-implicit-bias
   type: soft
+builds-toward:
+- cognitive-behavioral-therapy-cbt
+- exposure-therapy-and-cbt
 tags:
-- social-anxiety
+- social anxiety
 - anxiety
-- shame
-- avoidance
-- performance
 stage: advanced
 status: draft
 ---
@@ -21,4 +21,4 @@ status: draft
 # Social Anxiety Disorder
 
 ## Core Idea
-Social Anxiety Disorder is a persistent, intense fear of social situations where one might face scrutiny, judgment, or embarrassment, leading to avoidance and significant distress. It involves cognitive biases toward threat detection in social cues and negative self-focused attention. Unlike normal shyness, SAD causes functional impairment in social, occupational, or academic domains and often develops from temperamental predisposition and aversive social experiences.
+Social Anxiety Disorder involves intense fear of social evaluation leading to avoidance and functional impairment. The disorder maintains through cognitive distortions about threat and behavioral avoidance that prevents disconfirmation of feared outcomes.

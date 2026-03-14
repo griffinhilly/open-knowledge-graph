@@ -1,24 +1,23 @@
 ---
 id: dialectical-behavior-therapy
-title: Dialectical Behavior Therapy (DBT)
+title: 'Dialectical Behavior Therapy: Components and Mechanisms'
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: cognitive-behavioral-therapy
+- id: case-formulation-and-treatment-planning
   type: hard
-- id: cluster-b-dramatic-emotional
-  type: soft
+- id: borderline-personality-disorder
+  type: hard
+builds-toward:
+- evidence-based-treatment-practice
 tags:
-- dbt
-- therapy
-- skills
-- acceptance
-- change
+- DBT
+- emotion regulation
 stage: advanced
 status: draft
 ---
 
-# Dialectical Behavior Therapy (DBT)
+# Dialectical Behavior Therapy: Components and Mechanisms
 
 ## Core Idea
-Dialectical Behavior Therapy combines CBT techniques with acceptance-based interventions and Zen dialectics (balancing acceptance and change). DBT includes individual therapy, skills training (mindfulness, distress tolerance, emotion regulation, interpersonal effectiveness), phone coaching, and therapist team consultation. Originally developed for Borderline Personality Disorder, it is effective for chronically suicidal individuals and emotion dysregulation across disorders.
+Dialectical Behavior Therapy integrates CBT with dialectical philosophy (accepting paradox), mindfulness, and validation. DBT includes individual therapy, skills training, phone coaching, and therapist consultation for emotion dysregulation and self-harm. The dialectical balance between acceptance and change is central. Originally developed for Borderline Personality Disorder, DBT is adapted for many disorders.

@@ -1,23 +1,24 @@
 ---
 id: posttraumatic-stress-disorder
-title: Posttraumatic Stress Disorder (PTSD)
+title: Posttraumatic Stress Disorder
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: dsm-5-diagnostic-framework
+- id: dsm-5-diagnostic-criteria-and-classification
   type: hard
+- id: amygdala-emotion
+  type: soft
 builds-toward:
-- trauma-focused-psychotherapy
-- cognitive-behavioral-therapy-clinical
+- exposure-therapy-and-cbt
+- antidepressant-medications-ssris
 tags:
-- ptsd
+- PTSD
 - trauma
-- stress-disorder
 stage: advanced
 status: draft
 ---
 
-# Posttraumatic Stress Disorder (PTSD)
+# Posttraumatic Stress Disorder
 
 ## Core Idea
-PTSD develops after trauma exposure with intrusion symptoms, avoidance, negative cognitions/mood, and arousal alterations. It reflects maladaptive memory consolidation and failure of fear extinction.
+Posttraumatic Stress Disorder develops after trauma exposure and involves re-experiencing symptoms (flashbacks, nightmares), avoidance, negative mood/cognition changes, and hyperarousal. PTSD reflects abnormalities in fear processing and memory consolidation. The disorder maintains through avoidance that prevents habituation and maladaptive trauma memory processing.

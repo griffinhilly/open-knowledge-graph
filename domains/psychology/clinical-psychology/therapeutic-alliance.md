@@ -4,12 +4,14 @@ title: Therapeutic Alliance and Working Relationship
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: case-conceptualization-clinical
+- id: case-formulation-and-treatment-planning
   type: hard
+builds-toward:
+- evidence-based-treatment-practice
 tags:
-- therapeutic-relationship
 - alliance
-- outcome
+- relationship
+- repair
 stage: advanced
 status: draft
 ---
@@ -17,4 +19,4 @@ status: draft
 # Therapeutic Alliance and Working Relationship
 
 ## Core Idea
-The therapeutic alliance—the collaborative relationship characterized by agreement on goals, tasks, and emotional bond—is one of the strongest treatment-outcome predictors across diverse therapies. It involves genuine engagement, empathy, and constructive disagreement resolution.
+The therapeutic alliance—the collaborative agreement on goals, tasks, and mutual respect—is one of the strongest predictors of treatment outcome across all modalities. Alliance includes emotional connection, agreement on treatment focus, and shared commitment. Therapists actively build alliance through empathy, authenticity, and responsiveness. Alliance ruptures, when addressed, deepen the relationship.

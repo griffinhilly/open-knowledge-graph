@@ -1,24 +1,23 @@
 ---
 id: antipsychotic-medications
-title: Antipsychotic Medications
+title: 'Antipsychotic Medications: Types and Mechanisms'
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: schizophrenia-positive-negative-symptoms
+- id: schizophrenia-spectrum-disorders
   type: hard
-- id: neurotransmitter-systems
-  type: soft
+- id: dopamine-system
+  type: hard
+builds-toward:
+- comorbidity-complex-presentations
 tags:
 - antipsychotics
-- medication
 - dopamine
-- schizophrenia
-- psychosis
 stage: advanced
 status: draft
 ---
 
-# Antipsychotic Medications
+# Antipsychotic Medications: Types and Mechanisms
 
 ## Core Idea
-Antipsychotics block dopamine D2 receptors (first-generation) or act on multiple receptors including serotonin antagonism (second-generation), reducing positive symptoms in schizophrenia and other psychotic disorders. Efficacy is moderate (~70% for positive symptoms); negative and cognitive symptoms are more treatment-resistant. Serious side effects include tardive dyskinesia, metabolic syndrome, and movement disorders; adherence challenges and relapse vulnerability complicate long-term management.
+Antipsychotics block dopamine activity to reduce psychotic symptoms. Typical antipsychotics (first-generation) effectively treat positive symptoms but cause movement disorders. Atypical antipsychotics (second-generation) treat positive and negative symptoms with reduced movement side effects but metabolic risks. Long-term use is essential for maintaining remission in schizophrenia.
