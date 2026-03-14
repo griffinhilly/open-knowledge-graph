@@ -6,32 +6,25 @@ course: methods-of-proof
 prerequisites:
 - id: statements-and-logical-connectives
   type: hard
-- id: truth-tables
-  type: hard
 builds-toward:
 - logical-equivalences
-- direct-proof
-- proof-by-contrapositive
+- contrapositive-converse-and-inverse
 tags:
-- conditional
-- biconditional
 - implication
 - if-then
-- converse
-- contrapositive
+- logic
 stage: formal-systems
-status: validated
+status: draft
 ---
 
 # Conditional and Biconditional Statements
 
 ## Core Idea
-The conditional P → Q (read 'if P then Q') is false only when P is true and Q is false; it is vacuously true when P is false. The biconditional P ↔ Q is true exactly when P and Q have the same truth value. Associated forms — the converse (Q → P), inverse (¬P → ¬Q), and contrapositive (¬Q → ¬P) — are critically important: the contrapositive is logically equivalent to the original conditional, while the converse is not.
+The conditional 'if p then q' (p → q) is false only when p is true and q is false; in all other cases it is true. The biconditional 'p if and only if q' (p ↔ q) is true when both have the same truth value.
 
 ## How It's Best Learned
-Work through truth tables for P → Q side-by-side with its converse and contrapositive. Use concrete examples: 'If it rains, the ground is wet.' Ask students whether the converse is also true. Emphasize that vacuous truth is a feature, not a bug — it keeps mathematical definitions consistent.
+Relate conditionals to everyday reasoning: 'If it rains, the ground is wet' is false only if it rains but the ground stays dry.
 
 ## Common Misconceptions
-- Confusing a conditional with its converse: proving Q → P does not prove P → Q.
-- Thinking P → Q being true means P caused Q, rather than just that the implication holds.
-- Forgetting that P → Q is true whenever P is false, regardless of Q.
+- Assuming p → q is true whenever q is true, regardless of p.
+- Confusing 'if' with 'if and only if'.

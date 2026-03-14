@@ -8,26 +8,23 @@ prerequisites:
   type: hard
 builds-toward:
 - logical-equivalences
-- conditional-and-biconditional
+- tautologies-and-contradictions
 tags:
-- truth-tables
 - logic
-- tautology
-- contradiction
-- Boolean
+- truth-values
+- systematic
 stage: formal-systems
-status: validated
+status: draft
 ---
 
 # Truth Tables
 
 ## Core Idea
-A truth table systematically lists every possible combination of truth values for the component statements in a compound expression and computes the resulting truth value for the whole. For n atomic statements, there are 2ⁿ rows. Truth tables are the definitive mechanical method for determining whether a compound statement is always true (a tautology), always false (a contradiction), or neither (a contingency).
+Truth tables systematically enumerate all possible truth value assignments and show the resulting truth of compound statements. They are the primary tool for analyzing logical operations and verifying equivalences.
 
 ## How It's Best Learned
-Practice constructing truth tables column by column, left to right, building up subexpressions before evaluating the full formula. Verify familiar identities like De Morgan's laws by table. Move toward recognizing common patterns (e.g., P → Q vs. ¬P ∨ Q) without always needing to recompute.
+Build small tables for single connectives, then combine them step-by-step for complex statements.
 
 ## Common Misconceptions
-- Forgetting to enumerate all 2ⁿ rows, especially when n = 3 or more.
-- Confusing the order of operations: negation binds tighter than ∧, which binds tighter than ∨, which binds tighter than →.
-- Assuming that a formula being true in many cases means it is a tautology — every row must be checked.
+- Missing rows when there are more than two variables (2^n rows for n variables).
+- Incorrectly evaluating complex formulas by working left-to-right instead of respecting operator precedence.

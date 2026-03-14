@@ -6,36 +6,25 @@ course: methods-of-proof
 prerequisites:
 - id: proof-structure-and-terminology
   type: hard
-- id: logical-equivalences
-  type: soft
-- id: even-and-odd-numbers
-  type: soft
-- id: factors-and-multiples
-  type: soft
 builds-toward:
 - proof-by-contrapositive
-- proof-by-contradiction
-- proof-by-cases
-- existence-proofs
 - mathematical-induction
 tags:
-- direct-proof
-- proof-technique
-- divisibility
-- even-odd
+- proof
+- technique
+- forward
 stage: formal-systems
-status: validated
+status: draft
 ---
 
 # Direct Proof
 
 ## Core Idea
-A direct proof of P → Q assumes P is true and uses logical deduction — applying definitions, algebraic manipulations, and previously proven results — to conclude Q. It is the most natural proof strategy: start from what you know and derive what you want to show. Canonical first examples include proving that the sum of two even integers is even, or that the product of two odd integers is odd.
+A direct proof assumes the hypothesis and uses valid logical steps to derive the conclusion. To prove p → q, assume p is true and show q must follow, establishing the implication.
 
 ## How It's Best Learned
-Work heavily with divisibility and even/odd parity as the first domain, since the algebra is simple and the logical structure is clear. Require students to write out every step, including why each step is valid. Gradually reduce scaffolding as fluency builds.
+Write the hypothesis as a given, list what follows step-by-step with justifications, and show how you reach the conclusion.
 
 ## Common Misconceptions
-- Beginning by assuming what is to be proven (circular reasoning).
-- Skipping algebraic steps because they feel obvious — rigor requires justification.
-- Confusing the direction: a direct proof of P → Q is not the same as proving Q → P.
+- Proving the converse (q → p) instead of the original statement (p → q).
+- Assuming the conclusion is true at the start rather than deriving it.

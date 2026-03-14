@@ -1,31 +1,29 @@
 ---
 id: proof-by-cases
-title: Proof by Cases
+title: Proof by Cases (Proof by Exhaustion)
 domain: mathematics
 course: methods-of-proof
 prerequisites:
 - id: direct-proof
   type: hard
 builds-toward:
-- existence-proofs
+- mathematical-induction
 tags:
-- proof-by-cases
-- exhaustive-proof
-- case-analysis
-- parity
+- proof
+- cases
+- exhaustion
 stage: formal-systems
-status: validated
+status: draft
 ---
 
-# Proof by Cases
+# Proof by Cases (Proof by Exhaustion)
 
 ## Core Idea
-A proof by cases (or exhaustive proof) divides the domain of possible inputs into a finite number of mutually exclusive, collectively exhaustive cases and proves the conclusion holds in each case. The proof is complete only if every case is covered. A common structure is dividing by parity (even vs. odd), by sign (positive, negative, zero), or by a modular condition. Proof by cases is essential when no single argument handles all possibilities uniformly.
+Proof by cases partitions the hypothesis into exhaustive cases and proves the conclusion for each. If true in all cases, it's true in general. This method is essential when a universal approach is infeasible.
 
 ## How It's Best Learned
-Practice with small exhaustive cases: prove that n(n+1) is even for all integers n by considering n even and n odd. Emphasize the obligation to verify exhaustiveness — every possible scenario must fall into exactly one case.
+Identify natural partitions: parity (even/odd), sign (positive/negative/zero), or other exhaustive categories. Verify no cases are missed.
 
 ## Common Misconceptions
-- Missing a case (e.g., forgetting the n = 0 case when splitting positive and negative).
-- Allowing cases to overlap without explicitly handling the overlap.
-- Using proof by cases when a unified argument (e.g., modular arithmetic) would be simpler.
+- Forgetting edge cases or overlapping regions.
+- Believing a general proof is always preferable to cases when cases are clearer.
