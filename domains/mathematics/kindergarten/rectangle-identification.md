@@ -5,12 +5,12 @@ domain: mathematics
 course: kindergarten
 prerequisites: []
 builds-toward:
-- shape-attributes-2d
-- sorting-by-shape
+- 2d-shapes-attributes
+- shape-sorting
 tags:
 - shapes
-- rectangles
-- 2d-shapes
+- rectangle
+- visual perception
 stage: pre-formal
 status: draft
 ---
@@ -18,7 +18,4 @@ status: draft
 # Identifying Rectangles
 
 ## Core Idea
-Children recognize and name rectangles. A rectangle has 4 sides (with opposite sides equal) and 4 corners, found in doors, books, and paper.
-
-## How It's Best Learned
-Trace rectangles. Find rectangles in classroom (doors, whiteboards, tables). Sort shape cards. Build with rectangular blocks.
+A rectangle is a shape with four sides and four corners, where opposite sides are equal in length. Squares are special rectangles. Children learn to spot rectangles in many everyday objects like doors, windows, and books.

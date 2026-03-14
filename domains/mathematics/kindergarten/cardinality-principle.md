@@ -1,30 +1,31 @@
 ---
 id: cardinality-principle
-title: The Cardinality Principle
+title: 'Cardinality: The Last Number Counted'
 domain: mathematics
 course: kindergarten
 prerequisites:
-- id: counting-objects-to-20
+- id: counting-sequence-to-ten
+  type: hard
+- id: one-to-one-counting-correspondence
   type: hard
 builds-toward:
-- matching-numerals-to-quantities
-- comparing-quantities
+- comparing-quantities-more-less
+- cardinality-understanding
 tags:
 - cardinality
-- number-sense
-- counting
+- number meaning
+- counting principle
 stage: pre-formal
-status: validated
+status: draft
 ---
 
-# The Cardinality Principle
+# Cardinality: The Last Number Counted
 
 ## Core Idea
-The cardinality principle states that the last number said when counting a set represents the total quantity of the entire set. When asked 'How many?' a child who understands cardinality answers with the last count word rather than recounting. This understanding marks a major milestone in early number development.
+The cardinality principle states that the last number you count tells you how many objects there are in total. This is a fundamental insight: counting is not just a sequence to recite, but a way to find out "how many."
 
 ## How It's Best Learned
-After a child counts a group, immediately ask 'So how many are there?' Watch whether they answer immediately or recount from the beginning. Reinforce by saying 'You counted to 7, so there are 7 bears.'
+Count objects together and ask "How many are there?" The child should answer with the last number counted. Play "How many?" games with various objects. Emphasize the last number said.
 
 ## Common Misconceptions
-- Recounting from 1 every time 'how many?' is asked — this shows the child does not yet understand cardinality.
-- Answering with the wrong number or the second-to-last number counted.
+Young children often recount objects they've already counted, or don't understand that recounting gives the same total. They may not grasp that the last number represents the total quantity.

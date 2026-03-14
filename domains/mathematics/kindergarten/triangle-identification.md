@@ -5,12 +5,12 @@ domain: mathematics
 course: kindergarten
 prerequisites: []
 builds-toward:
-- shape-attributes-2d
-- sorting-by-shape
+- 2d-shapes-attributes
+- shape-sorting
 tags:
 - shapes
-- triangles
-- 2d-shapes
+- triangle
+- visual perception
 stage: pre-formal
 status: draft
 ---
@@ -18,7 +18,4 @@ status: draft
 # Identifying Triangles
 
 ## Core Idea
-Children recognize and name triangles. A triangle has 3 sides and 3 corners, found in roof shapes, sandwiches cut diagonally, and flags.
-
-## How It's Best Learned
-Build triangles with straws or popsicle sticks. Find triangles in the room and outdoors. Cut triangles from paper. Sing 'the triangle song' while tracing.
+A triangle is a shape with three sides and three corners. Triangles can point in any direction. Children recognize triangles in pictures, objects, and the environment.

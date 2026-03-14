@@ -5,12 +5,12 @@ domain: mathematics
 course: kindergarten
 prerequisites: []
 builds-toward:
-- shape-attributes-2d
-- sorting-by-shape
+- 2d-shapes-attributes
+- shape-sorting
 tags:
 - shapes
-- circles
-- 2d-shapes
+- circle
+- visual perception
 stage: pre-formal
 status: draft
 ---
@@ -18,10 +18,4 @@ status: draft
 # Identifying Circles
 
 ## Core Idea
-Children recognize and name circles in their environment. A circle is a round shape with no corners or edges, found in coins, wheels, plates, and balls.
-
-## How It's Best Learned
-Trace circles with your finger. Find circles in the classroom (clock, plate, button). Roll circular objects. Draw circles with chalk or markers.
-
-## Common Misconceptions
-Thinking ovals or ellipses are circles. Confusing circles with other round shapes that are actually 3D (spheres).
+A circle is a closed curved shape with no corners or straight edges. Children learn to recognize circles in different sizes and orientations, and to distinguish them from other shapes.
