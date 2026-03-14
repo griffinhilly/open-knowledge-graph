@@ -4,15 +4,16 @@ title: van Kampen's Theorem
 domain: mathematics
 course: topology
 prerequisites:
-- id: covering-spaces
+- id: fundamental-group-definition
   type: hard
-- id: fundamental-group-circle
+- id: covering-spaces
   type: soft
 builds-toward:
 - classification-compact-surfaces
 tags:
-- algebraic-topology
-- theorems
+- van-kampen
+- fundamental-group
+- amalgamated-product
 stage: advanced
 status: draft
 ---
@@ -20,4 +21,4 @@ status: draft
 # van Kampen's Theorem
 
 ## Core Idea
-van Kampen's theorem computes π₁(X) as the free product (amalgamated) of π₁(U) and π₁(V) when X = U ∪ V with U, V open and path-connected intersection. This is a computational powerhouse for determining fundamental groups without analyzing covering spaces directly.
+van Kampen's theorem computes the fundamental group of a space glued from pieces: π₁(X) ≅ π₁(U) *_{π₁(U∩V)} π₁(V) when X = U ∪ V with overlapping U and V. This is the fundamental tool for computing fundamental groups of complex spaces from simpler pieces.

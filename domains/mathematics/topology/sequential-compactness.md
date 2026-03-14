@@ -4,20 +4,18 @@ title: Sequential Compactness
 domain: mathematics
 course: topology
 prerequisites:
-- id: compact-sets-definition
-  type: hard
-- id: sequences-convergence-topology
+- id: compact-spaces-open-covers
   type: hard
 builds-toward:
-- compactness-hausdorff-spaces
+- metrization-theorems
 tags:
 - sequential-compactness
-- sequences
-stage: abstract-reasoning
+- convergent-subsequences
+stage: advanced
 status: draft
 ---
 
 # Sequential Compactness
 
 ## Core Idea
-A space is sequentially compact if every sequence has a convergent subsequence. In metric spaces this equals compactness, but in general topologies it is weaker.
+A space is sequentially compact if every sequence has a convergent subsequence. In metric spaces, sequential compactness is equivalent to compactness, but in general topology they differ. Sequential compactness characterizes compactness using sequences, the more intuitive notion from calculus.

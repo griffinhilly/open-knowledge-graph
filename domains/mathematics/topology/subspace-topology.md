@@ -1,22 +1,23 @@
 ---
 id: subspace-topology
-title: Subspace Topology (Relative Topology)
+title: Subspace Topology
 domain: mathematics
 course: topology
 prerequisites:
-- id: open-sets-topology
+- id: open-sets-in-topological-spaces
   type: hard
 builds-toward:
 - product-topology
 - quotient-topology
 tags:
-- subspaces
+- subspace
+- relative-topology
 - induced-topology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 
-# Subspace Topology (Relative Topology)
+# Subspace Topology
 
 ## Core Idea
-If (X, τ) is a topological space and A ⊆ X, the subspace topology on A is τₐ = {U ∩ A : U ∈ τ}. Open sets in A are intersections of X-open sets with A.
+The subspace topology on a subset A of a topological space X is defined by taking intersections of open sets in X with A. This makes A itself a topological space and ensures that the inclusion map is continuous. It provides a natural way to inherit topological structure from a larger space.

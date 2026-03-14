@@ -4,21 +4,22 @@ title: Compactness in Hausdorff Spaces
 domain: mathematics
 course: topology
 prerequisites:
-- id: compact-sets-definition
+- id: compact-spaces-open-covers
   type: hard
 - id: hausdorff-spaces
   type: hard
 builds-toward:
-- local-compactness
-- tychonoffs-theorem
+- tychonoff-theorem
+- topological-manifolds-introduction
 tags:
-- compact
+- compactness
 - hausdorff
-stage: abstract-reasoning
+- closed-sets
+stage: advanced
 status: draft
 ---
 
 # Compactness in Hausdorff Spaces
 
 ## Core Idea
-In Hausdorff spaces, compact subsets are closed. Finite products of compact Hausdorff spaces are compact Hausdorff. Disjoint compact sets can be separated by open sets.
+In Hausdorff spaces, compact subsets are closed and finite products of compact spaces are compact (though infinite products require Tychonoff's theorem). These results show that compactness and closure interact beautifully in Hausdorff spaces, making them ideal for analysis.

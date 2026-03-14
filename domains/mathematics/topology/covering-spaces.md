@@ -4,14 +4,17 @@ title: Covering Spaces
 domain: mathematics
 course: topology
 prerequisites:
-- id: simply-connected-spaces
+- id: fundamental-group-definition
   type: hard
-- id: continuous-functions-topology
+- id: quotient-topology
   type: soft
 builds-toward:
 - van-kampen-theorem
+- classification-compact-surfaces
 tags:
-- algebraic-topology
+- covering-spaces
+- deck-transformations
+- universal-covers
 stage: advanced
 status: draft
 ---
@@ -19,4 +22,4 @@ status: draft
 # Covering Spaces
 
 ## Core Idea
-A covering space of X is a space p : E → X where every point in X has a neighborhood U with p⁻¹(U) a disjoint union of opens mapping homeomorphically to U. Covering spaces 'unwrap' a space. Connected covering spaces correspond to subgroups of π₁(X); the universal cover has trivial fundamental group.
+A covering space of X is a space X̃ with a local homeomorphism p: X̃ → X such that every point has an evenly covered neighborhood. Covering spaces provide a way to 'unwind' a space and relate its fundamental group to the structure of covering space. The universal cover is the simply connected covering space containing all others.

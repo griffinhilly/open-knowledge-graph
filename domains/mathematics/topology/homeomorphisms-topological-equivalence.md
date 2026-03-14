@@ -4,19 +4,20 @@ title: Homeomorphisms and Topological Equivalence
 domain: mathematics
 course: topology
 prerequisites:
-- id: continuous-functions-topology
+- id: continuity-topological-spaces
   type: hard
 builds-toward:
-- topological-invariants-intro
-- classification-of-compact-surfaces
+- topological-invariants
+- classification-compact-surfaces
 tags:
-- homeomorphism
-- equivalence
-stage: abstract-reasoning
+- homeomorphisms
+- topological-equivalence
+- isomorphisms
+stage: advanced
 status: draft
 ---
 
 # Homeomorphisms and Topological Equivalence
 
 ## Core Idea
-A homeomorphism is a continuous bijection f: X → Y with continuous inverse. Homeomorphic spaces are topologically identical and partitions spaces into equivalence classes.
+A homeomorphism is a continuous bijection with continuous inverse; two spaces are topologically equivalent if a homeomorphism exists between them. Homeomorphisms preserve all topological properties—they capture the intuition that two spaces have the same shape if one can be continuously deformed into the other without tearing or gluing.

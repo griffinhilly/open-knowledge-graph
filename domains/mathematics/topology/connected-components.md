@@ -4,18 +4,19 @@ title: Connected Components
 domain: mathematics
 course: topology
 prerequisites:
-- id: connected-spaces
+- id: connectedness-definition-examples
   type: hard
 builds-toward:
-- path-components
+- fundamental-group-definition
 tags:
 - components
 - equivalence-classes
-stage: abstract-reasoning
+- decomposition
+stage: advanced
 status: draft
 ---
 
 # Connected Components
 
 ## Core Idea
-The connected component of x is the largest connected subset containing x. Components partition X into equivalence classes. In locally connected spaces, components are open; in Hausdorff spaces, they are closed.
+The connected component of a point is the largest connected subset containing it. Connected components partition the space into maximal connected subsets. This provides a way to decompose any space into its 'pieces' and understand its global structure.

@@ -6,11 +6,14 @@ course: topology
 prerequisites:
 - id: van-kampen-theorem
   type: hard
-- id: topological-manifolds-intro
+- id: homeomorphisms-topological-equivalence
   type: hard
+builds-toward:
+- topological-manifolds-introduction
 tags:
-- classification
-- surfaces
+- surface-classification
+- genus
+- euler-characteristic
 stage: advanced
 status: draft
 ---
@@ -18,4 +21,4 @@ status: draft
 # Classification of Compact Surfaces
 
 ## Core Idea
-Every compact connected 2-dimensional manifold is homeomorphic to S², a torus (connected sum of tori), or a connected sum of projective planes. This classification is determined by orientability and Euler characteristic. It exemplifies how algebraic topology (fundamental group, homology) completely classifies a geometric class of spaces.
+Every compact connected surface without boundary is homeomorphic to either a sphere, a connected sum of tori, or a connected sum of projective planes. The classification is complete: surfaces are determined up to homeomorphism by their orientability and genus. This is a major theorem demonstrating the power of topological invariants.

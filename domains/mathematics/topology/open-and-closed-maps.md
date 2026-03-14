@@ -4,13 +4,14 @@ title: Open and Closed Maps
 domain: mathematics
 course: topology
 prerequisites:
-- id: continuous-functions-topology
+- id: continuity-topological-spaces
   type: hard
 builds-toward:
-- quotient-topology
+- quotient-maps-and-identification
 tags:
-- functions
-- maps
+- open-maps
+- closed-maps
+- open-mapping-theorem
 stage: advanced
 status: draft
 ---
@@ -18,4 +19,4 @@ status: draft
 # Open and Closed Maps
 
 ## Core Idea
-f is open if images of open sets are open; f is closed if images of closed sets are closed. A continuous bijection that is open or closed is a homeomorphism. Quotient maps are surjections that are continuous and open.
+A function is open if images of open sets are open, and closed if images of closed sets are closed. Neither property implies continuity, nor does continuity imply either; homeomorphisms are continuous open maps. Open maps arise naturally in topology when studying quotient constructions and projections.

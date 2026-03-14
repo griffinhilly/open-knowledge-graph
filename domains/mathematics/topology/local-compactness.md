@@ -1,20 +1,21 @@
 ---
 id: local-compactness
-title: Locally Compact Spaces
+title: Local Compactness
 domain: mathematics
 course: topology
 prerequisites:
-- id: compactness-hausdorff-spaces
+- id: compact-spaces-open-covers
   type: hard
 builds-toward:
-- one-point-compactification
+- topological-manifolds-introduction
 tags:
-- locally-compact
-stage: abstract-reasoning
+- local-compactness
+- compact-neighborhoods
+stage: advanced
 status: draft
 ---
 
-# Locally Compact Spaces
+# Local Compactness
 
 ## Core Idea
-A space is locally compact if every point has a compact neighborhood. ℝⁿ is locally compact. Locally compact Hausdorff spaces admit a one-point compactification.
+A space is locally compact if every point has a compact neighborhood. Local compactness allows one-point compactification and enables many results from classical analysis to extend. Manifolds are locally compact, and the concept bridges finite-dimensional compactness with infinite-dimensional topology.

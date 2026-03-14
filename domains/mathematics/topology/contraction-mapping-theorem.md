@@ -1,19 +1,23 @@
 ---
 id: contraction-mapping-theorem
-title: Contraction Mapping Theorem and Fixed Points
+title: Contraction Mapping Theorem (Banach Fixed Point)
 domain: mathematics
 course: topology
 prerequisites:
-- id: completeness-metric-spaces-definition
+- id: completeness-metric-spaces
   type: hard
+builds-toward:
+- differential-equations-existence
+- numerical-analysis
 tags:
-- contraction-mapping
 - fixed-points
-stage: abstract-reasoning
+- contraction-mappings
+- banach-theorem
+stage: advanced
 status: draft
 ---
 
-# Contraction Mapping Theorem and Fixed Points
+# Contraction Mapping Theorem (Banach Fixed Point)
 
 ## Core Idea
-A map f: X → X is a contraction if d(f(x), f(y)) ≤ cd(x,y) for some c < 1. Every contraction on a complete metric space has a unique fixed point x* = f(x*), obtained as the limit of xₙ₊₁ = f(xₙ). This theorem proves existence and uniqueness of solutions and is essential for existence theorems in differential equations.
+If f: X → X is a contraction on a complete metric space (with Lipschitz constant < 1), then f has a unique fixed point and iterating f from any starting point converges to it. This theorem provides a constructive method for proving existence and uniqueness of solutions to differential equations and other problems.

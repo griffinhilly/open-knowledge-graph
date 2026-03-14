@@ -6,13 +6,16 @@ course: topology
 prerequisites:
 - id: metric-topology
   type: hard
-- id: second-countable-spaces
-  type: soft
-- id: regular-spaces
-  type: soft
+- id: countability-axioms-topology
+  type: hard
+- id: separation-axioms-t3-regular
+  type: hard
+builds-toward:
+- topological-manifolds-introduction
 tags:
+- metrization
+- metric-spaces
 - characterization
-- metric
 stage: advanced
 status: draft
 ---
@@ -20,4 +23,4 @@ status: draft
 # Metrization Theorems
 
 ## Core Idea
-A second countable regular space is metrizable. More generally, topological spaces are metrizable iff they are regular with a countable basis. These theorems characterize which topological spaces arise from metrics, justifying the study of metric spaces as a representative class.
+Metrization theorems characterize when a topological space's topology comes from a metric: typically requiring second-countability or local finiteness combined with regular and Hausdorff separation. The Urysohn metrization theorem is the key result. These theorems clarify which topological properties are metric in nature.

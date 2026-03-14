@@ -4,20 +4,22 @@ title: Path Connectedness
 domain: mathematics
 course: topology
 prerequisites:
-- id: connected-spaces
+- id: connectedness-definition-examples
   type: hard
 - id: continuous-functions-topology
-  type: hard
+  type: soft
 builds-toward:
+- homotopy-of-paths
 - fundamental-group-definition
-- homotopy-paths
 tags:
-- path-connected
-stage: abstract-reasoning
+- path-connectedness
+- paths
+- arcs
+stage: advanced
 status: draft
 ---
 
 # Path Connectedness
 
 ## Core Idea
-A space is path-connected if for every pair of points x, y there exists a continuous path γ: [0,1] → X with γ(0) = x and γ(1) = y. Path connectedness implies connectedness but not conversely.
+A space is path-connected if any two points can be joined by a continuous path (image of a continuous map from [0,1]). Path-connectedness implies connectedness but not conversely. It provides a more intuitive and constructive notion of connectedness amenable to algebraic topology.

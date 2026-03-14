@@ -4,19 +4,22 @@ title: Quotient Topology
 domain: mathematics
 course: topology
 prerequisites:
-- id: continuous-functions-topology
+- id: open-sets-in-topological-spaces
+  type: hard
+- id: equivalence-relations
   type: hard
 builds-toward:
-- classification-of-compact-surfaces
-- homotopy-paths
+- quotient-maps-and-identification
+- classification-compact-surfaces
 tags:
-- quotients
-- equivalence-relations
-stage: abstract-reasoning
+- quotient-topology
+- identification-spaces
+- equivalence-classes
+stage: advanced
 status: draft
 ---
 
 # Quotient Topology
 
 ## Core Idea
-Given an equivalence relation ~ on X, the quotient topology on X/~ declares a set open iff its preimage under the quotient map is open in X. This is the finest topology making the quotient map continuous.
+The quotient topology is defined on the set of equivalence classes of a topological space under an equivalence relation. A set is open in the quotient if its preimage under the quotient map is open, making the quotient map continuous and the finest topology with this property. This is the natural topology for identifying points or gluing spaces together.

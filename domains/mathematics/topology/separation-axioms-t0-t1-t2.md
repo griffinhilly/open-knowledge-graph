@@ -1,24 +1,25 @@
 ---
 id: separation-axioms-t0-t1-t2
-title: 'Separation Axioms: T₀, T₁, and Hausdorff (T₂) Spaces'
+title: 'Separation Axioms: T₀, T₁, and T₂ (Hausdorff)'
 domain: mathematics
 course: topology
 prerequisites:
-- id: open-sets-definition-examples
+- id: limit-points-convergence-topology
   type: hard
-- id: hausdorff-spaces
-  type: soft
 builds-toward:
-- regularity-t3-axiom
-- normality-t4-axiom
+- hausdorff-spaces
+- separation-axioms-t3-regular
 tags:
 - separation-axioms
+- t0
+- t1
+- t2
 - hausdorff
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 
-# Separation Axioms: T₀, T₁, and Hausdorff (T₂) Spaces
+# Separation Axioms: T₀, T₁, and T₂ (Hausdorff)
 
 ## Core Idea
-T₀: distinct points can be separated by some open set. T₁: distinct points can be separated individually (for each pair, one excludes the other from a neighborhood). T₂ (Hausdorff): distinct points have disjoint open neighborhoods. T₂ ⟹ T₁ ⟹ T₀. Hausdorff spaces are the standard in analysis; they ensure limits are unique.
+Separation axioms measure how well a topology distinguishes between different points. T₀ requires distinct points to be distinguished by open sets, T₁ requires disjoint open neighborhoods around each pair, and T₂ (Hausdorff) requires disjoint open neighborhoods. These progressively stronger conditions exclude many pathological spaces and ensure limits are unique.

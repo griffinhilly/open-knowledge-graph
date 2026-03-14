@@ -1,22 +1,23 @@
 ---
 id: hausdorff-spaces
-title: Hausdorff Spaces (T2 Spaces)
+title: Hausdorff Spaces
 domain: mathematics
 course: topology
 prerequisites:
-- id: separation-axioms
+- id: separation-axioms-t0-t1-t2
   type: hard
 builds-toward:
-- regular-spaces
 - compactness-hausdorff-spaces
+- metrization-theorems
 tags:
 - hausdorff
-- t2
-stage: abstract-reasoning
+- t2-axiom
+- separated
+stage: advanced
 status: draft
 ---
 
-# Hausdorff Spaces (T2 Spaces)
+# Hausdorff Spaces
 
 ## Core Idea
-A space is Hausdorff if for distinct points x, y, there exist disjoint open sets U ∋ x and V ∋ y. Hausdorff spaces ensure limits are unique. All metric spaces are Hausdorff.
+A Hausdorff space (T₂ space) requires any two distinct points to have disjoint open neighborhoods. This is the most commonly studied separation axiom and appears throughout analysis and topology. In Hausdorff spaces, sequences have unique limits, singleton sets are closed, and compact subsets are closed.

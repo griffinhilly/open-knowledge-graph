@@ -1,21 +1,24 @@
 ---
 id: separability-topology
-title: Separability and Density
+title: Separability
 domain: mathematics
 course: topology
 prerequisites:
-- id: dense-sets-topology-definition
+- id: dense-sets-and-nowhere-dense
   type: hard
+- id: countability-axioms-topology
+  type: soft
 builds-toward:
-- second-countable-spaces
+- metrization-theorems
 tags:
 - separability
-- density
-stage: abstract-reasoning
+- dense-subsets
+- countable
+stage: advanced
 status: draft
 ---
 
-# Separability and Density
+# Separability
 
 ## Core Idea
-A space is separable if it has a countable dense subset. ℝ is separable (ℚ is dense and countable); uncountable discrete spaces are not. Separability implies the topology is determined by countably many sets. Lᵖ([0,1]) and C([0,1]) are separable; Banach spaces with separable duals have nice duality properties.
+A space is separable if it has a countable dense subset. Separability is related to second-countability (second-countable implies separable) and together with other axioms often implies metrization. Many important spaces are separable: ℝⁿ, Lᵖ spaces, and spaces of continuous functions.
