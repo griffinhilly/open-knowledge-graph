@@ -4,16 +4,16 @@ title: Comparing and Ordering Three-Digit Numbers
 domain: mathematics
 course: 2nd-grade
 prerequisites:
-- id: place-value-100-to-1000
+- id: place-value-hundreds-2nd
   type: hard
-- id: comparing-three-digit-numbers
-  type: soft
+- id: comparing-two-digit-numbers
+  type: hard
 builds-toward:
-- number-line-to-1000
+- estimation-and-rounding-2nd
 tags:
 - comparison
+- three-digit
 - ordering
-- 3-digit-numbers
 stage: concrete-operations
 status: draft
 ---
@@ -21,12 +21,4 @@ status: draft
 # Comparing and Ordering Three-Digit Numbers
 
 ## Core Idea
-To compare three-digit numbers, look at the hundreds place first. If the hundreds are the same, compare tens. If tens are the same, compare ones. This strategy works for any three-digit number.
-
-## How It's Best Learned
-Use number lines, place-value charts, and comparison symbols (<, >, =). Order groups of three numbers from smallest to largest and vice versa.
-
-## Common Misconceptions
-- Comparing digits without considering place value (thinking 99 > 100)
-- Only looking at the ones place
-- Forgetting that same digits in different places have different values
+Ordering three-digit numbers follows a hierarchy: compare hundreds first, then tens, then ones. Numbers can be arranged from least to greatest or greatest to least using place-value understanding.

@@ -1,33 +1,25 @@
 ---
 id: addition-two-digit-regrouping-2nd
-title: Two-Digit Addition with Regrouping
+title: Two-Digit Addition With Regrouping
 domain: mathematics
 course: 2nd-grade
 prerequisites:
-- id: two-digit-addition-with-regrouping
+- id: two-digit-addition-no-regrouping-2nd
   type: hard
-- id: place-value-tens-and-ones
+- id: regrouping-addition-trading-ones-for-tens
   type: hard
 builds-toward:
 - addition-three-digit-numbers-2nd
-- mental-math-two-digit-addition-2nd
 tags:
 - addition
-- regrouping
 - two-digit
+- regrouping
+- carrying
 stage: concrete-operations
 status: draft
 ---
 
-# Two-Digit Addition with Regrouping
+# Two-Digit Addition With Regrouping
 
 ## Core Idea
-When adding two-digit numbers, add the ones first. If there are 10 or more ones, regroup them into a ten. Then add the tens, including any new ten from regrouping.
-
-## How It's Best Learned
-Use base-ten blocks or drawings to show regrouping. Practice with problems that require regrouping ones into tens. Use vertical format to line up ones and tens places.
-
-## Common Misconceptions
-- Forgetting to add the regrouped ten
-- Misaligning numbers so ones and tens don't line up
-- Regrouping when not needed (adding 23+14)
+When ones sum to 10 or more, regroup 10 ones as 1 ten. In 27 + 15: ones sum to 12 (regroup as 1 ten + 2 ones), then add tens (2 + 1 + 1 = 4 tens), yielding 42. Regrouping preserves place value.

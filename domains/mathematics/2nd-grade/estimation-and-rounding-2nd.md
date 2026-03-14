@@ -1,33 +1,24 @@
 ---
 id: estimation-and-rounding-2nd
-title: Estimation and Rounding in Context
+title: Estimation and Rounding
 domain: mathematics
 course: 2nd-grade
 prerequisites:
-- id: estimation-strategies
+- id: estimation-addition-subtraction-2nd
   type: hard
-- id: rounding-to-nearest-ten
-  type: hard
-- id: rounding-to-nearest-hundred
-  type: hard
+- id: comparing-ordering-three-digit-numbers-2nd
+  type: soft
 builds-toward:
-- estimation-in-multiplication
+- place-value-100-to-1000
 tags:
 - estimation
 - rounding
+- approximation
 stage: concrete-operations
 status: draft
 ---
 
-# Estimation and Rounding in Context
+# Estimation and Rounding
 
 ## Core Idea
-Rounding numbers to the nearest ten or hundred makes them easier to work with mentally. Estimation answers the question 'Is my answer reasonable?' by checking if it's close to a rough calculation. Both skills support problem-solving and number sense.
-
-## How It's Best Learned
-Use a number line to show rounding decisions (closer to 20 or 30?). Estimate sums before calculating them (23 + 18 ≈ 20 + 20 = 40). Check if exact answers are close to estimates.
-
-## Common Misconceptions
-- Thinking rounding always means going up.
-- Using estimates without understanding their purpose.
-- Rounding incorrectly due to misconceptions about place value.
+Rounding approximates a number to a nearby ten or hundred. Rounding to the nearest ten helps estimate sums and differences. For example, 47 rounds to 50; 23 rounds to 20. Rounding develops number sense and checks the reasonableness of computed answers.

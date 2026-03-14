@@ -1,23 +1,25 @@
 ---
 id: fractions-halves-fourths-thirds-2nd
-title: 'Introduction to Fractions: Halves, Thirds, and Fourths'
+title: 'Fractions: Halves, Thirds, and Fourths'
 domain: mathematics
 course: 2nd-grade
 prerequisites:
-- id: halves-and-quarters
+- id: equal-parts-and-whole-shapes
   type: hard
-- id: fractions-of-a-set
+- id: partition-shapes-equal-parts
   type: soft
+builds-toward:
+- comparing-unit-fractions
+- fractions-on-number-line
 tags:
 - fractions
-- halves
-- thirds
-- fourths
+- equal-parts
+- unit-fractions
 stage: concrete-operations
 status: draft
 ---
 
-# Introduction to Fractions: Halves, Thirds, and Fourths
+# Fractions: Halves, Thirds, and Fourths
 
 ## Core Idea
-A fraction shows equal parts of a whole. 1/2 is one of two equal parts; 1/3 is one of three equal parts; 1/4 is one of four equal parts. Fractions are used to describe fair shares and parts of shapes or objects.
+A fraction represents equal parts of a whole. Halves divide into 2 equal parts; thirds into 3; fourths into 4. One half is one of two equal parts. Fractions require understanding that parts must be equal in size and knowing what the whole is.

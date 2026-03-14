@@ -1,34 +1,27 @@
 ---
 id: division-facts-2nd-grade
-title: Division Facts Through 10
+title: Basic Division Facts
 domain: mathematics
 course: 2nd-grade
 prerequisites:
-- id: division-introduction-sharing
+- id: division-equal-sharing-2nd
   type: hard
-- id: division-introduction-grouping
+- id: division-grouping-2nd
   type: hard
-- id: multiplication-facts-0-through-10s
+- id: multiplication-facts-basic-2nd
   type: hard
 builds-toward:
-- division-facts-within-100
+- multiplication-division-relationship
 tags:
-- division
 - facts
+- division
 - fluency
+- inverse
 stage: concrete-operations
 status: draft
 ---
 
-# Division Facts Through 10
+# Basic Division Facts
 
 ## Core Idea
-Division facts are the inverse of multiplication facts. If 5 × 3 = 15, then 15 ÷ 5 = 3 and 15 ÷ 3 = 5. Learning multiplication facts directly supports learning division facts through this relationship.
-
-## How It's Best Learned
-Use multiplication facts as a starting point. Draw arrays, rotate them, and ask grouping questions. Practice fact families (e.g., 2 × 5 = 10, 5 × 2 = 10, 10 ÷ 2 = 5, 10 ÷ 5 = 2) to show relationships.
-
-## Common Misconceptions
-- Not recognizing the connection to multiplication facts.
-- Struggling with division facts that don't divide evenly (remainders).
-- Treating division facts as separate from multiplication, requiring separate memorization.
+Division facts relate directly to multiplication facts. If 2 × 5 = 10, then 10 ÷ 2 = 5 and 10 ÷ 5 = 2. Fact families show this inverse relationship. Students learn division facts linked to known multiplication facts.

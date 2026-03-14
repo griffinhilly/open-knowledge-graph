@@ -6,10 +6,14 @@ course: 2nd-grade
 prerequisites:
 - id: division-as-grouping
   type: hard
+- id: division-equal-sharing-2nd
+  type: hard
+builds-toward:
+- division-facts-2nd-grade
 tags:
 - division
 - grouping
-- inverse-multiplication
+- concept
 stage: concrete-operations
 status: draft
 ---
@@ -17,4 +21,4 @@ status: draft
 # Division as Grouping
 
 ## Core Idea
-Division as grouping asks: 'If I have 12 apples and put them into groups of 3, how many groups do I make?' This connects division to multiplication and repeated subtraction.
+Division as grouping asks: 'How many groups of this size fit?' Example: 12 ÷ 3 asks, 'How many groups of 3 can we make from 12?' The answer is 4 groups. Both interpretations yield the same answer but frame the problem differently.

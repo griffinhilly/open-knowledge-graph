@@ -1,33 +1,25 @@
 ---
 id: subtraction-two-digit-regrouping-2nd
-title: Two-Digit Subtraction with Regrouping
+title: Two-Digit Subtraction With Regrouping
 domain: mathematics
 course: 2nd-grade
 prerequisites:
-- id: two-digit-subtraction-with-regrouping
+- id: two-digit-subtraction-no-regrouping-2nd
   type: hard
-- id: place-value-tens-and-ones
+- id: regrouping-subtraction-trading-tens-for-ones
   type: hard
 builds-toward:
 - subtraction-three-digit-numbers-2nd
-- mental-math-two-digit-subtraction-2nd
 tags:
 - subtraction
-- regrouping
 - two-digit
+- regrouping
+- borrowing
 stage: concrete-operations
 status: draft
 ---
 
-# Two-Digit Subtraction with Regrouping
+# Two-Digit Subtraction With Regrouping
 
 ## Core Idea
-When subtracting two-digit numbers, subtract the ones first. If there aren't enough ones, regroup a ten into 10 ones. Then subtract the tens.
-
-## How It's Best Learned
-Use base-ten blocks to show regrouping. Show the difference between problems that need regrouping (32-15) and those that don't (32-11). Practice with the vertical format.
-
-## Common Misconceptions
-- Forgetting to regroup when the ones digit in the top number is smaller
-- Subtracting the smaller digit from the larger without checking position
-- Regrouping incorrectly, losing track of the ten
+When the ones digit being subtracted exceeds the minuend's ones, regroup 1 ten into 10 ones. In 32 - 15, cannot subtract 5 from 2, so regroup: 32 = 2 tens + 12 ones, then 12 - 5 = 7 ones, 2 - 1 = 1 ten, result is 17.

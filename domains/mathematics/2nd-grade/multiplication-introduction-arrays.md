@@ -1,32 +1,24 @@
 ---
 id: multiplication-introduction-arrays
-title: 'Multiplication: Array Model'
+title: 'Multiplication: Arrays'
 domain: mathematics
 course: 2nd-grade
 prerequisites:
 - id: arrays
   type: hard
-- id: skip-counting-multiplication-readiness
-  type: soft
+- id: multiplication-equal-groups-2nd
+  type: hard
 builds-toward:
-- multiplication-facts-0-through-10s
+- multiplication-facts-basic-2nd
 tags:
 - multiplication
 - arrays
-- area
+- rows-columns
 stage: concrete-operations
 status: draft
 ---
 
-# Multiplication: Array Model
+# Multiplication: Arrays
 
 ## Core Idea
-An array is a rectangular arrangement of objects in rows and columns. An array with 3 rows and 4 columns shows 3 × 4 = 12. Arrays make it clear that 3 × 4 and 4 × 3 represent the same amount of objects, just rotated.
-
-## How It's Best Learned
-Create arrays with manipulatives (counters, dot cards, graph paper). Skip count along rows or columns to find the total. Compare rotated arrays to see commutativity.
-
-## Common Misconceptions
-- Miscounting rows or columns.
-- Confusing the order of factors (rows vs. columns).
-- Counting the same objects twice or skipping some.
+An array is a rectangular arrangement showing rows and columns. The product is rows × columns. Arrays reveal commutativity: a 3×4 array rotated becomes 4×3, showing both equal 12. Arrays bridge concrete and abstract multiplication.

@@ -6,10 +6,15 @@ course: 2nd-grade
 prerequisites:
 - id: division-as-equal-sharing
   type: hard
+- id: equal-groups
+  type: hard
+builds-toward:
+- division-grouping-2nd
+- division-facts-2nd-grade
 tags:
 - division
-- sharing
-- fair-share
+- equal-sharing
+- concept
 stage: concrete-operations
 status: draft
 ---
@@ -17,4 +22,4 @@ status: draft
 # Division as Equal Sharing
 
 ## Core Idea
-Division as equal sharing asks: 'If I have 12 apples to share equally among 3 children, how many does each get?' The answer (4) is found by dividing into equal parts.
+Division as equal sharing asks: 'If we share equally among groups, how many does each group get?' Example: 12 ÷ 3 asks, 'Share 12 items equally among 3 people. How many does each person get?' The answer is 4.

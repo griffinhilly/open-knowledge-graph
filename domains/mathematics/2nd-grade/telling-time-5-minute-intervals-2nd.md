@@ -1,11 +1,15 @@
 ---
 id: telling-time-5-minute-intervals-2nd
-title: Telling Time to the Nearest 5 Minutes
+title: Telling Time by 5-Minute Intervals
 domain: mathematics
 course: 2nd-grade
 prerequisites:
-- id: telling-time-to-5-minutes
+- id: telling-time-to-hour-half-hour-2nd
   type: hard
+- id: skip-counting-by-5s
+  type: hard
+builds-toward:
+- elapsed-time-simple-2nd
 tags:
 - time
 - 5-minute-intervals
@@ -14,7 +18,7 @@ stage: concrete-operations
 status: draft
 ---
 
-# Telling Time to the Nearest 5 Minutes
+# Telling Time by 5-Minute Intervals
 
 ## Core Idea
-The minute hand marks 5-minute intervals (each number on the clock represents 5 minutes). Read the hour first, then count by 5s for the minutes: 3:20 means 3 o'clock plus 20 minutes.
+Clock faces divide into 5-minute intervals. From 12 to 1 is 5 minutes, 1 to 2 is 5 minutes, etc. Skip counting by 5s helps determine minutes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60. The minute hand moves to each number for every 5 minutes.

@@ -4,16 +4,17 @@ title: Mental Math Strategies for Addition
 domain: mathematics
 course: 2nd-grade
 prerequisites:
-- id: mental-math-add-subtract-tens
-  type: hard
-- id: addition-within-100
+- id: addition-two-digit-regrouping-2nd
+  type: soft
+- id: mental-math-strategies-addition-1st
   type: hard
 builds-toward:
-- addition-fluency-within-100
+- estimation-addition-subtraction-2nd
 tags:
 - mental-math
 - addition
 - strategies
+- fluency
 stage: concrete-operations
 status: draft
 ---
@@ -21,12 +22,4 @@ status: draft
 # Mental Math Strategies for Addition
 
 ## Core Idea
-Efficient addition strategies include: counting on (37 + 5: start at 37, count 38, 39...), making 10 (8 + 7 = 8 + 2 + 5 = 10 + 5), and using doubles (6 + 6 = 12, so 6 + 7 = 13). These strategies are faster and build number sense better than rote memorization.
-
-## How It's Best Learned
-Demonstrate each strategy with visual models (number lines, ten frames). Have students choose which strategy they prefer for different problems. Practice until strategies become automatic.
-
-## Common Misconceptions
-- Forcing all students to use the same strategy.
-- Teaching strategies without understanding the underlying concept.
-- Not connecting strategies to number sense.
+Mental math strategies for addition include making tens, counting on, breaking apart numbers, and using place value. For example, 28 + 15 = 28 + 2 + 13 = 30 + 13 = 43. Flexible strategies develop fluency and number sense.

@@ -1,23 +1,26 @@
 ---
 id: estimation-addition-subtraction-2nd
-title: Estimation in Addition and Subtraction
+title: Estimation Strategies for Addition and Subtraction
 domain: mathematics
 course: 2nd-grade
 prerequisites:
+- id: addition-mental-math-strategies-2nd
+  type: soft
+- id: mental-math-two-digit-subtraction-2nd
+  type: soft
 - id: rounding-to-nearest-ten
   type: hard
-- id: estimation-strategies
-  type: soft
+builds-toward:
+- estimation-and-rounding-2nd
 tags:
 - estimation
-- addition
-- subtraction
 - rounding
+- reasonableness
 stage: concrete-operations
 status: draft
 ---
 
-# Estimation in Addition and Subtraction
+# Estimation Strategies for Addition and Subtraction
 
 ## Core Idea
-Round each number to the nearest ten before adding or subtracting. This gives a quick way to check if an exact answer is reasonable. 47+35 ≈ 50+40 = 90, so the answer should be near 90.
+Estimation checks whether answers are reasonable. Round each number to the nearest ten and perform the operation mentally. Example: 24 + 18 ≈ 20 + 20 = 40, so an exact answer near 42 is reasonable.

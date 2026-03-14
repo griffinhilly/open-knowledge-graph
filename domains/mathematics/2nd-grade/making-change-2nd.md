@@ -1,22 +1,25 @@
 ---
 id: making-change-2nd
-title: Making Change with Coins and Bills
+title: Making Change
 domain: mathematics
 course: 2nd-grade
 prerequisites:
-- id: making-change-simple
+- id: coins-and-their-values
   type: hard
-- id: money-coins-paper-bills-2nd
-  type: soft
+- id: counting-money-simple
+  type: hard
+builds-toward:
+- money-word-problems
 tags:
 - money
 - change
 - subtraction
+- transactions
 stage: concrete-operations
 status: draft
 ---
 
-# Making Change with Coins and Bills
+# Making Change
 
 ## Core Idea
-Making change means finding the difference between the price and the amount given. If an item costs 35¢ and you give 50¢, the change is 15¢. Practice by starting with the price and counting up to the amount given.
+Making change means returning money after a transaction. If a purchase costs 15¢ and the customer pays 25¢, change is 10¢. Finding change involves subtracting cost from amount paid, a practical application of subtraction.

@@ -1,24 +1,25 @@
 ---
 id: multiplication-facts-basic-2nd
-title: Introduction to Multiplication Facts
+title: Basic Multiplication Facts (0s, 1s, 2s, 5s, 10s)
 domain: mathematics
 course: 2nd-grade
 prerequisites:
 - id: multiplication-equal-groups-2nd
   type: hard
-- id: multiplication-arrays-2nd
+- id: multiplication-introduction-arrays
   type: soft
 builds-toward:
-- multiplication-facts-twos-fives-tens
+- multiplication-facts-within-100
+- division-facts-2nd-grade
 tags:
-- multiplication
 - facts
+- multiplication
 - fluency
 stage: concrete-operations
 status: draft
 ---
 
-# Introduction to Multiplication Facts
+# Basic Multiplication Facts (0s, 1s, 2s, 5s, 10s)
 
 ## Core Idea
-Multiplication facts are products of single-digit numbers memorized through repeated practice and connections to equal groups and arrays. Starting with facts for 2s, 5s, and 10s makes learning easier.
+Basic multiplication facts for 0s, 1s, 2s, 5s, and 10s build automaticity. 0 × n = 0; 1 × n = n. Facts for 2s, 5s, and 10s follow skip-counting patterns, enabling quick recall and confidence.
