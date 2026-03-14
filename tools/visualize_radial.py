@@ -37,11 +37,11 @@ OUTPUT_DIR = ROOT / "output"
 # Maps the stage field to approximate age ranges and radial bands.
 # Inner = youngest, outer = most advanced.
 STAGE_BANDS = {
-    "pre-formal":          (0.10, 0.22),   # ages ~4-7, K-1st
-    "concrete-operations": (0.22, 0.42),   # ages ~7-12, 2nd-6th
-    "abstract-reasoning":  (0.42, 0.65),   # ages ~12-16, 7th-10th
-    "formal-systems":      (0.65, 0.85),   # ages ~16-22, 11th-college
-    "advanced":            (0.85, 1.00),   # ages ~22+, graduate
+    "pre-formal":          (0.08, 0.25),   # ages ~4-7, K-1st
+    "concrete-operations": (0.18, 0.47),   # ages ~7-12, 2nd-6th
+    "abstract-reasoning":  (0.38, 0.70),   # ages ~12-16, 7th-10th
+    "formal-systems":      (0.60, 0.90),   # ages ~16-22, 11th-college
+    "advanced":            (0.82, 1.00),   # ages ~22+, graduate
 }
 DEFAULT_STAGE = "abstract-reasoning"
 
@@ -278,7 +278,7 @@ def build_radial_layout(all_data, configs, depths):
 
         # Jitter for organic feel
         angle_jitter = (random.random() - 0.5) * sector_width / max(n_courses, 1) * 0.5
-        radial_jitter = (random.random() - 0.5) * (band_max - band_min) * max_radius * 0.08
+        radial_jitter = (random.random() - 0.5) * (band_max - band_min) * max_radius * 0.18
 
         theta = base_angle + angle_jitter
         r = max(20, r + radial_jitter)
@@ -578,18 +578,10 @@ function draw() {{
   ctx.translate(W / 2 + camX, H / 2 + camY);
   ctx.scale(camScale * viewScale, camScale * viewScale);
 
-  // Draw stage rings (concentric bands)
+  // Draw stage ring labels (no hard boundary lines — bands overlap)
   data.stageRings.forEach(ring => {{
-    // Ring band
-    ctx.beginPath();
-    ctx.arc(0, 0, ring.outer, 0, Math.PI * 2);
-    ctx.strokeStyle = "rgba(255,255,255,0.03)";
-    ctx.lineWidth = 0.5;
-    ctx.stroke();
-
-    // Ring label (at right side)
     ctx.font = "7px sans-serif";
-    ctx.fillStyle = "rgba(255,255,255,0.12)";
+    ctx.fillStyle = "rgba(255,255,255,0.10)";
     ctx.textAlign = "left";
     ctx.textBaseline = "middle";
     ctx.fillText(ring.label, ring.mid + 4, -2);
