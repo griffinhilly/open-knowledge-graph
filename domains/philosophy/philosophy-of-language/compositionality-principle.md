@@ -1,30 +1,31 @@
 ---
 id: compositionality-principle
-title: The Principle of Compositionality
+title: Compositionality and Semantic Values
 domain: philosophy
 course: philosophy-of-language
 prerequisites:
-- id: davidson-truth-conditional-semantics
+- id: frege-sense-and-reference
+  type: hard
+- id: russell-definite-descriptions
   type: hard
 builds-toward:
-- indexicals-context-sensitivity
-- metaphor-and-figurative-language
+- truth-conditions-and-meaning
+- semantic-underdetermination-context
 tags:
-- compositionality
 - semantics
-- systematicity
-- meaning-from-parts
-stage: abstract-reasoning
+- compositionality
+- meaning-construction
+stage: advanced
 status: draft
 ---
 
-# The Principle of Compositionality
+# Compositionality and Semantic Values
 
 ## Core Idea
-The compositionality principle states that the meaning of a complex expression is determined by the meanings of its parts and the rules by which they are combined. This principle seems obviously true—we can understand novel sentences because we know the words and grammatical rules. Yet compositionality is not trivial: it constrains semantic theories, rules out holistic meaning, and faces challenges from context-sensitivity and apparent reference failures.
+The meaning of a complex expression is a function of the meanings of its constituent parts and the syntactic rules combining them. This principle explains how a finite lexicon and small set of syntactic rules generate infinitely many meaningful sentences.
 
 ## How It's Best Learned
-Show how compositionality explains productivity (new sentence understanding) and systematicity (understanding 'John loves Mary' if you understand 'Mary loves John'). Then study cases where it seems to break down and see if they force abandoning compositionality or revising it.
+Start with simple noun phrases and work toward full sentences, explicitly tracking how constituent meanings combine. Use symbolic representation to show the function-argument structure.
 
 ## Common Misconceptions
-Compositionality means syntax determines semantics—compositionality is consistent with context-sensitivity and pragmatic influence on meaning. Context-sensitivity violates compositionality—arguably not; context-values can be compositional if semantic rules include context parameters.
+Compositionality does not require all parts to contribute equally to meaning, nor does it guarantee you can always recover part meanings from the whole. Some meanings are more than compositional sums of parts.
