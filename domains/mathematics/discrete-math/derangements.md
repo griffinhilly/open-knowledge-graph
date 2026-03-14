@@ -1,33 +1,29 @@
 ---
 id: derangements
-title: 'Derangements: Permutations with No Fixed Points'
+title: Derangements and Fixed-Point-Free Permutations
 domain: mathematics
 course: discrete-math
 prerequisites:
-- id: permutations
+- id: permutations-and-arrangements
   type: hard
 - id: inclusion-exclusion-principle
-  type: hard
-- id: mathematical-induction
   type: soft
 tags:
-- derangements
-- permutations
-- counting
 - combinatorics
-- fixed-points
+- permutations
 stage: formal-systems
-status: validated
+status: draft
 ---
 
-# Derangements: Permutations with No Fixed Points
+# Derangements and Fixed-Point-Free Permutations
 
 ## Core Idea
-A derangement of n elements is a permutation where no element appears in its original position. The number of derangements is Dₙ = n! ∑(−1)ᵏ/k! for k from 0 to n, derived by applying the inclusion-exclusion principle to subtract permutations fixing at least one element. As n increases, the probability that a random permutation is a derangement approaches 1/e ≈ 36.8%, an elegant and surprising result. Derangements satisfy the recurrence Dₙ = (n−1)(Dₙ₋₁ + Dₙ₋₂).
+A derangement is a permutation where no element appears in its original position. The number of derangements D(n) satisfies the recurrence D(n) = (n-1)[D(n-1) + D(n-2)]. Derangements can be counted using the inclusion-exclusion principle.
 
 ## How It's Best Learned
-Build the sequence iteratively: D₁=0, D₂=1, D₃=2, verifying the recurrence. Then derive the closed form using inclusion-exclusion. The classic 'hat-check' or 'mixed-up letters' story motivates the problem before any formalism.
+Start with small cases (n=2,3,4) and count derangements by hand. Then derive the formula using inclusion-exclusion.
 
 ## Common Misconceptions
-- Confusing derangements with all permutations — the condition is strict: every single element must move.
-- Thinking the limit 1/e means exactly 1/e of all permutations are derangements for every n — it's an asymptotic result.
+- Assuming D(n) = n! / 2 or other incorrect formulas.
+- Confusing derangements with permutations with no fixed points in a general context.
+- Not recognizing the connection to inclusion-exclusion.
