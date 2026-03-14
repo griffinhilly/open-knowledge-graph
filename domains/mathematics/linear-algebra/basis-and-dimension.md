@@ -21,7 +21,7 @@ tags:
 - minimal spanning set
 - uniqueness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Basis and Dimension

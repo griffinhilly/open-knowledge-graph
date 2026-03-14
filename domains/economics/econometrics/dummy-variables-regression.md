@@ -17,7 +17,7 @@ tags:
 - indicator
 - interaction-terms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dummy Variables and Categorical Regressors

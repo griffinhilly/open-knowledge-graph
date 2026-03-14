@@ -25,7 +25,7 @@ tags:
 - LTI
 - modeling
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Transfer Functions and System Modeling

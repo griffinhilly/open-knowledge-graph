@@ -19,7 +19,7 @@ tags:
 - Aristotle
 - persuasion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Rhetorical Triangle: Ethos, Pathos, Logos

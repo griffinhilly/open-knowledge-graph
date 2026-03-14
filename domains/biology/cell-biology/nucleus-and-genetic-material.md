@@ -17,7 +17,7 @@ tags:
 - chromatin
 - nuclear-envelope
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Nucleus and Genetic Material

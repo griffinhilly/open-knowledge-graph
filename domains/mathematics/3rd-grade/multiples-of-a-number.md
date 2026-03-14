@@ -20,7 +20,7 @@ tags:
 - patterns
 - number-theory
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multiples of a Number

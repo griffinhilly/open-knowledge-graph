@@ -10,15 +10,16 @@ prerequisites:
   type: hard
 - id: entropy-in-thermodynamic-processes
   type: soft
+- id: heat-transfer-radiation
+  type: soft
 tags:
 - Carnot-efficiency
 - maximum-efficiency
 - temperature-ratio
 - reversible-engine
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Carnot Efficiency and Maximum Efficiency Theorem
 
 ## Core Idea

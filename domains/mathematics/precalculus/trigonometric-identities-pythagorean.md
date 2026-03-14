@@ -4,19 +4,23 @@ title: Pythagorean Trigonometric Identities
 domain: mathematics
 course: precalculus
 prerequisites:
-  - id: unit-circle
-    type: hard
-  - id: trigonometric-ratios-review
-    type: hard
+- id: unit-circle
+  type: hard
+- id: trigonometric-ratios-review
+  type: hard
+- id: even-and-odd-functions
+  type: soft
 builds-toward:
-  - sum-and-difference-identities
-  - solving-trigonometric-equations
-  - trigonometric-integrals
-tags: [trigonometry, identities, pythagorean]
+- sum-and-difference-identities
+- solving-trigonometric-equations
+- trigonometric-integrals
+tags:
+- trigonometry
+- identities
+- pythagorean
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Pythagorean Trigonometric Identities
 
 ## Core Idea

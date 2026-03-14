@@ -11,7 +11,7 @@ builds-toward:
   - measurement-conversions-customary
 tags: [measurement, geometry, perimeter]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Perimeter

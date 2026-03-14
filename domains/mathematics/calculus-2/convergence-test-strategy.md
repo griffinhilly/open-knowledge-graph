@@ -4,26 +4,30 @@ title: Series Convergence Test Strategy
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: divergence-test
-    type: hard
-  - id: integral-test
-    type: hard
-  - id: comparison-test
-    type: hard
-  - id: limit-comparison-test
-    type: hard
-  - id: alternating-series-test
-    type: hard
-  - id: ratio-test
-    type: hard
-  - id: root-test
-    type: hard
+- id: divergence-test
+  type: hard
+- id: integral-test
+  type: hard
+- id: comparison-test
+  type: hard
+- id: limit-comparison-test
+  type: hard
+- id: alternating-series-test
+  type: hard
+- id: ratio-test
+  type: hard
+- id: root-test
+  type: hard
+- id: telescoping-series
+  type: soft
 builds-toward: []
-tags: [series, convergence-tests, strategy]
+tags:
+- series
+- convergence-tests
+- strategy
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Series Convergence Test Strategy
 
 ## Core Idea

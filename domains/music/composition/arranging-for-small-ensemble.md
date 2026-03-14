@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: voice-leading-principles
   type: soft
+- id: bass-line-composition
+  type: soft
+- id: countermelody-writing
+  type: soft
 tags:
 - arranging
 - ensemble
@@ -19,9 +23,8 @@ tags:
 - orchestration
 - adaptation
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Arranging for Small Ensemble
 
 ## Core Idea

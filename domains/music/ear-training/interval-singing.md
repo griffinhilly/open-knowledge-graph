@@ -17,7 +17,7 @@ tags:
 - vocal production
 - sight-singing
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Interval Singing and Vocal Production

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: atomic-structure-basics
   type: soft
+- id: telescopes-and-observing-methods
+  type: soft
 builds-toward:
 - hertzsprung-russell-diagram
 - nebulae-and-star-formation
@@ -23,9 +25,8 @@ tags:
 - Harvard-classification
 - luminosity-class
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Stellar Spectral Classification
 
 ## Core Idea

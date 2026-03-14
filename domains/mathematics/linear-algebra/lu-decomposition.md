@@ -15,7 +15,7 @@ tags:
 - upper triangular
 - factorization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # LU Decomposition

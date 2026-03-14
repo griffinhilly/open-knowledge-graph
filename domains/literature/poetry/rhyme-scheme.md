@@ -19,7 +19,7 @@ tags:
 - ABAB
 - structure
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Rhyme Scheme

@@ -19,7 +19,7 @@ tags:
 - fine-motor
 - infancy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Infant Motor Development and Milestones

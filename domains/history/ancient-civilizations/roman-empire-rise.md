@@ -6,6 +6,8 @@ course: ancient-civilizations
 prerequisites:
 - id: roman-republic-constitution
   type: hard
+- id: hellenistic-period
+  type: soft
 builds-toward:
 - fall-of-western-rome
 - ancient-mediterranean-trade
@@ -18,9 +20,8 @@ tags:
 - julius-caesar
 - imperialism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Rise of the Roman Empire
 
 ## Core Idea

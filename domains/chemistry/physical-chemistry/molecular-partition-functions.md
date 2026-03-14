@@ -24,7 +24,7 @@ tags:
 - electronic
 - factorization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Molecular Partition Functions

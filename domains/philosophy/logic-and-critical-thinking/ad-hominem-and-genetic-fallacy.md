@@ -12,7 +12,7 @@ tags:
 - relevance
 - fallacies
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ad Hominem and the Genetic Fallacy

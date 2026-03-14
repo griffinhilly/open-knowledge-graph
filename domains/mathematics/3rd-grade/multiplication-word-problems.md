@@ -19,7 +19,7 @@ tags:
 - equal-groups
 - problem-solving
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multiplication Word Problems

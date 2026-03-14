@@ -4,17 +4,18 @@ title: Volume of Spheres
 domain: mathematics
 course: geometry
 prerequisites:
-  - id: volume-of-pyramids-and-cones
-    type: soft
-  - id: circle-basics
-    type: hard
-builds-toward:
-  - calculus-applications
-tags: [3d-geometry, volume, spheres]
+- id: volume-of-pyramids-and-cones
+  type: soft
+- id: circle-basics
+  type: hard
+builds-toward: []
+tags:
+- 3d-geometry
+- volume
+- spheres
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Volume of Spheres
 
 ## Core Idea

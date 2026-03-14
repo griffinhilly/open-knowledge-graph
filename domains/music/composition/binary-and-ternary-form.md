@@ -24,7 +24,7 @@ tags:
 - form
 - rounded-binary
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary and Ternary Form

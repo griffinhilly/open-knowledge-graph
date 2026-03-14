@@ -19,7 +19,7 @@ tags:
 - bottom-up
 - DP-implementation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memoization and Tabulation

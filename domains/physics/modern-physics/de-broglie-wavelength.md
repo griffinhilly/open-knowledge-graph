@@ -19,7 +19,7 @@ tags:
 - de-broglie
 - wavelength
 stage: advanced
-status: draft
+status: validated
 ---
 
 # de Broglie Wavelength

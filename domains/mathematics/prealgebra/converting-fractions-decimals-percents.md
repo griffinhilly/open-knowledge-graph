@@ -6,7 +6,7 @@ course: prealgebra
 prerequisites:
   - id: percent-concept
     type: hard
-  - id: simplifying-fractions
+  - id: multiplying-fractions
     type: hard
   - id: decimal-place-value
     type: hard
@@ -15,7 +15,7 @@ builds-toward:
   - rational-numbers-operations
 tags: [fractions, decimals, percents, conversion]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Converting Between Fractions, Decimals, and Percents

@@ -19,7 +19,7 @@ tags:
 - planck
 - ultraviolet-catastrophe
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Blackbody Radiation and Planck's Law

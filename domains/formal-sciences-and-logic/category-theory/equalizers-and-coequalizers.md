@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: equivalence-relations
   type: soft
+- id: products-and-coproducts
+  type: soft
 builds-toward:
 - limits-and-colimits
 - pullbacks-and-pushouts
@@ -20,9 +22,8 @@ tags:
 - cokernel
 - quotient
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Equalizers and Coequalizers
 
 ## Core Idea

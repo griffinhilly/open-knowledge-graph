@@ -16,7 +16,7 @@ tags:
 - overflow
 - addition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary Arithmetic

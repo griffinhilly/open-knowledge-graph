@@ -17,7 +17,7 @@ tags:
 - international regimes
 - global governance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # International Institutions and Regimes

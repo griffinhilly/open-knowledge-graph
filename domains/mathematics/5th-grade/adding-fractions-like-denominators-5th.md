@@ -15,7 +15,7 @@ builds-toward:
   - subtracting-fractions-unlike-denominators
 tags: [fractions, addition, subtraction, mixed-numbers]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Adding and Subtracting Fractions with Like Denominators (5th Grade)

@@ -17,7 +17,7 @@ tags:
 - principle of moments
 - superposition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Varignon's Theorem

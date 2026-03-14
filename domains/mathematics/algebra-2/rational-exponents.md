@@ -4,18 +4,23 @@ title: Rational Exponents
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: exponent-rules
-    type: hard
-  - id: square-roots
-    type: hard
+- id: exponent-rules-product-power-quotient
+  type: hard
+- id: square-roots-intro
+  type: hard
+- id: radical-functions-and-graphs
+  type: soft
 builds-toward:
-  - solving-radical-equations
-  - exponential-functions-and-graphs
-tags: [exponents, radicals, rational-exponents, conversion]
+- solving-radical-equations
+- exponential-functions-and-graphs
+tags:
+- exponents
+- radicals
+- rational-exponents
+- conversion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Rational Exponents
 
 ## Core Idea

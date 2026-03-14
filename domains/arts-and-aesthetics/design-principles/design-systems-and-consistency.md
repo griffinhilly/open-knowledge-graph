@@ -12,8 +12,17 @@ prerequisites:
   type: hard
 - id: ui-design-fundamentals
   type: soft
-builds-toward:
-- responsive-design-principles
+- id: accessibility-in-design
+  type: soft
+- id: alignment-and-proximity-in-layout
+  type: soft
+- id: logo-design-principles
+  type: soft
+- id: print-vs-digital-design-contexts
+  type: soft
+- id: user-centered-design-thinking
+  type: soft
+builds-toward: []
 tags:
 - design system
 - component library
@@ -23,9 +32,8 @@ tags:
 - scalability
 - documentation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Design Systems and Consistency
 
 ## Core Idea

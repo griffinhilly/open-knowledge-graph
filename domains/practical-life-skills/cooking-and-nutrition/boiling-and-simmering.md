@@ -18,7 +18,7 @@ tags:
 - pasta
 - blanching
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Boiling and Simmering

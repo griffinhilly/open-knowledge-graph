@@ -14,7 +14,7 @@ tags:
 - folk-psychology
 - neuroscience
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Eliminative Materialism

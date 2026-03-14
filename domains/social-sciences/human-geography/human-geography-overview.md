@@ -19,7 +19,7 @@ tags:
 - spatial
 - human-environment
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Human Geography: An Overview

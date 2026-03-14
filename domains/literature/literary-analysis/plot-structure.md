@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - narrative-conflict
-- narrative-arc-and-pacing
+- narrative-pacing
 - theme-identification
 tags:
 - plot
@@ -18,9 +18,8 @@ tags:
 - narrative
 - Freytag
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Plot Structure
 
 ## Core Idea

@@ -22,7 +22,7 @@ tags:
 - prosody
 - analysis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Scansion

@@ -21,7 +21,7 @@ tags:
 - 6/8
 - notation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Rhythmic Dictation in Compound Meter

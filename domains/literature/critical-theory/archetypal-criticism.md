@@ -18,7 +18,7 @@ tags:
 - collective-unconscious
 - mythos
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Archetypal and Myth Criticism

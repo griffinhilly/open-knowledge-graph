@@ -18,7 +18,7 @@ tags:
 - AVG
 - aggregate functions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SQL Aggregation and GROUP BY

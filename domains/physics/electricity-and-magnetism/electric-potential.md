@@ -21,7 +21,7 @@ tags:
 - equipotential
 - electrostatics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electric Potential

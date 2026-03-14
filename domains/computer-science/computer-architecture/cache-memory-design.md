@@ -15,7 +15,7 @@ tags:
 - fully-associative
 - hit-rate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cache Memory Design

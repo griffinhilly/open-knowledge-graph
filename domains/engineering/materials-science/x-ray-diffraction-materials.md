@@ -17,7 +17,7 @@ tags:
 - crystal-identification
 - lattice-parameter
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # X-Ray Diffraction and Crystal Identification

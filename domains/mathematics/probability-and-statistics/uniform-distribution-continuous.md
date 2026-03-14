@@ -12,7 +12,7 @@ tags:
 - equally-likely
 - rectangular-distribution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Continuous Uniform Distribution

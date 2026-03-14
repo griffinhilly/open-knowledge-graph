@@ -4,7 +4,7 @@ title: Persuasive Writing and Argumentative Essays
 domain: language-and-communication
 course: rhetoric-and-composition
 prerequisites:
-- id: argument-structure
+- id: argument-structure-toulmin
   type: hard
 - id: rhetorical-triangle
   type: hard
@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: essay-organization
   type: hard
+- id: pathos-and-emotional-appeal
+  type: soft
+- id: writing-modes-overview
+  type: soft
 builds-toward:
 - synthesis-in-writing
 tags:
@@ -21,9 +25,8 @@ tags:
 - advocacy
 - call to action
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Persuasive Writing and Argumentative Essays
 
 ## Core Idea

@@ -24,7 +24,7 @@ tags:
 - pH electrode
 - reference electrode
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Potentiometry and Ion-Selective Electrodes

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: minor-scales
   type: soft
+- id: tonicization
+  type: soft
 builds-toward:
 - modulation-techniques
 tags:
@@ -20,9 +22,8 @@ tags:
 - common-chord
 - key-change
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Pivot Chord Modulation
 
 ## Core Idea

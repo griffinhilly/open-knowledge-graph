@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: systems-graphing
   type: soft
+- id: fiscal-multiplier
+  type: soft
 builds-toward:
 - open-economy-macroeconomics
 tags:
@@ -25,9 +27,8 @@ tags:
 - equilibrium
 - Keynesian
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The IS-LM Model
 
 ## Core Idea

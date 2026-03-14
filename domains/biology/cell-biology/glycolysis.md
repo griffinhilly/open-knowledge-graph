@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: reaction-mechanisms-overview
   type: soft
+- id: entropy-and-gibbs-free-energy
+  type: soft
 builds-toward:
 - pyruvate-oxidation
 - krebs-cycle
@@ -23,7 +25,7 @@ tags:
 - NADH
 - cytoplasm
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Glycolysis

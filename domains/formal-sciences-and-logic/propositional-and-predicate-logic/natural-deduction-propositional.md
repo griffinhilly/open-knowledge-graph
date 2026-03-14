@@ -27,7 +27,7 @@ tags:
 - introduction-elimination
 - derivation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Natural Deduction for Propositional Logic

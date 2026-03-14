@@ -18,7 +18,7 @@ tags:
 - charge-storage
 - parallel-plate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Capacitance and Capacitors

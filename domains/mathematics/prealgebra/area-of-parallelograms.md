@@ -4,17 +4,24 @@ title: Area of Parallelograms
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: area-of-rectangles
-    type: hard
+- id: area-of-rectangles
+  type: hard
+- id: area-and-perimeter-problems
+  type: soft
+- id: area-rectilinear-shapes
+  type: soft
 builds-toward:
-  - area-of-triangles
-  - area-of-trapezoids
-  - surface-area-intro
-tags: [area, parallelograms, geometry, measurement]
+- area-of-triangles
+- area-of-trapezoids
+- surface-area-intro
+tags:
+- area
+- parallelograms
+- geometry
+- measurement
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Area of Parallelograms
 
 ## Core Idea

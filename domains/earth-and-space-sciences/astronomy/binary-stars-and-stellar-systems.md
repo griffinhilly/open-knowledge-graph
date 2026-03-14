@@ -26,7 +26,7 @@ tags:
 - stellar-mass
 - novae
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary Stars and Multiple Stellar Systems

@@ -11,7 +11,7 @@ builds-toward:
   - negative-exponents
 tags: [exponents, zero-exponent, rules]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Zero Exponent

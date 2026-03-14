@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: well-ordering-principle
   type: soft
+- id: transfinite-induction
+  type: soft
 builds-toward:
 - infinite-cardinal-numbers
 - cardinal-arithmetic
@@ -22,9 +24,8 @@ tags:
 - ordinals
 - equivalents
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Well-Ordering Theorem
 
 ## Core Idea

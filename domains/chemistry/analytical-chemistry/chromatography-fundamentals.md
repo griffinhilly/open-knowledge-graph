@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: colligative-properties
   type: soft
+- id: sample-preparation
+  type: soft
 builds-toward:
 - gas-chromatography
 - hplc
@@ -22,9 +24,8 @@ tags:
 - resolution
 - theoretical plates
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Chromatography: Principles and Theoretical Plate Model
 
 ## Core Idea

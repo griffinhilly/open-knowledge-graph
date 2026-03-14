@@ -4,16 +4,16 @@ title: Complex Numbers Introduction
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: square-roots
+  - id: square-roots-intro
     type: hard
-  - id: solving-quadratic-equations-by-factoring
+  - id: solving-quadratics-by-factoring
     type: soft
 builds-toward:
   - operations-with-complex-numbers
   - fundamental-theorem-of-algebra
 tags: [complex-numbers, imaginary-unit, number-systems]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Complex Numbers Introduction

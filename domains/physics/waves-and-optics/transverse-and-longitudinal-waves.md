@@ -16,7 +16,7 @@ tags:
 - compression
 - rarefaction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transverse and Longitudinal Waves

@@ -12,7 +12,7 @@ builds-toward:
   - volume-of-spheres
 tags: [3d-geometry, volume, pyramids, cones, one-third]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Volume of Pyramids and Cones

@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: proportional-relationships
   type: soft
+- id: cross-cultural-comparison
+  type: soft
+- id: material-culture
+  type: soft
 builds-toward:
 - globalization-cultural-change
 - political-anthropology
@@ -27,9 +31,8 @@ tags:
 - gift
 - Polanyi
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Economic Anthropology: Exchange and Reciprocity
 
 ## Core Idea

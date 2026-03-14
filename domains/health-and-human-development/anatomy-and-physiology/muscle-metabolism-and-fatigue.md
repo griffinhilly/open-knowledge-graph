@@ -22,7 +22,7 @@ tags:
 - oxygen-debt
 - fiber-types
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Muscle Metabolism and Fatigue

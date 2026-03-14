@@ -17,7 +17,7 @@ tags:
 - measurement-division
 - quotitive
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Division as Grouping (Measurement Division)

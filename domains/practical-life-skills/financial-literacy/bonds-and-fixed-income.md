@@ -6,7 +6,7 @@ course: financial-literacy
 prerequisites:
 - id: investment-risk-and-return
   type: hard
-- id: time-value-of-money
+- id: time-value-of-money-personal
   type: hard
 - id: percent-concept
   type: soft
@@ -19,7 +19,7 @@ tags:
 - duration
 - interest-rate-risk
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Bonds and Fixed Income

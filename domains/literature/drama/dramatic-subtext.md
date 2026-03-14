@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: linguistic-pragmatics
   type: soft
+- id: soliloquy-and-aside
+  type: soft
 builds-toward:
 - modern-realist-drama
 tags:
@@ -23,9 +25,8 @@ tags:
 - implication
 - silence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Dramatic Subtext
 
 ## Core Idea

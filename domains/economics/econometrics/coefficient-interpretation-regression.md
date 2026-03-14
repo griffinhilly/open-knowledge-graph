@@ -17,7 +17,7 @@ tags:
 - elasticity
 - ceteris-paribus
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interpreting Regression Coefficients

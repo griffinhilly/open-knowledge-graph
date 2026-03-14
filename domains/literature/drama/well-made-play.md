@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: aristotelian-unities
   type: soft
+- id: dramatic-irony-in-drama
+  type: soft
 builds-toward:
 - modern-realist-drama
 tags:
@@ -17,9 +19,8 @@ tags:
 - obligatory-scene
 - dramaturgy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Well-Made Play
 
 ## Core Idea

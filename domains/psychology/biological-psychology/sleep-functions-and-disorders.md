@@ -13,7 +13,7 @@ tags:
 - narcolepsy
 - memory-consolidation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sleep Functions and Disorders

@@ -19,7 +19,7 @@ tags:
 - accessory-organs
 - enteric-nervous-system
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Digestive System Anatomy and Motility

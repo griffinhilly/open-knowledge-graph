@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: snells-law
   type: hard
+- id: youngs-double-slit
+  type: soft
 tags:
 - thin film
 - optical path length
@@ -15,9 +17,8 @@ tags:
 - anti-reflection
 - soap bubble
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Thin-Film Interference
 
 ## Core Idea

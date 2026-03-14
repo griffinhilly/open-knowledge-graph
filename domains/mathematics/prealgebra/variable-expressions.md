@@ -15,7 +15,7 @@ builds-toward:
   - variables-and-expressions-review
 tags: [variables, expressions, evaluation, algebra-intro]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Variable Expressions

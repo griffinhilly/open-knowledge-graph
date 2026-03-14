@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: schema-theory
   type: soft
+- id: attention-selective
+  type: soft
+- id: problem-solving-strategies
+  type: soft
 builds-toward:
 - heuristics-and-judgment
 - dual-process-theory
@@ -17,9 +21,8 @@ tags:
 - decision-making
 - heuristics
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Cognitive Biases and Judgment Under Uncertainty
 
 ## Core Idea

@@ -12,6 +12,12 @@ prerequisites:
   type: hard
 - id: instruction-set-architecture
   type: soft
+- id: assembly-language-basics
+  type: soft
+- id: encoder-decoder-circuits
+  type: soft
+- id: sequential-circuit-design
+  type: soft
 builds-toward:
 - cpu-control-unit
 - pipelining-fundamentals
@@ -21,9 +27,8 @@ tags:
 - fetch-decode-execute
 - microarchitecture
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # CPU Datapath
 
 ## Core Idea

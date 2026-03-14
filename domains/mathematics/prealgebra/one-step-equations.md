@@ -4,21 +4,32 @@ title: One-Step Equations
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: variable-expressions
-    type: hard
-  - id: adding-integers
-    type: hard
-  - id: multiplying-integers
-    type: hard
+- id: variable-expressions
+  type: hard
+- id: adding-integers
+  type: hard
+- id: multiplying-integers
+  type: hard
+- id: unknown-factor-problems
+  type: soft
+- id: combining-like-terms
+  type: soft
+- id: opposites-and-additive-inverses
+  type: soft
+- id: writing-and-interpreting-expressions
+  type: soft
 builds-toward:
-  - two-step-equations
-  - one-step-inequalities
-  - solving-multi-step-equations
-tags: [equations, solving, inverse-operations, algebra]
+- two-step-equations
+- one-step-inequalities
+- solving-multi-step-equations
+tags:
+- equations
+- solving
+- inverse-operations
+- algebra
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # One-Step Equations
 
 ## Core Idea

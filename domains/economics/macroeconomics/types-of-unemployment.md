@@ -16,7 +16,7 @@ tags:
 - natural-rate
 - NAIRU
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Types of Unemployment and the Natural Rate

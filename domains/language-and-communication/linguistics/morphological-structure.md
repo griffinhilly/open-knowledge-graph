@@ -20,7 +20,7 @@ tags:
 - free
 - bound
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Morphological Structure

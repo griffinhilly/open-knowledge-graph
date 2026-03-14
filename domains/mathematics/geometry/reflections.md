@@ -6,14 +6,14 @@ course: geometry
 prerequisites:
   - id: geometric-transformations-translations
     type: soft
-  - id: coordinate-plane
+  - id: coordinate-plane-intro
     type: hard
 builds-toward:
   - rotations
   - coordinate-geometry-proofs
 tags: [transformations, reflections, rigid-motions, symmetry]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Geometric Transformations: Reflections

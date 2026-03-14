@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: ancient-social-stratification
   type: soft
+- id: columbian-exchange
+  type: soft
 builds-toward:
 - colonial-plantation-economy
 - haitian-revolution
@@ -22,9 +24,8 @@ tags:
 - racism
 - triangular trade
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Atlantic Slave Trade
 
 ## Core Idea

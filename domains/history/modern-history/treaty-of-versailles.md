@@ -19,7 +19,7 @@ tags:
 - reparations
 - Wilson
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Treaty of Versailles and the Interwar Settlement

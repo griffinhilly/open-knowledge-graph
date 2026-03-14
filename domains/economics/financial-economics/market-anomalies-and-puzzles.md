@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: behavioral-finance-intro
   type: soft
+- id: price-earnings-valuation
+  type: soft
 builds-toward:
 - risk-adjusted-performance-measures
 tags:
@@ -19,9 +21,8 @@ tags:
 - size-effect
 - equity-premium-puzzle
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Market Anomalies and Asset Pricing Puzzles
 
 ## Core Idea

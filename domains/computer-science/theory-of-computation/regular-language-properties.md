@@ -16,7 +16,7 @@ tags:
 - Myhill-Nerode
 - minimization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Regular Languages and Their Properties

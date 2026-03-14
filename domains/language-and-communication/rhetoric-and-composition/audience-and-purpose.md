@@ -16,7 +16,7 @@ tags:
 - rhetoric
 - writing context
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Audience and Purpose in Writing

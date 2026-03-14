@@ -15,7 +15,7 @@ tags:
 - rate-parameter
 - reliability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Exponential Distribution

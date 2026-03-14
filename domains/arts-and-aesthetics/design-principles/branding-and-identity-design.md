@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: design-process-and-iteration
   type: soft
+- id: type-pairing-and-hierarchy
+  type: soft
 builds-toward:
 - logo-design-principles
 - design-systems-and-consistency
@@ -23,9 +25,8 @@ tags:
 - brand voice
 - consistency
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Branding and Identity Design
 
 ## Core Idea

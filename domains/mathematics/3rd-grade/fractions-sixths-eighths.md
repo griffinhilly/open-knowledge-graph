@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fractions-halves-thirds-fourths
   type: hard
+- id: partition-shapes-equal-parts
+  type: soft
 builds-toward:
 - comparing-unit-fractions
 - equivalent-fractions
@@ -18,9 +20,8 @@ tags:
 - eighths
 - equal-parts
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Fractions: Sixths and Eighths
 
 ## Core Idea

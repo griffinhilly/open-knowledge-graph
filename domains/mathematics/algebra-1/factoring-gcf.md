@@ -4,19 +4,24 @@ title: Factoring Out the GCF
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: distributive-property
-    type: hard
-  - id: polynomials-intro
-    type: hard
+- id: distributive-property
+  type: hard
+- id: polynomials-intro
+  type: hard
+- id: adding-subtracting-polynomials
+  type: soft
 builds-toward:
-  - factoring-trinomials
-  - factoring-completely
-  - solving-quadratics-by-factoring
-tags: [factoring, GCF, polynomials, distributive-property]
+- factoring-trinomials
+- factoring-completely
+- solving-quadratics-by-factoring
+tags:
+- factoring
+- GCF
+- polynomials
+- distributive-property
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Factoring Out the GCF
 
 ## Core Idea

@@ -20,7 +20,7 @@ tags:
 - normal
 - orientation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Flux Integrals

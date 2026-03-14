@@ -22,7 +22,7 @@ tags:
 - sequential-logic
 - state-machine
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Finite State Machines (FSMs)

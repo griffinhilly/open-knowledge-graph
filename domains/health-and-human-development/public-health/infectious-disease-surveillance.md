@@ -22,7 +22,7 @@ tags:
 - sentinel-surveillance
 - public-health-systems
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Infectious Disease Surveillance Systems

@@ -18,7 +18,7 @@ tags:
 - Shakespeare
 - prosody
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Iambic Pentameter

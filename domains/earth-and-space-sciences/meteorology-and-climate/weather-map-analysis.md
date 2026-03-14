@@ -19,7 +19,7 @@ tags:
 - weather-forecasting
 - surface-analysis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Weather Map Analysis

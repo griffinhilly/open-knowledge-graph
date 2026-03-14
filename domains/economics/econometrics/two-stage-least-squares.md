@@ -8,17 +8,15 @@ prerequisites:
   type: hard
 - id: multiple-regression-model
   type: hard
-builds-toward:
-- causal-inference-econometrics
+builds-toward: []
 tags:
 - 2SLS
 - IV-estimation
 - first-stage
 - weak-instruments
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Two-Stage Least Squares (2SLS)
 
 ## Core Idea

@@ -20,7 +20,7 @@ tags:
 - edge alignment
 - optical alignment
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Alignment and Proximity in Layout

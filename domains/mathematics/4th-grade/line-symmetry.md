@@ -10,7 +10,7 @@ builds-toward:
   - classifying-2d-shapes
 tags: [geometry, symmetry, shapes]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Line Symmetry

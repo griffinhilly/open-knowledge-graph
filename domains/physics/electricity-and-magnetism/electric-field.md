@@ -18,7 +18,7 @@ tags:
 - superposition
 - electrostatics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electric Field

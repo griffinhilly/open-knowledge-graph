@@ -21,7 +21,7 @@ tags:
 - output
 - spending
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Aggregate Demand

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: adding-subtracting-decimals
   type: soft
+- id: emergency-fund-planning
+  type: soft
 builds-toward:
 - mortgage-and-home-buying
 tags:
@@ -20,9 +22,8 @@ tags:
 - snowball-method
 - interest-rates
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Debt Management Strategies
 
 ## Core Idea

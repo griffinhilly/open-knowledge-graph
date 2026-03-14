@@ -17,7 +17,7 @@ tags:
 - orthogonal complement
 - rank
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Row Space of a Matrix

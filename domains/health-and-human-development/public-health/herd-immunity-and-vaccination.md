@@ -25,7 +25,7 @@ tags:
 - immunization-programs
 - infectious-disease
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Herd Immunity and Vaccination Programs

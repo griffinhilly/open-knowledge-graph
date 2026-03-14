@@ -20,7 +20,7 @@ tags:
 - ratio
 - scales-of-measurement
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Levels of Measurement

@@ -18,7 +18,7 @@ tags:
 - Cohen
 - models
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Independence Results in Set Theory

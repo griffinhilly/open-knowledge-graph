@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: addition-subtraction-relationship
   type: soft
+- id: mental-math-add-subtract-tens
+  type: soft
 builds-toward:
 - three-digit-subtraction
 - two-step-word-problems
@@ -18,9 +20,8 @@ tags:
 - strategies
 - fluency
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Subtraction Within 100
 
 ## Core Idea

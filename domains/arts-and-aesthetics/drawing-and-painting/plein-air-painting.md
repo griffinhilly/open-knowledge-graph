@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: observational-drawing-practice
   type: hard
+- id: acrylic-painting-fundamentals
+  type: soft
+- id: oil-painting-basics
+  type: soft
 tags:
 - plein air
 - landscape
@@ -20,9 +24,8 @@ tags:
 - color
 - light
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Plein Air Painting
 
 ## Core Idea

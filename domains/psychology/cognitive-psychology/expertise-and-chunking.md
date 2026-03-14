@@ -8,7 +8,11 @@ prerequisites:
   type: hard
 - id: long-term-memory-types
   type: hard
-- id: analogical-reasoning
+- id: analogical-reasoning-cognitive
+  type: soft
+- id: attention-divided
+  type: soft
+- id: cognitive-load-theory
   type: soft
 tags:
 - expertise
@@ -16,9 +20,8 @@ tags:
 - skill-acquisition
 - pattern-recognition
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Expertise and Chunking
 
 ## Core Idea

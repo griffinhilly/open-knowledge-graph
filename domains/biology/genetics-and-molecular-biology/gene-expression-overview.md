@@ -19,7 +19,7 @@ tags:
 - RNA
 - protein
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Central Dogma of Molecular Biology

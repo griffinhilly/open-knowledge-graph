@@ -18,7 +18,7 @@ tags:
 - sumer
 - communication
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cuneiform and the Origins of Writing

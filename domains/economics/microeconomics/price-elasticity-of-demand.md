@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: derivative-as-slope-of-tangent
   type: soft
+- id: comparative-statics
+  type: soft
 builds-toward:
 - income-and-cross-price-elasticity
 - price-discrimination
@@ -21,9 +23,8 @@ tags:
 - inelastic
 - elastic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Price Elasticity of Demand
 
 ## Core Idea

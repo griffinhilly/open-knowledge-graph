@@ -9,14 +9,14 @@ prerequisites:
 - id: memory-encoding-strategies
   type: soft
 builds-toward:
-- analogical-reasoning
+- analogical-reasoning-cognitive
 - cognitive-biases-overview
 tags:
 - schemas
 - knowledge-representation
 - top-down-processing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Schemas and Knowledge Organization

@@ -17,7 +17,7 @@ tags:
 - data-structures
 - enqueue-dequeue
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Queues

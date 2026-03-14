@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: multiplication-facts-within-100
   type: hard
+- id: unknown-factor-problems
+  type: soft
 builds-toward:
 - multiplication-division-relationship
 - intro-to-long-division
@@ -19,9 +21,8 @@ tags:
 - facts
 - fluency
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Division Facts Within 100
 
 ## Core Idea

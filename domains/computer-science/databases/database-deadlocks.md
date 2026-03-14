@@ -15,7 +15,7 @@ tags:
 - deadlock prevention
 - victim selection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deadlocks in Databases

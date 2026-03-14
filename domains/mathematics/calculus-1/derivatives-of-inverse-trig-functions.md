@@ -12,7 +12,7 @@ builds-toward:
   - trigonometric-substitution
 tags: [derivatives, inverse-trig, arcsin, arctan]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Derivatives of Inverse Trigonometric Functions

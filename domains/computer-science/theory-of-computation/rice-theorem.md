@@ -12,7 +12,7 @@ tags:
 - semantic-property
 - TM
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Rice's Theorem

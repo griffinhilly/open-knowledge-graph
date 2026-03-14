@@ -20,7 +20,7 @@ tags:
 - blazars
 - AGN-feedback
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Active Galactic Nuclei and Quasars

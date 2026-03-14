@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: molecular-polarity
   type: soft
+- id: alcohol-reactions
+  type: soft
+- id: alcohols-and-ethers
+  type: soft
 builds-toward:
 - nucleophilic-addition-to-carbonyls
 - enols-and-enolate-chemistry
@@ -22,9 +26,8 @@ tags:
 - alpha carbon
 - polarity
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Aldehydes and Ketones: Structure and Reactivity
 
 ## Core Idea

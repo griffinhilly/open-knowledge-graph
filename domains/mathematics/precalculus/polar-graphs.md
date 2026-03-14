@@ -4,18 +4,22 @@ title: Polar Graphs
 domain: mathematics
 course: precalculus
 prerequisites:
-  - id: polar-coordinates
-    type: hard
-  - id: graphing-sine-and-cosine
-    type: soft
+- id: polar-coordinates
+  type: hard
+- id: graphing-sine-and-cosine
+  type: soft
+- id: conic-sections-overview
+  type: soft
 builds-toward:
-  - polar-area
-  - polar-arc-length
-tags: [polar, graphing, curves]
+- polar-area
+- polar-arc-length
+tags:
+- polar
+- graphing
+- curves
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Polar Graphs
 
 ## Core Idea

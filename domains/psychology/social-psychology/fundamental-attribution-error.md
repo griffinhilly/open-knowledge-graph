@@ -14,7 +14,7 @@ tags:
 - bias
 - dispositionism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Fundamental Attribution Error

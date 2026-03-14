@@ -13,7 +13,7 @@ builds-toward:
   - volume-of-spheres
 tags: [3d-geometry, volume, prisms, cylinders]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Volume of Prisms and Cylinders

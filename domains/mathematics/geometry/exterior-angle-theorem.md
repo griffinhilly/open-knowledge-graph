@@ -13,7 +13,7 @@ builds-toward:
   - polygon-angle-sums
 tags: [triangles, exterior-angles, angle-relationships]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Exterior Angle Theorem

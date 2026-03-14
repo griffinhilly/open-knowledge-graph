@@ -21,7 +21,7 @@ tags:
 - stimulus diffusion
 - relocation diffusion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cultural Diffusion and Culture Hearths

@@ -16,7 +16,7 @@ tags:
 - Dworkin
 - resources
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Egalitarianism

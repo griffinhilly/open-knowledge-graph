@@ -16,6 +16,12 @@ prerequisites:
   type: soft
 - id: proportional-relationships
   type: soft
+- id: agricultural-geography
+  type: soft
+- id: colonialism-geographic-legacy
+  type: soft
+- id: development-geography
+  type: soft
 builds-toward:
 - geopolitics-and-power
 tags:
@@ -27,9 +33,8 @@ tags:
 - energy geography
 - environmental justice
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Resource Geography and Political Ecology
 
 ## Core Idea

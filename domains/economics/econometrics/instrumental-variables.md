@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: causal-inference-econometrics
   type: soft
+- id: selection-bias-econometrics
+  type: soft
 builds-toward:
 - two-stage-least-squares
 tags:
@@ -16,9 +18,8 @@ tags:
 - exclusion-restriction
 - relevance
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Instrumental Variables
 
 ## Core Idea

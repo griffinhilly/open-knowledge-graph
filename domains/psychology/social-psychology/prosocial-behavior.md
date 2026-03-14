@@ -16,7 +16,7 @@ tags:
 - empathy
 - kin selection
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Prosocial Behavior and Altruism

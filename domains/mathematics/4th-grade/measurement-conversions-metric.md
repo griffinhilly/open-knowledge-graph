@@ -4,18 +4,28 @@ title: Measurement Conversions (Metric)
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: place-value-whole-numbers
-    type: hard
-  - id: multiples-of-ten
-    type: soft
+- id: place-value-whole-numbers
+  type: hard
+- id: multiples-of-ten
+  type: soft
+- id: measuring-in-feet-and-meters
+  type: soft
+- id: liquid-volume
+  type: soft
+- id: mass-grams-kilograms
+  type: soft
+- id: measurement-conversions-customary
+  type: soft
 builds-toward:
-  - measurement-conversions-5th
-  - converting-metric-units
-tags: [measurement, conversion, metric-units]
+- measurement-conversions-5th
+- converting-metric-units
+tags:
+- measurement
+- conversion
+- metric-units
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Measurement Conversions (Metric)
 
 ## Core Idea

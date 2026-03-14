@@ -4,17 +4,21 @@ title: Dividing Fractions
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: multiplying-fractions
-    type: hard
-  - id: fractions-as-division
-    type: soft
+- id: multiplying-fractions
+  type: hard
+- id: fractions-as-division
+  type: soft
+- id: multiplying-mixed-numbers
+  type: soft
 builds-toward:
-  - mixed-number-arithmetic
-tags: [fractions, division, arithmetic]
+- mixed-number-arithmetic
+tags:
+- fractions
+- division
+- arithmetic
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Dividing Fractions
 
 ## Core Idea

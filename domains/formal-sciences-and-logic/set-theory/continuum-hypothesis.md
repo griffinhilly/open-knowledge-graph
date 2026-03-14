@@ -24,7 +24,7 @@ tags:
 - Godel
 - Cohen
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Continuum Hypothesis

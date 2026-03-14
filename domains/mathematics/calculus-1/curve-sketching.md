@@ -4,19 +4,24 @@ title: Curve Sketching
 domain: mathematics
 course: calculus-1
 prerequisites:
-  - id: first-derivative-test
-    type: hard
-  - id: concavity-and-inflection-points
-    type: hard
-  - id: limits-at-infinity
-    type: hard
+- id: first-derivative-test
+  type: hard
+- id: concavity-and-inflection-points
+  type: hard
+- id: limits-at-infinity
+  type: hard
+- id: second-derivative-test
+  type: soft
 builds-toward:
-  - optimization-problems
-tags: [derivatives, applications, graphing, curve-sketching]
+- optimization-problems
+tags:
+- derivatives
+- applications
+- graphing
+- curve-sketching
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Curve Sketching
 
 ## Core Idea

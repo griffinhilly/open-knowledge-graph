@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: compositional-sketching
   type: soft
+- id: still-life-composition
+  type: soft
 builds-toward:
 - plein-air-painting
 tags:
@@ -21,9 +23,8 @@ tags:
 - wet-on-wet
 - medium
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Watercolor Fundamentals
 
 ## Core Idea

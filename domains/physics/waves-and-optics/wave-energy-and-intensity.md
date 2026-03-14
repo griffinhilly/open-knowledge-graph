@@ -18,7 +18,7 @@ tags:
 - inverse square law
 - power
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Wave Energy and Intensity

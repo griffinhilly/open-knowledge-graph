@@ -19,7 +19,7 @@ tags:
 - inversions
 - baroque
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Figured Bass

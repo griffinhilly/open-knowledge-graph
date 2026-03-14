@@ -15,7 +15,7 @@ tags:
 - traveling-salesman
 - dirac-theorem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hamiltonian Circuits and Paths

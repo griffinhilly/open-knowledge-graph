@@ -21,7 +21,7 @@ tags:
 - contrapposto
 - idealism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ancient Greek Art: Idealism and the Human Form

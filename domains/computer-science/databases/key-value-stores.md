@@ -21,7 +21,7 @@ tags:
 - Memcached
 - pub-sub
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Key-Value Stores

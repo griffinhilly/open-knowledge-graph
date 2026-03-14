@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: recurrence-relations
   type: soft
+- id: topological-sort
+  type: soft
 builds-toward:
 - memoization-and-tabulation
 tags:
@@ -20,9 +22,8 @@ tags:
 - optimal-substructure
 - overlapping-subproblems
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Dynamic Programming
 
 ## Core Idea

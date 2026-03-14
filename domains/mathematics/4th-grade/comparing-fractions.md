@@ -4,18 +4,26 @@ title: Comparing and Ordering Fractions
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: intro-to-fractions
-    type: hard
-  - id: equivalent-fractions
-    type: hard
+- id: intro-to-fractions
+  type: hard
+- id: equivalent-fractions
+  type: hard
+- id: fractions-halves-thirds-fourths
+  type: soft
+- id: comparing-unit-fractions
+  type: soft
+- id: fractions-on-number-line
+  type: soft
 builds-toward:
-  - adding-fractions-unlike-denominators
-  - comparing-decimals
-tags: [fractions, comparison, number-sense]
+- adding-fractions-unlike-denominators
+- comparing-decimals
+tags:
+- fractions
+- comparison
+- number-sense
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Comparing and Ordering Fractions
 
 ## Core Idea

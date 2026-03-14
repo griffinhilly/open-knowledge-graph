@@ -20,7 +20,7 @@ tags:
 - sleep-cycle
 - EEG
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sleep Stages and Cycles

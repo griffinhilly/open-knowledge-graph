@@ -10,7 +10,7 @@ builds-toward:
   - coordinate-geometry-proofs
 tags: [circles, inscribed-angles, arcs, half-the-arc]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Inscribed Angles

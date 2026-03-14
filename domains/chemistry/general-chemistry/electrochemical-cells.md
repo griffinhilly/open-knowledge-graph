@@ -23,7 +23,7 @@ tags:
 - Faraday
 - electrolysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electrochemical Cells

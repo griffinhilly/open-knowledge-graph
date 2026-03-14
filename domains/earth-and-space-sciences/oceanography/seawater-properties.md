@@ -25,7 +25,7 @@ tags:
 - temperature
 - pressure
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Physical and Chemical Properties of Seawater

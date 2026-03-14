@@ -21,7 +21,7 @@ tags:
 - characterization
 - subtext
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Dialogue in Fiction

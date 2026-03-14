@@ -4,18 +4,20 @@ title: Absolute Value Inequalities
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: absolute-value-equations
-    type: hard
-  - id: compound-inequalities
-    type: hard
+- id: absolute-value-equations
+  type: hard
+- id: compound-inequalities
+  type: hard
 builds-toward:
-  - piecewise-functions
-  - tolerance-and-error
-tags: [absolute-value, inequalities, compound, graphing]
+- piecewise-functions
+tags:
+- absolute-value
+- inequalities
+- compound
+- graphing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Absolute Value Inequalities
 
 ## Core Idea

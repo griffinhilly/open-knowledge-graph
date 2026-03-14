@@ -19,7 +19,7 @@ tags:
 - sodium
 - dehydration
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Hydration, Water Balance, and Electrolyte Needs

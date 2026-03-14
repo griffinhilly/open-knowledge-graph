@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: wave-properties-intro
   type: hard
+- id: bohr-model
+  type: soft
+- id: compton-scattering
+  type: soft
 builds-toward:
 - de-broglie-wavelength
 - heisenberg-uncertainty-principle
@@ -18,9 +22,8 @@ tags:
 - complementarity
 - double-slit
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Wave-Particle Duality
 
 ## Core Idea

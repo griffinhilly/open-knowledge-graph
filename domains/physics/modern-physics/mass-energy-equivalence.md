@@ -15,7 +15,7 @@ tags:
 - rest-energy
 - nuclear
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Mass-Energy Equivalence

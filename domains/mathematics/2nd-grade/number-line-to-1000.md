@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: comparing-three-digit-numbers
   type: soft
+- id: skip-counting-by-100s
+  type: soft
 builds-toward:
 - rounding-whole-numbers
 - three-digit-addition
@@ -19,9 +21,8 @@ tags:
 - benchmarks
 - ordering
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Number Line to 1000
 
 ## Core Idea

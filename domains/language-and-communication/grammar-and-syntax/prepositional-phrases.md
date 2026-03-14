@@ -17,7 +17,7 @@ tags:
 - prepositions
 - modifiers
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Prepositional Phrases

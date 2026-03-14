@@ -19,7 +19,7 @@ tags:
 - poly-A tail
 - pre-mRNA
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # RNA Processing and Splicing

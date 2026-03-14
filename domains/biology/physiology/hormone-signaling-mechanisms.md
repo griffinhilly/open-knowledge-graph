@@ -21,7 +21,7 @@ tags:
 - peptide hormones
 - signal transduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hormone Signaling Mechanisms

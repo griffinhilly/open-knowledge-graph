@@ -18,7 +18,7 @@ tags:
 - generating set
 - all possible combinations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Span of a Set of Vectors

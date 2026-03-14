@@ -10,15 +10,16 @@ prerequisites:
   type: hard
 - id: appeal-to-authority-fallacy
   type: soft
+- id: abductive-reasoning
+  type: soft
 tags:
 - evidence
 - epistemology
 - source-evaluation
 - critical-thinking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Evaluating Evidence and Source Quality
 
 ## Core Idea

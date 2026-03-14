@@ -14,10 +14,11 @@ prerequisites:
   type: soft
 - id: neuron-structure-and-function
   type: soft
+- id: parenting-styles-and-outcomes-child-dev
+  type: soft
 builds-toward:
-- puberty-and-adolescent-physical-development
-- moral-development-in-children
-- adhd-and-executive-function-development
+  - puberty-and-adolescent-physical-development
+  - adhd-and-executive-function-development
 tags:
 - adolescence
 - prefrontal-cortex
@@ -25,9 +26,8 @@ tags:
 - reward-sensitivity
 - brain-development
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Adolescent Brain Development and Behavioral Change
 
 ## Core Idea

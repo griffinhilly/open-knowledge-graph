@@ -19,7 +19,7 @@ tags:
 - commerce
 - neo-confucianism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Song Dynasty and the Medieval Chinese Technological Revolution

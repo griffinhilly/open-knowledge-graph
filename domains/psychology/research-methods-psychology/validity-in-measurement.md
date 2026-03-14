@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: correlation-coefficient
   type: soft
+- id: blinding-in-experiments
+  type: soft
+- id: case-study-method
+  type: soft
+- id: survey-research-methods
+  type: soft
 builds-toward:
 - inferential-statistics-psychology
 - replication-and-open-science
@@ -20,9 +26,8 @@ tags:
 - external-validity
 - ecological-validity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Validity in Psychological Measurement
 
 ## Core Idea

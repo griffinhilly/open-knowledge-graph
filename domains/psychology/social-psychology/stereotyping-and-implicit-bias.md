@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: dual-process-theory
   type: soft
+- id: fundamental-attribution-error
+  type: soft
 builds-toward:
 - intergroup-contact-hypothesis
 tags:
@@ -18,9 +20,8 @@ tags:
 - IAT
 - automatic processing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Stereotyping and Implicit Bias
 
 ## Core Idea

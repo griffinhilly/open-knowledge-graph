@@ -16,7 +16,7 @@ tags:
 - cultural-capital
 - social-reproduction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Education as a Social Institution

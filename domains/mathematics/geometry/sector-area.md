@@ -12,7 +12,7 @@ builds-toward:
   - radian-measure
 tags: [circles, sector-area, proportionality]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Sector Area

@@ -16,7 +16,7 @@ tags:
 - TM-variants
 - robustness
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Turing Machine Variants

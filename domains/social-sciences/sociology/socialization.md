@@ -16,7 +16,7 @@ tags:
 - primary-secondary
 - agents-of-socialization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Socialization

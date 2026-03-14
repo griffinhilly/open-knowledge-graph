@@ -18,7 +18,7 @@ tags:
 - New Deal
 - unemployment
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Great Depression

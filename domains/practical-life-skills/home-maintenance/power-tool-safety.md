@@ -14,7 +14,7 @@ tags:
 - safety
 - power-tools
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Power Tool Safety and Basic Use

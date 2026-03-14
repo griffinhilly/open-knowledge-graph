@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: price-controls-and-deadweight-loss
   type: soft
+- id: nash-equilibrium-microeconomics
+  type: soft
+- id: natural-monopoly
+  type: soft
 builds-toward:
 - public-goods-and-common-resources
 tags:
@@ -17,9 +21,8 @@ tags:
 - Coase theorem
 - social cost
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Externalities and Market Failure
 
 ## Core Idea

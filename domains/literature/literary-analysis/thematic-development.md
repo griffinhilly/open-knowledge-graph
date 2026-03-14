@@ -10,6 +10,16 @@ prerequisites:
   type: soft
 - id: character-motivation-and-development
   type: soft
+- id: allegory-and-extended-metaphor
+  type: soft
+- id: irony-in-literature
+  type: soft
+- id: point-of-view-narrative-perspective
+  type: soft
+- id: tone-and-mood
+  type: soft
+- id: unreliable-narrator
+  type: soft
 builds-toward:
 - literary-argument-writing
 - intertextuality-and-allusion
@@ -20,9 +30,8 @@ tags:
 - pattern
 - complexity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Thematic Development
 
 ## Core Idea

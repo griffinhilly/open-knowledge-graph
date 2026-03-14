@@ -10,18 +10,17 @@ prerequisites:
   type: soft
 - id: cadences
   type: soft
-builds-toward:
-- chromatic-mediant-chords
-- augmented-sixth-chords
+- id: neapolitan-chord
+  type: soft
+builds-toward: []
 tags:
 - modulation
 - direct-modulation
 - sequential-modulation
 - enharmonic-modulation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Modulation Techniques
 
 ## Core Idea

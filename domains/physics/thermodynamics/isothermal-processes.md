@@ -19,7 +19,7 @@ tags:
 - work
 - heat
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Isothermal Processes

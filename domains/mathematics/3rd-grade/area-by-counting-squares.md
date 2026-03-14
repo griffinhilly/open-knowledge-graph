@@ -20,7 +20,7 @@ tags:
 - measurement
 - geometry
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Area by Counting Unit Squares

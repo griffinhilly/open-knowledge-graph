@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: positionality-in-history
   type: soft
+- id: corroboration-and-triangulation
+  type: soft
+- id: silences-in-the-archive
+  type: soft
 builds-toward:
 - public-history-and-audience
 tags:
@@ -18,9 +22,8 @@ tags:
 - methodology
 - memory
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Oral History Methods
 
 ## Core Idea

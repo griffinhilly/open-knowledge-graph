@@ -24,7 +24,7 @@ tags:
 - conjecture
 - axiom
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Proof Structure and Mathematical Terminology

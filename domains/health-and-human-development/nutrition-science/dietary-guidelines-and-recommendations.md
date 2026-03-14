@@ -21,7 +21,7 @@ tags:
 - food patterns
 - MyPlate
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Dietary Guidelines, Reference Intakes, and Food Patterns

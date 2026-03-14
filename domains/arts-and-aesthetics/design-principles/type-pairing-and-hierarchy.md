@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: grid-systems-and-layout
   type: soft
+- id: alignment-and-proximity-in-layout
+  type: soft
 builds-toward:
 - design-systems-and-consistency
 - branding-and-identity-design
@@ -22,9 +24,8 @@ tags:
 - type scale
 - font combination
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Type Pairing and Typographic Hierarchy
 
 ## Core Idea

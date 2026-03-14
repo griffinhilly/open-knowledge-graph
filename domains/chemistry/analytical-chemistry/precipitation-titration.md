@@ -16,7 +16,7 @@ tags:
 - Ksp
 - halide
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Precipitation Titrations (Argentometric Methods)

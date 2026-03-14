@@ -9,7 +9,7 @@ prerequisites:
 builds-toward: []
 tags: [series, Taylor, reference, common-functions]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Taylor Series for Common Functions

@@ -17,7 +17,7 @@ tags:
 - marginal cost pricing
 - average cost pricing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Natural Monopoly and Regulation

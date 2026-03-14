@@ -20,7 +20,7 @@ tags:
 - improvisation
 - twelve-bar-blues
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Jazz Origins: Blues, Ragtime, and Early Jazz

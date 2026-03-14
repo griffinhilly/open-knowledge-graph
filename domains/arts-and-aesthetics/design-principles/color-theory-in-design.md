@@ -23,7 +23,7 @@ tags:
 - RGB
 - CMYK
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Color Theory in Design

@@ -20,7 +20,7 @@ tags:
 - extended-narrative
 - prose-fiction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Novel as Extended Narrative

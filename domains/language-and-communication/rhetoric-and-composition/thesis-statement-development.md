@@ -11,14 +11,14 @@ prerequisites:
 builds-toward:
 - topic-sentences-and-unity
 - essay-organization
-- argument-structure
+- argument-structure-toulmin
 tags:
 - thesis
 - argument
 - claim
 - focus
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Developing a Thesis Statement

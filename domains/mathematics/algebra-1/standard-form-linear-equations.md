@@ -13,7 +13,7 @@ builds-toward:
   - graphing-linear-equations
 tags: [standard-form, linear-equations, Ax-By-C, intercepts]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Standard Form of Linear Equations

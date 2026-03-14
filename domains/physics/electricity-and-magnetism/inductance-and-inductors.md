@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: amperes-law
   type: soft
+- id: lenzs-law
+  type: soft
 builds-toward:
 - rl-circuits
 - lc-and-rlc-circuits
@@ -19,9 +21,8 @@ tags:
 - solenoid
 - henry
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Inductance and Inductors
 
 ## Core Idea

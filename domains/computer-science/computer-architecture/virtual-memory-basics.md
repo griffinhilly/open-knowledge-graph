@@ -17,7 +17,7 @@ tags:
 - TLB
 - address-translation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Virtual Memory and Paging

@@ -12,7 +12,7 @@ builds-toward:
   - triangle-angle-sum
 tags: [angles, measurement, classification]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Angle Basics and Classification

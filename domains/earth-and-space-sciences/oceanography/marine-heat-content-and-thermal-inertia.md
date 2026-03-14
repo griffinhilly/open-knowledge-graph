@@ -22,7 +22,7 @@ tags:
 - thermosteric sea level
 - climate buffer
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ocean Heat Content and Thermal Inertia

@@ -17,7 +17,7 @@ tags:
 - octet-rule
 - nonmetals
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Covalent Bonding

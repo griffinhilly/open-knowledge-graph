@@ -21,7 +21,7 @@ tags:
 - sectarian conflict
 - toleration
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Wars of Religion and the Peace of Westphalia

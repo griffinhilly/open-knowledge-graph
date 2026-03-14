@@ -20,7 +20,7 @@ tags:
 - breathing room
 - minimalism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Whitespace and Breathing Room

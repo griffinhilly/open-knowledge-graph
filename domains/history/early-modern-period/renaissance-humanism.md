@@ -22,7 +22,7 @@ tags:
 - Petrarch
 - Erasmus
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Renaissance Humanism

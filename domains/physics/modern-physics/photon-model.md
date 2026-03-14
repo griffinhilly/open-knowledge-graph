@@ -19,7 +19,7 @@ tags:
 - momentum
 - E=hf
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Photon: Light as Quanta

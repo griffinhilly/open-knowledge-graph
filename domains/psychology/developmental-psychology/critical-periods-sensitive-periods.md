@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: prenatal-development
   type: soft
+- id: nature-nurture-debate
+  type: soft
 builds-toward:
 - language-acquisition-development
 - attachment-theory
@@ -20,9 +22,8 @@ tags:
 - plasticity
 - deprivation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Critical Periods and Sensitive Periods
 
 ## Core Idea

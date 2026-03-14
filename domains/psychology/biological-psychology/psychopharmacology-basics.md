@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: neuromuscular-junction
   type: soft
+- id: glial-cells-and-support
+  type: soft
+- id: pain-and-somatosensory-processing
+  type: soft
 builds-toward:
 - agonists-and-antagonists
 - drug-classes-and-effects
@@ -22,9 +26,8 @@ tags:
 - dose-response
 - tolerance
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Psychopharmacology Basics
 
 ## Core Idea

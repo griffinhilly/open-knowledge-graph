@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nucleus-and-genetic-material
   type: hard
+- id: cytokinesis
+  type: soft
 tags:
 - meiosis
 - sexual-reproduction
@@ -15,9 +17,8 @@ tags:
 - crossing-over
 - haploid
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Meiosis
 
 ## Core Idea

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: graph-theory-intro
   type: soft
+- id: tree-traversals
+  type: soft
 builds-toward:
 - topological-sort
 - union-find
@@ -22,9 +24,8 @@ tags:
 - cycle-detection
 - connected-components
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Depth-First Search (DFS)
 
 ## Core Idea

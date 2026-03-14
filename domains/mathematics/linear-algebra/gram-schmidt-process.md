@@ -17,7 +17,7 @@ tags:
 - projection
 - algorithm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Gram-Schmidt Process

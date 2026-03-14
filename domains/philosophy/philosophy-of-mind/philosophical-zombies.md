@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: possible-worlds-semantics
   type: soft
+- id: knowledge-argument
+  type: soft
 builds-toward:
 - property-dualism
 - epiphenomenalism
@@ -20,9 +22,8 @@ tags:
 - physicalism
 - consciousness
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Philosophical Zombies
 
 ## Core Idea

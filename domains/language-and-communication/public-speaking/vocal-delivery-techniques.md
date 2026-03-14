@@ -19,7 +19,7 @@ tags:
 - tone
 - delivery
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Vocal Delivery Techniques

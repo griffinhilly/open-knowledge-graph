@@ -8,7 +8,7 @@ prerequisites:
     type: hard
   - id: triangle-angle-sum
     type: soft
-  - id: square-roots
+  - id: square-roots-intro
     type: hard
 builds-toward:
   - pythagorean-theorem-converse
@@ -17,7 +17,7 @@ builds-toward:
   - special-right-triangles-45-45-90
 tags: [pythagorean-theorem, right-triangles, distance]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Pythagorean Theorem

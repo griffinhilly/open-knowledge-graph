@@ -25,7 +25,7 @@ tags:
 - water-vapor
 - infrared
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Greenhouse Effect

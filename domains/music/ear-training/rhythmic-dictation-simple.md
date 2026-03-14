@@ -22,7 +22,7 @@ tags:
 - notation
 - transcription
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Rhythmic Dictation in Simple Meter

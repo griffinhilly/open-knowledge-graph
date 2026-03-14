@@ -21,7 +21,7 @@ tags:
 - Riemann-sum
 - integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Double Integrals in Cartesian Coordinates

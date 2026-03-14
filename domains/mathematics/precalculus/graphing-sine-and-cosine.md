@@ -4,18 +4,25 @@ title: Graphing Sine and Cosine
 domain: mathematics
 course: precalculus
 prerequisites:
-  - id: unit-circle
-    type: hard
-  - id: function-transformations
-    type: hard
+- id: unit-circle
+  type: hard
+- id: function-transformations
+  type: hard
+- id: converting-degrees-and-radians
+  type: soft
+- id: even-and-odd-functions
+  type: soft
 builds-toward:
-  - amplitude-period-phase-shift
-  - derivatives-of-trigonometric-functions
-tags: [trigonometry, graphing, sine, cosine]
+- amplitude-period-phase-shift
+- derivatives-of-trigonometric-functions
+tags:
+- trigonometry
+- graphing
+- sine
+- cosine
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Graphing Sine and Cosine
 
 ## Core Idea

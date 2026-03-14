@@ -19,7 +19,7 @@ tags:
 - connective tissue
 - coherence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Transitions and Textual Cohesion

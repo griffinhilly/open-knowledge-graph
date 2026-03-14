@@ -23,7 +23,7 @@ tags:
 - sample-size
 - type-II-error
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Effect Size and Statistical Power

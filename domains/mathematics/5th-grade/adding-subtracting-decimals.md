@@ -4,19 +4,26 @@ title: Adding and Subtracting Decimals
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: decimal-place-value
-    type: hard
-  - id: multi-digit-addition
-    type: hard
-  - id: multi-digit-subtraction
-    type: hard
+- id: decimal-place-value
+  type: hard
+- id: multi-digit-addition
+  type: hard
+- id: multi-digit-subtraction
+  type: hard
+- id: comparing-decimals
+  type: soft
+- id: reading-writing-decimals
+  type: soft
 builds-toward:
-  - multiplying-decimals
-tags: [decimals, addition, subtraction, arithmetic]
+- multiplying-decimals
+tags:
+- decimals
+- addition
+- subtraction
+- arithmetic
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Adding and Subtracting Decimals
 
 ## Core Idea

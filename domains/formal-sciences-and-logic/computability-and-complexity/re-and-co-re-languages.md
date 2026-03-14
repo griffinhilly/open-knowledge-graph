@@ -4,11 +4,13 @@ title: Recursively Enumerable and Co-RE Languages
 domain: formal-sciences-and-logic
 course: computability-and-complexity
 prerequisites:
-- id: halting-problem
+- id: halting-problem-formal
   type: hard
 - id: computability-reductions
   type: hard
 - id: cardinality-and-countability
+  type: soft
+- id: rices-theorem
   type: soft
 builds-toward:
 - arithmetical-hierarchy
@@ -19,9 +21,8 @@ tags:
 - recognizability
 - decidability
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Recursively Enumerable and Co-RE Languages
 
 ## Core Idea

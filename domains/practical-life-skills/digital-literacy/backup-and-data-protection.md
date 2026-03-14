@@ -14,7 +14,7 @@ tags:
 - recovery
 - redundancy
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Backup and Data Protection

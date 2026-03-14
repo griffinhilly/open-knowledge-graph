@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: proportion-and-scale
   type: soft
+- id: whitespace-and-breathing-room
+  type: soft
 builds-toward:
 - alignment-and-proximity-in-layout
 - type-pairing-and-hierarchy
@@ -22,9 +24,8 @@ tags:
 - baseline grid
 - modular grid
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Grid Systems and Layout
 
 ## Core Idea

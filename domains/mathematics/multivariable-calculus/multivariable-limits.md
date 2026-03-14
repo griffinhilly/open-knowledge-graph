@@ -18,7 +18,7 @@ tags:
 - multivariable
 - epsilon-delta
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Limits and Continuity in Multiple Variables

@@ -13,7 +13,7 @@ builds-toward:
   - negative-exponents
 tags: [scientific-notation, exponents, place-value, large-numbers]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to Scientific Notation

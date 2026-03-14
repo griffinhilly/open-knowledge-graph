@@ -20,7 +20,7 @@ tags:
 - center of area
 - composite areas
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Centroids of Areas and Composite Shapes

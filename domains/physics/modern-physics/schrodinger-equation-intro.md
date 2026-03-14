@@ -25,7 +25,7 @@ tags:
 - time-independent
 - eigenvalues
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Schrödinger Equation

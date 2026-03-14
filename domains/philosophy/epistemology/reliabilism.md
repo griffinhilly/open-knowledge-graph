@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: foundationalism
   type: soft
+- id: epistemic-luck
+  type: soft
+- id: responses-to-gettier
+  type: soft
 builds-toward:
 - internalism-vs-externalism
 - epistemic-virtues
@@ -20,9 +24,8 @@ tags:
 - externalism
 - generality-problem
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Process Reliabilism
 
 ## Core Idea

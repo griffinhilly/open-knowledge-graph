@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: diatonic-harmony
   type: soft
+- id: renaissance-madrigal
+  type: soft
 builds-toward:
 - baroque-opera-and-oratorio
 - baroque-counterpoint-and-fugue
@@ -24,9 +26,8 @@ tags:
 - Handel
 - Bach
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Baroque Era: Style, Form, and Affect
 
 ## Core Idea

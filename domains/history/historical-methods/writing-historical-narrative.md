@@ -13,7 +13,7 @@ tags:
 - narrative
 - craft
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Writing Historical Narrative

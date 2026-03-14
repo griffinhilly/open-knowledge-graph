@@ -17,7 +17,7 @@ tags:
 - measurement-error
 - bias
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Endogeneity

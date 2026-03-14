@@ -19,7 +19,7 @@ tags:
 - IRC
 - Hammond-postulate
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Potential Energy Surfaces and Reaction Coordinates

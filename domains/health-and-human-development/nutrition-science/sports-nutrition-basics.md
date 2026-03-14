@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: hydration-and-electrolytes
   type: soft
+- id: water-soluble-vitamins
+  type: soft
 tags:
 - sports nutrition
 - glycogen
@@ -19,9 +21,8 @@ tags:
 - ergogenic aids
 - recovery
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Sports Nutrition: Fueling Performance and Recovery
 
 ## Core Idea

@@ -17,7 +17,7 @@ tags:
 - Geertz
 - structuralism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Myth, Symbol, and Meaning

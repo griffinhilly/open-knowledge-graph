@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: balance-in-composition
   type: soft
+- id: light-and-shadow
+  type: soft
+- id: proportion-and-scale
+  type: soft
 builds-toward:
 - movement-and-rhythm
 - unity-and-variety
@@ -18,9 +22,8 @@ tags:
 - hierarchy
 - composition
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Emphasis and Focal Point
 
 ## Core Idea

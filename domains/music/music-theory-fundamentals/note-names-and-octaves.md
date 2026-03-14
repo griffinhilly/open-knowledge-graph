@@ -18,7 +18,7 @@ tags:
 - pitch
 - notation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Note Names and Octaves

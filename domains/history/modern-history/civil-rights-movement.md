@@ -18,7 +18,7 @@ tags:
 - nonviolence
 - social movements
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Civil Rights Movements in the Postwar Era

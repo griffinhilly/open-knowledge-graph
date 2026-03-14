@@ -16,7 +16,7 @@ tags:
 - heap
 - in-place
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heapsort

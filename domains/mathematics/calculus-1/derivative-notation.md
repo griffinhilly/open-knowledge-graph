@@ -11,7 +11,7 @@ builds-toward:
   - differentials
 tags: [derivatives, notation, Leibniz, prime]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Derivative Notation

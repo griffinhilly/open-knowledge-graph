@@ -20,7 +20,7 @@ tags:
 - discrete
 - probability-mass-function
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Random Variables and Probability Distributions

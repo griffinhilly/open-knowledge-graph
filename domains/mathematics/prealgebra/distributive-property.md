@@ -4,19 +4,24 @@ title: The Distributive Property
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: variable-expressions
-    type: hard
-  - id: multiplying-integers
-    type: hard
+- id: variable-expressions
+  type: hard
+- id: multiplying-integers
+  type: hard
+- id: properties-of-operations
+  type: soft
 builds-toward:
-  - two-step-equations
-  - multiplying-polynomials
-  - factoring-gcf
-tags: [distributive-property, expressions, multiplication, algebra]
+- two-step-equations
+- multiplying-polynomials
+- factoring-gcf
+tags:
+- distributive-property
+- expressions
+- multiplication
+- algebra
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Distributive Property
 
 ## Core Idea

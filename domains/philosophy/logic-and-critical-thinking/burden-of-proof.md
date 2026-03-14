@@ -15,7 +15,7 @@ tags:
 - assertion
 - epistemology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Burden of Proof and the Presumption Principle

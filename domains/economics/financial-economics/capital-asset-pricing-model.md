@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: linear-regression
   type: soft
+- id: dividend-discount-model
+  type: soft
 builds-toward:
 - arbitrage-pricing-theory
 - risk-adjusted-performance-measures
@@ -24,9 +26,8 @@ tags:
 - expected-return
 - cost-of-equity
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Capital Asset Pricing Model (CAPM)
 
 ## Core Idea

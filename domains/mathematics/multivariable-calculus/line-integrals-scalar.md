@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: arc-length-parametric
   type: hard
+- id: vector-fields
+  type: soft
 builds-toward:
 - line-integrals-vector-fields
 tags:
@@ -19,9 +21,8 @@ tags:
 - arc-length
 - mass
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Line Integrals of Scalar Functions
 
 ## Core Idea

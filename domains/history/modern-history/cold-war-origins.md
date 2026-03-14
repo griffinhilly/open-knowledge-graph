@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: marxism-and-socialism
   type: soft
+- id: holocaust
+  type: soft
 builds-toward:
 - nuclear-age
 - decolonization
@@ -22,9 +24,8 @@ tags:
 - containment
 - Iron Curtain
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Origins of the Cold War
 
 ## Core Idea

@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: direct-and-inverse-variation
   type: soft
+- id: geographic-information-systems-intro
+  type: soft
+- id: urban-geography-fundamentals
+  type: soft
 builds-toward:
 - world-cities-global-hierarchy
 tags:
@@ -26,9 +30,8 @@ tags:
 - transferability
 - connectivity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Spatial Interaction and the Gravity Model
 
 ## Core Idea

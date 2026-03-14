@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: basis-and-dimension
   type: soft
+- id: matrix-composition
+  type: soft
 builds-toward:
 - spectral-theorem
 tags:
@@ -19,9 +21,8 @@ tags:
 - eigenbasis
 - matrix powers
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Diagonalization of Matrices
 
 ## Core Idea

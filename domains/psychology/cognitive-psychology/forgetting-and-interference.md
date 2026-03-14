@@ -14,7 +14,7 @@ tags:
 - interference
 - decay
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Forgetting and Interference Theory

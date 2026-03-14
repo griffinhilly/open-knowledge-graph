@@ -4,18 +4,22 @@ title: Mixed Numbers and Improper Fractions
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: intro-to-fractions
-    type: hard
-  - id: fractions-on-number-line
-    type: soft
+- id: intro-to-fractions
+  type: hard
+- id: fractions-on-number-line
+  type: soft
+- id: whole-number-fractions
+  type: soft
 builds-toward:
-  - adding-fractions-like-denominators
-  - multiplying-mixed-numbers
-tags: [fractions, mixed-numbers, number-sense]
+- adding-fractions-like-denominators
+- multiplying-mixed-numbers
+tags:
+- fractions
+- mixed-numbers
+- number-sense
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Mixed Numbers and Improper Fractions
 
 ## Core Idea

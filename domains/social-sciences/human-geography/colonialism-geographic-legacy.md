@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: mean-median-mode
   type: soft
+- id: industrial-location-theory
+  type: soft
 builds-toward:
 - geopolitics-and-power
 - resource-geography
@@ -25,9 +27,8 @@ tags:
 - development legacy
 - extractivism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Colonialism and Its Geographic Legacy
 
 ## Core Idea

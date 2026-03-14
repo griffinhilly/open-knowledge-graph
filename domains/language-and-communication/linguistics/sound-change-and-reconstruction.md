@@ -18,7 +18,7 @@ tags:
 - reconstruction
 - cognates
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sound Change and Reconstruction

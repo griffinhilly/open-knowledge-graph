@@ -21,7 +21,7 @@ tags:
 - exponential
 - carbon-dating
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Half-Life and the Radioactive Decay Law

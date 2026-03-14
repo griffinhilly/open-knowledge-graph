@@ -21,7 +21,7 @@ tags:
 - German-sixth
 - chromatic-harmony
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Augmented Sixth Chords

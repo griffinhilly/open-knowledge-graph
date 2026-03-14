@@ -19,7 +19,7 @@ tags:
 - Nagel
 - experience
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Qualia and Phenomenal Consciousness

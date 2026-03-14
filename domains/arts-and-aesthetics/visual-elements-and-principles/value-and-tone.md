@@ -3,7 +3,11 @@ id: value-and-tone
 title: Value and Tone
 domain: arts-and-aesthetics
 course: visual-elements-and-principles
-prerequisites: []
+prerequisites:
+- id: color-mixing
+  type: soft
+- id: color-temperature
+  type: soft
 builds-toward:
 - contrast-in-design
 - shape-and-form
@@ -16,9 +20,8 @@ tags:
 - grayscale
 - contrast
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Value and Tone
 
 ## Core Idea

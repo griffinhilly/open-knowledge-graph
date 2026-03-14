@@ -12,7 +12,7 @@ builds-toward:
   - fundamental-theorem-of-algebra
 tags: [polynomials, rational-roots, factoring, candidates]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Rational Root Theorem

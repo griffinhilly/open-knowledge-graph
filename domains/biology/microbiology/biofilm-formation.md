@@ -23,7 +23,7 @@ tags:
 - medical device
 - antibiotic tolerance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Biofilm Formation

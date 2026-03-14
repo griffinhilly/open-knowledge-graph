@@ -17,7 +17,7 @@ tags:
 - joule-heating
 - circuits
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electric Power

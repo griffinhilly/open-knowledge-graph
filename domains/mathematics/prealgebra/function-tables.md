@@ -14,7 +14,7 @@ builds-toward:
   - arithmetic-sequences
 tags: [functions, tables, patterns, input-output]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Input-Output Tables and Function Rules

@@ -21,7 +21,7 @@ tags:
 - tributary system
 - haijin
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ming and Qing Dynasty China

@@ -19,7 +19,7 @@ tags:
 - normal
 - specular
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Law of Reflection

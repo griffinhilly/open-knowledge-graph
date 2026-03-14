@@ -21,7 +21,7 @@ tags:
 - word-painting
 - song
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Text Setting Principles

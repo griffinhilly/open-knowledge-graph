@@ -16,7 +16,7 @@ tags:
 - gamma-factor
 - proper-time
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Time Dilation

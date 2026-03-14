@@ -16,7 +16,7 @@ tags:
 - energy-levels
 - balmer-series
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Emission and Absorption Spectra

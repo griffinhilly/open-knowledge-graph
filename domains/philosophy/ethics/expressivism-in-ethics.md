@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: moral-realism
   type: soft
+- id: moral-relativism
+  type: soft
 builds-toward:
 - error-theory
 tags:
@@ -16,9 +18,8 @@ tags:
 - expressivism
 - emotivism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Expressivism in Ethics
 
 ## Core Idea

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: turing-machines
   type: soft
+- id: multiple-realizability
+  type: soft
 builds-toward:
 - extended-mind-thesis
 tags:
@@ -21,9 +23,8 @@ tags:
 - imitation-game
 - consciousness
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # The Turing Test and Machine Minds
 
 ## Core Idea

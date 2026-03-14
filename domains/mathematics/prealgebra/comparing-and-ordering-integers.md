@@ -11,7 +11,7 @@ builds-toward:
   - one-step-inequalities
 tags: [integers, comparing, ordering, number-line]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Comparing and Ordering Integers

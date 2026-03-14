@@ -17,7 +17,7 @@ tags:
 - informal-logic
 - critical-thinking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Informal Fallacies: An Overview

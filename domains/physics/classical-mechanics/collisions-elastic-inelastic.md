@@ -14,7 +14,7 @@ tags:
 - inelastic
 - perfectly-inelastic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Elastic and Inelastic Collisions

@@ -20,7 +20,7 @@ tags:
 - central idea
 - argument
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Theme Identification

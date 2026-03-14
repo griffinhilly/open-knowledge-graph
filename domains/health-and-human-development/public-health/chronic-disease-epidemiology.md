@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: social-determinants-of-health
   type: soft
+- id: disease-prevention-levels
+  type: soft
 builds-toward:
 - global-burden-of-disease
 - health-policy-and-advocacy
@@ -22,9 +24,8 @@ tags:
 - cancer-epidemiology
 - risk-factor-surveillance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Chronic Disease Epidemiology and Risk Factor Surveillance
 
 ## Core Idea

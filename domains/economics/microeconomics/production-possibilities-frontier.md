@@ -15,7 +15,7 @@ tags:
 - tradeoffs
 - scarcity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Production Possibilities Frontier

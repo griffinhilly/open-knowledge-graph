@@ -16,7 +16,7 @@ tags:
 - internal-rate-of-return
 - fixed-income
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Yield to Maturity

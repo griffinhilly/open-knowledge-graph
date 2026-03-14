@@ -21,7 +21,7 @@ tags:
 - skeletal structures
 - intro
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Organic Chemistry

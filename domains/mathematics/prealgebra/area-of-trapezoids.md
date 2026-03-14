@@ -4,20 +4,23 @@ title: Area of Trapezoids
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: area-of-parallelograms
-    type: hard
-  - id: area-of-triangles
-    type: soft
-  - id: adding-fractions-unlike-denominators
-    type: soft
+- id: area-of-parallelograms
+  type: hard
+- id: area-of-triangles
+  type: soft
+- id: adding-fractions-unlike-denominators
+  type: soft
 builds-toward:
-  - surface-area-intro
-  - geometry-area
-tags: [area, trapezoids, geometry, measurement]
+- surface-area-intro
+- area-of-regular-polygons
+tags:
+- area
+- trapezoids
+- geometry
+- measurement
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Area of Trapezoids
 
 ## Core Idea

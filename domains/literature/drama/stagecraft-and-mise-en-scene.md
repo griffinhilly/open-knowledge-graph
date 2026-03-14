@@ -19,7 +19,7 @@ tags:
 - lighting
 - production
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Stagecraft and Mise-en-Scène

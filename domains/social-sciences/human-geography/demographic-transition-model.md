@@ -28,7 +28,7 @@ tags:
 - transition model
 - stages
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Demographic Transition Model

@@ -6,14 +6,14 @@ course: algebra-2
 prerequisites:
   - id: complex-numbers-intro
     type: hard
-  - id: polynomial-multiplication
+  - id: multiplying-polynomials
     type: hard
 builds-toward:
   - solving-quadratic-equations-completing-the-square
   - fundamental-theorem-of-algebra
 tags: [complex-numbers, addition, multiplication, conjugates]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Operations with Complex Numbers

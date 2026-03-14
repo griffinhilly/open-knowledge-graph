@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: body-organization-and-terminology
   type: soft
+- id: energy-balance-and-body-composition
+  type: soft
 builds-toward:
 - malnutrition-and-undernutrition
 - obesity-and-metabolic-syndrome
@@ -18,9 +20,8 @@ tags:
 - BMI
 - biomarkers
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Nutritional Assessment: Dietary, Anthropometric, and Biochemical Methods
 
 ## Core Idea

@@ -17,7 +17,7 @@ tags:
 - dichromate
 - oxidation state
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Oxidation–Reduction Titrations

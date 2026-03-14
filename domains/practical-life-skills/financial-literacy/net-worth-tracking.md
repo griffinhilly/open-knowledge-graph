@@ -19,7 +19,7 @@ tags:
 - liabilities
 - balance-sheet
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Net Worth: Assets Minus Liabilities

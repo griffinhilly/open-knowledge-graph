@@ -13,7 +13,7 @@ builds-toward:
   - writing-numerical-expressions
 tags: [arithmetic, algebra-readiness, operations]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Introduction to Order of Operations

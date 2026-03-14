@@ -16,7 +16,7 @@ builds-toward:
   - linear-regression
 tags: [writing-equations, linear, slope, modeling]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Writing Linear Equations

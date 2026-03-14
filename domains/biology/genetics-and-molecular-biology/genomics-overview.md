@@ -24,7 +24,7 @@ tags:
 - bioinformatics
 - SNP
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Genomics and DNA Sequencing

@@ -17,7 +17,7 @@ tags:
 - character
 - tension
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Narrative Conflict

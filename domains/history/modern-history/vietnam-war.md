@@ -17,7 +17,7 @@ tags:
 - US foreign policy
 - antiwar movement
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Vietnam War

@@ -23,7 +23,7 @@ tags:
 - signified
 - myth
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Semiotics and Sign Theory

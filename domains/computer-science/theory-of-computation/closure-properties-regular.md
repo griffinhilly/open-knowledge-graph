@@ -17,7 +17,7 @@ tags:
 - operations
 - product-construction
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Closure Properties of Regular Languages

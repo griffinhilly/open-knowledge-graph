@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: truss-method-of-joints
   type: soft
+- id: truss-method-of-sections
+  type: soft
 builds-toward:
 - dry-friction-coulombs-law
 tags:
@@ -17,9 +19,8 @@ tags:
 - multi-body analysis
 - internal forces
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Analysis of Frames and Machines
 
 ## Core Idea

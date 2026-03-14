@@ -21,7 +21,7 @@ tags:
 - euphotic zone
 - biological pump
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Marine Primary Productivity

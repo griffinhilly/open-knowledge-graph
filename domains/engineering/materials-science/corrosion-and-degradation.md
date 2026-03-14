@@ -17,7 +17,7 @@ tags:
 - oxidation
 - degradation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Corrosion and Material Degradation

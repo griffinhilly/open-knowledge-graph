@@ -18,7 +18,7 @@ tags:
 - conversation analysis
 - turn-taking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Discourse Analysis

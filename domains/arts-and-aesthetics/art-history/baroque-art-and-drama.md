@@ -21,7 +21,7 @@ tags:
 - Counter-Reformation
 - drama
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Baroque Art: Drama, Light, and Propaganda

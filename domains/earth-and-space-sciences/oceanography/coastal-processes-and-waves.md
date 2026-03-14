@@ -23,7 +23,7 @@ tags:
 - coastal geomorphology
 - surf zone
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Coastal Processes: Wave Refraction, Erosion, and Deposition

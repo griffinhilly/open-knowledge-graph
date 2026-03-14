@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: functor-categories
   type: soft
+- id: full-and-faithful-functors
+  type: soft
+- id: limits-and-colimits
+  type: soft
 builds-toward:
 - adjoint-functors
 - equivalence-of-categories
@@ -20,9 +24,8 @@ tags:
 - presheaf
 - representability
 stage: advanced
-status: draft
+status: validated
 ---
-
 # The Yoneda Lemma
 
 ## Core Idea

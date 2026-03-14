@@ -15,7 +15,7 @@ tags:
 - CNF-SAT
 - circuit-complexity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Cook-Levin Theorem

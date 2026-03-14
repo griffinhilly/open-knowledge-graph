@@ -20,7 +20,7 @@ tags:
 - correlated subquery
 - nested queries
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SQL Subqueries and CTEs

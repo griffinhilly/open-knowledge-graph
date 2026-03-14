@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: cardinality-and-countability
   type: soft
+- id: zorns-lemma
+  type: soft
 builds-toward:
 - continuum-hypothesis
 tags:
@@ -19,9 +21,8 @@ tags:
 - exponentiation
 - beth numbers
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Cardinal Arithmetic
 
 ## Core Idea

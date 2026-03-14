@@ -19,7 +19,7 @@ tags:
 - abductive-response
 - epistemic-closure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Responses to External World Skepticism

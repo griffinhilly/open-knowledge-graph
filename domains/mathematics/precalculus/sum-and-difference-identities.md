@@ -13,7 +13,7 @@ builds-toward:
   - solving-trigonometric-equations
 tags: [trigonometry, identities, sum-difference]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sum and Difference Identities

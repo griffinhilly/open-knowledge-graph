@@ -17,7 +17,7 @@ tags:
 - surplus
 - shortage
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Market Equilibrium

@@ -18,7 +18,7 @@ tags:
 - troubadour
 - Notre-Dame
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Medieval Music: From Organum to Ars Nova

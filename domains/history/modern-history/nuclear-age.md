@@ -17,7 +17,7 @@ tags:
 - arms race
 - Hiroshima
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Nuclear Age and Deterrence

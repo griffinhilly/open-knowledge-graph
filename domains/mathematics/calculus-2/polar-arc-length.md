@@ -13,7 +13,7 @@ prerequisites:
 builds-toward: []
 tags: [polar, arc-length, integration]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Arc Length in Polar Coordinates

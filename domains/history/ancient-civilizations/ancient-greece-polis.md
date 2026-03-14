@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: primary-sources
   type: soft
+- id: bronze-age-collapse
+  type: soft
 builds-toward:
 - athenian-democracy-origins
 - greek-philosophy-origins
@@ -24,9 +26,8 @@ tags:
 - sparta
 - archaic-period
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Greek Polis: City-State Civilization
 
 ## Core Idea

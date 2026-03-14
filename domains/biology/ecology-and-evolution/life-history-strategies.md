@@ -20,7 +20,7 @@ tags:
 - trade-offs
 - reproductive-strategy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Life History Strategies: r- and K-Selection

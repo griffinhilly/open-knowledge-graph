@@ -6,7 +6,7 @@ course: early-modern-period
 prerequisites:
 - id: enlightenment-origins
   type: hard
-- id: social-contract-theory
+- id: social-contract-theory-historical
   type: hard
 - id: english-civil-war-glorious-revolution
   type: soft
@@ -23,7 +23,7 @@ tags:
 - colonial grievances
 - Constitution
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The American Revolution

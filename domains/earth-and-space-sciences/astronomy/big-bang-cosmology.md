@@ -23,7 +23,7 @@ tags:
 - cosmic-timeline
 - inflation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Big Bang Cosmology

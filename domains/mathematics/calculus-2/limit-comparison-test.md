@@ -10,7 +10,7 @@ builds-toward:
   - absolute-vs-conditional-convergence
 tags: [series, convergence-tests, limit-comparison]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Limit Comparison Test

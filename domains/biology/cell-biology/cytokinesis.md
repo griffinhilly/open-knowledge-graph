@@ -17,7 +17,7 @@ tags:
 - division
 - animal-plant
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cytokinesis

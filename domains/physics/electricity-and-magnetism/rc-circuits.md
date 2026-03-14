@@ -22,7 +22,7 @@ tags:
 - discharging
 - transient
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # RC Circuits

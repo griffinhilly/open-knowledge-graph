@@ -18,7 +18,7 @@ tags:
 - equal-parts
 - shapes
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Fractions: Halves, Thirds, and Fourths

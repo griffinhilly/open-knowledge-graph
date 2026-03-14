@@ -16,7 +16,7 @@ tags:
 - context-free
 - operations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Closure Properties of Context-Free Languages

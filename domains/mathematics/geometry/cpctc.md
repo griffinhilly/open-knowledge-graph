@@ -16,7 +16,7 @@ builds-toward:
   - parallelogram-properties
 tags: [congruence, CPCTC, proof]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # CPCTC (Corresponding Parts of Congruent Triangles are Congruent)

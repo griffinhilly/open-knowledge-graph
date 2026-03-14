@@ -20,7 +20,7 @@ tags:
 - south-asia
 - bronze-age
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Indus Valley (Harappan) Civilization

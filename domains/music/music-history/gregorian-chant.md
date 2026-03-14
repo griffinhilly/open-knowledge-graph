@@ -17,7 +17,7 @@ tags:
 - Catholic
 - liturgical
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Gregorian Chant

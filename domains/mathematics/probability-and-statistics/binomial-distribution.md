@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: expected-value
   type: soft
+- id: variance-of-random-variables
+  type: soft
 builds-toward:
 - geometric-distribution
 - confidence-intervals-proportions
@@ -22,9 +24,8 @@ tags:
 - n-choose-k
 - success-failure
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # The Binomial Distribution
 
 ## Core Idea

@@ -19,7 +19,7 @@ tags:
 - Clausius
 - Kelvin-Planck
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Second Law of Thermodynamics

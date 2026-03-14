@@ -19,7 +19,7 @@ tags:
 - central-asia
 - connectivity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Silk Road in the Medieval Period

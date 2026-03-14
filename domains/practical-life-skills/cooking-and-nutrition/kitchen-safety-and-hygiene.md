@@ -17,7 +17,7 @@ tags:
 - handwashing
 - cross-contamination
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Kitchen Safety and Hygiene

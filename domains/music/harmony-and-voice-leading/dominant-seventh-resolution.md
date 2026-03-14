@@ -20,7 +20,7 @@ tags:
 - leading-tone
 - tritone
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Dominant Seventh Chord Resolution

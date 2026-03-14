@@ -23,7 +23,7 @@ tags:
 - muscle-tissue
 - nervous-tissue
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Tissue Types and Histology

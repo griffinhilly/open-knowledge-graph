@@ -17,7 +17,7 @@ tags:
 - branching
 - control flow
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Conditional Statements

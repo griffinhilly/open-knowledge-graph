@@ -15,7 +15,7 @@ tags:
 - actualism
 - ersatzism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Modal Realism

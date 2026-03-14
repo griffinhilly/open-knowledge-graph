@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: discourse-analysis
   type: soft
+- id: dialogue-in-fiction
+  type: soft
 builds-toward:
 - stream-of-consciousness
 tags:
@@ -21,9 +23,8 @@ tags:
 - register
 - authorial-presence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Narrative Voice and Authorial Style
 
 ## Core Idea

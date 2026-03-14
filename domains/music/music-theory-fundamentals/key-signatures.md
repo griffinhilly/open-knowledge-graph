@@ -19,7 +19,7 @@ tags:
 - flats
 - tonal center
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Key Signatures and the Circle of Fifths

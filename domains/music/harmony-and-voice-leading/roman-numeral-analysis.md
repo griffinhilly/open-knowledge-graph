@@ -23,7 +23,7 @@ tags:
 - harmony
 - diatonic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Roman Numeral Analysis

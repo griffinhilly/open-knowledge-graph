@@ -23,7 +23,7 @@ tags:
 - poles
 - zeros
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Frequency Response and Bode Plots

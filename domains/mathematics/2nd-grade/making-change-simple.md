@@ -16,7 +16,7 @@ tags:
 - subtraction
 - real-world
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Making Change

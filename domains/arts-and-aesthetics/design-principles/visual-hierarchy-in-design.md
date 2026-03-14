@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: value-and-tone
   type: soft
+- id: gestalt-principles-in-design
+  type: soft
+- id: whitespace-and-breathing-room
+  type: soft
 builds-toward:
 - type-pairing-and-hierarchy
 - ui-design-fundamentals
@@ -22,9 +26,8 @@ tags:
 - weight
 - focal point
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Visual Hierarchy in Design
 
 ## Core Idea

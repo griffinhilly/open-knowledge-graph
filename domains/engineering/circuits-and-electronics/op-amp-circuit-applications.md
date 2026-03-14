@@ -19,7 +19,7 @@ tags:
 - active-filter
 - comparator
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Op-Amp Circuit Applications

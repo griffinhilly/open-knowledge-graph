@@ -21,7 +21,7 @@ tags:
 - observational-data
 - non-random-treatment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Selection Bias

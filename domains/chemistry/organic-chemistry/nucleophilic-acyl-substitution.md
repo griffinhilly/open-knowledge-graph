@@ -19,7 +19,7 @@ tags:
 - amide hydrolysis
 - transesterification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nucleophilic Acyl Substitution

@@ -14,7 +14,7 @@ tags:
 - first-success
 - memoryless
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Geometric Distribution

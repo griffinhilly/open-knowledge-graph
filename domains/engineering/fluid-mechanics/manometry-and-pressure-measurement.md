@@ -14,7 +14,7 @@ tags:
 - U-tube
 - differential pressure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Manometry and Pressure Measurement

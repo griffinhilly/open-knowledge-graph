@@ -14,6 +14,12 @@ prerequisites:
   type: soft
 - id: language-variation-and-change
   type: soft
+- id: discourse-and-power
+  type: soft
+- id: new-historicism
+  type: soft
+- id: reader-response-theory
+  type: soft
 builds-toward:
 - intersectionality-in-criticism
 tags:
@@ -24,9 +30,8 @@ tags:
 - encoding-decoding
 - popular-culture
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Cultural Studies and Literary Analysis
 
 ## Core Idea

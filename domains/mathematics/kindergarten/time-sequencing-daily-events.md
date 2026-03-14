@@ -11,7 +11,7 @@ tags:
 - after
 - daily-routine
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Sequencing Daily Events (Before and After)

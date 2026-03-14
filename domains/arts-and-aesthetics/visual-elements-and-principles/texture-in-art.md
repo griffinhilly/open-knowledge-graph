@@ -18,7 +18,7 @@ tags:
 - surface
 - pattern
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Texture in Art

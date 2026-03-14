@@ -26,7 +26,7 @@ tags:
 - activation-entropy
 - transmission-coefficient
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Transition State Theory and the Eyring Equation

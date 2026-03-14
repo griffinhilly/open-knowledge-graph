@@ -17,7 +17,7 @@ tags:
 - columns
 - rectangular-arrangement
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Arrays

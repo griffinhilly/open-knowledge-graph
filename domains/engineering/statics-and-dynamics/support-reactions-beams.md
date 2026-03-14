@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: moment-of-force-2d
   type: hard
+- id: equivalent-force-systems
+  type: soft
 builds-toward:
 - equilibrium-rigid-bodies
 - truss-method-of-joints
@@ -19,9 +21,8 @@ tags:
 - beams
 - boundary conditions
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Support Reactions and Beam Types
 
 ## Core Idea

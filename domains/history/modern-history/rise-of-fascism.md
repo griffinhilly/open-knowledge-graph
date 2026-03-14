@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: marxism-and-socialism
   type: soft
+- id: russian-revolution
+  type: soft
 builds-toward:
 - world-war-ii-origins
 - holocaust
@@ -22,9 +24,8 @@ tags:
 - Hitler
 - totalitarianism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Rise of Fascism
 
 ## Core Idea

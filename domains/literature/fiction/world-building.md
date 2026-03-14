@@ -19,7 +19,7 @@ tags:
 - setting
 - speculative-fiction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # World-Building in Fiction

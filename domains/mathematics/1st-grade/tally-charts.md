@@ -19,7 +19,7 @@ tags:
 - organizing-data
 - graphing
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Tally Charts

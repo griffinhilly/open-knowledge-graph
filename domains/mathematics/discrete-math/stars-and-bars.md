@@ -16,7 +16,7 @@ tags:
 - counting
 - combinatorics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stars and Bars: Combinations with Repetition

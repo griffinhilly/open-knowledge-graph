@@ -19,7 +19,7 @@ tags:
 - addition-rule
 - multiplication-rule
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Counting Principles: Addition and Multiplication Rules

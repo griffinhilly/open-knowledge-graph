@@ -16,7 +16,7 @@ tags:
 - permittivity
 - capacitance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dielectrics

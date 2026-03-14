@@ -14,6 +14,12 @@ prerequisites:
   type: soft
 - id: rates-of-change-preview
   type: soft
+- id: economic-anthropology
+  type: soft
+- id: medical-anthropology
+  type: soft
+- id: political-anthropology
+  type: soft
 builds-toward:
 - identity-and-selfhood-anthropology
 tags:
@@ -24,9 +30,8 @@ tags:
 - creolization
 - diaspora
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Globalization and Cultural Change
 
 ## Core Idea

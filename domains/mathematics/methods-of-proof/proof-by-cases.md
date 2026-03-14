@@ -14,7 +14,7 @@ tags:
 - case-analysis
 - parity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Proof by Cases

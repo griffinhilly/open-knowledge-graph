@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: newtons-third-law
   type: hard
+- id: center-of-mass
+  type: soft
 builds-toward:
 - collisions-elastic-inelastic
 tags:
@@ -15,9 +17,8 @@ tags:
 - isolated-system
 - collisions
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Conservation of Linear Momentum
 
 ## Core Idea

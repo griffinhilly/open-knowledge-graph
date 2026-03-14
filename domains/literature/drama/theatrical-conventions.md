@@ -14,7 +14,7 @@ tags:
 - performance
 - theatre
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Theatrical Conventions

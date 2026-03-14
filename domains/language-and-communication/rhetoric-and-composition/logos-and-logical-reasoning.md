@@ -9,7 +9,7 @@ prerequisites:
 - id: evidence-and-support
   type: hard
 builds-toward:
-- argument-structure
+- argument-structure-toulmin
 - counterargument-and-rebuttal
 tags:
 - logos
@@ -19,7 +19,7 @@ tags:
 - induction
 - fallacy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Logos and Logical Reasoning in Writing

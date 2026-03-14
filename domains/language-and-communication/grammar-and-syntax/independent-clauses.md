@@ -17,7 +17,7 @@ tags:
 - sentence-structure
 - independent-clause
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Independent Clauses

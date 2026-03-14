@@ -22,7 +22,7 @@ tags:
 - test-statistic
 - significance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fundamentals of Hypothesis Testing

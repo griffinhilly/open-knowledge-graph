@@ -19,7 +19,7 @@ tags:
 - transient
 - exponential
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # RL Circuits

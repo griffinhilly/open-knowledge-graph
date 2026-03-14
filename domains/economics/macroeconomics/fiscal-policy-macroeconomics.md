@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: externalities-and-market-failure
   type: soft
+- id: business-cycles
+  type: soft
 builds-toward:
 - fiscal-multiplier
 - is-lm-model
@@ -20,9 +22,8 @@ tags:
 - automatic-stabilizers
 - discretionary
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Fiscal Policy
 
 ## Core Idea

@@ -11,7 +11,7 @@ prerequisites:
 - id: magna-carta-and-feudal-limits
   type: soft
 builds-toward:
-- social-contract-theory
+- social-contract-theory-historical
 - enlightenment-origins
 - american-revolution
 tags:
@@ -22,7 +22,7 @@ tags:
 - Cromwell
 - Bill of Rights
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The English Civil War and the Glorious Revolution

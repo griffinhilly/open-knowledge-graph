@@ -17,7 +17,7 @@ tags:
 - function signature
 - default values
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Parameters and Arguments

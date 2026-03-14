@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: deductive-reasoning
   type: soft
+- id: socratic-method
+  type: soft
 builds-toward:
 - counterexample-method
 tags:
@@ -16,9 +18,8 @@ tags:
 - intuition-pumps
 - philosophical-method
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Thought Experiments in Philosophy
 
 ## Core Idea

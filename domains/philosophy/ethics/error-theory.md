@@ -8,15 +8,16 @@ prerequisites:
   type: hard
 - id: moral-realism
   type: hard
+- id: expressivism-in-ethics
+  type: soft
 tags:
 - metaethics
 - Mackie
 - anti-realism
 - error-theory
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Moral Error Theory
 
 ## Core Idea

@@ -14,7 +14,7 @@ builds-toward:
   - improper-integrals-convergence
 tags: [integration, techniques, partial-fractions]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Partial Fraction Decomposition for Integration

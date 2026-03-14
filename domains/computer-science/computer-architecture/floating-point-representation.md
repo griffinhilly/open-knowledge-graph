@@ -18,7 +18,7 @@ tags:
 - real-numbers
 - precision
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Floating-Point Representation (IEEE 754)

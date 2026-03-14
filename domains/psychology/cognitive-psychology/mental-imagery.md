@@ -9,13 +9,13 @@ prerequisites:
 - id: visual-processing-pathway
   type: soft
 builds-toward:
-- analogical-reasoning
+- analogical-reasoning-cognitive
 tags:
 - imagery
 - spatial-cognition
 - mental-rotation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mental Imagery and Spatial Cognition

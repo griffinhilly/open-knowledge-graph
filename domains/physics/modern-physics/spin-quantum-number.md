@@ -15,7 +15,7 @@ tags:
 - angular-momentum
 - fermion
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Electron Spin

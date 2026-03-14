@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: measures-of-spread
   type: hard
+- id: continuous-random-variables
+  type: soft
 builds-toward:
 - confidence-intervals-means
 - z-test-for-means
@@ -19,9 +21,8 @@ tags:
 - z-table
 - normal-distribution
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Standard Normal Distribution and Z-Scores
 
 ## Core Idea

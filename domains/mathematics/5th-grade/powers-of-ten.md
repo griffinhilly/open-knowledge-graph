@@ -13,7 +13,7 @@ builds-toward:
   - multiplying-decimals
 tags: [exponents, place-value, number-sense]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Powers of Ten

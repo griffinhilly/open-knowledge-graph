@@ -20,7 +20,7 @@ tags:
 - economy
 - government
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Social Institutions

@@ -18,7 +18,7 @@ tags:
 - bivariate-data
 - trend
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Scatterplots and Correlation

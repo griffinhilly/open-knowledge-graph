@@ -14,7 +14,7 @@ tags:
 - memory
 - survival
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Psychological Continuity Theory of Personal Identity

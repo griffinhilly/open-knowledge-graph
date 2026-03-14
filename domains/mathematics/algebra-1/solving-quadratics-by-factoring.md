@@ -13,7 +13,7 @@ builds-toward:
   - graphing-quadratics
 tags: [quadratics, factoring, zero-product-property, solving]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Solving Quadratics by Factoring

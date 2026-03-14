@@ -16,7 +16,7 @@ tags:
 - legislative
 - judiciary
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Separation of Powers and Branches of Government

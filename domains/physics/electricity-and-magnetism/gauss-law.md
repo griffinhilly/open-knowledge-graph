@@ -21,7 +21,7 @@ tags:
 - electrostatics
 - closed-surface
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gauss's Law

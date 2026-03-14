@@ -18,7 +18,7 @@ tags:
 - span
 - cospan
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pullbacks and Pushouts

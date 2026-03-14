@@ -12,7 +12,7 @@ builds-toward:
   - volumes-by-shell-method
 tags: [integration, applications, volumes, revolution]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Volumes by Washer Method

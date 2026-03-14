@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: medieval-agricultural-revolution
   type: soft
+- id: black-death
+  type: soft
+- id: crusades
+  type: soft
+- id: viking-age
+  type: soft
 builds-toward:
 - medieval-universities
 tags:
@@ -20,9 +26,8 @@ tags:
 - guilds
 - hanseatic-league
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Medieval Commercial Revolution
 
 ## Core Idea

@@ -23,7 +23,7 @@ tags:
 - pi-orbitals
 - overlap-integral
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Molecular Orbital Theory: LCAO-MO

@@ -27,7 +27,7 @@ tags:
 - heavy-elements
 - iron-peak
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stellar Nucleosynthesis

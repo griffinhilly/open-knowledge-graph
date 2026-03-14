@@ -24,7 +24,7 @@ tags:
 - scalability
 - versatility
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Logo Design Principles

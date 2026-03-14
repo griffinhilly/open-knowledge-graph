@@ -18,7 +18,7 @@ tags:
 - negative-liberty
 - positive-liberty
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Negative and Positive Liberty

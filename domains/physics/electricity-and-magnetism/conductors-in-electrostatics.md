@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electric-field
   type: hard
+- id: electric-potential
+  type: soft
 builds-toward:
 - capacitance
 tags:
@@ -16,9 +18,8 @@ tags:
 - shielding
 - induced-charge
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Conductors in Electrostatic Equilibrium
 
 ## Core Idea

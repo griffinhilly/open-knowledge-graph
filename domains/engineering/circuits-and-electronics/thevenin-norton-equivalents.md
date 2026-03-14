@@ -21,7 +21,7 @@ tags:
 - maximum-power-transfer
 - equivalent-circuits
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thevenin and Norton Equivalent Circuits

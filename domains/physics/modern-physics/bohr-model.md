@@ -21,7 +21,7 @@ tags:
 - quantization
 - bohr
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bohr Model of the Hydrogen Atom

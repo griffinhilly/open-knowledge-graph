@@ -24,7 +24,7 @@ tags:
 - gentrification
 - urban-sociology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Urbanization and Urban Life

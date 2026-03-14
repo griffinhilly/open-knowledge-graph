@@ -21,7 +21,7 @@ tags:
 - phrase structure
 - grammar
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Syntactic Structure

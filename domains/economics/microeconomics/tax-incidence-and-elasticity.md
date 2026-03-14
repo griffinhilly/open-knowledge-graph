@@ -19,7 +19,7 @@ tags:
 - elasticity
 - wedge
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Tax Incidence and Elasticity

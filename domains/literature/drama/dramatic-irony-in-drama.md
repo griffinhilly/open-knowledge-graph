@@ -21,7 +21,7 @@ tags:
 - suspense
 - tragedy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Dramatic Irony

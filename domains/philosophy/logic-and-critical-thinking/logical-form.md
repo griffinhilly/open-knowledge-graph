@@ -18,7 +18,7 @@ tags:
 - argument-patterns
 - formalization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Logical Form and Argument Patterns

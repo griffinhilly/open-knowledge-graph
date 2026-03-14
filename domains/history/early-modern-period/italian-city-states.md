@@ -20,7 +20,7 @@ tags:
 - patronage
 - Medici
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Italian City-States and the Renaissance Setting

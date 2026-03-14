@@ -26,7 +26,7 @@ tags:
 - story-discourse
 - narrative-levels
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Narratology and Narrative Theory

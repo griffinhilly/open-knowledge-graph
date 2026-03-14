@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: electromagnetic-spectrum
   type: soft
+- id: telescopes-and-observing-methods
+  type: soft
 builds-toward:
 - stellar-spectral-classification
 - hertzsprung-russell-diagram
@@ -25,9 +27,8 @@ tags:
 - Stefan-Boltzmann-law
 - distance-modulus
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Stellar Properties: Luminosity, Temperature, and Size
 
 ## Core Idea

@@ -21,7 +21,7 @@ tags:
 - expenses
 - cash-flow
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Personal Budget Fundamentals

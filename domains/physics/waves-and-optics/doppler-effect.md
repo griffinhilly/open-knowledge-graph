@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: wave-speed-medium
   type: hard
+- id: sound-intensity-and-decibels
+  type: soft
 tags:
 - Doppler
 - frequency shift
@@ -15,9 +17,8 @@ tags:
 - moving observer
 - redshift
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # The Doppler Effect
 
 ## Core Idea

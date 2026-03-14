@@ -16,7 +16,7 @@ tags:
 - Frankfurt
 - moral responsibility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Compatibilism

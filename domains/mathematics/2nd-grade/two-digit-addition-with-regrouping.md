@@ -18,7 +18,7 @@ tags:
 - carrying
 - place-value
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Two-Digit Addition with Regrouping

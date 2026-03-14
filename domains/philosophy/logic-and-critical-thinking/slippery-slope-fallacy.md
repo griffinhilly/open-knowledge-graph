@@ -13,7 +13,7 @@ tags:
 - causal-reasoning
 - fallacies
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Slippery Slope Fallacy

@@ -25,7 +25,7 @@ tags:
 - aldosterone
 - fluid balance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Renal Physiology and Fluid Balance

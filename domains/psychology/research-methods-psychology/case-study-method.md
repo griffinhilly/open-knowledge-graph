@@ -14,7 +14,7 @@ tags:
 - idiographic
 - clinical-research
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Case Study Method

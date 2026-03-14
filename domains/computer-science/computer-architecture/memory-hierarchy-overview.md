@@ -18,7 +18,7 @@ tags:
 - storage
 - locality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory Hierarchy

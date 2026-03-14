@@ -16,7 +16,7 @@ tags:
 - co-constructions
 - arrow reversal
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Opposite Categories and Duality

@@ -19,7 +19,7 @@ tags:
 - order-of-integration
 - region
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Iterated Integrals and Fubini's Theorem

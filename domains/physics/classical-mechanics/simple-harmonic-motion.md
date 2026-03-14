@@ -23,7 +23,7 @@ tags:
 - restoring-force
 - sinusoidal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Simple Harmonic Motion

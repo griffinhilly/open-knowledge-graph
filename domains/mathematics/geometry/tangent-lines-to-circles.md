@@ -12,7 +12,7 @@ builds-toward:
   - coordinate-geometry-proofs
 tags: [circles, tangent-lines, perpendicularity, theorems]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Tangent Lines to Circles

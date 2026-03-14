@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: neuromuscular-junction
   type: soft
+- id: skeletal-system-anatomy
+  type: soft
 builds-toward:
 - muscle-metabolism-and-fatigue
 tags:
@@ -21,9 +23,8 @@ tags:
 - antagonist
 - lever-systems
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Muscular System: Gross Anatomy and Muscle Mechanics
 
 ## Core Idea

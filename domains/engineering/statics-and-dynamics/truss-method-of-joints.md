@@ -18,7 +18,7 @@ tags:
 - structural analysis
 - two-force members
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Truss Analysis: Method of Joints

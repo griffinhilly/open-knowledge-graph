@@ -18,7 +18,7 @@ tags:
 - optical activity
 - stereocenter
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Enantiomers, Chirality, and R/S Configuration

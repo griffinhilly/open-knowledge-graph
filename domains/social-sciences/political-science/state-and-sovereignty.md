@@ -18,7 +18,7 @@ tags:
 - Westphalia
 - monopoly on violence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The State and Sovereignty

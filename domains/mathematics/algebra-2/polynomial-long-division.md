@@ -4,19 +4,24 @@ title: Polynomial Long Division
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: polynomial-functions-degree-and-leading-coefficient
-    type: hard
-  - id: polynomial-multiplication
-    type: hard
+- id: polynomial-functions-degree-and-leading-coefficient
+  type: hard
+- id: multiplying-polynomials
+  type: hard
+- id: graphing-polynomial-functions
+  type: soft
 builds-toward:
-  - synthetic-division
-  - remainder-theorem
-  - rational-functions-and-asymptotes
-tags: [polynomials, division, long-division, quotient-remainder]
+- synthetic-division
+- remainder-theorem
+- rational-functions-and-asymptotes
+tags:
+- polynomials
+- division
+- long-division
+- quotient-remainder
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Polynomial Long Division
 
 ## Core Idea

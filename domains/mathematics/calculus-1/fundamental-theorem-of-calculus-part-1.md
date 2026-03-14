@@ -4,17 +4,21 @@ title: Fundamental Theorem of Calculus Part 1
 domain: mathematics
 course: calculus-1
 prerequisites:
-  - id: definite-integral-definition
-    type: hard
-  - id: continuity-definition
-    type: hard
+- id: definite-integral-definition
+  type: hard
+- id: continuity-definition
+  type: hard
+- id: antiderivatives
+  type: soft
 builds-toward:
-  - fundamental-theorem-of-calculus-part-2
-tags: [integration, FTC, fundamental-theorem]
+- fundamental-theorem-of-calculus-part-2
+tags:
+- integration
+- FTC
+- fundamental-theorem
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Fundamental Theorem of Calculus Part 1
 
 ## Core Idea

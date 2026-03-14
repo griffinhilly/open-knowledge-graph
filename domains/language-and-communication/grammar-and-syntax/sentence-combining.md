@@ -18,7 +18,7 @@ tags:
 - style
 - revision
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Sentence Combining and Sentence Variety

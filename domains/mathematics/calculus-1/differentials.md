@@ -12,7 +12,7 @@ builds-toward:
   - u-substitution
 tags: [derivatives, differentials, approximation]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Differentials

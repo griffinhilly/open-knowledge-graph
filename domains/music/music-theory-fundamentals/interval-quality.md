@@ -21,7 +21,7 @@ tags:
 - augmented
 - diminished
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Interval Quality: Major, Minor, Perfect, Augmented, Diminished

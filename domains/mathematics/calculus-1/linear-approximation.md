@@ -11,7 +11,7 @@ builds-toward:
   - taylor-polynomials
 tags: [derivatives, applications, approximation, tangent-line]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linear Approximation

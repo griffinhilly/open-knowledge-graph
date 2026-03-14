@@ -1,6 +1,6 @@
 ---
 id: greens-theorem
-title: Green's Theorem
+title: 'Green''s Theorem'
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
@@ -9,6 +9,8 @@ prerequisites:
 - id: double-integrals-cartesian
   type: hard
 - id: conservative-fields
+  type: soft
+- id: fundamental-theorem-line-integrals
   type: soft
 builds-toward:
 - stokes-theorem
@@ -21,9 +23,8 @@ tags:
 - boundary
 - orientation
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Green's Theorem
 
 ## Core Idea

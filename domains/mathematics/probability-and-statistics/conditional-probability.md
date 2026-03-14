@@ -16,7 +16,7 @@ tags:
 - given-that
 - restricted-sample-space
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conditional Probability

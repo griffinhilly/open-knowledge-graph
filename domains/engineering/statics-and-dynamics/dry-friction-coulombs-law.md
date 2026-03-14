@@ -1,12 +1,14 @@
 ---
 id: dry-friction-coulombs-law
-title: Dry Friction and Coulomb's Law
+title: 'Dry Friction and Coulomb''s Law'
 domain: engineering
 course: statics-and-dynamics
 prerequisites:
 - id: equilibrium-rigid-bodies
   type: hard
 - id: friction-forces
+  type: soft
+- id: frames-machines-analysis
   type: soft
 builds-toward:
 - friction-wedges-screws-belts
@@ -17,9 +19,8 @@ tags:
 - static friction
 - kinetic friction
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Dry Friction and Coulomb's Law
 
 ## Core Idea

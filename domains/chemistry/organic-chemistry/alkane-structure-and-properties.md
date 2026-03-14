@@ -20,7 +20,7 @@ tags:
 - eclipsed
 - torsional strain
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Alkane Structure and Conformational Analysis

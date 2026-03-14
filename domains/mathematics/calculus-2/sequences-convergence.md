@@ -13,7 +13,7 @@ builds-toward:
   - divergence-test
 tags: [sequences, convergence, limits]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sequences and Convergence

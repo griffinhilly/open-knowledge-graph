@@ -4,16 +4,16 @@ title: Ratios
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: simplifying-fractions
+  - id: multiplying-fractions
     type: hard
-  - id: whole-number-arithmetic
+  - id: place-value-whole-numbers
     type: hard
 builds-toward:
   - unit-rates
   - proportions
 tags: [ratios, fractions, comparison]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ratios

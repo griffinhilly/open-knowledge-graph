@@ -14,7 +14,7 @@ tags:
 - stall
 - branch-prediction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pipeline Hazards

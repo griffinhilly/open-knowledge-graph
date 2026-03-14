@@ -17,7 +17,7 @@ tags:
 - dwarf-planets
 - impact-hazards
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Small Solar System Bodies

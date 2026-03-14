@@ -20,7 +20,7 @@ tags:
 - virial-equation
 - second-virial-coefficient
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Intermolecular Potential Energy Models

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: silk-road-trade-network
   type: soft
+- id: medieval-agricultural-revolution
+  type: soft
+- id: mongol-conquest-effects
+  type: soft
 builds-toward:
 - medieval-trade-revival
 tags:
@@ -19,9 +23,8 @@ tags:
 - labor
 - social-upheaval
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Black Death
 
 ## Core Idea

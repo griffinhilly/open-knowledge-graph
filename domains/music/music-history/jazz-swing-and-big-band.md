@@ -19,7 +19,7 @@ tags:
 - dance-music
 - arrangement
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Swing Era and Big Band Jazz

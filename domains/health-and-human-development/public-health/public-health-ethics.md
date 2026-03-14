@@ -21,7 +21,7 @@ tags:
 - public-health-law
 - stewardship
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ethics in Public Health Practice

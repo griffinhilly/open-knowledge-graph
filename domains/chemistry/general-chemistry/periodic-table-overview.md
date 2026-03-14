@@ -20,7 +20,7 @@ tags:
 - metalloids
 - blocks
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Periodic Table

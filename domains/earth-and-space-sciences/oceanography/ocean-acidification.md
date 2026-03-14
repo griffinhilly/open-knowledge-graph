@@ -25,7 +25,7 @@ tags:
 - calcification
 - aragonite
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ocean Acidification: Chemistry and Ecological Consequences

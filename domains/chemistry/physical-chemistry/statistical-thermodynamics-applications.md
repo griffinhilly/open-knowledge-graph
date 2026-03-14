@@ -24,7 +24,7 @@ tags:
 - equilibrium-constant
 - standard-state
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Statistical Thermodynamics: Properties from Partition Functions

@@ -18,7 +18,7 @@ tags:
 - scaled
 - graphing
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Scaled Bar Graphs

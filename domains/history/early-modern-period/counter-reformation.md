@@ -19,7 +19,7 @@ tags:
 - Inquisition
 - Loyola
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Counter-Reformation and Catholic Revival

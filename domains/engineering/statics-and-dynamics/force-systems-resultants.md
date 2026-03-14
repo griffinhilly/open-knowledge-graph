@@ -19,7 +19,7 @@ tags:
 - resultants
 - vectors
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Force Systems and Resultants

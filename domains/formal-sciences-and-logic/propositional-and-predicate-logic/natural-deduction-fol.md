@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: first-order-logic-syntax
   type: hard
+- id: first-order-semantics
+  type: soft
 builds-toward:
 - fol-soundness-completeness
 tags:
@@ -17,9 +19,8 @@ tags:
 - existential
 - FOL-proof
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Natural Deduction for First-Order Logic
 
 ## Core Idea

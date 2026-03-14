@@ -21,7 +21,7 @@ tags:
 - semitone
 - distance
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Intervals: Half Steps, Whole Steps, and Interval Numbers

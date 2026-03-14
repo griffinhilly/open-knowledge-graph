@@ -8,17 +8,15 @@ prerequisites:
   type: hard
 - id: income-and-substitution-effects
   type: soft
-builds-toward:
-- price-elasticity-of-demand
+builds-toward: []
 tags:
 - demand derivation
 - price-consumption curve
 - individual demand
 - market demand
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Deriving the Demand Curve
 
 ## Core Idea

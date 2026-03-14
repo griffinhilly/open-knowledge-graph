@@ -21,7 +21,7 @@ tags:
 - potato
 - smallpox
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Columbian Exchange

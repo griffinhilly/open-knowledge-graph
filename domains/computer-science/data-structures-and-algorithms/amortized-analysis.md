@@ -19,7 +19,7 @@ tags:
 - analysis
 - aggregate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Amortized Analysis

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: civil-rights-movement
   type: soft
+- id: memory-and-commemoration
+  type: soft
 tags:
 - postcolonialism
 - historiography
@@ -19,9 +21,8 @@ tags:
 - Subaltern Studies
 - decolonizing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Postcolonial Historiography
 
 ## Core Idea

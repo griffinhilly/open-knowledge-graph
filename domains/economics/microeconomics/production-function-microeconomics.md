@@ -19,7 +19,7 @@ tags:
 - marginal product
 - isoquant
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Production Function and Returns to Scale

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: characterization-methods
   type: soft
+- id: frame-narrative
+  type: soft
 builds-toward:
 - irony-in-literature
 - thematic-development
@@ -18,9 +20,8 @@ tags:
 - dramatic irony
 - perspective
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Unreliable Narrator
 
 ## Core Idea

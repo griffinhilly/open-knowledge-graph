@@ -15,7 +15,7 @@ tags:
 - rainbow
 - index of refraction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dispersion and Prisms

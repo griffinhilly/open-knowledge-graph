@@ -20,7 +20,7 @@ tags:
 - land-use
 - local-climate
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Urban Heat Island Effect

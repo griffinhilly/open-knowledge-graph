@@ -16,7 +16,7 @@ tags:
 - arrays
 - optimization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Two Pointers and Sliding Window

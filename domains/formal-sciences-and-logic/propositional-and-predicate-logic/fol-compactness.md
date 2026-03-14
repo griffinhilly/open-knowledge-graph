@@ -17,7 +17,7 @@ tags:
 - ultraproducts
 - non-standard-models
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Compactness Theorem for First-Order Logic

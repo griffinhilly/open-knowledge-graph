@@ -21,7 +21,7 @@ tags:
 - causation
 - third-variable-problem
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Correlational Research Design

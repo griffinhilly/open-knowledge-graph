@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: modular-arithmetic
   type: soft
+- id: amortized-analysis
+  type: soft
 builds-toward:
 - tries
 - memoization-and-tabulation
@@ -20,9 +22,8 @@ tags:
 - dictionary
 - key-value
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Hash Tables
 
 ## Core Idea

@@ -12,7 +12,7 @@ builds-toward:
   - coordinate-geometry-proofs
 tags: [triangles, medians, centroid, balance-point]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Medians and Centroids

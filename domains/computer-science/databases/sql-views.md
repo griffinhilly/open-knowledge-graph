@@ -18,7 +18,7 @@ tags:
 - virtual tables
 - abstraction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SQL Views and Materialized Views

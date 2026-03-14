@@ -14,7 +14,7 @@ tags:
 - outdoor
 - grass
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Lawn Care Basics

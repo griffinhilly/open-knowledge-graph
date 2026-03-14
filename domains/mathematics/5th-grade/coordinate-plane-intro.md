@@ -12,7 +12,7 @@ builds-toward:
   - plotting-ordered-pairs
 tags: [coordinate-geometry, graphing, algebra-readiness]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Introduction to the Coordinate Plane

@@ -10,7 +10,7 @@ builds-toward:
   - dot-product
 tags: [trigonometry, triangles, law-of-cosines]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Law of Cosines

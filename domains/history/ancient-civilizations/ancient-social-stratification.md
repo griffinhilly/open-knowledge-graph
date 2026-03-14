@@ -20,7 +20,7 @@ tags:
 - elites
 - peasants
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Social Stratification in Ancient Civilizations

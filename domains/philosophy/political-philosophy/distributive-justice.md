@@ -23,7 +23,7 @@ tags:
 - welfare
 - resources
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Distributive Justice

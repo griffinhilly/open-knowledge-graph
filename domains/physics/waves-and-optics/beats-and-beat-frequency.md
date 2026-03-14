@@ -14,7 +14,7 @@ tags:
 - interference
 - tuning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Beats and Beat Frequency

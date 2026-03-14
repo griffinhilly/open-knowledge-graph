@@ -21,7 +21,7 @@ tags:
 - secretion
 - urine
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Renal Anatomy and Nephron Function

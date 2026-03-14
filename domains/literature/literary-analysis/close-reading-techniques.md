@@ -24,7 +24,7 @@ tags:
 - interpretation
 - foundational
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Close Reading Techniques

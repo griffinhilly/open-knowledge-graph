@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: rotational-kinematics
   type: hard
+- id: center-of-mass
+  type: soft
+- id: circular-motion-dynamics
+  type: soft
+- id: static-equilibrium
+  type: soft
 builds-toward:
 - angular-momentum
 - conservation-of-angular-momentum
@@ -19,9 +25,8 @@ tags:
 - moment-of-inertia
 - angular-acceleration
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Rotational Dynamics: Newton's Second Law for Rotation
 
 ## Core Idea

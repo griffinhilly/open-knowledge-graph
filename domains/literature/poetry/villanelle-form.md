@@ -18,7 +18,7 @@ tags:
 - Dylan Thomas
 - fixed form
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Villanelle

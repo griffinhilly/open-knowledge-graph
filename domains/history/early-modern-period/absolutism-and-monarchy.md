@@ -19,7 +19,7 @@ tags:
 - court culture
 - France
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Absolutism and the Age of Louis XIV

@@ -18,7 +18,7 @@ tags:
 - adjectives
 - adverbs
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Adjectives and Adverbs: Modifiers

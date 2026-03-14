@@ -18,7 +18,7 @@ tags:
 - partial-pressure
 - gas-collection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gas-Phase Stoichiometry

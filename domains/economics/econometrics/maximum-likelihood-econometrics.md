@@ -27,7 +27,7 @@ tags:
 - consistency
 - asymptotic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Maximum Likelihood Estimation

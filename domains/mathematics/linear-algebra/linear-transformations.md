@@ -19,7 +19,7 @@ tags:
 - image
 - function between vector spaces
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linear Transformations

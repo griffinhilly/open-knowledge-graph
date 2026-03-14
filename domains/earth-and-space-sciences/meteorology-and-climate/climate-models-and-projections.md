@@ -18,7 +18,7 @@ tags:
 - ensemble
 - uncertainty
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Climate Models and Future Projections

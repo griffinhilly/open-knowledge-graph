@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: cartesian-product
   type: soft
+- id: uniqueness-proofs
+  type: soft
 builds-toward:
 - cardinality-and-countability
 tags:
@@ -23,9 +25,8 @@ tags:
 - function-properties
 - inverse-functions
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Injective, Surjective, and Bijective Functions
 
 ## Core Idea

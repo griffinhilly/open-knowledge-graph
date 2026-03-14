@@ -14,7 +14,7 @@ tags:
 - polarizer angle
 - cosine squared
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Malus's Law

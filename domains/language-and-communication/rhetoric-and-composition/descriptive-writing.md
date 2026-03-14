@@ -20,7 +20,7 @@ tags:
 - show don't tell
 - diction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Descriptive Writing and Sensory Detail

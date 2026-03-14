@@ -4,18 +4,22 @@ title: Inverse Functions Review
 domain: mathematics
 course: precalculus
 prerequisites:
-  - id: function-notation-review
-    type: hard
-  - id: domain-and-range
-    type: hard
+- id: function-notation-review
+  type: hard
+- id: domain-and-range
+  type: hard
+- id: composition-of-functions-advanced
+  type: soft
 builds-toward:
-  - inverse-trigonometric-functions
-  - derivatives-of-logarithmic-functions
-tags: [functions, inverses, one-to-one]
+- inverse-trigonometric-functions
+- derivatives-of-logarithmic-functions
+tags:
+- functions
+- inverses
+- one-to-one
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Inverse Functions Review
 
 ## Core Idea

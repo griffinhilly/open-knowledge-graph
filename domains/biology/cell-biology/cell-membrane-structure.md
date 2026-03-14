@@ -22,7 +22,7 @@ tags:
 - phospholipids
 - membrane-proteins
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cell Membrane Structure

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: negation-of-quantifiers
   type: soft
+- id: proof-by-contrapositive
+  type: soft
 builds-toward:
 - existence-proofs
 - cardinality-and-countability
@@ -20,9 +22,8 @@ tags:
 - proof-technique
 - irrationality
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Proof by Contradiction
 
 ## Core Idea

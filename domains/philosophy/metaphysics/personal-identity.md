@@ -19,7 +19,7 @@ tags:
 - Locke
 - Parfit
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Personal Identity Over Time

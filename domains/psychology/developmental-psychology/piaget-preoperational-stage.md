@@ -19,7 +19,7 @@ tags:
 - conservation
 - centration
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Piaget's Preoperational Stage

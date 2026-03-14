@@ -18,7 +18,7 @@ tags:
 - homeostasis
 - set point
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Negative Feedback Mechanisms

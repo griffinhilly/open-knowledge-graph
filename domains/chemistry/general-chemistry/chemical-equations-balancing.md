@@ -18,7 +18,7 @@ tags:
 - reaction-types
 - stoichiometric-ratio
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Balancing Chemical Equations

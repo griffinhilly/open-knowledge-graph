@@ -19,7 +19,7 @@ tags:
 - episodic
 - semantic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Types of Long-Term Memory

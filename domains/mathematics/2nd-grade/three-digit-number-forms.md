@@ -6,6 +6,8 @@ course: 2nd-grade
 prerequisites:
 - id: place-value-hundreds
   type: hard
+- id: skip-counting-by-100s
+  type: soft
 builds-toward:
 - comparing-three-digit-numbers
 - three-digit-addition
@@ -17,9 +19,8 @@ tags:
 - word-form
 - standard-form
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Reading and Writing Three-Digit Numbers
 
 ## Core Idea

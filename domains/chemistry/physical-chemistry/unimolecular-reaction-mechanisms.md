@@ -18,7 +18,7 @@ tags:
 - energy-randomization
 - Rice-Ramsperger-Kassel
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Unimolecular Reactions: Lindemann and RRKM Theory

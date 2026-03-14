@@ -14,7 +14,7 @@ builds-toward:
   - systems-of-inequalities
 tags: [inequalities, solving, graphing, number-line]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Solving Multi-Step Inequalities

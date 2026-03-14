@@ -16,7 +16,7 @@ tags:
 - mRNA
 - protein-synthesis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ribosomes and Protein Synthesis Introduction

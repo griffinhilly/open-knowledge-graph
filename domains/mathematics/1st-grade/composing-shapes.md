@@ -17,7 +17,7 @@ tags:
 - spatial-reasoning
 - pattern-blocks
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Composing Shapes

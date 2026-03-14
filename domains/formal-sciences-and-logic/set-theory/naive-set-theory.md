@@ -19,7 +19,7 @@ tags:
 - foundations
 - cantor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Naive Set Theory

@@ -19,7 +19,7 @@ tags:
 - standard-error
 - variability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sampling Distributions

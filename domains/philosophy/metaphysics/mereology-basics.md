@@ -17,7 +17,7 @@ tags:
 - wholes
 - composition question
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mereology: Parts and Wholes

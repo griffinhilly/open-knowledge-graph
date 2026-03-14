@@ -20,7 +20,7 @@ tags:
 - epochs
 - stratigraphy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Geological Time Scale

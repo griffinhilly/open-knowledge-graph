@@ -17,7 +17,7 @@ tags:
 - multi-factor
 - arbitrage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Arbitrage Pricing Theory (APT) and Factor Models

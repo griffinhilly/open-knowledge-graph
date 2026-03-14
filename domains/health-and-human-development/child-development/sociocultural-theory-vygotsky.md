@@ -18,7 +18,7 @@ tags:
 - sociocultural
 - private-speech
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Vygotsky's Sociocultural Theory and the Zone of Proximal Development

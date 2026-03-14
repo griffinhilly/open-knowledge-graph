@@ -21,7 +21,7 @@ tags:
 - carotenoids
 - free radicals
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Antioxidants, Phytochemicals, and Functional Nutrition

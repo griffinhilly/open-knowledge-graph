@@ -21,7 +21,7 @@ tags:
 - mass
 - surface
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Surface Integrals of Scalar Functions

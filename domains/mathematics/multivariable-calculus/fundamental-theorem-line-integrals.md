@@ -17,7 +17,7 @@ tags:
 - conservative
 - potential
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fundamental Theorem for Line Integrals

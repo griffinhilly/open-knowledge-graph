@@ -21,7 +21,7 @@ tags:
 - I(1)
 - random-walk
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stationarity and Unit Roots

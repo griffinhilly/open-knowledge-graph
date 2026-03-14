@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: moral-realism
   type: soft
+- id: contractualism
+  type: soft
 tags:
 - applied-ethics
 - environmental-ethics
@@ -15,9 +17,8 @@ tags:
 - deep-ecology
 - animal-rights
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Environmental Ethics
 
 ## Core Idea

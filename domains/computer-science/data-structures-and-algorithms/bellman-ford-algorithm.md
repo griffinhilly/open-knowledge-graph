@@ -18,7 +18,7 @@ tags:
 - negative-weights
 - negative-cycles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bellman-Ford Algorithm

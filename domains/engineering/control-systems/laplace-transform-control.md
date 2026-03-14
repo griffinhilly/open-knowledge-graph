@@ -22,7 +22,7 @@ tags:
 - partial-fractions
 - final-value-theorem
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Laplace Transform Methods for Control

@@ -23,7 +23,7 @@ tags:
 - Dada
 - Surrealism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Modern Art Movements: Cubism, Expressionism, Abstraction

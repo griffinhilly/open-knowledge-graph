@@ -21,7 +21,7 @@ tags:
 - differentiation
 - multivariable
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Partial Derivatives

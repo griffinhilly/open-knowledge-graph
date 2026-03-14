@@ -19,7 +19,7 @@ tags:
 - concentration-gradient
 - Stokes-Einstein
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Diffusion and Fick's Laws

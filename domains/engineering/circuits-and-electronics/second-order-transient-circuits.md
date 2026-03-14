@@ -23,7 +23,7 @@ tags:
 - natural-frequency
 - damping-ratio
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Second-Order Transient Circuit Response

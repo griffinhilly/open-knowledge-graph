@@ -17,7 +17,7 @@ tags:
 - reversible
 - irreversible
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Entropy Changes in Thermodynamic Processes

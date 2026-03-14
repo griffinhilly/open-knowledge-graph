@@ -14,7 +14,7 @@ builds-toward:
   - one-step-equations
 tags: [integers, addition, operations]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Adding Integers

@@ -25,7 +25,7 @@ tags:
 - composition
 - identity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Categories and Morphisms

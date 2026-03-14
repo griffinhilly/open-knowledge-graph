@@ -18,7 +18,7 @@ tags:
 - long-run
 - self-correction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Long-Run Aggregate Supply and Potential Output

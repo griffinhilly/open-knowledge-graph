@@ -11,7 +11,7 @@ builds-toward:
   - evaluating-expressions-with-grouping
 tags: [arithmetic, algebra-readiness, operations, expressions]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Order of Operations

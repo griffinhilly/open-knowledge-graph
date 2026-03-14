@@ -18,7 +18,7 @@ tags:
 - sample-size
 - convergence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Central Limit Theorem

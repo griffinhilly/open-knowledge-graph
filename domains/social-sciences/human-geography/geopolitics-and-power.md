@@ -10,8 +10,11 @@ prerequisites:
   type: soft
 - id: international-relations-overview
   type: soft
-builds-toward:
-- resource-geography
+- id: colonialism-geographic-legacy
+  type: soft
+- id: world-cities-global-hierarchy
+  type: soft
+builds-toward: []
 tags:
 - geopolitics
 - Heartland theory
@@ -20,9 +23,8 @@ tags:
 - strategic geography
 - gerrymandering
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Geopolitics and the Geography of Power
 
 ## Core Idea

@@ -12,10 +12,17 @@ prerequisites:
   type: soft
 - id: balance-in-composition
   type: soft
+- id: charcoal-drawing
+  type: soft
+- id: compositional-sketching
+  type: soft
+- id: one-point-perspective
+  type: soft
+- id: two-point-perspective
+  type: soft
 builds-toward:
-- chiaroscuro
-- watercolor-techniques
-- acrylic-painting-fundamentals
+  - watercolor-techniques
+  - acrylic-painting-fundamentals
 tags:
 - still life
 - composition
@@ -23,9 +30,8 @@ tags:
 - light
 - shadow
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Still Life Drawing and Composition
 
 ## Core Idea

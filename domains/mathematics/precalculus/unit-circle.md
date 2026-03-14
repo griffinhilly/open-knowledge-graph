@@ -4,19 +4,27 @@ title: The Unit Circle
 domain: mathematics
 course: precalculus
 prerequisites:
-  - id: trigonometric-ratios-review
-    type: hard
-  - id: radian-measure
-    type: hard
+- id: trigonometric-ratios-review
+  type: hard
+- id: radian-measure
+  type: hard
+- id: special-right-triangles-30-60-90
+  type: soft
+- id: special-right-triangles-45-45-90
+  type: soft
+- id: converting-degrees-and-radians
+  type: soft
 builds-toward:
-  - graphing-sine-and-cosine
-  - trigonometric-identities-pythagorean
-  - inverse-trigonometric-functions
-tags: [trigonometry, unit-circle, coordinates]
+- graphing-sine-and-cosine
+- trigonometric-identities-pythagorean
+- inverse-trigonometric-functions
+tags:
+- trigonometry
+- unit-circle
+- coordinates
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # The Unit Circle
 
 ## Core Idea

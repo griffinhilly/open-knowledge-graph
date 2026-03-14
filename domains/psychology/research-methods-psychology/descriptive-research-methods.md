@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: histograms-and-frequency-distributions
   type: soft
+- id: sampling-in-psychology
+  type: soft
 builds-toward:
 - naturalistic-observation
 - survey-research-methods
@@ -24,9 +26,8 @@ tags:
 - case-study
 - archival
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Descriptive Research Methods
 
 ## Core Idea

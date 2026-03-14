@@ -19,7 +19,7 @@ tags:
 - mechanism
 - metaphysics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Causation and Causal Relations

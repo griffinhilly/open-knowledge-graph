@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: proportional-relationships
   type: soft
+- id: agricultural-geography
+  type: soft
 builds-toward:
 - industrial-location-theory
 - development-geography
@@ -26,9 +28,8 @@ tags:
 - spatial economy
 - clusters
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Economic Geography: Location, Agglomeration, and Uneven Development
 
 ## Core Idea

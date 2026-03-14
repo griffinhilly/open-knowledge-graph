@@ -18,7 +18,7 @@ tags:
 - veil-of-perception
 - brain-in-a-vat
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Problem of the External World

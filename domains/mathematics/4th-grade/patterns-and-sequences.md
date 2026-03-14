@@ -4,18 +4,22 @@ title: Patterns and Sequences
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: multi-digit-addition
-    type: soft
-  - id: multi-digit-multiplication
-    type: soft
+- id: multi-digit-addition
+  type: soft
+- id: multi-digit-multiplication
+  type: soft
+- id: input-output-tables
+  type: soft
 builds-toward:
-  - number-patterns-and-relationships
-  - writing-numerical-expressions
-tags: [algebra-readiness, patterns, sequences]
+- number-patterns-and-relationships
+- writing-numerical-expressions
+tags:
+- algebra-readiness
+- patterns
+- sequences
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Patterns and Sequences
 
 ## Core Idea

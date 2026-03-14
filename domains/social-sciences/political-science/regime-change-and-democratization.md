@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: social-movements
   type: soft
+- id: political-culture-and-participation
+  type: soft
 tags:
 - democratization
 - democratic backsliding
@@ -21,9 +23,8 @@ tags:
 - waves of democracy
 - hybrid regimes
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Regime Change and Democratization
 
 ## Core Idea

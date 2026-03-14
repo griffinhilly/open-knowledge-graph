@@ -11,7 +11,7 @@ builds-toward:
   - pythagorean-theorem
 tags: [square-roots, radicals, inverse-operations]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to Square Roots

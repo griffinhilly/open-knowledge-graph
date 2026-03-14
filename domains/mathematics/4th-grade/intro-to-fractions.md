@@ -4,18 +4,21 @@ title: Introduction to Fractions
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: place-value-whole-numbers
-    type: soft
+- id: place-value-whole-numbers
+  type: soft
+- id: fractions-halves-thirds-fourths
+  type: soft
 builds-toward:
-  - equivalent-fractions
-  - comparing-fractions
-  - fractions-on-number-line
-  - mixed-numbers-and-improper-fractions
-tags: [fractions, number-sense]
+- equivalent-fractions
+- comparing-fractions
+- fractions-on-number-line
+- mixed-numbers-and-improper-fractions
+tags:
+- fractions
+- number-sense
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Introduction to Fractions
 
 ## Core Idea

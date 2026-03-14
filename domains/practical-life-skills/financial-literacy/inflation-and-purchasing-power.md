@@ -19,7 +19,7 @@ tags:
 - real-returns
 - CPI
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Inflation and Purchasing Power

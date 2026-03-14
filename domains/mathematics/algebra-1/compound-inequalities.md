@@ -13,7 +13,7 @@ builds-toward:
   - systems-of-inequalities
 tags: [inequalities, compound, and, or, graphing]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Compound Inequalities

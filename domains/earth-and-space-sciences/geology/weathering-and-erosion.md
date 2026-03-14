@@ -25,7 +25,7 @@ tags:
 - mechanical-weathering
 - hydrolysis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Weathering and Erosion

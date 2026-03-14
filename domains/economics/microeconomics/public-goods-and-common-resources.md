@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: welfare-analysis-microeconomics
   type: soft
+- id: natural-monopoly
+  type: soft
 tags:
 - public goods
 - common resources
@@ -16,9 +18,8 @@ tags:
 - excludability
 - rivalry
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Public Goods and Common Resources
 
 ## Core Idea

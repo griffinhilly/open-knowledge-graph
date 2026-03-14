@@ -6,13 +6,15 @@ course: financial-literacy
 prerequisites:
 - id: compound-interest
   type: hard
-- id: time-value-of-money
+- id: time-value-of-money-personal
   type: hard
 - id: percent-concept
   type: soft
 - id: mean-median-mode
   type: soft
 - id: simple-probability
+  type: soft
+- id: inflation-and-purchasing-power
   type: soft
 builds-toward:
 - stock-market-fundamentals
@@ -25,9 +27,8 @@ tags:
 - diversification
 - asset-classes
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Investment Risk and Return
 
 ## Core Idea

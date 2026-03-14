@@ -15,7 +15,7 @@ tags:
 - complexity
 - foundations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The P vs. NP Problem

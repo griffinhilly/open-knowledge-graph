@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: geometric-series
   type: soft
+- id: interest-rates-and-loanable-funds
+  type: soft
 builds-toward:
 - is-lm-model
 tags:
@@ -19,9 +21,8 @@ tags:
 - crowding-out
 - Keynesian
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Fiscal Multiplier
 
 ## Core Idea

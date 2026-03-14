@@ -14,7 +14,7 @@ tags:
 - state
 - memory
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Variables and Assignment

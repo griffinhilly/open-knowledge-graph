@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fractions-on-number-line
   type: soft
+- id: fractions-sixths-eighths
+  type: soft
 builds-toward:
 - comparing-fractions
 - equivalent-fractions
@@ -17,9 +19,8 @@ tags:
 - ordering
 - unit-fractions
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Comparing Unit Fractions
 
 ## Core Idea

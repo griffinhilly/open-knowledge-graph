@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: group-dynamics
   type: soft
+- id: social-comparison-theory
+  type: soft
 builds-toward:
 - intergroup-contact-hypothesis
 tags:
@@ -16,9 +18,8 @@ tags:
 - out-group
 - Tajfel Turner
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Social Identity Theory
 
 ## Core Idea

@@ -18,7 +18,7 @@ tags:
 - pH
 - medulla
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Respiratory Control Mechanisms

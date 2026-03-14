@@ -19,7 +19,7 @@ tags:
 - surface-tension
 - continuum
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fluid Properties and the Continuum Hypothesis

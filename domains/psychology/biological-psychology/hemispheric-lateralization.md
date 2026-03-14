@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: central-vs-peripheral-nervous-system
   type: soft
+- id: auditory-processing-pathway
+  type: soft
 tags:
 - split-brain
 - lateralization
@@ -16,9 +18,8 @@ tags:
 - Wernicke
 - corpus-callosum
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Hemispheric Lateralization
 
 ## Core Idea

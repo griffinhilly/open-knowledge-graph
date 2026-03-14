@@ -26,7 +26,7 @@ tags:
 - power
 - passive-sign-convention
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Circuit Variables and Ideal Circuit Elements

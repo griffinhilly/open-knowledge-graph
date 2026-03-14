@@ -21,7 +21,7 @@ tags:
 - join
 - formal query language
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Relational Algebra

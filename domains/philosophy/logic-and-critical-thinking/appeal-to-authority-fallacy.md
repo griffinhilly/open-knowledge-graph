@@ -14,7 +14,7 @@ tags:
 - evidence
 - fallacies
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Appeals to Authority and Expertise

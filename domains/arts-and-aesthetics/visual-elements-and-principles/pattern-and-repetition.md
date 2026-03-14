@@ -17,7 +17,7 @@ tags:
 - tessellation
 - decoration
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Pattern and Repetition

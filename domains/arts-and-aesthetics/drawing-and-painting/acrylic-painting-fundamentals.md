@@ -22,7 +22,7 @@ tags:
 - opaque
 - medium
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Acrylic Painting Fundamentals

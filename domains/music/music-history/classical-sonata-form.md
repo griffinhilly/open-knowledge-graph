@@ -21,7 +21,7 @@ tags:
 - recapitulation
 - concerto
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Sonata Form and Classical Instrumental Genres

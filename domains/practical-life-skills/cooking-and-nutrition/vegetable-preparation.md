@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: basic-nutrition-fundamentals
   type: soft
+- id: boiling-and-simmering
+  type: soft
 builds-toward:
 - sauteing-and-pan-cooking
 - roasting-techniques
@@ -20,9 +22,8 @@ tags:
 - cutting
 - blanching
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Vegetable Preparation
 
 ## Core Idea

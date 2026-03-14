@@ -20,7 +20,7 @@ tags:
 - borrowing
 - place-value
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Two-Digit Subtraction with Regrouping

@@ -19,7 +19,7 @@ tags:
 - market-cap
 - valuation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Stock Market Fundamentals

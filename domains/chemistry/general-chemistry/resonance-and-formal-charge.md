@@ -16,7 +16,7 @@ tags:
 - benzene
 - ozone
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Resonance and Formal Charge

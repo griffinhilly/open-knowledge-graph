@@ -18,7 +18,7 @@ tags:
 - subtraction
 - algebraic-thinking
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Addition and Subtraction as Inverse Operations

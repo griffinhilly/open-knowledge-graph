@@ -21,7 +21,7 @@ tags:
 - equations of motion
 - particles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Newton's Second Law Applied to Particle Dynamics

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: greenhouse-effect
   type: hard
+- id: anthropogenic-climate-forcing
+  type: soft
 builds-toward:
 - climate-models-and-projections
 tags:
@@ -20,9 +22,8 @@ tags:
 - cloud-feedback
 - climate-sensitivity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Climate Feedback Mechanisms
 
 ## Core Idea

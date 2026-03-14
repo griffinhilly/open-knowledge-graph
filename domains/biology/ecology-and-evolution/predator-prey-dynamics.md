@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: exponential-functions-and-graphs
   type: soft
+- id: life-history-strategies
+  type: soft
 builds-toward:
 - species-interactions
 - community-ecology-intro
@@ -23,9 +25,8 @@ tags:
 - cycles
 - population-dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Predator-Prey Dynamics and the Lotka-Volterra Model
 
 ## Core Idea

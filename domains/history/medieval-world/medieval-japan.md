@@ -18,7 +18,7 @@ tags:
 - zen
 - feudal-japan
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Feudal Japan and the Samurai Order

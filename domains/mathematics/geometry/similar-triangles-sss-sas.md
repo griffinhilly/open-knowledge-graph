@@ -6,13 +6,13 @@ course: geometry
 prerequisites:
   - id: similar-triangles-aa
     type: hard
-  - id: ratios-and-proportions
+  - id: proportions
     type: hard
 builds-toward:
   - proportions-in-similar-triangles
 tags: [similarity, triangles, SSS, SAS, proportionality]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Similar Triangles: SSS and SAS Similarity

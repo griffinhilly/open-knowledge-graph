@@ -15,7 +15,7 @@ tags:
 - zeroth-law
 - thermometry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Temperature and Thermal Equilibrium

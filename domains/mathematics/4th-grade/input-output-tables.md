@@ -14,7 +14,7 @@ builds-toward:
   - writing-numerical-expressions
 tags: [algebra-readiness, patterns, functions]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Input-Output Tables

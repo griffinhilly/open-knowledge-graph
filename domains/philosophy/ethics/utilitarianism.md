@@ -17,7 +17,7 @@ tags:
 - Mill
 - happiness
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Utilitarianism

@@ -19,7 +19,7 @@ tags:
 - deactivating
 - arenium ion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electrophilic Aromatic Substitution (EAS)

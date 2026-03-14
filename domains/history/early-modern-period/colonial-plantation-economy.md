@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mercantilism
   type: soft
+- id: early-modern-global-trade-networks
+  type: soft
 builds-toward:
 - haitian-revolution
 - american-revolution
@@ -21,9 +23,8 @@ tags:
 - capitalism
 - racial hierarchy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Colonial Plantation Economy
 
 ## Core Idea

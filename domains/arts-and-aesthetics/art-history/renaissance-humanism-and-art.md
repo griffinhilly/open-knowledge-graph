@@ -23,7 +23,7 @@ tags:
 - Quattrocento
 - linear-perspective
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Renaissance Humanism and the Return to Antiquity

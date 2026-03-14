@@ -19,7 +19,7 @@ tags:
 - zero vector
 - span
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Subspaces

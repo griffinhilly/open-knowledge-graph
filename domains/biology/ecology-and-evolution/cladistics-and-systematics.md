@@ -15,7 +15,7 @@ tags:
 - systematics
 - monophyly
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cladistics and Biological Classification

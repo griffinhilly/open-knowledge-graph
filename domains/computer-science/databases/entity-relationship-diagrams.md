@@ -16,7 +16,7 @@ tags:
 - relationships
 - cardinality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Entity-Relationship Diagrams

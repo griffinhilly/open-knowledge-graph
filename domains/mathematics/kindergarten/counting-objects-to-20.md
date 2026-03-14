@@ -17,7 +17,7 @@ tags:
 - cardinality
 - objects
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Counting a Set of Objects Up to 20

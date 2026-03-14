@@ -18,7 +18,7 @@ tags:
 - clay-minerals
 - parent-material
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Soil Formation and Pedogenesis

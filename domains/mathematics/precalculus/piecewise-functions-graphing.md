@@ -13,7 +13,7 @@ builds-toward:
   - one-sided-limits
 tags: [functions, piecewise, graphing]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Piecewise Functions

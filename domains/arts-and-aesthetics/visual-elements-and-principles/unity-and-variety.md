@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: pattern-and-repetition
   type: soft
+- id: atmospheric-perspective
+  type: soft
+- id: texture-in-art
+  type: soft
 tags:
 - unity
 - variety
@@ -18,9 +22,8 @@ tags:
 - composition
 - principles
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Unity and Variety
 
 ## Core Idea

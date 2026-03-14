@@ -13,7 +13,7 @@ builds-toward:
   - limit-laws
 tags: [limits, introduction, calculus-preview]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Limits - Intuitive Introduction

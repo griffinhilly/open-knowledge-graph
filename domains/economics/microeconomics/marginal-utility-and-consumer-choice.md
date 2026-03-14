@@ -18,7 +18,7 @@ tags:
 - MU
 - consumer equilibrium
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Marginal Utility and Diminishing Returns

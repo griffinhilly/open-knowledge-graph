@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: number-recognition-11-20
   type: hard
+- id: number-line-0-to-20
+  type: soft
 builds-toward:
 - subtraction-within-20
 - addition-subtraction-relationship
@@ -22,9 +24,8 @@ tags:
 - number-sense
 - make-a-ten
 stage: pre-formal
-status: draft
+status: validated
 ---
-
 # Addition Within 20
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: kinetic-energy
   type: hard
+- id: relativistic-velocity-addition
+  type: soft
 builds-toward:
 - mass-energy-equivalence
 - pair-production-annihilation
@@ -19,9 +21,8 @@ tags:
 - energy
 - four-vector
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Relativistic Momentum and Energy
 
 ## Core Idea

@@ -14,7 +14,7 @@ builds-toward:
   - exponents-intro
 tags: [integers, multiplication, operations]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Multiplying Integers

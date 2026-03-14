@@ -21,7 +21,7 @@ tags:
 - sensory-development
 - newborn
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Neonatal Reflexes and Sensory Capabilities

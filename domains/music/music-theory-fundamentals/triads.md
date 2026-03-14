@@ -21,7 +21,7 @@ tags:
 - augmented
 - harmony
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Triads: Major, Minor, Diminished, Augmented

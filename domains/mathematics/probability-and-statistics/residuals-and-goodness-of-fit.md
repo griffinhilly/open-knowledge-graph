@@ -13,7 +13,7 @@ tags:
 - residual-plots
 - model-diagnostics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Residuals and Goodness of Fit (R²)

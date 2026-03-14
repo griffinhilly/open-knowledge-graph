@@ -15,7 +15,7 @@ tags:
 - Unix-permissions
 - RBAC
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Access Control: ACLs and Capability Lists

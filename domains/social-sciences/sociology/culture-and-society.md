@@ -15,7 +15,7 @@ tags:
 - symbols
 - material-culture
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Culture and Society

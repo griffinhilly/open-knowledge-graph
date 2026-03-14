@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: simple-repeating-patterns
   type: soft
+- id: counting-to-100
+  type: soft
 builds-toward:
 - telling-time-to-the-hour
 tags:
@@ -17,9 +19,8 @@ tags:
 - fives
 - multiples
 stage: pre-formal
-status: draft
+status: validated
 ---
-
 # Skip Counting by 5s
 
 ## Core Idea

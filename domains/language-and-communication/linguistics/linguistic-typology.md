@@ -10,6 +10,16 @@ prerequisites:
   type: soft
 - id: phonological-systems
   type: soft
+- id: constituency-and-phrases
+  type: soft
+- id: historical-linguistics
+  type: soft
+- id: language-variation-and-change
+  type: soft
+- id: sound-change-and-reconstruction
+  type: soft
+- id: writing-systems
+  type: soft
 builds-toward:
 - language-universals
 tags:
@@ -22,9 +32,8 @@ tags:
 - SOV
 - SVO
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Linguistic Typology
 
 ## Core Idea

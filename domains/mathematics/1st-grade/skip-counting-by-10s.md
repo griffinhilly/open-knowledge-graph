@@ -17,7 +17,7 @@ tags:
 - patterns
 - multiples
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Skip Counting by 10s

@@ -17,7 +17,7 @@ tags:
 - hierarchy
 - golden-ratio
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Proportion and Scale

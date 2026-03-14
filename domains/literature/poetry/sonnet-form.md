@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: rhyme-scheme
   type: hard
+- id: scansion
+  type: soft
 builds-toward:
 - volta-in-poetry
 - poetic-tradition-and-influence
@@ -20,9 +22,8 @@ tags:
 - volta
 - fourteen lines
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Sonnet
 
 ## Core Idea

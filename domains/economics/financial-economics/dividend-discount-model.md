@@ -19,7 +19,7 @@ tags:
 - equity-valuation
 - dividends
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dividend Discount Model (DDM)

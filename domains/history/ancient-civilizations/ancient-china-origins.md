@@ -19,7 +19,7 @@ tags:
 - oracle-bones
 - bronze-age-china
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Early Chinese Civilizations: Shang and Zhou Dynasties

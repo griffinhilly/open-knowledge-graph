@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: internalism-vs-externalism
   type: soft
+- id: contextualism-in-epistemology
+  type: soft
+- id: epistemic-virtues
+  type: soft
 tags:
 - disagreement
 - epistemic-peers
@@ -17,9 +21,8 @@ tags:
 - steadfastness
 - social-epistemology
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Epistemology of Disagreement
 
 ## Core Idea

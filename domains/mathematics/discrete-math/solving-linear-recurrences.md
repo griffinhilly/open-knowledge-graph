@@ -20,7 +20,7 @@ tags:
 - fibonacci
 - golden-ratio
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Solving Linear Recurrences: The Characteristic Equation

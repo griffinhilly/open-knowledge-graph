@@ -12,7 +12,7 @@ builds-toward:
   - geometric-series
 tags: [sequences, series, summation]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sequences and Series Review

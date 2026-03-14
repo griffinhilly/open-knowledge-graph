@@ -21,7 +21,7 @@ tags:
 - gradient-field
 - visualization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vector Fields

@@ -21,7 +21,7 @@ tags:
 - Bergeron-process
 - coalescence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Precipitation Types and Formation Processes

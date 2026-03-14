@@ -15,7 +15,7 @@ builds-toward:
   - fundamental-theorem-of-calculus-part-1
 tags: [integration, antiderivatives, reverse-differentiation]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Antiderivatives

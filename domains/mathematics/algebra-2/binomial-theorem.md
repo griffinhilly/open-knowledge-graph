@@ -4,20 +4,22 @@ title: Binomial Theorem
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: sigma-notation
-    type: soft
-  - id: combinations
-    type: hard
-  - id: polynomial-multiplication
-    type: hard
+- id: sigma-notation
+  type: soft
+- id: combinations
+  type: hard
+- id: multiplying-polynomials
+  type: hard
 builds-toward:
-  - probability-with-combinatorics
-  - calculus-series
-tags: [binomial-theorem, pascal-triangle, combinations, expansion]
+- probability-with-combinatorics
+tags:
+- binomial-theorem
+- pascal-triangle
+- combinations
+- expansion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Binomial Theorem
 
 ## Core Idea

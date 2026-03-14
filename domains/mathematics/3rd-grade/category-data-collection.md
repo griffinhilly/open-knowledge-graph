@@ -19,7 +19,7 @@ tags:
 - graphs
 - frequency
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Collecting and Displaying Categorical Data

@@ -20,7 +20,7 @@ tags:
 - xerxes
 - empire
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Achaemenid Persian Empire

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: youngs-double-slit
   type: soft
+- id: huygens-principle
+  type: soft
 builds-toward:
 - diffraction-gratings
 tags:
@@ -17,9 +19,8 @@ tags:
 - minima
 - central maximum
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Single-Slit Diffraction
 
 ## Core Idea

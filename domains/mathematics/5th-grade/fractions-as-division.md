@@ -4,18 +4,22 @@ title: Fractions as Division
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: intro-to-fractions
-    type: hard
-  - id: intro-to-long-division
-    type: soft
+- id: intro-to-fractions
+  type: hard
+- id: intro-to-long-division
+  type: soft
+- id: multiplication-division-relationship
+  type: soft
 builds-toward:
-  - dividing-fractions
-  - dividing-decimals
-tags: [fractions, division, number-sense]
+- dividing-fractions
+- dividing-decimals
+tags:
+- fractions
+- division
+- number-sense
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Fractions as Division
 
 ## Core Idea

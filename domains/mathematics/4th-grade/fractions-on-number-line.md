@@ -4,17 +4,23 @@ title: Fractions on a Number Line
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: intro-to-fractions
-    type: hard
+- id: intro-to-fractions
+  type: hard
+- id: fractions-halves-thirds-fourths
+  type: soft
+- id: unit-fractions
+  type: soft
 builds-toward:
-  - comparing-fractions
-  - mixed-numbers-and-improper-fractions
-  - coordinate-plane-intro
-tags: [fractions, number-line, number-sense]
+- comparing-fractions
+- mixed-numbers-and-improper-fractions
+- coordinate-plane-intro
+tags:
+- fractions
+- number-line
+- number-sense
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Fractions on a Number Line
 
 ## Core Idea

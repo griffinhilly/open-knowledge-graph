@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: population-regulation
   type: soft
+- id: predator-prey-dynamics
+  type: soft
 builds-toward:
 - species-interactions
 - ecological-succession
@@ -20,9 +22,8 @@ tags:
 - diversity
 - assemblage
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Community Ecology: Structure and Organization
 
 ## Core Idea

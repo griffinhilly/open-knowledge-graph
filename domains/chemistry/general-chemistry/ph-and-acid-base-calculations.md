@@ -22,7 +22,7 @@ tags:
 - titration
 - Kw
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # pH and Acid-Base Calculations

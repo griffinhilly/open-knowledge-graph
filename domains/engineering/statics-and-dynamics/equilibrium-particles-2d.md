@@ -21,7 +21,7 @@ tags:
 - 2D
 - free body diagram
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Equilibrium of Particles in 2D

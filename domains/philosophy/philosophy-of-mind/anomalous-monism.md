@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: identity-theory
   type: soft
+- id: property-dualism
+  type: soft
 tags:
 - anomalous-monism
 - Davidson
@@ -17,9 +19,8 @@ tags:
 - supervenience
 - causation
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Anomalous Monism
 
 ## Core Idea

@@ -16,7 +16,7 @@ tags:
 - charpy
 - mechanical-testing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mechanical Testing Methods

@@ -4,18 +4,21 @@ title: Sigma Notation
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: arithmetic-sequences-and-series
-    type: hard
-  - id: geometric-sequences-and-series
-    type: hard
+- id: arithmetic-sequences-and-series
+  type: hard
+- id: geometric-sequences-and-series
+  type: hard
 builds-toward:
-  - binomial-theorem
-  - calculus-integrals
-tags: [sequences, series, sigma-notation, summation]
+- binomial-theorem
+- riemann-sums
+tags:
+- sequences
+- series
+- sigma-notation
+- summation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Sigma Notation
 
 ## Core Idea

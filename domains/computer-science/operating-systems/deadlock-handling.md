@@ -13,7 +13,7 @@ tags:
 - deadlock-detection
 - recovery
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deadlock Handling Strategies

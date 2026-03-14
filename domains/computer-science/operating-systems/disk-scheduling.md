@@ -6,8 +6,7 @@ course: operating-systems
 prerequisites:
 - id: io-systems-overview
   type: hard
-builds-toward:
-- io-management
+builds-toward: []
 tags:
 - disk-scheduling
 - seek-time
@@ -16,9 +15,8 @@ tags:
 - C-SCAN
 - rotational-latency
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Disk Scheduling Algorithms
 
 ## Core Idea

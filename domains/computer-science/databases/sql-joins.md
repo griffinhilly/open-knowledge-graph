@@ -20,7 +20,7 @@ tags:
 - OUTER JOIN
 - self-join
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # SQL Joins

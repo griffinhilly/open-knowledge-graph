@@ -6,6 +6,8 @@ course: developmental-psychology
 prerequisites:
 - id: developmental-psychology-overview
   type: hard
+- id: critical-periods-sensitive-periods
+  type: soft
 builds-toward:
 - attachment-styles
 - erikson-psychosocial-stages
@@ -17,9 +19,8 @@ tags:
 - proximity seeking
 - secure base
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Attachment Theory
 
 ## Core Idea

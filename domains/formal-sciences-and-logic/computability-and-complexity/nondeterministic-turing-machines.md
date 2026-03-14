@@ -4,20 +4,20 @@ title: Nondeterministic Turing Machines
 domain: formal-sciences-and-logic
 course: computability-and-complexity
 prerequisites:
-- id: turing-machines
+- id: turing-machines-formal
   type: hard
-- id: time-complexity-classes
+- id: time-complexity-classes-formal
   type: soft
 builds-toward:
 - np-and-polynomial-time
-- space-complexity-classes
+- space-complexity-classes-formal
 tags:
 - computation
 - nondeterminism
 - automata
 - complexity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Nondeterministic Turing Machines

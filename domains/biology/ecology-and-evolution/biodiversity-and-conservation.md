@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: life-history-strategies
   type: soft
+- id: ecosystem-services
+  type: soft
 builds-toward:
 - climate-change-ecology
 tags:
@@ -21,9 +23,8 @@ tags:
 - invasive-species
 - endangered-species
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Biodiversity Conservation and Extinction Threats
 
 ## Core Idea

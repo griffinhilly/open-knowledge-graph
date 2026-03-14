@@ -17,7 +17,7 @@ tags:
 - successive transformations
 - order of operations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Composition of Linear Transformations

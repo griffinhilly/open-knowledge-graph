@@ -18,7 +18,7 @@ tags:
 - pattern recognition
 - cytokines
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Innate Immune Response

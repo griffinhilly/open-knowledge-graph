@@ -18,7 +18,7 @@ tags:
 - speed
 - movement
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Gesture Drawing

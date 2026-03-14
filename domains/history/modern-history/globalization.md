@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: industrial-revolution
   type: soft
+- id: civil-rights-movement
+  type: soft
 builds-toward:
 - digital-revolution
 tags:
@@ -19,9 +21,8 @@ tags:
 - multinational corporations
 - neoliberalism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Globalization in the Late Twentieth Century
 
 ## Core Idea

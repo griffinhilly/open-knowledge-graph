@@ -18,7 +18,7 @@ tags:
 - probability-density-function
 - CDF
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Continuous Random Variables and Probability Density Functions

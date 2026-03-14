@@ -10,7 +10,7 @@ builds-toward:
   - solving-rational-equations
 tags: [rational-functions, graphing, asymptotes, intercepts]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Graphing Rational Functions

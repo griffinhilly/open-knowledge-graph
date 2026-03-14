@@ -12,16 +12,14 @@ prerequisites:
   type: soft
 builds-toward:
 - implicit-differentiation
-- gradient-vector
 tags:
 - chain-rule
 - composite-functions
 - tree-diagram
 - total-derivative
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # The Multivariable Chain Rule
 
 ## Core Idea

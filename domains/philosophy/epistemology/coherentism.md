@@ -15,7 +15,7 @@ tags:
 - input-objection
 - web-of-belief
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coherentism

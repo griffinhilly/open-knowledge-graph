@@ -12,7 +12,7 @@ builds-toward:
   - radius-and-interval-of-convergence
 tags: [series, convergence-tests, root-test]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Root Test

@@ -13,7 +13,7 @@ tags:
 - isolated-rotation
 - spin
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conservation of Angular Momentum

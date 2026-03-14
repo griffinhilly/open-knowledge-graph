@@ -15,7 +15,7 @@ tags:
 - forward-paths
 - loop-gains
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Signal Flow Graphs and Mason's Gain Formula

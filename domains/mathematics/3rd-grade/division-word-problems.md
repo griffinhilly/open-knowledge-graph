@@ -16,7 +16,7 @@ tags:
 - division
 - problem-solving
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Division Word Problems

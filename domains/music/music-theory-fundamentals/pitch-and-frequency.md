@@ -17,7 +17,7 @@ tags:
 - acoustics
 - fundamentals
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Pitch and Frequency

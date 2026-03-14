@@ -17,7 +17,7 @@ tags:
 - memory-mapped-io
 - port-mapped-io
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # I/O Systems and Buses

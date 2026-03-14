@@ -21,7 +21,7 @@ tags:
 - cookies
 - leavening
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Baking Basics

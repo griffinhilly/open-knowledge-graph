@@ -23,7 +23,7 @@ tags:
 - anticodon
 - peptide bond
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Translation: RNA to Protein

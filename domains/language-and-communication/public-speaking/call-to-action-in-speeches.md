@@ -16,7 +16,7 @@ tags:
 - conclusion
 - behavior-change
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Call to Action

@@ -21,7 +21,7 @@ tags:
 - absorption
 - fingerprint region
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Infrared (IR) Spectroscopy

@@ -4,18 +4,21 @@ title: Simple Probability
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: ratios
-    type: hard
-  - id: simplifying-fractions
-    type: hard
+- id: ratios
+  type: hard
+- id: multiplying-fractions
+  type: hard
 builds-toward:
-  - compound-probability
-  - statistics-probability
-tags: [probability, fractions, ratios, statistics]
+- compound-probability
+- probability-axioms
+tags:
+- probability
+- fractions
+- ratios
+- statistics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Simple Probability
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: congress-of-vienna
   type: soft
+- id: revolutions-of-1848
+  type: soft
 builds-toward:
 - world-war-i-total-war
 - treaty-of-versailles
@@ -18,11 +20,10 @@ tags:
 - alliances
 - Balkans
 - imperialism
-- '1914'
+- 1914
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Origins of World War I
 
 ## Core Idea

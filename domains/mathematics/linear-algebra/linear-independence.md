@@ -18,7 +18,7 @@ tags:
 - trivial solution
 - redundancy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linear Independence

@@ -15,7 +15,7 @@ tags:
 - orthogonal complement
 - orthogonal set
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orthogonality

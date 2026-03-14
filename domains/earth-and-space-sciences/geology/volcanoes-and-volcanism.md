@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: tectonic-boundaries
   type: soft
-builds-toward:
-- rock-cycle
+builds-toward: []
 tags:
 - volcanoes
 - magma
@@ -21,9 +20,8 @@ tags:
 - stratovolcano
 - pyroclastic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Volcanoes and Volcanism
 
 ## Core Idea

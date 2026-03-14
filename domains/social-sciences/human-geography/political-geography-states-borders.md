@@ -22,7 +22,7 @@ tags:
 - supranationalism
 - centripetal forces
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Political Geography: States, Borders, and Territory

@@ -17,7 +17,7 @@ tags:
 - traceability
 - certified reference material
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quality Assurance and Laboratory Quality Control

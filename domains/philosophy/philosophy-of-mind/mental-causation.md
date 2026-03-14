@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: free-will-and-determinism
   type: soft
+- id: substance-dualism
+  type: soft
 builds-toward:
 - epiphenomenalism
 - anomalous-monism
@@ -19,9 +21,8 @@ tags:
 - Kim
 - overdetermination
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Mental Causation
 
 ## Core Idea

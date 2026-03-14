@@ -20,7 +20,7 @@ tags:
 - legal-history
 - code-of-laws
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ancient Law Codes: Hammurabi and Legal Tradition

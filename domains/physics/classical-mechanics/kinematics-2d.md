@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vectors-in-two-dimensions
   type: hard
+- id: kinematic-equations
+  type: soft
 builds-toward:
 - projectile-motion
 - circular-motion-kinematics
@@ -17,9 +19,8 @@ tags:
 - vectors
 - components
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Kinematics in Two Dimensions
 
 ## Core Idea

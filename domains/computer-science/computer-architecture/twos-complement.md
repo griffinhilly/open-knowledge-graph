@@ -20,7 +20,7 @@ tags:
 - representation
 - negative-numbers
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Two's Complement Representation

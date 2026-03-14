@@ -21,7 +21,7 @@ tags:
 - trade winds
 - westerlies
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Wind-Driven Ocean Circulation and Surface Currents

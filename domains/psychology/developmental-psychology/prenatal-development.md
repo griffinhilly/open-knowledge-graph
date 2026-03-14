@@ -23,7 +23,7 @@ tags:
 - teratogens
 - conception
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Prenatal Development

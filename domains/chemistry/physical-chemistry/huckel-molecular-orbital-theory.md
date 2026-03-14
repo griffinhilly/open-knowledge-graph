@@ -19,7 +19,7 @@ tags:
 - conjugation
 - secular-determinant
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hückel Molecular Orbital Theory

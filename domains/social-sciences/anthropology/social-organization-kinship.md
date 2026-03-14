@@ -20,7 +20,7 @@ tags:
 - residence rules
 - corporate groups
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Kinship as Social Organization

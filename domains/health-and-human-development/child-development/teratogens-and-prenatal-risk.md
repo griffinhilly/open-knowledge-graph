@@ -21,7 +21,7 @@ tags:
 - fetal-alcohol-syndrome
 - environmental-health
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Teratogens and Prenatal Risk Factors

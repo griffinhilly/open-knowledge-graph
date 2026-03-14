@@ -19,7 +19,7 @@ tags:
 - phrase structure rules
 - structural ambiguity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constituency and Phrase Structure

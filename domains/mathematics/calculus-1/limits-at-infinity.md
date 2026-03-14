@@ -13,7 +13,7 @@ builds-toward:
   - improper-integrals-convergence
 tags: [limits, infinity, horizontal-asymptotes, end-behavior]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Limits at Infinity

@@ -4,7 +4,7 @@ title: NP and Polynomial-Time Verification
 domain: formal-sciences-and-logic
 course: computability-and-complexity
 prerequisites:
-- id: time-complexity-classes
+- id: time-complexity-classes-formal
   type: hard
 - id: nondeterministic-turing-machines
   type: hard
@@ -13,9 +13,9 @@ prerequisites:
 - id: algorithm-complexity
   type: soft
 builds-toward:
-- np-completeness
+- np-completeness-formal
 - polynomial-time-reductions
-- cook-levin-theorem
+- cook-levin-theorem-formal
 - probabilistic-computation
 tags:
 - complexity
@@ -23,7 +23,7 @@ tags:
 - verification
 - certificates
 stage: advanced
-status: draft
+status: validated
 ---
 
 # NP and Polynomial-Time Verification

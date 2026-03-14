@@ -6,17 +6,15 @@ course: historical-methods
 prerequisites:
 - id: archival-research
   type: hard
-builds-toward:
-- source-criticism
+builds-toward: []
 tags:
 - paleography
 - manuscripts
 - languages
 - archives
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Paleography and Historical Document Reading
 
 ## Core Idea

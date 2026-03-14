@@ -24,7 +24,7 @@ tags:
 - working-memory
 - neurodevelopmental
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # ADHD and Executive Function Development

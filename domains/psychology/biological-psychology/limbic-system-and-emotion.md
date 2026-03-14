@@ -23,7 +23,7 @@ tags:
 - emotion
 - memory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Limbic System and Emotion

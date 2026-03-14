@@ -18,7 +18,7 @@ tags:
 - indexing
 - immutability
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # String Basics

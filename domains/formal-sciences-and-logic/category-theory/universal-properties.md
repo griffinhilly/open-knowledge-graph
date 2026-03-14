@@ -19,7 +19,7 @@ tags:
 - existence
 - characterization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Universal Properties

@@ -17,7 +17,7 @@ tags:
 - equivalence point
 - Henderson-Hasselbalch
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Acid–Base Titrations and Buffer Systems

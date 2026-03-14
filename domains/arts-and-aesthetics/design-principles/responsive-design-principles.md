@@ -10,9 +10,11 @@ prerequisites:
   type: hard
 - id: typography-fundamentals
   type: soft
-builds-toward:
-- design-systems-and-consistency
-- user-centered-design-thinking
+- id: accessibility-in-design
+  type: soft
+- id: print-vs-digital-design-contexts
+  type: soft
+builds-toward: []
 tags:
 - responsive design
 - breakpoints
@@ -21,9 +23,8 @@ tags:
 - viewport
 - adaptive layout
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Responsive Design Principles
 
 ## Core Idea

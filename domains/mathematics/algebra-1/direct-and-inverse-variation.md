@@ -4,18 +4,23 @@ title: Direct and Inverse Variation
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: proportional-relationships
-    type: hard
-  - id: solving-multi-step-equations
-    type: hard
+- id: proportional-relationships
+  type: hard
+- id: solving-multi-step-equations
+  type: hard
+- id: solving-proportions
+  type: soft
 builds-toward:
-  - rational-functions
-  - algebra-2-variation
-tags: [variation, direct, inverse, proportionality, modeling]
+- graphing-rational-functions
+tags:
+- variation
+- direct
+- inverse
+- proportionality
+- modeling
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Direct and Inverse Variation
 
 ## Core Idea

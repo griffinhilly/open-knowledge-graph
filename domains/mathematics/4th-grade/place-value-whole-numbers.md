@@ -11,7 +11,7 @@ builds-toward:
   - multi-digit-subtraction
 tags: [number-sense, place-value, arithmetic]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Place Value for Whole Numbers

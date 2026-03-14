@@ -19,7 +19,7 @@ tags:
 - NFA
 - regular-expressions
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Kleene's Theorem

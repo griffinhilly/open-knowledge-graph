@@ -11,7 +11,7 @@ builds-toward:
   - antiderivatives
 tags: [derivatives, rules, power-rule]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Power Rule

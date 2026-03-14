@@ -21,7 +21,7 @@ tags:
 - temperature
 - gas-molecules
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kinetic Theory of Gases

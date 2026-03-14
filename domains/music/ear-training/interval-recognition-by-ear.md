@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: ratios
   type: soft
+- id: melodic-contour-recognition
+  type: soft
 builds-toward:
 - interval-singing
 - chord-quality-by-ear
@@ -23,9 +25,8 @@ tags:
 - melodic intervals
 - harmonic intervals
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Interval Recognition by Ear
 
 ## Core Idea

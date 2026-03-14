@@ -20,7 +20,7 @@ tags:
 - old-kingdom
 - new-kingdom
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ancient Egypt: State, Religion, and the Nile

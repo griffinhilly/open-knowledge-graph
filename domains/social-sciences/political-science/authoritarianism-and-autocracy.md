@@ -20,7 +20,7 @@ tags:
 - dictatorship
 - competitive authoritarianism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Authoritarianism and Autocracy

@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: matrix-transpose-properties
   type: soft
+- id: column-space
+  type: soft
+- id: rank-and-nullity-theorem
+  type: soft
 tags:
 - least squares
 - normal equations
@@ -17,9 +21,8 @@ tags:
 - regression
 - best fit
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Least Squares Approximation
 
 ## Core Idea

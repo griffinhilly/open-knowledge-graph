@@ -13,7 +13,7 @@ builds-toward:
   - fundamental-theorem-of-calculus-part-2
 tags: [integration, definite-integral, area]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Definite Integral Definition

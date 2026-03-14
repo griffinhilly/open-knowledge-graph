@@ -1,12 +1,14 @@
 ---
 id: moral-development-kohlberg
-title: Kohlberg's Theory of Moral Development
+title: 'Kohlberg''s Theory of Moral Development'
 domain: psychology
 course: developmental-psychology
 prerequisites:
 - id: piaget-concrete-operational
   type: hard
 - id: theory-of-mind-development
+  type: soft
+- id: piaget-formal-operational
   type: soft
 builds-toward:
 - moral-development-gilligan
@@ -18,9 +20,8 @@ tags:
 - postconventional
 - Heinz dilemma
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Kohlberg's Theory of Moral Development
 
 ## Core Idea

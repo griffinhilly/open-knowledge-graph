@@ -21,7 +21,7 @@ tags:
 - WEIRD
 - random-sampling
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Sampling and Populations in Psychological Research

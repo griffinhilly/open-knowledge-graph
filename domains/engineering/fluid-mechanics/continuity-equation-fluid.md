@@ -21,7 +21,7 @@ tags:
 - control volume
 - incompressible flow
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Continuity Equation (Conservation of Mass)

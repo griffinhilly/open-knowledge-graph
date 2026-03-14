@@ -17,7 +17,7 @@ tags:
 - cents
 - decimal-point
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Dollars and Cents Notation

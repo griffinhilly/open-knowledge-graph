@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: slope-intercept-form
   type: soft
+- id: marginal-utility-and-consumer-choice
+  type: soft
 builds-toward:
 - consumer-optimum
 - income-and-substitution-effects
@@ -19,9 +21,8 @@ tags:
 - affordable set
 - relative prices
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Budget Constraint
 
 ## Core Idea

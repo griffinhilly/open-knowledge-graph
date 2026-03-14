@@ -18,7 +18,7 @@ tags:
 - elasticity
 - density
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Wave Speed and the Medium

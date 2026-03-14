@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: adding-fractions-unlike-denominators
   type: soft
-builds-toward:
-- rhythm-and-syncopation
+builds-toward: []
 tags:
 - meter
 - compound
@@ -19,9 +18,8 @@ tags:
 - triplet
 - rhythm
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Compound Meter
 
 ## Core Idea

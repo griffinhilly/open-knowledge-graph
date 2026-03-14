@@ -22,7 +22,7 @@ tags:
 - CO2
 - ATP
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Krebs Cycle (Citric Acid Cycle)

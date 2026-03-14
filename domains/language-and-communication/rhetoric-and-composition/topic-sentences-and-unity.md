@@ -18,7 +18,7 @@ tags:
 - unity
 - coherence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Topic Sentences and Paragraph Unity

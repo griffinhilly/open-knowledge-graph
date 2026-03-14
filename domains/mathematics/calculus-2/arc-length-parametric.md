@@ -12,7 +12,7 @@ builds-toward:
   - polar-arc-length
 tags: [parametric, arc-length, integration]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Arc Length of Parametric Curves

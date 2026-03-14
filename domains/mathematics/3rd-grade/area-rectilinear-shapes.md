@@ -18,7 +18,7 @@ tags:
 - decompose
 - compound-shapes
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Area of Rectilinear Shapes

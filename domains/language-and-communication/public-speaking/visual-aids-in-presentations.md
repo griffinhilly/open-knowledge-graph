@@ -17,7 +17,7 @@ tags:
 - presentation
 - multimedia
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Visual Aids in Presentations

@@ -21,7 +21,7 @@ tags:
 - CO2
 - NADH
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Pyruvate Oxidation

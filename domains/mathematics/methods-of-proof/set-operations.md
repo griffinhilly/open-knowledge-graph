@@ -17,7 +17,7 @@ tags:
 - set-difference
 - symmetric-difference
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Set Operations

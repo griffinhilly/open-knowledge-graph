@@ -18,7 +18,7 @@ tags:
 - estimation
 - coverage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Confidence Intervals for Means

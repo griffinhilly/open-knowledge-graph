@@ -12,18 +12,19 @@ prerequisites:
   type: soft
 - id: distributive-property-intro
   type: soft
+- id: estimation-in-multiplication
+  type: soft
 builds-toward:
 - multi-digit-multiplication
-- partial-products-multiplication-3rd
+- estimation-in-multiplication
 tags:
 - multiplication
 - two-digit
 - place-value
 - strategies
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Two-Digit by One-Digit Multiplication
 
 ## Core Idea

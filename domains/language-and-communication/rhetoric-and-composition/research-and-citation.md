@@ -19,7 +19,7 @@ tags:
 - plagiarism
 - credibility
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Research, Sources, and Citation

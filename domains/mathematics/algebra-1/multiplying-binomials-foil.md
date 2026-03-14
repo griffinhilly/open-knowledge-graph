@@ -12,7 +12,7 @@ builds-toward:
   - solving-quadratics-by-factoring
 tags: [FOIL, binomials, multiplication, polynomials]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Multiplying Binomials (FOIL)

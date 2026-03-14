@@ -19,7 +19,7 @@ tags:
 - resultant
 - force simplification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Equivalent Force-Couple Systems

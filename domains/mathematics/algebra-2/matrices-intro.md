@@ -4,18 +4,20 @@ title: Matrices Introduction
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: systems-of-three-variables
-    type: soft
-  - id: systems-of-linear-equations
-    type: hard
+- id: systems-of-three-variables
+  type: soft
+- id: systems-elimination
+  type: hard
 builds-toward:
-  - matrix-operations
-  - linear-algebra-course
-tags: [matrices, introduction, dimensions, augmented-matrix]
+- matrix-operations
+tags:
+- matrices
+- introduction
+- dimensions
+- augmented-matrix
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Matrices Introduction
 
 ## Core Idea

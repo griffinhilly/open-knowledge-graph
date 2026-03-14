@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: addition-subtraction-word-problems
   type: soft
-builds-toward:
-- two-step-word-problems
+builds-toward: []
 tags:
 - money
 - word-problems
@@ -17,9 +16,8 @@ tags:
 - addition
 - subtraction
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Money Word Problems
 
 ## Core Idea

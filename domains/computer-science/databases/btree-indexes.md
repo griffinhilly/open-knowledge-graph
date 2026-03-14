@@ -19,7 +19,7 @@ tags:
 - range queries
 - disk I/O
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # B-Tree Indexes

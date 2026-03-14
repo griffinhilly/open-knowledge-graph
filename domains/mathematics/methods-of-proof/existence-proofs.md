@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: proof-by-contradiction
   type: soft
+- id: proof-by-cases
+  type: soft
 builds-toward:
 - uniqueness-proofs
 tags:
@@ -18,9 +20,8 @@ tags:
 - non-constructive-proof
 - existence-and-uniqueness
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Existence Proofs
 
 ## Core Idea

@@ -12,7 +12,7 @@ builds-toward:
   - arc-length-parametric
 tags: [parametric, derivatives, calculus]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Calculus of Parametric Curves

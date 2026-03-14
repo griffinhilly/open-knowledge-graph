@@ -6,14 +6,13 @@ course: modern-history
 prerequisites:
 - id: french-revolution-origins
   type: hard
-- id: social-contract-theory
+- id: social-contract-theory-historical
   type: hard
 - id: enlightenment-origins
   type: soft
 builds-toward:
-- congress-of-vienna
-- revolutions-of-1848
-- world-war-i-origins
+  - revolutions-of-1848
+  - world-war-i-origins
 tags:
 - nationalism
 - nation-state
@@ -21,9 +20,8 @@ tags:
 - self-determination
 - 19th century
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Nationalism and the Rise of Nation-States
 
 ## Core Idea

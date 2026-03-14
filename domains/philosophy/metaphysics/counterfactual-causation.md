@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: modal-logic-intro
   type: soft
+- id: regularity-theory-of-causation
+  type: soft
 tags:
 - counterfactuals
 - David Lewis
@@ -17,9 +19,8 @@ tags:
 - possible worlds
 - dependence
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Counterfactual Theory of Causation
 
 ## Core Idea

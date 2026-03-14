@@ -16,7 +16,7 @@ tags:
 - resistance
 - circuits
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ohm's Law

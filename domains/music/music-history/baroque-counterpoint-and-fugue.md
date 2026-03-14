@@ -20,7 +20,7 @@ tags:
 - Well-Tempered-Clavier
 - polyphony
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Baroque Counterpoint: Bach and the Fugue

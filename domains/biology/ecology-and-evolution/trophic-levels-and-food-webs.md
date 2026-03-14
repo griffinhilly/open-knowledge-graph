@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: photosynthesis-overview
   type: soft
+- id: species-interactions
+  type: soft
 builds-toward:
 - energy-flow-in-ecosystems
 - keystone-species
@@ -20,9 +22,8 @@ tags:
 - consumers
 - decomposers
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Trophic Levels and Food Webs
 
 ## Core Idea

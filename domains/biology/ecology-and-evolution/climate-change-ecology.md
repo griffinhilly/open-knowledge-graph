@@ -19,7 +19,7 @@ tags:
 - coral-bleaching
 - feedback-loops
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Climate Change and Ecological Responses

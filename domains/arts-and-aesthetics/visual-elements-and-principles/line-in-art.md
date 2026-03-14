@@ -13,7 +13,7 @@ tags:
 - elements
 - mark-making
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Line in Art

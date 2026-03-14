@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: dependent-clauses
   type: hard
+- id: subject-verb-agreement
+  type: soft
+- id: verb-tense
+  type: soft
 builds-toward:
 - sentence-combining
 - tense-consistency
@@ -18,9 +22,8 @@ tags:
 - subordination
 - sentence-variety
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Complex and Compound-Complex Sentences
 
 ## Core Idea

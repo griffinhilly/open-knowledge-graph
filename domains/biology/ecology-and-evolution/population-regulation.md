@@ -19,7 +19,7 @@ tags:
 - negative-feedback
 - population-control
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Population Regulation: Density-Dependent and Density-Independent Factors

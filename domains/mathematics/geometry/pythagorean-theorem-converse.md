@@ -10,7 +10,7 @@ builds-toward:
   - coordinate-geometry-proofs
 tags: [pythagorean-theorem, converse, triangle-classification]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Pythagorean Theorem Converse

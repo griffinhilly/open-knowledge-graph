@@ -14,7 +14,7 @@ tags:
 - similarity
 - induction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Analogical Reasoning and Argument by Analogy

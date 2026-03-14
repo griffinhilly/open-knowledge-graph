@@ -18,7 +18,7 @@ tags:
 - vitamin K
 - fat-soluble
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Fat-Soluble Vitamins: A, D, E, and K

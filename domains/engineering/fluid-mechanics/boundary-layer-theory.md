@@ -23,7 +23,7 @@ tags:
 - momentum thickness
 - skin friction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Boundary Layer Theory

@@ -4,19 +4,23 @@ title: Polar Coordinates
 domain: mathematics
 course: precalculus
 prerequisites:
-  - id: trigonometric-ratios-review
-    type: hard
-  - id: unit-circle
-    type: soft
+- id: trigonometric-ratios-review
+  type: hard
+- id: unit-circle
+  type: soft
+- id: law-of-sines
+  type: soft
 builds-toward:
-  - polar-graphs
-  - polar-area
-  - polar-arc-length
-tags: [polar, coordinates, coordinate-systems]
+- polar-graphs
+- polar-area
+- polar-arc-length
+tags:
+- polar
+- coordinates
+- coordinate-systems
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Polar Coordinates
 
 ## Core Idea

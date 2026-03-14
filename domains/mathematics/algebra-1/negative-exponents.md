@@ -4,16 +4,22 @@ title: Negative Exponents
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: exponent-rules-product-power-quotient
-    type: hard
+- id: exponent-rules-product-power-quotient
+  type: hard
+- id: zero-exponent
+  type: soft
+- id: scientific-notation-intro
+  type: soft
 builds-toward:
-  - scientific-notation-operations
-  - rational-expressions-intro
-tags: [exponents, negative-exponents, reciprocals]
+- scientific-notation-operations
+- rational-expressions-intro
+tags:
+- exponents
+- negative-exponents
+- reciprocals
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Negative Exponents
 
 ## Core Idea

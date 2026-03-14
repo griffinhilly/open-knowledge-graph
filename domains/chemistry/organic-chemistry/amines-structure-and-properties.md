@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: electrophilic-aromatic-substitution
   type: soft
+- id: carboxylic-acids-and-derivatives
+  type: soft
+- id: nucleophilic-acyl-substitution
+  type: soft
 tags:
 - amines
 - basicity
@@ -21,9 +25,8 @@ tags:
 - arylamines
 - pKa
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Amines: Structure, Basicity, and Reactions
 
 ## Core Idea

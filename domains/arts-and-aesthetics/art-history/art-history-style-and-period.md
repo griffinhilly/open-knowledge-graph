@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: modern-art-movements
   type: soft
+- id: non-western-art-traditions
+  type: soft
 builds-toward:
 - contemporary-art-and-postmodernism
 tags:
@@ -19,9 +21,8 @@ tags:
 - Wölfflin
 - formalism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Style, Period, and the Problem of Art Historical Categorization
 
 ## Core Idea

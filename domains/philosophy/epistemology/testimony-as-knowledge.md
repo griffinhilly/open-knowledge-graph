@@ -20,7 +20,7 @@ tags:
 - anti-reductionism
 - social-epistemology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Testimony and Testimonial Knowledge

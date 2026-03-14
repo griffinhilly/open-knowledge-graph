@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: chord-inversions
   type: soft
+- id: rhythm-and-syncopation
+  type: soft
 builds-toward:
 - cadences
 - song-form
@@ -21,9 +23,8 @@ tags:
 - harmony
 - composition
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Common Chord Progressions
 
 ## Core Idea

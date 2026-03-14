@@ -6,15 +6,16 @@ course: metaphysics
 prerequisites:
 - id: universals-and-particulars
   type: hard
+- id: bundle-theory
+  type: soft
 tags:
 - tropes
 - abstract particulars
 - properties
 - nominalism
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Trope Theory
 
 ## Core Idea

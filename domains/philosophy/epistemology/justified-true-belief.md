@@ -23,7 +23,7 @@ tags:
 - belief
 - classical-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Justified True Belief Account of Knowledge

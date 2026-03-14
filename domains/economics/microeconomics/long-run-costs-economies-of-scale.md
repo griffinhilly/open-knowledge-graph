@@ -18,7 +18,7 @@ tags:
 - economies of scale
 - minimum efficient scale
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Long-Run Costs and Economies of Scale

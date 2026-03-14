@@ -10,15 +10,16 @@ prerequisites:
   type: soft
 - id: social-facilitation
   type: soft
+- id: obedience-to-authority
+  type: soft
 tags:
 - deindividuation
 - anonymity
 - crowd behavior
 - self-awareness
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Deindividuation
 
 ## Core Idea

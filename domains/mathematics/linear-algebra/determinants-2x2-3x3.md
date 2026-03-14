@@ -18,7 +18,7 @@ tags:
 - area
 - volume
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Computing Determinants (2×2 and 3×3)

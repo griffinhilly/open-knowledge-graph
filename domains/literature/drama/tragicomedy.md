@@ -18,7 +18,7 @@ tags:
 - Chekhov
 - Beckett
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Tragicomedy

@@ -18,7 +18,7 @@ tags:
 - kernel-threads
 - multithreading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Threads and Concurrency

@@ -17,7 +17,7 @@ tags:
 - credit-report
 - credit-utilization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Credit Scores and Credit Reports

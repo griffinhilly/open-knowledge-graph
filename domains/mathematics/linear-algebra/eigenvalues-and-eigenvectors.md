@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: null-space
   type: soft
+- id: transformation-matrices
+  type: soft
 builds-toward:
 - characteristic-polynomial
 - diagonalization
@@ -21,9 +23,8 @@ tags:
 - Av = lambda v
 - characteristic
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Eigenvalues and Eigenvectors
 
 ## Core Idea

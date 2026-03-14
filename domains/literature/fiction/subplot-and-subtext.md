@@ -17,7 +17,7 @@ tags:
 - implication
 - parallel-plotting
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Subplots and Subtext in Fiction

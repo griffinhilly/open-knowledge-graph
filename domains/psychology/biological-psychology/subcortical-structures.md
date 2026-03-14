@@ -21,7 +21,7 @@ tags:
 - cerebellum
 - reticular-formation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Subcortical Structures: Thalamus, Basal Ganglia, and Brainstem

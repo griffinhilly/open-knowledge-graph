@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: enlightenment-origins
   type: hard
-- id: social-contract-theory
+- id: social-contract-theory-historical
   type: soft
 - id: american-revolution
   type: soft
@@ -23,7 +23,7 @@ tags:
 - popular sovereignty
 - nationalism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The French Revolution

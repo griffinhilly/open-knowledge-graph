@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: verbs-intro
   type: hard
+- id: adjectives-and-adverbs
+  type: soft
+- id: noun-phrases
+  type: soft
 builds-toward:
 - subject-verb-agreement
 - sentence-types
@@ -19,9 +23,8 @@ tags:
 - predicate
 - foundations
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Basic Sentence Structure: Subject and Predicate
 
 ## Core Idea

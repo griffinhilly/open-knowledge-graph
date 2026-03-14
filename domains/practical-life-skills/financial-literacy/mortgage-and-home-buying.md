@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: exponential-growth-and-decay
   type: soft
+- id: debt-management-strategies
+  type: soft
 tags:
 - mortgage
 - amortization
@@ -23,9 +25,8 @@ tags:
 - home-equity
 - interest-rate
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Mortgages and Home Buying
 
 ## Core Idea

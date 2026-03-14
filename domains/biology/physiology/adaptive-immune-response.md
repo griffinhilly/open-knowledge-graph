@@ -6,6 +6,8 @@ course: physiology
 prerequisites:
 - id: innate-immune-response
   type: hard
+- id: positive-feedback-mechanisms
+  type: soft
 tags:
 - adaptive immunity
 - T cells
@@ -14,9 +16,8 @@ tags:
 - MHC
 - immunological memory
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Adaptive Immune Response
 
 ## Core Idea

@@ -16,7 +16,7 @@ tags:
 - sequence
 - revision
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Tense Consistency and Sequence of Tenses

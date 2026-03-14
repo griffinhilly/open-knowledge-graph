@@ -22,7 +22,7 @@ tags:
 - frequency
 - alternating-current
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # AC Circuits: Fundamentals

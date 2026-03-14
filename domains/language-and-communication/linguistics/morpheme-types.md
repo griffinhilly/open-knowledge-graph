@@ -18,7 +18,7 @@ tags:
 - morphology
 - word formation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Morpheme Types: Inflection and Derivation

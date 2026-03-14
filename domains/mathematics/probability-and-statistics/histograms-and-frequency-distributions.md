@@ -20,7 +20,7 @@ tags:
 - bins
 - skewness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Histograms and Frequency Distributions

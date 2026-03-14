@@ -10,15 +10,16 @@ prerequisites:
   type: soft
 - id: solving-linear-recurrences
   type: soft
+- id: multinomial-coefficients
+  type: soft
 tags:
 - generating-functions
 - power-series
 - combinatorics
 - formal-power-series
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Introduction to Generating Functions
 
 ## Core Idea

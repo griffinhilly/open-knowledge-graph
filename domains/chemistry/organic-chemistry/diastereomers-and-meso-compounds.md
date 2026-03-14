@@ -18,7 +18,7 @@ tags:
 - cis-trans
 - internal symmetry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diastereomers and Meso Compounds

@@ -24,7 +24,7 @@ tags:
 - biogenic
 - strata
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Sedimentary Rocks

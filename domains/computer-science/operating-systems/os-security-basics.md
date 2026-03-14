@@ -17,7 +17,7 @@ tags:
 - privilege-escalation
 - OS-security
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # OS Security Fundamentals

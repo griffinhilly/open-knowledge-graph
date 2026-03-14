@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: inflammation-and-wound-healing
   type: soft
+- id: measures-of-association
+  type: soft
 builds-toward:
 - health-promotion-models
 - screening-and-early-detection
@@ -20,9 +22,8 @@ tags:
 - tertiary-prevention
 - public-health
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Levels of Disease Prevention
 
 ## Core Idea

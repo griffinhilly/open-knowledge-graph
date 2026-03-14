@@ -21,7 +21,7 @@ tags:
 - chaconne
 - repetition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ostinato and Ground Bass

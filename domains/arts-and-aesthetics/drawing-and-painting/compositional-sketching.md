@@ -20,7 +20,7 @@ tags:
 - thumbnail
 - layout
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Compositional Sketching (Thumbnails)

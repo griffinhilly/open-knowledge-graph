@@ -14,7 +14,7 @@ tags:
 - action-reaction
 - force-pairs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Newton's Third Law: Action-Reaction Pairs

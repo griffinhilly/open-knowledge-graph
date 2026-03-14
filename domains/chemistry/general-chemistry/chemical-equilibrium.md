@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: thermochemistry-enthalpy
   type: soft
+- id: logarithms-intro
+  type: soft
+- id: entropy-and-gibbs-free-energy
+  type: soft
 builds-toward:
 - acid-base-chemistry
 - ph-and-acid-base-calculations
@@ -20,9 +24,8 @@ tags:
 - ICE-table
 - reaction-quotient
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Chemical Equilibrium
 
 ## Core Idea

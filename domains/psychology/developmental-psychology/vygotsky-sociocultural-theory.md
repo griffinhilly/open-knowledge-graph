@@ -1,6 +1,6 @@
 ---
 id: vygotsky-sociocultural-theory
-title: Vygotsky's Sociocultural Theory
+title: 'Vygotsky''s Sociocultural Theory'
 domain: psychology
 course: developmental-psychology
 prerequisites:
@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: developmental-psychology-overview
   type: hard
+- id: language-acquisition-development
+  type: soft
 builds-toward:
 - parenting-styles-and-outcomes
 tags:
@@ -18,9 +20,8 @@ tags:
 - private speech
 - sociocultural
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Vygotsky's Sociocultural Theory
 
 ## Core Idea

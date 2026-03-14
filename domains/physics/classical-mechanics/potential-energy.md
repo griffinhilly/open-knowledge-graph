@@ -15,7 +15,7 @@ tags:
 - elastic-PE
 - Hooke-law
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Potential Energy: Gravitational and Elastic

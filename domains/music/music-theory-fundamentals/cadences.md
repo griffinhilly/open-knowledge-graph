@@ -19,7 +19,7 @@ tags:
 - phrase
 - resolution
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Cadences

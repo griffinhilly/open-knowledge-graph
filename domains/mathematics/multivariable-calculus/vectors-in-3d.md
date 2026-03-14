@@ -22,7 +22,7 @@ tags:
 - dot-product
 - geometry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vectors in Three-Dimensional Space

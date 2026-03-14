@@ -20,7 +20,7 @@ tags:
 - thirteenth
 - jazz
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Extended Chords: Ninths, Elevenths, and Thirteenths

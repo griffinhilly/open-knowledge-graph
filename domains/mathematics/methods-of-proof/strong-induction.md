@@ -15,7 +15,7 @@ tags:
 - Fibonacci
 - prime-factorization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Strong Induction

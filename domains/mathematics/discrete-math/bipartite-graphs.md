@@ -15,7 +15,7 @@ tags:
 - two-colorable
 - hall-theorem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bipartite Graphs and Matchings

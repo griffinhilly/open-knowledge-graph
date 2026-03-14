@@ -19,7 +19,7 @@ tags:
 - semi-conservative
 - Okazaki fragments
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # DNA Replication

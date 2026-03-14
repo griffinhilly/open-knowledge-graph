@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: sediment-transport-and-deposition
   type: soft
+- id: soil-formation
+  type: soft
 tags:
 - groundwater
 - aquifer
@@ -18,9 +20,8 @@ tags:
 - water-table
 - Darcy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Hydrogeology and Groundwater
 
 ## Core Idea

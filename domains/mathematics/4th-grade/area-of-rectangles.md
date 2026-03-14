@@ -4,18 +4,25 @@ title: Area of Rectangles
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: multi-digit-multiplication
-    type: hard
-  - id: perimeter
-    type: soft
+- id: multi-digit-multiplication
+  type: hard
+- id: perimeter
+  type: soft
+- id: arrays
+  type: soft
+- id: area-by-counting-squares
+  type: soft
 builds-toward:
-  - volume-of-rectangular-prisms
-  - measurement-conversions-customary
-tags: [measurement, geometry, area, multiplication]
+- volume-of-rectangular-prisms
+- measurement-conversions-customary
+tags:
+- measurement
+- geometry
+- area
+- multiplication
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Area of Rectangles
 
 ## Core Idea

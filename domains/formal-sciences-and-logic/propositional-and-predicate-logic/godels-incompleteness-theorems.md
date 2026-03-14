@@ -25,7 +25,7 @@ tags:
 - self-reference
 - Peano-arithmetic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gödel's Incompleteness Theorems

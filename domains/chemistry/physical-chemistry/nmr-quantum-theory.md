@@ -18,7 +18,7 @@ tags:
 - spin-spin-coupling
 - Larmor-frequency
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantum Theory of NMR Spectroscopy

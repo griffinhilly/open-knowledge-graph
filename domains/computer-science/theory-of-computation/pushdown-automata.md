@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: nondeterministic-finite-automata
   type: soft
+- id: context-free-grammars
+  type: soft
 builds-toward:
 - cfg-pda-equivalence
 - turing-machines
@@ -20,9 +22,8 @@ tags:
 - context-free
 - nondeterminism
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Pushdown Automata (PDA)
 
 ## Core Idea

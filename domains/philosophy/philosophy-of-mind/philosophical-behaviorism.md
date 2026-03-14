@@ -17,7 +17,7 @@ tags:
 - dispositions
 - logical-behaviorism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Philosophical Behaviorism

@@ -22,7 +22,7 @@ tags:
 - reaction-cross-section
 - activation-energy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Collision Theory of Reaction Rates

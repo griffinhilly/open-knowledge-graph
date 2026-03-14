@@ -18,7 +18,7 @@ tags:
 - magnetism
 - dipole
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Magnetic Fields

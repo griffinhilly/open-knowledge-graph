@@ -17,7 +17,7 @@ tags:
 - moral-panic
 - emergent-norms
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Collective Behavior and Crowds

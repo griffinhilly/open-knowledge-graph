@@ -17,7 +17,7 @@ tags:
 - character-tables
 - reducible-representations
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Group Theory and Vibrational Mode Classification

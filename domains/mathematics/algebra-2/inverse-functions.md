@@ -4,18 +4,23 @@ title: Inverse Functions
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: function-notation
-    type: hard
-  - id: solving-linear-equations
-    type: hard
+- id: function-notation-review
+  type: hard
+- id: equations-variables-both-sides
+  type: hard
+- id: composition-of-functions
+  type: soft
 builds-toward:
-  - logarithms-intro
-  - radical-functions-and-graphs
-tags: [functions, inverse, one-to-one, horizontal-line-test]
+- logarithms-intro
+- radical-functions-and-graphs
+tags:
+- functions
+- inverse
+- one-to-one
+- horizontal-line-test
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Inverse Functions
 
 ## Core Idea

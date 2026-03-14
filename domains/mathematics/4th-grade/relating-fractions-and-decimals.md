@@ -13,7 +13,7 @@ builds-toward:
   - comparing-decimals
 tags: [fractions, decimals, equivalence, number-sense]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Relating Fractions and Decimals

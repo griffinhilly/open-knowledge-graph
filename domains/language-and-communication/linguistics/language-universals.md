@@ -16,7 +16,7 @@ tags:
 - parameters
 - Greenberg
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Language Universals and Universal Grammar

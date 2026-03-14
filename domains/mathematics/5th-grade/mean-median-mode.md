@@ -4,18 +4,30 @@ title: Mean, Median, and Mode
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: multi-digit-addition
-    type: hard
-  - id: intro-to-long-division
-    type: hard
-  - id: comparing-ordering-whole-numbers
-    type: soft
+- id: multi-digit-addition
+  type: hard
+- id: intro-to-long-division
+  type: hard
+- id: comparing-ordering-whole-numbers
+  type: soft
+- id: line-plot-measurements
+  type: soft
+- id: bar-graphs-3rd
+  type: soft
+- id: line-plots-3rd
+  type: soft
+- id: line-plots
+  type: soft
+- id: interpreting-data-tables
+  type: soft
 builds-toward: []
-tags: [data, statistics, central-tendency]
+tags:
+- data
+- statistics
+- central-tendency
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Mean, Median, and Mode
 
 ## Core Idea

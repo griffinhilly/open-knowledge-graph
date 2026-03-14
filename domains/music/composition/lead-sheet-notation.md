@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: melodic-phrase-structure
   type: soft
+- id: melodic-harmonization
+  type: soft
+- id: text-setting-principles
+  type: soft
 builds-toward:
 - improvisation-frameworks
 tags:
@@ -19,9 +23,8 @@ tags:
 - jazz
 - popular-music
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Lead Sheet Notation
 
 ## Core Idea

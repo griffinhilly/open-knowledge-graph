@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: water-cycle-and-atmospheric-moisture
   type: soft
+- id: climate-zones-and-biomes
+  type: soft
 builds-toward:
 - climate-change-science
 - paleoclimatology
@@ -23,9 +25,8 @@ tags:
 - SST
 - upwelling
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Ocean–Atmosphere Interactions
 
 ## Core Idea

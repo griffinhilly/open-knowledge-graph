@@ -20,7 +20,7 @@ tags:
 - resonance
 - damping
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # LC and RLC Circuits

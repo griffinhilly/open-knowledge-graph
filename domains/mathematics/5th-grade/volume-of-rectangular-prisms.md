@@ -12,7 +12,7 @@ builds-toward:
   - volume-with-unit-cubes
 tags: [measurement, geometry, volume, 3d-shapes]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Volume of Rectangular Prisms

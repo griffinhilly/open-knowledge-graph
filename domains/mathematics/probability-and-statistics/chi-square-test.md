@@ -17,7 +17,7 @@ tags:
 - contingency-table
 - categorical
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chi-Square Tests

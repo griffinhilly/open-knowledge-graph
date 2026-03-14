@@ -12,7 +12,7 @@ tags:
 - presumption
 - fallacies
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # False Dichotomy (False Dilemma)

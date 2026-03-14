@@ -23,7 +23,7 @@ tags:
 - church
 - sola fide
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Protestant Reformation

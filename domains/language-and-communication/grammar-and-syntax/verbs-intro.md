@@ -13,7 +13,7 @@ tags:
 - verbs
 - foundations
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Verbs: Actions and States of Being

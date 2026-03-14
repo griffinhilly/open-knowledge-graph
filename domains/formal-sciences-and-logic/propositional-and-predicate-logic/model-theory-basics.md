@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: equivalence-relations
   type: soft
+- id: fol-compactness
+  type: soft
+- id: propositional-compactness
+  type: soft
 builds-toward:
 - lowenheim-skolem-theorem
 tags:
@@ -21,9 +25,8 @@ tags:
 - categorical
 - complete-theory
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Basic Model Theory
 
 ## Core Idea

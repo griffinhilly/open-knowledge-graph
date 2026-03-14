@@ -15,7 +15,7 @@ tags:
 - heat-capacity
 - thermal-mass
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Specific Heat Capacity

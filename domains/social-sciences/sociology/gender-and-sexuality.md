@@ -22,7 +22,7 @@ tags:
 - patriarchy
 - gender-roles
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Gender, Sex, and Sexuality

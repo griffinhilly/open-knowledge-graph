@@ -10,9 +10,11 @@ prerequisites:
   type: soft
 - id: infant-motor-development
   type: soft
+- id: play-types-and-developmental-functions
+  type: soft
 builds-toward:
-- parenting-styles-and-outcomes
-- erikson-psychosocial-stages
+- parenting-styles-and-outcomes-child-dev
+- erikson-psychosocial-stages-child-dev
 - preschool-social-cognitive-development
 tags:
 - toddler
@@ -22,9 +24,8 @@ tags:
 - autonomy
 - tantrums
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Social-Emotional Development in Toddlerhood
 
 ## Core Idea

@@ -17,7 +17,7 @@ tags:
 - local-ATE
 - bandwidth
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Regression Discontinuity Design

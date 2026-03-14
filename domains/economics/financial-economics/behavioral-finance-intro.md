@@ -19,7 +19,7 @@ tags:
 - cognitive-bias
 - heuristics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Behavioral Finance: Biases and Bounded Rationality

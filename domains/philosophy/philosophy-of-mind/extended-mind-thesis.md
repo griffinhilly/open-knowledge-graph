@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: personal-identity
   type: soft
+- id: representationalism
+  type: soft
+- id: turing-test-and-machine-minds
+  type: soft
 tags:
 - extended-mind
 - Clark
@@ -17,9 +21,8 @@ tags:
 - embodied-cognition
 - cognitive-coupling
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # The Extended Mind Thesis
 
 ## Core Idea

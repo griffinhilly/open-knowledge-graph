@@ -19,7 +19,7 @@ tags:
 - three-digit
 - base-ten
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Place Value: Hundreds

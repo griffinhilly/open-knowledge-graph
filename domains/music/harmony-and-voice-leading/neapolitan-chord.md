@@ -21,7 +21,7 @@ tags:
 - bII
 - pre-dominant
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Neapolitan Chord

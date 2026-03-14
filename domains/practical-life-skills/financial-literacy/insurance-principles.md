@@ -19,7 +19,7 @@ tags:
 - premium
 - coverage
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Insurance Principles and Types

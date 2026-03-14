@@ -25,7 +25,7 @@ tags:
 - supernova
 - mass-dependent-evolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stellar Evolution: From Main Sequence to Stellar Death

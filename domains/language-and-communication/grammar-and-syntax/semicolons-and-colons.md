@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: compound-sentences
   type: soft
+- id: run-on-sentences-and-fragments
+  type: soft
 builds-toward:
 - paragraph-structure
 tags:
@@ -16,9 +18,8 @@ tags:
 - colons
 - sentence-structure
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Semicolons, Colons, and Internal Punctuation
 
 ## Core Idea

@@ -19,7 +19,7 @@ tags:
 - lifespan
 - introduction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Developmental Psychology Overview

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electromagnetic-waves
   type: soft
+- id: heat-transfer-conduction
+  type: soft
 builds-toward:
 - carnot-efficiency
 tags:
@@ -17,9 +19,8 @@ tags:
 - blackbody
 - emissivity
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Heat Transfer: Radiation
 
 ## Core Idea

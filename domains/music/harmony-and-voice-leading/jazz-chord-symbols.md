@@ -18,7 +18,7 @@ tags:
 - lead-sheet
 - notation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Jazz Chord Symbols

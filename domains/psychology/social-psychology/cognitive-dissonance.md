@@ -13,7 +13,7 @@ tags:
 - Festinger
 - attitude-behavior consistency
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cognitive Dissonance

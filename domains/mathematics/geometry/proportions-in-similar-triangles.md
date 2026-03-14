@@ -8,14 +8,14 @@ prerequisites:
     type: hard
   - id: similar-triangles-sss-sas
     type: soft
-  - id: ratios-and-proportions
+  - id: proportions
     type: hard
 builds-toward:
   - right-triangle-trigonometry-intro
   - coordinate-geometry-proofs
 tags: [similarity, proportions, scale-factor, applications]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Proportions in Similar Triangles

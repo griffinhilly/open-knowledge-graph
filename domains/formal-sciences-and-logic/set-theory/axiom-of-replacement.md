@@ -20,7 +20,7 @@ tags:
 - class function
 - schema
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Axiom Schema of Replacement

@@ -17,7 +17,7 @@ tags:
 - mass
 - iterated-integral
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Triple Integrals in Cartesian Coordinates

@@ -20,7 +20,7 @@ tags:
 - pattern
 - motif
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Imagery in Literature

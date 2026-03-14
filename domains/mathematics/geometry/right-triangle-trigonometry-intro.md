@@ -4,17 +4,22 @@ title: Right Triangle Trigonometry Introduction
 domain: mathematics
 course: geometry
 prerequisites:
-  - id: similar-triangles-aa
-    type: hard
-  - id: pythagorean-theorem
-    type: hard
+- id: similar-triangles-aa
+  type: hard
+- id: pythagorean-theorem
+  type: hard
+- id: proportions-in-similar-triangles
+  type: soft
 builds-toward:
-  - sine-cosine-tangent-ratios
-tags: [trigonometry, right-triangles, ratios, introduction]
+- sine-cosine-tangent-ratios
+tags:
+- trigonometry
+- right-triangles
+- ratios
+- introduction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Right Triangle Trigonometry Introduction
 
 ## Core Idea

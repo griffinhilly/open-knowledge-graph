@@ -15,7 +15,7 @@ tags:
 - number-theory
 - cryptography
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Chinese Remainder Theorem

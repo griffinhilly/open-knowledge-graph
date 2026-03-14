@@ -17,7 +17,7 @@ tags:
 - facilitated-diffusion
 - transport
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Passive Transport

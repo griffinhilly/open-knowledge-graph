@@ -18,7 +18,7 @@ tags:
 - clarity
 - participial-phrases
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Misplaced and Dangling Modifiers

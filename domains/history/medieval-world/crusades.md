@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: byzantine-empire
   type: soft
+- id: great-schism-1054
+  type: soft
+- id: islamic-golden-age
+  type: soft
 builds-toward:
 - medieval-trade-revival
 - mongol-empire
@@ -22,9 +26,8 @@ tags:
 - latin-states
 - contact-zones
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Crusades
 
 ## Core Idea

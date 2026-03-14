@@ -16,7 +16,7 @@ tags:
 - attitude change
 - influence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Persuasion and Attitude Change

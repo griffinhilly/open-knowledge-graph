@@ -18,7 +18,7 @@ tags:
 - namespace
 - encapsulation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Variable Scope

@@ -20,7 +20,7 @@ tags:
 - torque
 - rotation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Moment of a Force in 2D

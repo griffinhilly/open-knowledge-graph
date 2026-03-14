@@ -4,9 +4,9 @@ title: The Complexity Class Hierarchy
 domain: formal-sciences-and-logic
 course: computability-and-complexity
 prerequisites:
-- id: np-completeness
+- id: np-completeness-formal
   type: hard
-- id: space-complexity-classes
+- id: space-complexity-classes-formal
   type: hard
 - id: cantor-diagonalization
   type: soft
@@ -21,7 +21,7 @@ tags:
 - complexity-classes
 - diagonalization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Complexity Class Hierarchy

@@ -18,7 +18,7 @@ tags:
 - appeal
 - values
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Pathos and Emotional Appeal

@@ -11,7 +11,7 @@ prerequisites:
 - id: propositional-syntax
   type: soft
 builds-toward:
-- church-turing-thesis
+- church-turing-thesis-formal
 - general-recursive-functions
 tags:
 - computation
@@ -19,7 +19,7 @@ tags:
 - models-of-computation
 - rewriting-systems
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Lambda Calculus

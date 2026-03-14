@@ -18,7 +18,7 @@ tags:
 - adjunction
 - monad
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Adjunction Unit and Counit

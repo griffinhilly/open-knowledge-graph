@@ -13,7 +13,7 @@ builds-toward:
   - riemann-sums
 tags: [integration, rules, power-rule-integration]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Basic Integration Rules

@@ -23,7 +23,7 @@ tags:
 - wind
 - geostrophic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Coriolis Effect

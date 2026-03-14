@@ -18,7 +18,7 @@ tags:
 - resistivity
 - drift-velocity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electric Current and Resistance

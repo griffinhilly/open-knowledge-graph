@@ -16,7 +16,7 @@ tags:
 - authority
 - voice
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ethos and Building Credibility

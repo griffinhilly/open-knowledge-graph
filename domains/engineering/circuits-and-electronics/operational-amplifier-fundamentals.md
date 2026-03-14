@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: bjt-amplifier-configurations
   type: soft
+- id: mosfet-transistor-fundamentals
+  type: soft
 builds-toward:
 - op-amp-circuit-applications
 tags:
@@ -21,9 +23,8 @@ tags:
 - inverting-amplifier
 - non-inverting-amplifier
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Operational Amplifier Fundamentals
 
 ## Core Idea

@@ -11,7 +11,7 @@ builds-toward:
   - derivative-as-slope-of-tangent
 tags: [rates, secant-lines, calculus-preview]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Average Rate of Change and Secant Lines

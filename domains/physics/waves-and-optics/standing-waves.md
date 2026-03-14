@@ -17,7 +17,7 @@ tags:
 - harmonics
 - modes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Standing Waves

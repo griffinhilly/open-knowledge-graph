@@ -24,7 +24,7 @@ tags:
 - mafic
 - felsic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Rock-Forming Minerals

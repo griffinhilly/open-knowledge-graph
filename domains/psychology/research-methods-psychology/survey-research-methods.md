@@ -24,7 +24,7 @@ tags:
 - questionnaire
 - self-report
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Survey and Questionnaire Design

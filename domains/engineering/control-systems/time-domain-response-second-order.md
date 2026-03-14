@@ -21,7 +21,7 @@ tags:
 - settling-time
 - second-order
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Second-Order System Time Response

@@ -22,7 +22,7 @@ tags:
 - concrete-operations
 - formal-operations
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Piaget's Stages of Cognitive Development

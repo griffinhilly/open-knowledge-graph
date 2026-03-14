@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: recursion-basics
   type: soft
+- id: cfg-pda-equivalence
+  type: soft
+- id: pumping-lemma-cfl
+  type: soft
 builds-toward:
 - turing-machine-variants
 - church-turing-thesis
@@ -20,9 +24,8 @@ tags:
 - tape
 - decidability
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Turing Machines
 
 ## Core Idea

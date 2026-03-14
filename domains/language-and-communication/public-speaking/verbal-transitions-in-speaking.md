@@ -17,7 +17,7 @@ tags:
 - coherence
 - oral-structure
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Verbal Transitions in Speaking

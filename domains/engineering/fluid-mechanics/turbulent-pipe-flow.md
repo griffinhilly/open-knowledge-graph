@@ -19,7 +19,7 @@ tags:
 - Colebrook equation
 - roughness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Turbulent Pipe Flow and the Moody Chart

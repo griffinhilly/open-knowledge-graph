@@ -17,7 +17,7 @@ tags:
 - normative influence
 - informational influence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Social Norms and Conformity

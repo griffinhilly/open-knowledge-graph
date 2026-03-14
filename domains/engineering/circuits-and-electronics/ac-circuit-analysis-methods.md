@@ -28,7 +28,7 @@ tags:
 - mesh-analysis
 - superposition-AC
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # AC Circuit Analysis Using Phasors

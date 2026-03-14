@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: prokaryotic-cells
   type: soft
+- id: translation
+  type: soft
 builds-toward:
 - gene-regulation-eukaryotes
 tags:
@@ -20,9 +22,8 @@ tags:
 - promoter
 - transcription factor
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Gene Regulation in Prokaryotes
 
 ## Core Idea

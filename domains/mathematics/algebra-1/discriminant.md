@@ -4,16 +4,19 @@ title: The Discriminant
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: quadratic-formula
-    type: hard
+- id: quadratic-formula
+  type: hard
 builds-toward:
-  - complex-numbers
-  - conic-sections
-tags: [discriminant, quadratics, number-of-solutions, roots]
+- complex-numbers-intro
+- conic-sections-overview
+tags:
+- discriminant
+- quadratics
+- number-of-solutions
+- roots
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Discriminant
 
 ## Core Idea

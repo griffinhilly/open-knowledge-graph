@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: quantum-tunneling
   type: soft
+- id: half-life-decay-law
+  type: soft
+- id: radioactive-decay
+  type: soft
 tags:
 - nuclear
 - fission
@@ -18,9 +22,8 @@ tags:
 - energy
 - sun
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Nuclear Fission and Fusion
 
 ## Core Idea

@@ -24,7 +24,7 @@ tags:
 - elastic
 - plastic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stress-Strain Behavior and Elastic Properties

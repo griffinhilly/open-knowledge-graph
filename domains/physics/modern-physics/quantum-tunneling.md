@@ -18,7 +18,7 @@ tags:
 - finite-well
 - scanning-tunneling-microscope
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantum Tunneling

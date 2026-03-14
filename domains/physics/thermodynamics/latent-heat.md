@@ -9,8 +9,7 @@ prerequisites:
 - id: specific-heat-capacity
   type: hard
 builds-toward:
-- calorimetry
-- phase-diagrams
+  - phase-diagrams
 tags:
 - latent-heat
 - heat-of-fusion
@@ -18,9 +17,8 @@ tags:
 - phase-change
 - Q=mL
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Latent Heat
 
 ## Core Idea

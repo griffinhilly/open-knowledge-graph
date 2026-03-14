@@ -18,7 +18,7 @@ tags:
 - conjunction
 - disjunction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Statements and Logical Connectives

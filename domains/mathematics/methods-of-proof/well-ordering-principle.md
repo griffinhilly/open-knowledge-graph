@@ -19,7 +19,7 @@ tags:
 - minimum
 - induction-equivalence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Well-Ordering Principle

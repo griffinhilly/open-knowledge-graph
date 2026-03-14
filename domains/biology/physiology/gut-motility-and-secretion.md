@@ -16,7 +16,7 @@ tags:
 - gastrin
 - CCK
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gut Motility and Secretion

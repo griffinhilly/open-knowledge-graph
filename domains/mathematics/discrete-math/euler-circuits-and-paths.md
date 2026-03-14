@@ -16,7 +16,7 @@ tags:
 - eulerian-graph
 - konigsberg-bridges
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Eulerian Circuits and Paths

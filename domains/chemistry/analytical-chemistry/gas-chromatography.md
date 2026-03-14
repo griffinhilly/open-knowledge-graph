@@ -16,7 +16,7 @@ tags:
 - capillary column
 - headspace
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Gas Chromatography (GC)

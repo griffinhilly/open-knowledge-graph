@@ -4,18 +4,24 @@ title: Percent of a Number
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: percent-concept
-    type: hard
-  - id: multiplying-integers
-    type: hard
+- id: percent-concept
+  type: hard
+- id: multiplying-integers
+  type: hard
+- id: converting-fractions-decimals-percents
+  type: soft
+- id: solving-proportions
+  type: soft
 builds-toward:
-  - percent-increase-decrease
-  - simple-interest
-tags: [percent, multiplication, applications]
+- percent-increase-decrease
+- simple-interest
+tags:
+- percent
+- multiplication
+- applications
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Percent of a Number
 
 ## Core Idea

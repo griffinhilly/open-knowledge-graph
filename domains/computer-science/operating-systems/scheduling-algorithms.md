@@ -15,7 +15,7 @@ tags:
 - priority-scheduling
 - multilevel-queue
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # CPU Scheduling Algorithms

@@ -20,7 +20,7 @@ tags:
 - overlapping-identities
 - systems-of-oppression
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Intersectionality

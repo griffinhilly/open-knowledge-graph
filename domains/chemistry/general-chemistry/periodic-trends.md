@@ -20,7 +20,7 @@ tags:
 - electron-affinity
 - effective-nuclear-charge
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Periodic Trends

@@ -10,17 +10,17 @@ prerequisites:
   type: hard
 - id: genetic-drift
   type: soft
-builds-toward:
-- cladistics-and-systematics
+- id: hardy-weinberg-equilibrium
+  type: soft
+builds-toward: []
 tags:
 - molecular-clock
 - neutral-theory
 - sequence-divergence
 - substitution
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Molecular Evolution and Molecular Clocks
 
 ## Core Idea

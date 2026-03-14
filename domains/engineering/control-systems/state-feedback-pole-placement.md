@@ -19,7 +19,7 @@ tags:
 - full-state-feedback
 - regulator
 stage: advanced
-status: draft
+status: validated
 ---
 
 # State Feedback and Pole Placement

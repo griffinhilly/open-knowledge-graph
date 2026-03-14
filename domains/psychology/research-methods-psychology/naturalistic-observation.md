@@ -8,17 +8,15 @@ prerequisites:
   type: hard
 - id: reliability-in-measurement
   type: soft
-builds-toward:
-- reliability-in-measurement
+builds-toward: []
 tags:
 - observation
 - field-research
 - inter-rater-reliability
 - reactivity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Naturalistic Observation
 
 ## Core Idea

@@ -13,7 +13,7 @@ tags:
 - greedy
 - weighted-graphs
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Minimum Spanning Trees

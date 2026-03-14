@@ -16,7 +16,7 @@ tags:
 - whole-numbers
 - number-line
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Fractions Equal to Whole Numbers

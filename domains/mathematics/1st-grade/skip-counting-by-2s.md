@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: simple-repeating-patterns
   type: soft
+- id: counting-to-100
+  type: soft
 builds-toward:
 - even-and-odd-numbers
 tags:
@@ -16,9 +18,8 @@ tags:
 - patterns
 - even-numbers
 stage: pre-formal
-status: draft
+status: validated
 ---
-
 # Skip Counting by 2s
 
 ## Core Idea

@@ -24,7 +24,7 @@ tags:
 - Cepheid-variables
 - standard-candles
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hubble's Law and the Expanding Universe

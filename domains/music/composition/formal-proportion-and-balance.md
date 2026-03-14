@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: proportions
   type: soft
+- id: ostinato-and-ground-bass
+  type: soft
+- id: text-setting-principles
+  type: soft
 builds-toward:
 - climax-and-tension-release
 tags:
@@ -24,9 +28,8 @@ tags:
 - golden-ratio
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Formal Proportion and Balance
 
 ## Core Idea

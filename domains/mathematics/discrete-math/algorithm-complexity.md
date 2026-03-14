@@ -17,7 +17,7 @@ tags:
 - NP-complete
 - sorting-algorithms
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Algorithm Analysis and Complexity Classes

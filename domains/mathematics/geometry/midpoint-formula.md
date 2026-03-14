@@ -6,7 +6,7 @@ course: geometry
 prerequisites:
   - id: segment-and-distance
     type: hard
-  - id: coordinate-plane
+  - id: coordinate-plane-intro
     type: hard
 builds-toward:
   - perpendicular-bisectors
@@ -14,7 +14,7 @@ builds-toward:
   - coordinate-geometry-proofs
 tags: [coordinates, midpoint, segments]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Midpoint Formula

@@ -17,7 +17,7 @@ tags:
 - digital
 - minutes
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Telling Time to the Nearest 5 Minutes

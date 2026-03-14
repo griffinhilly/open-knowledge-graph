@@ -12,7 +12,7 @@ builds-toward:
   - rational-root-theorem
 tags: [polynomials, division, synthetic-division, shortcut]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Synthetic Division

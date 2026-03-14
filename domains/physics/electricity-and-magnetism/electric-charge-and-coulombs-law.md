@@ -17,7 +17,7 @@ tags:
 - electrostatics
 - force
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electric Charge and Coulomb's Law

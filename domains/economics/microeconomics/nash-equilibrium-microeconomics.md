@@ -8,16 +8,14 @@ prerequisites:
   type: hard
 builds-toward:
 - externalities-and-market-failure
-- oligopoly-and-strategic-behavior
 tags:
 - Nash equilibrium
 - best response
 - mixed strategy
 - no regret
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Nash Equilibrium
 
 ## Core Idea

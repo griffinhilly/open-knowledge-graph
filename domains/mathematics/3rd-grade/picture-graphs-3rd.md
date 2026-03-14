@@ -16,7 +16,7 @@ tags:
 - scaled
 - symbol
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Scaled Picture Graphs (Pictographs)

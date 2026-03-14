@@ -4,19 +4,28 @@ title: Fundamental Theorem of Algebra
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: complex-numbers-intro
-    type: hard
-  - id: factor-theorem
-    type: hard
-  - id: quadratic-formula-review
-    type: soft
+- id: complex-numbers-intro
+  type: hard
+- id: factor-theorem
+  type: hard
+- id: quadratic-formula-review
+  type: soft
+- id: graphing-polynomial-functions
+  type: soft
+- id: operations-with-complex-numbers
+  type: soft
+- id: rational-root-theorem
+  type: soft
 builds-toward:
-  - precalculus-polynomial-theory
-tags: [polynomials, fundamental-theorem, complex-roots, degree]
+- polynomial-division-review
+tags:
+- polynomials
+- fundamental-theorem
+- complex-roots
+- degree
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Fundamental Theorem of Algebra
 
 ## Core Idea

@@ -16,7 +16,7 @@ tags:
 - meters
 - larger-units
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Measuring with Feet and Meters

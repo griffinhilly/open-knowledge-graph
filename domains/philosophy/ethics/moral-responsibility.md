@@ -17,7 +17,7 @@ tags:
 - blameworthiness
 - free-will
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Responsibility

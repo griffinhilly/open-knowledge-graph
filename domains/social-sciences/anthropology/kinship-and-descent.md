@@ -20,7 +20,7 @@ tags:
 - matrilineal
 - patrilineal
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Kinship and Descent Systems

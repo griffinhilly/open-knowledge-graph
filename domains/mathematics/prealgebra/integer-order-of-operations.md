@@ -19,7 +19,7 @@ builds-toward:
   - one-step-equations
 tags: [order-of-operations, integers, PEMDAS]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Integer Order of Operations

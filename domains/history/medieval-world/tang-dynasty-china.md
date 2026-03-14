@@ -17,7 +17,7 @@ tags:
 - silk-road
 - bureaucracy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Tang Dynasty

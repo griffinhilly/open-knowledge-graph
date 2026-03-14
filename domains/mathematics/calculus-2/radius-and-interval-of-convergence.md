@@ -14,7 +14,7 @@ builds-toward:
   - taylor-series
 tags: [series, power-series, convergence, radius]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Radius and Interval of Convergence

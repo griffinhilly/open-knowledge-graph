@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: alkene-structure-and-nomenclature
   type: hard
+- id: electrophilic-addition-to-alkenes
+  type: soft
 builds-toward:
 - electrophilic-aromatic-substitution
 tags:
@@ -18,9 +20,8 @@ tags:
 - pi system
 - antiaromatic
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Aromaticity and Benzene
 
 ## Core Idea

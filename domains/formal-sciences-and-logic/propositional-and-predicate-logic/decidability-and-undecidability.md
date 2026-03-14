@@ -13,11 +13,11 @@ builds-toward:
 tags:
 - decidability
 - undecidability
-- halting-problem
+- halting-problem-formal
 - Church-Turing
 - decision-procedure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Decidability and Undecidability

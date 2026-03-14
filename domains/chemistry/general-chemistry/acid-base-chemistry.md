@@ -19,7 +19,7 @@ tags:
 - weak-acid
 - amphoteric
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Acid-Base Chemistry

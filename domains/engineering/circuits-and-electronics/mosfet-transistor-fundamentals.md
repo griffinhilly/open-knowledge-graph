@@ -23,7 +23,7 @@ tags:
 - triode
 - saturation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # MOSFET Fundamentals

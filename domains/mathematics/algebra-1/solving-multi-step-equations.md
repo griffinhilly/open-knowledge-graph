@@ -4,21 +4,30 @@ title: Solving Multi-Step Equations
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: two-step-equations
-    type: hard
-  - id: combining-like-terms
-    type: hard
-  - id: distributive-property
-    type: hard
+- id: two-step-equations
+  type: hard
+- id: combining-like-terms
+  type: hard
+- id: distributive-property
+  type: hard
+- id: variables-and-expressions-review
+  type: soft
+- id: properties-of-operations
+  type: soft
+- id: rational-numbers-operations
+  type: soft
 builds-toward:
-  - equations-variables-both-sides
-  - literal-equations
-  - systems-substitution
-tags: [equations, multi-step, solving, algebra]
+- equations-variables-both-sides
+- literal-equations
+- systems-substitution
+tags:
+- equations
+- multi-step
+- solving
+- algebra
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Solving Multi-Step Equations
 
 ## Core Idea

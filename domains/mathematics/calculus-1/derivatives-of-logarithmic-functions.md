@@ -14,7 +14,7 @@ builds-toward:
   - implicit-differentiation
 tags: [derivatives, logarithmic]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Derivatives of Logarithmic Functions

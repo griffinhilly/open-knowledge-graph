@@ -18,7 +18,7 @@ tags:
 - embedding
 - subcategory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Full and Faithful Functors

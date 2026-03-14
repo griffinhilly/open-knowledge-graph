@@ -22,7 +22,7 @@ tags:
 - Kant
 - innate-ideas
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rationalism vs. Empiricism

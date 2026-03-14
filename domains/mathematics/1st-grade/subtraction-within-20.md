@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: addition-within-20
   type: hard
+- id: number-line-0-to-20
+  type: soft
 builds-toward:
 - addition-subtraction-relationship
 - fact-families
@@ -18,9 +20,8 @@ tags:
 - within-20
 - number-sense
 stage: pre-formal
-status: draft
+status: validated
 ---
-
 # Subtraction Within 20
 
 ## Core Idea

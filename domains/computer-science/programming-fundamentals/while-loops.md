@@ -19,7 +19,7 @@ tags:
 - control flow
 - termination
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # While Loops

@@ -17,7 +17,7 @@ tags:
 - boiled
 - protein
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Egg Cooking Techniques

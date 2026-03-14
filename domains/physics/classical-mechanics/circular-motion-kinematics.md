@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: arc-length-circles
   type: soft
+- id: projectile-motion
+  type: soft
 builds-toward:
 - circular-motion-dynamics
 - rotational-kinematics
@@ -20,9 +22,8 @@ tags:
 - period
 - frequency
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Circular Motion: Kinematics
 
 ## Core Idea

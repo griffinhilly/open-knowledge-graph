@@ -24,7 +24,7 @@ tags:
 - occipital-lobe
 - cortex
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Brain Lobes and Their Functions

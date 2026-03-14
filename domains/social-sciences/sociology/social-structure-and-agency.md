@@ -3,7 +3,9 @@ id: social-structure-and-agency
 title: Social Structure and Agency
 domain: social-sciences
 course: sociology
-prerequisites: []
+prerequisites:
+- id: sociological-imagination
+  type: soft
 builds-toward:
 - social-stratification
 - social-institutions-overview
@@ -15,9 +17,8 @@ tags:
 - macro-micro
 - foundational
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Social Structure and Agency
 
 ## Core Idea

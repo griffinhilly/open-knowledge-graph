@@ -18,7 +18,7 @@ tags:
 - Okin
 - Fraser
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Feminist Political Philosophy

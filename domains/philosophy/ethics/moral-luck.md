@@ -15,7 +15,7 @@ tags:
 - Williams
 - control
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Luck

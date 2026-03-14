@@ -17,7 +17,7 @@ tags:
 - photography
 - methodology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Visual Sources in History

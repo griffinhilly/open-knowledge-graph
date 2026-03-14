@@ -6,6 +6,8 @@ course: visual-elements-and-principles
 prerequisites:
 - id: line-in-art
   type: hard
+- id: value-and-tone
+  type: soft
 builds-toward:
 - positive-and-negative-space
 - balance-in-composition
@@ -18,9 +20,8 @@ tags:
 - geometric
 - organic
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Shape and Form
 
 ## Core Idea

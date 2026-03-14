@@ -20,7 +20,7 @@ tags:
 - confucianism
 - great-wall
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Qin and Han Dynasties: Chinese Imperial Formation

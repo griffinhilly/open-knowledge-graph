@@ -4,11 +4,11 @@ title: Rice's Theorem
 domain: formal-sciences-and-logic
 course: computability-and-complexity
 prerequisites:
-- id: halting-problem
+- id: halting-problem-formal
   type: hard
 - id: computability-reductions
   type: hard
-- id: church-turing-thesis
+- id: church-turing-thesis-formal
   type: soft
 builds-toward:
 - re-and-co-re-languages
@@ -17,7 +17,7 @@ tags:
 - semantic-properties
 - computability
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Rice's Theorem

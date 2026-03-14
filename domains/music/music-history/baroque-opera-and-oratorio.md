@@ -18,7 +18,7 @@ tags:
 - aria
 - Camerata
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Baroque Opera and Oratorio

@@ -14,7 +14,7 @@ tags:
 - index of refraction
 - focal length
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Lensmaker's Equation

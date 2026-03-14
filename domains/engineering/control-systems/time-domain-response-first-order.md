@@ -18,7 +18,7 @@ tags:
 - transient
 - bandwidth
 stage: advanced
-status: draft
+status: validated
 ---
 
 # First-Order System Time Response

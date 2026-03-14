@@ -4,7 +4,7 @@ title: Exponential Functions and Graphs
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: exponent-rules
+  - id: exponent-rules-product-power-quotient
     type: hard
   - id: rational-exponents
     type: soft
@@ -14,7 +14,7 @@ builds-toward:
   - natural-logarithm-and-e
 tags: [exponential, functions, graphing, growth]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Exponential Functions and Graphs

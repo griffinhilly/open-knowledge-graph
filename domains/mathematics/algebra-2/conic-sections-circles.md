@@ -1,21 +1,27 @@
 ---
 id: conic-sections-circles
-title: "Conic Sections: Circles"
+title: 'Conic Sections: Circles'
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: circle-basics
-    type: hard
-  - id: solving-quadratic-equations-completing-the-square
-    type: hard
+- id: circle-basics
+  type: hard
+- id: solving-quadratic-equations-completing-the-square
+  type: hard
+- id: coordinate-geometry-proofs
+  type: soft
 builds-toward:
-  - conic-sections-ellipses
-  - precalculus-conics
-tags: [conics, circles, center, radius, standard-form]
+- conic-sections-ellipses
+- conic-sections-overview
+tags:
+- conics
+- circles
+- center
+- radius
+- standard-form
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Conic Sections: Circles
 
 ## Core Idea

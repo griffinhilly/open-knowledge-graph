@@ -21,7 +21,7 @@ tags:
 - nucleotides
 - base-pairing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # DNA Structure

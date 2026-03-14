@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: color-temperature
   type: soft
+- id: light-and-shadow
+  type: soft
 builds-toward:
 - unity-and-variety
 tags:
@@ -17,9 +19,8 @@ tags:
 - landscape
 - aerial-perspective
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Atmospheric Perspective
 
 ## Core Idea

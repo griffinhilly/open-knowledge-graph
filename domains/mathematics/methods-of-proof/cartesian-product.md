@@ -15,7 +15,7 @@ tags:
 - tuples
 - product-set
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cartesian Product and Ordered Pairs

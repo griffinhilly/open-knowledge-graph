@@ -17,7 +17,7 @@ tags:
 - public-health
 - foundations
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Foundations of Epidemiology

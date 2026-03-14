@@ -22,7 +22,7 @@ tags:
 - chromaticism
 - parallel-minor
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Borrowed Chords (Modal Mixture)

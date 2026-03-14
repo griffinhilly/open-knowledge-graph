@@ -18,7 +18,7 @@ tags:
 - semiconductor
 - valence-band
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Band Theory of Solids

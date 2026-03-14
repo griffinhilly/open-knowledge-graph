@@ -18,7 +18,7 @@ tags:
 - perspective-taking
 - autism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Theory of Mind Development

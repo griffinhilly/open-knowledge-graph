@@ -23,7 +23,7 @@ tags:
 - Second-Viennese-School
 - dodecaphony
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Serialism and the Twelve-Tone Technique

@@ -4,18 +4,22 @@ title: Angle Relationships
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: one-step-equations
-    type: soft
-  - id: adding-integers
-    type: hard
+- id: one-step-equations
+  type: soft
+- id: adding-integers
+  type: hard
 builds-toward:
-  - geometry-angles
-  - parallel-lines-transversals
-tags: [angles, complementary, supplementary, vertical, geometry]
+- angle-basics-and-classification
+- parallel-lines-and-transversals
+tags:
+- angles
+- complementary
+- supplementary
+- vertical
+- geometry
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Angle Relationships
 
 ## Core Idea

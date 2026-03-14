@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nyquist-stability-criterion
   type: soft
+- id: routh-hurwitz-criterion
+  type: soft
 builds-toward:
 - pid-control
 - lead-lag-compensators
@@ -18,9 +20,8 @@ tags:
 - robustness
 - crossover-frequency
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Gain and Phase Margins
 
 ## Core Idea

@@ -15,7 +15,7 @@ tags:
 - systematic-sampling
 - bias
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sampling Methods

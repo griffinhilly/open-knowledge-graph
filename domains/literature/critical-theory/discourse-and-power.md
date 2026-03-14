@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: sociolinguistics-intro
   type: soft
+- id: deconstruction
+  type: soft
+- id: new-historicism
+  type: soft
 builds-toward:
 - cultural-studies-approach
 - ecocriticism
@@ -23,9 +27,8 @@ tags:
 - subject
 - author-function
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Discourse, Power, and Knowledge
 
 ## Core Idea

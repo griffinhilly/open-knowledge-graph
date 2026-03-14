@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: market-equilibrium
   type: hard
+- id: money-supply-and-money-creation
+  type: soft
 builds-toward:
 - is-lm-model
 - fiscal-multiplier
@@ -20,9 +22,8 @@ tags:
 - investment
 - crowding-out
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Interest Rates and the Loanable Funds Market
 
 ## Core Idea

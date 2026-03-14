@@ -22,7 +22,7 @@ tags:
 - deduction
 - formal-logic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Validity and Soundness

@@ -14,7 +14,7 @@ tags:
 - numeral-recognition
 - number-sense
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Recognizing Written Numerals 11–20

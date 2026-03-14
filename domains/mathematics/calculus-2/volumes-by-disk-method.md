@@ -10,7 +10,7 @@ builds-toward:
   - volumes-by-washer-method
 tags: [integration, applications, volumes, revolution]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Volumes by Disk Method

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: double-integrals-cartesian
   type: soft
+- id: hydrostatic-forces-on-surfaces
+  type: soft
 builds-toward:
 - pipe-system-losses
 - hydraulic-machinery-intro
@@ -21,9 +23,8 @@ tags:
 - momentum flux
 - reaction forces
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Momentum Equation for Control Volumes
 
 ## Core Idea

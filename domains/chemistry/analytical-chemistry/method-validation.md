@@ -21,7 +21,7 @@ tags:
 - ICH
 - FDA
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Analytical Method Validation

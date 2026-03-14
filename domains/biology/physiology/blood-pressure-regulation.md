@@ -17,7 +17,7 @@ tags:
 - vasoconstriction
 - autonomic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Blood Pressure Regulation

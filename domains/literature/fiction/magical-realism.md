@@ -8,15 +8,16 @@ prerequisites:
   type: hard
 - id: fantasy-genre
   type: soft
+- id: gothic-fiction
+  type: soft
 tags:
 - magical-realism
 - the-marvelous-real
 - Latin-American-literature
 - hybridity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Magical Realism
 
 ## Core Idea

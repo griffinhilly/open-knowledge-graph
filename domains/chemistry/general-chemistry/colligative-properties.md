@@ -15,7 +15,7 @@ tags:
 - Raoults-law
 - vant-Hoff-factor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Colligative Properties

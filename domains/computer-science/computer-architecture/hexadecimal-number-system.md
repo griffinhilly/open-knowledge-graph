@@ -14,7 +14,7 @@ tags:
 - number-systems
 - representation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hexadecimal Number System

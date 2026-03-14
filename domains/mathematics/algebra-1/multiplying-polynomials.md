@@ -4,21 +4,25 @@ title: Multiplying Polynomials
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: polynomials-intro
-    type: hard
-  - id: distributive-property
-    type: hard
-  - id: exponent-rules-product-power-quotient
-    type: hard
+- id: polynomials-intro
+  type: hard
+- id: distributive-property
+  type: hard
+- id: exponent-rules-product-power-quotient
+  type: hard
+- id: adding-subtracting-polynomials
+  type: soft
 builds-toward:
-  - multiplying-binomials-foil
-  - factoring-trinomials
-  - factoring-difference-of-squares
-tags: [polynomials, multiplication, distributive-property]
+- multiplying-binomials-foil
+- factoring-trinomials
+- factoring-difference-of-squares
+tags:
+- polynomials
+- multiplication
+- distributive-property
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Multiplying Polynomials
 
 ## Core Idea

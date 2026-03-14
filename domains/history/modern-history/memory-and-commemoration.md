@@ -19,7 +19,7 @@ tags:
 - trauma
 - identity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Historical Memory and Commemoration

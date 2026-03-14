@@ -21,7 +21,7 @@ tags:
 - degree
 - handshaking-lemma
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Graph Theory

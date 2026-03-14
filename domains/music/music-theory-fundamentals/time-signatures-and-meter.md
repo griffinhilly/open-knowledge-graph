@@ -20,7 +20,7 @@ tags:
 - measure
 - rhythm
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Time Signatures and Meter

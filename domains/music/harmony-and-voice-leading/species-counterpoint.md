@@ -17,7 +17,7 @@ tags:
 - polyphony
 - suspensions
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Species Counterpoint

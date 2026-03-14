@@ -17,7 +17,7 @@ tags:
 - structure
 - thinking-on-your-feet
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Impromptu Speaking

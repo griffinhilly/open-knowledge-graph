@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: mental-math-add-subtract-hundreds
   type: soft
+- id: number-line-to-1000
+  type: soft
+- id: three-digit-number-forms
+  type: soft
 builds-toward:
 - three-digit-subtraction
 - multi-digit-addition
@@ -20,9 +24,8 @@ tags:
 - regrouping
 - algorithm
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Three-Digit Addition
 
 ## Core Idea

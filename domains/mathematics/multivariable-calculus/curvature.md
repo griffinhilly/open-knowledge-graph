@@ -15,7 +15,7 @@ tags:
 - torsion
 - differential-geometry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Curvature and the Frenet Frame

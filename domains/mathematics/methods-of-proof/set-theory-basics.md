@@ -19,7 +19,7 @@ tags:
 - empty-set
 - set-builder-notation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Set Theory Basics

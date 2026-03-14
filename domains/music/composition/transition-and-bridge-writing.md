@@ -20,7 +20,7 @@ tags:
 - link
 - retransition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transition and Bridge Writing

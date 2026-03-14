@@ -12,7 +12,7 @@ tags:
 - moment of inertia
 - composite sections
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Parallel Axis Theorem for Area Moments

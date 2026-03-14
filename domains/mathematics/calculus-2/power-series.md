@@ -4,18 +4,22 @@ title: Power Series
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: geometric-series
-    type: hard
-  - id: absolute-vs-conditional-convergence
-    type: hard
+- id: geometric-series
+  type: hard
+- id: absolute-vs-conditional-convergence
+  type: hard
+- id: binomial-theorem-expansion
+  type: soft
 builds-toward:
-  - radius-and-interval-of-convergence
-  - taylor-polynomials
-tags: [series, power-series, functions]
+- radius-and-interval-of-convergence
+- taylor-polynomials
+tags:
+- series
+- power-series
+- functions
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Power Series
 
 ## Core Idea

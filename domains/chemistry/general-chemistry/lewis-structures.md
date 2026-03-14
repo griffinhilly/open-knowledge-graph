@@ -18,7 +18,7 @@ tags:
 - octet-rule
 - polyatomic-ions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lewis Structures

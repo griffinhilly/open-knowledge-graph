@@ -20,7 +20,7 @@ tags:
 - components
 - norm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vectors in Rⁿ

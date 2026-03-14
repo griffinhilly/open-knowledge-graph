@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: interval-recognition-by-ear
   type: hard
+- id: rhythmic-dictation-compound
+  type: soft
+- id: scale-degree-tendencies
+  type: soft
 builds-toward:
 - harmonic-dictation-basic
 - bass-line-dictation
@@ -17,9 +21,8 @@ tags:
 - leaps
 - transcription
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Melodic Dictation: Melodies with Leaps
 
 ## Core Idea

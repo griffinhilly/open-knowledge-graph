@@ -19,7 +19,7 @@ tags:
 - glazing
 - blending
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Oil Painting Basics

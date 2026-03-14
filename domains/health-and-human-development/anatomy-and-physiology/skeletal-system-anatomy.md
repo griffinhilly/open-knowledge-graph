@@ -18,7 +18,7 @@ tags:
 - appendicular
 - joints
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Skeletal System: Bone Structure and the Axial/Appendicular Skeleton

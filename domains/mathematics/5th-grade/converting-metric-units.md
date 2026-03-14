@@ -4,18 +4,25 @@ title: Converting Metric Units
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: measurement-conversions-metric
-    type: hard
-  - id: multiplying-dividing-by-powers-of-ten
-    type: hard
-  - id: decimal-place-value
-    type: hard
+- id: measurement-conversions-metric
+  type: hard
+- id: multiplying-dividing-by-powers-of-ten
+  type: hard
+- id: decimal-place-value
+  type: hard
+- id: mass-grams-kilograms
+  type: soft
+- id: measurement-conversions-5th
+  type: soft
 builds-toward: []
-tags: [measurement, metric, conversion, decimals]
+tags:
+- measurement
+- metric
+- conversion
+- decimals
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Converting Metric Units
 
 ## Core Idea

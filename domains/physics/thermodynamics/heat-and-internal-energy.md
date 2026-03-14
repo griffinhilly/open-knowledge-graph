@@ -18,7 +18,7 @@ tags:
 - thermal-energy
 - energy-transfer
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heat and Internal Energy

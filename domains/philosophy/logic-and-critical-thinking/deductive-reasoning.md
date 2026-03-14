@@ -17,7 +17,7 @@ tags:
 - reasoning
 - inference
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Deductive Reasoning

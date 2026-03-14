@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: primitive-data-types
   type: soft
+- id: string-basics
+  type: soft
+- id: type-conversion
+  type: soft
 builds-toward:
 - string-operations
 - file-io-basics
@@ -18,9 +22,8 @@ tags:
 - console
 - user interaction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Basic Input and Output
 
 ## Core Idea

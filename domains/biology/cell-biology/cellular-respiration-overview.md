@@ -24,7 +24,7 @@ tags:
 - oxidation
 - energy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cellular Respiration Overview

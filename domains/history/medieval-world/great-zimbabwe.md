@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: material-culture-analysis
   type: soft
+- id: trans-saharan-trade
+  type: soft
 tags:
 - great-zimbabwe
 - southern-africa
@@ -15,9 +17,8 @@ tags:
 - trade
 - shona
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Great Zimbabwe and Southern African Kingdoms
 
 ## Core Idea

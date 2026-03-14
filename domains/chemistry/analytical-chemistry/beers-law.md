@@ -23,7 +23,7 @@ tags:
 - transmittance
 - spectrophotometry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Beer–Lambert Law and Optical Absorbance

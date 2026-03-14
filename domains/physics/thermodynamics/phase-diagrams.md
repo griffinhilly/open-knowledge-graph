@@ -15,7 +15,7 @@ tags:
 - PT-diagram
 - supercritical
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phase Diagrams

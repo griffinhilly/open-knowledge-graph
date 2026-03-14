@@ -19,7 +19,7 @@ tags:
 - stratification
 - mixed layer
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ocean Layering and Stratification

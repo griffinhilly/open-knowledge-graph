@@ -13,7 +13,7 @@ builds-toward:
   - amplitude-period-phase-shift
 tags: [functions, transformations, graphing]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Function Transformations: Shifts, Stretches, and Reflections

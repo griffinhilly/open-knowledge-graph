@@ -16,7 +16,7 @@ tags:
 - constructs
 - replication
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Operational Definitions

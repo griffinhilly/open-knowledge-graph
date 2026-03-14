@@ -19,7 +19,7 @@ tags:
 - hydration
 - hydroboration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electrophilic Addition to Alkenes

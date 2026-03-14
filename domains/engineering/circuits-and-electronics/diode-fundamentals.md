@@ -27,7 +27,7 @@ tags:
 - Shockley-equation
 - Zener
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diode Characteristics and Models

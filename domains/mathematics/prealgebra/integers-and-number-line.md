@@ -4,7 +4,7 @@ title: Integers and the Number Line
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: whole-number-arithmetic
+  - id: place-value-whole-numbers
     type: hard
   - id: decimal-place-value
     type: soft
@@ -14,7 +14,7 @@ builds-toward:
   - subtracting-integers
 tags: [integers, number-line, negative-numbers]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Integers and the Number Line

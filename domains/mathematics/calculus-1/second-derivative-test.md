@@ -13,7 +13,7 @@ builds-toward:
   - optimization-problems
 tags: [derivatives, applications, extrema, second-derivative]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Second Derivative Test

@@ -21,7 +21,7 @@ tags:
 - program-counter
 - address-space
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Processes and the Process Control Block

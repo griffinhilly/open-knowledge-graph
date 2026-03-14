@@ -12,14 +12,15 @@ prerequisites:
   type: soft
 - id: perimeter
   type: soft
+- id: power-tool-safety
+  type: soft
 tags:
 - painting
 - interiors
 - aesthetics
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Interior Painting
 
 ## Core Idea

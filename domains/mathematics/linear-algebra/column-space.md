@@ -21,7 +21,7 @@ tags:
 - pivot columns
 - Ax=b consistency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Column Space of a Matrix

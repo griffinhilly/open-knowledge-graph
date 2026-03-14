@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ols-assumptions
   type: hard
+- id: r-squared-and-model-fit
+  type: soft
 builds-toward:
 - endogeneity
 - instrumental-variables
@@ -18,9 +20,8 @@ tags:
 - confounding
 - identification
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Omitted Variable Bias
 
 ## Core Idea

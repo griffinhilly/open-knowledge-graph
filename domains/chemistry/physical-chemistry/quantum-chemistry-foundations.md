@@ -30,7 +30,7 @@ tags:
 - operators
 - observables
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantum Chemistry Foundations

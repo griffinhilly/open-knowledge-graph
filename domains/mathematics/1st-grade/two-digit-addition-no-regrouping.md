@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: adding-tens
   type: hard
+- id: addition-within-20
+  type: soft
 tags:
 - addition
 - two-digit
@@ -17,9 +19,8 @@ tags:
 - no-regrouping
 - column-addition
 stage: pre-formal
-status: draft
+status: validated
 ---
-
 # Adding Two-Digit Numbers (No Regrouping)
 
 ## Core Idea

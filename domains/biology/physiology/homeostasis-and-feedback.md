@@ -17,7 +17,7 @@ tags:
 - regulation
 - physiology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Homeostasis and Feedback Loops

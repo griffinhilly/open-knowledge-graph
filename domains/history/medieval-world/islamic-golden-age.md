@@ -18,7 +18,7 @@ tags:
 - mathematics
 - philosophy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Islamic Golden Age

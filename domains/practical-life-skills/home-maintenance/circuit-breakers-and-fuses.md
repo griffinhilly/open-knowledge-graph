@@ -13,7 +13,7 @@ tags:
 - breakers
 - troubleshooting
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Circuit Breakers, Fuses, and the Breaker Panel

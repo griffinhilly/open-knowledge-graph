@@ -24,7 +24,7 @@ tags:
 - zinc
 - electrolytes
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Minerals and Trace Elements in Human Nutrition

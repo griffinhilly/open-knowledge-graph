@@ -8,7 +8,7 @@ prerequisites:
     type: hard
   - id: unit-rates
     type: soft
-  - id: simplifying-fractions
+  - id: multiplying-fractions
     type: hard
 builds-toward:
   - solving-proportions
@@ -16,7 +16,7 @@ builds-toward:
   - direct-and-inverse-variation
 tags: [proportions, ratios, equivalence]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Proportions

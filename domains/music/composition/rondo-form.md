@@ -19,7 +19,7 @@ tags:
 - ABACA
 - form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rondo Form

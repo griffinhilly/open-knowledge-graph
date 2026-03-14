@@ -21,7 +21,7 @@ tags:
 - subdominant
 - harmonic-function
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Functional Harmony: Tonic, Subdominant, and Dominant

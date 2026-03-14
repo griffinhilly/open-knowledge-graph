@@ -21,7 +21,7 @@ tags:
 - tangency-portfolio
 - separation-theorem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Efficient Frontier and Capital Market Line

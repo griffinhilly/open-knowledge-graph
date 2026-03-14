@@ -21,7 +21,7 @@ tags:
 - inverse-relationship
 - discount-premium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bond Pricing

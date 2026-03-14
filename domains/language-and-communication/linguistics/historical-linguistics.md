@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: language-variation-and-change
   type: soft
+- id: writing-systems
+  type: soft
 builds-toward:
 - sound-change-and-reconstruction
 - linguistic-typology
@@ -21,9 +23,8 @@ tags:
 - comparative method
 - Indo-European
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Historical Linguistics
 
 ## Core Idea

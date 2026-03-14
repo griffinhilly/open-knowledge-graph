@@ -16,7 +16,7 @@ tags:
 - average cost
 - short run
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Short-Run Costs

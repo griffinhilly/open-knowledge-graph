@@ -6,6 +6,8 @@ course: classical-mechanics
 prerequisites:
 - id: kinematics-1d
   type: hard
+- id: quadratic-formula
+  type: soft
 builds-toward:
 - kinematics-2d
 - projectile-motion
@@ -15,7 +17,7 @@ tags:
 - constant-acceleration
 - equations-of-motion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kinematic Equations for Constant Acceleration

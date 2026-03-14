@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: storytelling-in-public-speaking
   type: soft
+- id: call-to-action-in-speeches
+  type: soft
+- id: informative-speaking
+  type: soft
 tags:
 - ceremonial
 - eulogy
@@ -17,9 +21,8 @@ tags:
 - tribute
 - epideictic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Ceremonial and Special Occasion Speaking
 
 ## Core Idea

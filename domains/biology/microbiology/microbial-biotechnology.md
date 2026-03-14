@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: crispr-gene-editing
   type: soft
+- id: fungal-biology-overview
+  type: soft
+- id: nitrogen-fixation-microbiology
+  type: soft
 tags:
 - biotechnology
 - recombinant protein
@@ -21,9 +25,8 @@ tags:
 - synthetic biology
 - expression system
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Microbial Biotechnology
 
 ## Core Idea

@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: major-minor-tonality-identification
   type: soft
+- id: call-and-response-echo-singing
+  type: soft
+- id: melodic-contour-recognition
+  type: soft
 builds-toward:
 - melodic-dictation-with-leaps
 - error-detection-in-score
@@ -23,9 +27,8 @@ tags:
 - stepwise motion
 - notation
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Melodic Dictation: Stepwise Melodies
 
 ## Core Idea

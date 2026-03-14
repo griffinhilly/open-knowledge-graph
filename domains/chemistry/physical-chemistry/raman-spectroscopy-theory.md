@@ -15,7 +15,7 @@ tags:
 - anti-Stokes
 - inelastic-scattering
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Raman Spectroscopy: Theory and Applications

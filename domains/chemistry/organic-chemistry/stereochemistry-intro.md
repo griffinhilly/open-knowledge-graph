@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: alkane-structure-and-properties
   type: soft
+- id: cycloalkanes
+  type: soft
 builds-toward:
 - enantiomers-and-chirality
 - diastereomers-and-meso-compounds
@@ -20,9 +22,8 @@ tags:
 - chirality
 - 3D structure
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Introduction to Stereochemistry
 
 ## Core Idea

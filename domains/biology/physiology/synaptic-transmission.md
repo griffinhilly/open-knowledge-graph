@@ -19,7 +19,7 @@ tags:
 - EPSP
 - IPSP
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Synaptic Transmission

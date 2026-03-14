@@ -19,7 +19,7 @@ tags:
 - satisfiability
 - validity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tautologies, Contradictions, and Satisfiability

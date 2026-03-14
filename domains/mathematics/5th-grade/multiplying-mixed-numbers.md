@@ -12,7 +12,7 @@ builds-toward:
   - dividing-fractions
 tags: [fractions, multiplication, mixed-numbers]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multiplying Mixed Numbers

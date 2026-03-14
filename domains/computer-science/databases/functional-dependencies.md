@@ -20,7 +20,7 @@ tags:
 - Armstrong's axioms
 - normalization theory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Functional Dependencies

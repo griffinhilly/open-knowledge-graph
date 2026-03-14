@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: moral-responsibility
   type: soft
+- id: hobbesian-sovereignty
+  type: soft
+- id: lockean-natural-rights
+  type: soft
 builds-toward:
 - civil-disobedience
 tags:
@@ -17,9 +21,8 @@ tags:
 - fair-play
 - natural-duty
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Political Obligation
 
 ## Core Idea

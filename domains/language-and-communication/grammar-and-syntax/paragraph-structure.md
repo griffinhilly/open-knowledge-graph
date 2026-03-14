@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: tense-consistency
   type: soft
+- id: semicolons-and-colons
+  type: soft
 tags:
 - paragraph
 - structure
@@ -17,9 +19,8 @@ tags:
 - transitions
 - coherence
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Paragraph Structure: Topic Sentence, Support, Transition
 
 ## Core Idea

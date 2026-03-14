@@ -18,7 +18,7 @@ tags:
 - social-ecological-model
 - behavior-change
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Health Promotion and Behavior Change Models

@@ -20,7 +20,7 @@ tags:
 - collective action
 - PACs
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Interest Groups and Lobbying

@@ -8,13 +8,13 @@ prerequisites:
     type: soft
   - id: angle-basics-and-classification
     type: hard
-  - id: coordinate-plane
+  - id: coordinate-plane-intro
     type: hard
 builds-toward:
   - coordinate-geometry-proofs
 tags: [transformations, rotations, rigid-motions]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Geometric Transformations: Rotations

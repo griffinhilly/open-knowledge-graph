@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: time-domain-response-first-order
   type: hard
+- id: time-domain-response-second-order
+  type: soft
 builds-toward:
 - pid-control
 - root-locus-controller-design
@@ -18,9 +20,8 @@ tags:
 - position-error
 - velocity-error
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Steady-State Error Analysis
 
 ## Core Idea

@@ -13,7 +13,7 @@ tags:
 - energy-efficiency
 - sealing
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Caulking and Weatherstripping

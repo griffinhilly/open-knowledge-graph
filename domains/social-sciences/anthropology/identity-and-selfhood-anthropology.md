@@ -10,6 +10,14 @@ prerequisites:
   type: soft
 - id: socialization
   type: soft
+- id: globalization-cultural-change
+  type: soft
+- id: human-evolution-basics
+  type: soft
+- id: language-and-culture
+  type: soft
+- id: myth-and-symbolism
+  type: soft
 tags:
 - self
 - personhood
@@ -18,9 +26,8 @@ tags:
 - dividual
 - individualism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Identity, Self, and Person Across Cultures
 
 ## Core Idea

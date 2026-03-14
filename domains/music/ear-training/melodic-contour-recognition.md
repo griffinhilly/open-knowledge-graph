@@ -17,7 +17,7 @@ tags:
 - direction
 - ear training
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Melodic Contour Recognition

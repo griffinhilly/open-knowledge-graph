@@ -14,14 +14,21 @@ prerequisites:
   type: soft
 - id: percent-concept
   type: soft
+- id: circuit-breakers-and-fuses
+  type: soft
+- id: fixing-leaky-faucets
+  type: soft
+- id: pest-control-basics
+  type: soft
+- id: unclogging-drains
+  type: soft
 tags:
 - decision-making
 - professional-services
 - safety
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # When to DIY vs. Hire a Professional
 
 ## Core Idea

@@ -20,7 +20,7 @@ tags:
 - vertices
 - angles
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Attributes of 2D Shapes

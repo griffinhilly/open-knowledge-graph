@@ -20,7 +20,7 @@ tags:
 - human rights
 - 19th century
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Abolitionist Movement and the End of Slavery

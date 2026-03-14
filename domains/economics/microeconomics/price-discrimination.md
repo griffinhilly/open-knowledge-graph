@@ -17,7 +17,7 @@ tags:
 - third degree
 - consumer surplus
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Price Discrimination

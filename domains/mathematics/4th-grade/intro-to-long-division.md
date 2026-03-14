@@ -4,20 +4,30 @@ title: Introduction to Long Division
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: multi-digit-multiplication
-    type: hard
-  - id: multi-digit-subtraction
-    type: hard
-  - id: place-value-whole-numbers
-    type: hard
+- id: multi-digit-multiplication
+  type: hard
+- id: multi-digit-subtraction
+  type: hard
+- id: place-value-whole-numbers
+  type: hard
+- id: division-as-grouping
+  type: soft
+- id: division-facts-within-100
+  type: soft
+- id: division-word-problems
+  type: soft
+- id: multiplication-division-relationship
+  type: soft
 builds-toward:
-  - dividing-decimals
-  - factors-and-multiples
-tags: [arithmetic, division, algorithms]
+- dividing-decimals
+- factors-and-multiples
+tags:
+- arithmetic
+- division
+- algorithms
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Introduction to Long Division
 
 ## Core Idea

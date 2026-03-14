@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mathematical-induction
   type: soft
+- id: graph-representation
+  type: soft
 builds-toward:
 - bipartite-graphs
 - trees-in-graph-theory
@@ -22,9 +24,8 @@ tags:
 - connected-components
 - graph-theory
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Graph Paths, Cycles, and Connectivity
 
 ## Core Idea

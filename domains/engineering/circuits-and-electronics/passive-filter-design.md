@@ -23,7 +23,7 @@ tags:
 - RLC-filter
 - cutoff-frequency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Passive Filter Design

@@ -6,6 +6,8 @@ course: genetics-and-molecular-biology
 prerequisites:
 - id: dominance-and-recessiveness
   type: hard
+- id: sex-linked-inheritance
+  type: soft
 builds-toward:
 - population-genetics-intro
 tags:
@@ -15,9 +17,8 @@ tags:
 - pleiotropy
 - epistasis
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Non-Mendelian Inheritance Patterns
 
 ## Core Idea

@@ -16,7 +16,7 @@ tags:
 - naturality square
 - morphisms of functors
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Natural Transformations

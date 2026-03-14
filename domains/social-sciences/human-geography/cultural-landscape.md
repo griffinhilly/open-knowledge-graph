@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: culture-concept
   type: soft
+- id: environmental-determinism-possibilism
+  type: soft
 builds-toward:
 - cultural-diffusion-geography
 - agricultural-geography
@@ -19,9 +21,8 @@ tags:
 - landscape
 - symbolic landscape
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Cultural Landscape
 
 ## Core Idea

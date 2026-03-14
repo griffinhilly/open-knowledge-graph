@@ -4,19 +4,23 @@ title: Subtracting Integers
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: adding-integers
-    type: hard
-  - id: absolute-value
-    type: soft
+- id: adding-integers
+  type: hard
+- id: absolute-value
+  type: soft
+- id: opposites-and-additive-inverses
+  type: soft
 builds-toward:
-  - integer-order-of-operations
-  - one-step-equations
-  - combining-like-terms
-tags: [integers, subtraction, operations]
+- integer-order-of-operations
+- one-step-equations
+- combining-like-terms
+tags:
+- integers
+- subtraction
+- operations
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Subtracting Integers
 
 ## Core Idea

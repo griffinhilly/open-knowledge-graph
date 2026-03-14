@@ -13,7 +13,7 @@ tags:
 - causation
 - historical-thinking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Counterfactual Reasoning in History

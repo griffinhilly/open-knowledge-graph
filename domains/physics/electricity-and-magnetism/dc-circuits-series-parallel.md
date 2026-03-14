@@ -18,7 +18,7 @@ tags:
 - resistors
 - EMF
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # DC Circuits: Series and Parallel

@@ -22,7 +22,7 @@ tags:
 - asset-returns
 - statistics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Expected Return and Variance of Financial Assets

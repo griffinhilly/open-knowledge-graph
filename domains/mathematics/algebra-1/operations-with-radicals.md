@@ -4,18 +4,22 @@ title: Operations with Radicals
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: radical-expressions-simplifying
-    type: hard
-  - id: combining-like-terms
-    type: hard
+- id: radical-expressions-simplifying
+  type: hard
+- id: combining-like-terms
+  type: hard
 builds-toward:
-  - rationalizing-denominators
-  - complex-numbers
-tags: [radicals, addition, subtraction, multiplication, operations]
+- rationalizing-denominators
+- complex-numbers-intro
+tags:
+- radicals
+- addition
+- subtraction
+- multiplication
+- operations
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Operations with Radicals
 
 ## Core Idea

@@ -17,7 +17,7 @@ tags:
 - index structure
 - point query
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hash Indexes

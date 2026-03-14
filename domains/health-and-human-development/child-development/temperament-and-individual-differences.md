@@ -10,14 +10,14 @@ prerequisites:
   type: soft
 builds-toward:
 - toddler-social-emotional-development
-- parenting-styles-and-outcomes
+- parenting-styles-and-outcomes-child-dev
 tags:
 - temperament
 - easy-difficult-slow-to-warm
 - goodness-of-fit
 - individual-differences
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Temperament and Individual Differences in Infants

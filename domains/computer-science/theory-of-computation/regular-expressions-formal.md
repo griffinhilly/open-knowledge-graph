@@ -18,7 +18,7 @@ tags:
 - regular
 - kleene-star
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Regular Expressions (Formal Language Theory)

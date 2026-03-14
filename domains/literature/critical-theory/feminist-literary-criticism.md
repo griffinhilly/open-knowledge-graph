@@ -22,7 +22,7 @@ tags:
 - Woolf
 - Gilbert-and-Gubar
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Feminist Literary Criticism

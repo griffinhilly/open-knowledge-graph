@@ -4,21 +4,38 @@ title: Multi-Digit Multiplication
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: place-value-whole-numbers
-    type: hard
-  - id: multiples-of-ten
-    type: hard
-  - id: distributive-property-intro
-    type: soft
+- id: place-value-whole-numbers
+  type: hard
+- id: multiples-of-ten
+  type: hard
+- id: distributive-property-intro
+  type: soft
+- id: arrays
+  type: soft
+- id: equal-groups
+  type: soft
+- id: repeated-addition-to-multiplication
+  type: soft
+- id: associative-property-multiplication
+  type: soft
+- id: estimation-in-multiplication
+  type: soft
+- id: multiplication-facts-within-100
+  type: soft
+- id: two-digit-by-one-digit-multiplication
+  type: soft
 builds-toward:
-  - intro-to-long-division
-  - multiplying-decimals
-  - area-of-rectangles
-tags: [arithmetic, multiplication, place-value, algorithms]
+- intro-to-long-division
+- multiplying-decimals
+- area-of-rectangles
+tags:
+- arithmetic
+- multiplication
+- place-value
+- algorithms
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Multi-Digit Multiplication
 
 ## Core Idea

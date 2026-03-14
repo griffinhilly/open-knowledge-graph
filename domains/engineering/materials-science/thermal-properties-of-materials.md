@@ -20,7 +20,7 @@ tags:
 - heat-capacity
 - thermal-properties
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermal Properties of Materials

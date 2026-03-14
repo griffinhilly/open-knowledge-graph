@@ -15,7 +15,7 @@ tags:
 - quantum yield
 - fluorimetry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Fluorescence Spectroscopy

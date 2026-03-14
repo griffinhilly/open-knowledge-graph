@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: enantiomers-and-chirality
   type: hard
+- id: diastereomers-and-meso-compounds
+  type: soft
 builds-toward:
 - sn1-reaction
 - e2-elimination
@@ -21,9 +23,8 @@ tags:
 - inversion
 - Walden inversion
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # SN2 Substitution Reactions
 
 ## Core Idea

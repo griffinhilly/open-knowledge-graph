@@ -4,15 +4,19 @@ title: Prime and Composite Numbers
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: factors-and-multiples
-    type: hard
+- id: factors-and-multiples
+  type: hard
+- id: multiples-of-a-number
+  type: soft
 builds-toward:
-  - equivalent-fractions
-tags: [number-theory, primes, factors]
+- equivalent-fractions
+tags:
+- number-theory
+- primes
+- factors
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Prime and Composite Numbers
 
 ## Core Idea

@@ -16,7 +16,7 @@ tags:
 - treble
 - bass
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # The Staff and Clefs

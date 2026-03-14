@@ -19,7 +19,7 @@ tags:
 - outcomes
 - welfare
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Consequentialism

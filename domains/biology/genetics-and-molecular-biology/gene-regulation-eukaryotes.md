@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: eukaryotic-cells
   type: soft
+- id: translation
+  type: soft
 builds-toward:
 - epigenetics-intro
 - crispr-gene-editing
@@ -21,9 +23,8 @@ tags:
 - promoter
 - gene regulation
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Gene Regulation in Eukaryotes
 
 ## Core Idea

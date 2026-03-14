@@ -18,7 +18,7 @@ tags:
 - western boundary currents
 - subtropical gyre
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ocean Gyres and Western Boundary Currents

@@ -20,7 +20,7 @@ tags:
 - model testing
 - dimensionless groups
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dimensional Analysis and Dynamic Similarity

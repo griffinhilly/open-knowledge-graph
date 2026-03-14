@@ -4,19 +4,25 @@ title: Multiplying Decimals
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: multi-digit-multiplication
-    type: hard
-  - id: decimal-place-value
-    type: hard
-  - id: powers-of-ten
-    type: soft
+- id: multi-digit-multiplication
+  type: hard
+- id: decimal-place-value
+  type: hard
+- id: powers-of-ten
+  type: soft
+- id: adding-subtracting-decimals
+  type: soft
+- id: multiplying-dividing-by-powers-of-ten
+  type: soft
 builds-toward:
-  - dividing-decimals
-tags: [decimals, multiplication, arithmetic]
+- dividing-decimals
+tags:
+- decimals
+- multiplication
+- arithmetic
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Multiplying Decimals
 
 ## Core Idea

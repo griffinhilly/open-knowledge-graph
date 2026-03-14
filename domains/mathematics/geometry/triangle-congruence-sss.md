@@ -13,7 +13,7 @@ builds-toward:
   - triangle-congruence-sas
 tags: [congruence, triangles, SSS, proof]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Triangle Congruence: SSS

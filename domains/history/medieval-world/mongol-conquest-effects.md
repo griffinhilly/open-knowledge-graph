@@ -9,8 +9,7 @@ prerequisites:
 - id: islamic-caliphates
   type: soft
 builds-toward:
-- black-death
-- silk-road-medieval-era
+  - black-death
 tags:
 - aftermath
 - plague
@@ -18,9 +17,8 @@ tags:
 - cultural-exchange
 - depopulation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Effects of Mongol Conquest on Eurasia
 
 ## Core Idea

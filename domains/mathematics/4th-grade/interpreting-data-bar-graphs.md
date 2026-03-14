@@ -4,18 +4,24 @@ title: Interpreting Data and Bar Graphs
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: multi-digit-addition
-    type: soft
-  - id: multi-digit-subtraction
-    type: soft
+- id: multi-digit-addition
+  type: soft
+- id: multi-digit-subtraction
+  type: soft
+- id: scaled-picture-graphs
+  type: soft
+- id: line-plots
+  type: soft
 builds-toward:
-  - interpreting-data-tables
-  - line-graphs
-tags: [data, graphs, problem-solving]
+- interpreting-data-tables
+- line-graphs
+tags:
+- data
+- graphs
+- problem-solving
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Interpreting Data and Bar Graphs
 
 ## Core Idea

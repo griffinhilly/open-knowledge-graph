@@ -9,9 +9,9 @@ prerequisites:
 - id: working-memory-model
   type: soft
 builds-toward:
-- analogical-reasoning
-- deductive-reasoning
-- inductive-reasoning
+- analogical-reasoning-cognitive
+- deductive-reasoning-cognitive
+- inductive-reasoning-cognitive
 - cognitive-biases-overview
 tags:
 - problem-solving
@@ -19,7 +19,7 @@ tags:
 - algorithms
 - insight
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Problem Solving and Heuristic Strategies

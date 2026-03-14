@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: ancient-greek-art
   type: soft
+- id: dutch-golden-age-painting
+  type: soft
 builds-toward:
 - impressionism-and-post-impressionism
 - art-history-style-and-period
@@ -21,9 +23,8 @@ tags:
 - sublime
 - Enlightenment
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Neoclassicism and Romanticism
 
 ## Core Idea

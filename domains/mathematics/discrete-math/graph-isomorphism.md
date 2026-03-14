@@ -14,7 +14,7 @@ tags:
 - invariants
 - bijection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graph Isomorphism

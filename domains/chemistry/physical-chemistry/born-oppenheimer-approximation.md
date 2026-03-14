@@ -22,7 +22,7 @@ tags:
 - electronic-structure
 - potential-energy-surface
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Born-Oppenheimer Approximation

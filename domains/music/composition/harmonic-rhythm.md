@@ -25,7 +25,7 @@ tags:
 - energy
 - texture
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Harmonic Rhythm

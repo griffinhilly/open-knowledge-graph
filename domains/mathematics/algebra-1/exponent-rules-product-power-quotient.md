@@ -15,7 +15,7 @@ builds-toward:
   - scientific-notation-operations
 tags: [exponents, rules, product-rule, power-rule, quotient-rule]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Exponent Rules — Product, Power, and Quotient

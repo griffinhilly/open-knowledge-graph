@@ -15,7 +15,7 @@ tags:
 - algorithm
 - thesis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Church-Turing Thesis

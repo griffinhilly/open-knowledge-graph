@@ -18,7 +18,7 @@ tags:
 - traversal
 - sequences
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # For Loops

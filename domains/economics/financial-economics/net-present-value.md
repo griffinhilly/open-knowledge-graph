@@ -17,7 +17,7 @@ tags:
 - capital-budgeting
 - dcf
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Net Present Value (NPV)

@@ -4,19 +4,23 @@ title: Rounding Decimals
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: decimal-place-value
-    type: hard
-  - id: rounding-whole-numbers
-    type: hard
-  - id: comparing-decimals
-    type: soft
+- id: decimal-place-value
+  type: hard
+- id: rounding-whole-numbers
+  type: hard
+- id: comparing-decimals
+  type: soft
+- id: estimation-strategies
+  type: soft
 builds-toward:
-  - estimation-with-decimals
-tags: [decimals, estimation, rounding]
+- estimation-with-decimals
+tags:
+- decimals
+- estimation
+- rounding
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Rounding Decimals
 
 ## Core Idea

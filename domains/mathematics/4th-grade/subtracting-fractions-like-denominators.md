@@ -10,7 +10,7 @@ builds-toward:
   - subtracting-fractions-unlike-denominators
 tags: [fractions, subtraction, arithmetic]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Subtracting Fractions with Like Denominators

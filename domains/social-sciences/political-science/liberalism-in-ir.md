@@ -19,7 +19,7 @@ tags:
 - international institutions
 - Kant
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Liberalism in International Relations

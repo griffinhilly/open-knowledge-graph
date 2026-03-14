@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: ming-qing-china
   type: soft
+- id: columbian-exchange
+  type: soft
 builds-toward:
 - colonial-plantation-economy
 tags:
@@ -25,9 +27,8 @@ tags:
 - joint-stock
 - capitalism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Early Modern Global Trade Networks
 
 ## Core Idea

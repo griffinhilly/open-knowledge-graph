@@ -13,7 +13,7 @@ builds-toward:
   - solving-rational-equations
 tags: [rational-functions, asymptotes, vertical, horizontal, oblique]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Rational Functions and Asymptotes

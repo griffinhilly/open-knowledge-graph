@@ -25,7 +25,7 @@ tags:
 - analysis
 - performance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Time and Space Complexity

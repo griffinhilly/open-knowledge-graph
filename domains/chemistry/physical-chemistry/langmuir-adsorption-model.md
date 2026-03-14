@@ -21,7 +21,7 @@ tags:
 - physisorption
 - isotherm
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Adsorption Isotherms: Langmuir and BET Models

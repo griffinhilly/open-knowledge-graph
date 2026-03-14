@@ -4,18 +4,22 @@ title: Percent Increase and Decrease
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: percent-of-a-number
-    type: hard
-  - id: subtracting-integers
-    type: soft
+- id: percent-of-a-number
+  type: hard
+- id: subtracting-integers
+  type: soft
 builds-toward:
-  - simple-interest
-  - exponential-growth
-tags: [percent, change, increase, decrease, applications]
+- simple-interest
+- exponential-growth-and-decay
+tags:
+- percent
+- change
+- increase
+- decrease
+- applications
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Percent Increase and Decrease
 
 ## Core Idea

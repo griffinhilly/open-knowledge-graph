@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: modulation-techniques
   type: soft
+- id: classical-sonata-form
+  type: soft
+- id: opera-history
+  type: soft
 builds-toward:
 - romantic-nationalism-in-music
 - impressionism-in-music
@@ -24,9 +28,8 @@ tags:
 - Brahms
 - Liszt
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Romantic Period: Emotion, Expression, and Expansion
 
 ## Core Idea

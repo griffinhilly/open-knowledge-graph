@@ -10,7 +10,7 @@ builds-toward:
   - derivatives-of-trigonometric-functions
 tags: [limits, squeeze-theorem, special-limits]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Squeeze Theorem

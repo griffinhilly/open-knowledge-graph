@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: acid-base-chemistry
   type: soft
-builds-toward:
-- nucleophilic-acyl-substitution
+builds-toward: []
 tags:
 - enolate
 - enol
@@ -21,9 +20,8 @@ tags:
 - Claisen
 - alpha alkylation
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Enols, Enolates, and the Aldol Reaction
 
 ## Core Idea

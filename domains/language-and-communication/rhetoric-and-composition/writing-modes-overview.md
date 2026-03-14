@@ -20,7 +20,7 @@ tags:
 - persuasive
 - descriptive
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Four Writing Modes

@@ -20,7 +20,7 @@ tags:
 - limited-government
 - consent
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Lockean Natural Rights and Limited Government

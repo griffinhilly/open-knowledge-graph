@@ -4,20 +4,27 @@ title: Two-Step Equations
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: one-step-equations
-    type: hard
-  - id: distributive-property
-    type: soft
-  - id: combining-like-terms
-    type: soft
+- id: one-step-equations
+  type: hard
+- id: distributive-property
+  type: soft
+- id: combining-like-terms
+  type: soft
+- id: rational-numbers-operations
+  type: soft
+- id: writing-and-interpreting-expressions
+  type: soft
 builds-toward:
-  - solving-multi-step-equations
-  - equations-variables-both-sides
-tags: [equations, solving, two-step, algebra]
+- solving-multi-step-equations
+- equations-variables-both-sides
+tags:
+- equations
+- solving
+- two-step
+- algebra
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Two-Step Equations
 
 ## Core Idea

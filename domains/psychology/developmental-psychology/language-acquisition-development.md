@@ -23,7 +23,7 @@ tags:
 - vocabulary explosion
 - grammar
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Language Acquisition in Development

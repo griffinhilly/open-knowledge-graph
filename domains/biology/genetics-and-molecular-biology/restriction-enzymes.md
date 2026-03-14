@@ -16,7 +16,7 @@ tags:
 - blunt ends
 - palindrome
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Restriction Enzymes and DNA Cutting

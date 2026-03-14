@@ -19,7 +19,7 @@ tags:
 - cyclone
 - geostrophic-wind
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Pressure Systems and Surface Winds

@@ -21,7 +21,7 @@ tags:
 - natural selection
 - population genetics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Population Genetics and Hardy-Weinberg Equilibrium

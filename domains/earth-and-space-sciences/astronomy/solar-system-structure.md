@@ -23,7 +23,7 @@ tags:
 - kuiper-belt
 - oort-cloud
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Structure of the Solar System

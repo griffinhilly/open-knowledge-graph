@@ -4,18 +4,23 @@ title: One-Step Inequalities
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: one-step-equations
-    type: hard
-  - id: integers-and-number-line
-    type: hard
+- id: one-step-equations
+  type: hard
+- id: integers-and-number-line
+  type: hard
+- id: comparing-and-ordering-integers
+  type: soft
 builds-toward:
-  - solving-inequalities
-  - compound-inequalities
-tags: [inequalities, solving, number-line, graphing]
+- solving-inequalities
+- compound-inequalities
+tags:
+- inequalities
+- solving
+- number-line
+- graphing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # One-Step Inequalities
 
 ## Core Idea

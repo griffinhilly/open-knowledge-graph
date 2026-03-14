@@ -20,7 +20,7 @@ tags:
 - literacy
 - media
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Gutenberg's Printing Press and the Information Revolution

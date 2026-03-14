@@ -21,7 +21,7 @@ tags:
 - depreciation
 - purchasing-power-parity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Exchange Rates

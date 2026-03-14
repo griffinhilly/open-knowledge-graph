@@ -21,7 +21,7 @@ tags:
 - chambers
 - valves
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cardiac Anatomy and the Electrical Conduction System

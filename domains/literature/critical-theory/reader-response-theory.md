@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: linguistic-pragmatics
   type: soft
+- id: narratology
+  type: soft
 builds-toward:
 - cultural-studies-approach
 tags:
@@ -21,9 +23,8 @@ tags:
 - interpretive-communities
 - implied-reader
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Reader-Response Theory
 
 ## Core Idea

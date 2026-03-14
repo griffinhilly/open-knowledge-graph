@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: logarithms-intro
   type: hard
+- id: resonance-strings-and-pipes
+  type: soft
+- id: wave-energy-and-intensity
+  type: soft
 builds-toward:
 - doppler-effect
 tags:
@@ -17,9 +21,8 @@ tags:
 - sound level
 - power
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Sound Intensity and the Decibel Scale
 
 ## Core Idea

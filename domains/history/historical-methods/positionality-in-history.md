@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: historiography-intro
   type: soft
+- id: silences-in-the-archive
+  type: soft
 builds-toward:
 - oral-history-methods
 - public-history-and-audience
@@ -17,9 +19,8 @@ tags:
 - methodology
 - identity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Positionality and the Historian
 
 ## Core Idea

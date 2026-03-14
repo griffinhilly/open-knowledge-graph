@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: resonance-and-formal-charge
   type: soft
+- id: diastereomers-and-meso-compounds
+  type: soft
 builds-toward:
 - e1-elimination
 - alcohols-and-ethers
@@ -19,9 +21,8 @@ tags:
 - racemization
 - rearrangement
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # SN1 Substitution Reactions
 
 ## Core Idea

@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: greens-theorem
   type: soft
+- id: stokes-theorem
+  type: soft
 tags:
 - divergence-theorem
 - Gauss-theorem
@@ -19,9 +21,8 @@ tags:
 - boundary
 - volume-integral
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # The Divergence Theorem
 
 ## Core Idea

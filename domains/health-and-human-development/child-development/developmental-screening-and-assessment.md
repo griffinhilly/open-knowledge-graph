@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: disease-prevention-levels
   type: soft
+- id: school-age-cognitive-and-social-development
+  type: soft
+- id: teratogens-and-prenatal-risk
+  type: soft
 builds-toward:
 - autism-spectrum-disorder-overview
 - adhd-and-executive-function-development
@@ -23,9 +27,8 @@ tags:
 - ASQ
 - early-identification
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Developmental Screening and Assessment
 
 ## Core Idea

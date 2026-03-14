@@ -18,7 +18,7 @@ tags:
 - equivalence
 - context-free-languages
 stage: advanced
-status: draft
+status: validated
 ---
 
 # CFG–PDA Equivalence

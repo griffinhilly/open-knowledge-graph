@@ -18,7 +18,7 @@ tags:
 - geometry
 - fair-sharing
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Halves and Quarters of Shapes

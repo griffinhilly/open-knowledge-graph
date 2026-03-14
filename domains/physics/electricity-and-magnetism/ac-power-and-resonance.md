@@ -17,7 +17,7 @@ tags:
 - bandwidth
 - transformers
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # AC Power and Resonance

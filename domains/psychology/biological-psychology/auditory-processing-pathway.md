@@ -17,7 +17,7 @@ tags:
 - hearing
 - frequency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Auditory Processing Pathway

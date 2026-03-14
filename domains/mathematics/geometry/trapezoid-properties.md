@@ -12,7 +12,7 @@ builds-toward:
   - coordinate-geometry-proofs
 tags: [quadrilaterals, trapezoids, midsegment, isosceles-trapezoid]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Trapezoid Properties

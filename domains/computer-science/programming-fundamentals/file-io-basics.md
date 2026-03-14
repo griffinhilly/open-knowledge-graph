@@ -18,7 +18,7 @@ tags:
 - context manager
 - persistence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # File I/O Basics

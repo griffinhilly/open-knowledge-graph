@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: energy-stored-in-fields
   type: soft
+- id: ac-power-and-resonance
+  type: soft
 tags:
 - EM-waves
 - speed-of-light
@@ -15,9 +17,8 @@ tags:
 - spectrum
 - radiation
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Electromagnetic Waves
 
 ## Core Idea

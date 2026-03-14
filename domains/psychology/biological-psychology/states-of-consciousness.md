@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: subcortical-structures
   type: soft
+- id: limbic-system-and-emotion
+  type: soft
 builds-toward:
 - drug-classes-and-effects
 tags:
@@ -20,9 +22,8 @@ tags:
 - altered-states
 - anesthesia
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # States of Consciousness
 
 ## Core Idea

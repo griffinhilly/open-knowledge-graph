@@ -23,7 +23,7 @@ tags:
 - starch
 - sugars
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Carbohydrate Structure, Classification, and Function

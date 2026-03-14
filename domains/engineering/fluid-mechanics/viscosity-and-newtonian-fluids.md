@@ -17,7 +17,7 @@ tags:
 - non-Newtonian
 - no-slip condition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Viscosity and Newtonian Fluid Behavior

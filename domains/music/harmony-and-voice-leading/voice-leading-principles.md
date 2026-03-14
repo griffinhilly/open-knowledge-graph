@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: triads
   type: soft
+- id: figured-bass
+  type: soft
+- id: non-chord-tones
+  type: soft
 builds-toward:
 - four-part-writing
 - counterpoint-basics
@@ -22,9 +26,8 @@ tags:
 - contrary-motion
 - voice-independence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Voice Leading Principles
 
 ## Core Idea

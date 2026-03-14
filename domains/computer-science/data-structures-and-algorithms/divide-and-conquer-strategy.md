@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: recurrence-relations
   type: soft
+- id: binary-search-algorithm
+  type: soft
 builds-toward:
 - merge-sort
 - quicksort
@@ -21,9 +23,8 @@ tags:
 - algorithm-design
 - master-theorem
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Divide and Conquer
 
 ## Core Idea

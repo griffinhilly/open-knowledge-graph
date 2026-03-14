@@ -21,7 +21,7 @@ tags:
 - leaf
 - height
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary Trees

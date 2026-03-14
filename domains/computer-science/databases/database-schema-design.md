@@ -20,7 +20,7 @@ tags:
 - data modeling
 - constraints
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Database Schema Design

@@ -14,7 +14,7 @@ tags:
 - fiber optics
 - TIR
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Total Internal Reflection

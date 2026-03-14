@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: neuron-structure-and-function
   type: soft
+- id: glial-cells-and-support
+  type: soft
 tags:
 - LTP
 - LTD
@@ -20,9 +22,8 @@ tags:
 - learning
 - development
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Neuroplasticity
 
 ## Core Idea

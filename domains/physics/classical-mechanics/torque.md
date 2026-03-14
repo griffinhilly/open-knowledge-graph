@@ -22,7 +22,7 @@ tags:
 - moment-arm
 - lever
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Torque

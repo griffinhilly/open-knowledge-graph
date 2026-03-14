@@ -13,7 +13,7 @@ builds-toward:
   - coordinate-geometry-proofs
 tags: [triangles, isosceles, congruence, base-angles]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Isosceles Triangle Theorem

@@ -15,7 +15,7 @@ tags:
 - patterns
 - pairs
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Even and Odd Numbers

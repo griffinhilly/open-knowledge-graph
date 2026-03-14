@@ -25,7 +25,7 @@ tags:
 - overturning circulation
 - AMOC
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Thermohaline Circulation and Deep Ocean Conveyor

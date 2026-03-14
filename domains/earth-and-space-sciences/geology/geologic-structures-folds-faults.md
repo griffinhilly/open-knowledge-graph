@@ -20,7 +20,7 @@ tags:
 - normal-fault
 - structural-geology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Geologic Structures: Folds and Faults

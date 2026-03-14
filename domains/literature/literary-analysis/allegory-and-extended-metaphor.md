@@ -22,7 +22,7 @@ tags:
 - symbolism
 - meaning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Allegory and Extended Metaphor

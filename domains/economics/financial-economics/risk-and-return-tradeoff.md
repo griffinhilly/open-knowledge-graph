@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: consumer-theory-utility
   type: soft
+- id: stock-valuation-fundamentals
+  type: soft
+- id: term-structure-of-interest-rates
+  type: soft
+- id: yield-to-maturity
+  type: soft
 builds-toward:
 - expected-return-and-variance-of-assets
 - portfolio-diversification
@@ -20,9 +26,8 @@ tags:
 - return
 - sharpe-ratio
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Risk and Return Tradeoff
 
 ## Core Idea

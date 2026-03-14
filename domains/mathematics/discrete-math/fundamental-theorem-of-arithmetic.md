@@ -16,7 +16,7 @@ tags:
 - unique-factorization
 - euclids-lemma
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Fundamental Theorem of Arithmetic

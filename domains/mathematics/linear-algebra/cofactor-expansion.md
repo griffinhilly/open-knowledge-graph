@@ -17,7 +17,7 @@ tags:
 - n-by-n determinant
 - recursive
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cofactor Expansion and n×n Determinants

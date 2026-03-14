@@ -15,7 +15,7 @@ tags:
 - real-numbers
 - power-set
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cantor's Diagonalization Argument

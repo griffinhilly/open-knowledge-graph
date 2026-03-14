@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: measuring-length-with-ruler
   type: soft
+- id: estimating-lengths
+  type: soft
+- id: line-plots-3rd
+  type: soft
 builds-toward:
 - data-and-graphs-intro
 - mean-median-mode
@@ -17,9 +21,8 @@ tags:
 - measurement
 - display
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Line Plots with Measurement Data
 
 ## Core Idea

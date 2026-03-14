@@ -14,7 +14,7 @@ tags:
 - rule-utilitarianism
 - normative-ethics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Act Utilitarianism vs. Rule Utilitarianism

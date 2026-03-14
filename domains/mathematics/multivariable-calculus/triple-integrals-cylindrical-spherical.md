@@ -19,7 +19,7 @@ tags:
 - volume
 - mass
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Triple Integrals in Cylindrical and Spherical Coordinates

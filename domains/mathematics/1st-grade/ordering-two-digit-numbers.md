@@ -13,7 +13,7 @@ tags:
 - number-sense
 - least-to-greatest
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Ordering Two-Digit Numbers

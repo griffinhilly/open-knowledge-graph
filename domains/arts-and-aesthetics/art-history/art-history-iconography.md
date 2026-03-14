@@ -6,6 +6,10 @@ course: art-history
 prerequisites:
 - id: prehistoric-art-origins
   type: soft
+- id: ancient-egyptian-art
+  type: soft
+- id: ancient-greek-art
+  type: soft
 builds-toward:
 - byzantine-and-medieval-art
 - renaissance-humanism-and-art
@@ -18,9 +22,8 @@ tags:
 - Panofsky
 - meaning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Iconography and Iconology
 
 ## Core Idea

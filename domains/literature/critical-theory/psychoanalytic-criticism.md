@@ -20,7 +20,7 @@ tags:
 - desire
 - repression
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Psychoanalytic Literary Criticism

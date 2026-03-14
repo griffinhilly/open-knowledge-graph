@@ -4,20 +4,24 @@ title: Solving Quadratic Equations by Completing the Square
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: solving-quadratic-equations-by-factoring
-    type: hard
-  - id: square-roots
-    type: hard
+- id: solving-quadratics-by-factoring
+  type: hard
+- id: square-roots-intro
+  type: hard
+- id: operations-with-complex-numbers
+  type: soft
 builds-toward:
-  - quadratic-formula-review
-  - graphing-quadratic-functions
-  - conic-sections-circles
-  - conic-sections-parabolas
-tags: [quadratics, completing-the-square, solving-equations]
+- quadratic-formula-review
+- graphing-quadratic-functions
+- conic-sections-circles
+- conic-sections-parabolas
+tags:
+- quadratics
+- completing-the-square
+- solving-equations
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Solving Quadratic Equations by Completing the Square
 
 ## Core Idea

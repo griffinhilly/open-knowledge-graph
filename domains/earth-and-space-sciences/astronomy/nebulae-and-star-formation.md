@@ -20,7 +20,7 @@ tags:
 - reflection-nebulae
 - dark-nebulae
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nebulae and Star Formation

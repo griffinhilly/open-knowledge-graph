@@ -16,7 +16,7 @@ tags:
 - technology
 - extrapolation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Science Fiction: Conventions and Themes

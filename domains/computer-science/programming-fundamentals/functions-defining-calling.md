@@ -21,7 +21,7 @@ tags:
 - abstraction
 - modularity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Defining and Calling Functions

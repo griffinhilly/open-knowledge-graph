@@ -23,7 +23,7 @@ tags:
 - deindustrialization
 - export processing zones
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Industrial Location Theory and Deindustrialization

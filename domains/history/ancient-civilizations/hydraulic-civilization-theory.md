@@ -20,7 +20,7 @@ tags:
 - state-formation
 - despotism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Hydraulic Civilization Theory: Rivers and State Power

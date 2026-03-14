@@ -19,7 +19,7 @@ tags:
 - magnitude
 - fault-rupture
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Earthquakes and Seismology

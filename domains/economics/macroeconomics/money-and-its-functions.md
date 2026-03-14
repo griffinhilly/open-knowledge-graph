@@ -19,7 +19,7 @@ tags:
 - unit-of-account
 - commodity-money
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Money and Its Functions

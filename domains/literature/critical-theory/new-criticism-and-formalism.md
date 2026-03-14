@@ -22,7 +22,7 @@ tags:
 - organic-unity
 - close-reading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # New Criticism and Formalism

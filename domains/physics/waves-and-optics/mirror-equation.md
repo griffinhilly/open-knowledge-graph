@@ -15,7 +15,7 @@ tags:
 - object distance
 - image distance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Mirror Equation and Magnification

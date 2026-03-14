@@ -13,7 +13,7 @@ builds-toward:
   - inverse-functions-review
 tags: [functions, composition]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Composition of Functions

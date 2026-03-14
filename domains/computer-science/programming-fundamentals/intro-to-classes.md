@@ -18,7 +18,7 @@ tags:
 - object-oriented
 - encapsulation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to Classes

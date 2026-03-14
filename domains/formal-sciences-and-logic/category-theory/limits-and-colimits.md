@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: natural-transformations
   type: soft
+- id: comma-categories
+  type: soft
 builds-toward:
 - pullbacks-and-pushouts
 - adjoint-functors
@@ -24,9 +26,8 @@ tags:
 - diagram
 - completeness
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Limits and Colimits
 
 ## Core Idea

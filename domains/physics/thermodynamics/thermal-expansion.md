@@ -14,7 +14,7 @@ tags:
 - linear-expansion
 - volumetric-expansion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermal Expansion

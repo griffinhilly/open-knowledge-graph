@@ -15,7 +15,7 @@ tags:
 - waiting-time
 - cpu-burst
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # CPU Scheduling Fundamentals

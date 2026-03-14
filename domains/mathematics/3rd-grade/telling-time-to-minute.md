@@ -15,7 +15,7 @@ tags:
 - analog
 - digital
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Telling Time to the Nearest Minute

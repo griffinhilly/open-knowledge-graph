@@ -21,7 +21,7 @@ tags:
 - outline
 - main-points
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Speech Structure and Organization

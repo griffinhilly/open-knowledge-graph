@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: price-elasticity-of-demand
   type: hard
+- id: perfect-competition
+  type: soft
+- id: shutdown-and-breakeven
+  type: soft
 builds-toward:
 - price-discrimination
 - natural-monopoly
@@ -19,9 +23,8 @@ tags:
 - deadweight loss
 - markup
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Monopoly
 
 ## Core Idea

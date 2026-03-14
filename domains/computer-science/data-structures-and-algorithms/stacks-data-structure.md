@@ -17,7 +17,7 @@ tags:
 - data-structures
 - push-pop
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stacks

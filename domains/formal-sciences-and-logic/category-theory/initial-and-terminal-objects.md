@@ -18,7 +18,7 @@ tags:
 - zero object
 - duality
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Initial and Terminal Objects

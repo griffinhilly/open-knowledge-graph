@@ -14,7 +14,7 @@ tags:
 - afferent
 - efferent
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Central vs. Peripheral Nervous System

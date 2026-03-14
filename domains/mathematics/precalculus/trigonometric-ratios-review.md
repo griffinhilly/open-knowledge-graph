@@ -4,7 +4,7 @@ title: Trigonometric Ratios Review
 domain: mathematics
 course: precalculus
 prerequisites:
-  - id: right-triangle-geometry
+  - id: right-triangle-trigonometry-intro
     type: hard
 builds-toward:
   - unit-circle
@@ -12,7 +12,7 @@ builds-toward:
   - law-of-cosines
 tags: [trigonometry, ratios, right-triangles]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Trigonometric Ratios Review

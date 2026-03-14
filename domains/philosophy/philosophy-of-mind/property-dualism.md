@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: physicalism-about-mind
   type: soft
+- id: hard-problem-of-consciousness
+  type: soft
+- id: philosophical-zombies
+  type: soft
+- id: substance-dualism
+  type: soft
 builds-toward:
 - epiphenomenalism
 - anomalous-monism
@@ -19,9 +25,8 @@ tags:
 - non-reductive
 - Chalmers
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Property Dualism
 
 ## Core Idea

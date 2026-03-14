@@ -17,7 +17,7 @@ tags:
 - experimenter-bias
 - placebo
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Blinding and Demand Characteristics

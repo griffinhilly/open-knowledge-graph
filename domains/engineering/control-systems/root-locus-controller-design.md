@@ -17,7 +17,7 @@ tags:
 - angle-condition
 - design-specs
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Controller Design via Root Locus

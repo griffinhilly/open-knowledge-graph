@@ -11,7 +11,7 @@ builds-toward:
   - fundamental-theorem-of-calculus-part-2
 tags: [integration, indefinite, notation]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Indefinite Integrals

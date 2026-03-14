@@ -14,7 +14,7 @@ builds-toward:
   - polar-arc-length
 tags: [polar, area, integration]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Area in Polar Coordinates

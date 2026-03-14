@@ -19,7 +19,7 @@ tags:
 - stratosphere
 - composition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Atmosphere Composition and Structure

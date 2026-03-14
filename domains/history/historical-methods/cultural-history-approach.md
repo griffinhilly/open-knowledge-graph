@@ -16,7 +16,7 @@ tags:
 - meaning
 - discourse
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cultural History

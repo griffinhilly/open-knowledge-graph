@@ -19,7 +19,7 @@ tags:
 - variables
 - experimental-control
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Variables: Independent, Dependent, and Confounding

@@ -4,22 +4,58 @@ title: Coordinate Geometry Proofs
 domain: mathematics
 course: geometry
 prerequisites:
-  - id: midpoint-formula
-    type: hard
-  - id: pythagorean-theorem
-    type: hard
-  - id: parallelogram-properties
-    type: hard
-  - id: slope-of-a-line
-    type: hard
+- id: midpoint-formula
+  type: hard
+- id: pythagorean-theorem
+  type: hard
+- id: parallelogram-properties
+  type: hard
+- id: slope-concept
+  type: hard
+- id: angle-bisectors
+  type: soft
+- id: dilations
+  type: soft
+- id: geometric-transformations-translations
+  type: soft
+- id: inscribed-angles
+  type: soft
+- id: isosceles-triangle-theorem
+  type: soft
+- id: medians-and-centroids
+  type: soft
+- id: midsegment-theorem
+  type: soft
+- id: perpendicular-bisectors
+  type: soft
+- id: proportions-in-similar-triangles
+  type: soft
+- id: pythagorean-theorem-converse
+  type: soft
+- id: rectangle-properties
+  type: soft
+- id: reflections
+  type: soft
+- id: rhombus-properties
+  type: soft
+- id: rotations
+  type: soft
+- id: tangent-lines-to-circles
+  type: soft
+- id: trapezoid-properties
+  type: soft
 builds-toward:
-  - conic-sections-circles
-  - conic-sections-parabolas
-tags: [coordinate-geometry, proofs, slope, distance, midpoint]
+- conic-sections-circles
+- conic-sections-parabolas
+tags:
+- coordinate-geometry
+- proofs
+- slope
+- distance
+- midpoint
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Coordinate Geometry Proofs
 
 ## Core Idea

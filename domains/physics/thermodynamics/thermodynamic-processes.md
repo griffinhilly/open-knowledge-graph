@@ -21,7 +21,7 @@ tags:
 - isobaric
 - isochoric
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermodynamic Processes and the PV Diagram

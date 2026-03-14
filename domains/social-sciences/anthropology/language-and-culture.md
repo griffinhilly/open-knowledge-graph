@@ -18,7 +18,7 @@ tags:
 - discourse
 - code-switching
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Language and Culture: Linguistic Anthropology

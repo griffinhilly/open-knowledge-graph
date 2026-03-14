@@ -24,7 +24,7 @@ tags:
 - PNS
 - lobes
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Neuroanatomy: Brain, Spinal Cord, and Peripheral Nervous System

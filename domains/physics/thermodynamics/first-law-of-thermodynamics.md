@@ -21,7 +21,7 @@ tags:
 - heat
 - work
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First Law of Thermodynamics

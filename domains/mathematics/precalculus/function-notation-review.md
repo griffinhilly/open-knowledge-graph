@@ -4,14 +4,14 @@ title: Function Notation Review
 domain: mathematics
 course: precalculus
 prerequisites:
-  - id: algebraic-expressions
+  - id: variable-expressions
     type: hard
 builds-toward:
   - domain-and-range
   - function-transformations
 tags: [functions, notation, algebra-review]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Function Notation Review

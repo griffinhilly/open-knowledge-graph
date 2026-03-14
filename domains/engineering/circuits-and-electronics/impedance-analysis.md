@@ -21,7 +21,7 @@ tags:
 - susceptance
 - frequency-dependent
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Impedance and Admittance in AC Circuits

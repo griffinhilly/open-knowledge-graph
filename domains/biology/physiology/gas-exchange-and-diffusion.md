@@ -21,7 +21,7 @@ tags:
 - hemoglobin
 - oxygen dissociation curve
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gas Exchange and Diffusion

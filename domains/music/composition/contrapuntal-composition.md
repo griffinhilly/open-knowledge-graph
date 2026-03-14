@@ -6,15 +6,14 @@ course: composition
 prerequisites:
 - id: species-counterpoint
   type: hard
-- id: counterpoint-basics
-  type: hard
 - id: motivic-development
   type: soft
 - id: baroque-counterpoint-and-fugue
   type: soft
+- id: bass-line-composition
+  type: soft
 builds-toward:
-- texture-in-composition
-- climax-and-tension-release
+  - climax-and-tension-release
 tags:
 - counterpoint
 - polyphony
@@ -23,9 +22,8 @@ tags:
 - imitation
 - free-counterpoint
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Contrapuntal Composition
 
 ## Core Idea

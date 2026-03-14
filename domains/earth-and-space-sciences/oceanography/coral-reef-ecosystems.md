@@ -19,7 +19,7 @@ tags:
 - symbiosis
 - biodiversity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Coral Reef Ecosystems: Biology and Threats

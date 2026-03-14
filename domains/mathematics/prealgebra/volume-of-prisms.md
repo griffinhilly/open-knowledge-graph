@@ -4,20 +4,22 @@ title: Volume of Prisms
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: area-of-rectangles
-    type: hard
-  - id: area-of-triangles
-    type: soft
-  - id: multiplying-integers
-    type: hard
+- id: area-of-rectangles
+  type: hard
+- id: area-of-triangles
+  type: soft
+- id: multiplying-integers
+  type: hard
 builds-toward:
-  - volume-of-cylinders
-  - geometry-3d
-tags: [volume, prisms, 3d-shapes, geometry]
+- volume-of-prisms-and-cylinders
+tags:
+- volume
+- prisms
+- 3d-shapes
+- geometry
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Volume of Prisms
 
 ## Core Idea

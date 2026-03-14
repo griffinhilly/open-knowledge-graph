@@ -18,7 +18,7 @@ tags:
 - allele-frequency
 - small-populations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Genetic Drift

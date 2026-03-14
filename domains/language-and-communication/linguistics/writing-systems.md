@@ -19,7 +19,7 @@ tags:
 - orthography
 - literacy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Writing Systems

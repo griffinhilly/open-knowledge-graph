@@ -18,7 +18,7 @@ tags:
 - addiction
 - substance-use
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Drug Classes and Their Effects on Behavior

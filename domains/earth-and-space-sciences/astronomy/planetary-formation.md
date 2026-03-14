@@ -9,8 +9,7 @@ prerequisites:
 - id: electromagnetic-spectrum-astronomy
   type: soft
 builds-toward:
-- small-solar-system-bodies
-- nebulae-and-star-formation
+  - small-solar-system-bodies
 tags:
 - nebular-hypothesis
 - protoplanetary-disk
@@ -19,9 +18,8 @@ tags:
 - frost-line
 - planetesimals
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Planetary Formation: The Nebular Hypothesis
 
 ## Core Idea

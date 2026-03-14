@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: phonological-systems
   type: soft
+- id: constituency-and-phrases
+  type: soft
 builds-toward:
 - language-universals
 tags:
@@ -20,9 +22,8 @@ tags:
 - Chomsky
 - poverty of the stimulus
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Language Acquisition
 
 ## Core Idea

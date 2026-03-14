@@ -20,7 +20,7 @@ tags:
 - res-cogitans
 - interaction-problem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Substance Dualism

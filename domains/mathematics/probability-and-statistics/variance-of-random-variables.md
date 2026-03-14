@@ -17,7 +17,7 @@ tags:
 - random-variable
 - spread
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Variance and Standard Deviation of Random Variables

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: antibiotic-resistance-mechanisms
   type: soft
+- id: human-microbiome
+  type: soft
 tags:
 - zoonosis
 - spillover
@@ -19,9 +21,8 @@ tags:
 - SARS-CoV-2
 - pandemic preparedness
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Emerging Infectious Diseases
 
 ## Core Idea

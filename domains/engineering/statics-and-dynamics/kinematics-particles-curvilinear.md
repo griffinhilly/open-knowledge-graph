@@ -23,7 +23,7 @@ tags:
 - normal-tangential
 - polar coordinates
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Curvilinear Kinematics of Particles

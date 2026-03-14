@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: second-derivative-test
   type: soft
+- id: long-run-costs-economies-of-scale
+  type: soft
 builds-toward:
 - perfect-competition
 - monopoly-microeconomics
@@ -26,9 +28,8 @@ tags:
 - economic profit
 - marginal revenue
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Profit Maximization
 
 ## Core Idea

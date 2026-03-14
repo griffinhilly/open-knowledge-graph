@@ -18,7 +18,7 @@ tags:
 - levels-of-processing
 - elaboration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory Encoding and Levels of Processing

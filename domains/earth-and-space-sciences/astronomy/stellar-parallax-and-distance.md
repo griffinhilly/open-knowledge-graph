@@ -22,7 +22,7 @@ tags:
 - distance-ladder
 - trigonometry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stellar Parallax and Distance Measurement

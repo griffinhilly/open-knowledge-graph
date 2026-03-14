@@ -18,7 +18,7 @@ tags:
 - identity
 - Labov
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Sociolinguistics

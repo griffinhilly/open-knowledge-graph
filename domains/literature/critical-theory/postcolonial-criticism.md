@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: language-variation-and-change
   type: soft
+- id: feminist-literary-criticism
+  type: soft
 builds-toward:
 - cultural-studies-approach
 - intersectionality-in-criticism
@@ -24,9 +26,8 @@ tags:
 - hybridity
 - subaltern
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Postcolonial Criticism
 
 ## Core Idea

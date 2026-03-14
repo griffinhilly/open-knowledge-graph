@@ -16,7 +16,7 @@ tags:
 - existence-proof
 - combinatorics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Pigeonhole Principle

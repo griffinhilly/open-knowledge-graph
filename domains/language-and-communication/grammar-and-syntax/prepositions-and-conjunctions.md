@@ -18,7 +18,7 @@ tags:
 - conjunctions
 - connectives
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Prepositions and Conjunctions

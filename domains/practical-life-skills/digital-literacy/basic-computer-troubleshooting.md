@@ -12,7 +12,7 @@ tags:
 - tech-support
 - problem-solving
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Basic Computer Troubleshooting

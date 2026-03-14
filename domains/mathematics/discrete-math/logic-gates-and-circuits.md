@@ -16,7 +16,7 @@ tags:
 - combinational-circuits
 - functional-completeness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logic Gates and Combinational Circuits

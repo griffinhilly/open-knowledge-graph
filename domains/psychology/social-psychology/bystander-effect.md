@@ -16,7 +16,7 @@ tags:
 - helping
 - Latané Darley
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Bystander Effect and Diffusion of Responsibility

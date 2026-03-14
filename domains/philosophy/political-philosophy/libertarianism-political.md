@@ -17,7 +17,7 @@ tags:
 - entitlement-theory
 - self-ownership
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Political Libertarianism

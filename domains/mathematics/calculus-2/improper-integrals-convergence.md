@@ -4,18 +4,24 @@ title: Improper Integrals - Convergence
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: limits-at-infinity
-    type: hard
-  - id: fundamental-theorem-of-calculus-part-2
-    type: hard
+- id: limits-at-infinity
+  type: hard
+- id: fundamental-theorem-of-calculus-part-2
+  type: hard
+- id: lhopitals-rule
+  type: soft
+- id: partial-fraction-decomposition-integration
+  type: soft
 builds-toward:
-  - integral-test
-  - comparison-test
-tags: [integration, improper, convergence]
+- integral-test
+- comparison-test
+tags:
+- integration
+- improper
+- convergence
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Improper Integrals - Convergence
 
 ## Core Idea

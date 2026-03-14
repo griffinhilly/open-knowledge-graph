@@ -19,7 +19,7 @@ tags:
 - scale
 - spatial
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Place, Space, and Location

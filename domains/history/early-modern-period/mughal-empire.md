@@ -19,7 +19,7 @@ tags:
 - cultural synthesis
 - textiles
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Mughal Empire

@@ -17,7 +17,7 @@ tags:
 - unit of meaning
 - white space
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Poetic Line and Lineation

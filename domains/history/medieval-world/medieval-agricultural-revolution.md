@@ -18,7 +18,7 @@ tags:
 - population-growth
 - manorialism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Medieval Agricultural Revolution

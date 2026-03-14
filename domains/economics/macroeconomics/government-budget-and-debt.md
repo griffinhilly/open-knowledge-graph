@@ -17,7 +17,7 @@ tags:
 - fiscal-balance
 - crowding-out
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Government Budget, Deficit, and National Debt

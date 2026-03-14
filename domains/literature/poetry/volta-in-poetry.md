@@ -16,7 +16,7 @@ tags:
 - pivot
 - sonnet
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Volta

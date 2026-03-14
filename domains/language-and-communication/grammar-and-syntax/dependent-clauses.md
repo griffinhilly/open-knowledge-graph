@@ -18,7 +18,7 @@ tags:
 - subordination
 - sentence-structure
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Dependent Clauses: Adverb, Adjective, and Noun Clauses

@@ -20,7 +20,7 @@ tags:
 - Vermeer
 - vanitas
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Dutch Golden Age Painting

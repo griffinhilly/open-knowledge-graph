@@ -20,7 +20,7 @@ tags:
 - str
 - coercion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Type Conversion and Casting

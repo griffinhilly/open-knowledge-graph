@@ -14,6 +14,14 @@ prerequisites:
   type: soft
 - id: big-o-notation
   type: soft
+- id: debugging-basics
+  type: soft
+- id: list-comprehensions
+  type: soft
+- id: methods-and-attributes
+  type: soft
+- id: nested-loops
+  type: soft
 tags:
 - algorithms
 - pseudocode
@@ -22,9 +30,8 @@ tags:
 - sort
 - complexity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Algorithm Design Basics
 
 ## Core Idea

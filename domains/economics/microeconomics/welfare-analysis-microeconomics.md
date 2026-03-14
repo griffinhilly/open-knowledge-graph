@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: price-controls-and-deadweight-loss
   type: soft
+- id: perfect-competition
+  type: soft
+- id: price-discrimination
+  type: soft
 builds-toward:
 - externalities-and-market-failure
 - public-goods-and-common-resources
@@ -18,9 +22,8 @@ tags:
 - deadweight loss
 - policy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Welfare Analysis
 
 ## Core Idea

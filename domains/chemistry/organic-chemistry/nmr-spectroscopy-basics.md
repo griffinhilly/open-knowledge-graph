@@ -26,7 +26,7 @@ tags:
 - 1H NMR
 - 13C NMR
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # NMR Spectroscopy Basics

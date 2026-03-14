@@ -14,8 +14,7 @@ prerequisites:
   type: soft
 - id: hormone-signaling-mechanisms
   type: soft
-builds-toward:
-- adolescent-brain-and-behavioral-development
+builds-toward: []
 tags:
 - puberty
 - adolescence
@@ -24,9 +23,8 @@ tags:
 - sexual-maturation
 - body-image
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Puberty and Adolescent Physical Development
 
 ## Core Idea

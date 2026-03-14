@@ -11,8 +11,7 @@ prerequisites:
 - id: species-interactions
   type: soft
 builds-toward:
-- biodiversity-metrics
-- biodiversity-and-conservation
+  - biodiversity-and-conservation
 tags:
 - island-biogeography
 - species-area
@@ -20,9 +19,8 @@ tags:
 - extinction
 - fragmentation
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Island Biogeography and the Species-Area Relationship
 
 ## Core Idea

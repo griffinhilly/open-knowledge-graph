@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: measures-of-spread
   type: soft
+- id: language-and-culture
+  type: soft
 builds-toward:
 - economic-anthropology
 - political-anthropology
@@ -26,9 +28,8 @@ tags:
 - universals
 - variation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Cross-Cultural Comparison
 
 ## Core Idea

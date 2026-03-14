@@ -16,7 +16,7 @@ tags:
 - inverse-square-law
 - gravitational-force
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Newton's Law of Universal Gravitation

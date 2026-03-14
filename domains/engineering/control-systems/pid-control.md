@@ -20,7 +20,7 @@ tags:
 - tuning
 - ziegler-nichols
 stage: advanced
-status: draft
+status: validated
 ---
 
 # PID Controllers

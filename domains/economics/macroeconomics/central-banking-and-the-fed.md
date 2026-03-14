@@ -15,7 +15,7 @@ tags:
 - lender-of-last-resort
 - dual-mandate
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Central Banking and the Federal Reserve

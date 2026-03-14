@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: reading-recipes
   type: soft
+- id: vegetable-preparation
+  type: soft
 builds-toward:
 - seasoning-and-flavor-basics
 tags:
@@ -19,9 +21,8 @@ tags:
 - maillard
 - stovetop
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Sautéing and Pan Cooking
 
 ## Core Idea

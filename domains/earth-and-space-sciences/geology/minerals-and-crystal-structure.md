@@ -19,7 +19,7 @@ tags:
 - bonding
 - structure
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Minerals and Crystal Structure

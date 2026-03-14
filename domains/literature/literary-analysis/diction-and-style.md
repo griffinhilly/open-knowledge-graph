@@ -22,7 +22,7 @@ tags:
 - register
 - word choice
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Diction and Style

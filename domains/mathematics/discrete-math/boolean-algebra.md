@@ -20,7 +20,7 @@ tags:
 - cnf
 - simplification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Boolean Algebra

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: graph-connectivity
   type: soft
+- id: breadth-first-search
+  type: soft
 builds-toward:
 - dynamic-programming-intro
 tags:
@@ -18,9 +20,8 @@ tags:
 - ordering
 - dependencies
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Topological Sort
 
 ## Core Idea

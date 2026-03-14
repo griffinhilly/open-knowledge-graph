@@ -14,7 +14,7 @@ tags:
 - origins
 - paleolithic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Prehistoric Art and Its Origins

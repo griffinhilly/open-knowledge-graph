@@ -1,23 +1,29 @@
 ---
 id: lhopitals-rule
-title: "L'Hopital's Rule"
+title: 'L''Hopital''s Rule'
 domain: mathematics
 course: calculus-1
 prerequisites:
-  - id: limits-at-infinity
-    type: hard
-  - id: derivatives-of-trigonometric-functions
-    type: soft
-  - id: derivatives-of-exponential-functions
-    type: soft
+- id: limits-at-infinity
+  type: hard
+- id: derivatives-of-trigonometric-functions
+  type: soft
+- id: derivatives-of-exponential-functions
+  type: soft
+- id: infinite-limits
+  type: soft
+- id: mean-value-theorem
+  type: soft
 builds-toward:
-  - improper-integrals-convergence
-  - taylor-series
-tags: [limits, indeterminate-forms, lhopital]
+- improper-integrals-convergence
+- taylor-series
+tags:
+- limits
+- indeterminate-forms
+- lhopital
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # L'Hopital's Rule
 
 ## Core Idea

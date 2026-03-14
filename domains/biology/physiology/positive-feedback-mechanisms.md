@@ -15,7 +15,7 @@ tags:
 - physiology
 - childbirth
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Positive Feedback Mechanisms

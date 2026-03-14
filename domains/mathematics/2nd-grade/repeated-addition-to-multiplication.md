@@ -19,7 +19,7 @@ tags:
 - arrays
 - preview
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Repeated Addition as Multiplication

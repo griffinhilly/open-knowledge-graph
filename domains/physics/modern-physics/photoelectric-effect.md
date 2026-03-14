@@ -19,7 +19,7 @@ tags:
 - work-function
 - Einstein
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Photoelectric Effect

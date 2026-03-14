@@ -11,7 +11,7 @@ tags:
 - maintenance
 - routines
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Household Cleaning Systems and Schedules

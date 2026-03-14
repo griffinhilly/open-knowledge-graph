@@ -15,7 +15,7 @@ builds-toward:
   - rational-expressions-intro
 tags: [factoring, complete, multi-step, polynomials]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Factoring Completely

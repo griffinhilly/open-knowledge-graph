@@ -19,7 +19,7 @@ tags:
 - less-than
 - place-value
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Comparing Two-Digit Numbers

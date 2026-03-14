@@ -17,7 +17,7 @@ tags:
 - ambiguity
 - CFG
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Parse Trees and Derivations

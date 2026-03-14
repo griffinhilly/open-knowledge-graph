@@ -14,7 +14,7 @@ tags:
 - bacteria
 - cell-structure
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Prokaryotic Cells

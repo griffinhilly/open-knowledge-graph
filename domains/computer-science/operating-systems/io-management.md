@@ -19,7 +19,7 @@ tags:
 - I/O-software
 - kernel-I/O
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # I/O Management and Device Drivers

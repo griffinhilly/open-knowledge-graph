@@ -20,7 +20,7 @@ tags:
 - transition
 - dimensionless
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Reynolds Number and Flow Regimes

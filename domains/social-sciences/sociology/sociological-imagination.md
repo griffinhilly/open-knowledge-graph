@@ -14,7 +14,7 @@ tags:
 - perspective
 - biography-and-history
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Sociological Imagination

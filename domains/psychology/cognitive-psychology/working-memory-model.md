@@ -17,7 +17,7 @@ tags:
 - baddeley
 - short-term
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Working Memory

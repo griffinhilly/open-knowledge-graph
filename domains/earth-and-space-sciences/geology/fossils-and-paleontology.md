@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: geological-time-scale
   type: soft
+- id: radiometric-dating
+  type: soft
 tags:
 - fossils
 - paleontology
@@ -18,9 +20,8 @@ tags:
 - trace-fossils
 - evolution
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Fossils and Paleontology
 
 ## Core Idea

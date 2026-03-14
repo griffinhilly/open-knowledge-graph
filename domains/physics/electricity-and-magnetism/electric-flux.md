@@ -17,7 +17,7 @@ tags:
 - surface-integral
 - electrostatics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electric Flux

@@ -17,7 +17,7 @@ tags:
 - angular magnification
 - resolving power
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Optical Instruments

@@ -23,7 +23,7 @@ tags:
 - injection
 - universal property
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Products and Coproducts

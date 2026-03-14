@@ -13,7 +13,7 @@ tags:
 - screws
 - belt friction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Friction Applications: Wedges, Screws, and Belts

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: sampling-methods
   type: soft
+- id: cultural-relativism
+  type: soft
 builds-toward:
 - globalization-cultural-change
 tags:
@@ -24,9 +26,8 @@ tags:
 - biomedicine
 - embodiment
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Medical Anthropology: Culture, Illness, and Healing
 
 ## Core Idea

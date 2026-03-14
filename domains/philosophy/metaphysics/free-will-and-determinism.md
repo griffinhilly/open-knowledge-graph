@@ -21,7 +21,7 @@ tags:
 - agency
 - incompatibilism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Free Will and Determinism

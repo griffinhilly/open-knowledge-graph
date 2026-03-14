@@ -23,7 +23,7 @@ tags:
 - dynamic range
 - matrix effects
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Calibration Strategies: External Standards, Internal Standards, and Standard Addition

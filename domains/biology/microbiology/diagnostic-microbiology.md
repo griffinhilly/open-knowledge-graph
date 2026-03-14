@@ -10,7 +10,11 @@ prerequisites:
   type: hard
 - id: gel-electrophoresis
   type: soft
-- id: adaptive-immunity-to-pathogens
+- id: adaptive-immune-response
+  type: soft
+- id: biofilm-formation
+  type: soft
+- id: sterilization-and-disinfection
   type: soft
 tags:
 - culture
@@ -22,9 +26,8 @@ tags:
 - clinical microbiology
 - rapid antigen test
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Diagnostic Microbiology
 
 ## Core Idea

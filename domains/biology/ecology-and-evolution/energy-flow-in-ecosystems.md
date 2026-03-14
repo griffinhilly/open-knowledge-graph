@@ -17,7 +17,7 @@ tags:
 - 10-percent-rule
 - primary-productivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Energy Flow and Ecological Efficiency

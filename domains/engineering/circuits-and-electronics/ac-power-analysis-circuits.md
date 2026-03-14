@@ -21,7 +21,7 @@ tags:
 - RMS
 - power-factor-correction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # AC Power Analysis

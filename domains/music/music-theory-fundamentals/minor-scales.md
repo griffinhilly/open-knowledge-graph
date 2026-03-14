@@ -21,7 +21,7 @@ tags:
 - harmonic minor
 - melodic minor
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Minor Scales: Natural, Harmonic, and Melodic

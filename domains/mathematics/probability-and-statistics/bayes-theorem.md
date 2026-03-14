@@ -15,7 +15,7 @@ tags:
 - likelihood
 - medical-testing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bayes' Theorem

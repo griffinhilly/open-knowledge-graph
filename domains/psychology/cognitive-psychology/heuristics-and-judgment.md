@@ -6,7 +6,7 @@ course: cognitive-psychology
 prerequisites:
 - id: cognitive-biases-overview
   type: hard
-- id: inductive-reasoning
+- id: inductive-reasoning-cognitive
   type: soft
 builds-toward:
 - dual-process-theory
@@ -17,7 +17,7 @@ tags:
 - anchoring
 - decision-making
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heuristics in Judgment and Decision Making

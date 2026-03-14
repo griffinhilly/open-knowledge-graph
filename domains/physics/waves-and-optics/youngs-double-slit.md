@@ -1,6 +1,6 @@
 ---
 id: youngs-double-slit
-title: Young's Double-Slit Experiment
+title: 'Young''s Double-Slit Experiment'
 domain: physics
 course: waves-and-optics
 prerequisites:
@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: right-triangle-trigonometry-intro
   type: hard
+- id: electromagnetic-spectrum
+  type: soft
+- id: huygens-principle
+  type: soft
+- id: wave-energy-and-intensity
+  type: soft
 builds-toward:
 - single-slit-diffraction
 - diffraction-gratings
@@ -21,9 +27,8 @@ tags:
 - Young
 - light
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Young's Double-Slit Experiment
 
 ## Core Idea

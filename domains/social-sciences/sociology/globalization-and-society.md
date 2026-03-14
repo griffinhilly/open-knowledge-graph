@@ -19,7 +19,7 @@ tags:
 - cultural-homogenization
 - inequality
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Globalization and Society

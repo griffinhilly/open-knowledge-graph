@@ -20,7 +20,7 @@ tags:
 - swap-space
 - resident-set
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Virtual Memory and Demand Paging

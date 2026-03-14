@@ -9,17 +9,15 @@ prerequisites:
 - id: estimation-strategies
   type: soft
 builds-toward:
-- measuring-in-feet-and-meters
-- line-plot-measurements
+  - line-plot-measurements
 tags:
 - estimation
 - measurement
 - length
 - benchmarks
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Estimating Lengths
 
 ## Core Idea

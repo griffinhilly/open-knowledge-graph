@@ -21,7 +21,7 @@ tags:
 - expressions
 - precedence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Operators and Expressions

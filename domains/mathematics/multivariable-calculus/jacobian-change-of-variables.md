@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: double-integrals-polar
   type: soft
+- id: triple-integrals-cylindrical-spherical
+  type: soft
+- id: triple-integrals
+  type: soft
 tags:
 - Jacobian
 - change-of-variables
@@ -19,9 +23,8 @@ tags:
 - determinant
 - transformation
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Jacobians and Change of Variables
 
 ## Core Idea

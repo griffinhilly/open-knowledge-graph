@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: schrodinger-equation-intro
   type: soft
+- id: particle-in-a-box
+  type: soft
 builds-toward:
 - atomic-orbitals
 - spin-quantum-number
@@ -19,9 +21,8 @@ tags:
 - magnetic
 - quantum-numbers
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Quantum Numbers
 
 ## Core Idea

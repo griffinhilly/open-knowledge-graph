@@ -16,7 +16,7 @@ tags:
 - proper-length
 - lorentz-contraction
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Length Contraction

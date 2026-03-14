@@ -23,7 +23,7 @@ tags:
 - energy-balance
 - radiation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Solar Radiation and Earth's Energy Balance

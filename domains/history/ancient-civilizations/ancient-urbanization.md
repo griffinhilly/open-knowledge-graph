@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: material-culture-analysis
   type: soft
+- id: ancient-technological-innovation
+  type: soft
+- id: cuneiform-and-early-writing
+  type: soft
+- id: hydraulic-civilization-theory
+  type: soft
 builds-toward:
 - ancient-social-stratification
 - comparing-ancient-civilizations
@@ -21,9 +27,8 @@ tags:
 - infrastructure
 - ancient-cities
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Urbanization in the Ancient World
 
 ## Core Idea

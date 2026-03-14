@@ -20,7 +20,7 @@ tags:
 - Raphael
 - sfumato
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # High Renaissance and Mannerism

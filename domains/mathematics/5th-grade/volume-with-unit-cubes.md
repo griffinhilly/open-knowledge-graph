@@ -9,7 +9,7 @@ prerequisites:
 builds-toward: []
 tags: [measurement, geometry, volume, 3d-shapes, composite]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Volume with Unit Cubes and Composite Figures

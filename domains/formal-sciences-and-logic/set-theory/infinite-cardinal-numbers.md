@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: well-ordering-theorem
   type: soft
+- id: axiom-of-power-set
+  type: soft
+- id: transfinite-induction
+  type: soft
+- id: transfinite-recursion
+  type: soft
 builds-toward:
 - cantor-theorem
 - cardinal-arithmetic
@@ -22,9 +28,8 @@ tags:
 - equinumerosity
 - initial ordinals
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Infinite Cardinal Numbers
 
 ## Core Idea

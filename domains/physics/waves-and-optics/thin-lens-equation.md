@@ -20,7 +20,7 @@ tags:
 - focal length
 - image distance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Thin Lens Equation

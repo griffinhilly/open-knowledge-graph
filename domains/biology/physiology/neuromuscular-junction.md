@@ -14,7 +14,7 @@ tags:
 - motor end plate
 - motor unit
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neuromuscular Junction

@@ -14,7 +14,7 @@ builds-toward:
   - trigonometric-substitution
 tags: [trigonometry, inverse-functions, arcsin, arccos, arctan]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inverse Trigonometric Functions

@@ -10,7 +10,7 @@ builds-toward:
   - mean-value-theorem
 tags: [continuity, existence-theorems, IVT]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intermediate Value Theorem

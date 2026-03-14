@@ -19,7 +19,7 @@ tags:
 - Kleisli category
 - monad laws
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Monads in Category Theory

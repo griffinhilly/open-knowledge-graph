@@ -20,7 +20,7 @@ tags:
 - Rousseau
 - legitimacy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Social Contract Theory

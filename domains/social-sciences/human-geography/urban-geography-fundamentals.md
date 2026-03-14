@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: coordinate-plane-intro
   type: soft
+- id: cultural-landscape
+  type: soft
+- id: migration-theory-push-pull
+  type: soft
 builds-toward:
 - world-cities-global-hierarchy
 - spatial-interaction-theory
@@ -28,9 +32,8 @@ tags:
 - gentrification
 - urban models
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Urban Geography and City Structure
 
 ## Core Idea

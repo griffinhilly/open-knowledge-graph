@@ -18,7 +18,7 @@ tags:
 - rarefaction
 - speed of sound
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sound Waves

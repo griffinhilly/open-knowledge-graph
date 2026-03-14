@@ -17,7 +17,7 @@ tags:
 - rho
 - coordinate-system
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Spherical Coordinates

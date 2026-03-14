@@ -17,7 +17,7 @@ tags:
 - polar
 - coordinate-system
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cylindrical Coordinates

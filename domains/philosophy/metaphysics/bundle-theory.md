@@ -17,7 +17,7 @@ tags:
 - Hume
 - identity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bundle Theory of Objects

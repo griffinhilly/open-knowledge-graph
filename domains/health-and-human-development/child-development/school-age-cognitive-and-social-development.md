@@ -10,7 +10,13 @@ prerequisites:
   type: soft
 - id: sociocultural-theory-vygotsky
   type: soft
-- id: erikson-psychosocial-stages
+- id: erikson-psychosocial-stages-child-dev
+  type: soft
+- id: moral-development-in-children
+  type: soft
+- id: parenting-styles-and-outcomes-child-dev
+  type: soft
+- id: play-types-and-developmental-functions
   type: soft
 builds-toward:
 - adolescent-brain-and-behavioral-development
@@ -23,9 +29,8 @@ tags:
 - self-esteem
 - school-age
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Cognitive and Social Development in Middle Childhood
 
 ## Core Idea

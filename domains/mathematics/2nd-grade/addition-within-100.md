@@ -11,16 +11,15 @@ prerequisites:
 builds-toward:
 - three-digit-addition
 - two-step-word-problems
-- addition-within-1000
+- three-digit-addition
 tags:
 - addition
 - within-100
 - strategies
 - fluency
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Addition Within 100
 
 ## Core Idea

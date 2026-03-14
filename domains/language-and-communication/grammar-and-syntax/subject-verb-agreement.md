@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: verbs-intro
   type: hard
+- id: prepositional-phrases
+  type: soft
 builds-toward:
 - pronoun-agreement
 - complex-sentence-construction
@@ -18,9 +20,8 @@ tags:
 - subject-verb
 - grammar-rules
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Subject-Verb Agreement
 
 ## Core Idea

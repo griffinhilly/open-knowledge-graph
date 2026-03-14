@@ -21,7 +21,7 @@ tags:
 - MVCC
 - serializability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Concurrency Control in Databases

@@ -16,7 +16,7 @@ tags:
 - resource-allocation-graph
 - circular-wait
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deadlock: Conditions and Modeling

@@ -17,7 +17,7 @@ tags:
 - hardness
 - conditional formation constant
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Complexometric Titrations (EDTA Methods)

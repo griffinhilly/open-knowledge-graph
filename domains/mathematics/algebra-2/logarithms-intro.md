@@ -14,7 +14,7 @@ builds-toward:
   - natural-logarithm-and-e
 tags: [logarithms, inverse, exponential, definition]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Logarithms Introduction

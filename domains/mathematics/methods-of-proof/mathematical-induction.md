@@ -20,7 +20,7 @@ tags:
 - inductive-hypothesis
 - natural-numbers
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mathematical Induction

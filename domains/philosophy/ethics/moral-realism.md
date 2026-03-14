@@ -20,7 +20,7 @@ tags:
 - realism
 - objectivism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Realism

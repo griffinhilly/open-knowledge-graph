@@ -24,7 +24,7 @@ tags:
 - prejudice
 - discrimination
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Race and Ethnicity

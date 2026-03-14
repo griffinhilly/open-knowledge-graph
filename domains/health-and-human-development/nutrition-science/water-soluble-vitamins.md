@@ -20,7 +20,7 @@ tags:
 - folate
 - B12
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Water-Soluble Vitamins: B-Complex and Vitamin C

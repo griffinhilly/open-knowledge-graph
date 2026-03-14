@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: 2d-shapes-attributes
   type: hard
+- id: area-rectilinear-shapes
+  type: soft
 builds-toward:
 - halves-and-quarters
 tags:
@@ -17,9 +19,8 @@ tags:
 - spatial-reasoning
 - fractions-preview
 stage: pre-formal
-status: draft
+status: validated
 ---
-
 # Decomposing Shapes
 
 ## Core Idea

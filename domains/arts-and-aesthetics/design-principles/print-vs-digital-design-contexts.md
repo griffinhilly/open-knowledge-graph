@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: color-theory-in-design
   type: soft
+- id: branding-and-identity-design
+  type: soft
+- id: type-pairing-and-hierarchy
+  type: soft
 builds-toward:
 - design-systems-and-consistency
 - responsive-design-principles
@@ -23,9 +27,8 @@ tags:
 - bleed
 - interactive
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Print vs. Digital Design Contexts
 
 ## Core Idea

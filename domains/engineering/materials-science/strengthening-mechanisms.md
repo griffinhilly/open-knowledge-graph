@@ -14,7 +14,7 @@ tags:
 - grain-boundary-strengthening
 - precipitation-hardening
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Strengthening Mechanisms in Metals

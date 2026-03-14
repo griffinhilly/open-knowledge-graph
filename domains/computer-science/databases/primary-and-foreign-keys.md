@@ -6,6 +6,8 @@ course: databases
 prerequisites:
 - id: relational-model-basics
   type: hard
+- id: entity-relationship-diagrams
+  type: soft
 builds-toward:
 - sql-select-basics
 - sql-joins
@@ -17,9 +19,8 @@ tags:
 - constraints
 - superkey
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Primary Keys and Foreign Keys
 
 ## Core Idea

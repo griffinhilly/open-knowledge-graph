@@ -1,20 +1,24 @@
 ---
 id: conic-sections-hyperbolas
-title: "Conic Sections: Hyperbolas"
+title: 'Conic Sections: Hyperbolas'
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: conic-sections-ellipses
-    type: hard
-  - id: rational-functions-and-asymptotes
-    type: soft
+- id: conic-sections-ellipses
+  type: hard
+- id: rational-functions-and-asymptotes
+  type: soft
 builds-toward:
-  - precalculus-conics
-tags: [conics, hyperbolas, foci, asymptotes, transverse-axis]
+- conic-sections-overview
+tags:
+- conics
+- hyperbolas
+- foci
+- asymptotes
+- transverse-axis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Conic Sections: Hyperbolas
 
 ## Core Idea

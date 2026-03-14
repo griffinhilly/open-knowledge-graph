@@ -20,7 +20,7 @@ tags:
 - randomized-trial
 - epidemiology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Epidemiologic Study Designs

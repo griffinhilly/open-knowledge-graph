@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: nervous-system-overview
   type: soft
+- id: hormone-signaling-mechanisms
+  type: soft
 tags:
 - hypothalamus
 - pituitary
@@ -17,9 +19,8 @@ tags:
 - HPA axis
 - neuroendocrine
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Hypothalamus-Pituitary Axis
 
 ## Core Idea

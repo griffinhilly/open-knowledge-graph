@@ -22,7 +22,7 @@ tags:
 - diminished
 - augmented
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Chord Quality Identification by Ear

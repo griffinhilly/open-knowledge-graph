@@ -21,7 +21,7 @@ tags:
 - gender
 - Anzaldúa
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intersectionality in Literary Criticism

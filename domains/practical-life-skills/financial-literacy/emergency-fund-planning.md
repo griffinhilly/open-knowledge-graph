@@ -17,7 +17,7 @@ tags:
 - financial-safety-net
 - savings
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Emergency Fund Planning

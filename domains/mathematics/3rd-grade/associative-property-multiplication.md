@@ -17,7 +17,7 @@ tags:
 - multiplication
 - grouping
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Associative Property of Multiplication

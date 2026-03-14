@@ -20,7 +20,7 @@ tags:
 - air-quality
 - water-quality
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Environmental Health and Exposure Assessment

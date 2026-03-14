@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: islamic-caliphates
   type: soft
+- id: ottoman-empire-early-modern
+  type: soft
 builds-toward:
 - columbian-exchange
 - atlantic-slave-trade
@@ -24,9 +26,8 @@ tags:
 - Vasco da Gama
 - caravel
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Age of Exploration and European Expansion
 
 ## Core Idea

@@ -21,7 +21,7 @@ tags:
 - passing-tone
 - suspension
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Non-Chord Tones

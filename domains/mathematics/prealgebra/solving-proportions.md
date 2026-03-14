@@ -4,19 +4,21 @@ title: Solving Proportions
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: proportions
-    type: hard
-  - id: one-step-equations
-    type: soft
+- id: proportions
+  type: hard
+- id: one-step-equations
+  type: soft
 builds-toward:
-  - percent-of-a-number
-  - similar-figures
-  - direct-and-inverse-variation
-tags: [proportions, cross-multiplication, solving]
+- percent-of-a-number
+- similar-triangles-aa
+- direct-and-inverse-variation
+tags:
+- proportions
+- cross-multiplication
+- solving
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Solving Proportions
 
 ## Core Idea

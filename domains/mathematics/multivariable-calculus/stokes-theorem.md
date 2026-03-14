@@ -1,6 +1,6 @@
 ---
 id: stokes-theorem
-title: Stokes' Theorem
+title: 'Stokes'' Theorem'
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: conservative-fields
   type: soft
+- id: fundamental-theorem-line-integrals
+  type: soft
 builds-toward:
 - divergence-theorem
 tags:
@@ -21,9 +23,8 @@ tags:
 - boundary
 - circulation
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Stokes' Theorem
 
 ## Core Idea

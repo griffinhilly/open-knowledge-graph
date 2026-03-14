@@ -19,7 +19,7 @@ tags:
 - health-workforce
 - health-system-performance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Health Systems and Financing

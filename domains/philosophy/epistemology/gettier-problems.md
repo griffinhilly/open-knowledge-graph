@@ -19,7 +19,7 @@ tags:
 - luck
 - knowledge-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gettier Problems

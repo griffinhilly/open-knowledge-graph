@@ -20,7 +20,7 @@ tags:
 - resistance
 - microcirculation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Blood Vessel Anatomy and Circulatory Dynamics

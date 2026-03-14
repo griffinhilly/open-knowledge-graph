@@ -4,16 +4,22 @@ title: Introduction to Differential Equations - Separable Equations
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: u-substitution
-    type: hard
-  - id: derivatives-of-exponential-functions
-    type: hard
+- id: u-substitution
+  type: hard
+- id: derivatives-of-exponential-functions
+  type: hard
+- id: basic-integration-rules
+  type: hard
+- id: solving-trigonometric-equations
+  type: soft
 builds-toward: []
-tags: [differential-equations, separable, applications]
+tags:
+- differential-equations
+- separable
+- applications
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Introduction to Differential Equations - Separable Equations
 
 ## Core Idea

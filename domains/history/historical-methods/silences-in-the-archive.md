@@ -17,7 +17,7 @@ tags:
 - absence
 - methodology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Silences in the Archive

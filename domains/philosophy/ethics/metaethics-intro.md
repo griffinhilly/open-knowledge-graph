@@ -20,7 +20,7 @@ tags:
 - foundations
 - moral-semantics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to Metaethics

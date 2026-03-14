@@ -21,7 +21,7 @@ tags:
 - Jameson
 - Williams
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Marxist Literary Criticism

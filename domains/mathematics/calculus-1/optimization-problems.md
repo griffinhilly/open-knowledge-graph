@@ -4,17 +4,24 @@ title: Optimization Problems
 domain: mathematics
 course: calculus-1
 prerequisites:
-  - id: first-derivative-test
-    type: hard
-  - id: second-derivative-test
-    type: soft
+- id: first-derivative-test
+  type: hard
+- id: second-derivative-test
+  type: soft
+- id: curve-sketching
+  type: soft
+- id: related-rates
+  type: soft
 builds-toward:
-  - work-as-integral
-tags: [derivatives, applications, optimization, word-problems]
+- work-as-integral
+tags:
+- derivatives
+- applications
+- optimization
+- word-problems
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Optimization Problems
 
 ## Core Idea

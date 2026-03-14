@@ -6,14 +6,14 @@ course: geometry
 prerequisites:
   - id: central-angles-and-arcs
     type: hard
-  - id: ratios-and-proportions
+  - id: proportions
     type: hard
 builds-toward:
   - sector-area
   - radian-measure
 tags: [circles, arc-length, circumference, proportionality]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Arc Length

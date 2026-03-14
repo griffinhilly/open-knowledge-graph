@@ -4,21 +4,26 @@ title: Combining Like Terms
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: variable-expressions
-    type: hard
-  - id: adding-integers
-    type: hard
-  - id: subtracting-integers
-    type: hard
+- id: variable-expressions
+  type: hard
+- id: adding-integers
+  type: hard
+- id: subtracting-integers
+  type: hard
+- id: properties-of-operations
+  type: soft
 builds-toward:
-  - one-step-equations
-  - two-step-equations
-  - adding-subtracting-polynomials
-tags: [like-terms, simplifying, expressions, algebra]
+- one-step-equations
+- two-step-equations
+- adding-subtracting-polynomials
+tags:
+- like-terms
+- simplifying
+- expressions
+- algebra
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Combining Like Terms
 
 ## Core Idea

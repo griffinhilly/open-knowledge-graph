@@ -20,7 +20,7 @@ tags:
 - morphism category
 - arrow category
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Comma Categories

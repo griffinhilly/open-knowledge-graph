@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: debugging-basics
   type: soft
+- id: type-conversion
+  type: soft
 builds-toward:
 - file-io-basics
 tags:
@@ -20,9 +22,8 @@ tags:
 - error handling
 - robustness
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Error Handling and Exceptions
 
 ## Core Idea

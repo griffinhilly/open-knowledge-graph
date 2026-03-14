@@ -22,7 +22,7 @@ tags:
 - Chomsky
 - critical-period
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Language Acquisition in Children

@@ -19,7 +19,7 @@ tags:
 - mask
 - lyric I
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Persona and the Poetic Speaker

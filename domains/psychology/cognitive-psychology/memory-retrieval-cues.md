@@ -16,7 +16,7 @@ tags:
 - encoding-specificity
 - context
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory Retrieval and Cue-Dependent Forgetting

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: medieval-church-power
   type: soft
+- id: protestant-reformation
+  type: soft
 builds-toward:
 - absolutism-and-monarchy
 - religious-wars-europe
@@ -23,9 +25,8 @@ tags:
 - standing armies
 - centralization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Early Modern State Formation
 
 ## Core Idea

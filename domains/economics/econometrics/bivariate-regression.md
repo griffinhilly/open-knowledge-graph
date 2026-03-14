@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: scatterplots-and-correlation
   type: soft
+- id: econometrics-intro
+  type: soft
 builds-toward:
 - ols-assumptions
 - multiple-regression-model
@@ -23,9 +25,8 @@ tags:
 - regression
 - estimation
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Simple (Bivariate) OLS Regression
 
 ## Core Idea

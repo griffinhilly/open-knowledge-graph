@@ -8,15 +8,16 @@ prerequisites:
   type: hard
 - id: single-slit-diffraction
   type: soft
+- id: electromagnetic-spectrum
+  type: soft
 tags:
 - diffraction grating
 - spectroscopy
 - principal maxima
 - resolving power
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Diffraction Gratings
 
 ## Core Idea

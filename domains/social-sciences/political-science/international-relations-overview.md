@@ -19,7 +19,7 @@ tags:
 - foreign policy
 - world politics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to International Relations

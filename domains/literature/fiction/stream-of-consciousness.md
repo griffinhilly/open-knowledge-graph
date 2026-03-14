@@ -12,17 +12,15 @@ prerequisites:
   type: soft
 - id: syntactic-structure
   type: soft
-builds-toward:
-- narrative-voice
+builds-toward: []
 tags:
 - stream-of-consciousness
 - interiority
 - modernism
 - free-indirect-discourse
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Stream of Consciousness Narration
 
 ## Core Idea

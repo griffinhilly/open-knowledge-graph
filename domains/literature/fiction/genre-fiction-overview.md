@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: plot-structure
   type: soft
+- id: short-story-form
+  type: soft
 builds-toward:
 - literary-realism
 - fantasy-genre
@@ -21,9 +23,8 @@ tags:
 - reader-expectations
 - classification
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Genre Conventions in Fiction
 
 ## Core Idea

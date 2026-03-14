@@ -16,7 +16,7 @@ tags:
 - Romantic
 - third-relations
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Chromatic Mediant Chords

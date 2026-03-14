@@ -17,7 +17,7 @@ tags:
 - problem-solving
 - modeling
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Addition and Subtraction Word Problems

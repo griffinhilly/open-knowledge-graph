@@ -12,7 +12,7 @@ builds-toward:
   - derivatives-of-logarithmic-functions
 tags: [logarithms, inverse, exponential]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logarithmic Functions Review

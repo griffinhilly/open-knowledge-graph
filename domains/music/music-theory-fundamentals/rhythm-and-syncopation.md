@@ -18,7 +18,7 @@ tags:
 - groove
 - off-beat
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Rhythm and Syncopation

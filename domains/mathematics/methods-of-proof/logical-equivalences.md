@@ -20,7 +20,7 @@ tags:
 - double-negation
 - absorption
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logical Equivalences

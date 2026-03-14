@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: password-security
   type: soft
+- id: phishing-and-scams
+  type: soft
 builds-toward:
 - social-media-literacy
 - online-account-management
@@ -17,9 +19,8 @@ tags:
 - tracking
 - permissions
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Digital Privacy Fundamentals
 
 ## Core Idea

@@ -10,7 +10,7 @@ builds-toward:
   - polar-coordinates
 tags: [trigonometry, triangles, law-of-sines]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Law of Sines

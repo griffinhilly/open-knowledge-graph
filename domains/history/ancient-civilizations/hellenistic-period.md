@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: persian-empire
   type: hard
+- id: greek-philosophy-origins
+  type: soft
 builds-toward:
 - roman-empire-rise
 - origins-of-world-religions
@@ -18,9 +20,8 @@ tags:
 - seleucid
 - cultural-diffusion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Hellenistic World: Alexander and Cultural Fusion
 
 ## Core Idea

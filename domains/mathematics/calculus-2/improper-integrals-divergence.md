@@ -10,7 +10,7 @@ builds-toward:
   - comparison-test
 tags: [integration, improper, divergence, comparison]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Improper Integrals - Divergence and Comparison

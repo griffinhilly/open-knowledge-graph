@@ -17,7 +17,7 @@ tags:
 - mutualism
 - parasite-host
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Coevolution

@@ -20,7 +20,7 @@ tags:
 - vector-field
 - circulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Line Integrals of Vector Fields

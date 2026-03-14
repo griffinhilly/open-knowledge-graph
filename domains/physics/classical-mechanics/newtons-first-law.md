@@ -15,7 +15,7 @@ tags:
 - force
 - equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Newton's First Law: The Law of Inertia

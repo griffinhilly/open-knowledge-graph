@@ -4,18 +4,20 @@ title: Parallel and Perpendicular Line Slopes
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: slope-concept
-    type: hard
-  - id: writing-linear-equations
-    type: hard
+- id: slope-concept
+  type: hard
+- id: writing-linear-equations
+  type: hard
 builds-toward:
-  - geometry-proofs
-  - analytic-geometry
-tags: [parallel, perpendicular, slope, linear-equations]
+- coordinate-geometry-proofs
+tags:
+- parallel
+- perpendicular
+- slope
+- linear-equations
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Parallel and Perpendicular Line Slopes
 
 ## Core Idea

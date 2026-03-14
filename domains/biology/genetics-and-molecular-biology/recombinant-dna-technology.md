@@ -21,7 +21,7 @@ tags:
 - transformation
 - gene cloning
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Recombinant DNA Technology

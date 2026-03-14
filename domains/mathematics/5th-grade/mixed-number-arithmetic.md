@@ -4,18 +4,23 @@ title: Mixed Number Arithmetic
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: adding-fractions-unlike-denominators
-    type: hard
-  - id: subtracting-fractions-unlike-denominators
-    type: hard
-  - id: multiplying-mixed-numbers
-    type: hard
+- id: adding-fractions-unlike-denominators
+  type: hard
+- id: subtracting-fractions-unlike-denominators
+  type: hard
+- id: multiplying-mixed-numbers
+  type: hard
+- id: dividing-fractions
+  type: soft
 builds-toward: []
-tags: [fractions, mixed-numbers, arithmetic, operations]
+tags:
+- fractions
+- mixed-numbers
+- arithmetic
+- operations
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Mixed Number Arithmetic
 
 ## Core Idea

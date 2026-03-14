@@ -26,7 +26,7 @@ tags:
 - viscous flow
 - governing equations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Navier-Stokes Equations

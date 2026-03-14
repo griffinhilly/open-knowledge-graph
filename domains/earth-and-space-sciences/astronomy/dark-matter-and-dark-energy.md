@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: galaxy-morphology-and-classification
   type: soft
+- id: milky-way-structure
+  type: soft
 tags:
 - dark-matter
 - rotation-curves
@@ -19,9 +21,8 @@ tags:
 - Lambda-CDM
 - accelerating-expansion
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Dark Matter and Dark Energy
 
 ## Core Idea

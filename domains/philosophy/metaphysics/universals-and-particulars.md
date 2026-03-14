@@ -21,7 +21,7 @@ tags:
 - nominalism
 - abstract objects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Universals and Particulars

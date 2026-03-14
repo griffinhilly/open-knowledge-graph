@@ -18,7 +18,7 @@ tags:
 - anti-periplanar
 - regioselectivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # E2 Elimination Reactions

@@ -12,7 +12,7 @@ builds-toward:
   - work-as-integral
 tags: [vectors, dot-product, orthogonality]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dot Product

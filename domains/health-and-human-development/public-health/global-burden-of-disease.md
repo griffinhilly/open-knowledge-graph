@@ -10,6 +10,14 @@ prerequisites:
   type: soft
 - id: malnutrition-and-undernutrition
   type: soft
+- id: herd-immunity-and-vaccination
+  type: soft
+- id: infectious-disease-surveillance
+  type: soft
+- id: outbreak-investigation
+  type: soft
+- id: vector-borne-disease-ecology
+  type: soft
 builds-toward:
 - health-policy-and-advocacy
 - health-systems-and-financing
@@ -21,9 +29,8 @@ tags:
 - health-metrics
 - burden-of-disease
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Global Burden of Disease and Health Metrics
 
 ## Core Idea

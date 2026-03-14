@@ -17,7 +17,7 @@ tags:
 - coefficient-of-performance
 - reversed-engine
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Refrigerators and Heat Pumps

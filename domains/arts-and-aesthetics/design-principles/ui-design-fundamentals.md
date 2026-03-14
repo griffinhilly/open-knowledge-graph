@@ -12,6 +12,12 @@ prerequisites:
   type: soft
 - id: whitespace-and-breathing-room
   type: soft
+- id: alignment-and-proximity-in-layout
+  type: soft
+- id: color-theory-in-design
+  type: soft
+- id: icon-and-symbol-design
+  type: soft
 builds-toward:
 - accessibility-in-design
 - responsive-design-principles
@@ -25,9 +31,8 @@ tags:
 - states
 - interaction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # UI Design Fundamentals
 
 ## Core Idea

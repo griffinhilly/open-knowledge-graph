@@ -19,7 +19,7 @@ tags:
 - social behavior
 - situationism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to Social Psychology

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: thesis-statement-development
   type: soft
+- id: synthesis-in-writing
+  type: soft
 tags:
 - revision
 - editing
@@ -18,9 +20,8 @@ tags:
 - feedback
 - self-editing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Revision Strategies and the Writing Process
 
 ## Core Idea

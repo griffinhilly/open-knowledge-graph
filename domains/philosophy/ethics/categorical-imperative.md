@@ -16,7 +16,7 @@ tags:
 - autonomy
 - formula-of-humanity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Categorical Imperative

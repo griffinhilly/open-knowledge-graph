@@ -17,7 +17,7 @@ tags:
 - equivalence
 - internal-validity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Random Assignment

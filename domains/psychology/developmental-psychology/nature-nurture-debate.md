@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: epigenetics-intro
   type: soft
+- id: prenatal-development
+  type: soft
 builds-toward:
 - temperament-and-early-personality
 - critical-periods-sensitive-periods
@@ -23,9 +25,8 @@ tags:
 - gene-environment interaction
 - epigenetics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Nature–Nurture Debate
 
 ## Core Idea

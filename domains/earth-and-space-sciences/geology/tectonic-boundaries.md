@@ -18,7 +18,7 @@ tags:
 - rift
 - collision
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Tectonic Plate Boundaries

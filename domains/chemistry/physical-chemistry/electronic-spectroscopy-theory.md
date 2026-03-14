@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: photon-model
   type: soft
+- id: huckel-molecular-orbital-theory
+  type: soft
+- id: vibrational-modes-and-symmetry
+  type: soft
 tags:
 - UV-Vis
 - Franck-Condon
@@ -24,9 +28,8 @@ tags:
 - fluorescence
 - phosphorescence
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Electronic Spectroscopy and the Franck-Condon Principle
 
 ## Core Idea

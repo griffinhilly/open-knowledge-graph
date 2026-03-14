@@ -20,7 +20,7 @@ tags:
 - systematic-risk
 - portfolio
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Portfolio Diversification

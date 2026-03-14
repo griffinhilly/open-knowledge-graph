@@ -20,7 +20,7 @@ tags:
 - sum-of-products
 - karnaugh-map
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Combinational Circuit Design

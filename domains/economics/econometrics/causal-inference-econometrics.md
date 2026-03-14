@@ -18,7 +18,7 @@ tags:
 - natural-experiment
 - selection-bias
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Causal Inference and the Identification Problem

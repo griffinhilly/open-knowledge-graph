@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: differential-equations-intro-separable
   type: soft
+- id: quantum-tunneling
+  type: soft
 builds-toward:
 - half-life-decay-law
 - nuclear-fission-fusion
@@ -19,9 +21,8 @@ tags:
 - gamma
 - decay
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Radioactive Decay
 
 ## Core Idea

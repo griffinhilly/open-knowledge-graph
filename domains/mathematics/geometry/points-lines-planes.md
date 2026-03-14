@@ -4,14 +4,14 @@ title: Points, Lines, and Planes
 domain: mathematics
 course: geometry
 prerequisites:
-  - id: coordinate-plane
+  - id: coordinate-plane-intro
     type: soft
 builds-toward:
   - segment-and-distance
   - angle-basics-and-classification
 tags: [foundations, undefined-terms, dimension]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Points, Lines, and Planes

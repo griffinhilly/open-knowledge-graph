@@ -21,7 +21,7 @@ tags:
 - self-reference
 - induction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Recursion Basics

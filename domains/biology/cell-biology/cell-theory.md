@@ -12,7 +12,7 @@ tags:
 - history-of-biology
 - cell-theory
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cell Theory

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fractions-halves-thirds-fourths
   type: hard
+- id: partition-shapes-equal-parts
+  type: soft
 builds-toward:
 - fractions-sixths-eighths
 - comparing-unit-fractions
@@ -17,9 +19,8 @@ tags:
 - unit-fractions
 - equal-parts
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Unit Fractions
 
 ## Core Idea

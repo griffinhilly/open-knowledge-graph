@@ -21,7 +21,7 @@ tags:
 - shift-registers
 - synchronous-design
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sequential Circuit Design

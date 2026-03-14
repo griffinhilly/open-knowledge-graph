@@ -19,7 +19,7 @@ tags:
 - upward
 - Skolem-paradox
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Löwenheim-Skolem Theorems

@@ -20,7 +20,7 @@ tags:
 - polar
 - biome
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Climate Zones and Biomes

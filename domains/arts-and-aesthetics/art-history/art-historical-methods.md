@@ -19,7 +19,7 @@ tags:
 - semiotics
 - connoisseurship
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Methods of Art Historical Analysis

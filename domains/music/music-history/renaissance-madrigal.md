@@ -17,7 +17,7 @@ tags:
 - Monteverdi
 - Gesualdo
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Renaissance Madrigal and Word Painting

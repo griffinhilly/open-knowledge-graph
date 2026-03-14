@@ -21,7 +21,7 @@ tags:
 - state policy
 - Navigation Acts
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Mercantilism and Early Modern Economic Thought

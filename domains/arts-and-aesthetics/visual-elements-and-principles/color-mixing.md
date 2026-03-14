@@ -17,7 +17,7 @@ tags:
 - additive
 - subtractive
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Color Mixing

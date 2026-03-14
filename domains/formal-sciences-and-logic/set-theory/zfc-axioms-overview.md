@@ -27,7 +27,7 @@ tags:
 - foundations
 - zermelo-fraenkel
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # ZFC Axioms Overview

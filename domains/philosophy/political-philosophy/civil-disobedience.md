@@ -18,7 +18,7 @@ tags:
 - King
 - nonviolence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Civil Disobedience

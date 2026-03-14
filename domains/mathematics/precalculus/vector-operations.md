@@ -10,7 +10,7 @@ builds-toward:
   - dot-product
 tags: [vectors, operations, linear-combinations]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vector Operations: Addition, Subtraction, and Scalar Multiplication

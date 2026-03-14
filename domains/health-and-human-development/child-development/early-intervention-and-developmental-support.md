@@ -22,7 +22,7 @@ tags:
 - Part-C
 - special-education
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Early Intervention and Developmental Support Programs

@@ -20,7 +20,7 @@ tags:
 - religion
 - expansion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Rise of Islam

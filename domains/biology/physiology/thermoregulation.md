@@ -18,7 +18,7 @@ tags:
 - shivering
 - sweating
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermoregulation

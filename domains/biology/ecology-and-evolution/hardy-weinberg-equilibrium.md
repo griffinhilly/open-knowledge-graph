@@ -25,7 +25,7 @@ tags:
 - null-model
 - evolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hardy-Weinberg Equilibrium

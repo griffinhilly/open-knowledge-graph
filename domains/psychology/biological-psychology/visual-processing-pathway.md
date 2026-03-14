@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nervous-system-overview
   type: soft
+- id: cerebral-cortex-organization
+  type: soft
 tags:
 - retina
 - lateral-geniculate
@@ -16,9 +18,8 @@ tags:
 - ventral-stream
 - vision
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Visual Processing Pathway
 
 ## Core Idea

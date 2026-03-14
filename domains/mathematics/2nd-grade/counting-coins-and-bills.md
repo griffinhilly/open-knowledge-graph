@@ -21,7 +21,7 @@ tags:
 - bills
 - total
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Counting Collections of Coins and Bills

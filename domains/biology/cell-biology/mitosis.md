@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nucleus-and-genetic-material
   type: hard
+- id: cell-cycle-regulation
+  type: soft
 builds-toward:
 - cytokinesis
 - meiosis
@@ -19,9 +21,8 @@ tags:
 - telophase
 - chromosomes
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Mitosis
 
 ## Core Idea

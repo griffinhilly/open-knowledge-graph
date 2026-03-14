@@ -17,7 +17,7 @@ tags:
 - CFRP
 - matrix
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Composite Materials and Rule of Mixtures

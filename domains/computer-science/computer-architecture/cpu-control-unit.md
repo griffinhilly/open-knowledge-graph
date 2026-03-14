@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: instruction-set-architecture
   type: hard
+- id: sequential-circuit-design
+  type: soft
 builds-toward:
 - pipelining-fundamentals
 tags:
@@ -18,9 +20,8 @@ tags:
 - microprogramming
 - control-signals
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # CPU Control Unit
 
 ## Core Idea

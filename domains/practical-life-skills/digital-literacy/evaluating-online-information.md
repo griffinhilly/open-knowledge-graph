@@ -14,7 +14,7 @@ tags:
 - credibility
 - misinformation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Evaluating Online Information

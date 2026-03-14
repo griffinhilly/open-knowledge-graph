@@ -4,16 +4,18 @@ title: Comparing and Ordering Whole Numbers
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: place-value-whole-numbers
-    type: hard
+- id: place-value-whole-numbers
+  type: hard
 builds-toward:
-  - comparing-decimals
-  - number-line-integers
-tags: [number-sense, comparison, place-value]
+- comparing-decimals
+- integers-and-number-line
+tags:
+- number-sense
+- comparison
+- place-value
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Comparing and Ordering Whole Numbers
 
 ## Core Idea

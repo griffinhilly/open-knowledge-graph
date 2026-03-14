@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: chemical-equilibrium
   type: soft
+- id: sample-preparation
+  type: soft
 builds-toward:
 - titrimetric-analysis-intro
 tags:
@@ -19,9 +21,8 @@ tags:
 - primary standard
 - solubility product
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Gravimetric Analysis
 
 ## Core Idea

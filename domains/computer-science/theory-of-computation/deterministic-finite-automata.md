@@ -20,7 +20,7 @@ tags:
 - DFA
 - regular
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Deterministic Finite Automata (DFA)

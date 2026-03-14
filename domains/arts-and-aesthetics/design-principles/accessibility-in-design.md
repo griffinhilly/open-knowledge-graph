@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: ui-design-fundamentals
   type: soft
+- id: icon-and-symbol-design
+  type: soft
 builds-toward:
 - responsive-design-principles
 - design-systems-and-consistency
@@ -25,9 +27,8 @@ tags:
 - a11y
 - disability
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Accessibility in Design
 
 ## Core Idea

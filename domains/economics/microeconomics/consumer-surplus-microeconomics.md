@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: area-of-triangles
   type: soft
+- id: comparative-statics
+  type: soft
+- id: price-elasticity-of-demand
+  type: soft
 builds-toward:
 - price-controls-and-deadweight-loss
 - price-discrimination
@@ -19,9 +23,8 @@ tags:
 - welfare
 - efficiency
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Consumer and Producer Surplus
 
 ## Core Idea

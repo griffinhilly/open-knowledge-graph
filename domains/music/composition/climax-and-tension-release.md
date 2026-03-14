@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: motivic-development
   type: soft
+- id: contrapuntal-composition
+  type: soft
 tags:
 - climax
 - tension
@@ -20,9 +22,8 @@ tags:
 - energy-curve
 - drama
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Climax and Tension-Release
 
 ## Core Idea

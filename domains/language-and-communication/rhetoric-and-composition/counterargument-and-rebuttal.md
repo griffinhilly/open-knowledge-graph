@@ -4,7 +4,7 @@ title: Counterargument and Rebuttal
 domain: language-and-communication
 course: rhetoric-and-composition
 prerequisites:
-- id: argument-structure
+- id: argument-structure-toulmin
   type: hard
 - id: ethos-and-credibility
   type: soft
@@ -17,7 +17,7 @@ tags:
 - refutation
 - dialectic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Counterargument and Rebuttal

@@ -15,7 +15,7 @@ tags:
 - allele-frequency
 - population-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gene Flow

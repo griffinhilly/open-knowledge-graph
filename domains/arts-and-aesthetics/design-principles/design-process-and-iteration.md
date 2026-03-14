@@ -16,7 +16,7 @@ tags:
 - brief
 - ideation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Design Process and Iteration

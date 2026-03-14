@@ -14,7 +14,7 @@ tags:
 - flotation
 - submerged bodies
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Buoyancy and Archimedes' Principle

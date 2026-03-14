@@ -21,7 +21,7 @@ tags:
 - instruction-format
 - opcodes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Instruction Set Architecture (ISA)

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: endogeneity
   type: hard
+- id: robust-standard-errors
+  type: soft
 builds-toward:
 - fixed-effects-models
 - random-effects-models
@@ -17,9 +19,8 @@ tags:
 - repeated-measures
 - unobserved-heterogeneity
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Panel Data: Structure and Advantages
 
 ## Core Idea

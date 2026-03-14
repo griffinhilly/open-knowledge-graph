@@ -4,19 +4,22 @@ title: Dividing Decimals
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: intro-to-long-division
-    type: hard
-  - id: multiplying-decimals
-    type: soft
-  - id: decimal-place-value
-    type: hard
-builds-toward:
-  - fractions-as-division
-tags: [decimals, division, arithmetic]
+- id: intro-to-long-division
+  type: hard
+- id: multiplying-decimals
+  type: soft
+- id: decimal-place-value
+  type: hard
+- id: multiplying-dividing-by-powers-of-ten
+  type: soft
+builds-toward: []
+tags:
+- decimals
+- division
+- arithmetic
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Dividing Decimals
 
 ## Core Idea

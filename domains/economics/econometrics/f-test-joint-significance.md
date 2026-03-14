@@ -12,15 +12,13 @@ prerequisites:
   type: soft
 builds-toward:
 - r-squared-and-model-fit
-- multiple-regression-model
 tags:
 - F-test
 - joint-significance
 - model-testing
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # F-Test and Joint Significance
 
 ## Core Idea

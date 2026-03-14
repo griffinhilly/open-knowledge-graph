@@ -12,7 +12,7 @@ builds-toward:
   - absolute-vs-conditional-convergence
 tags: [series, convergence-tests, alternating]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Alternating Series Test

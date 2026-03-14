@@ -6,6 +6,8 @@ course: theory-of-computation
 prerequisites:
 - id: halting-problem
   type: hard
+- id: recognizability-vs-decidability
+  type: soft
 builds-toward:
 - rice-theorem
 - np-completeness
@@ -15,9 +17,8 @@ tags:
 - mapping-reduction
 - computable
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Reductions and Undecidability
 
 ## Core Idea

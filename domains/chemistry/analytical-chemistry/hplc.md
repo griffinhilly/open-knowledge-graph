@@ -18,7 +18,7 @@ tags:
 - retention time
 - C18
 stage: advanced
-status: draft
+status: validated
 ---
 
 # High-Performance Liquid Chromatography (HPLC)

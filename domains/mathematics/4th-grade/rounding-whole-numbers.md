@@ -4,16 +4,26 @@ title: Rounding Whole Numbers
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: place-value-whole-numbers
-    type: hard
+- id: place-value-whole-numbers
+  type: hard
+- id: comparing-three-digit-numbers
+  type: soft
+- id: number-line-to-1000
+  type: soft
+- id: rounding-to-nearest-hundred
+  type: soft
+- id: rounding-to-nearest-ten
+  type: soft
 builds-toward:
-  - estimation-strategies
-  - rounding-decimals
-tags: [number-sense, estimation, place-value]
+- estimation-strategies
+- rounding-decimals
+tags:
+- number-sense
+- estimation
+- place-value
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Rounding Whole Numbers
 
 ## Core Idea

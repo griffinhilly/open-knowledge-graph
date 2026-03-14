@@ -4,15 +4,21 @@ title: Writing and Interpreting Numerical Expressions
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: order-of-operations
-    type: hard
+- id: order-of-operations
+  type: hard
+- id: input-output-tables
+  type: soft
+- id: patterns-and-sequences
+  type: soft
 builds-toward:
-  - evaluating-expressions-with-grouping
-tags: [expressions, algebra-readiness, notation]
+- evaluating-expressions-with-grouping
+tags:
+- expressions
+- algebra-readiness
+- notation
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Writing and Interpreting Numerical Expressions
 
 ## Core Idea

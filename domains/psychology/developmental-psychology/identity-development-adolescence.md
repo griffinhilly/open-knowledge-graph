@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: moral-development-gilligan
   type: soft
+- id: attachment-styles
+  type: soft
 builds-toward:
 - adult-development-lifespan
 tags:
@@ -21,9 +23,8 @@ tags:
 - achievement
 - diffusion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Identity Development in Adolescence
 
 ## Core Idea

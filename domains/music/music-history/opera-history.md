@@ -19,7 +19,7 @@ tags:
 - music-drama
 - leitmotif
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Opera History: From Baroque to the Romantic Stage

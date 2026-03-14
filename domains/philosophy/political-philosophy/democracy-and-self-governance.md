@@ -17,7 +17,7 @@ tags:
 - representation
 - popular-sovereignty
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Democracy and Self-Governance

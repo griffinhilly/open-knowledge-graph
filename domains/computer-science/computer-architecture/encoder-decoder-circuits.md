@@ -15,7 +15,7 @@ tags:
 - combinational
 - address-decoding
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Encoders, Decoders, and Priority Encoders

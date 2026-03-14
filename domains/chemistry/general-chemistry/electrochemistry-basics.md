@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: electric-potential-energy
   type: soft
+- id: metallic-bonding
+  type: soft
 builds-toward:
 - electrochemical-cells
 tags:
@@ -22,9 +24,8 @@ tags:
 - half-reaction
 - activity-series
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Oxidation-Reduction Reactions
 
 ## Core Idea

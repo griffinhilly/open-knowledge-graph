@@ -8,15 +8,16 @@ prerequisites:
   type: hard
 - id: social-norms-and-conformity
   type: soft
+- id: social-comparison-theory
+  type: soft
 tags:
 - groupthink
 - Janis
 - decision making
 - group cohesion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Groupthink
 
 ## Core Idea

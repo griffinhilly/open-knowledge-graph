@@ -16,7 +16,7 @@ tags:
 - speed
 - mass
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kinetic Energy

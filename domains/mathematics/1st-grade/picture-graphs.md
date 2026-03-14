@@ -17,7 +17,7 @@ tags:
 - data-interpretation
 - comparing
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Picture Graphs

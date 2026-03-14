@@ -15,7 +15,7 @@ tags:
 - constructors
 - __init__
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Objects and Instances

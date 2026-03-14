@@ -26,7 +26,7 @@ tags:
 - target-cells
 - feedback
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Endocrine Glands and Hormonal Signaling

@@ -21,7 +21,7 @@ tags:
 - examples
 - credibility
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Using Evidence in Speeches

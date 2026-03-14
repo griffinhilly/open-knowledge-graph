@@ -6,6 +6,8 @@ course: microeconomics
 prerequisites:
 - id: scarcity-and-opportunity-cost
   type: hard
+- id: income-and-cross-price-elasticity
+  type: soft
 builds-toward:
 - marginal-utility-and-consumer-choice
 - indifference-curves
@@ -16,9 +18,8 @@ tags:
 - ordinal
 - rational consumer
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Utility and Preferences
 
 ## Core Idea

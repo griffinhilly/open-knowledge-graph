@@ -19,7 +19,7 @@ tags:
 - causation
 - epidemiology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Measures of Association and Impact

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: population-growth-models
   type: soft
+- id: antibiotic-resistance-mechanisms
+  type: soft
 builds-toward:
 - emerging-infectious-diseases
 tags:
@@ -22,9 +24,8 @@ tags:
 - pandemic
 - incubation period
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Infectious Disease Epidemiology
 
 ## Core Idea

@@ -20,7 +20,7 @@ tags:
 - kinematics
 - 2d
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Projectile Motion

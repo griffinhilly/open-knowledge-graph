@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: ratios
   type: soft
+- id: non-chord-tones
+  type: soft
 builds-toward:
 - species-counterpoint
 - four-part-writing
@@ -22,9 +24,8 @@ tags:
 - two-voice
 - polyphony
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Counterpoint Basics
 
 ## Core Idea

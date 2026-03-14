@@ -16,7 +16,7 @@ tags:
 - myth
 - the-fantastic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Fantasy: Genre Conventions and Modes

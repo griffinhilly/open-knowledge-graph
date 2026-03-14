@@ -17,7 +17,7 @@ tags:
 - inverse-operations
 - number-bonds
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Fact Families

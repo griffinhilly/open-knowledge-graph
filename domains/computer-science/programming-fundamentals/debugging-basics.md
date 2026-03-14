@@ -18,7 +18,7 @@ tags:
 - print debugging
 - breakpoints
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Debugging Basics

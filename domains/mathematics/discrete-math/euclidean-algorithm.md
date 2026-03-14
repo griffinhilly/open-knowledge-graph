@@ -18,7 +18,7 @@ tags:
 - bezout
 - modular-inverse
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Euclidean Algorithm

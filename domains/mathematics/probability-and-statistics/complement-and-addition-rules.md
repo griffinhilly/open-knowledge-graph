@@ -15,7 +15,7 @@ tags:
 - mutually-exclusive
 - probability-rules
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Complement Rule and Addition Rule

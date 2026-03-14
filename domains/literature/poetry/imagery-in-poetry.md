@@ -8,9 +8,11 @@ prerequisites:
   type: hard
 - id: figurative-language
   type: hard
+- id: sound-devices-in-poetry
+  type: soft
 builds-toward:
 - poetic-voice-and-tone
-- extended-metaphor-in-poetry
+- allegory-and-extended-metaphor
 - concrete-vs-abstract-in-poetry
 tags:
 - imagery
@@ -18,9 +20,8 @@ tags:
 - concrete
 - vivid language
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Imagery in Poetry
 
 ## Core Idea

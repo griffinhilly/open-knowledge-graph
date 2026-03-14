@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: consequentialism
   type: soft
+- id: categorical-imperative
+  type: soft
+- id: moral-realism
+  type: soft
 builds-toward:
 - applied-ethics-intro
 - bioethics
@@ -21,9 +25,8 @@ tags:
 - social-contract
 - fairness
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Contractualism
 
 ## Core Idea

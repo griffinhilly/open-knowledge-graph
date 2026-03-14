@@ -12,9 +12,10 @@ prerequisites:
   type: hard
 - id: discourse-analysis
   type: soft
+- id: sound-devices-in-poetry
+  type: soft
 builds-toward:
-- poetic-persona-and-speaker
-- imagery-in-poetry
+  - poetic-persona-and-speaker
 tags:
 - voice
 - tone
@@ -22,9 +23,8 @@ tags:
 - register
 - speaker
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Poetic Voice and Tone
 
 ## Core Idea

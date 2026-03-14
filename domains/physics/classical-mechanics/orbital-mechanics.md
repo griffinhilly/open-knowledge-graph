@@ -22,7 +22,7 @@ tags:
 - gravitational-force
 - orbital-velocity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orbital Mechanics: Circular and Elliptical Orbits

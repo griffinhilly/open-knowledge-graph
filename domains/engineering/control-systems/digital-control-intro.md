@@ -17,7 +17,7 @@ tags:
 - discretization
 - sampling-rate
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Introduction to Digital Control Systems

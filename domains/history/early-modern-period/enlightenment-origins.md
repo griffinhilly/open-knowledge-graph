@@ -12,8 +12,12 @@ prerequisites:
   type: soft
 - id: absolutism-and-monarchy
   type: soft
+- id: english-civil-war-glorious-revolution
+  type: soft
+- id: mercantilism
+  type: soft
 builds-toward:
-- social-contract-theory
+- social-contract-theory-historical
 - american-revolution
 - french-revolution-origins
 tags:
@@ -27,9 +31,8 @@ tags:
 - progress
 - toleration
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Enlightenment
 
 ## Core Idea

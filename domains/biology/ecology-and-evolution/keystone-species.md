@@ -8,18 +8,18 @@ prerequisites:
   type: hard
 - id: community-ecology-intro
   type: hard
+- id: ecological-succession
+  type: soft
 builds-toward:
-- biodiversity-and-conservation
-- trophic-levels-and-food-webs
+  - biodiversity-and-conservation
 tags:
 - keystone-species
 - trophic-cascade
 - top-down-control
 - community-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Keystone Species and Trophic Cascades
 
 ## Core Idea

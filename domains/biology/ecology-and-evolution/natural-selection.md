@@ -18,7 +18,7 @@ tags:
 - fitness
 - adaptation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Natural Selection

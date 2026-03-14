@@ -15,7 +15,7 @@ builds-toward:
   - literal-equations
 tags: [variables, expressions, review, algebra-foundations]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Variables and Expressions Review

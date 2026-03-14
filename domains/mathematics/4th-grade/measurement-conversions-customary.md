@@ -4,18 +4,28 @@ title: Measurement Conversions (Customary)
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: multi-digit-multiplication
-    type: hard
-  - id: intro-to-long-division
-    type: soft
+- id: multi-digit-multiplication
+  type: hard
+- id: intro-to-long-division
+  type: soft
+- id: measuring-in-feet-and-meters
+  type: soft
+- id: liquid-volume
+  type: soft
+- id: area-of-rectangles
+  type: soft
+- id: perimeter
+  type: soft
 builds-toward:
-  - measurement-conversions-metric
-  - measurement-conversions-5th
-tags: [measurement, conversion, customary-units]
+- measurement-conversions-metric
+- measurement-conversions-5th
+tags:
+- measurement
+- conversion
+- customary-units
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Measurement Conversions (Customary)
 
 ## Core Idea

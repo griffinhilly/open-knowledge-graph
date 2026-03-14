@@ -20,7 +20,7 @@ tags:
 - clause
 - literal
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conjunctive and Disjunctive Normal Forms

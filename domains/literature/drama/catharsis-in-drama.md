@@ -6,6 +6,8 @@ course: drama
 prerequisites:
 - id: aristotelian-tragedy
   type: hard
+- id: tragic-hero-and-hamartia
+  type: soft
 builds-toward:
 - modern-realist-drama
 - absurdist-theatre
@@ -17,9 +19,8 @@ tags:
 - Aristotle
 - audience
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Catharsis in Drama
 
 ## Core Idea

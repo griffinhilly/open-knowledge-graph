@@ -15,7 +15,7 @@ tags:
 - pencil
 - mark-making
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Mark-Making Fundamentals

@@ -19,7 +19,7 @@ tags:
 - page-number
 - offset
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Paging and Page Tables

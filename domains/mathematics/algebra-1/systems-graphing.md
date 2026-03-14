@@ -14,7 +14,7 @@ builds-toward:
   - systems-word-problems
 tags: [systems, graphing, intersection, linear-equations]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Systems of Equations — Graphing Method

@@ -15,7 +15,7 @@ tags:
 - force
 - time
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Momentum and Impulse

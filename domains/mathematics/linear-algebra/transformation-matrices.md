@@ -18,7 +18,7 @@ tags:
 - basis images
 - columns of matrix
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Standard Matrix of a Linear Transformation

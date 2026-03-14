@@ -4,18 +4,22 @@ title: Fundamental Theorem of Calculus Part 2
 domain: mathematics
 course: calculus-1
 prerequisites:
-  - id: fundamental-theorem-of-calculus-part-1
-    type: hard
-  - id: antiderivatives
-    type: hard
+- id: fundamental-theorem-of-calculus-part-1
+  type: hard
+- id: antiderivatives
+  type: hard
+- id: indefinite-integrals
+  type: soft
 builds-toward:
-  - u-substitution
-  - area-between-curves
-tags: [integration, FTC, evaluation]
+- u-substitution
+- area-between-curves
+tags:
+- integration
+- FTC
+- evaluation
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Fundamental Theorem of Calculus Part 2
 
 ## Core Idea

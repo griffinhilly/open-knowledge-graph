@@ -24,7 +24,7 @@ tags:
 - ΔS
 - thermodynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Entropy and Gibbs Free Energy

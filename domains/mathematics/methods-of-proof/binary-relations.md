@@ -20,7 +20,7 @@ tags:
 - transitive
 - antisymmetric
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary Relations

@@ -14,10 +14,14 @@ prerequisites:
   type: soft
 - id: staff-and-clefs
   type: soft
+- id: counterpoint-basics
+  type: soft
+- id: functional-harmony
+  type: soft
+- id: non-chord-tones
+  type: soft
 builds-toward:
-- dominant-seventh-resolution
-- secondary-dominants
-- species-counterpoint
+  - secondary-dominants
 tags:
 - SATB
 - four-part
@@ -25,9 +29,8 @@ tags:
 - texture
 - voice-leading
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Four-Part Writing (SATB)
 
 ## Core Idea

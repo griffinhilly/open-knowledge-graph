@@ -21,7 +21,7 @@ tags:
 - truth tables
 - compound conditions
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Boolean Logic in Programming

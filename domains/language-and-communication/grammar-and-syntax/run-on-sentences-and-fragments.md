@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dependent-clauses
   type: soft
+- id: compound-sentences
+  type: soft
 builds-toward:
 - semicolons-and-colons
 - sentence-combining
@@ -17,9 +19,8 @@ tags:
 - run-ons
 - comma-splice
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Run-On Sentences and Sentence Fragments
 
 ## Core Idea

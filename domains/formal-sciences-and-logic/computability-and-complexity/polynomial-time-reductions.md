@@ -6,22 +6,22 @@ course: computability-and-complexity
 prerequisites:
 - id: np-and-polynomial-time
   type: hard
-- id: time-complexity-classes
+- id: time-complexity-classes-formal
   type: hard
 - id: computability-reductions
   type: soft
 - id: big-o-notation
   type: soft
 builds-toward:
-- np-completeness
-- cook-levin-theorem
+- np-completeness-formal
+- cook-levin-theorem-formal
 tags:
 - reductions
 - polynomial-time
 - complexity
 - NP-hardness
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Polynomial-Time Reductions

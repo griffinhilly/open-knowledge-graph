@@ -6,6 +6,8 @@ course: astronomy
 prerequisites:
 - id: stellar-evolution-main-sequence-to-giant
   type: hard
+- id: binary-stars-and-stellar-systems
+  type: soft
 builds-toward:
 - active-galactic-nuclei
 - hubble-law-and-cosmic-expansion
@@ -19,9 +21,8 @@ tags:
 - compact-objects
 - Type-Ia-supernova
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Stellar End States: White Dwarfs, Neutron Stars, and Black Holes
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: graph-theory-intro
   type: soft
+- id: tree-traversals
+  type: soft
 builds-toward:
 - dijkstras-algorithm
 - topological-sort
@@ -19,9 +21,8 @@ tags:
 - shortest-path
 - level-order
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Breadth-First Search (BFS)
 
 ## Core Idea

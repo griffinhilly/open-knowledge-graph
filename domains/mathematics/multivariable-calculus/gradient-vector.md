@@ -19,7 +19,7 @@ tags:
 - steepest-ascent
 - level-curves
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Gradient Vector

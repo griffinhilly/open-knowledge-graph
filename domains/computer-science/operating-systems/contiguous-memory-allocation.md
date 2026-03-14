@@ -17,7 +17,7 @@ tags:
 - best-fit
 - worst-fit
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Contiguous Memory Allocation and Fragmentation

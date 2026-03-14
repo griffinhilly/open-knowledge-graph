@@ -16,7 +16,7 @@ tags:
 - rotations
 - self-balancing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # AVL Trees

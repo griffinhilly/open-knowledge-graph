@@ -24,7 +24,7 @@ tags:
 - race
 - empire
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # New Imperialism and European Colonialism

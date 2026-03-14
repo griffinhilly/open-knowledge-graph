@@ -17,7 +17,7 @@ tags:
 - standing-waves
 - zero-point-energy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Particle in a Box (Infinite Square Well)

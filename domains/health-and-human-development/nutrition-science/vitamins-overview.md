@@ -18,7 +18,7 @@ tags:
 - water-soluble
 - deficiency
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Vitamins: Classification, Functions, and Deficiency

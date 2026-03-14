@@ -19,7 +19,7 @@ tags:
 - restricted-interests
 - neurodevelopmental
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Autism Spectrum Disorder: Development and Early Signs

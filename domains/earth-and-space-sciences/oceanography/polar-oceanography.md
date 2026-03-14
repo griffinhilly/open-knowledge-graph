@@ -21,7 +21,7 @@ tags:
 - Antarctic Bottom Water
 - Arctic amplification
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Polar Oceanography: Sea Ice and Polar Circulation

@@ -19,7 +19,7 @@ tags:
 - surface
 - tangent-plane
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Parametric Surfaces

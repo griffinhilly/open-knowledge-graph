@@ -16,7 +16,7 @@ tags:
 - informed-consent
 - deception
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ethics in Psychological Research

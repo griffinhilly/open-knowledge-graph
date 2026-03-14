@@ -18,7 +18,7 @@ tags:
 - commodities
 - material culture studies
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Material Culture

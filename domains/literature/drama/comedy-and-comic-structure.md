@@ -16,7 +16,7 @@ tags:
 - New-Comedy
 - Old-Comedy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Comedy and Comic Structure

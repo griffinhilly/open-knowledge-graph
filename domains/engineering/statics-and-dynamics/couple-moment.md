@@ -14,7 +14,7 @@ tags:
 - pure moment
 - free vector
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Couple and Moment of a Couple

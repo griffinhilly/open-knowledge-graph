@@ -22,7 +22,7 @@ tags:
 - motet
 - imitation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Renaissance Polyphony

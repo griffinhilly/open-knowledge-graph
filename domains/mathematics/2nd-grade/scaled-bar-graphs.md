@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: skip-counting-by-10s
   type: soft
+- id: scaled-picture-graphs
+  type: soft
 builds-toward:
 - line-graphs
 - data-and-graphs-intro
@@ -20,9 +22,8 @@ tags:
 - interpret
 - create
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Scaled Bar Graphs
 
 ## Core Idea

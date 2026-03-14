@@ -12,7 +12,7 @@ builds-toward:
   - volume-of-prisms-and-cylinders
 tags: [3d-geometry, surface-area, cylinders]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Surface Area of Cylinders

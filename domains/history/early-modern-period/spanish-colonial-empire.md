@@ -21,7 +21,7 @@ tags:
 - Potosí
 - silver
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Spanish Colonial Empire in the Americas

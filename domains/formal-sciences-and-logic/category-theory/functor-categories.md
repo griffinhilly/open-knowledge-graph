@@ -18,7 +18,7 @@ tags:
 - presheaf
 - diagram
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Functor Categories

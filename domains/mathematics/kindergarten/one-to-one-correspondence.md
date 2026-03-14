@@ -15,7 +15,7 @@ tags:
 - counting
 - one-to-one
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # One-to-One Correspondence

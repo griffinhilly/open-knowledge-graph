@@ -21,7 +21,7 @@ tags:
 - preview
 - summary
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Speech Introductions and Conclusions

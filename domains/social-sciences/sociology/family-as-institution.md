@@ -15,7 +15,7 @@ tags:
 - household
 - domestic-labor
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Family as a Social Institution

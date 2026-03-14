@@ -21,7 +21,7 @@ tags:
 - primary-areas
 - association-cortex
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cerebral Cortex Organization

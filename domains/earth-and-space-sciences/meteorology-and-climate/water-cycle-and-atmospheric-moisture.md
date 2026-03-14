@@ -24,7 +24,7 @@ tags:
 - water-vapor
 - hydrological-cycle
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Water Cycle and Atmospheric Moisture

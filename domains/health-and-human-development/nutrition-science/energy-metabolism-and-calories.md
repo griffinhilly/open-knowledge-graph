@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: thermochemistry-enthalpy
   type: soft
+- id: carbohydrate-structure-and-function
+  type: soft
+- id: dietary-fats-and-lipids
+  type: soft
 builds-toward:
 - energy-balance-and-body-composition
 - sports-nutrition-basics
@@ -25,9 +29,8 @@ tags:
 - TDEE
 - energy balance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Energy Metabolism, Caloric Needs, and Basal Metabolic Rate
 
 ## Core Idea

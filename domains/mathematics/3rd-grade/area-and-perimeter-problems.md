@@ -19,7 +19,7 @@ tags:
 - word-problems
 - measurement
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Area and Perimeter Problem Solving

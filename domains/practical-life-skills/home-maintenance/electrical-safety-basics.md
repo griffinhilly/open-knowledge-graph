@@ -12,7 +12,7 @@ tags:
 - safety
 - foundations
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Electrical Safety Basics

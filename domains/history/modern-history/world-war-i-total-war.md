@@ -19,7 +19,7 @@ tags:
 - home front
 - technology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # World War I as Total War

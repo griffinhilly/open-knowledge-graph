@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: power-and-authority
   type: soft
+- id: cross-cultural-comparison
+  type: soft
+- id: economic-anthropology
+  type: soft
 builds-toward:
 - globalization-cultural-change
 tags:
@@ -18,9 +22,8 @@ tags:
 - political organization
 - headman
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Political Anthropology: Power Without the State
 
 ## Core Idea

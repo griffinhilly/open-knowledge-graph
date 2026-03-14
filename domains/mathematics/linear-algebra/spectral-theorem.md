@@ -17,7 +17,7 @@ tags:
 - eigendecomposition
 - symmetric
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Spectral Theorem

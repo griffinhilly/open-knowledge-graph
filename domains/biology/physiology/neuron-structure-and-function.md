@@ -19,7 +19,7 @@ tags:
 - myelin
 - nervous system
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neuron Structure and Function

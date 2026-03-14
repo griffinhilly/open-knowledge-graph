@@ -13,7 +13,7 @@ builds-toward:
   - systems-nonlinear
 tags: [systems, substitution, solving, linear-equations]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Systems of Equations — Substitution Method

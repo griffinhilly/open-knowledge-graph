@@ -21,7 +21,7 @@ tags:
 - approximate-methods
 - helium
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Variational Principle and Trial Wavefunctions

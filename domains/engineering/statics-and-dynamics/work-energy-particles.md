@@ -26,7 +26,7 @@ tags:
 - potential energy
 - conservation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Work-Energy Principle for Particles

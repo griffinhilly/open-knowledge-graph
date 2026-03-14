@@ -19,7 +19,7 @@ tags:
 - analysis
 - textual support
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Textual Evidence and Citation in Literary Analysis

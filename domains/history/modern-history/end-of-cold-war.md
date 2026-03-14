@@ -10,18 +10,19 @@ prerequisites:
   type: soft
 - id: marxism-and-socialism
   type: soft
+- id: vietnam-war
+  type: soft
 builds-toward:
 - globalization
 tags:
 - Cold War
 - Gorbachev
 - Soviet Union
-- '1989'
+- 1989
 - Berlin Wall
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The End of the Cold War and Soviet Collapse
 
 ## Core Idea

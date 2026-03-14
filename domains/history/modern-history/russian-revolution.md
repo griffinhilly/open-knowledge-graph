@@ -18,7 +18,7 @@ tags:
 - communism
 - '1917'
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Russian Revolution

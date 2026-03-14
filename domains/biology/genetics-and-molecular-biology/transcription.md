@@ -21,7 +21,7 @@ tags:
 - mRNA
 - template strand
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transcription: DNA to RNA

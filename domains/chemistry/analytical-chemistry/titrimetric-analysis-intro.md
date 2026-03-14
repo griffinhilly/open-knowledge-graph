@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: stoichiometry-calculations
   type: hard
+- id: gravimetric-analysis
+  type: soft
 builds-toward:
 - acid-base-titration
 - redox-titration
@@ -22,9 +24,8 @@ tags:
 - standardization
 - primary standard
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Titrimetric Analysis: Principles and Terminology
 
 ## Core Idea

@@ -14,7 +14,7 @@ tags:
 - effective focal length
 - image relay
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lens Combinations and Multi-Element Systems

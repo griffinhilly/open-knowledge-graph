@@ -10,15 +10,18 @@ prerequisites:
   type: soft
 - id: qualia-and-phenomenal-consciousness
   type: soft
+- id: philosophical-zombies
+  type: soft
+- id: substance-dualism
+  type: soft
 tags:
 - epiphenomenalism
 - Huxley
 - causal-inertness
 - consciousness
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Epiphenomenalism
 
 ## Core Idea

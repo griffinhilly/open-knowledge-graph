@@ -19,7 +19,7 @@ tags:
 - subnational government
 - intergovernmental relations
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Federalism and Decentralization

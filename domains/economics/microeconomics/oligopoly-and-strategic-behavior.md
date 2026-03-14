@@ -19,7 +19,7 @@ tags:
 - collusion
 - cartel
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Oligopoly and Strategic Behavior

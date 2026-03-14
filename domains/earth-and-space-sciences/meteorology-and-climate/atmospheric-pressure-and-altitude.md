@@ -21,7 +21,7 @@ tags:
 - hydrostatic
 - density
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Atmospheric Pressure and Altitude

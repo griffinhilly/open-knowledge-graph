@@ -17,7 +17,7 @@ tags:
 - within-group-variance
 - multiple-groups
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # One-Way ANOVA

@@ -10,7 +10,7 @@ tags:
 - vocabulary
 - position
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Positional and Directional Words

@@ -18,7 +18,7 @@ tags:
 - defeasibility
 - knowledge-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Responses to the Gettier Problem

@@ -19,7 +19,7 @@ tags:
 - clock-arithmetic
 - modular-inverse
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Modular Arithmetic and Congruences

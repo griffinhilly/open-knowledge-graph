@@ -11,7 +11,7 @@ builds-toward:
   - number-patterns-and-relationships
 tags: [coordinate-geometry, graphing, data]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Plotting Ordered Pairs

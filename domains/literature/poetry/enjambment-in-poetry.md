@@ -16,7 +16,7 @@ tags:
 - syntax
 - tension
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Enjambment

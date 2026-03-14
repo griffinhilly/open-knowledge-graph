@@ -22,7 +22,7 @@ tags:
 - nutrient-cycling
 - biogeochemistry
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Biogeochemical Cycles: Carbon, Nitrogen, and Phosphorus

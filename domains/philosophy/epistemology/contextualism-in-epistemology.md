@@ -17,7 +17,7 @@ tags:
 - knowledge-attributions
 - standards
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Epistemic Contextualism

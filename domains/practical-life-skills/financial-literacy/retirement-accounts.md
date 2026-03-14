@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: percent-concept
   type: soft
+- id: net-worth-tracking
+  type: soft
 tags:
 - retirement
 - 401k
@@ -22,9 +24,8 @@ tags:
 - tax-advantaged
 - contribution-limits
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Retirement Accounts: 401(k), IRA, and Tax Advantages
 
 ## Core Idea

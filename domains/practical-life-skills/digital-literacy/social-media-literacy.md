@@ -16,7 +16,7 @@ tags:
 - privacy
 - reputation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Social Media Literacy

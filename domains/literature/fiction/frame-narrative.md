@@ -17,7 +17,7 @@ tags:
 - narrative-levels
 - metafiction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Frame Narrative

@@ -15,7 +15,7 @@ tags:
 - pronouns
 - reference
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Pronouns and Antecedents

@@ -16,7 +16,7 @@ tags:
 - linear
 - displacement
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Superposition Principle

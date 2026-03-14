@@ -22,7 +22,7 @@ tags:
 - usability testing
 - human-centered design
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # User-Centered Design Thinking

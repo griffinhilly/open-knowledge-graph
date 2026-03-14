@@ -15,7 +15,7 @@ tags:
 - causal necessity
 - empiricism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Regularity Theory of Causation

@@ -16,7 +16,7 @@ tags:
 - strings
 - autocomplete
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tries (Prefix Trees)

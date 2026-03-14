@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: transverse-and-longitudinal-waves
   type: hard
+- id: electromagnetic-spectrum
+  type: soft
 builds-toward:
 - malus-law
 tags:
@@ -17,9 +19,8 @@ tags:
 - electric field
 - Brewster's angle
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Polarization of Light
 
 ## Core Idea

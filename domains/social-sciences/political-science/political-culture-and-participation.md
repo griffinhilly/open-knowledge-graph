@@ -18,6 +18,10 @@ prerequisites:
   type: soft
 - id: sampling-methods
   type: soft
+- id: electoral-systems
+  type: soft
+- id: political-parties-and-party-systems
+  type: soft
 builds-toward:
 - regime-change-and-democratization
 tags:
@@ -27,9 +31,8 @@ tags:
 - voting
 - Almond and Verba
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Political Culture and Civic Participation
 
 ## Core Idea

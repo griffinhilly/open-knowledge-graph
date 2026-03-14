@@ -16,7 +16,7 @@ tags:
 - interpretation
 - schools
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Schools of Historical Interpretation

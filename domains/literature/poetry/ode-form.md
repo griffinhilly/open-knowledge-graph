@@ -18,7 +18,7 @@ tags:
 - praise
 - apostrophe
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Ode

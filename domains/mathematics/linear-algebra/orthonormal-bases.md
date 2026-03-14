@@ -18,7 +18,7 @@ tags:
 - coordinates
 - Fourier coefficients
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orthonormal Bases

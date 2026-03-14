@@ -22,7 +22,7 @@ tags:
 - torque
 - force-balance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Static Equilibrium

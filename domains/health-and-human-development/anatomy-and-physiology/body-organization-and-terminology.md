@@ -27,7 +27,7 @@ tags:
 - body-planes
 - organization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Body Organization and Anatomical Terminology

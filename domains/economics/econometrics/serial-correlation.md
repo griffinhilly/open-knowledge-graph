@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: heteroskedasticity
   type: soft
+- id: stationarity-and-unit-roots
+  type: soft
 tags:
 - serial-correlation
 - autocorrelation
@@ -17,9 +19,8 @@ tags:
 - HAC
 - AR-errors
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Serial Correlation (Autocorrelation) in Regression
 
 ## Core Idea

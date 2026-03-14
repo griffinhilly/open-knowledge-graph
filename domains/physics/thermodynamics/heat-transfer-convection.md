@@ -13,7 +13,7 @@ tags:
 - natural-convection
 - forced-convection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heat Transfer: Convection

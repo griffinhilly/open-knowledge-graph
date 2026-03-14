@@ -4,19 +4,23 @@ title: Trigonometric Substitution
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: trigonometric-integrals
-    type: hard
-  - id: inverse-trigonometric-functions
-    type: hard
-  - id: derivatives-of-inverse-trig-functions
-    type: soft
+- id: trigonometric-integrals
+  type: hard
+- id: inverse-trigonometric-functions
+  type: hard
+- id: derivatives-of-inverse-trig-functions
+  type: soft
+- id: graphing-tangent-and-reciprocal-trig
+  type: soft
 builds-toward:
-  - arc-length
-tags: [integration, techniques, trig-substitution]
+- arc-length
+tags:
+- integration
+- techniques
+- trig-substitution
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Trigonometric Substitution
 
 ## Core Idea

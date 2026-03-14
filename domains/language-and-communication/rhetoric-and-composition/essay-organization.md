@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: topic-sentences-and-unity
   type: hard
+- id: argument-structure-toulmin
+  type: soft
 builds-toward:
 - transitions-and-cohesion
 - expository-writing
@@ -20,9 +22,8 @@ tags:
 - body paragraphs
 - organization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Essay Organization: Introduction, Body, Conclusion
 
 ## Core Idea

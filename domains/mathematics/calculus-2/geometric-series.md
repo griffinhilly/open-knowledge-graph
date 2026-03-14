@@ -4,18 +4,22 @@ title: Geometric Series
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: series-definition-and-partial-sums
-    type: hard
-  - id: sequences-and-series-review
-    type: hard
+- id: series-definition-and-partial-sums
+  type: hard
+- id: sequences-and-series-review
+  type: hard
+- id: geometric-sequences
+  type: soft
 builds-toward:
-  - power-series
-  - radius-and-interval-of-convergence
-tags: [series, geometric, convergence]
+- power-series
+- radius-and-interval-of-convergence
+tags:
+- series
+- geometric
+- convergence
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Geometric Series
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: characterization-methods
   type: soft
+- id: dialogue-in-fiction
+  type: soft
 builds-toward:
 - flash-fiction
 - narrative-pacing
@@ -20,9 +22,8 @@ tags:
 - compression
 - prose-fiction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Short Story as a Literary Form
 
 ## Core Idea

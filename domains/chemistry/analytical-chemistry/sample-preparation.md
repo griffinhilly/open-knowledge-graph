@@ -21,7 +21,7 @@ tags:
 - extraction
 - matrix
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Sample Preparation and Dissolution Techniques

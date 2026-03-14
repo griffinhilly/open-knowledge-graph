@@ -16,7 +16,7 @@ tags:
 - musicianship
 - foundational
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Audiation and Inner Hearing

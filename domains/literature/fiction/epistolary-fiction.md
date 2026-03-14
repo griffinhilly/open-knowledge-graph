@@ -14,7 +14,7 @@ tags:
 - documents
 - form
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Epistolary Fiction

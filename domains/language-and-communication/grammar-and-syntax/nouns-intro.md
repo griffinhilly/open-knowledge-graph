@@ -13,7 +13,7 @@ tags:
 - nouns
 - foundations
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Nouns: People, Places, Things, and Ideas

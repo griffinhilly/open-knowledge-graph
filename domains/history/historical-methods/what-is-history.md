@@ -13,7 +13,7 @@ tags:
 - epistemology
 - historical-thinking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # What Is History?

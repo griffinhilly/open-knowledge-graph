@@ -13,7 +13,7 @@ builds-toward:
   - trigonometric-substitution
 tags: [trigonometry, graphing, tangent, secant, cosecant, cotangent]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graphing Tangent and Reciprocal Trigonometric Functions

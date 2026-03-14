@@ -18,7 +18,7 @@ tags:
 - Turner
 - van Gennep
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ritual and Ceremony

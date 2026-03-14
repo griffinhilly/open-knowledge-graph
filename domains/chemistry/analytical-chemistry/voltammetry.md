@@ -23,7 +23,7 @@ tags:
 - stripping analysis
 - limiting current
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Voltammetry and Polarography

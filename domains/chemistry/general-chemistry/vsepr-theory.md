@@ -16,7 +16,7 @@ tags:
 - lone-pairs
 - hybridization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # VSEPR Theory and Molecular Geometry

@@ -16,7 +16,7 @@ tags:
 - stigma
 - medicalization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Deviance and Social Control

@@ -24,7 +24,7 @@ tags:
 - zero-point-energy
 - ladder-operators
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantum Harmonic Oscillator and Molecular Vibrations

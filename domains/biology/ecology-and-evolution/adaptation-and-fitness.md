@@ -16,7 +16,7 @@ tags:
 - phenotype
 - evolution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Adaptation and Fitness

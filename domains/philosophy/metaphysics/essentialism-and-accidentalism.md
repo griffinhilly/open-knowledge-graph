@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: first-order-logic-syntax
   type: soft
+- id: universals-and-particulars
+  type: soft
 builds-toward:
 - possible-worlds-semantics
 tags:
@@ -20,9 +22,8 @@ tags:
 - Kripke
 - Aristotle
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Essentialism and Accidental Properties
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: bernoullis-equation
   type: soft
+- id: potential-flow-theory
+  type: soft
 tags:
 - drag
 - lift
@@ -19,9 +21,8 @@ tags:
 - friction drag
 - separation
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Drag and Lift on Submerged Bodies
 
 ## Core Idea

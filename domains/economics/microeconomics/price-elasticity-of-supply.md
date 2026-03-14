@@ -17,7 +17,7 @@ tags:
 - responsiveness
 - time horizon
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Price Elasticity of Supply

@@ -22,7 +22,7 @@ tags:
 - sampling
 - production
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electronic Composition Basics

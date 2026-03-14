@@ -17,7 +17,7 @@ tags:
 - performatives
 - indirect speech acts
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Speech Act Theory

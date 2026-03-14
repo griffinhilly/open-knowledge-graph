@@ -17,7 +17,7 @@ tags:
 - shared-memory
 - sockets
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Inter-Process Communication (IPC)

@@ -21,7 +21,7 @@ tags:
 - systems
 - back substitution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gaussian Elimination

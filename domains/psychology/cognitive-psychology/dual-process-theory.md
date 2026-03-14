@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: cognitive-biases-overview
   type: hard
-- id: deductive-reasoning
+- id: deductive-reasoning-cognitive
   type: soft
 builds-toward:
 - metacognition
@@ -19,7 +19,7 @@ tags:
 - automatic
 - controlled
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dual-Process Theory of Cognition

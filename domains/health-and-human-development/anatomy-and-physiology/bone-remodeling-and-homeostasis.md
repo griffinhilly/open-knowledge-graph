@@ -12,9 +12,10 @@ prerequisites:
   type: hard
 - id: hormone-signaling-mechanisms
   type: soft
+- id: fat-soluble-vitamins
+  type: soft
 builds-toward:
-- endocrine-glands-and-hormones
-- fluid-balance-and-electrolytes
+  - fluid-balance-and-electrolytes
 tags:
 - bone-remodeling
 - osteoblast
@@ -23,9 +24,8 @@ tags:
 - PTH
 - vitamin-D
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Bone Remodeling and Calcium Homeostasis
 
 ## Core Idea

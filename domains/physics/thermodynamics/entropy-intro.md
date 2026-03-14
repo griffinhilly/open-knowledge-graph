@@ -18,7 +18,7 @@ tags:
 - state-function
 - Clausius
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Entropy

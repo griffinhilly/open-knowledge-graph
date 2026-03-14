@@ -21,7 +21,7 @@ tags:
 - dominant strategy
 - prisoners dilemma
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Game Theory Basics

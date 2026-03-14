@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: thermochemistry-enthalpy
   type: soft
+- id: atp-synthesis
+  type: soft
 builds-toward:
 - light-reactions
 - calvin-cycle
@@ -20,9 +22,8 @@ tags:
 - glucose
 - chloroplast
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Photosynthesis Overview
 
 ## Core Idea

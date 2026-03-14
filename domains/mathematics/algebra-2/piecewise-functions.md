@@ -4,20 +4,27 @@ title: Piecewise Functions
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: function-notation
-    type: hard
-  - id: graphing-linear-equations
-    type: hard
-  - id: solving-linear-inequalities
-    type: hard
+- id: function-notation-review
+  type: hard
+- id: graphing-linear-equations
+  type: hard
+- id: solving-inequalities
+  type: hard
+- id: absolute-value-equations
+  type: soft
+- id: absolute-value-inequalities
+  type: soft
 builds-toward:
-  - continuity
-  - step-functions
-tags: [functions, piecewise, graphing, domain]
+- continuity-definition
+- step-functions
+tags:
+- functions
+- piecewise
+- graphing
+- domain
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Piecewise Functions
 
 ## Core Idea

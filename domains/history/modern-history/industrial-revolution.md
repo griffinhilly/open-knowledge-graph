@@ -21,7 +21,7 @@ tags:
 - labor
 - Britain
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Industrial Revolution

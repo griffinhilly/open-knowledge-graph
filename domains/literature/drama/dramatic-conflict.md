@@ -19,7 +19,7 @@ tags:
 - dramatic-tension
 - stakes
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Dramatic Conflict

@@ -19,7 +19,7 @@ tags:
 - proton-gradient
 - F0F1-ATPase
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # ATP Synthesis and Oxidative Phosphorylation

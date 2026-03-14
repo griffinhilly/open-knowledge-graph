@@ -18,7 +18,7 @@ tags:
 - excommunication
 - filioque
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Great Schism of 1054

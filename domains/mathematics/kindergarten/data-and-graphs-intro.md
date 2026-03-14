@@ -8,15 +8,18 @@ prerequisites:
   type: hard
 - id: sorting-by-attributes
   type: hard
+- id: line-plot-measurements
+  type: soft
+- id: scaled-bar-graphs
+  type: soft
 tags:
 - data
 - graphs
 - sorting
 - tally
 stage: pre-formal
-status: draft
+status: validated
 ---
-
 # Organizing and Representing Data
 
 ## Core Idea

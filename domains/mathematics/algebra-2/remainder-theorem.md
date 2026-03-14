@@ -12,7 +12,7 @@ builds-toward:
   - factor-theorem
 tags: [polynomials, remainder-theorem, evaluation]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Remainder Theorem

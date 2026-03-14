@@ -21,7 +21,7 @@ tags:
 - max-heap
 - heapify
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heaps and Priority Queues

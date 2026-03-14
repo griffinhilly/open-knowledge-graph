@@ -18,7 +18,7 @@ tags:
 - interest
 - growth
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Future Value and Compounding

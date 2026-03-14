@@ -18,7 +18,7 @@ tags:
 - plastic-deformation
 - schmid-factor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Plastic Deformation and Slip Systems

@@ -20,7 +20,7 @@ tags:
 - transition-state
 - collision-theory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Arrhenius Equation and Activation Energy

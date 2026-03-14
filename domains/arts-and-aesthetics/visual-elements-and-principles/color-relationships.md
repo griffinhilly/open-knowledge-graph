@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: color-mixing
   type: soft
+- id: color-temperature
+  type: soft
 builds-toward:
 - contrast-in-design
 - unity-and-variety
@@ -19,9 +21,8 @@ tags:
 - triadic
 - split-complementary
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Color Relationships and Harmony
 
 ## Core Idea

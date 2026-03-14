@@ -19,7 +19,7 @@ tags:
 - best approximation
 - decomposition
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orthogonal Projections

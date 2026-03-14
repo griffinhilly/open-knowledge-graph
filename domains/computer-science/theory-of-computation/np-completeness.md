@@ -20,7 +20,7 @@ tags:
 - reductions
 - polynomial-time-reduction
 stage: advanced
-status: draft
+status: validated
 ---
 
 # NP-Completeness

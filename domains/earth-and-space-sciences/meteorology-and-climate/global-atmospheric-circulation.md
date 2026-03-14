@@ -22,7 +22,7 @@ tags:
 - jet-stream
 - ITCZ
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Global Atmospheric Circulation

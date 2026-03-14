@@ -16,7 +16,7 @@ tags:
 - verification
 - sight-singing
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Error Detection in a Musical Score

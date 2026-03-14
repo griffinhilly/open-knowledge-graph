@@ -17,7 +17,7 @@ tags:
 - rotation
 - spin
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Angular Momentum

@@ -16,7 +16,7 @@ tags:
 - thermal-equilibrium
 - conservation-of-energy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Calorimetry

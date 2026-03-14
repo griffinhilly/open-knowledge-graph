@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: character-motivation-and-development
   type: soft
+- id: dramatic-conflict
+  type: soft
 builds-toward:
 - catharsis-in-drama
 - modern-realist-drama
@@ -18,9 +20,8 @@ tags:
 - peripeteia
 - anagnorisis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Tragic Hero and Hamartia
 
 ## Core Idea

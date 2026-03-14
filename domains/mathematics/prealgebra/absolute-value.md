@@ -4,16 +4,22 @@ title: Absolute Value
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: integers-and-number-line
-    type: hard
+- id: integers-and-number-line
+  type: hard
+- id: comparing-and-ordering-integers
+  type: soft
+- id: opposites-and-additive-inverses
+  type: soft
 builds-toward:
-  - absolute-value-equations
-  - absolute-value-inequalities
-tags: [absolute-value, integers, distance]
+- absolute-value-equations
+- absolute-value-inequalities
+tags:
+- absolute-value
+- integers
+- distance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Absolute Value
 
 ## Core Idea

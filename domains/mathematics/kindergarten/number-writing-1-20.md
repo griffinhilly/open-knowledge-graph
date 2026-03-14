@@ -12,7 +12,7 @@ tags:
 - numeral-writing
 - number-sense
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Writing Numerals 1–20

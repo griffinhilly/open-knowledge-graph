@@ -18,7 +18,7 @@ tags:
 - secondary wavelets
 - diffraction explanation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Huygens's Principle and Wavefronts

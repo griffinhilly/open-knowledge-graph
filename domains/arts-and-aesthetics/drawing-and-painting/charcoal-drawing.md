@@ -19,7 +19,7 @@ tags:
 - tonal
 - medium
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Charcoal Drawing Techniques

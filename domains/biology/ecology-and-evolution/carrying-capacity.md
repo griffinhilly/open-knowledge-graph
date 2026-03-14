@@ -20,7 +20,7 @@ tags:
 - resources
 - population-ceiling
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Carrying Capacity and Limiting Factors

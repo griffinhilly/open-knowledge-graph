@@ -4,17 +4,23 @@ title: Radian Measure
 domain: mathematics
 course: precalculus
 prerequisites:
-  - id: trigonometric-ratios-review
-    type: soft
+- id: trigonometric-ratios-review
+  type: soft
+- id: arc-length-circles
+  type: soft
+- id: sector-area
+  type: soft
 builds-toward:
-  - unit-circle
-  - converting-degrees-and-radians
-  - graphing-sine-and-cosine
-tags: [trigonometry, radians, angle-measure]
+- unit-circle
+- converting-degrees-and-radians
+- graphing-sine-and-cosine
+tags:
+- trigonometry
+- radians
+- angle-measure
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Radian Measure
 
 ## Core Idea

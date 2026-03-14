@@ -13,7 +13,7 @@ tags:
 - digital
 - transformation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Digital Revolution and the Information Age

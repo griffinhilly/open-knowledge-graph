@@ -11,7 +11,7 @@ prerequisites:
 builds-toward: []
 tags: [integration, applications, volumes, revolution, shells]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Volumes by Shell Method

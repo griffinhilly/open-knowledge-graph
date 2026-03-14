@@ -16,7 +16,7 @@ tags:
 - explanation
 - scientific-reasoning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Abductive Reasoning: Inference to the Best Explanation

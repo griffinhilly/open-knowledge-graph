@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: centroid-areas-composite
   type: soft
+- id: buoyancy-and-archimedes
+  type: soft
 builds-toward:
 - control-volume-momentum
 tags:
@@ -18,9 +20,8 @@ tags:
 - plane surfaces
 - curved surfaces
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Hydrostatic Forces on Submerged Surfaces
 
 ## Core Idea

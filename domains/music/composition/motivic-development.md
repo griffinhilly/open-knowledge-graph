@@ -22,7 +22,7 @@ tags:
 - augmentation
 - diminution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Motivic Development

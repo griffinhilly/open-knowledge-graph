@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: cardinality-and-countability
   type: soft
+- id: cantor-theorem
+  type: soft
 builds-toward:
 - independence-results-set-theory
 tags:
@@ -20,9 +22,8 @@ tags:
 - singular cardinals
 - König's theorem
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Cofinality and Regular Cardinals
 
 ## Core Idea

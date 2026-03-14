@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: matrices-intro
   type: soft
+- id: r-squared-and-model-fit
+  type: soft
 builds-toward:
 - robust-standard-errors
 tags:
@@ -18,9 +20,8 @@ tags:
 - VIF
 - identification
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Multicollinearity
 
 ## Core Idea

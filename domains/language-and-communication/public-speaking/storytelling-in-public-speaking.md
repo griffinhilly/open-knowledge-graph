@@ -20,7 +20,7 @@ tags:
 - engagement
 - illustration
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Storytelling in Public Speaking

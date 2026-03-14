@@ -22,7 +22,7 @@ tags:
 - productions
 - derivation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Context-Free Grammars (CFGs)

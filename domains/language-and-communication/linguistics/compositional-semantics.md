@@ -18,7 +18,7 @@ tags:
 - presupposition
 - scope
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Compositional Semantics

@@ -24,7 +24,7 @@ tags:
 - theory
 - interpretation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Literary Criticism as a Discipline

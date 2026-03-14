@@ -17,7 +17,7 @@ tags:
 - figure-ground
 - composition
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Positive and Negative Space

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: short-story-form
   type: soft
+- id: mystery-genre
+  type: soft
+- id: novel-form
+  type: soft
 builds-toward:
 - flash-fiction
 tags:
@@ -16,9 +20,8 @@ tags:
 - tension
 - rhythm
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Narrative Pacing in Fiction
 
 ## Core Idea

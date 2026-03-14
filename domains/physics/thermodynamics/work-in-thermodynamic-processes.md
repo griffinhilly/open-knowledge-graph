@@ -22,7 +22,7 @@ tags:
 - compression
 - area-under-PV-curve
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Work in Thermodynamic Processes

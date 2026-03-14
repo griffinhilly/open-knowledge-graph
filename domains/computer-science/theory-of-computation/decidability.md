@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: mathematical-induction
   type: soft
+- id: church-turing-thesis
+  type: soft
+- id: turing-machine-variants
+  type: soft
 builds-toward:
 - halting-problem
 - recognizability-vs-decidability
@@ -22,9 +26,8 @@ tags:
 - recognizable
 - algorithms
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Decidable Languages
 
 ## Core Idea

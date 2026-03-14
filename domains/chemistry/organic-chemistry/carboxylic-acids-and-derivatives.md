@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: acid-base-chemistry
   type: hard
+- id: nucleophilic-addition-to-carbonyls
+  type: soft
 builds-toward:
 - nucleophilic-acyl-substitution
 - amines-structure-and-properties
@@ -20,9 +22,8 @@ tags:
 - acidity
 - reactivity order
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Carboxylic Acids and Their Derivatives
 
 ## Core Idea

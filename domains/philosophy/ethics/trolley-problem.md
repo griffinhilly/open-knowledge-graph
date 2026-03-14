@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: thought-experiments
   type: soft
+- id: utilitarianism
+  type: soft
 builds-toward:
 - applied-ethics-intro
 - bioethics
@@ -19,9 +21,8 @@ tags:
 - doctrine-of-double-effect
 - moral-intuition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Trolley Problem and Doing/Allowing
 
 ## Core Idea

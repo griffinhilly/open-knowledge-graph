@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: definite-integral-definition
   type: soft
+- id: center-of-mass
+  type: soft
 builds-toward:
 - rotational-dynamics
 - angular-momentum
@@ -16,9 +18,8 @@ tags:
 - rotational-inertia
 - mass-distribution
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Moment of Inertia
 
 ## Core Idea

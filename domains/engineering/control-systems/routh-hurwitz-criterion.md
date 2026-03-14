@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: polynomial-functions-degree-and-leading-coefficient
   type: soft
+- id: time-domain-response-second-order
+  type: soft
 builds-toward:
 - root-locus-method
 - gain-and-phase-margins
@@ -20,9 +22,8 @@ tags:
 - sign-changes
 - hurwitz
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Routh-Hurwitz Stability Criterion
 
 ## Core Idea

@@ -19,7 +19,7 @@ tags:
 - silicates
 - thermal-stability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ceramic Structure and Properties

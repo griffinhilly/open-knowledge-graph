@@ -22,7 +22,7 @@ tags:
 - divide-and-conquer
 - stable-sort
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Merge Sort

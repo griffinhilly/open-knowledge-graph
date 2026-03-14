@@ -8,17 +8,18 @@ prerequisites:
   type: hard
 - id: mathematical-induction
   type: soft
+- id: lambda-calculus
+  type: soft
 builds-toward:
-- church-turing-thesis
+- church-turing-thesis-formal
 tags:
 - computability
 - recursive-functions
 - partial-functions
 - models-of-computation
 stage: advanced
-status: draft
+status: validated
 ---
-
 # General Recursive Functions and the μ-Operator
 
 ## Core Idea

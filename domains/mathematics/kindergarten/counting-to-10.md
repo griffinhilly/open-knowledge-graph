@@ -13,7 +13,7 @@ tags:
 - cardinality
 - number-sense
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Counting to 10

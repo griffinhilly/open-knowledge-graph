@@ -21,7 +21,7 @@ tags:
 - molecular ion
 - m/z
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Mass Spectrometry

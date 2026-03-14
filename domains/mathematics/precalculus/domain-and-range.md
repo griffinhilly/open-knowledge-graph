@@ -11,7 +11,7 @@ builds-toward:
   - rational-functions-asymptotes-review
 tags: [functions, domain, range]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Domain and Range

@@ -26,7 +26,7 @@ tags:
 - charge-transfer
 - Marcus-theory
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Electrochemical Kinetics: Butler-Volmer Theory

@@ -11,7 +11,7 @@ builds-toward:
   - probability-with-combinatorics
 tags: [combinatorics, combinations, counting, order-irrelevant]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Combinations

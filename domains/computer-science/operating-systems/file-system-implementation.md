@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: paging
   type: soft
+- id: directory-structures
+  type: soft
 tags:
 - inode
 - allocation-methods
@@ -16,9 +18,8 @@ tags:
 - indexed-allocation
 - FAT
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # File System Implementation
 
 ## Core Idea

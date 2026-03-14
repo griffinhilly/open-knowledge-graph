@@ -14,7 +14,7 @@ tags:
 - p-hat
 - margin-of-error
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Confidence Intervals for Proportions

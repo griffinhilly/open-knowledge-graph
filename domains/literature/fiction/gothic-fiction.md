@@ -18,7 +18,7 @@ tags:
 - the-uncanny
 - atmosphere
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Gothic Fiction: Atmosphere, Dread, and the Uncanny

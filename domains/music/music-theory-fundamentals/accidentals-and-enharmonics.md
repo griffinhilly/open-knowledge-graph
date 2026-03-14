@@ -19,7 +19,7 @@ tags:
 - enharmonic
 - notation
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Accidentals and Enharmonic Equivalents

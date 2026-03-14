@@ -22,7 +22,7 @@ tags:
 - agriculture
 - innovation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Technology and Innovation in Ancient Civilizations

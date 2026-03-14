@@ -15,7 +15,7 @@ tags:
 - Hoare
 - Mesa
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Monitors and Condition Variables

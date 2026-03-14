@@ -20,7 +20,7 @@ tags:
 - equatorial upwelling
 - cold tongue
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ocean Upwelling: Coastal and Equatorial

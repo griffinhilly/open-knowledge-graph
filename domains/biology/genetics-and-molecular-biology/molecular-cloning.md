@@ -15,7 +15,7 @@ tags:
 - genomic library
 - site-directed mutagenesis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Molecular Cloning Strategies

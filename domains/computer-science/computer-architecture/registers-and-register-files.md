@@ -6,6 +6,8 @@ course: computer-architecture
 prerequisites:
 - id: flip-flops-and-latches
   type: hard
+- id: multiplexers-and-demultiplexers
+  type: soft
 builds-toward:
 - cpu-datapath
 - assembly-language-basics
@@ -16,9 +18,8 @@ tags:
 - CPU
 - storage
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Registers and Register Files
 
 ## Core Idea

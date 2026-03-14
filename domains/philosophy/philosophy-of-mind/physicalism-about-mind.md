@@ -20,7 +20,7 @@ tags:
 - supervenience
 - reduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Physicalism About Mind

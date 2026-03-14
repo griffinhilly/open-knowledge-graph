@@ -12,6 +12,12 @@ prerequisites:
   type: hard
 - id: bias-and-perspective
   type: soft
+- id: hellenistic-period
+  type: soft
+- id: roman-empire-rise
+  type: soft
+- id: silk-road-trade-network
+  type: soft
 builds-toward:
 - comparing-ancient-civilizations
 tags:
@@ -22,9 +28,8 @@ tags:
 - zoroastrianism
 - axial-age
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Origins of Major World Religions in the Ancient Period
 
 ## Core Idea

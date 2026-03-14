@@ -19,7 +19,7 @@ tags:
 - instructional-design
 - working-memory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cognitive Load Theory

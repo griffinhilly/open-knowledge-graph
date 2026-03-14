@@ -20,7 +20,7 @@ tags:
 - adaptation
 - agency
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Environmental Determinism and Possibilism

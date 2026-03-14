@@ -13,7 +13,7 @@ builds-toward:
   - conic-sections-parabolas
 tags: [quadratics, graphing, vertex-form, parabolas]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Graphing Quadratic Functions: Vertex and Intercepts

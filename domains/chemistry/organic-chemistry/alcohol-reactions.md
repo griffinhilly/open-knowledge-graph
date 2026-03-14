@@ -23,7 +23,7 @@ tags:
 - PBr3
 - PCC
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Reactions of Alcohols

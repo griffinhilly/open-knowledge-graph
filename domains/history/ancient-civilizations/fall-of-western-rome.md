@@ -20,7 +20,7 @@ tags:
 - late-antiquity
 - transformation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Fall of the Western Roman Empire

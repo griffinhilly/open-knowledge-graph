@@ -19,7 +19,7 @@ tags:
 - nonsense
 - silent
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # DNA Mutations

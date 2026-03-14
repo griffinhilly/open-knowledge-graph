@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: number-patterns-and-relationships
   type: soft
+- id: key-signatures
+  type: soft
+- id: minor-scales
+  type: soft
 builds-toward:
 - diatonic-harmony
 tags:
@@ -20,9 +24,8 @@ tags:
 - Mixolydian
 - scales
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Modes of the Major Scale
 
 ## Core Idea

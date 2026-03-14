@@ -20,7 +20,7 @@ tags:
 - hatching
 - blending
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Pencil Shading Techniques

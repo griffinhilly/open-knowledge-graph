@@ -20,7 +20,7 @@ tags:
 - plasma
 - hemoglobin
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Blood Composition and Function

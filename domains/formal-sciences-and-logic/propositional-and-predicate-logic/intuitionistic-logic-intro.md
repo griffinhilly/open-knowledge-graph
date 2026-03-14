@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: propositional-semantics
   type: soft
+- id: godels-incompleteness-theorems
+  type: soft
 builds-toward:
 - modal-logic-intro
 tags:
@@ -17,9 +19,8 @@ tags:
 - BHK
 - law-of-excluded-middle
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Introduction to Intuitionistic Logic
 
 ## Core Idea

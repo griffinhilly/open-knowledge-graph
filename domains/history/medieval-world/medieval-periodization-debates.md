@@ -19,7 +19,7 @@ tags:
 - eurocentrism
 - world-history
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Periodization and the Concept of the 'Middle Ages'

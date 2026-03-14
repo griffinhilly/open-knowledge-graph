@@ -19,7 +19,7 @@ tags:
 - recursive-definition
 - fibonacci
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Setting Up Recurrence Relations

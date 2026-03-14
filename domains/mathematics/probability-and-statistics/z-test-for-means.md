@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: central-limit-theorem
   type: soft
+- id: p-values-and-significance
+  type: soft
 builds-toward:
 - t-test-for-means
 tags:
@@ -19,9 +21,8 @@ tags:
 - known-variance
 - hypothesis-testing
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # One-Sample Z-Test for Means
 
 ## Core Idea

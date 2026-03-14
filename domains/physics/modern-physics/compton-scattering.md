@@ -19,7 +19,7 @@ tags:
 - momentum
 - wavelength-shift
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Compton Scattering

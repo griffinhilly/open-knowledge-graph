@@ -26,7 +26,7 @@ tags:
 - angular
 - spherical-harmonics
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Hydrogen Atom Wavefunctions and Atomic Orbitals

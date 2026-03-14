@@ -12,15 +12,18 @@ prerequisites:
   type: soft
 - id: first-order-semantics
   type: soft
+- id: logical-form
+  type: soft
+- id: modus-ponens-tollens
+  type: soft
 tags:
 - counterexample
 - refutation
 - philosophical-method
 - generalization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Counterexample Method
 
 ## Core Idea

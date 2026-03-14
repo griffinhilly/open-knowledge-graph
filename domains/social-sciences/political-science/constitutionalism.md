@@ -19,7 +19,7 @@ tags:
 - rights
 - judicial review
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Constitutionalism and Constitutional Design

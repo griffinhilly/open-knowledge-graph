@@ -14,6 +14,12 @@ prerequisites:
   type: hard
 - id: note-durations-and-rests
   type: hard
+- id: audiation-and-inner-hearing
+  type: soft
+- id: call-and-response-echo-singing
+  type: soft
+- id: interval-singing
+  type: soft
 builds-toward:
 - sight-singing-with-leaps
 tags:
@@ -22,9 +28,8 @@ tags:
 - reading
 - stepwise motion
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Sight-Singing: Stepwise Melodies
 
 ## Core Idea

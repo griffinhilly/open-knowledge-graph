@@ -18,7 +18,7 @@ tags:
 - trade
 - settlement
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Viking Age

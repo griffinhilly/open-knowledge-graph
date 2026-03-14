@@ -4,18 +4,26 @@ title: Comparing and Ordering Decimals
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: decimal-place-value
-    type: hard
-  - id: comparing-ordering-whole-numbers
-    type: soft
+- id: decimal-place-value
+  type: hard
+- id: comparing-ordering-whole-numbers
+  type: soft
+- id: comparing-fractions
+  type: soft
+- id: relating-fractions-and-decimals
+  type: soft
+- id: reading-writing-decimals
+  type: soft
 builds-toward:
-  - rounding-decimals
-  - adding-subtracting-decimals
-tags: [decimals, comparison, number-sense]
+- rounding-decimals
+- adding-subtracting-decimals
+tags:
+- decimals
+- comparison
+- number-sense
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Comparing and Ordering Decimals
 
 ## Core Idea

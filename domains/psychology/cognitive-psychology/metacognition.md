@@ -10,15 +10,16 @@ prerequisites:
   type: soft
 - id: memory-retrieval-cues
   type: soft
+- id: cognitive-load-theory
+  type: soft
 tags:
 - metacognition
 - self-regulation
 - monitoring
 - control
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Metacognition and Self-Regulated Thinking
 
 ## Core Idea

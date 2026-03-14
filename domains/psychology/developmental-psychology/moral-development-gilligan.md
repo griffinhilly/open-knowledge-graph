@@ -16,7 +16,7 @@ tags:
 - gender and morality
 - relational morality
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Gilligan's Ethics of Care

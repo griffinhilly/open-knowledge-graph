@@ -11,7 +11,7 @@ builds-toward:
   - mean-median-mode
 tags: [data, graphs, measurement, fractions]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Line Plots

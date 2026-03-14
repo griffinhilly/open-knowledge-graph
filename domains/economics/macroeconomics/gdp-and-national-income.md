@@ -19,7 +19,7 @@ tags:
 - measurement
 - output
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # GDP and National Income

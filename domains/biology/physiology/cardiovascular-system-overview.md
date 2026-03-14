@@ -20,7 +20,7 @@ tags:
 - pulmonary
 - systemic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cardiovascular System Overview

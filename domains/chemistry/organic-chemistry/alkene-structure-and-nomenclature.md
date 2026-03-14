@@ -21,7 +21,7 @@ tags:
 - sp2
 - Markovnikov
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Alkene Structure, Nomenclature, and E/Z Isomerism

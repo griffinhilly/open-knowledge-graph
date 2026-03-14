@@ -4,11 +4,13 @@ title: Debate Format and Structure
 domain: language-and-communication
 course: public-speaking
 prerequisites:
-- id: argument-structure
+- id: argument-structure-toulmin
   type: hard
 - id: evidence-in-speeches
   type: hard
 - id: persuasive-speech-design
+  type: soft
+- id: impromptu-speaking
   type: soft
 builds-toward:
 - refutation-in-debate
@@ -20,9 +22,8 @@ tags:
 - competitive
 - structure
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Debate Format and Structure
 
 ## Core Idea

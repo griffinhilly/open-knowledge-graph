@@ -18,7 +18,7 @@ tags:
 - grana
 - photosynthesis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Chloroplasts: Structure and Function

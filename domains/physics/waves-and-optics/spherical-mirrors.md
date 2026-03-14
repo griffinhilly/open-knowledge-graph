@@ -17,7 +17,7 @@ tags:
 - center of curvature
 - real image
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Spherical Mirrors: Concave and Convex

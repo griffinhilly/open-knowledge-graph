@@ -21,7 +21,7 @@ tags:
 - divide-and-conquer
 - sorted-arrays
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary Search

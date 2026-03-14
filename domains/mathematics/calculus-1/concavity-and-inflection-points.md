@@ -4,16 +4,21 @@ title: Concavity and Inflection Points
 domain: mathematics
 course: calculus-1
 prerequisites:
-  - id: first-derivative-test
-    type: hard
+- id: first-derivative-test
+  type: hard
+- id: higher-order-derivatives
+  type: soft
 builds-toward:
-  - second-derivative-test
-  - curve-sketching
-tags: [derivatives, concavity, inflection, graphing]
+- second-derivative-test
+- curve-sketching
+tags:
+- derivatives
+- concavity
+- inflection
+- graphing
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Concavity and Inflection Points
 
 ## Core Idea

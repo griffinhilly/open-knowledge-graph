@@ -23,7 +23,7 @@ tags:
 - expense-ratio
 - diversification
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Index Fund Investing

@@ -16,7 +16,7 @@ tags:
 - well-founded
 - cumulative hierarchy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Axiom of Regularity (Foundation)

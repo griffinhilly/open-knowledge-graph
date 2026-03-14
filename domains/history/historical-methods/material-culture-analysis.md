@@ -17,7 +17,7 @@ tags:
 - objects
 - methodology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Material Culture Analysis

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: equivalence-relations
   type: soft
+- id: axiom-of-replacement
+  type: soft
+- id: axiom-of-separation
+  type: soft
 builds-toward:
 - transfinite-induction
 - transfinite-recursion
@@ -23,9 +27,8 @@ tags:
 - successor
 - limit
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Von Neumann Ordinals
 
 ## Core Idea

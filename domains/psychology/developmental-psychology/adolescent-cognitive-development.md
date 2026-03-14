@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: hormones-and-behavior
   type: soft
+- id: parenting-styles-and-outcomes
+  type: soft
+- id: theory-of-mind-development
+  type: soft
 builds-toward:
 - identity-development-adolescence
 tags:
@@ -20,9 +24,8 @@ tags:
 - puberty
 - executive function
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Adolescent Cognitive and Brain Development
 
 ## Core Idea

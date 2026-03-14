@@ -18,7 +18,7 @@ tags:
 - alluvial
 - fluvial
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Sediment Transport and Deposition

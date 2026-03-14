@@ -17,7 +17,7 @@ tags:
 - combinatorics
 - fixed-points
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Derangements: Permutations with No Fixed Points

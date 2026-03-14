@@ -17,7 +17,7 @@ tags:
 - roles
 - norms
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Group Dynamics

@@ -13,7 +13,7 @@ builds-toward:
   - absolute-vs-conditional-convergence
 tags: [series, convergence-tests, ratio-test]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ratio Test

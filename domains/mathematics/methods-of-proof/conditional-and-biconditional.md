@@ -20,7 +20,7 @@ tags:
 - converse
 - contrapositive
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conditional and Biconditional Statements

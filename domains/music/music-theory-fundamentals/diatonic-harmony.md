@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: key-signatures
   type: soft
+- id: chord-inversions
+  type: soft
+- id: modes
+  type: soft
+- id: seventh-chords
+  type: soft
 builds-toward:
 - chord-progressions
 - cadences
@@ -20,9 +26,8 @@ tags:
 - harmony
 - analysis
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Diatonic Harmony and Roman Numeral Analysis
 
 ## Core Idea

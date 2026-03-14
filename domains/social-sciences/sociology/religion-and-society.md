@@ -16,7 +16,7 @@ tags:
 - sacred-profane
 - civil-religion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Religion and Society

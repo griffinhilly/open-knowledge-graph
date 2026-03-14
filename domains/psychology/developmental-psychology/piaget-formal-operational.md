@@ -16,7 +16,7 @@ tags:
 - adolescent cognition
 - abstract thinking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Piaget's Formal Operational Stage

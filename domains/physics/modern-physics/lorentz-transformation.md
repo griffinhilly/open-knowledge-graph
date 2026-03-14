@@ -21,7 +21,7 @@ tags:
 - spacetime
 - transformation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Lorentz Transformation

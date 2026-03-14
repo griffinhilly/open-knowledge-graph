@@ -23,7 +23,7 @@ tags:
 - ion channels
 - electrophysiology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Action Potential

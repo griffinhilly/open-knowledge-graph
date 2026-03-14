@@ -16,7 +16,7 @@ tags:
 - parametric
 - integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Space Curves and Arc Length

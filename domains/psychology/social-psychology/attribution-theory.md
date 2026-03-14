@@ -16,7 +16,7 @@ tags:
 - causal inference
 - social cognition
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Attribution Theory

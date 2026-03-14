@@ -14,7 +14,7 @@ tags:
 - security
 - identity
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Online Account Management

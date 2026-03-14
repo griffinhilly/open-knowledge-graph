@@ -13,7 +13,7 @@ tags:
 - existence-and-uniqueness
 - proof-technique
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Uniqueness Proofs

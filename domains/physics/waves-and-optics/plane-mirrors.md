@@ -14,7 +14,7 @@ tags:
 - image distance
 - laterally inverted
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Image Formation in Plane Mirrors

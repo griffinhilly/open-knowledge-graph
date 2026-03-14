@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: molecular-polarity
   type: soft
+- id: iupac-nomenclature-alkanes
+  type: soft
 builds-toward:
 - alcohols-and-ethers
 - carbonyl-chemistry-intro
@@ -19,9 +21,8 @@ tags:
 - classification
 - polarity
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Functional Groups in Organic Chemistry
 
 ## Core Idea

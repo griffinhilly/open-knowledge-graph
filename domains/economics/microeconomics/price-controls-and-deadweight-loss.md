@@ -18,7 +18,7 @@ tags:
 - efficiency
 - welfare
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Price Controls and Deadweight Loss

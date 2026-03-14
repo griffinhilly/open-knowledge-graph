@@ -20,7 +20,7 @@ tags:
 - output
 - sticky-wages
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Short-Run Aggregate Supply

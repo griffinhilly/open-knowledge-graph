@@ -19,7 +19,7 @@ tags:
 - MLE
 - marginal-effects
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Logit and Probit Models for Binary Outcomes

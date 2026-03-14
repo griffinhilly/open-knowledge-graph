@@ -20,7 +20,7 @@ tags:
 - sequences
 - multiplication
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Arithmetic Patterns

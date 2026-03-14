@@ -21,7 +21,7 @@ tags:
 - monohybrid cross
 - Punnett square
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mendelian Genetics

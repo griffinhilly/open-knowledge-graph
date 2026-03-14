@@ -14,7 +14,7 @@ tags:
 - acidity
 - reduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Alkyne Structure and Reactions

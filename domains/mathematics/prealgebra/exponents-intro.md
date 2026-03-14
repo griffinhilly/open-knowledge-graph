@@ -15,7 +15,7 @@ builds-toward:
   - zero-exponent
 tags: [exponents, powers, repeated-multiplication]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to Exponents

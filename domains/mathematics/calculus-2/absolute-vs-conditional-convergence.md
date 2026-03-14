@@ -4,17 +4,24 @@ title: Absolute vs. Conditional Convergence
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: alternating-series-test
-    type: hard
-  - id: comparison-test
-    type: hard
+- id: alternating-series-test
+  type: hard
+- id: comparison-test
+  type: hard
+- id: limit-comparison-test
+  type: soft
+- id: ratio-test
+  type: soft
 builds-toward:
-  - power-series
-tags: [series, convergence, absolute, conditional]
+- power-series
+tags:
+- series
+- convergence
+- absolute
+- conditional
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Absolute vs. Conditional Convergence
 
 ## Core Idea

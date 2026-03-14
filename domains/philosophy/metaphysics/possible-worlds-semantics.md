@@ -11,9 +11,8 @@ prerequisites:
 - id: propositional-semantics
   type: soft
 builds-toward:
-- modal-realism
-- counterfactual-causation
-- essentialism-and-accidentalism
+  - modal-realism
+  - counterfactual-causation
 tags:
 - possible worlds
 - modality
@@ -21,9 +20,8 @@ tags:
 - possibility
 - semantics
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Possible Worlds
 
 ## Core Idea

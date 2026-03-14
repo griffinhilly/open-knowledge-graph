@@ -4,20 +4,29 @@ title: Graphing Linear Equations
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: slope-intercept-form
-    type: hard
-  - id: standard-form-linear-equations
-    type: soft
-  - id: coordinate-plane-intro
-    type: hard
+- id: slope-intercept-form
+  type: hard
+- id: standard-form-linear-equations
+  type: soft
+- id: coordinate-plane-intro
+  type: hard
+- id: coordinate-plane-all-four-quadrants
+  type: soft
+- id: function-tables
+  type: soft
+- id: proportional-relationships
+  type: soft
 builds-toward:
-  - systems-graphing
-  - graphing-quadratics
-tags: [graphing, linear-equations, coordinate-plane, slope]
+- systems-graphing
+- graphing-quadratics
+tags:
+- graphing
+- linear-equations
+- coordinate-plane
+- slope
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Graphing Linear Equations
 
 ## Core Idea

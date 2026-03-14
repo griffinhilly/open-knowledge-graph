@@ -18,7 +18,7 @@ tags:
 - Zaitsev
 - competing reactions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # E1 Elimination Reactions

@@ -4,16 +4,24 @@ title: Line Graphs
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: plotting-ordered-pairs
-    type: hard
-  - id: interpreting-data-bar-graphs
-    type: soft
+- id: plotting-ordered-pairs
+  type: hard
+- id: interpreting-data-bar-graphs
+  type: soft
+- id: scaled-bar-graphs
+  type: soft
+- id: bar-graphs-3rd
+  type: soft
+- id: interpreting-data-tables
+  type: soft
 builds-toward: []
-tags: [data, graphs, change-over-time]
+tags:
+- data
+- graphs
+- change-over-time
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Line Graphs
 
 ## Core Idea

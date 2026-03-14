@@ -17,7 +17,7 @@ tags:
 - sharing
 - backup
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Cloud Storage Basics

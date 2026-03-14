@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: newtons-second-law
   type: hard
+- id: newtons-third-law
+  type: soft
 builds-toward:
 - work-and-energy
 - conservation-of-energy
@@ -17,9 +19,8 @@ tags:
 - kinetic-friction
 - normal-force
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Friction: Static and Kinetic
 
 ## Core Idea

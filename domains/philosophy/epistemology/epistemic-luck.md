@@ -18,7 +18,7 @@ tags:
 - sensitivity
 - modal-epistemology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Epistemic Luck

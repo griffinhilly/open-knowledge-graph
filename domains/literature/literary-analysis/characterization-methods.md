@@ -15,7 +15,7 @@ tags:
 - indirect characterization
 - STEAL
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Characterization Methods

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: half-life-decay-law
   type: soft
+- id: ocean-atmosphere-interactions
+  type: soft
 builds-toward:
 - climate-change-science
 tags:
@@ -24,9 +26,8 @@ tags:
 - Milankovitch
 - proxy-records
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Paleoclimatology and Climate Proxies
 
 ## Core Idea

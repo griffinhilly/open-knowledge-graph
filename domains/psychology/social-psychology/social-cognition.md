@@ -19,7 +19,7 @@ tags:
 - person perception
 - mental representation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Social Cognition

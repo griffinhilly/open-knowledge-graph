@@ -22,7 +22,7 @@ tags:
 - canon-law
 - christianity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Medieval Catholic Church and Papal Authority

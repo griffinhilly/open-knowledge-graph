@@ -19,7 +19,7 @@ tags:
 - mnemonics
 - addressing-modes
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Assembly Language Basics

@@ -21,7 +21,7 @@ tags:
 - Parten
 - development
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Types of Play and Their Developmental Functions

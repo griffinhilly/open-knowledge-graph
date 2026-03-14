@@ -13,7 +13,7 @@ tags:
 - water
 - foundations
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Plumbing Basics: Pipes, Valves, and Shut-Offs

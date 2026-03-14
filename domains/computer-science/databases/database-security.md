@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: access-control
   type: soft
+- id: database-schema-design
+  type: soft
 tags:
 - database security
 - SQL injection
@@ -19,9 +21,8 @@ tags:
 - least privilege
 - encryption
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Database Security
 
 ## Core Idea

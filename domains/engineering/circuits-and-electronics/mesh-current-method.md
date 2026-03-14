@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: systems-elimination
   type: soft
+- id: node-voltage-method
+  type: soft
 builds-toward:
 - superposition-theorem-circuits
 - thevenin-norton-equivalents
@@ -24,9 +26,8 @@ tags:
 - loop-currents
 - planar-circuits
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Mesh Current Method (Mesh Analysis)
 
 ## Core Idea

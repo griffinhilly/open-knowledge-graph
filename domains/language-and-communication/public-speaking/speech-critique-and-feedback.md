@@ -19,7 +19,7 @@ tags:
 - improvement
 - peer-review
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Speech Critique and Feedback

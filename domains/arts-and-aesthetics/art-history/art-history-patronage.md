@@ -6,6 +6,10 @@ course: art-history
 prerequisites:
 - id: art-history-iconography
   type: soft
+- id: byzantine-and-medieval-art
+  type: soft
+- id: renaissance-humanism-and-art
+  type: soft
 builds-toward:
 - baroque-art-and-drama
 - neoclassicism-and-romanticism
@@ -18,9 +22,8 @@ tags:
 - guilds
 - art-market
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Patronage, Commissions, and the Social Function of Art
 
 ## Core Idea

@@ -4,18 +4,20 @@ title: Box-and-Whisker Plots
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: mean-median-mode-with-data-sets
-    type: hard
-  - id: stem-and-leaf-plots
-    type: soft
+- id: mean-median-mode-with-data-sets
+  type: hard
+- id: stem-and-leaf-plots
+  type: soft
 builds-toward:
-  - statistics-descriptive
-  - data-analysis
-tags: [statistics, box-plot, quartiles, data-display]
+- measures-of-spread
+tags:
+- statistics
+- box-plot
+- quartiles
+- data-display
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Box-and-Whisker Plots
 
 ## Core Idea

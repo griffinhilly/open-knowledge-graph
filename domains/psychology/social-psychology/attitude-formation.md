@@ -17,7 +17,7 @@ tags:
 - ABC model
 - classical conditioning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Attitude Formation

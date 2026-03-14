@@ -13,7 +13,7 @@ tags:
 - free will
 - incompatibilism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Libertarian Free Will

@@ -19,7 +19,7 @@ tags:
 - redundancy
 - partial dependency
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First and Second Normal Forms

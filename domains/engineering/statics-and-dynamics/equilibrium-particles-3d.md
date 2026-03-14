@@ -17,7 +17,7 @@ tags:
 - 3D
 - space structures
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Equilibrium of Particles in 3D

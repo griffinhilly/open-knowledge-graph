@@ -18,7 +18,7 @@ tags:
 - empirical-methods
 - data
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Introduction to Econometrics

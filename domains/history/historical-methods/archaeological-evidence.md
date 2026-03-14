@@ -16,7 +16,7 @@ tags:
 - stratigraphy
 - methodology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Using Archaeological Evidence

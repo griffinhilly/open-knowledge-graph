@@ -4,19 +4,31 @@ title: Estimation Strategies
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: rounding-whole-numbers
-    type: hard
-  - id: multi-digit-addition
-    type: soft
-  - id: multi-digit-subtraction
-    type: soft
+- id: rounding-whole-numbers
+  type: hard
+- id: multi-digit-addition
+  type: soft
+- id: multi-digit-subtraction
+  type: soft
+- id: estimation-in-multiplication
+  type: soft
+- id: multi-step-word-problems-3rd
+  type: soft
+- id: rounding-to-nearest-hundred
+  type: soft
+- id: rounding-to-nearest-ten
+  type: soft
+- id: multiples-of-ten
+  type: soft
 builds-toward:
-  - rounding-decimals
-tags: [number-sense, estimation, mental-math]
+- rounding-decimals
+tags:
+- number-sense
+- estimation
+- mental-math
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Estimation Strategies
 
 ## Core Idea

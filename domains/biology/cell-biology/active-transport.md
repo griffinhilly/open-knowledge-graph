@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: electrochemistry-basics
   type: soft
+- id: endoplasmic-reticulum-and-golgi
+  type: soft
 builds-toward:
 - cell-signaling-intro
 tags:
@@ -21,9 +23,8 @@ tags:
 - endocytosis
 - exocytosis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Active Transport
 
 ## Core Idea

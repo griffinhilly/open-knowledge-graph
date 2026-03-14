@@ -21,7 +21,7 @@ tags:
 - manorialism
 - hierarchy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Feudalism and the Medieval Social Order

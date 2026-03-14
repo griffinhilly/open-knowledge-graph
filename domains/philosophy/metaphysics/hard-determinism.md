@@ -13,7 +13,7 @@ tags:
 - moral responsibility
 - illusionism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hard Determinism and Hard Incompatibilism

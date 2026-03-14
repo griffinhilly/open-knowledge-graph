@@ -19,7 +19,7 @@ tags:
 - covariant
 - contravariant
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Functors

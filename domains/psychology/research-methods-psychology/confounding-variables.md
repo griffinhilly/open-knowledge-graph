@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: correlational-research-design
   type: soft
+- id: random-assignment
+  type: soft
 builds-toward:
 - blinding-in-experiments
 - validity-in-measurement
@@ -20,9 +22,8 @@ tags:
 - maturation
 - selection-bias
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Confounding Variables and Internal Validity
 
 ## Core Idea

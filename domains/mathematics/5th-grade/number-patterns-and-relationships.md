@@ -4,18 +4,23 @@ title: Number Patterns and Relationships
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: patterns-and-sequences
-    type: hard
-  - id: input-output-tables
-    type: hard
-  - id: plotting-ordered-pairs
-    type: soft
+- id: patterns-and-sequences
+  type: hard
+- id: input-output-tables
+  type: hard
+- id: plotting-ordered-pairs
+  type: soft
+- id: arithmetic-patterns-3rd
+  type: soft
 builds-toward: []
-tags: [algebra-readiness, patterns, relationships, graphing]
+tags:
+- algebra-readiness
+- patterns
+- relationships
+- graphing
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Number Patterns and Relationships
 
 ## Core Idea

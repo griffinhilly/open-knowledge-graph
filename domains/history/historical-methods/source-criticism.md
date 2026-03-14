@@ -17,7 +17,7 @@ tags:
 - evidence
 - methodology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Source Criticism

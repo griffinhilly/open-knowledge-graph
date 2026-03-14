@@ -4,14 +4,14 @@ title: Polynomial Division Review
 domain: mathematics
 course: precalculus
 prerequisites:
-  - id: algebraic-expressions
+  - id: variable-expressions
     type: hard
 builds-toward:
   - rational-functions-asymptotes-review
   - partial-fractions
 tags: [polynomials, division, algebra-review]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Polynomial Division Review

@@ -12,7 +12,7 @@ builds-toward:
   - optimization-problems
 tags: [derivatives, applications, related-rates]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Related Rates

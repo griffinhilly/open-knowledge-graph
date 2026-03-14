@@ -22,7 +22,7 @@ tags:
 - France
 - Symbolism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Musical Impressionism: Debussy and Ravel

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: dietary-protein-and-amino-acids
   type: soft
+- id: nutritional-assessment-methods
+  type: soft
 tags:
 - malnutrition
 - undernutrition
@@ -18,9 +20,8 @@ tags:
 - marasmus
 - food security
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Malnutrition, Undernutrition, and Global Food Security
 
 ## Core Idea

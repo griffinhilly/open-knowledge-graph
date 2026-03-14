@@ -15,7 +15,7 @@ tags:
 - coefficient of restitution
 - energy loss
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Impact and Coefficient of Restitution

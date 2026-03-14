@@ -23,7 +23,7 @@ tags:
 - cholesterol
 - omega-3
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Dietary Fats, Fatty Acids, and Cholesterol

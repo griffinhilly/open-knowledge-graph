@@ -13,7 +13,7 @@ builds-toward:
   - slope-concept
 tags: [rates, unit-rate, ratios, division]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Unit Rates

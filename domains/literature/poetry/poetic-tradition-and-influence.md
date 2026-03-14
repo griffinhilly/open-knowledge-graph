@@ -10,6 +10,20 @@ prerequisites:
   type: hard
 - id: historical-linguistics
   type: soft
+- id: dramatic-monologue-in-poetry
+  type: soft
+- id: elegy-form
+  type: soft
+- id: haiku-form
+  type: soft
+- id: ode-form
+  type: soft
+- id: sonnet-form
+  type: soft
+- id: villanelle-form
+  type: soft
+- id: volta-in-poetry
+  type: soft
 tags:
 - tradition
 - influence
@@ -18,9 +32,8 @@ tags:
 - revision
 - inheritance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Poetic Tradition and Influence
 
 ## Core Idea

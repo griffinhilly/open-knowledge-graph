@@ -4,19 +4,28 @@ title: Factors and Multiples
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: multi-digit-multiplication
-    type: hard
-  - id: intro-to-long-division
-    type: soft
+- id: multi-digit-multiplication
+  type: hard
+- id: intro-to-long-division
+  type: soft
+- id: repeated-addition-to-multiplication
+  type: soft
+- id: arithmetic-patterns-3rd
+  type: soft
+- id: multiples-of-a-number
+  type: soft
 builds-toward:
-  - prime-and-composite-numbers
-  - equivalent-fractions
-  - adding-fractions-unlike-denominators
-tags: [number-theory, multiplication, division, factors]
+- prime-and-composite-numbers
+- equivalent-fractions
+- adding-fractions-unlike-denominators
+tags:
+- number-theory
+- multiplication
+- division
+- factors
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Factors and Multiples
 
 ## Core Idea

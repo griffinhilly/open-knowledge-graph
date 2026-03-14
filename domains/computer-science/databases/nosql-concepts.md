@@ -20,7 +20,7 @@ tags:
 - schema-free
 - polyglot persistence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # NoSQL Database Concepts

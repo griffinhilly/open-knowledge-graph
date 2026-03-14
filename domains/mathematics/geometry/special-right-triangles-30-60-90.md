@@ -1,21 +1,23 @@
 ---
 id: special-right-triangles-30-60-90
-title: "Special Right Triangles: 30-60-90"
+title: 'Special Right Triangles: 30-60-90'
 domain: mathematics
 course: geometry
 prerequisites:
-  - id: pythagorean-theorem
-    type: hard
-  - id: sine-cosine-tangent-ratios
-    type: soft
+- id: pythagorean-theorem
+  type: hard
+- id: sine-cosine-tangent-ratios
+  type: soft
 builds-toward:
-  - trigonometric-functions
-  - unit-circle
-tags: [special-right-triangles, 30-60-90, exact-values]
+- trigonometric-ratios-review
+- unit-circle
+tags:
+- special-right-triangles
+- 30-60-90
+- exact-values
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Special Right Triangles: 30-60-90
 
 ## Core Idea

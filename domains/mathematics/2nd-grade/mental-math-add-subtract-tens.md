@@ -18,7 +18,7 @@ tags:
 - strategies
 - place-value
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Mental Math: Adding and Subtracting Tens

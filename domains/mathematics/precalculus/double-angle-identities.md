@@ -12,7 +12,7 @@ builds-toward:
   - trigonometric-integrals
 tags: [trigonometry, identities, double-angle]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Double Angle Identities

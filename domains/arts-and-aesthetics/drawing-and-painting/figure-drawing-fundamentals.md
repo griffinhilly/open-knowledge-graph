@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: foreshortening
   type: soft
+- id: charcoal-drawing
+  type: soft
 builds-toward:
 - portraiture-fundamentals
 tags:
@@ -21,9 +23,8 @@ tags:
 - proportion
 - gesture
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Figure Drawing Fundamentals
 
 ## Core Idea

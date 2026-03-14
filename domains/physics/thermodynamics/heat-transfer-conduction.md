@@ -6,6 +6,8 @@ course: thermodynamics
 prerequisites:
 - id: temperature-and-thermal-equilibrium
   type: hard
+- id: thermal-expansion
+  type: soft
 builds-toward:
 - heat-transfer-convection
 - heat-transfer-radiation
@@ -15,9 +17,8 @@ tags:
 - thermal-conductivity
 - fourier-law
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Heat Transfer: Conduction
 
 ## Core Idea

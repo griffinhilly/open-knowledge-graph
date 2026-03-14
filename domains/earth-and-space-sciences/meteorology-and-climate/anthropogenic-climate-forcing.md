@@ -19,7 +19,7 @@ tags:
 - radiative-forcing
 - carbon-cycle
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Anthropogenic Climate Forcing

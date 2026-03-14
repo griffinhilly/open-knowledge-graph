@@ -19,7 +19,7 @@ tags:
 - climax
 - denouement
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Dramatic Structure

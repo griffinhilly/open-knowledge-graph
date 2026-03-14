@@ -19,7 +19,7 @@ tags:
 - dielectrics
 - superconductivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electrical Properties of Materials

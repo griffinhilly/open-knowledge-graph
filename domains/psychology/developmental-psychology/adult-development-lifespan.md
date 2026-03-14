@@ -18,7 +18,7 @@ tags:
 - lifespan
 - Levinson
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Adult Development and Lifespan Transitions

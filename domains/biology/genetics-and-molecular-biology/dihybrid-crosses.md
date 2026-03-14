@@ -20,7 +20,7 @@ tags:
 - 9:3:3:1 ratio
 - gamete formation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dihybrid Crosses and Independent Assortment

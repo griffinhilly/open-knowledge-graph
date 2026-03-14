@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: motivic-development
   type: soft
-builds-toward:
-- lead-sheet-notation
+builds-toward: []
 tags:
 - improvisation
 - chord-scale
@@ -21,9 +20,8 @@ tags:
 - call-and-response
 - real-time-composition
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Improvisation Frameworks
 
 ## Core Idea

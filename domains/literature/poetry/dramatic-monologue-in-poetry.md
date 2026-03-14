@@ -21,7 +21,7 @@ tags:
 - self-revelation
 - irony
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Dramatic Monologue

@@ -10,15 +10,16 @@ prerequisites:
   type: hard
 - id: systems-substitution
   type: soft
+- id: second-partials-test
+  type: soft
 tags:
 - Lagrange-multipliers
 - constrained-optimization
 - constraint
 - level-curves
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Lagrange Multipliers
 
 ## Core Idea

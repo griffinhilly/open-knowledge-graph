@@ -20,7 +20,7 @@ tags:
 - velocity
 - acceleration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kinematics in One Dimension

@@ -19,7 +19,7 @@ tags:
 - book-of-the-dead
 - mummification
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Egyptian Religion, Cosmology, and the Afterlife

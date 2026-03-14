@@ -20,7 +20,7 @@ tags:
 - control
 - error-signal
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Feedback Control Fundamentals

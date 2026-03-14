@@ -22,7 +22,7 @@ tags:
 - optimization
 - exchange-argument
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Greedy Algorithms

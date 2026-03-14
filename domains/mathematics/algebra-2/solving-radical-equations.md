@@ -12,7 +12,7 @@ builds-toward:
   - solving-rational-equations
 tags: [radicals, equations, extraneous-solutions]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Solving Radical Equations

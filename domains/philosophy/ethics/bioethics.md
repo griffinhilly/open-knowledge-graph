@@ -6,6 +6,10 @@ course: ethics
 prerequisites:
 - id: applied-ethics-intro
   type: hard
+- id: contractualism
+  type: soft
+- id: trolley-problem
+  type: soft
 tags:
 - applied-ethics
 - bioethics
@@ -13,9 +17,8 @@ tags:
 - autonomy
 - justice-in-healthcare
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Bioethics
 
 ## Core Idea

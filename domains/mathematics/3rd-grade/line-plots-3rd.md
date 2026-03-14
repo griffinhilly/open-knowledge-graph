@@ -17,7 +17,7 @@ tags:
 - measurement
 - distribution
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Line Plots with Measurement Data

@@ -21,7 +21,7 @@ tags:
 - moment-of-inertia
 - rotational-energy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # The Rigid Rotor Model of Molecular Rotation

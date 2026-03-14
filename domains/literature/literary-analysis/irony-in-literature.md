@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: conversational-implicature
   type: soft
+- id: unreliable-narrator
+  type: soft
 builds-toward:
 - thematic-development
 - literary-argument-writing
@@ -24,9 +26,8 @@ tags:
 - dramatic irony
 - sarcasm
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Irony in Literature
 
 ## Core Idea

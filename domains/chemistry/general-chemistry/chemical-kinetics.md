@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: chemical-equilibrium
   type: soft
+- id: derivative-as-slope-of-tangent
+  type: soft
+- id: natural-logarithm-and-e
+  type: soft
 builds-toward:
 - arrhenius-equation
 tags:
@@ -18,7 +22,7 @@ tags:
 - half-life
 - integrated-rate-law
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chemical Kinetics

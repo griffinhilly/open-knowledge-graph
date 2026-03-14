@@ -20,7 +20,7 @@ tags:
 - fetch
 - dispersion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ocean Surface Waves: Generation and Properties

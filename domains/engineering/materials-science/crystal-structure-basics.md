@@ -22,7 +22,7 @@ tags:
 - lattice
 - structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Crystal Structure and Unit Cells

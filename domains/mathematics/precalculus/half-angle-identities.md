@@ -11,7 +11,7 @@ builds-toward:
   - trigonometric-integrals
 tags: [trigonometry, identities, half-angle]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Half Angle Identities

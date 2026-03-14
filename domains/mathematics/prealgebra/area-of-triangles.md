@@ -4,19 +4,28 @@ title: Area of Triangles
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: area-of-rectangles
-    type: hard
-  - id: multiplying-integers
-    type: hard
+- id: area-of-rectangles
+  type: hard
+- id: multiplying-integers
+  type: hard
+- id: area-and-perimeter-problems
+  type: soft
+- id: area-rectilinear-shapes
+  type: soft
+- id: area-of-parallelograms
+  type: soft
 builds-toward:
-  - area-of-trapezoids
-  - surface-area-intro
-  - geometry-area
-tags: [area, triangles, geometry, measurement]
+- area-of-trapezoids
+- surface-area-intro
+- area-of-regular-polygons
+tags:
+- area
+- triangles
+- geometry
+- measurement
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Area of Triangles
 
 ## Core Idea

@@ -4,19 +4,24 @@ title: Chain Rule
 domain: mathematics
 course: calculus-1
 prerequisites:
-  - id: product-rule
-    type: soft
-  - id: composition-of-functions
-    type: hard
+- id: product-rule
+  type: soft
+- id: composition-of-functions
+  type: hard
+- id: composition-of-functions-advanced
+  type: soft
 builds-toward:
-  - implicit-differentiation
-  - related-rates
-  - u-substitution
-tags: [derivatives, rules, chain-rule, composition]
+- implicit-differentiation
+- related-rates
+- u-substitution
+tags:
+- derivatives
+- rules
+- chain-rule
+- composition
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Chain Rule
 
 ## Core Idea

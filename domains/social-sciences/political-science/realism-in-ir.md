@@ -17,7 +17,7 @@ tags:
 - Waltz
 - Morgenthau
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Realism in International Relations

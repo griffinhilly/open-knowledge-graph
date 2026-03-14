@@ -19,7 +19,7 @@ tags:
 - inductive-reactance
 - phasor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Impedance and Reactance

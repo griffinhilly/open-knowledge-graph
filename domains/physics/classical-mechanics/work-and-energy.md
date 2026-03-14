@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: definite-integral-definition
   type: soft
+- id: friction-forces
+  type: soft
 builds-toward:
 - kinetic-energy
 - potential-energy
@@ -22,9 +24,8 @@ tags:
 - dot-product
 - force-displacement
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Work Done by a Force
 
 ## Core Idea

@@ -23,7 +23,7 @@ tags:
 - empiricism
 - Royal Society
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Scientific Revolution

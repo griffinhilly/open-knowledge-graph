@@ -23,7 +23,7 @@ tags:
 - gamma-ray
 - multi-wavelength
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multi-Wavelength Astronomy

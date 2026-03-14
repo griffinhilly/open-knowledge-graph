@@ -13,7 +13,7 @@ builds-toward:
   - slope-concept
 tags: [coordinate-plane, ordered-pairs, graphing, quadrants]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to the Coordinate Plane

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: diffusion-in-solids
   type: soft
+- id: thermal-properties-of-materials
+  type: soft
 tags:
 - annealing
 - quenching
@@ -17,9 +19,8 @@ tags:
 - martensite
 - TTT-diagram
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Heat Treatment of Steels
 
 ## Core Idea

@@ -6,6 +6,10 @@ course: critical-theory
 prerequisites:
 - id: marxist-literary-criticism
   type: hard
+- id: deconstruction
+  type: soft
+- id: semiotics-and-signs
+  type: soft
 builds-toward:
 - discourse-and-power
 - cultural-studies-approach
@@ -17,9 +21,8 @@ tags:
 - ISA
 - naturalization
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Ideological Criticism and Hegemony
 
 ## Core Idea

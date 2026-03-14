@@ -15,7 +15,7 @@ tags:
 - change
 - passage of time
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Philosophy of Time

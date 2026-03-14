@@ -19,7 +19,7 @@ tags:
 - path difference
 - phase
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Wave Interference: Constructive and Destructive

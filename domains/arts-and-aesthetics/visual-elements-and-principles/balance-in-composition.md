@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: value-and-tone
   type: soft
+- id: proportion-and-scale
+  type: soft
 builds-toward:
 - unity-and-variety
 - emphasis-and-focal-point
@@ -19,9 +21,8 @@ tags:
 - visual-weight
 - composition
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Balance in Composition
 
 ## Core Idea

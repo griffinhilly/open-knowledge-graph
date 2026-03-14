@@ -20,7 +20,7 @@ tags:
 - appropriation
 - identity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Contemporary Art and Postmodernism

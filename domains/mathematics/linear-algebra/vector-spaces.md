@@ -19,7 +19,7 @@ tags:
 - closure
 - field
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vector Spaces

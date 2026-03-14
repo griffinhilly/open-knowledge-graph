@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: renal-physiology-and-fluid-balance
   type: soft
+- id: bone-remodeling-and-homeostasis
+  type: soft
 tags:
 - fluid-compartments
 - osmolarity
@@ -22,9 +24,8 @@ tags:
 - pH
 - buffer-systems
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Fluid Compartments, Electrolyte Balance, and Acid-Base Regulation
 
 ## Core Idea

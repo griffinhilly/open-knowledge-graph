@@ -22,7 +22,7 @@ tags:
 - acceleration
 - dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Newton's Second Law: F = ma

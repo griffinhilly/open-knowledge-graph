@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: causation-in-history
   type: soft
+- id: corroboration-and-triangulation
+  type: soft
+- id: counterfactual-reasoning
+  type: soft
 builds-toward:
 - writing-historical-narrative
 - historiography-intro
@@ -18,9 +22,8 @@ tags:
 - writing
 - methodology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Structure of a Historical Argument
 
 ## Core Idea

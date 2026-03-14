@@ -19,7 +19,7 @@ tags:
 - preregistration
 - publication-bias
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Replication and the Open Science Movement

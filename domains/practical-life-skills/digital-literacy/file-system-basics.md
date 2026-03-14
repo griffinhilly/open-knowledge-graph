@@ -14,7 +14,7 @@ tags:
 - organization
 - operating-system
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # File System Basics

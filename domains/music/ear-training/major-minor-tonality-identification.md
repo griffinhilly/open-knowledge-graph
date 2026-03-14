@@ -21,7 +21,7 @@ tags:
 - tonality
 - listening
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Major vs. Minor Tonality Identification

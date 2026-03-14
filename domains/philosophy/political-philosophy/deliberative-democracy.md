@@ -17,7 +17,7 @@ tags:
 - Rawls
 - legitimacy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Deliberative Democracy

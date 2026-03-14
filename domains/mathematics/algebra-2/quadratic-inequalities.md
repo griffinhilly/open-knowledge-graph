@@ -4,19 +4,24 @@ title: Quadratic Inequalities
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: graphing-quadratic-functions
-    type: hard
-  - id: quadratic-formula-review
-    type: hard
-  - id: solving-linear-inequalities
-    type: hard
+- id: graphing-quadratic-functions
+  type: hard
+- id: quadratic-formula-review
+  type: hard
+- id: solving-inequalities
+  type: hard
+- id: solving-absolute-value-equations-review
+  type: soft
 builds-toward:
-  - polynomial-functions-degree-and-leading-coefficient
-tags: [quadratics, inequalities, sign-analysis, intervals]
+- polynomial-functions-degree-and-leading-coefficient
+tags:
+- quadratics
+- inequalities
+- sign-analysis
+- intervals
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Quadratic Inequalities
 
 ## Core Idea

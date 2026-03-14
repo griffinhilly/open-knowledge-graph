@@ -13,7 +13,7 @@ tags:
 - inbox
 - attachments
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Email Fundamentals

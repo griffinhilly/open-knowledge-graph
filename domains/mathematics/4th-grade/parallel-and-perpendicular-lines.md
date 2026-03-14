@@ -13,7 +13,7 @@ builds-toward:
   - coordinate-plane-intro
 tags: [geometry, lines, relationships]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Parallel and Perpendicular Lines

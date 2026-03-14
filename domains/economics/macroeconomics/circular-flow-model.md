@@ -17,7 +17,7 @@ tags:
 - firms
 - flows
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Circular Flow Model

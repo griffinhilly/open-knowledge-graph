@@ -19,7 +19,7 @@ tags:
 - generativity
 - integrity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Erikson's Psychosocial Stages

@@ -14,7 +14,7 @@ tags:
 - compression
 - economy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Flash Fiction and Microfiction

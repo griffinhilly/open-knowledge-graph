@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: meiosis
   type: soft
+- id: adaptation-and-fitness
+  type: soft
+- id: hardy-weinberg-equilibrium
+  type: soft
 builds-toward:
 - phylogenetics-intro
 - biodiversity-metrics
@@ -21,9 +25,8 @@ tags:
 - allopatry
 - sympatry
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Speciation
 
 ## Core Idea

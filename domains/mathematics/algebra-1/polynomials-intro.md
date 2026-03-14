@@ -4,18 +4,23 @@ title: Introduction to Polynomials
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: variables-and-expressions-review
-    type: hard
-  - id: exponent-rules-product-power-quotient
-    type: hard
+- id: variables-and-expressions-review
+  type: hard
+- id: exponent-rules-product-power-quotient
+  type: hard
+- id: zero-exponent
+  type: soft
 builds-toward:
-  - adding-subtracting-polynomials
-  - multiplying-polynomials
-tags: [polynomials, degree, terms, classification]
+- adding-subtracting-polynomials
+- multiplying-polynomials
+tags:
+- polynomials
+- degree
+- terms
+- classification
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Introduction to Polynomials
 
 ## Core Idea

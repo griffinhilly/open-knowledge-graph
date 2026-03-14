@@ -4,21 +4,30 @@ title: Slope of a Line
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: coordinate-plane-intro
-    type: hard
-  - id: unit-rates
-    type: hard
-  - id: dividing-integers
-    type: hard
+- id: coordinate-plane-intro
+  type: hard
+- id: unit-rates
+  type: hard
+- id: dividing-integers
+  type: hard
+- id: coordinate-plane-all-four-quadrants
+  type: soft
+- id: function-tables
+  type: soft
+- id: proportional-relationships
+  type: soft
 builds-toward:
-  - slope-intercept-form
-  - point-slope-form
-  - parallel-and-perpendicular-slopes
-tags: [slope, rate-of-change, linear, graphing]
+- slope-intercept-form
+- point-slope-form
+- parallel-and-perpendicular-slopes
+tags:
+- slope
+- rate-of-change
+- linear
+- graphing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Slope of a Line
 
 ## Core Idea

@@ -18,7 +18,7 @@ tags:
 - demographics
 - context
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Audience Analysis for Public Speaking

@@ -4,18 +4,21 @@ title: Vertex Form of Quadratic Functions
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: graphing-quadratics
-    type: hard
-  - id: solving-multi-step-equations
-    type: hard
+- id: graphing-quadratics
+  type: hard
+- id: solving-multi-step-equations
+  type: hard
 builds-toward:
-  - completing-the-square
-  - transformations-of-functions
-tags: [vertex-form, quadratics, parabolas, transformations]
+- solving-quadratic-equations-completing-the-square
+- function-transformations
+tags:
+- vertex-form
+- quadratics
+- parabolas
+- transformations
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Vertex Form of Quadratic Functions
 
 ## Core Idea

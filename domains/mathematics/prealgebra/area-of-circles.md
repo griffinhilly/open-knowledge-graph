@@ -4,18 +4,21 @@ title: Area of Circles
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: circumference
-    type: hard
-  - id: exponents-intro
-    type: soft
+- id: circumference
+  type: hard
+- id: exponents-intro
+  type: soft
 builds-toward:
-  - surface-area-intro
-  - volume-of-cylinders
-tags: [area, circles, pi, geometry]
+- surface-area-intro
+- volume-of-prisms-and-cylinders
+tags:
+- area
+- circles
+- pi
+- geometry
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Area of Circles
 
 ## Core Idea

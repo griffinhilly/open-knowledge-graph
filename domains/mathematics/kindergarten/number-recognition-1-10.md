@@ -15,7 +15,7 @@ tags:
 - number-sense
 - literacy
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Recognizing Written Numerals 1–10

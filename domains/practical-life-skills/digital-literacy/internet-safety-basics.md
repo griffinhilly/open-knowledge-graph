@@ -14,7 +14,7 @@ tags:
 - browsing
 - security
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Internet Safety Basics

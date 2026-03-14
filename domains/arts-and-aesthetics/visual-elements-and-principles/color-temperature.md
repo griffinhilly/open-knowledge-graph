@@ -6,6 +6,8 @@ course: visual-elements-and-principles
 prerequisites:
 - id: color-wheel-basics
   type: hard
+- id: color-mixing
+  type: soft
 builds-toward:
 - color-relationships
 - atmospheric-perspective
@@ -17,9 +19,8 @@ tags:
 - temperature
 - mood
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Color Temperature: Warm and Cool
 
 ## Core Idea

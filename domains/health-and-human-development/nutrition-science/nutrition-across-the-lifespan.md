@@ -17,7 +17,7 @@ tags:
 - breastfeeding
 - aging
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Nutrition Across the Lifespan: Pregnancy, Infancy, Childhood, and Aging

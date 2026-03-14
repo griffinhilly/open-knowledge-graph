@@ -19,7 +19,7 @@ tags:
 - development
 - quotation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Evidence, Support, and Development

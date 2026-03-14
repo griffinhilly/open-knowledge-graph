@@ -15,7 +15,7 @@ tags:
 - proof-technique
 - logical-equivalence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Proof by Contrapositive

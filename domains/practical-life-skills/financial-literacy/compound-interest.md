@@ -4,7 +4,7 @@ title: Compound Interest
 domain: practical-life-skills
 course: financial-literacy
 prerequisites:
-- id: time-value-of-money
+- id: time-value-of-money-personal
   type: hard
 - id: exponential-growth-and-decay
   type: soft
@@ -23,7 +23,7 @@ tags:
 - savings
 - debt
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Compound Interest

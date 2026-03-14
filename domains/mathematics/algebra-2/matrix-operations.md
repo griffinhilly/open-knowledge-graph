@@ -7,10 +7,11 @@ prerequisites:
   - id: matrices-intro
     type: hard
 builds-toward:
-  - linear-algebra-course
+  - matrix-inverses
+  - eigenvalues-and-eigenvectors
 tags: [matrices, addition, multiplication, scalar, determinant]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Matrix Operations

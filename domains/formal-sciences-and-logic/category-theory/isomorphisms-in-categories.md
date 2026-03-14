@@ -18,7 +18,7 @@ tags:
 - equivalence
 - structure
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Isomorphisms in Categories

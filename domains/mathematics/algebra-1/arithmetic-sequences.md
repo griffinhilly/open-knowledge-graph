@@ -4,21 +4,28 @@ title: Arithmetic Sequences
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: variable-expressions
-    type: hard
-  - id: slope-concept
-    type: soft
-  - id: writing-linear-equations
-    type: soft
+- id: variable-expressions
+  type: hard
+- id: slope-concept
+  type: soft
+- id: writing-linear-equations
+  type: soft
+- id: arithmetic-patterns-3rd
+  type: soft
+- id: function-tables
+  type: soft
 builds-toward:
-  - geometric-sequences
-  - arithmetic-series
-  - linear-functions
-tags: [sequences, arithmetic, common-difference, patterns]
+- geometric-sequences
+- arithmetic-sequences-and-series
+- linear-functions
+tags:
+- sequences
+- arithmetic
+- common-difference
+- patterns
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Arithmetic Sequences
 
 ## Core Idea

@@ -4,20 +4,24 @@ title: Multiplying Fractions
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: intro-to-fractions
-    type: hard
-  - id: equivalent-fractions
-    type: soft
-  - id: area-of-rectangles
-    type: soft
+- id: intro-to-fractions
+  type: hard
+- id: equivalent-fractions
+  type: soft
+- id: area-of-rectangles
+  type: soft
+- id: fractions-of-a-set
+  type: soft
 builds-toward:
-  - multiplying-mixed-numbers
-  - dividing-fractions
-tags: [fractions, multiplication, arithmetic]
+- multiplying-mixed-numbers
+- dividing-fractions
+tags:
+- fractions
+- multiplication
+- arithmetic
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Multiplying Fractions
 
 ## Core Idea

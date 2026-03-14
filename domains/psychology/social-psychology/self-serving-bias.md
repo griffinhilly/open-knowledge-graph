@@ -13,7 +13,7 @@ tags:
 - self-enhancement
 - bias
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Self-Serving Bias

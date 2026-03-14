@@ -4,17 +4,24 @@ title: Taylor Polynomials
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: higher-order-derivatives
-    type: hard
-  - id: linear-approximation
-    type: hard
+- id: higher-order-derivatives
+  type: hard
+- id: linear-approximation
+  type: hard
+- id: power-series
+  type: soft
+- id: binomial-theorem-expansion
+  type: soft
 builds-toward:
-  - taylor-series
-tags: [series, Taylor, approximation, polynomials]
+- taylor-series
+tags:
+- series
+- Taylor
+- approximation
+- polynomials
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Taylor Polynomials
 
 ## Core Idea

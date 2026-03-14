@@ -11,7 +11,7 @@ builds-toward:
   - coordinate-geometry-proofs
 tags: [parallel-lines, corresponding-angles, congruence]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Corresponding Angles

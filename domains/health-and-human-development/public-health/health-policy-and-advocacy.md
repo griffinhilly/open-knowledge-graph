@@ -10,6 +10,18 @@ prerequisites:
   type: soft
 - id: global-burden-of-disease
   type: soft
+- id: environmental-health-determinants
+  type: soft
+- id: health-promotion-models
+  type: soft
+- id: herd-immunity-and-vaccination
+  type: soft
+- id: one-health-framework
+  type: soft
+- id: public-health-ethics
+  type: soft
+- id: screening-and-early-detection
+  type: soft
 tags:
 - health-policy
 - policy-cycle
@@ -17,9 +29,8 @@ tags:
 - stakeholders
 - implementation-science
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Health Policy Development and Advocacy
 
 ## Core Idea

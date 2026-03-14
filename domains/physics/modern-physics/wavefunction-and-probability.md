@@ -21,7 +21,7 @@ tags:
 - born-rule
 - probability-density
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Wavefunction and the Born Rule

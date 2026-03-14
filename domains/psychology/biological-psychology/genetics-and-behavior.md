@@ -19,7 +19,7 @@ tags:
 - behavioral-genetics
 - polygenic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Genetics and Behavior

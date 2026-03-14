@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vector-spaces
   type: hard
+- id: matrix-transpose-properties
+  type: soft
 builds-toward:
 - orthogonality-in-linear-algebra
 - symmetric-matrices
@@ -18,9 +20,8 @@ tags:
 - angle
 - abstract dot product
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Inner Product Spaces
 
 ## Core Idea

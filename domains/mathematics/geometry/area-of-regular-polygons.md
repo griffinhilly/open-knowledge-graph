@@ -12,7 +12,7 @@ builds-toward:
   - surface-area-of-prisms
 tags: [area, regular-polygons, apothem]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Area of Regular Polygons

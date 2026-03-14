@@ -18,7 +18,7 @@ tags:
 - content
 - perception
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Representationalism and Mental Representation

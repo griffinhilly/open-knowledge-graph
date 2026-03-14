@@ -12,7 +12,7 @@ builds-toward:
   - partial-fraction-decomposition-integration
 tags: [algebra, partial-fractions, rational-expressions]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Partial Fraction Decomposition

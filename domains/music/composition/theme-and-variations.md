@@ -13,8 +13,7 @@ prerequisites:
 - id: texture-in-composition
   type: soft
 builds-toward:
-- formal-proportion-and-balance
-- ostinato-and-ground-bass
+  - formal-proportion-and-balance
 tags:
 - variations
 - theme
@@ -22,9 +21,8 @@ tags:
 - ornament
 - transformation
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Theme and Variations
 
 ## Core Idea

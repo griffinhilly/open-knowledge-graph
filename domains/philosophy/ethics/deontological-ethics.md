@@ -20,7 +20,7 @@ tags:
 - rights
 - constraints
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Deontological Ethics

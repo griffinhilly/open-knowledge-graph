@@ -18,7 +18,7 @@ tags:
 - electron-density
 - s-p-d-f
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Atomic Orbitals

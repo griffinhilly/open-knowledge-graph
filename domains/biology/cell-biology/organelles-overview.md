@@ -17,7 +17,7 @@ tags:
 - cell-function
 - compartmentalization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Organelles and Their Functions

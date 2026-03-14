@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: melodic-phrase-structure
   type: soft
+- id: countermelody-writing
+  type: soft
 builds-toward:
 - arranging-for-small-ensemble
 - contrapuntal-composition
@@ -22,9 +24,8 @@ tags:
 - polyphony
 - heterophony
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Texture in Composition
 
 ## Core Idea

@@ -17,7 +17,7 @@ tags:
 - HACCP
 - food preservation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Food Safety, Microbial Contamination, and HACCP

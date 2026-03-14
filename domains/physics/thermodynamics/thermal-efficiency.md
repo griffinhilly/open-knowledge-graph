@@ -16,7 +16,7 @@ tags:
 - heat-input
 - energy-conversion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thermal Efficiency of Heat Engines

@@ -13,7 +13,7 @@ tags:
 - drains
 - repair
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Unclogging Drains

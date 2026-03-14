@@ -18,7 +18,7 @@ tags:
 - loop control
 - early exit
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Loop Control Statements

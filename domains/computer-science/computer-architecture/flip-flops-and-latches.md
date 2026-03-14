@@ -19,7 +19,7 @@ tags:
 - memory
 - clock
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Flip-Flops and Latches

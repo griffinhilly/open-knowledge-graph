@@ -4,18 +4,26 @@ title: Multi-Digit Subtraction
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: place-value-whole-numbers
-    type: hard
-  - id: multi-digit-addition
-    type: soft
+- id: place-value-whole-numbers
+  type: hard
+- id: multi-digit-addition
+  type: soft
+- id: three-digit-subtraction
+  type: soft
+- id: two-digit-subtraction-with-regrouping
+  type: soft
+- id: two-step-word-problems
+  type: soft
 builds-toward:
-  - estimation-strategies
-  - adding-subtracting-decimals
-tags: [arithmetic, subtraction, place-value]
+- estimation-strategies
+- adding-subtracting-decimals
+tags:
+- arithmetic
+- subtraction
+- place-value
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Multi-Digit Subtraction
 
 ## Core Idea

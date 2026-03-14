@@ -17,7 +17,7 @@ tags:
 - cardiac output
 - conduction system
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cardiac Cycle and Heart Function

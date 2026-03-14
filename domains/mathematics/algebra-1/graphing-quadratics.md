@@ -4,19 +4,23 @@ title: Graphing Quadratic Functions
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: solving-quadratics-by-factoring
-    type: hard
-  - id: graphing-linear-equations
-    type: hard
+- id: solving-quadratics-by-factoring
+  type: hard
+- id: graphing-linear-equations
+  type: hard
 builds-toward:
-  - vertex-form
-  - transformations-of-functions
-  - conic-sections
-tags: [quadratics, graphing, parabolas, vertex, axis-of-symmetry]
+- vertex-form
+- function-transformations
+- conic-sections-overview
+tags:
+- quadratics
+- graphing
+- parabolas
+- vertex
+- axis-of-symmetry
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Graphing Quadratic Functions
 
 ## Core Idea

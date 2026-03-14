@@ -20,7 +20,7 @@ tags:
 - pointers
 - data-structures
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linked Lists

@@ -17,7 +17,7 @@ tags:
 - faces
 - four-color-theorem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Planar Graphs and Euler's Formula

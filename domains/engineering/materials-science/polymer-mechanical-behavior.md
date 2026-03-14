@@ -15,7 +15,7 @@ tags:
 - rubber
 - elastomer
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Polymer Mechanical Behavior and Viscoelasticity

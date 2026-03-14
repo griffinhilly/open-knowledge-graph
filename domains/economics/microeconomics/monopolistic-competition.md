@@ -16,7 +16,7 @@ tags:
 - excess capacity
 - zero profit
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Monopolistic Competition

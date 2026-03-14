@@ -19,7 +19,7 @@ tags:
 - tidal forcing
 - amphidromic point
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Tides: Gravitational Forcing and Tidal Patterns

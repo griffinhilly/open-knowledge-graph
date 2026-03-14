@@ -20,7 +20,7 @@ tags:
 - equal-parts
 - partitioning
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Partitioning Shapes into Equal Parts

@@ -17,7 +17,7 @@ tags:
 - estimation
 - iteration
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Measuring Length with Nonstandard Units

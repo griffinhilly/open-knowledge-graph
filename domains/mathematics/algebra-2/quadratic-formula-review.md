@@ -14,7 +14,7 @@ builds-toward:
   - fundamental-theorem-of-algebra
 tags: [quadratics, quadratic-formula, discriminant, applications]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Quadratic Formula Review and Applications

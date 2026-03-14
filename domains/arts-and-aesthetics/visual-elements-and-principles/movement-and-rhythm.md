@@ -19,7 +19,7 @@ tags:
 - repetition
 - composition
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Movement and Rhythm

@@ -22,7 +22,7 @@ tags:
 - polynomial-time
 - time-complexity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Time Complexity Classes: P and EXPTIME

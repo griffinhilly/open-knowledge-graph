@@ -15,7 +15,7 @@ tags:
 - cylinder
 - cone
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Recognizing Basic 3D Shapes

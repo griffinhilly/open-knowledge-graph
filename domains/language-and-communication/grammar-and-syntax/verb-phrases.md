@@ -15,7 +15,7 @@ tags:
 - verbs
 - auxiliary-verbs
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Verb Phrases and Helping Verbs

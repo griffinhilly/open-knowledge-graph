@@ -17,7 +17,7 @@ tags:
 - foundations
 - russell
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Russell's Paradox

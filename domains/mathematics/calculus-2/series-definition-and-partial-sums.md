@@ -11,7 +11,7 @@ builds-toward:
   - divergence-test
 tags: [series, partial-sums, definition]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Series Definition and Partial Sums

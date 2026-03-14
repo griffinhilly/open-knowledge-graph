@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: tautologies-and-contradictions
   type: hard
+- id: sequent-calculus-intro
+  type: soft
 builds-toward:
 - propositional-compactness
 - fol-soundness-completeness
@@ -20,9 +22,8 @@ tags:
 - model-theory
 - metatheorem
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Soundness and Completeness of Propositional Logic
 
 ## Core Idea

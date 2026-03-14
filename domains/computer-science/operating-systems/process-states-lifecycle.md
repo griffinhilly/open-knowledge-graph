@@ -18,7 +18,7 @@ tags:
 - terminated
 - context-switch
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Process States and Lifecycle

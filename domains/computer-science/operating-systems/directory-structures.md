@@ -16,7 +16,7 @@ tags:
 - DAG
 - tree-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Directory Structures and Path Resolution

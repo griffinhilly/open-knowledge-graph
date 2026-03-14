@@ -18,7 +18,7 @@ tags:
 - Whitman
 - lineation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Free Verse

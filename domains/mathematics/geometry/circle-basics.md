@@ -13,7 +13,7 @@ builds-toward:
   - conic-sections-circles
 tags: [circles, radius, diameter, chord, definitions]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Circle Basics: Radius, Diameter, and Chord

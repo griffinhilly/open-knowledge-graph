@@ -20,7 +20,7 @@ tags:
 - certificate
 - complexity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Nondeterministic Time Complexity and NP

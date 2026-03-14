@@ -22,7 +22,7 @@ tags:
 - onomatopoeia
 - sound
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Sound Devices in Poetry

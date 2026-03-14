@@ -19,7 +19,7 @@ tags:
 - AMOC
 - carbon cycle
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ocean Circulation's Role in Climate Regulation

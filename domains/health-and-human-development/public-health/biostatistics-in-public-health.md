@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - screening-and-early-detection
-- epidemiologic-study-designs
 tags:
 - biostatistics
 - confidence-intervals
@@ -20,9 +19,8 @@ tags:
 - regression
 - p-values
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Biostatistics in Public Health
 
 ## Core Idea

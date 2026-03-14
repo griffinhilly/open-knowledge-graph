@@ -17,7 +17,7 @@ tags:
 - interpretation
 - dialogue
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Principle of Charity

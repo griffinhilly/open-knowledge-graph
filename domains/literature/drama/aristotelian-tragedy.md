@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: aristotelian-unities
   type: soft
+- id: greek-chorus
+  type: soft
 builds-toward:
 - tragic-hero-and-hamartia
 - catharsis-in-drama
@@ -21,9 +23,8 @@ tags:
 - mimesis
 - plot
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Aristotelian Tragedy
 
 ## Core Idea

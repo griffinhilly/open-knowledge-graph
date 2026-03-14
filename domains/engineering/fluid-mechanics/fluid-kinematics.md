@@ -22,7 +22,7 @@ tags:
 - Eulerian
 - material derivative
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fluid Kinematics: Describing Flow

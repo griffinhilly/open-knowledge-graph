@@ -17,7 +17,7 @@ tags:
 - spreads
 - no-arbitrage
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Options Strategies and Put-Call Parity

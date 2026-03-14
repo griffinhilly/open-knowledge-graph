@@ -23,7 +23,7 @@ tags:
 - dipole-moment
 - centrifugal-distortion
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Rotational (Microwave) Spectroscopy

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: opposite-categories-and-duality
   type: soft
+- id: full-and-faithful-functors
+  type: soft
+- id: functor-categories
+  type: soft
 builds-toward:
 - yoneda-lemma
 - adjoint-functors
@@ -19,9 +23,8 @@ tags:
 - Yoneda
 - presheaf
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Representable Functors
 
 ## Core Idea

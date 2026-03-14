@@ -17,7 +17,7 @@ tags:
 - representability
 - primitive-recursion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Formal Arithmetic and Expressibility

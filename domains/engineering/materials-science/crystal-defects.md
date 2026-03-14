@@ -16,7 +16,7 @@ tags:
 - dislocations
 - grain-boundaries
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Crystal Defects: Point, Line, and Planar

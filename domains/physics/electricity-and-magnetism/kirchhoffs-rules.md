@@ -19,7 +19,7 @@ tags:
 - loop-rule
 - circuit-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kirchhoff's Rules

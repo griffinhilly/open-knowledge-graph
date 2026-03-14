@@ -4,18 +4,22 @@ title: Probability with Combinatorics
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: combinations
-    type: hard
-  - id: permutations
-    type: hard
+- id: combinations
+  type: hard
+- id: permutations
+  type: hard
+- id: binomial-theorem
+  type: soft
 builds-toward:
-  - normal-distribution-intro
-  - probability-and-statistics-course
-tags: [probability, combinatorics, counting, applications]
+- normal-distribution-intro
+tags:
+- probability
+- combinatorics
+- counting
+- applications
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Probability with Combinatorics
 
 ## Core Idea

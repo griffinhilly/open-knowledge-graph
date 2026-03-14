@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: rhyme-scheme
   type: soft
+- id: scansion
+  type: soft
 builds-toward:
 - sonnet-form
 - haiku-form
@@ -22,9 +24,8 @@ tags:
 - fixed forms
 - open forms
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Poetic Form Overview
 
 ## Core Idea

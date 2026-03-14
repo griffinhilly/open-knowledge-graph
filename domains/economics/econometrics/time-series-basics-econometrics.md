@@ -19,7 +19,7 @@ tags:
 - trend
 - seasonality
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Time Series Data: Structure and Concepts

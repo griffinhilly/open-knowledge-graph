@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: measures-of-spread
   type: hard
+- id: p-values-and-significance
+  type: soft
 builds-toward:
 - anova-one-way
 tags:
@@ -19,9 +21,8 @@ tags:
 - two-sample
 - paired
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # One-Sample and Two-Sample T-Tests
 
 ## Core Idea

@@ -21,7 +21,7 @@ tags:
 - foundationalism
 - coherentism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Epistemic Regress Problem

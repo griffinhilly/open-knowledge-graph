@@ -19,7 +19,7 @@ tags:
 - supply shifts
 - demand shifts
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Comparative Statics

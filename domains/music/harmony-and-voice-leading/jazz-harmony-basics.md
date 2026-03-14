@@ -19,7 +19,7 @@ tags:
 - tritone-substitution
 - jazz-harmony
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Jazz Harmony Basics

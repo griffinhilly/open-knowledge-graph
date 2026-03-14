@@ -11,7 +11,7 @@ builds-toward:
   - curve-sketching
 tags: [derivatives, tangent-line, geometric-interpretation]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Derivative as Slope of Tangent Line

@@ -19,7 +19,7 @@ tags:
 - time
 - environment
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Setting and Atmosphere

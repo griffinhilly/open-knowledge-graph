@@ -20,7 +20,7 @@ tags:
 - intrinsic-rate
 - population-dynamics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Population Growth Models: Exponential and Logistic

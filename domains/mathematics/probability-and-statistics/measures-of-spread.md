@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sigma-notation
   type: soft
+- id: histograms-and-frequency-distributions
+  type: soft
 builds-toward:
 - boxplots-and-five-number-summary
 - variance-of-random-variables
@@ -20,9 +22,8 @@ tags:
 - spread
 - descriptive-statistics
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Measures of Spread: Range, Variance, and Standard Deviation
 
 ## Core Idea

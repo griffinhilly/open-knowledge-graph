@@ -19,7 +19,7 @@ tags:
 - fairness
 - thought-experiment
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Original Position and Veil of Ignorance

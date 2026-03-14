@@ -12,7 +12,7 @@ builds-toward:
   - limits-at-infinity
 tags: [limits, laws, computation]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Limit Laws

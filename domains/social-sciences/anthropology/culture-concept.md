@@ -20,7 +20,7 @@ tags:
 - learned behavior
 - shared meaning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Anthropological Concept of Culture

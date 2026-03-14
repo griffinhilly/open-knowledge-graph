@@ -4,17 +4,21 @@ title: Triangle Inequality Theorem
 domain: mathematics
 course: geometry
 prerequisites:
-  - id: segment-and-distance
-    type: hard
-  - id: triangle-angle-sum
-    type: soft
+- id: segment-and-distance
+  type: hard
+- id: triangle-angle-sum
+  type: soft
+- id: exterior-angle-theorem
+  type: soft
 builds-toward:
-  - similar-triangles-aa
-tags: [triangles, inequality, side-lengths]
+- similar-triangles-aa
+tags:
+- triangles
+- inequality
+- side-lengths
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Triangle Inequality Theorem
 
 ## Core Idea

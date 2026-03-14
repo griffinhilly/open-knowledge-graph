@@ -4,19 +4,23 @@ title: Introduction to Decimals
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: place-value-whole-numbers
-    type: hard
-  - id: intro-to-fractions
-    type: hard
+- id: place-value-whole-numbers
+  type: hard
+- id: intro-to-fractions
+  type: hard
+- id: dollars-and-cents-notation
+  type: soft
 builds-toward:
-  - relating-fractions-and-decimals
-  - decimal-place-value
-  - comparing-decimals
-tags: [decimals, place-value, number-sense]
+- relating-fractions-and-decimals
+- decimal-place-value
+- comparing-decimals
+tags:
+- decimals
+- place-value
+- number-sense
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Introduction to Decimals
 
 ## Core Idea

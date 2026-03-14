@@ -22,7 +22,7 @@ tags:
 - voltage-gain
 - input-impedance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # BJT Amplifier Configurations

@@ -15,7 +15,7 @@ tags:
 - categories
 - existence
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ontological Categories

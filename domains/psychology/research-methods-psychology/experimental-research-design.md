@@ -24,7 +24,7 @@ tags:
 - control
 - between-subjects
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Experimental Research Design

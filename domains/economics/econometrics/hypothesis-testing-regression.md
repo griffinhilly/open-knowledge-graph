@@ -23,7 +23,7 @@ tags:
 - standard-errors
 - hypothesis-testing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hypothesis Testing in Regression

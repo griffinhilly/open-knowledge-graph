@@ -13,7 +13,7 @@ tags:
 - van Inwagen
 - Olson
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bodily Continuity Theory of Personal Identity

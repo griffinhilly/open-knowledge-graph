@@ -23,7 +23,7 @@ tags:
 - legibility
 - stroke weight
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Icon and Symbol Design

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: theatrical-conventions
   type: soft
+- id: soliloquy-and-aside
+  type: soft
+- id: stagecraft-and-mise-en-scene
+  type: soft
 builds-toward:
 - absurdist-theatre
 tags:
@@ -17,9 +21,8 @@ tags:
 - alienation
 - political-theatre
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Epic Theatre and Brecht
 
 ## Core Idea

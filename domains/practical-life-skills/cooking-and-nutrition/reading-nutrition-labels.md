@@ -21,7 +21,7 @@ tags:
 - daily-value
 - ingredients
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Reading Nutrition Labels

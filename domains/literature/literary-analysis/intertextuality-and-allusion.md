@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: historical-linguistics
   type: soft
+- id: allegory-and-extended-metaphor
+  type: soft
+- id: thematic-development
+  type: soft
 builds-toward:
 - literary-argument-writing
 tags:
@@ -21,9 +25,8 @@ tags:
 - reference
 - meaning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Intertextuality and Allusion
 
 ## Core Idea

@@ -19,7 +19,7 @@ tags:
 - magnetic-force
 - cross-product
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Magnetic Force on Moving Charges

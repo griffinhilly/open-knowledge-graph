@@ -20,7 +20,7 @@ tags:
 - prosody
 - stress
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Meter and Rhythm in Poetry

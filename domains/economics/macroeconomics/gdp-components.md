@@ -18,7 +18,7 @@ tags:
 - net-exports
 - expenditure
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Components of GDP: C + I + G + NX

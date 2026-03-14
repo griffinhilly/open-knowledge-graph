@@ -21,7 +21,7 @@ tags:
 - continental-drift
 - seafloor-spreading
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Plate Tectonics

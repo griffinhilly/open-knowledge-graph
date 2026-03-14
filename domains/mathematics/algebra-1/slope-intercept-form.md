@@ -15,7 +15,7 @@ builds-toward:
   - systems-graphing
 tags: [slope-intercept, linear-equations, graphing, y-intercept]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Slope-Intercept Form

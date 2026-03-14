@@ -20,7 +20,7 @@ tags:
 - voice-independence
 - polyphony
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Countermelody Writing

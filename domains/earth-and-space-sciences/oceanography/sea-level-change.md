@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: feedback-mechanisms-in-climate
   type: soft
+- id: polar-oceanography
+  type: soft
 tags:
 - sea level rise
 - eustasy
@@ -19,9 +21,8 @@ tags:
 - thermosteric
 - coastal flooding
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Sea-Level Change: Causes, Rates, and Consequences
 
 ## Core Idea

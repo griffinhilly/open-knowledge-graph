@@ -19,7 +19,7 @@ tags:
 - combinatorics
 - polynomial-expansion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multinomial Coefficients

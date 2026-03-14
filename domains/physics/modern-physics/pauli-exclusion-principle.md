@@ -17,7 +17,7 @@ tags:
 - exclusion
 - periodic-table
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pauli Exclusion Principle

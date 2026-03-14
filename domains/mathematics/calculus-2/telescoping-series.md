@@ -12,7 +12,7 @@ builds-toward:
   - convergence-test-strategy
 tags: [series, telescoping, partial-sums]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Telescoping Series

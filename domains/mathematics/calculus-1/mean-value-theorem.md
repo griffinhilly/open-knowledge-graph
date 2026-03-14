@@ -4,20 +4,24 @@ title: Mean Value Theorem
 domain: mathematics
 course: calculus-1
 prerequisites:
-  - id: continuity-definition
-    type: hard
-  - id: derivative-as-slope-of-tangent
-    type: hard
-  - id: rolles-theorem
-    type: hard
+- id: continuity-definition
+  type: hard
+- id: derivative-as-slope-of-tangent
+  type: hard
+- id: rolles-theorem
+  type: hard
+- id: intermediate-value-theorem
+  type: soft
 builds-toward:
-  - first-derivative-test
-  - lhopitals-rule
-tags: [theorems, MVT, existence-theorems]
+- first-derivative-test
+- lhopitals-rule
+tags:
+- theorems
+- MVT
+- existence-theorems
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Mean Value Theorem
 
 ## Core Idea

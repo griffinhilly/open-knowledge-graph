@@ -16,7 +16,7 @@ tags:
 - compare-and-swap
 - locking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mutexes and Locking Primitives

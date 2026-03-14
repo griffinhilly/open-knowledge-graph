@@ -21,7 +21,7 @@ tags:
 - parallel-resonance
 - selectivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Resonance in RLC Circuits

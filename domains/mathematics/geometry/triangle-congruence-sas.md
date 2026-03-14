@@ -14,7 +14,7 @@ builds-toward:
   - parallelogram-properties
 tags: [congruence, triangles, SAS, proof]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Triangle Congruence: SAS

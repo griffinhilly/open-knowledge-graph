@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: measures-of-spread
   type: soft
+- id: survey-research-methods
+  type: soft
 builds-toward:
 - validity-in-measurement
 tags:
@@ -21,9 +23,8 @@ tags:
 - internal-consistency
 - Cronbach-alpha
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Reliability in Psychological Measurement
 
 ## Core Idea

@@ -21,7 +21,7 @@ tags:
 - thermoplastic
 - thermoset
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Polymer Structure and Chain Architecture

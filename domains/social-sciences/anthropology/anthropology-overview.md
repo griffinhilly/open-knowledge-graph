@@ -14,7 +14,7 @@ tags:
 - discipline
 - holism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # What Is Anthropology?

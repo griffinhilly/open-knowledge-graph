@@ -6,14 +6,14 @@ course: algebra-2
 prerequisites:
   - id: logarithms-intro
     type: hard
-  - id: exponent-rules
+  - id: exponent-rules-product-power-quotient
     type: hard
 builds-toward:
   - solving-exponential-equations
   - solving-logarithmic-equations
 tags: [logarithms, properties, product-rule, quotient-rule, power-rule]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Logarithm Properties

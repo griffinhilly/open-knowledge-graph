@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: efficient-frontier-portfolio-theory
   type: hard
+- id: arbitrage-pricing-theory
+  type: soft
+- id: market-anomalies-and-puzzles
+  type: soft
 tags:
 - sharpe-ratio
 - jensen-alpha
@@ -15,9 +19,8 @@ tags:
 - performance-evaluation
 - alpha
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Risk-Adjusted Performance Measures
 
 ## Core Idea

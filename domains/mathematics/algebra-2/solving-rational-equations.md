@@ -4,17 +4,22 @@ title: Solving Rational Equations
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: rational-functions-and-asymptotes
-    type: hard
-  - id: solving-quadratic-equations-by-factoring
-    type: hard
-builds-toward:
-  - precalculus-applications
-tags: [rational-equations, LCD, extraneous-solutions]
+- id: rational-functions-and-asymptotes
+  type: hard
+- id: solving-quadratics-by-factoring
+  type: hard
+- id: graphing-rational-functions
+  type: soft
+- id: solving-radical-equations
+  type: soft
+builds-toward: []
+tags:
+- rational-equations
+- LCD
+- extraneous-solutions
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Solving Rational Equations
 
 ## Core Idea

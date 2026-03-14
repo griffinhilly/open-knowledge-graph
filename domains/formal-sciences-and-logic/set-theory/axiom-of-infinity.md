@@ -15,7 +15,7 @@ tags:
 - natural numbers
 - inductive set
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Axiom of Infinity

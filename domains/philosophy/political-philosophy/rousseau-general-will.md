@@ -16,7 +16,7 @@ tags:
 - freedom
 - democracy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Rousseau and the General Will

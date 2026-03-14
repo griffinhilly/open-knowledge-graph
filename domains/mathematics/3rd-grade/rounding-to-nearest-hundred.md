@@ -18,7 +18,7 @@ tags:
 - place-value
 - nearest-hundred
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Rounding to the Nearest Hundred

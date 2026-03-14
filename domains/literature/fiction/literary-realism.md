@@ -19,7 +19,7 @@ tags:
 - social-fiction
 - naturalism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Literary Realism

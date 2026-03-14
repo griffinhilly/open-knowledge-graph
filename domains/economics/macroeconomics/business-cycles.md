@@ -21,7 +21,7 @@ tags:
 - trough
 - NBER
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Business Cycles

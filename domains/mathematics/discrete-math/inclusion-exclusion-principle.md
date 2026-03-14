@@ -18,7 +18,7 @@ tags:
 - combinatorics
 - sets
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Inclusion-Exclusion Principle

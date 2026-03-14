@@ -19,7 +19,7 @@ tags:
 - face-value
 - debt-securities
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bonds and Fixed Income Instruments

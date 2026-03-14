@@ -4,21 +4,25 @@ title: Mean, Median, and Mode with Data Sets
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: adding-integers
-    type: hard
-  - id: dividing-integers
-    type: hard
-  - id: order-of-operations
-    type: soft
+- id: adding-integers
+  type: hard
+- id: dividing-integers
+  type: hard
+- id: order-of-operations
+  type: soft
 builds-toward:
-  - stem-and-leaf-plots
-  - box-and-whisker-plots
-  - statistics-descriptive
-tags: [statistics, mean, median, mode, central-tendency]
+- stem-and-leaf-plots
+- box-and-whisker-plots
+- measures-of-spread
+tags:
+- statistics
+- mean
+- median
+- mode
+- central-tendency
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Mean, Median, and Mode
 
 ## Core Idea

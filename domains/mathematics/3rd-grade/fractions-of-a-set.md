@@ -12,16 +12,15 @@ prerequisites:
   type: soft
 builds-toward:
 - percent-concept
-- ratio-concept
+- ratios
 - multiplying-fractions
 tags:
 - fractions
 - sets
 - part-of-a-group
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Fractions of a Set
 
 ## Core Idea

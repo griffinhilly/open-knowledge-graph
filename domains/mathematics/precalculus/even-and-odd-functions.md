@@ -13,7 +13,7 @@ builds-toward:
   - graphing-sine-and-cosine
 tags: [functions, symmetry, parity]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Even and Odd Functions

@@ -17,7 +17,7 @@ tags:
 - circular reactions
 - cognitive development
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Piaget's Sensorimotor Stage

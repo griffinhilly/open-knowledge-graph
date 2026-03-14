@@ -17,7 +17,7 @@ tags:
 - summing-junction
 - series-parallel
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Block Diagram Algebra and Reduction

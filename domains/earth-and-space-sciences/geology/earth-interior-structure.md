@@ -16,7 +16,7 @@ tags:
 - asthenosphere
 - seismic-discontinuities
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Earth's Interior Structure

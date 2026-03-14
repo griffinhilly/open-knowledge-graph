@@ -18,7 +18,7 @@ tags:
 - molecular-speed
 - temperature
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # RMS Speed and Average Kinetic Energy

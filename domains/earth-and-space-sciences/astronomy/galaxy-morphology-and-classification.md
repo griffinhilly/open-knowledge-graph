@@ -20,7 +20,7 @@ tags:
 - irregular-galaxies
 - lenticular-galaxies
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Galaxy Morphology and Classification

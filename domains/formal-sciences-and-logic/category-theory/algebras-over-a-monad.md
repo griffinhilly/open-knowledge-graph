@@ -15,7 +15,7 @@ tags:
 - monad
 - free algebra
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Algebras over a Monad

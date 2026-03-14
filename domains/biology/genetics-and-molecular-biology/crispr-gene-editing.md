@@ -19,7 +19,7 @@ tags:
 - NHEJ
 - genome editing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # CRISPR-Cas9 Gene Editing

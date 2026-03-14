@@ -13,7 +13,7 @@ builds-toward:
   - mean-median-mode
 tags: [data, tables, problem-solving]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Interpreting Data in Tables

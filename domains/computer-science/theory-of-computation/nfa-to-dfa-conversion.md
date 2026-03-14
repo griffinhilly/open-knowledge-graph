@@ -17,7 +17,7 @@ tags:
 - powerset
 - equivalence
 stage: advanced
-status: draft
+status: validated
 ---
 
 # NFA to DFA Conversion (Subset Construction)

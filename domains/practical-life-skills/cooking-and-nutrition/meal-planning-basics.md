@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: ratios
   type: soft
+- id: reading-nutrition-labels
+  type: soft
 builds-toward:
 - grocery-shopping-and-budgeting
 tags:
@@ -24,9 +26,8 @@ tags:
 - weekly-schedule
 - nutrition
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Meal Planning Basics
 
 ## Core Idea

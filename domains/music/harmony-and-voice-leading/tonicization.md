@@ -17,7 +17,7 @@ tags:
 - secondary-dominants
 - key-area
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Tonicization

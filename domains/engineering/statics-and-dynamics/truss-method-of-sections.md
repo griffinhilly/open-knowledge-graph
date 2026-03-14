@@ -14,7 +14,7 @@ tags:
 - method of sections
 - structural analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Truss Analysis: Method of Sections

@@ -4,19 +4,24 @@ title: Derivatives of Trigonometric Functions
 domain: mathematics
 course: calculus-1
 prerequisites:
-  - id: chain-rule
-    type: soft
-  - id: squeeze-theorem
-    type: hard
-  - id: trigonometric-identities-pythagorean
-    type: hard
+- id: chain-rule
+  type: soft
+- id: squeeze-theorem
+  type: hard
+- id: trigonometric-identities-pythagorean
+  type: hard
+- id: graphing-sine-and-cosine
+  type: soft
+- id: graphing-tangent-and-reciprocal-trig
+  type: soft
 builds-toward:
-  - trigonometric-integrals
-tags: [derivatives, trigonometry]
+- trigonometric-integrals
+tags:
+- derivatives
+- trigonometry
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Derivatives of Trigonometric Functions
 
 ## Core Idea

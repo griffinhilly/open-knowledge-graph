@@ -15,7 +15,7 @@ tags:
 - reading
 - solfège
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Sight-Singing: Melodies with Leaps

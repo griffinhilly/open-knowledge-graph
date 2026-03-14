@@ -4,20 +4,23 @@ title: Geometric Sequences
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: arithmetic-sequences
-    type: soft
-  - id: exponent-rules-product-power-quotient
-    type: hard
-  - id: multiplying-integers
-    type: hard
+- id: arithmetic-sequences
+  type: soft
+- id: exponent-rules-product-power-quotient
+  type: hard
+- id: multiplying-integers
+  type: hard
 builds-toward:
-  - geometric-series
-  - exponential-functions
-tags: [sequences, geometric, common-ratio, exponential]
+- geometric-series
+- exponential-functions-and-graphs
+tags:
+- sequences
+- geometric
+- common-ratio
+- exponential
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Geometric Sequences
 
 ## Core Idea

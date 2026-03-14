@@ -17,7 +17,7 @@ tags:
 - cell-structure
 - compartmentalization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Eukaryotic Cells

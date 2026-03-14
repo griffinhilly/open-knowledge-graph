@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: root-locus-controller-design
   type: soft
+- id: pid-control
+  type: soft
 tags:
 - lead-compensator
 - lag-compensator
@@ -17,9 +19,8 @@ tags:
 - frequency-domain-design
 - compensator
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Lead and Lag Compensators
 
 ## Core Idea

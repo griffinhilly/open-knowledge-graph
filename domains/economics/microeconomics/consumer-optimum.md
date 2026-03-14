@@ -23,7 +23,7 @@ tags:
 - MRS
 - utility maximization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Consumer Optimum

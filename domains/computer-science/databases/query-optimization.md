@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: btree-indexes
   type: soft
+- id: hash-indexes
+  type: soft
+- id: sql-joins
+  type: soft
+- id: sql-views
+  type: soft
 tags:
 - query optimization
 - cost-based optimization
@@ -17,9 +23,8 @@ tags:
 - join ordering
 - statistics
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Query Optimization
 
 ## Core Idea

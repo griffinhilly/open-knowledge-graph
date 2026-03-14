@@ -20,7 +20,7 @@ tags:
 - receptor
 - second-messenger
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Receptor Types and Intracellular Signaling

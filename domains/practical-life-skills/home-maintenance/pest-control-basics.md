@@ -3,7 +3,9 @@ id: pest-control-basics
 title: Pest Control Basics
 domain: practical-life-skills
 course: home-maintenance
-prerequisites: []
+prerequisites:
+- id: garden-and-planting-basics
+  type: soft
 builds-toward:
 - diy-vs-hire-professional
 tags:
@@ -11,9 +13,8 @@ tags:
 - insects
 - rodents
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Pest Control Basics
 
 ## Core Idea

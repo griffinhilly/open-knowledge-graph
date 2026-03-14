@@ -17,7 +17,7 @@ tags:
 - research-methods
 - primary-sources
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Archival Research Methods

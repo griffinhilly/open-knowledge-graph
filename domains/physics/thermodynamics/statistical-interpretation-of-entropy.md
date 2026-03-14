@@ -19,7 +19,7 @@ tags:
 - statistical-mechanics
 - entropy
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Statistical Interpretation of Entropy

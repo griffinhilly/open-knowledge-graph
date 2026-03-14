@@ -11,7 +11,7 @@ builds-toward:
   - solving-proportions
 tags: [integers, division, operations]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Dividing Integers

@@ -21,7 +21,7 @@ tags:
 - modeling
 - Renaissance
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Chiaroscuro: Light and Dark Modeling

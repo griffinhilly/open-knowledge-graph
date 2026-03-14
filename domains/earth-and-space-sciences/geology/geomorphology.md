@@ -21,7 +21,7 @@ tags:
 - mass-wasting
 - landscape-evolution
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Geomorphology: Landforms and Surface Processes

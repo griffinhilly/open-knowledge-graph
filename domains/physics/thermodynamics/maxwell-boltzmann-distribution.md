@@ -18,7 +18,7 @@ tags:
 - molecular-speeds
 - probability-distribution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Maxwell-Boltzmann Speed Distribution

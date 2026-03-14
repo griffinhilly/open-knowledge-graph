@@ -19,7 +19,7 @@ tags:
 - inference
 - data-collection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Samples and Populations

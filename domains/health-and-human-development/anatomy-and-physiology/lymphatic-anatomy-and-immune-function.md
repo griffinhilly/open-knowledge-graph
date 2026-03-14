@@ -21,7 +21,7 @@ tags:
 - lymphocytes
 - edema
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Lymphatic System Anatomy and Immune Surveillance

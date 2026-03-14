@@ -19,7 +19,7 @@ tags:
 - taboos
 - sanctions
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Social Norms, Values, and Sanctions

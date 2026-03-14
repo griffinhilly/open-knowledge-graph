@@ -14,15 +14,16 @@ prerequisites:
   type: soft
 - id: equivalence-relations
   type: soft
+- id: yoneda-lemma
+  type: soft
 tags:
 - equivalence of categories
 - essentially surjective
 - skeleton
 - categorical equivalence
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Equivalence of Categories
 
 ## Core Idea

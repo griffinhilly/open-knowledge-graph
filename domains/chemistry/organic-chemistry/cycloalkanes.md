@@ -17,7 +17,7 @@ tags:
 - axial
 - equatorial
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cycloalkanes and Ring Strain

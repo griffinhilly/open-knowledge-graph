@@ -15,7 +15,7 @@ tags:
 - mixed-partials
 - Clairaut
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Higher-Order Partial Derivatives

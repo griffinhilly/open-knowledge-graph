@@ -12,7 +12,7 @@ tags:
 - Hausman-test
 - panel
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Random Effects Models

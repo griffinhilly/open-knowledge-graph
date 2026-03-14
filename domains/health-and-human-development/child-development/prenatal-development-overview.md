@@ -23,7 +23,7 @@ tags:
 - trimesters
 - embryology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Prenatal Development Overview

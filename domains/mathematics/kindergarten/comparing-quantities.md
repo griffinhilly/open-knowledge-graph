@@ -6,6 +6,12 @@ course: kindergarten
 prerequisites:
 - id: counting-objects-to-20
   type: hard
+- id: cardinality-principle
+  type: soft
+- id: matching-numerals-to-quantities
+  type: soft
+- id: subitizing
+  type: soft
 builds-toward:
 - ordering-numbers-to-20
 - combining-small-groups
@@ -16,9 +22,8 @@ tags:
 - equal
 - number-sense
 stage: pre-formal
-status: draft
+status: validated
 ---
-
 # Comparing Quantities (More, Less, Same)
 
 ## Core Idea

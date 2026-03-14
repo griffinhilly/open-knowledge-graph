@@ -18,7 +18,7 @@ tags:
 - conservatism
 - 19th century
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Congress of Vienna and Concert of Europe

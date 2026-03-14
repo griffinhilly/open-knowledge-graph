@@ -14,11 +14,19 @@ prerequisites:
   type: hard
 - id: textual-evidence-and-citation
   type: hard
-- id: argument-structure
+- id: argument-structure-toulmin
   type: soft
-builds-toward:
-- thematic-development
-- intertextuality-and-allusion
+- id: character-motivation-and-development
+  type: soft
+- id: diction-and-style
+  type: soft
+- id: irony-in-literature
+  type: soft
+- id: theme-identification
+  type: soft
+- id: tone-and-mood
+  type: soft
+builds-toward: []
 tags:
 - essay
 - argument
@@ -26,9 +34,8 @@ tags:
 - literary analysis essay
 - academic writing
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Literary Argument Writing
 
 ## Core Idea

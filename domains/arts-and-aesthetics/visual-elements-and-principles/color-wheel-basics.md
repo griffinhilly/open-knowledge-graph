@@ -15,7 +15,7 @@ tags:
 - secondary
 - tertiary
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # The Color Wheel

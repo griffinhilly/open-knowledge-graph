@@ -21,7 +21,7 @@ tags:
 - indexing
 - mutable collections
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Arrays and Lists

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: chemical-kinetics
   type: soft
+- id: chemical-equilibrium
+  type: soft
 - id: graphing-rational-functions
   type: soft
 builds-toward:
@@ -20,7 +22,7 @@ tags:
 - inhibition
 - kinetics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Enzyme Kinetics

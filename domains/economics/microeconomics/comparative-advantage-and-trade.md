@@ -16,7 +16,7 @@ tags:
 - trade
 - gains from trade
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Comparative Advantage and Trade

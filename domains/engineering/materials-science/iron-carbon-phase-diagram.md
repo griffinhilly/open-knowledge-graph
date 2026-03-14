@@ -20,7 +20,7 @@ tags:
 - pearlite
 - martensite
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Iron-Carbon Phase Diagram and Steel Microstructures

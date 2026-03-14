@@ -18,7 +18,7 @@ tags:
 - secretory-pathway
 - vesicles
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Endoplasmic Reticulum and Golgi Apparatus

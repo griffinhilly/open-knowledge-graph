@@ -20,7 +20,7 @@ tags:
 - A inverse
 - identity matrix
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Matrix Inverse

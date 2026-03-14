@@ -15,7 +15,7 @@ tags:
 - internal-energy
 - heat-capacity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Equipartition Theorem

@@ -24,7 +24,7 @@ tags:
 - divisibility
 - even-odd
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Direct Proof

@@ -17,7 +17,7 @@ tags:
 - structure
 - analysis
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Song Form and Musical Structure

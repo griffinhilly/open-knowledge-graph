@@ -26,7 +26,7 @@ tags:
 - valence-electrons
 - subshells
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electron Configuration

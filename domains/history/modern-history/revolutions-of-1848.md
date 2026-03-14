@@ -19,7 +19,7 @@ tags:
 - '1848'
 - Europe
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Revolutions of 1848

@@ -14,7 +14,7 @@ tags:
 - number-sense
 - counting
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # The Cardinality Principle

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: nationalism-and-nation-states
   type: soft
+- id: abolition-movement
+  type: soft
+- id: holocaust
+  type: soft
 builds-toward:
 - civil-rights-movement
 - postcolonial-history
@@ -22,9 +26,8 @@ tags:
 - Asia
 - non-aligned movement
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Decolonization and Independence Movements
 
 ## Core Idea

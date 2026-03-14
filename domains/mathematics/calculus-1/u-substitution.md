@@ -4,20 +4,24 @@ title: U-Substitution
 domain: mathematics
 course: calculus-1
 prerequisites:
-  - id: chain-rule
-    type: hard
-  - id: fundamental-theorem-of-calculus-part-2
-    type: hard
-  - id: differentials
-    type: soft
+- id: chain-rule
+  type: hard
+- id: fundamental-theorem-of-calculus-part-2
+  type: hard
+- id: differentials
+  type: soft
+- id: basic-integration-rules
+  type: soft
 builds-toward:
-  - integration-by-parts
-  - trigonometric-substitution
-tags: [integration, techniques, u-substitution]
+- integration-by-parts
+- trigonometric-substitution
+tags:
+- integration
+- techniques
+- u-substitution
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # U-Substitution
 
 ## Core Idea

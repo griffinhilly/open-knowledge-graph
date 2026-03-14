@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: thevenin-norton-equivalents
   type: soft
+- id: diode-circuit-applications
+  type: soft
 builds-toward:
 - bjt-amplifier-configurations
 - mosfet-transistor-fundamentals
@@ -24,9 +26,8 @@ tags:
 - bias
 - operating-regions
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Bipolar Junction Transistor (BJT) Fundamentals
 
 ## Core Idea

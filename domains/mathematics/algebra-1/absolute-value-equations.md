@@ -13,7 +13,7 @@ builds-toward:
   - piecewise-functions
 tags: [absolute-value, equations, solving, two-cases]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Absolute Value Equations

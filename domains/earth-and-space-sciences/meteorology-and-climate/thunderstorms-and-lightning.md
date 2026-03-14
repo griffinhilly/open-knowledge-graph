@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: electric-field
   type: soft
+- id: precipitation-types-and-processes
+  type: soft
 builds-toward:
 - severe-weather-systems
 tags:
@@ -22,9 +24,8 @@ tags:
 - CAPE
 - severe-convection
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Thunderstorms and Lightning
 
 ## Core Idea

@@ -16,7 +16,7 @@ tags:
 - opposition
 - energy-conservation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lenz's Law

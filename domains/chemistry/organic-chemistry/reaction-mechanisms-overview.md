@@ -27,7 +27,7 @@ tags:
 - leaving group
 - intermediate
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Organic Reaction Mechanisms and Arrow Pushing

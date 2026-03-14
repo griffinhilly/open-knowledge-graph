@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: discourse-analysis
   type: soft
+- id: narratology
+  type: soft
 builds-toward:
 - deconstruction
 - discourse-and-power
@@ -21,9 +23,8 @@ tags:
 - undecidability
 - difference
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Post-Structuralism
 
 ## Core Idea

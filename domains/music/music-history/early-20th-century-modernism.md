@@ -22,7 +22,7 @@ tags:
 - atonality
 - expressionism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Early 20th-Century Modernism: The Break with Tonality

@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: measures-of-spread
   type: soft
+- id: federalism-and-decentralization
+  type: soft
 tags:
 - public policy
 - agenda setting
@@ -23,9 +25,8 @@ tags:
 - implementation
 - evaluation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Public Policy Process
 
 ## Core Idea

@@ -20,7 +20,7 @@ tags:
 - X-rays
 - gamma rays
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Electromagnetic Spectrum

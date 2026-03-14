@@ -20,7 +20,7 @@ tags:
 - angles
 - quantitative refraction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Snell's Law

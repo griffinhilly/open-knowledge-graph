@@ -4,7 +4,7 @@ title: Radical Functions and Graphs
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: square-roots
+  - id: square-roots-intro
     type: hard
   - id: inverse-functions
     type: soft
@@ -13,7 +13,7 @@ builds-toward:
   - rational-exponents
 tags: [radicals, functions, graphing, domain, square-root]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Radical Functions and Graphs

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: temperament-and-early-personality
   type: soft
+- id: vygotsky-sociocultural-theory
+  type: soft
 builds-toward:
 - adolescent-cognitive-development
 tags:
@@ -20,9 +22,8 @@ tags:
 - warmth
 - control
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Parenting Styles and Child Outcomes
 
 ## Core Idea

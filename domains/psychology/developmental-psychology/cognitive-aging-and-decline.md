@@ -18,7 +18,7 @@ tags:
 - working memory
 - processing speed
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cognitive Aging and Decline

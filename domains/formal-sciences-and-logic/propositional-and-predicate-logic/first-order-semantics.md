@@ -19,7 +19,7 @@ tags:
 - model
 - domain
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First-Order Logic Semantics and Structures

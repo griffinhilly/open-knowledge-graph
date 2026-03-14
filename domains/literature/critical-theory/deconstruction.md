@@ -18,7 +18,7 @@ tags:
 - trace
 - aporia
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Deconstruction

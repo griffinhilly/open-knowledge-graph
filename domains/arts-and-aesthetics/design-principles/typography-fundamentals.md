@@ -19,7 +19,7 @@ tags:
 - letterform
 - readability
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Typography Fundamentals

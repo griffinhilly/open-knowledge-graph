@@ -15,7 +15,7 @@ tags:
 - performativity
 - heteronormativity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gender, Sexuality, and Queer Theory

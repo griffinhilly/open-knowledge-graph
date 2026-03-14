@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: boolean-algebra
   type: soft
+- id: floating-point-representation
+  type: soft
 builds-toward:
 - cpu-datapath
 - cpu-control-unit
@@ -19,9 +21,8 @@ tags:
 - logic-operations
 - CPU
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Arithmetic Logic Unit (ALU)
 
 ## Core Idea

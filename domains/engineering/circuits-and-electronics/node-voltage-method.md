@@ -25,7 +25,7 @@ tags:
 - systematic-analysis
 - linear-systems
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Node Voltage Method (Nodal Analysis)

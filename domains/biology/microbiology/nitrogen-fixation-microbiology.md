@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: enzyme-structure-and-function
   type: soft
+- id: microbial-ecology-overview
+  type: soft
 builds-toward:
 - microbial-biotechnology
 tags:
@@ -21,9 +23,8 @@ tags:
 - nitrogen cycle
 - heterocyst
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Nitrogen Fixation and the Microbial Nitrogen Cycle
 
 ## Core Idea

@@ -14,7 +14,7 @@ tags:
 - security
 - credentials
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Password Security

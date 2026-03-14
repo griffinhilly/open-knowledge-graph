@@ -13,7 +13,7 @@ tags:
 - misrepresentation
 - fallacies
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Straw Man Fallacy

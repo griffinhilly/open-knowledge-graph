@@ -15,7 +15,7 @@ tags:
 - sides
 - corners
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Describing 2D Shapes by Their Attributes

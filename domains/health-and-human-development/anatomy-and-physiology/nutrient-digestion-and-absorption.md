@@ -24,7 +24,7 @@ tags:
 - microvilli
 - portal-circulation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Nutrient Digestion and Absorption

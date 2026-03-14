@@ -19,7 +19,7 @@ tags:
 - regrouping
 - borrowing
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Three-Digit Subtraction

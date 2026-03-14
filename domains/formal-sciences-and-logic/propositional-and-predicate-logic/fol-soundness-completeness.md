@@ -21,7 +21,7 @@ tags:
 - FOL
 - metatheorem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Soundness and Completeness of First-Order Logic

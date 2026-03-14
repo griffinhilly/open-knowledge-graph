@@ -4,18 +4,22 @@ title: Introduction to Parametric Equations
 domain: mathematics
 course: precalculus
 prerequisites:
-  - id: function-notation-review
-    type: hard
-  - id: trigonometric-ratios-review
-    type: soft
+- id: function-notation-review
+  type: hard
+- id: trigonometric-ratios-review
+  type: soft
+- id: conic-sections-overview
+  type: soft
 builds-toward:
-  - parametric-curves-calculus
-  - arc-length-parametric
-tags: [parametric, curves, coordinate-geometry]
+- parametric-curves-calculus
+- arc-length-parametric
+tags:
+- parametric
+- curves
+- coordinate-geometry
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Introduction to Parametric Equations
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: egyptian-civilization
   type: soft
+- id: roman-empire-rise
+  type: soft
 builds-toward:
 - silk-road-trade-network
 - comparing-ancient-civilizations
@@ -21,9 +23,8 @@ tags:
 - grain-trade
 - commerce
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Mediterranean Trade Networks in Antiquity
 
 ## Core Idea

@@ -13,7 +13,7 @@ builds-toward:
   - parallel-and-perpendicular-slopes
 tags: [point-slope, linear-equations, slope, writing-equations]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Point-Slope Form

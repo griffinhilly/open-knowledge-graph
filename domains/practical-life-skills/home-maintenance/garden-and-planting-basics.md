@@ -17,7 +17,7 @@ tags:
 - plants
 - outdoor
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Garden and Planting Basics

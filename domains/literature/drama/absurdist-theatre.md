@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: dramatic-structure
   type: soft
+- id: catharsis-in-drama
+  type: soft
+- id: epic-theatre-and-brecht
+  type: soft
+- id: stagecraft-and-mise-en-scene
+  type: soft
 tags:
 - absurdism
 - Beckett
@@ -18,9 +24,8 @@ tags:
 - existentialism
 - anti-drama
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Absurdist Theatre
 
 ## Core Idea

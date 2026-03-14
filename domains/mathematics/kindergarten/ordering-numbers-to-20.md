@@ -13,7 +13,7 @@ tags:
 - number-line
 - number-sense
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Ordering Numbers to 20

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: ratios
   type: soft
+- id: spatial-interaction-theory
+  type: soft
 builds-toward:
 - geopolitics-and-power
 tags:
@@ -24,9 +26,8 @@ tags:
 - command and control
 - GaWC
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # World Cities and the Global Urban Hierarchy
 
 ## Core Idea

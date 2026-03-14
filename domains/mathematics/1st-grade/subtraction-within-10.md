@@ -20,7 +20,7 @@ tags:
 - within-10
 - number-sense
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Subtraction Within 10

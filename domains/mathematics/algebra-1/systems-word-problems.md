@@ -4,20 +4,22 @@ title: Systems of Equations Word Problems
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: systems-substitution
-    type: hard
-  - id: systems-elimination
-    type: hard
-  - id: writing-linear-equations
-    type: hard
+- id: systems-substitution
+  type: hard
+- id: systems-elimination
+  type: hard
+- id: writing-linear-equations
+  type: hard
 builds-toward:
-  - linear-programming
-  - algebra-2-systems
-tags: [systems, word-problems, modeling, applications]
+- linear-programming
+tags:
+- systems
+- word-problems
+- modeling
+- applications
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Systems of Equations Word Problems
 
 ## Core Idea

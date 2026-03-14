@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: expository-writing
   type: soft
+- id: persuasive-writing
+  type: soft
 builds-toward:
 - revision-strategies
 tags:
@@ -19,9 +21,8 @@ tags:
 - research writing
 - literature review
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Synthesis: Integrating Multiple Sources
 
 ## Core Idea

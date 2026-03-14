@@ -4,18 +4,26 @@ title: Arc Length
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: fundamental-theorem-of-calculus-part-2
-    type: hard
-  - id: u-substitution
-    type: hard
+- id: fundamental-theorem-of-calculus-part-2
+  type: hard
+- id: u-substitution
+  type: hard
+- id: trigonometric-substitution
+  type: soft
+- id: central-angles-and-arcs
+  type: soft
+- id: circumference
+  type: soft
 builds-toward:
-  - arc-length-parametric
-  - surface-area-of-revolution
-tags: [integration, applications, arc-length]
+- arc-length-parametric
+- surface-area-of-revolution
+tags:
+- integration
+- applications
+- arc-length
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Arc Length
 
 ## Core Idea

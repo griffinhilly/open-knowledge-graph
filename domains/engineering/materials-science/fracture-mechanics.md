@@ -23,7 +23,7 @@ tags:
 - brittle
 - ductile
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fracture Mechanics: Brittle and Ductile Failure

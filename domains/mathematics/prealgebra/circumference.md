@@ -13,7 +13,7 @@ builds-toward:
   - arc-length
 tags: [circumference, circles, pi, geometry]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Circumference of Circles

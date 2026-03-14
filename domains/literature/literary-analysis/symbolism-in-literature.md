@@ -19,7 +19,7 @@ tags:
 - meaning
 - representation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Symbolism in Literature

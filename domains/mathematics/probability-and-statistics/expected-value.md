@@ -20,7 +20,7 @@ tags:
 - long-run-average
 - weighted-average
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Expected Value

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: epistemic-luck
   type: soft
+- id: responses-to-gettier
+  type: soft
+- id: testimony-as-knowledge
+  type: soft
 builds-toward:
 - epistemology-of-disagreement
 tags:
@@ -20,9 +24,8 @@ tags:
 - intellectual-virtues
 - credit
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Virtue Epistemology
 
 ## Core Idea

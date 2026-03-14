@@ -16,7 +16,7 @@ tags:
 - microkernel
 - os-structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kernel Architecture and OS Structure

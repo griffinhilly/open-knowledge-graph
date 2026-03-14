@@ -27,7 +27,7 @@ tags:
 - accuracy
 - confidence intervals
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Error Analysis and Statistics in Analytical Chemistry

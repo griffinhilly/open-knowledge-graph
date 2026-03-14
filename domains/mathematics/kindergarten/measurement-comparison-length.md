@@ -9,7 +9,7 @@ tags:
 - length
 - comparison
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Comparing Lengths (Longer, Shorter, Same)

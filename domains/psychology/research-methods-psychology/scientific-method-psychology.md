@@ -13,7 +13,7 @@ tags:
 - empiricism
 - foundations
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Scientific Method in Psychology

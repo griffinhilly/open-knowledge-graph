@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: electromagnetic-spectrum
   type: soft
+- id: sample-preparation
+  type: soft
 builds-toward:
 - inductively-coupled-plasma
 tags:
@@ -23,9 +25,8 @@ tags:
 - atomic emission
 - metals analysis
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Atomic Absorption and Emission Spectroscopy
 
 ## Core Idea

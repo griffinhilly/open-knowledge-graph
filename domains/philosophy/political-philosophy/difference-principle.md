@@ -17,7 +17,7 @@ tags:
 - maximin
 - worst-off
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Difference Principle

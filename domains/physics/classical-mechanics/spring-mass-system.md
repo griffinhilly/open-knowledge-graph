@@ -8,15 +8,16 @@ prerequisites:
   type: hard
 - id: potential-energy
   type: hard
+- id: conservation-of-energy
+  type: soft
 tags:
 - spring
 - oscillation
 - Hooke-law
 - SHM
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Spring-Mass Oscillator
 
 ## Core Idea

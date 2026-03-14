@@ -18,7 +18,7 @@ tags:
 - free variables
 - reduced row echelon
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Row Echelon Form and Reduced Row Echelon Form

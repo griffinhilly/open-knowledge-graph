@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: nervous-system-overview
   type: soft
+- id: cerebral-cortex-organization
+  type: soft
 builds-toward:
 - visual-processing-pathway
 - auditory-processing-pathway
@@ -23,9 +25,8 @@ tags:
 - primary-cortex
 - sensation
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Sensory Pathways Overview
 
 ## Core Idea

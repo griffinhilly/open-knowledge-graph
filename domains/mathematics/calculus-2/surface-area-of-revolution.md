@@ -9,7 +9,7 @@ prerequisites:
 builds-toward: []
 tags: [integration, applications, surface-area, revolution]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Surface Area of Revolution

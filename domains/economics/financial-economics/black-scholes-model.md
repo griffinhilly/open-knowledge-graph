@@ -21,7 +21,7 @@ tags:
 - greeks
 - derivatives
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Black-Scholes Options Pricing Model

@@ -16,7 +16,7 @@ tags:
 - social learning
 - violence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Theories of Aggression

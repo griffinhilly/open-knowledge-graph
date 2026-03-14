@@ -17,7 +17,7 @@ tags:
 - spices
 - flavor-balance
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Seasoning and Flavor Basics

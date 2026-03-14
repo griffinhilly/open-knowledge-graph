@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: bernoullis-equation
   type: soft
+- id: navier-stokes-equations
+  type: soft
 builds-toward:
 - drag-and-lift-aerodynamics
 tags:
@@ -21,9 +23,8 @@ tags:
 - velocity potential
 - superposition
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Potential Flow Theory
 
 ## Core Idea

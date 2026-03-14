@@ -6,6 +6,8 @@ course: kindergarten
 prerequisites:
 - id: recognizing-2d-shapes
   type: soft
+- id: describing-2d-shapes
+  type: soft
 builds-toward:
 - simple-repeating-patterns
 tags:
@@ -14,9 +16,8 @@ tags:
 - attributes
 - logic
 stage: pre-formal
-status: draft
+status: validated
 ---
-
 # Sorting and Classifying by Attributes
 
 ## Core Idea

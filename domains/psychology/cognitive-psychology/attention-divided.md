@@ -14,7 +14,7 @@ tags:
 - dual-task
 - capacity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Divided Attention and Dual-Task Performance

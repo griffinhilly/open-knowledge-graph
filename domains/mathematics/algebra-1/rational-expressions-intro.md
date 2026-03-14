@@ -4,19 +4,23 @@ title: Introduction to Rational Expressions
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: factoring-completely
-    type: hard
-  - id: simplifying-fractions
-    type: hard
+- id: factoring-completely
+  type: hard
+- id: multiplying-fractions
+  type: hard
+- id: negative-exponents
+  type: soft
 builds-toward:
-  - rational-equations
-  - asymptotes
-  - algebra-2-rational-functions
-tags: [rational-expressions, fractions, simplifying, domain]
+- solving-rational-equations
+- rational-functions-and-asymptotes
+tags:
+- rational-expressions
+- fractions
+- simplifying
+- domain
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Introduction to Rational Expressions
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: binary-arithmetic
   type: hard
+- id: twos-complement
+  type: soft
 builds-toward:
 - arithmetic-logic-unit
 tags:
@@ -16,9 +18,8 @@ tags:
 - ripple-carry
 - combinational-circuits
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Adder Circuits: Half Adder, Full Adder, and Carry-Ripple
 
 ## Core Idea

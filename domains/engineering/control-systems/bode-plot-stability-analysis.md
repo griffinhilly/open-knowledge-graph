@@ -23,7 +23,7 @@ tags:
 - open-loop
 - frequency-domain
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Bode Plot Stability Analysis

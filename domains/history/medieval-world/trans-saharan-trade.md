@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: ancient-mediterranean-trade
   type: soft
+- id: islamic-caliphates
+  type: soft
 builds-toward:
 - medieval-mali-empire
 - great-zimbabwe
@@ -21,9 +23,8 @@ tags:
 - camel
 - sahara
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Trans-Saharan Trade Networks
 
 ## Core Idea

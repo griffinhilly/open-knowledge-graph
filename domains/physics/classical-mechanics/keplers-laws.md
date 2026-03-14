@@ -16,7 +16,7 @@ tags:
 - elliptical-orbit
 - orbital-period
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Kepler's Laws of Planetary Motion

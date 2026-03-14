@@ -15,7 +15,7 @@ tags:
 - ode
 - commentary
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Greek Chorus

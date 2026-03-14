@@ -4,18 +4,23 @@ title: Classifying 2D Shapes
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: classifying-angles
-    type: soft
-  - id: parallel-and-perpendicular-lines
-    type: soft
+- id: classifying-angles
+  type: soft
+- id: parallel-and-perpendicular-lines
+  type: soft
+- id: line-symmetry
+  type: soft
 builds-toward:
-  - classifying-triangles
-  - classifying-quadrilaterals
-tags: [geometry, shapes, classification, properties]
+- classifying-triangles
+- classifying-quadrilaterals
+tags:
+- geometry
+- shapes
+- classification
+- properties
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Classifying 2D Shapes
 
 ## Core Idea

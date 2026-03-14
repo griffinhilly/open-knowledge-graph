@@ -21,7 +21,7 @@ tags:
 - content
 - representation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Intentionality and Mental Content

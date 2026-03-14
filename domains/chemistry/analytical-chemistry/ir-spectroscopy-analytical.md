@@ -17,7 +17,7 @@ tags:
 - fingerprint region
 - ATR
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Infrared Spectroscopy for Qualitative Analysis

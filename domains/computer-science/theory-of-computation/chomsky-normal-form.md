@@ -17,7 +17,7 @@ tags:
 - CFG
 - CYK
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Chomsky Normal Form (CNF)

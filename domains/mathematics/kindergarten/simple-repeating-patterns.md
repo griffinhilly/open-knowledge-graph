@@ -11,7 +11,7 @@ tags:
 - algebra-readiness
 - sequences
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Simple Repeating Patterns (AB, ABC)

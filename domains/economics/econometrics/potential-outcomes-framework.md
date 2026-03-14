@@ -22,7 +22,7 @@ tags:
 - ATT
 - counterfactual
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Potential Outcomes and the Rubin Causal Model

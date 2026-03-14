@@ -25,7 +25,7 @@ tags:
 - fusion
 - radiometric-dating
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nuclear Chemistry

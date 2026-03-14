@@ -19,7 +19,7 @@ tags:
 - saddle-points
 - local-extrema
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Critical Points of Multivariable Functions

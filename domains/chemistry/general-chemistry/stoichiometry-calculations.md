@@ -19,7 +19,7 @@ tags:
 - theoretical-yield
 - excess-reagent
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stoichiometric Calculations

@@ -18,7 +18,7 @@ tags:
 - trophic efficiency
 - pelagic ecosystem
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Marine Food Webs and Trophic Structure

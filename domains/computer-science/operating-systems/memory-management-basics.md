@@ -19,7 +19,7 @@ tags:
 - MMU
 - relocation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Memory Management Fundamentals

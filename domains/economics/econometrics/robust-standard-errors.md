@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hypothesis-testing-regression
   type: hard
+- id: multicollinearity
+  type: soft
 builds-toward:
 - panel-data-basics
 tags:
@@ -16,9 +18,8 @@ tags:
 - clustered-errors
 - inference
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Robust Standard Errors
 
 ## Core Idea

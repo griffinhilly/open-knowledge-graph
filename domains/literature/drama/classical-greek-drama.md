@@ -18,7 +18,7 @@ tags:
 - Euripides
 - Aristophanes
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Classical Greek Drama

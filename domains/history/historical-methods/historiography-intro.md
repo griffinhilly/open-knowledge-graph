@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: bias-and-perspective
   type: soft
+- id: historical-argument-structure
+  type: soft
+- id: periodization
+  type: soft
 builds-toward:
 - schools-of-historical-interpretation
 - positionality-in-history
@@ -16,9 +20,8 @@ tags:
 - scholarship
 - interpretation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Introduction to Historiography
 
 ## Core Idea

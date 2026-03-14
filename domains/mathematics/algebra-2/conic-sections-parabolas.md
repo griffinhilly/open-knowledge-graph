@@ -1,21 +1,26 @@
 ---
 id: conic-sections-parabolas
-title: "Conic Sections: Parabolas"
+title: 'Conic Sections: Parabolas'
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: graphing-quadratic-functions
-    type: hard
-  - id: solving-quadratic-equations-completing-the-square
-    type: hard
+- id: graphing-quadratic-functions
+  type: hard
+- id: solving-quadratic-equations-completing-the-square
+  type: hard
+- id: coordinate-geometry-proofs
+  type: soft
 builds-toward:
-  - conic-sections-ellipses
-  - precalculus-conics
-tags: [conics, parabolas, focus, directrix]
+- conic-sections-ellipses
+- conic-sections-overview
+tags:
+- conics
+- parabolas
+- focus
+- directrix
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Conic Sections: Parabolas
 
 ## Core Idea

@@ -20,7 +20,7 @@ tags:
 - free-response
 - variation-of-parameters
 stage: advanced
-status: draft
+status: validated
 ---
 
 # State Transition Matrix

@@ -19,7 +19,7 @@ tags:
 - freezing
 - solid-liquid-gas
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phase Transitions

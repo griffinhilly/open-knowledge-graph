@@ -25,7 +25,7 @@ tags:
 - chromophore
 - quantitative analysis
 stage: advanced
-status: draft
+status: validated
 ---
 
 # UV–Vis Spectrophotometry

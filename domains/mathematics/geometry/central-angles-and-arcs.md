@@ -14,7 +14,7 @@ builds-toward:
   - sector-area
 tags: [circles, central-angles, arcs, arc-measure]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Central Angles and Arcs

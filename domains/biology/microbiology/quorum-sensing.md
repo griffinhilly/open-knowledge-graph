@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 builds-toward:
 - biofilm-formation
-- microbial-pathogenesis
+- host-pathogen-interactions
 tags:
 - quorum sensing
 - autoinducer
@@ -21,9 +21,8 @@ tags:
 - density-dependent
 - bioluminescence
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Quorum Sensing
 
 ## Core Idea

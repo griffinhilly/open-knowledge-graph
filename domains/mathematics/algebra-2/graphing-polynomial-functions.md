@@ -8,14 +8,14 @@ prerequisites:
     type: hard
   - id: polynomial-functions-degree-and-leading-coefficient
     type: hard
-  - id: solving-quadratic-equations-by-factoring
+  - id: solving-quadratics-by-factoring
     type: hard
 builds-toward:
   - polynomial-long-division
   - fundamental-theorem-of-algebra
 tags: [polynomials, graphing, zeros, multiplicity, turning-points]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Graphing Polynomial Functions

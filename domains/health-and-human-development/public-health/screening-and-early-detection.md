@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: disease-frequency-measures
   type: hard
+- id: health-promotion-models
+  type: soft
+- id: public-health-ethics
+  type: soft
 builds-toward:
 - health-policy-and-advocacy
 tags:
@@ -19,9 +23,8 @@ tags:
 - predictive-value
 - lead-time-bias
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Screening Programs and Diagnostic Test Performance
 
 ## Core Idea

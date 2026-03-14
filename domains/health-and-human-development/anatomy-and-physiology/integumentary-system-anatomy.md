@@ -17,7 +17,7 @@ tags:
 - melanocytes
 - thermoregulation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Integumentary System: Skin Structure and Functions

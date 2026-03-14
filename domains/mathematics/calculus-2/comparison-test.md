@@ -4,17 +4,25 @@ title: Comparison Test
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: geometric-series
-    type: hard
-  - id: p-series
-    type: hard
+- id: geometric-series
+  type: hard
+- id: p-series
+  type: hard
+- id: divergence-test
+  type: soft
+- id: improper-integrals-divergence
+  type: soft
+- id: integral-test
+  type: soft
 builds-toward:
-  - limit-comparison-test
-tags: [series, convergence-tests, comparison]
+- limit-comparison-test
+tags:
+- series
+- convergence-tests
+- comparison
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Comparison Test
 
 ## Core Idea

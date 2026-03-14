@@ -17,7 +17,7 @@ tags:
 - AT
 - properties of transpose
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Matrix Transpose and Its Properties

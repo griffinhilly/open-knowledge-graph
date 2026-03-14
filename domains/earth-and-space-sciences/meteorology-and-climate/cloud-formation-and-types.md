@@ -24,7 +24,7 @@ tags:
 - cumulonimbus
 - lifting-mechanisms
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cloud Formation and Classification

@@ -11,7 +11,7 @@ prerequisites:
 builds-toward: []
 tags: [expressions, algebra-readiness, grouping, parentheses]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Evaluating Expressions with Grouping Symbols

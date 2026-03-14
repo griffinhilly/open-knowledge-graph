@@ -23,7 +23,7 @@ tags:
 - Green Revolution
 - food systems
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Agricultural Geography and Land Use Models

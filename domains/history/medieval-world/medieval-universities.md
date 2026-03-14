@@ -18,7 +18,7 @@ tags:
 - theology
 - aristotle
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Rise of Medieval Universities

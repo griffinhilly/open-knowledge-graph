@@ -21,7 +21,7 @@ tags:
 - assembly
 - citizenship
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Athenian Democracy: Origins and Limits

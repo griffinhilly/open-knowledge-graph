@@ -16,7 +16,7 @@ tags:
 - questioning
 - elenchus
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Socratic Method

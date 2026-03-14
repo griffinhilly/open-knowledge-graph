@@ -11,7 +11,7 @@ builds-toward:
   - fundamental-theorem-of-algebra
 tags: [polynomials, factor-theorem, zeros, roots]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Factor Theorem

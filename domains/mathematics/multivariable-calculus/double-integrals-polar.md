@@ -18,7 +18,7 @@ tags:
 - area-element
 - change-of-variables
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Double Integrals in Polar Coordinates

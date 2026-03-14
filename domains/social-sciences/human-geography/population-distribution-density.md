@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: histograms-and-frequency-distributions
   type: soft
+- id: geographic-information-systems-intro
+  type: soft
 builds-toward:
 - demographic-transition-model
 - migration-theory-push-pull
@@ -24,9 +26,8 @@ tags:
 - ecumene
 - carrying capacity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Population Distribution and Density
 
 ## Core Idea

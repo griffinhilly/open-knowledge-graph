@@ -20,7 +20,7 @@ tags:
 - tonal function
 - scale degrees
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Movable-Do Solfège

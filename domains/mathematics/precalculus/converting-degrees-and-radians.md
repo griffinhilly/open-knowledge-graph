@@ -11,7 +11,7 @@ builds-toward:
   - graphing-sine-and-cosine
 tags: [trigonometry, radians, degrees, conversion]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Converting Between Degrees and Radians

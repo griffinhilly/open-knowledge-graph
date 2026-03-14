@@ -15,8 +15,7 @@ prerequisites:
 - id: exponential-growth-and-decay
   type: hard
 builds-toward:
-- stratigraphy
-- fossils-and-paleontology
+  - fossils-and-paleontology
 tags:
 - radiometric-dating
 - radiocarbon
@@ -25,9 +24,8 @@ tags:
 - geochronology
 - half-life
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Radiometric Dating
 
 ## Core Idea

@@ -18,7 +18,7 @@ tags:
 - patterns
 - place-value
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Skip Counting by 100s

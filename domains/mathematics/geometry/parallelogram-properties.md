@@ -4,21 +4,26 @@ title: Parallelogram Properties
 domain: mathematics
 course: geometry
 prerequisites:
-  - id: parallel-lines-and-transversals
-    type: hard
-  - id: triangle-congruence-sas
-    type: hard
-  - id: alternate-interior-angles
-    type: hard
+- id: parallel-lines-and-transversals
+  type: hard
+- id: triangle-congruence-sas
+  type: hard
+- id: alternate-interior-angles
+  type: hard
+- id: cpctc
+  type: soft
 builds-toward:
-  - rectangle-properties
-  - rhombus-properties
-  - coordinate-geometry-proofs
-tags: [quadrilaterals, parallelograms, properties, proof]
+- rectangle-properties
+- rhombus-properties
+- coordinate-geometry-proofs
+tags:
+- quadrilaterals
+- parallelograms
+- properties
+- proof
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Parallelogram Properties
 
 ## Core Idea

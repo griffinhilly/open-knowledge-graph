@@ -8,15 +8,22 @@ prerequisites:
   type: soft
 - id: historiography-intro
   type: hard
+- id: cultural-history-approach
+  type: soft
+- id: oral-history-methods
+  type: soft
+- id: positionality-in-history
+  type: soft
+- id: visual-history-methods
+  type: soft
 tags:
 - public-history
 - memory
 - museums
 - communication
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Public History and Audience
 
 ## Core Idea

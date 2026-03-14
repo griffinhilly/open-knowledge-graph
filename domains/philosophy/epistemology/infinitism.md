@@ -14,7 +14,7 @@ tags:
 - regress
 - non-terminating-justification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Infinitism About Justification

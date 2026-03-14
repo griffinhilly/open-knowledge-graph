@@ -22,7 +22,7 @@ tags:
 - forbidden
 - allowed
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Quantum Mechanical Selection Rules

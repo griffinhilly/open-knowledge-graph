@@ -14,7 +14,7 @@ builds-toward:
   - solving-multi-step-equations
 tags: [commutative, associative, identity, properties, algebra]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Properties of Operations

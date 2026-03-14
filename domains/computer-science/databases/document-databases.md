@@ -17,7 +17,7 @@ tags:
 - embedded documents
 - denormalization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Document Databases

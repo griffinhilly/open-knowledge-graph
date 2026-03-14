@@ -21,7 +21,7 @@ tags:
 - compounding
 - finance-foundations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Time Value of Money

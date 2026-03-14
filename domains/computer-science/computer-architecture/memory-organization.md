@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: hexadecimal-number-system
   type: soft
+- id: assembly-language-basics
+  type: soft
+- id: encoder-decoder-circuits
+  type: soft
 builds-toward:
 - memory-hierarchy-overview
 - cache-memory-design
@@ -19,9 +23,8 @@ tags:
 - address-space
 - endianness
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Memory Organization and Addressing
 
 ## Core Idea

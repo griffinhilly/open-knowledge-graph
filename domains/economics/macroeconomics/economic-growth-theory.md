@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: exponential-growth-and-decay
   type: soft
+- id: derivative-as-slope-of-tangent
+  type: soft
+- id: real-vs-nominal-gdp
+  type: soft
 tags:
 - Solow-model
 - capital-accumulation
@@ -19,9 +23,8 @@ tags:
 - TFP
 - convergence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Economic Growth and the Solow Model
 
 ## Core Idea

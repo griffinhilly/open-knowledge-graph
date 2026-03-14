@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: rank-and-nullity-theorem
   type: soft
+- id: state-transition-matrix
+  type: soft
 builds-toward:
 - state-feedback-pole-placement
 - luenberger-observer
@@ -24,9 +26,8 @@ tags:
 - PBH-test
 - structural-properties
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Controllability and Observability
 
 ## Core Idea

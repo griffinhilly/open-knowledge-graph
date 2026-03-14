@@ -27,7 +27,7 @@ tags:
 - fluency
 - times-tables
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multiplication Facts Within 100

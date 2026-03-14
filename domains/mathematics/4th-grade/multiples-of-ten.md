@@ -11,7 +11,7 @@ builds-toward:
   - estimation-strategies
 tags: [arithmetic, multiplication, place-value, patterns]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multiplying by Multiples of Ten

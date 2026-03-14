@@ -21,7 +21,7 @@ tags:
 - D-value
 - endospore resistance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sterilization and Disinfection

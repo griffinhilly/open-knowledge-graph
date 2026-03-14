@@ -17,7 +17,7 @@ tags:
 - resolution
 - tendency tones
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Scale Degree Tendencies and Tonal Gravity

@@ -13,7 +13,7 @@ builds-toward:
   - volumes-by-washer-method
 tags: [integration, applications, area]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Area Between Curves

@@ -15,7 +15,7 @@ tags:
 - harmony
 - bass clef
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Bass Line Dictation

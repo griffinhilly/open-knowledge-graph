@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nature-nurture-debate
   type: soft
+- id: prenatal-development
+  type: soft
 builds-toward:
 - attachment-styles
 - parenting-styles-and-outcomes
@@ -18,9 +20,8 @@ tags:
 - goodness of fit
 - Thomas Chess
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Temperament and Early Personality
 
 ## Core Idea

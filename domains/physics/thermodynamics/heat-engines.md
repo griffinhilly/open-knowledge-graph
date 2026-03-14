@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: thermodynamic-processes
   type: hard
+- id: isobaric-and-isochoric-processes
+  type: soft
 builds-toward:
 - thermal-efficiency
 - refrigerators-and-heat-pumps
@@ -20,9 +22,8 @@ tags:
 - hot-reservoir
 - cold-reservoir
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Heat Engines
 
 ## Core Idea

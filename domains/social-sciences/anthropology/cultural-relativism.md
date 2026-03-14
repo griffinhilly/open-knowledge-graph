@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ethnocentrism
   type: hard
+- id: ethnography-methods
+  type: soft
 builds-toward:
 - cross-cultural-comparison
 - medical-anthropology
@@ -18,9 +20,8 @@ tags:
 - Boas
 - judgment
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Cultural Relativism
 
 ## Core Idea

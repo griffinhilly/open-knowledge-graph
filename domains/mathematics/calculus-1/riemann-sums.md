@@ -4,17 +4,20 @@ title: Riemann Sums
 domain: mathematics
 course: calculus-1
 prerequisites:
-  - id: sequences-and-series-review
-    type: soft
-  - id: basic-integration-rules
-    type: soft
+- id: sequences-and-series-review
+  type: soft
+- id: basic-integration-rules
+  type: soft
 builds-toward:
-  - definite-integral-definition
-tags: [integration, Riemann-sums, area, approximation]
+- definite-integral-definition
+tags:
+- integration
+- Riemann-sums
+- area
+- approximation
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Riemann Sums
 
 ## Core Idea

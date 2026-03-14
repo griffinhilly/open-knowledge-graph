@@ -18,6 +18,12 @@ prerequisites:
   type: soft
 - id: measures-of-spread
   type: soft
+- id: agricultural-geography
+  type: soft
+- id: industrial-location-theory
+  type: soft
+- id: migration-theory-push-pull
+  type: soft
 builds-toward:
 - colonialism-geographic-legacy
 - resource-geography
@@ -30,9 +36,8 @@ tags:
 - modernization
 - Global South
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Development Geography and Global Inequality
 
 ## Core Idea

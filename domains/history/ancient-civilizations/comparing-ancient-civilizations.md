@@ -20,6 +20,28 @@ prerequisites:
   type: soft
 - id: counterfactual-reasoning
   type: soft
+- id: ancient-chinese-dynasties
+  type: soft
+- id: ancient-mediterranean-trade
+  type: soft
+- id: ancient-social-stratification
+  type: soft
+- id: ancient-urbanization
+  type: soft
+- id: bronze-age-collapse
+  type: soft
+- id: egyptian-religion-and-afterlife
+  type: soft
+- id: fall-of-western-rome
+  type: soft
+- id: greek-philosophy-origins
+  type: soft
+- id: hydraulic-civilization-theory
+  type: soft
+- id: origins-of-world-religions
+  type: soft
+- id: silk-road-trade-network
+  type: soft
 tags:
 - comparative-history
 - civilizations
@@ -27,9 +49,8 @@ tags:
 - synthesis
 - patterns
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Comparative Analysis of Ancient Civilizations
 
 ## Core Idea

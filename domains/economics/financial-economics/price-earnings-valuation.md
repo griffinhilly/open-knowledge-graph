@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: profit-maximization-microeconomics
   type: soft
+- id: dividend-discount-model
+  type: soft
 builds-toward:
 - efficient-market-hypothesis
 - market-anomalies-and-puzzles
@@ -18,9 +20,8 @@ tags:
 - equity
 - comparable-companies
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Price-to-Earnings Ratio and Relative Valuation
 
 ## Core Idea

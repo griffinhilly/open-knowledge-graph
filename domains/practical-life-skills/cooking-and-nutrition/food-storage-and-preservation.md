@@ -17,7 +17,7 @@ tags:
 - expiration
 - waste-reduction
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Food Storage and Preservation

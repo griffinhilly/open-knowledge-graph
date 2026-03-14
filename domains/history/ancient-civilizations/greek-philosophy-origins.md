@@ -20,7 +20,7 @@ tags:
 - ethics
 - metaphysics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Greek Philosophy: From Cosmos to Ethics

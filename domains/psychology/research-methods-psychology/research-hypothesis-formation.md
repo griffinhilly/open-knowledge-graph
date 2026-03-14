@@ -16,7 +16,7 @@ tags:
 - null-hypothesis
 - prediction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Forming Testable Hypotheses

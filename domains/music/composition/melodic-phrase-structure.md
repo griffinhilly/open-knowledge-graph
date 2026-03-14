@@ -21,7 +21,7 @@ tags:
 - form
 - antecedent-consequent
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Melodic Phrase Structure

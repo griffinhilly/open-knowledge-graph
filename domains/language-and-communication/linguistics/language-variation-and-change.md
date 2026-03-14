@@ -19,7 +19,7 @@ tags:
 - change in progress
 - apparent time
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Language Variation and Change

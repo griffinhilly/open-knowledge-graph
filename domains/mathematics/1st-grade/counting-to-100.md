@@ -22,7 +22,7 @@ tags:
 - number-sense
 - hundred-chart
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Counting to 100

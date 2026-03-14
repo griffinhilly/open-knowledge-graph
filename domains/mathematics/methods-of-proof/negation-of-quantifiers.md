@@ -18,7 +18,7 @@ tags:
 - De-Morgans-laws
 - counterexample
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Negation of Quantified Statements

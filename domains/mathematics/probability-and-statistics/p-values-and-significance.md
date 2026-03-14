@@ -19,7 +19,7 @@ tags:
 - reject-null
 - statistical-significance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # P-Values and Statistical Significance

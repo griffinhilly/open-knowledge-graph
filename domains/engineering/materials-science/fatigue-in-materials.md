@@ -15,7 +15,7 @@ tags:
 - crack-growth
 - cyclic-loading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fatigue: Cyclic Loading and Failure

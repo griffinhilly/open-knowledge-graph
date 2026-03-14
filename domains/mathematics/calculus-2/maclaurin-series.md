@@ -10,7 +10,7 @@ builds-toward:
   - taylor-series-common-functions
 tags: [series, Maclaurin, Taylor, special-case]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Maclaurin Series

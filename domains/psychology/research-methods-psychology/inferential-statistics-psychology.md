@@ -18,6 +18,14 @@ prerequisites:
   type: soft
 - id: confidence-intervals-means
   type: soft
+- id: correlational-research-design
+  type: soft
+- id: measurement-scales-psychology
+  type: soft
+- id: random-assignment
+  type: soft
+- id: validity-in-measurement
+  type: soft
 builds-toward:
 - effect-size-and-power
 - replication-and-open-science
@@ -28,9 +36,8 @@ tags:
 - significance
 - p-value
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Inferential Statistics in Psychology
 
 ## Core Idea

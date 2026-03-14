@@ -18,7 +18,7 @@ tags:
 - chemical signaling
 - slow regulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Endocrine System Overview

@@ -15,7 +15,7 @@ tags:
 - polling
 - IO
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Interrupts and Direct Memory Access (DMA)

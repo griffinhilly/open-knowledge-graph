@@ -22,7 +22,7 @@ tags:
 - plate divergence
 - oceanic crust
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Seafloor Spreading and Mid-Ocean Ridges

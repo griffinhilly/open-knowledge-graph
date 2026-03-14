@@ -17,7 +17,7 @@ tags:
 - subsets
 - uncountability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Axiom of Power Set

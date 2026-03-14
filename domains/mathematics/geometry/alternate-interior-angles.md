@@ -13,7 +13,7 @@ builds-toward:
   - parallelogram-properties
 tags: [parallel-lines, alternate-interior-angles, congruence]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Alternate Interior Angles

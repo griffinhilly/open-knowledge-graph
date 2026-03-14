@@ -4,18 +4,21 @@ title: Stem-and-Leaf Plots
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: mean-median-mode-with-data-sets
-    type: soft
-  - id: decimal-place-value
-    type: hard
+- id: mean-median-mode-with-data-sets
+  type: soft
+- id: decimal-place-value
+  type: hard
 builds-toward:
-  - box-and-whisker-plots
-  - histograms
-tags: [statistics, data-display, stem-and-leaf, visualization]
+- box-and-whisker-plots
+- histograms-and-frequency-distributions
+tags:
+- statistics
+- data-display
+- stem-and-leaf
+- visualization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Stem-and-Leaf Plots
 
 ## Core Idea

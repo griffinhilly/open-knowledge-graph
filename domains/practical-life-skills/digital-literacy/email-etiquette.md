@@ -12,7 +12,7 @@ tags:
 - communication
 - workplace
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Email Etiquette

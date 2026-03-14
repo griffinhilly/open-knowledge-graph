@@ -18,7 +18,7 @@ tags:
 - ventilation
 - surfactant
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Respiratory System Overview

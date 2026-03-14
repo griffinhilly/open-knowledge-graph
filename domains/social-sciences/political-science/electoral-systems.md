@@ -24,7 +24,7 @@ tags:
 - FPTP
 - electoral design
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Electoral Systems

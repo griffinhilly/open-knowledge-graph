@@ -18,7 +18,7 @@ tags:
 - anion
 - crystal-lattice
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ionic Bonding

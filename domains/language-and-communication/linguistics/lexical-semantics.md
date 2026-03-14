@@ -17,7 +17,7 @@ tags:
 - prototype
 - semantic relations
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Lexical Semantics

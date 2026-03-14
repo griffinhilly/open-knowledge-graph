@@ -13,7 +13,7 @@ builds-toward:
   - solving-quadratics-by-factoring
 tags: [factoring, difference-of-squares, special-products, polynomials]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Factoring Difference of Squares

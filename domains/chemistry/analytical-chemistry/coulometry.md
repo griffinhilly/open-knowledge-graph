@@ -19,7 +19,7 @@ tags:
 - coulometric titration
 - electrogravimetry
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Coulometry and Electrogravimetry

@@ -12,7 +12,7 @@ builds-toward:
   - trigonometric-integrals
 tags: [integration, techniques, by-parts]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Integration by Parts

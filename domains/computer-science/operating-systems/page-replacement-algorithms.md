@@ -18,7 +18,7 @@ tags:
 - clock-algorithm
 - Belady-anomaly
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Page Replacement Algorithms

@@ -23,7 +23,7 @@ tags:
 - assumptions
 - unbiasedness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Classical OLS Assumptions (Gauss-Markov)

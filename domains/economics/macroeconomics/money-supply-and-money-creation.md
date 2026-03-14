@@ -17,7 +17,7 @@ tags:
 - required-reserves
 - banking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Money Supply and the Money Multiplier

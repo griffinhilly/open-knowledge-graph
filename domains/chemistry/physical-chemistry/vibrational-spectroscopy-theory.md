@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: electromagnetic-spectrum
   type: soft
+- id: born-oppenheimer-approximation
+  type: soft
+- id: rotational-spectroscopy
+  type: soft
 builds-toward:
 - raman-spectroscopy-theory
 - vibrational-modes-and-symmetry
@@ -27,9 +31,8 @@ tags:
 - overtones
 - combination-bands
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Vibrational Spectroscopy: Theory and Normal Modes
 
 ## Core Idea

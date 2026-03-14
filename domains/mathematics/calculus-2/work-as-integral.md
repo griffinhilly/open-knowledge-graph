@@ -4,16 +4,23 @@ title: Work as an Integral
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: fundamental-theorem-of-calculus-part-2
-    type: hard
-  - id: u-substitution
-    type: soft
+- id: fundamental-theorem-of-calculus-part-2
+  type: hard
+- id: u-substitution
+  type: soft
+- id: optimization-problems
+  type: soft
+- id: dot-product
+  type: soft
 builds-toward: []
-tags: [integration, applications, physics, work]
+tags:
+- integration
+- applications
+- physics
+- work
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Work as an Integral
 
 ## Core Idea

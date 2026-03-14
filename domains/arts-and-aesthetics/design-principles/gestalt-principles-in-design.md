@@ -22,7 +22,7 @@ tags:
 - closure
 - figure-ground
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Gestalt Principles in Design

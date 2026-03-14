@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: operators-and-expressions
   type: soft
+- id: basic-input-output
+  type: soft
+- id: type-conversion
+  type: soft
 builds-toward:
 - list-operations
 - file-io-basics
@@ -18,9 +22,8 @@ tags:
 - methods
 - formatting
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # String Operations and Methods
 
 ## Core Idea

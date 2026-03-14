@@ -18,7 +18,7 @@ tags:
 - leptin
 - weight regulation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Energy Balance, Body Composition, and Weight Regulation

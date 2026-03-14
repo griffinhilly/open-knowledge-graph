@@ -4,19 +4,23 @@ title: Decimal Place Value
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: intro-to-decimals
-    type: hard
-  - id: place-value-whole-numbers
-    type: hard
+- id: intro-to-decimals
+  type: hard
+- id: place-value-whole-numbers
+  type: hard
+- id: relating-fractions-and-decimals
+  type: soft
 builds-toward:
-  - reading-writing-decimals
-  - comparing-decimals
-  - rounding-decimals
-tags: [decimals, place-value, number-sense]
+- reading-writing-decimals
+- comparing-decimals
+- rounding-decimals
+tags:
+- decimals
+- place-value
+- number-sense
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Decimal Place Value
 
 ## Core Idea

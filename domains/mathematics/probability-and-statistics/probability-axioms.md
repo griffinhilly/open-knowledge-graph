@@ -19,7 +19,7 @@ tags:
 - kolmogorov
 - set-theory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Probability Axioms and Sample Spaces

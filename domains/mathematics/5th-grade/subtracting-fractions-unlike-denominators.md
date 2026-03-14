@@ -12,7 +12,7 @@ builds-toward:
   - mixed-number-arithmetic
 tags: [fractions, subtraction, common-denominators]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Subtracting Fractions with Unlike Denominators

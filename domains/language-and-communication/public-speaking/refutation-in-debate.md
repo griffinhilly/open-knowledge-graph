@@ -19,7 +19,7 @@ tags:
 - debate
 - logic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Refutation and Rebuttal in Debate

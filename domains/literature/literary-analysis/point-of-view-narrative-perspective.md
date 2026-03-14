@@ -20,7 +20,7 @@ tags:
 - omniscience
 - focalization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Point of View and Narrative Perspective

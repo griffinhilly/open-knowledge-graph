@@ -16,7 +16,7 @@ tags:
 - vertices
 - spatial-reasoning
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Attributes of 3D Shapes

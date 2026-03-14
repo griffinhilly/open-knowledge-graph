@@ -19,7 +19,7 @@ tags:
 - canonical
 - relief
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ancient Egyptian Art and Visual Convention

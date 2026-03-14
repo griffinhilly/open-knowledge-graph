@@ -15,7 +15,7 @@ tags:
 - trace metals
 - multielement
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Inductively Coupled Plasma Spectrometry (ICP-OES and ICP-MS)

@@ -13,7 +13,7 @@ prerequisites:
 builds-toward: []
 tags: [geometry, quadrilaterals, classification, properties]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Classifying Quadrilaterals

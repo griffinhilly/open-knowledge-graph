@@ -15,7 +15,7 @@ tags:
 - judgment
 - Sumner
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ethnocentrism

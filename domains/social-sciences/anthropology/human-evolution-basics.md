@@ -20,7 +20,7 @@ tags:
 - paleoanthropology
 - Homo sapiens
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Human Evolution: Biological Anthropology Basics

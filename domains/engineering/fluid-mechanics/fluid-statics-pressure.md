@@ -18,7 +18,7 @@ tags:
 - Pascal's law
 - pressure variation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fluid Statics and Hydrostatic Pressure

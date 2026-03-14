@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: evidence-in-speeches
   type: soft
+- id: nonverbal-communication-in-speaking
+  type: soft
+- id: verbal-transitions-in-speaking
+  type: soft
 builds-toward:
 - visual-aids-in-presentations
 - extemporaneous-speaking
@@ -25,9 +29,8 @@ tags:
 - demonstration
 - clarity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Informative Speaking
 
 ## Core Idea

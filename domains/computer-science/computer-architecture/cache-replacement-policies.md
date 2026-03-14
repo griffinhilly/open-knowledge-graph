@@ -14,7 +14,7 @@ tags:
 - replacement-policy
 - cache-eviction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cache Replacement Policies

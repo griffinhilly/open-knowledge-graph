@@ -15,7 +15,7 @@ builds-toward:
   - trapezoid-properties
 tags: [triangles, midsegment, parallel, proportionality]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Midsegment Theorem

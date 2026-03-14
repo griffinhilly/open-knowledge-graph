@@ -19,7 +19,7 @@ tags:
 - architecture
 - drawing
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # One-Point Perspective

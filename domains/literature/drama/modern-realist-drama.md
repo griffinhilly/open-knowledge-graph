@@ -10,6 +10,16 @@ prerequisites:
   type: hard
 - id: literary-realism
   type: soft
+- id: catharsis-in-drama
+  type: soft
+- id: dramatic-conflict
+  type: soft
+- id: dramatic-subtext
+  type: soft
+- id: tragic-hero-and-hamartia
+  type: soft
+- id: tragicomedy
+  type: soft
 builds-toward:
 - epic-theatre-and-brecht
 - absurdist-theatre
@@ -21,9 +31,8 @@ tags:
 - Miller
 - social-drama
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Modern Realist Drama
 
 ## Core Idea

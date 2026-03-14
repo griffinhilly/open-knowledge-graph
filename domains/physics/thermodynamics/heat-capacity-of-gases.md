@@ -20,7 +20,7 @@ tags:
 - diatomic
 - adiabatic-index
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heat Capacities of Gases (Cv and Cp)

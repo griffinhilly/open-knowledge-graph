@@ -16,7 +16,7 @@ tags:
 - fraud
 - social-engineering
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Phishing and Online Scams

@@ -1,20 +1,25 @@
 ---
 id: dilations
-title: "Geometric Transformations: Dilations"
+title: 'Geometric Transformations: Dilations'
 domain: mathematics
 course: geometry
 prerequisites:
-  - id: similar-triangles-aa
-    type: hard
-  - id: coordinate-plane
-    type: hard
+- id: similar-triangles-aa
+  type: hard
+- id: coordinate-plane-intro
+  type: hard
+- id: geometric-transformations-translations
+  type: soft
 builds-toward:
-  - coordinate-geometry-proofs
-tags: [transformations, dilations, similarity, scale-factor]
+- coordinate-geometry-proofs
+tags:
+- transformations
+- dilations
+- similarity
+- scale-factor
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Geometric Transformations: Dilations
 
 ## Core Idea

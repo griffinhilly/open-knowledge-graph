@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: heat-and-internal-energy
   type: soft
+- id: gas-stoichiometry
+  type: soft
 builds-toward:
 - entropy-and-gibbs-free-energy
 - chemical-equilibrium
@@ -26,9 +28,8 @@ tags:
 - exothermic
 - endothermic
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Thermochemistry and Enthalpy
 
 ## Core Idea

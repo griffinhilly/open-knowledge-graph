@@ -22,7 +22,7 @@ tags:
 - diagonal argument
 - uncountability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cantor's Theorem

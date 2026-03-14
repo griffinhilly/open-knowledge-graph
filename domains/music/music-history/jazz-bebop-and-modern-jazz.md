@@ -20,7 +20,7 @@ tags:
 - cool-jazz
 - free-jazz
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Bebop and the Development of Modern Jazz

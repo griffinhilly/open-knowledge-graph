@@ -17,7 +17,7 @@ tags:
 - propositional-knowledge
 - epistemology-intro
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # What Is Knowledge?

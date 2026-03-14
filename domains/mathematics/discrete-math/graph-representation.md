@@ -17,7 +17,7 @@ tags:
 - graph-representation
 - incidence-matrix
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graph Representation: Matrices and Lists

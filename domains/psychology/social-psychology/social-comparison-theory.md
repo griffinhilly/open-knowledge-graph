@@ -17,7 +17,7 @@ tags:
 - self-evaluation
 - upward downward comparison
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Social Comparison Theory

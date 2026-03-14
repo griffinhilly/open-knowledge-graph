@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: primary-sources
   type: hard
+- id: archaeological-evidence
+  type: soft
+- id: visual-history-methods
+  type: soft
 builds-toward:
 - quantitative-history-methods
 tags:
@@ -16,9 +20,8 @@ tags:
 - text-analysis
 - GIS
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Digital Tools in Historical Research
 
 ## Core Idea

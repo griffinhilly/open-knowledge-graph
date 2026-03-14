@@ -19,7 +19,7 @@ tags:
 - discounting
 - cash-flows
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Present Value and Discounting

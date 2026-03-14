@@ -20,7 +20,7 @@ tags:
 - combinatorics
 - iteration
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Nested Loops

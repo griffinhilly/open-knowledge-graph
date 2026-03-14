@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: instruction-set-architecture
   type: hard
+- id: cpu-control-unit
+  type: soft
 builds-toward:
 - pipeline-hazards
 tags:
@@ -17,9 +19,8 @@ tags:
 - RISC
 - stages
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # CPU Pipelining
 
 ## Core Idea

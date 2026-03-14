@@ -4,19 +4,26 @@ title: The Quadratic Formula
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: solving-quadratics-by-factoring
-    type: hard
-  - id: square-roots-intro
-    type: hard
+- id: solving-quadratics-by-factoring
+  type: hard
+- id: square-roots-intro
+  type: hard
+- id: literal-equations
+  type: soft
+- id: radical-expressions-simplifying
+  type: soft
 builds-toward:
-  - discriminant
-  - complex-numbers
-  - completing-the-square
-tags: [quadratic-formula, quadratics, solving, roots]
+- discriminant
+- complex-numbers-intro
+- solving-quadratic-equations-completing-the-square
+tags:
+- quadratic-formula
+- quadratics
+- solving
+- roots
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Quadratic Formula
 
 ## Core Idea

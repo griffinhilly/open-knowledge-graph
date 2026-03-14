@@ -21,7 +21,7 @@ tags:
 - Poland
 - '1939'
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Origins and Outbreak of World War II

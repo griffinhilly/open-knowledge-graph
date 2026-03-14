@@ -23,7 +23,7 @@ tags:
 - covariance-matrix
 - modern-portfolio-theory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Mean-Variance Optimization (Markowitz Framework)

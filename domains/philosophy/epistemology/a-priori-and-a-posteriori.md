@@ -22,7 +22,7 @@ tags:
 - analyticity
 - Kant
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # A Priori and A Posteriori Knowledge

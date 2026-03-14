@@ -19,7 +19,7 @@ tags:
 - slicing
 - searching
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # List Operations and Methods

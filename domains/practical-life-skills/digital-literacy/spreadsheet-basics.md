@@ -21,7 +21,7 @@ tags:
 - formulas
 - data
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Spreadsheet Basics

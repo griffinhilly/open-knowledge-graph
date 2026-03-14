@@ -4,20 +4,24 @@ title: Adding Fractions with Unlike Denominators
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: equivalent-fractions
-    type: hard
-  - id: adding-fractions-like-denominators-5th
-    type: hard
-  - id: factors-and-multiples
-    type: hard
+- id: equivalent-fractions
+  type: hard
+- id: adding-fractions-like-denominators-5th
+  type: hard
+- id: factors-and-multiples
+  type: hard
+- id: comparing-fractions
+  type: soft
 builds-toward:
-  - subtracting-fractions-unlike-denominators
-  - mixed-number-arithmetic
-tags: [fractions, addition, common-denominators]
+- subtracting-fractions-unlike-denominators
+- mixed-number-arithmetic
+tags:
+- fractions
+- addition
+- common-denominators
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Adding Fractions with Unlike Denominators
 
 ## Core Idea

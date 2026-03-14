@@ -18,7 +18,7 @@ tags:
 - Shakespeare
 - monologue
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Soliloquy and Aside

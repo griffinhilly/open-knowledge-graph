@@ -19,7 +19,7 @@ tags:
 - nucleotide excision
 - homologous recombination
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # DNA Repair Mechanisms

@@ -12,7 +12,7 @@ builds-toward:
   - trigonometric-integrals
 tags: [trigonometry, graphing, transformations, sinusoidal]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Amplitude, Period, and Phase Shift

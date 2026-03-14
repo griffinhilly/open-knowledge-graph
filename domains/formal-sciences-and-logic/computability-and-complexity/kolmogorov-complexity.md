@@ -4,7 +4,7 @@ title: Kolmogorov Complexity
 domain: formal-sciences-and-logic
 course: computability-and-complexity
 prerequisites:
-- id: turing-machines
+- id: turing-machines-formal
   type: hard
 - id: re-and-co-re-languages
   type: soft
@@ -19,7 +19,7 @@ tags:
 - randomness
 - descriptional-complexity
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Kolmogorov Complexity

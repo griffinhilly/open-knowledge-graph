@@ -1,21 +1,26 @@
 ---
 id: polynomial-functions-degree-and-leading-coefficient
-title: "Polynomial Functions: Degree and Leading Coefficient"
+title: 'Polynomial Functions: Degree and Leading Coefficient'
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: graphing-quadratic-functions
-    type: hard
-  - id: polynomial-multiplication
-    type: hard
+- id: graphing-quadratic-functions
+  type: hard
+- id: multiplying-polynomials
+  type: hard
+- id: quadratic-inequalities
+  type: soft
 builds-toward:
-  - end-behavior-of-polynomials
-  - graphing-polynomial-functions
-tags: [polynomials, degree, leading-coefficient, classification]
+- end-behavior-of-polynomials
+- graphing-polynomial-functions
+tags:
+- polynomials
+- degree
+- leading-coefficient
+- classification
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Polynomial Functions: Degree and Leading Coefficient
 
 ## Core Idea

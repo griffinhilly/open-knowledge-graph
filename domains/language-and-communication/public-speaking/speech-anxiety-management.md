@@ -13,7 +13,7 @@ tags:
 - preparation
 - delivery
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Managing Speech Anxiety

@@ -19,7 +19,7 @@ tags:
 - processes
 - system
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Rock Cycle

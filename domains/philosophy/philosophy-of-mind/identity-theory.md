@@ -19,7 +19,7 @@ tags:
 - Place
 - Smart
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Identity Theory (Type and Token)

@@ -11,7 +11,7 @@ builds-toward:
   - classifying-quadrilaterals
 tags: [geometry, angles, measurement, tools]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Measuring Angles with a Protractor

@@ -19,7 +19,7 @@ tags:
 - pre-Columbian
 - global art history
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Non-Western Art Traditions: Africa, Asia, and the Americas

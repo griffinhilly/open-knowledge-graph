@@ -17,7 +17,7 @@ tags:
 - imitation
 - vocal
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Call and Response / Echo Singing

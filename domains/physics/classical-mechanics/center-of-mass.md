@@ -19,7 +19,7 @@ tags:
 - mass-distribution
 - reference-point
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Center of Mass

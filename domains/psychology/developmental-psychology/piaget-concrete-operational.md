@@ -17,7 +17,7 @@ tags:
 - seriation
 - reversibility
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Piaget's Concrete Operational Stage

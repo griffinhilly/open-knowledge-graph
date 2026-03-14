@@ -20,7 +20,7 @@ tags:
 - fertile-crescent
 - early-civilization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Origins of Mesopotamian Civilization

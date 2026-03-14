@@ -11,7 +11,7 @@ builds-toward:
   - power-series
 tags: [algebra, binomial, combinatorics]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binomial Theorem

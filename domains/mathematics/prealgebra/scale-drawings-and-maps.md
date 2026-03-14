@@ -4,18 +4,22 @@ title: Scale Drawings and Maps
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: proportions
-    type: hard
-  - id: solving-proportions
-    type: hard
+- id: proportions
+  type: hard
+- id: solving-proportions
+  type: hard
 builds-toward:
-  - similar-figures
-  - geometry-similarity
-tags: [scale, proportions, geometry, measurement, applications]
+- similar-triangles-aa
+- similar-triangles-aa
+tags:
+- scale
+- proportions
+- geometry
+- measurement
+- applications
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Scale Drawings and Maps
 
 ## Core Idea

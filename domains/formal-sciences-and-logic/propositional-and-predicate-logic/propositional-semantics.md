@@ -20,7 +20,7 @@ tags:
 - truth-assignment
 - satisfaction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Propositional Semantics and Valuations

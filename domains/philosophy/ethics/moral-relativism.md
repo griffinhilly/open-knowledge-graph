@@ -15,7 +15,7 @@ tags:
 - cultural-ethics
 - subjectivism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Relativism

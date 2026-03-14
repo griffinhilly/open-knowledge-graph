@@ -18,7 +18,7 @@ tags:
 - calcium
 - cross-bridge cycle
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Skeletal Muscle Contraction

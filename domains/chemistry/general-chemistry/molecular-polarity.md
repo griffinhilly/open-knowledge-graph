@@ -19,7 +19,7 @@ tags:
 - symmetry
 - bond-dipole
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Molecular Polarity and Dipole Moments

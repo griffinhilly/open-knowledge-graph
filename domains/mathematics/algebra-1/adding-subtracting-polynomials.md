@@ -13,7 +13,7 @@ builds-toward:
   - factoring-gcf
 tags: [polynomials, addition, subtraction, like-terms]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Adding and Subtracting Polynomials

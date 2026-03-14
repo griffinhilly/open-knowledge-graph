@@ -22,7 +22,7 @@ tags:
 - acetylcholine
 - neurotransmitters
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Neurotransmitter Systems

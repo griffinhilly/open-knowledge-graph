@@ -4,7 +4,7 @@ title: "Geometric Transformations: Translations"
 domain: mathematics
 course: geometry
 prerequisites:
-  - id: coordinate-plane
+  - id: coordinate-plane-intro
     type: hard
 builds-toward:
   - reflections
@@ -12,7 +12,7 @@ builds-toward:
   - coordinate-geometry-proofs
 tags: [transformations, translations, rigid-motions, vectors]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Geometric Transformations: Translations

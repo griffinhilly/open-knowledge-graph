@@ -18,7 +18,7 @@ tags:
 - foundational
 - political-philosophy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The State of Nature

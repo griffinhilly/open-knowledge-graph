@@ -9,7 +9,6 @@ prerequisites:
 - id: perfect-competition
   type: soft
 builds-toward:
-- perfect-competition
 - monopoly-microeconomics
 tags:
 - shutdown
@@ -18,9 +17,8 @@ tags:
 - short run
 - long run
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Shutdown and Breakeven Decisions
 
 ## Core Idea

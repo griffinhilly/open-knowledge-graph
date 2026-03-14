@@ -18,7 +18,7 @@ tags:
 - turnover-frequency
 - surface-science
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Surface Chemistry and Heterogeneous Catalysis

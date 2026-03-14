@@ -14,7 +14,7 @@ tags:
 - consonants
 - vowels
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Articulatory Phonetics

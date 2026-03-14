@@ -19,7 +19,7 @@ tags:
 - axiom of choice
 - equivalents
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Zorn's Lemma

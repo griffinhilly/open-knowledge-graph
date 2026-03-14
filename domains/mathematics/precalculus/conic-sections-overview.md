@@ -13,7 +13,7 @@ builds-toward:
   - parametric-equations-intro
 tags: [conics, parabola, ellipse, hyperbola, circle]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conic Sections Overview

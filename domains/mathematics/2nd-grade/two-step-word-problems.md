@@ -10,10 +10,13 @@ prerequisites:
   type: hard
 - id: subtraction-within-100
   type: hard
+- id: three-digit-addition
+  type: soft
+- id: three-digit-subtraction
+  type: soft
 builds-toward:
-- money-word-problems
-- multi-digit-addition
-- multi-digit-subtraction
+  - multi-digit-addition
+  - multi-digit-subtraction
 tags:
 - word-problems
 - two-step
@@ -21,9 +24,8 @@ tags:
 - subtraction
 - problem-solving
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Two-Step Word Problems
 
 ## Core Idea

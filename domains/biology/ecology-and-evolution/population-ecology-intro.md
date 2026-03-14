@@ -16,7 +16,7 @@ tags:
 - density
 - distribution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Population Ecology: Abundance, Distribution, and Demography

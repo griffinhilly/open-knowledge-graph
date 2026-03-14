@@ -12,15 +12,16 @@ prerequisites:
   type: hard
 - id: fixed-effects-models
   type: soft
+- id: selection-bias-econometrics
+  type: soft
 tags:
 - DiD
 - difference-in-differences
 - parallel-trends
 - policy-evaluation
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Difference-in-Differences
 
 ## Core Idea

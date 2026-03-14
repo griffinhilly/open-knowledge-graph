@@ -12,7 +12,7 @@ tags:
 - queries
 - information-retrieval
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Effective Web Searching

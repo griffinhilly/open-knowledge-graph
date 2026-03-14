@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: acid-base-chemistry
   type: soft
+- id: e1-elimination
+  type: soft
+- id: sn1-reaction
+  type: soft
+- id: sn2-reaction
+  type: soft
 builds-toward:
 - alcohol-reactions
 - carbonyl-chemistry-intro
@@ -23,9 +29,8 @@ tags:
 - secondary
 - tertiary
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Alcohols and Ethers: Structure, Properties, and Nomenclature
 
 ## Core Idea

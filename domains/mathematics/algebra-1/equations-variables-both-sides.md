@@ -11,7 +11,7 @@ builds-toward:
   - systems-substitution
 tags: [equations, variables-both-sides, solving, algebra]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Equations with Variables on Both Sides

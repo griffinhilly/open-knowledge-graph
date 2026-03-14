@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: functional-harmony
   type: soft
+- id: baroque-counterpoint-and-fugue
+  type: soft
 builds-toward:
 - classical-sonata-form
 - opera-history
@@ -22,9 +24,8 @@ tags:
 - symphony
 - string-quartet
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Classical Period: Clarity, Form, and Balance
 
 ## Core Idea

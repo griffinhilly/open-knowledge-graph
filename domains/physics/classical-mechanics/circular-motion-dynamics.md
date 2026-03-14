@@ -20,7 +20,7 @@ tags:
 - tension
 - normal-force
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Circular Motion: Dynamics and Centripetal Force

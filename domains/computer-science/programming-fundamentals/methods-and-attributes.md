@@ -15,7 +15,7 @@ tags:
 - dot notation
 - encapsulation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Methods and Attributes

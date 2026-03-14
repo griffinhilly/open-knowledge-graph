@@ -20,7 +20,7 @@ tags:
 - case-definition
 - field-epidemiology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Outbreak Investigation

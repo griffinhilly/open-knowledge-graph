@@ -19,7 +19,7 @@ tags:
 - pain
 - phantom-limb
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Pain and Somatosensory Processing

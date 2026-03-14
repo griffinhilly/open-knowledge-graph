@@ -4,14 +4,14 @@ title: Arithmetic Sequences and Series
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: solving-linear-equations
+  - id: equations-variables-both-sides
     type: hard
 builds-toward:
   - geometric-sequences-and-series
   - sigma-notation
 tags: [sequences, series, arithmetic, common-difference]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Arithmetic Sequences and Series

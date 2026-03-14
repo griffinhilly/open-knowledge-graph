@@ -4,18 +4,23 @@ title: P-Series
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: series-definition-and-partial-sums
-    type: hard
-  - id: improper-integrals-convergence
-    type: hard
+- id: series-definition-and-partial-sums
+  type: hard
+- id: improper-integrals-convergence
+  type: hard
+- id: integral-test
+  type: soft
 builds-toward:
-  - comparison-test
-  - limit-comparison-test
-tags: [series, p-series, convergence, benchmark]
+- comparison-test
+- limit-comparison-test
+tags:
+- series
+- p-series
+- convergence
+- benchmark
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # P-Series
 
 ## Core Idea

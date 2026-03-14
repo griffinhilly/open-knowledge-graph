@@ -19,7 +19,7 @@ tags:
 - reduction
 - special-sciences
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multiple Realizability

@@ -6,14 +6,14 @@ course: geometry
 prerequisites:
   - id: angle-basics-and-classification
     type: hard
-  - id: solving-linear-equations
+  - id: equations-variables-both-sides
     type: hard
 builds-toward:
   - parallel-lines-and-transversals
   - triangle-angle-sum
 tags: [angles, complementary, supplementary, vertical-angles]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Angle Pairs: Complementary, Supplementary, and Vertical

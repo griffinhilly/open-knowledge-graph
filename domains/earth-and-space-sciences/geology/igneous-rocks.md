@@ -21,7 +21,7 @@ tags:
 - granite
 - basalt
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Igneous Rocks

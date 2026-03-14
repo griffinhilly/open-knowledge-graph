@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: measures-of-spread
   type: soft
+- id: human-evolution-basics
+  type: soft
 builds-toward:
 - material-culture
 tags:
@@ -21,9 +23,8 @@ tags:
 - dating methods
 - artifact
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Archaeological Methods and Interpretation
 
 ## Core Idea

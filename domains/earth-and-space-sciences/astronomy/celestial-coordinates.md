@@ -15,7 +15,7 @@ tags:
 - altitude-azimuth
 - celestial-sphere
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Celestial Coordinate Systems

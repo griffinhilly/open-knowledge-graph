@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: close-reading-techniques
   type: hard
+- id: enjambment-in-poetry
+  type: soft
+- id: haiku-form
+  type: soft
 builds-toward:
 - poetic-argument-and-structure
 tags:
@@ -19,9 +23,8 @@ tags:
 - implication
 - omission
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Compression and Economy in Poetry
 
 ## Core Idea

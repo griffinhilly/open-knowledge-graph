@@ -18,7 +18,7 @@ tags:
 - rests
 - duration
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Note Durations and Rests

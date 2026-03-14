@@ -13,7 +13,7 @@ builds-toward:
   - solving-quadratics-by-factoring
 tags: [factoring, trinomials, quadratics, polynomials]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Factoring Trinomials

@@ -17,7 +17,7 @@ tags:
 - seasonal
 - preventive
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Seasonal Home Maintenance

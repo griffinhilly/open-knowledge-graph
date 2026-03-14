@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: line-integrals-vector-fields
   type: soft
+- id: magnetic-force-on-current-carrying-conductors
+  type: soft
 builds-toward:
 - amperes-law
 - magnetic-flux-and-induction
@@ -21,9 +23,8 @@ tags:
 - current
 - integration
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Biot-Savart Law
 
 ## Core Idea

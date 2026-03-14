@@ -10,7 +10,7 @@ builds-toward:
   - area-of-regular-polygons
 tags: [polygons, regular-polygons, symmetry, interior-angles]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Regular Polygons

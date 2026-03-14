@@ -18,7 +18,7 @@ tags:
 - ontology
 - predication
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Substance and Property

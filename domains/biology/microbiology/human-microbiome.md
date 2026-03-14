@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: innate-immune-response
   type: soft
+- id: biofilm-formation
+  type: soft
 builds-toward:
 - emerging-infectious-diseases
 tags:
@@ -21,9 +23,8 @@ tags:
 - commensals
 - probiotics
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Human Microbiome
 
 ## Core Idea

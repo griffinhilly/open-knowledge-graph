@@ -18,7 +18,7 @@ tags:
 - discriminant
 - local-extrema
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Second Partials Test

@@ -16,7 +16,7 @@ tags:
 - popular-music
 - British-invasion
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Rock and Roll: Origins and Development

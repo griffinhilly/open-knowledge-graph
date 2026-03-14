@@ -20,7 +20,7 @@ tags:
 - minor 7th
 - harmony
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Seventh Chords

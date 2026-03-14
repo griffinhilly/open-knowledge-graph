@@ -19,7 +19,7 @@ tags:
 - covariance
 - capm
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Beta and Systematic Risk

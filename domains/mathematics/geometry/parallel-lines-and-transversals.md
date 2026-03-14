@@ -14,7 +14,7 @@ builds-toward:
   - triangle-angle-sum
 tags: [parallel-lines, transversals, angle-relationships]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Parallel Lines and Transversals

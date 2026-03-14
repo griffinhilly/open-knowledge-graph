@@ -19,7 +19,7 @@ tags:
 - trap
 - privilege
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # System Calls and User/Kernel Mode

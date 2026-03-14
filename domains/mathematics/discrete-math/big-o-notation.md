@@ -20,7 +20,7 @@ tags:
 - growth-rate
 - complexity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Big-O Notation and Asymptotic Analysis

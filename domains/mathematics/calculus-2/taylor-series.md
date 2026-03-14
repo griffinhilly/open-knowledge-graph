@@ -4,20 +4,24 @@ title: Taylor Series
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: taylor-polynomials
-    type: hard
-  - id: power-series
-    type: hard
-  - id: radius-and-interval-of-convergence
-    type: hard
+- id: taylor-polynomials
+  type: hard
+- id: power-series
+  type: hard
+- id: radius-and-interval-of-convergence
+  type: hard
+- id: lhopitals-rule
+  type: soft
 builds-toward:
-  - maclaurin-series
-  - taylor-series-common-functions
-tags: [series, Taylor, representation]
+- maclaurin-series
+- taylor-series-common-functions
+tags:
+- series
+- Taylor
+- representation
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Taylor Series
 
 ## Core Idea

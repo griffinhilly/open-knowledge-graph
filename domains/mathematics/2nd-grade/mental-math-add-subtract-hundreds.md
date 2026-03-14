@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: place-value-hundreds
   type: hard
+- id: skip-counting-by-100s
+  type: soft
+- id: rounding-to-nearest-hundred
+  type: soft
 builds-toward:
 - three-digit-addition
 - three-digit-subtraction
@@ -17,9 +21,8 @@ tags:
 - strategies
 - place-value
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Mental Math: Adding and Subtracting Hundreds
 
 ## Core Idea

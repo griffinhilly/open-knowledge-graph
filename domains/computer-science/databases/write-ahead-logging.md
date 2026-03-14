@@ -19,7 +19,7 @@ tags:
 - UNDO
 - checkpointing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Write-Ahead Logging and Database Recovery

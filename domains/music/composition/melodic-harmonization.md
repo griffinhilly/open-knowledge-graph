@@ -23,7 +23,7 @@ tags:
 - non-chord-tones
 - voice-leading
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Melodic Harmonization

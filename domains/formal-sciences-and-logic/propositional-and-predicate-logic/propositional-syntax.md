@@ -18,7 +18,7 @@ tags:
 - connectives
 - formal-language
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Propositional Logic Syntax

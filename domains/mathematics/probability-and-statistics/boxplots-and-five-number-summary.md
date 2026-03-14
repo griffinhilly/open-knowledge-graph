@@ -17,7 +17,7 @@ tags:
 - quartiles
 - outliers
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Boxplots and the Five-Number Summary

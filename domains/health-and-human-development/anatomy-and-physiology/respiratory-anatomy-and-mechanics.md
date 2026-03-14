@@ -20,7 +20,7 @@ tags:
 - tidal-volume
 - spirometry
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Respiratory System Anatomy and Ventilation Mechanics

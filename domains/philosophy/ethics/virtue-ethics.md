@@ -18,7 +18,7 @@ tags:
 - eudaimonia
 - character
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Virtue Ethics

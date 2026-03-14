@@ -16,7 +16,7 @@ tags:
 - cliometrics
 - methodology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Quantitative Methods in History

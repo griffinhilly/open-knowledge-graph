@@ -17,7 +17,7 @@ tags:
 - parliament
 - barons
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Magna Carta and Constitutional Limits on Power

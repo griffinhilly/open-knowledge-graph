@@ -11,7 +11,7 @@ builds-toward:
   - adding-subtracting-decimals
 tags: [decimals, notation, number-sense]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Reading and Writing Decimals

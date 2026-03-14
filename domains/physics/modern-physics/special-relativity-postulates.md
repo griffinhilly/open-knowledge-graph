@@ -18,7 +18,7 @@ tags:
 - inertial-frames
 - speed-of-light
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Postulates of Special Relativity

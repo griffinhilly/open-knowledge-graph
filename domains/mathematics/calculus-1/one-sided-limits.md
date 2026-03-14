@@ -4,18 +4,22 @@ title: One-Sided Limits
 domain: mathematics
 course: calculus-1
 prerequisites:
-  - id: limit-definition-intuitive
-    type: hard
-  - id: piecewise-functions
-    type: soft
+- id: limit-definition-intuitive
+  type: hard
+- id: piecewise-functions
+  type: soft
+- id: piecewise-functions-graphing
+  type: soft
 builds-toward:
-  - continuity-definition
-  - infinite-limits
-tags: [limits, one-sided, left-right]
+- continuity-definition
+- infinite-limits
+tags:
+- limits
+- one-sided
+- left-right
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # One-Sided Limits
 
 ## Core Idea

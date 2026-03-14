@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: ancient-social-stratification
   type: soft
-builds-toward:
-- trans-saharan-trade
+builds-toward: []
 tags:
 - mali
 - mansa-musa
@@ -20,9 +19,8 @@ tags:
 - islam
 - timbuktu
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Mali Empire and West African Statecraft
 
 ## Core Idea

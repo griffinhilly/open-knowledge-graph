@@ -22,7 +22,7 @@ tags:
 - symmetry
 - magnetostatics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ampère's Law

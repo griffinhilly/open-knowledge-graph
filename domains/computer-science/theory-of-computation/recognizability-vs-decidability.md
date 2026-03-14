@@ -15,7 +15,7 @@ tags:
 - decidable
 - complement
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Recognizability vs. Decidability

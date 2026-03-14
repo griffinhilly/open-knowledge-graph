@@ -14,7 +14,7 @@ tags:
 - systems of equations
 - explicit formula
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cramer's Rule

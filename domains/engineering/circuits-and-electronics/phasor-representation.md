@@ -24,7 +24,7 @@ tags:
 - frequency-domain
 - Euler-formula
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phasors and Sinusoidal Steady-State Analysis

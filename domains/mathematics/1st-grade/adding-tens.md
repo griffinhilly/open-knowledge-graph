@@ -19,7 +19,7 @@ tags:
 - mental-math
 - two-digit
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Adding Tens to a Two-Digit Number

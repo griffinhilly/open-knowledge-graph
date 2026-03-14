@@ -23,7 +23,7 @@ tags:
 - seasonal
 - shopping-list
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Grocery Shopping and Budgeting

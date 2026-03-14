@@ -18,7 +18,7 @@ tags:
 - autonomy
 - duty
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Kantian Deontology

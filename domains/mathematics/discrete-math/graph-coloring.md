@@ -18,7 +18,7 @@ tags:
 - four-color-theorem
 - brooks-theorem
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Graph Coloring and the Chromatic Number

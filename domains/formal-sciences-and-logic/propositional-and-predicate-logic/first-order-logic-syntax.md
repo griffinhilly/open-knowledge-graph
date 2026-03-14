@@ -22,7 +22,7 @@ tags:
 - formulas
 - FOL
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First-Order Logic Syntax

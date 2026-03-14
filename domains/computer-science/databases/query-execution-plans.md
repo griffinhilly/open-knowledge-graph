@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: indexing-concepts
   type: soft
+- id: sql-aggregation
+  type: soft
+- id: sql-joins
+  type: soft
+- id: sql-subqueries
+  type: soft
 builds-toward:
 - query-optimization
 tags:
@@ -20,9 +26,8 @@ tags:
 - join algorithms
 - seq scan
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Query Execution Plans
 
 ## Core Idea

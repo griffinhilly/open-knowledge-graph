@@ -16,7 +16,7 @@ tags:
 - unit-vector
 - rate-of-change
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Directional Derivatives

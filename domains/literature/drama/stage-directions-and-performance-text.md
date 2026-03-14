@@ -15,7 +15,7 @@ tags:
 - script
 - dramaturgy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Stage Directions and Performance Text

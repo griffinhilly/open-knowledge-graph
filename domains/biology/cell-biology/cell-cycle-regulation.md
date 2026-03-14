@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: enzyme-kinetics
   type: soft
+- id: cell-signaling-intro
+  type: soft
 builds-toward:
 - mitosis
 tags:
@@ -17,9 +19,8 @@ tags:
 - tumor-suppressor
 - cancer
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Cell Cycle Regulation and Checkpoints
 
 ## Core Idea

@@ -22,7 +22,7 @@ tags:
 - hyperbole
 - figurative language
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Figurative Language

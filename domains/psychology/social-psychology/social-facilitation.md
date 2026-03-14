@@ -14,7 +14,7 @@ tags:
 - audience effects
 - Zajonc
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Social Facilitation and Inhibition

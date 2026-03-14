@@ -17,7 +17,7 @@ tags:
 - antecedents
 - grammar-rules
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Pronoun-Antecedent Agreement

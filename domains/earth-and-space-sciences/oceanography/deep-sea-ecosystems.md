@@ -17,7 +17,7 @@ tags:
 - benthic zone
 - bioluminescence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Deep-Sea Ecosystems: Benthic and Hydrothermal

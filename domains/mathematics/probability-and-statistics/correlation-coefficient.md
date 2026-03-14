@@ -16,7 +16,7 @@ tags:
 - linear-association
 - covariance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Pearson Correlation Coefficient

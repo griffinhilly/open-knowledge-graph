@@ -10,7 +10,7 @@ builds-toward:
   - coordinate-geometry-proofs
 tags: [quadrilaterals, rectangles, properties, diagonals]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Rectangle Properties

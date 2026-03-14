@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: active-transport
   type: soft
+- id: endoplasmic-reticulum-and-golgi
+  type: soft
 builds-toward:
 - cell-cycle-regulation
 tags:
@@ -19,9 +21,8 @@ tags:
 - second-messenger
 - kinase
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Cell Signaling and Signal Transduction
 
 ## Core Idea

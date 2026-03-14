@@ -11,8 +11,8 @@ prerequisites:
 builds-toward:
 - temperament-and-individual-differences
 - toddler-social-emotional-development
-- parenting-styles-and-outcomes
-- erikson-psychosocial-stages
+- parenting-styles-and-outcomes-child-dev
+- erikson-psychosocial-stages-child-dev
 tags:
 - attachment
 - Bowlby
@@ -20,7 +20,7 @@ tags:
 - secure-base
 - bonding
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Attachment Theory and Early Bonding

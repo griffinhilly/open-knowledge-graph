@@ -15,7 +15,7 @@ tags:
 - placebo
 - baseline
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Control and Experimental Groups

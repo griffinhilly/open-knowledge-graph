@@ -19,7 +19,7 @@ tags:
 - indexicality
 - deixis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Linguistic Pragmatics

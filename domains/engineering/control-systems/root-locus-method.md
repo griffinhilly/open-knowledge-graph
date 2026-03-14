@@ -20,7 +20,7 @@ tags:
 - breakaway-points
 - angle-condition
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Root Locus Method

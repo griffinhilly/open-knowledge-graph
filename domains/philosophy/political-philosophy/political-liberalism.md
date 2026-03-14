@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: communitarianism
   type: soft
+- id: liberty-negative-and-positive
+  type: soft
 tags:
 - political-liberalism
 - Rawls
@@ -17,9 +19,8 @@ tags:
 - pluralism
 - public-reason
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Political Liberalism and Public Reason
 
 ## Core Idea

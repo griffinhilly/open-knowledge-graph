@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: diffraction-gratings
   type: soft
+- id: celestial-coordinates
+  type: soft
 builds-toward:
 - stellar-spectral-classification
 - stellar-properties-luminosity-temperature
@@ -28,9 +30,8 @@ tags:
 - aperture
 - interferometry
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Telescopes and Observing Methods
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: acid-properties
   type: soft
+- id: key-value-stores
+  type: soft
 tags:
 - CAP theorem
 - consistency
@@ -17,9 +19,8 @@ tags:
 - CP
 - AP
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # CAP Theorem
 
 ## Core Idea

@@ -16,7 +16,7 @@ tags:
 - closed pipe
 - overtones
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Resonance in Strings and Pipes

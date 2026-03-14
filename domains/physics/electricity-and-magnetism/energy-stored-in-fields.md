@@ -17,7 +17,7 @@ tags:
 - capacitor
 - inductor
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Energy Stored in Electric and Magnetic Fields

@@ -13,7 +13,7 @@ builds-toward:
   - differential-equations-intro-separable
 tags: [derivatives, exponential]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Derivatives of Exponential Functions

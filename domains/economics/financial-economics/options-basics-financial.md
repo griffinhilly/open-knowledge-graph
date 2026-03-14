@@ -19,7 +19,7 @@ tags:
 - strike-price
 - hedging
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Options: Calls, Puts, and Basic Payoffs

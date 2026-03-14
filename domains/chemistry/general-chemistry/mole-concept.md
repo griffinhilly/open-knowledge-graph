@@ -17,7 +17,7 @@ tags:
 - conversion
 - dimensional-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Mole and Molar Mass

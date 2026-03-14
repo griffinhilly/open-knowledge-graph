@@ -4,19 +4,27 @@ title: Solving Trigonometric Equations
 domain: mathematics
 course: precalculus
 prerequisites:
-  - id: inverse-trigonometric-functions
-    type: hard
-  - id: trigonometric-identities-pythagorean
-    type: hard
-  - id: unit-circle
-    type: hard
+- id: inverse-trigonometric-functions
+  type: hard
+- id: trigonometric-identities-pythagorean
+  type: hard
+- id: unit-circle
+  type: hard
+- id: double-angle-identities
+  type: soft
+- id: half-angle-identities
+  type: soft
+- id: sum-and-difference-identities
+  type: soft
 builds-toward:
-  - differential-equations-intro-separable
-tags: [trigonometry, equations, solving]
+- differential-equations-intro-separable
+tags:
+- trigonometry
+- equations
+- solving
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Solving Trigonometric Equations
 
 ## Core Idea

@@ -10,15 +10,16 @@ prerequisites:
   type: hard
 - id: genre-fiction-overview
   type: soft
+- id: literary-realism
+  type: soft
 tags:
 - historical-fiction
 - verisimilitude
 - anachronism
 - past-setting
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Historical Fiction: Fact, Imagination, and the Past
 
 ## Core Idea

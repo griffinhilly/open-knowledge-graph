@@ -4,19 +4,22 @@ title: Geometric Sequences and Series
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: arithmetic-sequences-and-series
-    type: soft
-  - id: exponential-functions-and-graphs
-    type: hard
+- id: arithmetic-sequences-and-series
+  type: soft
+- id: exponential-functions-and-graphs
+  type: hard
 builds-toward:
-  - sigma-notation
-  - binomial-theorem
-  - infinite-series
-tags: [sequences, series, geometric, common-ratio]
+- sigma-notation
+- binomial-theorem
+- series-definition-and-partial-sums
+tags:
+- sequences
+- series
+- geometric
+- common-ratio
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Geometric Sequences and Series
 
 ## Core Idea

@@ -4,18 +4,23 @@ title: Literal Equations
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: solving-multi-step-equations
-    type: hard
-  - id: equations-variables-both-sides
-    type: soft
+- id: solving-multi-step-equations
+  type: hard
+- id: equations-variables-both-sides
+  type: soft
+- id: variables-and-expressions-review
+  type: soft
 builds-toward:
-  - slope-intercept-form
-  - quadratic-formula
-tags: [literal-equations, formulas, rearranging, solving]
+- slope-intercept-form
+- quadratic-formula
+tags:
+- literal-equations
+- formulas
+- rearranging
+- solving
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Literal Equations
 
 ## Core Idea

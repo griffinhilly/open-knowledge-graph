@@ -17,7 +17,7 @@ tags:
 - steady-state
 - dislocation-climb
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Creep: Time-Dependent Deformation

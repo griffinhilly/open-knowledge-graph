@@ -12,7 +12,7 @@ builds-toward:
   - one-step-equations
 tags: [opposites, additive-inverse, integers, number-line]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Opposites and Additive Inverses

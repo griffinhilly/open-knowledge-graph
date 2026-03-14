@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: marine-heat-content-and-thermal-inertia
   type: soft
+- id: ocean-gyres-and-boundary-currents
+  type: soft
+- id: ocean-upwelling
+  type: soft
 builds-toward:
 - ocean-circulation-and-climate
 tags:
@@ -19,9 +23,8 @@ tags:
 - Walker circulation
 - teleconnections
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # El Niño–Southern Oscillation (ENSO)
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: slope-concept
   type: soft
+- id: writing-linear-equations
+  type: soft
 builds-toward:
 - residuals-and-goodness-of-fit
 tags:
@@ -17,9 +19,8 @@ tags:
 - intercept
 - prediction
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Simple Linear Regression
 
 ## Core Idea

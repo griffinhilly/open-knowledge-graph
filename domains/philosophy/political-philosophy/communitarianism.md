@@ -18,7 +18,7 @@ tags:
 - community
 - liberalism-critique
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Communitarianism

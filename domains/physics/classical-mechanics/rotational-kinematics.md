@@ -18,7 +18,7 @@ tags:
 - angular-acceleration
 - rotation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rotational Kinematics

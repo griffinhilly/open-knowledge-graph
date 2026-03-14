@@ -6,6 +6,8 @@ course: home-maintenance
 prerequisites:
 - id: basic-hand-tools
   type: hard
+- id: power-tool-safety
+  type: soft
 builds-toward:
 - interior-painting
 tags:
@@ -13,9 +15,8 @@ tags:
 - repair
 - patching
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Wall Patching and Drywall Repair
 
 ## Core Idea

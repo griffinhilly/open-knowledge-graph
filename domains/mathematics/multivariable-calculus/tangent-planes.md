@@ -18,7 +18,7 @@ tags:
 - differentiability
 - approximation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tangent Planes and Linear Approximation

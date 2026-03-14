@@ -16,7 +16,7 @@ tags:
 - numerals
 - quantities
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Matching Numerals to Quantities

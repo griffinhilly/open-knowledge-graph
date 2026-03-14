@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: homeostasis-and-feedback
   type: soft
+- id: synaptic-transmission
+  type: soft
 builds-toward:
 - central-vs-peripheral-nervous-system
 - gut-motility-and-secretion
@@ -18,9 +20,8 @@ tags:
 - autonomic
 - somatic
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Nervous System Overview
 
 ## Core Idea

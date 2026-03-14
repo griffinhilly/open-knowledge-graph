@@ -26,7 +26,7 @@ tags:
 - choropleth
 - spatial analysis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Geographic Information Systems and Spatial Analysis

@@ -4,16 +4,16 @@ title: Systems of Three Variables
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: systems-of-linear-equations
+  - id: systems-elimination
     type: hard
-  - id: solving-linear-equations
+  - id: equations-variables-both-sides
     type: hard
 builds-toward:
   - matrices-intro
   - matrix-operations
 tags: [systems, three-variables, elimination, substitution]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Systems of Three Variables

@@ -17,7 +17,7 @@ tags:
 - graph-theory
 - cayley
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Trees and Spanning Trees

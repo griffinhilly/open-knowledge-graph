@@ -12,8 +12,9 @@ prerequisites:
   type: soft
 - id: figure-drawing-fundamentals
   type: soft
-builds-toward:
-- chiaroscuro
+- id: compositional-sketching
+  type: soft
+builds-toward: []
 tags:
 - portraiture
 - face
@@ -21,9 +22,8 @@ tags:
 - proportion
 - likeness
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Portraiture Fundamentals
 
 ## Core Idea

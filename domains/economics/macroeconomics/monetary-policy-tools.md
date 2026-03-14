@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: as-ad-model
   type: soft
+- id: business-cycles
+  type: soft
+- id: inflation-and-price-level
+  type: soft
+- id: quantity-theory-of-money
+  type: soft
 builds-toward:
 - is-lm-model
 - phillips-curve
@@ -18,9 +24,8 @@ tags:
 - reserve-requirements
 - discount-rate
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Monetary Policy Tools
 
 ## Core Idea

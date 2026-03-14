@@ -13,7 +13,7 @@ builds-toward:
   - infinite-limits
 tags: [rational-functions, asymptotes, graphing]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rational Functions and Asymptotes Review

@@ -14,7 +14,7 @@ tags:
 - calories
 - nutrients
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Basic Nutrition Fundamentals

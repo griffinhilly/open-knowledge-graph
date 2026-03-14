@@ -23,7 +23,7 @@ tags:
 - oxygen
 - inner-membrane
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Electron Transport Chain

@@ -17,7 +17,7 @@ tags:
 - hydraulic jump
 - critical flow
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Open Channel Flow

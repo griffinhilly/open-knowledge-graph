@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: simple-probability
   type: soft
+- id: sex-linked-inheritance
+  type: soft
 builds-toward:
 - genomics-overview
 tags:
@@ -23,9 +25,8 @@ tags:
 - centimorgans
 - crossing over
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Genetic Mapping and Linkage
 
 ## Core Idea

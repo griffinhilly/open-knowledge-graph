@@ -14,7 +14,7 @@ builds-toward:
   - converting-metric-units
 tags: [measurement, conversion, problem-solving]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Measurement Conversions (Multi-Step)

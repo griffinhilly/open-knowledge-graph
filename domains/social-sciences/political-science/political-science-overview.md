@@ -17,7 +17,7 @@ tags:
 - discipline overview
 - politics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Introduction to Political Science

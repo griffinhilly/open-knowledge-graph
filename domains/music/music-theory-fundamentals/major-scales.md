@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: number-patterns-and-relationships
   type: soft
+- id: interval-quality
+  type: soft
 builds-toward:
 - minor-scales
 - key-signatures
@@ -22,9 +24,8 @@ tags:
 - half step
 - W-W-H-W-W-W-H
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Major Scales
 
 ## Core Idea

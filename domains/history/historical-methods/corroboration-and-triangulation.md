@@ -14,7 +14,7 @@ tags:
 - evidence
 - verification
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Corroboration and Triangulation

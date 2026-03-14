@@ -20,7 +20,7 @@ tags:
 - fat
 - energy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Macronutrients: Carbohydrates, Proteins, and Fats

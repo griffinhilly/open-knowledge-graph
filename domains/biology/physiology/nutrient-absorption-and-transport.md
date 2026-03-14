@@ -21,7 +21,7 @@ tags:
 - chylomicrons
 - portal circulation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nutrient Absorption and Transport

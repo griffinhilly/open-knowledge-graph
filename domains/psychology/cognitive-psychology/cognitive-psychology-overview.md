@@ -21,7 +21,7 @@ tags:
 - overview
 - information-processing
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Cognitive Psychology: An Overview

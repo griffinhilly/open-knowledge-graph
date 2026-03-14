@@ -18,7 +18,7 @@ tags:
 - long-run equilibrium
 - zero profit
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Perfect Competition

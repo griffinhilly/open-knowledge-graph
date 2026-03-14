@@ -12,7 +12,7 @@ builds-toward:
   - regular-polygons
 tags: [polygons, angle-sum, interior-angles, exterior-angles]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Polygon Angle Sums

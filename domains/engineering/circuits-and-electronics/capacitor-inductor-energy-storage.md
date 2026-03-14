@@ -25,7 +25,7 @@ tags:
 - initial-conditions
 - continuity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Capacitors and Inductors as Energy Storage Elements

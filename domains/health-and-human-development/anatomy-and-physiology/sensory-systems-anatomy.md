@@ -20,7 +20,7 @@ tags:
 - transduction
 - somatosensory
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Sensory Systems: Receptors, Pathways, and Special Senses

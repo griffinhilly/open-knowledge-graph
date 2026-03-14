@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: rms-speed-and-kinetic-energy
   type: soft
+- id: intermolecular-potential-models
+  type: soft
 builds-toward:
 - diffusion-and-ficks-laws
 tags:
@@ -19,9 +21,8 @@ tags:
 - mean-free-path
 - collision-diameter
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Transport Properties of Gases
 
 ## Core Idea

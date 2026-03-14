@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: coherentism
   type: soft
+- id: infinitism
+  type: soft
 builds-toward:
 - epistemic-virtues
 - epistemology-of-disagreement
@@ -21,9 +23,8 @@ tags:
 - BonJour
 - Goldman
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Internalism and Externalism About Justification
 
 ## Core Idea

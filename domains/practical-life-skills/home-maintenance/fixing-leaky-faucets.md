@@ -15,7 +15,7 @@ tags:
 - faucets
 - repair
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Fixing Leaky Faucets

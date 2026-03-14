@@ -22,7 +22,7 @@ tags:
 - fermentation
 - short-chain fatty acids
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Dietary Fiber, Prebiotics, and Gut Microbiome Health

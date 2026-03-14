@@ -18,7 +18,7 @@ tags:
 - multiple-sources
 - dependent-sources
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Superposition Theorem

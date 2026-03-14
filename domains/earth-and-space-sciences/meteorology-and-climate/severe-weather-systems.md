@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: coriolis-effect
   type: hard
+- id: air-masses-and-fronts
+  type: soft
+- id: precipitation-types-and-processes
+  type: soft
+- id: weather-map-analysis
+  type: soft
 tags:
 - tornado
 - hurricane
@@ -18,9 +24,8 @@ tags:
 - supercell
 - wind-shear
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Severe Weather Systems
 
 ## Core Idea

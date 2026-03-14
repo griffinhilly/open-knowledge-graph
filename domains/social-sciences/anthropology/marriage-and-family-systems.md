@@ -18,7 +18,7 @@ tags:
 - polygamy
 - bridewealth
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Marriage and Family Across Cultures

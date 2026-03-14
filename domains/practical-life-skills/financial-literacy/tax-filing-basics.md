@@ -19,7 +19,7 @@ tags:
 - W-2
 - '1040'
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Tax Filing Basics

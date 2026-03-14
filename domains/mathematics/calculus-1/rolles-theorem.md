@@ -12,7 +12,7 @@ builds-toward:
   - mean-value-theorem
 tags: [theorems, Rolle, existence-theorems]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rolle's Theorem

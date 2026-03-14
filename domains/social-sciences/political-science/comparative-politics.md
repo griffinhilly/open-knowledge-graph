@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: scatterplots-and-correlation
   type: soft
+- id: federalism-and-decentralization
+  type: soft
 builds-toward:
 - regime-change-and-democratization
 tags:
@@ -27,9 +29,8 @@ tags:
 - MSSD
 - MDSD
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Comparative Politics: Method and Approach
 
 ## Core Idea

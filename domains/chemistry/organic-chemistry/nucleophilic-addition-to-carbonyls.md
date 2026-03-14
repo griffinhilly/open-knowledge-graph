@@ -21,7 +21,7 @@ tags:
 - Grignard
 - reversibility
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nucleophilic Addition to Aldehydes and Ketones

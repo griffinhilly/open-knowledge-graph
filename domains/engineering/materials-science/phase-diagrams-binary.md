@@ -22,7 +22,7 @@ tags:
 - solidus
 - eutectic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Binary Phase Diagrams

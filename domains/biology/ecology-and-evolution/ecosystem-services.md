@@ -20,7 +20,7 @@ tags:
 - supporting
 - natural-capital
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ecosystem Services

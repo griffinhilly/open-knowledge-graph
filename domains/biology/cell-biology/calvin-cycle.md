@@ -19,7 +19,7 @@ tags:
 - G3P
 - glucose
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Calvin Cycle (Light-Independent Reactions)

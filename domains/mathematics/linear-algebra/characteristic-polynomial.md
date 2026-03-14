@@ -18,7 +18,7 @@ tags:
 - geometric multiplicity
 - trace
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Characteristic Polynomial

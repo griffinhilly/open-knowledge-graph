@@ -25,7 +25,7 @@ tags:
 - mobility
 - life-chances
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Social Stratification

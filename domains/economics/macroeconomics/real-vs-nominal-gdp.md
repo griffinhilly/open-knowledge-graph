@@ -19,7 +19,7 @@ tags:
 - deflator
 - inflation-adjustment
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Real vs. Nominal GDP and the GDP Deflator

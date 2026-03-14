@@ -19,7 +19,7 @@ tags:
 - focal point
 - principal axis
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thin Lenses: Converging and Diverging

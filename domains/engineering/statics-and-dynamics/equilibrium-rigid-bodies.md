@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: torque
   type: soft
+- id: equilibrium-particles-3d
+  type: soft
 builds-toward:
 - truss-method-of-joints
 - frames-machines-analysis
@@ -22,9 +24,8 @@ tags:
 - rigid body
 - moment equilibrium
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Equilibrium of Rigid Bodies
 
 ## Core Idea

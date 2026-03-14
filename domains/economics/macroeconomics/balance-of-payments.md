@@ -19,7 +19,7 @@ tags:
 - trade-deficit
 - reserve
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Balance of Payments

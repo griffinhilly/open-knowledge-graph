@@ -19,7 +19,7 @@ tags:
 - pancreas
 - liver
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Digestive System Overview

@@ -4,17 +4,21 @@ title: Sine, Cosine, and Tangent Ratios
 domain: mathematics
 course: geometry
 prerequisites:
-  - id: right-triangle-trigonometry-intro
-    type: hard
+- id: right-triangle-trigonometry-intro
+  type: hard
 builds-toward:
-  - special-right-triangles-30-60-90
-  - special-right-triangles-45-45-90
-  - trigonometric-functions
-tags: [trigonometry, sine, cosine, tangent, SOHCAHTOA]
+- special-right-triangles-30-60-90
+- special-right-triangles-45-45-90
+- trigonometric-ratios-review
+tags:
+- trigonometry
+- sine
+- cosine
+- tangent
+- SOHCAHTOA
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Sine, Cosine, and Tangent Ratios
 
 ## Core Idea

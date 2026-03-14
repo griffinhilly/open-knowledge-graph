@@ -15,7 +15,7 @@ tags:
 - Amdahls-law
 - benchmarking
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # CPU Performance Metrics and Amdahl's Law

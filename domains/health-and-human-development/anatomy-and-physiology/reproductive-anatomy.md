@@ -20,7 +20,7 @@ tags:
 - gonadal-hormones
 - HPG-axis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Reproductive System Anatomy and the Hormonal Cycle

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: roman-empire-rise
   type: soft
+- id: ancient-chinese-dynasties
+  type: soft
+- id: ancient-mediterranean-trade
+  type: soft
 builds-toward:
 - comparing-ancient-civilizations
 - origins-of-world-religions
@@ -22,9 +26,8 @@ tags:
 - cultural-exchange
 - globalization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Silk Road and Ancient Trade Networks
 
 ## Core Idea

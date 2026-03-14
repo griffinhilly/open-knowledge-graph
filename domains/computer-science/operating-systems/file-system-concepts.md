@@ -18,7 +18,7 @@ tags:
 - file-operations
 - file-types
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # File System Concepts

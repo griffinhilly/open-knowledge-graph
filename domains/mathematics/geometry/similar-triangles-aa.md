@@ -1,22 +1,27 @@
 ---
 id: similar-triangles-aa
-title: "Similar Triangles: AA Similarity"
+title: 'Similar Triangles: AA Similarity'
 domain: mathematics
 course: geometry
 prerequisites:
-  - id: triangle-angle-sum
-    type: hard
-  - id: ratios-and-proportions
-    type: hard
+- id: triangle-angle-sum
+  type: hard
+- id: proportions
+  type: hard
+- id: triangle-inequality
+  type: soft
 builds-toward:
-  - similar-triangles-sss-sas
-  - proportions-in-similar-triangles
-  - right-triangle-trigonometry-intro
-tags: [similarity, triangles, AA, proportionality]
+- similar-triangles-sss-sas
+- proportions-in-similar-triangles
+- right-triangle-trigonometry-intro
+tags:
+- similarity
+- triangles
+- AA
+- proportionality
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Similar Triangles: AA Similarity
 
 ## Core Idea

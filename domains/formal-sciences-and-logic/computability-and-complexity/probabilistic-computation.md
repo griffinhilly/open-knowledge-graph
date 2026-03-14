@@ -6,7 +6,7 @@ course: computability-and-complexity
 prerequisites:
 - id: np-and-polynomial-time
   type: hard
-- id: time-complexity-classes
+- id: time-complexity-classes-formal
   type: hard
 - id: probability-axioms
   type: hard
@@ -20,7 +20,7 @@ tags:
 - BPP
 - probabilistic-algorithms
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Probabilistic Computation and BPP

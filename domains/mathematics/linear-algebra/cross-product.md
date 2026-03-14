@@ -17,7 +17,7 @@ tags:
 - right-hand rule
 - area
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Cross Product

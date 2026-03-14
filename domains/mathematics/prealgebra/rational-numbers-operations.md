@@ -17,7 +17,7 @@ builds-toward:
   - solving-multi-step-equations
 tags: [rational-numbers, fractions, decimals, operations]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Operations with Rational Numbers

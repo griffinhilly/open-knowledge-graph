@@ -23,7 +23,7 @@ tags:
 - Van Gogh
 - optical-color
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Impressionism and Post-Impressionism

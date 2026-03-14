@@ -23,7 +23,7 @@ tags:
 - polyrhythm
 - non-Western
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # World Music Traditions and Non-Western Musical Cultures

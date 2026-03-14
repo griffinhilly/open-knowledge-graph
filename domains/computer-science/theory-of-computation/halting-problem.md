@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: cardinality-and-countability
   type: soft
+- id: church-turing-thesis
+  type: soft
 builds-toward:
 - undecidability-reductions
 - rice-theorem
@@ -20,9 +22,8 @@ tags:
 - diagonalization
 - HALT_TM
 stage: advanced
-status: draft
+status: validated
 ---
-
 # The Halting Problem
 
 ## Core Idea

@@ -12,10 +12,19 @@ prerequisites:
   type: soft
 - id: representable-functors
   type: soft
+- id: comma-categories
+  type: soft
+- id: initial-and-terminal-objects
+  type: soft
+- id: products-and-coproducts
+  type: soft
+- id: pullbacks-and-pushouts
+  type: soft
+- id: yoneda-lemma
+  type: soft
 builds-toward:
-- adjunction-unit-and-counit
-- monads-in-category-theory
-- limits-and-colimits
+  - adjunction-unit-and-counit
+  - monads-in-category-theory
 tags:
 - adjunction
 - left adjoint
@@ -23,9 +32,8 @@ tags:
 - hom-set bijection
 - universal arrow
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Adjoint Functors
 
 ## Core Idea

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: set-operations
   type: soft
+- id: well-ordering-principle
+  type: soft
 tags:
 - partial-order
 - poset
@@ -17,9 +19,8 @@ tags:
 - total-order
 - comparability
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Partial Orders and Hasse Diagrams
 
 ## Core Idea

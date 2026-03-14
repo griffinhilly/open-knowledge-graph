@@ -19,7 +19,7 @@ tags:
 - schema
 - Codd
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Relational Model

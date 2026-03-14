@@ -13,7 +13,7 @@ tags:
 - frame-allocation
 - multiprogramming-degree
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Thrashing and the Working Set Model

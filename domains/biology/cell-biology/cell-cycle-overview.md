@@ -19,7 +19,7 @@ tags:
 - G2
 - division
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Cell Cycle

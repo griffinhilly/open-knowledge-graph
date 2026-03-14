@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: boolean-logic-programming
   type: soft
+- id: relational-algebra
+  type: soft
 builds-toward:
 - sql-joins
 - sql-aggregation
@@ -23,9 +25,8 @@ tags:
 - DML
 - declarative
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # SQL SELECT Basics
 
 ## Core Idea

@@ -17,7 +17,7 @@ tags:
 - comprehension
 - specification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Axiom Schema of Separation

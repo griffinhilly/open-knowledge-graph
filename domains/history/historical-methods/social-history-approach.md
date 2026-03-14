@@ -6,6 +6,8 @@ course: historical-methods
 prerequisites:
 - id: schools-of-historical-interpretation
   type: hard
+- id: quantitative-history-methods
+  type: soft
 builds-toward:
 - cultural-history-approach
 tags:
@@ -14,9 +16,8 @@ tags:
 - everyday-life
 - structures
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Social History
 
 ## Core Idea

@@ -18,7 +18,7 @@ tags:
 - velocity
 - Fisher-equation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Quantity Theory of Money

@@ -11,7 +11,7 @@ builds-toward:
   - natural-logarithm-and-e
 tags: [exponential, growth, decay, applications, half-life, doubling-time]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Exponential Growth and Decay

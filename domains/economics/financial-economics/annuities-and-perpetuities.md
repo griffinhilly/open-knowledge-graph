@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: geometric-sequences-and-series
   type: soft
+- id: future-value-and-compounding
+  type: soft
 builds-toward:
 - bond-pricing
 - dividend-discount-model
@@ -19,9 +21,8 @@ tags:
 - cash-flow-streams
 - gordon-growth
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Annuities and Perpetuities
 
 ## Core Idea

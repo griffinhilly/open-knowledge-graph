@@ -16,7 +16,7 @@ tags:
 - authority
 - situationism
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Obedience to Authority

@@ -11,7 +11,7 @@ builds-toward:
   - dot-product
 tags: [vectors, geometry, components]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Vectors in Two Dimensions

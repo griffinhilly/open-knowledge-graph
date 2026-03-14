@@ -22,7 +22,7 @@ tags:
 - thermocycler
 - DNA amplification
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Polymerase Chain Reaction (PCR)

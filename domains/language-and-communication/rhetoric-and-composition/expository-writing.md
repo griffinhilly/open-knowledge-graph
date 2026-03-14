@@ -20,7 +20,7 @@ tags:
 - process
 - cause-effect
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Expository Writing and Explanatory Prose

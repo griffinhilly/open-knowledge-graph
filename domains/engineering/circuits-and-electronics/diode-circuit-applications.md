@@ -22,7 +22,7 @@ tags:
 - voltage-regulator
 - ripple
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diode Circuit Applications

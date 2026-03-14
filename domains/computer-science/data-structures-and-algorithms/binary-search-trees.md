@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: time-space-complexity
   type: soft
+- id: binary-search-algorithm
+  type: soft
 builds-toward:
 - avl-trees
 tags:
@@ -18,9 +20,8 @@ tags:
 - ordered-tree
 - search
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Binary Search Trees
 
 ## Core Idea

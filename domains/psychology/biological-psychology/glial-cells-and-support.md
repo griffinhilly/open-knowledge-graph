@@ -19,7 +19,7 @@ tags:
 - myelin
 - blood-brain-barrier
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Glial Cells and Neural Support

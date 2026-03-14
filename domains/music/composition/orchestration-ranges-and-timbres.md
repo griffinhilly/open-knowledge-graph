@@ -7,7 +7,7 @@ prerequisites:
 - id: texture-in-composition
   type: soft
 - id: intervals-basics
-  type: soft
+  type: hard
 - id: staff-and-clefs
   type: hard
 builds-toward:
@@ -19,7 +19,7 @@ tags:
 - register
 - instrument-families
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Orchestration: Ranges and Timbres

@@ -19,7 +19,7 @@ tags:
 - boyles-law
 - charles-law
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Ideal Gas Law

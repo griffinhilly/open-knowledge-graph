@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: ocean-atmosphere-interactions
   type: soft
+- id: climate-zones-and-biomes
+  type: soft
 builds-toward:
 - anthropogenic-climate-forcing
 - feedback-mechanisms-in-climate
@@ -21,9 +23,8 @@ tags:
 - Arctic-amplification
 - attribution
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Climate Change: Science and Evidence
 
 ## Core Idea

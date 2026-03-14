@@ -13,7 +13,7 @@ builds-toward:
   - p-series
 tags: [series, convergence-tests, integral-test]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Integral Test

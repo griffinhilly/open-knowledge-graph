@@ -19,7 +19,7 @@ tags:
 - political-opportunity
 - new-social-movements
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Social Movements

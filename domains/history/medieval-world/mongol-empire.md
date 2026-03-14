@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: causation-in-history
   type: soft
+- id: crusades
+  type: soft
 builds-toward:
 - mongol-conquest-effects
 - silk-road-medieval-era
@@ -21,9 +23,8 @@ tags:
 - conquest
 - world-empire
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Mongol Empire
 
 ## Core Idea

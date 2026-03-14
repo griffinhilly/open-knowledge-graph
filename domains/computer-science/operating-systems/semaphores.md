@@ -16,7 +16,7 @@ tags:
 - P-V-operations
 - Dijkstra
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Semaphores

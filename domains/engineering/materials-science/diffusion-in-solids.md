@@ -21,7 +21,7 @@ tags:
 - vacancy-mechanism
 - carburization
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Diffusion in Solids

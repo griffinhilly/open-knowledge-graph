@@ -4,19 +4,29 @@ title: Equivalent Fractions
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: intro-to-fractions
-    type: hard
-  - id: factors-and-multiples
-    type: soft
+- id: intro-to-fractions
+  type: hard
+- id: factors-and-multiples
+  type: soft
+- id: comparing-unit-fractions
+  type: soft
+- id: fractions-sixths-eighths
+  type: soft
+- id: whole-number-fractions
+  type: soft
+- id: prime-and-composite-numbers
+  type: soft
 builds-toward:
-  - comparing-fractions
-  - adding-fractions-like-denominators
-  - adding-fractions-unlike-denominators
-tags: [fractions, equivalence, number-sense]
+- comparing-fractions
+- adding-fractions-like-denominators
+- adding-fractions-unlike-denominators
+tags:
+- fractions
+- equivalence
+- number-sense
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Equivalent Fractions
 
 ## Core Idea

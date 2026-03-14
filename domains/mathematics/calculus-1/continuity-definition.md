@@ -4,18 +4,24 @@ title: Continuity Definition
 domain: mathematics
 course: calculus-1
 prerequisites:
-  - id: limit-definition-intuitive
-    type: hard
-  - id: one-sided-limits
-    type: hard
+- id: limit-definition-intuitive
+  type: hard
+- id: one-sided-limits
+  type: hard
+- id: limit-laws
+  type: soft
+- id: piecewise-functions-graphing
+  type: soft
 builds-toward:
-  - intermediate-value-theorem
-  - limit-definition-of-derivative
-tags: [continuity, limits, functions]
+- intermediate-value-theorem
+- limit-definition-of-derivative
+tags:
+- continuity
+- limits
+- functions
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Continuity Definition
 
 ## Core Idea

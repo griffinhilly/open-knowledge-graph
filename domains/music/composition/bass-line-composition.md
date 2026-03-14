@@ -21,7 +21,7 @@ tags:
 - voice-leading
 - inversion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bass Line Composition

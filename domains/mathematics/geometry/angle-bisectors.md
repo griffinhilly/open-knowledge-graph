@@ -12,7 +12,7 @@ builds-toward:
   - coordinate-geometry-proofs
 tags: [bisectors, angles, incenter, equidistance]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Angle Bisectors

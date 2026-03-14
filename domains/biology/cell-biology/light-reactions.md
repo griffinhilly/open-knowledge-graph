@@ -25,7 +25,7 @@ tags:
 - NADPH
 - water-splitting
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Light-Dependent Reactions

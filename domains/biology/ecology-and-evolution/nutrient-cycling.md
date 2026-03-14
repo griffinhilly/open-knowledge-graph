@@ -17,7 +17,7 @@ tags:
 - mineralization
 - soil-nutrients
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Nutrient Cycling and Decomposition

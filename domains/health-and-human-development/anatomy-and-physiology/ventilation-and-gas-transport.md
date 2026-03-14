@@ -23,7 +23,7 @@ tags:
 - chemoreceptors
 - pH
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Gas Transport and Regulation of Ventilation

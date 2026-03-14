@@ -4,20 +4,26 @@ title: Introduction to Surface Area
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: area-of-rectangles
-    type: hard
-  - id: area-of-triangles
-    type: hard
-  - id: area-of-circles
-    type: soft
+- id: area-of-rectangles
+  type: hard
+- id: area-of-triangles
+  type: hard
+- id: area-of-circles
+  type: soft
+- id: area-of-parallelograms
+  type: soft
+- id: area-of-trapezoids
+  type: soft
 builds-toward:
-  - surface-area-prisms-cylinders
-  - geometry-3d
-tags: [surface-area, 3d-shapes, geometry, nets]
+- surface-area-of-prisms
+tags:
+- surface-area
+- 3d-shapes
+- geometry
+- nets
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Introduction to Surface Area
 
 ## Core Idea

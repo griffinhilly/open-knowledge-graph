@@ -14,7 +14,7 @@ tags:
 - growing block
 - temporal ontology
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # A-Theory and B-Theory of Time

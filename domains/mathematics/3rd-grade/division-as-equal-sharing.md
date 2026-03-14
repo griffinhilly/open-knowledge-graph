@@ -18,7 +18,7 @@ tags:
 - partitive
 - equal-groups
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Division as Equal Sharing

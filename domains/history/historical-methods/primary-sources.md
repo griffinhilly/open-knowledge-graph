@@ -16,7 +16,7 @@ tags:
 - evidence
 - archives
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Primary Sources

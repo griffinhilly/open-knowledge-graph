@@ -20,7 +20,7 @@ tags:
 - ideology
 - left-right spectrum
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Political Ideologies

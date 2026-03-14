@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: discourse-analysis
   type: soft
+- id: point-of-view-narrative-perspective
+  type: soft
+- id: setting-and-atmosphere
+  type: soft
 builds-toward:
 - irony-in-literature
 - thematic-development
@@ -21,9 +25,8 @@ tags:
 - diction
 - register
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Tone and Mood
 
 ## Core Idea

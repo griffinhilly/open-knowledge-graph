@@ -20,7 +20,7 @@ tags:
 - atomicity
 - savepoint
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Database Transactions

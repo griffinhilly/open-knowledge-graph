@@ -18,6 +18,16 @@ prerequisites:
   type: hard
 - id: evidence-in-speeches
   type: soft
+- id: nonverbal-communication-in-speaking
+  type: soft
+- id: speech-introductions-and-conclusions
+  type: soft
+- id: storytelling-in-public-speaking
+  type: soft
+- id: verbal-transitions-in-speaking
+  type: soft
+- id: vocal-delivery-techniques
+  type: soft
 builds-toward:
 - call-to-action-in-speeches
 - refutation-in-debate
@@ -29,9 +39,8 @@ tags:
 - appeals
 - advocacy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Persuasive Speech Design
 
 ## Core Idea

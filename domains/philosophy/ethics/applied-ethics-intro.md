@@ -10,6 +10,20 @@ prerequisites:
   type: hard
 - id: virtue-ethics
   type: soft
+- id: act-vs-rule-utilitarianism
+  type: soft
+- id: categorical-imperative
+  type: soft
+- id: contractualism
+  type: soft
+- id: moral-luck
+  type: soft
+- id: moral-relativism
+  type: soft
+- id: trolley-problem
+  type: soft
+- id: utilitarianism
+  type: soft
 builds-toward:
 - bioethics
 - environmental-ethics
@@ -18,9 +32,8 @@ tags:
 - practical-ethics
 - case-analysis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Introduction to Applied Ethics
 
 ## Core Idea

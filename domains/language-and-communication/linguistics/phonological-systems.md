@@ -18,7 +18,7 @@ tags:
 - minimal pairs
 - distribution
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Phonological Systems

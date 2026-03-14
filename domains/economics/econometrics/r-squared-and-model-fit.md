@@ -21,7 +21,7 @@ tags:
 - adjusted-R-squared
 - model-selection
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # R-Squared and Model Fit

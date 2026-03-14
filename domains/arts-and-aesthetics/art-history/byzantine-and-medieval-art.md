@@ -19,7 +19,7 @@ tags:
 - manuscript
 - gothic
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Byzantine and Medieval Art: Theology Made Visible

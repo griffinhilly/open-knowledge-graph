@@ -17,7 +17,7 @@ tags:
 - dynamic character
 - static character
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Character Motivation and Development

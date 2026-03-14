@@ -13,7 +13,7 @@ builds-toward:
   - comparison-test
 tags: [series, convergence-tests, divergence]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Divergence Test

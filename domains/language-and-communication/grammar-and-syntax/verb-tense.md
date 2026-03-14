@@ -15,7 +15,7 @@ tags:
 - aspect
 - time
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Verb Tense and Aspect

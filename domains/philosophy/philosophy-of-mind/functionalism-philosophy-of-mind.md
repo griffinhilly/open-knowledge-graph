@@ -25,7 +25,7 @@ tags:
 - computational
 - mental-states
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Functionalism

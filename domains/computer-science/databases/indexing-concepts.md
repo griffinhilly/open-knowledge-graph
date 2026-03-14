@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: time-space-complexity
   type: soft
+- id: database-schema-design
+  type: soft
 builds-toward:
 - btree-indexes
 - hash-indexes
@@ -21,9 +23,8 @@ tags:
 - secondary index
 - selectivity
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Database Indexing
 
 ## Core Idea

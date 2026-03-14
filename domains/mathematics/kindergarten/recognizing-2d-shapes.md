@@ -16,7 +16,7 @@ tags:
 - triangle
 - rectangle
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Recognizing Basic 2D Shapes

@@ -18,7 +18,7 @@ tags:
 - legitimacy
 - domination
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Power, Authority, and Legitimacy

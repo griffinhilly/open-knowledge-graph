@@ -4,17 +4,27 @@ title: Implicit Differentiation
 domain: mathematics
 course: calculus-1
 prerequisites:
-  - id: chain-rule
-    type: hard
-  - id: derivative-notation
-    type: hard
+- id: chain-rule
+  type: hard
+- id: derivative-notation
+  type: hard
+- id: derivatives-of-logarithmic-functions
+  type: soft
+- id: quotient-rule
+  type: soft
+- id: chain-rule-multivariable
+  type: soft
+- id: inverse-trigonometric-functions
+  type: soft
 builds-toward:
-  - related-rates
-tags: [derivatives, implicit, techniques]
+- related-rates
+tags:
+- derivatives
+- implicit
+- techniques
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Implicit Differentiation
 
 ## Core Idea

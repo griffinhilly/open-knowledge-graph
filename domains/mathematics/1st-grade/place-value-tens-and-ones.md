@@ -23,7 +23,7 @@ tags:
 - two-digit-numbers
 - number-sense
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Place Value: Tens and Ones

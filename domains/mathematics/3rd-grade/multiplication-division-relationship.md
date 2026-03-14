@@ -20,7 +20,7 @@ tags:
 - division
 - fact-families
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Relationship Between Multiplication and Division

@@ -9,18 +9,16 @@ prerequisites:
 - id: multiplication-facts-within-100
   type: hard
 builds-toward:
-- estimation-strategies
-- multi-digit-multiplication
-- two-digit-by-one-digit-multiplication
+  - estimation-strategies
+  - multi-digit-multiplication
 tags:
 - estimation
 - multiplication
 - rounding
 - mental-math
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Estimating Products
 
 ## Core Idea

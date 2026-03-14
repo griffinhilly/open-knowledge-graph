@@ -18,7 +18,7 @@ tags:
 - inference
 - cancelability
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Conversational Implicature

@@ -22,7 +22,7 @@ tags:
 - travel-time
 - refraction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Seismic Waves

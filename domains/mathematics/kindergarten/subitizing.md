@@ -6,6 +6,8 @@ course: kindergarten
 prerequisites:
 - id: number-recognition-1-10
   type: soft
+- id: matching-numerals-to-quantities
+  type: soft
 builds-toward:
 - comparing-quantities
 - combining-small-groups
@@ -14,9 +16,8 @@ tags:
 - number-sense
 - pattern-recognition
 stage: pre-formal
-status: draft
+status: validated
 ---
-
 # Subitizing Small Quantities
 
 ## Core Idea

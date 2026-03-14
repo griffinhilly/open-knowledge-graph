@@ -24,7 +24,7 @@ tags:
 - supergiants
 - mass-luminosity-relation
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Hertzsprung-Russell Diagram

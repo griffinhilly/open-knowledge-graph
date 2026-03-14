@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: cadences
   type: soft
+- id: four-part-writing
+  type: soft
+- id: functional-harmony
+  type: soft
 builds-toward:
 - tonicization
 - modulation-techniques
@@ -22,9 +26,8 @@ tags:
 - chromaticism
 - tonicization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Secondary Dominants
 
 ## Core Idea

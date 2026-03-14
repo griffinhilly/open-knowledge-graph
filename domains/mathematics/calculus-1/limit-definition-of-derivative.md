@@ -4,18 +4,22 @@ title: Limit Definition of the Derivative
 domain: mathematics
 course: calculus-1
 prerequisites:
-  - id: limit-definition-intuitive
-    type: hard
-  - id: rates-of-change-preview
-    type: hard
+- id: limit-definition-intuitive
+  type: hard
+- id: rates-of-change-preview
+  type: hard
+- id: continuity-definition
+  type: soft
 builds-toward:
-  - derivative-as-slope-of-tangent
-  - power-rule
-tags: [derivatives, definition, difference-quotient]
+- derivative-as-slope-of-tangent
+- power-rule
+tags:
+- derivatives
+- definition
+- difference-quotient
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Limit Definition of the Derivative
 
 ## Core Idea

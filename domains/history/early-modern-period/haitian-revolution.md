@@ -19,7 +19,7 @@ tags:
 - Black independence
 - Caribbean
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Haitian Revolution

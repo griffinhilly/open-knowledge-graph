@@ -18,7 +18,7 @@ tags:
 - posthumanism
 - anthropocentrism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ecocriticism and Environmental Literary Studies

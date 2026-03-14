@@ -17,7 +17,7 @@ tags:
 - normal phase
 - visualization
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Thin-Layer Chromatography (TLC)

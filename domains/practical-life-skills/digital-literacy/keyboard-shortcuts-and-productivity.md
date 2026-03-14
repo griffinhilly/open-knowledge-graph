@@ -12,7 +12,7 @@ tags:
 - efficiency
 - workflow
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Keyboard Shortcuts and Productivity

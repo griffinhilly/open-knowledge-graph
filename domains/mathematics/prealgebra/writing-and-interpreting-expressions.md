@@ -15,7 +15,7 @@ builds-toward:
   - two-step-equations
 tags: [expressions, translating, verbal-to-algebraic, algebra]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Writing and Interpreting Algebraic Expressions

@@ -23,7 +23,7 @@ tags:
 - atomic-number
 - mass-number
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Atomic Structure

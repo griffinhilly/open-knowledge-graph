@@ -18,7 +18,7 @@ tags:
 - electrostatics
 - conservative-force
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Electric Potential Energy

@@ -17,7 +17,7 @@ tags:
 - winding-number
 - argument-principle
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Nyquist Stability Criterion

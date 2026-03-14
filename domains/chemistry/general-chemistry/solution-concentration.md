@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mole-concept
   type: hard
+- id: intermolecular-forces
+  type: soft
 builds-toward:
 - colligative-properties
 - acid-base-chemistry
@@ -20,9 +22,8 @@ tags:
 - percent-composition
 - solution
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Solution Concentration
 
 ## Core Idea

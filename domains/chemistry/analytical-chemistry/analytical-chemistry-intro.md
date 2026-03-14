@@ -21,7 +21,7 @@ tags:
 - quantitative
 - qualitative
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Introduction to Analytical Chemistry

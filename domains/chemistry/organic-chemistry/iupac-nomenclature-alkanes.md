@@ -17,7 +17,7 @@ tags:
 - naming
 - substituents
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # IUPAC Nomenclature of Alkanes

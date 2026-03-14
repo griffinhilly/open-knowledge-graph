@@ -21,7 +21,7 @@ tags:
 - DNA separation
 - molecular weight
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Gel Electrophoresis

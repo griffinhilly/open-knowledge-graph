@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: proportion-and-scale
   type: soft
+- id: gesture-drawing
+  type: soft
 builds-toward:
 - still-life-composition
 - figure-drawing-fundamentals
@@ -21,9 +23,8 @@ tags:
 - life
 - perception
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Observational Drawing Practice
 
 ## Core Idea

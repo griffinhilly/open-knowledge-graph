@@ -16,7 +16,7 @@ tags:
 - julienne
 - safety
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Basic Knife Skills

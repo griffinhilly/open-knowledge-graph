@@ -4,19 +4,22 @@ title: Simplifying Radical Expressions
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: square-roots-intro
-    type: hard
-  - id: exponent-rules-product-power-quotient
-    type: soft
+- id: square-roots-intro
+  type: hard
+- id: exponent-rules-product-power-quotient
+  type: soft
 builds-toward:
-  - operations-with-radicals
-  - quadratic-formula
-  - distance-formula
-tags: [radicals, simplifying, square-roots, perfect-squares]
+- operations-with-radicals
+- quadratic-formula
+- segment-and-distance
+tags:
+- radicals
+- simplifying
+- square-roots
+- perfect-squares
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Simplifying Radical Expressions
 
 ## Core Idea

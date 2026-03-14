@@ -4,9 +4,9 @@ title: Computability Reductions
 domain: formal-sciences-and-logic
 course: computability-and-complexity
 prerequisites:
-- id: turing-machines
+- id: turing-machines-formal
   type: hard
-- id: halting-problem
+- id: halting-problem-formal
   type: soft
 - id: injective-surjective-bijective
   type: soft
@@ -20,7 +20,7 @@ tags:
 - computability
 - many-one-reducibility
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Computability Reductions

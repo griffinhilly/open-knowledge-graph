@@ -19,7 +19,7 @@ tags:
 - space-complexity
 - Savitch
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Space Complexity: PSPACE, L, and NL

@@ -18,7 +18,7 @@ tags:
 - Nazism
 - memory
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Holocaust

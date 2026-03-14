@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: mathematical-induction
   type: soft
+- id: closure-properties-regular
+  type: soft
 builds-toward:
 - pumping-lemma-cfl
 tags:
@@ -18,9 +20,8 @@ tags:
 - proof
 - regular-languages
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Pumping Lemma for Regular Languages
 
 ## Core Idea

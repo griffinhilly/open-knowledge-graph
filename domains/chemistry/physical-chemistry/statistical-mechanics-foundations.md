@@ -32,7 +32,7 @@ tags:
 - canonical-ensemble
 - entropy
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Statistical Mechanics: Ensembles and the Boltzmann Distribution

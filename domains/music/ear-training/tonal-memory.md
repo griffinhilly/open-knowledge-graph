@@ -17,7 +17,7 @@ tags:
 - audiation
 - short-term memory
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Tonal Memory and Short-Term Pitch Retention

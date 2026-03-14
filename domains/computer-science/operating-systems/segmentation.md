@@ -17,7 +17,7 @@ tags:
 - data-segment
 - stack-segment
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Segmentation

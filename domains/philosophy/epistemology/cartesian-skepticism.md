@@ -11,9 +11,8 @@ prerequisites:
 - id: deductive-reasoning
   type: soft
 builds-toward:
-- external-world-skepticism
-- a-priori-and-a-posteriori
-- responses-to-skepticism
+  - external-world-skepticism
+  - responses-to-skepticism
 tags:
 - Descartes
 - skepticism
@@ -21,9 +20,8 @@ tags:
 - cogito
 - method-of-doubt
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Cartesian Skepticism and the Method of Doubt
 
 ## Core Idea

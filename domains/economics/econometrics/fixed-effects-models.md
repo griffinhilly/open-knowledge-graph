@@ -17,7 +17,7 @@ tags:
 - demeaning
 - panel
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Fixed Effects Models

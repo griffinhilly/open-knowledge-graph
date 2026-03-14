@@ -16,7 +16,7 @@ tags:
 - imperial
 - relief
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ancient Roman Art: Portraiture, Power, and Synthesis

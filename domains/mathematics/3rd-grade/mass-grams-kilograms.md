@@ -16,7 +16,7 @@ tags:
 - kilograms
 - metric
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Mass: Grams and Kilograms

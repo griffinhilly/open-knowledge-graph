@@ -22,7 +22,7 @@ tags:
 - phosphorus
 - marine chemistry
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ocean Chemistry: Nutrients, Dissolved Gases, and Buffering

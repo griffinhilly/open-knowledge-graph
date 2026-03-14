@@ -14,7 +14,7 @@ builds-toward:
   - volume-of-pyramids-and-cones
 tags: [3d-geometry, surface-area, pyramids, cones, slant-height]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Surface Area of Pyramids and Cones

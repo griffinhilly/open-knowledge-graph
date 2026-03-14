@@ -6,13 +6,13 @@ course: algebra-2
 prerequisites:
   - id: absolute-value
     type: hard
-  - id: solving-linear-equations
+  - id: equations-variables-both-sides
     type: hard
 builds-toward:
   - quadratic-inequalities
 tags: [absolute-value, equations, review]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Solving Absolute Value Equations Review

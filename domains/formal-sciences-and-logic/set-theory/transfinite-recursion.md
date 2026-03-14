@@ -22,7 +22,7 @@ tags:
 - cumulative hierarchy
 - ordinal arithmetic
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Transfinite Recursion

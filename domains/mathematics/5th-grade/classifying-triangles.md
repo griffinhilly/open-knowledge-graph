@@ -11,7 +11,7 @@ prerequisites:
 builds-toward: []
 tags: [geometry, triangles, classification, angles]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Classifying Triangles

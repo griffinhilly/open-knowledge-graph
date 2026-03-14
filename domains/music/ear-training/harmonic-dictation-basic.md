@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: scale-degree-tendencies
   type: soft
+- id: melodic-dictation-with-leaps
+  type: soft
 builds-toward:
 - bass-line-dictation
 tags:
@@ -22,9 +24,8 @@ tags:
 - Roman numerals
 - transcription
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Harmonic Dictation: Basic Chord Progressions
 
 ## Core Idea

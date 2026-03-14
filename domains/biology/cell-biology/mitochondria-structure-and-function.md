@@ -19,7 +19,7 @@ tags:
 - matrix
 - ATP
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Mitochondria: Structure and Function

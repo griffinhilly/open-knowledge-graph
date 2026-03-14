@@ -8,15 +8,16 @@ prerequisites:
   type: hard
 - id: thematic-development
   type: hard
+- id: novel-form
+  type: soft
 tags:
 - dystopia
 - utopia
 - political-fiction
 - speculative-fiction
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Dystopian Fiction
 
 ## Core Idea

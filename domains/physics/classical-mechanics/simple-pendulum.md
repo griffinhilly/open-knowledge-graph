@@ -14,7 +14,7 @@ tags:
 - oscillation
 - gravity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Simple Pendulum

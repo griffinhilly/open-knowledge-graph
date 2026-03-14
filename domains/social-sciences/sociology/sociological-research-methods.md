@@ -28,7 +28,7 @@ tags:
 - quantitative
 - validity
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Research Methods in Sociology

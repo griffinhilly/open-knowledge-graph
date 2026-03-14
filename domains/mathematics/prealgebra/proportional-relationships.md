@@ -16,7 +16,7 @@ builds-toward:
   - graphing-linear-equations
 tags: [proportional, relationships, constant-of-proportionality, graphing]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Proportional Relationships

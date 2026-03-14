@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: aggregate-supply-long-run
   type: hard
+- id: inflation-and-price-level
+  type: soft
 builds-toward:
 - fiscal-policy-macroeconomics
 - monetary-policy-tools
@@ -22,9 +24,8 @@ tags:
 - price-level
 - stabilization
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The AS-AD Model
 
 ## Core Idea

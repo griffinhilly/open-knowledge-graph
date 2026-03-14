@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: bacterial-metabolism-overview
   type: soft
+- id: bacterial-growth-and-reproduction
+  type: soft
+- id: fungal-biology-overview
+  type: soft
 builds-toward:
 - nitrogen-fixation-microbiology
 - human-microbiome
@@ -21,9 +25,8 @@ tags:
 - microbial diversity
 - unculturable bacteria
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Microbial Ecology Overview
 
 ## Core Idea

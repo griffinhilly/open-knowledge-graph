@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: flux-integrals
   type: soft
+- id: amperes-law
+  type: soft
+- id: biot-savart-law
+  type: soft
 builds-toward:
 - faradays-law
 tags:
@@ -18,9 +22,8 @@ tags:
 - Faraday
 - EMF
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Magnetic Flux and Electromagnetic Induction
 
 ## Core Idea

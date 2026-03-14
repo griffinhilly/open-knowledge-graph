@@ -1,21 +1,25 @@
 ---
 id: special-right-triangles-45-45-90
-title: "Special Right Triangles: 45-45-90"
+title: 'Special Right Triangles: 45-45-90'
 domain: mathematics
 course: geometry
 prerequisites:
-  - id: pythagorean-theorem
-    type: hard
-  - id: isosceles-triangle-theorem
-    type: soft
+- id: pythagorean-theorem
+  type: hard
+- id: isosceles-triangle-theorem
+  type: soft
+- id: sine-cosine-tangent-ratios
+  type: soft
 builds-toward:
-  - trigonometric-functions
-  - unit-circle
-tags: [special-right-triangles, 45-45-90, exact-values]
+- trigonometric-ratios-review
+- unit-circle
+tags:
+- special-right-triangles
+- 45-45-90
+- exact-values
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Special Right Triangles: 45-45-90
 
 ## Core Idea

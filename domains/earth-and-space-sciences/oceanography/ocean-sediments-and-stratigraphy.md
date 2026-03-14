@@ -19,7 +19,7 @@ tags:
 - deep-sea cores
 - paleoceanography
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ocean Sediments and Paleoceanographic Records

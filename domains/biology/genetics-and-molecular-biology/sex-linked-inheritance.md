@@ -20,7 +20,7 @@ tags:
 - carrier
 - color blindness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sex-Linked Inheritance

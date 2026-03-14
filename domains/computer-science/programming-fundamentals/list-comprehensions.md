@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: conditional-statements
   type: soft
+- id: nested-loops
+  type: soft
 builds-toward:
 - algorithm-design-basics
 tags:
@@ -19,9 +21,8 @@ tags:
 - filter
 - map
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # List Comprehensions
 
 ## Core Idea

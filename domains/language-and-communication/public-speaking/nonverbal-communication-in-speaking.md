@@ -17,7 +17,7 @@ tags:
 - posture
 - nonverbal
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Nonverbal Communication in Public Speaking

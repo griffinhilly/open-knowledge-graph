@@ -15,7 +15,7 @@ tags:
 - acceleration
 - kinematics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Free Fall and Gravitational Acceleration

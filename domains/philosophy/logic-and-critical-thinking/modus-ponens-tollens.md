@@ -20,7 +20,7 @@ tags:
 - conditional
 - inference-rules
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Modus Ponens and Modus Tollens

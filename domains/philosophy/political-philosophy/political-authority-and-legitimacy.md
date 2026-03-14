@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: deontological-ethics
   type: soft
+- id: hobbesian-sovereignty
+  type: soft
+- id: lockean-natural-rights
+  type: soft
+- id: rousseau-general-will
+  type: soft
 builds-toward:
 - political-obligation
 - civil-disobedience
@@ -19,9 +25,8 @@ tags:
 - state
 - justification
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Political Authority and Legitimacy
 
 ## Core Idea

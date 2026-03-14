@@ -17,7 +17,7 @@ tags:
 - do re mi
 - pitch naming
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Introduction to Solfège

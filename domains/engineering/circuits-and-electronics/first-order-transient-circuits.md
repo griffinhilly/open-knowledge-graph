@@ -24,7 +24,7 @@ tags:
 - natural-response
 - step-response
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # First-Order Transient Circuit Response

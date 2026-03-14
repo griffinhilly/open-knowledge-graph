@@ -16,7 +16,7 @@ tags:
 - explanation
 - historical-thinking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Causation in History

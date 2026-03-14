@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: color-relationships
   type: soft
+- id: texture-in-art
+  type: soft
 builds-toward:
 - emphasis-and-focal-point
 - unity-and-variety
@@ -18,9 +20,8 @@ tags:
 - size-contrast
 - emphasis
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Contrast
 
 ## Core Idea

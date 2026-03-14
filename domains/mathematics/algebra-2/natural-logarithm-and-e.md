@@ -4,18 +4,25 @@ title: Natural Logarithm and e
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: logarithms-intro
-    type: hard
-  - id: exponential-growth-and-decay
-    type: hard
+- id: logarithms-intro
+  type: hard
+- id: exponential-growth-and-decay
+  type: hard
+- id: solving-exponential-equations
+  type: soft
+- id: solving-logarithmic-equations
+  type: soft
 builds-toward:
-  - calculus-limits
-  - calculus-derivatives
-tags: [natural-logarithm, e, euler, continuous-compounding]
+- limit-definition-intuitive
+- derivative-as-slope-of-tangent
+tags:
+- natural-logarithm
+- e
+- euler
+- continuous-compounding
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Natural Logarithm and e
 
 ## Core Idea

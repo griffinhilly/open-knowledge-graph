@@ -4,14 +4,20 @@ title: Elapsed Time
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: multi-digit-subtraction
-    type: soft
+- id: multi-digit-subtraction
+  type: soft
+- id: telling-time-to-5-minutes
+  type: soft
+- id: telling-time-to-minute
+  type: soft
 builds-toward: []
-tags: [measurement, time, problem-solving]
+tags:
+- measurement
+- time
+- problem-solving
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Elapsed Time
 
 ## Core Idea

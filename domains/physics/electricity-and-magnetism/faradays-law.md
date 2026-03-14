@@ -22,7 +22,7 @@ tags:
 - induction
 - generators
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Faraday's Law of Electromagnetic Induction

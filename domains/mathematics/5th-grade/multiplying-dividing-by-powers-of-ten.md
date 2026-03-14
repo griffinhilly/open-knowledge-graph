@@ -14,7 +14,7 @@ builds-toward:
   - converting-metric-units
 tags: [place-value, decimals, exponents, operations]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Multiplying and Dividing by Powers of Ten

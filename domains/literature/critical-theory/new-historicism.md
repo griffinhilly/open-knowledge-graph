@@ -21,7 +21,7 @@ tags:
 - containment
 - subversion
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # New Historicism and Cultural Poetics

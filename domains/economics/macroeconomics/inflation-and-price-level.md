@@ -20,7 +20,7 @@ tags:
 - hyperinflation
 - price-stability
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Inflation: Causes, Types, and Effects

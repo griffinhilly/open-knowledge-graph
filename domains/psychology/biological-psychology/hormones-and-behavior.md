@@ -20,7 +20,7 @@ tags:
 - HPA-axis
 - stress-hormones
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Hormones and Behavior

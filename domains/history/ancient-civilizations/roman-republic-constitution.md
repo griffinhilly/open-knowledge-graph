@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: periodization
   type: hard
+- id: athenian-democracy-origins
+  type: soft
 builds-toward:
 - roman-empire-rise
 - ancient-mediterranean-trade
@@ -22,9 +24,8 @@ tags:
 - patricians
 - plebeians
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Roman Republic: Constitution and Institutions
 
 ## Core Idea

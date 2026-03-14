@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: infectious-disease-epidemiology
   type: soft
+- id: herd-immunity-and-vaccination
+  type: soft
 builds-toward:
 - health-policy-and-advocacy
 tags:
@@ -23,9 +25,8 @@ tags:
 - antimicrobial-resistance
 - planetary-health
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # One Health: Human, Animal, and Environmental Health Linkages
 
 ## Core Idea

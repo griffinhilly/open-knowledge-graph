@@ -15,7 +15,7 @@ tags:
 - scholarship
 - historiography
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Secondary Sources

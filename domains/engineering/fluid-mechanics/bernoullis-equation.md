@@ -24,7 +24,7 @@ tags:
 - ideal flow
 - pressure-velocity tradeoff
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Bernoulli's Equation

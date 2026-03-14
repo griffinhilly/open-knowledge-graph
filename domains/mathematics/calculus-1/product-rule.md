@@ -11,7 +11,7 @@ builds-toward:
   - integration-by-parts
 tags: [derivatives, rules, product-rule]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Product Rule

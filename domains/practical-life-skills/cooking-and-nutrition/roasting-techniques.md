@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: reading-recipes
   type: soft
+- id: vegetable-preparation
+  type: soft
 builds-toward:
 - seasoning-and-flavor-basics
 tags:
@@ -17,9 +19,8 @@ tags:
 - vegetables
 - meat
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Roasting Techniques
 
 ## Core Idea

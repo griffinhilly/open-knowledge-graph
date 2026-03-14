@@ -14,7 +14,7 @@ tags:
 - reciprocity
 - foot-in-door
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Social Influence and Compliance Techniques

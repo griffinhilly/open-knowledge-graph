@@ -21,7 +21,7 @@ tags:
 - gneiss
 - marble
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Metamorphic Rocks

@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: water-soluble-vitamins
   type: soft
+- id: dietary-fiber-and-gut-health
+  type: soft
+- id: dietary-protein-and-amino-acids
+  type: soft
 builds-toward:
 - malnutrition-and-undernutrition
 tags:
@@ -22,9 +26,8 @@ tags:
 - pellagra
 - beriberi
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Nutritional Deficiency Disorders and Clinical Presentations
 
 ## Core Idea

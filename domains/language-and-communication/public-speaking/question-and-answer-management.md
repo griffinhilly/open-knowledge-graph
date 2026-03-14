@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: audience-analysis-for-speaking
   type: soft
+- id: debate-format-and-structure
+  type: soft
+- id: refutation-in-debate
+  type: soft
 tags:
 - Q&A
 - questions
@@ -15,9 +19,8 @@ tags:
 - management
 - response
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Managing Q&A Sessions
 
 ## Core Idea

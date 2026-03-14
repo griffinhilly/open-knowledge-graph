@@ -19,7 +19,7 @@ tags:
 - observation
 - contour
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Contour Drawing

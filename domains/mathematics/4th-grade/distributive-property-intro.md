@@ -11,7 +11,7 @@ builds-toward:
   - writing-numerical-expressions
 tags: [arithmetic, multiplication, properties, algebra-readiness]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Introduction to the Distributive Property

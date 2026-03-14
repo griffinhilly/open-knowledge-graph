@@ -21,7 +21,7 @@ tags:
 - inverse-agonist
 - drug-mechanism
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Agonists and Antagonists

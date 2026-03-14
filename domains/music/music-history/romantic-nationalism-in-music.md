@@ -6,6 +6,8 @@ course: music-history
 prerequisites:
 - id: romantic-period-overview
   type: hard
+- id: world-music-traditions
+  type: soft
 builds-toward:
 - early-20th-century-modernism
 tags:
@@ -18,9 +20,8 @@ tags:
 - Russian-Five
 - program-music
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Musical Nationalism in the 19th Century
 
 ## Core Idea

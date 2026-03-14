@@ -6,13 +6,12 @@ course: child-development
 prerequisites:
 - id: piaget-cognitive-development-stages
   type: hard
-- id: erikson-psychosocial-stages
+- id: erikson-psychosocial-stages-child-dev
   type: soft
 - id: toddler-social-emotional-development
   type: soft
 builds-toward:
-- school-age-cognitive-and-social-development
-- adolescent-brain-and-behavioral-development
+  - school-age-cognitive-and-social-development
 tags:
 - moral-development
 - Kohlberg
@@ -20,9 +19,8 @@ tags:
 - Gilligan
 - prosocial-behavior
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Moral Development in Children
 
 ## Core Idea

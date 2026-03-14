@@ -21,7 +21,7 @@ tags:
 - hot-Jupiters
 - Kepler-mission
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Exoplanet Detection Methods

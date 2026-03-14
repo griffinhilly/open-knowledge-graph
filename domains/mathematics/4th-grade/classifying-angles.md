@@ -12,7 +12,7 @@ builds-toward:
   - classifying-triangles
 tags: [geometry, angles, classification]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Classifying Angles

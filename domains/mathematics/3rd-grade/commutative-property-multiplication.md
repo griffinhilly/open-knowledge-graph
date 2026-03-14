@@ -10,15 +10,13 @@ prerequisites:
   type: soft
 builds-toward:
 - associative-property-multiplication
-- multiplication-facts-within-100
 tags:
 - commutative
 - properties
 - multiplication
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Commutative Property of Multiplication
 
 ## Core Idea

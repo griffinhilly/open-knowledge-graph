@@ -18,7 +18,7 @@ tags:
 - phenotype
 - heterozygote
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Dominance, Recessiveness, and Allelic Interactions

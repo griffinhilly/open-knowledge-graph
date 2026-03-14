@@ -8,15 +8,18 @@ prerequisites:
   type: hard
 - id: cardinality-principle
   type: hard
+- id: comparing-quantities
+  type: soft
+- id: subitizing
+  type: soft
 tags:
 - addition
 - pre-addition
 - combining
 - number-sense
 stage: pre-formal
-status: draft
+status: validated
 ---
-
 # Combining Small Groups (Pre-Addition)
 
 ## Core Idea

@@ -21,7 +21,7 @@ tags:
 - fundamental theorem
 - dimensions
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rank, Nullity, and the Rank-Nullity Theorem

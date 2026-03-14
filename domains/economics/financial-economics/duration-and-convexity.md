@@ -21,7 +21,7 @@ tags:
 - fixed-income
 - sensitivity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Duration and Convexity

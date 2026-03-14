@@ -21,7 +21,7 @@ tags:
 - postorder
 - level-order
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Tree Traversals

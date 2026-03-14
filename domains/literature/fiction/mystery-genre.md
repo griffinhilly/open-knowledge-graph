@@ -18,7 +18,7 @@ tags:
 - plot
 - withholding-information
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Mystery Genre: Detection and Revelation

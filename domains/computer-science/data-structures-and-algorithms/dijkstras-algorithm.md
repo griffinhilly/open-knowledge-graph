@@ -1,6 +1,6 @@
 ---
 id: dijkstras-algorithm
-title: Dijkstra's Algorithm
+title: 'Dijkstra''s Algorithm'
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: graph-theory-intro
   type: soft
+- id: greedy-algorithms
+  type: soft
 builds-toward:
 - bellman-ford-algorithm
 tags:
@@ -20,9 +22,8 @@ tags:
 - weighted-graph
 - greedy
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Dijkstra's Algorithm
 
 ## Core Idea

@@ -21,7 +21,7 @@ tags:
 - majoritarianism
 - deliberation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Democracy: Types and Theory

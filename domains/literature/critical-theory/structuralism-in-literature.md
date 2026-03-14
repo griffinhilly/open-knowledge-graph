@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: linguistic-typology
   type: soft
+- id: new-criticism-and-formalism
+  type: soft
 builds-toward:
 - semiotics-and-signs
 - narratology
@@ -23,9 +25,8 @@ tags:
 - Barthes
 - sign-systems
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Structuralism and Literary Analysis
 
 ## Core Idea

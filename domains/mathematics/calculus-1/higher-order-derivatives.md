@@ -13,7 +13,7 @@ builds-toward:
   - taylor-polynomials
 tags: [derivatives, higher-order, acceleration]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Higher-Order Derivatives

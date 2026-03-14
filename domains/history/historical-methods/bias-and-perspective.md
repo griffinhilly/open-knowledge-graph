@@ -15,7 +15,7 @@ tags:
 - perspective
 - critical-thinking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Bias and Perspective in Historical Sources

@@ -14,7 +14,7 @@ tags:
 - tradeoffs
 - foundations
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Scarcity and Opportunity Cost

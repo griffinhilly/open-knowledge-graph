@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: reflection-law
   type: soft
+- id: huygens-principle
+  type: soft
 builds-toward:
 - snells-law
 - total-internal-reflection
@@ -19,9 +21,8 @@ tags:
 - boundary
 - Huygens
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Refraction of Waves
 
 ## Core Idea

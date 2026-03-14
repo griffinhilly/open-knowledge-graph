@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: tense-consistency
   type: hard
-builds-toward:
-- pathos-and-emotional-appeal
+builds-toward: []
 tags:
 - narrative
 - story
@@ -20,9 +19,8 @@ tags:
 - pacing
 - point of view
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Narrative Writing and Storytelling Structure
 
 ## Core Idea

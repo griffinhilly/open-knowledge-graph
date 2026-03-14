@@ -16,7 +16,7 @@ tags:
 - second moment of area
 - bending stiffness
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Area Moment of Inertia (Second Moment of Area)

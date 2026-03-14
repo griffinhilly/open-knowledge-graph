@@ -18,7 +18,7 @@ tags:
 - parsing
 - psycholinguistics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Language Comprehension and Sentence Processing

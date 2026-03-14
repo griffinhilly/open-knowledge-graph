@@ -19,7 +19,7 @@ tags:
 - Strange Situation
 - Ainsworth
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Attachment Styles

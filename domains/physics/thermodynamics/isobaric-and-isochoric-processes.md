@@ -16,7 +16,7 @@ tags:
 - constant-volume
 - heat-capacity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Isobaric and Isochoric Processes

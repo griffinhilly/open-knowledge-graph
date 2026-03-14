@@ -18,7 +18,7 @@ tags:
 - ductility
 - alloys
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Metallic Bonding

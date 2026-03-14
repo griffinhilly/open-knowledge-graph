@@ -4,17 +4,19 @@ title: Normal Distribution Introduction
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: probability-with-combinatorics
-    type: soft
-  - id: exponential-functions-and-graphs
-    type: soft
-builds-toward:
-  - probability-and-statistics-course
-tags: [statistics, normal-distribution, bell-curve, standard-deviation]
+- id: probability-with-combinatorics
+  type: soft
+- id: exponential-functions-and-graphs
+  type: soft
+builds-toward: []
+tags:
+- statistics
+- normal-distribution
+- bell-curve
+- standard-deviation
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Normal Distribution Introduction
 
 ## Core Idea

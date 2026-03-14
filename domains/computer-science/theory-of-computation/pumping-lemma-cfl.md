@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: proof-by-contradiction
   type: soft
+- id: closure-properties-cfl
+  type: soft
 builds-toward:
 - turing-machines
 tags:
@@ -22,9 +24,8 @@ tags:
 - non-CFL
 - proof
 stage: advanced
-status: draft
+status: validated
 ---
-
 # Pumping Lemma for Context-Free Languages
 
 ## Core Idea

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: simple-probability
   type: soft
+- id: ecological-succession
+  type: soft
 builds-toward:
 - biodiversity-and-conservation
 - island-biogeography
@@ -22,9 +24,8 @@ tags:
 - evenness
 - alpha-beta-gamma
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Measuring Biodiversity: Species Richness, Diversity Indices, and Evenness
 
 ## Core Idea

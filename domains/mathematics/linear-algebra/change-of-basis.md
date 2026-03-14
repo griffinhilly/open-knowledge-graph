@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: transformation-matrices
   type: soft
+- id: matrix-composition
+  type: soft
 builds-toward:
 - diagonalization
 tags:
@@ -18,9 +20,8 @@ tags:
 - transition matrix
 - similarity
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Change of Basis and Coordinate Systems
 
 ## Core Idea

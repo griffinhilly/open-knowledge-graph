@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: monetary-policy-tools
   type: soft
+- id: duration-and-convexity
+  type: soft
 builds-toward:
 - risk-and-return-tradeoff
 tags:
@@ -19,9 +21,8 @@ tags:
 - forward-rates
 - expectations
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Term Structure of Interest Rates
 
 ## Core Idea

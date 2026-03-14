@@ -17,7 +17,7 @@ tags:
 - floating
 - policy-trilemma
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Open Economy Macroeconomics (Mundell-Fleming)

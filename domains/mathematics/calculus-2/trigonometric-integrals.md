@@ -4,19 +4,27 @@ title: Trigonometric Integrals
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: trigonometric-identities-pythagorean
-    type: hard
-  - id: double-angle-identities
-    type: hard
-  - id: u-substitution
-    type: hard
+- id: trigonometric-identities-pythagorean
+  type: hard
+- id: double-angle-identities
+  type: hard
+- id: u-substitution
+  type: hard
+- id: integration-by-parts
+  type: soft
+- id: amplitude-period-phase-shift
+  type: soft
+- id: half-angle-identities
+  type: soft
 builds-toward:
-  - trigonometric-substitution
-tags: [integration, techniques, trigonometric]
+- trigonometric-substitution
+tags:
+- integration
+- techniques
+- trigonometric
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Trigonometric Integrals
 
 ## Core Idea

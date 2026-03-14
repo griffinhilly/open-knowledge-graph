@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: conservation-of-momentum
   type: soft
+- id: work-energy-particles
+  type: soft
 builds-toward:
 - impact-and-restitution
 tags:
@@ -19,9 +21,8 @@ tags:
 - linear momentum
 - time-dependent forces
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Linear Impulse-Momentum for Particles
 
 ## Core Idea

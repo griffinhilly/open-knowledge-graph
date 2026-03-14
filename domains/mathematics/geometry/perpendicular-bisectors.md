@@ -4,17 +4,24 @@ title: Perpendicular Bisectors
 domain: mathematics
 course: geometry
 prerequisites:
-  - id: midpoint-formula
-    type: hard
-  - id: segment-and-distance
-    type: hard
+- id: midpoint-formula
+  type: hard
+- id: segment-and-distance
+  type: hard
+- id: cpctc
+  type: soft
+- id: isosceles-triangle-theorem
+  type: soft
 builds-toward:
-  - coordinate-geometry-proofs
-tags: [bisectors, perpendicular, circumcenter, equidistance]
+- coordinate-geometry-proofs
+tags:
+- bisectors
+- perpendicular
+- circumcenter
+- equidistance
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Perpendicular Bisectors
 
 ## Core Idea

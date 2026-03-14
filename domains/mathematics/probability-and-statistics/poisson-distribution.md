@@ -15,7 +15,7 @@ tags:
 - rare-events
 - lambda
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Poisson Distribution

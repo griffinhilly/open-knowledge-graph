@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: equipartition-theorem
   type: soft
+- id: heat-capacity-of-gases
+  type: soft
 builds-toward:
 - carnot-cycle
 tags:
@@ -17,9 +19,8 @@ tags:
 - gamma
 - temperature-change
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Adiabatic Processes
 
 ## Core Idea

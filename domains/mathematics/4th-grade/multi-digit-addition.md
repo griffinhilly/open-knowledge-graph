@@ -4,17 +4,25 @@ title: Multi-Digit Addition
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: place-value-whole-numbers
-    type: hard
+- id: place-value-whole-numbers
+  type: hard
+- id: three-digit-addition
+  type: soft
+- id: two-digit-addition-with-regrouping
+  type: soft
+- id: two-step-word-problems
+  type: soft
 builds-toward:
-  - multi-digit-subtraction
-  - estimation-strategies
-  - adding-subtracting-decimals
-tags: [arithmetic, addition, place-value]
+- multi-digit-subtraction
+- estimation-strategies
+- adding-subtracting-decimals
+tags:
+- arithmetic
+- addition
+- place-value
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Multi-Digit Addition
 
 ## Core Idea

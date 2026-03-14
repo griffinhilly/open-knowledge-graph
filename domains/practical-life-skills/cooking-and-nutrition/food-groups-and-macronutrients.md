@@ -16,7 +16,7 @@ tags:
 - fat
 - food-groups
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Food Groups and Macronutrients

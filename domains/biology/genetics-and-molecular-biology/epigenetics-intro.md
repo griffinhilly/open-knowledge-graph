@@ -17,7 +17,7 @@ tags:
 - chromatin
 - imprinting
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Epigenetics

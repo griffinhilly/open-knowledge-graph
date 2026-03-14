@@ -17,7 +17,7 @@ tags:
 - climax-community
 - disturbance
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Ecological Succession

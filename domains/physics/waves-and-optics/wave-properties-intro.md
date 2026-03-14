@@ -21,7 +21,7 @@ tags:
 - amplitude
 - period
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Wave Properties: Wavelength, Frequency, and Amplitude

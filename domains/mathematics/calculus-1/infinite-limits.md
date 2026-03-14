@@ -4,17 +4,21 @@ title: Infinite Limits
 domain: mathematics
 course: calculus-1
 prerequisites:
-  - id: limit-definition-intuitive
-    type: hard
-  - id: rational-functions-asymptotes-review
-    type: hard
+- id: limit-definition-intuitive
+  type: hard
+- id: rational-functions-asymptotes-review
+  type: hard
+- id: one-sided-limits
+  type: soft
 builds-toward:
-  - lhopitals-rule
-tags: [limits, infinity, vertical-asymptotes]
+- lhopitals-rule
+tags:
+- limits
+- infinity
+- vertical-asymptotes
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Infinite Limits
 
 ## Core Idea

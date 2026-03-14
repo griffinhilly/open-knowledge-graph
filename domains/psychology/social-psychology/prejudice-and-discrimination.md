@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: attitude-formation
   type: hard
+- id: fundamental-attribution-error
+  type: soft
+- id: self-serving-bias
+  type: soft
 builds-toward:
 - stereotyping-and-implicit-bias
 - social-identity-theory
@@ -18,9 +22,8 @@ tags:
 - racism
 - intergroup
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Prejudice and Discrimination
 
 ## Core Idea

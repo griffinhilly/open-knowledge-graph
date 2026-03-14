@@ -19,7 +19,7 @@ tags:
 - ontology
 - introduction
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # What Is Metaphysics?

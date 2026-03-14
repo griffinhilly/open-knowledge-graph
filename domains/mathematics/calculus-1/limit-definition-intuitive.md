@@ -14,7 +14,7 @@ builds-toward:
   - continuity-definition
 tags: [limits, definition, calculus-foundations]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Limit Definition - Intuitive

@@ -20,7 +20,7 @@ tags:
 - grouping
 - foundations
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Equal Groups

@@ -12,15 +12,16 @@ prerequisites:
   type: soft
 - id: equivalence-relations
   type: soft
+- id: depth-first-search
+  type: soft
 tags:
 - union-find
 - disjoint-sets
 - DSU
 - connectivity
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Union-Find (Disjoint Set Union)
 
 ## Core Idea

@@ -17,7 +17,7 @@ tags:
 - separation-principle
 - output-feedback
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Luenberger Observer and State Estimation

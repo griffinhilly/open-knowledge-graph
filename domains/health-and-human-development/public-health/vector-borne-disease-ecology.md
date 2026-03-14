@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: infectious-disease-epidemiology
   type: soft
+- id: outbreak-investigation
+  type: soft
 builds-toward:
 - one-health-framework
 - global-burden-of-disease
@@ -23,9 +25,8 @@ tags:
 - reservoir-host
 - vector-control
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Vector-Borne Disease Ecology and Control
 
 ## Core Idea

@@ -14,7 +14,7 @@ tags:
 - reasoning
 - psychology
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Cognitive Biases and Their Effect on Reasoning

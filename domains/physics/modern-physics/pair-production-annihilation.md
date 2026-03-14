@@ -15,7 +15,7 @@ tags:
 - pair-production
 - annihilation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Pair Production and Annihilation

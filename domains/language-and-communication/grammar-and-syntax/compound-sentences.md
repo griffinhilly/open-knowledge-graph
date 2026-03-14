@@ -18,7 +18,7 @@ tags:
 - coordination
 - FANBOYS
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Compound Sentences and Coordinating Conjunctions

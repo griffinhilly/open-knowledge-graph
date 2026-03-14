@@ -14,7 +14,7 @@ tags:
 - hardware
 - foundations
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Basic Hand Tools and Their Uses

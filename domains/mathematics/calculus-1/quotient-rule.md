@@ -10,7 +10,7 @@ builds-toward:
   - implicit-differentiation
 tags: [derivatives, rules, quotient-rule]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Quotient Rule

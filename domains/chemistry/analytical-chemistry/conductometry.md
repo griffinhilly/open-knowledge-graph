@@ -19,7 +19,7 @@ tags:
 - Kohlrausch
 - conductometric titration
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Conductometry and Conductometric Titrations

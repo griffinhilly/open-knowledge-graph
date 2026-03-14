@@ -17,7 +17,7 @@ tags:
 - Ax=0
 - free variables
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Null Space of a Matrix

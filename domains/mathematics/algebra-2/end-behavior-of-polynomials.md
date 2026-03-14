@@ -10,7 +10,7 @@ builds-toward:
   - graphing-polynomial-functions
 tags: [polynomials, end-behavior, leading-term]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # End Behavior of Polynomials

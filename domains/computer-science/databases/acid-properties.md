@@ -18,7 +18,7 @@ tags:
 - durability
 - transaction guarantees
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # ACID Properties

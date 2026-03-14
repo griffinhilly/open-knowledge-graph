@@ -18,7 +18,7 @@ tags:
 - participation-rate
 - measurement
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Unemployment: Measurement and the Labor Force

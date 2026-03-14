@@ -17,7 +17,7 @@ tags:
 - emotion
 - character
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Moral Psychology

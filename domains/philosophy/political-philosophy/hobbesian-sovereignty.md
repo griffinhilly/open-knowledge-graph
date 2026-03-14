@@ -15,7 +15,7 @@ tags:
 - absolute-authority
 - Leviathan
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Hobbesian Sovereignty

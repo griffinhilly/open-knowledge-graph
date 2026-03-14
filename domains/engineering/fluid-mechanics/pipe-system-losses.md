@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: laminar-pipe-flow
   type: soft
+- id: control-volume-momentum
+  type: soft
 builds-toward:
 - hydraulic-machinery-intro
 tags:
@@ -19,9 +21,8 @@ tags:
 - pipe networks
 - Darcy-Weisbach
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Pipe System Analysis: Major and Minor Losses
 
 ## Core Idea

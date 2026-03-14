@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: solving-linear-recurrences
   type: soft
+- id: algorithm-complexity
+  type: soft
 tags:
 - master-theorem
 - divide-and-conquer
@@ -17,9 +19,8 @@ tags:
 - recurrences
 - algorithm-analysis
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Divide-and-Conquer and the Master Theorem
 
 ## Core Idea

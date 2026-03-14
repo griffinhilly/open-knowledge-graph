@@ -18,7 +18,7 @@ tags:
 - HSQC
 - structure elucidation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # NMR Spectroscopy for Structure Elucidation

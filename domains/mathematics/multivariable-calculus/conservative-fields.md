@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: hard
+- id: directional-derivatives
+  type: soft
 builds-toward:
 - fundamental-theorem-line-integrals
 - greens-theorem
@@ -20,9 +22,8 @@ tags:
 - path-independence
 - exact-differential
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Conservative Vector Fields and Potential Functions
 
 ## Core Idea

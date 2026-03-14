@@ -16,7 +16,7 @@ builds-toward:
   - triangle-congruence-asa-aas
 tags: [triangles, angle-sum, 180-degrees]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Triangle Angle Sum Theorem

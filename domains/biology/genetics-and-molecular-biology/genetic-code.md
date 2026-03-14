@@ -18,7 +18,7 @@ tags:
 - degeneracy
 - start-stop codons
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Genetic Code

@@ -19,7 +19,7 @@ tags:
 - figured bass
 - harmony
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Chord Inversions

@@ -19,7 +19,7 @@ tags:
 - rates
 - biostatistics
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Measuring Disease Frequency: Incidence and Prevalence

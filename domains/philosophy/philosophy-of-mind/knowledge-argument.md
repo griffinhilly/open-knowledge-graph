@@ -19,7 +19,7 @@ tags:
 - physicalism
 - qualia
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Knowledge Argument (Mary's Room)

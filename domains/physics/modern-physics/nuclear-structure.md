@@ -21,7 +21,7 @@ tags:
 - strong-force
 - mass-defect
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Nuclear Structure and Binding Energy

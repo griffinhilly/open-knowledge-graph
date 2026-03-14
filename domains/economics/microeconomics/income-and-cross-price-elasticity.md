@@ -17,7 +17,7 @@ tags:
 - substitutes
 - complements
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Income and Cross-Price Elasticity

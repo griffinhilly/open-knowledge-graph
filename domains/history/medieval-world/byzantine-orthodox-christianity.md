@@ -17,7 +17,7 @@ tags:
 - theology
 - byzantium
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Byzantine Christianity and Eastern Orthodoxy

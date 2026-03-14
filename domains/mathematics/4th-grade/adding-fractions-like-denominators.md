@@ -4,18 +4,24 @@ title: Adding Fractions with Like Denominators
 domain: mathematics
 course: 4th-grade
 prerequisites:
-  - id: intro-to-fractions
-    type: hard
-  - id: equivalent-fractions
-    type: soft
+- id: intro-to-fractions
+  type: hard
+- id: equivalent-fractions
+  type: soft
+- id: fractions-sixths-eighths
+  type: soft
+- id: mixed-numbers-and-improper-fractions
+  type: soft
 builds-toward:
-  - subtracting-fractions-like-denominators
-  - adding-fractions-unlike-denominators
-tags: [fractions, addition, arithmetic]
+- subtracting-fractions-like-denominators
+- adding-fractions-unlike-denominators
+tags:
+- fractions
+- addition
+- arithmetic
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Adding Fractions with Like Denominators
 
 ## Core Idea

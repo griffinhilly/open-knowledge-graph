@@ -9,18 +9,16 @@ prerequisites:
 - id: fact-families
   type: soft
 builds-toward:
-- division-facts-within-100
-- multiplication-division-relationship
-- one-step-equations
+  - division-facts-within-100
+  - one-step-equations
 tags:
 - unknown-factor
 - multiplication
 - division
 - algebra-readiness
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Unknown Factor Problems
 
 ## Core Idea

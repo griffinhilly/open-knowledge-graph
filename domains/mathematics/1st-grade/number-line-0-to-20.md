@@ -19,7 +19,7 @@ tags:
 - addition
 - subtraction
 stage: pre-formal
-status: draft
+status: validated
 ---
 
 # Number Line (0 to 20)

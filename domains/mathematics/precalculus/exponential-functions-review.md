@@ -11,7 +11,7 @@ builds-toward:
   - derivatives-of-exponential-functions
 tags: [exponential, growth, decay]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Exponential Functions Review

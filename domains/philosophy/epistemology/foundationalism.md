@@ -6,6 +6,8 @@ course: epistemology
 prerequisites:
 - id: the-regress-problem
   type: hard
+- id: rationalism-vs-empiricism
+  type: soft
 builds-toward:
 - internalism-vs-externalism
 - responses-to-skepticism
@@ -16,9 +18,8 @@ tags:
 - Chisholm
 - incorrigibility
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Foundationalism
 
 ## Core Idea

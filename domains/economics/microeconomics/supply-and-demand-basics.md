@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: graphing-linear-equations
   type: soft
+- id: comparative-advantage-and-trade
+  type: soft
+- id: production-possibilities-frontier
+  type: soft
 builds-toward:
 - market-equilibrium
 - price-elasticity-of-demand
@@ -21,9 +25,8 @@ tags:
 - curves
 - markets
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Supply and Demand
 
 ## Core Idea

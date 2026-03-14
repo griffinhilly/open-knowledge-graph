@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: turing-machines
   type: soft
+- id: multiple-realizability
+  type: soft
 builds-toward:
 - turing-test-and-machine-minds
 tags:
@@ -21,9 +23,8 @@ tags:
 - syntax
 - semantics
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # The Chinese Room Argument
 
 ## Core Idea

@@ -4,18 +4,22 @@ title: Solving Exponential Equations
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: logarithm-properties
-    type: hard
-  - id: exponential-functions-and-graphs
-    type: hard
+- id: logarithm-properties
+  type: hard
+- id: exponential-functions-and-graphs
+  type: hard
+- id: exponential-growth-and-decay
+  type: soft
 builds-toward:
-  - natural-logarithm-and-e
-  - calculus-applications
-tags: [exponential, equations, logarithms, solving]
+- natural-logarithm-and-e
+tags:
+- exponential
+- equations
+- logarithms
+- solving
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Solving Exponential Equations
 
 ## Core Idea

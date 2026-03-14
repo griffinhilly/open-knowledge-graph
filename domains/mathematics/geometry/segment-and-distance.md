@@ -13,7 +13,7 @@ builds-toward:
   - triangle-inequality
 tags: [measurement, segments, distance-formula]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Segments and Distance

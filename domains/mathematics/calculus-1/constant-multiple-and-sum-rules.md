@@ -11,7 +11,7 @@ builds-toward:
   - antiderivatives
 tags: [derivatives, rules, linearity]
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Constant Multiple and Sum/Difference Rules

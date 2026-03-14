@@ -9,7 +9,7 @@ builds-toward:
   - classifying-angles
 tags: [geometry, lines, vocabulary]
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Points, Lines, Rays, and Segments

@@ -17,7 +17,7 @@ tags:
 - mutual-exclusion
 - atomicity
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # The Critical Section Problem and Race Conditions

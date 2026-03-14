@@ -18,7 +18,7 @@ tags:
 - continental shelf
 - abyssal plain
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Ocean Basin Structure and Bathymetry

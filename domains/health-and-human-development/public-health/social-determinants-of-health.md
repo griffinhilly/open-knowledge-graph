@@ -19,7 +19,7 @@ tags:
 - social-gradient
 - upstream-determinants
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Social Determinants of Health

@@ -13,7 +13,7 @@ builds-toward:
   - isosceles-triangle-theorem
 tags: [congruence, triangles, ASA, AAS, proof]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Triangle Congruence: ASA and AAS

@@ -20,7 +20,7 @@ tags:
 - serializability
 - strict 2PL
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Two-Phase Locking

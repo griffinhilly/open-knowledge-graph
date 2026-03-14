@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: dimensional-analysis-and-similarity
   type: soft
+- id: control-volume-momentum
+  type: soft
 tags:
 - pumps
 - turbines
@@ -18,9 +20,8 @@ tags:
 - specific speed
 - NPSH
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Hydraulic Machinery: Pumps and Turbines
 
 ## Core Idea

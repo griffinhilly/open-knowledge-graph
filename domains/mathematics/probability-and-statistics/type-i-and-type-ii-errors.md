@@ -17,7 +17,7 @@ tags:
 - alpha
 - beta
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Type I and Type II Errors

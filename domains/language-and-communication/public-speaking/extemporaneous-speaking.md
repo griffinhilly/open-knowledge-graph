@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: speech-anxiety-management
   type: soft
+- id: informative-speaking
+  type: soft
+- id: visual-aids-in-presentations
+  type: soft
 builds-toward:
 - impromptu-speaking
 - question-and-answer-management
@@ -19,9 +23,8 @@ tags:
 - preparation
 - delivery-mode
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Extemporaneous Speaking
 
 ## Core Idea

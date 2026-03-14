@@ -16,7 +16,7 @@ tags:
 - generalisation
 - evidence
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Inductive Reasoning

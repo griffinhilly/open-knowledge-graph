@@ -22,7 +22,7 @@ tags:
 - MIMO
 - modern-control
 stage: advanced
-status: draft
+status: validated
 ---
 
 # State-Space Representation

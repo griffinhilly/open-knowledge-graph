@@ -18,7 +18,7 @@ tags:
 - conclusions
 - reasoning
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Argument Structure: Premises and Conclusions

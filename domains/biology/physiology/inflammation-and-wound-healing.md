@@ -6,6 +6,8 @@ course: physiology
 prerequisites:
 - id: innate-immune-response
   type: hard
+- id: positive-feedback-mechanisms
+  type: soft
 tags:
 - inflammation
 - wound healing
@@ -14,9 +16,8 @@ tags:
 - fibroblasts
 - tissue repair
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Inflammation and Wound Healing
 
 ## Core Idea

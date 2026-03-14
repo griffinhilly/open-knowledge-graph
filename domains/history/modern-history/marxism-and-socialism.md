@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: enlightenment-origins
   type: soft
-- id: social-contract-theory
+- id: social-contract-theory-historical
   type: soft
 builds-toward:
 - russian-revolution
@@ -21,7 +21,7 @@ tags:
 - ideology
 - labor
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Marxism and Socialist Thought

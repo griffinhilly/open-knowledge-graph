@@ -17,7 +17,7 @@ tags:
 - perception
 - filter-theory
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Selective Attention

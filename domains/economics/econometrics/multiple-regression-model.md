@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: matrix-operations
   type: soft
+- id: matrix-inverses
+  type: soft
 - id: linear-regression
   type: soft
 builds-toward:
@@ -26,7 +28,7 @@ tags:
 - controls
 - matrix-form
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Multiple Regression

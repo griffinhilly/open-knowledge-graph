@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: work-energy-theorem
   type: hard
+- id: friction-forces
+  type: soft
 builds-toward:
 - collisions-elastic-inelastic
 - spring-mass-system
@@ -19,9 +21,8 @@ tags:
 - mechanical-energy
 - conservative-forces
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Conservation of Mechanical Energy
 
 ## Core Idea

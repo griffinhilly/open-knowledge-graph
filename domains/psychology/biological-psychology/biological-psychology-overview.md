@@ -21,7 +21,7 @@ tags:
 - neuroscience
 - mind-body
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Biological Psychology Overview

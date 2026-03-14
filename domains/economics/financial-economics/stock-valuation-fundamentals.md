@@ -18,7 +18,7 @@ tags:
 - dcf
 - stocks
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Stock Valuation Fundamentals

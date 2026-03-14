@@ -20,7 +20,7 @@ tags:
 - Sagittarius-A-star
 - dark-matter-halo
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Structure of the Milky Way

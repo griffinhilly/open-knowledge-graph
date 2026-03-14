@@ -4,21 +4,28 @@ title: Percent Concept
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: ratios
-    type: hard
-  - id: simplifying-fractions
-    type: soft
-  - id: decimal-place-value
-    type: soft
+- id: ratios
+  type: hard
+- id: multiplying-fractions
+  type: soft
+- id: decimal-place-value
+  type: soft
+- id: fractions-of-a-set
+  type: soft
+- id: proportions
+  type: soft
 builds-toward:
-  - percent-of-a-number
-  - percent-increase-decrease
-  - converting-fractions-decimals-percents
-tags: [percent, fractions, decimals, ratios]
+- percent-of-a-number
+- percent-increase-decrease
+- converting-fractions-decimals-percents
+tags:
+- percent
+- fractions
+- decimals
+- ratios
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Percent Concept
 
 ## Core Idea

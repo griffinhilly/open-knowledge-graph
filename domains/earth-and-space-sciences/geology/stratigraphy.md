@@ -19,7 +19,7 @@ tags:
 - steno
 - sequence-stratigraphy
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Stratigraphy and Stratigraphic Principles

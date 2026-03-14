@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: endocrine-glands-and-hormones
   type: soft
+- id: dietary-fiber-and-gut-health
+  type: soft
+- id: nutritional-assessment-methods
+  type: soft
 tags:
 - obesity
 - metabolic syndrome
@@ -19,9 +23,8 @@ tags:
 - cardiovascular disease
 - type 2 diabetes
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Obesity, Metabolic Syndrome, and Diet-Related Chronic Disease
 
 ## Core Idea

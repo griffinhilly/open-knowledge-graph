@@ -25,7 +25,7 @@ tags:
 - counting-sort
 - radix-sort
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Sorting Lower Bounds and Non-Comparison Sorts

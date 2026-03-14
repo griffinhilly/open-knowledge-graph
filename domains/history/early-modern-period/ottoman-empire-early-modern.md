@@ -22,7 +22,7 @@ tags:
 - Mediterranean
 - devshirme
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # The Ottoman Empire at Its Height

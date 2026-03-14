@@ -17,7 +17,7 @@ tags:
 - flow rate measurement
 - discharge coefficient
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Flow Measurement: Venturi, Orifice, and Pitot Tube

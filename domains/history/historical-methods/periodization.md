@@ -14,7 +14,7 @@ tags:
 - chronology
 - historical-thinking
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Periodization

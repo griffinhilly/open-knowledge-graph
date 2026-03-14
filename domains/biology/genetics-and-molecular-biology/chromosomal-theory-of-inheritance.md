@@ -22,7 +22,7 @@ tags:
 - heredity
 - Sutton-Boveri
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Chromosomal Theory of Inheritance

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: capital-asset-pricing-model
   type: soft
+- id: price-earnings-valuation
+  type: soft
 builds-toward:
 - market-anomalies-and-puzzles
 - behavioral-finance-intro
@@ -18,9 +20,8 @@ tags:
 - semi-strong
 - active-vs-passive
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Efficient Market Hypothesis (EMH)
 
 ## Core Idea

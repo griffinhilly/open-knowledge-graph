@@ -17,7 +17,7 @@ tags:
 - equal-liberty
 - difference-principle
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Rawlsian Justice: The Two Principles

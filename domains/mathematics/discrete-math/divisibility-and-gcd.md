@@ -19,7 +19,7 @@ tags:
 - number-theory
 - bezout
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Divisibility and Greatest Common Divisor

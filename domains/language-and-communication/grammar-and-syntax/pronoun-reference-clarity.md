@@ -14,7 +14,7 @@ tags:
 - reference
 - ambiguity
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Pronoun Reference Clarity

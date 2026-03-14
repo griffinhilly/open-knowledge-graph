@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: causation-in-history
   type: hard
+- id: ancient-technological-innovation
+  type: soft
 builds-toward:
 - ancient-greece-polis
 - comparing-ancient-civilizations
@@ -20,9 +22,8 @@ tags:
 - crisis
 - turning-points
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Bronze Age Collapse (c. 1200 BCE)
 
 ## Core Idea

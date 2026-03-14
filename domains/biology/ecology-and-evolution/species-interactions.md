@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: coevolution
   type: soft
+- id: predator-prey-dynamics
+  type: soft
 builds-toward:
 - keystone-species
 - ecological-succession
@@ -21,9 +23,8 @@ tags:
 - parasitism
 - commensalism
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Species Interactions: Competition, Predation, Mutualism, and Parasitism
 
 ## Core Idea

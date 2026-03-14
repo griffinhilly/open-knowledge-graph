@@ -12,13 +12,13 @@ prerequisites:
   type: soft
 builds-toward:
 - general-recursive-functions
-- church-turing-thesis
+- church-turing-thesis-formal
 tags:
 - computability
 - recursive-functions
 - models-of-computation
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Primitive Recursive Functions

@@ -18,7 +18,7 @@ tags:
 - less-than
 - ordering
 stage: concrete-operations
-status: draft
+status: validated
 ---
 
 # Comparing Three-Digit Numbers

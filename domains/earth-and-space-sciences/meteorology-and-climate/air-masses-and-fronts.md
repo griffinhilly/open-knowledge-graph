@@ -21,7 +21,7 @@ tags:
 - occluded-front
 - stationary-front
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Air Masses and Frontal Systems

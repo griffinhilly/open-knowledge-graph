@@ -16,7 +16,7 @@ tags:
 - non-coding RNA
 - RNA structure
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # RNA Types and Structure

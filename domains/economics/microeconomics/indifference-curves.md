@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: implicit-differentiation
   type: soft
+- id: marginal-utility-and-consumer-choice
+  type: soft
 builds-toward:
 - consumer-optimum
 - income-and-substitution-effects
@@ -21,9 +23,8 @@ tags:
 - convexity
 - preferences
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Indifference Curves
 
 ## Core Idea

@@ -20,7 +20,7 @@ tags:
 - NFA
 - regular
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Nondeterministic Finite Automata (NFA)

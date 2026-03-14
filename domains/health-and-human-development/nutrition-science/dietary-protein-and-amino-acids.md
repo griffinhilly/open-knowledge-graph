@@ -21,7 +21,7 @@ tags:
 - nitrogen balance
 - protein quality
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Dietary Protein, Amino Acids, and Nitrogen Balance

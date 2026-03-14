@@ -27,7 +27,7 @@ tags:
 - Ravenstein
 - mobility
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Migration: Push-Pull Theory and Patterns

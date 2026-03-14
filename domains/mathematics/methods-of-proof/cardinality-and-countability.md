@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: set-operations
   type: soft
+- id: proof-by-contradiction
+  type: soft
 builds-toward:
 - cantor-diagonalization
 tags:
@@ -18,9 +20,8 @@ tags:
 - infinite-sets
 - Cantor
 stage: formal-systems
-status: draft
+status: validated
 ---
-
 # Cardinality and Countability
 
 ## Core Idea

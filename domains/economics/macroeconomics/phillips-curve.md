@@ -14,8 +14,7 @@ prerequisites:
   type: soft
 - id: scatterplots-and-correlation
   type: soft
-builds-toward:
-- monetary-policy-tools
+builds-toward: []
 tags:
 - Phillips-curve
 - inflation-unemployment
@@ -23,9 +22,8 @@ tags:
 - stagflation
 - expectations
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # The Phillips Curve
 
 ## Core Idea

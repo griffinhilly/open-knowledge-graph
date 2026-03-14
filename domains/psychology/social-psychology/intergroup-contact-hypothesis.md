@@ -16,7 +16,7 @@ tags:
 - Allport
 - intergroup relations
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Intergroup Contact Hypothesis

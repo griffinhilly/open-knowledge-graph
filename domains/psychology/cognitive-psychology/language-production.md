@@ -12,7 +12,7 @@ tags:
 - speech-errors
 - psycholinguistics
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Language Production and Speech Errors

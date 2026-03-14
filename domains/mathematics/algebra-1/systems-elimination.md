@@ -15,7 +15,7 @@ builds-toward:
   - matrices-intro
 tags: [systems, elimination, solving, linear-equations]
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Systems of Equations — Elimination Method

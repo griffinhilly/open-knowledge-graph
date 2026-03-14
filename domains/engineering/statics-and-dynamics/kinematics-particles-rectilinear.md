@@ -22,7 +22,7 @@ tags:
 - particles
 - integration
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Rectilinear Kinematics of Particles

@@ -1,21 +1,25 @@
 ---
 id: conic-sections-ellipses
-title: "Conic Sections: Ellipses"
+title: 'Conic Sections: Ellipses'
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: conic-sections-circles
-    type: hard
-  - id: conic-sections-parabolas
-    type: soft
+- id: conic-sections-circles
+  type: hard
+- id: conic-sections-parabolas
+  type: soft
 builds-toward:
-  - conic-sections-hyperbolas
-  - precalculus-conics
-tags: [conics, ellipses, foci, major-axis, minor-axis]
+- conic-sections-hyperbolas
+- conic-sections-overview
+tags:
+- conics
+- ellipses
+- foci
+- major-axis
+- minor-axis
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Conic Sections: Ellipses
 
 ## Core Idea

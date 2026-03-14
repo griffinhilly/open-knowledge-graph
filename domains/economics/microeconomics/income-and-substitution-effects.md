@@ -16,7 +16,7 @@ tags:
 - Slutsky decomposition
 - Giffen goods
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
 
 # Income and Substitution Effects

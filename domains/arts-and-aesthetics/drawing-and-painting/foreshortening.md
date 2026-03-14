@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: observational-drawing-practice
   type: soft
+- id: two-point-perspective
+  type: soft
 builds-toward:
 - figure-drawing-fundamentals
 tags:
@@ -19,9 +21,8 @@ tags:
 - depth
 - proportion
 stage: concrete-operations
-status: draft
+status: validated
 ---
-
 # Foreshortening
 
 ## Core Idea

@@ -14,7 +14,7 @@ tags:
 - addition
 - c-invariance
 stage: advanced
-status: draft
+status: validated
 ---
 
 # Relativistic Velocity Addition

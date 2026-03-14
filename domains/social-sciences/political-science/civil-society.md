@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: democracy-types-and-theory
   type: soft
+- id: interest-groups-and-lobbying
+  type: soft
 builds-toward:
 - political-culture-and-participation
 - regime-change-and-democratization
@@ -20,9 +22,8 @@ tags:
 - associational life
 - Tocqueville
 stage: abstract-reasoning
-status: draft
+status: validated
 ---
-
 # Civil Society and Political Participation
 
 ## Core Idea

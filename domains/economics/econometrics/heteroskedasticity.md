@@ -18,7 +18,7 @@ tags:
 - Breusch-Pagan
 - White-test
 stage: formal-systems
-status: draft
+status: validated
 ---
 
 # Heteroskedasticity
