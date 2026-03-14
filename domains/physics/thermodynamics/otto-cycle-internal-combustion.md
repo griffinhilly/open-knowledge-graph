@@ -1,21 +1,33 @@
 ---
 id: otto-cycle-internal-combustion
-title: The Otto Cycle and Spark-Ignition Engines
+title: The Otto Cycle and Internal Combustion Engines
 domain: physics
 course: thermodynamics
 prerequisites:
-- id: adiabatic-processes
+- id: thermodynamic-processes
   type: hard
-- id: isobaric-and-isochoric-processes
-  type: hard
+- id: work-types-mechanical-pdv
+  type: soft
+builds-toward:
+- diesel-cycle-compression-ignition
+- pv-diagram-interpretation
 tags:
 - cycles
 - engines
+- efficiency
 stage: formal-systems
 status: draft
 ---
 
-# The Otto Cycle and Spark-Ignition Engines
+# The Otto Cycle and Internal Combustion Engines
 
 ## Core Idea
-The Otto cycle consists of four reversible processes: adiabatic compression, isochoric heat addition, adiabatic expansion, and isochoric heat rejection. It models gasoline engines with spark ignition. Efficiency is η = 1 - 1/r^(γ-1), where r is compression ratio. The Otto cycle's efficiency depends only on r and γ.
+The Otto cycle models a four-stroke internal combustion engine: adiabatic compression, constant-volume heat addition (combustion), adiabatic expansion (power stroke), and constant-volume heat rejection. The thermal efficiency is η = 1 - 1/r^(γ-1), where r is the compression ratio and γ = C_p/C_v; higher compression ratios increase efficiency, explaining why high-octane fuels are valuable. The Otto cycle illustrates how thermodynamic principles limit engine performance.
+
+## How It's Best Learned
+Sketch the Otto cycle on a P-V diagram. Derive the efficiency formula. Compare theoretical efficiency with real engine values.
+
+## Common Misconceptions
+- Thinking the Otto cycle is reversible (it is idealized; real engines are irreversible).
+- Confusing compression ratio with expansion ratio.
+- Assuming all four strokes occur at constant volume (they do not—intake and exhaust are at atmospheric pressure).

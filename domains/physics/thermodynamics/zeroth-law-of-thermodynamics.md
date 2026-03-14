@@ -1,6 +1,6 @@
 ---
 id: zeroth-law-of-thermodynamics
-title: The Zeroth Law of Thermodynamics
+title: Zeroth Law of Thermodynamics
 domain: physics
 course: thermodynamics
 prerequisites:
@@ -8,23 +8,24 @@ prerequisites:
   type: hard
 builds-toward:
 - thermodynamic-equilibrium-mechanical-chemical
+- state-variables-and-functions
 tags:
-- thermodynamics
 - equilibrium
+- temperature
 - foundational
 stage: formal-systems
 status: draft
 ---
 
-# The Zeroth Law of Thermodynamics
+# Zeroth Law of Thermodynamics
 
 ## Core Idea
-The zeroth law establishes that thermal equilibrium is a transitive relation: if system A is in thermal equilibrium with system B, and system B is in thermal equilibrium with system C, then A and C are in thermal equilibrium. This law provides the theoretical foundation for defining temperature as a measure of thermal equilibrium state and enables thermometers to work universally.
+If two systems are each in thermal equilibrium with a third system, then they are in thermal equilibrium with each other. This establishes the transitivity of thermal equilibrium and justifies the use of temperature as a well-defined property. It is the logical foundation for the concept of temperature in thermodynamics.
 
 ## How It's Best Learned
-Compare the zeroth law to analogous transitivity properties in mathematics. Practice applying it to determine which systems can exchange heat without net energy transfer. Visualize three objects in thermal contact to understand why transitivity matters physically.
+Start with simple examples: thermometer measurement, heat flow between objects, reaching equilibrium. Then formalize the logical structure and implications for defining temperature scales.
 
 ## Common Misconceptions
-- Confusing thermal equilibrium with thermal equality (systems at the same temperature but not in contact are not in equilibrium).
-- Thinking the zeroth law requires explicit contact between all systems (transitivity allows indirect relationships).
-- Assuming equilibrium is dynamic (it can be either static or dynamic).
+- Thinking the zeroth law requires heat to flow between objects.
+- Confusing it with the first law (energy conservation).
+- Assuming it only applies to identical materials.

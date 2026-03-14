@@ -6,13 +6,15 @@ course: thermodynamics
 prerequisites:
 - id: zeroth-law-of-thermodynamics
   type: hard
-- id: heat-and-internal-energy
+- id: temperature-and-thermal-equilibrium
   type: hard
 builds-toward:
 - state-variables-and-functions
+- phase-equilibrium-coexistence
 tags:
 - equilibrium
-- thermodynamics
+- stability
+- conditions
 stage: formal-systems
 status: draft
 ---
@@ -20,12 +22,12 @@ status: draft
 # Thermodynamic Equilibrium: Mechanical, Thermal, and Chemical
 
 ## Core Idea
-True thermodynamic equilibrium requires three conditions: mechanical equilibrium (no pressure differences driving motion), thermal equilibrium (uniform temperature), and chemical equilibrium (no composition change). A system not at all three types of equilibrium will spontaneously evolve toward the equilibrium state.
+Thermodynamic equilibrium occurs when a system has no tendency to change its properties and is simultaneously in mechanical, thermal, and chemical equilibrium. Mechanical equilibrium requires uniform pressure; thermal equilibrium requires uniform temperature; chemical equilibrium requires uniform chemical potential throughout. A system at true thermodynamic equilibrium will not spontaneously undergo any changes in macroscopic properties.
 
 ## How It's Best Learned
-Study each equilibrium condition separately with concrete examples (pressure equalization, heat flow, diffusion), then combine them. Analyze non-equilibrium systems to identify which condition(s) are violated. Compare approach to equilibrium in different scenarios.
+Examine systems approaching equilibrium from non-equilibrium states: gas diffusion, temperature gradients, pressure imbalances. Identify which driving forces vanish at equilibrium.
 
 ## Common Misconceptions
-- Assuming that reaching one type of equilibrium means the system is at full thermodynamic equilibrium.
-- Thinking chemical equilibrium only applies to reactive systems (it also governs diffusion and phase distribution).
-- Confusing dynamic and static equilibrium in thermodynamics.
+- Thinking equilibrium means no motion at the molecular level.
+- Confusing static equilibrium (mechanics) with thermodynamic equilibrium.
+- Assuming any single criterion (e.g., constant T) guarantees full equilibrium.

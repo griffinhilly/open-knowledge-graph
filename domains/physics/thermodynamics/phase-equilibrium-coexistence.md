@@ -4,15 +4,16 @@ title: Phase Equilibrium and Coexistence Conditions
 domain: physics
 course: thermodynamics
 prerequisites:
-- id: chemical-potential-thermodynamic
+- id: phase-transitions
   type: hard
-- id: clausius-clapeyron-equation
+- id: chemical-potential
   type: hard
 builds-toward:
-- critical-point-phenomena
+- clausius-clapeyron-equation
 tags:
 - phase-transitions
 - equilibrium
+- chemical-potential
 stage: formal-systems
 status: draft
 ---
@@ -20,4 +21,12 @@ status: draft
 # Phase Equilibrium and Coexistence Conditions
 
 ## Core Idea
-Two phases coexist in equilibrium when their chemical potentials are equal: μ_α = μ_β. This condition defines coexistence lines on phase diagrams. The Clausius-Clapeyron equation dP/dT = ΔH/(TΔV) describes how coexistence curves move with temperature. Triple points and critical points are special coexistence locations.
+At equilibrium, different phases (solid, liquid, gas) coexist when their chemical potentials are equal: μ_solid = μ_liquid = μ_gas. The Clausius-Clapeyron equation dP/dT = L/(T·ΔV) relates the slope of phase boundaries to the latent heat L and volume change ΔV. The phase diagram (P-T plot) summarizes all equilibrium conditions and is essential for understanding when substances exist in different phases and the conditions for transitions.
+
+## How It's Best Learned
+Use Clausius-Clapeyron to predict phase boundary slopes. Compare theory with experimental phase diagrams. Identify triple and critical points.
+
+## Common Misconceptions
+- Confusing phase equilibrium with thermodynamic equilibrium (phase equilibrium is a special case).
+- Assuming latent heat is constant over all temperatures (it weakly depends on T).
+- Thinking the Clausius-Clapeyron equation is valid far from phase boundaries.

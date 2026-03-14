@@ -1,31 +1,32 @@
 ---
 id: maxwell-relations-thermodynamics
-title: Maxwell Relations and Thermodynamic Reciprocities
+title: Maxwell Relations
 domain: physics
 course: thermodynamics
 prerequisites:
-- id: exact-and-inexact-differentials
+- id: legendre-transformations-potentials
   type: hard
 - id: helmholtz-free-energy
-  type: hard
-- id: gibbs-free-energy
-  type: hard
+  type: soft
+builds-toward:
+- thermodynamic-availability-exergy
 tags:
-- thermodynamics
+- potentials
 - relations
+- measurable-properties
 stage: formal-systems
 status: draft
 ---
 
-# Maxwell Relations and Thermodynamic Reciprocities
+# Maxwell Relations
 
 ## Core Idea
-Maxwell relations are equalities between partial derivatives arising from the equality of mixed partial derivatives of thermodynamic potentials. For example, from G = H - TS, we derive (∂S/∂P)_T = -(∂V/∂T)_P. These relations connect measurable properties (thermal expansion) to otherwise difficult quantities (entropy changes).
+Maxwell relations are a set of equations derived from the equality of mixed partial derivatives of thermodynamic potentials; for example, (∂T/∂V)_S = -(∂P/∂S)_V. They provide powerful constraints linking different measurable properties (like pressure, volume, temperature, entropy) and allow the calculation of hard-to-measure quantities from easily measured ones. Maxwell relations emerge naturally from the exactness of thermodynamic differentials and are a cornerstone of experimental thermodynamics.
 
 ## How It's Best Learned
-Derive Maxwell relations from thermodynamic potentials (U, H, F, G) by identifying natural variables and applying Schwarz theorem. Use Maxwell relations to rewrite partial derivatives in experimentally measurable forms. Practice deriving Cp - Cv = -T(∂P/∂T)_V²/(∂P/∂V)_T.
+Derive Maxwell relations from the four main potentials (U, H, F, G). Practice using them to express hard-to-measure derivatives in terms of easy ones.
 
 ## Common Misconceptions
-- Treating Maxwell relations as independent equations (they are mathematical consequences of state functions).
-- Thinking they only apply to reversible processes (Maxwell relations are purely thermostatic, not process-dependent).
-- Confusing which Maxwell relation corresponds to which thermodynamic potential.
+- Forgetting the sign changes when reordering variables.
+- Applying them to non-equilibrium states.
+- Confusing the Maxwell relation from one potential with those from others.

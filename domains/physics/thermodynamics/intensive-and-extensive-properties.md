@@ -1,29 +1,31 @@
 ---
 id: intensive-and-extensive-properties
-title: Intensive and Extensive Thermodynamic Properties
+title: Intensive and Extensive Properties
 domain: physics
 course: thermodynamics
 prerequisites:
-- id: state-variables-and-functions
-  type: hard
+- id: thermodynamic-processes
+  type: soft
 builds-toward:
+- state-variables-and-functions
 - molar-heat-capacities
 tags:
-- thermodynamics
+- scaling
 - properties
+- composition
 stage: formal-systems
 status: draft
 ---
 
-# Intensive and Extensive Thermodynamic Properties
+# Intensive and Extensive Properties
 
 ## Core Idea
-Intensive properties (temperature, pressure, density) are independent of system size, while extensive properties (volume, internal energy, entropy, enthalpy) scale with the amount of substance. Molar quantities (per mole) and specific quantities (per unit mass) are intensive; they allow comparison across different system sizes.
+Intensive properties (like temperature and pressure) are independent of the amount of substance in a system and remain unchanged when the system is divided into smaller parts. Extensive properties (like mass, volume, and internal energy) scale proportionally with the amount of substance and are additive for subsystems. Understanding this distinction is crucial for scaling laws and for defining specific (per-unit-mass) or molar quantities.
 
 ## How It's Best Learned
-Mentally divide a system in half: identify which properties stay the same (intensive) and which halve (extensive). Practice converting between extensive and intensive forms using molar masses. Use this distinction to understand phase diagrams and understand Gibbs-Duhem relationships.
+Imagine dividing a system in half: which properties remain the same? Which double? Explore molar quantities (U_m, V_m) and specific quantities (u, v). Use homogeneity of thermodynamic functions.
 
 ## Common Misconceptions
-- Confusing extensive with 'bulk' properties (a tiny system can have extensive properties).
-- Thinking molar volume is extensive (it is intensive—volume per mole is independent of total system size).
-- Assuming all thermodynamic properties fit neatly into one category (some properties are neither purely intensive nor extensive).
+- Thinking entropy is always extensive (it is, but entropy density is intensive).
+- Confusing density (intensive) with mass (extensive).
+- Assuming all measurable quantities are either intensive or extensive.
