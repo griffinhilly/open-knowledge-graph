@@ -1,25 +1,23 @@
 ---
 id: long-term-depression
-title: 'Long-Term Depression: Weakening of Synaptic Strength'
+title: Long-Term Depression
 domain: biology
 course: neuroscience
 prerequisites:
-- id: synaptic-transmission
+- id: postsynaptic-currents-epsc-ipsc
   type: hard
-- id: long-term-potentiation
-  type: soft
+- id: ionotropic-vs-metabotropic-receptors
+  type: hard
 builds-toward:
-- cerebellum-motor-coordination
-- critical-developmental-periods
+- spike-timing-dependent-plasticity
 tags:
 - synaptic-plasticity
 - learning
-- weakening
 stage: advanced
 status: draft
 ---
 
-# Long-Term Depression: Weakening of Synaptic Strength
+# Long-Term Depression
 
 ## Core Idea
-Long-term depression (LTD) is a persistent decrease in synaptic strength induced by low-frequency stimulation or certain patterns of pre- and postsynaptic activity. LTD is thought to erase or reduce synaptic weights, allowing selective preservation of important connections while erasing less relevant ones.
+Lasting decrease from low-frequency stimulation. Moderate Ca2+ elevation activates phosphatases (calcineurin) that remove AMPA receptors, weakening transmission.

@@ -1,26 +1,23 @@
 ---
 id: voltage-gated-potassium-channels
-title: Voltage-Gated Potassium Channels and Delayed Outward Current
+title: Voltage-Gated Potassium Channels
 domain: biology
 course: neuroscience
 prerequisites:
-- id: neuronal-compartments
+- id: resting-membrane-potential
   type: hard
-- id: cell-membrane-structure
-  type: hard
+- id: ligand-gated-ion-channels
+  type: soft
 builds-toward:
-- resting-membrane-potential
-- action-potential-initiation
-- action-potential-repolarization
+- action-potential-depolarization-repolarization
 tags:
 - ion-channels
-- electrophysiology
 - repolarization
 stage: advanced
 status: draft
 ---
 
-# Voltage-Gated Potassium Channels and Delayed Outward Current
+# Voltage-Gated Potassium Channels
 
 ## Core Idea
-Voltage-gated potassium (K+) channels open more slowly than sodium channels in response to depolarization, allowing K+ efflux that restores the membrane potential toward resting levels. Their delayed activation relative to sodium channel inactivation creates a time window for action potential generation. This temporal offset between inward and outward currents is essential for the characteristic waveform of action potentials.
+Open more slowly than Na+ channels during depolarization, allowing K+ efflux that repolarizes membrane. Lack fast inactivation, determining action potential duration.

@@ -1,28 +1,26 @@
 ---
 id: resting-membrane-potential
-title: 'Resting Membrane Potential: Integration of Ion Gradients and Permeabilities'
+title: Resting Membrane Potential
 domain: biology
 course: neuroscience
 prerequisites:
-- id: sodium-potassium-atpase
+- id: goldman-equation
   type: hard
-- id: voltage-gated-sodium-channels
+- id: neuron-structure-and-function
   type: hard
-- id: voltage-gated-potassium-channels
+- id: active-transport
   type: hard
 builds-toward:
-- nernst-equation
-- goldman-equation
-- action-potential-initiation
+- voltage-gated-sodium-channels
+- voltage-gated-potassium-channels
 tags:
+- electrophysiology
 - membrane-potential
-- equilibrium
-- excitability
 stage: advanced
 status: draft
 ---
 
-# Resting Membrane Potential: Integration of Ion Gradients and Permeabilities
+# Resting Membrane Potential
 
 ## Core Idea
-The resting membrane potential (typically −70 mV) arises from both the Na+/K+ concentration gradients and the relative permeabilities of the membrane to different ions at rest. Since the resting membrane is much more permeable to K+ than Na+, the resting potential is closer to potassium's equilibrium potential. This equilibrium between driving forces and permeabilities sets the baseline from which excitation begins.
+Steady-state voltage (~−70 mV) maintained by Na+/K+ ATPase gradients and differential permeability. At rest, K+ conductance dominates.

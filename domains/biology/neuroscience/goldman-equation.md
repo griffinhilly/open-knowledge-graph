@@ -1,23 +1,23 @@
 ---
 id: goldman-equation
-title: 'The Goldman-Hodgkin-Katz Equation: Multi-Ion Membrane Potential'
+title: The Goldman-Hodgkin-Katz Equation
 domain: biology
 course: neuroscience
 prerequisites:
 - id: nernst-equation
   type: hard
+- id: cell-membrane-structure
+  type: hard
 builds-toward:
-- action-potential-initiation
-- action-potential-repolarization
+- resting-membrane-potential
 tags:
-- electrochemistry
+- electrophysiology
 - membrane-potential
-- quantitative-physiology
 stage: advanced
 status: draft
 ---
 
-# The Goldman-Hodgkin-Katz Equation: Multi-Ion Membrane Potential
+# The Goldman-Hodgkin-Katz Equation
 
 ## Core Idea
-The Goldman-Hodgkin-Katz equation predicts membrane potential when permeable to multiple ions simultaneously, weighting each ion's contribution by its permeability. During the action potential, shifts in relative permeabilities cause depolarization (Na+ permeability rises) and repolarization (K+ permeability dominates). This equation elegantly unifies the contributions of all ions at any moment in time.
+Extends Nernst to multiple ions, weighting each by permeability. Explains why resting potential (~−70 mV) lies between K+ and Na+ equilibrium potentials, dominated by K+ permeability.
