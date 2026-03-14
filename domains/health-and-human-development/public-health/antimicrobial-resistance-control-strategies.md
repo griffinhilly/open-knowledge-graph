@@ -1,31 +1,30 @@
 ---
 id: antimicrobial-resistance-control-strategies
-title: Antimicrobial Resistance Control at the Population Level
+title: Antimicrobial Resistance Control Strategies
 domain: health-and-human-development
 course: public-health
 prerequisites:
-- id: antimicrobial-resistance-epidemiology-and-spread
+- id: communicable-disease-epidemiology
   type: hard
 - id: infectious-disease-surveillance
   type: soft
-builds-toward:
-- communicable-disease-control-strategy-selection
 tags:
-- resistance
-- infection-control
+- antibiotic-resistance
 - stewardship
+- infection-prevention
+- surveillance
+- amr
 stage: abstract-reasoning
 status: draft
 ---
 
-# Antimicrobial Resistance Control at the Population Level
+# Antimicrobial Resistance Control Strategies
 
 ## Core Idea
-Antimicrobial resistance spreads through overuse, misuse, and poor infection control. Population-level control requires surveillance to detect emerging resistance, stewardship programs to reduce unnecessary use, infection prevention to reduce transmission, and regulation of agricultural use. Each lever affects the selective pressure driving resistance evolution.
+Antimicrobial resistance epidemiology quantifies resistance prevalence and models resistance transmission through populations. Control strategies combine antimicrobial stewardship (appropriate use, narrow-spectrum selection), infection prevention and control, surveillance systems to detect emerging resistance, and development of novel antimicrobials. Population-level approaches are essential because resistance is a collective action problem—individual use decisions create externalities affecting others.
 
 ## How It's Best Learned
-Trace the emergence and spread of a specific resistance pattern (e.g., MRSA, carbapenem-resistant Enterobacterales) through hospital and community settings, identifying where each control lever could have reduced selection.
+Analyze antibiotic prescribing patterns and resistance surveillance data for specific pathogens. Model the impact of stewardship interventions and infection prevention measures on resistance trends over time.
 
 ## Common Misconceptions
-- Individual prescribers control resistance; prescribing decisions in one setting create selective pressure affecting resistance everywhere.
-- Resistance is only a hospital problem; agricultural antimicrobial use drives much of the global resistance burden.
+Antibiotic resistance is purely an antibiotic use problem ignoring infection prevention. Individual patient use is the primary driver of resistance rather than agricultural use and environmental sources. Resistance can be reversed by stopping antibiotic use rather than being a permanent evolutionary change.
