@@ -17,6 +17,3 @@ courses:
 - id: critical-theory
   title: Critical Theory
   stage: formal-systems
-- id: comparative-literature
-  title: Comparative Literature
-  stage: advanced
