@@ -18,7 +18,7 @@ tags:
 - protagonist
 - dramatic-tension
 - stakes
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

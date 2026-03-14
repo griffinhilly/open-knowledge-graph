@@ -23,7 +23,7 @@ tags:
 - genre
 - fixed forms
 - open forms
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 # Poetic Form Overview

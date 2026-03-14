@@ -16,7 +16,7 @@ tags:
 - anaphora
 - rhetoric
 - structure
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

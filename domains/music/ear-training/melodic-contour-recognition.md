@@ -16,7 +16,7 @@ tags:
 - contour
 - direction
 - ear training
-stage: concrete-operations
+stage: pre-formal
 status: validated
 ---
 

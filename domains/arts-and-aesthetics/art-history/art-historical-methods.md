@@ -18,7 +18,7 @@ tags:
 - psychoanalysis
 - semiotics
 - connoisseurship
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

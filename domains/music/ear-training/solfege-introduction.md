@@ -16,7 +16,7 @@ tags:
 - solmization
 - do re mi
 - pitch naming
-stage: concrete-operations
+stage: pre-formal
 status: validated
 ---
 

@@ -28,7 +28,7 @@ tags:
 - chorale
 - texture
 - voice-leading
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Four-Part Writing (SATB)

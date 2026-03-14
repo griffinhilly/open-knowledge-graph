@@ -17,7 +17,7 @@ tags:
 - detective-fiction
 - plot
 - withholding-information
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

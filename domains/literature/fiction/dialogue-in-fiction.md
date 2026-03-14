@@ -20,7 +20,7 @@ tags:
 - speech
 - characterization
 - subtext
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

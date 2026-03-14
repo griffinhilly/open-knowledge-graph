@@ -16,7 +16,7 @@ tags:
 - plot
 - character
 - tension
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

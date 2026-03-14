@@ -14,7 +14,7 @@ tags:
 - direct characterization
 - indirect characterization
 - STEAL
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

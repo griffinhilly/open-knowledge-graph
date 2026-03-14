@@ -19,7 +19,7 @@ tags:
 - form
 - extended-narrative
 - prose-fiction
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

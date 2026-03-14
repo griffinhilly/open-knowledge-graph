@@ -18,7 +18,7 @@ tags:
 - scheme
 - ABAB
 - structure
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

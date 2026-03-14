@@ -24,7 +24,7 @@ tags:
 - affect
 - diction
 - register
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 # Tone and Mood

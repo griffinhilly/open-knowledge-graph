@@ -12,7 +12,7 @@ tags:
 - line
 - elements
 - mark-making
-stage: concrete-operations
+stage: pre-formal
 status: validated
 ---
 

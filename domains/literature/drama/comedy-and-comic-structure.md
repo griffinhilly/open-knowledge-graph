@@ -15,7 +15,7 @@ tags:
 - comic-structure
 - New-Comedy
 - Old-Comedy
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

@@ -21,7 +21,7 @@ tags:
 - user journey
 - usability testing
 - human-centered design
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

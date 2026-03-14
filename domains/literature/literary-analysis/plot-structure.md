@@ -17,7 +17,7 @@ tags:
 - structure
 - narrative
 - Freytag
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 # Plot Structure

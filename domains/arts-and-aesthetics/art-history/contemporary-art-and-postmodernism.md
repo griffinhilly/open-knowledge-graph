@@ -19,7 +19,7 @@ tags:
 - installation
 - appropriation
 - identity
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

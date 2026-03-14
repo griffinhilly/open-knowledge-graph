@@ -19,7 +19,7 @@ tags:
 - eleventh
 - thirteenth
 - jazz
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

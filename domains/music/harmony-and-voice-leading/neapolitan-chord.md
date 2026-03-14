@@ -20,7 +20,7 @@ tags:
 - chromatic-harmony
 - bII
 - pre-dominant
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

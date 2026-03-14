@@ -16,7 +16,7 @@ tags:
 - pigment
 - additive
 - subtractive
-stage: concrete-operations
+stage: pre-formal
 status: validated
 ---
 

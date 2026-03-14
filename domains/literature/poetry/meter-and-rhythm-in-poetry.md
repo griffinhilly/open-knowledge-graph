@@ -19,7 +19,7 @@ tags:
 - rhythm
 - prosody
 - stress
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

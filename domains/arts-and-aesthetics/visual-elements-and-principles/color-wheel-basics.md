@@ -14,7 +14,7 @@ tags:
 - primary
 - secondary
 - tertiary
-stage: concrete-operations
+stage: pre-formal
 status: validated
 ---
 

@@ -22,7 +22,7 @@ tags:
 - Berg
 - Second-Viennese-School
 - dodecaphony
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

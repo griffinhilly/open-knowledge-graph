@@ -22,7 +22,7 @@ tags:
 - conventions
 - reader-expectations
 - classification
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 # Genre Conventions in Fiction

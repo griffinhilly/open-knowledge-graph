@@ -15,7 +15,7 @@ tags:
 - speculative-fiction
 - technology
 - extrapolation
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

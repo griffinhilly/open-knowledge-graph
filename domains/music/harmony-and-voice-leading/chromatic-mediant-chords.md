@@ -15,7 +15,7 @@ tags:
 - chromatic-harmony
 - Romantic
 - third-relations
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -26,7 +26,7 @@ tags:
 - inclusive design
 - a11y
 - disability
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Accessibility in Design

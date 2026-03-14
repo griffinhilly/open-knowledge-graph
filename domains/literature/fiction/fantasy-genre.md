@@ -15,7 +15,7 @@ tags:
 - secondary-world
 - myth
 - the-fantastic
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

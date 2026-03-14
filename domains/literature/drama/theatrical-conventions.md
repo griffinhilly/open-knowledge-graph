@@ -13,7 +13,7 @@ tags:
 - fourth-wall
 - performance
 - theatre
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

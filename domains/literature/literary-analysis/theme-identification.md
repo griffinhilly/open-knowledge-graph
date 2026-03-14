@@ -19,7 +19,7 @@ tags:
 - interpretation
 - central idea
 - argument
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

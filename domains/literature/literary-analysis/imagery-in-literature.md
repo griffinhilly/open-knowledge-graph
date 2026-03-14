@@ -19,7 +19,7 @@ tags:
 - visual
 - pattern
 - motif
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - call and response
 - imitation
 - vocal
-stage: concrete-operations
+stage: pre-formal
 status: validated
 ---
 

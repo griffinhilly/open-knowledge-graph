@@ -17,7 +17,7 @@ tags:
 - kigo
 - juxtaposition
 - Japanese form
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

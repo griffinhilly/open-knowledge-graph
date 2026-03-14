@@ -21,7 +21,7 @@ tags:
 - personification
 - hyperbole
 - figurative language
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

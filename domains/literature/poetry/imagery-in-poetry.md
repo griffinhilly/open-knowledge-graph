@@ -19,7 +19,7 @@ tags:
 - sensory
 - concrete
 - vivid language
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 # Imagery in Poetry

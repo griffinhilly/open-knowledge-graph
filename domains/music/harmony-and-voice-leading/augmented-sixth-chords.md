@@ -20,7 +20,7 @@ tags:
 - French-sixth
 - German-sixth
 - chromatic-harmony
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

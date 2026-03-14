@@ -22,7 +22,7 @@ tags:
 - fluid grid
 - viewport
 - adaptive layout
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Responsive Design Principles

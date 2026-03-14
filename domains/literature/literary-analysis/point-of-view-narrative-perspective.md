@@ -19,7 +19,7 @@ tags:
 - third person
 - omniscience
 - focalization
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

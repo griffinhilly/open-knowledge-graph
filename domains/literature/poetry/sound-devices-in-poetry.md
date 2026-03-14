@@ -21,7 +21,7 @@ tags:
 - consonance
 - onomatopoeia
 - sound
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

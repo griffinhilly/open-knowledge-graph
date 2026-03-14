@@ -31,7 +31,7 @@ tags:
 - consistency
 - scalability
 - documentation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Design Systems and Consistency

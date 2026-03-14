@@ -15,7 +15,7 @@ tags:
 - inner hearing
 - musicianship
 - foundational
-stage: concrete-operations
+stage: pre-formal
 status: validated
 ---
 
