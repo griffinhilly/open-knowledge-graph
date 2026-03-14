@@ -4,28 +4,26 @@ title: One-to-One Correspondence
 domain: mathematics
 course: kindergarten
 prerequisites:
-- id: counting-to-10
+- id: counting-to-five
   type: hard
 builds-toward:
-- counting-objects-to-20
-- matching-numerals-to-quantities
-- comparing-quantities
+- comparing-quantities-more-less
+- addition-within-5-concrete
 tags:
-- cardinality
-- counting
-- one-to-one
+- correspondence
+- matching
+- counting-principle
 stage: pre-formal
-status: validated
+status: draft
 ---
 
 # One-to-One Correspondence
 
 ## Core Idea
-One-to-one correspondence means matching exactly one number word to exactly one object when counting. A child has one-to-one correspondence when they touch each object once and only once while saying a distinct counting word. This is the core skill that makes counting meaningful rather than just recitation.
+Each object in a set is paired with exactly one count word or tally mark. This principle ensures accurate counting and lays the foundation for comparing sets.
 
 ## How It's Best Learned
-Have children physically move objects to a separate pile as they count. Use activities where they draw lines matching objects in one group to objects in another group.
+Touch or move each object as you say its count word. Line objects up in a row. Match objects from one set to another (napkins to children).
 
 ## Common Misconceptions
-- Saying numbers faster or slower than the touching — the word and touch must be synchronized.
-- Counting an object twice or skipping one.
+Counting too fast without touching objects. Counting an object twice or skipping some. Double-counting when objects are rearranged.

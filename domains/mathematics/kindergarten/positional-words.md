@@ -1,26 +1,26 @@
 ---
 id: positional-words
-title: Positional and Directional Words
+title: 'Positional Words: Above, Below, Beside'
 domain: mathematics
 course: kindergarten
 prerequisites: []
+builds-toward:
+- coordinate-plane-intro
 tags:
-- geometry
-- spatial-reasoning
-- vocabulary
+- spatial
 - position
+- vocabulary
 stage: pre-formal
-status: validated
+status: draft
 ---
 
-# Positional and Directional Words
+# Positional Words: Above, Below, Beside
 
 ## Core Idea
-Positional words describe where objects are in relation to other objects: above, below, beside, in front of, behind, inside, outside, next to, on top of. Using this vocabulary precisely is essential for spatial reasoning and will support later work with coordinate geometry and geometric descriptions.
+Children understand and use positional language (above, below, beside, next to, in front of, behind) to describe the location of objects. Positional vocabulary is foundational for spatial reasoning.
 
 ## How It's Best Learned
-Embed in play: 'Put the teddy bear under the table.' Use Total Physical Response — children move themselves or objects in response to positional commands. Read books that use position words.
+Use real objects and give directions ("Put the block above the cup"). Play games like Simon Says with positional words. Describe locations of classroom objects.
 
 ## Common Misconceptions
-- Confusing 'in front of' and 'behind,' which depend on orientation.
-- 'Above' and 'over' seem interchangeable but have distinct uses in math contexts.
+Confusing similar positions (above/below). Using imprecise language ("up" instead of "above"). Difficulty following two-part position commands.

@@ -1,30 +1,28 @@
 ---
 id: separating-small-groups
-title: Separating Small Groups (Pre-Subtraction)
+title: Separating Small Groups Within 5
 domain: mathematics
 course: kindergarten
 prerequisites:
-- id: counting-objects-to-20
+- id: one-to-one-correspondence
   type: hard
-- id: cardinality-principle
-  type: hard
+builds-toward:
+- introduction-to-subtraction
 tags:
 - subtraction
-- pre-subtraction
 - separating
-- number-sense
+- early-arithmetic
 stage: pre-formal
-status: validated
+status: draft
 ---
 
-# Separating Small Groups (Pre-Subtraction)
+# Separating Small Groups Within 5
 
 ## Core Idea
-Separating small groups means taking some objects away from a collection and finding how many are left. This is the conceptual foundation of subtraction before formal notation. Children see that removing 2 from a group of 5 leaves 3.
+Children start with a small group of objects, remove some, and count what remains. Separating is the concrete foundation for the concept of subtraction.
 
 ## How It's Best Learned
-Use physical objects and story contexts: 'There were 5 cookies and you ate 2. How many are left?' Have children physically remove objects and count what remains.
+Use objects to show a group, remove some to a separate pile, and count the remaining objects. Act out contexts ("There were 5 cookies, you ate 2, how many left?").
 
 ## Common Misconceptions
-- Counting the removed objects instead of the remaining ones.
-- Not understanding that 'take away' and 'how many are left' refer to the same operation.
+Combining the separated groups back together instead of counting only what remains. Counting the removed items instead of the remaining items.
