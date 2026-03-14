@@ -1,35 +1,29 @@
 ---
 id: developmental-psychology-overview
-title: Developmental Psychology Overview
+title: 'Developmental Psychology: Overview and Key Concepts'
 domain: psychology
 course: developmental-psychology
-prerequisites:
-- id: scientific-method-psychology
-  type: hard
-- id: biological-psychology-overview
-  type: soft
+prerequisites: []
 builds-toward:
-- prenatal-development
-- nature-nurture-debate
-- piaget-sensorimotor-stage
-- attachment-theory
-- erikson-psychosocial-stages
+- nature-nurture-gene-environment-interaction
+- object-permanence-sensorimotor-development
+- social-referencing-emotional-development
 tags:
 - development
 - lifespan
-- introduction
+- overview
+- theoretical-frameworks
 stage: abstract-reasoning
-status: validated
+status: draft
 ---
 
-# Developmental Psychology Overview
+# Developmental Psychology: Overview and Key Concepts
 
 ## Core Idea
-Developmental psychology studies how humans change physically, cognitively, and socially across the lifespan, from conception through old age. The field examines continuity versus discontinuity (gradual change vs. stage-like leaps), the relative influence of nature and nurture, and whether early experiences have lasting effects. Major domains of development include motor, perceptual, cognitive, language, social, and emotional growth. Key theoretical frameworks include psychoanalytic, cognitive-developmental, behaviorist, sociocultural, and ecological approaches.
+Developmental psychology examines how people change across the lifespan—physically, cognitively, socially, and emotionally. It integrates biological, cognitive, and social perspectives to understand universal patterns, individual differences, and the interplay between heredity and environment.
 
 ## How It's Best Learned
-Survey major theorists (Piaget, Vygotsky, Erikson, Bowlby) and understand what question each theory addresses before drilling into specific stages. Use timeline charts to place stages in chronological order.
+Start with case studies of individuals across different ages to ground concepts; then learn overarching theories (Piaget, Erikson, ecological systems) to organize observations into coherent frameworks.
 
 ## Common Misconceptions
-- Development does not stop at adolescence — it is genuinely lifelong.
-- Stages are not rigidly age-locked; ages given are averages with wide normal variation.
+Development is not inevitable or universal—outcomes depend critically on context and timing. 'Stages' are not rigid boundaries; development is continuous with some periods of faster change. Not all development follows Western patterns.
