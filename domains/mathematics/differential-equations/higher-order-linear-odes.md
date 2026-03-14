@@ -4,17 +4,16 @@ title: Higher-Order Linear Differential Equations
 domain: mathematics
 course: differential-equations
 prerequisites:
+- id: undetermined-coefficients
+  type: hard
 - id: variation-of-parameters
-  type: hard
-- id: characteristic-equation-method
-  type: hard
+  type: soft
 builds-toward:
-- systems-of-first-order-linear-odes
-- power-series-solutions-to-odes
+- systems-first-order-linear-odes
 tags:
 - higher-order
 - linear
-- general-theory
+- nth-order
 stage: advanced
 status: draft
 ---
@@ -22,4 +21,4 @@ status: draft
 # Higher-Order Linear Differential Equations
 
 ## Core Idea
-An nth-order linear ODE a_n(x)y^{(n)} + ... + a₁(x)y' + a₀(x)y = g(x) is solved by finding n linearly independent solutions to the homogeneous equation and adding a particular solution. The characteristic equation method extends directly: for constant coefficients, solve r^n + ... + a₁r + a₀ = 0.
+An nth-order linear ODE has the form y^(n) + a_{n-1}y^(n-1) + ... + a₁y' + a₀y = f(x). The same principles apply: combine n linearly independent homogeneous solutions and add a particular solution. For constant coefficients, the characteristic equation becomes a polynomial of degree n. Higher-order equations arise naturally when modeling complex mechanical and electrical systems.

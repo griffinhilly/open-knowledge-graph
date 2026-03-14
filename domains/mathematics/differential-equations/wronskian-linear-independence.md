@@ -1,31 +1,25 @@
 ---
 id: wronskian-linear-independence
-title: The Wronskian and Linear Independence
+title: Wronskian and Linear Independence
 domain: mathematics
 course: differential-equations
 prerequisites:
-- id: second-order-linear-homogeneous-odes
+- id: repeated-roots-reduction-of-order
   type: hard
 - id: determinants-2x2-3x3
   type: hard
 builds-toward:
+- undetermined-coefficients
 - variation-of-parameters
-- higher-order-linear-odes
 tags:
-- second-order
-- independence
-- linear-algebra
+- wronskian
+- linear-independence
+- theoretical
 stage: advanced
 status: draft
 ---
 
-# The Wronskian and Linear Independence
+# Wronskian and Linear Independence
 
 ## Core Idea
-The Wronskian W(y₁, y₂) = y₁y₂' - y₁'y₂ is a determinant-based test for linear independence of two solutions. If W ≠ 0 on an interval, y₁ and y₂ are linearly independent, ensuring that y = c₁y₁ + c₂y₂ is the general solution.
-
-## How It's Best Learned
-Compute the Wronskian for pairs of solutions (exponentials, polynomials, trig functions). Verify Abel's formula: W(y₁, y₂) = ce^{-∫p(x)dx} for y'' + p(x)y' + q(x)y = 0.
-
-## Common Misconceptions
-- Thinking W = 0 proves linear dependence everywhere; it only does so in a continuous region. - Forgetting that W and linear independence are tied to the differential equation context, not just any functions. - Computing the determinant incorrectly due to sign errors in the cross-product terms.
+The Wronskian W[y₁, y₂] = y₁y₂' - y₂y₁' is a determinant measuring linear independence of two solutions. If W ≠ 0 at any point, the solutions are linearly independent and form a fundamental set generating all solutions. For linear ODEs, the Wronskian is either always zero or never zero, making it a definitive test for independence.

@@ -4,17 +4,16 @@ title: Exact Differential Equations
 domain: mathematics
 course: differential-equations
 prerequisites:
-- id: separable-differential-equations
+- id: integrating-factor-method
   type: hard
 - id: partial-derivatives
   type: hard
 builds-toward:
-- integrating-factor-method
-- partial-fraction-decomposition-integration
+- existence-uniqueness-ode
 tags:
+- exact-equations
 - first-order
-- test
-- method
+- partial-derivatives
 stage: advanced
 status: draft
 ---
@@ -22,10 +21,4 @@ status: draft
 # Exact Differential Equations
 
 ## Core Idea
-An equation M(x,y)dx + N(x,y)dy = 0 is exact if ∂M/∂y = ∂N/∂x, meaning it represents the total differential of some function F(x,y). For exact equations, the solution is F(x,y) = C, found by integrating M or N appropriately.
-
-## How It's Best Learned
-Start by checking the exactness condition ∂M/∂y = ∂N/∂x for several examples. Then practice finding F by integrating M with respect to x, then adjusting for the y-dependent part.
-
-## Common Misconceptions
-- Confusing exactness with separability; an exact equation is not necessarily separable. - Computing partial derivatives incorrectly. - Not handling the constant of integration properly when finding F(x,y) from M or N.
+An exact differential equation M(x,y)dx + N(x,y)dy = 0 satisfies ∂M/∂y = ∂N/∂x, indicating it comes from a potential function F(x,y) where dF = M dx + N dy. The solution is implicitly F(x,y) = C, found by integrating M with respect to x. For non-exact equations, an integrating factor can restore exactness.

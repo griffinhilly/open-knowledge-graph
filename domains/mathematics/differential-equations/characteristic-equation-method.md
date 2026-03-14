@@ -1,31 +1,25 @@
 ---
 id: characteristic-equation-method
-title: The Characteristic Equation Method
+title: Characteristic Equation Method for Linear ODEs
 domain: mathematics
 course: differential-equations
 prerequisites:
 - id: second-order-linear-homogeneous-odes
   type: hard
-- id: eigenvalues-and-eigenvectors
+- id: quadratic-formula
   type: hard
 builds-toward:
 - complex-roots-oscillatory-solutions
 - repeated-roots-reduction-of-order
 tags:
-- second-order
-- method
+- characteristic-equation
 - constant-coefficients
+- solution-method
 stage: advanced
 status: draft
 ---
 
-# The Characteristic Equation Method
+# Characteristic Equation Method for Linear ODEs
 
 ## Core Idea
-For ay'' + by' + cy = 0 with constant coefficients, the characteristic equation ar² + br + c = 0 reveals the form of solutions. The roots r determine whether solutions are exponential (real roots) or oscillatory (complex roots).
-
-## How It's Best Learned
-Solve the characteristic equation, then construct the general solution based on the nature of the roots. Practice all three cases: distinct real roots, repeated real roots, and complex conjugate roots.
-
-## Common Misconceptions
-- Forgetting to set y = e^{rx} and derive the characteristic equation; this is not arbitrary but follows from substitution. - Confusing the characteristic equation with the original differential equation. - Making sign errors when forming the characteristic equation from the original equation.
+For constant-coefficient linear ODEs, assume a solution y = e^(rx) and substitute to obtain a characteristic equation. For y'' + py' + qy = 0, the characteristic equation is r² + pr + q = 0. The roots r determine the solution form: distinct real roots give y = c₁e^(r₁x) + c₂e^(r₂x); complex roots give oscillatory solutions; repeated roots require x factors. This algebraic approach elegantly solves a wide class of equations.

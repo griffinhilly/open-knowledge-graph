@@ -6,12 +6,12 @@ course: differential-equations
 prerequisites:
 - id: convolution-theorem
   type: hard
-- id: laplace-transform-of-derivatives
-  type: soft
+builds-toward:
+- systems-first-order-linear-odes
 tags:
-- laplace-transform
 - delta-function
 - impulse
+- distribution
 stage: advanced
 status: draft
 ---
@@ -19,4 +19,4 @@ status: draft
 # Dirac Delta Function and Impulse Response
 
 ## Core Idea
-The Dirac delta function δ(t - a) is a 'generalized function' that is zero everywhere except t = a, where it is infinite in such a way that ∫δ(t - a)·f(t) dt = f(a). Its Laplace transform is L{δ(t - a)} = e^{-as}, making it ideal for modeling instantaneous impulses in systems.
+The Dirac delta δ(t) models an instantaneous impulse: zero everywhere except at t = 0, with ∫_{-∞}^∞ δ(t)dt = 1. Its Laplace transform is L[δ(t)] = 1. The impulse response of a system is the solution when forced by δ(t), and convolution with the impulse response gives the response to any input. Deltas are essential for modeling sudden shocks and discontinuous inputs.

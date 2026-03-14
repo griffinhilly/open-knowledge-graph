@@ -9,11 +9,11 @@ prerequisites:
 - id: partial-fractions
   type: hard
 builds-toward:
-- solving-ivps-with-laplace-transforms
+- laplace-transform-derivatives
 tags:
-- laplace-transform
-- inversion
-- fractions
+- inverse-transform
+- partial-fractions
+- recovery
 stage: advanced
 status: draft
 ---
@@ -21,10 +21,4 @@ status: draft
 # Inverse Laplace Transform and Partial Fractions
 
 ## Core Idea
-The inverse Laplace transform L⁻¹{F(s)} recovers f(t) from F(s). For rational functions F(s) = P(s)/Q(s), decompose via partial fractions into standard forms, then apply L⁻¹ to each term using transform tables.
-
-## How It's Best Learned
-Practice partial fraction decomposition on rational functions with distinct, repeated, and quadratic factors. Verify results by taking Laplace transforms of the answers.
-
-## Common Misconceptions
-- Thinking the inverse is unique; for practical purposes it is, but technically the transform loses information on sets of measure zero. - Not handling repeated poles correctly in partial fractions. - Confusing inverse Laplace transform with Laplace transform itself.
+To recover f(t) from F(s), decompose F(s) = P(s)/Q(s) using partial fractions, then apply the inverse Laplace transform to each term via tables. This converts a challenging inversion problem into algebra and table lookup. The partial fraction decomposition handles poles (roots of the denominator), with simple poles giving exponential terms and complex conjugate poles giving oscillatory terms.

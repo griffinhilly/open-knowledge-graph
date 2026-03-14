@@ -1,27 +1,24 @@
 ---
 id: matrix-exponential-method
-title: Matrix Exponential Method for Systems
+title: Matrix Exponential Method
 domain: mathematics
 course: differential-equations
 prerequisites:
-- id: systems-of-first-order-linear-odes
+- id: systems-first-order-linear-odes
   type: hard
-- id: eigenvalues-and-eigenvectors
+- id: diagonalization
   type: hard
 builds-toward:
-- stability-classification
+- phase-portraits-linear-systems
 tags:
-- systems
-- method
 - matrix-exponential
+- fundamental-matrix
+- solution-formula
 stage: advanced
 status: draft
 ---
 
-# Matrix Exponential Method for Systems
+# Matrix Exponential Method
 
 ## Core Idea
-For the homogeneous system y' = Ay with constant matrix A, the solution is y(t) = e^{At}y₀, where e^{At} is the matrix exponential. When A is diagonalizable, e^{At} = Pe^{Λt}P⁻¹, making the solution explicit in terms of eigenvalues and eigenvectors.
-
-## How It's Best Learned
-Compute matrix exponentials for 2×2 systems with distinct real eigenvalues, then handle complex eigenvalues. Verify solutions by differentiating e^{At}y₀ directly.
+The solution to dx/dt = Ax, x(0) = x₀ is x(t) = e^(At)x₀, where e^(At) is the matrix exponential. If A = PDP⁻¹ (diagonalizable), then e^(At) = Pe^(Dt)P⁻¹ is easy to compute. The matrix exponential encodes all solution behavior and naturally handles initial conditions. It is the matrix analog of the scalar solution x(t) = e^(at)x₀.

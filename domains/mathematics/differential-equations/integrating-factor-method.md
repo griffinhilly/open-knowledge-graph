@@ -1,31 +1,25 @@
 ---
 id: integrating-factor-method
-title: Integrating Factor Method
+title: Integrating Factor Method for First-Order Linear ODEs
 domain: mathematics
 course: differential-equations
 prerequisites:
-- id: first-order-linear-odes
+- id: separable-differential-equations
   type: hard
-- id: integration-by-parts
+- id: partial-derivatives
   type: soft
 builds-toward:
-- variation-of-parameters
-- laplace-transform-of-derivatives
+- exact-differential-equations
+- first-order-linear-odes
 tags:
+- integrating-factor
 - first-order
-- method
-- solving
+- linear
 stage: advanced
 status: draft
 ---
 
-# Integrating Factor Method
+# Integrating Factor Method for First-Order Linear ODEs
 
 ## Core Idea
-The integrating factor method transforms a first-order linear ODE dy/dx + p(x)y = q(x) into an exact equation by multiplying through by μ(x) = e^(∫p(x)dx). This technique converts the left side into the derivative of a product, allowing direct integration to find y.
-
-## How It's Best Learned
-Solve several examples where p(x) is constant, then tackle cases where p(x) is more complex. Always verify that μ(x)p(x) equals d/dx[μ(x)].
-
-## Common Misconceptions
-- Computing the integrating factor incorrectly by forgetting the constant of integration (the +C must be omitted). - Multiplying only part of the equation by μ(x). - Not recognizing when to use integrating factors versus other methods.
+For a first-order linear ODE of the form dy/dx + P(x)y = Q(x), an integrating factor μ(x) = e^(∫P(x)dx) transforms the left side into the derivative of a product: d/dx[μ(x)y] = μ(x)Q(x). This makes the equation directly integrable, converting a challenging linear equation into a solvable form. The integrating factor is one of the most powerful techniques in differential equations.

@@ -1,28 +1,25 @@
 ---
 id: frobenius-method
-title: The Frobenius Method for Singular Points
+title: Frobenius Method and Equations with Singular Points
 domain: mathematics
 course: differential-equations
 prerequisites:
-- id: ordinary-and-singular-points
+- id: power-series-solutions
   type: hard
-- id: power-series-solutions-to-odes
-  type: hard
+- id: continuity-definition
+  type: soft
 builds-toward:
 - bessel-functions
-- legendre-polynomials-and-equations
+- legendre-equations
 tags:
-- series
-- singular-point
-- method
+- frobenius-method
+- singular-points
+- series-solution
 stage: advanced
 status: draft
 ---
 
-# The Frobenius Method for Singular Points
+# Frobenius Method and Equations with Singular Points
 
 ## Core Idea
-At a regular singular point x₀, the Frobenius method assumes y = (x - x₀)^r·Σ(a_n·(x - x₀)^n). Substituting yields an indicial equation determining r and a recurrence for a_n. This method generalizes power series solutions to include logarithmic terms when needed.
-
-## How It's Best Learned
-Apply the method to Bessel's equation y'' + (1/x)y' + (1 - n²/x²)y = 0, deriving the indicial equation r² - n² = 0 and recurrence relations for Bessel function coefficients.
+For regular singular points where (x-x₀)p and (x-x₀)²q are analytic in y'' + p(x)y' + q(x)y = 0, the Frobenius method seeks y = (x-x₀)^r Σ aₙ(x-x₀)^n. Substituting yields an indicial equation for r and a recurrence relation for coefficients. Two independent solutions typically arise from different indicial roots. This method extends power series to a broader class of important equations.

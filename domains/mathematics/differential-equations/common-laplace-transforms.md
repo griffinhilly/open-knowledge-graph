@@ -1,25 +1,22 @@
 ---
 id: common-laplace-transforms
-title: Table of Common Laplace Transforms
+title: Common Laplace Transform Pairs
 domain: mathematics
 course: differential-equations
 prerequisites:
-- id: laplace-transform-definition-and-properties
+- id: laplace-transform-definition
   type: hard
 builds-toward:
-- solving-ivps-with-laplace-transforms
+- inverse-laplace-transform
 tags:
 - laplace-transform
-- table
-- reference
+- tables
+- common-functions
 stage: advanced
 status: draft
 ---
 
-# Table of Common Laplace Transforms
+# Common Laplace Transform Pairs
 
 ## Core Idea
-Standard Laplace transforms include L{1} = 1/s, L{t^n} = n!/s^{n+1}, L{e^{at}} = 1/(s-a), L{sin(ωt)} = ω/(s²+ω²), L{cos(ωt)} = s/(s²+ω²). These basic pairs and linearity enable transformation of most ODE problems without direct integration.
-
-## How It's Best Learned
-Memorize or have quick access to a table of 15-20 common transforms. Practice using linearity to decompose complex functions into table entries.
+Standard Laplace transforms include: L[1] = 1/s, L[t^n] = n!/s^(n+1), L[e^(at)] = 1/(s-a), L[sin(bt)] = b/(s²+b²), L[cos(bt)] = s/(s²+b²). Tables of these pairs are essential references. Combinations via linearity and shifting theorems yield transforms of more complex functions, including step functions, impulses, and piecewise-defined inputs.
