@@ -1,24 +1,24 @@
 ---
 id: generalized-least-squares
-title: Generalized Least Squares (GLS)
+title: Generalized Least Squares (GLS) for Non-Spherical Errors
 domain: economics
 course: econometrics
 prerequisites:
+- id: white-test-heteroskedasticity
+  type: hard
 - id: ols-assumptions
   type: hard
-- id: heteroskedasticity
-  type: hard
 builds-toward:
-- weighted-least-squares
+- feasible-generalized-least-squares-fgls
 tags:
-- gls
+- estimation
 - heteroskedasticity
-- efficiency
+- gls
 stage: formal-systems
 status: draft
 ---
 
-# Generalized Least Squares (GLS)
+# Generalized Least Squares (GLS) for Non-Spherical Errors
 
 ## Core Idea
-GLS is an efficient estimation technique when errors are heteroskedastic or serially correlated. By transforming the model to make errors homoskedastic, GLS yields more efficient estimators than OLS and valid standard errors.
+GLS transforms the regression by the inverse of the error variance-covariance matrix, restoring efficiency when errors are heteroskedastic or serially correlated. When the covariance structure is known, GLS recovers BLUE properties; when unknown and must be estimated from residuals, the procedure is feasible GLS (FGLS).
