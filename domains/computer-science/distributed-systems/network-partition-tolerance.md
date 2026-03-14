@@ -1,33 +1,25 @@
 ---
 id: network-partition-tolerance
-title: Network Partitions and Partition Tolerance
+title: Network Partition Tolerance and Split-Brain
 domain: computer-science
 course: distributed-systems
 prerequisites:
 - id: failure-models-distributed
   type: hard
 - id: cap-theorem
-  type: soft
+  type: hard
 builds-toward:
-- consistency-models
-- eventual-consistency-guarantees
+- distributed-transactions-2pc
+- leader-election-algorithms
 tags:
-- failures
+- fault-tolerance
 - partitions
-- availability
-- cap
-stage: abstract-reasoning
+- split-brain
+stage: advanced
 status: draft
 ---
 
-# Network Partitions and Partition Tolerance
+# Network Partition Tolerance and Split-Brain
 
 ## Core Idea
-A network partition occurs when the network becomes segmented, preventing messages from being delivered between parts of the system. Partition tolerance means a system can continue operating despite partitions, but it forces a tradeoff: either unavailable replicas in one partition, or potentially inconsistent data across partitions.
-
-## How It's Best Learned
-Consider real scenarios: a data center network split, a slow link making one replica unreachable. Work through what guarantees each partition can make and when they can rejoin.
-
-## Common Misconceptions
-- Partitions are rare and can be ignored; in large systems, partitions are inevitable and must be explicitly handled.
-- A system can be both consistent and available during a partition; the CAP theorem proves this is impossible if the partition persists.
+Network partition tolerance describes how a distributed system behaves when the network splits into isolated components that cannot communicate. A partition-tolerant system continues operating on both sides, but this can lead to split-brain: multiple components may make conflicting decisions. The CAP theorem states you cannot have consistency, availability, and partition tolerance together.
