@@ -14,12 +14,3 @@ courses:
 - id: human-geography
   title: Human Geography
   stage: abstract-reasoning
-- id: sociological-theory
-  title: Sociological Theory
-  stage: advanced
-- id: research-methods-social-science
-  title: Advanced Research Methods in Social Science
-  stage: advanced
-- id: international-relations-theory
-  title: International Relations Theory
-  stage: advanced
