@@ -4,17 +4,19 @@ title: Properties of the Lebesgue Integral
 domain: mathematics
 course: measure-theory-and-functional-analysis
 prerequisites:
-- id: lebesgue-integral
+- id: lebesgue-integral-general-definition
   type: hard
 builds-toward:
-- fatou-lemma
+- lp-spaces-definition
+- fubini-theorem
 tags:
 - integration
-stage: advanced
+- properties
+stage: abstract-reasoning
 status: draft
 ---
 
 # Properties of the Lebesgue Integral
 
 ## Core Idea
-The Lebesgue integral is linear, monotone, and integrable functions form a vector space. Unlike Riemann integration, the Lebesgue integral commutes naturally with pointwise limits under minimal conditions, formalized by the convergence theorems.
+The Lebesgue integral is linear, monotone, and σ-additive over disjoint sets. Functions equal a.e. have the same integral. These properties, stronger than those of the Riemann integral, make Lebesgue integration a powerful tool for analysis.

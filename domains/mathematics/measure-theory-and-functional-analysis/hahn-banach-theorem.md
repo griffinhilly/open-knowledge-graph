@@ -4,17 +4,17 @@ title: Hahn-Banach Theorem
 domain: mathematics
 course: measure-theory-and-functional-analysis
 prerequisites:
-- id: dual-spaces-bounded-functionals
+- id: linear-functionals-dual-spaces
   type: hard
 builds-toward:
-- open-mapping-theorem
+- weak-convergence-banach
 tags:
 - functional-analysis
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
 # Hahn-Banach Theorem
 
 ## Core Idea
-Any bounded linear functional on a subspace M of X extends to a bounded functional on all of X preserving norm. This fundamental result guarantees enough functionals to separate points and has profound consequences for duality.
+The Hahn-Banach theorem states that any bounded linear functional on a subspace of a normed space extends to a bounded functional on the whole space with the same norm. This is a cornerstone result ensuring the dual space is rich and enabling point separation.

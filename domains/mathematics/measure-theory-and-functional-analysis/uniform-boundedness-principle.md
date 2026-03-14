@@ -4,15 +4,15 @@ title: Uniform Boundedness Principle
 domain: mathematics
 course: measure-theory-and-functional-analysis
 prerequisites:
-- id: closed-graph-theorem
+- id: banach-spaces-definition
   type: hard
 tags:
 - functional-analysis
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
 # Uniform Boundedness Principle
 
 ## Core Idea
-If {Tₐ} is a family of bounded operators on a Banach space X with sup_a ‖Tₐ(x)‖ < ∞ for all x, then sup_a ‖Tₐ‖ < ∞. Pointwise boundedness implies uniform boundedness.
+The uniform boundedness principle (Banach-Steinhaus) states that if a family of bounded linear operators {Tᵢ : X → Y} between Banach spaces is pointwise bounded, then the operators are uniformly bounded in norm. This powerful tool controls infinite families of operators.

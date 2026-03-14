@@ -1,23 +1,24 @@
 ---
 id: lebesgue-measure-real-line
-title: Lebesgue Measure on ℝ
+title: Lebesgue Measure on ℝ and ℝⁿ
 domain: mathematics
 course: measure-theory-and-functional-analysis
 prerequisites:
-- id: outer-measure
+- id: lebesgue-outer-measure
   type: hard
-- id: open-and-closed-sets-real-line
-  type: hard
+- id: borel-sigma-algebra
+  type: soft
 builds-toward:
-- lebesgue-measure-euclidean-space
-- measurable-functions
+- lebesgue-integral-simple-functions
+- riemann-vs-lebesgue-integrals
 tags:
+- measure-theory
 - lebesgue-measure
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
-# Lebesgue Measure on ℝ
+# Lebesgue Measure on ℝ and ℝⁿ
 
 ## Core Idea
-Lebesgue measure on ℝ assigns measure to Borel sets by extending the natural notion that an interval [a,b] has measure b−a. It correctly assigns measure zero to countable sets (like ℚ) and resolves pathologies in Riemann integration.
+The Lebesgue measure on ℝ is the unique measure on the Borel σ-algebra satisfying μ([a,b]) = b - a. The Carathéodory measurable sets form a σ-algebra strictly larger than Borel sets (including all null sets). Lebesgue measure is translation-invariant and extends naturally to ℝⁿ.

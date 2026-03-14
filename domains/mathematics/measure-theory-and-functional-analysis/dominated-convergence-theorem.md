@@ -4,17 +4,23 @@ title: Dominated Convergence Theorem
 domain: mathematics
 course: measure-theory-and-functional-analysis
 prerequisites:
-- id: fatou-lemma
+- id: lebesgue-integral-general-definition
   type: hard
 builds-toward:
-- lp-completeness
+- lp-space-completeness-riesz-fischer
 tags:
 - convergence-theorems
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
 # Dominated Convergence Theorem
 
 ## Core Idea
-If (fₙ) converges pointwise to f and every |fₙ| ≤ g with ∫g dμ < ∞, then ∫fₙ dμ → ∫f dμ. This is the most practical convergence result, requiring only a dominating integrable function.
+If fₙ → f pointwise a.e. and |fₙ| ≤ g with ∫g < ∞, then ∫fₙ → ∫f. This is the most powerful convergence theorem, requiring only pointwise a.e. convergence and an integrable dominating function.
+
+## How It's Best Learned
+Apply to sequences shrinking to zero outside growing intervals, or bounded sequences on finite-measure sets.
+
+## Common Misconceptions
+The dominating function must be integrable; |fₙ| ≤ g pointwise is insufficient if ∫g = ∞. Without a dominating function, DCT does not apply.

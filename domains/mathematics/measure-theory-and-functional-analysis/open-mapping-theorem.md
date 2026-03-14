@@ -4,19 +4,17 @@ title: Open Mapping Theorem
 domain: mathematics
 course: measure-theory-and-functional-analysis
 prerequisites:
-- id: hahn-banach-theorem
+- id: banach-spaces-definition
   type: hard
-- id: open-and-closed-maps
-  type: soft
 builds-toward:
 - closed-graph-theorem
 tags:
 - functional-analysis
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
 # Open Mapping Theorem
 
 ## Core Idea
-If T: X → Y is a continuous surjective linear operator between Banach spaces, then T is an open map. The Banach isomorphism theorem follows: bijective continuous operators have continuous inverses.
+The open mapping theorem states that a continuous surjective linear operator between Banach spaces is open (maps open sets to open sets). This deep result relies on the Baire category theorem and implies the bounded inverse theorem.

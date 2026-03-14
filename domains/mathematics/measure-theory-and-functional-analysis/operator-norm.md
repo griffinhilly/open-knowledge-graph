@@ -7,14 +7,15 @@ prerequisites:
 - id: bounded-linear-operators
   type: hard
 builds-toward:
-- dual-spaces-bounded-functionals
+- linear-functionals-dual-spaces
 tags:
+- functional-analysis
 - operators
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
 # The Operator Norm
 
 ## Core Idea
-The operator norm is ‖T‖ = sup{‖T(x)‖ : ‖x‖ ≤ 1}. Bounded operators B(X,Y) with this norm form a Banach space, measuring how much an operator can stretch vectors.
+For a bounded linear operator T: X → Y, the operator norm is ‖T‖ = sup{‖T(x)‖_Y : ‖x‖_X ≤ 1}. The space ℒ(X,Y) of bounded operators is itself a normed space (Banach if Y is Banach).

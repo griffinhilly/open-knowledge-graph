@@ -4,19 +4,18 @@ title: Spectral Theorem for Compact Self-Adjoint Operators
 domain: mathematics
 course: measure-theory-and-functional-analysis
 prerequisites:
-- id: compact-operators
+- id: bounded-linear-operators
   type: hard
-- id: eigenvalues-and-eigenvectors
+- id: hilbert-spaces-definition
   type: hard
-builds-toward:
-- fredholm-alternative
 tags:
-- spectral-theory
-stage: advanced
+- spectral-theorem
+- operators
+stage: abstract-reasoning
 status: draft
 ---
 
 # Spectral Theorem for Compact Self-Adjoint Operators
 
 ## Core Idea
-A compact self-adjoint operator on a Hilbert space has an orthonormal basis of eigenvectors with real eigenvalues tending to 0. This extends matrix diagonalization to infinite dimensions in a controlled way.
+The spectral theorem for compact self-adjoint operators states that such an operator T on a Hilbert space has an orthonormal basis of eigenvectors with eigenvalues λₙ → 0. This is the infinite-dimensional analogue of matrix diagonalization and is foundational for applications.

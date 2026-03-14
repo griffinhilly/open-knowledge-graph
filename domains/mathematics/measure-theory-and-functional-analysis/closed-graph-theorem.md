@@ -4,17 +4,15 @@ title: Closed Graph Theorem
 domain: mathematics
 course: measure-theory-and-functional-analysis
 prerequisites:
-- id: open-mapping-theorem
+- id: banach-spaces-definition
   type: hard
-builds-toward:
-- uniform-boundedness-principle
 tags:
 - functional-analysis
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
 # Closed Graph Theorem
 
 ## Core Idea
-If T: X → Y is a linear operator between Banach spaces with closed graph {(x, T(x)) : x ∈ X} in X×Y, then T is continuous. This simplifies verifying continuity in applications.
+The closed graph theorem states that a linear operator T: X → Y between Banach spaces is continuous if and only if its graph {(x, T(x)) : x ∈ X} is closed in X × Y. This provides a powerful criterion for continuity without explicit bound verification.
