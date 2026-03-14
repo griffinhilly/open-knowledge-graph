@@ -1,24 +1,25 @@
 ---
 id: presupposition-and-assertion
-title: Presupposition Versus Assertion
+title: Presupposition and Assertion
 domain: philosophy
 course: philosophy-of-language
 prerequisites:
-- id: grice-cooperative-principle-maxims
-  type: soft
+- id: pragmatics-semantics-boundary
+  type: hard
 - id: speech-acts-and-communication
   type: soft
 builds-toward:
-- presupposition-projection-patterns
+- what-is-said-grice
 tags:
 - presupposition
 - assertion
-- pragmatics
-stage: advanced
+- truth-conditions
+- semantics
+stage: abstract-reasoning
 status: draft
 ---
 
-# Presupposition Versus Assertion
+# Presupposition and Assertion
 
 ## Core Idea
-Presupposition and assertion are distinct communicative acts. What is asserted is what the speaker puts forward for acceptance; what is presupposed is what the speaker assumes as background context. This distinction affects how utterances contribute to discourse.
+Presuppositions are semantic contents that must be true for an utterance to have a truth value, distinct from what is asserted. "The king of France is bald" presupposes there is a king of France; if false, the whole utterance fails to be true or false (or context must repair it). Understanding presupposition projection and how it interacts with assertion explains semantic phenomena and communication success.
