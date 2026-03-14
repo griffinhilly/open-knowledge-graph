@@ -6,26 +6,27 @@ course: category-theory
 prerequisites:
 - id: adjoint-functors
   type: hard
-- id: universal-properties
+- id: functors
   type: hard
 builds-toward:
-- localization-of-categories
+- topos-theory-intro
 tags:
-- adjoint-pairs
-- reflections
-- coreflections
-- universal-properties
-stage: abstract-reasoning
+- reflective
+- coreflective
+- localization
+- adjoint
+- inclusion
+stage: advanced
 status: draft
 ---
 
 # Reflective and Coreflective Subcategories
 
 ## Core Idea
-A subcategory is reflective if the inclusion functor has a left adjoint (the reflection), and coreflective if it has a right adjoint (the coreflection). These adjoints provide universal ways to map objects into or out of the subcategory, formalizing the idea that the subcategory 'captures' certain categorical properties. Reflective subcategories are ubiquitous in algebra, topology, and homological algebra.
+A full subcategory D ⊆ C is reflective if the inclusion functor i: D ↪ C has a left adjoint, called the reflector. The reflector provides a universal way to 'project' objects of C into D while preserving structure. Coreflective subcategories are defined dually, with the inclusion having a right adjoint. Reflective subcategories arise in completion, localization, and in constructing quotient structures.
 
 ## How It's Best Learned
-Study the category of abelian groups as a reflective subcategory of groups, and the category of vector spaces as a reflective subcategory of modules. Understand the reflection functor and verify that the universal property holds. Compute reflections and coreflections in concrete examples.
+Study the reflection of finite sets into all sets (not reflective), abelian groups into groups via abelianization (reflective), and divisible groups as a reflective subcategory of abelian groups. For each example, identify the reflector explicitly and verify the adjunction.
 
 ## Common Misconceptions
-A subcategory need not be reflective, even if the inclusion functor is fully faithful. Also, reflection and coreflection are distinct operations; a subcategory cannot be both reflective and coreflective unless it is the ambient category itself (in most cases).
+Not every full subcategory is reflective; reflectivity requires an adjoint to exist and satisfy naturality. The reflector is not surjective on objects—the image of the reflector covers only some objects of C. A full subcategory being reflective does not mean it is closed under limits or colimits in the original category.

@@ -4,33 +4,31 @@ title: Cartesian Closed Categories
 domain: formal-sciences-and-logic
 course: category-theory
 prerequisites:
-- id: closed-monoidal-categories
+- id: monoidal-categories
   type: hard
 - id: products-and-coproducts
   type: hard
 - id: initial-and-terminal-objects
-  type: soft
+  type: hard
 builds-toward:
 - topos-theory-intro
 tags:
-- cartesian closed category
-- CCC
-- exponential object
-- lambda calculus
-- simply typed lambda calculus
-- Curry-Howard-Lambek
+- cartesian
+- closed
+- exponential
+- internal-hom
+- lambda-calculus
 stage: advanced
 status: draft
 ---
+
 # Cartesian Closed Categories
 
 ## Core Idea
-A cartesian closed category (CCC) is a category with finite products (including a terminal object) in which the product functor (−) × B has a right adjoint B^(−), giving exponential objects. The defining adjunction Hom(A × B, C) ≅ Hom(A, C^B) generalizes the set-theoretic fact that functions from A × B to C correspond to curried functions from A to C^B. CCCs provide the categorical semantics for the simply typed lambda calculus: types are objects, terms are morphisms, and beta-reduction corresponds to the evaluation map. Key examples include Set, the category of small categories Cat, and any elementary topos.
+A cartesian closed category has finite products with a terminal object and an exponential object B^A for each pair of objects, satisfying the adjunction Hom(A × B, C) ≅ Hom(A, C^B). Cartesian closed categories are the categorical semantics for typed lambda calculus and higher-order logic. The exponential object represents the set of all morphisms from A to B, generalizing function spaces.
 
 ## How It's Best Learned
-Start with Set: verify that C^B = {functions B → C} with the evaluation map ev: C^B × B → C satisfies the universal property. Then construct exponentials in a poset category (a Heyting algebra) where C^B = (B ⇒ C). Connect to lambda calculus by translating lambda abstraction as the transpose of a morphism and application as composition with evaluation.
+Study Set (exponential = function space), Top (topological exponential objects and the compact-open topology), and Grp (where exponentials do not always exist). Verify the adjunction explicitly in these examples and practice translating lambda calculus into cartesian closed category language.
 
 ## Common Misconceptions
-- Not every category with products is cartesian closed; Top (topological spaces) has products but is not cartesian closed without restricting to a convenient subcategory.
-- Cartesian closed is a special case of closed monoidal where the monoidal product is the categorical product; replacing products with a general tensor gives a different notion.
-- The exponential object C^B is not merely the hom-set Hom(B,C); it is an internal object in the category representing that hom-set.
+Not every category with finite products is cartesian closed; the exponential object must exist and satisfy the adjunction. In Top, the naive exponential (all continuous functions with pointwise operations) may fail to be in the category unless carefully chosen. Cartesian closed structure depends on the underlying monoidal structure.
