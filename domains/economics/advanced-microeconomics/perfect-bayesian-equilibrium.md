@@ -4,21 +4,21 @@ title: Perfect Bayesian Equilibrium
 domain: economics
 course: advanced-microeconomics
 prerequisites:
-- id: bayesian-games
+- id: bayesian-games-incomplete-info
   type: hard
 - id: subgame-perfect-equilibrium
-  type: soft
+  type: hard
 builds-toward:
-- signaling-games
+- pooling-separating-equilibrium
 tags:
 - game-theory
-- incomplete-information
+- equilibrium-refinement
 - beliefs
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 
 # Perfect Bayesian Equilibrium
 
 ## Core Idea
-A perfect Bayesian equilibrium (PBE) specifies both strategies and beliefs for games of incomplete information. It requires: (1) strategies are sequentially rational given beliefs, (2) beliefs are updated via Bayes rule when possible, and (3) beliefs satisfy a consistency condition off the equilibrium path. PBE is the standard solution concept for signaling and screening games.
+Perfect Bayesian equilibrium refines Bayesian Nash equilibrium by imposing consistency requirements on beliefs at information sets reached with positive probability (via Bayes' rule) and requiring sequential rationality at every information set. It eliminates implausible equilibria sustained by unreasonable beliefs off the equilibrium path.

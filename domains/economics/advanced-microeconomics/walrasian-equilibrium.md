@@ -1,25 +1,25 @@
 ---
 id: walrasian-equilibrium
-title: Walrasian Equilibrium in General Equilibrium Models
+title: Walrasian General Equilibrium
 domain: economics
 course: advanced-microeconomics
 prerequisites:
 - id: market-equilibrium
   type: hard
-- id: supply-and-demand-basics
+- id: comparative-statics
   type: hard
 builds-toward:
-- pareto-efficiency-and-optimality
-- first-welfare-theorem
+- pareto-optimality
+- first-fundamental-welfare-theorem
 tags:
 - general-equilibrium
-- market-clearing
-- price-theory
+- markets
+- pricing
 stage: advanced
 status: draft
 ---
 
-# Walrasian Equilibrium in General Equilibrium Models
+# Walrasian General Equilibrium
 
 ## Core Idea
-A Walrasian equilibrium is a price vector and allocation such that all markets clear: quantity demanded equals quantity supplied in every market. In a multi-good economy, Walras's law ensures that if n-1 markets clear, the n-th clears automatically because the value of total excess demand is zero. This reduces the dimensionality of the equilibrium system.
+A Walrasian equilibrium is a price vector and allocation where every consumer maximizes utility given prices and budget, every firm maximizes profit given prices, and all markets clear (quantity supplied equals quantity demanded). In a competitive economy, these conditions can typically be satisfied through price adjustment without central coordination.

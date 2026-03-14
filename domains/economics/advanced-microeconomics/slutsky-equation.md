@@ -1,27 +1,25 @@
 ---
 id: slutsky-equation
-title: 'The Slutsky Equation: Income and Substitution Effects'
+title: The Slutsky Equation
 domain: economics
 course: advanced-microeconomics
 prerequisites:
-- id: indifference-curves
-  type: hard
 - id: income-and-substitution-effects
   type: hard
 - id: consumer-theory-utility
   type: hard
 builds-toward:
-- compensating-and-equivalent-variation
-- consumer-duality-and-expenditure-function
+- compensated-demand-curves
+- revealed-preference-axioms
 tags:
 - consumer-theory
 - demand
-- welfare
+- decomposition
 stage: advanced
 status: draft
 ---
 
-# The Slutsky Equation: Income and Substitution Effects
+# The Slutsky Equation
 
 ## Core Idea
-The Slutsky equation decomposes the total change in quantity demanded from a price change into substitution and income effects: ∂q/∂p = (∂q/∂p)_u - q(∂q/∂m). The first term (substitution effect) reflects movement along the indifference curve, while the second (income effect) captures the change in real purchasing power. This decomposition reveals whether goods are normal, inferior, or Giffen.
+The Slutsky equation decomposes the total change in quantity demanded into a substitution effect (movement along indifference curve at constant utility) and an income effect (adjustment for purchasing power changes). This decomposition is fundamental to understanding how consumers respond to price changes and reveals that demand slopes downward primarily through the substitution effect.

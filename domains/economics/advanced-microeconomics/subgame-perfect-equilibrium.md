@@ -4,22 +4,21 @@ title: Subgame Perfect Equilibrium
 domain: economics
 course: advanced-microeconomics
 prerequisites:
-- id: nash-equilibrium-refinements
+- id: extensive-form-games
+  type: hard
+- id: nash-equilibrium-microeconomics
   type: hard
 builds-toward:
 - perfect-bayesian-equilibrium
 tags:
 - game-theory
 - sequential-games
-- credible-threats
-stage: abstract-reasoning
+- equilibrium-refinement
+stage: advanced
 status: draft
 ---
 
 # Subgame Perfect Equilibrium
 
 ## Core Idea
-A subgame perfect equilibrium (SPE) is a Nash equilibrium where play is optimal in every subgame, not just the game overall. This rules out equilibria supported by non-credible threats. In finite extensive-form games, SPE is found by backward induction. SPE is more restrictive than Nash equilibrium.
-
-## How It's Best Learned
-Analyze multi-stage games using backward induction. Compare SPE to Nash equilibrium to see which threats are non-credible. Apply to classical examples: entry games, bargaining games.
+Subgame perfect equilibrium requires that strategies form a Nash equilibrium in every subgame, not just the entire game. This eliminates incredible threats: actions that would not actually be chosen if reached. Backward induction finds subgame perfect equilibrium by solving from terminal nodes backward, ensuring strategic consistency throughout the game tree.
