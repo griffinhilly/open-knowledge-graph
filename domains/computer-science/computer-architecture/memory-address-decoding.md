@@ -1,26 +1,23 @@
 ---
 id: memory-address-decoding
-title: Memory Address Decoding and Control
+title: Memory Address Decoding
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: memory-array-organization
+- id: decoders-multiplexers
   type: hard
-- id: binary-number-system
-  type: soft
+- id: memory-organization
+  type: hard
 builds-toward:
-- cache-design-principles
-- instruction-fetch-decode-execute
+- memory-access-timing
 tags:
-- memory
-- addressing
-- decoding
-- control
+- address-decoding
+- memory-circuits
 stage: formal-systems
 status: draft
 ---
 
-# Memory Address Decoding and Control
+# Memory Address Decoding
 
 ## Core Idea
-Address decoders map address bus bits to specific memory locations, and control signals (read, write, chip select) govern data flow. Multi-chip systems use upper address bits to select chips and lower bits to select within each chip.
+Address decoding selects the correct memory location from an n-bit address using decoders. 2D decoding (row/column) reduces complexity; partial and hierarchical decoding further optimize large memories.
