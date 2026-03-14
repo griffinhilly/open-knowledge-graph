@@ -1,22 +1,22 @@
 ---
 id: compact-sets-definition
-title: 'Compact Sets: Definition and Properties'
+title: Compactness via Open Covers
 domain: mathematics
 course: topology
 prerequisites:
 - id: open-sets-topology
   type: hard
 builds-toward:
-- heine-borel-compact-sets
 - compactness-hausdorff-spaces
+- sequential-compactness
 tags:
+- compact
 - compactness
-- covers
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
-# Compact Sets: Definition and Properties
+# Compactness via Open Covers
 
 ## Core Idea
-A space K is compact if every open cover has a finite subcover. Compactness is the fundamental notion generalizing 'closed and bounded' in ℝⁿ. Compact spaces have many pleasant properties: continuous images are compact, products of compact spaces are compact (Tychonoff).
+A space X is compact if every open cover of X has a finite subcover. Compactness generalizes the Heine–Borel property and is preserved by continuous images.

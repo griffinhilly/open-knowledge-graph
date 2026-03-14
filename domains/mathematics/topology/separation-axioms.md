@@ -1,24 +1,23 @@
 ---
 id: separation-axioms
-title: Separation Axioms (T₀, T₁, T₂, T₃, T₄)
+title: Separation Axioms (T0 through T4)
 domain: mathematics
 course: topology
 prerequisites:
-- id: neighborhoods-and-open-sets
+- id: open-sets-topology
   type: hard
-- id: hausdorff-spaces
-  type: soft
 builds-toward:
+- hausdorff-spaces
 - regular-spaces
 - normal-spaces
 tags:
 - separation
 - axioms
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
-# Separation Axioms (T₀, T₁, T₂, T₃, T₄)
+# Separation Axioms (T0 through T4)
 
 ## Core Idea
-Separation axioms measure how well a topology separates points and closed sets. T₀: distinct points are topologically distinguishable; T₁: points separable by open sets; T₂ (Hausdorff): disjoint neighborhoods; T₃ (regular): point and disjoint closed set separated; T₄ (normal): disjoint closed sets separated.
+Separation axioms measure how well a topology distinguishes points and sets. T₀ through T₄ range from weak separation (different neighborhoods) to strong separation (disjoint closed sets).

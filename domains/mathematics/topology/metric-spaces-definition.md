@@ -8,14 +8,15 @@ prerequisites:
   type: hard
 builds-toward:
 - metric-topology
+- completeness-metric-spaces
 tags:
 - metric
-- definition
-stage: advanced
+- distance
+stage: abstract-reasoning
 status: draft
 ---
 
 # Metric Spaces: Definition and Examples
 
 ## Core Idea
-A metric space is a set X with distance function d : X × X → ℝ satisfying: d(x,y) ≥ 0 with equality iff x = y; d(x,y) = d(y,x); d(x,z) ≤ d(x,y) + d(y,z). Metrics provide concrete structure for studying continuity and convergence, and most natural topologies arise from metrics.
+A metric space (X, d) is a set X with a distance function d: X × X → ℝ satisfying positivity, symmetry, and triangle inequality. Metrics provide explicit distance structure underlying topological properties.

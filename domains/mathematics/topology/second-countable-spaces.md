@@ -1,20 +1,23 @@
 ---
 id: second-countable-spaces
-title: Second Countability Axiom
+title: Second Countability and Separability
 domain: mathematics
 course: topology
 prerequisites:
-- id: basis-for-topology
+- id: first-countability-definition
   type: hard
+- id: separability-topology
+  type: soft
 builds-toward:
-- metrization-theorems
+- urysohn-metrization-theorem
 tags:
-- countability
-stage: advanced
+- second-countability
+- separability
+stage: abstract-reasoning
 status: draft
 ---
 
-# Second Countability Axiom
+# Second Countability and Separability
 
 ## Core Idea
-A space is second countable if the topology has a countable basis. Second countable spaces are separable, first countable, and metrizable (if also regular). This is a strong condition ensuring the space is not 'too complicated'.
+A space is second-countable if the topology has a countable base. Second-countable ⟹ first-countable and separable. A separable metric space is second-countable. Second-countable spaces are 'countably determined' in a strong sense; they behave almost like countable spaces for many purposes.

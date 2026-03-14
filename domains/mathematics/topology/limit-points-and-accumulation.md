@@ -4,21 +4,19 @@ title: Limit Points and Accumulation Points
 domain: mathematics
 course: topology
 prerequisites:
-- id: neighborhoods-and-open-sets
+- id: open-sets-topology
   type: hard
-- id: closure-interior-boundary
-  type: soft
 builds-toward:
-- convergence-in-topology
-- sequential-compactness
+- sequences-convergence-topology
+- closed-sets-topology
 tags:
+- limit-points
 - convergence
-- clustering
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
 # Limit Points and Accumulation Points
 
 ## Core Idea
-A point x is a limit point of A if every neighborhood of x contains a point of A other than x. The closure of A equals A plus its set of limit points (Ā = A ∪ L(A)). This topological definition generalizes the calculus notion of 'being approached by the set' without requiring distance.
+A point x is a limit point of a set A if every open set containing x contains a point of A other than x itself. The closure of A equals A union its limit points. This characterizes closed sets.

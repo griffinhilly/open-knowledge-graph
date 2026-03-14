@@ -4,17 +4,19 @@ title: Connected Spaces
 domain: mathematics
 course: topology
 prerequisites:
-- id: topological-spaces-definition
+- id: open-sets-topology
   type: hard
 builds-toward:
 - path-connectedness
+- connected-components
 tags:
-- connectedness
-stage: advanced
+- connected
+- connectivity
+stage: abstract-reasoning
 status: draft
 ---
 
 # Connected Spaces
 
 ## Core Idea
-A space is connected if it is not a disjoint union of two nonempty open sets. Equivalently, there is no continuous surjection onto {0,1}. Connectedness formalizes the intuition that the space 'forms one piece' and is a topological invariant preserved under continuous images.
+A space is connected if it is not the disjoint union of two nonempty open sets. Connected spaces have no gaps. Continuous images of connected spaces are connected.

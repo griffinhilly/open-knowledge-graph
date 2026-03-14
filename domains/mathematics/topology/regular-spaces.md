@@ -1,21 +1,24 @@
 ---
 id: regular-spaces
-title: Regular Spaces (T₃)
+title: Regular Spaces (T3 Spaces)
 domain: mathematics
 course: topology
 prerequisites:
 - id: separation-axioms
   type: hard
+- id: closed-sets-topology
+  type: hard
 builds-toward:
-- normal-spaces
+- urysohns-lemma
 - metrization-theorems
 tags:
-- separation
-stage: advanced
+- regular
+- t3
+stage: abstract-reasoning
 status: draft
 ---
 
-# Regular Spaces (T₃)
+# Regular Spaces (T3 Spaces)
 
 ## Core Idea
-A T₀ space is regular if for any point x and closed set F not containing x, disjoint open sets separate x and F. Regular spaces balance restrictiveness: stronger than Hausdorff but weaker than normal. Metric spaces are regular.
+A space is regular if for closed F and x ∉ F, there exist disjoint open sets separating them. Regularity separates points from closed sets. Every metric space is regular.

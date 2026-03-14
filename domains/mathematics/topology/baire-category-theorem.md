@@ -6,16 +6,16 @@ course: topology
 prerequisites:
 - id: completeness-metric-spaces
   type: hard
-- id: connected-spaces
-  type: soft
+builds-toward:
+- uniform-boundedness-principle
 tags:
-- metric
-- theorems
-stage: advanced
+- baire
+- category
+stage: abstract-reasoning
 status: draft
 ---
 
 # Baire Category Theorem
 
 ## Core Idea
-In a complete metric space, a countable union of closed sets with empty interior has empty interior. Equivalently, the intersection of countably many dense open sets is dense. This abstract result has powerful consequences: no Banach space has a countable algebraic basis; many existence results follow without explicit construction.
+A complete metric space is of the second category: it cannot be expressed as a countable union of nowhere dense sets. Equivalently, the intersection of countably many dense open sets is dense.

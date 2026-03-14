@@ -1,20 +1,22 @@
 ---
 id: first-countable-spaces
-title: First Countability Axiom
+title: First Countable Spaces
 domain: mathematics
 course: topology
 prerequisites:
-- id: basis-for-topology
+- id: neighborhood-basis-topology
   type: hard
 builds-toward:
 - metrization-theorems
+- sequential-compactness
 tags:
 - countability
-stage: advanced
+- first-countable
+stage: abstract-reasoning
 status: draft
 ---
 
-# First Countability Axiom
+# First Countable Spaces
 
 ## Core Idea
-A space is first countable if every point has a countable neighborhood basis. Metric spaces are first countable. In first countable spaces, sequential properties partially recover the role of compactness—limit points are characterized by convergent sequences.
+A space is first countable if every point has a countable neighborhood basis. Metric spaces are first countable. First countability makes topology characterizable by sequences.

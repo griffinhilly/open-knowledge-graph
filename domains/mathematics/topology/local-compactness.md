@@ -1,21 +1,20 @@
 ---
 id: local-compactness
-title: Local Compactness
+title: Locally Compact Spaces
 domain: mathematics
 course: topology
 prerequisites:
-- id: neighborhoods-and-open-sets
-  type: hard
 - id: compactness-hausdorff-spaces
-  type: soft
+  type: hard
+builds-toward:
+- one-point-compactification
 tags:
-- compactness
-- local
-stage: advanced
+- locally-compact
+stage: abstract-reasoning
 status: draft
 ---
 
-# Local Compactness
+# Locally Compact Spaces
 
 ## Core Idea
-A space is locally compact if every point has a neighborhood whose closure is compact. Locally compact Hausdorff spaces (like ℝⁿ and manifolds) are important in analysis and admit Alexandroff one-point compactifications. This is weaker than compactness but strong enough for many applications.
+A space is locally compact if every point has a compact neighborhood. ℝⁿ is locally compact. Locally compact Hausdorff spaces admit a one-point compactification.

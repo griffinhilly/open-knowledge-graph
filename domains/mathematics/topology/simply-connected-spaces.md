@@ -7,16 +7,15 @@ prerequisites:
 - id: fundamental-group-definition
   type: hard
 builds-toward:
-- van-kampen-theorem
 - covering-spaces
+- homotopy-equivalence
 tags:
-- connectivity
-- algebraic-topology
-stage: advanced
+- simply-connected
+stage: abstract-reasoning
 status: draft
 ---
 
 # Simply Connected Spaces
 
 ## Core Idea
-A space is simply connected if it is path-connected with trivial fundamental group (only the identity loop). Intuitively, simply connected spaces have no holes: every loop shrinks to a point. Higher-dimensional spheres are simply connected (but not S¹).
+A space is simply connected if it is path-connected and its fundamental group is trivial. Equivalently, every loop is homotopic to a constant. Simply connected spaces have no topological holes.

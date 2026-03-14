@@ -4,19 +4,20 @@ title: Path Connectedness
 domain: mathematics
 course: topology
 prerequisites:
+- id: connected-spaces
+  type: hard
 - id: continuous-functions-topology
   type: hard
 builds-toward:
+- fundamental-group-definition
 - homotopy-paths
-- simply-connected-spaces
 tags:
-- connectedness
-- paths
-stage: advanced
+- path-connected
+stage: abstract-reasoning
 status: draft
 ---
 
 # Path Connectedness
 
 ## Core Idea
-A space is path-connected if any two points can be joined by a continuous path. Path-connected implies connected, but the converse is false (topologist's sine curve). Path-connectedness is the basis for algebraic topology and fundamental group.
+A space is path-connected if for every pair of points x, y there exists a continuous path γ: [0,1] → X with γ(0) = x and γ(1) = y. Path connectedness implies connectedness but not conversely.

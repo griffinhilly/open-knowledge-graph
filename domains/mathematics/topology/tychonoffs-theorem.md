@@ -6,16 +6,18 @@ course: topology
 prerequisites:
 - id: product-topology
   type: hard
-- id: compact-sets-definition
+- id: compactness-hausdorff-spaces
   type: hard
+builds-toward:
+- stone-cech-compactification
 tags:
-- compactness
-- products
-stage: advanced
+- tychonoff
+- product-compactness
+stage: abstract-reasoning
 status: draft
 ---
 
 # Tychonoff's Theorem
 
 ## Core Idea
-An arbitrary product of compact spaces is compact in the product topology. This deep result requires the axiom of choice and is false in constructive logic. It is fundamental in functional analysis and enables compact embeddings.
+An arbitrary product of compact spaces is compact in the product topology. This deep result is equivalent to the Axiom of Choice. Compactness is stable under infinite products.

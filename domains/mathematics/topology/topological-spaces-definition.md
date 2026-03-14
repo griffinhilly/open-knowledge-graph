@@ -7,18 +7,19 @@ prerequisites:
 - id: set-theory-basics
   type: hard
 - id: proof-by-contradiction
-  type: soft
+  type: hard
 builds-toward:
 - open-sets-topology
 - closed-sets-topology
+- basis-for-topology
 tags:
-- foundational
 - definition
-stage: advanced
+- foundations
+stage: abstract-reasoning
 status: draft
 ---
 
 # Topological Spaces: Definition and Examples
 
 ## Core Idea
-A topological space (X, τ) is a set X with a collection τ of subsets (open sets) satisfying: X and ∅ are open; arbitrary unions of open sets are open; finite intersections of open sets are open. This structure generalizes openness from real analysis to arbitrary spaces, enabling study of continuity and convergence without distance metrics.
+A topological space (X, τ) is a set X together with a collection τ of subsets (open sets) satisfying three axioms: ∅ and X are in τ; arbitrary unions of sets in τ remain in τ; finite intersections of sets in τ remain in τ. This axiomatizes 'openness' from real analysis, providing a framework for continuity and convergence without requiring distance metrics.

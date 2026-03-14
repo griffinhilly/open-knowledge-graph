@@ -6,14 +6,16 @@ course: topology
 prerequisites:
 - id: urysohns-lemma
   type: hard
+builds-toward:
+- metrization-theorems
 tags:
-- theorems
-- normal-spaces
-stage: advanced
+- tietze
+- extension
+stage: abstract-reasoning
 status: draft
 ---
 
 # Tietze Extension Theorem
 
 ## Core Idea
-In a normal space, any continuous f : A → ℝ from closed subset A extends to a continuous F : X → ℝ. This characterizes normal spaces as those admitting extensions, generalizing a key property of metric spaces.
+In a normal space, every continuous function f: A → ℝ from a closed subset A extends to a continuous function F: X → ℝ.

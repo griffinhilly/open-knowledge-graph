@@ -1,6 +1,6 @@
 ---
 id: normal-spaces
-title: Normal Spaces (T₄)
+title: Normal Spaces (T4 Spaces)
 domain: mathematics
 course: topology
 prerequisites:
@@ -10,12 +10,13 @@ builds-toward:
 - urysohns-lemma
 - tietze-extension-theorem
 tags:
-- separation
-stage: advanced
+- normal
+- t4
+stage: abstract-reasoning
 status: draft
 ---
 
-# Normal Spaces (T₄)
+# Normal Spaces (T4 Spaces)
 
 ## Core Idea
-A T₁ space is normal if any two disjoint closed sets have disjoint open neighborhoods. Normal spaces are the most restrictive separation axiom and admit powerful extension theorems. Compact Hausdorff spaces are normal.
+A space is normal if disjoint closed sets F, G have disjoint open neighborhoods. Every compact Hausdorff space and every metric space is normal.

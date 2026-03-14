@@ -7,15 +7,16 @@ prerequisites:
 - id: continuous-functions-topology
   type: hard
 builds-toward:
-- topological-manifolds-intro
+- topological-invariants-intro
+- classification-of-compact-surfaces
 tags:
+- homeomorphism
 - equivalence
-- structure-preserving
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
 # Homeomorphisms and Topological Equivalence
 
 ## Core Idea
-A homeomorphism is a continuous bijection with continuous inverse. Homeomorphic spaces are topologically indistinguishable. Topology aims to classify spaces up to homeomorphism, distinguishing which properties are topological invariants preserved under homeomorphism.
+A homeomorphism is a continuous bijection f: X → Y with continuous inverse. Homeomorphic spaces are topologically identical and partitions spaces into equivalence classes.

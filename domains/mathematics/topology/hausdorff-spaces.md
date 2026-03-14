@@ -1,22 +1,22 @@
 ---
 id: hausdorff-spaces
-title: Hausdorff Spaces (T₂ Axiom)
+title: Hausdorff Spaces (T2 Spaces)
 domain: mathematics
 course: topology
 prerequisites:
-- id: neighborhoods-and-open-sets
+- id: separation-axioms
   type: hard
 builds-toward:
+- regular-spaces
 - compactness-hausdorff-spaces
-- separation-axioms
 tags:
-- separation
-- axioms
-stage: advanced
+- hausdorff
+- t2
+stage: abstract-reasoning
 status: draft
 ---
 
-# Hausdorff Spaces (T₂ Axiom)
+# Hausdorff Spaces (T2 Spaces)
 
 ## Core Idea
-A space is Hausdorff if distinct points x, y have disjoint open neighborhoods. Hausdorff spaces are 'well-separated': limits are unique, compact subsets are closed, and continuous injections are embeddings. Most familiar spaces (ℝ, manifolds) are Hausdorff.
+A space is Hausdorff if for distinct points x, y, there exist disjoint open sets U ∋ x and V ∋ y. Hausdorff spaces ensure limits are unique. All metric spaces are Hausdorff.

@@ -1,23 +1,24 @@
 ---
 id: metric-topology
-title: Metric Topology
+title: Topology Induced by a Metric
 domain: mathematics
 course: topology
 prerequisites:
 - id: metric-spaces-definition
   type: hard
-- id: basis-for-topology
-  type: soft
+- id: open-sets-topology
+  type: hard
 builds-toward:
+- continuous-functions-topology
 - completeness-metric-spaces
 tags:
-- metric
+- metric-topology
 - induced-topology
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
-# Metric Topology
+# Topology Induced by a Metric
 
 ## Core Idea
-Every metric induces a topology: U is open iff it is a union of open balls B(x, ε) = {y : d(x,y) < ε}. Open balls form a basis. Every metrizable topological space admits such a metric, making metric spaces a major class of topological spaces.
+Open balls B(x, ε) = {y : d(x,y) < ε} form a basis for the metric topology on (X, d). A set is open iff every point in it has a ball contained in it.

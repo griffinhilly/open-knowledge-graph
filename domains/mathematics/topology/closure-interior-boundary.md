@@ -1,6 +1,6 @@
 ---
 id: closure-interior-boundary
-title: Closure, Interior, and Boundary
+title: Closure, Interior, and Boundary of Sets
 domain: mathematics
 course: topology
 prerequisites:
@@ -10,21 +10,16 @@ prerequisites:
   type: hard
 builds-toward:
 - limit-points-and-accumulation
+- continuous-functions-topology
 tags:
-- operators
-- set-operations
-stage: advanced
+- closure
+- interior
+- boundary
+stage: abstract-reasoning
 status: draft
 ---
 
-# Closure, Interior, and Boundary
+# Closure, Interior, and Boundary of Sets
 
 ## Core Idea
-For a set A: the closure Ā is the smallest closed set containing A; the interior A° is the largest open set in A; the boundary ∂A = Ā \ A°. These three operators decompose the space into three regions: points strictly in A, points strictly outside, and boundary points separating them.
-
-## How It's Best Learned
-In ℝ²: visualize [0,1) with closure [0,1], interior (0,1), boundary {0,1}. Practice computing all three for various sets, then verify properties like Ā = A ∪ ∂A and A ∪ Aᶜ = X.
-
-## Common Misconceptions
-- Confusing closure with boundary (boundary is just the edge).
-- Assuming interior is nonempty (discrete topology: interior of any singleton is empty).
+For a set A: the closure Ā is the smallest closed set containing A; the interior A° is the largest open set contained in A; the boundary ∂A = Ā \ A°. These are fundamental closure operators in topology.

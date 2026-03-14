@@ -10,14 +10,15 @@ prerequisites:
   type: hard
 builds-toward:
 - local-compactness
+- tychonoffs-theorem
 tags:
-- compactness
-- separation
-stage: advanced
+- compact
+- hausdorff
+stage: abstract-reasoning
 status: draft
 ---
 
 # Compactness in Hausdorff Spaces
 
 ## Core Idea
-In Hausdorff spaces, compact subsets are closed, continuous images of compact spaces are compact and closed, and compact Hausdorff spaces are normal. These properties make compact Hausdorff spaces exceptionally well-behaved for analysis and topology.
+In Hausdorff spaces, compact subsets are closed. Finite products of compact Hausdorff spaces are compact Hausdorff. Disjoint compact sets can be separated by open sets.

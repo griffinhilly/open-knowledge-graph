@@ -4,20 +4,19 @@ title: Quotient Topology
 domain: mathematics
 course: topology
 prerequisites:
-- id: equivalence-relations
-  type: hard
-- id: topological-spaces-definition
+- id: continuous-functions-topology
   type: hard
 builds-toward:
-- classification-compact-surfaces
+- classification-of-compact-surfaces
+- homotopy-paths
 tags:
-- constructions
-- identifications
-stage: advanced
+- quotients
+- equivalence-relations
+stage: abstract-reasoning
 status: draft
 ---
 
 # Quotient Topology
 
 ## Core Idea
-Given an equivalence relation ~ on X, the quotient topology on X/~ is the finest topology making q : X → X/~ continuous. A set is open in X/~ iff its preimage is open in X. This formalizes 'gluing' and 'identifying' points, essential for constructing spaces like tori and projective spaces.
+Given an equivalence relation ~ on X, the quotient topology on X/~ declares a set open iff its preimage under the quotient map is open in X. This is the finest topology making the quotient map continuous.

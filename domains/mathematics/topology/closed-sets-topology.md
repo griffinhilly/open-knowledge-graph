@@ -6,19 +6,17 @@ course: topology
 prerequisites:
 - id: topological-spaces-definition
   type: hard
-- id: closed-sets-real-line
-  type: soft
 builds-toward:
 - closure-interior-boundary
-- continuous-functions-topology
+- limit-points-and-accumulation
 tags:
 - closed-sets
 - complements
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
 # Closed Sets in Topological Spaces
 
 ## Core Idea
-A set is closed if its complement is open. Closed sets satisfy dual properties to open sets: X and ∅ are closed; arbitrary intersections of closed sets are closed; finite unions are closed. Most sets are neither open nor closed—a crucial insight that sets can have complex boundary behavior.
+A set F in a topological space is closed if its complement X \ F is open. Closed sets satisfy the dual property to open sets: they are closed under arbitrary intersections and finite unions.
