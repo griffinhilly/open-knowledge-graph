@@ -1,20 +1,32 @@
 ---
 id: inverted-spectrum-thought-experiment
-title: Inverted Spectrum and Qualia Variation
+title: Inverted Spectrum Thought Experiment
 domain: philosophy
 course: philosophy-of-mind
 prerequisites:
-- id: phenomenal-consciousness-definition
+- id: qualia-and-phenomenal-consciousness
   type: hard
+- id: knowledge-argument
+  type: soft
+builds-toward:
+- philosophical-zombies
+- phenomenal-concepts-problem
 tags:
 - qualia
-- spectrum
-- experience
+- consciousness
+- thought-experiment
+- epistemic-gap
 stage: formal-systems
 status: draft
 ---
 
-# Inverted Spectrum and Qualia Variation
+# Inverted Spectrum Thought Experiment
 
 ## Core Idea
-The inverted spectrum argument imagines that your subjective experience of red could be inverted with my experience of green while our behavior remains identical. This suggests subjective experiences (qualia) can vary independently of physical facts, raising questions about whether physics can fully account for consciousness.
+The inverted spectrum scenario imagines your color experiences are systematically inverted relative to others—you see red where others see green—yet behavior remains identical because you learned color names the same way. This raises questions about whether consciousness could be decoupled from physical and functional properties.
+
+## How It's Best Learned
+Work through a concrete case: you and a friend both learned 'red' pointing at the same objects, but unknown to observers, your qualia are inverted. Ask: could third-person science ever discover this?
+
+## Common Misconceptions
+Confusing possible spectrum inversion with actual spectrum inversion; thinking behavior must reveal all facts about consciousness; assuming inversion requires property dualism.
