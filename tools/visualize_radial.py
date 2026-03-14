@@ -511,11 +511,26 @@ canvas {{ display:block; cursor:grab; }}
   padding:4px 12px; cursor:pointer; font-size:13px; color:#aaa;
 }}
 #controls button:hover {{ background:#252540; color:#ddd; }}
+#nav {{
+  position:fixed; top:16px; left:50%; transform:translateX(-50%);
+  background:rgba(8,8,15,0.9); border:1px solid #222;
+  border-radius:8px; padding:6px 14px; z-index:10;
+  display:flex; gap:12px;
+}}
+#nav a {{
+  color:#888; text-decoration:none; font-size:13px;
+  padding:2px 8px; border-radius:4px;
+  transition:color 0.2s, background 0.2s;
+}}
+#nav a:hover {{ color:#eee; background:rgba(255,255,255,0.08); }}
 </style>
 </head>
 <body>
 
 <canvas id="canvas"></canvas>
+<div id="nav">
+  <a href="index.html">All Domains</a>
+</div>
 
 <div id="stats">
   <h2>{title}</h2>
