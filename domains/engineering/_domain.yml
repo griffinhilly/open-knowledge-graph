@@ -18,9 +18,3 @@ courses:
 - id: control-systems
   title: Control Systems
   stage: advanced
-- id: signals-and-systems
-  title: Signals & Systems
-  stage: advanced
-- id: thermodynamics-engineering
-  title: Engineering Thermodynamics
-  stage: advanced
