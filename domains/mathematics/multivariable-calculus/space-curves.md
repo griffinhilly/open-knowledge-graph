@@ -1,32 +1,25 @@
 ---
 id: space-curves
-title: Space Curves and Arc Length
+title: Space Curves and Tangent Vectors
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: vector-valued-functions
+- id: vector-valued-functions-intro
   type: hard
 - id: arc-length-parametric
   type: hard
 builds-toward:
-- curvature
+- parametric-surfaces
+- stokes-theorem
 tags:
-- arc-length
-- space-curves
-- parametric
-- integration
+- curves
+- tangent
+- geometry
 stage: formal-systems
-status: validated
+status: draft
 ---
 
-# Space Curves and Arc Length
+# Space Curves and Tangent Vectors
 
 ## Core Idea
-The arc length of a space curve r(t) from t = a to t = b is L = ∫_a^b |r′(t)| dt, a direct generalization of the parametric arc length formula from single-variable calculus. The arc length parameter s(t) = ∫_a^t |r′(u)| du reparametrizes the curve so that |r′(s)| = 1 at every point, making s a natural measure of distance along the curve. Reparametrization by arc length simplifies many formulas but is rarely computed explicitly.
-
-## How It's Best Learned
-Students should first compute arc length for simple curves (helix, straight line) to build intuition. Emphasize that the formula is the same as in 2D parametric calculus, just with a third component under the square root. The concept of reparametrization by arc length is best understood geometrically before any formulas are introduced.
-
-## Common Misconceptions
-- Arc length is always non-negative; it measures total distance traveled, not net displacement.
-- If the curve is traced multiple times over [a, b], arc length counts repeated portions multiple times.
+A space curve r(t) has tangent vector r'(t), which indicates direction of motion. Arc length parameterization uses s(t) as the parameter and gives unit tangent T(s) = dr/ds. Curvature κ measures how quickly the curve changes direction.

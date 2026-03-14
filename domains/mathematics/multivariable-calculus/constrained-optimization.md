@@ -1,20 +1,19 @@
 ---
 id: constrained-optimization
-title: Applications of Constrained Optimization
+title: Constrained Optimization Applications
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
 - id: lagrange-multipliers
   type: hard
 tags:
+- constraints
 - applications
-- constrained-optimization
-- problems
 stage: formal-systems
 status: draft
 ---
 
-# Applications of Constrained Optimization
+# Constrained Optimization Applications
 
 ## Core Idea
-Constrained optimization arises in economics (maximizing profit under budget constraints), physics (minimizing energy subject to fixed conditions), and engineering (optimal design with resource limits). Lagrange multipliers provide the systematic method to solve these real-world problems.
+Constrained optimization models engineering problems: maximizing profit subject to resource constraints, minimizing surface area for fixed volume, finding shortest paths on surfaces. Lagrange multipliers solve these systematically.

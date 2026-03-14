@@ -4,14 +4,15 @@ title: Triple Integrals in Cartesian Coordinates
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: applications-double-integrals
+- id: triple-integrals
+  type: hard
+- id: double-integrals-cartesian
   type: hard
 builds-toward:
-- triple-integrals-cylindrical-spherical
-- change-of-variables-jacobian
+- triple-integrals-cylindrical
+- triple-integrals-spherical
 tags:
-- triple-integrals
-- cartesian
+- triple-integral
 - volume
 stage: formal-systems
 status: draft
@@ -20,4 +21,4 @@ status: draft
 # Triple Integrals in Cartesian Coordinates
 
 ## Core Idea
-The triple integral ∭_V f(x, y, z) dV extends integration to 3D. For a solid V, it computes volume (f = 1), mass (f = density), and other physical quantities. Setup requires identifying bounds in z, y, and x (or other orders).
+The triple integral ∭_W f(x,y,z) dV gives signed volume or accumulates density. In Cartesian coordinates, dV = dx dy dz, and the integral becomes an iterated integral with three steps.

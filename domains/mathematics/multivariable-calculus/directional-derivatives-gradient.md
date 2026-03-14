@@ -1,25 +1,26 @@
 ---
 id: directional-derivatives-gradient
-title: Directional Derivatives and the Gradient Vector
+title: Directional Derivatives and the Gradient
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: partial-derivatives
+- id: directional-derivatives
+  type: hard
+- id: gradient-vector
   type: hard
 - id: dot-product
   type: hard
 builds-toward:
-- gradient-vector-properties
-- tangent-planes-linear-approximation
+- optimization-multivariable-basics
+- vector-fields
 tags:
-- directional-derivatives
 - gradient
-- steepest-ascent
+- directional-derivative
 stage: formal-systems
 status: draft
 ---
 
-# Directional Derivatives and the Gradient Vector
+# Directional Derivatives and the Gradient
 
 ## Core Idea
-The directional derivative D_u f = ∇f · u is the rate of change of f in the direction of unit vector u. The gradient ∇f = ⟨∂f/∂x, ∂f/∂y, ∂f/∂z⟩ points in the direction of steepest ascent with magnitude equal to the maximum rate of increase.
+The directional derivative D_u f = ∇f · u gives the rate of change in direction u (unit vector). The gradient ∇f = ⟨f_x, f_y⟩ points in the direction of steepest ascent and has magnitude equal to the maximum directional derivative.

@@ -1,24 +1,26 @@
 ---
 id: greens-theorem
-title: Green's Theorem and Its Applications
+title: Green's Theorem
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: curl-and-divergence
+- id: greens-theorem
+  type: hard
+- id: line-integrals-vector-fields
+  type: hard
+- id: double-integrals-cartesian
   type: hard
 builds-toward:
-- surface-integrals-flux
-- stokes-and-divergence-theorems
+- stokes-theorem
+- divergence-theorem
 tags:
 - greens-theorem
 - circulation
-- flux
-- 2d
 stage: formal-systems
 status: draft
 ---
 
-# Green's Theorem and Its Applications
+# Green's Theorem
 
 ## Core Idea
-Green's theorem states that ∮_C (P dx + Q dy) = ∬_D (∂Q/∂x − ∂P/∂y) dA, relating a line integral around a closed curve C to a double integral over D. It has circulation form (left side = work) and flux form (left side = outward flux).
+Green's theorem: ∮_C (P dx + Q dy) = ∬_D (Q_x - P_y) dA. This relates line integrals around a closed curve to a double integral of curl over the region, converting circulation to an area integral.

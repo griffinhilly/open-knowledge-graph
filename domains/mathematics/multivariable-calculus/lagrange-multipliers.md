@@ -1,24 +1,23 @@
 ---
 id: lagrange-multipliers
-title: Lagrange Multipliers for Constrained Optimization
+title: Lagrange Multipliers
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: unconstrained-optimization
+- id: lagrange-multipliers
   type: hard
-- id: gradient-vector-properties
+- id: implicit-differentiation-multivariable
   type: hard
 builds-toward:
 - constrained-optimization
 tags:
-- lagrange-multipliers
+- lagrange
 - constraints
-- optimization
 stage: formal-systems
 status: draft
 ---
 
-# Lagrange Multipliers for Constrained Optimization
+# Lagrange Multipliers
 
 ## Core Idea
-To extremize f(x, y, z) subject to g(x, y, z) = 0, solve ∇f = λ∇g (the gradients are parallel) together with the constraint. The scalar λ is the Lagrange multiplier; geometrically, extrema occur where level surfaces of f and g are tangent.
+To optimize f(x, y) subject to g(x, y) = 0, solve ∇f = λ∇g along with the constraint. The Lagrange multiplier λ represents the sensitivity of the optimum to relaxing the constraint.

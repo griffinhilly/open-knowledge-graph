@@ -1,25 +1,23 @@
 ---
 id: tangent-planes-linear-approximation
-title: Tangent Planes and Linear Approximation of Surfaces
+title: Tangent Planes and Linear Approximation
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: gradient-vector-properties
+- id: tangent-planes
   type: hard
-- id: equations-lines-planes
-  type: hard
+- id: directional-derivatives
+  type: soft
 builds-toward:
-- critical-points-extrema-saddle
-- hessian-matrix-second-derivative-test
+- optimization-multivariable-basics
 tags:
-- tangent-planes
-- linear-approximation
-- surfaces
+- tangent-plane
+- linearization
 stage: formal-systems
 status: draft
 ---
 
-# Tangent Planes and Linear Approximation of Surfaces
+# Tangent Planes and Linear Approximation
 
 ## Core Idea
-The tangent plane to z = f(x, y) at (x₀, y₀, f(x₀, y₀)) has equation z − f(x₀, y₀) = f_x(x₀, y₀)(x − x₀) + f_y(x₀, y₀)(y − y₀). This plane is the best linear approximation to the surface near the point.
+The tangent plane to z = f(x, y) at (a, b) is z = f(a,b) + f_x(a,b)(x-a) + f_y(a,b)(y-b). This plane is the best linear approximation to f near (a, b), used for error propagation and differential approximation.
