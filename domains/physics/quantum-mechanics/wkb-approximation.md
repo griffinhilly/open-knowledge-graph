@@ -4,19 +4,18 @@ title: WKB Approximation
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: quantum-tunneling
-  type: soft
-- id: differential-equations-intro
+- id: uncertainty-principle-formal
+  type: hard
+- id: schrodinger-equation-intro
   type: hard
 tags:
-- semiclassical
 - approximation-methods
-- tunneling
-stage: advanced
+- semiclassical
+stage: abstract-reasoning
 status: draft
 ---
 
 # WKB Approximation
 
 ## Core Idea
-The WKB (Wentzel-Kramers-Brillouin) approximation provides semiclassical solutions to 1D Schrödinger equations valid when the potential varies slowly. The wavefunction has the form ψ(x) ≈ A/p(x)^{1/2} exp(±i/ℏ ∫p(x)dx) where p(x) = √{2m(E-V)}. WKB accurately predicts tunneling probabilities and quantization conditions without exact solutions.
+The Wentzel-Kramers-Brillouin approximation treats the wavefunction as ψ(x) ≈ e^{iS(x)/ℏ}, where S evolves classically. It works when the potential varies slowly over distances of order λ_dB and naturally describes tunneling and bound state quantization.

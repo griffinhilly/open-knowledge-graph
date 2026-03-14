@@ -4,19 +4,16 @@ title: Clebsch-Gordan Coefficients
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: addition-of-angular-momenta
+- id: angular-momentum-addition
   type: hard
-builds-toward:
-- fine-structure-splitting
 tags:
 - angular-momentum
-- coupling
-- representation-theory
-stage: advanced
+- coefficients
+stage: abstract-reasoning
 status: draft
 ---
 
 # Clebsch-Gordan Coefficients
 
 ## Core Idea
-Clebsch-Gordan coefficients ⟨j₁m₁j₂m₂|jm⟩ express the transformation between uncoupled |j₁m₁⟩|j₂m₂⟩ and coupled |jm⟩ bases. They encode how angular momenta combine and are tabulated for all relevant j values. Applications include atomic spectra (fine structure), molecular spectroscopy, and nuclear physics where angular momentum coupling is essential.
+Clebsch-Gordan coefficients ⟨j₁,m₁,j₂,m₂|j,m⟩ transform between coupled and uncoupled angular momentum bases. They are overlap integrals expressing |j,m⟩ as sums over products |j₁,m₁⟩|j₂,m₂⟩.

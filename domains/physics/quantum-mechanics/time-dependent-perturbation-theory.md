@@ -6,17 +6,18 @@ course: quantum-mechanics
 prerequisites:
 - id: time-independent-perturbation-theory
   type: hard
+- id: differential-equations
+  type: hard
 builds-toward:
 - fermi-golden-rule
 tags:
-- perturbation-theory
+- perturbation
 - transitions
-- time-evolution
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
 # Time-Dependent Perturbation Theory
 
 ## Core Idea
-Time-dependent perturbation theory treats time-varying perturbations H'(t) affecting a quantum system. Starting from an eigenstate of H₀, the system evolves and can transition to other states. First-order transition amplitude to state |f⟩ after time T is c_f^{(1)}(T) = -i/ℏ ∫₀ᵀ ⟨f|H'(t')|i⟩ e^{iω_{fi}t'} dt'. This governs absorption and emission of radiation.
+When a time-dependent perturbation H'(t) is applied, transitions between energy eigenstates become possible. Expanding |ψ(t)⟩ in the unperturbed basis yields coupled ODEs for coefficients cₙ(t). First-order theory gives transition amplitudes proportional to the Fourier transform of the perturbation at the transition frequency.

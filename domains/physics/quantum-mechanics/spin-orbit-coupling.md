@@ -4,21 +4,19 @@ title: Spin-Orbit Coupling
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: orbital-angular-momentum-quantum
+- id: spin-half-systems
   type: hard
-- id: spin-angular-momentum
+- id: angular-momentum-quantization
   type: hard
-builds-toward:
-- fine-structure-splitting
 tags:
-- relativistic-effects
+- spin
 - coupling
-- fine-structure
-stage: advanced
+- interactions
+stage: abstract-reasoning
 status: draft
 ---
 
 # Spin-Orbit Coupling
 
 ## Core Idea
-Spin-orbit coupling arises from the relativistic interaction between an electron's spin magnetic moment and the effective magnetic field from orbital motion: H_{SO} ∝ L̄ · S̄. This interaction causes energy shifts that split spectral lines. For hydrogen, fine structure removes the degeneracy between states with the same n and l but different j = l ± 1/2.
+Spin-orbit coupling arises from the relativistic interaction H_SO ∝ L·S between the electron's spin magnetic moment and the magnetic field from its orbital motion. This coupling causes fine structure splitting in atomic energy levels and demonstrates that orbital and spin angular momenta cannot be independently conserved.

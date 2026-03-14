@@ -4,20 +4,20 @@ title: Time-Independent Perturbation Theory
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: eigenvalues-eigenstates-quantum
+- id: operators-and-observables
+  type: hard
+- id: schrodinger-equation-intro
   type: hard
 builds-toward:
-- first-order-perturbation-energy
-- degenerate-perturbation-theory
+- variational-method
 tags:
-- perturbation-theory
-- approximation-methods
-- weak-coupling
-stage: advanced
+- perturbation
+- approximation
+stage: abstract-reasoning
 status: draft
 ---
 
 # Time-Independent Perturbation Theory
 
 ## Core Idea
-Many quantum systems lack exact solutions; perturbation theory approximates them as a solvable system H₀ with a small perturbation H = H₀ + λH'. Corrections to energy and states are expanded in powers of λ. First-order energy shift ΔE^{(1)}_n = ⟨ψₙ⁽⁰⟩|H'|ψₙ⁽⁰⟩⟩; higher orders give increasingly accurate approximations.
+Perturbation theory treats a slightly perturbed Hamiltonian H = H₀ + λH' by expanding corrections in powers of λ. Unperturbed states and energies are known; first-order energies are E_n^(1) = ⟨n⁰|H'|n⁰⟩ and second-order accounts for virtual intermediate states.
