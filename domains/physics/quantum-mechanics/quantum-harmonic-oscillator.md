@@ -1,25 +1,23 @@
 ---
 id: quantum-harmonic-oscillator
-title: Quantum Harmonic Oscillator
+title: The Quantum Harmonic Oscillator
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: quantum-postulates
+- id: schrodinger-equation-intro
   type: hard
-- id: differential-equations-intro
+- id: canonical-commutation-relations
   type: hard
 builds-toward:
-- ladder-operators-oscillator
-- time-independent-perturbation-theory
+- ladder-operators
 tags:
 - harmonic-oscillator
 - solvable-systems
-- quantum-mechanics
-stage: advanced
+stage: mathematical-application
 status: draft
 ---
 
-# Quantum Harmonic Oscillator
+# The Quantum Harmonic Oscillator
 
 ## Core Idea
-The quantum harmonic oscillator with Hamiltonian H = (p̂²/2m) + (1/2)mω²x̂² has energy levels E_n = ℏω(n + 1/2) for n = 0, 1, 2, … with zero-point energy E₀ = ℏω/2. Unlike classical oscillators, ground state energy never reaches zero. This system is exactly solvable and fundamental to quantum field theory.
+The quantum harmonic oscillator has discrete energy levels E_n = (n + ½)ℏω. Unlike classically, the ground state has nonzero zero-point energy ½ℏω due to uncertainty.

@@ -1,21 +1,23 @@
 ---
 id: density-matrices
-title: Density Matrices and Density Operators
+title: Density Matrices and the Density Operator
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: quantum-postulates
+- id: kets-and-bras
   type: hard
-- id: born-rule-and-measurement
+- id: observables-and-operators
   type: hard
+builds-toward:
+- pure-and-mixed-states
 tags:
-- density-operator
+- density-matrices
 - mixed-states
 stage: abstract-reasoning
 status: draft
 ---
 
-# Density Matrices and Density Operators
+# Density Matrices and the Density Operator
 
 ## Core Idea
-The density matrix ρ = |ψ⟩⟨ψ| for a pure state generalizes to mixed states: ρ = Σᵢ pᵢ|ψᵢ⟩⟨ψᵢ| with Σᵢ pᵢ = 1. Observables are measured via Tr(ρA). For pure states, Tr(ρ²) = 1; for mixed states, Tr(ρ²) < 1. Density matrices elegantly describe incomplete knowledge and systems coupled to environments.
+Density matrix ρ = |ψ⟩⟨ψ| (pure) or ρ = Σᵢ pᵢ|ψᵢ⟩⟨ψᵢ| (mixed) encodes complete state information. Expectation values: ⟨Â⟩ = Tr(ρÂ).

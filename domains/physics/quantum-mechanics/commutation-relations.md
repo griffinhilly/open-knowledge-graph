@@ -1,23 +1,23 @@
 ---
 id: commutation-relations
-title: Commutation Relations
+title: Commutators and Commutation Relations
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: operators-and-observables
+- id: observables-and-operators
   type: hard
 builds-toward:
-- uncertainty-principle-formal
-- ladder-operators
-- angular-momentum-quantization
+- canonical-commutation-relations
+- uncertainty-relations
 tags:
 - operators
+- commutators
 - algebra
 stage: abstract-reasoning
 status: draft
 ---
 
-# Commutation Relations
+# Commutators and Commutation Relations
 
 ## Core Idea
-The commutator [A,B] = AB - BA measures whether two operators can be simultaneously diagonalized. The canonical relation [x̂,p̂] = iℏ encodes fundamental physical constraints. When operators commute, their observables can be measured simultaneously; otherwise, uncertainty relations arise.
+The commutator [Â, B̂] = ÂB̂ − B̂Â measures how operators fail to commute. Nonzero commutators signal that observables cannot be simultaneously measured with arbitrary precision.

@@ -1,21 +1,21 @@
 ---
 id: wkb-approximation
-title: WKB Approximation
+title: The WKB Approximation
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: uncertainty-principle-formal
+- id: differential-equations
   type: hard
-- id: schrodinger-equation-intro
-  type: hard
+builds-toward:
+- wkb-quantization-rule
 tags:
-- approximation-methods
+- wkb
 - semiclassical
-stage: abstract-reasoning
+stage: mathematical-application
 status: draft
 ---
 
-# WKB Approximation
+# The WKB Approximation
 
 ## Core Idea
-The Wentzel-Kramers-Brillouin approximation treats the wavefunction as ψ(x) ≈ e^{iS(x)/ℏ}, where S evolves classically. It works when the potential varies slowly over distances of order λ_dB and naturally describes tunneling and bound state quantization.
+WKB is a semiclassical method valid when de Broglie wavelength varies slowly. Writing ψ(x) ≈ A(x) e^{iS(x)/ℏ} accurately describes tunneling, quantization, and smooth-potential scattering.

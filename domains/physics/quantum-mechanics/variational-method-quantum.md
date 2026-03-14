@@ -1,20 +1,19 @@
 ---
 id: variational-method-quantum
-title: Variational Method
+title: 'The Variational Method: Application'
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: quantum-postulates
+- id: variational-principle-quantum
   type: hard
 tags:
-- variational-method
-- approximation-methods
-- ground-state
-stage: advanced
+- variational-methods
+- approximations
+stage: mathematical-application
 status: draft
 ---
 
-# Variational Method
+# The Variational Method: Application
 
 ## Core Idea
-The variational principle states ⟨ψ|H|ψ⟩/⟨ψ|ψ⟩ ≥ E₀ for any normalized state, with equality for the ground state. To estimate ground state energy, choose a trial wavefunction ψ(x;α) with adjustable parameters and minimize ⟨H⟩ with respect to α. The minimum provides an upper bound on E₀ while giving useful approximate wavefunctions. This method works for strong interactions without unperturbed solutions.
+Parameterize trial wavefunction ψ(α, β, ...) and compute ⟨H⟩; minimize by ∂⟨H⟩/∂α = 0. Widely used in quantum chemistry (Hartree-Fock) and condensed matter.

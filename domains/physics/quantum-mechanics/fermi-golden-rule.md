@@ -1,19 +1,19 @@
 ---
 id: fermi-golden-rule
-title: Fermi's Golden Rule
+title: The Fermi Golden Rule
 domain: physics
 course: quantum-mechanics
 prerequisites:
 - id: time-dependent-perturbation-theory
   type: hard
 tags:
+- fermi-golden-rule
 - transition-rates
-- decay
-stage: abstract-reasoning
+stage: mathematical-application
 status: draft
 ---
 
-# Fermi's Golden Rule
+# The Fermi Golden Rule
 
 ## Core Idea
-Fermi's golden rule gives the transition rate from state |i⟩ to a continuum of final states: Γᵢ→f = (2π/ℏ)|⟨f|H'|i⟩|² ρ(Ef). This applies to spontaneous emission, photoabsorption, and scattering whenever the perturbation is weak and final states are dense.
+Transition rate to continuum: Γ_{i→f} = (2π/ℏ) |⟨f|H'|i⟩|² ρ(E_f), where ρ(E_f) is the density of final states. Predicts absorption, emission, decay, and scattering rates.

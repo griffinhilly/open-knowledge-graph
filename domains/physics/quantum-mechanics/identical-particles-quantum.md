@@ -1,22 +1,23 @@
 ---
 id: identical-particles-quantum
-title: Identical Particles and Quantum Statistics
+title: Identical Particles and Exchange Symmetry
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: state-vectors-and-wavefunctions
+- id: commutation-relations
+  type: hard
+- id: kets-and-bras
   type: hard
 builds-toward:
-- bosons-and-fermions
+- fermions-and-bosons
 tags:
 - identical-particles
-- exchange-symmetry
-- statistics
-stage: advanced
+- symmetry
+stage: abstract-reasoning
 status: draft
 ---
 
-# Identical Particles and Quantum Statistics
+# Identical Particles and Exchange Symmetry
 
 ## Core Idea
-Two identical quantum particles cannot be distinguished; exchanging them must leave the system indistinguishable. Wavefunctions must be either symmetric (bosons) or antisymmetric (fermions) under particle exchange: ψ_{sym}(1,2) = 1/√2[ψ_a(1)ψ_b(2) + ψ_b(1)ψ_a(2)] and ψ_{antisym}(1,2) = 1/√2[ψ_a(1)ψ_b(2) - ψ_b(1)ψ_a(2)]. This fundamental symmetry principle has profound consequences for atomic structure and bulk properties.
+Identical particles are truly indistinguishable in quantum mechanics. Wavefunctions must be symmetric ψ = +ψ or antisymmetric ψ = −ψ under exchange, a constraint emerging from spin-statistics theorem.

@@ -11,13 +11,13 @@ prerequisites:
 builds-toward:
 - fermi-golden-rule
 tags:
-- perturbation
-- transitions
-stage: abstract-reasoning
+- perturbation-theory
+- time-dependent
+stage: mathematical-application
 status: draft
 ---
 
 # Time-Dependent Perturbation Theory
 
 ## Core Idea
-When a time-dependent perturbation H'(t) is applied, transitions between energy eigenstates become possible. Expanding |ψ(t)⟩ in the unperturbed basis yields coupled ODEs for coefficients cₙ(t). First-order theory gives transition amplitudes proportional to the Fourier transform of the perturbation at the transition frequency.
+Time-varying perturbations H'(t) cause state evolution; coefficients expand as c_n(t) ≈ c_n⁽⁰⟩ − (i/ℏ) ∫₀ᵗ dt' ⟨n|H'(t')|m⟩ e^{iω_{nm}t'} c_m⁽⁰⟩.

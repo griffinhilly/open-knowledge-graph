@@ -1,19 +1,19 @@
 ---
 id: bell-inequalities
-title: Bell Inequalities and Nonlocality
+title: Bell Inequalities and Their Violation
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: entanglement
+- id: bell-theorem
   type: hard
 tags:
 - bell-inequalities
-- nonlocality
+- quantum-nonlocality
 stage: abstract-reasoning
 status: draft
 ---
 
-# Bell Inequalities and Nonlocality
+# Bell Inequalities and Their Violation
 
 ## Core Idea
-Bell inequalities constrain correlations in any local hidden-variable theory. Quantum mechanics violates Bell inequalities for entangled states, proving that no local realistic theory can reproduce quantum predictions. Experiments confirm quantum violations, establishing fundamental nonlocality.
+CHSH inequality: |⟨AB⟩ + ⟨AB'⟩ + ⟨A'B⟩ − ⟨A'B'⟩| ≤ 2 in local hidden-variable theories. Quantum mechanics allows ≤ 2√2 for entangled states.

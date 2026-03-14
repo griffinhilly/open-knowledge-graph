@@ -4,14 +4,14 @@ title: Dirac Notation (Bra-Ket Notation)
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: hilbert-space-formalism
+- id: linear-algebra
   type: hard
 builds-toward:
-- operators-and-observables
-- commutation-relations
-- expectation-values
+- kets-and-bras
+- observables-and-operators
 tags:
 - notation
+- hilbert-spaces
 - foundations
 stage: abstract-reasoning
 status: draft
@@ -20,10 +20,4 @@ status: draft
 # Dirac Notation (Bra-Ket Notation)
 
 ## Core Idea
-Dirac notation uses kets |ψ⟩ to denote state vectors and bras ⟨ψ| to denote dual vectors. The bracket ⟨ψ|φ⟩ represents the inner product. This compact notation emphasizes the physical interpretation and makes complex algebraic manipulations transparent.
-
-## How It's Best Learned
-Practice converting between function notation ψ(x) and ket notation |ψ⟩. Work on manipulating bras and kets algebraically, paying careful attention to conjugation rules and operator ordering.
-
-## Common Misconceptions
-The ket |ψ⟩ and function ψ(x) are not the same object; the ket lives in abstract space while the function is a coordinate representation.
+Dirac notation compactly represents quantum states and operations using kets |ψ⟩ (column vectors) and bras ⟨ψ| (row vectors). The notation separates abstract state space from coordinate representation and elegantly expresses inner products, operators, and expectation values. It is the standard language of quantum mechanics.

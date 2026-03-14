@@ -1,23 +1,24 @@
 ---
 id: hydrogen-atom-solution
-title: The Hydrogen Atom
+title: Solution of the Hydrogen Atom
 domain: physics
 course: quantum-mechanics
 prerequisites:
 - id: schrodinger-equation-intro
   type: hard
-- id: angular-momentum-quantization
+- id: orbital-angular-momentum-quantum
   type: hard
 builds-toward:
-- atomic-orbitals-quantum
+- hydrogen-energy-levels
+- fine-structure-hydrogen
 tags:
-- atoms
-- exactly-solvable
-stage: abstract-reasoning
+- hydrogen-atom
+- solvable-systems
+stage: mathematical-application
 status: draft
 ---
 
-# The Hydrogen Atom
+# Solution of the Hydrogen Atom
 
 ## Core Idea
-The hydrogen atom is the only many-body quantum system with an exact analytic solution. Energy levels Eₙ = -13.6 eV/n² depend only on the principal quantum number. The wavefunction factorizes into radial and angular parts given by spherical harmonics.
+The Coulomb potential V(r) = −e²/4πε₀r yields exact solutions via separation of variables: angular parts are spherical harmonics; radial equations give R_{nl}(r) depending on n (principal) and l (orbital).

@@ -4,17 +4,16 @@ title: Interpretations of Quantum Mechanics
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: quantum-measurement-problem
+- id: measurement-problem-quantum
   type: hard
 tags:
-- interpretation
+- interpretations
 - foundations
-- philosophy
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
 # Interpretations of Quantum Mechanics
 
 ## Core Idea
-Quantum mechanics is mathematically unique but admits multiple physical interpretations differing on what is 'real': Copenhagen (collapse is real), Many-Worlds (all superpositions exist, decoherence yields apparent collapse), pilot-wave (determinate particle trajectories guided by wavefunction), relational (properties only exist relative to other systems). All agree on predictions but differ philosophically. This remains an active research area.
+Major interpretations address the measurement problem differently: Copenhagen (subjective ψ), many-worlds (all branches), objective collapse (physical collapse), Bohmian (deterministic trajectories), relational (relative properties). All reproduce empirical predictions.

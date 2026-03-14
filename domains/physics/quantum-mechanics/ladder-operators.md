@@ -1,23 +1,22 @@
 ---
 id: ladder-operators
-title: Ladder Operators
+title: Ladder Operators for the Harmonic Oscillator
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: commutation-relations
+- id: quantum-harmonic-oscillator
   type: hard
 builds-toward:
-- harmonic-oscillator-quantum
-- angular-momentum-quantization
+- creation-annihilation-operators
+- harmonic-oscillator-energy-levels
 tags:
-- operators
-- algebra
-- symmetry
-stage: abstract-reasoning
+- ladder-operators
+- raising-lowering
+stage: mathematical-application
 status: draft
 ---
 
-# Ladder Operators
+# Ladder Operators for the Harmonic Oscillator
 
 ## Core Idea
-Ladder operators (raising/lowering) are constructed from pairs of observables satisfying canonical commutation relations. The raising operator a† increases quantum numbers by one; the lowering operator a decreases them. They eliminate the need for differential equations and reveal algebraic structure.
+Raising â† and lowering â operators change quantum number n by one: â†|n⟩ = √(n+1)|n+1⟩ and â|n⟩ = √n|n−1⟩. Their commutation [â, â†] = 1 encodes the entire spectrum algebraically.

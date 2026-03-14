@@ -4,20 +4,21 @@ title: Time-Independent Perturbation Theory
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: operators-and-observables
+- id: hydrogen-atom-solution
   type: hard
-- id: schrodinger-equation-intro
+- id: observables-and-operators
   type: hard
 builds-toward:
-- variational-method
+- first-order-perturbation-theory
+- degenerate-perturbation-theory
 tags:
-- perturbation
-- approximation
-stage: abstract-reasoning
+- perturbation-theory
+- approximations
+stage: mathematical-application
 status: draft
 ---
 
 # Time-Independent Perturbation Theory
 
 ## Core Idea
-Perturbation theory treats a slightly perturbed Hamiltonian H = H₀ + λH' by expanding corrections in powers of λ. Unperturbed states and energies are known; first-order energies are E_n^(1) = ⟨n⁰|H'|n⁰⟩ and second-order accounts for virtual intermediate states.
+For a solvable unperturbed Hamiltonian H₀ with small perturbation H', energies and states are power series expansions: E = E⁽⁰⟩ + λE⁽¹⟩ + ...., |ψ⟩ = |ψ⁽⁰⟩⟩ + λ|ψ⁽¹⟩⟩ + ....

@@ -4,11 +4,13 @@ title: Clebsch-Gordan Coefficients
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: angular-momentum-addition
+- id: angular-momentum-coupling
   type: hard
+builds-toward:
+- hydrogen-energy-levels
 tags:
 - angular-momentum
-- coefficients
+- coupling
 stage: abstract-reasoning
 status: draft
 ---
@@ -16,4 +18,4 @@ status: draft
 # Clebsch-Gordan Coefficients
 
 ## Core Idea
-Clebsch-Gordan coefficients ⟨j₁,m₁,j₂,m₂|j,m⟩ transform between coupled and uncoupled angular momentum bases. They are overlap integrals expressing |j,m⟩ as sums over products |j₁,m₁⟩|j₂,m₂⟩.
+Clebsch-Gordan coefficients ⟨j₁, m₁; j₂, m₂ | j, m_j⟩ expand coupled angular momentum states as linear combinations of uncoupled states and encode all angular momentum composition algebra.

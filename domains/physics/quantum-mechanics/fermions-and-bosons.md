@@ -4,13 +4,14 @@ title: Fermions and Bosons
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: identical-particles-exchange
+- id: identical-particles-quantum
   type: hard
 builds-toward:
-- slater-determinant
+- pauli-exclusion-principle
 tags:
+- fermions
+- bosons
 - statistics
-- identical-particles
 stage: abstract-reasoning
 status: draft
 ---
@@ -18,4 +19,4 @@ status: draft
 # Fermions and Bosons
 
 ## Core Idea
-Fermions (half-integer spin) have antisymmetric wavefunctions, leading to the Pauli exclusion principle. Bosons (integer spin) have symmetric wavefunctions, allowing arbitrary occupation numbers. This difference profoundly impacts statistical mechanics and matter structure.
+Half-integer spin particles (electrons, quarks) are fermions with antisymmetric wavefunctions; integer spin particles (photons, pions) are bosons with symmetric ones. Fermions obey Pauli exclusion; bosons allow multiple particles in one state.

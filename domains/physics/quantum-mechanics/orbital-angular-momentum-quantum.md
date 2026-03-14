@@ -1,24 +1,24 @@
 ---
 id: orbital-angular-momentum-quantum
-title: Orbital Angular Momentum
+title: Orbital Angular Momentum in Quantum Mechanics
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: angular-momentum-quantum
+- id: commutation-relations
+  type: hard
+- id: differential-equations
   type: hard
 builds-toward:
-- hydrogen-atom-quantum
-- addition-of-angular-momenta
-- spin-orbit-coupling
+- total-angular-momentum
+- hydrogen-atom-solution
 tags:
-- orbital-angular-momentum
-- hydrogen
-- rotation
-stage: advanced
+- angular-momentum
+- quantum-mechanics
+stage: mathematical-application
 status: draft
 ---
 
-# Orbital Angular Momentum
+# Orbital Angular Momentum in Quantum Mechanics
 
 ## Core Idea
-Orbital angular momentum L̂ = r̂ × p̂ is the angular momentum associated with particle motion in space. Eigenfunctions of L̂² and L̂ᵤ are spherical harmonics Yₗᵐ(θ,φ) with eigenvalues ℏ²l(l+1) and mℏ respectively, where l = 0, 1, 2, … and m = -l, …, l. Orbital angular momentum quantization explains atomic structure and the shell model.
+Orbital angular momentum L⃗ = r⃗ × p⃗ is quantized with [L̂_i, L̂_j] = iℏ ε_{ijk} L̂_k. Only one component and magnitude are simultaneously measurable with eigenvalues ℏm_l and ℏ²l(l+1).

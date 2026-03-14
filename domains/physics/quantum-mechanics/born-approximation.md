@@ -1,21 +1,21 @@
 ---
 id: born-approximation
-title: Born Approximation
+title: The Born Approximation in Scattering
 domain: physics
 course: quantum-mechanics
 prerequisites:
 - id: scattering-theory-intro
   type: hard
-builds-toward:
-- partial-wave-analysis
+- id: time-independent-perturbation-theory
+  type: soft
 tags:
+- born-approximation
 - scattering
-- approximation
-stage: abstract-reasoning
+stage: mathematical-application
 status: draft
 ---
 
-# Born Approximation
+# The Born Approximation in Scattering
 
 ## Core Idea
-In the Born approximation, the scattering amplitude is f(q) ≈ -(m/2πℏ²) ∫ V(r) e^{iq·r} d³r, where q is momentum transfer. Valid when |V| ≪ ℏ²k²/m, it connects the potential directly to the cross section.
+Born approximation: f(θ) ≈ −(m/2πℏ²) ∫ e^{iq·r'} V(r') d³r' with momentum transfer q. Valid for weak scattering or high energy. Predicts Rutherford scattering.

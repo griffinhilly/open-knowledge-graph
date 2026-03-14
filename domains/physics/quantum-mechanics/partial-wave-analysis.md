@@ -1,21 +1,23 @@
 ---
 id: partial-wave-analysis
-title: Partial Wave Analysis
+title: Partial Wave Analysis in Scattering
 domain: physics
 course: quantum-mechanics
 prerequisites:
 - id: scattering-theory-intro
   type: hard
-- id: angular-momentum-quantization
-  type: soft
+- id: orbital-angular-momentum-quantum
+  type: hard
+builds-toward:
+- cross-sections-scattering
 tags:
-- scattering
+- partial-waves
 - angular-momentum
 stage: abstract-reasoning
 status: draft
 ---
 
-# Partial Wave Analysis
+# Partial Wave Analysis in Scattering
 
 ## Core Idea
-Scattering amplitudes decompose into partial waves: f(θ) = (1/2ik)Σ_ℓ (2ℓ+1)(e^{2iδ_ℓ} - 1)Pℓ(cos θ). Each partial wave acquires a phase shift δ_ℓ from the potential. At low energy, s-wave (ℓ=0) dominates; higher partial waves are suppressed by the centrifugal barrier.
+Scattering amplitude expands in angular momentum: f(θ) = Σ_l (2l+1) f_l P_l(cos θ) / 2ik. Low energies dominated by s-wave (l=0). Phase shift δ_l encodes each partial wave's phase change.

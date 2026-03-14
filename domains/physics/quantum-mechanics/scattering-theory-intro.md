@@ -4,14 +4,14 @@ title: Introduction to Scattering Theory
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: schrodinger-equation-intro
+- id: hydrogen-atom-solution
   type: hard
 builds-toward:
 - born-approximation
 - partial-wave-analysis
 tags:
 - scattering
-- asymptotic
+- cross-sections
 stage: abstract-reasoning
 status: draft
 ---
@@ -19,4 +19,4 @@ status: draft
 # Introduction to Scattering Theory
 
 ## Core Idea
-Scattering theory describes asymptotic behavior of waves encountering localized potentials. For r → ∞, the wavefunction separates into incoming and scattered waves: ψ(r) ≈ e^{ikz} + f(θ)e^{ikr}/r. The scattering amplitude f(θ) determines the differential cross section dσ/dΩ = |f(θ)|².
+Scattering theory describes how quantum particles interact with localized potentials. An incoming plane wave scatters into outgoing spherical waves. Scattering amplitude f(θ, φ) encodes angular distribution; dσ/dΩ = |f|².
