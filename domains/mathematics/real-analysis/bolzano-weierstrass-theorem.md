@@ -1,26 +1,25 @@
 ---
 id: bolzano-weierstrass-theorem
-title: Subsequences and the Bolzano-Weierstrass Theorem
+title: Bolzano-Weierstrass Theorem
 domain: mathematics
 course: real-analysis
 prerequisites:
-- id: epsilon-n-convergence
+- id: subsequences
   type: hard
-- id: monotone-convergence-theorem
+- id: compact-sets
   type: soft
 builds-toward:
-- compact-sets-heine-borel
-- sequential-characterization-continuity
+- compact-sets
+- heine-borel-theorem
 tags:
-- subsequences
 - bolzano-weierstrass
-- convergent
-- boundedness
+- compactness
+- subsequences
 stage: abstract-reasoning
 status: draft
 ---
 
-# Subsequences and the Bolzano-Weierstrass Theorem
+# Bolzano-Weierstrass Theorem
 
 ## Core Idea
-The Bolzano-Weierstrass Theorem states that every bounded sequence in ℝ has a convergent subsequence. This is a powerful compactness result that guarantees the existence of a convergent sub-sequence even when the full sequence may not converge. It is one of the most important theorems in analysis.
+Every bounded sequence in ℝ has a convergent subsequence. This theorem bridges sequential behavior and compactness: a bounded sequence must 'accumulate' somewhere due to completeness. It is equivalent to the Heine-Borel Theorem in ℝ and is the gateway to compact sets.

@@ -4,16 +4,16 @@ title: Introduction to Lebesgue Measure
 domain: mathematics
 course: real-analysis
 prerequisites:
-- id: open-closed-sets-real-line
+- id: compact-sets
   type: hard
-- id: riemann-integrability-criteria
-  type: soft
+- id: open-sets-real-line
+  type: hard
 builds-toward:
 - introduction-lebesgue-integral
 tags:
 - lebesgue-measure
 - measure-theory
-- measurable-sets
+- advanced
 stage: abstract-reasoning
 status: draft
 ---
@@ -21,4 +21,4 @@ status: draft
 # Introduction to Lebesgue Measure
 
 ## Core Idea
-Lebesgue measure extends the notion of length to general sets on ℝ. A set E is measurable if for every set A, m(A) = m(A ∩ E) + m(A ∩ E^c). Lebesgue measure assigns 0 to countable sets, assigns to each interval [a,b] measure b−a, and is countably additive. This allows for more powerful integration theory than Riemann.
+Lebesgue measure extends the notion of length to more general sets than intervals. It assigns a non-negative measure to sets in σ-algebra on ℝ, generalizing length of intervals. Lebesgue measure has better properties than Riemann integrability: it handles arbitrary unions of open sets, and a set has measure zero if it can be covered by countably many intervals of arbitrarily small total length. This foundation enables the Lebesgue integral to integrate a much wider class of functions.

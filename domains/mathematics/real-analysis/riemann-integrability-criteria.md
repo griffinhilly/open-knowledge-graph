@@ -6,15 +6,15 @@ course: real-analysis
 prerequisites:
 - id: riemann-integral-darboux-sums
   type: hard
-- id: open-closed-sets-real-line
+- id: connected-sets
   type: soft
 builds-toward:
-- properties-riemann-integral
+- riemann-integral-properties
 - fundamental-theorem-calculus-rigorous
 tags:
-- riemann-integrability
+- integrability
+- criteria
 - discontinuities
-- measure-zero
 stage: abstract-reasoning
 status: draft
 ---
@@ -22,4 +22,4 @@ status: draft
 # Criteria for Riemann Integrability
 
 ## Core Idea
-A bounded function f on [a, b] is Riemann integrable if and only if the set of discontinuities has measure zero. Equivalently, f is integrable iff for every ε > 0, there exists a partition P such that U(P) − L(P) < ε. All continuous functions are integrable; some discontinuous functions are too.
+A function f on [a,b] is Riemann integrable if and only if its set of discontinuities has measure zero. This criterion clarifies which functions are integrable: all continuous functions, all monotone functions, and many others. Functions discontinuous on a dense set (like Dirichlet's function) are not Riemann integrable, motivating the Lebesgue integral.

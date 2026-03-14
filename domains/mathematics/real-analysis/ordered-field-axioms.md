@@ -3,19 +3,14 @@ id: ordered-field-axioms
 title: Ordered Field Axioms of the Real Numbers
 domain: mathematics
 course: real-analysis
-prerequisites:
-- id: direct-proof
-  type: hard
-- id: proof-by-contradiction
-  type: hard
+prerequisites: []
 builds-toward:
-- completeness-axiom
-- supremum-infimum
+- completeness-axiom-lub
 - archimedean-property
 tags:
-- real-numbers
+- foundations
 - axioms
-- field-theory
+- fields
 - order
 stage: abstract-reasoning
 status: draft
@@ -24,4 +19,4 @@ status: draft
 # Ordered Field Axioms of the Real Numbers
 
 ## Core Idea
-The real numbers form an ordered field: they satisfy the field axioms (closure, associativity, commutativity, identities, inverses) and the order axioms (totality, transitivity, compatibility with operations). These axioms are the foundational structure from which all of real analysis flows.
+The real numbers form an ordered field, satisfying both algebraic axioms (closure, commutativity, associativity, distributivity, identity and inverse elements) and order axioms (total order ≤ compatible with addition and multiplication). These axioms provide the foundational rules for all manipulations in real analysis.

@@ -4,16 +4,17 @@ title: Uniform Convergence Preserves Continuity
 domain: mathematics
 course: real-analysis
 prerequisites:
-- id: uniform-convergence
+- id: uniform-convergence-functions
   type: hard
-- id: sequential-characterization-continuity
+- id: epsilon-delta-continuity
   type: hard
 builds-toward:
+- interchange-limit-integral
 - weierstrass-approximation-theorem
 tags:
 - uniform-convergence
 - continuity
-- limits
+- preservation
 stage: abstract-reasoning
 status: draft
 ---
@@ -21,4 +22,4 @@ status: draft
 # Uniform Convergence Preserves Continuity
 
 ## Core Idea
-If (fₙ) is a sequence of continuous functions on S that converges uniformly to f, then f is continuous on S. The key insight is that uniform convergence is strong enough to pass the limit through the continuity property. This contrasts with pointwise convergence, where the limit of continuous functions can be discontinuous.
+If (fₙ) converges uniformly to f and each fₙ is continuous, then f is continuous. This is the key theorem justifying when lim can be exchanged with continuity and derivatives. Pointwise convergence does not guarantee this: fₙ(x) = xⁿ on [0,1] is pointwise but not uniformly convergent to the discontinuous step function.

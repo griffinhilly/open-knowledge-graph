@@ -6,16 +6,12 @@ course: real-analysis
 prerequisites:
 - id: epsilon-n-convergence
   type: hard
-- id: completeness-axiom
-  type: hard
 builds-toward:
-- uniform-convergence
-- interchange-limit-integral
+- metric-space-topology
 tags:
 - cauchy
-- convergence
 - completeness
-- metric
+- convergence
 stage: abstract-reasoning
 status: draft
 ---
@@ -23,4 +19,4 @@ status: draft
 # Cauchy Sequences and Completeness
 
 ## Core Idea
-A sequence is Cauchy if for every ε > 0, there exists N such that for all m, n > N, |aₘ − aₙ| < ε. In ℝ, a sequence converges if and only if it is Cauchy. This characterization is crucial because it describes convergence without knowing what the limit is, making it invaluable for proving existence of limits.
+A sequence (aₙ) is Cauchy if for every ε > 0, there exists N such that n, m > N implies |aₙ - aₘ| < ε. In ℝ, a sequence converges if and only if it is Cauchy. This characterization requires no knowledge of the limit beforehand, making it powerful for existence proofs. ℝ is 'complete' because Cauchy sequences always converge.

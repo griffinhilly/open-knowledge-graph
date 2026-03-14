@@ -6,15 +6,14 @@ course: real-analysis
 prerequisites:
 - id: mean-value-theorem-rigorous
   type: hard
-- id: mathematical-induction
-  type: soft
+- id: rigorous-derivative-definition
+  type: hard
 builds-toward:
-- taylor-series
-- uniform-convergence-power-series
+- lhopitals-rule-rigorous
 tags:
-- taylor-series
-- polynomial-approximation
+- taylor
 - remainder
+- polynomial-approximation
 stage: abstract-reasoning
 status: draft
 ---
@@ -22,4 +21,4 @@ status: draft
 # Taylor's Theorem with Remainder
 
 ## Core Idea
-Taylor's Theorem states that if f is (n+1)-times continuously differentiable on an interval containing c, then f(x) = Pₙ(x) + Rₙ(x), where Pₙ is the nth-degree Taylor polynomial and Rₙ is the remainder. The Lagrange form of the remainder is Rₙ(x) = [f^(n+1)(ξ) / (n+1)!] (x−c)^(n+1) for some ξ between c and x. This quantifies how well the polynomial approximates f.
+Taylor's Theorem states that a smooth function f can be approximated by a polynomial: f(x) = Pₙ(x) + Rₙ(x), where Pₙ is the n-th Taylor polynomial and Rₙ is a remainder term. Rigorous forms (Lagrange and integral remainders) quantify the approximation error, essential for understanding convergence of Taylor series and deriving error bounds.

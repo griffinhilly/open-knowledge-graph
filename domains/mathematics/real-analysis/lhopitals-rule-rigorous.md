@@ -7,9 +7,9 @@ prerequisites:
 - id: mean-value-theorem-rigorous
   type: hard
 tags:
-- lhopital
-- indeterminate-forms
+- lhopitals
 - limits
+- indeterminate-forms
 stage: abstract-reasoning
 status: draft
 ---
@@ -17,4 +17,4 @@ status: draft
 # L'Hôpital's Rule (Rigorous)
 
 ## Core Idea
-If lim f(x) = 0 and lim g(x) = 0 (or both ±∞), and if lim f'(x)/g'(x) exists, then lim f(x)/g(x) = lim f'(x)/g'(x). The rigorous proof uses the Cauchy Mean Value Theorem. L'Hôpital's Rule is a powerful tool for computing indeterminate form limits, but requires care to apply correctly.
+L'Hôpital's Rule provides a rigorous method for evaluating limits of the form 0/0 or ∞/∞: if lim f(x)/g(x) is indeterminate and lim f'(x)/g'(x) exists, then they are equal (with care about the domain). The proof uses the Cauchy Mean Value Theorem and careful limit analysis. The rule extends to one-sided and infinite limits.

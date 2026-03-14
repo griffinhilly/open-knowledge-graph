@@ -6,16 +6,14 @@ course: real-analysis
 prerequisites:
 - id: ordered-field-axioms
   type: hard
-- id: supremum-infimum
+- id: supremum-and-infimum
   type: hard
 builds-toward:
-- density-rationals
-- epsilon-n-convergence
+- density-of-rationals
 tags:
 - archimedean
-- rationals
-- real-numbers
-- denseness
+- properties
+- infinite
 stage: abstract-reasoning
 status: draft
 ---
@@ -23,4 +21,4 @@ status: draft
 # The Archimedean Property
 
 ## Core Idea
-The Archimedean Property states that for any positive real numbers x and y, there exists a positive integer n such that nx > y. In other words, you can make any quantity arbitrarily large by repeatedly adding a fixed positive amount. This ensures there are no infinitesimal or infinitely-large elements in the reals.
+The Archimedean Property states that for any positive real numbers a and b, there exists a natural number n such that na > b. This means no element is infinitely large relative to another, and it implies that the natural numbers are unbounded above in ℝ. It is a consequence of the completeness axiom.

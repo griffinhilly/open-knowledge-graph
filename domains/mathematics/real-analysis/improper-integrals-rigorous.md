@@ -4,14 +4,14 @@ title: Improper Integrals (Rigorous)
 domain: mathematics
 course: real-analysis
 prerequisites:
-- id: fundamental-theorem-calculus-rigorous
+- id: riemann-integral-properties
   type: hard
-- id: epsilon-n-convergence
-  type: hard
+- id: series-convergence-rigorous
+  type: soft
 tags:
 - improper-integrals
 - convergence
-- infinite-limits
+- unbounded
 stage: abstract-reasoning
 status: draft
 ---
@@ -19,4 +19,4 @@ status: draft
 # Improper Integrals (Rigorous)
 
 ## Core Idea
-An improper integral extends Riemann integration to infinite intervals or unbounded functions. ∫_a^∞ f = lim_{b→∞} ∫_a^b f, defined rigorously as a limit of proper integrals. Convergence is checked using the integral test, comparison test, or limit comparison test, similar to series. Absolute convergence guarantees convergence.
+An improper integral ∫ₐ^∞ f or ∫ₐᵇ f (with f unbounded) is defined as a limit: ∫ₐ^∞ f(x) dx = lim_{t→∞} ∫ₐᵗ f(x) dx. Convergence criteria parallel series: comparison tests, absolute convergence, and alternating series tests apply. Improper integrals naturally arise in probability and transform theory.

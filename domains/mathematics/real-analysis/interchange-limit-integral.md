@@ -4,15 +4,14 @@ title: Interchange of Limit and Integral
 domain: mathematics
 course: real-analysis
 prerequisites:
-- id: uniform-convergence
+- id: uniform-convergence-preserves-continuity
   type: hard
-- id: riemann-integrability-criteria
+- id: riemann-integral-properties
   type: hard
 tags:
+- limit-integral
 - interchange
-- limit
-- integral
-- convergence
+- uniform-convergence
 stage: abstract-reasoning
 status: draft
 ---
@@ -20,4 +19,4 @@ status: draft
 # Interchange of Limit and Integral
 
 ## Core Idea
-If (fₙ) converges uniformly to f on [a, b], then lim_{n→∞} ∫_a^b fₙ = ∫_a^b f. That is, ∫_a^b (lim fₙ) = lim (∫_a^b fₙ). This is one of the most useful theorems in analysis, allowing integration of limit functions. Pointwise convergence is not sufficient; uniform convergence is required.
+If (fₙ) converges uniformly to f on [a,b] and each fₙ is integrable, then lim ∫fₙ = ∫ lim fₙ. This allows passing limits through integral signs, essential for analyzing series of integrals and probability distributions. The result follows from uniform convergence preserving continuity and properties of the integral.

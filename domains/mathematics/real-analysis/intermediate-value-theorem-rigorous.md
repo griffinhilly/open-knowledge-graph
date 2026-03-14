@@ -10,8 +10,8 @@ prerequisites:
   type: hard
 tags:
 - intermediate-value
-- continuity
 - connectedness
+- continuity
 stage: abstract-reasoning
 status: draft
 ---
@@ -19,4 +19,4 @@ status: draft
 # Intermediate Value Theorem (Rigorous)
 
 ## Core Idea
-If f is continuous on [a, b] with f(a) ≠ f(b), then f takes on every value between f(a) and f(b). The rigorous proof relies on the connectedness of intervals and the fact that continuous images of connected sets are connected.
+If f is continuous on an interval [a,b] and f(a) ≠ f(b), then for every value w between f(a) and f(b), there exists c ∈ (a,b) with f(c) = w. The rigorous proof uses connectedness: the continuous image of a connected set is connected, and connected subsets of ℝ are intervals.

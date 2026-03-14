@@ -4,16 +4,14 @@ title: Uniform Convergence of Power Series
 domain: mathematics
 course: real-analysis
 prerequisites:
-- id: uniform-convergence
+- id: weierstrass-m-test
   type: hard
-- id: radius-and-interval-of-convergence
-  type: hard
-builds-toward:
-- weierstrass-approximation-theorem
+- id: power-series
+  type: soft
 tags:
 - power-series
 - uniform-convergence
-- radius
+- analytic
 stage: abstract-reasoning
 status: draft
 ---
@@ -21,4 +19,4 @@ status: draft
 # Uniform Convergence of Power Series
 
 ## Core Idea
-A power series ∑ aₙ(x − c)ⁿ converges uniformly on any closed interval [c − r, c + r] strictly inside its interval of convergence, where r is the radius of convergence. This uniform convergence implies that differentiation and integration can be done term-by-term inside the interval of convergence.
+A power series ∑aₙ(x - c)ⁿ converges uniformly on any closed interval inside its interval of convergence. This justifies term-by-term differentiation and integration of power series, making them the foundation of analytic functions. The uniform convergence follows from the Weierstrass M-Test applied to majorizing geometric series.

@@ -4,13 +4,13 @@ title: Riemann Integral via Darboux Sums
 domain: mathematics
 course: real-analysis
 prerequisites:
-- id: riemann-sums
+- id: rigorous-derivative-definition
   type: hard
-- id: epsilon-delta-continuity
-  type: soft
+- id: supremum-and-infimum
+  type: hard
 builds-toward:
 - riemann-integrability-criteria
-- properties-riemann-integral
+- riemann-integral-properties
 tags:
 - riemann-integral
 - darboux-sums
@@ -22,4 +22,4 @@ status: draft
 # Riemann Integral via Darboux Sums
 
 ## Core Idea
-For a bounded function f on [a, b], the upper Darboux sum U(P) sums the maximum values on each subinterval, and the lower Darboux sum L(P) sums the minimum values. If sup L(P) = inf U(P) over all partitions P, this common value is the Riemann integral. The Darboux approach is equivalent to Riemann's definition and often easier to work with rigorously.
+The Riemann integral is defined via Darboux sums: partition [a,b] into subintervals, compute upper (U) and lower (L) sums using suprema and infima of f on each subinterval. The integral exists if inf U = sup L. This definition is equivalent to Riemann sums and clarifies when functions are integrable: discontinuities on a set of measure zero are allowed.
