@@ -12,7 +12,7 @@ tags:
 - manuscripts
 - languages
 - archives
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Paleography and Historical Document Reading

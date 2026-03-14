@@ -17,7 +17,7 @@ tags:
 - governance
 - diplomacy
 - institutions
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

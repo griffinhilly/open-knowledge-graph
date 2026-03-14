@@ -15,7 +15,7 @@ tags:
 - theory
 - interpretation
 - schools
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

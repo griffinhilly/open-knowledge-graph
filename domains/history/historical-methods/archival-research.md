@@ -16,7 +16,7 @@ tags:
 - archives
 - research-methods
 - primary-sources
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

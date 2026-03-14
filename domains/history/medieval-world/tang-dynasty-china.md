@@ -16,7 +16,7 @@ tags:
 - cosmopolitanism
 - silk-road
 - bureaucracy
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

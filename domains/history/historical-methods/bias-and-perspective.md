@@ -14,7 +14,7 @@ tags:
 - bias
 - perspective
 - critical-thinking
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

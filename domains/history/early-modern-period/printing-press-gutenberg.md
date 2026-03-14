@@ -19,7 +19,7 @@ tags:
 - communication
 - literacy
 - media
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

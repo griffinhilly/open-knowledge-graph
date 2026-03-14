@@ -20,7 +20,7 @@ tags:
 - class
 - ideology
 - labor
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -19,7 +19,7 @@ tags:
 - legalism
 - confucianism
 - great-wall
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

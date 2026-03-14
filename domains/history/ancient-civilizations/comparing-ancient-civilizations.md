@@ -48,7 +48,7 @@ tags:
 - world-history
 - synthesis
 - patterns
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Comparative Analysis of Ancient Civilizations

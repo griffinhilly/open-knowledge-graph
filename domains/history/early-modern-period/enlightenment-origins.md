@@ -30,7 +30,7 @@ tags:
 - Kant
 - progress
 - toleration
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # The Enlightenment

@@ -18,7 +18,7 @@ tags:
 - monuments
 - trauma
 - identity
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

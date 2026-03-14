@@ -20,7 +20,7 @@ tags:
 - colonialism
 - state policy
 - Navigation Acts
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - reflexivity
 - methodology
 - identity
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Positionality and the Historian

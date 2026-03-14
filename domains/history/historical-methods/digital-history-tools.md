@@ -19,7 +19,7 @@ tags:
 - databases
 - text-analysis
 - GIS
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Digital Tools in Historical Research

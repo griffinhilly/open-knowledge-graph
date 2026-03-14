@@ -15,7 +15,7 @@ tags:
 - representation
 - meaning
 - discourse
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

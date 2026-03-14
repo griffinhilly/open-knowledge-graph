@@ -18,7 +18,7 @@ tags:
 - pharaoh
 - book-of-the-dead
 - mummification
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

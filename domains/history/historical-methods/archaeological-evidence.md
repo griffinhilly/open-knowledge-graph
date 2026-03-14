@@ -15,7 +15,7 @@ tags:
 - evidence
 - stratigraphy
 - methodology
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

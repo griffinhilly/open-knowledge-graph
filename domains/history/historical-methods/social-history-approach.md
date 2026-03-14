@@ -15,7 +15,7 @@ tags:
 - class
 - everyday-life
 - structures
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Social History

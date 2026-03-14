@@ -18,7 +18,7 @@ tags:
 - historiography
 - eurocentrism
 - world-history
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -21,7 +21,7 @@ tags:
 - memory
 - museums
 - communication
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Public History and Audience

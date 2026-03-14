@@ -21,7 +21,7 @@ tags:
 - interviews
 - methodology
 - memory
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Oral History Methods

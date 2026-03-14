@@ -19,7 +19,7 @@ tags:
 - mohenjo-daro
 - south-asia
 - bronze-age
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

@@ -25,7 +25,7 @@ tags:
 - religious-war
 - latin-states
 - contact-zones
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 # The Crusades

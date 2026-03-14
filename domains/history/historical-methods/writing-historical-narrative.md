@@ -12,7 +12,7 @@ tags:
 - writing
 - narrative
 - craft
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

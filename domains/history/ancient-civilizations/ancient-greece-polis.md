@@ -25,7 +25,7 @@ tags:
 - athens
 - sparta
 - archaic-period
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 # The Greek Polis: City-State Civilization

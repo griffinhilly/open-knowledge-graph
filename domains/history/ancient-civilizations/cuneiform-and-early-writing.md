@@ -17,7 +17,7 @@ tags:
 - literacy
 - sumer
 - communication
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

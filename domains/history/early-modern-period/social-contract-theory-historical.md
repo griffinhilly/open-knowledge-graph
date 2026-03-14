@@ -21,7 +21,7 @@ tags:
 - natural rights
 - political philosophy
 - consent
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Social Contract Theory

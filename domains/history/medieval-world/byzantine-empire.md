@@ -17,7 +17,7 @@ tags:
 - eastern-rome
 - constantinople
 - continuity
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 

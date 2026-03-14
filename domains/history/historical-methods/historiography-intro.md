@@ -19,7 +19,7 @@ tags:
 - historiography
 - scholarship
 - interpretation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Introduction to Historiography

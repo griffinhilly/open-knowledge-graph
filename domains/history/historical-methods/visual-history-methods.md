@@ -16,7 +16,7 @@ tags:
 - iconography
 - photography
 - methodology
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

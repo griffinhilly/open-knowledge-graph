@@ -20,7 +20,7 @@ tags:
 - Said
 - Subaltern Studies
 - decolonizing
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Postcolonial Historiography

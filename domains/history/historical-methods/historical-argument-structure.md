@@ -21,7 +21,7 @@ tags:
 - argumentation
 - writing
 - methodology
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Structure of a Historical Argument

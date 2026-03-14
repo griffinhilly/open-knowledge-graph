@@ -20,7 +20,7 @@ tags:
 - globalization
 - potato
 - smallpox
-stage: abstract-reasoning
+stage: concrete-operations
 status: validated
 ---
 
