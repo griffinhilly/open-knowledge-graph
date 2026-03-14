@@ -1,6 +1,6 @@
 ---
 id: type-theory-semantics
-title: Type Theory and Semantic Types
+title: Type Theory in Semantics
 domain: language-and-communication
 course: advanced-linguistics
 prerequisites:
@@ -8,21 +8,24 @@ prerequisites:
   type: hard
 - id: montague-semantics
   type: hard
+builds-toward:
+- de-re-de-dicto-distinction
 tags:
-- semantics
 - type-theory
+- semantics
 - formal
 stage: advanced
 status: draft
 ---
 
-# Type Theory and Semantic Types
+# Type Theory in Semantics
 
 ## Core Idea
-Type theory organizes semantic values hierarchically: basic types (individuals e, truth values t) combine into complex types such as (e,t) for properties and (e,(e,t)) for two-place relations. This typing system constrains semantic composition and ensures well-formedness.
+Type theory assigns semantic types to linguistic expressions: individuals (type e), truth values (type t), and functions of various arities. Every word and phrase receives a type, and semantic composition respects type compatibility—functions apply only to arguments of the correct type. This system prevents semantic anomalies and explains category-level restrictions (e.g., why adjectives cannot be arguments of transitive verbs).
 
 ## How It's Best Learned
-Build up complex types systematically from basic types for increasingly complex expressions; use type-driven parsing to resolve ambiguities and verify compositionality.
+Assign types to words in a simple sentence and verify that composition respects type constraints. Explore type mismatches and how they account for semantic anomalies or coercion effects.
 
 ## Common Misconceptions
-Types are not inherent to words but assigned relative to syntactic position and context; type-shifting operations allow flexibility when strict typing would fail.
+- Type theory does not prevent all anomalous expressions; pragmatic coercion can override type-theoretic restrictions.
+- The type system is not arbitrary; types reflect interpretability at the phonological and semantic interfaces.
