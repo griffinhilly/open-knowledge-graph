@@ -6,14 +6,17 @@ course: critical-theory
 prerequisites:
 - id: marxist-literary-criticism
   type: hard
-- id: ideological-criticism
+- id: psychoanalytic-criticism
   type: soft
+builds-toward:
+- ideological-criticism
+- discourse-and-power
 tags:
-- symptoms
-- marxism
+- symptomal-reading
 - ideology
-- absence
-- reading
+- critique
+- repression
+- unconscious
 stage: formal-systems
 status: draft
 ---
@@ -21,4 +24,7 @@ status: draft
 # Symptomal Reading and Ideological Critique
 
 ## Core Idea
-Symptomal reading treats literary texts as symptoms of ideological contradictions and historical absences. Rather than interpreting explicit content, this approach analyzes silences, gaps, and formal contradictions as revelatory of what texts cannot acknowledge about their historical moment and ideological conditions.
+Symptomal reading interprets a text not just for its manifest content but for what it represses, excludes, or unconsciously reveals about ideology. The text's silences, contradictions, and narrative gaps become sites where ideological limits become visible. Close reading functions as ideological critique, revealing how even texts claiming aesthetic autonomy or political neutrality are implicated in ideological reproduction.
+
+## How It's Best Learned
+Identify what a text refuses to say, its silences and gaps. What ideological work do these repressions accomplish? What would the text need to exclude for its apparent meanings to hold?
