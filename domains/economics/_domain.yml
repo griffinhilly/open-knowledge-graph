@@ -15,12 +15,3 @@ courses:
 - id: financial-economics
   title: Financial Economics
   stage: formal-systems
-- id: advanced-microeconomics
-  title: Advanced Microeconomic Theory
-  stage: advanced
-- id: advanced-macroeconomics
-  title: Advanced Macroeconomic Theory
-  stage: advanced
-- id: development-economics
-  title: Development Economics
-  stage: advanced
