@@ -90,9 +90,44 @@
   - `generate_topic_pages.py`: 2,628 pages with Core Idea, prerequisite chains, successors, navigation
 - [x] Click-to-navigate between graph views and topic detail pages
 
+## Phase 7.5: Topic Granularity Expansion — IN PROGRESS
+Expanding non-math domains from ~20 topics/course toward ~35-40 topics/course.
+
+### Phase 7.5a: Practical Life Skills + Language & Communication — DONE
+- [x] Practical Life Skills: 80 → 160 topics (+80)
+  - Financial Literacy +20, Cooking & Nutrition +20, Home Maintenance +20, Digital Literacy +20
+- [x] Language & Communication: 89 → 189 topics (+100)
+  - Grammar & Syntax +25, Linguistics +25, Public Speaking +25, Rhetoric & Composition +25
+
+### Phase 7.5b: Engineering + Philosophy — DONE
+- [x] Engineering: 115 → 188 topics (+73)
+  - Statics & Dynamics +15, Materials Science +15, Fluid Mechanics +14, Circuits & Electronics +15, Control Systems +14
+- [x] Philosophy: 124 → 210 topics (+86)
+  - Logic +14, Epistemology +14, Metaphysics +14, Ethics +15, Political Philosophy +14, Philosophy of Mind +15
+
+### Phase 7.5c: Formal Sciences + Chemistry — DONE
+- [x] Formal Sciences & Logic: 81 → 148 topics (+67)
+  - Propositional & Predicate Logic +15, Set Theory +17, Computability & Complexity +17, Category Theory +18
+- [x] Chemistry: 112 → 181 topics (+69)
+  - General Chemistry +19, Organic Chemistry +18, Physical Chemistry +14, Analytical Chemistry +18
+
+**Total expansion: 2,628 → 3,100+ topics (+475)**
+
+### Visualization Improvements (Mar 14)
+- [x] Hierarchy view: flipped Y-axis (basics at top), blue/orange edge colors on hover
+- [x] Radial view: domain-click navigation (outer ring → domain hierarchy)
+- [x] Index page: links to both radial and hierarchy full-graph views
+- [x] Domain hierarchy pages: nav links to index and radial view
+
+### Infrastructure (Mar 14)
+- [x] GitHub repo created: griffinhilly/open-knowledge-graph (public)
+- [x] GitHub Pages: auto-deployed via Actions on push
+- [x] GitHub Actions CI: validates + generates visualizations
+
 ## Phase 8: Community Launch
-- [ ] Push to GitHub as public repo
-- [ ] Finalize README with coverage table and call-to-action
-- [ ] Set up GitHub Actions for CI validation
+- [x] Push to GitHub as public repo
+- [x] Set up GitHub Actions for CI validation
+- [ ] Finalize README with coverage table update (3,100+ topics)
+- [ ] Promote new draft topics to validated after review
 - [ ] Write announcement post
 - [ ] Create issue templates for topic additions and corrections

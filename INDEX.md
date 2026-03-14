@@ -10,37 +10,37 @@
 - `LICENSE` — CC BY-SA 4.0 (content) + MIT (code)
 - `.gitignore`
 
-## Domains (19 domains, 2,628 topics, 101 courses)
+## Domains (19 domains, 3,080+ topics, 101 courses)
 
 Each domain has `_domain.yml` + course subdirectories containing topic `.md` files.
 
 | Domain | Path | Topics | Courses |
 |--------|------|--------|---------|
-| Mathematics | `domains/mathematics/` | 661 | 18 (kindergarten through discrete-math) |
+| Mathematics | `domains/mathematics/` | 661 | 18 |
+| Philosophy | `domains/philosophy/` | 210 | 6 |
+| Language & Communication | `domains/language-and-communication/` | 189 | 4 |
+| Engineering | `domains/engineering/` | 188 | 5 |
 | Computer Science | `domains/computer-science/` | 170 | 6 |
 | Physics | `domains/physics/` | 163 | 5 |
+| Chemistry | `domains/chemistry/` | 162+ | 4 |
+| Practical Life Skills | `domains/practical-life-skills/` | 160 | 4 |
+| Formal Sciences & Logic | `domains/formal-sciences-and-logic/` | 144+ | 4 |
 | Biology | `domains/biology/` | 134 | 5 |
 | History | `domains/history/` | 127 | 5 |
-| Philosophy | `domains/philosophy/` | 124 | 6 |
 | Economics | `domains/economics/` | 120 | 4 |
-| Engineering | `domains/engineering/` | 115 | 5 |
-| Chemistry | `domains/chemistry/` | 112 | 4 |
 | Psychology | `domains/psychology/` | 111 | 5 |
 | Literature | `domains/literature/` | 105 | 5 |
 | Music | `domains/music/` | 102 | 5 |
 | Earth & Space Sciences | `domains/earth-and-space-sciences/` | 89 | 4 |
-| Language & Communication | `domains/language-and-communication/` | 89 | 4 |
 | Health & Human Development | `domains/health-and-human-development/` | 85 | 4 |
-| Formal Sciences & Logic | `domains/formal-sciences-and-logic/` | 81 | 4 |
 | Social Sciences | `domains/social-sciences/` | 80 | 4 |
 | Arts & Aesthetics | `domains/arts-and-aesthetics/` | 80 | 4 |
-| Practical Life Skills | `domains/practical-life-skills/` | 80 | 4 |
 
 ## Tools
 - `tools/validate.py` — Schema + graph validation
 - `tools/visualize_hierarchy.py` — Per-domain hierarchical canvas layout (supports `--all` for batch generation + index page)
 - `tools/visualize_radial.py` — Radial cross-domain torus visualization (developmental-stage radial bands)
-- `tools/generate_topic_pages.py` — Individual topic detail page generator (2,628 pages)
+- `tools/generate_topic_pages.py` — Individual topic detail page generator
 - `tools/visualize.py` — Alternative force-directed rendering (pyvis/matplotlib)
 - `tools/stats.py` — Coverage statistics
 - `tools/qa_analyze.py` — Structural QA analysis (hubs, chains, islands, thin courses, shallow content)

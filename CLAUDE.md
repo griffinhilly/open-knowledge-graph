@@ -3,7 +3,7 @@
 Open-source, machine-readable knowledge graphs mapping prerequisite relationships between topics across every domain of human knowledge.
 
 ## Project Structure
-- `domains/` — 19 domains, 2,628 topics, 101 courses
+- `domains/` — 19 domains, 3,080+ topics, 101 courses
 - `tools/` — Python tooling (validate.py, visualize_hierarchy.py, visualize.py, stats.py, reconcile.py)
 - `tools/overnight/` — Autonomous generation orchestrator (used to build the initial graph)
 - `meta/` — Schema definition, developmental stages, course list
@@ -18,9 +18,9 @@ Each topic is a Markdown file with YAML frontmatter. See `meta/schema.md` for th
 
 ## Tooling
 - `python tools/validate.py` — Schema + graph validation (catches broken refs, cycles, duplicates)
-- `python tools/visualize_hierarchy.py` — Per-domain hierarchical canvas layout (course-band Y-axis, bottom-to-top). Use `--domain mathematics`, `--course algebra-1`, or `--all` to batch-generate all 19 domains + index page.
+- `python tools/visualize_hierarchy.py` — Per-domain hierarchical canvas layout (course-band Y-axis, top-to-bottom). Use `--domain mathematics`, `--course algebra-1`, or `--all` to batch-generate all 19 domains + index page. Navigation links to index and radial view.
 - `python tools/visualize_radial.py` — **Radial torus visualization**. Developmental-stage radial bands, curated domain ordering, polar force simulation. Generates `output/radial-graph.html`.
-- `python tools/generate_topic_pages.py` — Generates 2,628 individual topic detail pages in `output/topics/`. Each page has Core Idea, prerequisite chains, successors, and navigation.
+- `python tools/generate_topic_pages.py` — Generates individual topic detail pages in `output/topics/`. Each page has Core Idea, prerequisite chains, successors, and navigation.
 - `python tools/visualize.py` — Force-directed graph rendering (pyvis HTML or matplotlib PNG)
 - `python tools/stats.py` — Coverage statistics
 - `python tools/qa_analyze.py` — Structural QA analysis (hubs, longest chains, islands, thin courses, shallow content, bidirectional pairs). Supports `--json` and `--domain`.
@@ -39,19 +39,19 @@ Each topic is a Markdown file with YAML frontmatter. See `meta/schema.md` for th
 - Each domain has a `_domain.yml` with domain metadata and course list
 
 ## Visualization Design
-- **Hierarchy view** (`visualize_hierarchy.py`): Per-domain canvas graphs. Bottom-to-top flow, course-band Y-axis, dark background (#1a1a2e). All 19 domains supported via `--all`. Click nodes to open topic detail pages.
-- **Radial view** (`visualize_radial.py`): Full cross-domain torus visualization. Developmental-stage radial bands (pre-formal at center → advanced at edge). Curated domain ordering with polar force simulation for organic boundaries. Hover highlights prerequisite (blue) / dependent (orange) edges. Click opens topic detail pages.
-- **Topic detail pages** (`generate_topic_pages.py`): 2,628 individual HTML pages with Core Idea, How It's Best Learned, Common Misconceptions, full prerequisite chain, direct prereqs (hard/soft badges), and successors. Dark theme with domain-hue accent colors.
-- **Index page**: Domain card grid linking to per-domain hierarchy views and the radial graph.
+- **Hierarchy view** (`visualize_hierarchy.py`): Per-domain canvas graphs. Top-to-bottom flow (basics at top, advanced at bottom), course-band Y-axis, dark background (#1a1a2e). All 19 domains supported via `--all`. Hover: blue edges = prerequisites, orange = successors. Click nodes to open topic detail pages. Nav links to index and radial view.
+- **Radial view** (`visualize_radial.py`): Full cross-domain torus visualization. Developmental-stage radial bands (pre-formal at center → advanced at edge). Curated domain ordering with polar force simulation for organic boundaries. Hover highlights prerequisite (blue) / dependent (orange) edges. Click nodes → topic pages. Click outer ring → domain hierarchy.
+- **Topic detail pages** (`generate_topic_pages.py`): Individual HTML pages with Core Idea, How It's Best Learned, Common Misconceptions, full prerequisite chain, direct prereqs (hard/soft badges), and successors. Dark theme with domain-hue accent colors.
+- **Index page**: Domain card grid linking to per-domain hierarchy views, radial graph, and full hierarchy graph.
+- **GitHub Pages**: Auto-deployed via `.github/workflows/deploy-pages.yml` on push to master. Live at `griffinhilly.github.io/open-knowledge-graph/`.
 
 ## Current Status
-- **2,628 topics** across **19 domains**, **101 courses** — all at status: **validated**
-- 0 dangling prerequisite references, 0 bidirectional mismatch pairs
-- 530 builds-toward consistency warnings (down from 1,609)
-- All courses have 20+ topics
-- Cross-domain prerequisite links established via automated review pass
-- Prerequisite graph is a DAG; cycles resolved as pedagogical linearizations (see `meta/schema.md`)
-- Phase 6 (Quality Review) complete. Phase 7 (Visualization) complete. Next: Phase 8 (Community Launch)
+- **3,080+ topics** across **19 domains**, **101 courses**, **8,400+ prerequisite edges**
+- Topic granularity expansion in progress (Phases 1-2 complete, Phase 3 in progress)
+- Expanded domains: practical-life-skills (80→160), language-and-communication (89→189), engineering (115→188), philosophy (124→210), formal-sciences-and-logic (81→144+), chemistry (112→162+)
+- GitHub Pages live at `griffinhilly.github.io/open-knowledge-graph/`
+- GitHub Actions CI: validates graph + deploys visualizations on every push
+- New topics at `status: draft` pending review; original 2,628 at `status: validated`
 
 ## Related Projects
 - `~/knowledge-architecture/` — Prose-based concept sequences (predecessor project)
