@@ -1,25 +1,24 @@
 ---
 id: lienard-wiechert-potentials
-title: Liénard-Wiechert Potentials
+title: Lienard-Wiechert Potentials
 domain: physics
 course: electrodynamics
 prerequisites:
 - id: retarded-potentials
   type: hard
-- id: charged-particle-motion-in-fields
+- id: classical-mechanics
   type: soft
 builds-toward:
-- radiation-accelerating-charges
-- larmor-formula
+- radiation-from-accelerated-charges
+- synchrotron-radiation
 tags:
-- lienard-wiechert
 - moving-charges
-- radiation
-stage: advanced
+- retarded-fields
+stage: abstract-reasoning
 status: draft
 ---
 
-# Liénard-Wiechert Potentials
+# Lienard-Wiechert Potentials
 
 ## Core Idea
-The Liénard-Wiechert potentials give the exact electromagnetic fields of a moving point charge, accounting for retardation and velocity effects. These potentials show that moving charges produce both a Coulomb-like field and a radiation field. The fields contain velocity-dependent and acceleration-dependent terms, with the acceleration-dependent terms falling off as 1/r and representing radiation.
+Lienard-Wiechert potentials give exact potentials and fields of a point charge on arbitrary trajectory. They reveal a moving charge produces velocity fields (∝ 1/r²) and acceleration fields (∝ 1/r). The latter dominates at large distances and is responsible for radiation.

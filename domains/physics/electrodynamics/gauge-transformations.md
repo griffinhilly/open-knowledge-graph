@@ -1,25 +1,25 @@
 ---
 id: gauge-transformations
-title: Gauge Transformations and Gauge Freedom
+title: Gauge Transformations and Gauge Invariance
 domain: physics
 course: electrodynamics
 prerequisites:
-- id: scalar-vector-potentials
+- id: scalar-and-vector-potentials
   type: hard
-- id: gradient-vector
+- id: multivariable-calculus
   type: hard
 builds-toward:
-- coulomb-gauge
-- lorenz-gauge
+- lorentz-gauge
+- covariant-em
 tags:
-- gauge-freedom
+- gauge-theory
+- symmetry
 - potentials
-- symmetries
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
-# Gauge Transformations and Gauge Freedom
+# Gauge Transformations and Gauge Invariance
 
 ## Core Idea
-Gauge transformations are redefinitions of the scalar and vector potentials that leave the observable electric and magnetic fields unchanged. Since only E and B are physical, many choices of potentials describe the same electromagnetic configuration. Exploiting this freedom by choosing convenient gauges (Coulomb or Lorenz) greatly simplifies calculations in different contexts. Gauge freedom is a fundamental symmetry principle underlying all modern physics.
+Gauge transformations φ → φ + ∂λ/∂t, A → A - ∇λ leave E and B and all physics unchanged. This gauge freedom reflects the redundancy of potentials. Gauge invariance is a profound symmetry principle underlying both classical and quantum electromagnetism.

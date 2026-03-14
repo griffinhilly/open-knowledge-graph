@@ -1,23 +1,22 @@
 ---
 id: synchrotron-radiation
-title: Synchrotron Radiation
+title: Synchrotron Radiation from Relativistic Charges
 domain: physics
 course: electrodynamics
 prerequisites:
-- id: radiation-reaction-and-self-force
-  type: soft
-- id: larmor-formula
+- id: radiation-reaction-force
   type: hard
-builds-toward:
-- cherenkov-radiation
+- id: larmor-formula
+  type: soft
 tags:
 - synchrotron
-- relativistic-radiation
-stage: advanced
+- relativistic
+- radiation
+stage: abstract-reasoning
 status: draft
 ---
 
-# Synchrotron Radiation
+# Synchrotron Radiation from Relativistic Charges
 
 ## Core Idea
-Synchrotron radiation is emitted when relativistic particles move in curved paths (typically in magnetic fields), with intensity scaling steeply with particle energy and inversely with radius of curvature. For ultrarelativistic particles, the radiation becomes beamed forward with angular width ~1/γ. Synchrotron radiation is crucial in particle accelerators, astrophysical jets, and is the dominant energy loss mechanism for high-energy particles in curved orbits.
+Relativistic charges in magnetic fields undergo intense forward-directed synchrotron radiation. Power scales as γ⁴ (Lorentz factor), far exceeding classical Larmor radiation. Crucial in particle accelerators and astrophysics (pulsars). Represents a major energy loss mechanism in accelerator design.

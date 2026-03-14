@@ -1,27 +1,25 @@
 ---
 id: retarded-potentials
-title: Retarded Potentials
+title: Retarded Potentials and Causality
 domain: physics
 course: electrodynamics
 prerequisites:
-- id: scalar-vector-potentials
+- id: lorentz-gauge
   type: hard
-- id: lorenz-gauge
-  type: hard
-- id: greens-functions-pdes
+- id: electromagnetic-wave-equation
   type: soft
 builds-toward:
 - lienard-wiechert-potentials
-- radiation-accelerating-charges
+- radiation-from-accelerated-charges
 tags:
-- retarded-potentials
 - causality
-- radiation
-stage: advanced
+- retarded
+- potentials
+stage: abstract-reasoning
 status: draft
 ---
 
-# Retarded Potentials
+# Retarded Potentials and Causality
 
 ## Core Idea
-Retarded potentials account for the finite speed of electromagnetic influence by expressing potentials at time t in terms of charge and current distributions at an earlier (retarded) time t' = t - r/c. This naturally encodes causality: fields at a point depend only on sources within the light cone, not on future sources. Retarded potentials form the foundation for understanding radiation and all time-dependent electromagnetic phenomena.
+Retarded potentials are exact solutions to inhomogeneous wave equations where φ and A depend on charge and current at retarded time t' = t - |r - r'|/c. This explicitly encodes causality: fields depend on sources at earlier times, with influence propagating at speed c.

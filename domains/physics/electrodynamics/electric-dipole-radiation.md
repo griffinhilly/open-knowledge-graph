@@ -1,24 +1,24 @@
 ---
 id: electric-dipole-radiation
-title: Electric Dipole Radiation
+title: Electric Dipole Radiation and Radiation Patterns
 domain: physics
 course: electrodynamics
 prerequisites:
-- id: larmor-formula
+- id: multipole-expansion-radiation
   type: hard
-- id: multipole-expansion-fields
+- id: larmor-formula
   type: soft
 builds-toward:
-- higher-multipole-radiation
+- radiation-reaction-force
 tags:
 - dipole-radiation
-- oscillating-dipole
-- angular-distribution
-stage: advanced
+- antenna
+- patterns
+stage: abstract-reasoning
 status: draft
 ---
 
-# Electric Dipole Radiation
+# Electric Dipole Radiation and Radiation Patterns
 
 ## Core Idea
-Electric dipole radiation, arising from time-varying electric dipole moments, dominates electromagnetic radiation from most sources. The radiation pattern is dumbbell-shaped, with zero intensity along the dipole axis and maximum intensity perpendicular to it. Dipole radiation is the basis for understanding atomic transitions, antenna design, and the interaction of light with matter in optics and spectroscopy.
+Electric dipole radiation from time-varying dipole moment p(t) dominates for non-relativistic sources. Radiated power and angular distribution depend on dipole acceleration magnitude and direction. Maximum radiation perpendicular to acceleration; zero along it. Dipole antennas exploit this pattern.

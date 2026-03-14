@@ -1,19 +1,24 @@
 ---
 id: method-of-images
-title: Method of Images
+title: Method of Images in Electrostatics
 domain: physics
 course: electrodynamics
 prerequisites:
-- id: boundary-value-problems-electrostatics
+- id: electric-field-and-coulombs-law
   type: hard
+- id: electric-potential-and-potential-energy
+  type: hard
+builds-toward:
+- boundary-value-problems-em
 tags:
-- method-of-images
-- image-charges
-stage: advanced
+- boundary-value-problems
+- images
+- boundary-conditions
+stage: abstract-reasoning
 status: draft
 ---
 
-# Method of Images
+# Method of Images in Electrostatics
 
 ## Core Idea
-The method of images solves boundary value problems by replacing physical boundaries with fictitious image charges (or dipoles, etc.) positioned outside the region of interest. These images are chosen to automatically satisfy boundary conditions, transforming a difficult BVP into a simple superposition problem. The method elegantly handles grounded conductors, dielectric boundaries, and other geometries with planar, spherical, or cylindrical symmetry.
+Method of images solves boundary value problems by replacing boundaries with image charges producing the same boundary conditions. A charge near a grounded conducting plane is equivalent to the charge plus its opposite image at the mirror position. This elegant technique gives exact solutions for high-symmetry geometries.

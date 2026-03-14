@@ -4,31 +4,22 @@ title: Derivation of the Electromagnetic Wave Equation
 domain: physics
 course: electrodynamics
 prerequisites:
-- id: maxwell-equations-differential-form
+- id: maxwells-equations-differential-form
   type: hard
-- id: curl-and-divergence
+- id: differential-equations
   type: hard
-- id: vector-calculus-identities
-  type: soft
 builds-toward:
-- plane-electromagnetic-waves
-- electromagnetic-wave-polarization
+- plane-waves-in-vacuum
+- poynting-vector-and-energy-flux
 tags:
+- waves
 - wave-equation
-- em-waves
-- pdes
-stage: advanced
+- propagation
+stage: abstract-reasoning
 status: draft
 ---
 
 # Derivation of the Electromagnetic Wave Equation
 
 ## Core Idea
-Taking the curl of Faraday's and Ampère-Maxwell laws and applying vector identities yields decoupled wave equations for E and B fields: ∇²E = μ₀ε₀∂²E/∂t² and ∇²B = μ₀ε₀∂²B/∂t². The wave speed c = 1/√(μ₀ε₀) emerges naturally and equals the experimentally measured speed of light. This derivation is perhaps the most profound result in classical physics, unifying electromagnetism and optics.
-
-## How It's Best Learned
-Work through the derivation carefully, noting each vector identity. Understand why the divergence-free condition (from charge conservation) is crucial for decoupling E and B.
-
-## Common Misconceptions
-- Thinking the wave equation applies separately to E and B; they are coupled through Maxwell's equations.
-- Forgetting that the wave equation assumes no sources (ρ = 0, J = 0) in the region of interest.
+In source-free regions, Maxwell's equations combine to yield wave equations: ∇²E = μ₀ε₀∂²E/∂t² and ∇²B = μ₀ε₀∂²B/∂t². These show electromagnetic disturbances propagate at c = 1/√(μ₀ε₀), revealing light as an electromagnetic phenomenon and unifying optics with electromagnetism.

@@ -1,22 +1,22 @@
 ---
 id: cherenkov-radiation
-title: Cherenkov Radiation
+title: Cherenkov Radiation in Matter
 domain: physics
 course: electrodynamics
 prerequisites:
-- id: plane-electromagnetic-waves
+- id: electromagnetic-waves-in-media
   type: hard
-- id: electromagnetic-waves-in-dielectrics
-  type: hard
+- id: radiation-from-accelerated-charges
+  type: soft
 tags:
 - cherenkov
-- shock-wave
-- particle-detection
-stage: advanced
+- radiation
+- matter
+stage: abstract-reasoning
 status: draft
 ---
 
-# Cherenkov Radiation
+# Cherenkov Radiation in Matter
 
 ## Core Idea
-Cherenkov radiation occurs when a charged particle moves faster than the speed of light in a medium (v > c/n), producing a shock wave analogous to a sonic boom. The radiation is emitted at a characteristic cone angle θ_C = cos⁻¹(c/nv), enabling high-precision particle detection. Cherenkov radiation is essential for detecting high-energy particles in experiments and has applications in medical imaging and Cherenkov telescopes.
+When charged particles travel through matter faster than light in that medium (v > c/n), they emit Cherenkov radiation. The shock-like radiation forms a cone with angle θ_c = arccos(1/(βn)). Provides evidence of superluminal particle motion relative to medium. Used in particle detectors.

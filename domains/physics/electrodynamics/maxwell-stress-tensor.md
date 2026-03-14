@@ -1,24 +1,24 @@
 ---
 id: maxwell-stress-tensor
-title: Maxwell Stress Tensor
+title: Maxwell Stress Tensor and Radiation Pressure
 domain: physics
 course: electrodynamics
 prerequisites:
-- id: maxwell-equations-differential-form
+- id: poynting-vector-and-energy-flux
   type: hard
-- id: energy-stored-in-fields
+- id: maxwells-equations-integral-form
   type: soft
 builds-toward:
-- radiation-pressure
+- radiation-from-accelerated-charges
 tags:
-- stress-tensor
+- stress
 - momentum
-- forces
-stage: advanced
+- radiation-pressure
+stage: abstract-reasoning
 status: draft
 ---
 
-# Maxwell Stress Tensor
+# Maxwell Stress Tensor and Radiation Pressure
 
 ## Core Idea
-The Maxwell stress tensor T_ij describes the mechanical stress (force per unit area) exerted by electromagnetic fields and provides an alternative to calculating forces via the Lorentz force law. The tensor reveals that electromagnetic fields carry momentum with density g = ε₀(E × B), connecting energy flow to momentum transport. This formalism is essential for understanding radiation pressure and electromagnetic forces on matter.
+The Maxwell stress tensor T_ij encodes electromagnetic momentum density g = ε₀(E × B) and represents stresses exerted by fields. Radiation carries momentum and exerts pressure on absorbing surfaces. This provides a unified view of electromagnetic forces through momentum conservation.

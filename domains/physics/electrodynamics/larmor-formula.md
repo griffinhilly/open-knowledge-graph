@@ -1,25 +1,25 @@
 ---
 id: larmor-formula
-title: Larmor Formula
+title: Larmor Formula for Radiated Power
 domain: physics
 course: electrodynamics
 prerequisites:
-- id: radiation-accelerating-charges
+- id: radiation-from-accelerated-charges
   type: hard
-- id: poynting-vector-energy-flow
-  type: hard
+- id: poynting-vector-and-energy-flux
+  type: soft
 builds-toward:
+- electric-dipole-radiation
 - synchrotron-radiation
-- radiation-reaction-and-self-force
 tags:
-- larmor-formula
-- radiated-power
+- power
+- larmor
 - acceleration
-stage: advanced
+stage: abstract-reasoning
 status: draft
 ---
 
-# Larmor Formula
+# Larmor Formula for Radiated Power
 
 ## Core Idea
-The Larmor formula gives the power radiated by a non-relativistic accelerating point charge: P = q²a²/(6πε₀c³). This result shows that radiated power scales as the square of acceleration and as the fourth power of frequency (for oscillating charges). The formula reveals why small accelerations radiate weakly and why high-frequency oscillations radiate strongly, having profound consequences in atomic physics and electromagnetism.
+The Larmor formula P = (q²a²)/(6πε₀c³) gives power radiated by a non-relativistic accelerated point charge. Maximum power radiates perpendicular to acceleration; no power along the acceleration direction. This fundamental result connects acceleration to energy loss by radiation.
