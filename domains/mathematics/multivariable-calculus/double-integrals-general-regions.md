@@ -1,23 +1,22 @@
 ---
 id: double-integrals-general-regions
-title: 'Double Integrals over General Regions: Type I and Type II'
+title: Double Integrals over General Regions
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: double-integrals-rectangular-regions
+- id: double-integrals-cartesian-coordinates
   type: hard
 builds-toward:
-- double-integrals-polar
-- applications-double-integrals
+- applications-integrals-area-mass
 tags:
+- double-integrals
+- integration-bounds
 - general-regions
-- type-i-type-ii
-- bounds
 stage: formal-systems
 status: draft
 ---
 
-# Double Integrals over General Regions: Type I and Type II
+# Double Integrals over General Regions
 
 ## Core Idea
-For non-rectangular regions, set up integrals by identifying bounds: Type I regions (R = {(x,y) : a ≤ x ≤ b, g₁(x) ≤ y ≤ g₂(x)}) integrate y first; Type II regions integrate x first. Sketching the region is crucial for identifying correct bounds.
+For a region D described as {(x, y) : a ≤ x ≤ b, g₁(x) ≤ y ≤ g₂(x)}, the double integral ∬_D f(x, y) dA = ∫_a^b ∫_{g₁(x)}^{g₂(x)} f(x, y) dy dx. Describing regions correctly (both as Type I and Type II) allows choosing the easier integration order.
