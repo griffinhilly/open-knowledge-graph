@@ -34,6 +34,8 @@ prerequisites:
   type: soft
 - id: binary-relations-definition-and-properties
   type: soft
+- id: dual-spaces-bounded-functionals
+  type: soft
 builds-toward:
 - adjunction-unit-and-counit
 - monads-in-category-theory

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: propositional-syntax
   type: hard
+- id: truth-tables-and-evaluation
+  type: soft
+- id: boolean-functions
+  type: soft
 builds-toward:
 - logical-equivalence-formulas
 tags:

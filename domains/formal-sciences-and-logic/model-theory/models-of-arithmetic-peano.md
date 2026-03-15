@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: complete-first-order-theories
   type: soft
+- id: arithmetic-functions-and-multiplicativity
+  type: soft
 builds-toward:
 - undecidability-and-gödel
 - omitting-types-theorem-countable

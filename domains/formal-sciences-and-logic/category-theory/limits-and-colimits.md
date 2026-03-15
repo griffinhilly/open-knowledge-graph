@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: set-operations
   type: soft
+- id: partial-orders
+  type: soft
 builds-toward:
 - pullbacks-and-pushouts
 - adjoint-functors

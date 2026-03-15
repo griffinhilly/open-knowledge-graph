@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: opposite-categories-and-duality
   type: soft
+- id: set-operations
+  type: soft
+- id: indexed-families-of-sets
+  type: soft
 builds-toward:
 - sheaves-and-sheafification
 - topos-theory-intro

@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: set-operations
   type: soft
+- id: function-composition-and-inverses
+  type: soft
 tags:
 - Kan extension
 - left Kan extension

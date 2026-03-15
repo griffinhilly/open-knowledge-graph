@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: field-definition-and-examples
   type: soft
+- id: field-extensions
+  type: soft
+- id: algebraic-transcendental-elements
+  type: soft
 builds-toward:
 - rcf-real-closed-fields-applications
 tags:

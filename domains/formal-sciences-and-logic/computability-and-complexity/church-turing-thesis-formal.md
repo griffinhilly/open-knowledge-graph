@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: mathematical-induction
   type: soft
+- id: algorithm-analysis-big-o
+  type: soft
 builds-toward:
 - halting-problem-formal
 - computability-reductions

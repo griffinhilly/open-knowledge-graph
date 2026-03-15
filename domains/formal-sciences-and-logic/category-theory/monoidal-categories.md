@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: isomorphisms-in-categories
   type: soft
+- id: group-definition-and-examples
+  type: soft
 builds-toward:
 - closed-monoidal-categories
 - enriched-categories

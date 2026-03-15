@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: proof-structure-and-terminology
   type: soft
+- id: complexity-lower-bounds
+  type: soft
 builds-toward:
 - cook-levin-theorem-formal
 - pspace-and-complexity-hierarchy

@@ -6,6 +6,8 @@ course: propositional-and-predicate-logic
 prerequisites:
 - id: propositional-soundness-completeness
   type: hard
+- id: proof-structure-and-terminology
+  type: soft
 builds-toward:
 - sequent-calculus-intro
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: complexity-class-definitions-hierarchy
   type: hard
+- id: algorithm-complexity
+  type: soft
 builds-toward:
 - np-hardness
 - np-completeness-theorem

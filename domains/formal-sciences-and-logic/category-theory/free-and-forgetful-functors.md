@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: free-objects
   type: hard
+- id: group-definition-and-examples
+  type: soft
 builds-toward:
 - left-right-adjoints
 tags:

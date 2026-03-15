@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: sequent-calculus-intro
   type: soft
+- id: mathematical-proof-strategies
+  type: soft
 builds-toward:
 - propositional-compactness
 - fol-soundness-completeness

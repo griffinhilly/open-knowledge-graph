@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: logic-gates-and-circuits
   type: soft
+- id: boolean-functions-and-circuits
+  type: soft
 builds-toward:
 - kolmogorov-complexity-properties
 tags:

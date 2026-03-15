@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: combinations
   type: soft
+- id: algorithm-complexity
+  type: soft
 tags:
 - algorithmic-information-theory
 - randomness

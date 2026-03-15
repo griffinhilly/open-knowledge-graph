@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: set-fundamentals
   type: hard
+- id: function-properties
+  type: soft
+- id: inverse-functions
+  type: soft
 builds-toward:
 - initial-and-terminal-objects
 - products-and-coproducts

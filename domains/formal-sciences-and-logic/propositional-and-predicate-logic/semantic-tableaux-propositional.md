@@ -6,6 +6,8 @@ course: propositional-and-predicate-logic
 prerequisites:
 - id: propositional-semantics
   type: hard
+- id: truth-tables-and-evaluation
+  type: soft
 builds-toward:
 - semantic-tableaux-fol
 - propositional-soundness-completeness

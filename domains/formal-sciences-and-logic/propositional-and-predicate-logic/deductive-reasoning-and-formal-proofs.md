@@ -6,6 +6,10 @@ course: propositional-and-predicate-logic
 prerequisites:
 - id: logical-implication-entailment
   type: soft
+- id: mathematical-proof-strategies
+  type: soft
+- id: mathematical-induction
+  type: soft
 builds-toward:
 - natural-deduction-propositional
 - natural-deduction-fol

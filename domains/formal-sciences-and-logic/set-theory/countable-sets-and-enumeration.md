@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: injections-surjections-and-inverse-functions
   type: hard
+- id: cardinality-and-countability
+  type: soft
 builds-toward:
 - cantor-pairing-and-enumerations
 - uncountable-sets-and-the-reals

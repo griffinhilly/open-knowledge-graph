@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: limits-and-colimits
   type: soft
+- id: set-operations
+  type: soft
 tags:
 - topos
 - elementary topos

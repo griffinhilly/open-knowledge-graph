@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: propositional-soundness-completeness
   type: soft
+- id: boolean-algebra
+  type: soft
 builds-toward:
 - resolution-fol
 tags:

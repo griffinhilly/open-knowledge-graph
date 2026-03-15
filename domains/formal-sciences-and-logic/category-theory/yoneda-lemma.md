@@ -26,6 +26,8 @@ prerequisites:
   type: soft
 - id: equivalence-relations
   type: soft
+- id: function-composition-and-inverses
+  type: soft
 builds-toward:
 - adjoint-functors
 - equivalence-of-categories

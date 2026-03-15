@@ -6,6 +6,8 @@ course: set-theory
 prerequisites:
 - id: injections-surjections-bijections-classification
   type: hard
+- id: bijection-counting-principle
+  type: soft
 builds-toward:
 - finite-sets-and-natural-numbers
 - countably-infinite-sets

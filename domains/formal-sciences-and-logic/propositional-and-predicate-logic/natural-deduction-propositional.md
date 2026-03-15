@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: conditional-and-biconditional
   type: soft
+- id: mathematical-induction
+  type: soft
 builds-toward:
 - sequent-calculus-intro
 - propositional-soundness-completeness

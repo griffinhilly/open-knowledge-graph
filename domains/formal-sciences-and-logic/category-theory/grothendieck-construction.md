@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: comma-categories
   type: soft
+- id: product-topology
+  type: soft
 tags:
 - Grothendieck construction
 - pseudofunctor
