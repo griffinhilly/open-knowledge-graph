@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: allele-frequency-change
   type: hard
+- id: probability-axioms
+  type: soft
 builds-toward:
 - effective-population-size
 - peripatric-speciation

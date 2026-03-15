@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: enzyme-cofactors-and-coenzymes
   type: soft
+- id: reaction-mechanisms-overview
+  type: soft
+- id: coordination-chemistry-basics
+  type: soft
 builds-toward:
 - citric-acid-cycle-mechanism
 tags:

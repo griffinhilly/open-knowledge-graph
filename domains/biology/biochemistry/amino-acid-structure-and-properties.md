@@ -6,6 +6,10 @@ course: biochemistry
 prerequisites:
 - id: organic-chemistry-intro
   type: hard
+- id: amine-reactivity-nucleophile-base
+  type: soft
+- id: carboxylic-acids-and-derivatives
+  type: soft
 builds-toward:
 - amino-acid-classification-and-properties
 - peptide-bonds-and-polypeptide-formation

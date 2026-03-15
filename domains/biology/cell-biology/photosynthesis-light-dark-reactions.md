@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: calvin-cycle
   type: hard
+- id: oxidation-reduction-reactions
+  type: soft
 tags:
 - photosynthesis
 - light-reactions

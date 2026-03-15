@@ -6,6 +6,10 @@ course: biochemistry
 prerequisites:
 - id: atp-synthesis
   type: hard
+- id: gibbs-free-energy-spontaneity
+  type: soft
+- id: equilibrium-expression-kc-kp-constants
+  type: soft
 builds-toward:
 - proton-gradient-and-chemiosmotic-coupling
 tags:

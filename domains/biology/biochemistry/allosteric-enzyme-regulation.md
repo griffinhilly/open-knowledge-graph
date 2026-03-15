@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: michaelis-menten-enzyme-kinetics
   type: hard
+- id: hydrogen-bonding-energetics
+  type: soft
 builds-toward:
 - enzyme-cooperativity
 - metabolic-integration-hormonal-regulation

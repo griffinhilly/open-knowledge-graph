@@ -6,6 +6,8 @@ course: biochemistry
 prerequisites:
 - id: enzyme-structure-and-function
   type: hard
+- id: functional-groups-overview
+  type: soft
 builds-toward:
 - enzyme-cofactors-and-coenzymes
 - michaelis-menten-enzyme-kinetics

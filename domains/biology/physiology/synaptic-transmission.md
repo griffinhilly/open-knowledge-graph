@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cell-signaling-intro
   type: hard
+- id: organic-chemistry-intro
+  type: soft
 builds-toward:
 - neuromuscular-junction
 - nervous-system-overview

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: enzyme-cofactors-and-coenzymes
   type: soft
+- id: limit-definition-of-derivative
+  type: soft
 builds-toward:
 - enzyme-inhibition-competitive
 - allosteric-enzyme-regulation

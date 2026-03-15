@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: functional-groups-overview
   type: soft
+- id: intermolecular-forces-overview
+  type: soft
+- id: hydrogen-bonding-energetics
+  type: soft
 builds-toward:
 - passive-transport
 - active-transport

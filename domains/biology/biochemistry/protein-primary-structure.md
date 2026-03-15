@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: amino-acid-classification-and-properties
   type: soft
+- id: nucleophilic-acyl-substitution
+  type: soft
 builds-toward:
 - protein-secondary-structure
 - enzyme-structure-and-function

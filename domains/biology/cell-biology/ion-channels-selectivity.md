@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: protein-structure-and-function
   type: soft
+- id: electrochemistry-basics
+  type: soft
+- id: ion-selective-electrodes
+  type: soft
 builds-toward:
 - osmotic-water-balance
 - action-potential

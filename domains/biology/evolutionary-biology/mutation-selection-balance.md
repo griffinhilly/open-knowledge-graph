@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: selection-coefficient
   type: hard
+- id: probability-axioms
+  type: soft
+- id: equilibrium-expression-kc-kp-constants
+  type: soft
 builds-toward:
 - nearly-neutral-evolution
 - slightly-deleterious-mutations

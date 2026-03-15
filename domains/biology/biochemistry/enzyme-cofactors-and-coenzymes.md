@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: organic-chemistry-intro
   type: soft
+- id: coordination-chemistry-basics
+  type: soft
 builds-toward:
 - michaelis-menten-enzyme-kinetics
 - citric-acid-cycle-mechanism

@@ -6,6 +6,8 @@ course: microbiology
 prerequisites:
 - id: bacterial-cell-structure
   type: hard
+- id: organic-chemistry-intro
+  type: soft
 builds-toward:
 - peptidoglycan-synthesis-remodeling
 - gram-negative-outer-membrane

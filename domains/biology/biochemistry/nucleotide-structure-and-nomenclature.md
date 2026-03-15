@@ -6,6 +6,10 @@ course: biochemistry
 prerequisites:
 - id: rna-types-and-structure
   type: hard
+- id: organic-chemistry-intro
+  type: soft
+- id: nucleophile-electrophile-definitions
+  type: soft
 builds-toward:
 - purine-metabolism-biosynthesis
 - pyrimidine-metabolism-biosynthesis

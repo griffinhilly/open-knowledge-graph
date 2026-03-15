@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: probability-axioms
   type: hard
+- id: exponential-distribution
+  type: soft
 builds-toward:
 - demographic-inference
 - molecular-dating

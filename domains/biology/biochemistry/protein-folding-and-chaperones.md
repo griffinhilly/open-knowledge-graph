@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: enzyme-structure-and-function
   type: soft
+- id: hydrogen-bonding-energetics
+  type: soft
+- id: intermolecular-forces-overview
+  type: soft
 builds-toward:
 - post-translational-modifications
 - protein-targeting-and-subcellular-localization

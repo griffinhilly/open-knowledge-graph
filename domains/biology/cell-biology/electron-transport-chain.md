@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: entropy-and-gibbs-free-energy
   type: soft
+- id: oxidation-reduction-reactions
+  type: soft
 builds-toward:
 - atp-synthesis
 - light-reactions

@@ -6,6 +6,10 @@ course: biochemistry
 prerequisites:
 - id: enzyme-cofactors-and-coenzymes
   type: hard
+- id: organic-chemistry-intro
+  type: soft
+- id: carbonyl-chemistry-intro
+  type: soft
 builds-toward:
 - glycolysis
 - citric-acid-cycle-mechanism

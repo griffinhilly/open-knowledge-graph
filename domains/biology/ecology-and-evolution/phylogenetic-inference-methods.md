@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: evolutionary-comparative-anatomy
   type: soft
+- id: statistical-inference
+  type: soft
+- id: hypothesis-testing-framework
+  type: soft
 builds-toward:
 - molecular-dating-phylogenetic-clocks
 - molecular-evolution-phylogenetics

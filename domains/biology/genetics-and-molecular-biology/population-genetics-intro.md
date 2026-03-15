@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: probability-axioms
   type: soft
+- id: statistical-distribution-molecular-energies
+  type: soft
 tags:
 - Hardy-Weinberg
 - allele frequency

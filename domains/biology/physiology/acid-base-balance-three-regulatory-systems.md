@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: renal-physiology-and-fluid-balance
   type: hard
+- id: ph-and-acid-base-calculations
+  type: soft
 tags:
 - acid-base
 - pH

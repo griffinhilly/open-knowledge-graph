@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: phylogenetic-inference-methods
   type: hard
+- id: exponential-growth-and-decay
+  type: soft
+- id: statistics-rigorous
+  type: soft
 builds-toward:
 - molecular-evolution-rates
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: protein-tertiary-structure
   type: hard
+- id: nucleophilic-acyl-substitution
+  type: soft
 builds-toward:
 - antibody-class-switching
 - affinity-maturation-somatic-hypermutation

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: atp-synthesis
   type: hard
+- id: electrochemistry-basics
+  type: soft
 builds-toward:
 - atp-synthase-structure-mechanism
 tags:

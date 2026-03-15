@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: protein-quaternary-structure
   type: soft
+- id: equilibrium-expression-kc-kp-constants
+  type: soft
+- id: coordination-chemistry-basics
+  type: soft
 builds-toward:
 - oxygen-delivery-tissue-extraction-consumption
 tags:

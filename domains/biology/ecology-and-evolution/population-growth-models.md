@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: differential-equations-intro-separable
   type: soft
+- id: exponential-growth-and-decay
+  type: soft
+- id: differential-equations-intro
+  type: soft
 builds-toward:
 - carrying-capacity
 - population-regulation

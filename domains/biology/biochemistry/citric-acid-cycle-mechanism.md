@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: pyruvate-dehydrogenase-complex
   type: soft
+- id: reaction-mechanisms-overview
+  type: soft
+- id: equilibrium-expression-kc-kp-constants
+  type: soft
 builds-toward:
 - citric-acid-cycle-regulation
 - oxidative-phosphorylation-and-chemiosmosis

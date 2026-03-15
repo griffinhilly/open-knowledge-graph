@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: genetic-drift-in-small-populations
   type: soft
+- id: statistics-rigorous
+  type: soft
+- id: sampling-distributions
+  type: soft
 builds-toward:
 - conservation-genetics-effective-size
 - population-viability-analysis

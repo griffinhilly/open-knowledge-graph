@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: intermolecular-forces
   type: soft
+- id: organic-chemistry-intro
+  type: soft
+- id: nucleophile-electrophile-definitions
+  type: soft
 builds-toward:
 - dna-replication
 - transcription
