@@ -12,7 +12,7 @@ tags:
 - ellipsis
 - omission
 - efficiency
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

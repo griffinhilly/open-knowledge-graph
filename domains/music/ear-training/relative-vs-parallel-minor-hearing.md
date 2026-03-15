@@ -16,7 +16,7 @@ tags:
 - major-minor
 - mode
 - key
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - run-on
 - sentence-errors
 - punctuation
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

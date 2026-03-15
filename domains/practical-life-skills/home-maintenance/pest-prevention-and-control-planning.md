@@ -12,7 +12,7 @@ tags:
 - pest control
 - prevention
 - wildlife
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - equivalence
 - spelling
 - accidental
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - transparency
 - opacity
 - pigment
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

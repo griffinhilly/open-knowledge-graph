@@ -30,7 +30,7 @@ tags:
 - design
 - composition
 - synthesis
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

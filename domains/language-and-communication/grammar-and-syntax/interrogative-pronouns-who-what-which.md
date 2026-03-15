@@ -15,7 +15,7 @@ tags:
 - pronouns
 - questions
 - wh-words
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

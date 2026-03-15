@@ -13,7 +13,7 @@ tags:
 - instructions
 - cooking
 - sequencing
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

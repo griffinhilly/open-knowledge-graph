@@ -12,7 +12,7 @@ tags:
 - gentle-heat
 - nutrient-preservation
 - delicate-foods
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

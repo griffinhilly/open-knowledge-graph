@@ -15,7 +15,7 @@ tags:
 - balance
 - symmetry
 - composition
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

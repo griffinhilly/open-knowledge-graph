@@ -13,7 +13,7 @@ tags:
 - quotation
 - tense-change
 - syntax
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

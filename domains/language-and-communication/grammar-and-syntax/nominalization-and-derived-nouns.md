@@ -16,7 +16,7 @@ tags:
 - word-formation
 - noun-creation
 - derivation
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - function
 - tonic
 - dominant
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - chromatic-harmony
 - borrowed-chords
 - voice-leading
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

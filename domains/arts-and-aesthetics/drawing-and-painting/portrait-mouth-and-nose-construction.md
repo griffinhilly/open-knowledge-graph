@@ -15,7 +15,7 @@ tags:
 - features
 - construction
 - anatomy
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - temperature
 - emotion
 - contrast
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

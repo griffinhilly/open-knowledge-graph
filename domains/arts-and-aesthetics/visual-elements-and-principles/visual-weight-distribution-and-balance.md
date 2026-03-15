@@ -20,7 +20,7 @@ tags:
 - distribution
 - equilibrium
 - visual
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

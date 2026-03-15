@@ -14,7 +14,7 @@ tags:
 - safety
 - communication
 - professionalism
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

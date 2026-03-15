@@ -15,7 +15,7 @@ tags:
 - enzyme
 - flavor-penetration
 - food-safety
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

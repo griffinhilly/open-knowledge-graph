@@ -21,7 +21,7 @@ tags:
 - phrase-ending
 - authentic
 - plagal
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

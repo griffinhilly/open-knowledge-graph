@@ -16,7 +16,7 @@ tags:
 - ear-training
 - key-change
 - harmonic-analysis
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

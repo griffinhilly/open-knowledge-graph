@@ -18,7 +18,7 @@ tags:
 - ratio
 - composition
 - visual-weight
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

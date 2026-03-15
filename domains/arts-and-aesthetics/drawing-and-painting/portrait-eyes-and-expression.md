@@ -15,7 +15,7 @@ tags:
 - eyes
 - expression
 - emotion
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

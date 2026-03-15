@@ -14,7 +14,7 @@ tags:
 - ambiguity
 - clarity
 - modification
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

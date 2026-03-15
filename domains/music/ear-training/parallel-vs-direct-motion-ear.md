@@ -12,7 +12,7 @@ tags:
 - voice-leading
 - motion
 - intervals
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

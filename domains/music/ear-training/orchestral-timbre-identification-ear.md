@@ -12,7 +12,7 @@ tags:
 - timbre
 - orchestration
 - instruments
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

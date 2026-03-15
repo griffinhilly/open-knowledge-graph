@@ -12,7 +12,7 @@ tags:
 - painting
 - technique
 - interior
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

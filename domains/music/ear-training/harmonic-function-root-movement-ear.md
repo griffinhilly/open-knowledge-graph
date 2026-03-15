@@ -21,7 +21,7 @@ tags:
 - dictation
 - voice-leading
 - progression
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

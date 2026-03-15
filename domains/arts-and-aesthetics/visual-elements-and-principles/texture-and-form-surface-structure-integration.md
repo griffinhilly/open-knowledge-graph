@@ -21,7 +21,7 @@ tags:
 - structure
 - tactile
 - visual
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

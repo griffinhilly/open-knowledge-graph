@@ -14,7 +14,7 @@ tags:
 - gutters
 - water-management
 - exterior-maintenance
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

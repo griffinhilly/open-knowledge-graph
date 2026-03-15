@@ -13,7 +13,7 @@ tags:
 - siding
 - exterior-maintenance
 - repair
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

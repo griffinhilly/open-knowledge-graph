@@ -14,7 +14,7 @@ tags:
 - systems
 - safety
 - power
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

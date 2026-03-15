@@ -14,7 +14,7 @@ tags:
 - non-harmonic-tones
 - harmony
 - dissonance
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

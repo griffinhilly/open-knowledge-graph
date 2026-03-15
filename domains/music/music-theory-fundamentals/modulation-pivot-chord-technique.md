@@ -16,7 +16,7 @@ tags:
 - key-change
 - pivot-chord
 - tonicization
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

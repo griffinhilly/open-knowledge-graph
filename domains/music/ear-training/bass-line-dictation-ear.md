@@ -17,7 +17,7 @@ tags:
 - bass
 - dictation
 - harmony
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

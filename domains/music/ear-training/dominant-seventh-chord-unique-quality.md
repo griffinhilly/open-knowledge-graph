@@ -16,7 +16,7 @@ tags:
 - dominant
 - harmony
 - quality
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

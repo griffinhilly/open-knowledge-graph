@@ -15,7 +15,7 @@ tags:
 - security
 - fraud
 - social-engineering
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

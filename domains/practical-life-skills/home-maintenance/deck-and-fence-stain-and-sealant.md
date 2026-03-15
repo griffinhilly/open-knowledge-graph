@@ -18,7 +18,7 @@ tags:
 - exterior-wood
 - maintenance
 - staining
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

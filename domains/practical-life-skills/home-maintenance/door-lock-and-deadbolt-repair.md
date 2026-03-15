@@ -14,7 +14,7 @@ tags:
 - security
 - locks
 - interior-repair
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - honing
 - whetstone
 - maintenance
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

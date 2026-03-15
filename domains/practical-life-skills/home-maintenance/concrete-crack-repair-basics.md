@@ -14,7 +14,7 @@ tags:
 - concrete
 - exterior
 - preventive-maintenance
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

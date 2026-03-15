@@ -12,7 +12,7 @@ tags:
 - drywall
 - interior
 - repair
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

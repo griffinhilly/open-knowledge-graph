@@ -17,7 +17,7 @@ tags:
 - sharps
 - flats
 - naturals
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

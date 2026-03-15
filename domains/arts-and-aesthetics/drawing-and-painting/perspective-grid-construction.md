@@ -15,7 +15,7 @@ tags:
 - composition
 - spatial
 - construction
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

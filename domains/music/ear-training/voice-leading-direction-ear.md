@@ -12,7 +12,7 @@ tags:
 - voice-leading
 - polyphony
 - motion
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - error-detection
 - ear-training
 - notation
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

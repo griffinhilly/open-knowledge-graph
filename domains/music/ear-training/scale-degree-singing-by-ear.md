@@ -16,7 +16,7 @@ tags:
 - singing
 - ear-training
 - scale-degrees
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

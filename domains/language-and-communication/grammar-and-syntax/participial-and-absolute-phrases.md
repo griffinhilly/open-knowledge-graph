@@ -15,7 +15,7 @@ tags:
 - absolute-phrases
 - modifiers
 - sentence-structure
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

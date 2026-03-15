@@ -16,7 +16,7 @@ tags:
 - cadence
 - harmonic-function
 - form
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

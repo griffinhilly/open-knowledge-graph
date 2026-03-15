@@ -14,7 +14,7 @@ tags:
 - consonance
 - dissonance
 - harmonic-function
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

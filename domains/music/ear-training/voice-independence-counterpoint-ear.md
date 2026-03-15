@@ -20,7 +20,7 @@ tags:
 - multiple-voices
 - ear-training
 - contrapuntal
-stage: concrete-operations
+stage: advanced
 status: draft
 ---
 

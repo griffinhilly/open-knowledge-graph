@@ -17,7 +17,7 @@ tags:
 - accuracy
 - equipment
 - baking
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - security
 - passwords
 - account-protection
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - complements
 - objects
 - verb-patterns
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

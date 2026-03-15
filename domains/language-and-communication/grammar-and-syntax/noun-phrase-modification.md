@@ -18,7 +18,7 @@ tags:
 - modification
 - adjectives
 - prepositional-phrases
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

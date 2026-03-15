@@ -18,7 +18,7 @@ tags:
 - interval
 - construction
 - harmony
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

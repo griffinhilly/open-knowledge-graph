@@ -17,7 +17,7 @@ tags:
 - chlorophyll
 - technique
 - cooking-method
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

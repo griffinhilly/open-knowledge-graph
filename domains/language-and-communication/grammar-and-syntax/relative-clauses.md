@@ -16,7 +16,7 @@ tags:
 - nonrestrictive
 - clauses
 - commas
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

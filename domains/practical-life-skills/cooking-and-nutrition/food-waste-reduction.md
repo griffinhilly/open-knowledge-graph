@@ -14,7 +14,7 @@ tags:
 - leftovers
 - composting
 - FIFO
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

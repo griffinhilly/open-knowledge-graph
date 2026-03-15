@@ -12,7 +12,7 @@ tags:
 - relative-pronouns
 - clauses
 - sentence-structure
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

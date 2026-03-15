@@ -14,7 +14,7 @@ tags:
 - syncopation
 - swing
 - feel
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

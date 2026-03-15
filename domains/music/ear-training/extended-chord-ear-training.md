@@ -19,7 +19,7 @@ tags:
 - thirteenths
 - jazz
 - color
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

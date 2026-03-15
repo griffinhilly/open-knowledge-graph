@@ -18,7 +18,7 @@ tags:
 - light-dark
 - contrast
 - rendering
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

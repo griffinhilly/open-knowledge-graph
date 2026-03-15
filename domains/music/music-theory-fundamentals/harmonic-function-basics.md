@@ -18,7 +18,7 @@ tags:
 - tonic
 - dominant
 - subdominant
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

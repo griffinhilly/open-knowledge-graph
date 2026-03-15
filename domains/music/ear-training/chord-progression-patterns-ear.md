@@ -16,7 +16,7 @@ tags:
 - chord-progressions
 - harmonic-patterns
 - form
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - syntax
 - standard-usage
 - register
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

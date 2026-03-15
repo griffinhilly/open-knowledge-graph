@@ -13,7 +13,7 @@ tags:
 - adjectives
 - adverbs
 - sentence-clarity
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

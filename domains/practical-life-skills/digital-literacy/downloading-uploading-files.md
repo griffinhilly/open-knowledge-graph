@@ -13,7 +13,7 @@ tags:
 - uploads
 - file-transfer
 - attachments
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

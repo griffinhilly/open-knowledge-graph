@@ -13,7 +13,7 @@ tags:
 - hyperlinks
 - navigation
 - links
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

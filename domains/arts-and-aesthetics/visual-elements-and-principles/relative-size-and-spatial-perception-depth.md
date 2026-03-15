@@ -22,7 +22,7 @@ tags:
 - perspective
 - spatial
 - recession
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

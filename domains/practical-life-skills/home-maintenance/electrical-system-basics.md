@@ -14,7 +14,7 @@ tags:
 - electrical
 - safety
 - circuits
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

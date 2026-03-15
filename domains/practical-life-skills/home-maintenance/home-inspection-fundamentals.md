@@ -13,7 +13,7 @@ tags:
 - inspection
 - assessment
 - documentation
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

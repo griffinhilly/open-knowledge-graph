@@ -11,7 +11,7 @@ tags:
 - health
 - eye-care
 - productivity
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

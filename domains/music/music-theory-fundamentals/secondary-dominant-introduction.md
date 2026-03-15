@@ -16,7 +16,7 @@ tags:
 - tonicization
 - V-of-V
 - chromatic-harmony
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

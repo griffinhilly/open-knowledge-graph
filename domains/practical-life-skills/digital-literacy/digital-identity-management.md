@@ -13,7 +13,7 @@ tags:
 - reputation
 - accounts
 - privacy
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

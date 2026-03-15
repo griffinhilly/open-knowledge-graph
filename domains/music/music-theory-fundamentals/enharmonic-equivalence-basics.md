@@ -14,7 +14,7 @@ tags:
 - pitch
 - notation
 - enharmonics
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - interior
 - drywall
 - plaster
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

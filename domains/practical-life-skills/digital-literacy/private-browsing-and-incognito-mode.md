@@ -15,7 +15,7 @@ tags:
 - privacy
 - browsing
 - browser-settings
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

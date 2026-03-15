@@ -16,7 +16,7 @@ tags:
 - tension
 - resolution
 - tonal-center
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

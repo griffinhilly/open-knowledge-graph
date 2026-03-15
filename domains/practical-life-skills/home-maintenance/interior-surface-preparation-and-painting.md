@@ -13,7 +13,7 @@ tags:
 - interior
 - maintenance
 - surfaces
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

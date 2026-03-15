@@ -16,7 +16,7 @@ tags:
 - intervals
 - counting
 - naming
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

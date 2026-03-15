@@ -14,7 +14,7 @@ tags:
 - form
 - structure
 - analysis
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

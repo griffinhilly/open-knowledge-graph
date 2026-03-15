@@ -15,7 +15,7 @@ tags:
 - composition
 - sketching
 - technique
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

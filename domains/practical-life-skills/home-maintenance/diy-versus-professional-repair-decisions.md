@@ -12,7 +12,7 @@ tags:
 - decision making
 - skills assessment
 - costs
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

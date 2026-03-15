@@ -15,7 +15,7 @@ tags:
 - melody
 - harmony
 - chord-tones
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

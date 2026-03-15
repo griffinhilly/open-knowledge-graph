@@ -16,7 +16,7 @@ tags:
 - diagramming
 - visualization
 - syntax
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

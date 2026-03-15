@@ -16,7 +16,7 @@ tags:
 - technique
 - cooking-method
 - balance
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

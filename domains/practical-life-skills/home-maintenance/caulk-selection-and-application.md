@@ -10,7 +10,7 @@ tags:
 - sealing
 - weatherproofing
 - technique
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - atmosphere
 - perspective
 - distance
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

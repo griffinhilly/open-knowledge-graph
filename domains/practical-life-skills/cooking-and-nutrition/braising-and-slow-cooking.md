@@ -14,7 +14,7 @@ tags:
 - tough-cuts
 - collagen
 - low-and-slow
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

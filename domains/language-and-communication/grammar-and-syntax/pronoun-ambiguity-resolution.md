@@ -14,7 +14,7 @@ tags:
 - ambiguity
 - clarity
 - revision
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

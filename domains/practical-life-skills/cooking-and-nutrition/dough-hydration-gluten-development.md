@@ -23,7 +23,7 @@ tags:
 - gluten
 - bread
 - baking
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

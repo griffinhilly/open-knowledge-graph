@@ -17,7 +17,7 @@ tags:
 - technique
 - heat
 - proteins
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

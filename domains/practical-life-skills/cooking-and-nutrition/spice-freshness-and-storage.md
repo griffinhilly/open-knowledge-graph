@@ -18,7 +18,7 @@ tags:
 - freshness
 - grinding
 - flavor
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

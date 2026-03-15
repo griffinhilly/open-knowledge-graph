@@ -12,7 +12,7 @@ tags:
 - downspouts
 - drainage
 - exterior-maintenance
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

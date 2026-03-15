@@ -16,7 +16,7 @@ tags:
 - proportion
 - landmarks
 - measurement
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

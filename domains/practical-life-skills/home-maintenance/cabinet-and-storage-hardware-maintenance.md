@@ -10,7 +10,7 @@ tags:
 - cabinets
 - hardware
 - repair
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

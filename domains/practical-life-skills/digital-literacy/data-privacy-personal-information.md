@@ -14,7 +14,7 @@ tags:
 - personal-data
 - information-sharing
 - consent
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

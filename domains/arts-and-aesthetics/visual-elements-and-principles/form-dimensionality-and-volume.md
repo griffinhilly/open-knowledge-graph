@@ -15,7 +15,7 @@ tags:
 - element
 - 3d
 - dimension
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

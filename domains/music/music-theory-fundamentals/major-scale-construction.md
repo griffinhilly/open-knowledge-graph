@@ -17,7 +17,7 @@ tags:
 - construction
 - whole-half
 - intervals
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - lighting
 - setup
 - composition
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - naming
 - organization
 - best-practices
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

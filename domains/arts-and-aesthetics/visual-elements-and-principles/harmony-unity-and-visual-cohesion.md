@@ -18,7 +18,7 @@ tags:
 - harmony
 - cohesion
 - integration
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

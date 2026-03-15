@@ -16,7 +16,7 @@ tags:
 - voicing
 - chord-position
 - bass-note
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

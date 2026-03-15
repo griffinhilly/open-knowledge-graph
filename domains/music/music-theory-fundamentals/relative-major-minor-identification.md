@@ -16,7 +16,7 @@ tags:
 - tonality
 - major-minor-relationship
 - relative
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

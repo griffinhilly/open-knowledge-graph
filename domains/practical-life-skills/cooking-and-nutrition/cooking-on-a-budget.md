@@ -26,7 +26,7 @@ tags:
 - staples
 - seasonal
 - bulk-buying
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

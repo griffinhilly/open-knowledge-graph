@@ -16,7 +16,7 @@ tags:
 - diatonic
 - chromatic
 - alteration
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

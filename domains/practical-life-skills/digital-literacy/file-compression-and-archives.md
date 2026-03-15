@@ -13,7 +13,7 @@ tags:
 - zip
 - archives
 - files
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - hvac
 - energy-efficiency
 - smart-home
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

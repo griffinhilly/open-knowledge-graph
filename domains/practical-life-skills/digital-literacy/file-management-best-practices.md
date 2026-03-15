@@ -11,7 +11,7 @@ tags:
 - organization
 - naming
 - workflow
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - emphasis
 - focal-point
 - hierarchy
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

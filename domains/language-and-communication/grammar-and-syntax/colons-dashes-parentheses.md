@@ -14,7 +14,7 @@ tags:
 - em-dashes
 - parentheses
 - style
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

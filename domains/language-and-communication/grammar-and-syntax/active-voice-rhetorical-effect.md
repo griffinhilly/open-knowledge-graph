@@ -14,7 +14,7 @@ tags:
 - rhetoric
 - style
 - clarity
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

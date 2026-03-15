@@ -13,7 +13,7 @@ tags:
 - ai-assistants
 - critical-thinking
 - ethics
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

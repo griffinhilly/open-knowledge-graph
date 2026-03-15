@@ -17,7 +17,7 @@ tags:
 - waterproofing
 - protection
 - exterior
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

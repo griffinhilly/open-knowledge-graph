@@ -16,7 +16,7 @@ tags:
 - syncopation
 - ear-training
 - groove
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -11,7 +11,7 @@ tags:
 - roofing
 - gutters
 - maintenance
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

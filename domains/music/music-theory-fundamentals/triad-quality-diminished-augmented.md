@@ -15,7 +15,7 @@ tags:
 - triads
 - diminished
 - augmented
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

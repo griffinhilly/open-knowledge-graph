@@ -18,7 +18,7 @@ tags:
 - air-sealing
 - energy-efficiency
 - thermal-envelope
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

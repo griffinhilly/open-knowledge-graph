@@ -17,7 +17,7 @@ tags:
 - underpainting
 - monochromatic
 - foundation
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

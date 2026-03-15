@@ -21,7 +21,7 @@ tags:
 - organization
 - structure
 - clarity
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

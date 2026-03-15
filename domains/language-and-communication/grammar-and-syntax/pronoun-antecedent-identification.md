@@ -14,7 +14,7 @@ tags:
 - antecedents
 - reference
 - clarity
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

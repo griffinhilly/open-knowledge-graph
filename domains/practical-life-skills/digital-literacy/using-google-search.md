@@ -18,7 +18,7 @@ tags:
 - web
 - information-finding
 - google
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

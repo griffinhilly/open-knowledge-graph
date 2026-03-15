@@ -16,7 +16,7 @@ tags:
 - major-key
 - minor-key
 - harmony
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

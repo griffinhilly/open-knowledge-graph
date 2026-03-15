@@ -17,7 +17,7 @@ tags:
 - programming
 - scheduling
 - efficiency
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - questions
 - word-order
 - inversion
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

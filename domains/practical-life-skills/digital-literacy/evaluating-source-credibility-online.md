@@ -16,7 +16,7 @@ tags:
 - fact-checking
 - misinformation
 - sources
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - minor-scale
 - scale-variants
 - harmonic-context
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

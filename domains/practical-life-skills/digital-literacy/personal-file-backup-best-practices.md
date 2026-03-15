@@ -16,7 +16,7 @@ tags:
 - backup
 - data-protection
 - file-management
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

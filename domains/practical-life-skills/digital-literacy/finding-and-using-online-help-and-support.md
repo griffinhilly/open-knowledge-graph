@@ -13,7 +13,7 @@ tags:
 - support
 - documentation
 - problem-solving
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

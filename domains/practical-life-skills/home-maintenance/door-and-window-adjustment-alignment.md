@@ -17,7 +17,7 @@ tags:
 - adjustment
 - alignment
 - function
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

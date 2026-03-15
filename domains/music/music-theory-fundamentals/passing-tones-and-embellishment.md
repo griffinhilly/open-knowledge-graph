@@ -14,7 +14,7 @@ tags:
 - passing-tones
 - embellishment
 - melody
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

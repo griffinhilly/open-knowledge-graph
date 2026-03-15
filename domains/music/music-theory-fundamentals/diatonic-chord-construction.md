@@ -15,7 +15,7 @@ tags:
 - harmony
 - scales
 - chord-construction
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - portable-storage
 - encryption
 - security
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - privacy
 - tracking
 - cookies
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

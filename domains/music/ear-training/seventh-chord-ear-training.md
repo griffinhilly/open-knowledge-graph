@@ -22,7 +22,7 @@ tags:
 - min7
 - dim7
 - dissonance
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

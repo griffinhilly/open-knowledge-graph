@@ -15,7 +15,7 @@ tags:
 - search
 - web-skills
 - information-retrieval
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

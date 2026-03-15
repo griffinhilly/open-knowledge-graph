@@ -12,7 +12,7 @@ tags:
 - flooring
 - preservation
 - cleaning
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -19,7 +19,7 @@ tags:
 - harmonization
 - scale-degree
 - chord-progression
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

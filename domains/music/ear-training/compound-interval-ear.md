@@ -12,7 +12,7 @@ tags:
 - intervals
 - inversion
 - pitch
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

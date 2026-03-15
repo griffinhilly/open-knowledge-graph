@@ -22,7 +22,7 @@ tags:
 - structure
 - flow
 - organization
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - compound-subjects
 - inverted-sentences
 - grammar
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

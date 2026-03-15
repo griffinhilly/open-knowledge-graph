@@ -16,7 +16,7 @@ tags:
 - naming
 - counting
 - letter-names
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

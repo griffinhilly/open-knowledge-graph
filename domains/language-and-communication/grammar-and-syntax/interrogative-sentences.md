@@ -14,7 +14,7 @@ tags:
 - sentence-types
 - questions
 - interrogative
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

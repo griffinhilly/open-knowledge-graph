@@ -13,7 +13,7 @@ tags:
 - cache
 - history
 - privacy
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

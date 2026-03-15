@@ -15,7 +15,7 @@ tags:
 - minor
 - harmonic
 - leading-tone
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

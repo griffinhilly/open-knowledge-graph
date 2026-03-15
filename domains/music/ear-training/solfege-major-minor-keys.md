@@ -23,7 +23,7 @@ tags:
 - relative-pitch
 - audiation
 - movable-do
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

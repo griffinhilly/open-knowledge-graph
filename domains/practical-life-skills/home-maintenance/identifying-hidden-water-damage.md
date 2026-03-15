@@ -17,7 +17,7 @@ tags:
 - hidden
 - detection
 - inspection
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

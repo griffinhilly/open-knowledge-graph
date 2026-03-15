@@ -12,7 +12,7 @@ tags:
 - dining
 - table-setting
 - social-skills
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

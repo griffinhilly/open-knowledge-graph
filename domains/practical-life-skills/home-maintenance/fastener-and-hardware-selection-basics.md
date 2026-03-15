@@ -12,7 +12,7 @@ tags:
 - fasteners
 - hardware
 - tools
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

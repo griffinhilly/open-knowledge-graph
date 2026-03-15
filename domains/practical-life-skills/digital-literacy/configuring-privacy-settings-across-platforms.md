@@ -14,7 +14,7 @@ tags:
 - privacy
 - settings
 - social-media
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

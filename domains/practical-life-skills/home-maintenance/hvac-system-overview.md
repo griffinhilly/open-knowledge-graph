@@ -16,7 +16,7 @@ tags:
 - cooling
 - air quality
 - hvac
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

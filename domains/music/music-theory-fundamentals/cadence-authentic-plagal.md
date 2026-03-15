@@ -16,7 +16,7 @@ tags:
 - authentic
 - plagal
 - resolution
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

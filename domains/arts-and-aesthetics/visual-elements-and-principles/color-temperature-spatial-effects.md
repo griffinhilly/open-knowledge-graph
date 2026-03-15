@@ -18,7 +18,7 @@ tags:
 - warm-cool
 - spatial
 - emotion
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

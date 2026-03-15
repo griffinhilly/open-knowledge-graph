@@ -22,7 +22,7 @@ tags:
 - warm
 - cool
 - perspective
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

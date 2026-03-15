@@ -14,7 +14,7 @@ tags:
 - smooth-motion
 - parallel-fifths
 - error-correction
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

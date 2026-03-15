@@ -10,7 +10,7 @@ tags:
 - relative-clauses
 - punctuation
 - meaning
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

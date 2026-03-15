@@ -15,7 +15,7 @@ tags:
 - online-presence
 - reputation
 - footprint
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - texture
 - mark-making
 - materials
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

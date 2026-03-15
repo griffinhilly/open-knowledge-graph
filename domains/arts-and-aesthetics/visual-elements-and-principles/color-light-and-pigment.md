@@ -13,7 +13,7 @@ tags:
 - light
 - pigment
 - color-theory
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - temperature
 - meat
 - juiciness
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - focal-point
 - visual-interest
 - composition
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

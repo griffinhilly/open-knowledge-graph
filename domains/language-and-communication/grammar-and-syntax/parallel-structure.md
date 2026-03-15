@@ -16,7 +16,7 @@ tags:
 - lists
 - style
 - grammar
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

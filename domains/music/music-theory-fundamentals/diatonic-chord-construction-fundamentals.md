@@ -14,7 +14,7 @@ tags:
 - diatonic
 - chords
 - major-minor
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

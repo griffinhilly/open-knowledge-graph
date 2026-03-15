@@ -13,7 +13,7 @@ tags:
 - composition
 - integration
 - strategy
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

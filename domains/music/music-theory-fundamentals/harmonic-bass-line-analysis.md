@@ -16,7 +16,7 @@ tags:
 - root-motion
 - harmony
 - voice-leading
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

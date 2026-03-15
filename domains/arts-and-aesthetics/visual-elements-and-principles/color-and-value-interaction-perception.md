@@ -24,7 +24,7 @@ tags:
 - interaction
 - perception
 - mixing
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

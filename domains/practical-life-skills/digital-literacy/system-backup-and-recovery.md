@@ -13,7 +13,7 @@ tags:
 - recovery
 - system-image
 - disaster-recovery
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

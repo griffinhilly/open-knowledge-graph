@@ -14,7 +14,7 @@ tags:
 - infinitives
 - verbals
 - noun-function
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

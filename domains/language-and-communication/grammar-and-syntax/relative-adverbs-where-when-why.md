@@ -12,7 +12,7 @@ tags:
 - relative-clauses
 - adverbs
 - adjective-clauses
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

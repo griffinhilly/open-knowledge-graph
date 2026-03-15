@@ -15,7 +15,7 @@ tags:
 - voice-leading
 - smooth
 - spacing
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

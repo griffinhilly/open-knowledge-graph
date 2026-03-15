@@ -15,7 +15,7 @@ tags:
 - expression
 - mark-making
 - rhythm
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

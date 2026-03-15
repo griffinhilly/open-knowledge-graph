@@ -16,7 +16,7 @@ tags:
 - octave
 - register
 - range
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

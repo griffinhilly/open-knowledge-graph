@@ -14,7 +14,7 @@ tags:
 - extended-harmony
 - chord-quality
 - jazz
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

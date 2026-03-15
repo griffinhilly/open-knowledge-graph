@@ -13,7 +13,7 @@ tags:
 - pitch
 - scales
 - semitones
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

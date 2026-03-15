@@ -12,7 +12,7 @@ tags:
 - finishing
 - wood-care
 - aesthetic
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

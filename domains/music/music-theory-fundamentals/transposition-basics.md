@@ -16,7 +16,7 @@ tags:
 - transposition
 - keys
 - intervals
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

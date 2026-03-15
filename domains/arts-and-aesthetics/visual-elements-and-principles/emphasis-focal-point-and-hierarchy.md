@@ -15,7 +15,7 @@ tags:
 - principle
 - focal-point
 - hierarchy
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

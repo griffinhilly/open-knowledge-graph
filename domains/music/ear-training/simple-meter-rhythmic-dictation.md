@@ -18,7 +18,7 @@ tags:
 - dictation
 - beat
 - note-duration
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - tile
 - grouting
 - moisture-prevention
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

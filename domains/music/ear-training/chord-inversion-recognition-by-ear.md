@@ -16,7 +16,7 @@ tags:
 - inversions
 - ear-training
 - harmonic-analysis
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

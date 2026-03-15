@@ -17,7 +17,7 @@ tags:
 - oils
 - heat-management
 - cooking-techniques
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

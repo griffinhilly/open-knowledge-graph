@@ -19,7 +19,7 @@ tags:
 - finish
 - sheen
 - interior
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - wet-on-wet
 - glazing
 - lifting
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

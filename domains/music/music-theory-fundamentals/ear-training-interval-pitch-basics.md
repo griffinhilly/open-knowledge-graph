@@ -10,7 +10,7 @@ tags:
 - ear-training
 - listening
 - interval
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

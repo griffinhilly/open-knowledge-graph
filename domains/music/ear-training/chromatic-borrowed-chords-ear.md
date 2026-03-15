@@ -20,7 +20,7 @@ tags:
 - voice-leading
 - extended-harmony
 - alteration
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - security
 - accounts
 - credential-management
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

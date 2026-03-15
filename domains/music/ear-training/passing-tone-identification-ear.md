@@ -12,7 +12,7 @@ tags:
 - non-harmonic-tones
 - melody
 - voice-leading
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

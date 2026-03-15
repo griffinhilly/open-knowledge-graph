@@ -15,7 +15,7 @@ tags:
 - composition
 - spatial-effects
 - harmony
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - landscape
 - street
 - outdoor
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

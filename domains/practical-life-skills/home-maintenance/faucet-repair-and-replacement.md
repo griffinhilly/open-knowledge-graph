@@ -12,7 +12,7 @@ tags:
 - plumbing
 - leaks
 - faucet
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

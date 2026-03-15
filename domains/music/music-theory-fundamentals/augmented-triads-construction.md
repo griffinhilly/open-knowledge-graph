@@ -14,7 +14,7 @@ tags:
 - harmony
 - triads
 - extended-chords
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

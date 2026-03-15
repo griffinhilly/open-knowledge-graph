@@ -14,7 +14,7 @@ tags:
 - intervals
 - harmony
 - melody
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

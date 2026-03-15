@@ -15,7 +15,7 @@ tags:
 - composition
 - value
 - light-and-shadow
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

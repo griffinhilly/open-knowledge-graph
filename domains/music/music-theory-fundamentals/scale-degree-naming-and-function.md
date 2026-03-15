@@ -15,7 +15,7 @@ tags:
 - degrees
 - function
 - tonality
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - notation
 - major
 - minor
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

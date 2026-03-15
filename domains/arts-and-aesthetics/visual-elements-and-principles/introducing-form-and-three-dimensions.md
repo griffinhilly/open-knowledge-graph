@@ -16,7 +16,7 @@ tags:
 - form
 - three-dimensional
 - volume
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

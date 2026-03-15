@@ -16,7 +16,7 @@ tags:
 - seventh-chords
 - dominant
 - function
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

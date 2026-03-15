@@ -15,7 +15,7 @@ tags:
 - mold
 - humidity
 - water damage
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

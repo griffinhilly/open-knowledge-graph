@@ -16,7 +16,7 @@ tags:
 - insulation
 - winterization
 - freeze-protection
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

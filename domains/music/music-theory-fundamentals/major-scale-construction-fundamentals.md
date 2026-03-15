@@ -15,7 +15,7 @@ tags:
 - major
 - construction
 - whole-half-step-pattern
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

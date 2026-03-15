@@ -10,7 +10,7 @@ tags:
 - scales
 - modes
 - tonality
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

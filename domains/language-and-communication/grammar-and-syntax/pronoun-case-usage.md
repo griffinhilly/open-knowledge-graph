@@ -13,7 +13,7 @@ tags:
 - compounds
 - comparisons
 - grammar
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

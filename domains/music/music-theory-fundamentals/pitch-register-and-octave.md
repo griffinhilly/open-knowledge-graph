@@ -14,7 +14,7 @@ tags:
 - notation
 - register
 - octave
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

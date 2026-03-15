@@ -13,7 +13,7 @@ tags:
 - orthography
 - compound-words
 - numbers
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

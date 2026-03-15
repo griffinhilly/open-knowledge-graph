@@ -11,7 +11,7 @@ tags:
 - element
 - surface
 - pattern
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

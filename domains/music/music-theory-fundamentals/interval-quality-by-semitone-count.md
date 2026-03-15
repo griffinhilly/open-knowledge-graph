@@ -16,7 +16,7 @@ tags:
 - quality
 - semitones
 - major-minor-perfect
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

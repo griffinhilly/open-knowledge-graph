@@ -13,7 +13,7 @@ tags:
 - folders
 - directories
 - structure
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

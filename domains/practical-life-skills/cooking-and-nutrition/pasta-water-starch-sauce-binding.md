@@ -17,7 +17,7 @@ tags:
 - starch
 - binding
 - technique
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

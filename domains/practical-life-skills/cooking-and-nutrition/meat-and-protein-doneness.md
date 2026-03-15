@@ -14,7 +14,7 @@ tags:
 - temperature
 - carryover-cooking
 - food-safety
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

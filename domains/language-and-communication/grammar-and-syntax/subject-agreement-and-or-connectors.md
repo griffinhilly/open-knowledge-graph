@@ -15,7 +15,7 @@ tags:
 - conjunctions
 - coordination
 - syntax
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

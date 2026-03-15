@@ -15,7 +15,7 @@ tags:
 - evaluation
 - information-literacy
 - critical-thinking
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - scales
 - minor
 - natural
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

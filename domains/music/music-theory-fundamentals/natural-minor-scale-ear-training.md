@@ -14,7 +14,7 @@ tags:
 - minor
 - ear-training
 - singing
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

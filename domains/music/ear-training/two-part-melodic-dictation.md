@@ -18,7 +18,7 @@ tags:
 - two-part
 - voice-leading
 - independence
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

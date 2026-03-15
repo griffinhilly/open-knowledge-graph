@@ -14,7 +14,7 @@ tags:
 - scale-degrees
 - chromatic-harmony
 - tonality
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - steaming
 - blanching
 - nutrient-retention
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

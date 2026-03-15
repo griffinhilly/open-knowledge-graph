@@ -15,7 +15,7 @@ tags:
 - quotation-marks
 - punctuation
 - direct-speech
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

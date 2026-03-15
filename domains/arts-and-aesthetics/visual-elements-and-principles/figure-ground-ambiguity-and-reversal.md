@@ -20,7 +20,7 @@ tags:
 - perception
 - negative space
 - gestalt
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

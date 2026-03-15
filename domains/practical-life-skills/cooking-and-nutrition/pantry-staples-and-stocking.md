@@ -16,7 +16,7 @@ tags:
 - organization
 - staples
 - shopping
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

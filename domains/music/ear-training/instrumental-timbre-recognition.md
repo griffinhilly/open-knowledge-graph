@@ -14,7 +14,7 @@ tags:
 - ear-training
 - instrument-identification
 - orchestration
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

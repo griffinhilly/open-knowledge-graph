@@ -16,7 +16,7 @@ tags:
 - acrylic
 - value
 - technique
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

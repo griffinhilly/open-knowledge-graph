@@ -15,7 +15,7 @@ tags:
 - perspective
 - figure
 - proportion
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

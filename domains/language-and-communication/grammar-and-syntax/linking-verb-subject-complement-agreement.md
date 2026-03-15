@@ -13,7 +13,7 @@ tags:
 - complements
 - agreement
 - syntax
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

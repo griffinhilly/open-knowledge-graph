@@ -14,7 +14,7 @@ tags:
 - bookmarks
 - organization
 - productivity
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

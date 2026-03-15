@@ -19,7 +19,7 @@ tags:
 - value-study
 - planning
 - blocking
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

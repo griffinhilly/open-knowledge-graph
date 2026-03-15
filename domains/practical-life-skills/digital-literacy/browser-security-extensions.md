@@ -13,7 +13,7 @@ tags:
 - browser
 - ad-blockers
 - security
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

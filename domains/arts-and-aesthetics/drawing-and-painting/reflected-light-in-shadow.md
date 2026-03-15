@@ -15,7 +15,7 @@ tags:
 - value
 - form
 - observation
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

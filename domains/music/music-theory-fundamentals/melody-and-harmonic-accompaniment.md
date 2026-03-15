@@ -12,7 +12,7 @@ tags:
 - melody
 - harmony
 - texture
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

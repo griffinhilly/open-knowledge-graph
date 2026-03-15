@@ -16,7 +16,7 @@ tags:
 - borrowed-chords
 - chromatic
 - chromaticism
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

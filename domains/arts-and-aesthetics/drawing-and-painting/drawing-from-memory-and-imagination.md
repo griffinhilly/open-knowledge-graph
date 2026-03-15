@@ -13,7 +13,7 @@ tags:
 - memory
 - creative
 - concept
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - batch-cooking
 - planning
 - efficiency
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

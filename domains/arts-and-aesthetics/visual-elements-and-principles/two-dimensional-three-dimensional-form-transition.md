@@ -22,7 +22,7 @@ tags:
 - illusion
 - depth
 - transition
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

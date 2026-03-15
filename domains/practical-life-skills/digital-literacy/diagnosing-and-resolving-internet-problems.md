@@ -14,7 +14,7 @@ tags:
 - troubleshooting
 - networking
 - connectivity
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

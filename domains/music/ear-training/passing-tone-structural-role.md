@@ -16,7 +16,7 @@ tags:
 - passing-tone
 - harmony
 - melody
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

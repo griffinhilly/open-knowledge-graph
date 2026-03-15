@@ -13,7 +13,7 @@ tags:
 - exterior
 - rot
 - preservation
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

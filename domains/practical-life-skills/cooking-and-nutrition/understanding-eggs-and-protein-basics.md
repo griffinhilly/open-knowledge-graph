@@ -11,7 +11,7 @@ tags:
 - protein
 - breakfast
 - nutrition
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - intervals
 - leaps
 - contour
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

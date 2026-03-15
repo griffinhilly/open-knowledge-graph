@@ -16,7 +16,7 @@ tags:
 - flavor
 - global
 - cooking-style
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

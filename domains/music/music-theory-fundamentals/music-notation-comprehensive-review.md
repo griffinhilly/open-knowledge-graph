@@ -20,7 +20,7 @@ tags:
 - reading
 - writing
 - symbols
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

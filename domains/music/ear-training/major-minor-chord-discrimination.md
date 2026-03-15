@@ -16,7 +16,7 @@ tags:
 - ear-training
 - quality-identification
 - tonality
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

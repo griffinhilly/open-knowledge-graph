@@ -16,7 +16,7 @@ tags:
 - malware
 - antivirus
 - software-updates
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - ranges
 - ear-training
 - orchestration
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

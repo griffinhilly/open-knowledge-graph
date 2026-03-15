@@ -15,7 +15,7 @@ tags:
 - gelatin
 - clarification
 - bone-broth
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

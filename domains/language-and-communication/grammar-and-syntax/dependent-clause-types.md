@@ -15,7 +15,7 @@ tags:
 - adverb-clauses
 - adjective-clauses
 - clause-function
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

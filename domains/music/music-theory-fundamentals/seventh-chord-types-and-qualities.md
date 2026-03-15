@@ -15,7 +15,7 @@ tags:
 - seventh-chord
 - chord-quality
 - extension
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

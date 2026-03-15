@@ -13,7 +13,7 @@ tags:
 - value
 - sketch
 - planning
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

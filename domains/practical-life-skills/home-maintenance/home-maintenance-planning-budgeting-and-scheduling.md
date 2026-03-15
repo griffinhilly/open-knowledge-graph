@@ -19,7 +19,7 @@ tags:
 - budgeting
 - scheduling
 - management
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

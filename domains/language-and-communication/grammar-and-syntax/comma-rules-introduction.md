@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - punctuation
 - commas
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - sharing
 - collaboration
 - security
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - pacing
 - ear-training
 - form
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

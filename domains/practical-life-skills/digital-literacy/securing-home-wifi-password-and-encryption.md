@@ -14,7 +14,7 @@ tags:
 - network-security
 - wifi
 - encryption
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

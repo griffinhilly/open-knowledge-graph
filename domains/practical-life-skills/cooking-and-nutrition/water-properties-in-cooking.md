@@ -13,7 +13,7 @@ tags:
 - cooking-science
 - ingredients
 - heat
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - rhythm
 - chord-duration
 - harmonic-rhythm
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

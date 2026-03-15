@@ -14,7 +14,7 @@ tags:
 - mixing
 - light
 - pigment
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

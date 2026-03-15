@@ -14,7 +14,7 @@ tags:
 - voice-leading
 - harmony
 - counterpoint
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

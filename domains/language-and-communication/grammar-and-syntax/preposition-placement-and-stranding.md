@@ -12,7 +12,7 @@ tags:
 - prepositions
 - prescriptive-grammar
 - style
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

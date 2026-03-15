@@ -12,7 +12,7 @@ tags:
 - dialogue
 - punctuation
 - conventions
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

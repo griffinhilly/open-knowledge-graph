@@ -15,7 +15,7 @@ tags:
 - tone
 - element
 - light-dark
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

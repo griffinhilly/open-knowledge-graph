@@ -16,7 +16,7 @@ tags:
 - major-minor
 - tonality
 - quality
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

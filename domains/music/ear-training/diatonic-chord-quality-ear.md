@@ -22,7 +22,7 @@ tags:
 - minor
 - diminished
 - key
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - voice-leading
 - parallel-motion
 - forbidden-intervals
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

@@ -10,7 +10,7 @@ tags:
 - form
 - analysis
 - structure
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

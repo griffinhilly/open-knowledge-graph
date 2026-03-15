@@ -16,7 +16,7 @@ tags:
 - cooking-methods
 - equipment
 - modern-techniques
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

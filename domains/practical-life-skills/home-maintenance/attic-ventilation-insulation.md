@@ -15,7 +15,7 @@ tags:
 - ventilation
 - insulation
 - energy-efficiency
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

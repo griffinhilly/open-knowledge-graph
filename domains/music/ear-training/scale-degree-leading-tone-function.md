@@ -16,7 +16,7 @@ tags:
 - leading-tone
 - tendency-tone
 - function
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

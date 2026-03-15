@@ -12,7 +12,7 @@ tags:
 - agreement
 - verbs
 - subject
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

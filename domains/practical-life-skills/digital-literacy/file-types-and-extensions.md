@@ -11,7 +11,7 @@ tags:
 - extensions
 - formats
 - file-management
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

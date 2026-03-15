@@ -16,7 +16,7 @@ tags:
 - folders
 - organization
 - naming-conventions
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - comparative
 - superlative
 - modifiers
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

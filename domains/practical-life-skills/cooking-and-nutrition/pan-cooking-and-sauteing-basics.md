@@ -16,7 +16,7 @@ tags:
 - pan-cooking
 - heat
 - oil
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

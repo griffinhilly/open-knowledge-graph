@@ -16,7 +16,7 @@ tags:
 - chord
 - spacing
 - texture
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

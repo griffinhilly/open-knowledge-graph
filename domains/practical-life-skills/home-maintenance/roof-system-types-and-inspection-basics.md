@@ -16,7 +16,7 @@ tags:
 - roofing
 - inspection
 - systems
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

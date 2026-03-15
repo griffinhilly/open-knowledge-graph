@@ -13,7 +13,7 @@ tags:
 - privacy
 - mobile
 - data-collection
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

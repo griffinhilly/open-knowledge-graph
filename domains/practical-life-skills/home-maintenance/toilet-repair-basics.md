@@ -14,7 +14,7 @@ tags:
 - toilet
 - repair
 - water-conservation
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -47,7 +47,7 @@ tags:
 - application
 - principles
 - elements
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

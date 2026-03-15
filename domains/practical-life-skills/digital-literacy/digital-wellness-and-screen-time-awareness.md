@@ -13,7 +13,7 @@ tags:
 - screen-time
 - health
 - balance
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - alerts
 - settings
 - distraction
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

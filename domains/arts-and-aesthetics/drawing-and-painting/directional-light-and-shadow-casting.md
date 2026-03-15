@@ -16,7 +16,7 @@ tags:
 - shadow
 - direction
 - form
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

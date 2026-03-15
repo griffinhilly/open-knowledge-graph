@@ -15,7 +15,7 @@ tags:
 - documents
 - sharing
 - teamwork
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

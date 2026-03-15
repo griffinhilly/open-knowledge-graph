@@ -10,7 +10,7 @@ tags:
 - seasonal
 - maintenance
 - scheduling
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

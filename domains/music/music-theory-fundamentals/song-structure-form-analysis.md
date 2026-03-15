@@ -11,7 +11,7 @@ tags:
 - analysis
 - structure
 - song
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

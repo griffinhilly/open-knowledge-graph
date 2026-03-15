@@ -13,7 +13,7 @@ tags:
 - light
 - shadow
 - composition
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

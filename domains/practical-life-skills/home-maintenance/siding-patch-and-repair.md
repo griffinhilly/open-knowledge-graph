@@ -14,7 +14,7 @@ tags:
 - siding
 - exterior-repair
 - weatherproofing
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

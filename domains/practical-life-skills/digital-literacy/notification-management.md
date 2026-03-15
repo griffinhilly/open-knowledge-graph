@@ -11,7 +11,7 @@ tags:
 - focus
 - productivity
 - digital-wellbeing
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

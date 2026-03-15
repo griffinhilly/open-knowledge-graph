@@ -13,7 +13,7 @@ tags:
 - videos
 - organization
 - metadata
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

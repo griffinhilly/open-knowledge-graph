@@ -11,7 +11,7 @@ tags:
 - assistive-technology
 - screen-readers
 - inclusion
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

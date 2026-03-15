@@ -14,7 +14,7 @@ tags:
 - voicing
 - spacing
 - chord-position
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - layering
 - blending
 - technique
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

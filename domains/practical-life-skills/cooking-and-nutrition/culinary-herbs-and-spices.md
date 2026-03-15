@@ -14,7 +14,7 @@ tags:
 - spices
 - flavor
 - seasoning
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

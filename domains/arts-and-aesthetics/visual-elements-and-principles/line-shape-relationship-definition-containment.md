@@ -18,7 +18,7 @@ tags:
 - definition
 - boundary
 - containment
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

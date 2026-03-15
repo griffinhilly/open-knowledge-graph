@@ -19,7 +19,7 @@ tags:
 - flavor
 - technique
 - balance
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

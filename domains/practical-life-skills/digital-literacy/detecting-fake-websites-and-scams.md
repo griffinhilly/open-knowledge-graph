@@ -14,7 +14,7 @@ tags:
 - security
 - fraud
 - credibility
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

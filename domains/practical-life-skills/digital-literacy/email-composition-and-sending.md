@@ -13,7 +13,7 @@ tags:
 - communication
 - composition
 - messaging
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

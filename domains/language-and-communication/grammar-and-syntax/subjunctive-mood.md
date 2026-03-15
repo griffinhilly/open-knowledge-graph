@@ -15,7 +15,7 @@ tags:
 - verb-forms
 - hypothetical
 - formal-register
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

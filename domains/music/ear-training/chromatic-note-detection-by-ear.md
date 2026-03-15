@@ -18,7 +18,7 @@ tags:
 - ear-training
 - pitch-recognition
 - accidentals
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - foundation
 - basement
 - assessment
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

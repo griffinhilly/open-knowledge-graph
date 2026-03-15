@@ -17,7 +17,7 @@ tags:
 - sealing
 - prevention
 - entry
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

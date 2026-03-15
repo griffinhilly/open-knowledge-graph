@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - intervals
 - transformation
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

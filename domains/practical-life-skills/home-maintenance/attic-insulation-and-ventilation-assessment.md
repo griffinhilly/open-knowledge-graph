@@ -13,7 +13,7 @@ tags:
 - insulation
 - ventilation
 - energy
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

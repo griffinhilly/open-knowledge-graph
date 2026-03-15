@@ -12,7 +12,7 @@ tags:
 - word-order
 - emphasis
 - style
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - likeness
 - expression
 - character
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

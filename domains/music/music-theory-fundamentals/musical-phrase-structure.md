@@ -16,7 +16,7 @@ tags:
 - structure
 - form
 - boundaries
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

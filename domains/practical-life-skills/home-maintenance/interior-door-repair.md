@@ -14,7 +14,7 @@ tags:
 - hinges
 - repair
 - hardware
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

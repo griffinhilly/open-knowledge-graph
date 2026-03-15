@@ -16,7 +16,7 @@ tags:
 - fermentation
 - gluten
 - proofing
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

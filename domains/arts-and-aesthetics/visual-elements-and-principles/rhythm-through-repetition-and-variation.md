@@ -17,7 +17,7 @@ tags:
 - repetition
 - pattern
 - variation
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

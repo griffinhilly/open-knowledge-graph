@@ -13,7 +13,7 @@ tags:
 - element
 - geometry
 - organic
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

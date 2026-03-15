@@ -16,7 +16,7 @@ tags:
 - chords
 - progressions
 - function
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

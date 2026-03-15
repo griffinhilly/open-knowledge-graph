@@ -18,7 +18,7 @@ tags:
 - thirds
 - chord-quality
 - consonance
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

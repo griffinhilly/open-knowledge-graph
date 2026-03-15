@@ -17,7 +17,7 @@ tags:
 - diagnosis
 - moisture
 - detection
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

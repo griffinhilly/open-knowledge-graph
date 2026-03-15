@@ -13,7 +13,7 @@ tags:
 - seasoning
 - salt
 - acid
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

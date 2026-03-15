@@ -15,7 +15,7 @@ tags:
 - composition
 - arrangement
 - spatial-organization
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

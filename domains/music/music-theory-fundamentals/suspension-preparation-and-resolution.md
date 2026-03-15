@@ -16,7 +16,7 @@ tags:
 - nonharmonic-tone
 - dissonance
 - resolution
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

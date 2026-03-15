@@ -16,7 +16,7 @@ tags:
 - opaque
 - layering
 - wet-paint-handling
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

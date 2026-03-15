@@ -20,7 +20,7 @@ tags:
 - carpentry
 - tools
 - building
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

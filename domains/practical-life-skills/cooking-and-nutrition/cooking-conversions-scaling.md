@@ -31,7 +31,7 @@ tags:
 - conversions
 - scaling
 - ratios
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

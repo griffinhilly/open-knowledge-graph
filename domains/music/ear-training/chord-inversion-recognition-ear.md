@@ -15,7 +15,7 @@ tags:
 - harmony
 - chord-quality
 - inversion
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

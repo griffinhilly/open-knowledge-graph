@@ -16,7 +16,7 @@ tags:
 - ear-training
 - pattern-recognition
 - improvisation
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

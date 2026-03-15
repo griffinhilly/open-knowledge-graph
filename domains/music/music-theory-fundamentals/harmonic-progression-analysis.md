@@ -18,7 +18,7 @@ tags:
 - chord-sequence
 - analysis
 - function
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

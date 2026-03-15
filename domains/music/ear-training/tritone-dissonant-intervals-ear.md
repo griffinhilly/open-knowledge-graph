@@ -19,7 +19,7 @@ tags:
 - augmented
 - diminished
 - tension
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

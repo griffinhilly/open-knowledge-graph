@@ -17,7 +17,7 @@ tags:
 - doneness
 - cooking-time
 - temperature
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

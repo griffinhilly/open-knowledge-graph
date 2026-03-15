@@ -19,7 +19,7 @@ tags:
 - preference
 - golden ratio
 - aesthetics
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

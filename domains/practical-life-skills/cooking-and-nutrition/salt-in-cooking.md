@@ -14,7 +14,7 @@ tags:
 - seasoning
 - flavor
 - texture
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - harmony
 - seventh-chords
 - functional-harmony
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

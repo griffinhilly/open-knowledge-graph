@@ -18,7 +18,7 @@ tags:
 - patio
 - exterior-maintenance
 - wood-care
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

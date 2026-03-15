@@ -17,7 +17,7 @@ tags:
 - coordination
 - organization
 - technique
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

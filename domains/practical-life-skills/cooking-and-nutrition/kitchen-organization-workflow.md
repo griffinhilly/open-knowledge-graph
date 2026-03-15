@@ -14,7 +14,7 @@ tags:
 - organization
 - efficiency
 - cleanup
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

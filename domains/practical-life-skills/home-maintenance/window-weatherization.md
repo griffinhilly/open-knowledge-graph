@@ -15,7 +15,7 @@ tags:
 - energy-efficiency
 - weatherization
 - drafts
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - participial-phrases
 - sentence-errors
 - revision
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

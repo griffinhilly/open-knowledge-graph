@@ -16,7 +16,7 @@ tags:
 - ear-training
 - pitch-relationships
 - melody
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

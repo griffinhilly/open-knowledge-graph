@@ -13,7 +13,7 @@ tags:
 - semantics
 - expressions
 - figurative-language
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

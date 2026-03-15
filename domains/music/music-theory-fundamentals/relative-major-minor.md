@@ -17,7 +17,7 @@ tags:
 - major
 - minor
 - relative
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

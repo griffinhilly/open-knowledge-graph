@@ -15,7 +15,7 @@ tags:
 - data-entry
 - safety
 - privacy
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

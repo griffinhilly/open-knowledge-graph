@@ -14,7 +14,7 @@ tags:
 - quality
 - shopping
 - freshness
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

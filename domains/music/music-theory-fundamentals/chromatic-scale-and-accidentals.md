@@ -14,7 +14,7 @@ tags:
 - chromatic
 - accidentals
 - sharps-flats
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

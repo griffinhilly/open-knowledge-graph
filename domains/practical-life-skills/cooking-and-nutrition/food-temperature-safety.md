@@ -14,7 +14,7 @@ tags:
 - danger-zone
 - thermometer
 - reheating
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

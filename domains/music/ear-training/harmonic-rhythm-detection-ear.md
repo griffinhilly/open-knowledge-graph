@@ -15,7 +15,7 @@ tags:
 - harmony
 - rhythm
 - form
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

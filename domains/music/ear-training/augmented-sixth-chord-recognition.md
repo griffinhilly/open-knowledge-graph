@@ -16,7 +16,7 @@ tags:
 - seventh-chords
 - ear-training
 - romantic-harmony
-stage: concrete-operations
+stage: advanced
 status: draft
 ---
 

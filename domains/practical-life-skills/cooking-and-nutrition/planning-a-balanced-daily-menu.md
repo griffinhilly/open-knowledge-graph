@@ -15,7 +15,7 @@ tags:
 - nutrition
 - balance
 - food-groups
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

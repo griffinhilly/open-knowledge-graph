@@ -18,7 +18,7 @@ tags:
 - contrast
 - visual-hierarchy
 - attention
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

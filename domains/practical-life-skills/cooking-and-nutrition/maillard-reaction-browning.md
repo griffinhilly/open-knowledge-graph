@@ -16,7 +16,7 @@ tags:
 - flavor
 - chemistry
 - cooking-science
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

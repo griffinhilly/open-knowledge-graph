@@ -12,7 +12,7 @@ tags:
 - sealants
 - caulk
 - weatherproofing
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

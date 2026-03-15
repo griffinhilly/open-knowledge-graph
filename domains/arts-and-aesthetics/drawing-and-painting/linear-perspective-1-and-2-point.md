@@ -18,7 +18,7 @@ tags:
 - horizon-line
 - vanishing-point
 - interior-exterior
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

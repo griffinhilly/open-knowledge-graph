@@ -14,7 +14,7 @@ tags:
 - melody
 - non-chord-tones
 - ornamentation
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

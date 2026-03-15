@@ -21,7 +21,7 @@ tags:
 - hierarchy
 - dominance
 - proportion
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

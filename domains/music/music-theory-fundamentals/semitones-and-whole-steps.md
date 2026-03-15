@@ -13,7 +13,7 @@ tags:
 - intervals
 - pitch
 - frequency
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

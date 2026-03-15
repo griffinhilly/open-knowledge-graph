@@ -22,7 +22,7 @@ tags:
 - reduction
 - emulsion
 - roux
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

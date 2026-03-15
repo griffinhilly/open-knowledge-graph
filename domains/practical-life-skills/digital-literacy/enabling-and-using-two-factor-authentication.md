@@ -14,7 +14,7 @@ tags:
 - security
 - authentication
 - account-protection
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

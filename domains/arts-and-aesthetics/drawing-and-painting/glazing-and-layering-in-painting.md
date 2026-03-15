@@ -18,7 +18,7 @@ tags:
 - layering
 - transparency
 - technique
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -10,7 +10,7 @@ tags:
 - flooring
 - refinishing
 - maintenance
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

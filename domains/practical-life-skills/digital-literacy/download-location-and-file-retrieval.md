@@ -15,7 +15,7 @@ tags:
 - files
 - browser
 - organization
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

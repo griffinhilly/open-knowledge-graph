@@ -13,7 +13,7 @@ tags:
 - 2fa
 - security
 - accounts
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

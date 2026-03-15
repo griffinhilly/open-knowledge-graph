@@ -13,7 +13,7 @@ tags:
 - favorites
 - organization
 - navigation
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

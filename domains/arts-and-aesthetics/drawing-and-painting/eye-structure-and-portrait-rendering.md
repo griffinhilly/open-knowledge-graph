@@ -15,7 +15,7 @@ tags:
 - anatomy
 - light-and-shadow
 - observation
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

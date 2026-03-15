@@ -16,7 +16,7 @@ tags:
 - flavor
 - complementary
 - combinations
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

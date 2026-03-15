@@ -16,7 +16,7 @@ tags:
 - contamination
 - hygiene
 - foodborne-illness
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

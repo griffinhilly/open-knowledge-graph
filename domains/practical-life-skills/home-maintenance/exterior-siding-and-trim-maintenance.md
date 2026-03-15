@@ -15,7 +15,7 @@ tags:
 - exterior
 - weather barrier
 - maintenance
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

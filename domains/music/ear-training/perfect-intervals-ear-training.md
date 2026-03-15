@@ -21,7 +21,7 @@ tags:
 - fourth
 - fifth
 - octave
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

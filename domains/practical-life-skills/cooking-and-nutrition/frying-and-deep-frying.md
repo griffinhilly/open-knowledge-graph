@@ -15,7 +15,7 @@ tags:
 - smoke-point
 - battering
 - safety
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

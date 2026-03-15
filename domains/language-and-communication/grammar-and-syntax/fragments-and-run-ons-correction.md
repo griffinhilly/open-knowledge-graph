@@ -10,7 +10,7 @@ tags:
 - sentence-errors
 - fragments
 - run-ons
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

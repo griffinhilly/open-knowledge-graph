@@ -11,7 +11,7 @@ tags:
 - doors
 - windows
 - troubleshooting
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

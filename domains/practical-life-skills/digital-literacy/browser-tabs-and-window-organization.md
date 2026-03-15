@@ -13,7 +13,7 @@ tags:
 - tabs
 - organization
 - multitasking
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

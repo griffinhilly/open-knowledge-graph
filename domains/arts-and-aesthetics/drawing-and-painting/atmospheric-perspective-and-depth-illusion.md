@@ -18,7 +18,7 @@ tags:
 - depth
 - distance
 - atmosphere
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

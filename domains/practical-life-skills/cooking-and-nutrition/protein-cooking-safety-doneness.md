@@ -16,7 +16,7 @@ tags:
 - protein
 - cooking-methods
 - food-safety
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

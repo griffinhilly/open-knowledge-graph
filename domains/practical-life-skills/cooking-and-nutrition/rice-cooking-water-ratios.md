@@ -26,7 +26,7 @@ tags:
 - grains
 - ratios
 - cooking-methods
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

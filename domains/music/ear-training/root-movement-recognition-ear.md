@@ -15,7 +15,7 @@ tags:
 - harmony
 - voice-leading
 - functional-harmony
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

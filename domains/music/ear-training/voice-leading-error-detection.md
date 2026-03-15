@@ -16,7 +16,7 @@ tags:
 - ear-training
 - quality-assessment
 - error-detection
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - stress
 - accent
 - beat-hierarchy
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

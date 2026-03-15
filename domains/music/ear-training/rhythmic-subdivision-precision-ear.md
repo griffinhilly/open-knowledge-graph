@@ -14,7 +14,7 @@ tags:
 - rhythm
 - dictation
 - notation
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

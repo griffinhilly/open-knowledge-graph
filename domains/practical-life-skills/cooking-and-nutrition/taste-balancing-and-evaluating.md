@@ -18,7 +18,7 @@ tags:
 - seasoning
 - balance
 - evaluation
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

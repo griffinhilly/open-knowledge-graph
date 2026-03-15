@@ -16,7 +16,7 @@ tags:
 - cooking
 - waste-reduction
 - creativity
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

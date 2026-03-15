@@ -16,7 +16,7 @@ tags:
 - hands
 - feet
 - proportions
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

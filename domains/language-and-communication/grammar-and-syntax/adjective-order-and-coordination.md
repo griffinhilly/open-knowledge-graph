@@ -12,7 +12,7 @@ tags:
 - adjectives
 - noun-modification
 - word-order
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

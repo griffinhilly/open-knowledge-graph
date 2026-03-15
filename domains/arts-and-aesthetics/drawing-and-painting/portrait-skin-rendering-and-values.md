@@ -13,7 +13,7 @@ tags:
 - skin
 - rendering
 - values
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

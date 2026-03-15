@@ -16,7 +16,7 @@ tags:
 - ear-training
 - chromatic-harmony
 - chord-recognition
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

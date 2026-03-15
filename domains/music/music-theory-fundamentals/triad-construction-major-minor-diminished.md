@@ -15,7 +15,7 @@ tags:
 - harmony
 - triads
 - chord-construction
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

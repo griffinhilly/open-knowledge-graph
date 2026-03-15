@@ -14,7 +14,7 @@ tags:
 - energy efficiency
 - sustainability
 - cost savings
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

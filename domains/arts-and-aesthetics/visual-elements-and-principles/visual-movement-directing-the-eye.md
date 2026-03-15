@@ -17,7 +17,7 @@ tags:
 - eye-movement
 - composition
 - line
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

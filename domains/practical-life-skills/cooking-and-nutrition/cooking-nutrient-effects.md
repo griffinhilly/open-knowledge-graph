@@ -17,7 +17,7 @@ tags:
 - vitamins
 - minerals
 - cooking-effects
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 
