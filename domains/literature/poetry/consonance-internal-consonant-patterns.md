@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: phonological-rules-derivation
   type: soft
+- id: phonological-features
+  type: soft
 tags:
 - sound-devices
 - phonetics

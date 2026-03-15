@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: descriptive-writing
   type: soft
+- id: sensory-imagery-and-description
+  type: soft
 builds-toward:
 - symbolism-in-literature
 - thematic-development

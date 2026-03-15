@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: metaphor-and-metonymy
   type: soft
+- id: metaphor-conceptual-transformation
+  type: soft
 tags:
 - figurative-language
 - comparison

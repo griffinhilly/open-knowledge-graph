@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: irony-and-its-uses
   type: soft
+- id: implicature-and-logical-form
+  type: soft
 builds-toward:
 - unreliable-narrator-analysis
 - authorial-intent-inference

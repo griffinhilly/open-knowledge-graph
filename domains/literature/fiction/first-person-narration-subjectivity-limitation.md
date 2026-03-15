@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: point-of-view-narrative-perspective
   type: hard
+- id: deixis-and-reference
+  type: soft
 builds-toward:
 - unreliable-narrator
 tags:

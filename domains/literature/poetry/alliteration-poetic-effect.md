@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: articulatory-phonetics
   type: soft
+- id: phoneme-inventory-analysis
+  type: soft
 builds-toward:
 - assonance-vowel-sound-repetition
 tags:

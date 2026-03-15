@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: unreliable-narrator
   type: soft
+- id: speaker-voice-development
+  type: soft
 builds-toward:
 - dramatic-monologue-in-poetry
 tags:

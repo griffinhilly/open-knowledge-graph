@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: metaphor-and-metonymy
   type: soft
+- id: figurative-language-speaking
+  type: soft
 builds-toward:
 - figurative-language-meaning-making
 - figurative-language-close-reading

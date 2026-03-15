@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: linguistic-pragmatics
   type: soft
+- id: comparative-method-linguistics
+  type: soft
 builds-toward:
 - untranslatable-cultural-specificity
 - postcolonial-translation-resistance

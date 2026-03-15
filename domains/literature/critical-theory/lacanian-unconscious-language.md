@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: psycholinguistics-intro
   type: soft
+- id: language-and-the-brain
+  type: soft
 builds-toward:
 - jouissance-excess-psychoanalytic
 - symbolic-order-and-reality

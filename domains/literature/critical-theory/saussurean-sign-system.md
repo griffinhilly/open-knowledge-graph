@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: semantic-relations
   type: soft
+- id: symbolic-representation-linguistics
+  type: soft
 builds-toward:
 - structuralist-semiotics-meaning
 - barthes-mythologies-culture

@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: tone-and-register-in-writing
   type: soft
+- id: register-formality-control
+  type: soft
 builds-toward:
 - irony-in-literature
 - thematic-development

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: structuralist-semiotics-meaning
   type: hard
+- id: semantic-types-and-composition
+  type: soft
 builds-toward:
 - semiotics-and-signs
 tags:

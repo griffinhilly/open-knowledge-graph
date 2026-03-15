@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: formal-pragmatics-context
   type: soft
+- id: reading-comprehension-basics
+  type: soft
 builds-toward:
 - phenomenology-literary-reading
 tags:

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: rhetorical-situation-analysis
   type: soft
+- id: speaker-voice-development
+  type: soft
 builds-toward:
 - character-transformation-arc
 - dramatic-conventions-audience-contract

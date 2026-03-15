@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: information-structure-focus-topic
   type: soft
+- id: deixis-and-reference
+  type: soft
 builds-toward:
 - unreliable-narrator
 - tone-and-mood

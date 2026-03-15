@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: phonological-rules-derivation
   type: soft
+- id: phoneme-inventory-analysis
+  type: soft
 tags:
 - rhyme
 - meaning-making

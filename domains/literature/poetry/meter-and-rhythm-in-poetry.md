@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: stress-assignment-rules
   type: soft
+- id: metrical-systems-stress
+  type: soft
 builds-toward:
 - iambic-pentameter
 - scansion

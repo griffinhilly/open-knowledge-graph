@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: untranslatable-cultural-specificity
   type: soft
+- id: metaphor-conceptual-transformation
+  type: soft
+- id: language-attitudes-and-ideology
+  type: soft
 builds-toward:
 - symbolism-cultural-specific
 tags:

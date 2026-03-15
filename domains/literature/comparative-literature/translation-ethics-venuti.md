@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: ethical-rhetoric-and-persuasion
   type: soft
+- id: language-attitudes-and-ideology
+  type: soft
 builds-toward:
 - literary-translation-interpretation
 - literary-cosmopolitanism-ethics

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: linguistic-typology
   type: soft
+- id: language-universals
+  type: soft
 builds-toward:
 - weltliteratur-concept
 - world-literature-debates

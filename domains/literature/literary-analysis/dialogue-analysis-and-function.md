@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dialogue-in-fiction
   type: hard
+- id: conversation-analysis
+  type: soft
 builds-toward:
 - narrator-analysis-reliability
 tags:
