@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: complex-numbers-intro
   type: soft
+- id: differential-equations-intro
+  type: hard
 builds-toward:
 - ac-circuits-fundamentals
 - ac-power-and-resonance

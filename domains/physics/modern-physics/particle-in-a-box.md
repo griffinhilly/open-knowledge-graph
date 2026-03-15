@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: differential-equations-intro
   type: hard
+- id: boundary-value-problems-electrostatics
+  type: hard
 builds-toward:
 - quantum-tunneling
 - quantum-numbers

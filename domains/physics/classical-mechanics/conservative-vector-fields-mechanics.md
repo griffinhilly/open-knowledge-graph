@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: potential-energy
   type: hard
+- id: conservative-fields-potential
+  type: hard
 builds-toward:
 - total-mechanical-energy-conservation
 - effective-potential-central-forces

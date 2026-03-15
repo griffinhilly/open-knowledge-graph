@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: orbital-mechanics
   type: soft
+- id: polar-coordinates
+  type: hard
 tags:
 - central-forces
 - orbits

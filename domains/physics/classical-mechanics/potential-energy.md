@@ -6,6 +6,8 @@ course: classical-mechanics
 prerequisites:
 - id: work-and-energy
   type: hard
+- id: gradient-vector
+  type: soft
 builds-toward:
 - conservation-of-energy
 - spring-mass-system

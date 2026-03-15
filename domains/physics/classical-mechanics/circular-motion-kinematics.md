@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: polar-coordinates
   type: soft
+- id: converting-degrees-and-radians
+  type: hard
 builds-toward:
 - circular-motion-dynamics
 - rotational-kinematics

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: quantum-superposition
   type: soft
+- id: vector-spaces-definition
+  type: hard
 builds-toward:
 - expectation-values-quantum
 tags:

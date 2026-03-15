@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: friction-forces
   type: soft
+- id: applications-integrals-area-mass
+  type: soft
 builds-toward:
 - kinetic-energy
 - potential-energy

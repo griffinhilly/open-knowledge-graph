@@ -6,6 +6,8 @@ course: electricity-and-magnetism
 prerequisites:
 - id: gauss-law-integral-form
   type: hard
+- id: divergence-theorem
+  type: hard
 builds-toward:
 - electric-potential-definition
 - conductors-electrostatic-behavior

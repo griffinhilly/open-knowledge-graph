@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: two-body-collision-center-of-mass
   type: soft
+- id: polar-coordinates
+  type: hard
 builds-toward:
 - central-force-motion-analysis
 - orbital-mechanics

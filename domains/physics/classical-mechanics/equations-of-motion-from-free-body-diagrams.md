@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: derivative-as-slope-of-tangent
   type: soft
+- id: vector-addition-subtraction
+  type: hard
 builds-toward:
 - projectile-motion
 - static-equilibrium

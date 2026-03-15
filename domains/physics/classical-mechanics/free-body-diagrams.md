@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: right-triangle-trigonometry-intro
   type: soft
+- id: vector-addition-subtraction
+  type: hard
 builds-toward:
 - friction-forces
 - circular-motion-dynamics

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: circular-motion-kinematics
   type: soft
+- id: trigonometric-ratios-review
+  type: soft
 tags:
 - pendulum
 - SHM

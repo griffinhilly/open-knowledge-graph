@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: trigonometric-ratios-review
   type: soft
+- id: converting-degrees-and-radians
+  type: hard
 builds-toward:
 - torque
 - rotational-dynamics

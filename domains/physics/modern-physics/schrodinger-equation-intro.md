@@ -20,6 +20,10 @@ prerequisites:
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: hard
+- id: linear-algebra
+  type: hard
+- id: partial-differential-equations
+  type: hard
 builds-toward:
 - particle-in-a-box
 - quantum-tunneling

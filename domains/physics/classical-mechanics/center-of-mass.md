@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: definite-integral-definition
   type: soft
+- id: applications-integrals-area-mass
+  type: hard
 builds-toward:
 - conservation-of-momentum
 - rotational-dynamics

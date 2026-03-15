@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: boundary-value-problem-types
   type: soft
+- id: fourier-series-definition
+  type: soft
 builds-toward:
 - resonance-strings-and-pipes
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multivariable-calculus
   type: hard
+- id: line-integrals-definition-properties
+  type: hard
 builds-toward:
 - displacement-current-and-maxwell
 - electromagnetic-wave-equation

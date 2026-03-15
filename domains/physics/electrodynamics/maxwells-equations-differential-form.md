@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multivariable-calculus
   type: hard
+- id: curl-and-divergence-operators
+  type: hard
 builds-toward:
 - electromagnetic-wave-equation
 - conservation-laws-em

@@ -18,6 +18,10 @@ prerequisites:
   type: hard
 - id: exponential-functions-and-graphs
   type: soft
+- id: complex-roots-oscillatory-solutions
+  type: hard
+- id: complex-numbers-intro
+  type: soft
 builds-toward:
 - driven-harmonic-oscillator
 tags:

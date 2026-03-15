@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: curl-and-divergence
   type: soft
+- id: curl-and-divergence-operators
+  type: hard
 builds-toward:
 - maxwells-equations-overview
 - magnetic-flux-and-induction

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: angular-momentum
   type: hard
+- id: conic-sections-ellipses
+  type: hard
 builds-toward:
 - stability-of-circular-orbits
 tags:

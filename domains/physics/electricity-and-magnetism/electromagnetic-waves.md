@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: wave-equation-one-dimensional
   type: hard
+- id: wave-equation-pde
+  type: hard
 tags:
 - EM-waves
 - speed-of-light

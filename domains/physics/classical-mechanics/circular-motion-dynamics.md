@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: polar-coordinates
   type: soft
+- id: trigonometric-ratios-review
+  type: soft
 builds-toward:
 - orbital-mechanics
 - rotational-dynamics
