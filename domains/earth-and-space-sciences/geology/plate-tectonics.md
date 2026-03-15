@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: mantle-convection-and-dynamics
   type: soft
+- id: heat-transfer-conduction
+  type: soft
 builds-toward:
 - tectonic-boundaries
 - volcanoes-and-volcanism

@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: orbital-resonances-dynamics
   type: soft
+- id: conservation-of-angular-momentum
+  type: hard
 builds-toward:
 - orbital-resonance-capture
 - multi-planet-system-architecture

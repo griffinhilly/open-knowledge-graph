@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: greenhouse-effect
   type: hard
+- id: radiation-heat-transfer-stefan-boltzmann
+  type: soft
 builds-toward:
 - exoplanet-atmospheric-composition-spectroscopy
 - biosignatures-exoplanet-atmospheres

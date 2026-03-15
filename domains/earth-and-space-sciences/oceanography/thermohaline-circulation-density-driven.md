@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: pressure-gradient-force
   type: soft
+- id: density-and-buoyancy
+  type: soft
 builds-toward:
 - thermohaline-circulation
 - ocean-heat-transport-mechanism

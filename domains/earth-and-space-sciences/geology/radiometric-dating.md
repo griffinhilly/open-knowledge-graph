@@ -16,6 +16,10 @@ prerequisites:
   type: hard
 - id: exponential-decay
   type: soft
+- id: alpha-decay-emission
+  type: hard
+- id: exponential-decay-growth
+  type: hard
 builds-toward:
 - fossils-and-paleontology
 tags:

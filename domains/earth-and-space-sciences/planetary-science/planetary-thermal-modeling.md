@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: heat-flow-conduction-steady-state
   type: hard
+- id: heat-transfer-conduction
+  type: soft
+- id: partial-differential-equations-intro
+  type: soft
 builds-toward:
 - crustal-heat-flow-and-geotherms
 - thermal-evolution-terrestrial-planets

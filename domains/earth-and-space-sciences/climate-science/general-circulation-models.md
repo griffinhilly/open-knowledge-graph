@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: partial-differential-equations
   type: hard
+- id: partial-differential-equations-intro
+  type: hard
 builds-toward:
 - climate-projections-modeling
 - climate-sensitivity-radiative-feedbacks

@@ -6,6 +6,8 @@ course: oceanography
 prerequisites:
 - id: acid-base-chemistry
   type: hard
+- id: chemical-equilibrium
+  type: soft
 builds-toward:
 - ocean-acidification
 - dissolved-oxygen-biogeochemical-cycles

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: atmospheric-circulation-planets
   type: soft
+- id: hydrostatic-balance-pressure-profile
+  type: soft
 builds-toward:
 - atmospheric-circulation-planets
 - atmospheric-escape-mechanisms

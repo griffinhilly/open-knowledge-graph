@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: nuclear-chemistry
   type: soft
+- id: energy-conservation-applications
+  type: soft
 builds-toward:
 - gamma-ray-burst-jet-physics
 tags:

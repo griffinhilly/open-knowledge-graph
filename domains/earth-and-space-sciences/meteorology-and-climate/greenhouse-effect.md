@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: heat-transfer-radiation
   type: soft
+- id: electromagnetic-spectrum-astronomy
+  type: soft
 builds-toward:
 - climate-change-science
 - anthropogenic-climate-forcing

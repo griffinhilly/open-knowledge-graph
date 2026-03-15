@@ -14,6 +14,10 @@ prerequisites:
   type: hard
 - id: applications-integrals-area-mass
   type: hard
+- id: partial-differential-equations-intro
+  type: soft
+- id: electric-potential
+  type: soft
 builds-toward:
 - gravity-anomalies-and-interpretation
 - geoid-determination-and-geodesy

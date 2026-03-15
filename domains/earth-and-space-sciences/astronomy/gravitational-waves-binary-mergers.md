@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: special-relativity-postulates
   type: soft
+- id: wave-equation-one-dimensional
+  type: soft
 tags:
 - gravitational-waves
 - compact-objects

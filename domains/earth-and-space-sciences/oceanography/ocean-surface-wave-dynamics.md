@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: wave-motion-definition
   type: soft
+- id: wave-properties-and-classification
+  type: hard
+- id: shallow-water-wave-theory
+  type: soft
 builds-toward:
 - coastal-sediment-transport-dynamics
 - coastal-processes-and-waves

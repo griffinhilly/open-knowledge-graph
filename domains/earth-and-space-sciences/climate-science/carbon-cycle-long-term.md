@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: weathering-and-erosion
   type: soft
+- id: organic-chemistry-intro
+  type: soft
 builds-toward:
 - paleoclimatology
 - glacial-interglacial-cycles

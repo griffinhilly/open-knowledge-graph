@@ -6,6 +6,10 @@ course: astronomy
 prerequisites:
 - id: trigonometric-ratios-review
   type: soft
+- id: conic-sections-ellipses
+  type: hard
+- id: conservation-of-angular-momentum
+  type: soft
 builds-toward:
 - two-body-orbital-problem
 - orbital-resonances-dynamics

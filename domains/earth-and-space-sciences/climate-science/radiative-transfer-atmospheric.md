@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: electromagnetic-spectrum
   type: soft
+- id: electromagnetic-waves
+  type: hard
+- id: planck-distribution-blackbody
+  type: hard
 builds-toward:
 - energy-balance-models
 - radiative-forcing-definition

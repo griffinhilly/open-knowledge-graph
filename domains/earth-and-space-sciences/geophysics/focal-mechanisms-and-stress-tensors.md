@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: stress-strain-rock-deformation
   type: hard
+- id: eigenvalues-and-eigenvectors
+  type: hard
 builds-toward:
 - moment-tensor-inversion
 - seismic-moment-and-magnitude

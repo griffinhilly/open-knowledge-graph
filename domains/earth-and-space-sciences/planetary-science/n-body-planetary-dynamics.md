@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: kepler-laws-planetary-orbits
   type: hard
+- id: conservation-of-angular-momentum
+  type: hard
 builds-toward:
 - multi-planet-system-architecture
 tags:

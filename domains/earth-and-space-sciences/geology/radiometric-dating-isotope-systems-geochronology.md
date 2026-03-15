@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: radioactive-decay
   type: hard
+- id: alpha-decay-emission
+  type: hard
+- id: exponential-functions-and-graphs
+  type: hard
 tags:
 - geochronology
 - dating

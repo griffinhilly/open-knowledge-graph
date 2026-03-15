@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: similar-triangles-aa
   type: soft
+- id: distance-and-distance-formula-3d
+  type: hard
 builds-toward:
 - stellar-properties-luminosity-temperature
 - galaxy-morphology-and-classification

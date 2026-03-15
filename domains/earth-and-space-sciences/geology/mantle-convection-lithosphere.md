@@ -6,6 +6,8 @@ course: geology
 prerequisites:
 - id: plate-tectonics-driving-forces
   type: hard
+- id: heat-transfer-conduction-fourier
+  type: soft
 builds-toward:
 - plate-boundary-forces
 tags:

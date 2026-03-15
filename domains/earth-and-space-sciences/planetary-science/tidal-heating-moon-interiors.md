@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: energy-dissipation-and-irreversibility
   type: soft
+- id: heat-transfer-conduction
+  type: soft
 builds-toward:
 - planetary-habitability-and-biosignatures
 tags:
