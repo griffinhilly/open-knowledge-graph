@@ -6,6 +6,8 @@ course: advanced-macroeconomics
 prerequisites:
 - id: economic-growth-theory
   type: hard
+- id: lagrange-multipliers
+  type: soft
 builds-toward:
 - ramsey-cass-koopmans-model
 - household-optimization-consumption-savings

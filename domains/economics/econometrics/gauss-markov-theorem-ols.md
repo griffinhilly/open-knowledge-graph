@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ols-assumptions
   type: hard
+- id: linear-algebra
+  type: soft
 builds-toward:
 - estimator-consistency-unbiasedness
 tags:

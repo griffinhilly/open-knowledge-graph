@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: variance-of-random-variables
   type: soft
+- id: normal-distribution
+  type: soft
 builds-toward:
 - multiple-regression-model
 - heteroskedasticity

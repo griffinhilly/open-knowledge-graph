@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: interest-rates-and-loanable-funds
   type: soft
+- id: differential-equations-intro
+  type: soft
 builds-toward:
 - spot-forward-rate-relationships
 - zero-coupon-bond-valuation

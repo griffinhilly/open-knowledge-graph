@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: selection-bias-econometrics
   type: soft
+- id: linear-algebra
+  type: hard
 builds-toward:
 - two-stage-least-squares
 tags:

@@ -3,7 +3,9 @@ id: dynamic-optimization-macro
 title: Dynamic Optimization in Macroeconomics
 domain: economics
 course: advanced-macroeconomics
-prerequisites: []
+prerequisites:
+- id: lagrange-multipliers
+  type: soft
 builds-toward:
 - solow-growth-model
 - ramsey-cass-koopmans-model

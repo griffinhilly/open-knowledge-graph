@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: natural-logarithm-and-e
   type: soft
+- id: constrained-optimization
+  type: soft
 builds-toward:
 - logit-probit-models
 tags:

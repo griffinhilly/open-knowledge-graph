@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: option-intrinsic-and-time-value
   type: hard
+- id: binomial-distribution
+  type: soft
 tags:
 - options
 - option-pricing

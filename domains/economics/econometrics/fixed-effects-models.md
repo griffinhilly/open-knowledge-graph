@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dummy-variables-regression
   type: hard
+- id: linear-algebra
+  type: hard
 builds-toward:
 - random-effects-models
 - difference-in-differences

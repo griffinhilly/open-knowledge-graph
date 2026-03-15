@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: ols-assumptions
   type: hard
+- id: linear-algebra
+  type: hard
+- id: matrix-operations
+  type: hard
 builds-toward:
 - gauss-markov-theorem-ols
 - estimator-consistency-unbiasedness

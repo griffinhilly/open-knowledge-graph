@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: production-function-microeconomics
   type: hard
+- id: differential-equations-intro
+  type: soft
 builds-toward:
 - steady-state-analysis-growth
 - endogenous-growth-theory

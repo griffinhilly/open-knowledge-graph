@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: difference-in-differences
   type: soft
+- id: probability-spaces-measure-theoretic
+  type: soft
 builds-toward:
 - development-policy-evaluation
 tags:

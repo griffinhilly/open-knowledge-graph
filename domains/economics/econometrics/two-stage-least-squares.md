@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multiple-regression-model
   type: hard
+- id: linear-algebra
+  type: hard
 builds-toward: []
 tags:
 - 2SLS

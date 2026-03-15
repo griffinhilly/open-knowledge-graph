@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: put-call-parity
   type: soft
+- id: partial-derivatives
+  type: soft
 builds-toward:
 - option-trading-strategies
 - hedging-with-derivatives

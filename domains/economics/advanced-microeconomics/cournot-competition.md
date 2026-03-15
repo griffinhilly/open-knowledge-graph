@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: profit-maximization-microeconomics
   type: soft
+- id: constrained-optimization
+  type: soft
 builds-toward:
 - bertrand-competition
 - stackelberg-competition

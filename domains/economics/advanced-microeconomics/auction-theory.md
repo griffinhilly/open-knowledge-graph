@@ -6,6 +6,8 @@ course: advanced-microeconomics
 prerequisites:
 - id: mechanism-design-intro
   type: hard
+- id: probability-spaces-measure-theoretic
+  type: soft
 builds-toward:
 - first-price-auction
 - second-price-auction

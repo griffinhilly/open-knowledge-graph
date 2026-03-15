@@ -6,6 +6,8 @@ course: advanced-macroeconomics
 prerequisites:
 - id: euler-equation-intertemporal-choice
   type: hard
+- id: partial-derivatives
+  type: soft
 tags:
 - consumption-smoothing
 - permanent-income

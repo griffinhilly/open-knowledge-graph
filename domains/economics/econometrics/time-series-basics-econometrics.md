@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: business-cycles
   type: soft
+- id: sequences-and-series-review
+  type: soft
 builds-toward:
 - stationarity-and-unit-roots
 - serial-correlation

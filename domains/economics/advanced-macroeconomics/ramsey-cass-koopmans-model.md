@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: consumer-optimum
   type: hard
+- id: lagrange-multipliers
+  type: soft
 builds-toward:
 - endogenous-growth-theory
 tags:

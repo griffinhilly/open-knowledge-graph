@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ols-assumptions
   type: hard
+- id: linear-algebra
+  type: hard
 builds-toward:
 - feasible-generalized-least-squares-fgls
 tags:

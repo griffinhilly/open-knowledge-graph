@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: game-theory-basics-microeconomics
   type: hard
+- id: bayes-theorem
+  type: soft
 builds-toward:
 - perfect-bayesian-equilibrium
 - mechanism-design-basics

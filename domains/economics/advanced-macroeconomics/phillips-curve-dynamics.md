@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: rational-expectations-macro
   type: soft
+- id: differential-equations-intro
+  type: soft
 builds-toward:
 - taylor-rule-monetary-policy
 tags:

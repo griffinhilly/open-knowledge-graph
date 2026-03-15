@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: time-series-basics-econometrics
   type: hard
+- id: sequences-and-series-review
+  type: soft
 builds-toward:
 - dynamic-panel-arellano-bond-estimator
 tags:

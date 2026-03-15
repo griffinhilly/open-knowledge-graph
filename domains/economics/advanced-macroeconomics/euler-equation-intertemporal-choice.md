@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: consumer-theory-utility
   type: hard
+- id: partial-derivatives
+  type: soft
+- id: chain-rule
+  type: soft
 builds-toward:
 - solow-growth-model
 - consumption-smoothing-intertemporal

@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: linear-regression
   type: soft
+- id: linear-algebra
+  type: hard
 builds-toward:
 - coefficient-interpretation-regression
 - f-test-joint-significance

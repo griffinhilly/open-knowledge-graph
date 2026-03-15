@@ -6,6 +6,8 @@ course: advanced-macroeconomics
 prerequisites:
 - id: household-optimization-consumption-savings
   type: hard
+- id: partial-derivatives
+  type: soft
 builds-toward:
 - new-keynesian-framework
 tags:

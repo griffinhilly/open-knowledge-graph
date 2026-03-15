@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: econometrics-intro
   type: soft
+- id: linear-algebra
+  type: hard
+- id: linear-systems-notation
+  type: hard
 builds-toward:
 - ols-assumptions
 - multiple-regression-model

@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: dividend-discount-model
   type: soft
+- id: covariance-between-random-variables
+  type: soft
 builds-toward:
 - arbitrage-pricing-theory
 - risk-adjusted-performance-measures

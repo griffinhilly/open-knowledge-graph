@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: solow-growth-model
   type: hard
+- id: differential-equations-intro
+  type: soft
 builds-toward:
 - romer-growth-model
 - lucas-human-capital-model

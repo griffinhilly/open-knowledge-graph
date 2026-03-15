@@ -6,6 +6,8 @@ course: econometrics
 prerequisites:
 - id: simple-linear-regression-estimation
   type: hard
+- id: normal-distribution
+  type: soft
 builds-toward:
 - t-statistic-individual-coefficient
 - f-statistic-overall-significance

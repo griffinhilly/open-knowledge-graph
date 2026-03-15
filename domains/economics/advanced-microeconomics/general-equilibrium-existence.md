@@ -6,6 +6,8 @@ course: advanced-microeconomics
 prerequisites:
 - id: walrasian-equilibrium
   type: hard
+- id: fixed-point-iteration
+  type: soft
 tags:
 - general-equilibrium
 - mathematical-economics

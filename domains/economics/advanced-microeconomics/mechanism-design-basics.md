@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nash-equilibrium-microeconomics
   type: hard
+- id: constrained-optimization
+  type: soft
 builds-toward:
 - revelation-principle-mechanisms
 - vcg-auction-mechanism

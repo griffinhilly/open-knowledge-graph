@@ -6,6 +6,8 @@ course: financial-economics
 prerequisites:
 - id: expected-return-and-variance-of-assets
   type: hard
+- id: autoregressive-ar-models
+  type: soft
 builds-toward:
 - options-implied-volatility-extraction
 tags:

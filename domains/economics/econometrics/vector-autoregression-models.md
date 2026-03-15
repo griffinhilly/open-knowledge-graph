@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dynamic-panel-gmm
   type: soft
+- id: eigenvalues-and-eigenvectors
+  type: hard
 builds-toward:
 - regression-discontinuity
 tags:
