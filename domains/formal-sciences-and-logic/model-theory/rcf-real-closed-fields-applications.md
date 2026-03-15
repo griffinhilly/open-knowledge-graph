@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: ordered-field-axioms
   type: soft
+- id: field-definition-and-examples
+  type: soft
 tags:
 - RCF
 - real-closed

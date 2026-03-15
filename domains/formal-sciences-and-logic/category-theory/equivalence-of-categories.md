@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: yoneda-lemma
   type: soft
+- id: injective-surjective-bijective
+  type: soft
+- id: function-composition
+  type: soft
 tags:
 - equivalence of categories
 - essentially surjective

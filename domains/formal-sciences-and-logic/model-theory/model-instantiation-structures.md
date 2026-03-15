@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: model-interpretation-and-satisfaction
   type: hard
+- id: set-fundamentals
+  type: hard
+- id: equivalence-relations-and-equivalence-classes
+  type: soft
 builds-toward:
 - embedding-and-preservation-properties
 - complete-theory-of-structures

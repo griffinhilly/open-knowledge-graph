@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: composition-of-functions
   type: soft
+- id: functions-and-function-properties
+  type: hard
+- id: function-composition
+  type: soft
 builds-toward:
 - functor-categories
 - yoneda-lemma

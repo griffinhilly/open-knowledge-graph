@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: set-operations-and-notation
   type: soft
+- id: set-fundamentals
+  type: hard
+- id: equivalence-relations-and-equivalence-classes
+  type: soft
 builds-toward:
 - recursive-languages
 - recursively-enumerable-languages

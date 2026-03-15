@@ -6,6 +6,12 @@ course: propositional-and-predicate-logic
 prerequisites:
 - id: propositional-logic-introduction
   type: hard
+- id: set-fundamentals
+  type: hard
+- id: functions-and-function-properties
+  type: hard
+- id: domain-and-range
+  type: soft
 builds-toward:
 - predicates-and-relations-fol
 - quantifier-notation-and-basics

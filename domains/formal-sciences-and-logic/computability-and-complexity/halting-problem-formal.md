@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: set-fundamentals
   type: soft
+- id: functions-and-function-properties
+  type: hard
 builds-toward:
 - rices-theorem
 - re-and-co-re-languages

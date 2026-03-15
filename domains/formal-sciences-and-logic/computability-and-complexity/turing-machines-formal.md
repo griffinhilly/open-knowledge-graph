@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: set-fundamentals
   type: soft
+- id: functions-and-function-properties
+  type: hard
 builds-toward:
 - church-turing-thesis-formal
 - halting-problem-formal

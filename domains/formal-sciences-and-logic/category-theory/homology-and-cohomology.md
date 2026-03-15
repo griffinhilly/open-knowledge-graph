@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: vector-spaces
   type: soft
+- id: linear-transformations
+  type: hard
+- id: kernel-and-image
+  type: soft
 builds-toward:
 - derived-functors
 tags:

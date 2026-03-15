@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: lambda-calculus
   type: soft
+- id: set-fundamentals
+  type: hard
+- id: functions-and-function-properties
+  type: soft
 builds-toward:
 - recursively-enumerable-languages
 - complexity-class-definitions-hierarchy

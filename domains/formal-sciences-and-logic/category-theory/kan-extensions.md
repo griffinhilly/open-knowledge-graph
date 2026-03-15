@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: functions-and-function-properties
   type: soft
+- id: function-composition
+  type: soft
+- id: set-operations
+  type: soft
 tags:
 - Kan extension
 - left Kan extension

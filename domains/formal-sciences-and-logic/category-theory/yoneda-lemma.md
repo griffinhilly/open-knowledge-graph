@@ -18,6 +18,10 @@ prerequisites:
   type: soft
 - id: composition-of-functions
   type: soft
+- id: function-composition
+  type: soft
+- id: set-operations
+  type: soft
 builds-toward:
 - adjoint-functors
 - equivalence-of-categories

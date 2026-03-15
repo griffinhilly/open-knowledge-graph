@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: composition-of-functions
   type: soft
+- id: function-composition
+  type: hard
+- id: set-fundamentals
+  type: soft
 builds-toward:
 - church-turing-thesis-formal
 - general-recursive-functions

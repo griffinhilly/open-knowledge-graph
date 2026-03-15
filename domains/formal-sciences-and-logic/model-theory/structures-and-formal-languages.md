@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: functions-and-function-properties
   type: soft
+- id: functions-and-mappings-formal
+  type: hard
+- id: ordered-pairs-and-tuples
+  type: soft
 builds-toward:
 - model-interpretation-and-satisfaction
 - structure-homomorphisms-embeddings

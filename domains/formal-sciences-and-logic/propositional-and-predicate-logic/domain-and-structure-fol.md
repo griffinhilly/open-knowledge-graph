@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: set-membership-and-notation
   type: soft
+- id: set-fundamentals
+  type: hard
+- id: functions-and-mappings-formal
+  type: hard
 builds-toward:
 - satisfaction-relation-fol
 tags:

@@ -26,6 +26,12 @@ prerequisites:
   type: soft
 - id: composition-of-functions
   type: soft
+- id: functions-and-function-properties
+  type: hard
+- id: function-composition
+  type: soft
+- id: linear-transformations
+  type: soft
 builds-toward:
 - adjunction-unit-and-counit
 - monads-in-category-theory

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: injective-surjective-bijective
   type: soft
+- id: functions-and-function-properties
+  type: soft
 builds-toward:
 - equivalence-of-categories
 - universal-properties

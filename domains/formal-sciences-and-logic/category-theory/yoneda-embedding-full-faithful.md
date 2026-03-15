@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: representable-functors
   type: hard
+- id: injective-surjective-bijective
+  type: soft
+- id: functions-and-function-properties
+  type: soft
 builds-toward:
 - presheaves
 - topos-theory-intro

@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: propositional-compactness
   type: soft
+- id: set-fundamentals
+  type: hard
+- id: functions-and-function-properties
+  type: hard
 builds-toward:
 - lowenheim-skolem-theorem
 tags:

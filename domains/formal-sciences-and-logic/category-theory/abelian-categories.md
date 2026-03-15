@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: group-definition-and-examples
   type: soft
+- id: vector-spaces
+  type: soft
 builds-toward:
 - chain-complexes-exact-sequences
 tags:

@@ -6,6 +6,12 @@ course: propositional-and-predicate-logic
 prerequisites:
 - id: predicates-and-relations-fol
   type: hard
+- id: set-fundamentals
+  type: hard
+- id: set-operations
+  type: hard
+- id: domain-and-range
+  type: soft
 builds-toward:
 - universal-quantifier-semantics
 - existential-quantifier-semantics

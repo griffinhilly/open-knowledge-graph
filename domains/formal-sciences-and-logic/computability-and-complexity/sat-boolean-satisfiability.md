@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: np-and-polynomial-time
   type: hard
+- id: boolean-algebra
+  type: hard
 builds-toward:
 - three-sat-np-complete
 tags:

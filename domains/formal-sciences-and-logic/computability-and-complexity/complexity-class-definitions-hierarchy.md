@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: algorithm-analysis-big-o
   type: soft
+- id: algorithm-complexity
+  type: hard
 builds-toward:
 - p-versus-np
 - polynomial-hierarchy

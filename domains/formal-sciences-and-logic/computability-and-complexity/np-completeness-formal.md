@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: complexity-classes-bounds
   type: soft
+- id: algorithm-complexity
+  type: hard
+- id: boolean-algebra
+  type: soft
 builds-toward:
 - cook-levin-theorem-formal
 - pspace-and-complexity-hierarchy

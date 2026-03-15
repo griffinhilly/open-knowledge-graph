@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: recursion-on-finite-structures
   type: soft
+- id: set-fundamentals
+  type: soft
 builds-toward:
 - halting-problem-formal
 - computability-reductions

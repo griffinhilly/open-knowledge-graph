@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: vector-spaces
   type: soft
+- id: linear-transformations
+  type: hard
+- id: basis-and-dimension
+  type: soft
 builds-toward:
 - homology-and-cohomology
 tags:

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: big-o-notation
   type: soft
+- id: algorithm-analysis-big-o
+  type: soft
 tags:
 - NP-complete
 - SAT
