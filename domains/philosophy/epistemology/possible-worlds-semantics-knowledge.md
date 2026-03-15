@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: modal-semantics-possible-worlds
   type: soft
+- id: modal-logic-intro
+  type: hard
 builds-toward:
 - epistemic-accessibility-relations
 - closure-principles-formalized

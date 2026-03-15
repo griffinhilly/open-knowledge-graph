@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: facts-and-truthmakers
   type: soft
+- id: logical-consequence-and-validity
+  type: soft
 tags:
 - grounding
 - fundamentality

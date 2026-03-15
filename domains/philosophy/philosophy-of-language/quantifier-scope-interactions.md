@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: quantifier-scope-ambiguity
   type: hard
+- id: quantifier-notation-and-basics
+  type: hard
 builds-toward:
 - scope-ambiguity-and-representation
 tags:

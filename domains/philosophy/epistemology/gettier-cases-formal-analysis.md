@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: first-order-logic-syntax
   type: soft
+- id: logical-consequence-and-validity
+  type: soft
 builds-toward:
 - no-false-lemmas-condition
 - defeasibility-conditions-knowledge

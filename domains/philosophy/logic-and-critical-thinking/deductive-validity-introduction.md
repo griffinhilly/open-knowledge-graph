@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: arguments-premises-and-conclusions
   type: hard
+- id: propositional-semantics
+  type: hard
 builds-toward:
 - validity-and-soundness
 - logical-structure-and-form

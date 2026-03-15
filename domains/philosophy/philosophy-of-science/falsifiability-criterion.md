@@ -6,6 +6,8 @@ course: philosophy-of-science
 prerequisites:
 - id: popper-falsificationism
   type: hard
+- id: propositional-logic-introduction
+  type: soft
 builds-toward:
 - kuhn-paradigm-theory
 - lakatos-research-programs

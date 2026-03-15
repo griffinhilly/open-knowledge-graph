@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: first-order-logic-syntax
   type: soft
+- id: propositional-logic-introduction
+  type: soft
 tags:
 - closure
 - deductive-closure

@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: argument-premise-and-conclusion
   type: hard
+- id: tautologies-and-contradictions
+  type: soft
 builds-toward:
 - paradox-and-self-reference
 - argument-evaluation-holistic

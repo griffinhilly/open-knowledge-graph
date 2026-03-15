@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: knowledge-argument
   type: soft
+- id: modal-logic-intro
+  type: soft
 builds-toward:
 - indexical-contextualism-epistemology
 tags:

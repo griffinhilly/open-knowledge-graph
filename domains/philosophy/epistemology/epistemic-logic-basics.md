@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: first-order-logic-syntax
   type: hard
+- id: propositional-logic-introduction
+  type: soft
 builds-toward:
 - possible-worlds-semantics-knowledge
 - knowledge-and-belief-operators

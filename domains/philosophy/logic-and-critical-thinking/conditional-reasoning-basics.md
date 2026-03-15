@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: arguments-premises-and-conclusions
   type: hard
+- id: conditional-reasoning
+  type: hard
 builds-toward:
 - modus-ponens-tollens
 - contrapositive-logical-equivalence

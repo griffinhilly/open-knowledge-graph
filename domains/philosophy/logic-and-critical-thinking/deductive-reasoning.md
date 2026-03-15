@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: natural-deduction-propositional
   type: soft
+- id: propositional-logic-introduction
+  type: hard
+- id: first-order-logic-syntax
+  type: soft
 builds-toward:
 - validity-and-soundness
 - modus-ponens-tollens

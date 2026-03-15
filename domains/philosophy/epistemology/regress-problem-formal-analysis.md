@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: first-order-logic-syntax
   type: soft
+- id: logical-consequence-and-validity
+  type: soft
 builds-toward:
 - justification-structures-and-hierarchies
 tags:

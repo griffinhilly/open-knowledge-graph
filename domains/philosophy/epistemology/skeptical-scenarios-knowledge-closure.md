@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: epistemic-closure
   type: hard
+- id: modal-logic-intro
+  type: soft
+- id: possible-worlds-semantics
+  type: soft
 tags:
 - skepticism
 - scenarios
