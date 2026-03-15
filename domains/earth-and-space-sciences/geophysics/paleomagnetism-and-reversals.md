@@ -6,6 +6,10 @@ course: geophysics
 prerequisites:
 - id: earths-magnetic-dipole-field-basics
   type: hard
+- id: magnetic-field-definition
+  type: soft
+- id: electromagnetic-field-tensor
+  type: soft
 builds-toward:
 - paleomagnetic-dating-and-stratigraphy
 tags:

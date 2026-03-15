@@ -6,6 +6,10 @@ course: astronomy
 prerequisites:
 - id: stellar-nucleosynthesis
   type: hard
+- id: nuclear-chemistry
+  type: soft
+- id: quantum-mechanics-postulates-core
+  type: soft
 builds-toward:
 - red-giant-branch-evolution
 tags:

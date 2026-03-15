@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: adiabatic-processes
   type: hard
+- id: first-law-of-thermodynamics
+  type: soft
+- id: radiation-heat-transfer-stefan-boltzmann
+  type: soft
 builds-toward:
 - two-layer-energy-balance
 - general-circulation-models

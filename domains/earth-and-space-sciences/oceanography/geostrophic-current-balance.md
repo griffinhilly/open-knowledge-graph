@@ -6,6 +6,10 @@ course: oceanography
 prerequisites:
 - id: coriolis-effect-ocean-dynamics
   type: hard
+- id: coriolis-effect
+  type: soft
+- id: pressure-systems-and-winds
+  type: soft
 builds-toward:
 - subtropical-ocean-gyres-formation
 - ocean-circulation-and-climate

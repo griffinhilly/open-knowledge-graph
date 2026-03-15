@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: stellar-nucleosynthesis
   type: soft
+- id: nuclear-chemistry
+  type: soft
+- id: atomic-orbitals
+  type: soft
+- id: quantum-tunneling-and-reaction-rates
+  type: soft
 builds-toward:
 - stellar-fusion-cno-cycle
 - main-sequence-lifetime-mass-luminosity-relation

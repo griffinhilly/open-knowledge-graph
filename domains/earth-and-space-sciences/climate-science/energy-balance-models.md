@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: solar-radiation-and-earth-energy-balance
   type: hard
+- id: first-law-of-thermodynamics
+  type: soft
+- id: radiation-heat-transfer-stefan-boltzmann
+  type: soft
+- id: calculus
+  type: soft
 builds-toward:
 - radiative-forcing-definition
 - climate-sensitivity-radiative-feedbacks

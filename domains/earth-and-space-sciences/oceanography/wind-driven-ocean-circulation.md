@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: seawater-properties
   type: soft
+- id: newtons-second-law
+  type: soft
 builds-toward:
 - ocean-gyres-and-boundary-currents
 - el-nino-southern-oscillation

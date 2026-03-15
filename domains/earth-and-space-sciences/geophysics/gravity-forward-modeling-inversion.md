@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: gravity-potential-theory-earths-field
   type: hard
+- id: linear-algebra
+  type: soft
+- id: calculus
+  type: soft
 tags:
 - gravity
 - modeling

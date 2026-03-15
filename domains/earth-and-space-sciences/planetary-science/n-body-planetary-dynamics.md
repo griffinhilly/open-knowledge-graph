@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: orbital-resonance-capture
   type: soft
+- id: differential-equations-intro
+  type: soft
+- id: conservation-of-energy
+  type: soft
 builds-toward:
 - multi-planet-system-architecture
 tags:

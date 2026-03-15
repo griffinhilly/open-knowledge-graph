@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: oxidation-reduction-basics
   type: soft
+- id: phase-diagrams-binary-mixtures
+  type: soft
+- id: viscosity-gas-liquid-transport
+  type: soft
+- id: thermochemistry-enthalpy
+  type: soft
 builds-toward:
 - fractional-crystallization-magmatic-differentiation
 - eruptive-styles-and-lava-rheology

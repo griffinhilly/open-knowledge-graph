@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: seismic-body-waves-p-and-s
   type: hard
+- id: differential-equations-intro
+  type: soft
+- id: wave-equation-one-dimensional
+  type: soft
 builds-toward:
 - seismic-refraction-surveys
 - seismic-tomography-velocity-imaging

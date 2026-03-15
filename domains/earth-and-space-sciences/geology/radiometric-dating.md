@@ -14,8 +14,10 @@ prerequisites:
   type: hard
 - id: exponential-growth-and-decay
   type: hard
+- id: exponential-decay
+  type: soft
 builds-toward:
-  - fossils-and-paleontology
+- fossils-and-paleontology
 tags:
 - radiometric-dating
 - radiocarbon

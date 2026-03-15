@@ -6,6 +6,10 @@ course: astronomy
 prerequisites:
 - id: dark-matter-and-dark-energy
   type: soft
+- id: calculus
+  type: soft
+- id: differential-geometry
+  type: soft
 builds-toward:
 - large-scale-structure-universe
 tags:

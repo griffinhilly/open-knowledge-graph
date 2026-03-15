@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: acid-base-chemistry
   type: hard
+- id: le-chatelier-principle
+  type: soft
 builds-toward:
 - ocean-acidification
 - coral-reef-ecosystem-structure

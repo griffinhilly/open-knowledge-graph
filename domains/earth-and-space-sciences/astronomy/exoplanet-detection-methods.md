@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: keplers-laws
   type: soft
+- id: binomial-distribution
+  type: soft
+- id: hypothesis-testing-framework
+  type: soft
 tags:
 - exoplanets
 - transit-method

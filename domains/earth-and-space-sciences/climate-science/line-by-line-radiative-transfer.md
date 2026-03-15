@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: atmosphere-composition-and-structure
   type: soft
+- id: calculus
+  type: soft
+- id: absorption-and-emission-spectroscopy
+  type: soft
 builds-toward:
 - climate-model-parameterization
 - radiative-forcing-greenhouse-gases

@@ -3,7 +3,15 @@ id: kepler-laws-orbital-motion-derivation
 title: Kepler's Laws and Orbital Motion
 domain: earth-and-space-sciences
 course: astronomy
-prerequisites: []
+prerequisites:
+- id: calculus
+  type: soft
+- id: chain-rule
+  type: soft
+- id: differential-equations-intro
+  type: soft
+- id: conservation-of-angular-momentum
+  type: soft
 builds-toward:
 - exoplanet-orbital-determination-methods
 - planetary-mass-determination-techniques

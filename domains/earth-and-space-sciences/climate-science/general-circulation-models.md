@@ -6,6 +6,12 @@ course: climate-science
 prerequisites:
 - id: climate-models-and-projections
   type: hard
+- id: differential-equations-intro
+  type: soft
+- id: convection-natural-and-forced
+  type: soft
+- id: thermodynamic-processes
+  type: soft
 builds-toward:
 - climate-projections-modeling
 - climate-sensitivity-radiative-feedbacks

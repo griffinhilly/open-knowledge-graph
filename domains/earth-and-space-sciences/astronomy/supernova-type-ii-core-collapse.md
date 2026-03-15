@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stellar-nucleosynthesis
   type: soft
+- id: nuclear-chemistry
+  type: soft
 builds-toward:
 - gamma-ray-burst-jet-physics
 tags:

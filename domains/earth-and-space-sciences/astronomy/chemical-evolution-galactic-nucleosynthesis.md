@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: stellar-evolution-main-sequence-to-giant
   type: soft
+- id: nuclear-chemistry
+  type: soft
+- id: isotopes-and-nuclear-composition
+  type: soft
 tags:
 - chemical-evolution
 - nucleosynthesis

@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: wave-speed-medium
   type: soft
+- id: wave-motion-definition
+  type: soft
+- id: wave-equation-one-dimensional
+  type: soft
 builds-toward:
 - earth-interior-structure
 tags:

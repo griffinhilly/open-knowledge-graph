@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: conservation-of-angular-momentum
   type: soft
+- id: newtons-second-law
+  type: soft
 builds-toward:
 - exoplanet-detection-methods
 - stellar-end-states

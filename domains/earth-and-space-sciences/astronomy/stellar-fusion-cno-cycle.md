@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: stellar-fusion-proton-proton-chain
   type: soft
+- id: nuclear-chemistry
+  type: soft
+- id: atomic-structure-and-atoms
+  type: soft
 builds-toward:
 - main-sequence-lifetime-mass-luminosity-relation
 tags:

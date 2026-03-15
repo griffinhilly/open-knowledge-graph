@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: covalent-bonding
   type: soft
+- id: crystal-structures-and-properties
+  type: soft
 builds-toward:
 - rock-forming-minerals
 - weathering-and-erosion

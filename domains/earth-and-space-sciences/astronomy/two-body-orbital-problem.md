@@ -6,6 +6,12 @@ course: astronomy
 prerequisites:
 - id: kepler-laws-planetary-orbits
   type: hard
+- id: differential-equations-intro
+  type: soft
+- id: conservation-of-angular-momentum
+  type: soft
+- id: linear-algebra
+  type: soft
 builds-toward:
 - tidal-forces-and-locking
 - orbital-resonances-dynamics

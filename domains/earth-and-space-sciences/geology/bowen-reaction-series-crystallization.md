@@ -6,6 +6,10 @@ course: geology
 prerequisites:
 - id: igneous-rock-magma-differentiation
   type: hard
+- id: equilibrium-expression-kc-kp-constants
+  type: soft
+- id: gibbs-free-energy-spontaneity
+  type: soft
 builds-toward:
 - volcano-classification-magma-types
 tags:

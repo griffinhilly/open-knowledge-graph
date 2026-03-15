@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: plate-tectonics-driving-forces
   type: soft
+- id: clausius-clapeyron-equation
+  type: soft
+- id: phase-diagrams-binary-mixtures
+  type: soft
 builds-toward:
 - bowen-fractional-crystallization
 - subduction-magmatism

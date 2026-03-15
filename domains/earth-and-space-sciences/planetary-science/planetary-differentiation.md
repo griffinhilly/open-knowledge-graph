@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: chemical-equilibrium
   type: soft
+- id: gravitation
+  type: soft
+- id: heat-transfer-conduction-fourier
+  type: soft
+- id: density-and-buoyancy-fluids
+  type: soft
 builds-toward:
 - planetary-magnetic-field-generation
 - planetary-tectonics-comparative

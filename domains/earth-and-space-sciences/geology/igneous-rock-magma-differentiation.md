@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: phase-changes-and-diagrams
   type: soft
+- id: phase-diagrams-binary-mixtures
+  type: soft
+- id: equilibrium-chemical
+  type: soft
 builds-toward:
 - bowen-reaction-series-crystallization
 - volcano-classification-magma-types

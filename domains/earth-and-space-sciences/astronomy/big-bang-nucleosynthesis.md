@@ -6,6 +6,10 @@ course: astronomy
 prerequisites:
 - id: hubble-law-and-cosmic-expansion
   type: hard
+- id: nuclear-chemistry
+  type: soft
+- id: atomic-structure-and-atoms
+  type: soft
 builds-toward:
 - cosmic-inflation-and-early-universe
 tags:

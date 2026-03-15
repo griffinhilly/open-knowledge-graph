@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: earths-interior-density-composition
   type: soft
+- id: phase-diagrams-binary-mixtures
+  type: soft
+- id: gibbs-free-energy-spontaneity
+  type: soft
+- id: equilibrium-expression-kc-kp-constants
+  type: soft
 builds-toward:
 - thermobarometry-estimates-metamorphic
 tags:

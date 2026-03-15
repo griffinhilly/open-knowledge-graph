@@ -6,6 +6,12 @@ course: astronomy
 prerequisites:
 - id: cosmological-redshift-and-hubble-law
   type: soft
+- id: blackbody-radiation
+  type: soft
+- id: atomic-orbitals
+  type: soft
+- id: electromagnetic-spectrum
+  type: soft
 tags:
 - cosmology
 - cmb

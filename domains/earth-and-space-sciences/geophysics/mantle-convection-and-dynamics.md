@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: geothermal-gradient-crustal-heat-flow
   type: hard
+- id: differential-equations-intro
+  type: soft
+- id: heat-transfer-conduction-fourier
+  type: soft
+- id: convection-natural-and-forced
+  type: soft
 builds-toward:
 - subduction-zone-structure-and-dynamics
 - mid-ocean-ridge-dynamics-and-geophysics

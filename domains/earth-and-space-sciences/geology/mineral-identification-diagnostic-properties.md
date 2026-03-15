@@ -6,6 +6,10 @@ course: geology
 prerequisites:
 - id: minerals-and-crystal-structure
   type: soft
+- id: crystal-structures-and-properties
+  type: soft
+- id: ionic-bonding
+  type: soft
 builds-toward:
 - crystal-symmetry-classification-systems
 - mineral-properties-weathering

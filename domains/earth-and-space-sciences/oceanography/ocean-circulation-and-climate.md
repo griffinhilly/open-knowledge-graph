@@ -12,6 +12,12 @@ prerequisites:
   type: hard
 - id: climate-models-and-projections
   type: soft
+- id: convection-natural-and-forced
+  type: soft
+- id: heat-transfer-conduction-fourier
+  type: soft
+- id: differential-equations-intro
+  type: soft
 tags:
 - climate regulation
 - ocean heat transport

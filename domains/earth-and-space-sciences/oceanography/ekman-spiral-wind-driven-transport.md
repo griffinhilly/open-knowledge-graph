@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: geostrophic-balance-ocean
   type: soft
+- id: coriolis-effect
+  type: soft
+- id: vector-fields
+  type: soft
 builds-toward:
 - continental-shelf-circulation
 tags:

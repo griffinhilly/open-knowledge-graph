@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: conservation-of-energy
   type: soft
+- id: newtons-second-law
+  type: soft
+- id: stress-strain-rock-deformation
+  type: soft
 builds-toward:
 - tectonic-boundaries
 - volcanoes-and-volcanism

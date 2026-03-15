@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: x-ray-binary-systems
   type: soft
+- id: nuclear-chemistry
+  type: soft
 builds-toward:
 - cosmic-distance-ladder-calibration
 tags:
