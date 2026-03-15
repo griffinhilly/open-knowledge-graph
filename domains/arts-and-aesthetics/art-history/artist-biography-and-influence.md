@@ -1,24 +1,23 @@
 ---
 id: artist-biography-and-influence
-title: Artist Biography, Legend, and Historical Influence
+title: Artist Biography and Historical Influence
 domain: arts-and-aesthetics
 course: art-history
 prerequisites:
-- id: art-history-periodization
+- id: art-historical-methods
   type: soft
 builds-toward:
-- artistic-dynasties-schools-lineages
-- women-artists-in-art-history
+- art-nationalism-and-identity
 tags:
 - biography
+- artistic-genius
 - influence
-- innovation
-- artistic-lineage
+- personality
 stage: abstract-reasoning
 status: draft
 ---
 
-# Artist Biography, Legend, and Historical Influence
+# Artist Biography and Historical Influence
 
 ## Core Idea
-Individual artists—Leonardo, Rembrandt, Van Gogh—shaped art history through innovation and influence, yet biographical narratives are often myths constructed long after their deaths. Art historians must distinguish between documented facts, contemporary accounts, and later romantic retellings. An artist's life, training, patronage, and personality influenced their output; tracing artistic lineages shows how innovation spread through apprenticeship, schools, and artistic competition.
+Art history has traditionally centered on individual artists as creative geniuses whose biographies explain their work, but modern scholarship recognizes both the power and limitations of this biographical approach. An artist's life circumstances—access to materials, patronage, gender, education, cultural position—shape artistic production, yet reducing art to biography obscures broader historical patterns, workshop practices, and collective cultural forces. The 'artistic genius' myth has particularly excluded women and non-Western artists, making biographical recovery important for decentering historical narratives.
