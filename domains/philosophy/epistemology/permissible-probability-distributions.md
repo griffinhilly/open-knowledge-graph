@@ -6,6 +6,8 @@ course: epistemology
 prerequisites:
 - id: credences-and-epistemic-probabilities
   type: hard
+- id: probabilistic-reasoning
+  type: soft
 builds-toward:
 - bayesian-epistemology
 tags:

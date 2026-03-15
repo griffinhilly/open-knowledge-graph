@@ -6,6 +6,8 @@ course: ethics
 prerequisites:
 - id: normative-ethics-overview
   type: hard
+- id: probabilistic-reasoning
+  type: soft
 builds-toward:
 - preference-utilitarianism
 - contractualism

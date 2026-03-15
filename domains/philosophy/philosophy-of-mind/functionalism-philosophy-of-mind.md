@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: lambda-calculus
   type: soft
+- id: computability-models-equivalence
+  type: soft
 builds-toward:
 - multiple-realizability
 - chinese-room-argument

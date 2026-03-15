@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: modal-logic-intro
   type: hard
+- id: first-order-logic-syntax
+  type: hard
 builds-toward:
 - possible-worlds-semantics-knowledge
 - knowledge-and-belief-operators

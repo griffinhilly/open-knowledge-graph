@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: first-order-logic-syntax
   type: soft
+- id: deduction-theorem-propositional
+  type: soft
 builds-toward:
 - inductive-statistical-model-of-explanation
 tags:

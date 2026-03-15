@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: empiricism-and-observational-foundations
   type: hard
+- id: first-order-logic-syntax
+  type: hard
 builds-toward:
 - verification-principle-and-meaningfulness
 - duhem-quine-thesis

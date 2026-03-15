@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: external-world-skepticism
   type: soft
+- id: first-order-logic-syntax
+  type: soft
 builds-toward:
 - epistemology-of-disagreement
 tags:

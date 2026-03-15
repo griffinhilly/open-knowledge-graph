@@ -6,6 +6,8 @@ course: epistemology
 prerequisites:
 - id: possible-worlds-semantics-knowledge
   type: hard
+- id: modal-logic-intro
+  type: soft
 builds-toward:
 - knowledge-and-belief-operators
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: probabilistic-computation
   type: soft
+- id: probabilistic-reasoning
+  type: soft
 builds-toward:
 - evidential-support-formalization
 tags:

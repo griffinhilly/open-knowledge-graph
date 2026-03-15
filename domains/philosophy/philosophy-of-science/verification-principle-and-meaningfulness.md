@@ -6,6 +6,8 @@ course: philosophy-of-science
 prerequisites:
 - id: logical-positivism-and-vienna-circle
   type: hard
+- id: first-order-logic-syntax
+  type: hard
 builds-toward:
 - karl-popper-falsificationism
 tags:

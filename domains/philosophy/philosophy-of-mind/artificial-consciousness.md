@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hard-problem-of-consciousness
   type: hard
+- id: turing-machines-formal
+  type: soft
 tags:
 - artificial-consciousness
 - substrate-independence
