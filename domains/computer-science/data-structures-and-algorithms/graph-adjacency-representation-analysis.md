@@ -6,6 +6,8 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: graph-theory-intro
   type: soft
+- id: graph-theory-fundamentals
+  type: soft
 builds-toward:
 - breadth-first-search
 - depth-first-search

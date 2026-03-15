@@ -6,6 +6,8 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: algorithm-design-basics
   type: hard
+- id: modular-arithmetic
+  type: soft
 builds-toward:
 - linear-probing-double-hashing
 - separate-chaining-collisions

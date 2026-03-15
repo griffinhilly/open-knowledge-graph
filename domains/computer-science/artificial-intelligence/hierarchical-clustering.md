@@ -6,6 +6,8 @@ course: artificial-intelligence
 prerequisites:
 - id: kmeans-clustering
   type: hard
+- id: vector-spaces
+  type: soft
 tags:
 - clustering
 - unsupervised-learning

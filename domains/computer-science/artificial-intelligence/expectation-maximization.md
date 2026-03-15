@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: derivatives-of-exponential-functions
   type: soft
+- id: probability-axioms
+  type: soft
+- id: conditional-expectation
+  type: soft
 builds-toward:
 - mixture-models
 - latent-variable-models

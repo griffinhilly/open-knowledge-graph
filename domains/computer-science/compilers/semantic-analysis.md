@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: symbol-tables-and-scope
   type: hard
+- id: formal-logic-propositions
+  type: soft
 builds-toward:
 - type-inference-algorithms
 - intermediate-code-representation

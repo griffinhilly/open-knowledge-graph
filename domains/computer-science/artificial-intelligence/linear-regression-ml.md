@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: expected-value
   type: soft
+- id: least-squares-approximation
+  type: soft
 tags:
 - supervised-learning
 - regression

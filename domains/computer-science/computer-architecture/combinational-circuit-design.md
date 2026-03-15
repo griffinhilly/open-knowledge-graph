@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: truth-tables
   type: hard
+- id: boolean-algebra-and-laws
+  type: soft
 builds-toward:
 - multiplexers-and-demultiplexers
 - encoder-decoder-circuits

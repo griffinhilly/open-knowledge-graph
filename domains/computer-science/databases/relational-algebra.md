@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: set-operations-and-notation
   type: soft
+- id: set-fundamentals
+  type: soft
+- id: relations-properties-and-types
+  type: soft
 builds-toward:
 - sql-select-basics
 - query-execution-plans

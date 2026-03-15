@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: derivatives-of-exponential-functions
   type: soft
+- id: partial-derivatives
+  type: soft
 tags:
 - supervised-learning
 - classification

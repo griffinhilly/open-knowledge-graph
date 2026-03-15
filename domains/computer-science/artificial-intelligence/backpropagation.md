@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: partial-derivatives
   type: soft
+- id: linear-transformations
+  type: soft
 tags:
 - neural-networks
 - training-algorithms

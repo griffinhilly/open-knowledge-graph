@@ -3,7 +3,9 @@ id: logic-gates-fundamentals
 title: Logic Gates Fundamentals
 domain: computer-science
 course: computer-architecture
-prerequisites: []
+prerequisites:
+- id: boolean-algebra-and-laws
+  type: soft
 builds-toward:
 - boolean-function-implementation
 - combinational-circuit-design

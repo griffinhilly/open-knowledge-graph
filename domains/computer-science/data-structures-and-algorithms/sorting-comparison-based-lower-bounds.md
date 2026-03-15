@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sorting-lower-bounds
   type: soft
+- id: combinatorics
+  type: soft
 builds-toward:
 - sorting-linear-time-counting-radix
 tags:

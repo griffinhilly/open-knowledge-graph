@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: inner-product-spaces
   type: soft
+- id: optimization-multivariable-basics
+  type: soft
 tags:
 - supervised-learning
 - classification

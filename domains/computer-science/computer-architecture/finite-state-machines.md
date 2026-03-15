@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: boolean-algebra
   type: soft
+- id: formal-languages-and-strings
+  type: soft
 builds-toward:
 - sequential-circuit-design
 - cpu-control-unit

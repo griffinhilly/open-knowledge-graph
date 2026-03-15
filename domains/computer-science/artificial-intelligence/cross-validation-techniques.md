@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bias-variance-tradeoff
   type: hard
+- id: probability-axioms
+  type: soft
 builds-toward:
 - hyperparameter-optimization
 tags:

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: tree-traversals
   type: hard
+- id: formal-languages-and-strings
+  type: soft
+- id: set-fundamentals
+  type: soft
 builds-toward:
 - tree-walking-interpreters
 - semantic-analysis

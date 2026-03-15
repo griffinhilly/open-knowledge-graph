@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: linear-independence
   type: soft
+- id: eigenvalues-and-eigenvectors
+  type: soft
 tags:
 - unsupervised-learning
 - feature-reduction

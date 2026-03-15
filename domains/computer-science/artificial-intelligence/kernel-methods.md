@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: function-composition-and-inverses
   type: soft
+- id: dot-product
+  type: soft
 builds-toward:
 - support-vector-regression
 - kernel-ridge-regression

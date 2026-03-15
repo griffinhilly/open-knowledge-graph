@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: matrix-operations
   type: soft
+- id: partial-derivatives
+  type: soft
 tags:
 - neural-networks
 - deep-learning

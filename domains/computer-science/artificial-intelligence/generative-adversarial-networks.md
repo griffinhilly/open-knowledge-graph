@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: probability-distributions
   type: soft
+- id: probability-axioms
+  type: soft
+- id: optimization-multivariable-basics
+  type: soft
 tags:
 - deep-learning
 - generative-models

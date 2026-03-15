@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: algorithm-design-basics
   type: soft
+- id: vector-spaces
+  type: soft
 tags:
 - classification
 - instance-based

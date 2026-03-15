@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: convolutional-neural-networks
   type: soft
+- id: linear-transformations
+  type: soft
 builds-toward:
 - fine-tuning-pretrained-models
 tags:

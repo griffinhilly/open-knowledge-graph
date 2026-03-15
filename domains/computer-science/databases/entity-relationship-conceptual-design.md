@@ -6,6 +6,8 @@ course: databases
 prerequisites:
 - id: database-systems-introduction
   type: hard
+- id: relations-properties-and-types
+  type: soft
 builds-toward:
 - relational-data-model
 - functional-dependency-schema

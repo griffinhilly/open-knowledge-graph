@@ -6,6 +6,10 @@ course: artificial-intelligence
 prerequisites:
 - id: algorithm-design-basics
   type: soft
+- id: vectors-in-rn
+  type: soft
+- id: optimization-multivariable-basics
+  type: soft
 tags:
 - unsupervised-learning
 - clustering
