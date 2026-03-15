@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: game-theory-basics-microeconomics
   type: hard
+- id: constrained-optimization-lagrange
+  type: soft
 builds-toward:
 - labor-market-signaling
 - insurance-markets-and-selection

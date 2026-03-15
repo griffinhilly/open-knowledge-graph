@@ -6,6 +6,8 @@ course: microeconomics
 prerequisites:
 - id: production-technology-and-isoquants
   type: hard
+- id: lagrange-multipliers
+  type: soft
 builds-toward:
 - returns-to-scale-analysis
 - long-run-cost-structure

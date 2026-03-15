@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: partial-derivatives
   type: soft
+- id: multivariable-functions-intro
+  type: soft
 builds-toward:
 - short-run-costs
 - long-run-costs-economies-of-scale

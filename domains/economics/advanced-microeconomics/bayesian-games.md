@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nash-equilibrium-microeconomics
   type: hard
+- id: bayes-theorem
+  type: soft
 builds-toward:
 - perfect-bayesian-equilibrium
 - mechanism-design-intro

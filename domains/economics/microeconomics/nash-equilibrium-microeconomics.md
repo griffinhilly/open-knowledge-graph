@@ -6,6 +6,8 @@ course: microeconomics
 prerequisites:
 - id: game-theory-basics-microeconomics
   type: hard
+- id: optimization-multivariable-basics
+  type: soft
 builds-toward:
 - externalities-and-market-failure
 tags:

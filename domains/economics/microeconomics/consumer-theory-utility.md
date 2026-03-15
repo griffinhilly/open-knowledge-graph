@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: income-and-cross-price-elasticity
   type: soft
+- id: constrained-optimization-lagrange
+  type: soft
 builds-toward:
 - marginal-utility-and-consumer-choice
 - indifference-curves

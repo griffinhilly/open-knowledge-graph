@@ -14,6 +14,10 @@ prerequisites:
   type: hard
 - id: least-squares-approximation
   type: hard
+- id: optimization-multivariable-basics
+  type: soft
+- id: linear-transformation-matrix-representation
+  type: soft
 builds-toward:
 - gauss-markov-theorem-ols
 - estimator-consistency-unbiasedness

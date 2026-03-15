@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: continuous-functions-topology
   type: soft
+- id: systems-of-linear-equations
+  type: soft
 builds-toward:
 - pareto-optimality
 - first-fundamental-welfare-theorem

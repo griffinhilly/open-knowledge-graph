@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: condition-number-of-a-matrix
   type: soft
+- id: linear-independence
+  type: soft
 tags:
 - multicollinearity
 - diagnostics

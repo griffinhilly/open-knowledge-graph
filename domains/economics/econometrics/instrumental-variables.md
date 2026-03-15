@@ -18,6 +18,8 @@ prerequisites:
   type: hard
 - id: linear-regression
   type: soft
+- id: linear-transformation-matrix-representation
+  type: soft
 builds-toward:
 - two-stage-least-squares
 tags:

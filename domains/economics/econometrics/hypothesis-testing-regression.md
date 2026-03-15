@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: confidence-intervals-means
   type: hard
+- id: hypothesis-testing-framework
+  type: soft
 builds-toward:
 - f-test-joint-significance
 - r-squared-and-model-fit

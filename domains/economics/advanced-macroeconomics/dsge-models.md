@@ -18,6 +18,8 @@ prerequisites:
   type: hard
 - id: linear-transformations
   type: soft
+- id: systems-of-linear-equations
+  type: soft
 builds-toward:
 - monetary-policy-transmission
 - fiscal-multipliers-macro

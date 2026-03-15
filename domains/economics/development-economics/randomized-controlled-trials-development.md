@@ -6,6 +6,8 @@ course: development-economics
 prerequisites:
 - id: causal-inference-econometrics
   type: hard
+- id: hypothesis-testing-framework
+  type: soft
 tags:
 - RCT
 - evaluation

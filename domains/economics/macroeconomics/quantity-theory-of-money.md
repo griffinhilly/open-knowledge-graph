@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: inflation-and-price-level
   type: hard
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
 - monetary-policy-tools
 - phillips-curve

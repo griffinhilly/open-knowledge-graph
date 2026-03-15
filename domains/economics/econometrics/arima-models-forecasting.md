@@ -6,6 +6,8 @@ course: econometrics
 prerequisites:
 - id: autoregressive-ar-models
   type: hard
+- id: sequences-convergence
+  type: soft
 builds-toward:
 - vector-autoregression-models
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: constrained-optimization
   type: soft
+- id: optimization-multivariable-basics
+  type: soft
 builds-toward:
 - bertrand-competition
 - stackelberg-competition

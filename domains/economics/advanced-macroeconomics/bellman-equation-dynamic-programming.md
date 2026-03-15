@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: dynamic-optimization-lagrange
   type: hard
+- id: fixed-point-iteration
+  type: soft
 builds-toward:
 - euler-equation-intertemporal-choice
 - solow-growth-model

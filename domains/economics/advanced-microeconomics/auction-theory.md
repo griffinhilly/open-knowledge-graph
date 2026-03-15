@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: expected-value-theory
   type: hard
+- id: optimization-multivariable-basics
+  type: soft
 builds-toward:
 - first-price-auction
 - second-price-auction
