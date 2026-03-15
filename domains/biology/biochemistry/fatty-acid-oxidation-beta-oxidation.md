@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: carbonyl-chemistry-intro
   type: soft
+- id: oxidation-reactions-organic
+  type: hard
 builds-toward:
 - citric-acid-cycle-mechanism
 - metabolic-integration-hormonal-regulation

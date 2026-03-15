@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: thermochemistry-heat-and-energy
   type: hard
+- id: free-energy-change-spontaneity-work
+  type: hard
 builds-toward:
 - proton-gradient-and-chemiosmotic-coupling
 tags:

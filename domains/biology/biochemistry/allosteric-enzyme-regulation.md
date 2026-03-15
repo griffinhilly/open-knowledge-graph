@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: equilibrium-expression-kc-kp-constants
   type: soft
+- id: le-chatelier-principle
+  type: hard
 builds-toward:
 - enzyme-cooperativity
 - metabolic-integration-hormonal-regulation

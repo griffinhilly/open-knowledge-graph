@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: chemical-equilibrium
   type: soft
+- id: rate-laws-experimental-determination-orders
+  type: soft
 builds-toward:
 - citric-acid-cycle-mechanism
 - pyruvate-dehydrogenase-complex

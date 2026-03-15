@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: differential-equations-intro
   type: soft
+- id: reaction-rate-and-factors-affecting-rate
+  type: hard
 builds-toward:
 - glycolysis
 - krebs-cycle

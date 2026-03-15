@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: functional-groups-overview
   type: soft
+- id: phosphorus-cycling-freshwater-marine
+  type: soft
 builds-toward:
 - purine-metabolism-biosynthesis
 - pyrimidine-metabolism-biosynthesis

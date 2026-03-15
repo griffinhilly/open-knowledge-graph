@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: photosynthesis-overview
   type: hard
+- id: equilibrium-expression-kc-kp-constants
+  type: soft
 tags:
 - metabolism
 - integration

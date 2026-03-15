@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: chemical-kinetics
   type: soft
+- id: rate-laws-experimental-determination-orders
+  type: hard
 builds-toward:
 - enzyme-inhibition-competitive
 - allosteric-enzyme-regulation

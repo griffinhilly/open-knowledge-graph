@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: population-growth-models
   type: hard
+- id: systems-of-first-order-linear-odes
+  type: hard
 builds-toward:
 - community-stability-resistance-resilience
 tags:

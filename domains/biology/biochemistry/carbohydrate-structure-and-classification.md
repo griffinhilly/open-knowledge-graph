@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: aldehyde-and-ketone-structure-and-nomenclature
   type: soft
+- id: carboxylic-acids-and-derivatives
+  type: soft
 builds-toward:
 - monosaccharides-isomers
 - disaccharides-and-polysaccharides

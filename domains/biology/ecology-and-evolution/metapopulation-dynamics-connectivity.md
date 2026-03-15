@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: island-biogeography
   type: soft
+- id: systems-of-first-order-linear-odes
+  type: soft
 builds-toward:
 - conservation-genetics-effective-size
 - extinction-vortex-populations
