@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: expected-value
   type: soft
+- id: probability-axioms
+  type: soft
 tags:
 - information-theory
 - entropy

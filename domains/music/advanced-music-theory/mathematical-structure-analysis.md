@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: transformational-analysis-music
   type: soft
+- id: set-fundamentals
+  type: soft
 builds-toward:
 - entropy-predictability-music
 tags:

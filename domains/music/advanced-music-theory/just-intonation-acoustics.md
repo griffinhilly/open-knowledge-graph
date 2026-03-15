@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: rational-numbers-operations
   type: soft
+- id: ratios
+  type: soft
 builds-toward:
 - microtonal-systems-analysis
 - spectral-composition-acoustics

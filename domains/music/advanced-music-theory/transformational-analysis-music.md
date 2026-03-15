@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: group-definition-and-examples
   type: soft
+- id: function-composition-and-inverses
+  type: soft
 builds-toward:
 - voice-leading-graph-theory
 - neo-riemannian-analysis-advanced

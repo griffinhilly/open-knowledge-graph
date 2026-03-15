@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: graph-theory-fundamentals
   type: soft
+- id: vector-spaces
+  type: soft
 builds-toward:
 - hexatonic-systems
 tags:

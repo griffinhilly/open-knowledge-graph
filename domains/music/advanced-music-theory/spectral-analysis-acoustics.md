@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: harmonic-rhythm
   type: soft
+- id: fourier-series-definition
+  type: soft
 builds-toward:
 - orchestral-timbre-analysis
 tags:

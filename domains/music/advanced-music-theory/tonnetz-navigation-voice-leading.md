@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: neo-riemannian-operations
   type: hard
+- id: graph-theory-fundamentals
+  type: soft
 builds-toward:
 - triadic-transformation-cycles
 - neo-riemannian-voice-leading-graphs

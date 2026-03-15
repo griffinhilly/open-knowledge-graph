@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: schenkerian-interruption-structure
   type: soft
+- id: cycle-notation-and-decomposition
+  type: soft
 builds-toward:
 - formal-analysis-deformation
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: group-definition-and-examples
   type: soft
+- id: function-composition-and-inverses
+  type: soft
 builds-toward:
 - post-tonal-harmonic-analysis
 tags:

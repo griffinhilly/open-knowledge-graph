@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: ratios
   type: soft
+- id: proportions
+  type: soft
 builds-toward:
 - isorhythmic-structures-modern
 tags:

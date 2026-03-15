@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ratios
   type: soft
+- id: proportions
+  type: soft
 tags:
 - polymetric
 - polyrhythmic

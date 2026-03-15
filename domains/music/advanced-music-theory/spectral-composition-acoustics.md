@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: extended-instrumental-techniques
   type: soft
+- id: fourier-series-definition
+  type: soft
 builds-toward:
 - timbre-frequency-domain
 tags:

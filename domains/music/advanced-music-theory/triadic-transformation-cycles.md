@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cycle-notation-and-decomposition
   type: soft
+- id: group-definition-and-examples
+  type: soft
 builds-toward:
 - neo-riemannian-voice-leading-graphs
 - formal-analysis-deformation

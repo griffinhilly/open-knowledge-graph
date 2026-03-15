@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: ratios
   type: soft
+- id: proportional-relationships
+  type: soft
 builds-toward:
 - temporal-proportions-ratios
 - free-jazz-organizational-structures

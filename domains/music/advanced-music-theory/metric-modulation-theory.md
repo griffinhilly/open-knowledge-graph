@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: ratios
   type: soft
+- id: proportional-relationships
+  type: soft
 builds-toward:
 - polymeter-analysis-advanced
 - minimalism-phase-structures

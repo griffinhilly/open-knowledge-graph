@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: bayes-theorem
   type: soft
+- id: probability-axioms
+  type: soft
 builds-toward:
 - psychoacoustics-perception-theory
 tags:
