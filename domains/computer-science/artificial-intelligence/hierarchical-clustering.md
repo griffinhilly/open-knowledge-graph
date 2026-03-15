@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vector-spaces
   type: soft
+- id: metric-spaces-definition
+  type: soft
 tags:
 - clustering
 - unsupervised-learning

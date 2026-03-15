@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: probability-axioms
   type: soft
+- id: sampling
+  type: soft
+- id: statistics-descriptive
+  type: soft
 builds-toward:
 - hyperparameter-optimization
 tags:

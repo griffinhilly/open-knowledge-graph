@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: constrained-optimization
   type: soft
+- id: partial-derivatives
+  type: soft
+- id: optimization-problems
+  type: soft
 tags:
 - learning-theory
 - overfitting-prevention

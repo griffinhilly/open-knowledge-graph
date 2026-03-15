@@ -6,6 +6,10 @@ course: artificial-intelligence
 prerequisites:
 - id: neural-networks-intro
   type: hard
+- id: vector-spaces-definition
+  type: soft
+- id: dot-product
+  type: soft
 tags:
 - nlp
 - embeddings

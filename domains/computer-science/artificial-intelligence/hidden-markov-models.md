@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conditional-probability
   type: soft
+- id: probability-mass-functions
+  type: hard
 tags:
 - markov-models
 - sequence-models

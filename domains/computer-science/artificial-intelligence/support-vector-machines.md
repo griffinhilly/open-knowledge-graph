@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: optimization-multivariable-basics
   type: soft
+- id: optimization-problems
+  type: hard
 tags:
 - supervised-learning
 - classification

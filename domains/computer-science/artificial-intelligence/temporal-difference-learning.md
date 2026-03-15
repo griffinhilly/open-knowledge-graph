@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: markov-decision-processes
   type: hard
+- id: markov-chains
+  type: hard
+- id: expected-value
+  type: soft
 builds-toward:
 - deep-q-networks
 - q-learning

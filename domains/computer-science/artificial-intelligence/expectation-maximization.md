@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: conditional-expectation
   type: soft
+- id: optimization-problems
+  type: soft
 builds-toward:
 - mixture-models
 - latent-variable-models

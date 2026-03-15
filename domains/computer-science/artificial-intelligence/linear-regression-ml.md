@@ -20,6 +20,10 @@ prerequisites:
   type: soft
 - id: least-squares-approximation
   type: soft
+- id: matrix-operations
+  type: hard
+- id: statistics-descriptive
+  type: soft
 tags:
 - supervised-learning
 - regression

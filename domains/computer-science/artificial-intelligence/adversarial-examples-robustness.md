@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: ai-ethics-fairness-bias
   type: soft
+- id: partial-derivatives
+  type: soft
+- id: optimization-problems
+  type: soft
 tags:
 - adversarial-ml
 - robustness

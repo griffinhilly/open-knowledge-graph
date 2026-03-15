@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: soft
+- id: probability
+  type: soft
 tags:
 - optimization
 - learning-algorithms

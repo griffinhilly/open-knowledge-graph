@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: hyperparameter-optimization
   type: soft
+- id: gradient-descent-optimization
+  type: soft
 tags:
 - transfer-learning
 - optimization

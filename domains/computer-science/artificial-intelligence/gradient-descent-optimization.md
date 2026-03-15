@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: derivatives-of-exponential-functions
   type: soft
+- id: multivariable-limits
+  type: hard
 tags:
 - optimization
 - first-order-methods

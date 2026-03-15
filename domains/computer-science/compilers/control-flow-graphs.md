@@ -6,6 +6,8 @@ course: compilers
 prerequisites:
 - id: intermediate-code-representation
   type: hard
+- id: graph-theory-fundamentals
+  type: soft
 builds-toward:
 - dataflow-analysis
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hash-function-design-properties
   type: soft
+- id: probability
+  type: soft
 tags:
 - hashing
 - probabilistic

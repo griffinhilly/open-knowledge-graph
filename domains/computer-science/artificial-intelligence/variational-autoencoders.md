@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: probability-distributions
   type: soft
+- id: probability-density-functions
+  type: hard
+- id: expected-value
+  type: soft
 tags:
 - generative-models
 - probabilistic-models

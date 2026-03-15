@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: dot-product-definition
   type: soft
+- id: matrix-operations
+  type: hard
 tags:
 - deep-learning
 - attention

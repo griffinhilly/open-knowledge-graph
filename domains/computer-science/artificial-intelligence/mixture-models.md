@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: probability-density-functions
   type: soft
+- id: expected-value
+  type: soft
 builds-toward:
 - probabilistic-clustering
 - latent-class-analysis

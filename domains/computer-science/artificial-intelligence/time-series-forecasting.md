@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: supervised-learning-intro
   type: hard
+- id: probability-density-functions
+  type: soft
+- id: markov-chains
+  type: soft
 builds-toward:
 - temporal-dependencies
 - seq2seq-models

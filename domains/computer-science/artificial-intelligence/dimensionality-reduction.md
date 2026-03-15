@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: eigenvalues-and-eigenvectors
   type: soft
+- id: linear-transformations
+  type: soft
 tags:
 - unsupervised-learning
 - feature-reduction

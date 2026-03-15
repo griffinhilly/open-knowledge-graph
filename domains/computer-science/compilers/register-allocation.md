@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: instruction-set-architecture
   type: soft
+- id: graph-coloring
+  type: hard
 builds-toward:
 - code-generation
 tags:

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: stochastic-gradient-descent
   type: hard
+- id: mean-median-mode
+  type: soft
+- id: variance-of-random-variables
+  type: soft
 tags:
 - normalization
 - regularization

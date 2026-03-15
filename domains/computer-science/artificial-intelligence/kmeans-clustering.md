@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: optimization-multivariable-basics
   type: soft
+- id: optimization-problems
+  type: soft
+- id: metric-spaces-definition
+  type: soft
 tags:
 - unsupervised-learning
 - clustering

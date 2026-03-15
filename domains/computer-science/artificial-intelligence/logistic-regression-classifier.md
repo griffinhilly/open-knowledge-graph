@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: partial-derivatives
   type: soft
+- id: derivatives-of-logarithmic-functions
+  type: soft
+- id: conditional-probability
+  type: soft
 tags:
 - supervised-learning
 - classification

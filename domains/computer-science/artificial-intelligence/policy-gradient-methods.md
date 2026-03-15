@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: expected-value
   type: soft
+- id: partial-derivatives
+  type: hard
 tags:
 - reinforcement-learning
 - policy-optimization

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: linear-transformations
   type: soft
+- id: gradient-descent-optimization
+  type: soft
 builds-toward:
 - fine-tuning-pretrained-models
 tags:

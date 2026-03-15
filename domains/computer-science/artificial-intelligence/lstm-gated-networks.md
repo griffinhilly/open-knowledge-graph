@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: soft
+- id: matrix-operations
+  type: hard
 tags:
 - deep-learning
 - sequence-models

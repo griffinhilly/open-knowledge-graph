@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fixpoint-computation
   type: hard
+- id: graph-theory-fundamentals
+  type: soft
 builds-toward:
 - reaching-definitions-analysis
 - live-variable-analysis

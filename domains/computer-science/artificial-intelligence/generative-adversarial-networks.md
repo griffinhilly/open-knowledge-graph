@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: optimization-multivariable-basics
   type: soft
+- id: optimization-problems
+  type: hard
+- id: probability-density-functions
+  type: soft
 tags:
 - deep-learning
 - generative-models

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: algorithm-design-basics
   type: soft
+- id: metric-spaces-definition
+  type: soft
 tags:
 - clustering
 - density-based

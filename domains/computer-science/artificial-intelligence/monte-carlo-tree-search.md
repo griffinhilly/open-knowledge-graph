@@ -6,6 +6,10 @@ course: artificial-intelligence
 prerequisites:
 - id: algorithm-design-basics
   type: hard
+- id: probability
+  type: soft
+- id: expected-value
+  type: soft
 tags:
 - search
 - monte-carlo
