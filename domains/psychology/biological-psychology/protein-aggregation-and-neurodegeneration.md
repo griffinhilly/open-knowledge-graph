@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: protein-folding-and-chaperones
   type: soft
+- id: protein-denaturation-and-renaturation
+  type: soft
 builds-toward:
 - alzheimers-disease-pathology
 - parkinsons-disease-pathology

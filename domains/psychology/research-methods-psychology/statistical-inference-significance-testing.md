@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: hypothesis-test-framework
   type: hard
+- id: central-limit-theorem-rigorous
+  type: hard
 builds-toward:
 - effect-size-practical-significance-reporting
 tags:

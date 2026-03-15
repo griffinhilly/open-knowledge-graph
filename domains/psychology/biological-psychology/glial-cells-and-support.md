@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: astrocytes
   type: soft
+- id: glial-cells-structure-function
+  type: soft
 builds-toward:
 - neuroplasticity
 - psychopharmacology-basics

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: mitochondria-structure-and-function
   type: soft
+- id: atp-synthesis
+  type: soft
 builds-toward:
 - neurodegenerative-disease-pathology
 - cognitive-aging-and-decline

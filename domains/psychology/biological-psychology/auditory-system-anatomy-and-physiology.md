@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: auditory-system-overview
   type: hard
+- id: auditory-transduction
+  type: hard
 tags:
 - hearing
 - cochlea

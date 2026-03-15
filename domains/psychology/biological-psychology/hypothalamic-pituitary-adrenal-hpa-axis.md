@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: anterior-pituitary-hormone-axes
   type: hard
+- id: hypothalamic-pituitary-axis
+  type: soft
 builds-toward:
 - stress-response-and-coping
 - depression-and-hpa-dysregulation

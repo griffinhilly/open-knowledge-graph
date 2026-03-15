@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: eigenvalues-and-eigenvectors
   type: hard
+- id: matrix-operations
+  type: hard
 builds-toward:
 - structural-equation-modeling-measurement
 - validity-evidence-frameworks

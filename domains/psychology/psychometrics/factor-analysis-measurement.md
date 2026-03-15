@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: linear-algebra
   type: hard
+- id: basis-and-dimension
+  type: hard
 builds-toward:
 - confirmatory-factor-analysis
 - structural-equation-modeling-measurement

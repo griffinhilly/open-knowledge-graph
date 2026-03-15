@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: voltage-gated-sodium-channels
   type: hard
+- id: membrane-potential-and-ion-dynamics
+  type: hard
+- id: ion-channels-selectivity
+  type: hard
 builds-toward:
 - synaptic-transmission-neurotransmitter-release
 - myelin-and-saltatory-conduction

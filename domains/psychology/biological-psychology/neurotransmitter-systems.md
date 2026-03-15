@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: enzyme-kinetics
   type: soft
+- id: receptor-signaling-pathways
+  type: hard
 builds-toward:
 - receptor-types-and-signaling
 - psychopharmacology-basics

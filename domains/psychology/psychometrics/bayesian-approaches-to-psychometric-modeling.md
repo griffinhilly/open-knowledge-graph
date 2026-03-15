@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: probability-distributions
   type: hard
+- id: bayesian-inference-foundations
+  type: hard
+- id: bayes-theorem-and-inference
+  type: hard
 tags:
 - bayesian
 - irt

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: somatosensory-system
   type: soft
+- id: pain-nociception-processing
+  type: hard
 tags:
 - touch
 - pain

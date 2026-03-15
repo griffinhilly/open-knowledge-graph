@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: ion-channels-and-neural-excitability
   type: hard
+- id: ion-channels-selectivity
+  type: hard
+- id: voltage-gated-sodium-channels
+  type: hard
 builds-toward:
 - action-potential-and-neural-signaling
 - resting-membrane-potential-pharmacology

@@ -14,6 +14,10 @@ prerequisites:
   type: hard
 - id: multivariable-functions-intro
   type: soft
+- id: matrix-operations
+  type: hard
+- id: eigenvalues-and-eigenvectors
+  type: hard
 builds-toward:
 - dimensionality-assessment-and-bifactor-models
 tags:

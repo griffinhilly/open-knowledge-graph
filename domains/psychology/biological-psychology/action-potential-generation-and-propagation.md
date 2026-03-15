@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: ion-channels-selectivity
   type: hard
+- id: myelin-and-myelination
+  type: hard
 builds-toward:
 - synaptic-transmission-process
 tags:

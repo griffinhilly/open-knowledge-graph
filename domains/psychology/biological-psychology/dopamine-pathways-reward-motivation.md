@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: reward-dopamine-systems
   type: soft
+- id: dopamine-system
+  type: soft
 builds-toward:
 - addiction-and-reward-system-plasticity
 - motivation-and-goal-directed-behavior

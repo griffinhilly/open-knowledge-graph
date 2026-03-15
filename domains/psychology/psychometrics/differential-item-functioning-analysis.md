@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: chi-square-test
   type: soft
+- id: chi-square-distribution-theory
+  type: soft
+- id: chi-square-test-independence-theory
+  type: soft
 builds-toward:
 - measurement-invariance-equivalence
 tags:

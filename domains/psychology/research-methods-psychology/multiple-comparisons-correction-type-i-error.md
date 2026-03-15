@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: conditional-probability
   type: hard
+- id: multiple-comparisons-and-corrections
+  type: hard
+- id: type-i-type-ii-error-tradeoffs
+  type: hard
 builds-toward:
 - exploratory-vs-confirmatory-analysis-strategies
 tags:

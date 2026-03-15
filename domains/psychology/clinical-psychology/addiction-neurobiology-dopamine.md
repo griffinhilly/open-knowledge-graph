@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: reward-motivation-circuits
   type: hard
+- id: dopamine-system
+  type: soft
 tags:
 - addiction
 - neurobiology

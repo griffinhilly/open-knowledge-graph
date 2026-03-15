@@ -3,7 +3,9 @@ id: neuron-morphology-and-classification
 title: Neuron Morphology and Classification
 domain: psychology
 course: biological-psychology
-prerequisites: []
+prerequisites:
+- id: neuron-structure-and-function
+  type: soft
 builds-toward:
 - membrane-potential-and-ion-dynamics
 - synaptic-transmission-process

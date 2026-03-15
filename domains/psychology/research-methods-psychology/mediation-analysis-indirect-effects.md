@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: linear-regression
   type: soft
+- id: correlation-coefficient
+  type: hard
 builds-toward:
 - moderation-analysis-interaction-effects
 - exploratory-vs-confirmatory-analysis-strategies

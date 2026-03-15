@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: cell-signaling-intro
   type: hard
+- id: receptor-signaling-pathways
+  type: hard
+- id: intracellular-signaling-and-second-messengers
+  type: hard
 builds-toward:
 - pharmacology-agonists-antagonists
 - dopamine-pathways-reward-motivation

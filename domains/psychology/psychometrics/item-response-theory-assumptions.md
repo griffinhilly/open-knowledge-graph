@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: probability-mass-functions
   type: hard
+- id: probability-axioms
+  type: hard
 builds-toward:
 - ability-parameter-estimation-theta-estimation
 - classical-vs-irt-item-analysis

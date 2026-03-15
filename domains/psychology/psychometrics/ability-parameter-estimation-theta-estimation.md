@@ -6,6 +6,8 @@ course: psychometrics
 prerequisites:
 - id: item-response-theory-assumptions
   type: hard
+- id: maximum-likelihood-estimation-theory
+  type: hard
 builds-toward:
 - item-information-function-test-precision
 tags:

@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: hypothalamic-pituitary-axis
   type: hard
+- id: endocrine-system-overview
+  type: soft
 tags:
 - hypothalamus
 - pituitary

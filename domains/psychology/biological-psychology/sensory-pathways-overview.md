@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: sensory-transduction
   type: hard
+- id: sensory-system-overview
+  type: hard
 builds-toward:
 - visual-processing-pathway
 - auditory-processing-pathway
