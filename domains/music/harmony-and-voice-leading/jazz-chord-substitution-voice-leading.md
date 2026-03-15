@@ -1,28 +1,32 @@
 ---
 id: jazz-chord-substitution-voice-leading
-title: 'Jazz Harmony: Chord Substitution and Voice Leading'
+title: Jazz Chord Substitution and Reharmonization
 domain: music
 course: harmony-and-voice-leading
 prerequisites:
 - id: jazz-harmony-basics
   type: hard
-- id: voice-leading-smooth-progressions
+- id: secondary-dominants
+  type: hard
+- id: voice-leading-principles
   type: hard
 builds-toward:
-- reharmonization-voice-leading-techniques
+- extended-harmony-voice-leading-handling
 tags:
-- jazz-harmony
+- jazz
 - substitution
-- voice-leading
 - reharmonization
 stage: abstract-reasoning
 status: draft
 ---
 
-# Jazz Harmony: Chord Substitution and Voice Leading
+# Jazz Chord Substitution and Reharmonization
 
 ## Core Idea
-Jazz harmony substitutes chords freely while prioritizing smooth voice leading between chords. Tritone substitution, modal interchange, and upper-structure voicings are common techniques where the principle of voice leading smoothness is paramount: even unconventional chord choices become acceptable if the voice leading is smooth. The voice leading efficiency often determines which substitution is chosen, making voice leading both a technical necessity and an aesthetic choice in jazz context.
+Jazz musicians substitute and reharmonize chords to create new harmonic colors while maintaining voice-leading logic. Tritone substitutions, secondary dominants, and chromatic approach chords extend the harmonic vocabulary. Voice-leading principles guide which substitutions work smoothly and which create jarring or effective transitions.
 
 ## How It's Best Learned
-Take a jazz standard changes and reharmonize it using tritone substitutions, parallel iv chords, or other alterations while maintaining smooth voice leading. Listen to how professional jazz pianists voice substitutions to understand the voice leading priorities.
+Reharmonize a simple melody using secondary dominants and tritone subs. Sing or play the result to hear which substitutions work musically. Study real jazz lead sheets to see how professionals substitute.
+
+## Common Misconceptions
+Substitutions are not random; they work because they share common tones or have strong voice-leading connections. Not every possible substitution sounds good.
