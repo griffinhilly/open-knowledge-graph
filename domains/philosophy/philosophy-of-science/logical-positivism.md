@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: philosophy-of-science-intro
   type: soft
+- id: first-order-logic-syntax
+  type: soft
 builds-toward:
 - verificationism-principle-meaning
 - popper-falsificationism

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: probabilistic-reasoning
   type: hard
+- id: probabilistic-computation
+  type: soft
 builds-toward:
 - scientific-realism
 - causal-explanation-science

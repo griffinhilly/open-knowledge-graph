@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: deductive-reasoning-and-formal-proofs
   type: soft
+- id: first-order-logic-syntax
+  type: soft
 builds-toward:
 - inductive-statistical-model-of-explanation
 tags:

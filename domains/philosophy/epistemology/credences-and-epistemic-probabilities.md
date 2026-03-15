@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: probabilistic-reasoning
   type: soft
+- id: probabilistic-computation
+  type: soft
 builds-toward:
 - conditionalization-and-bayesian-updating
 - evidential-support-formalization

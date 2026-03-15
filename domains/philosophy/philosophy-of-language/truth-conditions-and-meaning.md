@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: propositional-semantics
   type: soft
+- id: first-order-logic-syntax
+  type: soft
 builds-toward:
 - intensionality-and-opacity
 - proposition-and-semantic-content

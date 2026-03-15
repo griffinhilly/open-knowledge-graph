@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bayesian-confirmation-science
   type: soft
+- id: first-order-logic-syntax
+  type: soft
 tags:
 - evidence
 - confirmation

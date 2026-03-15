@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: probabilistic-reasoning
   type: hard
+- id: probabilistic-computation
+  type: soft
 tags:
 - Bayesianism
 - credences

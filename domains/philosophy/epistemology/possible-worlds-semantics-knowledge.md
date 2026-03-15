@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: possible-worlds-semantics
   type: soft
+- id: modal-semantics-possible-worlds
+  type: soft
 builds-toward:
 - epistemic-accessibility-relations
 - closure-principles-formalized

@@ -6,6 +6,8 @@ course: epistemology
 prerequisites:
 - id: justified-true-belief
   type: hard
+- id: first-order-logic-syntax
+  type: soft
 builds-toward:
 - justification-structures-and-hierarchies
 tags:

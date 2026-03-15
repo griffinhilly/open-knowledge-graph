@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: philosophy-of-language-intro
   type: soft
+- id: first-order-logic-syntax
+  type: soft
 builds-toward:
 - truth-conditions-and-meaning
 - compositionality-principle

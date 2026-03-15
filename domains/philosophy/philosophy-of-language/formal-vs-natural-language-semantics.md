@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: first-order-semantics
   type: hard
+- id: model-theory-basics
+  type: soft
 builds-toward:
 - semantic-underdetermination-context
 tags:

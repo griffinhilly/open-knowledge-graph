@@ -6,6 +6,8 @@ course: epistemology
 prerequisites:
 - id: knowledge-and-belief-operators
   type: hard
+- id: modal-logic-intro
+  type: soft
 tags:
 - factivity
 - knowledge-truth

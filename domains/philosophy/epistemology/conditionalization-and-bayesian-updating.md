@@ -6,6 +6,8 @@ course: epistemology
 prerequisites:
 - id: credences-and-epistemic-probabilities
   type: hard
+- id: probabilistic-computation
+  type: soft
 builds-toward:
 - evidential-support-formalization
 tags:

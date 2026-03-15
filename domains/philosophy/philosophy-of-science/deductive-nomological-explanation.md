@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: deductive-reasoning
   type: hard
+- id: first-order-logic-syntax
+  type: soft
 builds-toward:
 - covering-law-model-explanation
 - causal-explanation-science

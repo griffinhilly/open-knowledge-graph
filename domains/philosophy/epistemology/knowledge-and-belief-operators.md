@@ -6,6 +6,8 @@ course: epistemology
 prerequisites:
 - id: epistemic-accessibility-relations
   type: hard
+- id: modal-logic-intro
+  type: soft
 builds-toward:
 - factive-knowledge-operator
 - higher-order-knowledge-iteration

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: modal-semantics-possible-worlds
   type: hard
+- id: modal-logic-intro
+  type: soft
 builds-toward:
 - abstract-objects-existence
 tags:

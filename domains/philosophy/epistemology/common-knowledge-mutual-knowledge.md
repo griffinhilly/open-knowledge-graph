@@ -6,6 +6,8 @@ course: epistemology
 prerequisites:
 - id: knowledge-and-belief-operators
   type: hard
+- id: first-order-logic-syntax
+  type: soft
 builds-toward:
 - collective-knowledge-and-group-epistemology
 tags:

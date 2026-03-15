@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: inductive-reasoning
   type: hard
+- id: first-order-logic-syntax
+  type: soft
 builds-toward:
 - bayesian-confirmation-science
 - logical-positivism
