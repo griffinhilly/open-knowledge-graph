@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: neural-anatomy-and-organization
   type: soft
+- id: sensory-neural-coding-perception
+  type: soft
 builds-toward:
 - infant-motor-development
 - attachment-theory-and-bonding

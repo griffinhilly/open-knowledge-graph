@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: protein-kinase-signaling-cascades
   type: hard
+- id: apoptosis-cell-death
+  type: hard
 builds-toward:
 - myocardial-infarction-pathophysiology
 - acute-kidney-injury-mechanisms

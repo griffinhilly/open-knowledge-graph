@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: aromatic-compounds-intro
   type: soft
+- id: oxidation-reduction-reactions
+  type: soft
 tags:
 - antioxidants
 - phytochemicals

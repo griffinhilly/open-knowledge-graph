@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: lipoproteins-structure-and-transport
   type: soft
+- id: fatty-acid-structure-and-classification
+  type: soft
 builds-toward:
 - lipid-profiles-cardiovascular-health-and-disease-risk
 - nutrient-interactions-synergies-and-antagonisms

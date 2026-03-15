@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: glucose-homeostasis-fed-fasted-metabolic-states
   type: soft
+- id: insulin-glucagon-glucose-homeostasis
+  type: hard
 builds-toward:
 - diabetic-nephropathy
 - diabetic-retinopathy

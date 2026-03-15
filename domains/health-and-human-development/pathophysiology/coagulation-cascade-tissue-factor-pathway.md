@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: complement-cascade-and-pathways
   type: soft
+- id: coagulation-cascade-and-pathways
+  type: hard
 builds-toward:
 - disseminated-intravascular-coagulation
 - myocardial-infarction-pathophysiology

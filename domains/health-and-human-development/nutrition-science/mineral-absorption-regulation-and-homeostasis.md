@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: intestinal-mucosal-absorption-nutrient-transport
   type: soft
+- id: ion-channels-selectivity
+  type: soft
 builds-toward:
 - nutrient-interactions-synergies-and-antagonisms
 - bone-remodeling-and-homeostasis

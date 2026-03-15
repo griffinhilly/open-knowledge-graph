@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: gpcr-metabotropic-signaling
   type: soft
+- id: hormone-signaling-mechanisms
+  type: hard
 builds-toward:
 - endocrine-regulation-feedback
 - metabolic-hormones-glucose-control

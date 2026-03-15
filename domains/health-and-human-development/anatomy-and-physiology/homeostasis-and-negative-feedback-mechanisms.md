@@ -3,7 +3,9 @@ id: homeostasis-and-negative-feedback-mechanisms
 title: Homeostasis and Negative Feedback Mechanisms
 domain: health-and-human-development
 course: anatomy-and-physiology
-prerequisites: []
+prerequisites:
+- id: homeostasis-and-feedback
+  type: hard
 builds-toward:
 - anatomical-terminology-and-body-compartments
 - kidney-anatomy-and-urine-formation

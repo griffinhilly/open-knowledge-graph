@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nutrient-digestion-and-absorption
   type: hard
+- id: carbohydrate-structure-and-classification
+  type: soft
 builds-toward:
 - glycemic-index-load-and-postprandial-glucose
 - glucose-homeostasis-fed-fasted-metabolic-states

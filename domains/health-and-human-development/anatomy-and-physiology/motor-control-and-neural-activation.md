@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: neural-transmission-and-synaptic-integration
   type: soft
+- id: motor-control-spinal-coordination
+  type: hard
 builds-toward:
 - motor-cortex-and-coordination
 - sensory-integration-and-movement

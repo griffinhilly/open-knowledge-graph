@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: action-potential
   type: hard
+- id: cardiac-electrophysiology-action-potentials
+  type: hard
 builds-toward:
 - blood-vessels-and-circulation
 tags:

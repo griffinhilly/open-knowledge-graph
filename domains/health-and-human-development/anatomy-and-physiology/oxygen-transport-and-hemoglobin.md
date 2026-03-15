@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: blood-composition-and-function
   type: hard
+- id: hemoglobin-cooperativity-oxygen-binding
+  type: hard
 builds-toward:
 - acid-base-homeostasis-physiology
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: neonatal-reflexes-and-sensory-capabilities
   type: soft
+- id: sensory-transduction-and-encoding
+  type: hard
 builds-toward:
 - emotion-recognition-and-interpretation
 - peer-relationships-and-social-competence

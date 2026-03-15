@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: protein-primary-structure
   type: soft
+- id: amino-acid-structure-and-properties
+  type: soft
 builds-toward:
 - amino-acid-metabolism-and-protein-turnover
 - protein-quality-amino-acid-score-patterns

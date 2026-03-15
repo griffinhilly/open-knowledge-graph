@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: synaptogenesis-and-circuit-development
   type: soft
+- id: synaptic-plasticity-long-term-potentiation-depression
+  type: hard
 builds-toward:
 - executive-function-development-components
 - abstract-reasoning-and-hypothetical-thinking

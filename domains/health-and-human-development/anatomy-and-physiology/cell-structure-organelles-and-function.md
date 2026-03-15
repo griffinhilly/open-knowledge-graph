@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: eukaryotic-cells
   type: soft
+- id: cell-structure-organelles-and-function
+  type: hard
 builds-toward:
 - epithelial-and-connective-tissue-types
 - skeletal-muscle-anatomy-and-contraction

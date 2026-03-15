@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: blood-pressure-regulation
   type: soft
+- id: hemostasis-coagulation-cascade
+  type: hard
 builds-toward:
 - myocardial-infarction-pathophysiology
 - stroke-pathophysiology

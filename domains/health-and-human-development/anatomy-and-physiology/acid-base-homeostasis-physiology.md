@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: oxygen-transport-and-hemoglobin
   type: hard
+- id: buffer-chemistry
+  type: soft
 builds-toward:
 - renal-regulation-acid-base
 - respiratory-compensation-and-control
