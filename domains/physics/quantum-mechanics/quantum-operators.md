@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: eigenvalues-eigenvectors
   type: hard
+- id: linear-transformations
+  type: hard
 builds-toward:
 - quantum-observables
 - eigenvalues-eigenstates-quantum

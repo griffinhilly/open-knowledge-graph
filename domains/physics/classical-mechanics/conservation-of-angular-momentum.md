@@ -6,6 +6,8 @@ course: classical-mechanics
 prerequisites:
 - id: angular-momentum
   type: hard
+- id: cross-product-3d
+  type: soft
 builds-toward:
 - keplers-laws
 tags:

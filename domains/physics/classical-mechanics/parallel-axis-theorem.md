@@ -6,6 +6,8 @@ course: classical-mechanics
 prerequisites:
 - id: moment-of-inertia
   type: hard
+- id: triple-integrals
+  type: soft
 builds-toward:
 - rotational-dynamics
 tags:

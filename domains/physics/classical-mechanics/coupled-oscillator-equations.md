@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: hard
+- id: differential-equations-intro
+  type: hard
 builds-toward:
 - normal-modes-oscillations
 tags:

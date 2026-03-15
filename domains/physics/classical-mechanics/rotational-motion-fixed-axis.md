@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rotational-dynamics
   type: hard
+- id: converting-degrees-and-radians
+  type: soft
 builds-toward:
 - torque-angular-acceleration
 - rolling-motion-equations

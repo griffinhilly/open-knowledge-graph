@@ -6,6 +6,8 @@ course: classical-mechanics
 prerequisites:
 - id: lagrangian-mechanics-intro
   type: hard
+- id: partial-derivatives
+  type: hard
 tags:
 - hamiltonian
 - formalism

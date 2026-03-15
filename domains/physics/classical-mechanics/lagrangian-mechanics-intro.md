@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: work-and-energy
   type: hard
+- id: partial-derivatives
+  type: hard
+- id: lagrange-multipliers
+  type: soft
 builds-toward:
 - hamiltonian-mechanics-intro
 tags:

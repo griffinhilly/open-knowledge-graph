@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: angular-momentum-quantum
   type: hard
+- id: eigenvalues-eigenvectors
+  type: hard
 builds-toward:
 - hydrogen-atom-spectrum
 - fine-structure-splitting

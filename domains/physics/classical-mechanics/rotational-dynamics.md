@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: cross-product
   type: hard
+- id: converting-degrees-and-radians
+  type: soft
 builds-toward:
 - angular-momentum
 - conservation-of-angular-momentum

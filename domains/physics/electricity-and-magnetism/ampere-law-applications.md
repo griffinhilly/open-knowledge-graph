@@ -6,6 +6,8 @@ course: electricity-and-magnetism
 prerequisites:
 - id: biot-savart-law-applications
   type: hard
+- id: divergence-theorem
+  type: soft
 builds-toward:
 - faraday-law-electromagnetic-induction
 - lorentz-force-complete-em

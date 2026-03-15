@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: applications-integrals-area-mass
   type: hard
+- id: triple-integrals
+  type: soft
 builds-toward:
 - conservation-of-momentum
 - rotational-dynamics

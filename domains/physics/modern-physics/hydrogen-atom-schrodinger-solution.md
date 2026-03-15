@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: hydrogen-atom-quantum
   type: soft
+- id: eigenvalues-eigenvectors
+  type: hard
+- id: differential-equations-intro
+  type: hard
 builds-toward:
 - hydrogen-radial-wavefunction
 - principal-angular-magnetic-quantum-numbers

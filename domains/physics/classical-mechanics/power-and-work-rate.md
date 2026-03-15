@@ -6,6 +6,8 @@ course: classical-mechanics
 prerequisites:
 - id: work-and-energy
   type: hard
+- id: derivative-as-slope-of-tangent
+  type: soft
 builds-toward:
 - energy-dissipation-in-damped-oscillations
 tags:

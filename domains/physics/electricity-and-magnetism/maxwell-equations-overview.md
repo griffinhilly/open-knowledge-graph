@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: curl-and-divergence
   type: hard
+- id: divergence-theorem
+  type: soft
 tags:
 - maxwell
 - equations

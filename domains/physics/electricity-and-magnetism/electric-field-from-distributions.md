@@ -6,6 +6,8 @@ course: electricity-and-magnetism
 prerequisites:
 - id: coulomb-force-superposition
   type: hard
+- id: triple-integrals
+  type: soft
 builds-toward:
 - gauss-law-symmetry
 tags:

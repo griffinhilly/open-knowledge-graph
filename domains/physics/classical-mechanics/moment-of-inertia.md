@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: center-of-mass
   type: soft
+- id: triple-integrals
+  type: soft
 builds-toward:
 - rotational-dynamics
 - angular-momentum

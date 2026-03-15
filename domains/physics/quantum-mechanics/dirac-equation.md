@@ -6,6 +6,8 @@ course: quantum-mechanics
 prerequisites:
 - id: relativistic-quantum-mechanics
   type: hard
+- id: pauli-matrices
+  type: hard
 tags:
 - dirac-equation
 - relativistic
