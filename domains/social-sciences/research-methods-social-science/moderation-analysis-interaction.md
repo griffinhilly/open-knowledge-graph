@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: linear-regression
   type: soft
+- id: partial-derivatives
+  type: soft
 builds-toward:
 - three-way-interactions
 - heterogeneous-treatment-effects

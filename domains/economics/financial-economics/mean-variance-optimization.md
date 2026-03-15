@@ -22,6 +22,8 @@ prerequisites:
   type: hard
 - id: expected-value-theory
   type: hard
+- id: linear-programming
+  type: soft
 builds-toward:
 - efficient-frontier-portfolio-theory
 - capital-asset-pricing-model

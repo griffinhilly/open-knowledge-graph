@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: constrained-optimization-lagrange
   type: soft
+- id: optimization-multivariable-basics
+  type: soft
 builds-toward:
 - revelation-principle-mechanisms
 - vcg-auction-mechanism

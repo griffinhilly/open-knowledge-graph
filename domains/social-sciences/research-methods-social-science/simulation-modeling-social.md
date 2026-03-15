@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: random-variables-intro
   type: soft
+- id: markov-chains
+  type: soft
 builds-toward:
 - model-validation-social-simulation
 - complexity-social-systems

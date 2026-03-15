@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: bayes-theorem-and-inference
   type: soft
+- id: conditional-probability
+  type: soft
 builds-toward:
 - expectation-formation-mechanisms
 - phillips-curve-dynamics

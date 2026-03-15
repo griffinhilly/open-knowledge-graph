@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: partial-derivatives-basics
   type: soft
+- id: partial-derivatives
+  type: soft
 builds-toward:
 - conditional-indirect-effects
 - dynamic-mediation-models

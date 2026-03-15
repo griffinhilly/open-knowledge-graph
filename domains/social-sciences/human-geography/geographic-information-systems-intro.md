@@ -18,6 +18,8 @@ prerequisites:
   type: hard
 - id: matrix-operations
   type: soft
+- id: coordinate-geometry-proofs
+  type: soft
 builds-toward:
 - population-distribution-density
 - spatial-interaction-theory

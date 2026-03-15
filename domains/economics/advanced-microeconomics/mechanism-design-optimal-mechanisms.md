@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: constrained-optimization
   type: hard
+- id: constrained-optimization-lagrange
+  type: soft
 tags:
 - mechanism-design
 - auction-theory

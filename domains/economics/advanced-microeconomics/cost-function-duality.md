@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: duality-consumer-theory
   type: soft
+- id: constrained-optimization-lagrange
+  type: soft
 builds-toward:
 - conditional-factor-demand
 tags:

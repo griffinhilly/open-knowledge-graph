@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: systems-of-linear-equations
   type: soft
+- id: matrix-operations
+  type: soft
 builds-toward:
 - monetary-policy-transmission
 - fiscal-multipliers-macro

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: linear-regression
   type: hard
+- id: limits-continuity-multivariable
+  type: soft
 tags:
 - regression-discontinuity
 - threshold-assignment

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: residuals-and-goodness-of-fit
   type: soft
+- id: probability-axioms
+  type: soft
 builds-toward:
 - robust-standard-errors
 tags:

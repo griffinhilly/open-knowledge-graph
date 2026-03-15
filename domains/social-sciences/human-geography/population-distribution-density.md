@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: rates-of-change-preview
   type: soft
+- id: probability-density-functions
+  type: soft
 builds-toward:
 - demographic-transition-model
 - migration-theory-push-pull

@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: rates-of-change-preview
   type: soft
+- id: differential-equations-intro
+  type: hard
 builds-toward:
 - migration-theory-push-pull
 - development-geography

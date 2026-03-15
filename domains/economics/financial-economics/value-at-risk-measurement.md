@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: probability-distributions
   type: hard
+- id: normal-distribution-theory
+  type: soft
 tags:
 - var
 - risk-measurement

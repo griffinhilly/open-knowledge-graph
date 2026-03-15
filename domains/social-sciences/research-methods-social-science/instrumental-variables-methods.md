@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: linear-regression
   type: hard
+- id: matrix-multiplication
+  type: hard
 tags:
 - instrumental-variables
 - endogeneity

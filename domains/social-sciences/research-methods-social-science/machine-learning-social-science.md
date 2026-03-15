@@ -18,6 +18,10 @@ prerequisites:
   type: soft
 - id: algorithm-complexity
   type: soft
+- id: eigenvalues-and-eigenvectors
+  type: soft
+- id: linear-algebra-basics
+  type: soft
 builds-toward:
 - interpretable-machine-learning
 - fairness-bias-ml

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: conditional-probability
   type: soft
+- id: probability-axioms
+  type: soft
 builds-toward:
 - lemons-market
 - signaling-games

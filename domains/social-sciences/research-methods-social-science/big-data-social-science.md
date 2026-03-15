@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: statistics-descriptive
   type: soft
+- id: discrete-math-overview
+  type: soft
 builds-toward:
 - algorithmic-auditing
 - data-ethics-governance

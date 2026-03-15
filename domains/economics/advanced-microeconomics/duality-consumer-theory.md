@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: consumer-theory-utility
   type: hard
+- id: lagrange-multipliers
+  type: soft
 builds-toward:
 - cost-function-duality
 tags:

@@ -26,6 +26,8 @@ prerequisites:
   type: soft
 - id: distance-and-distance-formula-3d
   type: soft
+- id: optimization-multivariable-basics
+  type: soft
 builds-toward:
 - world-cities-global-hierarchy
 tags:

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: connected-components
   type: soft
+- id: network-centrality-measures
+  type: hard
 builds-toward:
 - computational-social-science-intro
 tags:

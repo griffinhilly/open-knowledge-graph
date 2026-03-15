@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: linear-transformation-matrix-representation
   type: soft
+- id: linear-regression
+  type: soft
 builds-toward:
 - gauss-markov-theorem-ols
 - estimator-consistency-unbiasedness

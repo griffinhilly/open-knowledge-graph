@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: probability-mass-functions
   type: soft
+- id: optimization-multivariable-basics
+  type: soft
 tags:
 - matching
 - stratification

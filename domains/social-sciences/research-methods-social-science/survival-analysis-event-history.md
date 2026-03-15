@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: probability-mass-functions
   type: soft
+- id: differential-equations-intro
+  type: hard
 tags:
 - survival-analysis
 - event-history

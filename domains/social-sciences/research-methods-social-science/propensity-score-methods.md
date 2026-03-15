@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: logistic-regression-binary-categorical
   type: soft
+- id: probability-density-functions
+  type: hard
 tags:
 - propensity-score
 - matching

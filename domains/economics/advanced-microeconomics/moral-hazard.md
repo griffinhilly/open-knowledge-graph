@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: principal-agent-model
   type: hard
+- id: probability-axioms
+  type: soft
 builds-toward:
 - screening-contracts
 tags:

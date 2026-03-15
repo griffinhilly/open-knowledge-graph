@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: constrained-optimization-lagrange
   type: soft
+- id: lagrange-multipliers
+  type: soft
 tags:
 - consumption-smoothing
 - permanent-income

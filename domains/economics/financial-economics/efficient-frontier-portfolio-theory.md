@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: quadratic-programming
   type: soft
+- id: linear-programming
+  type: soft
 builds-toward:
 - capital-asset-pricing-model
 - risk-adjusted-performance-measures

@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: fixed-point-iteration
   type: soft
+- id: optimization-multivariable-basics
+  type: soft
 builds-toward:
 - euler-equation-intertemporal-choice
 - solow-growth-model

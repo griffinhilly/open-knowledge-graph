@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: linear-algebra
   type: hard
+- id: expected-value-theory
+  type: soft
 builds-toward:
 - dynamic-panel-arellano-bond-estimator
 tags:
