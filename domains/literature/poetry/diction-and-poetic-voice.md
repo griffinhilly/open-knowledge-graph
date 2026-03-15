@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: word-choice-diction-effect
   type: soft
+- id: diction-and-register-in-argument
+  type: soft
 builds-toward:
 - stylistic-analysis-and-effect
 tags:

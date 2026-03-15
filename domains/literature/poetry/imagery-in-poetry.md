@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: sound-devices-in-poetry
   type: soft
+- id: sensory-imagery-and-description
+  type: soft
 builds-toward:
 - poetic-voice-and-tone
 - allegory-and-extended-metaphor

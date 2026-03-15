@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: poetic-voice-and-tone
   type: hard
+- id: register-formality-control
+  type: soft
 tags:
 - register
 - vocabulary

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: literary-criticism-overview
   type: soft
+- id: multilingualism-and-code-switching
+  type: soft
 builds-toward:
 - damrosch-world-literature-concept
 - literary-cosmopolitanism

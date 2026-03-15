@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: presupposition-and-semantic-content
   type: soft
+- id: conversational-implicature
+  type: soft
 builds-toward:
 - character-transformation-arc
 - monologue-and-soliloquy-craft

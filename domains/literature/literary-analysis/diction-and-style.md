@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: diction-word-choice-effect
   type: soft
+- id: diction-and-register-in-argument
+  type: soft
 builds-toward:
 - tone-and-mood
 - literary-argument-writing

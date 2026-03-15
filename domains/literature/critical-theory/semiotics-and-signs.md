@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: symbolic-representation-linguistics
   type: soft
+- id: semantic-types-and-composition
+  type: soft
 builds-toward:
 - post-structuralism
 - ideological-criticism

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conversation-analysis
   type: soft
+- id: conversational-implicature
+  type: soft
 builds-toward:
 - dramatic-tension-and-suspense
 - tragic-form-across-cultures

@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: language-variation-and-change
   type: soft
+- id: linguistic-typology
+  type: soft
 builds-toward:
 - benjamin-translation-task
 - venuti-foreignizing-translation

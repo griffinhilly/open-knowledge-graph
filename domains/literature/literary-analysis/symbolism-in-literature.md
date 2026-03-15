@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: figurative-language
   type: soft
+- id: symbolic-representation-linguistics
+  type: soft
 builds-toward:
 - allegory-and-extended-metaphor
 - thematic-development

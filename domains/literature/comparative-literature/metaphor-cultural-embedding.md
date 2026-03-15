@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: language-attitudes-and-ideology
   type: soft
+- id: metaphor-analogy-rhetorical-strategy
+  type: soft
 builds-toward:
 - symbolism-cultural-specific
 tags:

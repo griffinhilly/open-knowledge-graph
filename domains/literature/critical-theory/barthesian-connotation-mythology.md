@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: semiotics-and-signs
   type: soft
+- id: semantic-types-and-composition
+  type: soft
 builds-toward:
 - ideological-criticism
 - cultural-materialism

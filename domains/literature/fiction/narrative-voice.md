@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: dialogue-in-fiction
   type: soft
+- id: register-formality-control
+  type: soft
 builds-toward:
 - stream-of-consciousness
 tags:

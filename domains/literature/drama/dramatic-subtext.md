@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: implicature-and-logical-form
   type: soft
+- id: conversational-implicature
+  type: soft
 builds-toward:
 - modern-realist-drama
 tags:

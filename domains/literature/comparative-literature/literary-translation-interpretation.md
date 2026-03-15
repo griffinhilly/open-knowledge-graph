@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: linguistic-pragmatics
   type: soft
+- id: linguistic-typology
+  type: soft
 builds-toward:
 - digital-humanities-literary-analysis
 - literary-cosmopolitanism-ethics

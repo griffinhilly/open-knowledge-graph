@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: phoneme-inventory-analysis
   type: soft
+- id: phonological-features
+  type: soft
 builds-toward:
 - assonance-vowel-sound-repetition
 tags:

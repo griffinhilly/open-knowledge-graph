@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: phonological-rules-derivation
   type: soft
+- id: phoneme-inventory-analysis
+  type: soft
 builds-toward:
 - sonnet-form
 - villanelle-form

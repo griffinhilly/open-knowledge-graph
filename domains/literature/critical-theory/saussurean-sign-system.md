@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: symbolic-representation-linguistics
   type: soft
+- id: semantic-types-and-composition
+  type: soft
 builds-toward:
 - structuralist-semiotics-meaning
 - barthes-mythologies-culture

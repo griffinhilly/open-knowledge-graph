@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: register-formality-control
   type: soft
+- id: stylistic-analysis-and-imitation
+  type: soft
 builds-toward:
 - narrative-distance-focalization-theory
 - prose-rhythm-sentence-craft

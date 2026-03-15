@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: conversation-analysis
   type: soft
+- id: speech-act-theory
+  type: soft
 builds-toward:
 - subtext-and-unspoken-meaning
 - dramatic-exposition-revelation

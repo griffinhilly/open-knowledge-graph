@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: compositional-semantics
   type: soft
+- id: metaphor-analogy-rhetorical-strategy
+  type: soft
 builds-toward:
 - stylistic-analysis-and-effect
 tags:

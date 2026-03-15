@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: comparative-method-linguistics
   type: soft
+- id: multilingualism-and-code-switching
+  type: soft
 builds-toward:
 - untranslatable-cultural-specificity
 - postcolonial-translation-resistance

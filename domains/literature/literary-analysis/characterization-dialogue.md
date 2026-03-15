@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dialogue-subtext-meaning
   type: hard
+- id: speech-act-theory
+  type: soft
 builds-toward:
 - dialogue-analysis-and-function
 - character-interpretation-texts

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: character-arc-analysis
   type: soft
+- id: implicature-and-logical-form
+  type: soft
 tags:
 - characterization
 - motivation
