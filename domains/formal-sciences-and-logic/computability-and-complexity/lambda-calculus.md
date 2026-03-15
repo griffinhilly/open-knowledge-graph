@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: propositional-syntax
   type: soft
+- id: functions-and-function-properties
+  type: soft
+- id: composition-of-functions
+  type: soft
 builds-toward:
 - church-turing-thesis-formal
 - general-recursive-functions

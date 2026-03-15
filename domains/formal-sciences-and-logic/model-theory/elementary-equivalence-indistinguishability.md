@@ -6,6 +6,8 @@ course: model-theory
 prerequisites:
 - id: model-interpretation-and-satisfaction
   type: hard
+- id: equivalence-relations-and-equivalence-classes
+  type: soft
 builds-toward:
 - complete-first-order-theories
 - ehrenfeucht-fraisse-games-equivalence

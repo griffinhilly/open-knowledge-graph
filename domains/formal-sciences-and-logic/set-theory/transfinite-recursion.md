@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: well-ordering-principle
   type: soft
+- id: recursion-on-finite-structures
+  type: soft
 builds-toward:
 - infinite-cardinal-numbers
 - cofinality-and-regular-cardinals

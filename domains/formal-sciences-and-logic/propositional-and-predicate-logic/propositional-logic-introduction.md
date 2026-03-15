@@ -3,7 +3,11 @@ id: propositional-logic-introduction
 title: Introduction to Propositional Logic
 domain: formal-sciences-and-logic
 course: propositional-and-predicate-logic
-prerequisites: []
+prerequisites:
+- id: set-fundamentals
+  type: soft
+- id: boolean-algebra
+  type: soft
 builds-toward:
 - propositional-connectives
 - truth-assignments-and-valuations

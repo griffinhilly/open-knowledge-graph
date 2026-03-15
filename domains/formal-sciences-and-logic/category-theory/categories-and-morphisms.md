@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: injective-surjective-bijective
   type: soft
+- id: set-fundamentals
+  type: soft
+- id: functions-and-function-properties
+  type: soft
 builds-toward:
 - functors
 - isomorphisms-in-categories

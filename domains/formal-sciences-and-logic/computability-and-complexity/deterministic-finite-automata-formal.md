@@ -6,6 +6,10 @@ course: computability-and-complexity
 prerequisites:
 - id: turing-machines-formal
   type: soft
+- id: set-fundamentals
+  type: soft
+- id: binary-relations
+  type: soft
 builds-toward:
 - nondeterministic-finite-automata-formal
 - regular-expressions-and-languages

@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: limits-and-colimits
   type: soft
+- id: functions-and-function-properties
+  type: soft
+- id: composition-of-functions
+  type: soft
 builds-toward:
 - adjoint-functors
 - equivalence-of-categories

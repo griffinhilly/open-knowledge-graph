@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: decidability-and-undecidability
   type: soft
+- id: uncountable-sets-and-cantor-diagonalization
+  type: soft
+- id: set-fundamentals
+  type: soft
 builds-toward:
 - rices-theorem
 - re-and-co-re-languages

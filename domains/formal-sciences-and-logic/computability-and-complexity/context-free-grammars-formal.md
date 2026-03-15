@@ -6,6 +6,10 @@ course: computability-and-complexity
 prerequisites:
 - id: pushdown-automata-formal
   type: hard
+- id: set-fundamentals
+  type: soft
+- id: recursion-on-finite-structures
+  type: soft
 builds-toward:
 - linear-bounded-automata
 tags:

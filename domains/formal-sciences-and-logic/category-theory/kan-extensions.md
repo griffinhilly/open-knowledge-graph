@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: functor-categories
   type: soft
+- id: functions-and-function-properties
+  type: soft
 tags:
 - Kan extension
 - left Kan extension

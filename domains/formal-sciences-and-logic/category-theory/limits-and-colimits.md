@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: comma-categories
   type: soft
+- id: set-fundamentals
+  type: soft
+- id: functions-and-function-properties
+  type: soft
 builds-toward:
 - pullbacks-and-pushouts
 - adjoint-functors

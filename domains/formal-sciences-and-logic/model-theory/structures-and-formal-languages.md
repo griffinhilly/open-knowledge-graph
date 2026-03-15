@@ -6,6 +6,12 @@ course: model-theory
 prerequisites:
 - id: first-order-logic-syntax
   type: hard
+- id: set-fundamentals
+  type: soft
+- id: binary-relations
+  type: soft
+- id: functions-and-function-properties
+  type: soft
 builds-toward:
 - model-interpretation-and-satisfaction
 - structure-homomorphisms-embeddings

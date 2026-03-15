@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: general-recursive-functions
   type: soft
+- id: functions-and-function-properties
+  type: soft
+- id: recursion-on-finite-structures
+  type: soft
 builds-toward:
 - halting-problem-formal
 - computability-reductions

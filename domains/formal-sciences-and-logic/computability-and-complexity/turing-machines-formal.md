@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: set-theory-basics
   type: soft
+- id: algorithm-analysis-big-o
+  type: soft
+- id: set-fundamentals
+  type: soft
 builds-toward:
 - church-turing-thesis-formal
 - halting-problem-formal

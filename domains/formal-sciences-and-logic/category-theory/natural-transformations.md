@@ -6,6 +6,10 @@ course: category-theory
 prerequisites:
 - id: functors
   type: hard
+- id: functions-domain-codomain-range
+  type: soft
+- id: composition-of-functions
+  type: soft
 builds-toward:
 - functor-categories
 - yoneda-lemma

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: binary-relations
   type: soft
+- id: well-ordering-principle
+  type: soft
+- id: mathematical-induction
+  type: soft
 builds-toward:
 - successor-limit-and-von-neumann-ordinals
 tags:

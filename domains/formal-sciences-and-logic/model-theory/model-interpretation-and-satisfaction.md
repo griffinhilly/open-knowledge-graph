@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: set-membership-and-notation
   type: soft
+- id: set-fundamentals
+  type: soft
+- id: relations-as-set-subsets
+  type: soft
 builds-toward:
 - elementary-equivalence-indistinguishability
 - complete-first-order-theories

@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: graph-theory-fundamentals
   type: soft
+- id: algorithm-analysis-big-o
+  type: soft
+- id: complexity-classes-bounds
+  type: soft
 builds-toward:
 - cook-levin-theorem-formal
 - pspace-and-complexity-hierarchy

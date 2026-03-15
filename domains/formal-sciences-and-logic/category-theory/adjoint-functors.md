@@ -22,9 +22,13 @@ prerequisites:
   type: soft
 - id: yoneda-lemma
   type: soft
+- id: group-homomorphisms
+  type: soft
+- id: composition-of-functions
+  type: soft
 builds-toward:
-  - adjunction-unit-and-counit
-  - monads-in-category-theory
+- adjunction-unit-and-counit
+- monads-in-category-theory
 tags:
 - adjunction
 - left adjoint

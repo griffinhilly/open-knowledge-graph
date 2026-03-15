@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: transfinite-recursion
   type: soft
+- id: cardinal-numbers-basic-theory
+  type: soft
 builds-toward:
 - cantor-theorem
 - cardinal-arithmetic

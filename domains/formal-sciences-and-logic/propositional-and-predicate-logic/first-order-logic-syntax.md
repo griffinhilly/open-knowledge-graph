@@ -12,6 +12,12 @@ prerequisites:
   type: hard
 - id: set-membership-and-notation
   type: soft
+- id: set-fundamentals
+  type: soft
+- id: functions-and-function-properties
+  type: soft
+- id: relations-as-set-subsets
+  type: soft
 builds-toward:
 - first-order-semantics
 - natural-deduction-fol

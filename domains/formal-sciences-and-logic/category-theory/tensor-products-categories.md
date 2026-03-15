@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: limits-and-colimits
   type: hard
+- id: tensor-products-universal
+  type: soft
 builds-toward:
 - symmetric-monoidal-categories
 - compact-closed-categories

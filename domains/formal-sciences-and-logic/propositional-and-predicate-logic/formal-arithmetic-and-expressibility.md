@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: mathematical-induction
   type: soft
+- id: natural-numbers-as-iterative-construction
+  type: soft
+- id: arithmetic-functions-and-multiplicativity
+  type: soft
 builds-toward:
 - godels-incompleteness-theorems
 - decidability-and-undecidability

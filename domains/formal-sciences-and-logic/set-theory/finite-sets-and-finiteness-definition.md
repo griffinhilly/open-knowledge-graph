@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: injections-surjections-and-inverse-functions
   type: hard
+- id: counting-principles
+  type: soft
+- id: mathematical-induction
+  type: soft
 builds-toward:
 - recursion-on-finite-structures
 - countable-sets-and-enumeration

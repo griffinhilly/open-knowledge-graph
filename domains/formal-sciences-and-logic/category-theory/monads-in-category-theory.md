@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: lambda-calculus
   type: soft
+- id: composition-of-functions
+  type: soft
+- id: binary-operations-and-algebraic-structures
+  type: soft
 builds-toward:
 - algebras-over-a-monad
 tags:

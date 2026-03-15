@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: vector-spaces
   type: soft
+- id: composition-of-functions
+  type: soft
 tags:
 - derived functor
 - Ext

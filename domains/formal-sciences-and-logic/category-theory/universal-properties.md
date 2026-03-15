@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: isomorphisms-in-categories
   type: soft
+- id: set-operations
+  type: soft
+- id: functions-and-function-properties
+  type: soft
 builds-toward:
 - initial-and-terminal-objects
 - products-and-coproducts
