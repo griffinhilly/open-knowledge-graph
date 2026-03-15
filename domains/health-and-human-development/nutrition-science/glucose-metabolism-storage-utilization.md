@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: glucose-homeostasis-fed-fasted-metabolic-states
   type: soft
+- id: glycolysis
+  type: hard
+- id: gluconeogenesis
+  type: hard
+- id: glycogen-metabolism
+  type: soft
 builds-toward:
 - b-vitamin-coenzymes-energy-metabolism
 - metabolic-rate-thermogenesis-energy-expenditure

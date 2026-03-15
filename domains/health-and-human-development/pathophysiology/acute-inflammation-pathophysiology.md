@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: inflammation-innate-response
   type: soft
+- id: inflammatory-mediators-cytokines-and-chemokines
+  type: hard
 builds-toward:
 - chronic-inflammation
 - atherosclerosis-pathophysiology

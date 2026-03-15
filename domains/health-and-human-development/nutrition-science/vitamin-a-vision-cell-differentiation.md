@@ -6,6 +6,8 @@ course: nutrition-science
 prerequisites:
 - id: cell-differentiation-lineage
   type: soft
+- id: photoreceptors-phototransduction
+  type: soft
 builds-toward:
 - nutrient-requirements-recommendations-rda-ai
 tags:

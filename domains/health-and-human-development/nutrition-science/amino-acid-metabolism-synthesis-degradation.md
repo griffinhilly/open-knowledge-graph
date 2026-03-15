@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: atp-energy-currency-synthesis
   type: hard
+- id: amino-acid-degradation-overview
+  type: hard
+- id: transamination-reactions
+  type: soft
 builds-toward:
 - protein-synthesis-amino-acid-requirements
 - glucose-metabolism-storage-utilization

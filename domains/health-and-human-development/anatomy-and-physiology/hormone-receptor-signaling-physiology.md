@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: second-messenger-systems
   type: hard
+- id: cell-signaling-intro
+  type: hard
 builds-toward:
 - endocrine-regulation-feedback
 - metabolic-hormones-glucose-control

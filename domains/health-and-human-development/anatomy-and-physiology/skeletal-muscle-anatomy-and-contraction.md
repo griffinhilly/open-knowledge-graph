@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: skeletal-muscle-contraction
   type: soft
+- id: muscle-physiology-and-contraction
+  type: hard
+- id: atp-hydrolysis-and-free-energy
+  type: soft
 builds-toward:
 - smooth-muscle-structure-and-distribution
 - cardiac-muscle-anatomy-and-properties

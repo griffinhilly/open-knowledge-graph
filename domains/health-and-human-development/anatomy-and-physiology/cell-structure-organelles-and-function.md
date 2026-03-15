@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: mitochondria-structure-and-function
   type: soft
+- id: cell-theory
+  type: soft
+- id: organelles-overview
+  type: soft
 builds-toward:
 - epithelial-and-connective-tissue-types
 - skeletal-muscle-anatomy-and-contraction

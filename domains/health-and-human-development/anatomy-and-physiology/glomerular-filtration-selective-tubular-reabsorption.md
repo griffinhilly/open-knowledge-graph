@@ -14,6 +14,10 @@ prerequisites:
   type: hard
 - id: ion-channels-selectivity
   type: hard
+- id: osmosis-and-tonicity
+  type: soft
+- id: active-transport
+  type: soft
 builds-toward:
 - fluid-balance-and-electrolytes
 - renal-regulation-of-fluid-balance

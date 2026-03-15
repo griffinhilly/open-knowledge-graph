@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: iron-oxygen-transport-dna-synthesis
   type: soft
+- id: hemoglobin-cooperativity-oxygen-binding
+  type: soft
 tags:
 - iron
 - bioavailability

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: neural-anatomy-and-organization
   type: soft
+- id: hormone-signaling-mechanisms
+  type: hard
+- id: negative-feedback-mechanisms
+  type: soft
 builds-toward:
 - metabolic-integration-and-fed-fasted-states
 - reproductive-physiology

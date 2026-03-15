@@ -6,6 +6,10 @@ course: nutrition-science
 prerequisites:
 - id: antioxidants-and-phytochemicals
   type: hard
+- id: reactive-oxygen-metabolism
+  type: soft
+- id: electron-transport-chain
+  type: soft
 tags:
 - antioxidants
 - oxidative-stress

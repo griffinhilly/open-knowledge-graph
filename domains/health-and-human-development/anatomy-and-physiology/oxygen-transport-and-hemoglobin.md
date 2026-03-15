@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: hemoglobin-cooperativity-oxygen-binding
   type: hard
+- id: protein-quaternary-structure
+  type: soft
 builds-toward:
 - acid-base-homeostasis-physiology
 tags:

@@ -6,6 +6,8 @@ course: anatomy-and-physiology
 prerequisites:
 - id: homeostasis-and-feedback
   type: hard
+- id: homeostasis-feedback-regulation-physiology
+  type: hard
 builds-toward:
 - anatomical-terminology-and-body-compartments
 - kidney-anatomy-and-urine-formation

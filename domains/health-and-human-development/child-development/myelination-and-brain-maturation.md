@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: neurogenesis-adult
   type: soft
+- id: myelinated-axon-saltatory-conduction
+  type: soft
+- id: oligodendrocytes
+  type: soft
 builds-toward:
 - gross-motor-milestones-locomotion
 - fine-motor-development-grasp-and-manipulation

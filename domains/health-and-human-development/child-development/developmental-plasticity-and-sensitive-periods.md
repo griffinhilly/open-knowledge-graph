@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: prenatal-development-overview
   type: soft
+- id: critical-periods-plasticity
+  type: soft
 builds-toward:
 - early-intervention-and-developmental-support
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cell-signaling-intro
   type: soft
+- id: cellular-adaptation-atrophy-and-metaplasia
+  type: soft
 builds-toward:
 - necrosis-vs-apoptosis
 - acute-inflammation-pathophysiology

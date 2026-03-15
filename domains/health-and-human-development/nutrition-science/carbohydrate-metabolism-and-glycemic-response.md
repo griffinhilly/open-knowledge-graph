@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: carbohydrate-structure-and-classification
   type: soft
+- id: glycolysis-mechanism-and-regulation
+  type: hard
 builds-toward:
 - obesity-and-metabolic-syndrome
 - sports-nutrition-basics

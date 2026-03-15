@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: loss-of-central-tolerance
   type: soft
+- id: immune-tolerance-central-and-peripheral
+  type: soft
 builds-toward:
 - systemic-lupus-erythematosus
 - rheumatoid-arthritis-pathophysiology

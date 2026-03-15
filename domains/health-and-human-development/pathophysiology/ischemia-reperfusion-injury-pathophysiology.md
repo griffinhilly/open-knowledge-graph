@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: necrosis-vs-apoptosis
   type: soft
+- id: atp-energy-currency-synthesis
+  type: soft
+- id: reactive-oxygen-metabolism
+  type: soft
 builds-toward:
 - myocardial-infarction-pathophysiology
 - stroke-pathophysiology

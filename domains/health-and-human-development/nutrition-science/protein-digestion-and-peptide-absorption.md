@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: amino-acid-structure-and-properties
   type: soft
+- id: peptide-bonds-and-polypeptide-formation
+  type: soft
 builds-toward:
 - amino-acid-metabolism-and-protein-turnover
 - protein-quality-amino-acid-score-patterns

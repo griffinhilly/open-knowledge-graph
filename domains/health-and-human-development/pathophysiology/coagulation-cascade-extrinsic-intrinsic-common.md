@@ -6,6 +6,8 @@ course: pathophysiology
 prerequisites:
 - id: hemostasis-pathophysiology
   type: hard
+- id: hemostasis-coagulation-cascade
+  type: hard
 builds-toward:
 - thrombosis-pathophysiology
 - disseminated-intravascular-coagulation
