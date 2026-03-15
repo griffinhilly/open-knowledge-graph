@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: set-operations-and-notation
   type: soft
+- id: set-operations-union-intersection-complement
+  type: soft
+- id: permutations
+  type: soft
 builds-toward:
 - set-class-equivalence
 - twelve-tone-matrix-construction

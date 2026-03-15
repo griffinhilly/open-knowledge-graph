@@ -6,6 +6,10 @@ course: advanced-music-theory
 prerequisites:
 - id: metric-hierarchy
   type: hard
+- id: fractions
+  type: soft
+- id: ratios
+  type: soft
 tags:
 - meter
 - additive

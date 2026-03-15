@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: complex-exponential-function
   type: soft
+- id: complex-exponential-form
+  type: soft
 builds-toward:
 - granular-synthesis-composition
 - algorithmic-composition-theory

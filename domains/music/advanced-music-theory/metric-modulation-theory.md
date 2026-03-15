@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: proportional-relationships
   type: soft
+- id: proportions
+  type: soft
 builds-toward:
 - polymeter-analysis-advanced
 - minimalism-phase-structures

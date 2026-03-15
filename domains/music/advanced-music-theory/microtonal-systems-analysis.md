@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: fractions-of-a-set
   type: soft
+- id: ratios
+  type: soft
+- id: logarithms-intro
+  type: soft
 tags:
 - microtonality
 - harmony

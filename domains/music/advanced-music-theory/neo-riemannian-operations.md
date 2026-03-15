@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: binary-operations-algebraic-structures
   type: soft
+- id: permutation-groups
+  type: soft
 builds-toward:
 - tonnetz-pitch-space
 - neo-riemannian-romantic-analysis

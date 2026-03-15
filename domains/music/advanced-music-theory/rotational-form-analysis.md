@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: cyclic-groups
   type: soft
+- id: cycle-notation-and-decomposition
+  type: soft
 builds-toward:
 - recursive-structures-music
 tags:

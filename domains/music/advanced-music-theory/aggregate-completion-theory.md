@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: combinations-and-selections
   type: soft
+- id: set-operations
+  type: soft
 builds-toward:
 - stochastic-composition
 tags:
