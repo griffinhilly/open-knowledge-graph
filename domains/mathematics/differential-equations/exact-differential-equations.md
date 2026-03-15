@@ -7,7 +7,7 @@ prerequisites:
 - id: integrating-factor-method
   type: hard
 - id: partial-derivatives
-  type: hard
+  type: soft
 builds-toward:
 - existence-uniqueness-ode
 tags:

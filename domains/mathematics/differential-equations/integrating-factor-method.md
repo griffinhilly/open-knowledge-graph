@@ -6,8 +6,6 @@ course: differential-equations
 prerequisites:
 - id: separable-differential-equations
   type: hard
-- id: partial-derivatives
-  type: soft
 builds-toward:
 - exact-differential-equations
 - first-order-linear-odes
