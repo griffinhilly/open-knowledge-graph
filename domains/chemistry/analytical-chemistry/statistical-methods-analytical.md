@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: confidence-intervals-means
   type: soft
+- id: hypothesis-testing-framework
+  type: soft
+- id: chi-square-test
+  type: soft
 builds-toward:
 - calibration-curve-methods
 - method-validation

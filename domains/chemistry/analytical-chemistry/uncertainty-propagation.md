@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: accuracy-precision-error
   type: soft
+- id: partial-derivatives
+  type: soft
 tags:
 - error propagation
 - uncertainty

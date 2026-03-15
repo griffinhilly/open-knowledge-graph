@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: entropy-in-thermodynamic-processes
   type: soft
+- id: entropy-definition-and-calculation
+  type: soft
 builds-toward:
 - chemical-equilibrium
 - electrochemical-cells

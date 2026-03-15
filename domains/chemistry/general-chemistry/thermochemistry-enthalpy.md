@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: gas-stoichiometry
   type: soft
+- id: heat-capacity-constant-volume-pressure
+  type: soft
 builds-toward:
 - entropy-and-gibbs-free-energy
 - chemical-equilibrium

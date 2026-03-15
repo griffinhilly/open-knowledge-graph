@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: electric-field
   type: soft
+- id: lorentz-force-complete-em
+  type: soft
 tags:
 - mass spectrometry
 - ionization

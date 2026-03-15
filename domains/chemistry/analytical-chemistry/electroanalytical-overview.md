@@ -6,6 +6,8 @@ course: analytical-chemistry
 prerequisites:
 - id: analytical-chemistry-intro
   type: hard
+- id: electric-current-definition
+  type: soft
 builds-toward:
 - potentiometry
 - voltammetry

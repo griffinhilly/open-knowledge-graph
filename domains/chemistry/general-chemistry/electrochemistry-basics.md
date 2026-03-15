@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: metallic-bonding
   type: soft
+- id: electric-current-definition
+  type: soft
+- id: lorentz-force-complete-em
+  type: soft
 builds-toward:
 - electrochemical-cells
 tags:

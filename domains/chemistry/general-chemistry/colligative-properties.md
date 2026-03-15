@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: intermolecular-forces
   type: soft
+- id: statistical-thermodynamics-applications
+  type: soft
 tags:
 - boiling-point-elevation
 - freezing-point-depression

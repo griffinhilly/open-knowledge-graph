@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: stereochemistry-intro
   type: soft
+- id: magnetic-field-definition
+  type: soft
+- id: spin-angular-momentum
+  type: soft
 tags:
 - NMR
 - chemical shift

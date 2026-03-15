@@ -6,6 +6,10 @@ course: analytical-chemistry
 prerequisites:
 - id: statistical-methods-analytical
   type: hard
+- id: statistics-descriptive
+  type: soft
+- id: standard-normal-z-scores-theory
+  type: soft
 tags:
 - accuracy
 - precision

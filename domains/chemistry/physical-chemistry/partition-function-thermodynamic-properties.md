@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partition-function-applications
   type: hard
+- id: statistical-ensembles-intro
+  type: soft
 builds-toward:
 - gibbs-energy-molecular-basis
 tags:

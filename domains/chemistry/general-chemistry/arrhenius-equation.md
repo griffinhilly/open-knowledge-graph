@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: natural-logarithm-and-e
   type: soft
+- id: arrhenius-rate-constants-temperature
+  type: soft
 tags:
 - activation-energy
 - frequency-factor

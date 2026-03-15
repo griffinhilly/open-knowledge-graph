@@ -6,6 +6,10 @@ course: analytical-chemistry
 prerequisites:
 - id: statistical-methods-analytical
   type: hard
+- id: linear-algebra
+  type: soft
+- id: eigenvalues-and-eigenvectors
+  type: soft
 tags:
 - chemometrics
 - multivariate

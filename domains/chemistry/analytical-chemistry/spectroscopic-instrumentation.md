@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: uv-vis-spectroscopy-analytical
   type: soft
+- id: electromagnetic-spectrum
+  type: soft
+- id: geometric-optics-ray-approximation
+  type: soft
 tags:
 - monochromator
 - detector

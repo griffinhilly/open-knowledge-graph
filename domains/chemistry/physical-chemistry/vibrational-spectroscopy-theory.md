@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: rotational-spectroscopy
   type: soft
+- id: harmonic-oscillator-quantum
+  type: soft
 builds-toward:
 - raman-spectroscopy-theory
 - vibrational-modes-and-symmetry

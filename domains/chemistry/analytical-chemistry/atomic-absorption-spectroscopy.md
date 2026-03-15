@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: sample-preparation
   type: soft
+- id: electromagnetic-waves
+  type: soft
 builds-toward:
 - inductively-coupled-plasma
 tags:

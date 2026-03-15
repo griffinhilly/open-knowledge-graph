@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: covalent-bonding
   type: soft
+- id: quantum-mechanics-postulates-core
+  type: hard
 builds-toward:
 - huckel-molecular-orbital-theory
 - electronic-spectroscopy-theory

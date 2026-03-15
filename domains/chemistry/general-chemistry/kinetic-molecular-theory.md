@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: gas-laws-ideal-gas
   type: soft
+- id: kinetic-theory-of-gases
+  type: soft
 tags:
 - kinetic theory
 - molecular motion

@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: differential-equations-intro-separable
   type: soft
+- id: quantum-mechanics-postulates-core
+  type: hard
 builds-toward:
 - born-oppenheimer-approximation
 - hydrogen-atom-wavefunctions

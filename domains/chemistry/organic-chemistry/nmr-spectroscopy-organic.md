@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: ir-spectroscopy-organic
   type: soft
+- id: magnetic-field-definition
+  type: soft
+- id: spin-angular-momentum
+  type: soft
 builds-toward:
 - nmr-chemical-shift-prediction
 - proton-coupling-constants-jcoupling

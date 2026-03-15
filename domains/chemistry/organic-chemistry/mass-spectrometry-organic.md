@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nmr-spectroscopy-basics
   type: soft
+- id: lorentz-force-complete-em
+  type: soft
 builds-toward: []
 tags:
 - mass spectrometry

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kinetic-molecular-theory-overview
   type: hard
+- id: exponential-distribution
+  type: soft
 builds-toward:
 - partition-function-thermodynamic-properties
 tags:

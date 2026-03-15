@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: matter-classification-and-properties
   type: hard
+- id: quantum-mechanics-postulates-core
+  type: soft
 builds-toward:
 - isotopes-and-atomic-mass
 - electron-configuration-principles

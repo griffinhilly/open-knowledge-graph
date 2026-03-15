@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: pauli-exclusion-principle
   type: soft
+- id: quantum-numbers-spherical-harmonics
+  type: soft
 builds-toward:
 - periodic-trends
 - ionic-bonding

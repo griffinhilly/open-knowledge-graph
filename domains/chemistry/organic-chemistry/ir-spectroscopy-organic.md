@@ -6,6 +6,8 @@ course: organic-chemistry
 prerequisites:
 - id: ir-spectroscopy-basics
   type: hard
+- id: electromagnetic-waves
+  type: soft
 builds-toward:
 - nmr-spectroscopy-organic
 tags:

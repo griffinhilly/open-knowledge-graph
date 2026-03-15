@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stoichiometry-calculations
   type: soft
+- id: kinetic-molecular-theory-basics
+  type: soft
 builds-toward:
 - gas-stoichiometry
 - real-gases-van-der-waals

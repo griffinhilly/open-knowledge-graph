@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: thermochemistry-enthalpy
   type: soft
+- id: free-energy-thermodynamic-relations
+  type: soft
 builds-toward:
 - chemical-equilibrium
 - electrochemistry-basics

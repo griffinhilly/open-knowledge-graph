@@ -6,6 +6,8 @@ course: analytical-chemistry
 prerequisites:
 - id: method-validation
   type: hard
+- id: normal-distribution-intro
+  type: soft
 tags:
 - signal-to-noise
 - S/N

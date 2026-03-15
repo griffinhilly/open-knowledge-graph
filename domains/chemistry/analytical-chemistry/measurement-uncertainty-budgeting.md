@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: uncertainty-propagation
   type: hard
+- id: variance-standard-deviation
+  type: soft
 builds-toward:
 - iso-iec-17025-laboratory-accreditation
 - quality-assurance-analytical

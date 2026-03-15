@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: natural-logarithm-and-e
   type: soft
+- id: differential-equations-intro
+  type: soft
 builds-toward:
 - arrhenius-equation
 tags:

@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: logarithms-intro
   type: soft
+- id: logarithmic-functions-review
+  type: soft
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
 - uv-vis-spectroscopy-analytical
 - atomic-absorption-spectroscopy

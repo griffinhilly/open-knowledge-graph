@@ -20,6 +20,10 @@ prerequisites:
   type: soft
 - id: exponential-functions-and-graphs
   type: soft
+- id: probability
+  type: soft
+- id: statistical-ensembles-intro
+  type: soft
 builds-toward:
 - molecular-partition-functions
 - statistical-thermodynamics-applications

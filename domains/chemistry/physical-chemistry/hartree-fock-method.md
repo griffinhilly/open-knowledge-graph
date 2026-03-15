@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: variational-principle-chemistry
   type: hard
+- id: linear-algebra
+  type: soft
+- id: quantum-mechanics-postulates-core
+  type: hard
 builds-toward:
 - density-functional-theory-intro
 tags:

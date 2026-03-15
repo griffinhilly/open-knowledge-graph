@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: functional-groups-overview
   type: hard
+- id: electromagnetic-waves
+  type: soft
 tags:
 - IR
 - FTIR

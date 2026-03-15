@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: entropy-and-gibbs-free-energy
   type: soft
+- id: thermodynamic-equilibrium-mechanical-chemical
+  type: soft
 builds-toward:
 - acid-base-chemistry
 - ph-and-acid-base-calculations
