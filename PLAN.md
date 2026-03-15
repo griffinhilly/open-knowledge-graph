@@ -127,7 +127,7 @@ Expanding non-math domains from ~20 topics/course toward ~35-40 topics/course.
 ## Phase 8: Community Launch
 - [x] Push to GitHub as public repo
 - [x] Set up GitHub Actions for CI validation
-- [ ] Finalize README with coverage table update (3,100+ topics)
+- [x] Finalize README with coverage table update (13,489 topics)
 - [ ] Promote new draft topics to validated after review
 - [ ] Write announcement post
-- [ ] Create issue templates for topic additions and corrections
+- [x] Create issue templates for topic additions and corrections

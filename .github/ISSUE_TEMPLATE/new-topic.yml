@@ -1,0 +1,62 @@
+name: New Topic
+description: Propose a new topic to add to the knowledge graph
+labels: ["new-topic"]
+body:
+  - type: input
+    id: topic-title
+    attributes:
+      label: Topic Title
+      placeholder: e.g., "Bayes' Theorem"
+    validations:
+      required: true
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      options:
+        - arts-and-aesthetics
+        - biology
+        - chemistry
+        - computer-science
+        - earth-and-space-sciences
+        - economics
+        - engineering
+        - formal-sciences-and-logic
+        - health-and-human-development
+        - history
+        - language-and-communication
+        - literature
+        - mathematics
+        - music
+        - philosophy
+        - physics
+        - practical-life-skills
+        - psychology
+        - social-sciences
+    validations:
+      required: true
+  - type: input
+    id: course
+    attributes:
+      label: Course
+      description: Which course within the domain does this topic belong to?
+      placeholder: e.g., "probability-and-statistics"
+    validations:
+      required: true
+  - type: textarea
+    id: prerequisites
+    attributes:
+      label: Prerequisites
+      description: What topics should a learner know before this one? List topic IDs if known, or plain descriptions.
+      placeholder: |
+        - conditional-probability (hard)
+        - set-theory-basics (soft)
+    validations:
+      required: false
+  - type: textarea
+    id: core-idea
+    attributes:
+      label: Core Idea
+      description: A concise explanation of the topic (1-2 paragraphs).
+    validations:
+      required: false

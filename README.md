@@ -20,29 +20,29 @@ The Markdown body contains a human-readable explanation, pedagogical notes, and 
 
 ## Current Coverage
 
-**2,628 topics across 19 domains, 101 courses, 7,563+ prerequisite edges.** All topics at `status: validated`.
+**13,489 topics across 19 domains, 148 courses, 29,596 prerequisite edges.**
 
 | Domain | Topics | Courses |
 |--------|--------|---------|
-| Mathematics | 661 | 18 (Kindergarten through Discrete Math) |
-| Computer Science | 170 | 6 |
-| Physics | 163 | 5 |
-| Biology | 134 | 5 |
-| History | 127 | 5 |
-| Philosophy | 124 | 6 |
-| Economics | 120 | 4 |
-| Engineering | 115 | 5 |
-| Chemistry | 112 | 4 |
-| Psychology | 111 | 5 |
-| Literature | 105 | 5 |
-| Music | 102 | 5 |
-| Earth & Space Sciences | 89 | 4 |
-| Language & Communication | 89 | 4 |
-| Health & Human Development | 85 | 4 |
-| Formal Sciences & Logic | 81 | 4 |
-| Social Sciences | 80 | 4 |
-| Arts & Aesthetics | 80 | 4 |
-| Practical Life Skills | 80 | 4 |
+| Mathematics | 1,920 | 28 (Kindergarten through Topology) |
+| Computer Science | 1,059 | 11 |
+| Biology | 924 | 9 |
+| Physics | 856 | 8 |
+| Engineering | 722 | 7 |
+| Economics | 721 | 7 |
+| Philosophy | 706 | 8 |
+| Psychology | 679 | 8 |
+| Earth & Space Sciences | 640 | 7 |
+| Music | 607 | 6 |
+| History | 605 | 6 |
+| Social Sciences | 577 | 7 |
+| Language & Communication | 537 | 6 |
+| Health & Human Development | 530 | 6 |
+| Chemistry | 527 | 4 |
+| Literature | 495 | 6 |
+| Practical Life Skills | 482 | 4 |
+| Formal Sciences & Logic | 458 | 5 |
+| Arts & Aesthetics | 444 | 5 |
 
 ## Quick Start
 
@@ -64,7 +64,7 @@ python tools/visualize_hierarchy.py --all
 # Generate radial cross-domain visualization
 python tools/visualize_radial.py
 
-# Generate individual topic detail pages (2,628 pages)
+# Generate individual topic detail pages
 python tools/generate_topic_pages.py
 
 # Or visualize a single domain
@@ -92,9 +92,9 @@ Every topic file follows the schema defined in [meta/schema.md](meta/schema.md).
 ```
 open-knowledge-graph/
   domains/
-    mathematics/        # 661 topics, 18 courses (K through Discrete Math)
-    physics/            # 163 topics, 5 courses
-    computer-science/   # 170 topics, 6 courses
+    mathematics/        # 1,920 topics, 28 courses (K through Topology)
+    physics/            # 856 topics, 8 courses
+    computer-science/   # 1,059 topics, 11 courses
     ... (19 domains total)
   tools/
     validate.py              # schema + graph validation
@@ -115,7 +115,7 @@ open-knowledge-graph/
     index.html               # domain card grid
     radial-graph.html        # full cross-domain radial view
     *-hierarchy.html         # per-domain hierarchy views
-    topics/                  # 2,628 individual topic pages
+    topics/                  # 13,489 individual topic pages
   CONTRIBUTING.md
   LICENSE
 ```

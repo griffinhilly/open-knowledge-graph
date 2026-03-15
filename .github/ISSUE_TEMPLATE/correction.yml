@@ -1,0 +1,32 @@
+name: Correction
+description: Report an error in an existing topic (wrong prerequisite, inaccurate content, etc.)
+labels: ["correction"]
+body:
+  - type: input
+    id: topic-id
+    attributes:
+      label: Topic ID
+      description: The ID of the topic with the error (filename without .md).
+      placeholder: e.g., "bayes-theorem"
+    validations:
+      required: true
+  - type: dropdown
+    id: error-type
+    attributes:
+      label: Error Type
+      options:
+        - Wrong prerequisite (should be added or removed)
+        - Incorrect core idea or explanation
+        - Wrong domain or course placement
+        - Wrong developmental stage
+        - Duplicate of another topic
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What's wrong?
+      description: Describe the error and what the correct information should be.
+    validations:
+      required: true
