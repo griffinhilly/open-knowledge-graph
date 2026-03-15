@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: complex-numbers-intro
   type: hard
+- id: fourier-transform-definition-properties
+  type: soft
 builds-toward:
 - digital-signal-processing-fundamentals
 tags:

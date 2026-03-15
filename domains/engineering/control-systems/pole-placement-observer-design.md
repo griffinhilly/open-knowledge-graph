@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: state-space-representation-control
   type: soft
+- id: eigenvalues-eigenvectors
+  type: hard
 builds-toward:
 - compensation-design-tradeoffs-cascadefeedback
 tags:

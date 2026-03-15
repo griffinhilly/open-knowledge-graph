@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: differential-equations-intro
   type: soft
+- id: kinetic-molecular-theory
+  type: soft
 builds-toward:
 - heat-treatment-of-steels
 - sintering-and-powder-processing

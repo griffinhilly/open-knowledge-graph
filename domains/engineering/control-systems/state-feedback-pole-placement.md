@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: root-locus-method
   type: soft
+- id: eigenvalues-eigenvectors
+  type: hard
 builds-toward:
 - luenberger-observer
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: quality-factor-bandwidth-tradeoff
   type: soft
+- id: fourier-series-representation
+  type: soft
 tags:
 - filters
 - filter-design

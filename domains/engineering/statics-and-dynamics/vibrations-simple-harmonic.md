@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rotation-fixed-axis-dynamics
   type: soft
+- id: simple-harmonic-motion
+  type: hard
 builds-toward:
 - vibrations-damped-forced
 tags:

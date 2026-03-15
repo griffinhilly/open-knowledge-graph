@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: impact-and-restitution
   type: hard
+- id: conservation-of-linear-momentum
+  type: hard
 tags:
 - collision
 - restitution

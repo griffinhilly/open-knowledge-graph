@@ -20,6 +20,8 @@ prerequisites:
   type: hard
 - id: complex-numbers-intro
   type: hard
+- id: complex-exponential-form
+  type: soft
 builds-toward:
 - ac-power-analysis-circuits
 - frequency-response-and-bode-plots

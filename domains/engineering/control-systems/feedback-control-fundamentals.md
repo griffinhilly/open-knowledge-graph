@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: second-order-transient-circuits
   type: soft
+- id: differential-equations-intro
+  type: soft
 builds-toward:
 - laplace-transform-control
 - transfer-functions-control

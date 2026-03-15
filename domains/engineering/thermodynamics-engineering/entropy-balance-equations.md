@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: statistical-entropy-molecular-disorder
   type: hard
+- id: second-law-of-thermodynamics
+  type: hard
 builds-toward:
 - second-law-analysis-practical
 - availability-exergy-analysis-systems

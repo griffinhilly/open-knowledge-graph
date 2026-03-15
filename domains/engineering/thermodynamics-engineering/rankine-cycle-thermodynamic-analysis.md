@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: carnot-cycle
   type: soft
+- id: heat-engine-efficiency-and-carnot
+  type: soft
 builds-toward:
 - rankine-cycle-reheat-regeneration
 tags:
