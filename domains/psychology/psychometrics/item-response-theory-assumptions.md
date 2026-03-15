@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: classical-test-theory
   type: hard
+- id: probability-density-functions-theory
+  type: soft
+- id: normal-distribution
+  type: soft
 builds-toward:
 - ability-parameter-estimation-theta-estimation
 - classical-vs-irt-item-analysis

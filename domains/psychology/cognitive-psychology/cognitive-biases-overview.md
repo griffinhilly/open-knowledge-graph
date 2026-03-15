@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: problem-solving-strategies
   type: soft
+- id: probability-axioms-and-rules
+  type: soft
+- id: bayes-theorem
+  type: soft
 builds-toward:
 - heuristics-and-judgment
 - dual-process-theory

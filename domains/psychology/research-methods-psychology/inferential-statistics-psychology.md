@@ -26,6 +26,10 @@ prerequisites:
   type: soft
 - id: validity-in-measurement
   type: soft
+- id: statistical-inference-significance-testing
+  type: soft
+- id: confidence-intervals-framework
+  type: soft
 builds-toward:
 - effect-size-and-power
 - replication-and-open-science

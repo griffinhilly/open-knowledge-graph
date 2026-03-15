@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: linear-transformation-matrix-representation
   type: soft
+- id: vectors-in-3d
+  type: soft
 builds-toward:
 - white-matter-plasticity-learning
 - white-matter-development-myelination-trajectory

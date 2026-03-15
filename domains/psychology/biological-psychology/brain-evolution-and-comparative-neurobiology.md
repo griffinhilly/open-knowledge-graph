@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: brain-structure-and-functional-localization
   type: soft
+- id: natural-selection
+  type: soft
+- id: adaptive-radiation
+  type: soft
 builds-toward:
 - adaptive-behavior-and-evolution
 - social-brain-hypothesis

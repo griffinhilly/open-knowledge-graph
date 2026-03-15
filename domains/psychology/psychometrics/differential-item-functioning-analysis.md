@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: item-information-function-test-precision
   type: soft
+- id: chi-square-test
+  type: soft
 builds-toward:
 - measurement-invariance-equivalence
 tags:

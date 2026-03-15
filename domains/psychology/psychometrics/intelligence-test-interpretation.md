@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: structural-equation-modeling-measurement
   type: soft
+- id: standard-scores-transformations
+  type: soft
+- id: normal-distribution
+  type: soft
 tags:
 - iq-testing
 - cognitive-ability

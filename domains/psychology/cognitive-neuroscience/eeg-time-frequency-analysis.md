@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: fourier-series-lp-theory
   type: soft
+- id: fourier-series-definition
+  type: soft
 builds-toward:
 - attention-switching-theta-oscillations
 - working-memory-theta-gamma-coupling

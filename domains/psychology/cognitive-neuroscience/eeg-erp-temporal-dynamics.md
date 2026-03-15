@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: fourier-series-definition
   type: soft
+- id: frequency-oscillations-cognition
+  type: soft
 builds-toward:
 - erp-components-attention
 - frequency-oscillations-cognition

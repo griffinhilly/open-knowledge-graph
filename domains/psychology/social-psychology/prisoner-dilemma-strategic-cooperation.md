@@ -6,6 +6,8 @@ course: social-psychology
 prerequisites:
 - id: cooperation-social-dilemmas
   type: hard
+- id: evolutionary-game-theory
+  type: soft
 builds-toward:
 - tragedy-of-commons-collective-action
 tags:

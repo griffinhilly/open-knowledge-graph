@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: experience-dependent-plasticity-learning
   type: hard
+- id: protein-synthesis
+  type: soft
+- id: gene-expression-central-dogma
+  type: soft
 builds-toward:
 - memory-consolidation-systems
 - learning-and-experience-dependent-plasticity

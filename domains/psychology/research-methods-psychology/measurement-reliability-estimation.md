@@ -6,6 +6,8 @@ course: research-methods-psychology
 prerequisites:
 - id: variable-definition-and-operational-measurement
   type: hard
+- id: correlation-coefficient
+  type: soft
 builds-toward:
 - measurement-validity-evidence
 tags:

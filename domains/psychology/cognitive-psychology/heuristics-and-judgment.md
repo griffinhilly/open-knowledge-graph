@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: inductive-reasoning-cognitive
   type: soft
+- id: bayes-theorem
+  type: soft
 builds-toward:
 - dual-process-theory
 tags:

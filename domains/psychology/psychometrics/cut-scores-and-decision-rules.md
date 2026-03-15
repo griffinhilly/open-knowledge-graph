@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: effect-size-and-power
   type: soft
+- id: normal-distribution
+  type: soft
 builds-toward:
 - test-score-interpretation-frameworks
 tags:

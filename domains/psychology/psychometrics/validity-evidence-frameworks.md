@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: content-validity-judgment
   type: soft
+- id: hypothesis-testing-framework
+  type: soft
+- id: confidence-intervals-framework
+  type: soft
 builds-toward:
 - structural-equation-modeling-measurement
 tags:

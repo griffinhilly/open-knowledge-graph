@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: basal-ganglia-selection-habits
   type: soft
+- id: intracellular-signaling-and-second-messengers
+  type: soft
 builds-toward:
 - substance-use-disorder-treatment
 - relapse-and-context-dependence

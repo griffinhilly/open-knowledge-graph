@@ -6,6 +6,10 @@ course: clinical-psychology
 prerequisites:
 - id: research-methods-psychology
   type: hard
+- id: hypothesis-testing-framework
+  type: soft
+- id: effect-size-and-power
+  type: soft
 tags:
 - evidence-based
 - guidelines

@@ -3,7 +3,11 @@ id: clinical-assessment-and-diagnosis
 title: Clinical Assessment and Diagnosis
 domain: psychology
 course: clinical-psychology
-prerequisites: []
+prerequisites:
+- id: normal-distribution
+  type: soft
+- id: statistical-inference-significance-testing
+  type: soft
 builds-toward:
 - dsm-5-diagnostic-framework
 - case-conceptualization-clinical

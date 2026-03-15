@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: effect-size-and-power
   type: hard
+- id: hypothesis-testing-framework
+  type: soft
+- id: type-i-type-ii-error-tradeoffs
+  type: soft
 builds-toward:
 - multiple-comparisons-correction-type-i-error
 - exploratory-vs-confirmatory-analysis-strategies

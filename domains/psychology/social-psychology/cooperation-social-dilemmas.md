@@ -6,6 +6,8 @@ course: social-psychology
 prerequisites:
 - id: social-psychology-overview
   type: hard
+- id: evolutionary-game-theory
+  type: soft
 builds-toward:
 - conflict-escalation-resolution
 tags:

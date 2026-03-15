@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: normal-distribution
   type: soft
+- id: hypothesis-testing-framework
+  type: soft
+- id: statistical-inference-significance-testing
+  type: soft
 builds-toward:
 - visual-cortex-hierarchical-organization
 - dorsolateral-prefrontal-cortex-cognitive-control

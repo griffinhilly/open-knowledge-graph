@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: probability-axioms
   type: soft
+- id: bayes-theorem
+  type: soft
 builds-toward:
 - operationalization-iv-and-dv
 - analysis-plan-preregistration-commitment

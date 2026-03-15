@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: probability-and-statistics
   type: hard
+- id: normal-distribution
+  type: soft
+- id: percentile-ranks-and-interpretation
+  type: soft
 builds-toward:
 - test-score-interpretation-frameworks
 tags:

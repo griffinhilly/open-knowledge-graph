@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: inter-rater-reliability-agreement
   type: soft
+- id: correlation-coefficient
+  type: soft
 builds-toward:
 - standard-error-of-measurement-applications
 tags:

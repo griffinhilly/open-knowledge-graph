@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: eigenvalues-eigenvectors
   type: soft
+- id: eigenvalues-and-eigenvectors
+  type: soft
+- id: linear-transformations-definition
+  type: soft
 builds-toward:
 - confirmatory-factor-analysis
 - structural-equation-modeling-measurement

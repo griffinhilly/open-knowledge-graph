@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: effect-size-and-power
   type: hard
+- id: normal-distribution
+  type: soft
 builds-toward:
 - statistical-inference-significance-testing
 tags:

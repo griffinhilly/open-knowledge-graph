@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: gene-expression-central-dogma
   type: soft
+- id: dna-structure
+  type: soft
+- id: heritability-broad-sense-narrow-sense
+  type: soft
 tags:
 - heritability
 - twin-studies

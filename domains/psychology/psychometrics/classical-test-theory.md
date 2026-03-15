@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: probability-and-statistics
   type: hard
+- id: normal-distribution
+  type: soft
+- id: hypothesis-testing-framework
+  type: soft
+- id: correlation-coefficient
+  type: soft
 builds-toward:
 - reliability-validity-relationship
 - item-difficulty-discrimination

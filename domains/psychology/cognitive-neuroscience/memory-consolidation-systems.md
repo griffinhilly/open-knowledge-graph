@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: long-term-potentiation
   type: soft
+- id: protein-synthesis
+  type: soft
 tags:
 - memory
 - sleep

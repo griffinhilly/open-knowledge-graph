@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: validity-in-measurement
   type: hard
+- id: standard-error-of-measurement-applications
+  type: soft
 tags:
 - psychometrics
 - testing
