@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: systems-of-first-order-linear-odes
   type: hard
+- id: differential-equations-intro
+  type: soft
 builds-toward:
 - community-stability-resistance-resilience
 tags:

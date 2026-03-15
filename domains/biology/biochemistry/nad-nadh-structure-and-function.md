@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: oxidation-reduction-basics
   type: soft
+- id: oxidation-reduction-reactions
+  type: soft
+- id: redox-chemistry-intro
+  type: soft
 builds-toward:
 - glycolysis
 - citric-acid-cycle-mechanism

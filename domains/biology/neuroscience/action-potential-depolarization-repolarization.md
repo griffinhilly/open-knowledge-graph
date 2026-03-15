@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: equilibrium-expression-kc-kp-constants
   type: soft
+- id: electrochemistry-basics
+  type: soft
 builds-toward:
 - unmyelinated-axon-conduction
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: effective-population-size
   type: soft
+- id: sampling-distributions
+  type: soft
 builds-toward:
 - conservation-genetics-effective-size
 tags:

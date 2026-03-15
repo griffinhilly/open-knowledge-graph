@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: oxidation-reactions-organic
   type: hard
+- id: oxidation-reduction-basics
+  type: soft
 builds-toward:
 - citric-acid-cycle-mechanism
 - metabolic-integration-hormonal-regulation

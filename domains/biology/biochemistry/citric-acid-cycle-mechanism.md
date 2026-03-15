@@ -16,6 +16,10 @@ prerequisites:
   type: hard
 - id: organic-chemistry-intro
   type: soft
+- id: oxidation-reduction-basics
+  type: soft
+- id: redox-reactions-organic
+  type: soft
 builds-toward:
 - citric-acid-cycle-regulation
 - oxidative-phosphorylation-and-chemiosmosis

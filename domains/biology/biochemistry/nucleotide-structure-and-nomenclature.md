@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: phosphorus-cycling-freshwater-marine
   type: soft
+- id: covalent-bonding
+  type: soft
 builds-toward:
 - purine-metabolism-biosynthesis
 - pyrimidine-metabolism-biosynthesis

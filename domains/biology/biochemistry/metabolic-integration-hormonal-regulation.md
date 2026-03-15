@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: receptor-signaling-pathways
   type: soft
+- id: systems-of-first-order-linear-odes
+  type: soft
 tags:
 - metabolic integration
 - fed state

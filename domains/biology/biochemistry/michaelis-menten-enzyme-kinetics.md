@@ -20,6 +20,10 @@ prerequisites:
   type: soft
 - id: rate-laws-experimental-determination-orders
   type: hard
+- id: integrated-rate-laws
+  type: soft
+- id: chemical-equilibrium
+  type: soft
 builds-toward:
 - enzyme-inhibition-competitive
 - allosteric-enzyme-regulation

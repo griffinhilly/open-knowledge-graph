@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: reaction-rate-and-factors-affecting-rate
   type: hard
+- id: integrated-rate-laws
+  type: soft
 builds-toward:
 - glycolysis
 - krebs-cycle

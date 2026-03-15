@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: phylogenetic-inference
   type: soft
+- id: poisson-distribution
+  type: soft
 builds-toward:
 - paleontology-fossil-record
 tags:

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: carbon-dioxide-transport-and-buffering
   type: soft
+- id: acid-base-chemistry
+  type: soft
+- id: buffer-solutions
+  type: soft
 tags:
 - acid-base
 - pH-regulation

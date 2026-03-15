@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: population-genetics-intro
   type: hard
+- id: probability-mass-functions
+  type: soft
 builds-toward:
 - evolutionary-stable-strategy
 - sexual-selection

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: probability-axioms-and-rules
   type: soft
+- id: probability-rules-for-events
+  type: soft
 builds-toward:
 - microevolution-and-macroevolution
 - evidence-for-evolution

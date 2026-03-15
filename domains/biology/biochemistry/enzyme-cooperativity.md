@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: protein-quaternary-structure
   type: hard
+- id: binomial-distribution
+  type: soft
 builds-toward:
 - metabolic-integration-hormonal-regulation
 tags:

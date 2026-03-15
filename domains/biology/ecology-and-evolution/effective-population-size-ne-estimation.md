@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: expected-value-theory
   type: soft
+- id: probability-mass-functions
+  type: soft
 builds-toward:
 - conservation-genetics-effective-size
 - population-viability-analysis

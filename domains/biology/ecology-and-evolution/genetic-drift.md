@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: statistics-probability
   type: hard
+- id: probability-rules-for-events
+  type: soft
 builds-toward:
 - speciation
 - hardy-weinberg-equilibrium

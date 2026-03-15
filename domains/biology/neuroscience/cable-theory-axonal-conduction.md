@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: neuron-structure-and-function
   type: hard
+- id: partial-differential-equations
+  type: soft
 builds-toward:
 - hodgkin-huxley-model
 - saltatory-conduction

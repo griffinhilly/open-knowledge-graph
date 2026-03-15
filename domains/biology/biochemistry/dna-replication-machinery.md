@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nucleotide-synthesis
   type: soft
+- id: covalent-bonding
+  type: soft
 builds-toward:
 - dna-replication-accuracy-proofreading
 tags:

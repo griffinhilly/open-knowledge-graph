@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: population-genetics-intro
   type: hard
+- id: probability-distributions
+  type: soft
 builds-toward:
 - hardy-weinberg-advanced
 - genetic-drift-process

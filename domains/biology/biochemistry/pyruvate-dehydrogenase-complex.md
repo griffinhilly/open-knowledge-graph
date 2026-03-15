@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: coordination-chemistry-basics
   type: soft
+- id: oxidation-reduction-basics
+  type: soft
 builds-toward:
 - citric-acid-cycle-mechanism
 tags:

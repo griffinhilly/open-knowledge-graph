@@ -6,6 +6,8 @@ course: biochemistry
 prerequisites:
 - id: cholesterol-synthesis
   type: hard
+- id: organic-chemistry-intro
+  type: soft
 builds-toward:
 - steroid-hormone-synthesis
 - lipoproteins-structure-and-transport

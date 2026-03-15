@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: free-energy-change-spontaneity-work
   type: hard
+- id: entropy-and-gibbs-free-energy
+  type: soft
 builds-toward:
 - proton-gradient-and-chemiosmotic-coupling
 tags:

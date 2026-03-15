@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: voltage-gated-potassium-channels
   type: hard
+- id: differential-equations-intro
+  type: soft
+- id: systems-of-first-order-linear-odes
+  type: soft
 builds-toward:
 - action-potential-initiation
 - action-potential-repolarization

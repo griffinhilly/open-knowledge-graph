@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: equilibrium-expression-kc-kp-constants
   type: soft
+- id: electrochemistry-basics
+  type: soft
 builds-toward:
 - voltage-gated-sodium-channels
 - voltage-gated-potassium-channels

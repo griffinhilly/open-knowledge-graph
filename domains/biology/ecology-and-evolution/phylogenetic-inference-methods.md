@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: hypothesis-testing-framework
   type: soft
+- id: bayesian-inference-intro
+  type: soft
+- id: probability-mass-functions
+  type: soft
 builds-toward:
 - molecular-dating-phylogenetic-clocks
 - molecular-evolution-phylogenetics

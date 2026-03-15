@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: metapopulation-dynamics-connectivity
   type: hard
+- id: probability-distributions
+  type: soft
 builds-toward:
 - speciation
 - conservation-genetics-effective-size

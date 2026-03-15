@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: nucleophilic-acyl-substitution
   type: soft
+- id: covalent-bonding
+  type: soft
 builds-toward:
 - protein-secondary-structure
 - enzyme-structure-and-function

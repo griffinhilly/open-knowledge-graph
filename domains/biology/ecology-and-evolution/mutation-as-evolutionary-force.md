@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: mutation-rate-evolution
   type: soft
+- id: probability-rules-for-events
+  type: soft
 builds-toward:
 - genetic-drift-in-small-populations
 - molecular-evolution-phylogenetics

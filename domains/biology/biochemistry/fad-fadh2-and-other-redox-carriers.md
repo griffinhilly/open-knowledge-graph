@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: oxidation-reduction-basics
   type: soft
+- id: oxidation-reduction-reactions
+  type: soft
 builds-toward:
 - electron-transport-chain
 tags:

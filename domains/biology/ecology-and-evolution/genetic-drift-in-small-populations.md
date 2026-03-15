@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: probability-axioms
   type: soft
+- id: probability-rules-for-events
+  type: soft
+- id: stochastic-processes
+  type: soft
 builds-toward:
 - mutation-as-evolutionary-force
 - population-genetic-structure-metapopulations
