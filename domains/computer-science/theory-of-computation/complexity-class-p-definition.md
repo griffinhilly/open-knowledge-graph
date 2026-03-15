@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: time-complexity-classes
   type: soft
+- id: asymptotic-notation-big-o-omega-theta
+  type: soft
 builds-toward:
 - complexity-class-np-definition
 tags:

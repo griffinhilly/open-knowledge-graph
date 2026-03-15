@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: set-operations
   type: soft
+- id: set-fundamentals
+  type: soft
 builds-toward:
 - nondeterministic-finite-automata
 - regular-language-properties

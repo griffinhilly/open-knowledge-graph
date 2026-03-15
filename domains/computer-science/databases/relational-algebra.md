@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: relations-properties-and-types
   type: soft
+- id: set-operations-union-intersection-complement
+  type: soft
 builds-toward:
 - sql-select-basics
 - query-execution-plans

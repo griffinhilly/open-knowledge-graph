@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: linear-transformations
   type: soft
+- id: dot-product-definition
+  type: soft
 tags:
 - deep-learning
 - attention

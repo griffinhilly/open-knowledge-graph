@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: functions-defining-calling
   type: hard
+- id: formal-logic-propositions
+  type: soft
 builds-toward:
 - programming-language-semantics
 - hindley-milner-type-system

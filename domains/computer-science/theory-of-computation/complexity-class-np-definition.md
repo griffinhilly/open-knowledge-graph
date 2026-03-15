@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multi-tape-turing-machines
   type: soft
+- id: asymptotic-notation-big-o-omega-theta
+  type: soft
 builds-toward:
 - np-completeness-and-hardness
 tags:

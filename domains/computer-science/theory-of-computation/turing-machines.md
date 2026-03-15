@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: pumping-lemma-cfl
   type: soft
+- id: formal-logic-propositions
+  type: soft
 builds-toward:
 - turing-machine-variants
 - church-turing-thesis

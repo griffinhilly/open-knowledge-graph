@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: probability-axioms
   type: soft
+- id: expected-value
+  type: soft
 tags:
 - decision-making
 - markov-models

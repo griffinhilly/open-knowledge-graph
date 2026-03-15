@@ -6,6 +6,8 @@ course: artificial-intelligence
 prerequisites:
 - id: bayesian-networks-inference
   type: hard
+- id: probability-spaces-measure-theoretic
+  type: soft
 builds-toward:
 - markov-random-fields
 - factor-graphs-inference

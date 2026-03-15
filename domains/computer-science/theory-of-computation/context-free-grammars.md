@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: recursion-basics
   type: soft
+- id: formal-languages-and-strings
+  type: soft
 builds-toward:
 - parse-trees-derivations
 - chomsky-normal-form

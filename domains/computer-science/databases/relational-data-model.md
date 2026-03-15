@@ -6,6 +6,8 @@ course: databases
 prerequisites:
 - id: database-systems-introduction
   type: hard
+- id: cartesian-product
+  type: soft
 builds-toward:
 - relational-algebra-fundamentals
 - functional-dependency-schema

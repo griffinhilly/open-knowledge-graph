@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: probability-axioms
   type: soft
+- id: probability-density-functions
+  type: soft
 builds-toward:
 - probabilistic-clustering
 - latent-class-analysis

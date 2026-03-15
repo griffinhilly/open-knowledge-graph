@@ -1,6 +1,6 @@
 ---
 id: dijkstras-algorithm
-title: 'Dijkstra''s Algorithm'
+title: Dijkstra's Algorithm
 domain: computer-science
 course: data-structures-and-algorithms
 prerequisites:
@@ -13,6 +13,8 @@ prerequisites:
 - id: graph-theory-intro
   type: soft
 - id: greedy-algorithms
+  type: soft
+- id: dijkstras-shortest-path-routing
   type: soft
 builds-toward:
 - bellman-ford-algorithm

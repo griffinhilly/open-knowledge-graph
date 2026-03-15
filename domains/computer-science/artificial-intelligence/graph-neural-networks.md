@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: graph-theory-intro
   type: soft
+- id: graph-adjacency-list-matrix-representations
+  type: soft
 builds-toward:
 - graph-convolutions
 - message-passing

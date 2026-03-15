@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: derivatives-of-exponential-functions
   type: soft
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
 - deep-learning-foundations
 - vanishing-gradient-problem

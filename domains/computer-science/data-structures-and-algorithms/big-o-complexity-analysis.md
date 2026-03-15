@@ -6,6 +6,8 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: algorithm-design-basics
   type: hard
+- id: asymptotic-notation-big-o-omega-theta
+  type: soft
 builds-toward:
 - amortized-time-complexity
 - time-complexity-classes

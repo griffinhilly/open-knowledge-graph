@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: partial-derivatives
   type: soft
+- id: derivatives-of-exponential-functions
+  type: soft
 tags:
 - neural-networks
 - deep-learning

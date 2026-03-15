@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: logical-equivalence
   type: soft
+- id: relations-properties-and-types
+  type: soft
 builds-toward:
 - database-normalization-1nf-2nf
 - database-normalization-3nf-bcnf

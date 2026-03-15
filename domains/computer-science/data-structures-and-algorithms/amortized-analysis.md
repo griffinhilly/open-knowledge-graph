@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: algorithm-complexity
   type: soft
+- id: amortized-time-complexity
+  type: soft
 builds-toward:
 - union-find
 - hash-tables
