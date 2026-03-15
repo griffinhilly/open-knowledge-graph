@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: infinite-cardinal-numbers
   type: soft
+- id: cardinality-and-countability
+  type: soft
 builds-toward:
 - morleys-uncountable-categoricity
 tags:

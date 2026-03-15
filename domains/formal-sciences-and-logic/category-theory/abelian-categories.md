@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: ring-definition-examples
   type: soft
+- id: group-definition-and-examples
+  type: soft
 builds-toward:
 - chain-complexes-exact-sequences
 tags:

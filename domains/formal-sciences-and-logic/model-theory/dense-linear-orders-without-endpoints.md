@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ehrenfeucht-fraisse-games-equivalence
   type: soft
+- id: partial-orders
+  type: soft
 builds-toward:
 - quantifier-elimination-and-decidability
 - homogeneous-models-realization

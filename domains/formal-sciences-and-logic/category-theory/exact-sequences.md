@@ -6,6 +6,8 @@ course: category-theory
 prerequisites:
 - id: additive-categories
   type: hard
+- id: vector-spaces
+  type: soft
 builds-toward:
 - snake-lemma
 - abelian-structure-properties

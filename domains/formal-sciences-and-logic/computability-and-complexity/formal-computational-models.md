@@ -6,6 +6,8 @@ course: computability-and-complexity
 prerequisites:
 - id: church-turing-thesis-formal
   type: hard
+- id: set-operations-and-notation
+  type: soft
 builds-toward:
 - recursive-languages
 - recursively-enumerable-languages

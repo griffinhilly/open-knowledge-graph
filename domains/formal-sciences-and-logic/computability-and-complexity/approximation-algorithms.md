@@ -6,6 +6,8 @@ course: computability-and-complexity
 prerequisites:
 - id: np-completeness-formal
   type: hard
+- id: algorithm-analysis-big-o
+  type: soft
 tags:
 - complexity
 - approximation

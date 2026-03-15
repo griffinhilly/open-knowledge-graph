@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: compactness-theorem-model-theory
   type: hard
+- id: cardinality-and-countability
+  type: soft
 builds-toward:
 - skolem-functions-and-witnesses
 tags:

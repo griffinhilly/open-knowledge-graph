@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: group-definition-examples
   type: soft
+- id: group-definition-and-examples
+  type: soft
 builds-toward:
 - homogeneous-models-realization
 - strongly-minimal-and-geometry

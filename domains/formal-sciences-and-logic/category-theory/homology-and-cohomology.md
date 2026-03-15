@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: functors
   type: soft
+- id: vector-spaces
+  type: soft
 builds-toward:
 - derived-functors
 tags:

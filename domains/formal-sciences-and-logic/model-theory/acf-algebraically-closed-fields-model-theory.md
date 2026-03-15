@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: applications-ordered-fields-algebraically-closed
   type: soft
+- id: field-definition-and-examples
+  type: soft
 builds-toward:
 - rcf-real-closed-fields-applications
 tags:

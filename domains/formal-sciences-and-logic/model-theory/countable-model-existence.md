@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: countable-sets-and-countability
   type: hard
+- id: countable-sets-and-enumeration
+  type: soft
 builds-toward:
 - vaught-theorem-on-models
 - ryll-nardzewski-categoricity-theorem

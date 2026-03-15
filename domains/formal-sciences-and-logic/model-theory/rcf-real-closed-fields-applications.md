@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: acf-algebraically-closed-fields-model-theory
   type: hard
+- id: ordered-field-axioms
+  type: soft
 tags:
 - RCF
 - real-closed

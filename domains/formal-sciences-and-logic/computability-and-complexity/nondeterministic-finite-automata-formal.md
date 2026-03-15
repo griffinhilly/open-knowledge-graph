@@ -6,6 +6,8 @@ course: computability-and-complexity
 prerequisites:
 - id: deterministic-finite-automata-formal
   type: hard
+- id: relations-properties-and-types
+  type: soft
 builds-toward:
 - regular-expressions-and-languages
 - pushdown-automata-formal

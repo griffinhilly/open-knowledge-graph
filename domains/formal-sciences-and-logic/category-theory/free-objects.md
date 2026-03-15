@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: concrete-categories
   type: soft
+- id: group-definition-and-examples
+  type: soft
 builds-toward:
 - monads-in-category-theory
 tags:

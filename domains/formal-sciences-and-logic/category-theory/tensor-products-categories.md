@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: tensor-products-universal
   type: soft
+- id: vector-spaces
+  type: soft
 builds-toward:
 - symmetric-monoidal-categories
 - compact-closed-categories

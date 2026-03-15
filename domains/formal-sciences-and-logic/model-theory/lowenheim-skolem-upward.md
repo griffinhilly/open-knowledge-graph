@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: compactness-theorem-model-theory
   type: hard
+- id: aleph-hierarchy-and-cardinal-numbers
+  type: soft
 builds-toward:
 - categorical-theories-and-uniqueness
 tags:

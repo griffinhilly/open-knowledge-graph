@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: binary-relations
   type: soft
+- id: set-operations-and-notation
+  type: soft
 builds-toward:
 - nondeterministic-finite-automata-formal
 - regular-expressions-and-languages

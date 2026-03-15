@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: yoneda-lemma
   type: hard
+- id: functions-and-function-properties
+  type: soft
 builds-toward:
 - yoneda-embedding-full-faithful
 - topos-theory-intro

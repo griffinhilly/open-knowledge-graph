@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: composition-of-functions
   type: soft
+- id: linear-transformations
+  type: soft
 tags:
 - derived functor
 - Ext
