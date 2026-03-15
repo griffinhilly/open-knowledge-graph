@@ -108,6 +108,47 @@ Common fixes:
 - Specific errors students make, with brief explanations of why they occur
 - Valuable for teachers, tutors, and content creators
 
+### Questions
+- 2-5 questions per topic, testing understanding (not memorization)
+- At least one question should target a common misconception
+- Three types: `multiple-choice` (4 options, 0-indexed answer), `true-false`, `short-answer`
+- Every question needs an `explanation` that helps reviewers verify correctness
+- Place in a `## Questions` section with a fenced YAML code block
+
+Example:
+
+```markdown
+## Questions
+
+\```yaml
+- question: "Why can't you add 1/3 + 1/4 directly?"
+  type: multiple-choice
+  options:
+    - "The numerators are different"
+    - "The denominators define different-sized pieces, so they can't be combined"
+    - "Fractions can only be added if they share a numerator"
+    - "You need to multiply fractions before adding them"
+  answer: 1
+  explanation: "Denominators define the size of each piece. Thirds and fourths are different-sized pieces — you must convert to a common denominator (same-sized pieces) before adding."
+
+- question: "1/3 + 1/4 = 2/7."
+  type: true-false
+  answer: false
+  explanation: "Adding both numerators and denominators is the most common error. The correct answer is 4/12 + 3/12 = 7/12."
+\```
+```
+
+*(Remove the backslashes before the triple backticks — they are shown here to prevent formatting issues.)*
+
+### Explainers
+- 3-5 paragraphs that actually teach the concept (unlike Core Idea, which describes it)
+- Written for someone who has completed the prerequisites
+- Should build intuition through reasoning, analogies, and worked examples
+- Freeform Markdown — can include examples, analogies, and connections to prerequisites
+- Place in a `## Explainer` section after all other sections
+
+**Quality bar:** A good Explainer is what a skilled tutor would say. It does not repeat the Core Idea — it unpacks it, walks through the reasoning, and helps the reader build a mental model.
+
 ### Style
 - Write clearly and concisely
 - Use standard mathematical terminology

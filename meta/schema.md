@@ -42,7 +42,42 @@ The Markdown body after frontmatter should contain:
 
 - **`## How It's Best Learned`** — Pedagogical notes: what representations work, what sequence of activities, what to emphasize. Valuable for curriculum designers and tutors.
 - **`## Common Misconceptions`** — Known misunderstandings students encounter. Valuable for teachers and content creators.
+- **`## Questions`** — Test questions for the topic, contained in a YAML code block. See format below.
+- **`## Explainer`** — A mini-lesson (3-5 paragraphs) that teaches the concept to someone who has completed the prerequisites. Unlike Core Idea (which describes what the topic IS), the Explainer walks through reasoning, builds intuition, and includes examples. Think of it as what a good tutor would say. The Explainer is freeform Markdown and can include worked examples, analogies, diagrams described in text, and connections to prerequisite concepts.
 - **`## Notes`** — Anything else: historical context, connections to other domains, open questions.
+
+### Questions Format
+
+The `## Questions` section contains a fenced YAML code block with 2-5 test questions. Three question types are supported:
+
+```yaml
+# Multiple-choice (4 options, 0-indexed answer)
+- question: "Question text here?"
+  type: multiple-choice
+  options: ["Option A", "Option B", "Option C", "Option D"]
+  answer: 1
+  explanation: "Why Option B is the correct answer."
+
+# True-false
+- question: "Statement to evaluate."
+  type: true-false
+  answer: false
+  explanation: "Why the statement is false."
+
+# Short-answer
+- question: "Open-ended question?"
+  type: short-answer
+  answer: "Expected answer text"
+  explanation: "What makes this the right answer."
+```
+
+**Rules:**
+- Each topic should have 2-5 questions when populated
+- Questions should test understanding, not memorization
+- At least one question should test a common misconception
+- Explanations are required — they help reviewers verify accuracy
+- For multiple-choice: 4 options, plausible distractors, one correct answer
+- The Questions section is optional — topics work fine without it
 
 ## Naming Conventions
 

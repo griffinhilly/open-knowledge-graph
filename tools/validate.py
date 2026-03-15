@@ -9,6 +9,7 @@ Checks:
 5. builds-toward consistency (warning only)
 6. Course directories match domain config
 7. No duplicate IDs
+8. Questions section schema (warning only)
 """
 
 import sys
@@ -30,9 +31,11 @@ REQUIRED_FIELDS = {"id", "title", "domain", "course", "prerequisites"}
 VALID_STATUSES = {"stub", "draft", "review", "validated"}
 VALID_STAGES = {"pre-formal", "concrete-operations", "abstract-reasoning", "formal-systems", "advanced"}
 VALID_PREREQ_TYPES = {"hard", "soft"}
+VALID_QUESTION_TYPES = {"multiple-choice", "true-false", "short-answer"}
 
 errors = []
 warnings = []
+topics_with_questions = 0
 
 
 def error(filepath, msg):
@@ -61,6 +64,97 @@ def parse_frontmatter(filepath):
         error(filepath, "Frontmatter is not a YAML mapping")
         return None
     return data
+
+
+def validate_questions(filepath, text):
+    """Validate the ## Questions section if present. Returns True if questions found."""
+    # Check if a ## Questions section exists
+    questions_match = re.search(r"^## Questions\s*\n", text, re.MULTILINE)
+    if not questions_match:
+        return False
+
+    # Extract the YAML code block within the Questions section
+    # Look for ```yaml ... ``` after the ## Questions header
+    section_text = text[questions_match.end():]
+    # Stop at the next ## heading or end of file
+    next_section = re.search(r"^## ", section_text, re.MULTILINE)
+    if next_section:
+        section_text = section_text[:next_section.start()]
+
+    yaml_block = re.search(r"```ya?ml\s*\n(.*?)```", section_text, re.DOTALL)
+    if not yaml_block:
+        warn(filepath, "Questions section exists but contains no YAML code block")
+        return True
+
+    try:
+        questions = yaml.safe_load(yaml_block.group(1))
+    except yaml.YAMLError as e:
+        warn(filepath, f"Questions section has invalid YAML: {e}")
+        return True
+
+    if not isinstance(questions, list):
+        warn(filepath, "Questions YAML must be a list of question objects")
+        return True
+
+    if len(questions) < 2 or len(questions) > 5:
+        warn(filepath, f"Questions should have 2-5 items, found {len(questions)}")
+
+    for i, q in enumerate(questions):
+        if not isinstance(q, dict):
+            warn(filepath, f"questions[{i}] must be a mapping")
+            continue
+
+        # Required fields
+        if "question" not in q:
+            warn(filepath, f"questions[{i}] missing 'question' field")
+        elif not isinstance(q["question"], str):
+            warn(filepath, f"questions[{i}] 'question' must be a string")
+
+        if "type" not in q:
+            warn(filepath, f"questions[{i}] missing 'type' field")
+        elif q["type"] not in VALID_QUESTION_TYPES:
+            warn(filepath, f"questions[{i}] type '{q['type']}' not in {VALID_QUESTION_TYPES}")
+
+        if "answer" not in q:
+            warn(filepath, f"questions[{i}] missing 'answer' field")
+
+        if "explanation" not in q:
+            warn(filepath, f"questions[{i}] missing 'explanation' field")
+        elif not isinstance(q["explanation"], str):
+            warn(filepath, f"questions[{i}] 'explanation' must be a string")
+
+        # Type-specific validation
+        qtype = q.get("type")
+        answer = q.get("answer")
+
+        if qtype == "multiple-choice":
+            options = q.get("options")
+            if options is None:
+                warn(filepath, f"questions[{i}] multiple-choice missing 'options'")
+            elif not isinstance(options, list):
+                warn(filepath, f"questions[{i}] 'options' must be a list")
+            elif len(options) < 3 or len(options) > 5:
+                warn(filepath, f"questions[{i}] multiple-choice should have 3-5 options, found {len(options)}")
+            else:
+                for j, opt in enumerate(options):
+                    if not isinstance(opt, str):
+                        warn(filepath, f"questions[{i}] options[{j}] must be a string")
+
+            if answer is not None:
+                if not isinstance(answer, int):
+                    warn(filepath, f"questions[{i}] multiple-choice 'answer' must be an integer (0-indexed)")
+                elif options and isinstance(options, list) and (answer < 0 or answer >= len(options)):
+                    warn(filepath, f"questions[{i}] answer index {answer} out of range for {len(options)} options")
+
+        elif qtype == "true-false":
+            if answer is not None and not isinstance(answer, bool):
+                warn(filepath, f"questions[{i}] true-false 'answer' must be a boolean (true/false)")
+
+        elif qtype == "short-answer":
+            if answer is not None and not isinstance(answer, str):
+                warn(filepath, f"questions[{i}] short-answer 'answer' must be a string")
+
+    return True
 
 
 def validate_topic(filepath, data, domain_courses):
@@ -196,6 +290,7 @@ def main():
         return 0
 
     # Parse and validate each file
+    global topics_with_questions
     for filepath in topic_files:
         data = parse_frontmatter(filepath)
         if data is None:
@@ -205,6 +300,11 @@ def main():
         domain = data.get("domain", "")
         courses = domain_courses.get(domain, set())
         validate_topic(filepath, data, courses)
+
+        # Validate Questions section if present
+        text = filepath.read_text(encoding="utf-8")
+        if validate_questions(filepath, text):
+            topics_with_questions += 1
 
         if topic_id:
             if topic_id in all_topics:
@@ -252,7 +352,8 @@ def main():
         errors.append(f"  ERROR  Cycle detected: {cycle_str}")
 
     # Report
-    print(f"  Scanned {len(topic_files)} files, {len(all_topics)} valid topics\n")
+    print(f"  Scanned {len(topic_files)} files, {len(all_topics)} valid topics")
+    print(f"  Topics with questions: {topics_with_questions} of {len(all_topics)}\n")
 
     # Stats by course
     course_counts = defaultdict(int)
