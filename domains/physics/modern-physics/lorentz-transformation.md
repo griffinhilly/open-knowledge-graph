@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: linear-transformations-definition
   type: soft
+- id: matrix-operations
+  type: soft
 builds-toward:
 - relativistic-velocity-addition
 - relativistic-momentum-energy

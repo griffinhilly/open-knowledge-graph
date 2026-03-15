@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: magnetic-field-and-lorentz-force
   type: hard
+- id: cross-product
+  type: hard
 builds-toward:
 - force-on-current-carrying-conductor
 - cyclotron-motion-and-frequency

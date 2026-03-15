@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: free-body-diagrams
   type: hard
+- id: derivative-as-slope-of-tangent
+  type: soft
 builds-toward:
 - projectile-motion
 - static-equilibrium

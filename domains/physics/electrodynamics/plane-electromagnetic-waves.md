@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: harmonic-functions-complex-analysis
   type: soft
+- id: complex-exponential-form
+  type: soft
 builds-toward:
 - electromagnetic-wave-polarization
 - poynting-vector-energy-flow

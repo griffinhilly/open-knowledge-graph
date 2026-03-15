@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: chain-rule-multivariable
   type: hard
+- id: wave-equation-pde
+  type: hard
 builds-toward:
 - harmonic-wave-time-dependence
 - plane-electromagnetic-waves

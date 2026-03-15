@@ -6,6 +6,8 @@ course: electricity-and-magnetism
 prerequisites:
 - id: conservation-of-electric-charge
   type: soft
+- id: cross-product
+  type: hard
 builds-toward:
 - magnetic-force-conductors
 tags:

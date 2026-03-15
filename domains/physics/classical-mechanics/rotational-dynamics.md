@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: static-equilibrium
   type: soft
+- id: cross-product
+  type: hard
 builds-toward:
 - angular-momentum
 - conservation-of-angular-momentum

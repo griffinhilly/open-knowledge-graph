@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electric-current-and-resistance
   type: hard
+- id: cross-product
+  type: hard
 builds-toward:
 - biot-savart-law
 - electromagnetic-induction-applications

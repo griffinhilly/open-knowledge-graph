@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: current-density-current-distribution
   type: hard
+- id: cross-product
+  type: hard
 builds-toward:
 - force-between-parallel-current-wires
 tags:

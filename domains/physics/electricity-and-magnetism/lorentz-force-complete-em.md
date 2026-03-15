@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: faraday-law-electromagnetic-induction
   type: hard
+- id: cross-product
+  type: hard
+- id: dot-product
+  type: hard
 tags:
 - lorentz-force
 - maxwell

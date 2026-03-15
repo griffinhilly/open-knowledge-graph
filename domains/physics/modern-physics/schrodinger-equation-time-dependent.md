@@ -6,6 +6,10 @@ course: modern-physics
 prerequisites:
 - id: schrodinger-equation-intro
   type: hard
+- id: partial-derivatives
+  type: hard
+- id: complex-numbers-intro
+  type: hard
 builds-toward:
 - wavefunctions-boundary-conditions
 - classical-limit-correspondence

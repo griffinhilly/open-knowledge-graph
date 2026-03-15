@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: circular-motion-kinematics
   type: soft
+- id: derivative-as-slope-of-tangent
+  type: soft
+- id: trigonometric-ratios-review
+  type: soft
 builds-toward:
 - torque
 - rotational-dynamics

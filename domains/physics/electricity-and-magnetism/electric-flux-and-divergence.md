@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: surface-integrals-flux
   type: hard
+- id: divergence-theorem
+  type: hard
 builds-toward:
 - gauss-law-integral-form
 tags:

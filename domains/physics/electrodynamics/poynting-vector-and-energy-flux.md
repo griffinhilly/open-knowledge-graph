@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: maxwells-equations-differential-form
   type: soft
+- id: divergence-theorem
+  type: soft
 builds-toward:
 - maxwell-stress-tensor
 - electromagnetic-waves-in-media

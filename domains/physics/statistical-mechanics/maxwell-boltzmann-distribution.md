@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kinetic-theory-of-gases
   type: soft
+- id: exponential-distribution
+  type: soft
 builds-toward:
 - quantum-statistics-intro
 - ideal-fermi-gas

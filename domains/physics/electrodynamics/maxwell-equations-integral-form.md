@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: divergence-theorem
   type: hard
+- id: stokes-theorem
+  type: hard
 builds-toward:
 - maxwell-equations-differential-form
 - gauss-law-applications

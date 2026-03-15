@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: simple-harmonic-motion
   type: soft
+- id: complex-numbers-intro
+  type: soft
 builds-toward:
 - ac-circuits-fundamentals
 - ac-power-and-resonance

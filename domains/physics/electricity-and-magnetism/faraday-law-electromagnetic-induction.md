@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: line-integrals-vector-fields
   type: hard
+- id: curl-divergence
+  type: hard
+- id: line-integrals
+  type: hard
 builds-toward:
 - lenz-law-induced-currents
 tags:

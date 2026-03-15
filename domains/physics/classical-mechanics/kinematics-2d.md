@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: kinematic-equations
   type: soft
+- id: derivative-as-slope-of-tangent
+  type: soft
+- id: vector-addition-subtraction
+  type: soft
 builds-toward:
 - projectile-motion
 - circular-motion-kinematics

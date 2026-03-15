@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: flux-integrals
   type: soft
+- id: divergence-theorem
+  type: hard
 builds-toward:
 - gauss-law
 tags:

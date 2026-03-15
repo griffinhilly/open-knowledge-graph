@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: higher-order-linear-odes
   type: hard
+- id: second-order-linear-homogeneous-odes
+  type: hard
+- id: characteristic-equation-method
+  type: hard
 builds-toward:
 - driven-harmonic-oscillator
 tags:

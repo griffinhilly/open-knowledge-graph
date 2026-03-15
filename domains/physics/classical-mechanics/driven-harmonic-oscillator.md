@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: higher-order-linear-odes
   type: hard
+- id: second-order-linear-homogeneous-odes
+  type: hard
 builds-toward:
 - resonance-and-resonance-frequency
 tags:

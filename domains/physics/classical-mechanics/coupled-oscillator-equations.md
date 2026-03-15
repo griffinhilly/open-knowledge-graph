@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: energy-analysis-oscillations
   type: soft
+- id: systems-of-first-order-linear-odes
+  type: hard
 builds-toward:
 - normal-modes-oscillations
 tags:

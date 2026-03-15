@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: trigonometric-ratios-review
   type: soft
+- id: trigonometric-functions
+  type: soft
 builds-toward:
 - resonance-strings-and-pipes
 tags:

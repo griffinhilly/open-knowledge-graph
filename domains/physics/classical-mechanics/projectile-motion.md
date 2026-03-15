@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: parametric-equations-intro
   type: soft
+- id: trigonometric-ratios-review
+  type: soft
 builds-toward:
 - circular-motion-kinematics
 tags:

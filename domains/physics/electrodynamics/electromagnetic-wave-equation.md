@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: wave-equation-one-dimensional
   type: hard
+- id: wave-equation-pde
+  type: hard
 builds-toward:
 - plane-waves-in-vacuum
 - poynting-vector-and-energy-flux

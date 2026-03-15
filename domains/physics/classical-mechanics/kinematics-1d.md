@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: graphing-linear-equations
   type: soft
+- id: antiderivatives
+  type: soft
 builds-toward:
 - kinematic-equations
 - kinematics-2d

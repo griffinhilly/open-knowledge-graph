@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: trigonometric-ratios-review
   type: soft
+- id: second-order-linear-homogeneous-odes
+  type: hard
 builds-toward:
 - spring-mass-system
 - simple-pendulum

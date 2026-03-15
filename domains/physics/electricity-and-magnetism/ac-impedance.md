@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: rl-transient-response
   type: hard
+- id: complex-numbers-intro
+  type: hard
+- id: operations-with-complex-numbers
+  type: hard
 builds-toward:
 - rlc-resonance
 tags:

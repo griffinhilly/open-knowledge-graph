@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: projectile-motion
   type: soft
+- id: trigonometric-ratios-review
+  type: soft
 builds-toward:
 - circular-motion-dynamics
 - rotational-kinematics
