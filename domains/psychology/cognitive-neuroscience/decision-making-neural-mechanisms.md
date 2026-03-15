@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: executive-control-networks
   type: soft
+- id: expected-value-theory
+  type: soft
+- id: probability-axioms
+  type: soft
 tags:
 - decision-making
 - mechanisms

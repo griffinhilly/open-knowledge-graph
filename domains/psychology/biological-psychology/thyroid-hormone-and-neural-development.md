@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: neurogenesis-adult
   type: soft
+- id: thyroid-hormone-synthesis-regulation
+  type: hard
 builds-toward:
 - neurodevelopmental-disorders-biological
 - cognitive-aging-and-decline

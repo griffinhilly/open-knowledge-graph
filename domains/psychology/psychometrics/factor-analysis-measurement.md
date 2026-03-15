@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: linear-transformations-definition
   type: soft
+- id: linear-algebra
+  type: hard
 builds-toward:
 - confirmatory-factor-analysis
 - structural-equation-modeling-measurement

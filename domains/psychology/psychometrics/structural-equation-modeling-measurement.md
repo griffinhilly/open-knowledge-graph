@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: linear-transformation-matrix-representation
   type: soft
+- id: linear-algebra
+  type: hard
+- id: matrix-operations
+  type: hard
 builds-toward:
 - differential-item-functioning
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: brain-structure-and-functional-localization
   type: soft
+- id: sex-linked-inheritance
+  type: soft
 builds-toward:
 - sexual-dimorphism-in-behavior
 - psychiatric-sex-differences

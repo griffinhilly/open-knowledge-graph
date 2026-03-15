@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: item-response-functions
   type: hard
+- id: bayes-theorem
+  type: hard
+- id: probability-distributions
+  type: hard
 tags:
 - bayesian
 - irt

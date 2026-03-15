@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: neurotransmitter-synthesis-storage
   type: hard
+- id: neurotransmitter-reuptake
+  type: hard
+- id: monoamine-synthesis-and-catabolism
+  type: soft
 builds-toward:
 - antidepressant-medications-ssris
 - anxiety-disorders-overview

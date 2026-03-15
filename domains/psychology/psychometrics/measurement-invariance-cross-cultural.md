@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: consequential-validity-and-fairness
   type: soft
+- id: linear-algebra
+  type: soft
+- id: factor-analysis-measurement
+  type: soft
 tags:
 - cross-cultural
 - measurement-invariance

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: long-term-potentiation
   type: soft
+- id: ion-channels-and-neural-excitability
+  type: hard
+- id: protein-synthesis
+  type: hard
 builds-toward:
 - learning-and-memory-at-synaptic-level
 tags:

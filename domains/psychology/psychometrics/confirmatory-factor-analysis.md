@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: eigenvalues-eigenvectors
   type: soft
+- id: eigenvalues-and-eigenvectors
+  type: hard
 builds-toward:
 - structural-equation-modeling-measurement
 - validity-evidence-frameworks

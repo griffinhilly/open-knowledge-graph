@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: brain-structure-and-functional-localization
   type: soft
+- id: linear-algebra
+  type: soft
+- id: statistics
+  type: soft
 builds-toward:
 - fmri-principles-and-interpretation
 - eeg-erp-temporal-dynamics

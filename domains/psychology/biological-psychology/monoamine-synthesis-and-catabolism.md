@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: dopamine-reward-system
   type: soft
+- id: amino-acid-structure-and-properties
+  type: hard
+- id: aromatic-amino-acid-catabolism
+  type: soft
 builds-toward:
 - dopamine-receptor-subtypes-and-signaling
 - serotonin-reuptake-mechanisms

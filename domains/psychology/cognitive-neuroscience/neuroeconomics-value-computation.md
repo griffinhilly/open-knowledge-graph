@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: executive-control-networks
   type: soft
+- id: expected-value-theory
+  type: hard
+- id: constrained-optimization
+  type: soft
 builds-toward:
 - decision-making-neural-mechanisms
 tags:

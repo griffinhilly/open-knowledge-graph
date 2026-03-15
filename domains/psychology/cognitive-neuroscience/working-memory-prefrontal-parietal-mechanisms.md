@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: working-memory-model
   type: hard
+- id: differential-equations-intro
+  type: soft
 builds-toward:
 - working-memory-capacity-limits-neural-mechanisms
 - interference-resolution-working-memory

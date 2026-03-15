@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: calcium-signaling-neurons
   type: hard
+- id: protein-kinase-signaling-cascades
+  type: hard
+- id: enzyme-cofactors-and-coenzymes
+  type: soft
 builds-toward:
 - synaptic-plasticity-mechanisms
 tags:

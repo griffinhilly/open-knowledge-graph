@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: gene-expression-central-dogma
   type: soft
+- id: ion-channels-and-neural-excitability
+  type: hard
+- id: calcium-signaling-neurons
+  type: hard
 builds-toward:
 - memory-consolidation-systems
 - learning-and-experience-dependent-plasticity

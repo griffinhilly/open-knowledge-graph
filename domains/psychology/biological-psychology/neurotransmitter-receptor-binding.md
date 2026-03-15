@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: receptor-mediated-endocytosis
   type: soft
+- id: enzyme-kinetics
+  type: hard
+- id: protein-structure-and-function
+  type: soft
 builds-toward:
 - intracellular-signaling-and-second-messengers
 tags:

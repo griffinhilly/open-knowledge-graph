@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: eigenvalues-eigenvectors
   type: soft
+- id: linear-algebra
+  type: hard
+- id: multivariable-functions-intro
+  type: soft
 builds-toward:
 - dimensionality-assessment-and-bifactor-models
 tags:

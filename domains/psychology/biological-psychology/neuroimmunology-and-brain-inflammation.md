@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: neuroinflammation-glia
   type: soft
+- id: innate-immunity-overview
+  type: soft
+- id: inflammatory-response-cellular
+  type: soft
 builds-toward:
 - neuroinflammation-glia
 - depression-and-cytokines

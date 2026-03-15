@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: fourier-series-definition
   type: soft
+- id: complex-numbers-intro
+  type: soft
 builds-toward:
 - attention-switching-theta-oscillations
 - working-memory-theta-gamma-coupling

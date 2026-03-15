@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dopamine-reward-system
   type: hard
+- id: gene-expression-central-dogma
+  type: soft
 builds-toward:
 - comorbidity-complex-presentations
 tags:

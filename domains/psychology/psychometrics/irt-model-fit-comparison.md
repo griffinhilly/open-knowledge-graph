@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: three-parameter-logistic-model
   type: hard
+- id: chi-square-test
+  type: soft
+- id: probability-distributions
+  type: soft
 builds-toward:
 - computerized-adaptive-testing
 tags:

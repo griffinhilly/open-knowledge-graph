@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: intracellular-signaling-and-second-messengers
   type: soft
+- id: monoamine-synthesis-and-catabolism
+  type: hard
+- id: neurotransmitter-systems
+  type: hard
 builds-toward:
 - antidepressant-medications
 - mood-stabilizers-anxiolytics

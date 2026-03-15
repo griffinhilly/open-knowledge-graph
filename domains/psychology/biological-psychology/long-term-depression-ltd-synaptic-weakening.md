@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: long-term-depression
   type: hard
+- id: ion-channels-and-neural-excitability
+  type: hard
+- id: calcium-signaling-neurons
+  type: hard
 builds-toward:
 - memory-consolidation-systems
 - learning-and-experience-dependent-plasticity
