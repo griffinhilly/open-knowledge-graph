@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: first-order-logic-syntax
   type: soft
+- id: propositional-logic-introduction
+  type: soft
 builds-toward:
 - causal-explanation-science
 - explanatory-power-and-unification

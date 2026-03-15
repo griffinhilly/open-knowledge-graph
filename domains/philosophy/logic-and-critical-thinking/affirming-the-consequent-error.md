@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: modus-ponens-tollens
   type: soft
+- id: propositional-logic-introduction
+  type: soft
 builds-toward:
 - argument-structure
 tags:

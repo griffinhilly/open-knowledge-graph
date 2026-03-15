@@ -3,7 +3,9 @@ id: logical-operators-and-truth-functions
 title: Logical Operators and Truth Functions
 domain: philosophy
 course: logic-and-critical-thinking
-prerequisites: []
+prerequisites:
+- id: propositional-logic-introduction
+  type: soft
 builds-toward:
 - conditional-statements-and-material-conditional
 - testing-validity-with-counterexamples

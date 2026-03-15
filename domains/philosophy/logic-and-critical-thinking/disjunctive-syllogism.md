@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: inference-patterns-and-validity
   type: hard
+- id: propositional-logic-introduction
+  type: soft
 builds-toward:
 - argument-evaluation-holistic
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conditional-statements-and-material-conditional
   type: soft
+- id: propositional-logic-introduction
+  type: soft
 builds-toward:
 - thought-experiment-construction
 tags:

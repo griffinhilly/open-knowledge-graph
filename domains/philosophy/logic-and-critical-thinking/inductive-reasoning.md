@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: argument-structure
   type: hard
+- id: probabilistic-reasoning
+  type: soft
 builds-toward:
 - analogical-reasoning
 - abductive-reasoning

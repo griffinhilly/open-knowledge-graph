@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: probabilistic-computation
   type: soft
+- id: bayesian-confirmation-and-evidence
+  type: soft
 builds-toward:
 - scientific-realism
 - causal-explanation-science

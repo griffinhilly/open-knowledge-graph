@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: conditional-statements-and-material-conditional
   type: hard
+- id: propositional-logic-introduction
+  type: soft
 builds-toward:
 - modus-ponens-tollens
 tags:

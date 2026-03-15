@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: propositional-semantics
   type: soft
+- id: propositional-logic-introduction
+  type: soft
 builds-toward:
 - counterexample-method
 tags:

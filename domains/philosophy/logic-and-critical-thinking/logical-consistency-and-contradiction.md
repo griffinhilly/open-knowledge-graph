@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: tautologies-and-contradictions
   type: soft
+- id: propositional-logic-introduction
+  type: soft
 builds-toward:
 - paradox-and-self-reference
 - argument-evaluation-holistic

@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: arguments-premises-and-conclusions
   type: hard
+- id: first-order-logic-syntax
+  type: soft
 builds-toward:
 - categorical-logic-and-syllogisms
 - universal-and-existential-statements

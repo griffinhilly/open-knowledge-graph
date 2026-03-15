@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rationalism-vs-empiricism
   type: soft
+- id: probabilistic-reasoning
+  type: soft
 builds-toward:
 - karl-popper-falsificationism
 - logical-positivism-and-vienna-circle

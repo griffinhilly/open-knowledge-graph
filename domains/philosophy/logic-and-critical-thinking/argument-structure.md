@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: propositional-syntax
   type: soft
+- id: logical-structure-and-form
+  type: soft
 builds-toward:
 - deductive-reasoning
 - inductive-reasoning

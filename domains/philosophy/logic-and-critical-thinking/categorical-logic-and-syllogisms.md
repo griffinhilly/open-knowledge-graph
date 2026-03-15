@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: universal-and-existential-statements
   type: hard
+- id: predicate-logic-introduction
+  type: soft
 builds-toward:
 - middle-term-distribution
 - logical-form

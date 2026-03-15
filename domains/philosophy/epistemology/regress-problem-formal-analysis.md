@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: logical-consequence-and-validity
   type: soft
+- id: logical-structure-and-form
+  type: soft
 builds-toward:
 - justification-structures-and-hierarchies
 tags:

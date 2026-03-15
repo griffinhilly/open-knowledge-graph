@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: probabilistic-computation
   type: soft
+- id: bayesian-confirmation-and-evidence
+  type: soft
 tags:
 - Bayesianism
 - credences

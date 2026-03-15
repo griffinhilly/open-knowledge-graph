@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: first-order-logic-syntax
   type: soft
+- id: predicate-logic-introduction
+  type: soft
 builds-toward:
 - kripke-causal-theory-naming
 - reference-determination
