@@ -14,7 +14,7 @@ tags:
 - filters
 - sampling
 - design
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

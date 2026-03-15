@@ -14,7 +14,7 @@ tags:
 - chebyshev
 - equiripple
 - ripple
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

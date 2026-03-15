@@ -13,7 +13,7 @@ tags:
 - asymptotes
 - centroid
 - breakaway-points
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

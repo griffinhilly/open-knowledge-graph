@@ -14,7 +14,7 @@ tags:
 - synchronization
 - ntp
 - clocks
-stage: concrete-operations
+stage: advanced
 status: draft
 ---
 

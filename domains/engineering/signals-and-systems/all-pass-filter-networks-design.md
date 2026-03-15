@@ -14,7 +14,7 @@ tags:
 - all-pass
 - phase
 - equalization
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

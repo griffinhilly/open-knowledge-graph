@@ -13,7 +13,7 @@ tags:
 - stability-test
 - pole-locations
 - characteristic-equation
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - saga
 - long-running
 - consistency
-stage: concrete-operations
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - commit
 - protocol
 - fault-tolerant
-stage: concrete-operations
+stage: advanced
 status: draft
 ---
 

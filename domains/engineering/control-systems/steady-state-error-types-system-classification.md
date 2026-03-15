@@ -16,7 +16,7 @@ tags:
 - system-type
 - error-constant
 - accuracy
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

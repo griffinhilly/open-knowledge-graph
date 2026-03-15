@@ -12,7 +12,7 @@ tags:
 - first-order
 - time-constant
 - exponential-response
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

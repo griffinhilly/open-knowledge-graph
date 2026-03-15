@@ -14,7 +14,7 @@ tags:
 - cross-correlation
 - time-delay
 - estimation
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

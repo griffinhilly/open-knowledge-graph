@@ -14,7 +14,7 @@ tags:
 - butterworth
 - maximally-flat
 - response-shape
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - physical-time
 - logical-time
 - hybrid
-stage: concrete-operations
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - consistency
 - reconciliation
 - hashing
-stage: concrete-operations
+stage: advanced
 status: draft
 ---
 

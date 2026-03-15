@@ -16,7 +16,7 @@ tags:
 - leader-election
 - consensus
 - terms
-stage: concrete-operations
+stage: advanced
 status: draft
 ---
 

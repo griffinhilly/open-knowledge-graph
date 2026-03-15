@@ -11,7 +11,7 @@ tags:
 - tracing
 - debugging
 - monitoring
-stage: concrete-operations
+stage: advanced
 status: draft
 ---
 

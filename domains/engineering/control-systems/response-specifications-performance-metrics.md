@@ -16,7 +16,7 @@ tags:
 - settling-time
 - rise-time
 - bandwidth
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - ordering
 - consensus
 - replication
-stage: concrete-operations
+stage: advanced
 status: draft
 ---
 

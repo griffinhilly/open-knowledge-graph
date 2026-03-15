@@ -16,7 +16,7 @@ tags:
 - leader-change
 - consistency
 - protocol
-stage: concrete-operations
+stage: advanced
 status: draft
 ---
 

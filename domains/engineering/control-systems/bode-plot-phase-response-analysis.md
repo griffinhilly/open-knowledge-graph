@@ -14,7 +14,7 @@ tags:
 - phase
 - phase-lag
 - phase-lead
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

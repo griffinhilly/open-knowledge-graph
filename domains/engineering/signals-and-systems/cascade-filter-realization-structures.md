@@ -14,7 +14,7 @@ tags:
 - realization
 - cascade
 - structure
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

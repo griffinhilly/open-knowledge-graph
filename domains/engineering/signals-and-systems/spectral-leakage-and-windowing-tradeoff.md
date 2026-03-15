@@ -14,7 +14,7 @@ tags:
 - leakage
 - windowing
 - trade-offs
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

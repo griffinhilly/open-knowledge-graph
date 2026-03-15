@@ -13,7 +13,7 @@ tags:
 - convergence
 - propagation
 - epidemic
-stage: concrete-operations
+stage: advanced
 status: draft
 ---
 
