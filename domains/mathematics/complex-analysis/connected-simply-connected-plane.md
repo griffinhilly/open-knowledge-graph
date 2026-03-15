@@ -13,7 +13,7 @@ tags:
 - topology
 - connectivity
 - simply-connected
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

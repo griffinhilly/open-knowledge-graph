@@ -16,7 +16,7 @@ tags:
 - power-series
 - analytic-solutions
 - series-method
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

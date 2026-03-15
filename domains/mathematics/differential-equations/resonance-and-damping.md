@@ -14,7 +14,7 @@ tags:
 - resonance
 - damping
 - forced-vibrations
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

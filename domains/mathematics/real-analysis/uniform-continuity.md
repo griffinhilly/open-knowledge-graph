@@ -13,7 +13,7 @@ tags:
 - uniform-continuity
 - epsilon-delta
 - strengthened
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

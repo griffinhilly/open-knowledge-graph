@@ -12,7 +12,7 @@ tags:
 - fundamental-theorem-algebra
 - roots
 - polynomials
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

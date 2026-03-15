@@ -15,7 +15,7 @@ tags:
 - systems
 - visualization
 - qualitative
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

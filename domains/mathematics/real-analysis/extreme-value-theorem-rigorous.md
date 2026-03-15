@@ -14,7 +14,7 @@ tags:
 - extreme-value
 - compactness
 - maxima-minima
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

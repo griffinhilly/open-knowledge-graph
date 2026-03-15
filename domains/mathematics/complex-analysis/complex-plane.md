@@ -14,7 +14,7 @@ tags:
 - complex-numbers
 - geometry
 - foundations
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

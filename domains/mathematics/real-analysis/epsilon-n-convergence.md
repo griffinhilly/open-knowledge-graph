@@ -16,7 +16,7 @@ tags:
 - convergence
 - epsilon-delta
 - limits
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

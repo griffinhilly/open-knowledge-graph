@@ -12,7 +12,7 @@ tags:
 - ivp
 - solving
 - systematic-method
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

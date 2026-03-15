@@ -19,7 +19,7 @@ tags:
 - liminf
 - limits
 - convergence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - uniform-convergence
 - continuity
 - preservation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

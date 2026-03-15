@@ -14,7 +14,7 @@ tags:
 - repeated-roots
 - reduction-of-order
 - second-solution
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

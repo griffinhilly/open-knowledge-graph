@@ -14,7 +14,7 @@ tags:
 - exact-equations
 - first-order
 - partial-derivatives
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

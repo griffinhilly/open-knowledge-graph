@@ -15,7 +15,7 @@ tags:
 - integrating-factor
 - first-order
 - linear
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

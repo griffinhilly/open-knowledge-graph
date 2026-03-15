@@ -13,7 +13,7 @@ tags:
 - pointwise-convergence
 - function-sequences
 - limits
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

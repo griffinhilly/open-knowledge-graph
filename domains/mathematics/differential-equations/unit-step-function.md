@@ -14,7 +14,7 @@ tags:
 - laplace-transform
 - piecewise
 - step-function
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

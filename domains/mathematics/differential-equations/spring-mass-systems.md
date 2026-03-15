@@ -14,7 +14,7 @@ tags:
 - applications
 - mechanics
 - vibrations
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - supremum
 - axiom
 - foundations
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - monotone
 - supremum
 - bounded
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

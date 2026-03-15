@@ -15,7 +15,7 @@ tags:
 - complex-numbers
 - polar-coordinates
 - trigonometry
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

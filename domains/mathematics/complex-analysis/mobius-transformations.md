@@ -10,7 +10,7 @@ tags:
 - mobius-transformations
 - linear-fractional
 - conformal
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

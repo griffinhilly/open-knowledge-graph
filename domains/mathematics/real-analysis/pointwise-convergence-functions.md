@@ -15,7 +15,7 @@ tags:
 - function-sequences
 - pointwise
 - convergence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

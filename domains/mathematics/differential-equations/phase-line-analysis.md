@@ -16,7 +16,7 @@ tags:
 - qualitative
 - stability
 - visualization
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

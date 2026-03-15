@@ -15,7 +15,7 @@ tags:
 - complex-exponentials
 - euler-formula
 - power-series
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

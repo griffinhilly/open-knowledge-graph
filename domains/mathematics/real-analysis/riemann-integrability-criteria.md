@@ -15,7 +15,7 @@ tags:
 - integrability
 - criteria
 - discontinuities
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

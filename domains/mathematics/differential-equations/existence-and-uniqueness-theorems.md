@@ -16,7 +16,7 @@ tags:
 - theory
 - rigor
 - qualitative
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

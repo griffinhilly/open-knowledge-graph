@@ -14,7 +14,7 @@ tags:
 - lebesgue-measure
 - measure-theory
 - advanced
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

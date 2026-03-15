@@ -10,7 +10,7 @@ tags:
 - analytic-continuation
 - extension
 - identity-theorem
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

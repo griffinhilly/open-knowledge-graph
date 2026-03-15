@@ -14,7 +14,7 @@ tags:
 - rationals
 - density
 - approximation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

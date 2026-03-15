@@ -12,7 +12,7 @@ tags:
 - cauchy
 - completeness
 - convergence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

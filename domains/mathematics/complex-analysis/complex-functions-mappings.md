@@ -15,7 +15,7 @@ tags:
 - functions
 - mappings
 - domains
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

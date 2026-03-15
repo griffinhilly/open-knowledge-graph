@@ -16,7 +16,7 @@ tags:
 - separable
 - first-order
 - integration
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

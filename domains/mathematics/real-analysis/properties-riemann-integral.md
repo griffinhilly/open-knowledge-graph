@@ -13,7 +13,7 @@ tags:
 - riemann-integral
 - properties
 - linearity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

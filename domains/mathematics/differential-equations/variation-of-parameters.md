@@ -14,7 +14,7 @@ tags:
 - particular-solution
 - variation-of-parameters
 - general-method
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

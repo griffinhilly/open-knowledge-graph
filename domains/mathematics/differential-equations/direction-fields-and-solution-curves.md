@@ -15,7 +15,7 @@ tags:
 - visualization
 - qualitative-analysis
 - geometry
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - derivatives
 - integral-formula
 - cauchy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

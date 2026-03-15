@@ -15,7 +15,7 @@ tags:
 - residues
 - laurent-coefficient
 - computation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - complex-roots
 - oscillation
 - trigonometric
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

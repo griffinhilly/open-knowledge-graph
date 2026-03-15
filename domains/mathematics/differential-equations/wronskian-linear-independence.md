@@ -15,7 +15,7 @@ tags:
 - wronskian
 - linear-independence
 - theoretical
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

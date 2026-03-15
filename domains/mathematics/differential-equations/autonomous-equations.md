@@ -16,7 +16,7 @@ tags:
 - first-order
 - qualitative
 - equilibrium
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

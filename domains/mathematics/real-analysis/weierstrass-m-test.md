@@ -14,7 +14,7 @@ tags:
 - weierstrass-m-test
 - uniform-convergence
 - series
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - cauchys-theorem
 - holomorphic
 - closed-contours
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

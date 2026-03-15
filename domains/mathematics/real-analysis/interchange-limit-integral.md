@@ -12,7 +12,7 @@ tags:
 - limit-integral
 - interchange
 - uniform-convergence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

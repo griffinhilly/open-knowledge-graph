@@ -15,7 +15,7 @@ tags:
 - line-integrals
 - contour-integrals
 - path-dependence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

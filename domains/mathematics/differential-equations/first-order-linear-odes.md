@@ -15,7 +15,7 @@ tags:
 - first-order
 - linear
 - fundamental
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

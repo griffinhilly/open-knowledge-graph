@@ -14,7 +14,7 @@ tags:
 - systems
 - eigenvalue
 - diagonalization
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - complex-numbers
 - polar-coordinates
 - geometry
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - numerical
 - approximation
 - computational
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

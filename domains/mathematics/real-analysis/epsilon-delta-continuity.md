@@ -16,7 +16,7 @@ tags:
 - continuity
 - epsilon-delta
 - rigor
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

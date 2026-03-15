@@ -14,7 +14,7 @@ tags:
 - conformal-mappings
 - angle-preserving
 - geometry
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

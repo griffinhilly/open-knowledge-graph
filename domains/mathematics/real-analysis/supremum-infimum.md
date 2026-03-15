@@ -15,7 +15,7 @@ tags:
 - infimum
 - bounds
 - real-numbers
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - improper-integrals
 - convergence
 - unbounded
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

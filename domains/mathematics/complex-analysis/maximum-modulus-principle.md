@@ -10,7 +10,7 @@ tags:
 - maximum-modulus
 - rigidity
 - interior-points
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

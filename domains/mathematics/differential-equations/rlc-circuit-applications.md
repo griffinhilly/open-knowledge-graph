@@ -12,7 +12,7 @@ tags:
 - applications
 - circuits
 - rlc
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - integral-properties
 - linearity
 - monotonicity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

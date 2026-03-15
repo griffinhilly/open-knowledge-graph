@@ -13,7 +13,7 @@ tags:
 - subsequences
 - convergence
 - selections
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

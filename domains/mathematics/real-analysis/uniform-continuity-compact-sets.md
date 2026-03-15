@@ -14,7 +14,7 @@ tags:
 - uniform-continuity
 - compact
 - compactness
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

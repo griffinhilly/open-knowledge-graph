@@ -12,7 +12,7 @@ tags:
 - lebesgue-integral
 - measure-theory
 - integration
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - uniform-convergence
 - function-sequences
 - strengthened
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - weierstrass-approximation
 - polynomials
 - approximation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

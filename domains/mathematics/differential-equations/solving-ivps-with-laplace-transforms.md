@@ -14,7 +14,7 @@ tags:
 - laplace-transform
 - application
 - ivp
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

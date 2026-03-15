@@ -14,7 +14,7 @@ tags:
 - archimedean
 - properties
 - infinite
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

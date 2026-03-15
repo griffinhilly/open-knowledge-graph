@@ -15,7 +15,7 @@ tags:
 - autonomous
 - phase-line
 - qualitative-analysis
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

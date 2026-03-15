@@ -14,7 +14,7 @@ tags:
 - bounds
 - supremum
 - infimum
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

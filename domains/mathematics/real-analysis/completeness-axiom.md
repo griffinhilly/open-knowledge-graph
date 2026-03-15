@@ -17,7 +17,7 @@ tags:
 - supremum
 - axiom
 - real-numbers
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

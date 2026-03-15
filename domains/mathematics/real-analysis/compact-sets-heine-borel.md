@@ -16,7 +16,7 @@ tags:
 - heine-borel
 - closed-bounded
 - covering
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

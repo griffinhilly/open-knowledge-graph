@@ -14,7 +14,7 @@ tags:
 - application
 - forced-oscillations
 - resonance
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

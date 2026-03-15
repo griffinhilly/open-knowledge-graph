@@ -15,7 +15,7 @@ tags:
 - mean-value
 - derivative
 - intermediate-point
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

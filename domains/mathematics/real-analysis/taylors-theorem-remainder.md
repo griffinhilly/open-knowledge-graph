@@ -14,7 +14,7 @@ tags:
 - taylor
 - remainder
 - polynomial-approximation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

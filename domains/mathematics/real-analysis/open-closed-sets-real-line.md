@@ -15,7 +15,7 @@ tags:
 - closed-sets
 - topology
 - real-line
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

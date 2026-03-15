@@ -14,7 +14,7 @@ tags:
 - particular-solution
 - undetermined-coefficients
 - non-homogeneous
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

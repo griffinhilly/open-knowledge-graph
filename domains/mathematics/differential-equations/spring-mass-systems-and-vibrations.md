@@ -14,7 +14,7 @@ tags:
 - application
 - mechanics
 - modeling
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

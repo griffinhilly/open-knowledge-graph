@@ -12,7 +12,7 @@ tags:
 - numerical-methods
 - approximation
 - computation
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

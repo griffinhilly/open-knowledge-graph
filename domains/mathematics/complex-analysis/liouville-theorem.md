@@ -13,7 +13,7 @@ tags:
 - liouvilles-theorem
 - bounded-entire
 - rigidity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

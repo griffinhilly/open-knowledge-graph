@@ -13,7 +13,7 @@ tags:
 - closed-sets
 - topology
 - complements
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

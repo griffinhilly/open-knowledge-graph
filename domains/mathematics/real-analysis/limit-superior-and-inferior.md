@@ -15,7 +15,7 @@ tags:
 - liminf
 - convergence
 - oscillation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

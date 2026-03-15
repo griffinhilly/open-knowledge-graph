@@ -14,7 +14,7 @@ tags:
 - inverse-transform
 - partial-fractions
 - recovery
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

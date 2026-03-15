@@ -15,7 +15,7 @@ tags:
 - series
 - method
 - special-functions
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

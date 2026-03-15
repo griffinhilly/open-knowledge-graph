@@ -15,7 +15,7 @@ tags:
 - riemann-integral
 - darboux-sums
 - integrability
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

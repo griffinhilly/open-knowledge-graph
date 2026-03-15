@@ -12,7 +12,7 @@ tags:
 - power-series
 - uniform-convergence
 - analytic
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

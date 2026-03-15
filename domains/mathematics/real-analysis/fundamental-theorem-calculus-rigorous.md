@@ -12,7 +12,7 @@ tags:
 - fundamental-theorem
 - differentiation
 - integration
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

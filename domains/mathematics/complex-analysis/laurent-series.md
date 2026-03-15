@@ -13,7 +13,7 @@ tags:
 - laurent-series
 - principal-part
 - singularities
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

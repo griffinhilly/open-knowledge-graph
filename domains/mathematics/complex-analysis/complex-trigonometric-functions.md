@@ -12,7 +12,7 @@ tags:
 - trigonometric-functions
 - entire-function
 - periodicity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

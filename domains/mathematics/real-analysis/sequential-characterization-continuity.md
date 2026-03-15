@@ -15,7 +15,7 @@ tags:
 - continuity
 - sequences
 - limits
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -10,7 +10,7 @@ tags:
 - lhopitals
 - limits
 - indeterminate-forms
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

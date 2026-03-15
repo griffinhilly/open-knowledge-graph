@@ -17,7 +17,7 @@ tags:
 - systems
 - matrix-form
 - fundamental
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

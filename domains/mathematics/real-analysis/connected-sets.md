@@ -14,7 +14,7 @@ tags:
 - connected
 - topology
 - path-connected
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

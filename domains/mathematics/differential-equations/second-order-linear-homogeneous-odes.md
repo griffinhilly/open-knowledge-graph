@@ -15,7 +15,7 @@ tags:
 - second-order
 - homogeneous
 - linear
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

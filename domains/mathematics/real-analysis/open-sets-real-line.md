@@ -14,7 +14,7 @@ tags:
 - open-sets
 - topology
 - neighborhoods
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

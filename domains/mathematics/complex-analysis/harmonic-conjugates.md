@@ -10,7 +10,7 @@ tags:
 - harmonic
 - conjugate-pairs
 - reconstruction
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

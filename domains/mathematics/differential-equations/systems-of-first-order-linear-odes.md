@@ -16,7 +16,7 @@ tags:
 - systems
 - linear
 - matrix-form
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

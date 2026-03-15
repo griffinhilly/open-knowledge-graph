@@ -13,7 +13,7 @@ tags:
 - singularities
 - poles
 - essential-singularities
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

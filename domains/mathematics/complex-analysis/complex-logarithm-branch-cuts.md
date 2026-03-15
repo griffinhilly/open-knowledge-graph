@@ -10,7 +10,7 @@ tags:
 - logarithm
 - branch-cut
 - multi-valued
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

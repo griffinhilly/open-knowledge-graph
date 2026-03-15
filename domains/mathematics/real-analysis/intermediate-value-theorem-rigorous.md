@@ -12,7 +12,7 @@ tags:
 - intermediate-value
 - connectedness
 - continuity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

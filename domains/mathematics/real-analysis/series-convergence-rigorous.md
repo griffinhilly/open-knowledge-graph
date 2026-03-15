@@ -15,7 +15,7 @@ tags:
 - series
 - convergence
 - partial-sums
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

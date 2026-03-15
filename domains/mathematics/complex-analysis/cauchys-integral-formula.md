@@ -13,7 +13,7 @@ tags:
 - cauchys-integral-formula
 - reconstruction
 - values-from-boundary
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

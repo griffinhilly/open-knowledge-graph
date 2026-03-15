@@ -14,7 +14,7 @@ tags:
 - continuity
 - sequences
 - equivalence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

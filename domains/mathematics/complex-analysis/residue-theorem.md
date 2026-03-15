@@ -15,7 +15,7 @@ tags:
 - residue-theorem
 - contour-integrals
 - applications
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

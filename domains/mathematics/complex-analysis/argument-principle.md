@@ -10,7 +10,7 @@ tags:
 - argument-principle
 - winding-number
 - zeros-poles
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

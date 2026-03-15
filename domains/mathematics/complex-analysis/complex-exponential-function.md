@@ -15,7 +15,7 @@ tags:
 - exponential
 - entire-function
 - periodic
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

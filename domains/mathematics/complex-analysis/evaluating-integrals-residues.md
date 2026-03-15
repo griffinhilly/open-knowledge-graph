@@ -10,7 +10,7 @@ tags:
 - residue-method
 - real-integrals
 - applications
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

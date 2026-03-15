@@ -14,7 +14,7 @@ tags:
 - laplace-transform
 - derivative
 - integral
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

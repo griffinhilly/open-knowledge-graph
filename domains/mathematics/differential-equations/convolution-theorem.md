@@ -14,7 +14,7 @@ tags:
 - convolution
 - product-rule
 - inverse-transform
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

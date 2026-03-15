@@ -10,7 +10,7 @@ tags:
 - absolute-convergence
 - rearrangement
 - conditional-convergence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

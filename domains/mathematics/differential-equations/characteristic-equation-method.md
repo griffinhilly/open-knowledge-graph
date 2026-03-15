@@ -15,7 +15,7 @@ tags:
 - characteristic-equation
 - constant-coefficients
 - solution-method
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

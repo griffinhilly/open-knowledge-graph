@@ -12,7 +12,7 @@ tags:
 - harmonic-functions
 - laplace-equation
 - pde
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

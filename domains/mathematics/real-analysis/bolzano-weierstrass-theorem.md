@@ -15,7 +15,7 @@ tags:
 - bolzano-weierstrass
 - compactness
 - subsequences
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - contour-integrals
 - closed-paths
 - circulation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

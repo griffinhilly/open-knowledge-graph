@@ -14,7 +14,7 @@ tags:
 - application
 - electrical-circuits
 - modeling
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 

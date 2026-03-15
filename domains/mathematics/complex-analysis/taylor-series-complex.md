@@ -15,7 +15,7 @@ tags:
 - taylor-series
 - power-series
 - analytic
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

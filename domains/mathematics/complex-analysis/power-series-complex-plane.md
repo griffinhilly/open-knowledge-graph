@@ -14,7 +14,7 @@ tags:
 - power-series
 - radius-of-convergence
 - uniform-convergence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

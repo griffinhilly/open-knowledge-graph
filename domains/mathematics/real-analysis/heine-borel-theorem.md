@@ -15,7 +15,7 @@ tags:
 - heine-borel
 - compactness
 - closed-bounded
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

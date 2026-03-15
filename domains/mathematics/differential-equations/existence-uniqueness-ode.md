@@ -14,7 +14,7 @@ tags:
 - existence
 - uniqueness
 - theoretical
-stage: advanced
+stage: formal-systems
 status: draft
 ---
 
