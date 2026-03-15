@@ -6,6 +6,8 @@ course: climate-science
 prerequisites:
 - id: solar-radiation-and-earth-energy-balance
   type: soft
+- id: kepler-laws-planetary-orbits
+  type: soft
 builds-toward:
 - eccentricity-climate-forcing
 - obliquity-climate-forcing

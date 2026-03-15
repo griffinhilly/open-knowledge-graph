@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: orbital-elements-and-trajectories
   type: soft
+- id: kepler-laws-planetary-orbits
+  type: hard
 builds-toward:
 - multi-planet-system-architecture
 tags:

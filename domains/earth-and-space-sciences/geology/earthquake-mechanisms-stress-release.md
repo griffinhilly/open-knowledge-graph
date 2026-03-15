@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: coulomb-stress-transfer
   type: soft
+- id: stress-strain-rock-deformation
+  type: soft
 builds-toward:
 - seismic-waves-p-s-surface
 tags:

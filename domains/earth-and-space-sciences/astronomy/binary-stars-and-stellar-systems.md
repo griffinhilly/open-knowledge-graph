@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: newtons-second-law
   type: soft
+- id: kepler-laws-planetary-orbits
+  type: hard
 builds-toward:
 - exoplanet-detection-methods
 - stellar-end-states

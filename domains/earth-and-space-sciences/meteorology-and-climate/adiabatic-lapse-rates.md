@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: first-law-of-thermodynamics
   type: hard
+- id: adiabatic-processes
+  type: hard
 builds-toward:
 - convective-instability-indices
 - atmospheric-stability-convection

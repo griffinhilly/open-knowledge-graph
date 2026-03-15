@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: stellar-properties-luminosity-temperature
   type: soft
+- id: logarithm-properties
+  type: soft
 builds-toward:
 - cepheid-variables-period-luminosity
 - cosmic-distance-ladder-calibration

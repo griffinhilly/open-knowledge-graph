@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: atomic-structure-and-atoms
   type: soft
+- id: carbon-chemistry
+  type: soft
 builds-toward:
 - main-sequence-lifetime-mass-luminosity-relation
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gas-laws-ideal-gas
   type: soft
+- id: saturation-vapor-pressure-clausius
+  type: hard
 builds-toward:
 - convective-instability-indices
 - thermodynamic-diagram-analysis

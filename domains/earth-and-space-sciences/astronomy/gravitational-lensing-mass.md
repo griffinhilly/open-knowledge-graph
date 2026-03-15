@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: differential-geometry
   type: soft
+- id: light-bending-gravitational-fields
+  type: soft
 builds-toward:
 - large-scale-structure-universe
 tags:

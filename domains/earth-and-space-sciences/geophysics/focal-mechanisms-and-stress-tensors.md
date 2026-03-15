@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: plate-tectonics
   type: hard
+- id: stress-strain-rock-deformation
+  type: hard
 builds-toward:
 - moment-tensor-inversion
 - seismic-moment-and-magnitude

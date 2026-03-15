@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: gibbs-free-energy-spontaneity
   type: soft
+- id: phase-diagrams-binary-mixtures
+  type: hard
 builds-toward:
 - volcano-classification-magma-types
 tags:

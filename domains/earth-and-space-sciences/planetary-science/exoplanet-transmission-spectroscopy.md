@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: spectroscopy-fundamentals
   type: hard
+- id: spectroscopic-instrumentation
+  type: soft
 builds-toward:
 - biosignatures-exoplanet-atmospheres
 tags:

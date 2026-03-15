@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: salinity-composition-seawater
   type: hard
+- id: pressure-gradient-force
+  type: soft
 builds-toward:
 - thermohaline-circulation
 - ocean-heat-transport-mechanism

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: latent-heat-and-phase-transitions
   type: hard
+- id: thermodynamic-equilibrium-mechanical-chemical
+  type: soft
 builds-toward:
 - water-mass-formation-types
 - ocean-density-thermal-stratification

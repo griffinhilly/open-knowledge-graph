@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cloud-formation-and-types
   type: soft
+- id: nucleation-and-surface-chemistry
+  type: soft
 builds-toward:
 - ice-nucleation-freezing-processes
 tags:

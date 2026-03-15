@@ -6,6 +6,8 @@ course: astronomy
 prerequisites:
 - id: celestial-sphere-coordinate-systems
   type: soft
+- id: logarithm-properties
+  type: soft
 builds-toward:
 - inverse-square-law-stellar-radiation
 - extinction-and-interstellar-reddening

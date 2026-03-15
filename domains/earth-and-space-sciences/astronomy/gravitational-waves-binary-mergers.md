@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: general-relativity-intro
   type: soft
+- id: wave-properties-intro
+  type: soft
 tags:
 - gravitational-waves
 - compact-objects

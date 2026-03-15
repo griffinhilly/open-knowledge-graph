@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: radiometric-dating-isotope-systems-geochronology
   type: soft
+- id: nuclear-chemistry
+  type: hard
 builds-toward:
 - stratigraphy-law-superposition-correlation
 - geological-time-scale

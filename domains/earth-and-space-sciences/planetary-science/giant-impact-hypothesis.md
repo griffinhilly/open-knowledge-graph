@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: impact-cratering-mechanics
   type: soft
+- id: collision-analysis-applications
+  type: soft
 builds-toward:
 - tidal-orbital-evolution-long-term
 - thermal-evolution-terrestrial-planets

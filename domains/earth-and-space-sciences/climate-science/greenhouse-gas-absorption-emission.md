@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: quantum-mechanics-postulates-core
   type: soft
+- id: electromagnetic-spectrum
+  type: soft
 builds-toward:
 - radiative-forcing-greenhouse-gases
 - line-by-line-radiative-transfer

@@ -18,6 +18,8 @@ prerequisites:
   type: hard
 - id: gibbs-free-energy
   type: hard
+- id: phase-diagrams-clausius-clapeyron
+  type: hard
 builds-toward:
 - thermobarometry-estimates-metamorphic
 tags:

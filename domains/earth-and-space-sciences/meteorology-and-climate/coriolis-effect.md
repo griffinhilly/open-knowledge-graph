@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: non-inertial-frames-fictitious-forces
   type: hard
+- id: rotating-reference-frames
+  type: hard
 builds-toward:
 - pressure-systems-and-winds
 - global-atmospheric-circulation

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: supernova-type-ia-thermonuclear
   type: soft
+- id: logarithm-properties
+  type: soft
 builds-toward:
 - hubble-law-and-cosmic-expansion
 - baryon-acoustic-oscillations-structure

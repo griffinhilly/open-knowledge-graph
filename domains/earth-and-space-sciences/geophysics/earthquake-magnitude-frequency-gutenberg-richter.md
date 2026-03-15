@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: earthquakes-and-seismology
   type: soft
+- id: logarithm-properties
+  type: soft
 tags:
 - seismic
 - magnitude

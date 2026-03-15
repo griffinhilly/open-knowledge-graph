@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: le-chatelier-principle
   type: soft
+- id: chemical-equilibrium
+  type: hard
 builds-toward:
 - ocean-acidification
 - coral-reef-ecosystem-structure

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: hydrostatic-equilibrium
   type: hard
+- id: pressure-and-forces
+  type: hard
 builds-toward:
 - vertical-motion-and-omega
 - adiabatic-lapse-rates

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: orbital-resonance-capture
   type: soft
+- id: kepler-laws-planetary-orbits
+  type: hard
 builds-toward:
 - orbital-resonance-capture
 - multi-planet-system-architecture

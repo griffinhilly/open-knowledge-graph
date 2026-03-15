@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: trigonometry
   type: hard
+- id: trigonometric-ratios-review
+  type: soft
 builds-toward:
 - inverse-square-law-stellar-radiation
 - galaxy-classification-and-morphology

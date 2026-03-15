@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: greenhouse-effect
   type: soft
+- id: radiative-transfer-equation
+  type: hard
 builds-toward:
 - energy-balance-models
 - radiative-forcing-definition

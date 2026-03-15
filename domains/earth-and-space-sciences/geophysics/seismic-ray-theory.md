@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: geometric-optics-ray-approximation
   type: hard
+- id: wave-motion-definition
+  type: hard
 builds-toward:
 - seismic-refraction-surveys
 - seismic-tomography-velocity-imaging

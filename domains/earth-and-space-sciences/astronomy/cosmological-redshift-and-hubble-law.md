@@ -6,6 +6,8 @@ course: astronomy
 prerequisites:
 - id: galaxy-rotation-curves-dark-matter
   type: soft
+- id: doppler-effect
+  type: soft
 builds-toward:
 - cosmic-microwave-background-observations
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: gravity-waves-wind-ocean-surface
   type: hard
+- id: wave-motion-definition
+  type: soft
 builds-toward:
 - coastal-sediment-transport-dynamics
 - coastal-processes-and-waves

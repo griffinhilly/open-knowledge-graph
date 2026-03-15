@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: keplers-laws
   type: soft
+- id: kepler-laws-planetary-orbits
+  type: hard
 builds-toward:
 - n-body-planetary-dynamics
 - multi-planet-system-architecture

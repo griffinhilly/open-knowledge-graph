@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: thermal-expansion
   type: soft
+- id: kepler-laws-planetary-orbits
+  type: soft
 builds-toward:
 - planetary-habitability-and-biosignatures
 tags:
