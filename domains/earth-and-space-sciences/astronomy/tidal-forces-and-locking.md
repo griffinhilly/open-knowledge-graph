@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gravitational-potential-energy-extended
   type: hard
+- id: conservation-of-energy
+  type: soft
 builds-toward:
 - moon-earth-system-dynamics
 - lunar-geology-and-history

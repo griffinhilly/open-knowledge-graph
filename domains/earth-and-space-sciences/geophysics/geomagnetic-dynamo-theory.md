@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: magnetohydrodynamics
   type: hard
+- id: electromagnetic-waves
+  type: soft
 tags:
 - geomagnetism
 - dynamo

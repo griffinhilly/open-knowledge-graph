@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: fluid-flow-porous-media
   type: soft
+- id: conservation-of-energy
+  type: soft
 builds-toward:
 - subduction-zone-structure-and-dynamics
 - mid-ocean-ridge-dynamics-and-geophysics

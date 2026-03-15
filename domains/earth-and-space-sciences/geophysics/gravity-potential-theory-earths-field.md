@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: laplaces-equation
   type: hard
+- id: applications-integrals-area-mass
+  type: hard
 builds-toward:
 - gravity-anomalies-and-interpretation
 - geoid-determination-and-geodesy

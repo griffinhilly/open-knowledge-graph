@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: thermodynamics-intro
   type: soft
+- id: atomic-structure-and-atoms
+  type: soft
 builds-toward:
 - stellar-fusion-cno-cycle
 - main-sequence-lifetime-mass-luminosity-relation

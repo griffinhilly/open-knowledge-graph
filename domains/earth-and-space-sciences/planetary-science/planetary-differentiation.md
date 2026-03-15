@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: density-and-buoyancy-fluids
   type: soft
+- id: entropy-and-gibbs-free-energy
+  type: soft
 builds-toward:
 - planetary-magnetic-field-generation
 - planetary-tectonics-comparative

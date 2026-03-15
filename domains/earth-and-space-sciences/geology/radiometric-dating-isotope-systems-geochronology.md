@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: radioactive-heat-production
   type: soft
+- id: radioactive-decay
+  type: hard
 tags:
 - geochronology
 - dating

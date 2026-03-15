@@ -14,6 +14,12 @@ prerequisites:
   type: soft
 - id: differential-equations
   type: hard
+- id: vectors-in-3d
+  type: hard
+- id: conservation-of-energy
+  type: hard
+- id: conservation-of-momentum
+  type: hard
 builds-toward:
 - exoplanet-orbital-determination-methods
 - planetary-mass-determination-techniques

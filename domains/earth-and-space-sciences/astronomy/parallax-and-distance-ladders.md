@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: trigonometry
   type: hard
+- id: trigonometric-ratios-review
+  type: hard
 builds-toward:
 - spectral-photometry-colors
 - star-clusters-age-dating

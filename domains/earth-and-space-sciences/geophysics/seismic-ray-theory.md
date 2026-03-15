@@ -16,6 +16,10 @@ prerequisites:
   type: hard
 - id: wave-motion-definition
   type: hard
+- id: wave-properties-intro
+  type: hard
+- id: snells-law
+  type: hard
 builds-toward:
 - seismic-refraction-surveys
 - seismic-tomography-velocity-imaging

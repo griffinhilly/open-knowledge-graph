@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: two-body-orbital-problem
   type: soft
+- id: differential-equations-intro
+  type: soft
 builds-toward:
 - asteroid-belt-structure
 - solar-system-zones-architecture

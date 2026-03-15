@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kepler-laws-orbital-motion-derivation
   type: soft
+- id: wave-properties-intro
+  type: soft
 tags:
 - binary-stars
 - light-curves

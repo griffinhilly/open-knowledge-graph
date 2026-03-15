@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: electromagnetic-spectrum
   type: soft
+- id: electromagnetic-waves
+  type: soft
 tags:
 - cosmology
 - cmb

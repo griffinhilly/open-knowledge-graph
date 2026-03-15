@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: light-deflection
   type: soft
+- id: special-relativity-postulates
+  type: soft
 builds-toward:
 - large-scale-structure-universe
 tags:

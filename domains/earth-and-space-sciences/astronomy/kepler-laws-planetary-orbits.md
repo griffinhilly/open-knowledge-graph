@@ -3,7 +3,9 @@ id: kepler-laws-planetary-orbits
 title: Kepler's Laws of Planetary Motion
 domain: earth-and-space-sciences
 course: astronomy
-prerequisites: []
+prerequisites:
+- id: trigonometric-ratios-review
+  type: soft
 builds-toward:
 - two-body-orbital-problem
 - orbital-resonances-dynamics

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: inverse-square-law-point-interactions
   type: hard
+- id: coulomb-law-point-interactions
+  type: soft
 builds-toward:
 - stellar-effective-temperature-color
 - stellar-interior-structure-hydrostatic-equilibrium

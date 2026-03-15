@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: atmospheric-photochemistry
   type: hard
+- id: uv-vis-spectroscopy-quantitative
+  type: soft
 builds-toward:
 - biosignatures-exoplanet-atmospheres
 tags:

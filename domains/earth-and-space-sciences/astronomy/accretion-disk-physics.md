@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: neutron-star-formation-collapse
   type: soft
+- id: angular-momentum
+  type: hard
+- id: conservation-of-energy
+  type: hard
 builds-toward:
 - x-ray-binary-systems
 - active-galactic-nuclei

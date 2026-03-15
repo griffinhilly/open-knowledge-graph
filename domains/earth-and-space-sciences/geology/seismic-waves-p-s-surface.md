@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: earthquake-mechanisms-stress-release
   type: hard
+- id: wave-properties-intro
+  type: hard
 builds-toward:
 - earthquake-location-and-hypocenter
 tags:

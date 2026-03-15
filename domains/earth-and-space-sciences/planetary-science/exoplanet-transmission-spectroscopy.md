@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: ultraviolet-visible-spectroscopy-quantitative
   type: soft
+- id: ir-spectroscopy-basics
+  type: soft
 builds-toward:
 - biosignatures-exoplanet-atmospheres
 tags:

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: quantum-tunneling
   type: soft
+- id: atomic-structure-and-atoms
+  type: soft
 builds-toward:
 - red-giant-branch-evolution
 tags:

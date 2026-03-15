@@ -6,6 +6,8 @@ course: geophysics
 prerequisites:
 - id: potential-field-methods-gravity-magnetics
   type: soft
+- id: electromagnetic-waves
+  type: soft
 builds-toward:
 - magnetotelluric-methods-em-induction
 tags:

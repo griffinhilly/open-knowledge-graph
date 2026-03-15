@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: radiative-forcing-definition
   type: hard
+- id: ir-spectroscopy-basics
+  type: soft
 builds-toward:
 - climate-sensitivity-radiative-feedbacks
 - anthropogenic-climate-forcing

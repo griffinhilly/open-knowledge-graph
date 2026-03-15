@@ -6,6 +6,8 @@ course: astronomy
 prerequisites:
 - id: post-main-sequence-evolution-pathways
   type: soft
+- id: special-relativity-postulates
+  type: soft
 tags:
 - compact-objects
 - black-holes

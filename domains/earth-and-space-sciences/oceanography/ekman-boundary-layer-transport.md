@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: pressure-systems-and-winds
   type: soft
+- id: coriolis-effect
+  type: hard
 builds-toward:
 - coastal-upwelling-ekman-dynamics
 - subtropical-ocean-gyres-formation

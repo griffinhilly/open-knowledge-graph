@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: trigonometry
   type: hard
+- id: trigonometric-ratios-review
+  type: hard
 builds-toward:
 - stellar-parallax-and-distance
 - solar-system-structure

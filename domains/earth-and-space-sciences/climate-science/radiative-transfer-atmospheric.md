@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: radiative-transfer-equation
   type: hard
+- id: electromagnetic-spectrum
+  type: soft
 builds-toward:
 - energy-balance-models
 - radiative-forcing-definition

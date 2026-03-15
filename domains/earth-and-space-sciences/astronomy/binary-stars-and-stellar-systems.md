@@ -20,6 +20,10 @@ prerequisites:
   type: hard
 - id: two-body-collision-center-of-mass
   type: soft
+- id: conservation-of-energy
+  type: soft
+- id: conservation-of-momentum
+  type: soft
 builds-toward:
 - exoplanet-detection-methods
 - stellar-end-states
