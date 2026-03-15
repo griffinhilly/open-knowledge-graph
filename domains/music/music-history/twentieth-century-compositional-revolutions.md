@@ -4,19 +4,17 @@ title: Twentieth-Century Compositional Revolutions
 domain: music
 course: music-history
 prerequisites:
-- id: music-history-overview
+- id: impressionism-modernism-late-19th-century
   type: hard
-- id: symphony-and-large-forms
-  type: hard
-- id: cultural-context-and-musical-change
-  type: soft
 builds-toward:
-- performance-authenticity-and-interpretation
+- jazz-origins-and-cultural-synthesis
+- electric-instruments-popular-music-recording-technology
 tags:
+- 20th-century
 - modernism
 - atonality
 - serialism
-- experimental-music
+- innovation
 stage: abstract-reasoning
 status: draft
 ---
@@ -24,10 +22,10 @@ status: draft
 # Twentieth-Century Compositional Revolutions
 
 ## Core Idea
-The 20th century saw radical compositional innovations including atonality, serialism (twelve-tone technique), minimalism, and aleatoric music that fundamentally challenged tonal harmony, traditional form, and composer control. These innovations responded to technical exhaustion of tonal language, philosophical modernism, and technological developments. Different composers developed radically different solutions to compositional problems, making the century musically diverse and contested.
+The 20th century witnessed unprecedented compositional experimentation: atonality and twelve-tone technique (Schoenberg), primitivism and rhythmic innovation (Stravinsky), neoclassicism, serialism, indeterminacy, and electronic music. These revolutions partly reflected the century's social upheavals, wars, and technological innovations, alongside compositional reactions to late-Romanticism. This fractious, pluralistic landscape replaced the 19th century's consensus about musical progress, establishing modernism's diversity as a defining feature.
 
 ## How It's Best Learned
-Listen to various radical compositions and seek to understand each approach, study scores and understand compositional systems being used, examine the historical contexts and theoretical writings that prompted innovations.
+Study representative works from multiple early 20th-century compositional approaches (Schoenberg, Stravinsky, Ives, Bartók), noting differences in their responses to the legacy of tonality and tradition.
 
 ## Common Misconceptions
-All 20th-century classical music is atonal; serialism is the primary or only important 20th-century compositional approach; audiences necessarily reject modernist music; 20th-century innovations represent progress or decline depending on perspective.
+- That 20th-century modernism was a unified movement pursuing a single goal. - That atonality and twelve-tone technique represented music's 'progress'; many composers rejected these approaches. - That 20th-century innovations were purely European; important innovations also emerged from non-Western traditions and popular music.
