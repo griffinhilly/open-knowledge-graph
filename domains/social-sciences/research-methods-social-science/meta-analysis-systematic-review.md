@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: probability-and-statistics
   type: hard
+- id: expected-value-and-variance
+  type: soft
+- id: confidence-intervals-framework
+  type: soft
 builds-toward:
 - meta-regression-heterogeneity
 - publication-bias-correction

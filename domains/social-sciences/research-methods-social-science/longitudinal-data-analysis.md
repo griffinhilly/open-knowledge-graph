@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: linear-regression-social-science
   type: hard
+- id: matrices-intro
+  type: soft
+- id: covariance-between-random-variables
+  type: soft
 builds-toward:
 - panel-data-fixed-effects
 - time-series-cross-section

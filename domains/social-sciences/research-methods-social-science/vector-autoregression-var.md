@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: matrix-operations
   type: hard
+- id: systems-of-first-order-linear-odes
+  type: soft
+- id: eigenvalues-and-eigenvectors
+  type: soft
 builds-toward:
 - structural-var-models
 - impulse-response-analysis

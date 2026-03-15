@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: probability-axioms
   type: hard
+- id: conditional-probability
+  type: soft
 builds-toward:
 - bayesian-network-models-causal
 - hierarchical-bayesian-models

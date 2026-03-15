@@ -6,6 +6,8 @@ course: research-methods-social-science
 prerequisites:
 - id: matching-and-weighting-causal-estimation
   type: hard
+- id: covariance-between-random-variables
+  type: soft
 tags:
 - sensitivity-analysis
 - unmeasured-confounding

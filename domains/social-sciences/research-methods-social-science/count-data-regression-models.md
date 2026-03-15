@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: probability-distributions
   type: hard
+- id: probability-mass-functions
+  type: soft
 tags:
 - count-data
 - poisson

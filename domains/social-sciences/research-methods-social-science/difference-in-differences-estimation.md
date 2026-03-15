@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: optimization-multivariable-basics
   type: soft
+- id: limit-laws
+  type: soft
 tags:
 - difference-in-differences
 - policy-evaluation

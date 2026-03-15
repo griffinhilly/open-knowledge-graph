@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: conditional-distributions-of-random-variables
   type: hard
+- id: probability-mass-functions
+  type: soft
+- id: conditional-probability
+  type: soft
 tags:
 - propensity-score
 - matching

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: functions-domain-codomain-range
   type: soft
+- id: differential-equations-intro
+  type: soft
 tags:
 - time-series
 - autocorrelation

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: logistic-regression-binary-outcomes
   type: soft
+- id: combinations
+  type: soft
 builds-toward:
 - discrete-choice-modeling
 - experimental-design-survey

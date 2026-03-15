@@ -6,6 +6,8 @@ course: research-methods-social-science
 prerequisites:
 - id: regression-diagnostics-assumption-violations
   type: hard
+- id: probability-mass-functions
+  type: soft
 tags:
 - missing-data
 - imputation

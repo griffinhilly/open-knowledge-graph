@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: probability-axioms
   type: soft
+- id: differential-equations-intro
+  type: soft
 builds-toward:
 - network-simulation-dynamics
 - simulation-modeling-social

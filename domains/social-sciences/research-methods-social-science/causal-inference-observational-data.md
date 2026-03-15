@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: probability-distributions
   type: hard
+- id: conditional-probability
+  type: soft
+- id: covariance-between-random-variables
+  type: soft
 builds-toward:
 - instrumental-variables-methods
 - difference-in-differences-estimation

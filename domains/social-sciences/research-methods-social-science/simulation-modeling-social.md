@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: computational-social-science-intro
   type: hard
+- id: differential-equations-intro
+  type: soft
+- id: algorithm-complexity
+  type: soft
 builds-toward:
 - model-validation-social-simulation
 - complexity-social-systems

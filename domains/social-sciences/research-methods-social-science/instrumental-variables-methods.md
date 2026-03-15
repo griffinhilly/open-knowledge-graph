@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: linear-systems-notation
   type: hard
+- id: matrices-intro
+  type: soft
+- id: linear-transformation-definition
+  type: soft
 tags:
 - instrumental-variables
 - endogeneity

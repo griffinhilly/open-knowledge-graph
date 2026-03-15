@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: linear-regression-social-science
   type: hard
+- id: limit-definition-intuitive
+  type: soft
 tags:
 - regression-discontinuity
 - threshold-assignment

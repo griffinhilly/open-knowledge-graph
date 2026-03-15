@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: degree-sequences
   type: soft
+- id: graph-theory-intro
+  type: soft
+- id: connected-components
+  type: soft
 builds-toward:
 - computational-social-science-intro
 tags:

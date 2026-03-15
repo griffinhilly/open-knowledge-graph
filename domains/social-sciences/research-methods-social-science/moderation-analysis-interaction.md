@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: research-design-advanced
   type: soft
+- id: polynomial-functions-degree-and-leading-coefficient
+  type: soft
 builds-toward:
 - three-way-interactions
 - heterogeneous-treatment-effects

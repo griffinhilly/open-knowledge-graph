@@ -6,6 +6,10 @@ course: research-methods-social-science
 prerequisites:
 - id: linear-regression-social-science
   type: hard
+- id: exponential-distribution
+  type: soft
+- id: probability-mass-functions
+  type: soft
 tags:
 - survival-analysis
 - event-history

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: research-design-advanced
   type: soft
+- id: matrices-intro
+  type: soft
+- id: statistics-descriptive
+  type: soft
 builds-toward:
 - algorithmic-auditing
 - data-ethics-governance

@@ -14,6 +14,10 @@ prerequisites:
   type: hard
 - id: matrix-operations
   type: hard
+- id: matrices-intro
+  type: soft
+- id: algorithm-complexity
+  type: soft
 builds-toward:
 - interpretable-machine-learning
 - fairness-bias-ml

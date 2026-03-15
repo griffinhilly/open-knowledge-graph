@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: eigenvalues-eigenvectors
   type: soft
+- id: graph-theory-intro
+  type: soft
+- id: eigenvalues-and-eigenvectors
+  type: soft
 tags:
 - network-analysis
 - centrality

@@ -14,6 +14,10 @@ prerequisites:
   type: hard
 - id: basis-and-dimension
   type: soft
+- id: eigenvalues-and-eigenvectors
+  type: soft
+- id: matrices-intro
+  type: soft
 tags:
 - SEM
 - latent-variables

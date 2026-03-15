@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: optimization-multivariable-basics
   type: hard
+- id: matrices-intro
+  type: soft
+- id: vector-spaces
+  type: soft
 builds-toward:
 - multilevel-modeling-hierarchical
 - logistic-regression-binary-outcomes

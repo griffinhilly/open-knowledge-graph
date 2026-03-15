@@ -6,6 +6,10 @@ course: research-methods-social-science
 prerequisites:
 - id: linear-regression-social-science
   type: hard
+- id: matrices-intro
+  type: soft
+- id: probability-mass-functions
+  type: soft
 builds-toward:
 - structural-equation-modeling-latent
 tags:

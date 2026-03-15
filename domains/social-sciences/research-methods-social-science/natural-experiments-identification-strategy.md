@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: natural-experiments-design
   type: soft
+- id: conditional-probability
+  type: soft
 builds-toward:
 - regression-discontinuity-sharp-fuzzy
 tags:

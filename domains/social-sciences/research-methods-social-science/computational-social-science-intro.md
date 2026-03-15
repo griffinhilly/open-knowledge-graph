@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: discrete-math-overview
   type: soft
+- id: algorithm-complexity
+  type: soft
 tags:
 - computational
 - agent-based-modeling

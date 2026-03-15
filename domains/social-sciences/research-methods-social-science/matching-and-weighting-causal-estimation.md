@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: causal-inference-from-observation
   type: soft
+- id: probability-mass-functions
+  type: soft
 tags:
 - matching
 - stratification

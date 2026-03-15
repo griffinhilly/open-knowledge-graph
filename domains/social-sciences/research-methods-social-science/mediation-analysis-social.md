@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: research-design-advanced
   type: soft
+- id: matrices-intro
+  type: soft
 builds-toward:
 - conditional-indirect-effects
 - dynamic-mediation-models
