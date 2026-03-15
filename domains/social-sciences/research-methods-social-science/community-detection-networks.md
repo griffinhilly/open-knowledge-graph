@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: social-network-analysis-structure
   type: hard
+- id: graph-theory-fundamentals
+  type: hard
 builds-toward:
 - modularity-optimization
 - stochastic-block-models

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multilevel-modeling-hierarchical
   type: soft
+- id: linear-regression
+  type: hard
 builds-toward:
 - dynamic-panel-models
 - system-gmm-estimators

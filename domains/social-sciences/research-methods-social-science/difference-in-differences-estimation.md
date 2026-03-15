@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: limit-laws
   type: soft
+- id: conditional-expectation
+  type: soft
 tags:
 - difference-in-differences
 - policy-evaluation

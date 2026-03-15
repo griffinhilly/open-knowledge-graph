@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: time-series-cross-section
   type: soft
+- id: linear-regression
+  type: soft
 builds-toward:
 - generalized-synthetic-control
 - augmented-synthetic-control

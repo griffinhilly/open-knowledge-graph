@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: conditional-probability
   type: soft
+- id: probability-axioms
+  type: soft
 tags:
 - propensity-score
 - matching

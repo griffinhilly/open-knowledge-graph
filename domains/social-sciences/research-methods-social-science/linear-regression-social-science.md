@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: vector-spaces
   type: soft
+- id: linear-regression
+  type: hard
 builds-toward:
 - multilevel-modeling-hierarchical
 - logistic-regression-binary-outcomes

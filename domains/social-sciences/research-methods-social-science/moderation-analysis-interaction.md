@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: polynomial-functions-degree-and-leading-coefficient
   type: soft
+- id: linear-regression
+  type: soft
 builds-toward:
 - three-way-interactions
 - heterogeneous-treatment-effects

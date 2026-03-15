@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: probability-and-statistics
   type: hard
+- id: probability-axioms
+  type: soft
 builds-toward:
 - field-experiments-real-world
 - lab-experiments-behavioral

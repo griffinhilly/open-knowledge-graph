@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: differential-equations-intro
   type: soft
+- id: time-series-cross-section
+  type: hard
 tags:
 - time-series
 - autocorrelation

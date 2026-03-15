@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: fixed-point-iteration
   type: soft
+- id: prisoner-dilemma-cooperation
+  type: soft
 builds-toward:
 - signaling-and-resolve
 - international-norms-diffusion

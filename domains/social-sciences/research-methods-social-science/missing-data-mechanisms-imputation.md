@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: probability-mass-functions
   type: soft
+- id: conditional-probability
+  type: soft
 tags:
 - missing-data
 - imputation

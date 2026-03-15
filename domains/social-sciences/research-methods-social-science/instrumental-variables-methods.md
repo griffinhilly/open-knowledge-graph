@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: linear-transformation-definition
   type: soft
+- id: linear-regression
+  type: hard
 tags:
 - instrumental-variables
 - endogeneity

@@ -1,31 +1,31 @@
 ---
 id: evaluating-online-information
-title: Evaluating Online Information
+title: Evaluating Credibility of Online Information
 domain: practical-life-skills
 course: digital-literacy
 prerequisites:
-- id: effective-web-searching
-  type: hard
-- id: social-media-literacy
+- id: basic-web-searching
   type: soft
+builds-toward:
+- identifying-misinformation-and-bias
 tags:
-- media-literacy
-- fact-checking
 - credibility
-- misinformation
+- source-evaluation
+- information-literacy
+- research
 stage: concrete-operations
-status: validated
+status: draft
 ---
 
-# Evaluating Online Information
+# Evaluating Credibility of Online Information
 
 ## Core Idea
-Not all online information is accurate, and the internet amplifies misinformation as readily as truth. Evaluating sources means checking authorship and credentials, publication date, evidence cited, domain reputation, and whether other credible sources corroborate the claim. The SIFT method (Stop, Investigate the source, Find better coverage, Trace claims to origins) offers a practical framework for rapid credibility assessment.
+Not all internet information is accurate or trustworthy. Check who wrote it, if they're an expert, if other sources confirm it, and whether there's obvious bias. Evaluating sources prevents believing false information.
 
 ## How It's Best Learned
-Practice lateral reading — instead of evaluating a source by reading deeply into it, open new tabs to research the source itself. Apply this to a contested claim from social media.
+Find the same information from different sources (news site, social media, blog) and compare. Look for author credentials and publication date. Check for obvious bias or financial motive.
 
 ## Common Misconceptions
-- A polished website design does not indicate credibility — disinformation sites are often well-designed.
-- Viral sharing on social media is not evidence that something is true.
-- Wikipedia is a reasonable starting point but not a primary source; follow its citations to the underlying references.
+- Anything written by many people must be true. (Misinformation spreads easily online.)
+- Professional-looking websites contain accurate information. (Professional sites can contain false information.)
+- Older information is less reliable than new. (Some old information is reliable; some new information is wrong.)

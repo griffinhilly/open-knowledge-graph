@@ -6,6 +6,8 @@ course: research-methods-social-science
 prerequisites:
 - id: linear-regression-social-science
   type: hard
+- id: matrices-intro
+  type: soft
 builds-toward:
 - mixed-methods-integration
 tags:

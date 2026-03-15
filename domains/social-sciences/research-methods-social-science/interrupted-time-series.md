@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: natural-experiments-design
   type: soft
+- id: time-series-cross-section
+  type: hard
 builds-toward:
 - segmented-regression-its
 tags:

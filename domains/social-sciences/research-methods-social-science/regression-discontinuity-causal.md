@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: limit-definition-intuitive
   type: soft
+- id: linear-regression
+  type: hard
 tags:
 - regression-discontinuity
 - threshold-assignment

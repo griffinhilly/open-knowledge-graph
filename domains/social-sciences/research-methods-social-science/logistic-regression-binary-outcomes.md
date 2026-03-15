@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: probability-mass-functions
   type: soft
+- id: logistic-regression-binary-categorical
+  type: hard
 builds-toward:
 - structural-equation-modeling-latent
 tags:

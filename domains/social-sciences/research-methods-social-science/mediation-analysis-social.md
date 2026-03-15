@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: matrices-intro
   type: soft
+- id: linear-regression
+  type: soft
 builds-toward:
 - conditional-indirect-effects
 - dynamic-mediation-models

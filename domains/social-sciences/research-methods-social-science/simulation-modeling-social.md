@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: algorithm-complexity
   type: soft
+- id: random-variables-intro
+  type: soft
 builds-toward:
 - model-validation-social-simulation
 - complexity-social-systems
