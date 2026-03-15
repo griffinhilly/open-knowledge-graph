@@ -3,7 +3,9 @@ id: basic-hand-tools
 title: Basic Hand Tools and Their Uses
 domain: practical-life-skills
 course: home-maintenance
-prerequisites: []
+prerequisites:
+- id: measurement-length-standard-units-3rd
+  type: soft
 builds-toward:
 - power-tool-safety
 - interior-painting

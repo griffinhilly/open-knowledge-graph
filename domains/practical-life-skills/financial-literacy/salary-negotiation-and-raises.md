@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: percent-increase-decrease
   type: soft
+- id: percent-concept
+  type: soft
 tags:
 - salary
 - negotiation

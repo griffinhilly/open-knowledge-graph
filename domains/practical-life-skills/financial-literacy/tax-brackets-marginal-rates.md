@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: linear-functions
   type: soft
+- id: percent-concept
+  type: soft
+- id: inequalities-intro
+  type: soft
 tags:
 - tax-brackets
 - marginal-rate

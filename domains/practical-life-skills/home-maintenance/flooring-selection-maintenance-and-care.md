@@ -6,6 +6,10 @@ course: home-maintenance
 prerequisites:
 - id: understanding-home-structure-and-systems
   type: hard
+- id: area-of-rectangles
+  type: soft
+- id: measurement-conversions-customary
+  type: soft
 tags:
 - flooring
 - maintenance

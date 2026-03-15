@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: addition-subtraction-word-problems
   type: soft
+- id: estimation-and-rounding-2nd
+  type: soft
+- id: place-value-whole-numbers
+  type: soft
 builds-toward: []
 tags:
 - planning

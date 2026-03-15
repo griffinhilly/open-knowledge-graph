@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: collecting-organizing-data-3rd
   type: soft
+- id: percent-concept
+  type: soft
 builds-toward:
 - recurring-subscription-audit-and-elimination
 tags:

@@ -6,6 +6,8 @@ course: home-maintenance
 prerequisites:
 - id: basic-hand-tools
   type: soft
+- id: measuring-length-feet-meters
+  type: soft
 builds-toward:
 - interior-painting
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: interior-painting
   type: soft
+- id: ratios
+  type: soft
 builds-toward:
 - interior-painting
 - interior-wall-and-ceiling-maintenance

@@ -6,6 +6,8 @@ course: home-maintenance
 prerequisites:
 - id: caulking-and-weatherstripping
   type: hard
+- id: measurement-length-standard-units-3rd
+  type: soft
 builds-toward:
 - insulation-and-air-sealing
 tags:

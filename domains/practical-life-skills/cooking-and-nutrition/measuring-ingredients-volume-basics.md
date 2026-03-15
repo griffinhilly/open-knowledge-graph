@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: intro-to-fractions
   type: hard
+- id: fractions-equal-parts
+  type: soft
+- id: intro-to-decimals
+  type: soft
+- id: measurement-conversions-customary
+  type: soft
 builds-toward:
 - reading-following-simple-recipes
 - grain-and-starch-preparation-basics

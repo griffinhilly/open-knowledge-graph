@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: money-word-problems
   type: hard
+- id: unit-rates
+  type: soft
+- id: comparing-decimals
+  type: soft
 tags:
 - budget
 - frugal-cooking

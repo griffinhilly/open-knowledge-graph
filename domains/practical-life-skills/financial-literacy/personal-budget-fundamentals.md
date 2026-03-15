@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: multiplication-word-problems
   type: soft
+- id: place-value-whole-numbers
+  type: soft
 builds-toward:
 - net-worth-tracking
 - emergency-fund-planning

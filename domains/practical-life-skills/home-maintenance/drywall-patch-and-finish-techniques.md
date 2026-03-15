@@ -6,6 +6,8 @@ course: home-maintenance
 prerequisites:
 - id: minor-wall-damage-filling-and-finishing
   type: soft
+- id: measurement-length-standard-units-3rd
+  type: soft
 tags:
 - drywall
 - interior

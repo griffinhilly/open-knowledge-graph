@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: addition-subtraction-word-problems
   type: soft
+- id: integers-and-number-line
+  type: soft
 builds-toward:
 - mortgage-and-home-buying
 - retirement-accounts

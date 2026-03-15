@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: compound-interest
   type: hard
+- id: percent-concept
+  type: soft
+- id: exponents-intro
+  type: soft
 builds-toward:
 - bonds-and-fixed-income-securities
 - economic-indicators-and-personal-finance-impact

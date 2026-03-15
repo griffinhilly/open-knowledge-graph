@@ -18,6 +18,10 @@ prerequisites:
   type: hard
 - id: ratios
   type: soft
+- id: fractions-equal-parts
+  type: soft
+- id: unit-rates
+  type: soft
 tags:
 - baking
 - oven

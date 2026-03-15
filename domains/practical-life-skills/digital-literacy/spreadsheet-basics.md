@@ -18,6 +18,10 @@ prerequisites:
   type: soft
 - id: collecting-organizing-data-3rd
   type: soft
+- id: basic-integration-rules
+  type: soft
+- id: variables-and-expressions-review
+  type: soft
 tags:
 - spreadsheets
 - excel

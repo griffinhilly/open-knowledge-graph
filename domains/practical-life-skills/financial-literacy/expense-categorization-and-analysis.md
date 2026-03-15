@@ -6,6 +6,10 @@ course: financial-literacy
 prerequisites:
 - id: income-classification-earned-vs-passive
   type: soft
+- id: percent-concept
+  type: soft
+- id: addition-subtraction-word-problems
+  type: soft
 builds-toward:
 - assets-liabilities-and-net-worth
 - financial-independence-and-passive-income

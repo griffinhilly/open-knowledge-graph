@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: ratios
   type: soft
+- id: area-of-rectangles
+  type: soft
+- id: measurement-conversions-customary
+  type: soft
 builds-toward: []
 tags:
 - roof

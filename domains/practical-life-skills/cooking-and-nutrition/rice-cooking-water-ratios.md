@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: intro-to-fractions
   type: soft
+- id: proportional-relationships
+  type: soft
 builds-toward:
 - rice-and-grain-cooking
 - starch-and-grain-cooking

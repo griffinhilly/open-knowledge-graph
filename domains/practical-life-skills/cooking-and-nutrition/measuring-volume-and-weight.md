@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: measurement-conversions-customary
   type: hard
+- id: measurement-conversions-metric
+  type: soft
 builds-toward:
 - rice-and-grain-cooking
 - cooking-conversions-scaling

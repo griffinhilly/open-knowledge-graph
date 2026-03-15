@@ -20,6 +20,10 @@ prerequisites:
   type: hard
 - id: measurement-conversions-metric
   type: hard
+- id: proportional-relationships
+  type: soft
+- id: multiplication-division-relationship
+  type: soft
 tags:
 - measurement
 - conversions

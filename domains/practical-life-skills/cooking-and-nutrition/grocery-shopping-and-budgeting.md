@@ -24,6 +24,8 @@ prerequisites:
   type: soft
 - id: money-fundamentals-definition-and-characteristics
   type: hard
+- id: unit-rates
+  type: soft
 tags:
 - grocery
 - budgeting

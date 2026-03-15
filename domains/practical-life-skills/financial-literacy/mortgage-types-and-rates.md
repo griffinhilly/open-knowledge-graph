@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: exponential-functions-and-graphs
   type: soft
+- id: percent-concept
+  type: soft
+- id: exponential-growth-and-decay
+  type: soft
 tags:
 - mortgage
 - fixed-rate

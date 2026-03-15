@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: income-classification-earned-vs-passive
   type: soft
+- id: percent-concept
+  type: soft
+- id: ratios
+  type: soft
 builds-toward:
 - lifecycle-financial-strategy-and-priorities
 tags:

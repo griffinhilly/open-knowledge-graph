@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: hand-tools-identification-and-basic-use
   type: soft
+- id: angle-basics-and-classification
+  type: soft
+- id: measurement-length-standard-units-3rd
+  type: soft
 builds-toward:
 - furniture-assembly-and-repair
 tags:
