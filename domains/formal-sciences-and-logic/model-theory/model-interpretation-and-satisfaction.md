@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: first-order-semantics
   type: hard
+- id: set-membership-and-notation
+  type: soft
 builds-toward:
 - elementary-equivalence-indistinguishability
 - complete-first-order-theories

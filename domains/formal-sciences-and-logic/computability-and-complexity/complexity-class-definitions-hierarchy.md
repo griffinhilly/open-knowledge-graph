@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: space-complexity-classes-formal
   type: hard
+- id: algorithm-analysis-big-o
+  type: soft
 builds-toward:
 - p-versus-np
 - polynomial-hierarchy

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: np-completeness-formal
   type: soft
+- id: logic-gates-and-circuits
+  type: soft
 builds-toward:
 - kolmogorov-complexity-properties
 tags:

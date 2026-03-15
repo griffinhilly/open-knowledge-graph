@@ -6,6 +6,8 @@ course: propositional-and-predicate-logic
 prerequisites:
 - id: models-and-interpretation-basic
   type: hard
+- id: set-membership-and-notation
+  type: soft
 builds-toward:
 - satisfaction-relation-fol
 tags:

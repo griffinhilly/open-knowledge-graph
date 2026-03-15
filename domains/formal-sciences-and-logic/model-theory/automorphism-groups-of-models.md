@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: type-spaces-and-stone-topology
   type: soft
+- id: group-definition-examples
+  type: soft
 builds-toward:
 - homogeneous-models-realization
 - strongly-minimal-and-geometry

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: initial-and-terminal-objects
   type: soft
+- id: group-definition-examples
+  type: soft
 builds-toward:
 - chain-complexes-exact-sequences
 tags:

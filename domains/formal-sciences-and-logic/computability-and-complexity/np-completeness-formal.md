@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: big-o-notation
   type: soft
+- id: graph-theory-fundamentals
+  type: soft
 builds-toward:
 - cook-levin-theorem-formal
 - pspace-and-complexity-hierarchy

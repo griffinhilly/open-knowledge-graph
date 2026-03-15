@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: recursion-on-finite-structures
   type: soft
+- id: binary-relations
+  type: soft
 builds-toward:
 - transfinite-induction
 - natural-numbers-as-iterative-construction

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: space-complexity-classes-formal
   type: soft
+- id: logic-gates-and-circuits
+  type: soft
 builds-toward:
 - descriptive-complexity
 tags:

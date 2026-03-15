@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: abelian-categories
   type: soft
+- id: vector-spaces
+  type: soft
 tags:
 - derived functor
 - Ext

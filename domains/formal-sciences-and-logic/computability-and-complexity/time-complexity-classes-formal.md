@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: divide-and-conquer-recurrences
   type: soft
+- id: algorithm-analysis-big-o
+  type: soft
 builds-toward:
 - nondeterministic-turing-machines
 - np-and-polynomial-time

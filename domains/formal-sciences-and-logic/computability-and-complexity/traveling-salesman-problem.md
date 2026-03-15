@@ -6,6 +6,8 @@ course: computability-and-complexity
 prerequisites:
 - id: np-completeness-formal
   type: hard
+- id: graph-theory-fundamentals
+  type: soft
 builds-toward:
 - knapsack-problem-variations
 - approximation-algorithms

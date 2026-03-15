@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: negation-of-quantifiers
   type: hard
+- id: set-membership-and-notation
+  type: soft
 builds-toward:
 - first-order-semantics
 - natural-deduction-fol

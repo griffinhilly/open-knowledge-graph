@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: composition-of-functions
   type: soft
+- id: functions-and-function-properties
+  type: soft
 builds-toward:
 - natural-transformations
 - functor-categories

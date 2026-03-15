@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: axiom-of-regularity
   type: soft
+- id: mathematical-induction
+  type: soft
 builds-toward:
 - constructible-universe
 - absolute-formulas-models

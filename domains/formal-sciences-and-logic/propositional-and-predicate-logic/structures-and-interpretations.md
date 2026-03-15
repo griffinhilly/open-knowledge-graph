@@ -6,6 +6,8 @@ course: propositional-and-predicate-logic
 prerequisites:
 - id: formulas-and-well-formed-expressions
   type: hard
+- id: set-membership-and-notation
+  type: soft
 builds-toward:
 - satisfaction-in-structures
 - model-interpretation-and-satisfaction

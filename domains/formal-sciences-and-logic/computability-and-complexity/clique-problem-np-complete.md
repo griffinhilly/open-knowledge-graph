@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: np-completeness-formal
   type: hard
+- id: graph-theory-fundamentals
+  type: soft
 builds-toward:
 - vertex-cover-problem
 tags:

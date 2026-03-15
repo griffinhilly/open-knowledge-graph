@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: algorithm-complexity
   type: soft
+- id: algorithm-analysis-big-o
+  type: soft
 builds-toward:
 - pspace-and-complexity-hierarchy
 tags:

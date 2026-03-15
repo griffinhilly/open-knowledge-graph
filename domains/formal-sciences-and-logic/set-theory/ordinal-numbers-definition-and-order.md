@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: well-founded-relations
   type: soft
+- id: binary-relations
+  type: soft
 builds-toward:
 - successor-limit-and-von-neumann-ordinals
 tags:

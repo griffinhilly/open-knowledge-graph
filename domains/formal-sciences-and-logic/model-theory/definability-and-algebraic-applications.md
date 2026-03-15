@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: quantifier-elimination-decidability
   type: soft
+- id: field-definition-examples
+  type: soft
 tags:
 - definable set
 - algebraic variety

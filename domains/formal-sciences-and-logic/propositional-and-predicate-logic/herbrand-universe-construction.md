@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: model-interpretation-and-satisfaction
   type: hard
+- id: set-operations-union-intersection-complement
+  type: soft
 builds-toward:
 - skolemization-and-equisatisfiability
 - resolution-fol
