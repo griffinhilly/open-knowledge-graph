@@ -6,6 +6,8 @@ course: advanced-macroeconomics
 prerequisites:
 - id: solow-growth-model
   type: hard
+- id: constrained-optimization-lagrange
+  type: soft
 builds-toward:
 - endogenous-growth-theory
 - ramsey-cass-koopmans-model

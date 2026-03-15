@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: optimization-problems
   type: soft
+- id: constrained-optimization-lagrange
+  type: soft
 builds-toward:
 - efficient-frontier-portfolio-theory
 - capital-asset-pricing-model

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hypothesis-testing-regression
   type: hard
+- id: central-limit-theorem
+  type: soft
 builds-toward:
 - confidence-intervals-regression
 tags:

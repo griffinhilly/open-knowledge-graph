@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: slutsky-equation
   type: soft
+- id: partial-derivatives
+  type: soft
 builds-toward:
 - welfare-analysis-advanced
 tags:

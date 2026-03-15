@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lagrange-multipliers
   type: soft
+- id: constrained-optimization-lagrange
+  type: soft
 builds-toward:
 - ramsey-cass-koopmans-model
 - household-optimization-consumption-savings

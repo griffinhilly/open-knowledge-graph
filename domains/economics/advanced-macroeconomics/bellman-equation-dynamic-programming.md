@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: differential-equations
   type: hard
+- id: constrained-optimization-lagrange
+  type: soft
 builds-toward:
 - euler-equation-intertemporal-choice
 - solow-growth-model

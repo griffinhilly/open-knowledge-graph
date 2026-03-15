@@ -6,6 +6,8 @@ course: advanced-microeconomics
 prerequisites:
 - id: bayesian-games
   type: hard
+- id: constrained-optimization-lagrange
+  type: soft
 builds-toward:
 - moral-hazard
 - adverse-selection

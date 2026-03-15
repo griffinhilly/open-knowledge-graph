@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: principal-agent-model
   type: hard
+- id: bayes-theorem
+  type: soft
+- id: conditional-probability
+  type: soft
 builds-toward:
 - lemons-market
 - signaling-games

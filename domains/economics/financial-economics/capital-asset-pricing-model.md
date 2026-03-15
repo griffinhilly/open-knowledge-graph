@@ -18,6 +18,10 @@ prerequisites:
   type: soft
 - id: covariance-between-random-variables
   type: soft
+- id: eigenvalues-eigenvectors
+  type: soft
+- id: constrained-optimization-lagrange
+  type: soft
 builds-toward:
 - arbitrage-pricing-theory
 - risk-adjusted-performance-measures

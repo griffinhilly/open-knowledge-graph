@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: bayes-theorem
   type: soft
+- id: conditional-probability
+  type: soft
 builds-toward:
 - perfect-bayesian-equilibrium
 - mechanism-design-basics

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ramsey-cass-koopmans-model
   type: hard
+- id: differential-equations-intro
+  type: soft
 builds-toward:
 - ak-model-endogenous-growth
 tags:

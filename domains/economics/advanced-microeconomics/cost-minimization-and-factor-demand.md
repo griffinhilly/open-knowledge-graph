@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: lagrange-multipliers
   type: hard
+- id: partial-derivatives
+  type: soft
 builds-toward:
 - dual-production-and-profit-functions
 tags:

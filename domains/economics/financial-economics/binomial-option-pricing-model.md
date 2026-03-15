@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: binomial-distribution
   type: soft
+- id: binomial-coefficients
+  type: soft
 tags:
 - options
 - option-pricing

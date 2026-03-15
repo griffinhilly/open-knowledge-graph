@@ -6,6 +6,8 @@ course: advanced-macroeconomics
 prerequisites:
 - id: lagrange-multipliers
   type: soft
+- id: constrained-optimization-lagrange
+  type: soft
 builds-toward:
 - solow-growth-model
 - ramsey-cass-koopmans-model

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: potential-outcomes-framework
   type: hard
+- id: conditional-probability
+  type: soft
 builds-toward:
 - matching-estimators-causal-inference
 tags:

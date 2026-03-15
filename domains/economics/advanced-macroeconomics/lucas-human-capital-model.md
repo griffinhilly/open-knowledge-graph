@@ -6,6 +6,8 @@ course: advanced-macroeconomics
 prerequisites:
 - id: endogenous-growth-theory
   type: hard
+- id: differential-equations-intro
+  type: soft
 tags:
 - human-capital
 - education

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: lagrange-multipliers
   type: soft
+- id: constrained-optimization-lagrange
+  type: soft
 builds-toward:
 - euler-equation-consumption
 - lifecycle-hypothesis-consumption

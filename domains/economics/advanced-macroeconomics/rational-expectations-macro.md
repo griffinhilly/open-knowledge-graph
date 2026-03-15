@@ -6,6 +6,10 @@ course: advanced-macroeconomics
 prerequisites:
 - id: bayesian-games
   type: soft
+- id: conditional-expectation
+  type: soft
+- id: probability-axioms
+  type: soft
 builds-toward:
 - expectation-formation-mechanisms
 - phillips-curve-dynamics

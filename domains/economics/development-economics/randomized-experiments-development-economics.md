@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: probability-spaces-measure-theoretic
   type: soft
+- id: conditional-probability
+  type: soft
+- id: sampling-distributions
+  type: soft
 builds-toward:
 - development-policy-evaluation
 tags:

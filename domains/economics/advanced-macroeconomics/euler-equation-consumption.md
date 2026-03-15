@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: soft
+- id: chain-rule
+  type: soft
 builds-toward:
 - new-keynesian-framework
 tags:

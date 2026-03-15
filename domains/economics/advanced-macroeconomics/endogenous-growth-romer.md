@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: externalities-and-market-failure
   type: hard
+- id: differential-equations-intro
+  type: soft
 builds-toward:
 - endogenous-growth-lucas
 - ak-model-endogenous-growth

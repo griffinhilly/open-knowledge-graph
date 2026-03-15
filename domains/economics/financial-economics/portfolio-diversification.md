@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: variance-of-random-variables
   type: soft
+- id: constrained-optimization-lagrange
+  type: soft
+- id: eigenvalues-eigenvectors
+  type: soft
 builds-toward:
 - mean-variance-optimization
 - efficient-frontier-portfolio-theory

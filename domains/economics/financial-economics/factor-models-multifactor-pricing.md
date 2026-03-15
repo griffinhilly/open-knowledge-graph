@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: capital-asset-pricing-model
   type: hard
+- id: eigenvalues-eigenvectors
+  type: soft
 tags:
 - multifactor-models
 - apt

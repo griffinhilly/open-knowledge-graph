@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: normal-distribution
   type: soft
+- id: differential-equations-intro
+  type: soft
 tags:
 - black-scholes
 - options-pricing

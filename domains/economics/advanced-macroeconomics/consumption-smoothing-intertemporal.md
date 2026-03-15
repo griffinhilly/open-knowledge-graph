@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: soft
+- id: constrained-optimization-lagrange
+  type: soft
 tags:
 - consumption-smoothing
 - permanent-income

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: autoregressive-ar-models
   type: soft
+- id: expected-value-and-variance-of-assets
+  type: soft
 builds-toward:
 - options-implied-volatility-extraction
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dynamic-optimization-macroeconomics
   type: hard
+- id: constrained-optimization-lagrange
+  type: soft
 builds-toward:
 - lifecycle-hypothesis-consumption
 - intergenerational-equity-fiscal-policy

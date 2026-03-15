@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: lagrange-multipliers
   type: hard
+- id: partial-derivatives
+  type: soft
 builds-toward:
 - hicksian-demand-functions
 - compensating-and-equivalent-variation

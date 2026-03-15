@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: profit-maximization-microeconomics
   type: hard
+- id: partial-derivatives
+  type: soft
 builds-toward:
 - factor-demands-and-elasticity
 tags:

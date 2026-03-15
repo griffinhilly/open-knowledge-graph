@@ -6,6 +6,8 @@ course: financial-economics
 prerequisites:
 - id: black-scholes-model
   type: hard
+- id: partial-derivatives
+  type: soft
 tags:
 - options
 - risk-sensitivity

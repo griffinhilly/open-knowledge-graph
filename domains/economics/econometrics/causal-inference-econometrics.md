@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: omitted-variable-bias
   type: hard
+- id: conditional-probability
+  type: soft
 builds-toward:
 - potential-outcomes-framework
 - difference-in-differences

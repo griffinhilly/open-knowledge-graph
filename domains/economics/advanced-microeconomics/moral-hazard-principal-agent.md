@@ -6,6 +6,8 @@ course: advanced-microeconomics
 prerequisites:
 - id: incentive-compatibility-constraints
   type: hard
+- id: constrained-optimization-lagrange
+  type: soft
 tags:
 - contract-theory
 - information-asymmetry

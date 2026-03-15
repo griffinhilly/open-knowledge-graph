@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: solow-growth-model
   type: soft
+- id: constrained-optimization-lagrange
+  type: soft
 tags:
 - welfare
 - capital-stock

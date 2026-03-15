@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: phillips-curve-new-keynesian
   type: hard
+- id: constrained-optimization-lagrange
+  type: soft
+- id: eigenvalues-eigenvectors
+  type: soft
 builds-toward:
 - monetary-policy-transmission
 - fiscal-multipliers-macro
