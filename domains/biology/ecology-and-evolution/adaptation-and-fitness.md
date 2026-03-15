@@ -6,6 +6,10 @@ course: ecology-and-evolution
 prerequisites:
 - id: natural-selection
   type: hard
+- id: probability-axioms-and-rules
+  type: soft
+- id: mean-median-mode
+  type: soft
 builds-toward:
 - life-history-strategies
 - coevolution

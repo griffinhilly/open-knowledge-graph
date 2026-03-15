@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: sex-linked-inheritance
   type: soft
+- id: chi-square-test
+  type: hard
+- id: probability-axioms-and-rules
+  type: hard
 builds-toward:
 - genomics-overview
 tags:

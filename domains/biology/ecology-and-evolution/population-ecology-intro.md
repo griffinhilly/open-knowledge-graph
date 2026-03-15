@@ -6,6 +6,10 @@ course: ecology-and-evolution
 prerequisites:
 - id: cell-theory
   type: soft
+- id: exponential-functions-and-graphs
+  type: soft
+- id: differential-equations-intro
+  type: soft
 builds-toward:
 - population-growth-models
 - predator-prey-dynamics

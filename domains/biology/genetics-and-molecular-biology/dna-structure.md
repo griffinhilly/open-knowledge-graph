@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: nucleophile-electrophile-definitions
   type: soft
+- id: aromatic-compounds-intro
+  type: hard
+- id: hydrogen-bonding-energetics
+  type: hard
 builds-toward:
 - dna-replication
 - transcription

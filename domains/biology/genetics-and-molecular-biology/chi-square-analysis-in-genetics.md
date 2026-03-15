@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: genetic-recombination-and-linkage-mapping
   type: soft
+- id: chi-square-test
+  type: hard
+- id: statistical-methods-analytical
+  type: soft
 builds-toward:
 - quantitative-genetics-and-polygenic-traits
 tags:

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: enzyme-cofactors-and-coenzymes
   type: soft
+- id: oxidation-reduction-reactions
+  type: hard
+- id: carbonyl-chemistry-intro
+  type: soft
 builds-toward:
 - citric-acid-cycle-mechanism
 - metabolic-integration-hormonal-regulation

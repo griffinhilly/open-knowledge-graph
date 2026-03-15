@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: carboxylic-acids-and-derivatives
   type: soft
+- id: acid-base-chemistry
+  type: soft
 builds-toward:
 - amino-acid-classification-and-properties
 - peptide-bonds-and-polypeptide-formation

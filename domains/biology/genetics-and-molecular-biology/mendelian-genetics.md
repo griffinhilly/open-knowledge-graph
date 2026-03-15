@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: ratios
   type: soft
+- id: probability-axioms-and-rules
+  type: hard
+- id: chi-square-test
+  type: hard
 builds-toward:
 - dominance-and-recessiveness
 - dihybrid-crosses

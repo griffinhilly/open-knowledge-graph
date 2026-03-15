@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: hydrogen-bonding-energetics
   type: soft
+- id: equilibrium-expression-kc-kp-constants
+  type: soft
 builds-toward:
 - enzyme-cooperativity
 - metabolic-integration-hormonal-regulation

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: nucleophile-electrophile-definitions
   type: soft
+- id: aromatic-compounds-intro
+  type: hard
+- id: hydrogen-bonding-energetics
+  type: soft
 builds-toward:
 - purine-metabolism-biosynthesis
 - pyrimidine-metabolism-biosynthesis

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: carbonyl-chemistry-intro
   type: soft
+- id: oxidation-numbers
+  type: soft
 builds-toward:
 - glycolysis
 - citric-acid-cycle-mechanism

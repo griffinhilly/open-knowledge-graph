@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: entropy-and-gibbs-free-energy
   type: soft
+- id: oxidation-reduction-reactions
+  type: hard
 builds-toward:
 - glycolysis
 - pyruvate-oxidation

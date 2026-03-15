@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: organic-chemistry-intro
   type: hard
+- id: carboxylic-acids-and-derivatives
+  type: hard
+- id: nucleophilic-addition-to-carbonyls
+  type: soft
 builds-toward:
 - protein-primary-structure
 - post-translational-modifications

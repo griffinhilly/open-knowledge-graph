@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: equilibrium-expression-kc-kp-constants
   type: soft
+- id: oxidation-reduction-reactions
+  type: hard
 builds-toward:
 - citric-acid-cycle-regulation
 - oxidative-phosphorylation-and-chemiosmosis

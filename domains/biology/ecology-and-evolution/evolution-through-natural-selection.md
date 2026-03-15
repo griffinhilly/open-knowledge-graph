@@ -6,6 +6,8 @@ course: ecology-and-evolution
 prerequisites:
 - id: population-genetics-intro
   type: hard
+- id: probability-axioms-and-rules
+  type: soft
 builds-toward:
 - microevolution-and-macroevolution
 - evidence-for-evolution

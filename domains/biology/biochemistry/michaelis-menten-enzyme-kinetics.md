@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: limit-definition-of-derivative
   type: soft
+- id: equilibrium-expression-kc-kp-constants
+  type: hard
+- id: rate-law-determination
+  type: hard
+- id: differential-equations-intro
+  type: soft
 builds-toward:
 - enzyme-inhibition-competitive
 - allosteric-enzyme-regulation

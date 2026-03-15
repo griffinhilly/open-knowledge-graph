@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: amino-acid-classification-and-properties
   type: hard
+- id: hydrogen-bonding-energetics
+  type: hard
+- id: aromatic-compounds-intro
+  type: soft
 builds-toward:
 - protein-quaternary-structure
 - protein-folding-and-chaperones

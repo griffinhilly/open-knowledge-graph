@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: graphing-rational-functions
   type: soft
+- id: rate-law-determination
+  type: hard
+- id: differential-equations-intro
+  type: soft
 builds-toward:
 - glycolysis
 - krebs-cycle

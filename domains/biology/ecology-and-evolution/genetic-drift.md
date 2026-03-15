@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: natural-selection
   type: soft
+- id: probability-axioms-and-rules
+  type: hard
+- id: statistics-probability
+  type: hard
 builds-toward:
 - speciation
 - hardy-weinberg-equilibrium

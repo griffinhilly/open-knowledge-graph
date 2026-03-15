@@ -4,15 +4,25 @@ title: Bacterial Metabolism Overview
 domain: biology
 course: microbiology
 prerequisites:
-  - id: bacterial-cell-structure
-    type: hard
-  - id: cellular-respiration-overview
-    type: soft
+- id: bacterial-cell-structure
+  type: hard
+- id: cellular-respiration-overview
+  type: soft
+- id: oxidation-reduction-reactions
+  type: hard
+- id: thermochemistry-heat-and-energy
+  type: soft
 builds-toward:
-  - microbial-fermentation
-  - antibiotic-resistance-mechanisms
-  - nitrogen-fixation-microbiology
-tags: [metabolism, aerobic, anaerobic, heterotroph, autotroph, chemotroph]
+- microbial-fermentation
+- antibiotic-resistance-mechanisms
+- nitrogen-fixation-microbiology
+tags:
+- metabolism
+- aerobic
+- anaerobic
+- heterotroph
+- autotroph
+- chemotroph
 stage: formal-systems
 status: validated
 ---

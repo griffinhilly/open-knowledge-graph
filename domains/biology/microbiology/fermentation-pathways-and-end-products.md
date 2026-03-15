@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: pyruvate-metabolic-hub
   type: hard
+- id: equilibrium-expression-kc-kp-constants
+  type: soft
+- id: organic-chemistry-intro
+  type: soft
 builds-toward:
 - yeast-fermentation-and-metabolic-pathways
 - microbial-ecology-biogeochemical-cycling

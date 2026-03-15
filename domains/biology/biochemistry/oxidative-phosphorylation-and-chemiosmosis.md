@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: electrochemistry-basics
   type: soft
+- id: equilibrium-expression-kc-kp-constants
+  type: hard
+- id: oxidation-reduction-reactions
+  type: hard
 builds-toward:
 - atp-synthase-structure-mechanism
 tags:

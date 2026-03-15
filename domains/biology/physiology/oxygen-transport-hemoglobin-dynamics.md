@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: oxygen-diffusion-capacity-lungs
   type: soft
+- id: equilibrium-expression-kc-kp-constants
+  type: soft
+- id: acid-base-chemistry
+  type: soft
 builds-toward:
 - acid-base-respiratory-compensation
 - blood-flow-redistribution-homeostasis

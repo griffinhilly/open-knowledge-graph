@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: organic-chemistry-intro
   type: soft
+- id: hydrogen-bonding-energetics
+  type: soft
+- id: molecular-geometry-basics
+  type: soft
 builds-toward:
 - enzyme-kinetics
 - glycolysis

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: resting-membrane-potential
   type: hard
+- id: equilibrium-expression-kc-kp-constants
+  type: soft
 builds-toward:
 - unmyelinated-axon-conduction
 tags:

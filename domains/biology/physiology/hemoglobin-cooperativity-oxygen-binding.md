@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: protein-quaternary-structure
   type: soft
+- id: equilibrium-expression-kc-kp-constants
+  type: soft
 builds-toward:
 - carbon-dioxide-transport-and-buffering
 tags:

@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: neutral-theory-molecular
   type: hard
+- id: probability-axioms-and-rules
+  type: soft
+- id: statistics-probability
+  type: soft
 builds-toward:
 - genealogical-methods-phylogenetics
 tags:

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: equilibrium-expression-kc-kp-constants
   type: soft
+- id: rate-law-determination
+  type: soft
 builds-toward:
 - citric-acid-cycle-mechanism
 - pyruvate-dehydrogenase-complex

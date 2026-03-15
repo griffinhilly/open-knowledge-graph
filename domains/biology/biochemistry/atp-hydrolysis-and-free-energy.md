@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: equilibrium-expression-kc-kp-constants
   type: soft
+- id: thermochemistry-heat-and-energy
+  type: hard
 builds-toward:
 - proton-gradient-and-chemiosmotic-coupling
 tags:
