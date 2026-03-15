@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: trigonometric-functions-and-graphs
   type: soft
+- id: complex-exponential-function
+  type: soft
 builds-toward:
 - granular-synthesis-composition
 - algorithmic-composition-theory

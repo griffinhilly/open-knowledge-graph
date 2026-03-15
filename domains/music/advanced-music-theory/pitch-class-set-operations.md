@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: set-operations
   type: soft
+- id: set-operations-and-notation
+  type: soft
 builds-toward:
 - set-class-equivalence
 - twelve-tone-matrix-construction

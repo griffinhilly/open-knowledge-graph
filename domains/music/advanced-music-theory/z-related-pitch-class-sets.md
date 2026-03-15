@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: set-class-equivalence
   type: hard
+- id: equivalence-relations-and-partitions
+  type: soft
 builds-toward:
 - pitch-class-set-cartography
 - neo-riemannian-extended-systems

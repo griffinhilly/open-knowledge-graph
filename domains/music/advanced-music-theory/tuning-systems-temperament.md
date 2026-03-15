@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: logarithms-intro
   type: soft
+- id: logarithm-properties
+  type: soft
 tags:
 - tuning
 - temperament

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: group-definition-and-examples
   type: soft
+- id: dihedral-groups
+  type: soft
 builds-toward:
 - fourier-analysis-musical-signals
 - information-theory-music

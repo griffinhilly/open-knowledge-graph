@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fourier-series-definition
   type: soft
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
 - algorithmic-composition-theory
 - spectral-harmony-overtone-analysis

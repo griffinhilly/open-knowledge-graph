@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: conditional-probability
   type: soft
+- id: logarithm-properties
+  type: soft
 builds-toward:
 - psychoacoustics-perception-theory
 tags:

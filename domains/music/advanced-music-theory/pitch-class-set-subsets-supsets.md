@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: set-operations
   type: soft
+- id: set-operations-union-intersection-complement
+  type: soft
 builds-toward:
 - z-related-pitch-class-sets
 - twelve-tone-aggregate-formations

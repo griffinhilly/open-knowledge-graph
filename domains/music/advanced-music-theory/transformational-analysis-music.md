@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: group-actions
   type: soft
+- id: permutation-groups
+  type: soft
 builds-toward:
 - voice-leading-graph-theory
 - neo-riemannian-analysis-advanced

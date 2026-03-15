@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: rotations
   type: soft
+- id: cyclic-groups
+  type: soft
 builds-toward:
 - recursive-structures-music
 tags:

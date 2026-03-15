@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: probability-axioms
   type: soft
+- id: logarithm-properties
+  type: soft
 tags:
 - information-theory
 - entropy

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: proportions
   type: soft
+- id: logarithm-properties
+  type: soft
 builds-toward:
 - microtonal-systems-analysis
 - spectral-composition-acoustics
