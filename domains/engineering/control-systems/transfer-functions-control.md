@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: partial-fractions
   type: soft
+- id: laplace-transform-fundamentals
+  type: hard
 builds-toward:
 - block-diagram-algebra
 - time-domain-response-first-order

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: entropy-calculation-properties
   type: soft
+- id: statistical-entropy-molecular-disorder
+  type: hard
 builds-toward:
 - second-law-analysis-practical
 - availability-exergy-analysis-systems

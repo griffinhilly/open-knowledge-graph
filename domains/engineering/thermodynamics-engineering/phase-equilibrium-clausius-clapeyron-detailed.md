@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: pure-substance-phase-diagrams
   type: soft
+- id: clausius-clapeyron-equation
+  type: hard
 builds-toward:
 - saturated-superheated-property-regions
 - psychrometric-analysis-humid-air

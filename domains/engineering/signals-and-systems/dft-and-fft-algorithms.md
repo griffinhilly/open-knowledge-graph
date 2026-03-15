@@ -6,6 +6,8 @@ course: signals-and-systems
 prerequisites:
 - id: discrete-time-fourier-transform
   type: hard
+- id: complex-numbers-intro
+  type: hard
 builds-toward:
 - digital-signal-processing-fundamentals
 tags:

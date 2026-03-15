@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sinusoidal-AC-steady-state-fundamentals
   type: hard
+- id: complex-numbers-intro
+  type: hard
 builds-toward:
 - AC-Kirchhoff-laws-phasor-domain
 - circuit-resonance-concepts

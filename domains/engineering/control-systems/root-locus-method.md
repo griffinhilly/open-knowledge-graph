@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: transfer-functions-control
   type: hard
+- id: complex-plane
+  type: hard
 builds-toward:
 - root-locus-controller-design
 - state-feedback-pole-placement

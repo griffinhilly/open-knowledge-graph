@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: force-systems-resultants
   type: soft
+- id: vector-operations
+  type: hard
 builds-toward:
 - particle-equilibrium-conditions
 - resultant-of-force-moment-systems

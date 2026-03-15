@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: complex-numbers-intro
   type: hard
+- id: contour-integration
+  type: hard
 builds-toward:
 - gain-and-phase-margins
 tags:

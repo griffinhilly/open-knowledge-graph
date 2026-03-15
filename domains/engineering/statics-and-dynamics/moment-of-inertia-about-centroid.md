@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: centroid-areas-composite
   type: hard
+- id: applications-double-integrals
+  type: hard
 builds-toward:
 - principal-axes-and-rotation
 - shear-force-bending-moment-diagrams

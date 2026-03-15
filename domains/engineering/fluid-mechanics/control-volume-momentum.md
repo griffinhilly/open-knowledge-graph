@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: hydrostatic-forces-on-surfaces
   type: soft
+- id: newtons-second-law
+  type: hard
 builds-toward:
 - pipe-system-losses
 - hydraulic-machinery-intro

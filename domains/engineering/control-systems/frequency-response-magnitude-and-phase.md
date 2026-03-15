@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bode-plot-construction
   type: hard
+- id: magnitude-phase-spectrum-representation
+  type: hard
 builds-toward:
 - bandwidth-and-cutoff-frequencies
 - gain-phase-margins-stability-robustness

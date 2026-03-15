@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: complex-numbers-intro
   type: soft
+- id: complex-exponential-form
+  type: hard
 builds-toward:
 - impedance-admittance-networks
 - ac-power-analysis-circuits

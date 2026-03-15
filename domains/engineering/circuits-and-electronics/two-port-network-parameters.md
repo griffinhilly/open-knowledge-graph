@@ -6,6 +6,8 @@ course: circuits-and-electronics
 prerequisites:
 - id: impedance-admittance-networks
   type: hard
+- id: linear-transformations
+  type: soft
 tags:
 - two-port-networks
 - network-parameters

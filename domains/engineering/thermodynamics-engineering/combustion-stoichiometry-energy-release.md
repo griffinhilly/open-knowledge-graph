@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: thermochemistry-formation-properties
   type: hard
+- id: stoichiometry-calculations
+  type: hard
 builds-toward:
 - fuel-combustion-products-analysis
 - adiabatic-flame-temperature-calculation

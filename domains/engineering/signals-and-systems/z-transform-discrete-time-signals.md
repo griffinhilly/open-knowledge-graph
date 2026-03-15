@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: complex-numbers-intro
   type: soft
+- id: geometric-series
+  type: hard
+- id: complex-functions-mappings
+  type: hard
 builds-toward:
 - z-transform-properties-inverse
 - digital-signal-processing-fundamentals

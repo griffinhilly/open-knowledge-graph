@@ -6,6 +6,8 @@ course: signals-and-systems
 prerequisites:
 - id: laplace-transform-fundamentals
   type: hard
+- id: integration-by-parts
+  type: soft
 builds-toward:
 - transfer-function-poles-zeros
 - pole-zero-plot-stability-analysis

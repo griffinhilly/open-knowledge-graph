@@ -6,6 +6,8 @@ course: materials-science
 prerequisites:
 - id: plastic-deformation-yielding-materials
   type: hard
+- id: viscosity-and-newtonian-fluids
+  type: soft
 tags:
 - creep
 - stress-rupture

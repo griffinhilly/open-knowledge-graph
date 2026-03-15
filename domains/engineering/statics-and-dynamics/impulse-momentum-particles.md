@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: work-energy-particles
   type: soft
+- id: newtons-second-law
+  type: hard
 builds-toward:
 - impact-and-restitution
 tags:

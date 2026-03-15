@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: integral-calculus
   type: soft
+- id: convolution-theorem-and-applications
+  type: hard
 builds-toward:
 - convolution-theorem-and-applications
 - fourier-transform-definition-properties

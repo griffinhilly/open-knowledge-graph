@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: distributed-loads-beams
   type: soft
+- id: applications-integrals-area-mass
+  type: hard
 builds-toward:
 - moment-of-inertia-about-centroid
 - rigid-body-work-energy
