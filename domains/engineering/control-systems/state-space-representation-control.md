@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: eigenvalues-eigenvectors
   type: hard
+- id: applications-linear-algebra-modeling
+  type: hard
 builds-toward:
 - state-transition-matrix
 - controllability-and-observability

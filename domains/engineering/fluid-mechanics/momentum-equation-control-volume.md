@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: conservation-of-momentum
   type: hard
+- id: conservation-of-linear-momentum
+  type: hard
+- id: momentum-and-impulse
+  type: hard
 builds-toward:
 - energy-equation-steady-flow
 - aerodynamic-forces-lift-drag-coefficients

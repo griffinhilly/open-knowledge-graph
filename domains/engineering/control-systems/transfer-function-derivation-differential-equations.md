@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: laplace-transform-fundamentals
   type: hard
+- id: differential-equations-intro
+  type: hard
 builds-toward:
 - frequency-response-magnitude-phase-basics
 - bode-plot-magnitude-asymptotes-rules

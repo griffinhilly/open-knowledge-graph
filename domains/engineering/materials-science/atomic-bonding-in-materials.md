@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: metallic-bonding
   type: hard
+- id: atomic-bonding-engineering-materials
+  type: hard
 builds-toward:
 - crystal-structure-basics
 - elastic-constants-and-elasticity

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ideal-gas-law
   type: hard
+- id: carnot-cycle
+  type: soft
 builds-toward:
 - brayton-cycle-intercooling-reheating
 tags:

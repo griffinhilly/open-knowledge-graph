@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: electric-current-and-resistance
   type: soft
+- id: electron-configuration-aufbau-principle
+  type: soft
 tags:
 - conductivity
 - semiconductors

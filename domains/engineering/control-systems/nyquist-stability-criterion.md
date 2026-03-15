@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: complex-plane
   type: hard
+- id: complex-functions-mappings
+  type: soft
 builds-toward:
 - gain-and-phase-margins
 tags:

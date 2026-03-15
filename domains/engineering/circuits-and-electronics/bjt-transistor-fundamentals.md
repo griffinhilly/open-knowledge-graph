@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: band-theory-intro
   type: soft
+- id: atomic-structure-and-atoms
+  type: soft
 builds-toward:
 - bjt-amplifier-configurations
 - mosfet-transistor-fundamentals

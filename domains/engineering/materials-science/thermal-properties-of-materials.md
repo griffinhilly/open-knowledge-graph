@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: specific-heat-capacity
   type: soft
+- id: heat-capacity-calorimetry
+  type: soft
 builds-toward:
 - heat-treatment-of-steels
 tags:

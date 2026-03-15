@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: viscosity-gas-liquid-transport
   type: soft
+- id: kinetic-molecular-theory
+  type: soft
 builds-toward:
 - laminar-pipe-flow
 - turbulent-pipe-flow

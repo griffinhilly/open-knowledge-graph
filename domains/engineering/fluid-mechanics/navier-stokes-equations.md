@@ -22,6 +22,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives-basics
   type: hard
+- id: vector-analysis-and-components
+  type: hard
 builds-toward:
 - laminar-pipe-flow
 - boundary-layer-theory

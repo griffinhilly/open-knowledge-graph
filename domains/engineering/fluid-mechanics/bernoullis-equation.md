@@ -18,6 +18,8 @@ prerequisites:
   type: hard
 - id: energy-conservation-applications
   type: hard
+- id: pressure-and-forces-in-fluids
+  type: hard
 builds-toward:
 - flow-measurement-methods
 - pipe-system-losses

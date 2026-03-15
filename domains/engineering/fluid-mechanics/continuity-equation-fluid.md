@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: conservation-of-mass
   type: hard
+- id: conservation-of-linear-momentum
+  type: hard
 builds-toward:
 - bernoullis-equation
 - navier-stokes-equations

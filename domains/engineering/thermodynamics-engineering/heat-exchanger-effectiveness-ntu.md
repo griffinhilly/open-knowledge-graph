@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: control-volume-steady-flow
   type: hard
+- id: heat-transfer-conduction-fourier
+  type: soft
 builds-toward:
 - rankine-cycle-reheat-regeneration
 - brayton-cycle-intercooling-reheating

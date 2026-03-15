@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: plastic-deformation-mechanisms
   type: hard
+- id: crystal-structure-classification
+  type: soft
 builds-toward:
 - work-hardening-and-recovery
 - solid-solution-strengthening

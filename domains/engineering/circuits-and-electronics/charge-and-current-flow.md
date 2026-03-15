@@ -6,6 +6,8 @@ course: circuits-and-electronics
 prerequisites:
 - id: electric-field
   type: hard
+- id: electric-charge-and-coulombs-law
+  type: hard
 builds-toward:
 - electric-potential-and-voltage
 - ohms-law-and-conductance

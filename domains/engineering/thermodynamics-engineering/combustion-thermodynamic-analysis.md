@@ -6,6 +6,8 @@ course: thermodynamics-engineering
 prerequisites:
 - id: first-law-open-systems
   type: hard
+- id: combustion-stoichiometry-energy-release
+  type: soft
 tags:
 - combustion
 - heat-release

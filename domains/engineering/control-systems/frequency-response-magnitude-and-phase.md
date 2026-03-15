@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: magnitude-phase-spectrum-representation
   type: hard
+- id: complex-numbers-intro
+  type: soft
 builds-toward:
 - bandwidth-and-cutoff-frequencies
 - gain-phase-margins-stability-robustness

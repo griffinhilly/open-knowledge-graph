@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: ideal-voltage-and-current-sources
   type: hard
+- id: feedback-control-fundamentals
+  type: soft
 builds-toward:
 - op-amp-circuit-applications
 tags:

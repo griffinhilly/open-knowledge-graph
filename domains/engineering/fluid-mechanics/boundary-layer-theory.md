@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: differential-equations-intro-separable
   type: soft
+- id: differential-equations-intro
+  type: hard
 builds-toward:
 - drag-and-lift-aerodynamics
 tags:

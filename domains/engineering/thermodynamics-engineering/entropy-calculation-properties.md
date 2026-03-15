@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: soft
+- id: entropy-definition-and-calculation
+  type: soft
 builds-toward:
 - isentropic-process-reversible
 - clausius-clapeyron-vapor-pressure

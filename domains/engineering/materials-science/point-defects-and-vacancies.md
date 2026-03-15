@@ -6,6 +6,8 @@ course: materials-science
 prerequisites:
 - id: crystal-lattice-systems-classification
   type: hard
+- id: atomic-structure-and-atoms
+  type: soft
 builds-toward:
 - dislocation-motion-and-slip
 - diffusion-in-solids

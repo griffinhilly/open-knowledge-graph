@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electric-potential-and-voltage
   type: hard
+- id: capacitance
+  type: hard
 builds-toward:
 - energy-storage-elements-l-and-c
 - series-parallel-rc-and-rl-networks
