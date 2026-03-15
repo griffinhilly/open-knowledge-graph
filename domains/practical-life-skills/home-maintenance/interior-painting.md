@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: measurement-with-standard-units-length
   type: soft
+- id: measurement-length-standard-units-3rd
+  type: soft
 tags:
 - painting
 - interiors

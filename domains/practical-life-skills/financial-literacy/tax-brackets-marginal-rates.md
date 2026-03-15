@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: inequalities-intro
   type: soft
+- id: proportional-relationships
+  type: soft
 tags:
 - tax-brackets
 - marginal-rate

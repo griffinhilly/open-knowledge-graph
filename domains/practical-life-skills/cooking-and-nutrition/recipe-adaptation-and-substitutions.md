@@ -18,6 +18,10 @@ prerequisites:
   type: soft
 - id: proportions
   type: soft
+- id: unit-rates
+  type: soft
+- id: proportional-relationships
+  type: soft
 builds-toward:
 - cooking-on-a-budget
 - cooking-for-dietary-restrictions

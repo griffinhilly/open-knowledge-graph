@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: compound-interest
   type: hard
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
 - mortgage-and-home-buying
 - education-financing-and-loan-options

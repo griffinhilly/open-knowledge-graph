@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: measurement-conversions-customary
   type: soft
+- id: volume-of-rectangular-prisms
+  type: soft
 builds-toward:
 - reading-following-simple-recipes
 - grain-and-starch-preparation-basics

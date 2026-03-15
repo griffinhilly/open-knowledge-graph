@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: investment-risk-and-return
   type: hard
+- id: expected-value
+  type: soft
 builds-toward:
 - fee-impact-on-long-term-wealth
 - sequence-of-returns-risk

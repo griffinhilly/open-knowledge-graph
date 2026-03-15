@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: proportions
   type: soft
+- id: proportional-relationships
+  type: soft
 builds-toward:
 - investment-risk-and-return
 - retirement-accounts

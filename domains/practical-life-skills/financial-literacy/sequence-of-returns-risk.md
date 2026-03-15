@@ -6,6 +6,8 @@ course: financial-literacy
 prerequisites:
 - id: expected-return-and-asset-allocation
   type: soft
+- id: arithmetic-sequences
+  type: soft
 builds-toward:
 - lifecycle-financial-strategy-and-priorities
 tags:

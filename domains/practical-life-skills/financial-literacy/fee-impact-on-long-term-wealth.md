@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: understanding-investment-fees
   type: hard
+- id: compound-interest
+  type: soft
+- id: exponential-growth-and-decay
+  type: soft
 builds-toward:
 - financial-independence-and-passive-income
 tags:

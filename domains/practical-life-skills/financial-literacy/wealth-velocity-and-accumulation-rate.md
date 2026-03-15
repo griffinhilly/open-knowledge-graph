@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: expected-return-and-asset-allocation
   type: soft
+- id: exponential-growth-and-decay
+  type: soft
 builds-toward:
 - retirement-savings-fundamentals
 - financial-independence-and-early-retirement-planning

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: caulking-and-weatherstripping
   type: soft
+- id: area-of-rectangles
+  type: soft
+- id: volume-of-rectangular-prisms
+  type: soft
 builds-toward: []
 tags:
 - insulation

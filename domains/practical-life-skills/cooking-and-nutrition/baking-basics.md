@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: unit-rates
   type: soft
+- id: measurement-conversions-customary
+  type: soft
 tags:
 - baking
 - oven

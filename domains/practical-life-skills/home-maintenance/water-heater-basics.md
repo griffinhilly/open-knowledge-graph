@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: diy-vs-hire-professional
   type: soft
+- id: volume-of-rectangular-prisms
+  type: soft
 builds-toward: []
 tags:
 - plumbing

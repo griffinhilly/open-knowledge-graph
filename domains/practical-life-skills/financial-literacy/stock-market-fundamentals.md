@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: ratios
   type: soft
+- id: exponential-growth-and-decay
+  type: soft
 builds-toward:
 - index-fund-investing
 tags:

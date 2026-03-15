@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: measuring-volume-and-weight
   type: hard
+- id: percent-concept
+  type: soft
 builds-toward:
 - bread-baking-yeast-fermentation
 - oven-baking-basics-and-safety

@@ -6,6 +6,8 @@ course: financial-literacy
 prerequisites:
 - id: compound-interest
   type: hard
+- id: percent-of-a-number
+  type: soft
 builds-toward:
 - credit-utilization-credit-score-mechanics
 - lifecycle-financial-strategy-and-priorities

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: percent-concept
   type: soft
+- id: fractions-as-division
+  type: soft
+- id: intro-to-decimals
+  type: soft
 builds-toward:
 - investment-risk-and-return
 - compound-interest

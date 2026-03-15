@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: exterior-finish-damage-types-and-assessment
   type: soft
+- id: area-of-rectangles
+  type: soft
 builds-toward:
 - interior-painting
 tags:

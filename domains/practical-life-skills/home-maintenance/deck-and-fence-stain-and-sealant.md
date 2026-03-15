@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: sealant-selection-and-application-basics
   type: soft
+- id: area-of-rectangles
+  type: soft
+- id: area-of-irregular-shapes-3rd
+  type: soft
 builds-toward:
 - exterior-wood-assessment-and-preservation
 tags:

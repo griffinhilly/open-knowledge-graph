@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: diversification-and-asset-allocation
   type: soft
+- id: percent-of-a-number
+  type: soft
 tags:
 - rebalancing
 - portfolio-management

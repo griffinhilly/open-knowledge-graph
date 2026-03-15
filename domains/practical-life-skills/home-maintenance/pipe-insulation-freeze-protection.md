@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: seasonal-home-maintenance
   type: soft
+- id: surface-area-of-cylinders
+  type: soft
 builds-toward: []
 tags:
 - plumbing
