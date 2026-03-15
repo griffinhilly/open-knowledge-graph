@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: chemometrics-multivariate-analysis
   type: hard
+- id: matrix-operations
+  type: soft
 builds-toward:
 - chromatographic-resolution-and-selectivity
 - multianalyte-panel-determination

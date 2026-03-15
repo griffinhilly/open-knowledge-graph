@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: electromagnetic-spectrum
   type: soft
+- id: vibrational-energy-levels-selection-rules
+  type: soft
 tags:
 - IR
 - FTIR

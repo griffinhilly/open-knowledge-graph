@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: periodic-table-electronic-structure
   type: soft
+- id: electron-configuration-aufbau-principle
+  type: soft
 builds-toward:
 - electron-configuration
 - periodic-trends

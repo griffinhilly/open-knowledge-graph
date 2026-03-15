@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: electric-current-and-resistance
   type: soft
+- id: electric-potential-definition
+  type: soft
 builds-toward:
 - voltammetry
 - coulometry

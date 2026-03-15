@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: kinetic-theory-of-gases
   type: soft
+- id: ideal-gas-law
+  type: soft
 builds-toward:
 - gas-stoichiometry
 - real-gases-van-der-waals

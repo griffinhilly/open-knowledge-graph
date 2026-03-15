@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: oxidation-reduction-basics
   type: hard
+- id: electric-potential-definition
+  type: soft
 builds-toward:
 - electrolytic-cells
 - electrochemical-kinetics

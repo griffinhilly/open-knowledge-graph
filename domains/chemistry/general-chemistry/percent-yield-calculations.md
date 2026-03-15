@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: limiting-reagent-determination
   type: hard
+- id: proportions
+  type: soft
 builds-toward:
 - thermochemistry-heat-and-energy
 tags:

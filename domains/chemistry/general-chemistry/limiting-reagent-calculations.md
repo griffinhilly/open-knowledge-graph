@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ratios
   type: soft
+- id: optimization-problems
+  type: soft
 builds-toward:
 - gas-stoichiometry
 tags:

@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: photon-concept-quanta
   type: soft
+- id: electronic-transitions-excited-states
+  type: soft
 builds-toward:
 - inductively-coupled-plasma-mass-spectrometry-icp-ms
 tags:

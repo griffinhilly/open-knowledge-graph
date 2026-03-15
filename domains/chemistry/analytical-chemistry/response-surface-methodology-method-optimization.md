@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: polynomial-functions-degree-and-leading-coefficient
   type: soft
+- id: constrained-optimization-lagrange
+  type: soft
 builds-toward:
 - optimization-of-analytical-method-parameters
 - method-robustness-stability-assessment

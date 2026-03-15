@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: quantum-mechanics-postulates-core
   type: soft
+- id: electronic-transitions-excited-states
+  type: soft
 tags:
 - fluorescence
 - phosphorescence

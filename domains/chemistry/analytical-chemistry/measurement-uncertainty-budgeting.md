@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: confidence-intervals-framework
   type: soft
+- id: variance-of-random-variables
+  type: soft
 builds-toward:
 - iso-iec-17025-laboratory-accreditation
 - quality-assurance-analytical

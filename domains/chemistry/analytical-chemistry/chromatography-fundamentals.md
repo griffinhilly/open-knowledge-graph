@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: sample-preparation
   type: soft
+- id: diffusion-and-ficks-laws
+  type: soft
 builds-toward:
 - gas-chromatography
 - hplc

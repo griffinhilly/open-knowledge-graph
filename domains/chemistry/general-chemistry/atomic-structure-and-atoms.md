@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: atomic-structure-basics
   type: soft
+- id: bohr-model
+  type: soft
 builds-toward:
 - isotopes-and-atomic-mass
 - electron-configuration-principles
