@@ -1,34 +1,28 @@
 ---
 id: diatonic-progression-voice-leading-patterns
-title: Diatonic Progression and Voice-Leading Patterns
+title: Diatonic Progression Patterns and Their Voice Leading
 domain: music
 course: harmony-and-voice-leading
 prerequisites:
-- id: diatonic-harmony
+- id: diatonic-chords-major-minor-keys
   type: hard
-- id: chord-progressions
-  type: hard
-- id: voice-leading-basics
+- id: harmonic-progression-analysis
   type: soft
 builds-toward:
-- chord-progression-patterns-and-function
-- four-part-writing
+- modulation-voice-leading-pivot-chords
+- jazz-chord-substitution-voice-leading
 tags:
-- progressions
-- diatonic
+- diatonic-progressions
+- chord-progressions
 - voice-leading
 stage: abstract-reasoning
 status: draft
 ---
 
-# Diatonic Progression and Voice-Leading Patterns
+# Diatonic Progression Patterns and Their Voice Leading
 
 ## Core Idea
-Common diatonic progressions (I-IV-V-I, ii-V-I, vi-IV-I-V) follow syntactic patterns rooted in harmonic function. Each progression has characteristic voice-leading solutions that smooth the transition between chords while respecting functional logic.
+Diatonic progressions follow harmonic function patterns (I-IV-V-I, I-vi-IV-V, etc.) that recur throughout tonal music. Each progression has characteristic voice leading patterns that composers use repeatedly. Standard progressions like IV-V, V-vi, and ii-V create smooth voice leading opportunities because the voice leading conventions for these progressions are well-established. Understanding these patterns accelerates both voice leading composition and harmonic analysis.
 
 ## How It's Best Learned
-Practice writing the same progression in different voices; listen to how classical composers voice these patterns in various contexts.
-
-## Common Misconceptions
-- There is one correct way to voice each progression; many solutions work well.
-- Voice leading follows the same principles regardless of harmonic context; progression type affects which solutions sound best.
+Chart common progressions in major and minor keys, then analyze how Bach chorales voice each progression. Identify which voice leads smoothly, which note is typically doubled, and where stepwise motion occurs.
