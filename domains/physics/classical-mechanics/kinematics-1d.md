@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: antiderivatives
   type: soft
+- id: vector-addition-subtraction
+  type: soft
+- id: functions-domain-codomain-range
+  type: soft
 builds-toward:
 - kinematic-equations
 - kinematics-2d

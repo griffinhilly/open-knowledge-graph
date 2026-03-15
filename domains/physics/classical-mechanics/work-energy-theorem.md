@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: kinetic-energy
   type: hard
+- id: dot-product
+  type: hard
+- id: definite-integral-definition
+  type: hard
 builds-toward:
 - conservation-of-energy
 tags:

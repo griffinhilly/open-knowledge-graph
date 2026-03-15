@@ -18,6 +18,8 @@ prerequisites:
   type: hard
 - id: eigenvalues-eigenvectors
   type: hard
+- id: eigenvalues-and-eigenvectors
+  type: hard
 builds-toward:
 - particle-in-a-box
 - quantum-tunneling

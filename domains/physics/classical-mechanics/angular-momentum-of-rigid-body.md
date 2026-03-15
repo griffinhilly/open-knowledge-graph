@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: moment-of-inertia
   type: hard
+- id: cross-product-3d
+  type: hard
+- id: matrices-intro
+  type: soft
 builds-toward:
 - conservation-of-angular-momentum
 tags:

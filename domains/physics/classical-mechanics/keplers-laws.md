@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: conic-sections-ellipses
   type: soft
+- id: polar-coordinates
+  type: soft
 tags:
 - Kepler
 - planetary-motion

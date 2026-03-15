@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: vector-addition-subtraction
   type: soft
+- id: parametric-equations-intro
+  type: soft
 builds-toward:
 - projectile-motion
 - circular-motion-kinematics

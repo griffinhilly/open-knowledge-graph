@@ -6,6 +6,8 @@ course: electricity-and-magnetism
 prerequisites:
 - id: electric-flux-and-divergence
   type: hard
+- id: divergence-theorem
+  type: hard
 builds-toward:
 - gauss-law-problem-solving
 - conductors-electrostatic-behavior

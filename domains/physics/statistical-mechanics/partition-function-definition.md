@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: exponential-functions-and-graphs
   type: hard
+- id: definite-integral-definition
+  type: hard
 builds-toward:
 - helmholtz-free-energy
 - gibbs-free-energy

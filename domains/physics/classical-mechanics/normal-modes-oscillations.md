@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: simple-harmonic-motion
   type: hard
+- id: eigenvalues-and-eigenvectors
+  type: hard
+- id: boundary-value-problem-types
+  type: hard
 tags:
 - oscillations
 - modes

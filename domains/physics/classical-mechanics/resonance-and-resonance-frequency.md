@@ -6,6 +6,8 @@ course: classical-mechanics
 prerequisites:
 - id: driven-harmonic-oscillator
   type: hard
+- id: complex-numbers-intro
+  type: soft
 tags:
 - resonance
 - oscillations

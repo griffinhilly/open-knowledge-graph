@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: schrodinger-equation-intro
   type: soft
+- id: eigenvalues-and-eigenvectors
+  type: hard
+- id: spherical-harmonics-electrostatics
+  type: soft
 builds-toward:
 - atomic-orbitals-shapes-nodes
 tags:

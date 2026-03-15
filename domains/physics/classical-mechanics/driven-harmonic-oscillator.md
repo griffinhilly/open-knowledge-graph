@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: second-order-linear-homogeneous-odes
   type: hard
+- id: differential-equations-intro
+  type: hard
+- id: characteristic-equation-method
+  type: hard
+- id: complex-numbers-intro
+  type: soft
 builds-toward:
 - resonance-and-resonance-frequency
 tags:

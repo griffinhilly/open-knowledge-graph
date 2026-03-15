@@ -14,6 +14,10 @@ prerequisites:
   type: hard
 - id: characteristic-equation-method
   type: hard
+- id: differential-equations-intro
+  type: hard
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
 - driven-harmonic-oscillator
 tags:

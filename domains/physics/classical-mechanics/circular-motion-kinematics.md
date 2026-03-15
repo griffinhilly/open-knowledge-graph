@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: trigonometric-ratios-review
   type: soft
+- id: polar-coordinates
+  type: soft
 builds-toward:
 - circular-motion-dynamics
 - rotational-kinematics

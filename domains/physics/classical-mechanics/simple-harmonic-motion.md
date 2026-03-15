@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: second-order-linear-homogeneous-odes
   type: hard
+- id: differential-equations-intro
+  type: hard
 builds-toward:
 - spring-mass-system
 - simple-pendulum

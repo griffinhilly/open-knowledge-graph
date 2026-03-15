@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: line-integrals
   type: hard
+- id: curl-and-divergence-operators
+  type: hard
 builds-toward:
 - lenz-law-induced-currents
 tags:

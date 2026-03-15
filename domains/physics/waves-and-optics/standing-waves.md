@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: trigonometric-functions
   type: soft
+- id: boundary-value-problem-types
+  type: soft
 builds-toward:
 - resonance-strings-and-pipes
 tags:

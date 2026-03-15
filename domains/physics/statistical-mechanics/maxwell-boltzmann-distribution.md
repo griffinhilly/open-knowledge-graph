@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: exponential-distribution
   type: soft
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
 - quantum-statistics-intro
 - ideal-fermi-gas

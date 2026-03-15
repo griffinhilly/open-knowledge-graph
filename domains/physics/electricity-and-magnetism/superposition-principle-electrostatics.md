@@ -6,6 +6,8 @@ course: electricity-and-magnetism
 prerequisites:
 - id: electric-field
   type: hard
+- id: linear-superposition-principle
+  type: hard
 builds-toward:
 - electric-field-lines
 - gauss-law

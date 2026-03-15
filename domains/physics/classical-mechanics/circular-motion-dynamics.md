@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: free-body-diagrams
   type: hard
+- id: polar-coordinates
+  type: soft
 builds-toward:
 - orbital-mechanics
 - rotational-dynamics

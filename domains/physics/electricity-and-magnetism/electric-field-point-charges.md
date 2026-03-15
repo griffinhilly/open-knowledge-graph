@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electric-field-superposition-principle
   type: hard
+- id: vector-fields
+  type: hard
 builds-toward:
 - electric-field-continuous-distributions
 - electric-flux-and-divergence

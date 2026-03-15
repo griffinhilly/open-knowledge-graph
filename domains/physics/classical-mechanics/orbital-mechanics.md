@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: conic-sections-ellipses
   type: soft
+- id: differential-equations-intro
+  type: hard
 builds-toward:
 - keplers-laws
 tags:

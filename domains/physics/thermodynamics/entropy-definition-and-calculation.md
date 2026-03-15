@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: logarithm-properties
   type: soft
+- id: logarithmic-functions-review
+  type: hard
 tags:
 - entropy
 - reversible
