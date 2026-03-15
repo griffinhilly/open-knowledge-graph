@@ -26,6 +26,10 @@ prerequisites:
   type: hard
 - id: correlation-coefficient
   type: hard
+- id: covariance-correlation-theory
+  type: hard
+- id: optimization-multivariable-basics
+  type: hard
 builds-toward:
 - arbitrage-pricing-theory
 - risk-adjusted-performance-measures

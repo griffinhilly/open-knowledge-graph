@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: central-limit-theorem
   type: soft
+- id: convergence-in-distribution
+  type: hard
 builds-toward:
 - confidence-intervals-regression
 tags:

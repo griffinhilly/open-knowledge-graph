@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: conditional-probability
   type: soft
+- id: bayes-theorem-and-inference
+  type: hard
+- id: conditional-probability-fundamentals
+  type: hard
 builds-toward:
 - perfect-bayesian-equilibrium
 - mechanism-design-basics

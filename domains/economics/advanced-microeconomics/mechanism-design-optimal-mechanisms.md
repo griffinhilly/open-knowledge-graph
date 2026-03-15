@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: bayesian-games-and-incomplete-information
   type: soft
+- id: lagrange-multipliers
+  type: hard
+- id: constrained-optimization
+  type: hard
 tags:
 - mechanism-design
 - auction-theory

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: lagrange-multipliers
   type: hard
+- id: optimization-multivariable-basics
+  type: hard
 builds-toward:
 - new-keynesian-framework
 tags:

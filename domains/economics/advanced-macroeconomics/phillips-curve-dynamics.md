@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: probability-axioms
   type: soft
+- id: time-series-basics-econometrics
+  type: soft
 builds-toward:
 - taylor-rule-monetary-policy
 tags:

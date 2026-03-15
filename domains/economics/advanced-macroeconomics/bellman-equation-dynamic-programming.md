@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: recursive-definitions
   type: soft
+- id: dynamic-optimization-lagrange
+  type: hard
 builds-toward:
 - euler-equation-intertemporal-choice
 - solow-growth-model

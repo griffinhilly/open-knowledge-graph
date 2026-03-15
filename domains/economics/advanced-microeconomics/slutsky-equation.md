@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: linear-algebra
   type: soft
+- id: partial-derivatives-definition
+  type: hard
+- id: implicit-differentiation-multivariable
+  type: soft
 builds-toward:
 - compensated-demand-curves
 - revealed-preference-axioms

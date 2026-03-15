@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: normal-distribution-theory
   type: hard
+- id: calculus
+  type: hard
 tags:
 - black-scholes
 - options-pricing

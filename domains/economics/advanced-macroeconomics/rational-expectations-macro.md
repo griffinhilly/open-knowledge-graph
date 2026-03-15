@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: probability-axioms
   type: soft
+- id: bayes-theorem-and-inference
+  type: soft
 builds-toward:
 - expectation-formation-mechanisms
 - phillips-curve-dynamics

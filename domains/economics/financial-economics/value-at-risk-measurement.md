@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: variance-of-random-variables
   type: hard
+- id: quantiles-and-percentiles
+  type: hard
+- id: probability-distributions
+  type: hard
 tags:
 - var
 - risk-measurement

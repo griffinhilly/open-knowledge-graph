@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: compact-sets
   type: hard
+- id: topological-spaces-definition
+  type: hard
+- id: compact-sets-definition
+  type: soft
 tags:
 - general-equilibrium
 - mathematical-economics

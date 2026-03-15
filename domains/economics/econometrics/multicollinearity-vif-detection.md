@@ -6,6 +6,10 @@ course: econometrics
 prerequisites:
 - id: multicollinearity
   type: hard
+- id: eigenvalues-and-eigenvectors
+  type: hard
+- id: condition-number-of-a-matrix
+  type: soft
 tags:
 - multicollinearity
 - diagnostics

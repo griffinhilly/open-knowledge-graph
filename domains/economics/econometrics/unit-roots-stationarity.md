@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: chow-test-structural-breaks
   type: soft
+- id: characteristic-equation-method
+  type: hard
+- id: complex-numbers-intro
+  type: soft
 builds-toward:
 - autoregressive-ar-models
 tags:

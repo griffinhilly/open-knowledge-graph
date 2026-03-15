@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: exponential-growth-and-decay
   type: hard
+- id: steady-state-analysis-growth
+  type: soft
 builds-toward:
 - steady-state-analysis-growth
 - endogenous-growth-theory

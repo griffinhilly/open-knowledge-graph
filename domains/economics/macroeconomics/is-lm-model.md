@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: fiscal-multiplier
   type: soft
+- id: systems-of-linear-equations
+  type: hard
 builds-toward:
 - open-economy-macroeconomics
 tags:

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: real-business-cycle-theory
   type: hard
+- id: eigenvalues-and-eigenvectors
+  type: hard
+- id: linearization-nonlinear-systems
+  type: soft
 builds-toward:
 - phillips-curve-dynamics
 - monetary-policy-transmission

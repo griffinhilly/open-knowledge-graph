@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: constrained-optimization
   type: hard
+- id: optimization-multivariable-basics
+  type: hard
+- id: critical-points-multivariable
+  type: soft
 builds-toward:
 - stackelberg-sequential-moves
 - collusion-cartel-stability

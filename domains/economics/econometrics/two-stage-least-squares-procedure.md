@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: instrumental-variables-validity
   type: hard
+- id: matrix-operations
+  type: hard
+- id: linear-regression-simple-theory
+  type: soft
 builds-toward:
 - overidentification-test
 tags:

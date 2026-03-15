@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: systems-of-first-order-linear-odes
   type: hard
+- id: eigenvalues-and-eigenvectors
+  type: hard
+- id: linear-transformations
+  type: soft
 builds-toward:
 - monetary-policy-transmission
 - fiscal-multipliers-macro

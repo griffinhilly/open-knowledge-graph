@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: cournot-competition
   type: soft
+- id: optimization-multivariable-basics
+  type: hard
+- id: backward-induction
+  type: soft
 tags:
 - industrial-organization
 - sequential-games

@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: soft
+- id: constrained-optimization-lagrange
+  type: hard
 builds-toward:
 - hicksian-demand-functions
 - compensating-and-equivalent-variation

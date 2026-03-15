@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: interest-rate-risk-management
   type: soft
+- id: calculus
+  type: hard
+- id: derivatives-of-logarithmic-functions
+  type: soft
 builds-toward:
 - bond-convexity-price-effects
 tags:

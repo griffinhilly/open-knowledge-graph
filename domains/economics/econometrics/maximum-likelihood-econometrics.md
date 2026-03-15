@@ -22,6 +22,10 @@ prerequisites:
   type: soft
 - id: probability-theory
   type: hard
+- id: optimization-multivariable-basics
+  type: hard
+- id: calculus
+  type: hard
 builds-toward:
 - logit-probit-models
 tags:

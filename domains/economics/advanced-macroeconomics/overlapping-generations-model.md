@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: consumer-optimum
   type: hard
+- id: systems-of-linear-equations
+  type: hard
+- id: lagrange-multipliers
+  type: soft
 builds-toward:
 - fiscal-multiplier-dynamics
 tags:

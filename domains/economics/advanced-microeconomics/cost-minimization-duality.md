@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: soft
+- id: lagrange-multipliers
+  type: hard
+- id: constrained-optimization
+  type: hard
 builds-toward:
 - factor-demands-and-elasticity
 tags:

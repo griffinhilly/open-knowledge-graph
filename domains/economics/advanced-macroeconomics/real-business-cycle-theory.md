@@ -6,6 +6,10 @@ course: advanced-macroeconomics
 prerequisites:
 - id: solow-growth-model
   type: hard
+- id: eigenvalues-and-eigenvectors
+  type: hard
+- id: linear-algebra
+  type: soft
 builds-toward:
 - monetary-neutrality-long-run
 - new-keynesian-model-baseline

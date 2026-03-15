@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: linear-algebra
   type: soft
+- id: linear-programming
+  type: soft
+- id: optimization-multivariable-basics
+  type: soft
 builds-toward:
 - first-welfare-theorem
 - second-welfare-theorem

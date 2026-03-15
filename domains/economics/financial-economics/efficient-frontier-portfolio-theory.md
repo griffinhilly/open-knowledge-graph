@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: variance-of-random-variables
   type: soft
+- id: linear-algebra
+  type: hard
+- id: quadratic-programming
+  type: soft
 builds-toward:
 - capital-asset-pricing-model
 - risk-adjusted-performance-measures

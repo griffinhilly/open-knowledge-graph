@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: comparative-statics
   type: hard
+- id: topological-spaces-definition
+  type: soft
+- id: continuous-functions-topology
+  type: soft
 builds-toward:
 - pareto-optimality
 - first-fundamental-welfare-theorem

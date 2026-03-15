@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: linear-algebra
   type: hard
+- id: matrix-operations
+  type: hard
 builds-toward:
 - feasible-generalized-least-squares-fgls
 tags:

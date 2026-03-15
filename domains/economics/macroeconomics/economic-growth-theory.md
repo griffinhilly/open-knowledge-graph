@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: real-vs-nominal-gdp
   type: soft
+- id: differential-equations-intro
+  type: hard
+- id: optimization-multivariable-basics
+  type: soft
 tags:
 - Solow-model
 - capital-accumulation

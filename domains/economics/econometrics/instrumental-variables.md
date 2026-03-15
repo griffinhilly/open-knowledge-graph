@@ -14,6 +14,10 @@ prerequisites:
   type: hard
 - id: probability-theory
   type: hard
+- id: matrix-operations
+  type: hard
+- id: linear-regression
+  type: soft
 builds-toward:
 - two-stage-least-squares
 tags:

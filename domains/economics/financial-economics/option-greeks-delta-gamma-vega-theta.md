@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: soft
+- id: partial-derivatives-definition
+  type: hard
+- id: higher-order-partials
+  type: soft
 tags:
 - options
 - risk-sensitivity
