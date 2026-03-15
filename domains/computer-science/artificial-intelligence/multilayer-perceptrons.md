@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: backpropagation
   type: hard
+- id: matrix-multiplication
+  type: soft
+- id: vectors-in-rn
+  type: soft
 builds-toward:
 - vanishing-gradient-problem
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lexical-analyzer-design
   type: hard
+- id: formal-languages-and-strings
+  type: soft
 builds-toward:
 - ll-parsing
 - lr-parsing

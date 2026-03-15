@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conditional-probability
   type: hard
+- id: bayes-theorem
+  type: soft
 tags:
 - probabilistic-reasoning
 - graphical-models

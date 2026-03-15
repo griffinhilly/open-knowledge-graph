@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gradient-descent-optimization
   type: hard
+- id: partial-derivatives
+  type: soft
 builds-toward:
 - backpropagation
 - optimization-algorithms

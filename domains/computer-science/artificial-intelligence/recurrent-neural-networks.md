@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: markov-chains
   type: soft
+- id: partial-derivatives
+  type: soft
 tags:
 - deep-learning
 - sequence-models

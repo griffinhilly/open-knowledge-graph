@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: calculus-derivatives-intro
   type: hard
+- id: vectors-in-rn
+  type: soft
+- id: matrices-intro
+  type: soft
 tags:
 - neural-networks
 - deep-learning

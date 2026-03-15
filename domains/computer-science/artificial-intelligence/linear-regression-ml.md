@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: probability-basics
   type: soft
+- id: matrices-intro
+  type: soft
+- id: eigenvalues-and-eigenvectors
+  type: soft
+- id: linear-transformations
+  type: soft
 tags:
 - supervised-learning
 - regression

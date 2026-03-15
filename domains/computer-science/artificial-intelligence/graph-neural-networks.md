@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: knowledge-graphs
   type: soft
+- id: matrices-intro
+  type: soft
+- id: graph-theory-intro
+  type: soft
 builds-toward:
 - graph-convolutions
 - message-passing

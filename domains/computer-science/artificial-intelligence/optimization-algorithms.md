@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stochastic-gradient-descent
   type: hard
+- id: partial-derivatives
+  type: soft
 builds-toward:
 - training-neural-networks
 - hyperparameter-optimization

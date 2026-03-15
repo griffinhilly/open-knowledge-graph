@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: generative-adversarial-networks
   type: soft
+- id: probability-distributions
+  type: soft
 tags:
 - generative-models
 - probabilistic-models

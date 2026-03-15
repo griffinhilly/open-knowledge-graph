@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kmeans-clustering
   type: hard
+- id: probability-distributions
+  type: soft
 builds-toward:
 - probabilistic-clustering
 - latent-class-analysis

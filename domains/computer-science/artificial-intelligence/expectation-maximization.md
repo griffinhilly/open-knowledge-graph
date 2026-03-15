@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hidden-markov-models
   type: soft
+- id: expected-value-theory
+  type: soft
 builds-toward:
 - mixture-models
 - latent-variable-models

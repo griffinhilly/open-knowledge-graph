@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: eigenvalues-eigenvectors
   type: hard
+- id: eigenvalues-and-eigenvectors
+  type: soft
 tags:
 - unsupervised-learning
 - dimensionality-reduction

@@ -6,6 +6,8 @@ course: artificial-intelligence
 prerequisites:
 - id: recurrent-neural-networks
   type: hard
+- id: partial-derivatives
+  type: soft
 tags:
 - deep-learning
 - sequence-models

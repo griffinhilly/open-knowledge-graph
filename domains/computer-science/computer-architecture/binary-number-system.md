@@ -6,6 +6,8 @@ course: computer-architecture
 prerequisites:
 - id: place-value-whole-numbers
   type: soft
+- id: number-base-conversion-operations
+  type: soft
 builds-toward:
 - hexadecimal-number-system
 - binary-arithmetic

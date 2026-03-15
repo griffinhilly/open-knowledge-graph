@@ -6,6 +6,8 @@ course: artificial-intelligence
 prerequisites:
 - id: gradient-descent-optimization
   type: hard
+- id: partial-derivatives
+  type: soft
 tags:
 - optimization
 - learning-algorithms

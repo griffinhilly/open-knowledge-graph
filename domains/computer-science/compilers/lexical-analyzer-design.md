@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: deterministic-finite-automata
   type: hard
+- id: regular-languages-fundamentals
+  type: soft
 builds-toward:
 - parsing-problem-overview
 tags:

@@ -6,6 +6,8 @@ course: artificial-intelligence
 prerequisites:
 - id: markov-decision-processes
   type: hard
+- id: probability-axioms-and-rules
+  type: soft
 tags:
 - reinforcement-learning
 - learning-paradigm

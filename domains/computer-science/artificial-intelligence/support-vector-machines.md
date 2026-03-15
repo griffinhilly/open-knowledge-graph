@@ -6,6 +6,10 @@ course: artificial-intelligence
 prerequisites:
 - id: linear-algebra-basics
   type: hard
+- id: dot-product
+  type: soft
+- id: vector-spaces
+  type: soft
 tags:
 - supervised-learning
 - classification

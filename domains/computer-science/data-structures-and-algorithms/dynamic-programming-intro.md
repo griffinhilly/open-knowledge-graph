@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: topological-sort
   type: soft
+- id: mathematical-induction
+  type: soft
 builds-toward:
 - memoization-and-tabulation
 tags:

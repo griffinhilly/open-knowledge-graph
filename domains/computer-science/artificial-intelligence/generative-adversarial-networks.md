@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: probability-basics
   type: soft
+- id: probability-distributions
+  type: soft
 tags:
 - deep-learning
 - generative-models

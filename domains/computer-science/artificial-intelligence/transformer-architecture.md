@@ -6,6 +6,8 @@ course: artificial-intelligence
 prerequisites:
 - id: attention-mechanisms
   type: hard
+- id: linear-transformations
+  type: soft
 tags:
 - deep-learning
 - attention

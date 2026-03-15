@@ -6,6 +6,8 @@ course: artificial-intelligence
 prerequisites:
 - id: calculus-derivatives-intro
   type: hard
+- id: partial-derivatives
+  type: soft
 tags:
 - optimization
 - first-order-methods

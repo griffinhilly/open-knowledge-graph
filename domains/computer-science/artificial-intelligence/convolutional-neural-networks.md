@@ -6,6 +6,8 @@ course: artificial-intelligence
 prerequisites:
 - id: backpropagation
   type: hard
+- id: matrix-multiplication
+  type: soft
 tags:
 - deep-learning
 - computer-vision

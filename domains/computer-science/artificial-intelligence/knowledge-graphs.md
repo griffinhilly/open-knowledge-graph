@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: relational-model-basics
   type: soft
+- id: graph-theory-intro
+  type: soft
 builds-toward:
 - semantic-networks
 tags:

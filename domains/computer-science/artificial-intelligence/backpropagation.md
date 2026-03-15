@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: chain-rule-multivariable
   type: hard
+- id: chain-rule
+  type: soft
+- id: partial-derivatives
+  type: soft
 tags:
 - neural-networks
 - training-algorithms

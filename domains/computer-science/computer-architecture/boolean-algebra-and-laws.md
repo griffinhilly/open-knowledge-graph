@@ -6,6 +6,8 @@ course: computer-architecture
 prerequisites:
 - id: logical-operators-and-gates
   type: hard
+- id: boolean-algebra
+  type: soft
 builds-toward:
 - universal-logic-gates
 - combinational-circuit-design

@@ -6,6 +6,10 @@ course: artificial-intelligence
 prerequisites:
 - id: supervised-learning-intro
   type: hard
+- id: bayes-theorem
+  type: soft
+- id: conditional-probability
+  type: soft
 tags:
 - classification
 - probabilistic-models

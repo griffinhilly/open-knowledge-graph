@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dynamic-programming-intro
   type: hard
+- id: probability-axioms-and-rules
+  type: soft
 tags:
 - decision-making
 - markov-models
