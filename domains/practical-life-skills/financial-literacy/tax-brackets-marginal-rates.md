@@ -6,6 +6,10 @@ course: financial-literacy
 prerequisites:
 - id: tax-filing-basics
   type: hard
+- id: percent-of-a-number
+  type: soft
+- id: inequalities
+  type: soft
 tags:
 - tax-brackets
 - marginal-rate

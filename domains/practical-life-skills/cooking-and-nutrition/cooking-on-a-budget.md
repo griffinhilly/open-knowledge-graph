@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: meal-planning-basics
   type: soft
+- id: percent-concept
+  type: soft
+- id: addition-subtraction-word-problems
+  type: soft
 tags:
 - budget
 - frugal-cooking

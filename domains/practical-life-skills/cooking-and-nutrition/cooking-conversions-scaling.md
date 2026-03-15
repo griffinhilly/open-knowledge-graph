@@ -6,6 +6,10 @@ course: cooking-and-nutrition
 prerequisites:
 - id: reading-recipes
   type: hard
+- id: ratios
+  type: soft
+- id: proportions
+  type: soft
 tags:
 - measurement
 - conversions

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: percent-concept
   type: soft
+- id: addition-subtraction-word-problems
+  type: soft
 builds-toward:
 - net-worth-tracking
 - emergency-fund-planning

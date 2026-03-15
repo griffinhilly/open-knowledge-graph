@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: adding-subtracting-decimals
   type: soft
+- id: addition-subtraction-word-problems
+  type: soft
 tags:
 - spreadsheets
 - excel

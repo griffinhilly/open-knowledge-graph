@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: understanding-pay-stubs
   type: soft
+- id: percent-increase-decrease
+  type: soft
 tags:
 - salary
 - negotiation

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: percent-concept
   type: soft
+- id: adding-integers
+  type: soft
+- id: comparing-and-ordering-integers
+  type: soft
 builds-toward:
 - mortgage-and-home-buying
 - retirement-accounts

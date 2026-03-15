@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: making-change-simple
   type: soft
+- id: comparing-fractions
+  type: soft
 tags:
 - grocery
 - budgeting

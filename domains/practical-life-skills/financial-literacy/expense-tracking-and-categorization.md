@@ -6,6 +6,8 @@ course: financial-literacy
 prerequisites:
 - id: personal-budget-fundamentals
   type: soft
+- id: addition-subtraction-word-problems
+  type: soft
 builds-toward:
 - recurring-subscription-audit-and-elimination
 tags:

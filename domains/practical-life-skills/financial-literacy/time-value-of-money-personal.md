@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: exponential-growth-and-decay
   type: soft
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
 - compound-interest
 - mortgage-and-home-buying

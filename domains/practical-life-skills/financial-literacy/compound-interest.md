@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: exponents-intro
   type: soft
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
 - inflation-and-purchasing-power
 - debt-management-strategies

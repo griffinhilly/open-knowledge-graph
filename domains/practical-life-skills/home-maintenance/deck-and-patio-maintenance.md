@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: power-tool-safety
   type: soft
+- id: area-of-rectangles
+  type: soft
+- id: perimeter
+  type: soft
 builds-toward: []
 tags:
 - deck

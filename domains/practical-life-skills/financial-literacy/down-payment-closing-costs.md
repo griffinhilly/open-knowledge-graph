@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: financial-goal-setting
   type: soft
+- id: percent-of-a-number
+  type: soft
 tags:
 - down-payment
 - closing-costs

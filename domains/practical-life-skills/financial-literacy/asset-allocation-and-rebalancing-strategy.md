@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: investment-risk-and-return
   type: soft
+- id: percent-of-a-number
+  type: soft
 builds-toward:
 - lump-sum-vs-dollar-cost-averaging
 tags:

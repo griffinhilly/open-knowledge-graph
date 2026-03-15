@@ -3,7 +3,9 @@ id: basic-nutrition-fundamentals
 title: Basic Nutrition Fundamentals
 domain: practical-life-skills
 course: cooking-and-nutrition
-prerequisites: []
+prerequisites:
+- id: fractions-of-a-set
+  type: soft
 builds-toward:
 - food-groups-and-macronutrients
 - reading-nutrition-labels

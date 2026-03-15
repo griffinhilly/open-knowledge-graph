@@ -6,6 +6,10 @@ course: financial-literacy
 prerequisites:
 - id: money-fundamentals-definition-and-characteristics
   type: hard
+- id: percent-of-a-number
+  type: soft
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
 - bonds-and-fixed-income-securities
 - economic-indicators-and-personal-finance-impact

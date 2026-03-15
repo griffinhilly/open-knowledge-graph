@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: ratios
   type: soft
+- id: percent-of-a-number
+  type: soft
 builds-toward:
 - grocery-shopping-and-budgeting
 - meal-planning-basics

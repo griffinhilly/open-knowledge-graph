@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: knife-cuts-and-purposes
   type: soft
+- id: ratios
+  type: soft
+- id: multiplying-fractions
+  type: soft
 builds-toward:
 - cooking-on-a-budget
 - cooking-for-dietary-restrictions

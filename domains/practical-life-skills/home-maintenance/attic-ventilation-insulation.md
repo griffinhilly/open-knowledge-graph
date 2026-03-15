@@ -6,6 +6,8 @@ course: home-maintenance
 prerequisites:
 - id: seasonal-home-maintenance
   type: hard
+- id: area-of-rectangles
+  type: soft
 builds-toward:
 - insulation-and-air-sealing
 tags:

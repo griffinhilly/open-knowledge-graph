@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: inflation-and-purchasing-power
   type: soft
+- id: expected-value
+  type: soft
+- id: variance-of-random-variables
+  type: soft
 builds-toward:
 - stock-market-fundamentals
 - bonds-and-fixed-income
