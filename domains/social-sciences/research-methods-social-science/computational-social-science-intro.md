@@ -3,7 +3,11 @@ id: computational-social-science-intro
 title: Computational Social Science
 domain: social-sciences
 course: research-methods-social-science
-prerequisites: []
+prerequisites:
+- id: algorithm-complexity-discrete
+  type: hard
+- id: discrete-math-overview
+  type: soft
 tags:
 - computational
 - agent-based-modeling

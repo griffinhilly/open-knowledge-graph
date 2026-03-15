@@ -6,6 +6,10 @@ course: research-methods-social-science
 prerequisites:
 - id: logistic-regression-binary-categorical
   type: hard
+- id: poisson-distribution
+  type: hard
+- id: probability-distributions
+  type: hard
 tags:
 - count-data
 - poisson

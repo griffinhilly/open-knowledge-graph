@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: linear-regression-social-science
   type: hard
+- id: partial-derivatives
+  type: soft
+- id: optimization-multivariable-basics
+  type: soft
 tags:
 - difference-in-differences
 - policy-evaluation

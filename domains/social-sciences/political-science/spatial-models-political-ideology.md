@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: voter-behavior-electoral-decision
   type: soft
+- id: coordinate-plane-intro
+  type: hard
+- id: distance-formula
+  type: hard
 builds-toward:
 - political-polarization-affective-division
 - electoral-systems

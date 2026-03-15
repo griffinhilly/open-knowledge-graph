@@ -6,6 +6,10 @@ course: research-methods-social-science
 prerequisites:
 - id: linear-regression-social-science
   type: hard
+- id: sequences-and-series-review
+  type: hard
+- id: functions-domain-codomain-range
+  type: soft
 tags:
 - time-series
 - autocorrelation

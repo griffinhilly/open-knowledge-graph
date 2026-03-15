@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: factor-analysis-dimensionality
   type: soft
+- id: eigenvalues-eigenvectors
+  type: hard
+- id: matrix-operations
+  type: hard
+- id: basis-and-dimension
+  type: soft
 tags:
 - SEM
 - latent-variables

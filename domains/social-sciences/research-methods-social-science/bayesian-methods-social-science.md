@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: research-design-advanced
   type: soft
+- id: bayes-theorem
+  type: hard
+- id: conditional-probability-fundamentals
+  type: hard
+- id: probability-axioms
+  type: hard
 builds-toward:
 - bayesian-network-models-causal
 - hierarchical-bayesian-models

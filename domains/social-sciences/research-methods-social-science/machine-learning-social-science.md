@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: probability-and-statistics
   type: hard
+- id: eigenvalues-eigenvectors
+  type: hard
+- id: optimization-multivariable-basics
+  type: hard
+- id: matrix-operations
+  type: hard
 builds-toward:
 - interpretable-machine-learning
 - fairness-bias-ml

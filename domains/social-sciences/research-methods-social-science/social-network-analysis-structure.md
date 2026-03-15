@@ -3,7 +3,13 @@ id: social-network-analysis-structure
 title: Social Network Analysis
 domain: social-sciences
 course: research-methods-social-science
-prerequisites: []
+prerequisites:
+- id: graph-theory-fundamentals
+  type: hard
+- id: adjacency-matrix
+  type: hard
+- id: degree-sequences
+  type: soft
 builds-toward:
 - computational-social-science-intro
 tags:

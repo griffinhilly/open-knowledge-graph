@@ -20,6 +20,10 @@ prerequisites:
   type: soft
 - id: urban-geography-fundamentals
   type: soft
+- id: distance-formula
+  type: hard
+- id: functions-domain-codomain-range
+  type: soft
 builds-toward:
 - world-cities-global-hierarchy
 tags:

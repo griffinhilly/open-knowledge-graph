@@ -6,6 +6,12 @@ course: research-methods-social-science
 prerequisites:
 - id: logistic-regression-binary-outcomes
   type: hard
+- id: exponential-functions-and-graphs
+  type: hard
+- id: partial-derivatives
+  type: hard
+- id: optimization-multivariable-basics
+  type: soft
 builds-toward:
 - count-data-regression-models
 tags:

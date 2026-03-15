@@ -6,6 +6,10 @@ course: international-relations-theory
 prerequisites:
 - id: multilateralism-coordination-games
   type: hard
+- id: optimization-multivariable-basics
+  type: hard
+- id: fixed-point-iteration
+  type: soft
 builds-toward:
 - signaling-and-resolve
 - international-norms-diffusion

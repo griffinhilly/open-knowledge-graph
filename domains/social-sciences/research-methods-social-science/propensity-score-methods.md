@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: logistic-regression-binary-outcomes
   type: hard
+- id: probability-distributions
+  type: hard
+- id: conditional-distributions-of-random-variables
+  type: hard
 tags:
 - propensity-score
 - matching

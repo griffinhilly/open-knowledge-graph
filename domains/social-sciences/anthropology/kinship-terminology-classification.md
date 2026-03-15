@@ -6,6 +6,10 @@ course: anthropology
 prerequisites:
 - id: kinship-and-descent
   type: hard
+- id: set-operations
+  type: soft
+- id: binary-relations
+  type: soft
 builds-toward:
 - marriage-exchange-systems
 - descent-systems-unilineal

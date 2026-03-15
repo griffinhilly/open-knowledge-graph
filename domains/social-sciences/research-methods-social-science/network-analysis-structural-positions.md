@@ -6,6 +6,12 @@ course: research-methods-social-science
 prerequisites:
 - id: network-analysis-sociology
   type: hard
+- id: graph-theory-fundamentals
+  type: hard
+- id: adjacency-matrix
+  type: hard
+- id: eigenvalues-eigenvectors
+  type: soft
 tags:
 - network-analysis
 - centrality

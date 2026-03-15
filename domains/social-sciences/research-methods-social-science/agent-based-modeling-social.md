@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: research-design-advanced
   type: soft
+- id: algorithm-analysis-big-o
+  type: hard
+- id: probability-axioms
+  type: soft
 builds-toward:
 - network-simulation-dynamics
 - simulation-modeling-social

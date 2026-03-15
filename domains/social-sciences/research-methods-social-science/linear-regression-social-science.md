@@ -6,6 +6,12 @@ course: research-methods-social-science
 prerequisites:
 - id: probability-and-statistics
   type: hard
+- id: matrix-operations
+  type: hard
+- id: partial-derivatives
+  type: hard
+- id: optimization-multivariable-basics
+  type: hard
 builds-toward:
 - multilevel-modeling-hierarchical
 - logistic-regression-binary-outcomes

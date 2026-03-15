@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: linear-regression-social-science
   type: hard
+- id: conditional-probability-fundamentals
+  type: hard
+- id: probability-distributions
+  type: hard
 builds-toward:
 - instrumental-variables-methods
 - difference-in-differences-estimation

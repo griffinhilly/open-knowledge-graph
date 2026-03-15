@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: measurement-validity-social-science
   type: hard
+- id: eigenvalues-eigenvectors
+  type: hard
+- id: basis-and-dimension
+  type: hard
 builds-toward:
 - structural-equation-modeling-latent
 tags:

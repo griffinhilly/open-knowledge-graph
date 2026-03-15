@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: linear-regression-social-science
   type: hard
+- id: matrix-inverses
+  type: hard
+- id: linear-systems-notation
+  type: hard
 tags:
 - instrumental-variables
 - endogeneity

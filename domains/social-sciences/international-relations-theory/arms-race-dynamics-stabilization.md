@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: deterrence-nuclear-strategy
   type: soft
+- id: differential-equations-intro
+  type: hard
+- id: stability-classification
+  type: soft
 builds-toward:
 - second-strike-capability-mutual-assured-destruction
 - crisis-bargaining-war-initiation

@@ -6,6 +6,10 @@ course: sociological-theory
 prerequisites:
 - id: sociological-imagination
   type: hard
+- id: graph-theory-fundamentals
+  type: hard
+- id: degree-sequences
+  type: soft
 builds-toward:
 - granovetter-weak-ties
 tags:

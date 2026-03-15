@@ -6,6 +6,10 @@ course: international-relations-theory
 prerequisites:
 - id: security-dilemma
   type: hard
+- id: probability-axioms
+  type: soft
+- id: expected-value-theory
+  type: soft
 builds-toward:
 - power-transition-hegemonic-dominance
 - diplomatic-signaling-crisis-communication

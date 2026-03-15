@@ -6,6 +6,10 @@ course: sociological-theory
 prerequisites:
 - id: sociological-imagination
   type: soft
+- id: optimization-multivariable-basics
+  type: hard
+- id: expected-value-theory
+  type: hard
 tags:
 - rational-choice
 - economics

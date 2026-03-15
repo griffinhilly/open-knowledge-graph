@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: causal-inference-observational-data
   type: soft
+- id: eigenvalues-eigenvectors
+  type: hard
+- id: matrix-operations
+  type: hard
 builds-toward:
 - structural-var-models
 - impulse-response-analysis

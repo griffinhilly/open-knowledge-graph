@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: ratios
   type: soft
+- id: 3d-coordinate-systems
+  type: hard
+- id: matrix-operations
+  type: soft
 builds-toward:
 - population-distribution-density
 - spatial-interaction-theory

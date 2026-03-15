@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: regression-diagnostics-assumption-violations
   type: soft
+- id: normal-distribution-theory
+  type: hard
+- id: probability-distributions
+  type: hard
+- id: conditional-distributions-of-random-variables
+  type: soft
 builds-toward:
 - causal-inference-from-observation
 tags:
