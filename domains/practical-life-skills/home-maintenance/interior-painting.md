@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: measurement-length-standard-units-3rd
   type: soft
+- id: area-and-perimeter-problems
+  type: soft
 tags:
 - painting
 - interiors

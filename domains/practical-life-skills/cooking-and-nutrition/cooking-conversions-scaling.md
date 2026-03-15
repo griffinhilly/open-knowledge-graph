@@ -24,6 +24,8 @@ prerequisites:
   type: soft
 - id: multiplication-division-relationship
   type: soft
+- id: converting-fractions-decimals-percents
+  type: soft
 tags:
 - measurement
 - conversions

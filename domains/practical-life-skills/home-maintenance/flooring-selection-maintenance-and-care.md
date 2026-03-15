@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: measurement-conversions-customary
   type: soft
+- id: area-and-perimeter-problems
+  type: soft
 tags:
 - flooring
 - maintenance

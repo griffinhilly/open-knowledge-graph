@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: addition-subtraction-word-problems
   type: soft
+- id: unit-rates
+  type: soft
 builds-toward:
 - grocery-shopping-and-budgeting
 tags:

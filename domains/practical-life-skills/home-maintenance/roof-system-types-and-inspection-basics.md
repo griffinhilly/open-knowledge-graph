@@ -6,6 +6,10 @@ course: home-maintenance
 prerequisites:
 - id: home-system-components-and-layout
   type: soft
+- id: angle-basics-and-classification
+  type: soft
+- id: area-and-perimeter-problems
+  type: soft
 builds-toward:
 - roof-inspection-basics
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: perimeter
   type: soft
+- id: measuring-length-standard-units-3rd
+  type: soft
 builds-toward:
 - pest-control-basics
 tags:

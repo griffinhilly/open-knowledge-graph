@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: unit-rates
   type: soft
+- id: proportions
+  type: soft
 builds-toward:
 - rice-and-grain-cooking
 - starch-and-grain-cooking

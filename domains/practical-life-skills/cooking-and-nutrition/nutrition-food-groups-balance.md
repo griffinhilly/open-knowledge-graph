@@ -6,6 +6,10 @@ course: cooking-and-nutrition
 prerequisites:
 - id: basic-nutrition-fundamentals
   type: hard
+- id: percent-of-a-number
+  type: soft
+- id: fractions-of-a-set-3rd
+  type: soft
 builds-toward:
 - reading-nutrition-labels
 - meal-planning-basics

@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: variance-standard-deviation
   type: soft
+- id: probability-with-combinatorics
+  type: soft
 builds-toward:
 - stock-market-fundamentals
 - bonds-and-fixed-income

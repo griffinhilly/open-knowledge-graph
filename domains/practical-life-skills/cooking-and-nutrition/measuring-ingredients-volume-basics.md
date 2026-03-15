@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: volume-of-rectangular-prisms
   type: soft
+- id: measuring-capacity-liquid-containers-3rd
+  type: soft
 builds-toward:
 - reading-following-simple-recipes
 - grain-and-starch-preparation-basics

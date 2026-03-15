@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: seasoning-and-flavor-basics
   type: soft
+- id: unit-rates
+  type: soft
 builds-toward:
 - taste-balancing-and-evaluating
 - sauce-making-basics

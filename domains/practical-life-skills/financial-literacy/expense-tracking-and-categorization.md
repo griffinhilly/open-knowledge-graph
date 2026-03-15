@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: percent-concept
   type: soft
+- id: mean-median-mode
+  type: soft
 builds-toward:
 - recurring-subscription-audit-and-elimination
 tags:

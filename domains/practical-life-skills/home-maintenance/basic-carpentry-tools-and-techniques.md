@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: measurement-length-standard-units-3rd
   type: soft
+- id: measuring-length-standard-units-3rd
+  type: soft
 builds-toward:
 - furniture-assembly-and-repair
 tags:

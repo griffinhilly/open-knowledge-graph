@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: risk-tolerance-asset-allocation
   type: hard
+- id: percent-of-a-number
+  type: soft
 builds-toward:
 - passive-investing-and-index-funds
 - portfolio-rebalancing-and-maintenance

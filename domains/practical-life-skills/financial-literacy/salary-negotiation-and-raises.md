@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: percent-concept
   type: soft
+- id: percent-of-a-number
+  type: soft
 tags:
 - salary
 - negotiation

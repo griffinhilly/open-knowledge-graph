@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: converting-fractions-decimals-percents
   type: hard
+- id: decimal-place-value
+  type: soft
 builds-toward:
 - grocery-shopping-and-budgeting
 - meal-planning-basics

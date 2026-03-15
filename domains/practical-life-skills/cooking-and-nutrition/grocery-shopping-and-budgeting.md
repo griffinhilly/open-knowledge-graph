@@ -26,6 +26,8 @@ prerequisites:
   type: hard
 - id: unit-rates
   type: soft
+- id: percent-of-a-number
+  type: soft
 tags:
 - grocery
 - budgeting

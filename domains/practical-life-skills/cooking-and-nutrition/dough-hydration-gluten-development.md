@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: percent-concept
   type: soft
+- id: percent-of-a-number
+  type: soft
+- id: unit-rates
+  type: soft
 builds-toward:
 - bread-baking-yeast-fermentation
 - oven-baking-basics-and-safety

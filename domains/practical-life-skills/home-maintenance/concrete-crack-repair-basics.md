@@ -6,6 +6,10 @@ course: home-maintenance
 prerequisites:
 - id: exterior-finish-damage-types-and-assessment
   type: soft
+- id: area-of-irregular-shapes-3rd
+  type: soft
+- id: measuring-length-standard-units-3rd
+  type: soft
 tags:
 - concrete
 - exterior

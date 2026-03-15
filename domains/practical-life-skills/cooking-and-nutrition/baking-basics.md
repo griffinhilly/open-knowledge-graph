@@ -24,6 +24,8 @@ prerequisites:
   type: soft
 - id: measurement-conversions-customary
   type: soft
+- id: measuring-capacity-liquid-containers-3rd
+  type: soft
 tags:
 - baking
 - oven
