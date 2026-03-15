@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: proportions
   type: hard
+- id: proportional-relationships
+  type: soft
 builds-toward:
 - algorithmic-composition-theory
 - musical-mathematics-symmetry

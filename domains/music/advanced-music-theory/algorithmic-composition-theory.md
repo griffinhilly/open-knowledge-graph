@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: temporal-proportions-ratios
   type: soft
+- id: algorithm-complexity
+  type: soft
 builds-toward:
 - musical-mathematics-symmetry
 - information-theory-music

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ratios
   type: soft
+- id: greatest-common-divisor
+  type: soft
 builds-toward:
 - rhythmic-dissonance-resolution
 - metric-modulation-theory-advanced

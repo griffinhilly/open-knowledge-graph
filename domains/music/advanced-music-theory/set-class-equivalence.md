@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: equivalence-relations
   type: soft
+- id: equivalence-relations-and-partitions
+  type: soft
 builds-toward:
 - twelve-tone-operations-analysis
 tags:

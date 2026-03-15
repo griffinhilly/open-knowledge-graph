@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: probability-axioms
   type: soft
+- id: conditional-probability
+  type: soft
 builds-toward:
 - psychoacoustics-perception-theory
 tags:

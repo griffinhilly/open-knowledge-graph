@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: graphing-sine-and-cosine
   type: soft
+- id: trigonometric-functions-and-graphs
+  type: soft
 builds-toward:
 - granular-synthesis-composition
 - algorithmic-composition-theory

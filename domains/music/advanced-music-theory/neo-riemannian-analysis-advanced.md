@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: group-definition-and-examples
   type: soft
+- id: group-actions
+  type: soft
 builds-toward:
 - post-tonal-harmonic-analysis
 tags:

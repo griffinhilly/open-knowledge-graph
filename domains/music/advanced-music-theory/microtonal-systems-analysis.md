@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: rational-numbers-operations
   type: soft
+- id: fractions-of-a-set
+  type: soft
 tags:
 - microtonality
 - harmony

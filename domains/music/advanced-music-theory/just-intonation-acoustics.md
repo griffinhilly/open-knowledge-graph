@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: ratios
   type: soft
+- id: proportions
+  type: soft
 builds-toward:
 - microtonal-systems-analysis
 - spectral-composition-acoustics

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: pitch-and-frequency
   type: hard
+- id: fourier-series-definition
+  type: soft
 builds-toward:
 - electroacoustic-composition
 tags:

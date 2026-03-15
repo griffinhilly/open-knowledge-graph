@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: group-definition-and-examples
   type: soft
+- id: cyclic-groups
+  type: soft
 builds-toward:
 - neo-riemannian-voice-leading-graphs
 - formal-analysis-deformation

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: proportions
   type: soft
+- id: least-common-multiple
+  type: soft
 builds-toward:
 - isorhythmic-structures-modern
 tags:

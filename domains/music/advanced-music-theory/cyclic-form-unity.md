@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sonata-form-advanced
   type: soft
+- id: cyclic-groups
+  type: soft
 tags:
 - form
 - cyclic

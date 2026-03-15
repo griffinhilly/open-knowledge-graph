@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: recurrence-relations
   type: soft
+- id: recurrence-relations-definition
+  type: soft
 builds-toward:
 - mathematical-structure-analysis
 tags:

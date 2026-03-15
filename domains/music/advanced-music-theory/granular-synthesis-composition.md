@@ -6,6 +6,8 @@ course: advanced-music-theory
 prerequisites:
 - id: electroacoustic-morphology-analysis
   type: hard
+- id: fourier-series-definition
+  type: soft
 builds-toward:
 - algorithmic-composition-theory
 - spectral-harmony-overtone-analysis

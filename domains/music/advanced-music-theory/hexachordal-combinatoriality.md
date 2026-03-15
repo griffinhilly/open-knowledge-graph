@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: combinations
   type: soft
+- id: combinations-and-selections
+  type: soft
 builds-toward:
 - aggregate-completion-theory
 tags:

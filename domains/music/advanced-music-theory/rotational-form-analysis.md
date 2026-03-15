@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cyclic-form-unity
   type: soft
+- id: rotations
+  type: soft
 builds-toward:
 - recursive-structures-music
 tags:

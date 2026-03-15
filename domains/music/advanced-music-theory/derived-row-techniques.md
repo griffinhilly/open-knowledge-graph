@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: twelve-tone-matrix-construction
   type: hard
+- id: permutations
+  type: soft
 builds-toward:
 - twelve-tone-aggregate-formations
 - canonic-imitation-structures

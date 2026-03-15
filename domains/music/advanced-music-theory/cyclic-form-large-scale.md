@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: cycle-notation-and-decomposition
   type: soft
+- id: cyclic-groups
+  type: soft
 builds-toward:
 - formal-analysis-deformation
 tags:

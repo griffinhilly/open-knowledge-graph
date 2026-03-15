@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: graph-theory-fundamentals
   type: soft
+- id: graph-theory-intro
+  type: soft
 builds-toward:
 - neo-riemannian-extended-systems
 - musical-mathematics-symmetry

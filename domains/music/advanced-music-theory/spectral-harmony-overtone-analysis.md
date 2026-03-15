@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: timbre-frequency-domain
   type: hard
+- id: proportions
+  type: soft
 builds-toward:
 - timbre-evolution-analysis
 - frequency-modulation-synthesis-theory

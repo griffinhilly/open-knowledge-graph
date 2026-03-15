@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: set-fundamentals
   type: soft
+- id: group-basic-properties
+  type: soft
 builds-toward:
 - entropy-predictability-music
 tags:

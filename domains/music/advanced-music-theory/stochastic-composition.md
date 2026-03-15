@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: probability-axioms
   type: soft
+- id: probability-spaces-measure-theoretic
+  type: soft
 builds-toward:
 - entropy-predictability-music
 tags:

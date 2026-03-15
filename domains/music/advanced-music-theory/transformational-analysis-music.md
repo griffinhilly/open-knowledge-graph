@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: function-composition-and-inverses
   type: soft
+- id: group-actions
+  type: soft
 builds-toward:
 - voice-leading-graph-theory
 - neo-riemannian-analysis-advanced

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: serial-composition-analysis
   type: hard
+- id: combinations-and-selections
+  type: soft
 builds-toward:
 - stochastic-composition
 tags:

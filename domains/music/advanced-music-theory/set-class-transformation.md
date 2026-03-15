@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: function-composition-and-inverses
   type: soft
+- id: group-actions
+  type: soft
 builds-toward:
 - post-tonal-harmonic-analysis
 tags:

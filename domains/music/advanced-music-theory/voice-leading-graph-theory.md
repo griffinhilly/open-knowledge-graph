@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: graph-theory-fundamentals
   type: soft
+- id: graph-theory-intro
+  type: soft
 builds-toward:
 - orchestration-harmonic-function
 tags:

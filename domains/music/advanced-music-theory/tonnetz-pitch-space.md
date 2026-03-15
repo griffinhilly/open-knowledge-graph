@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: vector-spaces
   type: soft
+- id: graph-theory-intro
+  type: soft
 builds-toward:
 - hexatonic-systems
 tags:

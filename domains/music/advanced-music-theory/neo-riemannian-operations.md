@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: group-definition-and-examples
   type: soft
+- id: binary-operations-algebraic-structures
+  type: soft
 builds-toward:
 - tonnetz-pitch-space
 - neo-riemannian-romantic-analysis
