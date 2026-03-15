@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: language-attitudes-and-ideology
   type: soft
+- id: language-variation-and-change
+  type: soft
 builds-toward:
 - literary-identity-nation-construction
 tags:

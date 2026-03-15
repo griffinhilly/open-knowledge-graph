@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: deconstruction
   type: soft
+- id: linguistic-pragmatics
+  type: soft
 builds-toward:
 - venuti-foreignizing-translation
 tags:

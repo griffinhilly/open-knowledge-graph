@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: metrical-systems-stress
   type: soft
+- id: metrical-phonology-stress
+  type: soft
 builds-toward:
 - sonnet-form
 - blank-verse

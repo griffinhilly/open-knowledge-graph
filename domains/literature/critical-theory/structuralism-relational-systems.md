@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: formalism-estrangement-russian-tradition
   type: soft
+- id: linguistic-typology
+  type: soft
 tags:
 - structuralism
 - levi-strauss

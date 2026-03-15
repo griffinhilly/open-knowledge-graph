@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: semantic-types-and-composition
   type: soft
+- id: formal-linguistics-overview
+  type: soft
 builds-toward:
 - structuralist-semiotics-meaning
 - barthes-mythologies-culture

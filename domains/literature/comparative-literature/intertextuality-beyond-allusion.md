@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: deixis-and-reference
   type: soft
+- id: allusion-and-literary-reference
+  type: soft
 builds-toward:
 - literary-influence-networks
 - postcolonial-rewriting-canon

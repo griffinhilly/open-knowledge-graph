@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: semantic-types-and-composition
   type: soft
+- id: semiotics-and-signs
+  type: hard
 builds-toward:
 - semiotics-and-signs
 tags:

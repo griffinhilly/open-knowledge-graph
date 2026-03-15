@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: reading-literatures-in-translation
   type: soft
+- id: language-variation-and-change
+  type: soft
 builds-toward:
 - digital-literature-circulation-comparison
 tags:

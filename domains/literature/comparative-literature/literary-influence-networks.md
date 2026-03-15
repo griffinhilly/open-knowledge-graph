@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: comparative-literary-method
   type: soft
+- id: allusion-and-literary-reference
+  type: soft
 builds-toward:
 - modernism-non-western-centers
 - literary-canonicity-power

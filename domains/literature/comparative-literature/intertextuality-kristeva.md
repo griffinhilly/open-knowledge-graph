@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: deixis-and-reference
   type: soft
+- id: allusion-and-literary-reference
+  type: soft
 builds-toward:
 - transtextuality-genette
 - literary-influence-tradition

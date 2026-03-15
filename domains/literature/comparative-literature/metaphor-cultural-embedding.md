@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: metaphor-analogy-rhetorical-strategy
   type: soft
+- id: metaphor-and-metonymy
+  type: hard
 builds-toward:
 - symbolism-cultural-specific
 tags:

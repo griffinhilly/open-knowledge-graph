@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: literary-movements-comparative
   type: soft
+- id: semiotics-and-signs
+  type: hard
 tags:
 - symbolism
 - meaning

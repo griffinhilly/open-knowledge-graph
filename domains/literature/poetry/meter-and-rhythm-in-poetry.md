@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: suprasegmental-phonology
   type: soft
+- id: metrical-phonology-stress
+  type: soft
 builds-toward:
 - iambic-pentameter
 - scansion

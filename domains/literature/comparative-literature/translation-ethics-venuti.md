@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: language-attitudes-and-ideology
   type: soft
+- id: linguistic-pragmatics
+  type: soft
 builds-toward:
 - literary-translation-interpretation
 - literary-cosmopolitanism-ethics

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: language-and-the-brain
   type: soft
+- id: symbolic-representation-linguistics
+  type: soft
 builds-toward:
 - jouissance-excess-psychoanalytic
 - symbolic-order-and-reality

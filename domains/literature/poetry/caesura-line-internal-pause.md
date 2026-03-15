@@ -6,6 +6,8 @@ course: poetry
 prerequisites:
 - id: poetic-line-and-lineation
   type: hard
+- id: intonational-phonology
+  type: soft
 tags:
 - pause
 - line-structure

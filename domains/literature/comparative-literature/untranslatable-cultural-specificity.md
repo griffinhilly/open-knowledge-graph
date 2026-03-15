@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: language-universals
   type: soft
+- id: lexical-semantics
+  type: hard
 builds-toward:
 - postcolonial-translation-resistance
 - metaphor-cultural-embedding

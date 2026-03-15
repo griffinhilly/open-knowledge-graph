@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: phoneme-inventory-analysis
   type: soft
+- id: phonemic-awareness
+  type: soft
 tags:
 - rhyme
 - meaning-making
