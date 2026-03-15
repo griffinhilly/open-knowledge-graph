@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: constrained-optimization-lagrange
   type: soft
+- id: recursive-definitions
+  type: soft
 builds-toward:
 - euler-equation-intertemporal-choice
 - solow-growth-model

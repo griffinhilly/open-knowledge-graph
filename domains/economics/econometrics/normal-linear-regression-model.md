@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: normal-distribution
   type: soft
+- id: linear-algebra
+  type: hard
+- id: probability-theory
+  type: hard
+- id: normal-distribution-theory
+  type: hard
 builds-toward:
 - t-statistic-individual-coefficient
 - f-statistic-overall-significance

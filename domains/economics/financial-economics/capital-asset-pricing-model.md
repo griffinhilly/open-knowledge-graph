@@ -22,6 +22,10 @@ prerequisites:
   type: soft
 - id: constrained-optimization-lagrange
   type: soft
+- id: linear-algebra
+  type: hard
+- id: correlation-coefficient
+  type: hard
 builds-toward:
 - arbitrage-pricing-theory
 - risk-adjusted-performance-measures

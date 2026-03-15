@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: profit-maximization-microeconomics
   type: hard
+- id: game-theory-basics-microeconomics
+  type: hard
+- id: constrained-optimization
+  type: hard
 builds-toward:
 - stackelberg-sequential-moves
 - collusion-cartel-stability

@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: robust-standard-errors
   type: soft
+- id: linear-algebra
+  type: hard
+- id: expected-value-theory
+  type: soft
 builds-toward:
 - fixed-effects-models
 - random-effects-models

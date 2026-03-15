@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: chain-rule
   type: soft
+- id: lagrange-multipliers
+  type: hard
 builds-toward:
 - new-keynesian-framework
 tags:

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: phillips-curve
   type: hard
+- id: systems-of-linear-equations
+  type: hard
+- id: optimization-multivariable-basics
+  type: soft
 builds-toward:
 - calvo-pricing-sticky-prices
 - phillips-curve-new-keynesian

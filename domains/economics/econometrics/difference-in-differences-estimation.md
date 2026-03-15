@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: multiple-regression-model
   type: hard
+- id: linear-algebra
+  type: hard
+- id: matrix-operations
+  type: hard
 builds-toward:
 - parallel-trends-assumption-validity
 tags:

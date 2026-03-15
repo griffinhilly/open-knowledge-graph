@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: differential-equations-intro
   type: soft
+- id: exponential-growth-and-decay
+  type: hard
 builds-toward:
 - steady-state-analysis-growth
 - endogenous-growth-theory

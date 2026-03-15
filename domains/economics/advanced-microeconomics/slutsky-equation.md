@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: consumer-theory-utility
   type: hard
+- id: partial-derivatives
+  type: hard
+- id: linear-algebra
+  type: soft
 builds-toward:
 - compensated-demand-curves
 - revealed-preference-axioms

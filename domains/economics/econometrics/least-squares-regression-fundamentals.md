@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: matrix-operations
   type: hard
+- id: least-squares-approximation
+  type: hard
 builds-toward:
 - gauss-markov-theorem-ols
 - estimator-consistency-unbiasedness

@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: instrumental-variables
   type: hard
+- id: probability-theory
+  type: hard
+- id: linear-algebra
+  type: hard
 builds-toward:
 - dynamic-panel-arellano-bond-estimator
 tags:

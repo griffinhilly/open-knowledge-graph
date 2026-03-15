@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: hypothesis-testing-regression
   type: soft
+- id: probability-theory
+  type: hard
+- id: sampling-distributions-theory
+  type: hard
 builds-toward:
 - conditional-cash-transfers-cct
 tags:

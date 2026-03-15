@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: open-economy-macroeconomics
   type: hard
+- id: systems-of-linear-equations
+  type: hard
+- id: matrix-operations
+  type: hard
 builds-toward:
 - exchange-rate-dynamics
 - balance-of-payments-capital-flows

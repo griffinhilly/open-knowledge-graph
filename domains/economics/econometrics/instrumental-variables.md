@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: linear-algebra
   type: hard
+- id: probability-theory
+  type: hard
 builds-toward:
 - two-stage-least-squares
 tags:

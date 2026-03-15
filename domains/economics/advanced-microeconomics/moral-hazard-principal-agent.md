@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: constrained-optimization-lagrange
   type: soft
+- id: probability-theory
+  type: hard
+- id: game-theory-basics-microeconomics
+  type: hard
 tags:
 - contract-theory
 - information-asymmetry

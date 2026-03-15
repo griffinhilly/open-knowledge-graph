@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: constrained-optimization-lagrange
   type: soft
+- id: systems-of-first-order-linear-odes
+  type: hard
+- id: eigenvalues-eigenvectors
+  type: hard
 builds-toward:
 - endogenous-growth-theory
 - ramsey-cass-koopmans-model

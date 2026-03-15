@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: incentive-compatibility
   type: hard
+- id: game-theory-basics-microeconomics
+  type: hard
+- id: constrained-optimization
+  type: hard
 builds-toward:
 - auction-theory
 tags:

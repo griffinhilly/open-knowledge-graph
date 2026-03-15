@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: binomial-coefficients
   type: soft
+- id: probability-theory
+  type: hard
+- id: recursion
+  type: soft
 tags:
 - options
 - option-pricing

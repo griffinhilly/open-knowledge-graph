@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: differential-equations-intro
   type: soft
+- id: probability-axioms
+  type: soft
 builds-toward:
 - taylor-rule-monetary-policy
 tags:

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: monopoly-microeconomics
   type: hard
+- id: game-theory-basics-microeconomics
+  type: hard
+- id: optimization-multivariable-basics
+  type: hard
 builds-toward:
 - stackelberg-sequential-moves
 tags:

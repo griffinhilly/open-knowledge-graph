@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: differential-equations-intro
   type: soft
+- id: constrained-optimization
+  type: soft
 builds-toward:
 - ak-model-endogenous-growth
 tags:

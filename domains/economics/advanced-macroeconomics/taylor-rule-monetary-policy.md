@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: phillips-curve-dynamics
   type: hard
+- id: constrained-optimization
+  type: soft
+- id: linear-algebra
+  type: soft
 builds-toward:
 - zero-lower-bound-constraint
 - monetary-policy-transmission

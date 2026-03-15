@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: robust-standard-errors
   type: soft
+- id: probability-theory
+  type: hard
+- id: sampling-distributions-theory
+  type: hard
 builds-toward:
 - sensitivity-analysis-econometrics
 tags:

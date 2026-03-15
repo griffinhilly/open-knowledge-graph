@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: adverse-selection
   type: hard
+- id: game-theory-basics-microeconomics
+  type: hard
+- id: bayesian-games-strategy
+  type: hard
 tags:
 - contract-theory
 - signaling

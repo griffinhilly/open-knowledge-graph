@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: extensive-form-games-and-subgame-perfection
   type: hard
+- id: game-theory-basics-microeconomics
+  type: hard
+- id: constrained-optimization
+  type: hard
 tags:
 - industrial-organization
 - sequential-games

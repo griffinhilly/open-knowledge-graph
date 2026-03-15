@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: partial-derivatives
   type: soft
+- id: constrained-optimization
+  type: hard
 builds-toward:
 - welfare-analysis-advanced
 tags:

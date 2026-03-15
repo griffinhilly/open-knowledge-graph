@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: differential-equations-intro-separable
   type: soft
+- id: probability-theory
+  type: hard
+- id: limit-superior-and-inferior
+  type: soft
 builds-toward:
 - serial-correlation
 tags:

@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: linear-algebra
   type: hard
+- id: expected-value-theory
+  type: hard
 builds-toward:
 - coefficient-interpretation-regression
 - f-test-joint-significance

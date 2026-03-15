@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: constrained-optimization-lagrange
   type: soft
+- id: constrained-optimization
+  type: hard
 builds-toward:
 - solow-growth-model
 - ramsey-cass-koopmans-model

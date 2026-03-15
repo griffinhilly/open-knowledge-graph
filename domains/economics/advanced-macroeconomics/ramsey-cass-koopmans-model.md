@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: constrained-optimization-lagrange
   type: soft
+- id: constrained-optimization
+  type: hard
+- id: differential-equations-intro
+  type: hard
 builds-toward:
 - endogenous-growth-theory
 tags:

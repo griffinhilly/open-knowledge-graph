@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: probability-spaces-measure-theoretic
   type: soft
+- id: game-theory-basics-microeconomics
+  type: hard
+- id: expected-value-theory
+  type: hard
 builds-toward:
 - first-price-auction
 - second-price-auction

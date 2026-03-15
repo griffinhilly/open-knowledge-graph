@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: partial-derivatives
   type: soft
+- id: chain-rule
+  type: hard
 builds-toward:
 - option-trading-strategies
 - hedging-with-derivatives

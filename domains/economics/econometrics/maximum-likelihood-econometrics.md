@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: constrained-optimization
   type: soft
+- id: probability-theory
+  type: hard
 builds-toward:
 - logit-probit-models
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fixed-point-iteration
   type: soft
+- id: compact-sets
+  type: hard
 tags:
 - general-equilibrium
 - mathematical-economics

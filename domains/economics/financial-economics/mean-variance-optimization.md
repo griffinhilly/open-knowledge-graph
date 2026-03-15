@@ -16,6 +16,12 @@ prerequisites:
   type: soft
 - id: constrained-optimization-lagrange
   type: soft
+- id: linear-algebra
+  type: hard
+- id: constrained-optimization
+  type: hard
+- id: expected-value-theory
+  type: hard
 builds-toward:
 - efficient-frontier-portfolio-theory
 - capital-asset-pricing-model

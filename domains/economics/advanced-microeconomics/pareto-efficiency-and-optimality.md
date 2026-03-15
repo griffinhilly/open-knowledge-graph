@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: consumer-optimum
   type: soft
+- id: constrained-optimization
+  type: hard
+- id: linear-algebra
+  type: soft
 builds-toward:
 - first-welfare-theorem
 - second-welfare-theorem

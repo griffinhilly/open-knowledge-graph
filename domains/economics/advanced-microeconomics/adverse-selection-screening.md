@@ -6,6 +6,10 @@ course: advanced-microeconomics
 prerequisites:
 - id: bayesian-games-and-incomplete-information
   type: hard
+- id: probability-theory
+  type: hard
+- id: game-theory-basics-microeconomics
+  type: hard
 builds-toward:
 - labor-market-signaling
 - insurance-markets-and-selection

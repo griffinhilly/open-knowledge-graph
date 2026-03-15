@@ -6,6 +6,10 @@ course: development-economics
 prerequisites:
 - id: poverty-trap-low-equilibrium
   type: hard
+- id: differential-equations-intro
+  type: hard
+- id: fixed-point-iteration
+  type: soft
 builds-toward:
 - human-capital-accumulation-development
 - credit-constraints-poverty

@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: eigenvalues-eigenvectors
   type: soft
+- id: linear-algebra
+  type: hard
+- id: expected-value-theory
+  type: hard
 builds-toward:
 - mean-variance-optimization
 - efficient-frontier-portfolio-theory

@@ -6,6 +6,10 @@ course: advanced-macroeconomics
 prerequisites:
 - id: solow-growth-model
   type: hard
+- id: eigenvalues-eigenvectors
+  type: hard
+- id: systems-of-linear-equations
+  type: hard
 builds-toward:
 - golden-rule-capital-accumulation
 tags:
