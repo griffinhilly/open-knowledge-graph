@@ -4,8 +4,6 @@ title: 'Iron: Oxygen Transport, Electron Transfer, and DNA Synthesis'
 domain: health-and-human-development
 course: nutrition-science
 prerequisites:
-- id: iron-metabolism-bioavailability-and-deficiency
-  type: hard
 - id: oxygen-transport-hemoglobin-dynamics
   type: soft
 builds-toward:

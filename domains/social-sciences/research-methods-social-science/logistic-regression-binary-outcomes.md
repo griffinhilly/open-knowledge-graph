@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: probability-mass-functions
   type: soft
-- id: logistic-regression-binary-categorical
-  type: hard
 - id: logarithmic-functions-review
   type: soft
 builds-toward:
@@ -21,7 +19,7 @@ tags:
 - binary
 - odds-ratios
 - probability
-stage: professional-practice
+stage: advanced
 status: draft
 ---
 

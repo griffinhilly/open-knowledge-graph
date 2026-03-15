@@ -4,8 +4,10 @@ title: 'Ancient Slavery Systems: Comparison Across Civilizations'
 domain: history
 course: ancient-civilizations
 prerequisites:
-- ancient-civilization-characteristics
-- ancient-slavery-systems-labor
+- id: ancient-civilization-characteristics
+  type: hard
+- id: ancient-slavery-systems-labor
+  type: hard
 tags:
 - slavery
 - labor

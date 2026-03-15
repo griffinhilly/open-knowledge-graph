@@ -4,8 +4,6 @@ title: Iterated Integrals and Fubini's Theorem
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: iterated-integrals
-  type: hard
 - id: antiderivatives
   type: hard
 builds-toward:

@@ -4,8 +4,10 @@ title: Indigenous Geographies and Territorial Knowledge
 domain: social-sciences
 course: human-geography
 prerequisites:
-- landscape-interpretation-reading
-- human-environment-adaptation
+- id: landscape-interpretation-reading
+  type: hard
+- id: human-environment-adaptation
+  type: hard
 builds-toward:
 - climate-human-geography
 tags:

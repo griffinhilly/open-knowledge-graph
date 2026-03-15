@@ -4,7 +4,8 @@ title: Switch Statements and Case Selection
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- else-if-chains
+- id: else-if-chains
+  type: hard
 tags:
 - control-flow
 - conditionals

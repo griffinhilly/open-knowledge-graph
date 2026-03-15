@@ -4,7 +4,8 @@ title: Function Definition and Function Calls
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- program-structure-and-flow
+- id: program-structure-and-flow
+  type: hard
 builds-toward:
 - parameters-and-arguments
 - return-values

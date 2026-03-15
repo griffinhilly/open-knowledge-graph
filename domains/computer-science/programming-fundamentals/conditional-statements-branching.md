@@ -4,8 +4,10 @@ title: Conditional Statements and Branching
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- conditional-statements
-- boolean-type-and-truth-values
+- id: conditional-statements
+  type: hard
+- id: boolean-type-and-truth-values
+  type: hard
 builds-toward:
 - else-if-chains
 - switch-statements

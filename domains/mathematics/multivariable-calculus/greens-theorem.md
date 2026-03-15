@@ -4,8 +4,6 @@ title: Green's Theorem
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: greens-theorem
-  type: hard
 - id: line-integrals-vector-fields
   type: hard
 - id: double-integrals-cartesian

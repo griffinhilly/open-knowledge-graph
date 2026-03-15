@@ -4,8 +4,10 @@ title: The Problem of Art Definition and Ontology
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- expression-theory-art
-- form-content-aesthetics
+- id: expression-theory-art
+  type: hard
+- id: form-content-aesthetics
+  type: hard
 builds-toward:
 - arthur-danto-artworld
 - george-dickie-institutional-theory-art

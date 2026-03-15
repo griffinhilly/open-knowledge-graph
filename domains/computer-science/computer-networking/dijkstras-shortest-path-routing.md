@@ -6,8 +6,6 @@ course: computer-networking
 prerequisites:
 - id: routing-algorithms-overview
   type: hard
-- id: dijkstras-algorithm
-  type: hard
 builds-toward:
 - ospf-open-shortest-path-first
 tags:

@@ -14,7 +14,7 @@ tags:
 - hypothesis-testing
 - statistics
 - SNR
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

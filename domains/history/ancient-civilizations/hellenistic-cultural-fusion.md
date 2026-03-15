@@ -4,8 +4,10 @@ title: Hellenism and Cultural Fusion After Alexander
 domain: history
 course: ancient-civilizations
 prerequisites:
-- polis-greek-political-unit
-- hellenistic-period
+- id: polis-greek-political-unit
+  type: hard
+- id: hellenistic-period
+  type: hard
 tags:
 - Hellenism
 - Alexander

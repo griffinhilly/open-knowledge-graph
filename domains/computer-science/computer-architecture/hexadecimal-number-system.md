@@ -3,9 +3,7 @@ id: hexadecimal-number-system
 title: Hexadecimal Number System
 domain: computer-science
 course: computer-architecture
-prerequisites:
-- id: binary-number-system
-  type: hard
+prerequisites: []
 builds-toward:
 - memory-organization
 - assembly-language-basics

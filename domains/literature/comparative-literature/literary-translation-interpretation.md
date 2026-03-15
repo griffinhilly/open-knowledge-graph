@@ -22,7 +22,7 @@ tags:
 - interpretation
 - close-reading
 - comparative
-stage: synthetic
+stage: abstract-reasoning
 status: draft
 ---
 

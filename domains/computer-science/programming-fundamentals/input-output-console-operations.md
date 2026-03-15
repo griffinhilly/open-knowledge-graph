@@ -4,7 +4,8 @@ title: Input and Output Console Operations
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- string-text-representation
+- id: string-text-representation
+  type: hard
 tags:
 - io
 - input-output

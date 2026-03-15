@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - variational-methods
 - approximations
-stage: mathematical-application
+stage: formal-systems
 status: draft
 ---
 

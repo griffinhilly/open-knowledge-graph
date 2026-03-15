@@ -4,8 +4,6 @@ title: Probabilistic Reasoning
 domain: philosophy
 course: logic-and-critical-thinking
 prerequisites:
-- id: inductive-reasoning
-  type: hard
 - id: modus-ponens-tollens
   type: soft
 tags:

@@ -16,7 +16,7 @@ tags:
 - institutions
 - history
 - Western
-stage: analytical
+stage: abstract-reasoning
 status: draft
 ---
 

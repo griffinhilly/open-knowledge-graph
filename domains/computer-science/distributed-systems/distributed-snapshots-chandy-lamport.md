@@ -16,7 +16,7 @@ tags:
 - consistency
 - global-state
 - algorithm
-stage: concrete-techniques
+stage: concrete-operations
 status: draft
 ---
 

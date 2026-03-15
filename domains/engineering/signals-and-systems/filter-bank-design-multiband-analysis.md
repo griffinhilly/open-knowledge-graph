@@ -16,7 +16,7 @@ tags:
 - multiband
 - decomposition
 - analysis
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

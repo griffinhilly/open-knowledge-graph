@@ -15,7 +15,7 @@ tags:
 - consensus
 - algorithm
 - replication
-stage: concrete-techniques
+stage: concrete-operations
 status: draft
 ---
 

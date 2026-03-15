@@ -4,7 +4,8 @@ title: Arrays and Indexed Collections
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- memory-and-data-storage
+- id: memory-and-data-storage
+  type: hard
 builds-toward:
 - string-text-representation
 - arrays-and-lists

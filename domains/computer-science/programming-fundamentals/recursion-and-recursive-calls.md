@@ -4,7 +4,8 @@ title: Recursion and Recursive Function Calls
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- call-stack-and-function-calls
+- id: call-stack-and-function-calls
+  type: hard
 tags:
 - functions
 - recursion

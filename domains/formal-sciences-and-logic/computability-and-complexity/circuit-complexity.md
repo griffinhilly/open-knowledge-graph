@@ -4,8 +4,6 @@ title: Circuit Complexity
 domain: formal-sciences-and-logic
 course: computability-and-complexity
 prerequisites:
-- id: np-completeness-formal
-  type: hard
 - id: space-complexity-classes-formal
   type: soft
 - id: logic-gates-and-circuits

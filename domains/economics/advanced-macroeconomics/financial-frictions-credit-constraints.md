@@ -12,7 +12,7 @@ tags:
 - financial-frictions
 - credit-constraints
 - lending
-stage: formal-modeling
+stage: formal-systems
 status: draft
 ---
 

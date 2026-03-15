@@ -16,7 +16,7 @@ tags:
 - consistency
 - replication
 - read-write
-stage: concrete-techniques
+stage: concrete-operations
 status: draft
 ---
 

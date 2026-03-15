@@ -14,7 +14,7 @@ tags:
 - exchange-rates
 - ppp
 - currency
-stage: formal-modeling
+stage: formal-systems
 status: draft
 ---
 

@@ -4,8 +4,10 @@ title: Roman Military, Engineering, and Infrastructure
 domain: history
 course: ancient-civilizations
 prerequisites:
-- roman-republic-governmental-structure
-- roman-military-legions-and-tactics
+- id: roman-republic-governmental-structure
+  type: hard
+- id: roman-military-legions-and-tactics
+  type: hard
 tags:
 - Rome
 - military

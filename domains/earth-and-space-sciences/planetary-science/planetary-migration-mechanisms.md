@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: orbital-mechanics
   type: soft
-- id: orbital-resonance-capture
-  type: soft
 - id: kepler-laws-planetary-orbits
   type: hard
 - id: orbital-resonances-dynamics

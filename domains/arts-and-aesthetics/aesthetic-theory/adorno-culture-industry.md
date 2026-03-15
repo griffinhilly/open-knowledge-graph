@@ -4,7 +4,8 @@ title: 'Adorno: The Culture Industry and Standardized Art'
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- walter-benjamin-mechanical-reproduction
+- id: walter-benjamin-mechanical-reproduction
+  type: hard
 builds-toward:
 - postmodern-aesthetics-pastiche
 tags:

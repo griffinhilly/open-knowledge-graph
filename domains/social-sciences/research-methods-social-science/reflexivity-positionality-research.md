@@ -13,7 +13,7 @@ tags:
 - positionality
 - insider-outsider
 - research-accountability
-stage: professional-practice
+stage: advanced
 status: draft
 ---
 

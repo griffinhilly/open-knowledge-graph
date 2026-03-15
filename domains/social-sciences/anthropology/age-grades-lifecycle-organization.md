@@ -4,7 +4,8 @@ title: Age-Grade Systems and Lifecycle Organization
 domain: social-sciences
 course: anthropology
 prerequisites:
-- social-organization-kinship
+- id: social-organization-kinship
+  type: hard
 builds-toward:
 - status-attainment-processes
 tags:

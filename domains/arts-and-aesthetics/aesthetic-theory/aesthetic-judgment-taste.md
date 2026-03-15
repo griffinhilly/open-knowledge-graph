@@ -4,7 +4,8 @@ title: Aesthetic Judgment and Taste
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- the-aesthetic-attitude
+- id: the-aesthetic-attitude
+  type: hard
 builds-toward:
 - kant-judgment-of-beauty
 - aesthetic-interpretation-and-criticism

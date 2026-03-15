@@ -4,8 +4,10 @@ title: Moisture Management and Mold Prevention
 domain: practical-life-skills
 course: home-maintenance
 prerequisites:
-- home-inspection-fundamentals
-- water-damage-mold-basics
+- id: home-inspection-fundamentals
+  type: hard
+- id: water-damage-mold-basics
+  type: hard
 builds-toward:
 - basement-moisture-management
 tags:

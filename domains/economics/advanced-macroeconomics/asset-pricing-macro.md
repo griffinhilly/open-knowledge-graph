@@ -14,7 +14,7 @@ tags:
 - asset-pricing
 - returns
 - macroeconomy
-stage: formal-modeling
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - ADC
 - noise
 - error
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

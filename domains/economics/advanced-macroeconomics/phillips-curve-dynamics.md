@@ -23,7 +23,7 @@ tags:
 - unemployment
 - expectations
 - price-setting
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

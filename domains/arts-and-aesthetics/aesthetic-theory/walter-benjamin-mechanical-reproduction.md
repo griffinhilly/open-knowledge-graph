@@ -4,7 +4,8 @@ title: 'Benjamin: The Artwork in the Age of Mechanical Reproduction'
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- walter-benjamin-aura-authenticity
+- id: walter-benjamin-aura-authenticity
+  type: hard
 builds-toward:
 - adorno-culture-industry
 tags:

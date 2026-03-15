@@ -13,7 +13,7 @@ tags:
 - critical-analysis
 - power
 - ideology
-stage: professional-practice
+stage: advanced
 status: draft
 ---
 

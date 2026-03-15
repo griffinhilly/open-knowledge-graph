@@ -4,8 +4,10 @@ title: Ancient Polytheism and Religious Systems
 domain: history
 course: ancient-civilizations
 prerequisites:
-- ancient-civilization-characteristics
-- origins-of-world-religions
+- id: ancient-civilization-characteristics
+  type: hard
+- id: origins-of-world-religions
+  type: hard
 tags:
 - religion
 - polytheism

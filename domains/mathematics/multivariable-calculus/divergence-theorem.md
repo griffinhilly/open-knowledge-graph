@@ -4,8 +4,6 @@ title: Divergence Theorem
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: divergence-theorem
-  type: hard
 - id: flux-integrals
   type: hard
 - id: triple-integrals

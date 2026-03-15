@@ -4,8 +4,6 @@ title: Flux Integrals of Vector Fields
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: flux-integrals
-  type: hard
 - id: surface-integrals-scalar
   type: hard
 builds-toward:

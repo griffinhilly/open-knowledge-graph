@@ -4,8 +4,10 @@ title: Housing Geography and Geographies of Access and Inequality
 domain: social-sciences
 course: human-geography
 prerequisites:
-- urbanization-city-geography
-- gender-space-relations
+- id: urbanization-city-geography
+  type: hard
+- id: gender-space-relations
+  type: hard
 builds-toward:
 - health-geography-place
 tags:

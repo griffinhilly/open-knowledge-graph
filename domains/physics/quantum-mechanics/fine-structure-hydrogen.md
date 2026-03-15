@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - fine-structure
 - relativistic
-stage: mathematical-application
+stage: formal-systems
 status: draft
 ---
 

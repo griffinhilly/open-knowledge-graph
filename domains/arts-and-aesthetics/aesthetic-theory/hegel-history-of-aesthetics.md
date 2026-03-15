@@ -4,7 +4,8 @@ title: 'Hegel: Aesthetics and the History of Spirit'
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- kant-judgment-of-beauty
+- id: kant-judgment-of-beauty
+  type: hard
 builds-toward:
 - expression-theory-art
 - postmodern-aesthetics-pastiche

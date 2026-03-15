@@ -13,7 +13,7 @@ tags:
 - upsampling
 - image-rejection
 - multirate
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

@@ -4,8 +4,10 @@ title: HVAC System Components and Operation
 domain: practical-life-skills
 course: home-maintenance
 prerequisites:
-- understanding-home-systems
-- thermostat-and-hvac-control
+- id: understanding-home-systems
+  type: hard
+- id: thermostat-and-hvac-control
+  type: hard
 builds-toward:
 - hvac-filter-maintenance
 - seasonal-home-maintenance

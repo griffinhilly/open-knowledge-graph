@@ -4,8 +4,6 @@ title: Sensory Imagery and Description
 domain: literature
 course: fiction
 prerequisites:
-- id: imagery-in-literature
-  type: hard
 - id: show-tell-narrative-technique
   type: soft
 builds-toward:

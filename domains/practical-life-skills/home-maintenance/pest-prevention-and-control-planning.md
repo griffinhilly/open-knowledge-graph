@@ -4,8 +4,10 @@ title: Pest Prevention and Integrated Pest Management
 domain: practical-life-skills
 course: home-maintenance
 prerequisites:
-- home-safety-checklist
-- pest-control-basics
+- id: home-safety-checklist
+  type: hard
+- id: pest-control-basics
+  type: hard
 tags:
 - pest control
 - prevention

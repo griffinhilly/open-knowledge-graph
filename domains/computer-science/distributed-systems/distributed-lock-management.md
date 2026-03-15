@@ -16,7 +16,7 @@ tags:
 - mutual-exclusion
 - consensus
 - deadlock
-stage: concrete-techniques
+stage: concrete-operations
 status: draft
 ---
 

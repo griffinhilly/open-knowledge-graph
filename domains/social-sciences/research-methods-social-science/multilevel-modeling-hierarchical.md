@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: eigenvalues-and-eigenvectors
   type: soft
-- id: multilevel-hierarchical-modeling-nesting
-  type: hard
 builds-toward:
 - mixed-methods-integration
 tags:
@@ -19,7 +17,7 @@ tags:
 - nested-data
 - random-effects
 - cross-level-interactions
-stage: professional-practice
+stage: advanced
 status: draft
 ---
 

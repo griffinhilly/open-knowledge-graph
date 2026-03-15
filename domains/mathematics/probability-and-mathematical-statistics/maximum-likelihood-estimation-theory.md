@@ -4,8 +4,6 @@ title: Maximum Likelihood Estimation (Theory)
 domain: mathematics
 course: probability-and-mathematical-statistics
 prerequisites:
-- id: exponential-family
-  type: soft
 - id: optimization-problems
   type: soft
 builds-toward:

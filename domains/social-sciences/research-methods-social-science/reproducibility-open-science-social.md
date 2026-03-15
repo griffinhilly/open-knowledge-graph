@@ -12,7 +12,7 @@ tags:
 - pre-registration
 - open-data
 - transparency
-stage: professional-practice
+stage: advanced
 status: draft
 ---
 

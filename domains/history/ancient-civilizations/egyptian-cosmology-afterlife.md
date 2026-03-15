@@ -4,8 +4,10 @@ title: Egyptian Cosmology and Afterlife Beliefs
 domain: history
 course: ancient-civilizations
 prerequisites:
-- egypt-nile-and-civilization
-- egyptian-religion-and-afterlife
+- id: egypt-nile-and-civilization
+  type: hard
+- id: egyptian-religion-and-afterlife
+  type: hard
 tags:
 - Egypt
 - afterlife

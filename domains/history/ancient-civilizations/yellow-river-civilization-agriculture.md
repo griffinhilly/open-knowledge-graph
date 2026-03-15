@@ -4,8 +4,10 @@ title: Yellow River Civilization and Early Chinese Agriculture
 domain: history
 course: ancient-civilizations
 prerequisites:
-- ancient-civilization-characteristics
-- ancient-world-chronology-methods
+- id: ancient-civilization-characteristics
+  type: hard
+- id: ancient-world-chronology-methods
+  type: hard
 builds-toward:
 - oracle-bones-divination-writing
 - mandate-heaven-political-legitimacy

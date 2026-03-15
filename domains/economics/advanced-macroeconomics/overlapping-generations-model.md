@@ -19,7 +19,7 @@ tags:
 - fiscal-policy
 - non-ricardian-effects
 - life-cycle
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

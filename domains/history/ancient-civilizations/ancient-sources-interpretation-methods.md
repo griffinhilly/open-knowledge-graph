@@ -4,8 +4,10 @@ title: Interpreting Evidence from the Ancient World
 domain: history
 course: ancient-civilizations
 prerequisites:
-- archaeological-evidence
-- primary-sources
+- id: archaeological-evidence
+  type: hard
+- id: primary-sources
+  type: hard
 builds-toward:
 - mesopotamia-cradle-of-civilization
 - egyptian-cosmology-afterlife

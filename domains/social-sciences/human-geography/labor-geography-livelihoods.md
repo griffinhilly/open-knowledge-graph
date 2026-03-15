@@ -4,8 +4,10 @@ title: Labor Geography and Working Livelihoods
 domain: social-sciences
 course: human-geography
 prerequisites:
-- economic-production-distribution
-- migration-mobility-networks
+- id: economic-production-distribution
+  type: hard
+- id: migration-mobility-networks
+  type: hard
 builds-toward:
 - consumption-places-identity
 tags:

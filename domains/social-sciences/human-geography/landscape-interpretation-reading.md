@@ -4,8 +4,10 @@ title: Reading and Interpreting Cultural Landscapes
 domain: social-sciences
 course: human-geography
 prerequisites:
-- place-space-social-construction
-- geographic-thought-history
+- id: place-space-social-construction
+  type: hard
+- id: geographic-thought-history
+  type: hard
 builds-toward:
 - cultural-regions-identity
 - colonialism-geographic-patterns

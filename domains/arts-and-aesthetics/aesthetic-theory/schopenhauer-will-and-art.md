@@ -4,7 +4,8 @@ title: 'Schopenhauer: Will, Suffering, and Aesthetic Redemption'
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- kant-judgment-of-beauty
+- id: kant-judgment-of-beauty
+  type: hard
 builds-toward:
 - schopenhauer-music-metaphysics
 - nietzsche-apollonian-dionysian

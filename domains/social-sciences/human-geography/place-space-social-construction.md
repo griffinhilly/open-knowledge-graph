@@ -4,7 +4,8 @@ title: Place, Space, and Social Construction
 domain: social-sciences
 course: human-geography
 prerequisites:
-- spatial-scale-human-geography
+- id: spatial-scale-human-geography
+  type: hard
 builds-toward:
 - landscape-interpretation-reading
 - gender-space-relations

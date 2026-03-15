@@ -16,8 +16,6 @@ prerequisites:
   type: soft
 - id: conversation-analysis
   type: soft
-- id: dialogue-formatting-and-attribution
-  type: soft
 builds-toward:
 - short-story-form
 - narrative-voice

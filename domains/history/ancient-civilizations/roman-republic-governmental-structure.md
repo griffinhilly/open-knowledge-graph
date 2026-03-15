@@ -4,8 +4,10 @@ title: The Roman Republic and Its Governmental Structure
 domain: history
 course: ancient-civilizations
 prerequisites:
-- ancient-civilization-characteristics
-- roman-republic-constitution
+- id: ancient-civilization-characteristics
+  type: hard
+- id: roman-republic-constitution
+  type: hard
 builds-toward:
 - roman-empire-institutional-transformation
 tags:

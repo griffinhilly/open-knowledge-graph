@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - perturbation-theory
 - corrections
-stage: mathematical-application
+stage: formal-systems
 status: draft
 ---
 

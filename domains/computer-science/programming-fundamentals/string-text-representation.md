@@ -4,7 +4,8 @@ title: Strings and Text Representation
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- memory-and-data-storage
+- id: memory-and-data-storage
+  type: hard
 builds-toward:
 - string-operations
 - basic-input-output

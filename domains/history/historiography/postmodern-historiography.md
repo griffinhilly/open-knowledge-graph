@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: linguistic-turn-historiography
   type: hard
-- id: postmodern-historiography
-  type: soft
 tags:
 - postmodern
 - theory

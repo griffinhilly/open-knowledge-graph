@@ -14,7 +14,7 @@ tags:
 - filters
 - DAC
 - interpolation
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

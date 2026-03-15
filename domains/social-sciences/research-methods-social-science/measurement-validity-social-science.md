@@ -14,7 +14,7 @@ tags:
 - reliability
 - construct
 - operationalization
-stage: professional-practice
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - history
 - temporality
 - global
-stage: synthetic
+stage: abstract-reasoning
 status: draft
 ---
 

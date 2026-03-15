@@ -12,7 +12,7 @@ tags:
 - epistemology
 - methodology
 - theory
-stage: professional-practice
+stage: advanced
 status: draft
 ---
 

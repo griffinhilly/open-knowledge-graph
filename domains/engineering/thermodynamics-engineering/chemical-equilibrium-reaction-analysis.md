@@ -6,8 +6,6 @@ course: thermodynamics-engineering
 prerequisites:
 - id: thermodynamic-properties-and-equations-of-state
   type: hard
-- id: combustion-thermodynamic-analysis
-  type: soft
 - id: chemical-equilibrium
   type: soft
 builds-toward:

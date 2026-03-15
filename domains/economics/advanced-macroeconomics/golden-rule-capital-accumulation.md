@@ -14,7 +14,7 @@ tags:
 - welfare
 - capital-stock
 - consumption-optimization
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

@@ -4,8 +4,10 @@ title: 'The Indus Script: Undeciphered Writing System'
 domain: history
 course: ancient-civilizations
 prerequisites:
-- indus-city-planning-standards
-- ancient-writing-systems-comparison
+- id: indus-city-planning-standards
+  type: hard
+- id: ancient-writing-systems-comparison
+  type: hard
 tags:
 - Indus
 - script

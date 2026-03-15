@@ -4,8 +4,10 @@ title: Interior Wall and Ceiling Assessment and Repair
 domain: practical-life-skills
 course: home-maintenance
 prerequisites:
-- interior-painting
-- drywall-repair-taping
+- id: interior-painting
+  type: hard
+- id: drywall-repair-taping
+  type: hard
 builds-toward:
 - wall-patching-and-repair
 tags:

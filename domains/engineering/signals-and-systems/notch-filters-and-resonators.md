@@ -14,7 +14,7 @@ tags:
 - notch
 - resonator
 - narrow-band
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

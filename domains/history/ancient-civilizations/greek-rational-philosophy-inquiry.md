@@ -4,8 +4,10 @@ title: Greek Philosophy and Rational Inquiry
 domain: history
 course: ancient-civilizations
 prerequisites:
-- polis-greek-political-unit
-- greek-philosophy-origins
+- id: polis-greek-political-unit
+  type: hard
+- id: greek-philosophy-origins
+  type: hard
 tags:
 - Greece
 - philosophy

@@ -4,7 +4,8 @@ title: Form and Content in Aesthetics
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- aesthetic-experience-and-beauty
+- id: aesthetic-experience-and-beauty
+  type: hard
 builds-toward:
 - bell-significant-form
 - expression-theory-art

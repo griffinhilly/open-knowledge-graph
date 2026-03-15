@@ -4,8 +4,6 @@ title: Stokes' Theorem
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: stokes-theorem
-  type: hard
 - id: flux-integrals
   type: hard
 - id: curl-divergence

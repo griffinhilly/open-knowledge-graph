@@ -13,7 +13,7 @@ tags:
 - job-search
 - labor-market-frictions
 - wage-setting
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

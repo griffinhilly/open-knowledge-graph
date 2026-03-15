@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - fermi-golden-rule
 - transition-rates
-stage: mathematical-application
+stage: formal-systems
 status: draft
 ---
 

@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: exponential-distribution
   type: soft
-- id: boltzmann-distribution-molecular-populations
-  type: hard
 builds-toward:
 - partition-function-thermodynamic-properties
 tags:

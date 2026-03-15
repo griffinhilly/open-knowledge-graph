@@ -6,10 +6,6 @@ course: geophysics
 prerequisites:
 - id: seismic-body-waves-p-and-s
   type: hard
-- id: plate-tectonics
-  type: hard
-- id: stress-strain-rock-deformation
-  type: hard
 - id: eigenvalues-and-eigenvectors
   type: hard
 builds-toward:

@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: exponential-functions-and-graphs
   type: soft
-- id: compound-interest
-  type: soft
 builds-toward:
 - compound-interest
 - mortgage-and-home-buying

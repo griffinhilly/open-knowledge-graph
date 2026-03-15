@@ -4,7 +4,8 @@ title: Linguistic Relativity and Worldview
 domain: social-sciences
 course: anthropology
 prerequisites:
-- language-and-culture
+- id: language-and-culture
+  type: hard
 builds-toward:
 - symbolic-interactionism
 tags:

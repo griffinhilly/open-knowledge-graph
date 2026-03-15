@@ -15,7 +15,7 @@ tags:
 - ordering
 - consensus
 - replication
-stage: concrete-techniques
+stage: concrete-operations
 status: draft
 ---
 

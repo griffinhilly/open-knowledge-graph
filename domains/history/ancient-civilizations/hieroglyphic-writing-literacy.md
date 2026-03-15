@@ -4,8 +4,10 @@ title: Hieroglyphic Writing and Literacy in Egypt
 domain: history
 course: ancient-civilizations
 prerequisites:
-- egypt-nile-and-civilization
-- ancient-writing-systems-comparison
+- id: egypt-nile-and-civilization
+  type: hard
+- id: ancient-writing-systems-comparison
+  type: hard
 tags:
 - Egypt
 - hieroglyphics

@@ -6,8 +6,6 @@ course: statistical-mechanics
 prerequisites:
 - id: free-energy-thermodynamic-relations
   type: hard
-- id: mean-field-theory-statmech
-  type: hard
 builds-toward:
 - renormalization-group-scaling
 - scaling-invariance-universality

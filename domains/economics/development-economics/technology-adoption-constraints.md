@@ -4,8 +4,6 @@ title: Technology Adoption and Diffusion Constraints
 domain: economics
 course: development-economics
 prerequisites:
-- id: industrial-catch-up-growth
-  type: soft
 - id: information-asymmetry
   type: soft
 builds-toward:

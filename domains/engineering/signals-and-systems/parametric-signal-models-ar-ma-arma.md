@@ -15,7 +15,7 @@ tags:
 - MA
 - ARMA
 - signal-modeling
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

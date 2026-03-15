@@ -15,7 +15,7 @@ tags:
 - form
 - global
 - oral-literature
-stage: analytical
+stage: abstract-reasoning
 status: draft
 ---
 

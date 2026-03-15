@@ -4,8 +4,6 @@ title: 'Inflammatory Mediators: Cytokines and Chemokines'
 domain: health-and-human-development
 course: pathophysiology
 prerequisites:
-- id: acute-inflammation-pathophysiology
-  type: hard
 - id: cytokines-and-chemokines
   type: soft
 builds-toward:

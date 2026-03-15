@@ -4,8 +4,10 @@ title: Cultural Regions, Boundaries, and Identity
 domain: social-sciences
 course: human-geography
 prerequisites:
-- landscape-interpretation-reading
-- place-space-social-construction
+- id: landscape-interpretation-reading
+  type: hard
+- id: place-space-social-construction
+  type: hard
 builds-toward:
 - colonialism-geographic-patterns
 tags:

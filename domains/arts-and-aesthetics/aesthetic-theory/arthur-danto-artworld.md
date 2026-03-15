@@ -4,7 +4,8 @@ title: 'Arthur Danto: The Artworld and Transfiguration'
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- art-definition-and-ontology
+- id: art-definition-and-ontology
+  type: hard
 builds-toward:
 - george-dickie-institutional-theory-art
 - conceptual-art-and-meaning

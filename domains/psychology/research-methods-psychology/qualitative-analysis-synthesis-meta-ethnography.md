@@ -4,8 +4,6 @@ title: Qualitative Research Synthesis and Meta-Ethnography
 domain: psychology
 course: research-methods-psychology
 prerequisites:
-- id: qualitative-analysis-synthesis-meta-ethnography
-  type: soft
 - id: effect-size-practical-significance-reporting
   type: soft
 tags:

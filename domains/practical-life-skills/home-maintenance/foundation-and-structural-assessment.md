@@ -4,8 +4,10 @@ title: Foundation and Structural Inspection Basics
 domain: practical-life-skills
 course: home-maintenance
 prerequisites:
-- understanding-home-systems
-- home-inspection-fundamentals
+- id: understanding-home-systems
+  type: hard
+- id: home-inspection-fundamentals
+  type: hard
 builds-toward:
 - moisture-and-mold-prevention-strategy
 - foundation-and-structural-assessment

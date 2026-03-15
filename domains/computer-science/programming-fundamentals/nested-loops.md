@@ -4,8 +4,10 @@ title: Nested Loops and Multi-Level Iteration
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- for-loop-iteration
-- while-loop-iteration
+- id: for-loop-iteration
+  type: hard
+- id: while-loop-iteration
+  type: hard
 tags:
 - loops
 - nesting

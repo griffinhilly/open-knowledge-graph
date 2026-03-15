@@ -4,8 +4,6 @@ title: Convolution Theorem and Frequency Domain Applications
 domain: engineering
 course: signals-and-systems
 prerequisites:
-- id: convolution-continuous-discrete-systems
-  type: hard
 - id: fourier-transform-definition-properties
   type: hard
 builds-toward:

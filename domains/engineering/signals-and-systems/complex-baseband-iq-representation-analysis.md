@@ -14,7 +14,7 @@ tags:
 - IQ
 - complex
 - representation
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

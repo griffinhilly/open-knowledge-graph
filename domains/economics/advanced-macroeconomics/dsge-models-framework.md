@@ -15,7 +15,7 @@ tags:
 - general-equilibrium
 - stochastic-shocks
 - policy-analysis
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

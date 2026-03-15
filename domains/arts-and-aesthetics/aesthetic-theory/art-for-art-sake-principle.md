@@ -4,8 +4,10 @@ title: 'Art for Art''s Sake: The Autonomy of Aesthetic Form'
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- form-content-aesthetics
-- kant-disinterest-aesthetics
+- id: form-content-aesthetics
+  type: hard
+- id: kant-disinterest-aesthetics
+  type: hard
 builds-toward:
 - bell-significant-form
 - greenberg-modernism-criticism

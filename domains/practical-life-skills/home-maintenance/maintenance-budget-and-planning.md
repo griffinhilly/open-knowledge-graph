@@ -4,7 +4,8 @@ title: Creating a Home Maintenance Budget and Schedule
 domain: practical-life-skills
 course: home-maintenance
 prerequisites:
-- home-inspection-fundamentals
+- id: home-inspection-fundamentals
+  type: hard
 tags:
 - budgeting
 - planning

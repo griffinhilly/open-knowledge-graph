@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: population-growth-models
   type: hard
-- id: conservation-genetics-effective-size
-  type: soft
 - id: probability-distributions-theory
   type: hard
 builds-toward:

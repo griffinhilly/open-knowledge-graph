@@ -4,7 +4,8 @@ title: While Loops and Condition-Controlled Iteration
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- program-structure-and-flow
+- id: program-structure-and-flow
+  type: hard
 builds-toward:
 - loop-control-statements
 - nested-loops

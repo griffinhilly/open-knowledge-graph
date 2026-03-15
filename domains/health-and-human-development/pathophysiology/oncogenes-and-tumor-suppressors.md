@@ -4,8 +4,6 @@ title: Oncogenes and Tumor Suppressor Genes
 domain: health-and-human-development
 course: pathophysiology
 prerequisites:
-- id: carcinogenesis-multistep
-  type: hard
 - id: gene-regulation-eukaryotes
   type: soft
 builds-toward:

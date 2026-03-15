@@ -4,8 +4,6 @@ title: Collision Theory of Reaction Rates
 domain: chemistry
 course: physical-chemistry
 prerequisites:
-- id: chemical-kinetics
-  type: hard
 - id: kinetic-theory-of-gases
   type: hard
 - id: arrhenius-equation

@@ -4,7 +4,8 @@ title: Integer and Floating-Point Number Types
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- memory-and-data-storage
+- id: memory-and-data-storage
+  type: hard
 builds-toward:
 - arithmetic-operators-intro
 - type-conversion-casting

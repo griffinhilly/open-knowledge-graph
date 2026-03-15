@@ -4,8 +4,10 @@ title: Political Territory, Boundaries, and Geopolitical Power
 domain: social-sciences
 course: human-geography
 prerequisites:
-- spatial-scale-human-geography
-- place-space-social-construction
+- id: spatial-scale-human-geography
+  type: hard
+- id: place-space-social-construction
+  type: hard
 builds-toward:
 - indigenous-geography-territory
 tags:

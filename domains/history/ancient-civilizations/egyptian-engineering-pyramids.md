@@ -4,8 +4,10 @@ title: Egyptian Engineering and the Pyramids
 domain: history
 course: ancient-civilizations
 prerequisites:
-- egypt-nile-and-civilization
-- ancient-technological-innovation
+- id: egypt-nile-and-civilization
+  type: hard
+- id: ancient-technological-innovation
+  type: hard
 tags:
 - Egypt
 - engineering

@@ -18,7 +18,7 @@ tags:
 - productivity-shocks
 - competitive-equilibrium
 - flexible-prices
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

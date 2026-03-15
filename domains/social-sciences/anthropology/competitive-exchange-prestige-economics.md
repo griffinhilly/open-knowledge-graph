@@ -4,8 +4,10 @@ title: Competitive Exchange and Prestige Economics
 domain: social-sciences
 course: anthropology
 prerequisites:
-- reciprocity-gift-economy
-- status-honor-prestige-systems
+- id: reciprocity-gift-economy
+  type: hard
+- id: status-honor-prestige-systems
+  type: hard
 builds-toward:
 - economic-anthropology
 tags:

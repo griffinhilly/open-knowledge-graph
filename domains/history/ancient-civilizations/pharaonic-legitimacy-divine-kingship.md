@@ -4,8 +4,10 @@ title: Pharaonic Authority and Divine Kingship
 domain: history
 course: ancient-civilizations
 prerequisites:
-- egypt-nile-and-civilization
-- egyptian-pharaonic-divinity
+- id: egypt-nile-and-civilization
+  type: hard
+- id: egyptian-pharaonic-divinity
+  type: hard
 tags:
 - Egypt
 - pharaoh

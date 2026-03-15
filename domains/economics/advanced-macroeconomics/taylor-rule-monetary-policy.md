@@ -19,7 +19,7 @@ tags:
 - policy-rules
 - interest-rate-setting
 - central-banking
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

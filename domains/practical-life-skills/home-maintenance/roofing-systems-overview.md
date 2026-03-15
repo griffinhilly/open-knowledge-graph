@@ -4,8 +4,10 @@ title: 'Roof and Gutter Systems: Structure and Maintenance'
 domain: practical-life-skills
 course: home-maintenance
 prerequisites:
-- understanding-home-systems
-- roof-inspection-basics
+- id: understanding-home-systems
+  type: hard
+- id: roof-inspection-basics
+  type: hard
 builds-toward:
 - seasonal-home-maintenance
 - gutter-cleaning-and-maintenance

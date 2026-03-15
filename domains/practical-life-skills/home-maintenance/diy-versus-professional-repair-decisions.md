@@ -4,8 +4,10 @@ title: Deciding Between DIY and Professional Repairs
 domain: practical-life-skills
 course: home-maintenance
 prerequisites:
-- diy-vs-hire-professional
-- understanding-home-systems
+- id: diy-vs-hire-professional
+  type: hard
+- id: understanding-home-systems
+  type: hard
 tags:
 - decision making
 - skills assessment

@@ -4,8 +4,6 @@ title: Neural Oscillations and Cognitive Dynamics
 domain: psychology
 course: cognitive-neuroscience
 prerequisites:
-- id: eeg-erp-temporal-dynamics
-  type: hard
 - id: attention-networks-brain
   type: soft
 - id: fourier-series-definition

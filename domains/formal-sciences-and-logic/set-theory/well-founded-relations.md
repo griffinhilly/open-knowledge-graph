@@ -4,8 +4,6 @@ title: Well-Founded Relations
 domain: formal-sciences-and-logic
 course: set-theory
 prerequisites:
-- id: transfinite-induction
-  type: hard
 - id: axiom-of-regularity
   type: soft
 builds-toward:

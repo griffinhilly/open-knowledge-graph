@@ -4,8 +4,10 @@ title: 'Kant: The Critique of Judgment and Aesthetic Beauty'
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- aesthetic-judgment-taste
-- the-aesthetic-attitude
+- id: aesthetic-judgment-taste
+  type: hard
+- id: the-aesthetic-attitude
+  type: hard
 builds-toward:
 - kant-disinterest-aesthetics
 - kant-sublime-aesthetics

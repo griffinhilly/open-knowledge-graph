@@ -12,7 +12,7 @@ tags:
 - government-debt
 - fiscal-sustainability
 - long-run
-stage: formal-modeling
+stage: formal-systems
 status: draft
 ---
 

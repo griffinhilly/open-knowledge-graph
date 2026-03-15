@@ -12,7 +12,7 @@ tags:
 - shocks
 - propagation
 - technology
-stage: formal-modeling
+stage: formal-systems
 status: draft
 ---
 

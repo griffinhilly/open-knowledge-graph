@@ -4,7 +4,8 @@ title: 'Schopenhauer: Music as the Metaphysics of the Will'
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- schopenhauer-will-and-art
+- id: schopenhauer-will-and-art
+  type: hard
 builds-toward:
 - nietzsche-apollonian-dionysian
 tags:

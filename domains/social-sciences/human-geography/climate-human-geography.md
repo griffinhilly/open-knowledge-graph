@@ -4,8 +4,10 @@ title: Climate Change and Human Geography
 domain: social-sciences
 course: human-geography
 prerequisites:
-- human-environment-adaptation
-- spatial-scale-human-geography
+- id: human-environment-adaptation
+  type: hard
+- id: spatial-scale-human-geography
+  type: hard
 tags:
 - climate
 - environment

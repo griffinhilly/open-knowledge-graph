@@ -16,7 +16,7 @@ tags:
 - commit
 - protocol
 - coordinator
-stage: concrete-techniques
+stage: concrete-operations
 status: draft
 ---
 

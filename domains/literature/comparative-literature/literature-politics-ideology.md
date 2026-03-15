@@ -18,7 +18,7 @@ tags:
 - ideology
 - critique
 - power
-stage: analytical
+stage: abstract-reasoning
 status: draft
 ---
 

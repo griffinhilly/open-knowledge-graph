@@ -15,7 +15,7 @@ tags:
 - tradition
 - Bloom
 - postcolonial
-stage: analytical
+stage: abstract-reasoning
 status: draft
 ---
 

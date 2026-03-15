@@ -4,8 +4,6 @@ title: Line Integrals of Scalar Functions
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: line-integrals-scalar
-  type: hard
 - id: arc-length-parametric
   type: hard
 builds-toward:

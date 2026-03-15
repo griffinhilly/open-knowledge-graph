@@ -4,7 +4,8 @@ title: String Operations and Methods
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- strings-as-character-sequences
+- id: strings-as-character-sequences
+  type: hard
 builds-toward:
 - basic-input-output
 tags:

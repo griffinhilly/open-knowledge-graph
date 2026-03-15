@@ -14,7 +14,7 @@ tags:
 - comparative
 - bounded-system
 - within-case-analysis
-stage: professional-practice
+stage: advanced
 status: draft
 ---
 

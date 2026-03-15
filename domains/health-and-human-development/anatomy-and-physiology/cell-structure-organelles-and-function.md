@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: eukaryotic-cells
   type: soft
-- id: cell-structure-organelles-and-function
-  type: hard
 - id: mitochondria-structure-and-function
   type: soft
 - id: cell-theory

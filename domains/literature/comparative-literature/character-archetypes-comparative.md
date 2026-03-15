@@ -15,7 +15,7 @@ tags:
 - archetype
 - comparative
 - types
-stage: analytical
+stage: abstract-reasoning
 status: draft
 ---
 

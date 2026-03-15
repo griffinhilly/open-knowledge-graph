@@ -4,8 +4,10 @@ title: Energy Efficiency Assessment and Improvement Priorities
 domain: practical-life-skills
 course: home-maintenance
 prerequisites:
-- understanding-home-systems
-- insulation-and-air-sealing
+- id: understanding-home-systems
+  type: hard
+- id: insulation-and-air-sealing
+  type: hard
 builds-toward:
 - maintenance-budget-and-planning
 tags:

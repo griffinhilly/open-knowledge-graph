@@ -4,7 +4,8 @@ title: 'Kant: The Sublime'
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- kant-judgment-of-beauty
+- id: kant-judgment-of-beauty
+  type: hard
 builds-toward:
 - schopenhauer-will-and-art
 tags:

@@ -4,8 +4,6 @@ title: Surface Integrals of Scalar Functions
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: surface-integrals-scalar
-  type: hard
 - id: parametric-surfaces
   type: hard
 - id: cross-product-3d

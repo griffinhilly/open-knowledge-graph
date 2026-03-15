@@ -4,7 +4,8 @@ title: Seasonal Maintenance Tasks and Timing
 domain: practical-life-skills
 course: home-maintenance
 prerequisites:
-- seasonal-home-maintenance
+- id: seasonal-home-maintenance
+  type: hard
 tags:
 - seasonal
 - maintenance

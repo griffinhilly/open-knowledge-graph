@@ -4,7 +4,8 @@ title: Structural Analysis of Social Systems
 domain: social-sciences
 course: anthropology
 prerequisites:
-- holistic-analysis-cultural-systems
+- id: holistic-analysis-cultural-systems
+  type: hard
 builds-toward:
 - symbolic-classification-systems
 - structural-functionalism

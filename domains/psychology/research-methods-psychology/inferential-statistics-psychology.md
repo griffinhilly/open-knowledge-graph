@@ -26,8 +26,6 @@ prerequisites:
   type: soft
 - id: validity-in-measurement
   type: soft
-- id: statistical-inference-significance-testing
-  type: soft
 - id: confidence-intervals-framework
   type: soft
 - id: hypothesis-testing-framework

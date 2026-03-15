@@ -4,8 +4,10 @@ title: The Code of Hammurabi and Codified Law
 domain: history
 course: ancient-civilizations
 prerequisites:
-- mesopotamia-cradle-of-civilization
-- ancient-law-codes
+- id: mesopotamia-cradle-of-civilization
+  type: hard
+- id: ancient-law-codes
+  type: hard
 tags:
 - Babylon
 - law

@@ -4,8 +4,10 @@ title: Biocultural Human Ecology and Adaptation
 domain: social-sciences
 course: anthropology
 prerequisites:
-- human-biological-diversity
-- human-evolution-basics
+- id: human-biological-diversity
+  type: hard
+- id: human-evolution-basics
+  type: hard
 builds-toward:
 - medical-anthropology
 tags:

@@ -4,8 +4,6 @@ title: Double Integrals in Cartesian Coordinates
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: double-integrals-cartesian
-  type: hard
 - id: iterated-integrals
   type: hard
 builds-toward:

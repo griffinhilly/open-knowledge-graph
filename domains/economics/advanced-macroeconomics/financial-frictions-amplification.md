@@ -15,7 +15,7 @@ tags:
 - credit-constraints
 - amplification
 - feedback-loops
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - price-stickiness
 - random-adjustment
 - monetary-policy-transmission
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

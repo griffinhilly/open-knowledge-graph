@@ -4,9 +4,12 @@ title: 'Postmodern Aesthetics: Pastiche, Irony, and Historical Consciousness'
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- hegel-history-of-aesthetics
-- greenberg-modernism-criticism
-- adorno-culture-industry
+- id: hegel-history-of-aesthetics
+  type: hard
+- id: greenberg-modernism-criticism
+  type: hard
+- id: adorno-culture-industry
+  type: hard
 builds-toward:
 - relational-aesthetics
 tags:

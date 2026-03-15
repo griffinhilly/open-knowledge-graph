@@ -4,8 +4,6 @@ title: Steady-State Analysis in Growth Models
 domain: economics
 course: advanced-macroeconomics
 prerequisites:
-- id: solow-growth-model
-  type: hard
 - id: eigenvalues-eigenvectors
   type: hard
 - id: systems-of-linear-equations
@@ -16,7 +14,7 @@ tags:
 - equilibrium-analysis
 - long-run-growth
 - dynamics
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

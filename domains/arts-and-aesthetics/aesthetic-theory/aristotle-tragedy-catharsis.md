@@ -4,7 +4,8 @@ title: 'Aristotle: Tragedy, Catharsis, and Mimesis'
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- aesthetic-experience-and-beauty
+- id: aesthetic-experience-and-beauty
+  type: hard
 builds-toward:
 - representation-and-mimesis
 - expression-theory-art

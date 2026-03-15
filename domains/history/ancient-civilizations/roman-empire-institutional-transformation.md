@@ -4,8 +4,10 @@ title: Transition from Republic to Empire and Augustus
 domain: history
 course: ancient-civilizations
 prerequisites:
-- roman-republic-governmental-structure
-- roman-empire-rise
+- id: roman-republic-governmental-structure
+  type: hard
+- id: roman-empire-rise
+  type: hard
 tags:
 - Rome
 - empire

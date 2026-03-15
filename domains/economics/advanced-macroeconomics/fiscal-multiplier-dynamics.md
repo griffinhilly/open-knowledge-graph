@@ -13,7 +13,7 @@ tags:
 - stimulus
 - output-effects
 - crowding-out
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

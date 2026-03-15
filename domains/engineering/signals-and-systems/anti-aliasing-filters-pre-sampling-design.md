@@ -14,7 +14,7 @@ tags:
 - filters
 - sampling
 - design
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

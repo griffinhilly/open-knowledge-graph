@@ -13,7 +13,7 @@ tags:
 - downsampling
 - anti-aliasing
 - multirate
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

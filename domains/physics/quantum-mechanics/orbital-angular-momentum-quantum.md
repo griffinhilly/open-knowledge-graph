@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - angular-momentum
 - quantum-mechanics
-stage: mathematical-application
+stage: formal-systems
 status: draft
 ---
 

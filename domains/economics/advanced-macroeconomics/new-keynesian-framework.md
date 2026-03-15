@@ -20,7 +20,7 @@ tags:
 - new-keynesian
 - nominal-rigidities
 - imperfect-competition
-stage: formal-modeling
+stage: formal-systems
 status: draft
 ---
 

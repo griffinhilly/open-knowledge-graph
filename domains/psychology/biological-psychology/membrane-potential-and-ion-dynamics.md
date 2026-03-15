@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: sodium-potassium-atpase
   type: soft
-- id: membrane-potential-and-ion-dynamics
-  type: hard
 - id: resting-membrane-potential
   type: hard
 builds-toward:

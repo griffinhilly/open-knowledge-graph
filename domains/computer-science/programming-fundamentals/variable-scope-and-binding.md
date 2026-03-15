@@ -4,8 +4,10 @@ title: Variable Scope and Variable Binding
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- variable-declaration-syntax
-- parameters-and-arguments
+- id: variable-declaration-syntax
+  type: hard
+- id: parameters-and-arguments
+  type: hard
 builds-toward:
 - recursion-and-recursive-calls
 tags:

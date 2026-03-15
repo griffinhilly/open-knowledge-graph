@@ -4,8 +4,10 @@ title: 'The Polis: Greek City-State and Political Unit'
 domain: history
 course: ancient-civilizations
 prerequisites:
-- ancient-civilization-characteristics
-- ancient-greece-polis
+- id: ancient-civilization-characteristics
+  type: hard
+- id: ancient-greece-polis
+  type: hard
 builds-toward:
 - athenian-democracy-citizenship-rights
 - spartan-society-militarism

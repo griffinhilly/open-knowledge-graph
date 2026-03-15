@@ -14,7 +14,7 @@ tags:
 - capital
 - investment
 - golden-rule
-stage: formal-modeling
+stage: formal-systems
 status: draft
 ---
 

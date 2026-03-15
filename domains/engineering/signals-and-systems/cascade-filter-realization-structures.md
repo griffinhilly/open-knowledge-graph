@@ -14,7 +14,7 @@ tags:
 - realization
 - cascade
 - structure
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

@@ -4,7 +4,8 @@ title: Transnational Identities and Movement
 domain: social-sciences
 course: anthropology
 prerequisites:
-- cultural-change-innovation
+- id: cultural-change-innovation
+  type: hard
 builds-toward:
 - globalization-and-society
 - migration-theory-push-pull

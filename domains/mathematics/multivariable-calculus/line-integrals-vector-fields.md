@@ -4,8 +4,6 @@ title: Line Integrals of Vector Fields
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: line-integrals-vector-fields
-  type: hard
 - id: vector-fields
   type: hard
 - id: dot-product

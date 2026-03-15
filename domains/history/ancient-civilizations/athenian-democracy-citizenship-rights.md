@@ -4,8 +4,10 @@ title: Athenian Democracy and the Limits of Citizenship
 domain: history
 course: ancient-civilizations
 prerequisites:
-- polis-greek-political-unit
-- athenian-democracy-origins
+- id: polis-greek-political-unit
+  type: hard
+- id: athenian-democracy-origins
+  type: hard
 tags:
 - Athens
 - democracy

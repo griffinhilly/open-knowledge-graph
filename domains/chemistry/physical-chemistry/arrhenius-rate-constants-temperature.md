@@ -3,11 +3,7 @@ id: arrhenius-rate-constants-temperature
 title: Arrhenius Equation and Temperature Dependence of Rate Constants
 domain: chemistry
 course: physical-chemistry
-prerequisites:
-- id: arrhenius-equation
-  type: hard
-- id: collision-theory-advanced-kinetics
-  type: hard
+prerequisites: []
 builds-toward:
 - pre-exponential-factor-collision-theory
 - transition-state-theory

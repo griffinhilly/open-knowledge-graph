@@ -4,7 +4,8 @@ title: 'Tolstoy: Art as Communication of Emotion'
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- expression-theory-art
+- id: expression-theory-art
+  type: hard
 builds-toward:
 - art-definition-and-ontology
 tags:

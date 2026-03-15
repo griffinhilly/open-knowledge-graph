@@ -4,8 +4,6 @@ title: Double Integrals in Polar Coordinates
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: double-integrals-polar
-  type: hard
 - id: polar-coordinates
   type: hard
 builds-toward:

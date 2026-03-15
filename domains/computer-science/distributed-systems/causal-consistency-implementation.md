@@ -16,7 +16,7 @@ tags:
 - causality
 - implementation
 - vector-clocks
-stage: concrete-techniques
+stage: concrete-operations
 status: draft
 ---
 

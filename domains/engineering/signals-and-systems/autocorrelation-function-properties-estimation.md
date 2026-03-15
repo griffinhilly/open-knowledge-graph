@@ -14,7 +14,7 @@ tags:
 - autocorrelation
 - estimation
 - properties
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

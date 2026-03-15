@@ -4,8 +4,10 @@ title: Oracle Bones and Early Chinese Writing
 domain: history
 course: ancient-civilizations
 prerequisites:
-- yellow-river-civilization-agriculture
-- shang-dynasty-oracle-bones
+- id: yellow-river-civilization-agriculture
+  type: hard
+- id: shang-dynasty-oracle-bones
+  type: hard
 tags:
 - China
 - Shang

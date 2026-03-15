@@ -4,8 +4,6 @@ title: Electrode Kinetics and Butler-Volmer Equation
 domain: chemistry
 course: physical-chemistry
 prerequisites:
-- id: electrochemical-kinetics
-  type: hard
 - id: transition-state-theory
   type: hard
 tags:

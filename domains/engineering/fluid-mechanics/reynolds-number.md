@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: fluid-kinematics
   type: soft
-- id: dimensional-analysis-and-similarity
-  type: soft
 - id: viscosity-gas-liquid-transport
   type: soft
 - id: kinetic-molecular-theory

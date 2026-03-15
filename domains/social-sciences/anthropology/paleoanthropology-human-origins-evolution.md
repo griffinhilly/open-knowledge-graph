@@ -4,7 +4,8 @@ title: Paleoanthropology and Human Origins
 domain: social-sciences
 course: anthropology
 prerequisites:
-- human-evolution-basics
+- id: human-evolution-basics
+  type: hard
 builds-toward:
 - human-biological-diversity
 tags:

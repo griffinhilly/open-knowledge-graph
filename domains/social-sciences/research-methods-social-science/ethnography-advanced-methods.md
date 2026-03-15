@@ -14,7 +14,7 @@ tags:
 - fieldwork
 - participant-observation
 - reflexivity
-stage: professional-practice
+stage: advanced
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - power
 - language
 - foucault
-stage: professional-practice
+stage: advanced
 status: draft
 ---
 

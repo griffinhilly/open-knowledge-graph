@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - wkb
 - quantization
-stage: mathematical-application
+stage: formal-systems
 status: draft
 ---
 

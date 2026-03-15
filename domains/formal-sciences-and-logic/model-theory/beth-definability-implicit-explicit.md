@@ -6,8 +6,6 @@ course: model-theory
 prerequisites:
 - id: craig-lyndon-interpolation
   type: hard
-- id: beth-definability-implicit-explicit
-  type: soft
 builds-toward:
 - definable-closure-independence
 tags:

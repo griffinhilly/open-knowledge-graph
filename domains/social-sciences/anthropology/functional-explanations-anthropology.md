@@ -4,7 +4,8 @@ title: Functionalism in Anthropology
 domain: social-sciences
 course: anthropology
 prerequisites:
-- holistic-analysis-cultural-systems
+- id: holistic-analysis-cultural-systems
+  type: hard
 builds-toward:
 - structural-functionalism
 tags:

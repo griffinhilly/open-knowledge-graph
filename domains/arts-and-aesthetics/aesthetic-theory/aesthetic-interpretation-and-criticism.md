@@ -4,8 +4,10 @@ title: Aesthetic Interpretation and Critical Practice
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- aesthetic-judgment-taste
-- form-content-aesthetics
+- id: aesthetic-judgment-taste
+  type: hard
+- id: form-content-aesthetics
+  type: hard
 tags:
 - interpretation
 - criticism

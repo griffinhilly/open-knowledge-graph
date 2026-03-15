@@ -6,8 +6,6 @@ course: child-development
 prerequisites:
 - id: piaget-cognitive-development-stages
   type: hard
-- id: preschool-social-cognitive-development
-  type: hard
 builds-toward:
 - moral-development-in-children
 - peer-relationships-and-social-competence-children

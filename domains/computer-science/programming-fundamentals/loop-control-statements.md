@@ -4,8 +4,10 @@ title: 'Loop Control: Break and Continue'
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- for-loop-iteration
-- while-loop-iteration
+- id: for-loop-iteration
+  type: hard
+- id: while-loop-iteration
+  type: hard
 builds-toward:
 - nested-loops
 tags:

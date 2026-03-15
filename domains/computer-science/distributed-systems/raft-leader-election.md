@@ -16,7 +16,7 @@ tags:
 - leader-election
 - consensus
 - terms
-stage: concrete-techniques
+stage: concrete-operations
 status: draft
 ---
 

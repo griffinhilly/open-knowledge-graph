@@ -13,7 +13,7 @@ tags:
 - r&d
 - monopolistic-competition
 - scale-effects
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

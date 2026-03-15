@@ -4,7 +4,8 @@ title: Ancestor Veneration and Cosmology
 domain: social-sciences
 course: anthropology
 prerequisites:
-- myth-and-symbolism
+- id: myth-and-symbolism
+  type: hard
 builds-toward:
 - religion-and-society
 - ritual-and-ceremony

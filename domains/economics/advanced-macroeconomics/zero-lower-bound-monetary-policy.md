@@ -12,7 +12,7 @@ tags:
 - zero-lower-bound
 - zlb
 - monetary-policy
-stage: formal-modeling
+stage: formal-systems
 status: draft
 ---
 

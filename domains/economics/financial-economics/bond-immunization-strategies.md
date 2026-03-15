@@ -6,8 +6,6 @@ course: financial-economics
 prerequisites:
 - id: duration-and-convexity
   type: hard
-- id: bond-immunization-strategies
-  type: hard
 builds-toward:
 - interest-rate-risk-management
 tags:

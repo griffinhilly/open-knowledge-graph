@@ -14,7 +14,7 @@ tags:
 - ricardian-equivalence
 - fiscal-policy
 - debt
-stage: formal-modeling
+stage: formal-systems
 status: draft
 ---
 

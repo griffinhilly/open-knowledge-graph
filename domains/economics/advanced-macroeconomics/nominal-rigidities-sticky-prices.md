@@ -12,7 +12,7 @@ tags:
 - price-adjustment
 - frictions
 - monetary-non-neutrality
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

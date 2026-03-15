@@ -4,7 +4,8 @@ title: Participant Observation and Reflexivity
 domain: social-sciences
 course: anthropology
 prerequisites:
-- emic-etic-perspectives-anthropology
+- id: emic-etic-perspectives-anthropology
+  type: hard
 builds-toward:
 - ethnographic-interviewing-methods
 - ethnography-advanced-methods

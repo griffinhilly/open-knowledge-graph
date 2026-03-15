@@ -15,7 +15,7 @@ tags:
 - fiscal-policy
 - multipliers
 - demand
-stage: formal-modeling
+stage: formal-systems
 status: draft
 ---
 

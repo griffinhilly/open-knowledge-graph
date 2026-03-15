@@ -4,7 +4,8 @@ title: Spatial Representation, Maps, and Cartography
 domain: social-sciences
 course: human-geography
 prerequisites:
-- spatial-scale-human-geography
+- id: spatial-scale-human-geography
+  type: hard
 builds-toward:
 - political-territory-power
 tags:

@@ -10,7 +10,7 @@ tags:
 - quantitative-easing
 - unconventional-policy
 - monetary-policy
-stage: formal-modeling
+stage: formal-systems
 status: draft
 ---
 

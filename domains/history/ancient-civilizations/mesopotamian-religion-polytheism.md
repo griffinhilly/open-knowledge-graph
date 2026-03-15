@@ -4,7 +4,8 @@ title: Mesopotamian Religion and Polytheistic Systems
 domain: history
 course: ancient-civilizations
 prerequisites:
-- mesopotamia-cradle-of-civilization
+- id: mesopotamia-cradle-of-civilization
+  type: hard
 builds-toward:
 - ancient-polytheism-religious-systems
 tags:

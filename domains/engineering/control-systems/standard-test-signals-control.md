@@ -18,7 +18,7 @@ tags:
 - step
 - ramp
 - input
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - monetary-theory
 - money-superneutrality
 - long-run-equilibrium
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

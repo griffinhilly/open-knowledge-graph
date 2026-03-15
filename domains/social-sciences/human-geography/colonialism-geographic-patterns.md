@@ -4,8 +4,10 @@ title: Colonialism and Geographic Patterns of Inequality
 domain: social-sciences
 course: human-geography
 prerequisites:
-- political-territory-power
-- economic-production-distribution
+- id: political-territory-power
+  type: hard
+- id: economic-production-distribution
+  type: hard
 builds-toward:
 - indigenous-geography-territory
 tags:

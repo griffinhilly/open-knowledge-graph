@@ -15,7 +15,7 @@ tags:
 - integration
 - triangulation
 - sequential-concurrent
-stage: professional-practice
+stage: advanced
 status: draft
 ---
 

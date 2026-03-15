@@ -4,8 +4,10 @@ title: 'Walter Benjamin: Aura, Authenticity, and Presence'
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- representation-and-mimesis
-- modern-art-movements
+- id: representation-and-mimesis
+  type: hard
+- id: modern-art-movements
+  type: hard
 builds-toward:
 - walter-benjamin-mechanical-reproduction
 tags:

@@ -4,7 +4,8 @@ title: Population Distribution and Geographic Processes
 domain: social-sciences
 course: human-geography
 prerequisites:
-- spatial-scale-human-geography
+- id: spatial-scale-human-geography
+  type: hard
 builds-toward:
 - migration-mobility-networks
 - urbanization-city-geography

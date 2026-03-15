@@ -4,8 +4,6 @@ title: Metastasis and the Invasion-Metastasis Cascade
 domain: health-and-human-development
 course: pathophysiology
 prerequisites:
-- id: epithelial-mesenchymal-transition
-  type: hard
 - id: carcinogenesis-multistep
   type: soft
 builds-toward:

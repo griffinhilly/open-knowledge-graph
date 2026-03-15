@@ -14,8 +14,6 @@ prerequisites:
   type: soft
 - id: connected-components
   type: soft
-- id: network-centrality-measures
-  type: hard
 builds-toward:
 - computational-social-science-intro
 tags:
@@ -23,7 +21,7 @@ tags:
 - centrality
 - clustering
 - social-capital
-stage: professional-practice
+stage: advanced
 status: draft
 ---
 

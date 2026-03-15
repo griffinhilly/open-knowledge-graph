@@ -4,8 +4,6 @@ title: Kinetic Molecular Theory and Gas Behavior
 domain: chemistry
 course: general-chemistry
 prerequisites:
-- id: gas-laws-ideal-gas
-  type: soft
 - id: kinetic-theory-of-gases
   type: soft
 - id: kinetic-energy

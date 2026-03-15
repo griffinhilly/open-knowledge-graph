@@ -4,8 +4,10 @@ title: 'Clive Bell: Significant Form and Formalist Aesthetics'
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- form-content-aesthetics
-- art-for-art-sake-principle
+- id: form-content-aesthetics
+  type: hard
+- id: art-for-art-sake-principle
+  type: hard
 builds-toward:
 - greenberg-modernism-criticism
 tags:

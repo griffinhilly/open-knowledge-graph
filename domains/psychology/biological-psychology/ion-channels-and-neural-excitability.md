@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: cell-membrane-structure
   type: hard
-- id: ion-channels-and-neural-excitability
-  type: hard
 - id: ion-channels-selectivity
   type: hard
 - id: voltage-gated-sodium-channels

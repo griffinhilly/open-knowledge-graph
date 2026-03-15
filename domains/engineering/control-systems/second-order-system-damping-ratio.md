@@ -16,7 +16,7 @@ tags:
 - natural-frequency
 - underdamped
 - overdamped
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

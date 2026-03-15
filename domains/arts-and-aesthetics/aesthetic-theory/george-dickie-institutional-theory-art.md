@@ -4,7 +4,8 @@ title: 'George Dickie: Institutional Theory of Art'
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- arthur-danto-artworld
+- id: arthur-danto-artworld
+  type: hard
 builds-toward:
 - conceptual-art-and-meaning
 tags:

@@ -4,8 +4,10 @@ title: Mesopotamian Mathematics and Astronomical Knowledge
 domain: history
 course: ancient-civilizations
 prerequisites:
-- mesopotamia-cradle-of-civilization
-- cuneiform-and-early-writing
+- id: mesopotamia-cradle-of-civilization
+  type: hard
+- id: cuneiform-and-early-writing
+  type: hard
 tags:
 - mathematics
 - astronomy

@@ -15,7 +15,7 @@ tags:
 - consensus
 - fault-tolerance
 - malicious
-stage: concrete-techniques
+stage: concrete-operations
 status: draft
 ---
 

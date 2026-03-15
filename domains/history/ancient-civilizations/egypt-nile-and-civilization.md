@@ -4,8 +4,10 @@ title: 'Egypt: Geography, the Nile, and Civilization'
 domain: history
 course: ancient-civilizations
 prerequisites:
-- ancient-civilization-characteristics
-- ancient-world-chronology-methods
+- id: ancient-civilization-characteristics
+  type: hard
+- id: ancient-world-chronology-methods
+  type: hard
 builds-toward:
 - pharaonic-legitimacy-divine-kingship
 - egyptian-engineering-pyramids

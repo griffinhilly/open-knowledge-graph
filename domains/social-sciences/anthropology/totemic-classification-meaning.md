@@ -4,8 +4,10 @@ title: Totemism and Symbolic Classification
 domain: social-sciences
 course: anthropology
 prerequisites:
-- symbolic-classification-systems
-- kinship-and-descent
+- id: symbolic-classification-systems
+  type: hard
+- id: kinship-and-descent
+  type: hard
 builds-toward:
 - myth-and-symbolism
 - structural-analysis-social-systems

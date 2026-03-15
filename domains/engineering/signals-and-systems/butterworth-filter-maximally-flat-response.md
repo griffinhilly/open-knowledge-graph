@@ -14,7 +14,7 @@ tags:
 - butterworth
 - maximally-flat
 - response-shape
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

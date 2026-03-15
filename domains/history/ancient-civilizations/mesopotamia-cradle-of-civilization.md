@@ -4,8 +4,10 @@ title: 'Mesopotamia: The Cradle of Civilization'
 domain: history
 course: ancient-civilizations
 prerequisites:
-- ancient-civilization-characteristics
-- ancient-world-chronology-methods
+- id: ancient-civilization-characteristics
+  type: hard
+- id: ancient-world-chronology-methods
+  type: hard
 builds-toward:
 - sumerian-governance-innovation
 - hammurabi-code-justice-system

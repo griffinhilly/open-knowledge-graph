@@ -4,8 +4,10 @@ title: Health Geography and Place-Based Wellbeing
 domain: social-sciences
 course: human-geography
 prerequisites:
-- place-space-social-construction
-- urbanization-city-geography
+- id: place-space-social-construction
+  type: hard
+- id: urbanization-city-geography
+  type: hard
 builds-toward:
 - climate-human-geography
 tags:

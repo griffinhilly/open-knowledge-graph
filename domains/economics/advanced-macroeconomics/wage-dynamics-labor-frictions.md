@@ -10,7 +10,7 @@ tags:
 - wages
 - labor-frictions
 - unemployment
-stage: formal-modeling
+stage: formal-systems
 status: draft
 ---
 

@@ -22,7 +22,7 @@ tags:
 - ethics
 - postcolonial
 - Venuti
-stage: analytical
+stage: abstract-reasoning
 status: draft
 ---
 

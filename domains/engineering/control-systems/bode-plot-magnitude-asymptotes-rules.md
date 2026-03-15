@@ -15,7 +15,7 @@ tags:
 - asymptotes
 - magnitude
 - logarithmic-scale
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

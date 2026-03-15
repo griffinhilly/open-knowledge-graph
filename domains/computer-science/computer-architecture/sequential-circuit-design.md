@@ -6,8 +6,6 @@ course: computer-architecture
 prerequisites:
 - id: finite-state-machines
   type: hard
-- id: registers-and-register-files
-  type: soft
 - id: boolean-algebra
   type: soft
 - id: logic-gates-and-circuits

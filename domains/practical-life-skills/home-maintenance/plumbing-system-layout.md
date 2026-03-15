@@ -4,8 +4,10 @@ title: Plumbing System Layout and Components
 domain: practical-life-skills
 course: home-maintenance
 prerequisites:
-- understanding-home-systems
-- plumbing-basics
+- id: understanding-home-systems
+  type: hard
+- id: plumbing-basics
+  type: hard
 builds-toward:
 - fixing-leaky-faucets
 - unclogging-drains

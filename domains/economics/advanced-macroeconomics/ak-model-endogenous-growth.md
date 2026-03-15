@@ -10,7 +10,7 @@ tags:
 - endogenous-growth
 - constant-returns
 - capital-accumulation
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

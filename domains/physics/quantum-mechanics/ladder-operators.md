@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - ladder-operators
 - raising-lowering
-stage: mathematical-application
+stage: formal-systems
 status: draft
 ---
 

@@ -4,8 +4,10 @@ title: Consumption, Places, and Identity Construction
 domain: social-sciences
 course: human-geography
 prerequisites:
-- place-space-social-construction
-- economic-production-distribution
+- id: place-space-social-construction
+  type: hard
+- id: economic-production-distribution
+  type: hard
 builds-toward:
 - climate-human-geography
 tags:

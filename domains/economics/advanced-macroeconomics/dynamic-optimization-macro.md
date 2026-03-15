@@ -18,7 +18,7 @@ tags:
 - mathematical-foundations
 - optimization
 - intertemporal-choice
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

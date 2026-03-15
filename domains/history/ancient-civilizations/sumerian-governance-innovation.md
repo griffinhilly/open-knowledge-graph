@@ -4,8 +4,10 @@ title: Sumerian City-States and Early Governance
 domain: history
 course: ancient-civilizations
 prerequisites:
-- mesopotamia-cradle-of-civilization
-- sumerian-city-states
+- id: mesopotamia-cradle-of-civilization
+  type: hard
+- id: sumerian-city-states
+  type: hard
 builds-toward:
 - hammurabi-code-justice-system
 tags:

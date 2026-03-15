@@ -6,8 +6,6 @@ course: pathophysiology
 prerequisites:
 - id: cell-biology-intro
   type: hard
-- id: cell-injury-and-adaptation
-  type: hard
 builds-toward:
 - left-ventricular-hypertrophy
 - obesity-and-metabolic-syndrome

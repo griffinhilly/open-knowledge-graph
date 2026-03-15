@@ -13,7 +13,7 @@ tags:
 - current-account
 - sustainability
 - foreign-debt
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

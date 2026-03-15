@@ -4,8 +4,10 @@ title: Spartan Society and Military Organization
 domain: history
 course: ancient-civilizations
 prerequisites:
-- polis-greek-political-unit
-- spartan-militarism-and-society
+- id: polis-greek-political-unit
+  type: hard
+- id: spartan-militarism-and-society
+  type: hard
 tags:
 - Sparta
 - militarism

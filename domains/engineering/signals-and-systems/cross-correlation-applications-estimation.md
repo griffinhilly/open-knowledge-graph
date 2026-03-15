@@ -14,7 +14,7 @@ tags:
 - cross-correlation
 - time-delay
 - estimation
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

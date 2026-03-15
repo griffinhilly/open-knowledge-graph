@@ -4,8 +4,10 @@ title: Liminality, Communitas, and Ritual Transformation
 domain: social-sciences
 course: anthropology
 prerequisites:
-- ritual-and-ceremony
-- initiation-rites-passage
+- id: ritual-and-ceremony
+  type: hard
+- id: initiation-rites-passage
+  type: hard
 builds-toward:
 - symbolic-interactionism
 - social-movements

@@ -4,7 +4,8 @@ title: Flooring Types, Assessment, and Care Strategies
 domain: practical-life-skills
 course: home-maintenance
 prerequisites:
-- floor-types-and-maintenance
+- id: floor-types-and-maintenance
+  type: hard
 builds-toward:
 - moisture-and-mold-prevention-strategy
 tags:

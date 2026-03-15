@@ -15,7 +15,7 @@ tags:
 - phillips-curve
 - inflation
 - new-keynesian
-stage: formal-modeling
+stage: formal-systems
 status: draft
 ---
 

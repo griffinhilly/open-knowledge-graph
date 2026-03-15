@@ -18,8 +18,6 @@ prerequisites:
   type: soft
 - id: wave-equation-pde
   type: hard
-- id: elastic-wave-propagation-in-solids
-  type: hard
 builds-toward:
 - earth-interior-structure
 tags:

@@ -4,9 +4,12 @@ title: Type Systems and Type Safety
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- integer-and-floating-point-types
-- boolean-type-and-truth-values
-- string-text-representation
+- id: integer-and-floating-point-types
+  type: hard
+- id: boolean-type-and-truth-values
+  type: hard
+- id: string-text-representation
+  type: hard
 builds-toward:
 - type-conversion-casting
 tags:

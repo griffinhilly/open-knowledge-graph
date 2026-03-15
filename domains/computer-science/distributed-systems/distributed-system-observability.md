@@ -11,7 +11,7 @@ tags:
 - tracing
 - debugging
 - monitoring
-stage: concrete-techniques
+stage: concrete-operations
 status: draft
 ---
 

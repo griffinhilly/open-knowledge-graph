@@ -4,8 +4,10 @@ title: 'Nietzsche: Apollonian and Dionysian Art'
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- schopenhauer-will-and-art
-- form-content-aesthetics
+- id: schopenhauer-will-and-art
+  type: hard
+- id: form-content-aesthetics
+  type: hard
 builds-toward:
 - postmodern-aesthetics-pastiche
 tags:

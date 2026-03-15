@@ -4,8 +4,10 @@ title: Expression Theory of Art
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- form-content-aesthetics
-- kant-judgment-of-beauty
+- id: form-content-aesthetics
+  type: hard
+- id: kant-judgment-of-beauty
+  type: hard
 builds-toward:
 - leo-tolstoy-art-as-communication
 tags:

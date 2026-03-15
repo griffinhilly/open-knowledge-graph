@@ -4,9 +4,12 @@ title: Operator Precedence and Order of Evaluation
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- arithmetic-operators-intro
-- comparison-operators-and-relations
-- logical-operators-and-gates
+- id: arithmetic-operators-intro
+  type: hard
+- id: comparison-operators-and-relations
+  type: hard
+- id: logical-operators-and-gates
+  type: hard
 builds-toward:
 - conditional-statements
 tags:

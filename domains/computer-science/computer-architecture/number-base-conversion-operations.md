@@ -4,8 +4,6 @@ title: Converting Between Binary, Decimal, and Hexadecimal
 domain: computer-science
 course: computer-architecture
 prerequisites:
-- id: binary-number-system
-  type: hard
 - id: hexadecimal-number-system
   type: hard
 builds-toward:

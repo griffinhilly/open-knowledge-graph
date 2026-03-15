@@ -4,8 +4,6 @@ title: Thermochemistry and Standard Formation Properties
 domain: engineering
 course: thermodynamics-engineering
 prerequisites:
-- id: combustion-thermodynamic-analysis
-  type: hard
 - id: chemical-equilibrium-reaction-analysis
   type: hard
 builds-toward:

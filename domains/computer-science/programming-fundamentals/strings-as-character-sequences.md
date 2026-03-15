@@ -4,7 +4,8 @@ title: Strings as Character Sequences
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- string-text-representation
+- id: string-text-representation
+  type: hard
 builds-toward:
 - string-operations
 tags:

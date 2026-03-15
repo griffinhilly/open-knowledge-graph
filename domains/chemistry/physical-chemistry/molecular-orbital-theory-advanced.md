@@ -10,13 +10,9 @@ prerequisites:
   type: hard
 - id: variational-principle-chemistry
   type: hard
-- id: covalent-bonding
-  type: soft
 - id: quantum-mechanics-postulates-core
   type: hard
 - id: eigenvalues-and-eigenvectors
-  type: soft
-- id: molecular-orbital-diagrams
   type: soft
 builds-toward:
 - huckel-molecular-orbital-theory

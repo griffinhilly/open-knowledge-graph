@@ -4,8 +4,10 @@ title: Mandate of Heaven and Political Legitimacy
 domain: history
 course: ancient-civilizations
 prerequisites:
-- yellow-river-civilization-agriculture
-- confucianism-ancient-philosophy
+- id: yellow-river-civilization-agriculture
+  type: hard
+- id: confucianism-ancient-philosophy
+  type: hard
 tags:
 - China
 - Mandate-of-Heaven

@@ -14,7 +14,7 @@ tags:
 - ethics
 - aesthetics
 - interdisciplinary
-stage: analytical
+stage: abstract-reasoning
 status: draft
 ---
 

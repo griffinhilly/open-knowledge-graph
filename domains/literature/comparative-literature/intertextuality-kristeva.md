@@ -26,7 +26,7 @@ tags:
 - intertextuality
 - Kristeva
 - semiotics
-stage: analytical
+stage: abstract-reasoning
 status: draft
 ---
 

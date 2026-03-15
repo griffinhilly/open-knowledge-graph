@@ -17,7 +17,7 @@ tags:
 - growth
 - endogenous
 - innovation
-stage: formal-modeling
+stage: formal-systems
 status: draft
 ---
 

@@ -4,7 +4,8 @@ title: Arithmetic Operators and Operations
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- integer-and-floating-point-types
+- id: integer-and-floating-point-types
+  type: hard
 builds-toward:
 - operator-precedence-and-evaluation
 tags:

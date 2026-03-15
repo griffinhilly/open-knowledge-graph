@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - born-approximation
 - scattering
-stage: mathematical-application
+stage: formal-systems
 status: draft
 ---
 

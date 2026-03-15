@@ -13,7 +13,7 @@ tags:
 - risk-premium
 - consumption-risk
 - business-cycle
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

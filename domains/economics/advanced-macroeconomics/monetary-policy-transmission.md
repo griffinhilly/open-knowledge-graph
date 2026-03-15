@@ -12,7 +12,7 @@ tags:
 - policy-channels
 - propagation
 - lags
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

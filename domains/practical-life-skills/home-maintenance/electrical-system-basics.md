@@ -4,8 +4,10 @@ title: Electrical System Components and Safety
 domain: practical-life-skills
 course: home-maintenance
 prerequisites:
-- understanding-home-systems
-- electrical-safety-basics
+- id: understanding-home-systems
+  type: hard
+- id: electrical-safety-basics
+  type: hard
 builds-toward:
 - outlet-and-switch-replacement
 tags:

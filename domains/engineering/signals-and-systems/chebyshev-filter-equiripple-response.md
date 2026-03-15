@@ -14,7 +14,7 @@ tags:
 - chebyshev
 - equiripple
 - ripple
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

@@ -4,8 +4,10 @@ title: Comparison Operators and Relational Expressions
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- integer-and-floating-point-types
-- boolean-type-and-truth-values
+- id: integer-and-floating-point-types
+  type: hard
+- id: boolean-type-and-truth-values
+  type: hard
 builds-toward:
 - logical-operators-and-gates
 tags:

@@ -4,8 +4,6 @@ title: Triple Integrals in Cartesian Coordinates
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: triple-integrals
-  type: hard
 - id: double-integrals-cartesian
   type: hard
 builds-toward:

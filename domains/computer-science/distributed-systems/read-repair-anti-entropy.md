@@ -15,7 +15,7 @@ tags:
 - repair
 - eventual-consistency
 - durability
-stage: concrete-techniques
+stage: concrete-operations
 status: draft
 ---
 

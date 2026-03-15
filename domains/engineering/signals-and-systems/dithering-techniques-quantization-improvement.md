@@ -14,7 +14,7 @@ tags:
 - quantization
 - noise-shaping
 - resolution
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

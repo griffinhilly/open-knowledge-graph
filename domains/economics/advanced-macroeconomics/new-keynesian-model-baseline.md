@@ -21,7 +21,7 @@ tags:
 - monetary-policy
 - price-stickiness
 - welfare-analysis
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

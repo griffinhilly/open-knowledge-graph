@@ -4,7 +4,8 @@ title: 'Clement Greenberg: Modernism and Critical Formalism'
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- bell-significant-form
+- id: bell-significant-form
+  type: hard
 builds-toward:
 - postmodern-aesthetics-pastiche
 tags:

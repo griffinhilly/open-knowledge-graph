@@ -15,7 +15,7 @@ tags:
 - magnitude-phase
 - closed-loop-response
 - design
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

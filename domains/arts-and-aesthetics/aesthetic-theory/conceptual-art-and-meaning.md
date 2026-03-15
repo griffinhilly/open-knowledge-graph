@@ -4,8 +4,10 @@ title: Conceptual Art and the Dematerialization of Art
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- art-definition-and-ontology
-- george-dickie-institutional-theory-art
+- id: art-definition-and-ontology
+  type: hard
+- id: george-dickie-institutional-theory-art
+  type: hard
 builds-toward:
 - postmodern-aesthetics-pastiche
 tags:

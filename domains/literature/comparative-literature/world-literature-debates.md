@@ -18,7 +18,7 @@ tags:
 - methodology
 - canon
 - debates
-stage: analytical
+stage: abstract-reasoning
 status: draft
 ---
 

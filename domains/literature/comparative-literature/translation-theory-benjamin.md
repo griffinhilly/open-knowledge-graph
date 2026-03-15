@@ -18,7 +18,7 @@ tags:
 - philosophy
 - Benjamin
 - meaning
-stage: analytical
+stage: abstract-reasoning
 status: draft
 ---
 

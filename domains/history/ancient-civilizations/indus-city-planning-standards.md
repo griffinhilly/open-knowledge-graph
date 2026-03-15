@@ -4,8 +4,10 @@ title: Indus Valley Urban Planning and Standardization
 domain: history
 course: ancient-civilizations
 prerequisites:
-- ancient-civilization-characteristics
-- indus-valley-civilization
+- id: ancient-civilization-characteristics
+  type: hard
+- id: indus-valley-civilization
+  type: hard
 builds-toward:
 - indus-script-decipherment-challenges
 tags:

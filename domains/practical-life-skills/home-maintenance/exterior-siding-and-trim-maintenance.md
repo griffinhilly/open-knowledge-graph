@@ -4,8 +4,10 @@ title: Exterior Siding, Trim, and Weather Barrier Maintenance
 domain: practical-life-skills
 course: home-maintenance
 prerequisites:
-- understanding-home-systems
-- exterior-siding-repair
+- id: understanding-home-systems
+  type: hard
+- id: exterior-siding-repair
+  type: hard
 builds-toward:
 - caulking-and-weatherstripping
 - window-weatherization

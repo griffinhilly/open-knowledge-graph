@@ -4,7 +4,8 @@ title: Boolean Type and Truth Values
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- memory-and-data-storage
+- id: memory-and-data-storage
+  type: hard
 builds-toward:
 - logical-operators-and-gates
 - conditional-statements

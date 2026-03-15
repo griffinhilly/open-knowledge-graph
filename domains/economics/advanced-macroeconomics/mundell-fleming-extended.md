@@ -15,7 +15,7 @@ tags:
 - exchange-rates
 - capital-flows
 - trilemma
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

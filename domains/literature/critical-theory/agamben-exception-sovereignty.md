@@ -4,8 +4,6 @@ title: Agamben, Exception, and Sovereignty
 domain: literature
 course: critical-theory
 prerequisites:
-- id: agamben-exception-sovereignty
-  type: hard
 - id: biopolitics-sovereign-power-agamben
   type: hard
 builds-toward:

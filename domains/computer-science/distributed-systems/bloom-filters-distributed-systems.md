@@ -13,7 +13,7 @@ tags:
 - probabilistic
 - membership
 - space-efficient
-stage: concrete-techniques
+stage: concrete-operations
 status: draft
 ---
 

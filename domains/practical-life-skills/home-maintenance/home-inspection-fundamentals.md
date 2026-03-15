@@ -4,7 +4,8 @@ title: Home Inspection Fundamentals and Documentation
 domain: practical-life-skills
 course: home-maintenance
 prerequisites:
-- understanding-home-systems
+- id: understanding-home-systems
+  type: hard
 builds-toward:
 - foundation-and-structural-assessment
 - moisture-and-mold-prevention-strategy

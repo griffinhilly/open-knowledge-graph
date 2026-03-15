@@ -14,7 +14,7 @@ tags:
 - leakage
 - windowing
 - trade-offs
-stage: concrete-application
+stage: concrete-operations
 status: draft
 ---
 

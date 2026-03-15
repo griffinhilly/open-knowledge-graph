@@ -4,7 +4,8 @@ title: Else-If Chains and Multiple Conditions
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- conditional-statements-branching
+- id: conditional-statements-branching
+  type: hard
 builds-toward:
 - switch-statements
 tags:

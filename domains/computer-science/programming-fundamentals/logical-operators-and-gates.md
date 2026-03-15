@@ -4,8 +4,10 @@ title: Logical Operators and Boolean Algebra
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- boolean-type-and-truth-values
-- comparison-operators-and-relations
+- id: boolean-type-and-truth-values
+  type: hard
+- id: comparison-operators-and-relations
+  type: hard
 builds-toward:
 - operator-precedence-and-evaluation
 tags:

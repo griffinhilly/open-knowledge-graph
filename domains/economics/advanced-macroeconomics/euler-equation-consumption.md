@@ -20,7 +20,7 @@ tags:
 - euler-equation
 - consumption
 - substitution
-stage: formal-modeling
+stage: formal-systems
 status: draft
 ---
 

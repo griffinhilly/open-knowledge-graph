@@ -12,14 +12,12 @@ prerequisites:
   type: soft
 - id: differential-equations-intro
   type: soft
-- id: time-series-cross-section
-  type: hard
 tags:
 - time-series
 - autocorrelation
 - stationarity
 - policy-evaluation
-stage: professional-practice
+stage: advanced
 status: draft
 ---
 

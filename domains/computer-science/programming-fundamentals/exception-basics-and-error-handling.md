@@ -4,7 +4,8 @@ title: Exception Basics and Error Handling
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- program-structure-and-flow
+- id: program-structure-and-flow
+  type: hard
 tags:
 - errors
 - exceptions

@@ -4,8 +4,10 @@ title: Representation and Mimesis in Art
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- plato-form-and-beauty
-- aristotle-tragedy-catharsis
+- id: plato-form-and-beauty
+  type: hard
+- id: aristotle-tragedy-catharsis
+  type: hard
 builds-toward:
 - benjamin-reproducibility-art
 - postmodern-aesthetics-pastiche

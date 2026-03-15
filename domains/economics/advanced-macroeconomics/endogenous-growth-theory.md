@@ -19,7 +19,7 @@ tags:
 - innovation
 - human-capital
 - increasing-returns
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

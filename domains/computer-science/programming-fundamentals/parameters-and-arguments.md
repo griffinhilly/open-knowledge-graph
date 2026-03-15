@@ -4,7 +4,8 @@ title: Function Parameters and Argument Passing
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- function-definition-and-calls
+- id: function-definition-and-calls
+  type: hard
 builds-toward:
 - return-values
 - variable-scope

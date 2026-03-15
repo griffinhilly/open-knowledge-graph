@@ -4,7 +4,8 @@ title: Return Statements and Return Values
 domain: computer-science
 course: programming-fundamentals
 prerequisites:
-- parameters-and-arguments
+- id: parameters-and-arguments
+  type: hard
 builds-toward:
 - variable-scope
 tags:

@@ -4,8 +4,6 @@ title: The Arrhenius Equation and Activation Energy
 domain: chemistry
 course: general-chemistry
 prerequisites:
-- id: chemical-kinetics
-  type: hard
 - id: exponential-functions-and-graphs
   type: soft
 - id: logarithms-intro

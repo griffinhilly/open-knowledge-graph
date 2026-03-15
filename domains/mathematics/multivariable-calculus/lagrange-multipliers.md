@@ -4,8 +4,6 @@ title: Lagrange Multipliers
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: lagrange-multipliers
-  type: hard
 - id: implicit-differentiation-multivariable
   type: hard
 builds-toward:

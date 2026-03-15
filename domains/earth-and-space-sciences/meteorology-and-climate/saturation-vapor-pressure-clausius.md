@@ -4,8 +4,6 @@ title: Saturation Vapor Pressure and Clausius-Clapeyron Relation
 domain: earth-and-space-sciences
 course: meteorology-and-climate
 prerequisites:
-- id: saturation-and-dew-point
-  type: hard
 - id: phase-diagrams-clausius-clapeyron
   type: hard
 builds-toward:

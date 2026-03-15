@@ -12,8 +12,6 @@ prerequisites:
   type: hard
 - id: wave-equation-pde
   type: hard
-- id: stress-strain-rock-deformation
-  type: soft
 - id: wave-equation-one-dimensional
   type: hard
 builds-toward:

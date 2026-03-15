@@ -15,7 +15,7 @@ tags:
 - debt
 - tax-timing
 - consumption-smoothing
-stage: graduate-level
+stage: advanced
 status: draft
 ---
 

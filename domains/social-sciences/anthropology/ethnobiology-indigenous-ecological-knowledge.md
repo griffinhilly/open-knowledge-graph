@@ -4,7 +4,8 @@ title: Ethnobiology and Indigenous Ecological Knowledge
 domain: social-sciences
 course: anthropology
 prerequisites:
-- local-knowledge-epistemology
+- id: local-knowledge-epistemology
+  type: hard
 builds-toward:
 - medical-anthropology
 - development-practice-applied-anthropology

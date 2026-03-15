@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - ladder-operators
 - quantum-fields
-stage: mathematical-application
+stage: formal-systems
 status: draft
 ---
 
