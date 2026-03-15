@@ -20,6 +20,8 @@ prerequisites:
   type: hard
 - id: differential-equations-intro
   type: hard
+- id: trigonometric-functions-and-graphs
+  type: soft
 builds-toward:
 - spring-mass-system
 - simple-pendulum

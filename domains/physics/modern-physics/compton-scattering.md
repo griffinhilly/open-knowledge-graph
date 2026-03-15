@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: special-relativity-postulates
   type: soft
+- id: trigonometric-ratios-review
+  type: soft
 builds-toward:
 - wave-particle-duality
 tags:

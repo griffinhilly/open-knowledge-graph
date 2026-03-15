@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: conservation-of-energy
   type: soft
+- id: differential-equations-intro
+  type: soft
 tags:
 - spring
 - oscillation

@@ -6,6 +6,8 @@ course: electricity-and-magnetism
 prerequisites:
 - id: resistor-combinations
   type: hard
+- id: systems-of-linear-equations
+  type: soft
 builds-toward:
 - rc-transient-response
 tags:

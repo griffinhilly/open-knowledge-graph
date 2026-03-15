@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: phase-and-phase-relationships
   type: hard
+- id: trigonometric-identities
+  type: soft
 builds-toward:
 - two-source-interference-patterns
 - thin-film-interference

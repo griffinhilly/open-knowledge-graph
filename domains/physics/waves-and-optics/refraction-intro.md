@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: huygens-principle
   type: soft
+- id: trigonometric-ratios-review
+  type: soft
 builds-toward:
 - snells-law
 - total-internal-reflection

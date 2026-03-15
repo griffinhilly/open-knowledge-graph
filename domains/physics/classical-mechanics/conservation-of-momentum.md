@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: center-of-mass
   type: soft
+- id: systems-of-linear-equations
+  type: soft
 builds-toward:
 - collisions-elastic-inelastic
 tags:

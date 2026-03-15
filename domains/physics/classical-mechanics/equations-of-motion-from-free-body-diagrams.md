@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: vector-addition-subtraction
   type: hard
+- id: vectors-in-3d
+  type: soft
 builds-toward:
 - projectile-motion
 - static-equilibrium

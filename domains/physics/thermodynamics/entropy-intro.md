@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: natural-logarithm-and-e
   type: soft
+- id: logarithms-intro
+  type: soft
 builds-toward:
 - entropy-in-thermodynamic-processes
 - statistical-interpretation-of-entropy

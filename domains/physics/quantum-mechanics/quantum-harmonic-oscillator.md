@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: canonical-commutation-relations
   type: hard
+- id: differential-equations-intro
+  type: soft
 builds-toward:
 - ladder-operators
 tags:

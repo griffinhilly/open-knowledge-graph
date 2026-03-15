@@ -6,6 +6,8 @@ course: quantum-mechanics
 prerequisites:
 - id: linear-algebra
   type: hard
+- id: vector-spaces
+  type: soft
 builds-toward:
 - kets-and-bras
 - observables-and-operators

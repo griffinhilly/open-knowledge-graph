@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: sound-intensity-and-decibels
   type: soft
+- id: trigonometric-functions-and-graphs
+  type: soft
 tags:
 - Doppler
 - frequency shift

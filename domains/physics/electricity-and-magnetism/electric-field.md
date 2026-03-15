@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vectors-in-two-dimensions
   type: hard
+- id: vector-fields
+  type: soft
 builds-toward:
 - electric-flux
 - electric-potential

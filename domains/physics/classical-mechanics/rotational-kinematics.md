@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: converting-degrees-and-radians
   type: hard
+- id: trigonometric-functions-and-graphs
+  type: soft
 builds-toward:
 - torque
 - rotational-dynamics

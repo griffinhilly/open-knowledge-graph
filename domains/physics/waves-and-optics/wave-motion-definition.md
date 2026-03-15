@@ -6,6 +6,8 @@ course: waves-and-optics
 prerequisites:
 - id: simple-harmonic-motion
   type: hard
+- id: periodic-functions
+  type: soft
 builds-toward:
 - transverse-wave-characteristics
 - longitudinal-wave-characteristics

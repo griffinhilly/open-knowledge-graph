@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: differential-equations-intro
   type: hard
+- id: partial-derivatives
+  type: soft
 builds-toward:
 - hydrogen-radial-wavefunction
 - principal-angular-magnetic-quantum-numbers
