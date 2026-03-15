@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: t-distribution-theory
   type: soft
+- id: hypothesis-test-framework
+  type: hard
 builds-toward:
 - effect-size-practical-significance-reporting
 tags:

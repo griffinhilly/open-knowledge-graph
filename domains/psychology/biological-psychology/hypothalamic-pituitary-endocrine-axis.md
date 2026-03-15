@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hypothalamus-pituitary-axis
   type: soft
+- id: hormone-signaling-mechanisms
+  type: hard
 tags:
 - hypothalamus
 - pituitary

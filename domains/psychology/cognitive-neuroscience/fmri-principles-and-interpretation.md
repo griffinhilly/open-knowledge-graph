@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: neuroimaging-methods
   type: hard
+- id: normal-distribution
+  type: soft
 builds-toward:
 - visual-cortex-hierarchical-organization
 - dorsolateral-prefrontal-cortex-cognitive-control

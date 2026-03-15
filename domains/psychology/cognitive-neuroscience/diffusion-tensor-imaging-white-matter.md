@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: myelin-and-myelination
   type: soft
+- id: linear-transformation-matrix-representation
+  type: soft
 builds-toward:
 - white-matter-plasticity-learning
 - white-matter-development-myelination-trajectory

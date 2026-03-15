@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: receptor-signaling-pathways
   type: soft
+- id: receptor-mediated-endocytosis
+  type: soft
 builds-toward:
 - intracellular-signaling-and-second-messengers
 tags:

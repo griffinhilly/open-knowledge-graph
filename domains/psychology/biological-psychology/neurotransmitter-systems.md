@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: neurotransmitter-synthesis-storage
   type: hard
+- id: protein-structure-and-function
+  type: soft
+- id: enzyme-kinetics
+  type: soft
 builds-toward:
 - receptor-types-and-signaling
 - psychopharmacology-basics

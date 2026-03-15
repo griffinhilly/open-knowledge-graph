@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: brain-lobes-and-functions
   type: soft
+- id: fourier-series-definition
+  type: soft
 builds-toward:
 - neuroimaging-cognitive-mapping
 - statistical-inference-neuroimaging

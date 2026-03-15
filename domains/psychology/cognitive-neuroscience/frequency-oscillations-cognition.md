@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: attention-networks-brain
   type: soft
+- id: fourier-series-definition
+  type: soft
 tags:
 - oscillations
 - frequency

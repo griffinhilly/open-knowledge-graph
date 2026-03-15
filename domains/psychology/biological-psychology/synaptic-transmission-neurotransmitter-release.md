@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: synaptic-vesicle-release-exocytosis
   type: hard
+- id: exocytosis-snare-proteins-membrane-fusion
+  type: hard
 builds-toward:
 - receptor-subtypes-and-signaling
 - synaptic-plasticity-mechanisms

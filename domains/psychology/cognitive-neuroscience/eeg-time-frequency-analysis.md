@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: frequency-oscillations-cognition
   type: hard
+- id: fourier-series-lp-theory
+  type: soft
 builds-toward:
 - attention-switching-theta-oscillations
 - working-memory-theta-gamma-coupling

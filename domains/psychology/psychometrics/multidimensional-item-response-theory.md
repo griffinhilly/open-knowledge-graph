@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: confirmatory-factor-analysis
   type: hard
+- id: eigenvalues-eigenvectors
+  type: soft
 builds-toward:
 - dimensionality-assessment-and-bifactor-models
 tags:

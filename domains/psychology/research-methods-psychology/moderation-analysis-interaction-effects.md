@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: correlational-research-design
   type: soft
+- id: linear-regression
+  type: soft
 builds-toward:
 - research-design-selection-matching-question
 - exploratory-vs-confirmatory-analysis-strategies

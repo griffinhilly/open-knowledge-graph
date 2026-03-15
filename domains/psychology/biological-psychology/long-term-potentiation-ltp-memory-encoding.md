@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: long-term-potentiation
   type: hard
+- id: experience-dependent-plasticity-learning
+  type: hard
 builds-toward:
 - memory-consolidation-systems
 - learning-and-experience-dependent-plasticity

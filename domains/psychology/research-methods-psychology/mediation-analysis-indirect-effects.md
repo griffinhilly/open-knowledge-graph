@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: longitudinal-designs-temporal-change-patterns
   type: soft
+- id: linear-regression
+  type: soft
 builds-toward:
 - moderation-analysis-interaction-effects
 - exploratory-vs-confirmatory-analysis-strategies

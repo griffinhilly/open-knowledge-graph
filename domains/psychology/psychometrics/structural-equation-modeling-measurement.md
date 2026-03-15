@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: linear-algebra applications
   type: hard
+- id: linear-transformation-matrix-representation
+  type: soft
 builds-toward:
 - differential-item-functioning
 tags:

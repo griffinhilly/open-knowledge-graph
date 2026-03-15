@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: action-potential
   type: hard
+- id: voltage-gated-sodium-channels
+  type: hard
 builds-toward:
 - synaptic-transmission-neurotransmitter-release
 - myelin-and-saltatory-conduction

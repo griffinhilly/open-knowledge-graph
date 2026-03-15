@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: gene-expression-overview
   type: soft
+- id: gene-expression-central-dogma
+  type: soft
 tags:
 - heritability
 - twin-studies

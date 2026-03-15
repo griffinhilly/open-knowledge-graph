@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: action-potential
   type: soft
+- id: fourier-series-definition
+  type: soft
 builds-toward:
 - erp-components-attention
 - frequency-oscillations-cognition

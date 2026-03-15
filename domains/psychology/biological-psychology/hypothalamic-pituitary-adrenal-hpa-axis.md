@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: adrenal-steroid-hormones-stress-response
   type: soft
+- id: anterior-pituitary-hormone-axes
+  type: hard
 builds-toward:
 - stress-response-and-coping
 - depression-and-hpa-dysregulation

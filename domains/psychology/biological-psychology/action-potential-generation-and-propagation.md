@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: action-potential-depolarization-repolarization
   type: hard
+- id: ion-channels-selectivity
+  type: hard
 builds-toward:
 - synaptic-transmission-process
 tags:
