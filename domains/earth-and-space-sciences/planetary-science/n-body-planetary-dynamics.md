@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: conservation-of-energy
   type: soft
+- id: systems-of-first-order-linear-odes
+  type: hard
+- id: orbital-elements-and-trajectories
+  type: soft
 builds-toward:
 - multi-planet-system-architecture
 tags:

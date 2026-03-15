@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: conservation-of-angular-momentum
   type: soft
+- id: differential-equations
+  type: hard
 builds-toward:
 - exoplanet-orbital-determination-methods
 - planetary-mass-determination-techniques

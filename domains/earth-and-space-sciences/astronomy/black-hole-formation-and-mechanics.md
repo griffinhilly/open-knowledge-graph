@@ -6,6 +6,8 @@ course: astronomy
 prerequisites:
 - id: stellar-nucleosynthesis
   type: hard
+- id: general-relativity-intro
+  type: soft
 builds-toward:
 - accretion-disk-physics
 - gamma-ray-burst-jet-physics

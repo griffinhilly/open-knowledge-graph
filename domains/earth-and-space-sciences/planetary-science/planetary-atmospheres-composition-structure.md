@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: gravity-potential-theory-earths-field
   type: soft
+- id: thermodynamics-intro
+  type: soft
+- id: atmospheric-circulation-planets
+  type: soft
 builds-toward:
 - atmospheric-circulation-planets
 - atmospheric-escape-mechanisms

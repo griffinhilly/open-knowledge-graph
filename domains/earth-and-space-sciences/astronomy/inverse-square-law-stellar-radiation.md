@@ -6,6 +6,8 @@ course: astronomy
 prerequisites:
 - id: apparent-magnitude-brightness-measurement
   type: hard
+- id: inverse-square-law-point-interactions
+  type: hard
 builds-toward:
 - stellar-effective-temperature-color
 - stellar-interior-structure-hydrostatic-equilibrium

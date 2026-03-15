@@ -6,6 +6,8 @@ course: geophysics
 prerequisites:
 - id: earths-magnetic-dipole-field-basics
   type: hard
+- id: magnetohydrodynamics
+  type: hard
 tags:
 - geomagnetism
 - dynamo

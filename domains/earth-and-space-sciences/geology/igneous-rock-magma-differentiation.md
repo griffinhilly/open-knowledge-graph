@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: equilibrium-chemical
   type: soft
+- id: fractional-crystallization-magmatic-differentiation
+  type: soft
 builds-toward:
 - bowen-reaction-series-crystallization
 - volcano-classification-magma-types

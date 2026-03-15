@@ -6,6 +6,10 @@ course: climate-science
 prerequisites:
 - id: ocean-chemistry-and-nutrients
   type: hard
+- id: acid-base-chemistry
+  type: hard
+- id: equilibrium-expression-kc-kp-constants
+  type: hard
 builds-toward:
 - marine-biological-pump
 - anthropogenic-carbon-cycle

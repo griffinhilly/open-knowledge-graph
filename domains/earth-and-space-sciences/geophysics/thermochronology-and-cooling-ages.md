@@ -6,6 +6,10 @@ course: geophysics
 prerequisites:
 - id: thermal-conductivity-and-rocks
   type: hard
+- id: heat-equation-pde
+  type: hard
+- id: radioactive-decay
+  type: hard
 tags:
 - thermochronology
 - cooling-ages

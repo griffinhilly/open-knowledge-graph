@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: quantum-tunneling-and-reaction-rates
   type: soft
+- id: thermodynamics-intro
+  type: soft
 builds-toward:
 - stellar-fusion-cno-cycle
 - main-sequence-lifetime-mass-luminosity-relation

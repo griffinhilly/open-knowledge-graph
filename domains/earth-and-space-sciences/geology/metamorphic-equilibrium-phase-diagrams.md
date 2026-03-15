@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: equilibrium-expression-kc-kp-constants
   type: soft
+- id: phase-diagrams
+  type: hard
+- id: gibbs-free-energy
+  type: hard
 builds-toward:
 - thermobarometry-estimates-metamorphic
 tags:

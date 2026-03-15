@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: convection-natural-and-forced
   type: soft
+- id: rayleigh-benard-convection
+  type: soft
+- id: boussinesq-approximation
+  type: soft
 builds-toward:
 - subduction-zone-structure-and-dynamics
 - mid-ocean-ridge-dynamics-and-geophysics

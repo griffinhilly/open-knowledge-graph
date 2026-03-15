@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: conservation-of-energy
   type: hard
+- id: wave-equation-pde
+  type: hard
+- id: stress-strain-rock-deformation
+  type: soft
 builds-toward:
 - seismic-body-waves-p-and-s
 - seismic-surface-waves-rayleigh-love

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: ideal-gas-law
   type: soft
+- id: first-law-of-thermodynamics
+  type: hard
 builds-toward:
 - convective-instability-indices
 - atmospheric-stability-convection

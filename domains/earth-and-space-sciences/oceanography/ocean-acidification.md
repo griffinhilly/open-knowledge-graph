@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: chemical-equilibrium
   type: soft
+- id: ocean-carbonate-system
+  type: hard
 builds-toward:
 - coral-reef-ecosystems
 tags:

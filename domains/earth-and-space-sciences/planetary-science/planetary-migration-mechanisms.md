@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: orbital-mechanics
   type: soft
+- id: orbital-resonance-capture
+  type: soft
 builds-toward:
 - orbital-resonance-capture
 - multi-planet-system-architecture

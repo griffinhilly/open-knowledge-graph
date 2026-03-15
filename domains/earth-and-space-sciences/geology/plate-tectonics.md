@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: stress-strain-rock-deformation
   type: soft
+- id: mantle-convection-and-dynamics
+  type: soft
 builds-toward:
 - tectonic-boundaries
 - volcanoes-and-volcanism

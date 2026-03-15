@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: beers-law
   type: soft
+- id: spectroscopy-fundamentals
+  type: hard
 builds-toward:
 - biosignatures-exoplanet-atmospheres
 tags:

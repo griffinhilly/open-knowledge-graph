@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: linear-algebra
   type: soft
+- id: central-force-motion-analysis
+  type: hard
 builds-toward:
 - tidal-forces-and-locking
 - orbital-resonances-dynamics

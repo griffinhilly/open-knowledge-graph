@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: temperature-and-thermal-equilibrium
   type: soft
+- id: density-driven-flow
+  type: hard
+- id: buoyancy-forces
+  type: soft
 builds-toward:
 - polar-oceanography
 - sea-level-change

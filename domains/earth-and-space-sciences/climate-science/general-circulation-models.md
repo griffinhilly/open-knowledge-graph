@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: thermodynamic-processes
   type: soft
+- id: numerical-methods
+  type: hard
+- id: partial-differential-equations
+  type: hard
 builds-toward:
 - climate-projections-modeling
 - climate-sensitivity-radiative-feedbacks

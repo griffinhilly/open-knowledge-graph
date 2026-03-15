@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: wave-equation-one-dimensional
   type: soft
+- id: geometric-optics-ray-approximation
+  type: hard
 builds-toward:
 - seismic-refraction-surveys
 - seismic-tomography-velocity-imaging

@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: phase-diagrams-binary-mixtures
   type: soft
+- id: phase-diagrams
+  type: hard
+- id: thermochemistry-heat-and-energy
+  type: soft
 builds-toward:
 - bowen-fractional-crystallization
 - subduction-magmatism

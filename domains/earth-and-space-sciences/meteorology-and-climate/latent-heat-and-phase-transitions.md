@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: heat-and-internal-energy
   type: soft
+- id: phase-changes-and-diagrams
+  type: hard
+- id: enthalpy-definition-and-significance
+  type: hard
 builds-toward:
 - saturation-and-dew-point
 - latent-heating-in-weather-systems

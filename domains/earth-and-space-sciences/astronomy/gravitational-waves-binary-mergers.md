@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: black-hole-formation-and-mechanics
   type: soft
+- id: general-relativity-intro
+  type: soft
 tags:
 - gravitational-waves
 - compact-objects

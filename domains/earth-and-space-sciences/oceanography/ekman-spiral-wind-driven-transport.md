@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: vector-fields
   type: soft
+- id: coriolis-effect-ocean-dynamics
+  type: hard
+- id: viscous-flow
+  type: hard
 builds-toward:
 - continental-shelf-circulation
 tags:

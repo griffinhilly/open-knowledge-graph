@@ -6,6 +6,10 @@ course: geology
 prerequisites:
 - id: plate-tectonics-driving-forces
   type: hard
+- id: stress-tensor-inversion-from-earthquakes
+  type: soft
+- id: youngs-modulus-elasticity
+  type: soft
 builds-toward:
 - brittle-ductile-transition
 - fault-mechanics-rupture

@@ -6,6 +6,8 @@ course: astronomy
 prerequisites:
 - id: celestial-coordinates
   type: soft
+- id: trigonometry
+  type: hard
 builds-toward:
 - spectral-photometry-colors
 - star-clusters-age-dating

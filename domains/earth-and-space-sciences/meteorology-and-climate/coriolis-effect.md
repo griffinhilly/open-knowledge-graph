@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: vectors-in-two-dimensions
   type: soft
+- id: non-inertial-frames-fictitious-forces
+  type: hard
 builds-toward:
 - pressure-systems-and-winds
 - global-atmospheric-circulation

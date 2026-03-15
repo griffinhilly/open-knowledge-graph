@@ -3,7 +3,11 @@ id: celestial-coordinates
 title: Celestial Coordinate Systems
 domain: earth-and-space-sciences
 course: astronomy
-prerequisites: []
+prerequisites:
+- id: spherical-coordinates
+  type: hard
+- id: trigonometry
+  type: hard
 builds-toward:
 - stellar-parallax-and-distance
 - solar-system-structure

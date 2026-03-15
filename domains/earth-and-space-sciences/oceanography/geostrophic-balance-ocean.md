@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: geostrophic-wind-and-balance
   type: soft
+- id: coriolis-effect
+  type: hard
+- id: pressure-gradient-force
+  type: soft
 builds-toward:
 - ekman-spiral-wind-driven-transport
 - mesoscale-eddy-dynamics

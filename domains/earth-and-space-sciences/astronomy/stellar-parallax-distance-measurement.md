@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: apparent-magnitude-brightness-measurement
   type: soft
+- id: trigonometry
+  type: hard
 builds-toward:
 - inverse-square-law-stellar-radiation
 - galaxy-classification-and-morphology

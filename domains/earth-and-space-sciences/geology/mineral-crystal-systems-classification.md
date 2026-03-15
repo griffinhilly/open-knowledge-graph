@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: ionic-bonding
   type: soft
+- id: crystal-structures-and-properties
+  type: hard
+- id: group-theory-molecular-symmetry
+  type: soft
 builds-toward:
 - igneous-rock-magma-differentiation
 - sedimentary-rock-detrital-chemical

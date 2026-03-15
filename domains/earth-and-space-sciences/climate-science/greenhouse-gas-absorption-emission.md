@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: ir-spectroscopy-basics
   type: soft
+- id: spectroscopy-fundamentals
+  type: hard
+- id: quantum-mechanics-postulates-core
+  type: soft
 builds-toward:
 - radiative-forcing-greenhouse-gases
 - line-by-line-radiative-transfer

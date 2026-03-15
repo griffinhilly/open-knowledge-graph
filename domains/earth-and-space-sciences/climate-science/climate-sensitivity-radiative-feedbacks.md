@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: energy-balance-models
   type: soft
+- id: radiative-transfer-atmospheric
+  type: hard
+- id: feedback-mechanisms-in-climate
+  type: soft
 builds-toward:
 - climate-projections-modeling
 tags:

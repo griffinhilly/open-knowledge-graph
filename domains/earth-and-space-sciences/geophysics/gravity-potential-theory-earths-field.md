@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: earth-interior-structure
   type: soft
+- id: potential-theory-and-methods
+  type: hard
+- id: laplaces-equation
+  type: hard
 builds-toward:
 - gravity-anomalies-and-interpretation
 - geoid-determination-and-geodesy

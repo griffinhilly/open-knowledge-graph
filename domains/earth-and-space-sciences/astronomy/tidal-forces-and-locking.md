@@ -6,6 +6,8 @@ course: astronomy
 prerequisites:
 - id: two-body-orbital-problem
   type: hard
+- id: gravitational-potential-energy-extended
+  type: hard
 builds-toward:
 - moon-earth-system-dynamics
 - lunar-geology-and-history
