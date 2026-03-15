@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: probability-axioms-and-rules
   type: soft
+- id: markov-chains
+  type: soft
+- id: probability-rules-for-events
+  type: soft
 builds-toward:
 - entropy-predictability-music
 tags:

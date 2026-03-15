@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: logarithms-intro
   type: soft
+- id: modular-arithmetic
+  type: soft
 tags:
 - microtonality
 - harmony

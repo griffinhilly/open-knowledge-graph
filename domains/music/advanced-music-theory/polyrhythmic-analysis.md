@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: fractions
   type: soft
+- id: lcm-gcd
+  type: soft
 builds-toward:
 - rhythmic-dissonance-resolution
 - metric-modulation-theory-advanced

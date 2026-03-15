@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: graph-theory-intro
   type: soft
+- id: graph-connectivity
+  type: soft
 builds-toward:
 - orchestration-harmonic-function
 tags:

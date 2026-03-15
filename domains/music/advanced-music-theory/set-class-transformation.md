@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: permutation-groups
   type: soft
+- id: binary-operations-algebraic-structures
+  type: soft
 builds-toward:
 - post-tonal-harmonic-analysis
 tags:

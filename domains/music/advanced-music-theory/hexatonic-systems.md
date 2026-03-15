@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: pitch-class-sets-introduction
   type: soft
+- id: modular-arithmetic
+  type: soft
 tags:
 - hexatonic
 - pitch-class

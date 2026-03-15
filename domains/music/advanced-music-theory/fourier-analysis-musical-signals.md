@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: complex-exponential-form
   type: soft
+- id: complex-exponential-function
+  type: soft
 builds-toward:
 - information-theory-music
 - psychoacoustics-perception-theory

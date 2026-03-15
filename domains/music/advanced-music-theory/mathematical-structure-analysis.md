@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: group-basic-properties
   type: soft
+- id: group-definition-and-examples
+  type: soft
+- id: binary-operations-algebraic-structures
+  type: soft
 builds-toward:
 - entropy-predictability-music
 tags:

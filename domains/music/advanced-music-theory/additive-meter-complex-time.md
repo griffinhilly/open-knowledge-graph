@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: ratios
   type: soft
+- id: arithmetic-sequences
+  type: soft
 tags:
 - meter
 - additive

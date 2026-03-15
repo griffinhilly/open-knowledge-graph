@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: algorithm-complexity
   type: soft
+- id: algorithm-analysis-big-o
+  type: soft
+- id: recursion
+  type: soft
 builds-toward:
 - musical-mathematics-symmetry
 - information-theory-music

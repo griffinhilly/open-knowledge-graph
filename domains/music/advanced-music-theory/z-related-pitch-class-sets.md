@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: set-operations
   type: soft
+- id: equivalence-relations
+  type: soft
 builds-toward:
 - pitch-class-set-cartography
 - neo-riemannian-extended-systems

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: permutations
   type: soft
+- id: set-fundamentals
+  type: soft
 builds-toward:
 - set-class-equivalence
 - twelve-tone-matrix-construction

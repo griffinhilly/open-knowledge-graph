@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: combinations-and-selections
   type: soft
+- id: combinatorics
+  type: soft
+- id: permutations
+  type: soft
 builds-toward:
 - serial-composition-analysis
 tags:

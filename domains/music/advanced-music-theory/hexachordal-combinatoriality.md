@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: combinations-and-selections
   type: soft
+- id: combinatorics
+  type: soft
+- id: binomial-coefficients
+  type: soft
 builds-toward:
 - aggregate-completion-theory
 tags:

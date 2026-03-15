@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: logarithm-properties
   type: soft
+- id: conditional-probability
+  type: hard
 tags:
 - information-theory
 - entropy

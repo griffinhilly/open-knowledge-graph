@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: logarithm-properties
   type: soft
+- id: expected-value-theory
+  type: soft
 builds-toward:
 - psychoacoustics-perception-theory
 tags:

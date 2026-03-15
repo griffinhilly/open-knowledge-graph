@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: fractions
   type: soft
+- id: divisibility-and-primes-discrete
+  type: soft
 builds-toward:
 - microtonal-systems-analysis
 - spectral-composition-acoustics

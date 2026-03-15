@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: fourier-series-definition
   type: soft
+- id: real-analysis-basics
+  type: soft
 builds-toward:
 - orchestral-timbre-analysis
 tags:

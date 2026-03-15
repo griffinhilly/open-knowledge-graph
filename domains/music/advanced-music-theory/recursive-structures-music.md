@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: recurrence-relations-definition
   type: soft
+- id: recursion
+  type: soft
+- id: sequences-convergence
+  type: soft
 builds-toward:
 - mathematical-structure-analysis
 tags:

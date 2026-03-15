@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: proportions
   type: soft
+- id: fourier-series-definition
+  type: soft
 builds-toward:
 - timbre-evolution-analysis
 - frequency-modulation-synthesis-theory

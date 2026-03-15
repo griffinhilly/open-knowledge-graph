@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: complex-exponential-form
   type: soft
+- id: trigonometric-identities-pythagorean
+  type: soft
+- id: derivatives-of-trigonometric-functions
+  type: soft
 builds-toward:
 - granular-synthesis-composition
 - algorithmic-composition-theory

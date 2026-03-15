@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: graph-theory-fundamentals
   type: soft
+- id: graph-connectivity
+  type: soft
+- id: shortest-paths-unweighted-graphs
+  type: soft
 builds-toward:
 - triadic-transformation-cycles
 - neo-riemannian-voice-leading-graphs

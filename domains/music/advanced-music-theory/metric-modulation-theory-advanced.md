@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: proportional-relationships
   type: soft
+- id: direct-and-inverse-variation
+  type: soft
 builds-toward:
 - temporal-proportions-ratios
 - free-jazz-organizational-structures

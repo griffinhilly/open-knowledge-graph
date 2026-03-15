@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: least-common-multiple
   type: soft
+- id: lcm-gcd
+  type: soft
 builds-toward:
 - isorhythmic-structures-modern
 tags:

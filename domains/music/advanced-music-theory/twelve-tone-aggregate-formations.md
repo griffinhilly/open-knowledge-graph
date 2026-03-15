@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: permutations
   type: soft
+- id: combinatorics
+  type: soft
 builds-toward:
 - derived-row-techniques
 - pitch-class-set-cartography

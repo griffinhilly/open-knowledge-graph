@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: group-definition-and-examples
   type: soft
+- id: composition-of-functions
+  type: soft
 builds-toward:
 - combinatoriality-serial-composition
 - serial-composition-analysis

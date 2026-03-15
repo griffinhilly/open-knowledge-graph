@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: metric-modulation-theory
   type: soft
+- id: periodic-functions
+  type: soft
 builds-toward:
 - stochastic-composition
 tags:

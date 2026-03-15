@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: coordinate-geometry-proofs
   type: soft
+- id: cartesian-product
+  type: soft
 builds-toward:
 - neo-riemannian-extended-systems
 - musical-mathematics-symmetry

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: least-common-multiple
   type: soft
+- id: lcm-gcd
+  type: soft
 tags:
 - polymetric
 - polyrhythmic
