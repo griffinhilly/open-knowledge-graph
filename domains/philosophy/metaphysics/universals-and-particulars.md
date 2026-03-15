@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: first-order-semantics
   type: soft
+- id: set-theoretic-cardinality
+  type: soft
 builds-toward:
 - bundle-theory
 - trope-theory

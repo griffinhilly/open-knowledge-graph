@@ -6,6 +6,8 @@ course: philosophy-of-science
 prerequisites:
 - id: deductive-nomological-explanation
   type: hard
+- id: first-order-logic-syntax
+  type: soft
 builds-toward:
 - causal-explanation-science
 - explanatory-power-and-unification

@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: turing-machines-formal
   type: soft
+- id: lambda-calculus
+  type: soft
 builds-toward:
 - substrate-independence
 - artificial-minds-silicon-based

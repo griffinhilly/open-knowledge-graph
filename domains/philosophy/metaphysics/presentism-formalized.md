@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: philosophy-of-time
   type: hard
+- id: temporal-logic
+  type: hard
 tags:
 - time
 - presentism

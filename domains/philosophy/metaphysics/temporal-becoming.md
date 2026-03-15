@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: four-dimensionalism-temporal-parts
   type: soft
+- id: temporal-logic
+  type: soft
 builds-toward:
 - presentism-formalized
 - eternalism-formalized

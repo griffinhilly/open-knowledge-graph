@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multiple-realizability
   type: soft
+- id: computability-models-equivalence
+  type: soft
 builds-toward:
 - machine-consciousness-functionalism
 tags:

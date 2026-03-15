@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: chinese-room-argument
   type: soft
+- id: turing-machines-formal
+  type: soft
 builds-toward:
 - consciousness-causation-efficacy
 - emergence-reduction-consciousness

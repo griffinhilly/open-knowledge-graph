@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: necessity-and-contingency
   type: soft
+- id: modal-logic-intro
+  type: soft
 builds-toward:
 - transworld-identity-criteria
 - sortal-identity-conditions

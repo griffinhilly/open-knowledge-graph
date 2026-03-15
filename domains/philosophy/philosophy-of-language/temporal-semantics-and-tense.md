@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: possible-worlds-semantics
   type: soft
+- id: temporal-logic
+  type: soft
 builds-toward:
 - counterfactual-conditionals
 - anaphora-and-discourse-dynamics

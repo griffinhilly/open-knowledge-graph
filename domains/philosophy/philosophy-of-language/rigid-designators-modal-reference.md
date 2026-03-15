@@ -6,6 +6,8 @@ course: philosophy-of-language
 prerequisites:
 - id: kripke-causal-theory-naming
   type: hard
+- id: modal-logic-intro
+  type: soft
 builds-toward:
 - proper-names-and-reference
 tags:

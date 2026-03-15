@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: what-is-knowledge
   type: soft
+- id: modal-logic-intro
+  type: soft
 tags:
 - knowledge
 - sensitivity

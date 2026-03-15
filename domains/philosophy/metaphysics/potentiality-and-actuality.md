@@ -6,6 +6,8 @@ course: metaphysics
 prerequisites:
 - id: necessity-and-contingency
   type: hard
+- id: modal-logic-intro
+  type: soft
 builds-toward:
 - temporal-becoming
 - essence-intrinsic-nature

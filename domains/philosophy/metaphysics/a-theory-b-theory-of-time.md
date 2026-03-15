@@ -6,6 +6,8 @@ course: metaphysics
 prerequisites:
 - id: philosophy-of-time
   type: hard
+- id: temporal-logic
+  type: soft
 tags:
 - A-theory
 - B-theory

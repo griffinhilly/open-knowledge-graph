@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nominalism-about-universals
   type: soft
+- id: zfc-axioms-overview
+  type: soft
 builds-toward:
 - tropes-vs-universals
 tags:

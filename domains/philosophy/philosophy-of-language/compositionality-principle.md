@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: first-order-logic-syntax
   type: soft
+- id: first-order-semantics
+  type: soft
 builds-toward:
 - truth-conditions-and-meaning
 - semantic-underdetermination-context

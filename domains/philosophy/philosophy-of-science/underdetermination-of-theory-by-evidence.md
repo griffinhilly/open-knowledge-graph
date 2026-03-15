@@ -6,6 +6,8 @@ course: philosophy-of-science
 prerequisites:
 - id: duhem-quine-thesis
   type: hard
+- id: first-order-logic-syntax
+  type: soft
 builds-toward:
 - scientific-realism
 - theoretical-virtues-in-theory-choice

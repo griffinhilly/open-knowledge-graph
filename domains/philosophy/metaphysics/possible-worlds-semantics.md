@@ -10,9 +10,11 @@ prerequisites:
   type: soft
 - id: propositional-semantics
   type: soft
+- id: possible-worlds-semantics
+  type: soft
 builds-toward:
-  - modal-realism
-  - counterfactual-causation
+- modal-realism
+- counterfactual-causation
 tags:
 - possible worlds
 - modality

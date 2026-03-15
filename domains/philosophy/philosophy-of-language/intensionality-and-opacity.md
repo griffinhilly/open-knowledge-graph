@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: quantifier-scope-ambiguity
   type: soft
+- id: modal-logic-intro
+  type: soft
 builds-toward:
 - scope-ambiguity-and-representation
 - de-re-de-dicto-readings

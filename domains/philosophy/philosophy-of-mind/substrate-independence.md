@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multiple-realizability
   type: hard
+- id: computability-models-equivalence
+  type: soft
 builds-toward:
 - artificial-minds-silicon-based
 - emergence-reduction-consciousness

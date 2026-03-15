@@ -6,6 +6,8 @@ course: metaphysics
 prerequisites:
 - id: what-is-metaphysics
   type: hard
+- id: temporal-logic
+  type: soft
 builds-toward:
 - a-theory-b-theory-of-time
 tags:
