@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: organic-chemistry-intro
   type: soft
+- id: enzyme-cofactors-and-coenzymes
+  type: soft
 builds-toward:
 - nutritional-deficiency-disorders
 - sports-nutrition-basics

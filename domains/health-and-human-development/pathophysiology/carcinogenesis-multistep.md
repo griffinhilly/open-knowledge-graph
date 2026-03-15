@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: cell-cycle-checkpoints-cancer
   type: soft
+- id: oncogenes-and-tumor-suppressors
+  type: soft
 builds-toward:
 - oncogenes-and-tumor-suppressors
 - metastasis-mechanisms

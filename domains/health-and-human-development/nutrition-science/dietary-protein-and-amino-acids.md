@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: organic-chemistry-intro
   type: soft
+- id: amino-acid-structure-and-properties
+  type: soft
 builds-toward:
 - sports-nutrition-basics
 - protein-quality-and-dietary-sources

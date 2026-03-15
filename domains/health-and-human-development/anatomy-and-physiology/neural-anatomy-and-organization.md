@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: nervous-system-overview
   type: soft
+- id: action-potential
+  type: soft
 builds-toward:
 - sensory-systems-anatomy
 tags:

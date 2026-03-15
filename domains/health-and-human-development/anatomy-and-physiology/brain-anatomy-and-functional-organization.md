@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: hippocampus-memory
   type: soft
+- id: neuron-structure-and-function
+  type: soft
 builds-toward:
 - spinal-cord-and-peripheral-nerve-anatomy
 tags:

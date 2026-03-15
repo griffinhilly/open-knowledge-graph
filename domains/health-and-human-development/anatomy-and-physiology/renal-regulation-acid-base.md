@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: renal-filtration-and-tubular-processing
   type: hard
+- id: acid-base-chemistry
+  type: soft
 builds-toward:
 - metabolic-acidosis-alkalosis-disorders
 tags:

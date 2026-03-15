@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: skeletal-muscle-contraction
   type: soft
+- id: oxidative-phosphorylation-and-chemiosmosis
+  type: soft
 tags:
 - ATP
 - anaerobic

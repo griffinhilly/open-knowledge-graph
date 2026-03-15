@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: citric-acid-cycle-mechanism
   type: soft
+- id: carbohydrate-structure-and-classification
+  type: soft
 builds-toward:
 - obesity-and-metabolic-syndrome
 - sports-nutrition-basics

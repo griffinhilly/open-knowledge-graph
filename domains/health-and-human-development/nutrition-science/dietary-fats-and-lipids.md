@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: functional-groups-overview
   type: soft
+- id: fatty-acid-structure-and-classification
+  type: soft
 builds-toward:
 - energy-metabolism-and-calories
 - obesity-and-metabolic-syndrome

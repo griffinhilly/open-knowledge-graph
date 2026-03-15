@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: negative-feedback-mechanisms
   type: hard
+- id: anterior-pituitary-hormone-axes
+  type: soft
 builds-toward:
 - bone-remodeling-and-homeostasis
 - fluid-balance-and-electrolytes

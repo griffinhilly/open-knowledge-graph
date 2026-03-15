@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: platelet-structure-function
   type: hard
+- id: hemostasis-coagulation-cascade
+  type: soft
 builds-toward:
 - thrombosis-pathophysiology
 - bleeding-disorders-overview

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: synaptic-plasticity-long-term-potentiation-depression
   type: hard
+- id: synaptic-transmission
+  type: soft
 builds-toward:
 - executive-function-development-components
 - abstract-reasoning-and-hypothetical-thinking

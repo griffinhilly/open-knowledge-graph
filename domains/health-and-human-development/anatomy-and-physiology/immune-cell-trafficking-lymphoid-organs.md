@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: t-cell-development-thymic-selection
   type: soft
+- id: lymphocyte-trafficking-homing-adhesion-molecules
+  type: soft
 builds-toward:
 - mucosal-immunity-and-iga-response
 tags:

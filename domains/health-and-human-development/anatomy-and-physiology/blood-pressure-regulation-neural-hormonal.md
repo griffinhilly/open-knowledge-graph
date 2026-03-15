@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: endocrine-glands-and-hormones
   type: hard
+- id: vascular-resistance-blood-flow-control
+  type: soft
 builds-toward:
 - hypertension-pathophysiology
 tags:

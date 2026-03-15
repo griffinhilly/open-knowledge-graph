@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: inflammation-and-wound-healing
   type: soft
+- id: complement-cascade-and-pathways
+  type: soft
+- id: antibody-structure-and-function
+  type: soft
 builds-toward:
 - tissue-repair-and-wound-healing-phases
 tags:

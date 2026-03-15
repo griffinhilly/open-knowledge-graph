@@ -6,6 +6,8 @@ course: anatomy-and-physiology
 prerequisites:
 - id: smooth-muscle-structure-and-distribution
   type: soft
+- id: gut-motility-and-secretion
+  type: soft
 builds-toward:
 - digestive-glands-secretions-and-absorption
 tags:

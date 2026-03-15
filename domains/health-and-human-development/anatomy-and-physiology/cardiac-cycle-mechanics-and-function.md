@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hemodynamics-pressure-volume-flow-relationships
   type: hard
+- id: cardiac-output-control-regulation
+  type: soft
 builds-toward:
 - vascular-physiology-and-hemodynamics
 - coronary-circulation-physiology

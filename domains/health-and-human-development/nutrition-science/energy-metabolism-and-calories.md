@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: dietary-fats-and-lipids
   type: soft
+- id: atp-energy-currency-synthesis
+  type: soft
 builds-toward:
 - energy-balance-and-body-composition
 - sports-nutrition-basics
