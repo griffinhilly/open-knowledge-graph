@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: memory-consolidation-systems
   type: soft
+- id: memory-consolidation
+  type: hard
 builds-toward:
 - learning-and-experience-dependent-plasticity
 - sleep-deprivation-effects

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: linear-regression
   type: soft
+- id: linear-regression-simple-theory
+  type: hard
 builds-toward:
 - research-design-selection-matching-question
 - exploratory-vs-confirmatory-analysis-strategies

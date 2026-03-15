@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: nervous-system-overview
   type: soft
+- id: cortical-organization
+  type: hard
 builds-toward:
 - hemispheric-lateralization
 - visual-processing-pathway

@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: protein-synthesis
   type: hard
+- id: synaptic-transmission
+  type: hard
 builds-toward:
 - learning-and-memory-at-synaptic-level
 tags:

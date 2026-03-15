@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: statistical-conclusion-validity-assumptions
   type: soft
+- id: conditional-probability
+  type: hard
 builds-toward:
 - exploratory-vs-confirmatory-analysis-strategies
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: auditory-system-cochlea-cortex
   type: hard
+- id: auditory-system-overview
+  type: hard
 tags:
 - hearing
 - cochlea

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: cell-signaling-intro
   type: soft
+- id: neurotransmitter-receptor-binding
+  type: hard
 builds-toward:
 - drug-classes-and-effects
 tags:

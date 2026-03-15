@@ -6,6 +6,8 @@ course: biological-psychology
 prerequisites:
 - id: brain-structure-and-functional-localization
   type: hard
+- id: limbic-system-and-emotion
+  type: hard
 tags:
 - amygdala
 - hippocampus

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: probability-rules-for-events
   type: soft
+- id: bayes-theorem
+  type: soft
 builds-toward:
 - reasoning-biases-and-errors
 tags:

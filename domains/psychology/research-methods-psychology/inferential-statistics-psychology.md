@@ -30,6 +30,8 @@ prerequisites:
   type: soft
 - id: confidence-intervals-framework
   type: soft
+- id: hypothesis-testing-framework
+  type: hard
 builds-toward:
 - effect-size-and-power
 - replication-and-open-science

@@ -6,6 +6,8 @@ course: psychometrics
 prerequisites:
 - id: norm-referenced-criterion-referenced-interpretation
   type: hard
+- id: normal-distribution
+  type: hard
 builds-toward:
 - diagnostic-cutoff-scores-classification-accuracy
 tags:

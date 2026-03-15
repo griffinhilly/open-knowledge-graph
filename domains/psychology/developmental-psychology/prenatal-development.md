@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: dna-structure
   type: soft
+- id: cell-differentiation-development
+  type: hard
 builds-toward:
 - nature-nurture-debate
 - critical-periods-sensitive-periods

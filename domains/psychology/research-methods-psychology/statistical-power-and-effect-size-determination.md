@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: normal-distribution
   type: soft
+- id: standard-normal-z-scores-theory
+  type: hard
 builds-toward:
 - statistical-inference-significance-testing
 tags:

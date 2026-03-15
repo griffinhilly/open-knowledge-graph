@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: probability-and-statistics
   type: hard
+- id: exponential-functions-and-graphs
+  type: hard
 builds-toward:
 - irt-model-fit-comparison
 tags:

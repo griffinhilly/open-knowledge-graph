@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: anova-one-way-theory
   type: soft
+- id: anova-one-way
+  type: hard
 builds-toward:
 - computerized-adaptive-testing
 tags:

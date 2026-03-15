@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: normal-distribution
   type: soft
+- id: probability-mass-functions
+  type: hard
 builds-toward:
 - ability-parameter-estimation-theta-estimation
 - classical-vs-irt-item-analysis

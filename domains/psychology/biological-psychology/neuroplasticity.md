@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: glial-cells-and-support
   type: soft
+- id: critical-periods-plasticity
+  type: hard
 tags:
 - LTP
 - LTD

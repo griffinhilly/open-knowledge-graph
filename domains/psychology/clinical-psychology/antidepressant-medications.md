@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: serotonin-system
   type: hard
+- id: monoamine-synthesis-and-catabolism
+  type: hard
 tags:
 - antidepressants
 - medication

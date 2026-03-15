@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: gaba-systems
   type: hard
+- id: gabaergic-inhibition
+  type: hard
 builds-toward:
 - evidence-based-treatment-practice
 tags:

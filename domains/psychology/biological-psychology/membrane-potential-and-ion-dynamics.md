@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: membrane-potential-and-ion-dynamics
   type: hard
+- id: resting-membrane-potential
+  type: hard
 builds-toward:
 - action-potential-generation-and-propagation
 tags:

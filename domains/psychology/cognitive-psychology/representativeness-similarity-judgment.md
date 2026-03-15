@@ -6,6 +6,8 @@ course: cognitive-psychology
 prerequisites:
 - id: cognitive-biases-overview
   type: hard
+- id: probability-distributions
+  type: soft
 tags:
 - judgment
 - heuristic

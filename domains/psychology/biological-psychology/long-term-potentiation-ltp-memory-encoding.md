@@ -20,6 +20,8 @@ prerequisites:
   type: hard
 - id: calcium-signaling-neurons
   type: hard
+- id: synaptic-plasticity-mechanisms
+  type: hard
 builds-toward:
 - memory-consolidation-systems
 - learning-and-experience-dependent-plasticity
