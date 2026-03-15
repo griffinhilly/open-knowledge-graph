@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: speech-act-theory
   type: soft
+- id: dialogue-formatting-and-attribution
+  type: soft
 builds-toward:
 - subtext-and-unspoken-meaning
 - dramatic-exposition-revelation

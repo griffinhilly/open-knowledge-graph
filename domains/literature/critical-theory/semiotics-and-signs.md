@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: semantic-types-and-composition
   type: soft
+- id: saussurean-sign-system
+  type: soft
 builds-toward:
 - post-structuralism
 - ideological-criticism

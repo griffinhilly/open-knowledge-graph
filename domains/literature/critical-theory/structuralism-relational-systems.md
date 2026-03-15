@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: linguistic-typology
   type: soft
+- id: formal-linguistics-overview
+  type: soft
 tags:
 - structuralism
 - levi-strauss

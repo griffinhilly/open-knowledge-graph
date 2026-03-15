@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: phonological-features
   type: soft
+- id: phonological-rules-derivation
+  type: soft
 builds-toward:
 - assonance-vowel-sound-repetition
 tags:

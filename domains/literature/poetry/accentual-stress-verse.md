@@ -6,6 +6,8 @@ course: poetry
 prerequisites:
 - id: meter-and-rhythm-in-poetry
   type: hard
+- id: stress-assignment-rules
+  type: soft
 tags:
 - meter
 - stress-patterns

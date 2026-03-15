@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: allusion-and-literary-reference
   type: soft
+- id: discourse-coherence-relations
+  type: soft
 builds-toward:
 - transtextuality-genette
 - literary-influence-tradition

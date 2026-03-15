@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: intonational-phonology
   type: soft
+- id: syllable-structure-prosody
+  type: soft
 tags:
 - pause
 - line-structure

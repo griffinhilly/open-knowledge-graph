@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: linguistic-pragmatics
   type: soft
+- id: stylistic-analysis-and-imitation
+  type: soft
 builds-toward:
 - plot-structure
 - characterization-methods

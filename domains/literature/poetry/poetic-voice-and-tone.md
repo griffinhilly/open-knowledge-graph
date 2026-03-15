@@ -14,8 +14,10 @@ prerequisites:
   type: soft
 - id: sound-devices-in-poetry
   type: soft
+- id: diction-and-register-in-argument
+  type: soft
 builds-toward:
-  - poetic-persona-and-speaker
+- poetic-persona-and-speaker
 tags:
 - voice
 - tone

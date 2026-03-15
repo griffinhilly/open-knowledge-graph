@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: symbolic-representation-linguistics
   type: soft
+- id: semantic-relations
+  type: soft
 builds-toward:
 - allegory-and-extended-metaphor
 - thematic-development

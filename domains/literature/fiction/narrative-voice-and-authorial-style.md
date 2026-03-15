@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: stylistic-analysis-and-imitation
   type: soft
+- id: writer-voice-development
+  type: soft
 builds-toward:
 - narrative-distance-focalization-theory
 - prose-rhythm-sentence-craft

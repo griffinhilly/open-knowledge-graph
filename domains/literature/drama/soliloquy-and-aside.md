@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: deixis-and-reference
   type: soft
+- id: audience-engagement-techniques
+  type: soft
 builds-toward:
 - dramatic-subtext
 - epic-theatre-and-brecht

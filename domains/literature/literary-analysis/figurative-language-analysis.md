@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: figurative-language-speaking
   type: soft
+- id: metaphor-analogy-rhetorical-strategy
+  type: soft
 builds-toward:
 - figurative-language-meaning-making
 - figurative-language-close-reading
