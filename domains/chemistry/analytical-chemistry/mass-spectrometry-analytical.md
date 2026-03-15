@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: kinetic-energy
   type: soft
+- id: lorentz-force-on-moving-charge
+  type: soft
 tags:
 - mass spectrometry
 - ionization

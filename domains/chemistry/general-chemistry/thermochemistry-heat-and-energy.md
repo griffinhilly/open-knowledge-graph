@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: states-of-matter-phase-changes
   type: soft
+- id: first-law-of-thermodynamics
+  type: soft
 builds-toward:
 - oxidation-reduction-reactions
 tags:

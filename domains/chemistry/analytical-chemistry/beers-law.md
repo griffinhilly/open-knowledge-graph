@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: electromagnetic-waves
   type: soft
+- id: electronic-transitions-excited-states
+  type: soft
 builds-toward:
 - uv-vis-spectroscopy-analytical
 - atomic-absorption-spectroscopy

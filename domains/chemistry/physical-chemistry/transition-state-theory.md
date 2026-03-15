@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: maxwell-boltzmann-distribution
   type: soft
+- id: quantum-tunneling
+  type: soft
 builds-toward:
 - unimolecular-reaction-mechanisms
 tags:

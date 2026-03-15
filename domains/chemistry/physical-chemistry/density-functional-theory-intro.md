@@ -1,11 +1,14 @@
 ---
 id: density-functional-theory-intro
-title: 'Introduction to Density Functional Theory: From Wavefunctions to Electron Density'
+title: 'Introduction to Density Functional Theory: From Wavefunctions to Electron
+  Density'
 domain: chemistry
 course: physical-chemistry
 prerequisites:
 - id: hartree-fock-method
   type: hard
+- id: variational-principle-quantum-chemistry
+  type: soft
 builds-toward: []
 tags:
 - DFT

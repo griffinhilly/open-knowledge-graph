@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: variance-standard-deviation
   type: soft
+- id: statistics-descriptive
+  type: soft
 builds-toward:
 - iso-iec-17025-laboratory-accreditation
 - quality-assurance-analytical

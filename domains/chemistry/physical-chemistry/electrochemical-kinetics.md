@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: exponential-functions-and-graphs
   type: soft
+- id: faraday-law-of-induction
+  type: soft
 tags:
 - Butler-Volmer
 - overpotential

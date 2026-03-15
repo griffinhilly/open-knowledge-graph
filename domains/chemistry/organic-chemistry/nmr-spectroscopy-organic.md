@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: quantum-mechanics-postulates-core
   type: soft
+- id: nuclear-magnetic-moments
+  type: soft
 builds-toward:
 - nmr-chemical-shift-prediction
 - proton-coupling-constants-jcoupling

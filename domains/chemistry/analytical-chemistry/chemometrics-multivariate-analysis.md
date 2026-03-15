@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: eigenvalues-and-eigenvectors
   type: soft
+- id: linear-regression
+  type: soft
 tags:
 - chemometrics
 - multivariate

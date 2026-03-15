@@ -24,6 +24,8 @@ prerequisites:
   type: soft
 - id: statistical-ensembles-intro
   type: soft
+- id: partition-function-fundamentals
+  type: soft
 builds-toward:
 - molecular-partition-functions
 - statistical-thermodynamics-applications

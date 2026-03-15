@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: kinetic-molecular-theory-basics
   type: soft
+- id: kinetic-theory-of-gases
+  type: soft
 builds-toward:
 - gas-stoichiometry
 - real-gases-van-der-waals

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: electromagnetic-waves
   type: soft
+- id: line-spectra-discrete-frequencies
+  type: soft
 builds-toward:
 - inductively-coupled-plasma-mass-spectrometry-icp-ms
 tags:

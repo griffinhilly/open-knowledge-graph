@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: photon-model
   type: soft
+- id: electronic-spectroscopy-theory
+  type: soft
 builds-toward:
 - inductively-coupled-plasma
 tags:

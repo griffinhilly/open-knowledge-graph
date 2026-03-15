@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: periodic-trends
   type: hard
+- id: ionization-energy-and-electron-removal
+  type: soft
 builds-toward:
 - lewis-structures
 - electrochemistry-basics

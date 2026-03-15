@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: periodic-trends
   type: hard
+- id: molecular-orbital-diagrams
+  type: soft
 builds-toward:
 - lewis-structures
 - molecular-polarity

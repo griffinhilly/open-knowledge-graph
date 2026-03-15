@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: group-theory-molecular-symmetry
   type: hard
+- id: selection-rules-spectroscopy
+  type: soft
 builds-toward:
 - electronic-transitions-excited-states
 - nmr-spectroscopy-spin-coupling

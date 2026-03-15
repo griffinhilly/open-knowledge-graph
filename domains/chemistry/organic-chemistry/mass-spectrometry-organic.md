@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: lorentz-force-complete-em
   type: soft
+- id: lorentz-force-on-moving-charge
+  type: soft
+- id: coulomb-force-superposition
+  type: soft
 builds-toward: []
 tags:
 - mass spectrometry

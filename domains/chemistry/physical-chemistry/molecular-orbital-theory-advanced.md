@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: quantum-mechanics-postulates-core
   type: hard
+- id: eigenvalues-and-eigenvectors
+  type: soft
 builds-toward:
 - huckel-molecular-orbital-theory
 - electronic-spectroscopy-theory

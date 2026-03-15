@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electromagnetic-waves
   type: soft
+- id: vibrational-spectroscopy-theory
+  type: soft
 builds-toward:
 - nmr-spectroscopy-organic
 tags:

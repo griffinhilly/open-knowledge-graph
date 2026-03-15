@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: quantum-mechanics-postulates-core
   type: hard
+- id: nuclear-magnetic-moments
+  type: soft
+- id: resonance-and-resonance-frequency
+  type: soft
 tags:
 - NMR
 - chemical shift

@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: chemical-kinetics
   type: hard
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
 - arrhenius-equation
 tags:

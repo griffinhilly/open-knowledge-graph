@@ -18,6 +18,10 @@ prerequisites:
   type: soft
 - id: lorentz-force-complete-em
   type: soft
+- id: electric-potential-definition
+  type: soft
+- id: faraday-law-of-induction
+  type: soft
 builds-toward:
 - electrochemical-cells
 tags:

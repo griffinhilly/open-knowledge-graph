@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: atomic-structure-basics
   type: soft
+- id: hydrogen-atom-schrodinger-solution
+  type: soft
 builds-toward:
 - hybridization
 - bonding-antibonding-orbitals
