@@ -530,6 +530,7 @@ canvas {{ display:block; cursor:grab; }}
 <canvas id="canvas"></canvas>
 <div id="nav">
   <a href="index.html">All Domains</a>
+  <a href="full-graph-hierarchy.html">Hierarchy Graph</a>
 </div>
 
 <div id="stats">

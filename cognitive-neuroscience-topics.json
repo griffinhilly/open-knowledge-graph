@@ -1,0 +1,524 @@
+{
+  "domain": "psychology",
+  "topics": [
+    {
+      "id": "neural-correlates-consciousness",
+      "title": "Neural Correlates of Consciousness",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "cognitive-psychology-overview", "type": "hard"},
+        {"id": "brain-lobes-and-functions", "type": "hard"}
+      ],
+      "builds_toward": ["global-workspace-theory", "default-mode-network"],
+      "tags": ["consciousness", "neural-basis"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "The neural correlates of consciousness are the minimal neural mechanisms sufficient for specific conscious experiences. Consciousness arises from distributed networks—prefrontal, parietal, temporal cortex—whose coordinated activity maps to conscious states. Understanding NCCs requires distinguishing necessary conditions (activity required for consciousness generally) from sufficient conditions (activity producing specific experiences).",
+      "how_best_learned": "Study wake vs. sleep vs. anesthesia via fMRI/EEG, visual awareness with masking paradigms, and disorders of consciousness showing how neural signatures change with consciousness level.",
+      "common_misconceptions": "Consciousness requires a single brain region; it arises from distributed networks. All activity in NCC regions is conscious; background activity may be non-conscious. Confusing necessary and sufficient conditions."
+    },
+    {
+      "id": "global-workspace-theory",
+      "title": "Global Workspace Theory of Consciousness",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "neural-correlates-consciousness", "type": "hard"},
+        {"id": "working-memory-model", "type": "hard"}
+      ],
+      "builds_toward": [],
+      "tags": ["consciousness", "attention", "working-memory"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Consciousness arises when information is broadcast to multiple systems through a central workspace. Conscious content produces synchronized, high-amplitude activity across prefrontal, parietal, temporal cortices, while unconscious processing remains modular. The transition to consciousness shows a sudden global state change detectable as posterior-to-anterior ignition.",
+      "how_best_learned": "Examine masked primes, attentional blink, and bistable perception comparing neural signatures when stimuli are vs. aren't consciously perceived.",
+      "common_misconceptions": "The workspace is a physical location; it's functional. All high-amplitude activity equals consciousness; must correlate with conscious content."
+    },
+    {
+      "id": "default-mode-network",
+      "title": "Default Mode Network and Intrinsic Brain Activity",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "brain-lobes-and-functions", "type": "hard"},
+        {"id": "functional-mri-bold-signal-interpretation", "type": "hard"}
+      ],
+      "builds_toward": [],
+      "tags": ["brain-networks", "resting-state", "fmri"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "The default mode network comprises medial prefrontal cortex, posterior cingulate, and angular gyrus showing high resting activity and suppression during external tasks. The DMN supports self-referential thought, mind-wandering, autobiographical memory, and mentalizing. Its organization reflects intrinsic functional architecture and shifts with cognitive state.",
+      "how_best_learned": "Analyze resting-state fMRI functional connectivity within DMN, contrast with task-positive networks, examine DMN activity relationships with self-report mind-wandering.",
+      "common_misconceptions": "DMN is only active at rest; it's active during self-referential and social tasks. DMN deactivation during tasks is maladaptive; it's typically appropriate."
+    },
+    {
+      "id": "functional-mri-bold-signal-interpretation",
+      "title": "Functional MRI and the BOLD Signal: Methods and Interpretation",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "neuron-structure-and-function", "type": "hard"},
+        {"id": "biological-psychology-overview", "type": "soft"}
+      ],
+      "builds_toward": ["event-related-potentials-components", "diffusion-tensor-imaging-connectivity"],
+      "tags": ["neuroimaging", "fmri", "bold", "methods"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Functional MRI measures blood-oxygen-level-dependent (BOLD) signals as an indirect proxy for neural activity. Increased neural firing depletes oxygen, triggering blood flow increases that change oxygenated-to-deoxygenated hemoglobin ratios. BOLD peaks 4–6 seconds after neural activity with millisecond precision temporal gaps but millimeter spatial resolution.",
+      "how_best_learned": "Study the hemodynamic response function, understand temporal resolution constraints in event-related designs, practice interpreting group activation maps considering smoothing and multiple comparisons.",
+      "common_misconceptions": "fMRI directly measures neural firing; it measures blood flow. Stronger BOLD indicates greater importance. Ignoring hemodynamic lag when timing events. Misinterpreting p-values as effect sizes."
+    },
+    {
+      "id": "event-related-potentials-components",
+      "title": "Event-Related Potentials (ERP) and Cognitive Components",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "neuron-structure-and-function", "type": "hard"},
+        {"id": "synaptic-transmission", "type": "hard"}
+      ],
+      "builds_toward": [],
+      "tags": ["neuroimaging", "eeg", "erp", "methods"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Event-related potentials are voltage fluctuations time-locked to stimulus or response events. Averaging across trials reveals distinct components (P100, N100, P300, N400, Error-Related Negativity) reflecting discrete cognitive stages: sensory encoding, attention, stimulus evaluation, semantic processing, and error detection. ERP latencies indicate when processes occur; amplitudes reflect magnitude.",
+      "how_best_learned": "Work with epoched EEG comparing grand-average waveforms across conditions, identify component peaks and latencies, relate waveform differences to behavioral outcomes.",
+      "common_misconceptions": "Each ERP component has a single neural generator; most reflect distributed activity. Single-trial ERPs work without averaging; signal-to-noise requires averaging. Component absence means the process didn't occur; detectability depends on task and noise."
+    },
+    {
+      "id": "diffusion-tensor-imaging-connectivity",
+      "title": "Diffusion Tensor Imaging and White Matter Connectivity",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "neuron-structure-and-function", "type": "hard"},
+        {"id": "functional-mri-bold-signal-interpretation", "type": "hard"}
+      ],
+      "builds_toward": [],
+      "tags": ["neuroimaging", "dti", "white-matter", "methods"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Diffusion tensor imaging maps white-matter tracts by measuring directional water diffusion along axons. Fractional anisotropy (FA) quantifies axon integrity; mean diffusivity (MD) reflects overall diffusion. Fiber-tracking algorithms reconstruct 3D pathways revealing structural connectivity underlying functional networks.",
+      "how_best_learned": "Examine DTI datasets using tractography, compute FA and MD maps, compare structural with functional connectivity from fMRI.",
+      "common_misconceptions": "Fiber-tracking precisely identifies anatomical pathways; algorithms produce spurious crossings and false connections. Raw fiber counts normalize without distance correction. DTI-behavior correlations prove functional necessity."
+    },
+    {
+      "id": "transcranial-magnetic-stimulation-causal",
+      "title": "Transcranial Magnetic Stimulation as Causal Inference Tool",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "biological-psychology-overview", "type": "hard"},
+        {"id": "neuron-structure-and-function", "type": "soft"}
+      ],
+      "builds_toward": [],
+      "tags": ["neuroimaging", "tms", "causal-inference", "methods"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Transcranial magnetic stimulation applies scalp pulses inducing cortical electrical currents. Single-pulse TMS creates transient 'virtual lesions'; repetitive TMS induces longer-lasting plasticity changes. Unlike correlational neuroimaging, TMS establishes causality: disrupting region X impairing task Y shows X is causally necessary.",
+      "how_best_learned": "Study TMS protocols, compare online vs. offline TMS effects on behavior, validate disruption against lesion findings.",
+      "common_misconceptions": "TMS disruption proves sufficiency; it shows necessity. Ignoring individual variability in TMS effects. Treating null effects as evidence of no involvement; depends on intensity and timing."
+    },
+    {
+      "id": "primary-visual-cortex-v1",
+      "title": "Primary Visual Cortex (V1): Columnar Organization and Feature Maps",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "visual-processing-pathway", "type": "hard"},
+        {"id": "visual-system-retina-cortex", "type": "hard"}
+      ],
+      "builds_toward": ["dorsal-stream-parietal", "ventral-stream-temporal"],
+      "tags": ["visual-system", "cortical-organization", "columns"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Primary visual cortex is organized into functional columns perpendicular to the surface. Orientation columns represent preferred stimulus orientations; ocular dominance columns segregate eye input. Retinotopic position, orientation, and binocular disparity form continuous maps. Simple cells extract local features; complex cells integrate larger areas. Columnar architecture enables efficient feature encoding.",
+      "how_best_learned": "Study optical imaging and two-photon microscopy revealing column structure, examine single-unit orientation selectivity, trace feedforward and feedback pathways.",
+      "common_misconceptions": "Columns are independent; they receive lateral and feedback input. All V1 neurons have simple receptive fields; complex cell structures are more complex. V1 dominates conscious perception; higher areas do."
+    },
+    {
+      "id": "dorsal-stream-parietal",
+      "title": "Dorsal Stream and Parietal Spatial Processing ('Where' Pathway)",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "primary-visual-cortex-v1", "type": "hard"},
+        {"id": "visual-processing-pathway", "type": "soft"}
+      ],
+      "builds_toward": ["intraparietal-sulcus-attention"],
+      "tags": ["visual-system", "dorsal-stream", "spatial-processing"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "The dorsal stream projects from V1 through middle temporal to intraparietal sulcus and dorsal premotor cortex, specializing in spatial location, motion, and action-relevant processing. Neurons encode allocentric and egocentric coordinates for reaching, grasping, saccades. This largely unconscious pathway guides motor behavior even when unavailable to consciousness (blindsight). Lesions produce optic ataxia—inability to accurately reach despite intact perception.",
+      "how_best_learned": "Compare dorsal and ventral properties using awake-behaving recordings, examine lesion effects on visuomotor control, study patient dissociations between perception and visuomotor control.",
+      "common_misconceptions": "Dorsal stream is entirely unconscious; considerable activity reaches consciousness. Neurons code only location; many encode action parameters. Streams are fully independent; they extensively interact."
+    },
+    {
+      "id": "ventral-stream-temporal",
+      "title": "Ventral Stream and Temporal Object Recognition ('What' Pathway)",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "primary-visual-cortex-v1", "type": "hard"},
+        {"id": "visual-processing-pathway", "type": "soft"}
+      ],
+      "builds_toward": ["semantic-memory-networks"],
+      "tags": ["visual-system", "ventral-stream", "object-recognition"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "The ventral stream projects from V1 through V2, V4, and inferior temporal cortex, specializing in object identification. This pathway transforms low-level features into categorical representations invariant to size, position, and viewing angle. Inferior temporal neurons selectively respond to complex objects (faces, hands, tools). The ventral stream dominates conscious perception; damage produces visual object agnosia despite preserved spatial processing.",
+      "how_best_learned": "Study IT neuron selectivity for object categories, examine fMRI activation for object classes, analyze consequences of ventral lesions, use deep networks trained on recognition.",
+      "common_misconceptions": "Object recognition is purely feedforward; it involves feedback from prefrontal and memory systems. All IT neurons encode high-level categories; selectivity ranges from shapes to exemplars. Overestimating conscious access; unconscious object processing influences behavior."
+    },
+    {
+      "id": "intraparietal-sulcus-attention",
+      "title": "Intraparietal Sulcus and Spatial Attentional Orienting",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "dorsal-stream-parietal", "type": "hard"},
+        {"id": "attention-selective", "type": "hard"}
+      ],
+      "builds_toward": ["frontoparietal-attention-networks"],
+      "tags": ["attention", "parietal-cortex", "spatial-orienting"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "The intraparietal sulcus is critical for voluntarily shifting attention to behaviorally relevant locations. IPS neurons represent attended locations in multiple coordinate frames (retinotopic, head-centered, hand-centered), integrating sensory and motor signals. Damage produces hemispatial neglect where patients ignore contralesional visual fields despite intact acuity.",
+      "how_best_learned": "Examine single-unit recordings during attention shifts and spatial working memory, study neglect syndrome behavioral profiles, analyze fMRI during exogenous vs. endogenous attention.",
+      "common_misconceptions": "Parietal cortex only processes space; it supports object-based and symbolic attention. Parietal lesions impair all spatial processing; they differentially affect attention vs. action. Hemispatial neglect completely eliminates neglected space processing; unconscious processing continues."
+    },
+    {
+      "id": "frontoparietal-attention-networks",
+      "title": "Frontoparietal Attention Networks and Top-Down Control",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "intraparietal-sulcus-attention", "type": "hard"},
+        {"id": "dorsolateral-prefrontal-control", "type": "hard"}
+      ],
+      "builds_toward": [],
+      "tags": ["attention", "prefrontal", "parietal", "networks"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Frontoparietal attention networks comprise dorsolateral prefrontal and intraparietal sulcus implementing top-down control. dlPFC encodes task goals sending biasing signals to sensory regions. Networks show increased activity and coherent oscillations during demanding tasks, coordinating sensory and motor processing toward task-relevant information.",
+      "how_best_learned": "Analyze functional connectivity in resting and task fMRI, examine effective connectivity showing prefrontal-to-sensory influences, study network-behavior relationships.",
+      "common_misconceptions": "Attention control is purely top-down; bottom-up signals compete with top-down biasing. Single attention network exists; specialized networks handle spatial, object, and feature-based attention."
+    },
+    {
+      "id": "anterior-cingulate-conflict",
+      "title": "Anterior Cingulate Cortex and Cognitive Conflict Monitoring",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "brain-lobes-and-functions", "type": "hard"},
+        {"id": "working-memory-model", "type": "soft"}
+      ],
+      "builds_toward": ["dorsolateral-prefrontal-control"],
+      "tags": ["executive-function", "anterior-cingulate", "conflict"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Anterior cingulate cortex monitors for cognitive conflict when response tendencies compete or task demands conflict. ACC neurons fire more strongly on error and high-conflict trials (incongruent Stroop, flanker tasks). Enhanced ACC activity triggers dorsolateral prefrontal engagement of control. The ACC acts as an alarm signal alerting control regions to increase regulation.",
+      "how_best_learned": "Examine error-related negativity in ERP waveforms during errors, analyze fMRI ACC activation in conflict tasks, study longitudinal changes in conflict-related activity.",
+      "common_misconceptions": "ACC directly causes behavior changes; it signals conflict but doesn't implement control. All ACC activity reflects conflict; it also processes errors, uncertainty, attention demands. ACC is conflict-specific; it's involved in many cognitively demanding tasks."
+    },
+    {
+      "id": "dorsolateral-prefrontal-control",
+      "title": "Dorsolateral Prefrontal Cortex and Cognitive Control",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "brain-lobes-and-functions", "type": "hard"},
+        {"id": "working-memory-model", "type": "hard"}
+      ],
+      "builds_toward": ["inhibitory-control-inferior-frontal", "task-switching-networks"],
+      "tags": ["executive-function", "prefrontal-cortex", "control"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Dorsolateral prefrontal cortex maintains task goals in working memory and biases processing toward goal-relevant information. dlPFC activity increases with difficulty, correlates with performance, and shows individual differences in capacity. It achieves control through sustained excitation of goal-relevant representations and suppression of task-irrelevant activity.",
+      "how_best_learned": "Compare dlPFC activity across task difficulty levels, examine persistent delay-period activity during working memory, use TMS or pharmacology for causal testing.",
+      "common_misconceptions": "dlPFC controls all behavior; it's one network component. dlPFC activity always reflects successful control; activity during errors shows control attempts. dlPFC is only for deliberate processes; it supports all flexible behavior."
+    },
+    {
+      "id": "inhibitory-control-inferior-frontal",
+      "title": "Inhibitory Control and Inferior Frontal Cortex",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "dorsolateral-prefrontal-control", "type": "hard"},
+        {"id": "gaba-systems", "type": "soft"}
+      ],
+      "builds_toward": [],
+      "tags": ["executive-function", "inhibitory-control", "inferior-frontal"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Right inferior frontal cortex implements inhibitory control—suppression of prepotent or inappropriate responses. rIFC shows activity during successful inhibition in go/no-go and stop-signal tasks. It sends inhibitory signals that suppress unwanted responses via motor cortex, basal ganglia connections. Lesions or TMS disruption selectively impairs inhibition while preserving stimulus perception.",
+      "how_best_learned": "Examine single-unit recordings during inhibition tasks, analyze fMRI time-locked to successful vs. failed inhibition, study TMS or lesion effects on performance.",
+      "common_misconceptions": "rIFC only inhibits motor responses; it suppresses cognitive processes. Inhibition is a simple on-off mechanism; it involves complex coordinated activity. Inhibitory signals are precise; inhibition is broad and affects surrounding processing."
+    },
+    {
+      "id": "task-switching-networks",
+      "title": "Task Switching and Prefrontal Cognitive Flexibility",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "dorsolateral-prefrontal-control", "type": "hard"},
+        {"id": "anterior-cingulate-conflict", "type": "soft"}
+      ],
+      "builds_toward": [],
+      "tags": ["executive-function", "task-switching", "flexibility"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Task switching flexibly transitions between different rules, recruiting dlPFC (goal representation), intraparietal sulcus (attention), and anterior cingulate (monitoring). On task-switch trials, reaction time increases and errors rise (switch costs). dlPFC encodes task rules with distinct activity patterns. Individual differences in prefrontal recruitment correlate with switch-cost magnitude.",
+      "how_best_learned": "Analyze reaction times and errors across task-repeat vs. task-switch conditions, examine fMRI on switch-cost trials, study how rule representations change in prefrontal neurons.",
+      "common_misconceptions": "Switch costs arise solely from disengaging old rules; both disengagement and engagement contribute. All prefrontal activity reflects task representation; some reflects monitoring or evaluation. Conscious task rules are necessary; switch costs suggest implicit rule representation."
+    },
+    {
+      "id": "hippocampal-replay-consolidation",
+      "title": "Hippocampal Replay and Memory Consolidation",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "hippocampus-memory", "type": "hard"},
+        {"id": "long-term-potentiation", "type": "hard"},
+        {"id": "long-term-memory-types", "type": "soft"}
+      ],
+      "builds_toward": ["systems-consolidation-sleep"],
+      "tags": ["memory", "hippocampus", "replay", "consolidation"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Hippocampal place cells represent spatial experience through coordinated firing patterns. These patterns reactivate during rest and sleep in 'replay,' compressing behavioral timescales 6–10× while preserving temporal sequences. Replay drives Hebbian learning in hippocampal-cortical circuits, transferring memories from rapid hippocampal encoding to slower cortical storage. Sleep disruption impairs systems consolidation without affecting initial encoding.",
+      "how_best_learned": "Study place cell recordings during exploration and subsequent rest/sleep, analyze how temporal neuron relationships mirror behavior, examine molecular mechanisms enabling synaptic strengthening.",
+      "common_misconceptions": "All hippocampal rest activity is replay; some is spontaneous activity. Replay is necessary for all memory types; hippocampus-dependent declarative memories benefit most. Replay is complete; not all behavioral sequences are replayed."
+    },
+    {
+      "id": "systems-consolidation-sleep",
+      "title": "Systems Consolidation and Sleep-Dependent Memory Transfer",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "hippocampal-replay-consolidation", "type": "hard"},
+        {"id": "sleep-functions-and-disorders", "type": "hard"}
+      ],
+      "builds_toward": ["memory-reconsolidation-update"],
+      "tags": ["memory", "consolidation", "sleep"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Systems consolidation describes time-dependent memory reorganization whereby initially hippocampus-dependent memories become cortically stored and hippocampus-independent over weeks to months. Sleep enables this through coordinated hippocampal-cortical replay driving cortical learning. Sleep spindles and slow-wave sleep appear critical; disruption delays or prevents consolidation. Post-learning sleep enhances retention more than equivalent wake time.",
+      "how_best_learned": "Compare memory retention across post-learning sleep vs. wake, examine fMRI and EEG changes across sleep cycles, analyze animal studies manipulating sleep.",
+      "common_misconceptions": "Sleep causes consolidation passively; active replay and neuromodulation drive it. All memories consolidate at same rate; emotional and well-learned memories consolidate faster. Sleep is necessary for all memory; working memory doesn't depend on sleep."
+    },
+    {
+      "id": "memory-reconsolidation-update",
+      "title": "Memory Reconsolidation and Flexible Memory Updating",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "systems-consolidation-sleep", "type": "hard"},
+        {"id": "long-term-potentiation", "type": "soft"}
+      ],
+      "builds_toward": [],
+      "tags": ["memory", "reconsolidation", "updating"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Retrieving consolidated memories temporarily destabilizes them, requiring protein synthesis-dependent reconsolidation for maintenance and updating. During the reconsolidation window (minutes to hours), blocking protein synthesis prevents reconsolidation and causes forgetting. This allows memories to integrate new contextual or emotional information, keeping consolidated memories flexible. Involves AMPA receptor trafficking, dendritic spine changes, and protein synthesis.",
+      "how_best_learned": "Study post-retrieval extinction updating fear memories, examine protein synthesis blocking during reconsolidation, analyze molecular phosphorylation and receptor trafficking.",
+      "common_misconceptions": "Consolidated memories are fixed; reconsolidation keeps them flexible. Reconsolidation only occurs for retrieved memories; debate continues about universal vs. conditional reconsolidation. Clinical translation is straightforward; applying to PTSD remains challenging."
+    },
+    {
+      "id": "semantic-memory-networks",
+      "title": "Semantic Memory and Distributed Cortical Networks",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "ventral-stream-temporal", "type": "hard"},
+        {"id": "long-term-memory-types", "type": "hard"},
+        {"id": "language-comprehension", "type": "soft"}
+      ],
+      "builds_toward": ["language-networks-distributed"],
+      "tags": ["memory", "semantic", "networks"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Semantic knowledge is stored in distributed networks across anterior temporal lobe, ventral temporal cortex, inferior parietal cortex, and prefrontal regions. Ventral temporal encodes perceptual features, lateral temporal encodes semantic relationships, anterior temporal shows abstract supramodal representations. Damage to anterior temporal produces semantic dementia with progressive knowledge loss. Semantic knowledge emerges from consolidated activity patterns.",
+      "how_best_learned": "Examine fMRI during semantic tasks mapping semantic space, study patients with focal temporal damage, analyze distributed representations in neural networks.",
+      "common_misconceptions": "Semantic memory is localized; it's distributed. Semantic and episodic memory are completely independent; they interact substantially. Language dominates semantic processing; non-verbal object recognition engages similar regions."
+    },
+    {
+      "id": "working-memory-prefrontal-maintenance",
+      "title": "Working Memory Maintenance and Neural Coding in Prefrontal Cortex",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "working-memory-model", "type": "hard"},
+        {"id": "dorsolateral-prefrontal-control", "type": "hard"}
+      ],
+      "builds_toward": [],
+      "tags": ["memory", "working-memory", "prefrontal-cortex"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Working memory maintenance relies on sustained elevated neural firing in prefrontal and parietal regions. Prefrontal neurons show persistent delay-period activity coding remembered items, with different neurons selective for different items. Capacity limits (3–4 items) correlate with distinct neural firing patterns circuits can maintain. Activity emerges from recurrent excitatory connectivity.",
+      "how_best_learned": "Analyze single-unit delay-period activity coding items, examine fMRI activity during memory delays, use computational models of persistent activity.",
+      "common_misconceptions": "Working memory depends entirely on persistent firing; attention and readout mechanisms contribute. All prefrontal delay activity encodes items; some reflects rules or attention. Representations are completely stable; patterns shift across delays."
+    },
+    {
+      "id": "broca-area-syntax-production",
+      "title": "Broca's Area and Syntactic Language Production",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "language-production", "type": "hard"},
+        {"id": "brain-lobes-and-functions", "type": "soft"}
+      ],
+      "builds_toward": ["language-networks-distributed"],
+      "tags": ["language", "broca-area", "syntax"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Broca's area (left inferior frontal gyrus) is critical for syntactic language production and comprehension. Broca's aphasia produces agrammatic speech—omitting function words while preserving content words. The region shows activity during syntactically complex sentence processing. Its precise role remains debated: syntax building, working memory for sentences, or action sequencing.",
+      "how_best_learned": "Study aphasic patient speech patterns, examine fMRI during syntactically complex vs. simple sentences, analyze monkey premotor regions during action sequences.",
+      "common_misconceptions": "Broca's area is only for production; it contributes to comprehension. Aphasia reflects lost grammatical knowledge; it's impaired production. Broca's area localizes language production; it's part of broader networks."
+    },
+    {
+      "id": "wernicke-area-comprehension",
+      "title": "Wernicke's Area and Language Comprehension Networks",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "language-comprehension", "type": "hard"},
+        {"id": "brain-lobes-and-functions", "type": "soft"}
+      ],
+      "builds_toward": ["language-networks-distributed"],
+      "tags": ["language", "wernicke-area", "comprehension"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Wernicke's area (left superior temporal gyrus) is critical for comprehending spoken language. Wernicke's aphasia produces fluent but nonsensical speech and severe comprehension deficits. The region receives auditory input and connects to ventral temporal cortex for semantic access. It maps sound patterns to meaning and parses syntactic structure.",
+      "how_best_learned": "Study comprehension deficits in aphasic patients across word, sentence, and nonsense utterances, examine fMRI during meaningful vs. scrambled speech.",
+      "common_misconceptions": "Wernicke's area is purely receptive; it contributes to production through feedback. Aphasia severity correlates with lesion size; recovery and reorganization complicate this. Classical Broca-Wernicke dichotomy explains language organization; distributed networks do."
+    },
+    {
+      "id": "language-networks-distributed",
+      "title": "Distributed Language Networks and Temporoparietal Integration",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "broca-area-syntax-production", "type": "hard"},
+        {"id": "wernicke-area-comprehension", "type": "hard"},
+        {"id": "semantic-memory-networks", "type": "soft"}
+      ],
+      "builds_toward": [],
+      "tags": ["language", "networks", "temporoparietal"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Language recruits extensive networks beyond Broca-Wernicke: ventral temporal encodes meanings, superior temporal processes phonology and semantics, angular gyrus integrates phonological and semantic information, prefrontal supports discourse. Comprehension and production recruit overlapping networks with distinct subsystems. Individual variability in organization is substantial with atypical lateralization in some individuals.",
+      "how_best_learned": "Analyze fMRI connectivity during language tasks, conduct lesion-symptom mapping across patient cohorts, examine network reorganization after stroke.",
+      "common_misconceptions": "Strict left-hemisphere language dominance; right hemisphere contributes to pragmatics and prosody. Classical areas suffice; subcortical regions contribute. Language is modular; networks interact with memory, attention, and social cognition."
+    },
+    {
+      "id": "amygdala-threat-salience",
+      "title": "Amygdala Function in Threat Detection and Emotional Salience",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "amygdala-emotion", "type": "hard"},
+        {"id": "limbic-system-and-emotion", "type": "hard"},
+        {"id": "fear-conditioning-circuits", "type": "soft"}
+      ],
+      "builds_toward": ["emotion-regulation-prefrontal"],
+      "tags": ["emotion", "amygdala", "threat"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Basolateral amygdala rapidly detects threat-related stimuli and broadcasts signals to cortical and subcortical regions triggering arousal and defense. Amygdala neurons show enhanced responses to salient stimuli and learn threat associations within single exposures. This rapid, automatic detection is largely unconscious. Adaptive for survival but becomes pathological in anxiety through sensitization and overgeneralization.",
+      "how_best_learned": "Study single-unit recordings showing threat responses across conditioning, examine fMRI for fearful vs. neutral facial expressions, analyze attention modulation of amygdala.",
+      "common_misconceptions": "Amygdala only processes fear; it processes diverse salient states. Amygdala damage prevents all fear; defensive behaviors persist. Amygdala is necessary for emotional experience; subjective feeling depends on prefrontal and interoceptive regions."
+    },
+    {
+      "id": "ventromedial-prefrontal-valuation",
+      "title": "Ventromedial Prefrontal Cortex in Emotion and Value-Based Decision Making",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "brain-lobes-and-functions", "type": "hard"},
+        {"id": "limbic-system-and-emotion", "type": "hard"},
+        {"id": "amygdala-threat-salience", "type": "soft"}
+      ],
+      "builds_toward": ["emotion-regulation-prefrontal"],
+      "tags": ["emotion", "prefrontal", "valuation"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Ventromedial prefrontal cortex encodes subjective stimulus value integrating affective, cognitive, and homeostatic information. vmPFC neurons show stronger responses to preferred outcomes. vmPFC regulates amygdala through top-down inhibition; enhanced vmPFC-amygdala connectivity predicts regulation success. Lesions impair emotional decision-making and subjective feelings despite preserved threat assessment.",
+      "how_best_learned": "Study value correlates during choice tasks parametrically varying value, examine vmPFC-amygdala interactions during threat extinction, analyze patients with vmPFC damage.",
+      "common_misconceptions": "vmPFC and amygdala function independently; they interact bidirectionally. vmPFC simply inhibits emotions; it integrates emotional information with decision facts. Value signals are precise; they're noisy and context-dependent."
+    },
+    {
+      "id": "insula-interoception-emotion",
+      "title": "Insula and Interoception in Emotional Experience",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "brain-lobes-and-functions", "type": "hard"},
+        {"id": "somatosensory-system", "type": "hard"},
+        {"id": "limbic-system-and-emotion", "type": "soft"}
+      ],
+      "builds_toward": ["emotion-regulation-prefrontal"],
+      "tags": ["emotion", "insula", "interoception"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Anterior insula integrates visceral and bodily states with emotional processing. It receives amygdala and vmPFC input, representing internal physiological state (heart rate, breathing, gut signals) that constitutes 'felt emotion.' Insular activity predicts subjective emotional feeling better than peripheral physiology, suggesting emotional experience arises from cortical interpretation.",
+      "how_best_learned": "Compare insula activity with concurrent interoceptive measurements, examine how insular activity predicts feeling independent of physiology, study insular damage effects.",
+      "common_misconceptions": "Emotions are purely cognitive appraisals; bodily signals substantially contribute. Insula only processes pain; it represents diverse bodily states and affective significance. Insula alone explains emotion; emotion emerges from distributed networks."
+    },
+    {
+      "id": "emotion-regulation-prefrontal",
+      "title": "Emotion Regulation and Prefrontal-Amygdala Interactions",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "ventromedial-prefrontal-valuation", "type": "hard"},
+        {"id": "amygdala-threat-salience", "type": "hard"},
+        {"id": "insula-interoception-emotion", "type": "soft"}
+      ],
+      "builds_toward": [],
+      "tags": ["emotion", "regulation", "prefrontal"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Emotion regulation involves deliberate prefrontal modulation of amygdala reactivity. During cognitive reappraisal, dorsolateral prefrontal activity increases while amygdala decreases with concurrent reductions in arousal. Individual differences in prefrontal-amygdala connectivity correlate with regulation capacity. Anxiety and mood disorders show dysregulation with reduced prefrontal control or hyperactive threat detection.",
+      "how_best_learned": "Study brain activity during emotion regulation tasks comparing reappraisal vs. passive viewing, examine connectivity predicting regulation success, analyze how training changes prefrontal-amygdala balance.",
+      "common_misconceptions": "Emotion regulation requires conscious effort; much is automatic. Reappraisal eliminates emotion; it changes meaning rather than suppressing. Reappraisal is specific; it engages broader executive networks affecting attention and memory."
+    },
+    {
+      "id": "mirror-neurons-action-understanding",
+      "title": "Mirror Neurons and Motor Simulation in Action Understanding",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "motor-cortex", "type": "hard"},
+        {"id": "primary-motor-cortex", "type": "hard"},
+        {"id": "theory-of-mind-development", "type": "soft"}
+      ],
+      "builds_toward": ["temporoparietal-junction-mentalizing"],
+      "tags": ["social-neuroscience", "mirror-neurons", "action"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Mirror neurons in premotor and parietal cortex fire both during action execution and observation of others' actions. This automatic motor simulation may enable understanding others' actions and intentions by internally simulating them. TMS disrupting motor cortex impairs action observation and understanding. Mirror neurons map observed actions to corresponding motor programs, potentially bridging perception and action.",
+      "how_best_learned": "Study single-unit premotor/parietal recordings during execution and observation, examine fMRI mirror region activity during action observation, analyze motor TMS disruption effects.",
+      "common_misconceptions": "Mirror neurons explain all social understanding; they're one component. Mirror neurons are necessary for action understanding; they're not in all contexts. Mirror neurons operate in isolation; they're part of broader sensorimotor networks."
+    },
+    {
+      "id": "temporoparietal-junction-mentalizing",
+      "title": "Temporoparietal Junction and Mentalizing (Theory of Mind)",
+      "domain": "psychology",
+      "course": "cognitive-neuroscience",
+      "prerequisites": [
+        {"id": "theory-of-mind-development", "type": "hard"},
+        {"id": "social-cognition", "type": "hard"},
+        {"id": "mirror-neurons-action-understanding", "type": "soft"}
+      ],
+      "builds_toward": [],
+      "tags": ["social-neuroscience", "mentalizing", "theory-of-mind"],
+      "stage": "advanced",
+      "status": "draft",
+      "core_idea": "Temporoparietal junction (angular gyrus and superior temporal sulcus) is critical for inferring others' mental states—beliefs, desires, intentions. TPJ shows increased activity during false-belief reasoning. TMS disrupting TPJ selectively impairs false-belief reasoning while preserving other abilities. TPJ integrates information about others' perspectives, actions, and contexts to construct mental-state models. Mentalizing and TPJ maturation track children's false-belief understanding.",
+      "how_best_learned": "Examine fMRI during false-belief vs. physical reasoning tasks, study TMS disruption effects on mentalizing tasks, analyze neural representations for mental-state concepts.",
+      "common_misconceptions": "TPJ is the sole mentalizing region; medial prefrontal, temporal, and amygdala regions also contribute. Mentalizing is always conscious; much is automatic. People are always accurate about others' mental states; people are often wrong."
+    }
+  ]
+}

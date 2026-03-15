@@ -989,6 +989,333 @@ DOMAIN_SPECS = [
 ]
 
 
+# =========================================================================
+# ADVANCED MATH COURSES — graduate-level expansion (all stage: advanced)
+# =========================================================================
+
+ADVANCED_MATH_COURSES = [
+    {
+        "id": "math-differential-equations",
+        "type": "math-course",
+        "domain": "mathematics",
+        "course_id": "differential-equations",
+        "course_title": "Differential Equations",
+        "stage": "advanced",
+        "target_topics": 42,
+        "prereq_domains": ["mathematics"],
+        "guidance": (
+            "First-Order Linear ODEs, Integrating Factor Method, Exact Equations, "
+            "Existence and Uniqueness Theorems for ODEs, Autonomous Equations and "
+            "Phase Lines, Bifurcation in ODEs, Euler's Method for ODEs, Second-Order "
+            "Linear Homogeneous ODEs, Characteristic Equation Method, Complex Roots "
+            "and Oscillatory Solutions, Repeated Roots and Reduction of Order, "
+            "Wronskian and Linear Independence, Undetermined Coefficients, Variation "
+            "of Parameters, Higher-Order Linear ODEs, Spring-Mass Systems and "
+            "Mechanical Vibrations, RLC Circuit Applications, Laplace Transform "
+            "Definition and Properties, Common Laplace Transforms, Inverse Laplace "
+            "Transform, Laplace Transform of Derivatives, Solving IVPs with Laplace "
+            "Transforms, Step Functions and Laplace Transforms, Convolution Theorem, "
+            "Dirac Delta Function, Systems of First-Order Linear ODEs, Matrix "
+            "Exponential Method, Phase Portraits for Linear Systems, Stability "
+            "Classification, Linearization of Nonlinear Systems, Power Series "
+            "Solutions, Ordinary and Singular Points, Frobenius Method, Bessel "
+            "Functions, Legendre Equations and Polynomials, Fourier Series Definition "
+            "and Coefficients, Convergence of Fourier Series, Even/Odd Extensions, "
+            "The Heat Equation, Separation of Variables for PDEs, The Wave Equation, "
+            "Laplace's Equation and Boundary Value Problems. Prerequisites: "
+            "calculus-2 (integration-by-parts, taylor-series, power-series), "
+            "linear-algebra (eigenvalues-and-eigenvectors, matrix-operations), "
+            "multivariable-calculus (partial-derivatives)."
+        ),
+    },
+    {
+        "id": "math-real-analysis",
+        "type": "math-course",
+        "domain": "mathematics",
+        "course_id": "real-analysis",
+        "course_title": "Real Analysis",
+        "stage": "advanced",
+        "target_topics": 40,
+        "prereq_domains": ["mathematics"],
+        "guidance": (
+            "Ordered Field Axioms of the Real Numbers, The Completeness Axiom (Least "
+            "Upper Bound Property), Supremum and Infimum, The Archimedean Property, "
+            "Density of the Rationals, Sequences: Epsilon-N Convergence, Monotone "
+            "Convergence Theorem, Subsequences and Bolzano-Weierstrass, Cauchy "
+            "Sequences and Completeness, Limit Superior and Inferior, Open and Closed "
+            "Sets on the Real Line, Compact Sets and Heine-Borel Theorem, Connected "
+            "Sets, Epsilon-Delta Continuity, Sequential Characterization of "
+            "Continuity, Extreme Value Theorem (Proof via Compactness), Intermediate "
+            "Value Theorem (Rigorous), Uniform Continuity, Uniform Continuity on "
+            "Compact Sets, Rigorous Definition of the Derivative, Mean Value Theorem "
+            "(Rigorous), Taylor's Theorem with Remainder, L'Hopital's Rule (Rigorous), "
+            "Rigorous Series Convergence, Absolute Convergence and Rearrangement, "
+            "Riemann Integral via Darboux Sums, Criteria for Riemann Integrability, "
+            "Properties of the Riemann Integral, Fundamental Theorem of Calculus "
+            "(Rigorous), Improper Integrals (Rigorous), Pointwise Convergence of "
+            "Function Sequences, Uniform Convergence, Uniform Convergence Preserves "
+            "Continuity, Interchange of Limit and Integral, Interchange of Limit and "
+            "Derivative, Uniform Convergence of Power Series, Weierstrass M-Test, "
+            "Weierstrass Approximation Theorem, Introduction to Lebesgue Measure, "
+            "Introduction to the Lebesgue Integral. Prerequisites: calculus-1 "
+            "(continuity-definition, limit-laws, mean-value-theorem), calculus-2 "
+            "(sequences-intro, series-convergence-tests), methods-of-proof "
+            "(direct-proof, proof-by-contradiction, mathematical-induction)."
+        ),
+    },
+    {
+        "id": "math-abstract-algebra",
+        "type": "math-course",
+        "domain": "mathematics",
+        "course_id": "abstract-algebra",
+        "course_title": "Abstract Algebra",
+        "stage": "advanced",
+        "target_topics": 45,
+        "prereq_domains": ["mathematics"],
+        "guidance": (
+            "Binary Operations and Algebraic Structures, Group Definition and "
+            "Examples, Basic Properties of Groups, Subgroups and Subgroup Test, "
+            "Cyclic Groups, Order of a Group Element, Permutation Groups, Cycle "
+            "Notation and Decomposition, Sign of a Permutation, Dihedral Groups, "
+            "Group Homomorphisms, Group Isomorphisms, Cosets and Lagrange's Theorem, "
+            "Normal Subgroups, Quotient Groups, First Isomorphism Theorem for Groups, "
+            "Second and Third Isomorphism Theorems, Direct Products, Classification "
+            "of Finite Abelian Groups, Group Actions, Orbit-Stabilizer Theorem, The "
+            "Class Equation, Sylow Theorems, Applications of Sylow Theorems, Ring "
+            "Definition and Examples, Ring Homomorphisms, Subrings and Ideals, "
+            "Quotient Rings, First Isomorphism Theorem for Rings, Integral Domains, "
+            "Principal Ideal Domains, Unique Factorization Domains, Polynomial Rings, "
+            "Irreducibility Criteria, Maximal and Prime Ideals, Field Definition and "
+            "Examples, Field Extensions, Algebraic and Transcendental Elements, "
+            "Splitting Fields, Finite Fields, Galois Groups, Fundamental Theorem of "
+            "Galois Theory, Insolvability of the Quintic, Ruler and Compass "
+            "Constructions (Algebraic Proof), Cayley's Theorem. Prerequisites: "
+            "methods-of-proof (direct-proof, proof-by-contradiction, mathematical-"
+            "induction, equivalence-relations), linear-algebra (vector-spaces, "
+            "linear-transformations)."
+        ),
+    },
+    {
+        "id": "math-topology",
+        "type": "math-course",
+        "domain": "mathematics",
+        "course_id": "topology",
+        "course_title": "Topology",
+        "stage": "advanced",
+        "target_topics": 38,
+        "prereq_domains": ["mathematics"],
+        "guidance": (
+            "Topological Spaces: Definition and Examples, Open and Closed Sets, "
+            "Basis for a Topology, Subspace Topology, Product Topology, Quotient "
+            "Topology, Closure/Interior/Boundary, Limit Points and Convergence, "
+            "Hausdorff Spaces, Continuity in Topological Spaces, Homeomorphisms, "
+            "Topological Invariants, Metric Spaces: Definition and Examples, Metric "
+            "Topology, Completeness in Metric Spaces, Contraction Mapping Theorem, "
+            "Open Covers and Compactness, Compactness in Hausdorff Spaces, Sequential "
+            "Compactness, Compactness in Metric Spaces, Tychonoff's Theorem, "
+            "Connectedness, Path Connectedness, Connected Components, Separation "
+            "Axioms (T0 through T4), Urysohn's Lemma, Tietze Extension Theorem, "
+            "First and Second Countability, Metrization Theorems, Homotopy of Paths, "
+            "The Fundamental Group, Fundamental Group of the Circle, Simply Connected "
+            "Spaces, Covering Spaces, Van Kampen's Theorem, Classification of Compact "
+            "Surfaces, Baire Category Theorem, Introduction to Topological Manifolds. "
+            "Prerequisites: methods-of-proof (set-theory-basics, proof-by-contradiction, "
+            "equivalence-relations), real-analysis (open-and-closed-sets-real-line, "
+            "compact-sets-heine-borel, cauchy-sequences-and-completeness)."
+        ),
+    },
+    {
+        "id": "math-complex-analysis",
+        "type": "math-course",
+        "domain": "mathematics",
+        "course_id": "complex-analysis",
+        "course_title": "Complex Analysis",
+        "stage": "advanced",
+        "target_topics": 35,
+        "prereq_domains": ["mathematics"],
+        "guidance": (
+            "The Complex Plane and Its Topology, Complex Functions and Mappings, "
+            "Limits and Continuity of Complex Functions, Complex Differentiability "
+            "(Holomorphic Functions), Cauchy-Riemann Equations, Elementary Complex "
+            "Functions (exp, log, trig), Complex Logarithm and Branch Cuts, Complex "
+            "Power Functions, Complex Line Integrals, Cauchy's Theorem "
+            "(Cauchy-Goursat), Cauchy's Integral Formula, Cauchy's Integral Formula "
+            "for Derivatives, Liouville's Theorem, Fundamental Theorem of Algebra "
+            "(Complex-Analytic Proof), Maximum Modulus Principle, Taylor Series for "
+            "Complex Functions, Laurent Series, Classification of Isolated "
+            "Singularities, Residues: Definition and Computation, The Residue Theorem, "
+            "Evaluating Real Integrals Using Residues, Trigonometric Integrals via "
+            "Unit Circle, Improper Real Integrals via Contour Methods, The Argument "
+            "Principle, Rouche's Theorem, Open Mapping Theorem, Schwarz Lemma, "
+            "Conformal Mappings, Mobius Transformations, Riemann Mapping Theorem, "
+            "Analytic Continuation, Monodromy Theorem, Harmonic Functions, "
+            "Weierstrass Factorization Theorem, The Gamma Function. Prerequisites: "
+            "calculus-2 (power-series, taylor-series), multivariable-calculus "
+            "(partial-derivatives, line-integrals, greens-theorem), real-analysis "
+            "(open-and-closed-sets-real-line, uniform-convergence)."
+        ),
+    },
+    {
+        "id": "math-number-theory",
+        "type": "math-course",
+        "domain": "mathematics",
+        "course_id": "number-theory",
+        "course_title": "Number Theory",
+        "stage": "advanced",
+        "target_topics": 38,
+        "prereq_domains": ["mathematics"],
+        "guidance": (
+            "Divisibility Theory (Formal Treatment), Bezout's Identity, Linear "
+            "Diophantine Equations, Fundamental Theorem of Arithmetic (Rigorous), "
+            "Arithmetic Functions and Multiplicativity, Euler's Totient Function, "
+            "Mobius Function and Inversion, Fermat's Little Theorem, Euler's Theorem, "
+            "Wilson's Theorem, Primitive Roots and Cyclic Groups Mod p, Discrete "
+            "Logarithms, Quadratic Residues and Legendre Symbol, Euler's Criterion, "
+            "Law of Quadratic Reciprocity, The Jacobi Symbol, Sum of Two Squares "
+            "Theorem, Lagrange's Four-Square Theorem, Pythagorean Triples "
+            "(Parametrization), Fermat's Last Theorem (Overview), Pell's Equation, "
+            "Continued Fractions, Best Rational Approximations, Distribution of "
+            "Primes and Prime Number Theorem, Prime Counting Function and Chebyshev "
+            "Bounds, Introduction to the Riemann Zeta Function, Dirichlet Series and "
+            "L-Functions, Primes in Arithmetic Progressions (Dirichlet's Theorem), "
+            "Algebraic Integers, Gaussian Integers, The Norm in Algebraic Number "
+            "Fields, Failure of Unique Factorization, Introduction to Ideal Class "
+            "Group, p-adic Valuation, Introduction to p-adic Numbers, Arithmetic "
+            "in p-adic Numbers, Hensel's Lemma, Cryptographic Applications (RSA). "
+            "Prerequisites: discrete-math (modular-arithmetic, euclidean-algorithm, "
+            "fundamental-theorem-of-arithmetic), abstract-algebra (group-definition-"
+            "and-examples, ring-definition-and-examples)."
+        ),
+    },
+    {
+        "id": "math-probability-and-mathematical-statistics",
+        "type": "math-course",
+        "domain": "mathematics",
+        "course_id": "probability-and-mathematical-statistics",
+        "course_title": "Probability & Mathematical Statistics",
+        "stage": "advanced",
+        "target_topics": 40,
+        "prereq_domains": ["mathematics"],
+        "guidance": (
+            "Sigma-Algebras and Measurable Sets, Probability Spaces "
+            "(Measure-Theoretic Definition), Random Variables as Measurable "
+            "Functions, Distribution and Density Functions, Expectation "
+            "(Measure-Theoretic), Moment Generating Functions, Characteristic "
+            "Functions, Joint Distributions and Marginals (Rigorous), Conditional "
+            "Expectation, Independence of Sigma-Algebras, Borel-Cantelli Lemmas, "
+            "Convergence in Probability, Almost Sure Convergence, Convergence in "
+            "Distribution, Convergence in L^p, Relationships Between Modes of "
+            "Convergence, Weak Law of Large Numbers, Strong Law of Large Numbers, "
+            "Central Limit Theorem (Rigorous via Characteristic Functions), "
+            "Multivariate Normal Distribution, Exponential Family, Sufficient "
+            "Statistics, Fisher Information, Cramer-Rao Lower Bound, Maximum "
+            "Likelihood Estimation (Theory), Method of Moments, Consistency of "
+            "Estimators, Asymptotic Normality of MLE, UMVUE, Rao-Blackwell Theorem, "
+            "Neyman-Pearson Lemma, Likelihood Ratio Tests, Uniformly Most Powerful "
+            "Tests, Confidence Intervals (Rigorous Theory), Bayesian Inference "
+            "Foundations, Conjugate Priors, Bayesian Point Estimation, Markov Chains, "
+            "Stationary Distributions, Introduction to Martingales. Prerequisites: "
+            "probability-and-statistics (probability-axioms, bayes-theorem, "
+            "expected-value, variance), real-analysis (riemann-integral-via-darboux-"
+            "sums), measure-theory (sigma-algebras, lebesgue-measure)."
+        ),
+    },
+    {
+        "id": "math-numerical-analysis",
+        "type": "math-course",
+        "domain": "mathematics",
+        "course_id": "numerical-analysis",
+        "course_title": "Numerical Analysis",
+        "stage": "advanced",
+        "target_topics": 36,
+        "prereq_domains": ["mathematics"],
+        "guidance": (
+            "Floating Point Representation, Machine Epsilon and Rounding Errors, "
+            "Catastrophic Cancellation, Numerical Stability and Conditioning, "
+            "Condition Number of a Problem, Bisection Method, Fixed Point Iteration, "
+            "Newton's Method (Convergence Analysis), Secant Method, Order of "
+            "Convergence, Lagrange Polynomial Interpolation, Newton's Divided "
+            "Differences, Interpolation Error Analysis, Runge's Phenomenon, Chebyshev "
+            "Nodes and Optimal Interpolation, Cubic Spline Interpolation, Numerical "
+            "Differentiation, Richardson's Extrapolation, Newton-Cotes Quadrature, "
+            "Composite Quadrature Rules, Gaussian Quadrature, Romberg Integration, "
+            "Gaussian Elimination with Pivoting, LU Decomposition, Condition Number "
+            "of a Matrix, Jacobi Iterative Method, Gauss-Seidel Method, SOR, "
+            "Convergence of Iterative Methods, Power Method for Eigenvalues, QR "
+            "Algorithm, Numerical Least Squares, Euler's Method (Error Analysis), "
+            "Runge-Kutta Methods, Multistep Methods (Adams-Bashforth/Moulton), Stiff "
+            "Equations and Stability Regions. Prerequisites: calculus-1 "
+            "(mean-value-theorem), calculus-2 (taylor-series), linear-algebra "
+            "(matrix-operations, eigenvalues-and-eigenvectors)."
+        ),
+    },
+    {
+        "id": "math-graph-theory-and-combinatorics",
+        "type": "math-course",
+        "domain": "mathematics",
+        "course_id": "graph-theory-and-combinatorics",
+        "course_title": "Graph Theory & Combinatorics",
+        "stage": "advanced",
+        "target_topics": 37,
+        "prereq_domains": ["mathematics"],
+        "guidance": (
+            "Graph Theory: Formal Definitions, Degree Sequences and Erdos-Gallai "
+            "Theorem, Graph Operations and Products, Matchings in Bipartite Graphs, "
+            "Hall's Marriage Theorem, Konig's Theorem, Network Flows and Max-Flow "
+            "Min-Cut, Menger's Theorem, Chromatic Number Bounds, Brooks' Theorem, "
+            "The Chromatic Polynomial, Edge Coloring and Vizing's Theorem, List "
+            "Coloring, Planar Graphs: Kuratowski's and Wagner's Theorems, The Four "
+            "Color Theorem, Graph Minors and Robertson-Seymour, Ramsey Theory "
+            "Foundations, Ramsey Numbers and Bounds, Infinite Ramsey Theory, Turan's "
+            "Theorem, Extremal Graph Theory, The Probabilistic Method, Lovasz Local "
+            "Lemma, Algebraic Graph Theory: Adjacency Matrix, Graph Laplacian and "
+            "Spectrum, Matrix Tree Theorem, Generating Functions: Advanced Techniques, "
+            "Exponential Generating Functions, Catalan Numbers, Stirling Numbers, "
+            "Integer Partitions, Polya Enumeration Theorem, Inclusion-Exclusion "
+            "Advanced Applications, Latin Squares, Block Designs and Steiner Systems, "
+            "Introduction to Matroids, Hamiltonian Cycle Conditions (Dirac/Ore). "
+            "Prerequisites: discrete-math (graph-theory-intro, graph-coloring, "
+            "permutations-and-combinations), probability-and-statistics "
+            "(expected-value), linear-algebra (eigenvalues-and-eigenvectors)."
+        ),
+    },
+    {
+        "id": "math-measure-theory-and-functional-analysis",
+        "type": "math-course",
+        "domain": "mathematics",
+        "course_id": "measure-theory-and-functional-analysis",
+        "course_title": "Measure Theory & Functional Analysis",
+        "stage": "advanced",
+        "target_topics": 40,
+        "prereq_domains": ["mathematics"],
+        "guidance": (
+            "Sigma-Algebras (Formal Construction), Measures and Measure Spaces, "
+            "Outer Measure and Caratheodory's Theorem, Lebesgue Measure on R^n, "
+            "Measurable Functions, Simple Functions and Approximation, Lebesgue "
+            "Integral (Full Construction), Monotone Convergence Theorem, Fatou's "
+            "Lemma, Dominated Convergence Theorem, Comparison of Riemann and "
+            "Lebesgue Integrals, Product Measures and Fubini's Theorem, L^p Spaces, "
+            "Holder's and Minkowski's Inequalities, Completeness of L^p (Riesz-"
+            "Fischer), Normed Vector Spaces, Banach Spaces, Bounded Linear Operators, "
+            "The Operator Norm, Dual Spaces and Bounded Linear Functionals, "
+            "Hahn-Banach Theorem, Open Mapping Theorem, Closed Graph Theorem, "
+            "Uniform Boundedness Principle, Hilbert Spaces, Orthogonality in Hilbert "
+            "Spaces, Orthogonal Projections, Riesz Representation Theorem (Hilbert), "
+            "Orthonormal Bases, Bessel's Inequality and Parseval's Identity, Fourier "
+            "Series as L^2 Theory, Compact Operators, Spectral Theorem for Compact "
+            "Self-Adjoint Operators, Fredholm Alternative, Weak and Weak* Convergence, "
+            "Reflexive Spaces, Radon-Nikodym Theorem, Signed Measures and "
+            "Hahn-Jordan Decomposition, Riesz Representation Theorem (Measures), "
+            "Introduction to Sobolev Spaces. Prerequisites: real-analysis "
+            "(open-and-closed-sets-real-line, compact-sets-heine-borel, "
+            "uniform-convergence, riemann-integral-via-darboux-sums), linear-algebra "
+            "(vector-spaces, inner-products, eigenvalues-and-eigenvectors), "
+            "topology (topological-spaces, compactness, hausdorff-spaces)."
+        ),
+    },
+]
+
+
 def build_queue():
     """Expand all specs into a flat execution queue.
 
@@ -1000,8 +1327,21 @@ def build_queue():
     """
     queue = []
 
-    # Phase 1: Math courses
+    # Phase 1: Math courses (original + advanced)
     queue.extend(MATH_COURSES)
+    queue.extend(ADVANCED_MATH_COURSES)
+
+    # Phase 1b: Expansion courses (advanced content across all domains)
+    import sys
+    from pathlib import Path as _Path
+    overnight_dir = str(_Path(__file__).resolve().parent)
+    if overnight_dir not in sys.path:
+        sys.path.insert(0, overnight_dir)
+    try:
+        from expansion_courses import EXPANSION_COURSES
+        queue.extend(EXPANSION_COURSES)
+    except ImportError:
+        pass
 
     # Phase 2: New domain courses
     for spec in DOMAIN_SPECS:
