@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: isorhythmic-structures-modern
   type: soft
+- id: recurrence-relations
+  type: soft
 builds-toward:
 - mathematical-structure-analysis
 tags:

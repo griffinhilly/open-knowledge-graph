@@ -6,6 +6,10 @@ course: advanced-music-theory
 prerequisites:
 - id: metric-modulation-theory-advanced
   type: soft
+- id: ratios
+  type: hard
+- id: proportions
+  type: hard
 builds-toward:
 - algorithmic-composition-theory
 - musical-mathematics-symmetry

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: tonnetz-pitch-space
   type: hard
+- id: cycle-notation-and-decomposition
+  type: soft
 builds-toward:
 - neo-riemannian-voice-leading-graphs
 - formal-analysis-deformation

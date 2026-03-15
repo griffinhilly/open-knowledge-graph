@@ -6,6 +6,8 @@ course: advanced-music-theory
 prerequisites:
 - id: pitch-class-set-operations
   type: hard
+- id: equivalence-relations
+  type: soft
 builds-toward:
 - twelve-tone-operations-analysis
 tags:

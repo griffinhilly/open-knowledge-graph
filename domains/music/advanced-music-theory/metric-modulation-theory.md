@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rhythm-and-syncopation
   type: hard
+- id: ratios
+  type: soft
 builds-toward:
 - polymeter-analysis-advanced
 - minimalism-phase-structures

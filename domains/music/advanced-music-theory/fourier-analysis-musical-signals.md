@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: spectral-analysis-acoustics
   type: hard
+- id: fourier-series-definition
+  type: soft
+- id: complex-exponential-form
+  type: soft
 builds-toward:
 - information-theory-music
 - psychoacoustics-perception-theory

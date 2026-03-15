@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: twelve-tone-matrix-construction
   type: hard
+- id: combinations
+  type: soft
 builds-toward:
 - derived-row-techniques
 - pitch-class-set-cartography

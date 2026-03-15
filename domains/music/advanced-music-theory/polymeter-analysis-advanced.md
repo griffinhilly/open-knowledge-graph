@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: metric-modulation-theory
   type: soft
+- id: ratios
+  type: soft
 builds-toward:
 - isorhythmic-structures-modern
 tags:

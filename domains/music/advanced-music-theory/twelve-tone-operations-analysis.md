@@ -6,6 +6,10 @@ course: advanced-music-theory
 prerequisites:
 - id: twelve-tone-matrix-construction
   type: hard
+- id: permutations
+  type: soft
+- id: group-definition-and-examples
+  type: soft
 builds-toward:
 - combinatoriality-serial-composition
 - serial-composition-analysis

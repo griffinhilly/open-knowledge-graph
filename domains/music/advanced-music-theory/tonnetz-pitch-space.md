@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: interval-quality
   type: hard
+- id: graph-theory-fundamentals
+  type: soft
 builds-toward:
 - hexatonic-systems
 tags:

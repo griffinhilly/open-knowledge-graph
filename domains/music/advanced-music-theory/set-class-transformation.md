@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: transformational-analysis-music
   type: hard
+- id: group-definition-and-examples
+  type: soft
 builds-toward:
 - post-tonal-harmonic-analysis
 tags:

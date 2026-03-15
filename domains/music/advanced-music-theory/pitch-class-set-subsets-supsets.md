@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: pitch-class-set-operations
   type: hard
+- id: set-operations
+  type: soft
 builds-toward:
 - z-related-pitch-class-sets
 - twelve-tone-aggregate-formations

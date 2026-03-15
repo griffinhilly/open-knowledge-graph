@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: tuning-systems-temperament
   type: hard
+- id: rational-numbers-operations
+  type: soft
 builds-toward:
 - microtonal-systems-analysis
 - spectral-composition-acoustics

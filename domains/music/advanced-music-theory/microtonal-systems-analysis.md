@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: just-intonation-acoustics
   type: hard
+- id: rational-numbers-operations
+  type: soft
 tags:
 - microtonality
 - harmony

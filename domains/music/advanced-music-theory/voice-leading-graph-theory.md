@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: transformational-analysis-music
   type: soft
+- id: graph-theory-fundamentals
+  type: soft
 builds-toward:
 - orchestration-harmonic-function
 tags:

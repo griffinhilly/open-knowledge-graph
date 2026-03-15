@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: z-related-pitch-class-sets
   type: hard
+- id: set-operations
+  type: soft
+- id: graph-theory-fundamentals
+  type: soft
 builds-toward:
 - neo-riemannian-extended-systems
 - musical-mathematics-symmetry

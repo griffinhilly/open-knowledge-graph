@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: neo-riemannian-analysis-advanced
   type: soft
+- id: set-fundamentals
+  type: soft
 builds-toward:
 - electroacoustic-composition
 tags:

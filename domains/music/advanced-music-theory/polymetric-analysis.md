@@ -6,6 +6,8 @@ course: advanced-music-theory
 prerequisites:
 - id: metric-hierarchy
   type: hard
+- id: ratios
+  type: soft
 tags:
 - polymetric
 - polyrhythmic

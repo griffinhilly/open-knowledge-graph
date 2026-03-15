@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: set-class-equivalence
   type: hard
+- id: group-definition-and-examples
+  type: soft
 builds-toward:
 - voice-leading-graph-theory
 - neo-riemannian-analysis-advanced

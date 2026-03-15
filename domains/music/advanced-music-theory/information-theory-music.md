@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: fourier-analysis-musical-signals
   type: soft
+- id: bayes-theorem
+  type: soft
 builds-toward:
 - psychoacoustics-perception-theory
 tags:

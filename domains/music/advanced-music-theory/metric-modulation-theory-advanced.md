@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rhythmic-dissonance-resolution
   type: soft
+- id: ratios
+  type: soft
 builds-toward:
 - temporal-proportions-ratios
 - free-jazz-organizational-structures

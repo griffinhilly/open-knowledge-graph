@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: timbre-evolution-analysis
   type: soft
+- id: graphing-sine-and-cosine
+  type: soft
 builds-toward:
 - granular-synthesis-composition
 - algorithmic-composition-theory

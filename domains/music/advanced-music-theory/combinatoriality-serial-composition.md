@@ -6,6 +6,8 @@ course: advanced-music-theory
 prerequisites:
 - id: twelve-tone-operations-analysis
   type: hard
+- id: combinations
+  type: soft
 builds-toward:
 - serial-composition-analysis
 tags:

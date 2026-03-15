@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: twelve-tone-operations-analysis
   type: hard
+- id: combinations
+  type: soft
 builds-toward:
 - aggregate-completion-theory
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: roman-numeral-analysis
   type: soft
+- id: set-fundamentals
+  type: soft
 builds-toward:
 - pitch-class-set-operations
 - set-class-equivalence

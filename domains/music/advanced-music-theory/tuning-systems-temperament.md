@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: pitch-and-frequency
   type: hard
+- id: ratios
+  type: soft
+- id: logarithms-intro
+  type: soft
 tags:
 - tuning
 - temperament

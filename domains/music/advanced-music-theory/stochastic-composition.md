@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: recursive-structures-music
   type: soft
+- id: probability-axioms
+  type: soft
 builds-toward:
 - entropy-predictability-music
 tags:

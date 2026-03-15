@@ -6,6 +6,8 @@ course: advanced-music-theory
 prerequisites:
 - id: pitch-class-sets-introduction
   type: hard
+- id: set-operations
+  type: soft
 builds-toward:
 - set-class-equivalence
 - twelve-tone-matrix-construction

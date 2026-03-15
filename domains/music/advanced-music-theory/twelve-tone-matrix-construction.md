@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: serialism-and-twelve-tone
   type: hard
+- id: matrices-definition
+  type: soft
+- id: matrix-operations
+  type: soft
 builds-toward:
 - twelve-tone-operations-analysis
 - combinatoriality-serial-composition

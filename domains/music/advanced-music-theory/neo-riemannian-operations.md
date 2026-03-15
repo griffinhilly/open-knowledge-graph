@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: chromatic-mediant-chords
   type: soft
+- id: group-definition-and-examples
+  type: soft
 builds-toward:
 - tonnetz-pitch-space
 - neo-riemannian-romantic-analysis

@@ -6,6 +6,8 @@ course: advanced-music-theory
 prerequisites:
 - id: meter-beat-concept-hierarchy
   type: hard
+- id: ratios
+  type: soft
 builds-toward:
 - rhythmic-dissonance-resolution
 - metric-modulation-theory-advanced

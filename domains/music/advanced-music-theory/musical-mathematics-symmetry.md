@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: mathematical-structure-analysis
   type: soft
+- id: group-definition-and-examples
+  type: soft
 builds-toward:
 - fourier-analysis-musical-signals
 - information-theory-music

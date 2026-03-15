@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: stochastic-composition
   type: soft
+- id: expected-value
+  type: soft
 tags:
 - information-theory
 - entropy
