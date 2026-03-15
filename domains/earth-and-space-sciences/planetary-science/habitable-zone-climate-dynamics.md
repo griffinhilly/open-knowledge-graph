@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: planetary-habitability-and-biosignatures
   type: hard
+- id: greenhouse-effect
+  type: soft
 tags:
 - habitable-zone
 - climate

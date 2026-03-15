@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: focal-mechanisms-and-stress-tensors
   type: hard
+- id: logarithms-intro
+  type: soft
 builds-toward:
 - earthquake-magnitude-frequency-gutenberg-richter
 tags:

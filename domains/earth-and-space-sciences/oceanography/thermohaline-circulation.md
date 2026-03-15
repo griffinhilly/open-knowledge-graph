@@ -18,6 +18,8 @@ prerequisites:
   type: hard
 - id: buoyancy-forces
   type: soft
+- id: buoyancy
+  type: soft
 builds-toward:
 - polar-oceanography
 - sea-level-change

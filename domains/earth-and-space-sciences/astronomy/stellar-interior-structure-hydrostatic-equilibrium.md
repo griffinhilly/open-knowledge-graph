@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: inverse-square-law-stellar-radiation
   type: soft
+- id: hydrostatic-balance-pressure-profile
+  type: soft
 builds-toward:
 - core-hydrogen-burning-main-sequence
 tags:

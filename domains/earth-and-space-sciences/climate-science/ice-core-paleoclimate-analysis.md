@@ -6,6 +6,8 @@ course: climate-science
 prerequisites:
 - id: paleoclimate-proxies
   type: hard
+- id: isotopes-and-nuclear-composition
+  type: soft
 builds-toward:
 - glacial-interglacial-cycles
 - younger-dryas-event

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: quantum-mechanics-postulates-core
   type: soft
+- id: quantum-tunneling
+  type: soft
 builds-toward:
 - red-giant-branch-evolution
 tags:

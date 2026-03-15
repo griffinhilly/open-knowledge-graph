@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: differential-equations-intro
   type: soft
+- id: coriolis-effect
+  type: soft
 tags:
 - climate regulation
 - ocean heat transport

@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: ocean-carbonate-system
   type: hard
+- id: acid-base-definitions
+  type: soft
 builds-toward:
 - coral-reef-ecosystems
 tags:

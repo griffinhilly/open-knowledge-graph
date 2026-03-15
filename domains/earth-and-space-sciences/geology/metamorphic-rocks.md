@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: entropy-and-gibbs-free-energy
   type: soft
+- id: gibbs-free-energy-spontaneity
+  type: soft
 builds-toward:
 - rock-cycle
 - geologic-structures-folds-faults

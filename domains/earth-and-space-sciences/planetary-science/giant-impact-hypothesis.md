@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: collision-analysis-applications
   type: soft
+- id: conservation-of-momentum
+  type: soft
 builds-toward:
 - tidal-orbital-evolution-long-term
 - thermal-evolution-terrestrial-planets

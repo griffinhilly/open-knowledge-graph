@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: light-bending-gravitational-fields
   type: soft
+- id: light-deflection
+  type: soft
 builds-toward:
 - large-scale-structure-universe
 tags:

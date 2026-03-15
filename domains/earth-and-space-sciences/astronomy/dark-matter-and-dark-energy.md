@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: milky-way-structure
   type: soft
+- id: conservation-of-energy
+  type: soft
 tags:
 - dark-matter
 - rotation-curves

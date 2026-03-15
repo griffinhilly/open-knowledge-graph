@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: surface-energy-balance
   type: hard
+- id: radiative-transfer-atmospheric
+  type: soft
 builds-toward:
 - climate-tipping-points
 - climate-model-evaluation

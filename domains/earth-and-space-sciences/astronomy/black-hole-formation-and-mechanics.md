@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: general-relativity-intro
   type: soft
+- id: angular-momentum
+  type: soft
 builds-toward:
 - accretion-disk-physics
 - gamma-ray-burst-jet-physics

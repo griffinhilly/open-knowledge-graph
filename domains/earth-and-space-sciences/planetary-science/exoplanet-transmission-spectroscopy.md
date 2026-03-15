@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: spectroscopic-instrumentation
   type: soft
+- id: ultraviolet-visible-spectroscopy-quantitative
+  type: soft
 builds-toward:
 - biosignatures-exoplanet-atmospheres
 tags:

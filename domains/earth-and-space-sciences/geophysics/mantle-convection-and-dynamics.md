@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: boussinesq-approximation
   type: soft
+- id: fluid-flow-porous-media
+  type: soft
 builds-toward:
 - subduction-zone-structure-and-dynamics
 - mid-ocean-ridge-dynamics-and-geophysics

@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: kepler-laws-planetary-orbits
   type: hard
+- id: two-body-collision-center-of-mass
+  type: soft
 builds-toward:
 - exoplanet-detection-methods
 - stellar-end-states

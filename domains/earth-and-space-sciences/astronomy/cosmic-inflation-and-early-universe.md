@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hubble-law-and-cosmic-expansion
   type: soft
+- id: quantum-mechanics-postulates-core
+  type: soft
 tags:
 - inflation
 - early-universe

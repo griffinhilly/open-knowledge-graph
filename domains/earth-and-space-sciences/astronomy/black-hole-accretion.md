@@ -6,6 +6,8 @@ course: astronomy
 prerequisites:
 - id: black-hole-formation-and-mechanics
   type: hard
+- id: angular-momentum
+  type: soft
 builds-toward:
 - gravitational-waves-binary-mergers
 tags:

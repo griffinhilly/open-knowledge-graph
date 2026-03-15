@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: phase-diagrams
   type: soft
+- id: phase-diagrams-binary-mixtures
+  type: soft
 builds-toward:
 - rock-cycle
 - volcanoes-and-volcanism

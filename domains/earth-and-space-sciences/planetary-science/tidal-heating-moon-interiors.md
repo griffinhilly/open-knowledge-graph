@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: kepler-laws-planetary-orbits
   type: soft
+- id: energy-dissipation-and-irreversibility
+  type: soft
 builds-toward:
 - planetary-habitability-and-biosignatures
 tags:
