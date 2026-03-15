@@ -3,7 +3,9 @@ id: charge-and-current-flow
 title: Charge, Current, and Continuity
 domain: engineering
 course: circuits-and-electronics
-prerequisites: []
+prerequisites:
+- id: electric-field
+  type: hard
 builds-toward:
 - electric-potential-and-voltage
 - ohms-law-and-conductance

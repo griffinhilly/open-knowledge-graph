@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: laplace-transform-fundamentals
   type: hard
+- id: differential-equations-intro
+  type: hard
 builds-toward:
 - block-diagram-algebra
 - time-domain-response-first-order

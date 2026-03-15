@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: differential-equations-intro-separable
   type: hard
+- id: second-order-linear-homogeneous-odes
+  type: hard
 builds-toward:
 - resonance-circuits
 tags:

@@ -6,6 +6,8 @@ course: thermodynamics-engineering
 prerequisites:
 - id: thermodynamic-systems-engineering
   type: hard
+- id: temperature-and-thermal-equilibrium
+  type: hard
 builds-toward:
 - control-mass-first-law-applications
 - state-functions-path-functions

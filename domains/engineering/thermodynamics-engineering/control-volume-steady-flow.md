@@ -6,6 +6,8 @@ course: thermodynamics-engineering
 prerequisites:
 - id: first-law-open-systems
   type: hard
+- id: energy-conservation-applications
+  type: hard
 builds-toward:
 - kinetic-potential-energy-flow
 - compressible-flow-isentropic-flow

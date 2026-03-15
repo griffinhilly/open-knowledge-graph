@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: potential-energy-conservative-forces
   type: hard
+- id: energy-conservation-applications
+  type: hard
 builds-toward:
 - lagrangian-mechanics-overview
 tags:

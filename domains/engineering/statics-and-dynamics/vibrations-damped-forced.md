@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: differential-equations-intro
   type: soft
+- id: damped-harmonic-oscillator
+  type: hard
 tags:
 - damping
 - forced-vibration

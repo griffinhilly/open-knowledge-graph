@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: rl-circuits
   type: soft
+- id: first-order-linear-odes
+  type: hard
 builds-toward:
 - second-order-transient-circuits
 tags:

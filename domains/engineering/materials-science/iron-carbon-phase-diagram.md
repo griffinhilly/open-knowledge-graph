@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: crystal-structure-basics
   type: soft
+- id: equilibrium-expression-kc-kp-constants
+  type: soft
 builds-toward:
 - heat-treatment-of-steels
 tags:

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: conservation-laws-em
   type: hard
+- id: conservation-of-mass
+  type: hard
 builds-toward:
 - bernoullis-equation
 - navier-stokes-equations

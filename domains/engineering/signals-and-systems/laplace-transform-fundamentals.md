@@ -6,6 +6,8 @@ course: signals-and-systems
 prerequisites:
 - id: fourier-transform-definition-properties
   type: hard
+- id: differential-equations-intro
+  type: hard
 builds-toward:
 - laplace-transform-properties-inverse
 - transfer-function-poles-zeros

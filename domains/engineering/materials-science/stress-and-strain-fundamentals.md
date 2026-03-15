@@ -6,6 +6,8 @@ course: materials-science
 prerequisites:
 - id: force-vectors-components-resultants
   type: hard
+- id: vectors-in-3d
+  type: soft
 builds-toward:
 - elastic-deformation-and-moduli-materials
 - plastic-deformation-yielding-materials

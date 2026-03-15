@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: navier-stokes-equations
   type: soft
+- id: conservation-of-momentum
+  type: hard
 builds-toward:
 - energy-equation-steady-flow
 - aerodynamic-forces-lift-drag-coefficients

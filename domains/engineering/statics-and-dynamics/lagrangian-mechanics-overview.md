@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: work-energy-theorem-rigorous
   type: hard
+- id: calculus-of-variations
+  type: soft
 builds-toward:
 - euler-equations-rigid-body-rotation
 tags:

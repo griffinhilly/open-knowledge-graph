@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: trigonometric-functions-review
   type: hard
+- id: trigonometric-functions
+  type: hard
 builds-toward:
 - fourier-transform-definition-properties
 - magnitude-phase-spectrum-representation

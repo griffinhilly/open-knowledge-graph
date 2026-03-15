@@ -3,7 +3,9 @@ id: atomic-bonding-engineering-materials
 title: Atomic Bonding in Engineering Materials
 domain: engineering
 course: materials-science
-prerequisites: []
+prerequisites:
+- id: atomic-structure-and-atoms
+  type: hard
 builds-toward:
 - crystal-lattice-systems-classification
 - phase-equilibrium-thermodynamics-materials

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: ac-power-and-resonance
   type: soft
+- id: logarithm-properties
+  type: hard
 builds-toward:
 - passive-filter-design
 tags:

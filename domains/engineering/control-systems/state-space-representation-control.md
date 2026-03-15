@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: soft
+- id: linear-transformations
+  type: hard
 builds-toward:
 - state-transition-matrix
 - controllability-and-observability

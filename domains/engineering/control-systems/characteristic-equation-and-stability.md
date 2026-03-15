@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: characteristic-polynomial
   type: hard
+- id: eigenvalues-and-eigenvectors
+  type: hard
 builds-toward:
 - natural-frequency-damping-second-order
 - routh-hurwitz-criterion

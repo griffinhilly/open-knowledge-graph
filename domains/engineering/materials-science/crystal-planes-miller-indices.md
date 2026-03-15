@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vector-analysis-and-components
   type: soft
+- id: 3d-coordinate-systems
+  type: soft
 builds-toward:
 - diffusion-mechanisms-materials
 tags:

@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: complex-plane
   type: soft
+- id: logarithm-properties
+  type: hard
 tags:
 - bode-plot
 - asymptotic-approximation

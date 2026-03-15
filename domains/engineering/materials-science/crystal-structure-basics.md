@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: atomic-structure-and-atoms
   type: hard
+- id: crystal-structures-and-properties
+  type: hard
 builds-toward:
 - miller-indices
 - crystal-defects

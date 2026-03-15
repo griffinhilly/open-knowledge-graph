@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: vectors-in-two-dimensions
   type: hard
+- id: vectors-in-rn-operations
+  type: hard
 builds-toward:
 - dynamics-newtons-second-law
 tags:

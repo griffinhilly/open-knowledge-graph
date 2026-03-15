@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: sinusoidal-steady-state-analysis
   type: hard
+- id: complex-numbers-intro
+  type: hard
 builds-toward:
 - ac-power-analysis-circuits
 - frequency-response-and-bode-plots

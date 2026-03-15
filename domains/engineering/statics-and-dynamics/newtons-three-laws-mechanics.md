@@ -6,6 +6,8 @@ course: statics-and-dynamics
 prerequisites:
 - id: inertial-reference-frames
   type: hard
+- id: newtons-second-law
+  type: hard
 builds-toward:
 - principle-of-superposition-mechanics
 - conservation-of-linear-momentum

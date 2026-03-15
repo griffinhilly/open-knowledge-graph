@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: phase-equilibrium-thermodynamics-materials
   type: soft
+- id: phase-diagrams-binary-mixtures
+  type: soft
 builds-toward:
 - lever-rule
 - iron-carbon-phase-diagram

@@ -6,6 +6,8 @@ course: thermodynamics-engineering
 prerequisites:
 - id: second-law-of-thermodynamics
   type: hard
+- id: entropy-definition-and-calculation
+  type: hard
 builds-toward:
 - entropy-calculation-properties
 - exergy-concept-availability

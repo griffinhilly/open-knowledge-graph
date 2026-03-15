@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: conservation-of-energy-mechanical-systems
   type: hard
+- id: energy-conservation-applications
+  type: hard
 builds-toward:
 - flow-measurement-methods
 - pipe-system-losses

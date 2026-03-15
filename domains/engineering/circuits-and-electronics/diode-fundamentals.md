@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: electric-current-and-resistance
   type: soft
+- id: atomic-structure-and-atoms
+  type: soft
 builds-toward:
 - diode-circuit-applications
 - bjt-transistor-fundamentals

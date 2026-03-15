@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: complex-functions-mappings
   type: hard
+- id: sequences-and-series
+  type: soft
 builds-toward:
 - z-transform-properties-inverse
 - digital-signal-processing-fundamentals
