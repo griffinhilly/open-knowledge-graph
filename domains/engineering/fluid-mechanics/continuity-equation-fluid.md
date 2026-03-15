@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: partial-derivatives
   type: soft
+- id: conservation-laws-em
+  type: hard
 builds-toward:
 - bernoullis-equation
 - navier-stokes-equations

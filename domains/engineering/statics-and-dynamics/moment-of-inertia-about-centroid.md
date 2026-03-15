@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: applications-double-integrals
   type: hard
+- id: mass-moment-of-inertia
+  type: hard
 builds-toward:
 - principal-axes-and-rotation
 - shear-force-bending-moment-diagrams

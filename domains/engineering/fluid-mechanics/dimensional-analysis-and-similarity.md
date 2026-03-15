@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: reynolds-number
   type: soft
+- id: unit-step-function
+  type: soft
 builds-toward:
 - drag-and-lift-aerodynamics
 - open-channel-flow

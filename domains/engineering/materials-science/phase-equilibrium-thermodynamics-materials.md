@@ -6,6 +6,8 @@ course: materials-science
 prerequisites:
 - id: atomic-bonding-engineering-materials
   type: hard
+- id: entropy-and-gibbs-free-energy
+  type: hard
 builds-toward:
 - binary-phase-diagrams-equilibrium
 - microstructure-development-control

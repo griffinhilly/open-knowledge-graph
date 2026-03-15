@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: dimensional-analysis-and-similarity
   type: soft
+- id: viscosity-gas-liquid-transport
+  type: soft
 builds-toward:
 - laminar-pipe-flow
 - turbulent-pipe-flow

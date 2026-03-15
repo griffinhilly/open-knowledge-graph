@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: differential-equations-intro
   type: hard
+- id: partial-derivatives-basics
+  type: hard
 builds-toward:
 - laminar-pipe-flow
 - boundary-layer-theory

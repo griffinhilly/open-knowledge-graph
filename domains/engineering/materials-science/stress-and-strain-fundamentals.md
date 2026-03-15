@@ -3,7 +3,9 @@ id: stress-and-strain-fundamentals
 title: Stress and Strain Fundamentals
 domain: engineering
 course: materials-science
-prerequisites: []
+prerequisites:
+- id: force-vectors-components-resultants
+  type: hard
 builds-toward:
 - elastic-deformation-and-moduli-materials
 - plastic-deformation-yielding-materials

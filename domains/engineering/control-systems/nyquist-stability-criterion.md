@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: contour-integration
   type: hard
+- id: complex-plane
+  type: hard
 builds-toward:
 - gain-and-phase-margins
 tags:

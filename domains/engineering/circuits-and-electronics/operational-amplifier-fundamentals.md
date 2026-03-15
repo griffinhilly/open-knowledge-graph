@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: mosfet-transistor-fundamentals
   type: soft
+- id: ideal-voltage-and-current-sources
+  type: hard
 builds-toward:
 - op-amp-circuit-applications
 tags:

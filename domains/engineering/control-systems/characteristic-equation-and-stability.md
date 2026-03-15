@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: feedback-control-fundamentals
   type: hard
+- id: characteristic-polynomial
+  type: hard
 builds-toward:
 - natural-frequency-damping-second-order
 - routh-hurwitz-criterion

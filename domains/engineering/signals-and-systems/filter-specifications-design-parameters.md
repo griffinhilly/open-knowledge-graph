@@ -6,6 +6,8 @@ course: signals-and-systems
 prerequisites:
 - id: frequency-response-and-bode-plots
   type: hard
+- id: fourier-series-representation
+  type: hard
 builds-toward:
 - butterworth-filter-maximally-flat-response
 - chebyshev-filter-equiripple-response

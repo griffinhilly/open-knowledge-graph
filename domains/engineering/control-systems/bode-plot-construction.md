@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: logarithmic-functions-review
   type: hard
+- id: complex-plane
+  type: soft
 tags:
 - bode-plot
 - asymptotic-approximation

@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: ac-circuits-fundamentals
   type: soft
+- id: sinusoidal-steady-state-analysis
+  type: hard
 builds-toward:
 - ac-power-analysis-circuits
 - frequency-response-and-bode-plots

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: orthogonal-signal-decomposition-basis
   type: hard
+- id: trigonometric-functions-review
+  type: hard
 builds-toward:
 - fourier-transform-definition-properties
 - magnitude-phase-spectrum-representation

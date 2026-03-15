@@ -6,6 +6,8 @@ course: materials-science
 prerequisites:
 - id: phase-equilibrium-thermodynamics-materials
   type: hard
+- id: phase-diagrams-binary-mixtures
+  type: hard
 builds-toward:
 - heat-treatment-steel-processing
 tags:

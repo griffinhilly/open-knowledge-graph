@@ -6,6 +6,8 @@ course: statics-and-dynamics
 prerequisites:
 - id: kinematics-particles-rectilinear
   type: hard
+- id: angular-momentum
+  type: soft
 builds-toward:
 - rigid-body-kinematics-general-motion
 - rigid-body-kinetics-force-acceleration

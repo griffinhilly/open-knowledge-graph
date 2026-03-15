@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kinematics-particles-rectilinear
   type: hard
+- id: simple-harmonic-motion
+  type: hard
 builds-toward: []
 tags:
 - dynamics

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: passive-filter-transfer-function-analysis
   type: soft
+- id: logarithms-intro
+  type: hard
+- id: logarithmic-functions-review
+  type: hard
 builds-toward:
 - filter-selection-and-practical-applications
 tags:

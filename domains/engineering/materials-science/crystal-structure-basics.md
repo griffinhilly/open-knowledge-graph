@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: metallic-bonding
   type: soft
+- id: atomic-structure-and-atoms
+  type: hard
 builds-toward:
 - miller-indices
 - crystal-defects
