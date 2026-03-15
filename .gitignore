@@ -6,3 +6,4 @@ output/
 *.html
 .DS_Store
 Thumbs.db
+nohup*.out
