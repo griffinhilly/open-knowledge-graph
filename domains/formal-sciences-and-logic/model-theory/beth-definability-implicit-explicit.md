@@ -1,28 +1,26 @@
 ---
 id: beth-definability-implicit-explicit
-title: Beth's Definability Theorem
+title: 'Beth Definability: From Implicit to Explicit Definitions'
 domain: formal-sciences-and-logic
 course: model-theory
 prerequisites:
-- id: compactness-theorem-model-theory
+- id: craig-lyndon-interpolation
   type: hard
-- id: interpolation-theorem
+- id: beth-definability-implicit-explicit
   type: soft
 builds-toward:
-- quantifier-elimination-and-decidability
-- definability-and-algebraic-applications
+- definable-closure-independence
 tags:
-- beth-theorem
+- Beth
 - definability
-- expressibility
-stage: advanced
+- implicit
+- explicit
+- elimination
+stage: abstract-reasoning
 status: draft
 ---
 
-# Beth's Definability Theorem
+# Beth Definability: From Implicit to Explicit Definitions
 
 ## Core Idea
-Beth's definability theorem states that if a relation is implicitly definable in a theory (all models satisfying the implicit definition agree on the relation), then it is explicitly definable (there exists a formula that defines it). This theorem reveals fundamental limits: implicit definability guarantees explicit expressibility in first-order logic.
-
-## How It's Best Learned
-Understand the connection between Beth's theorem and Craig interpolation. Study examples where implicit definition fails to be explicit.
+Beth's theorem states that if a predicate is implicitly defined by a theory (uniquely determined up to isomorphism), then it is explicitly definable (there is a formula φ such that the theory entails the predicate equals φ). This theorem bridges implicit definability (uniqueness up to models) and explicit definability (provable equivalence), with deep connections to model-theoretic properties.
