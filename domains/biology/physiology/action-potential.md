@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: electrochemistry-basics
   type: soft
+- id: chemical-equilibrium
+  type: soft
 builds-toward:
 - synaptic-transmission
 - skeletal-muscle-contraction

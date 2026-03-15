@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: functional-groups-overview
   type: soft
+- id: enantiomers-and-chirality
+  type: soft
 builds-toward:
 - protein-primary-structure
 - enzyme-cofactors-and-coenzymes

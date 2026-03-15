@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: coordination-chemistry-basics
   type: soft
+- id: chemical-equilibrium
+  type: soft
 builds-toward:
 - oxygen-delivery-tissue-extraction-consumption
 tags:

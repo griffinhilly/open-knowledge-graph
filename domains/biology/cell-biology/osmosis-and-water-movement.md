@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cell-membrane-fluid-mosaic
   type: hard
+- id: colligative-properties
+  type: soft
 builds-toward:
 - membrane-transport-mechanisms
 tags:

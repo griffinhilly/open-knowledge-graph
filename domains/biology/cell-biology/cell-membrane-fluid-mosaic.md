@@ -6,6 +6,8 @@ course: cell-biology
 prerequisites:
 - id: cell-membrane-structure
   type: hard
+- id: lipid-bilayer-and-amphipathic-molecules
+  type: soft
 builds-toward:
 - osmosis-and-water-movement
 - membrane-transport-mechanisms

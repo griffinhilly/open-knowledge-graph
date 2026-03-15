@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: osmotic-water-balance
   type: hard
+- id: colligative-properties
+  type: soft
 builds-toward:
 - active-transport
 - cell-senescence-aging

@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: oxidation-reduction-reactions
   type: soft
+- id: oxidation-reduction-basics
+  type: soft
 tags:
 - photosynthesis
 - light-reactions

@@ -6,6 +6,8 @@ course: cell-biology
 prerequisites:
 - id: passive-transport
   type: hard
+- id: colligative-properties
+  type: soft
 tags:
 - osmosis
 - water-balance

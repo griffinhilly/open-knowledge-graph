@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nucleophilic-addition-to-carbonyls
   type: soft
+- id: aldehyde-and-ketone-structure-and-nomenclature
+  type: soft
 builds-toward:
 - glycolysis-mechanism-and-regulation
 - glycogen-metabolism

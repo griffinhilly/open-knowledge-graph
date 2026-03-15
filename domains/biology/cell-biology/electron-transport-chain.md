@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: oxidation-reduction-reactions
   type: soft
+- id: oxidation-reduction-basics
+  type: soft
 builds-toward:
 - atp-synthesis
 - light-reactions

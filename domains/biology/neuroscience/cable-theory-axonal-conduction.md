@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: partial-differential-equations
   type: soft
+- id: differential-equations-intro
+  type: hard
 builds-toward:
 - hodgkin-huxley-model
 - saltatory-conduction

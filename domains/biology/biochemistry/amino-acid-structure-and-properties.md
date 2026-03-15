@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: functional-groups-overview
   type: soft
+- id: enantiomers-and-chirality
+  type: soft
 builds-toward:
 - amino-acid-classification-and-properties
 - peptide-bonds-and-polypeptide-formation

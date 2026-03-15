@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: entropy-and-gibbs-free-energy
   type: soft
+- id: carbonyl-chemistry-intro
+  type: soft
 builds-toward:
 - pyruvate-oxidation
 - krebs-cycle

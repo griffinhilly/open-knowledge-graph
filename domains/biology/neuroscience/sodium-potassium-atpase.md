@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: neuronal-compartments
   type: soft
+- id: atp-hydrolysis-and-free-energy
+  type: hard
 builds-toward:
 - resting-membrane-potential
 - nernst-equation

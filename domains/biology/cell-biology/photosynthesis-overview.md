@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: atp-synthesis
   type: soft
+- id: oxidation-reduction-basics
+  type: soft
 builds-toward:
 - light-reactions
 - calvin-cycle
