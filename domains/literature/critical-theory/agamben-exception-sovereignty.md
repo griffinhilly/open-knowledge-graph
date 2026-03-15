@@ -1,26 +1,25 @@
 ---
 id: agamben-exception-sovereignty
-title: Agamben's State of Exception and Bare Life
+title: Agamben, Exception, and Sovereignty
 domain: literature
 course: critical-theory
 prerequisites:
-- id: foucault-genealogy-discourse
-  type: soft
-- id: discourse-and-power
-  type: soft
+- id: agamben-exception-sovereignty
+  type: hard
+- id: biopolitics-sovereign-power-agamben
+  type: hard
 builds-toward:
 - biopolitics-literature
 tags:
-- Agamben
+- agamben
 - exception
 - sovereignty
 - bare-life
-- camp
 stage: formal-systems
 status: draft
 ---
 
-# Agamben's State of Exception and Bare Life
+# Agamben, Exception, and Sovereignty
 
 ## Core Idea
-Agamben develops the state of exception—the suspension of law that paradoxically reveals the foundation of sovereignty. The concentration camp becomes a paradigm for understanding modern biopolitics: the production of bare life stripped of political rights and reduced to biological existence. Literature and testimony become crucial for bearing witness to the state of exception and documenting zones where law no longer applies.
+Agamben argues that sovereignty rests on the ability to declare a state of exception—a suspension of law. The excluded subject (homo sacer) is both outside and inside the political order, stripped of legal protection. Literature represents this liminal condition through characters left in legal nonexistence or bare life. Analyzing these representations illuminates how sovereignty operates through exception.
