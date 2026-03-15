@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: body-organization-and-terminology
   type: hard
+- id: inflammation-innate-response
+  type: soft
 builds-toward:
 - tissue-repair-and-wound-healing-phases
 tags:

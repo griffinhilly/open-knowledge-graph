@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: protein-kinase-signaling-cascades
   type: hard
+- id: gpcr-metabotropic-signaling
+  type: soft
 builds-toward:
 - endocrine-regulation-feedback
 - metabolic-hormones-glucose-control

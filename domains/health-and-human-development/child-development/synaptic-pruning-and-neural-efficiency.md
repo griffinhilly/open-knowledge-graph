@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: critical-developmental-periods
   type: soft
+- id: synaptogenesis-and-circuit-development
+  type: soft
 builds-toward:
 - executive-function-development-components
 - abstract-reasoning-and-hypothetical-thinking

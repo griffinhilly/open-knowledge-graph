@@ -6,6 +6,8 @@ course: epidemiology
 prerequisites:
 - id: epidemiology-foundations
   type: hard
+- id: population-genetics-intro
+  type: soft
 tags:
 - genetic-epidemiology
 - heritability

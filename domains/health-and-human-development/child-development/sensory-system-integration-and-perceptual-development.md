@@ -6,6 +6,8 @@ course: child-development
 prerequisites:
 - id: neonatal-reflexes-and-sensory-capabilities
   type: soft
+- id: sensory-neural-coding-perception
+  type: soft
 builds-toward:
 - visual-development-acuity-and-perception
 - auditory-development-discrimination-and-language-readiness

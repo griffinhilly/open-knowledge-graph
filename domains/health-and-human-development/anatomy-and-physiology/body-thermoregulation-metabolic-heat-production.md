@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: endocrine-glands-and-hormones
   type: soft
+- id: thermoregulation
+  type: soft
 builds-toward:
 - energy-metabolism-and-calories
 tags:

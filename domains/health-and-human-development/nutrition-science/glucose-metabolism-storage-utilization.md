@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: glycolysis-mechanism-and-regulation
   type: hard
+- id: glucose-homeostasis-fed-fasted-metabolic-states
+  type: soft
 builds-toward:
 - b-vitamin-coenzymes-energy-metabolism
 - metabolic-rate-thermogenesis-energy-expenditure

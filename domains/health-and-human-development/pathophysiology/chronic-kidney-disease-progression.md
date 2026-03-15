@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hypertension-pathophysiology
   type: soft
+- id: glomerular-filtration-mechanism
+  type: soft
 builds-toward:
 - renal-osteodystrophy
 - uremic-syndrome

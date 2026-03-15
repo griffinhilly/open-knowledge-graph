@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: osmosis-and-water-movement
   type: hard
+- id: osmosis-and-tonicity
+  type: soft
 builds-toward:
 - hyponatremia-hypernatremia-disorders
 tags:

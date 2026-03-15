@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: necrosis-vs-apoptosis
   type: hard
+- id: apoptosis-cell-death
+  type: soft
 builds-toward:
 - oncogenes-and-tumor-suppressors
 - autoimmune-disease-pathophysiology-adv

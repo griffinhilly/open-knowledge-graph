@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nutrient-digestion-and-absorption
   type: hard
+- id: protein-primary-structure
+  type: soft
 builds-toward:
 - amino-acid-metabolism-and-protein-turnover
 - protein-quality-amino-acid-score-patterns

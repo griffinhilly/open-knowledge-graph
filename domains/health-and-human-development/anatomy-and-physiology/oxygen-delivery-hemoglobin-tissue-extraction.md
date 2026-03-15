@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cardiac-anatomy-and-conduction
   type: hard
+- id: hemoglobin-cooperativity-oxygen-binding
+  type: soft
 builds-toward:
 - oxygen-delivery-and-tissue-oxygen-extraction
 tags:

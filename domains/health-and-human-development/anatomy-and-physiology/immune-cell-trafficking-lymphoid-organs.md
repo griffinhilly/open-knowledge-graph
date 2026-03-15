@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: body-organization-and-terminology
   type: hard
+- id: immune-memory-and-secondary-immune-response
+  type: soft
 builds-toward:
 - mucosal-immunity-and-iga-response
 tags:

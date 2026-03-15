@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: atp-synthesis
   type: hard
+- id: skeletal-muscle-contraction
+  type: soft
 builds-toward:
 - motor-control-and-neural-activation
 - muscle-metabolism-and-fatigue

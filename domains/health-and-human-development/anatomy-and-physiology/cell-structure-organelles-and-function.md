@@ -6,6 +6,8 @@ course: anatomy-and-physiology
 prerequisites:
 - id: cell-biology-intro
   type: soft
+- id: eukaryotic-cells
+  type: soft
 builds-toward:
 - epithelial-and-connective-tissue-types
 - skeletal-muscle-anatomy-and-contraction

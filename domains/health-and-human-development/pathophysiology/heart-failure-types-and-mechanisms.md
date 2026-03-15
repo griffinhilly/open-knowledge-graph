@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: myocardial-infarction-pathophysiology
   type: soft
+- id: cardiac-output-control-regulation
+  type: soft
 builds-toward:
 - cardiogenic-shock
 - pulmonary-edema-pathophysiology

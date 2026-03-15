@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cholesterol-synthesis
   type: soft
+- id: cholesterol-metabolism-and-regulation
+  type: soft
 tags:
 - vitamin-d
 - metabolism

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: apoptosis-pathways
   type: hard
+- id: cell-cycle-checkpoints-cancer
+  type: soft
 builds-toward:
 - oncogenes-and-tumor-suppressors
 - metastasis-mechanisms

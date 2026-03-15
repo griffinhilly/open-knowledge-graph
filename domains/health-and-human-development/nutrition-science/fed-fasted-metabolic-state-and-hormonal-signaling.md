@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: insulin-glucagon-glucose-homeostasis
   type: soft
+- id: metabolic-integration-hormonal-regulation
+  type: soft
 builds-toward:
 - macronutrient-timing-athletic-performance-recovery
 - nutrient-interactions-synergies-and-antagonisms

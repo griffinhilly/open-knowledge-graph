@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vascular-permeability-control
   type: soft
+- id: inflammation-innate-response
+  type: soft
 builds-toward:
 - chronic-inflammation
 - atherosclerosis-pathophysiology

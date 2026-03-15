@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: renal-anatomy-and-filtration
   type: hard
+- id: acid-base-chemistry
+  type: soft
 builds-toward:
 - metabolic-integration-and-fed-fasted-states
 tags:

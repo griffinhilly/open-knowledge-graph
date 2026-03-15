@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: synaptic-transmission
   type: hard
+- id: neurotransmitter-synthesis-storage
+  type: soft
 builds-toward:
 - sensory-transduction-and-encoding
 - motor-control-and-neural-activation

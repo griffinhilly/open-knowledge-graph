@@ -6,6 +6,8 @@ course: anatomy-and-physiology
 prerequisites:
 - id: skeletal-joints-and-movement-mechanics
   type: hard
+- id: skeletal-muscle-contraction
+  type: soft
 builds-toward:
 - smooth-muscle-structure-and-distribution
 - cardiac-muscle-anatomy-and-properties

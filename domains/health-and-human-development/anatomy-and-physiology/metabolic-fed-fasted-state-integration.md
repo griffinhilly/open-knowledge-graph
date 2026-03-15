@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: endocrine-glands-and-hormones
   type: hard
+- id: fed-state-metabolism
+  type: soft
+- id: fasted-state-metabolism
+  type: soft
 builds-toward:
 - obesity-and-metabolic-syndrome
 tags:

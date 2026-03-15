@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: blood-vessels-and-circulation
   type: hard
+- id: glomerular-filtration-mechanism
+  type: soft
 builds-toward:
 - fluid-balance-and-electrolytes
 - renal-regulation-of-fluid-balance

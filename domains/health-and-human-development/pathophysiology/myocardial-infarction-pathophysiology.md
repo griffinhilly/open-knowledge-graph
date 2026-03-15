@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: necrosis-vs-apoptosis
   type: soft
+- id: myocardial-contractility-mechanisms
+  type: soft
 builds-toward:
 - post-infarction-ventricular-remodeling
 - cardiogenic-shock

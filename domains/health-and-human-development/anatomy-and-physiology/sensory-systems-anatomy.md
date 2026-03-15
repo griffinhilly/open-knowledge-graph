@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: synaptic-transmission
   type: soft
+- id: sensory-neural-coding-perception
+  type: soft
 tags:
 - vision
 - hearing

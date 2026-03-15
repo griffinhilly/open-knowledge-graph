@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: functional-groups-overview
   type: soft
+- id: carbohydrate-structure-and-classification
+  type: soft
 builds-toward:
 - dietary-fiber-and-gut-health
 - energy-metabolism-and-calories

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: insulin-signaling-pathways
   type: soft
+- id: glucose-homeostasis-fed-fasted-metabolic-states
+  type: soft
 builds-toward:
 - diabetic-nephropathy
 - diabetic-retinopathy

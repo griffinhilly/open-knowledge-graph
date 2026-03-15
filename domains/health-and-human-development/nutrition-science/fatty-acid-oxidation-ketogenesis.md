@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: glucose-metabolism-storage-utilization
   type: hard
+- id: fatty-acid-oxidation-beta-oxidation
+  type: soft
 builds-toward:
 - metabolic-rate-thermogenesis-energy-expenditure
 - ketone-metabolism-and-metabolic-flexibility

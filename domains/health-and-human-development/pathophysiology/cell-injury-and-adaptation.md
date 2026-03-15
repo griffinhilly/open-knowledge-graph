@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mitochondria-structure-and-function
   type: hard
+- id: cell-signaling-intro
+  type: soft
 builds-toward:
 - necrosis-vs-apoptosis
 - acute-inflammation-pathophysiology

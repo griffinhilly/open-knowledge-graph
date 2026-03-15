@@ -3,7 +3,9 @@ id: brain-anatomy-and-functional-organization
 title: Brain Anatomy and Functional Organization
 domain: health-and-human-development
 course: anatomy-and-physiology
-prerequisites: []
+prerequisites:
+- id: nervous-system-overview
+  type: soft
 builds-toward:
 - spinal-cord-and-peripheral-nerve-anatomy
 tags:

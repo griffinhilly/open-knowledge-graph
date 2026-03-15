@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: neonatal-reflexes-and-sensory-capabilities
   type: soft
+- id: circadian-rhythm-and-melatonin
+  type: soft
 builds-toward:
 - school-age-cognitive-and-social-development
 tags:

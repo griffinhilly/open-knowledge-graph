@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: alveolar-gas-exchange-diffusion
   type: soft
+- id: gas-exchange-and-diffusion
+  type: soft
 tags:
 - gas-exchange
 - diffusion

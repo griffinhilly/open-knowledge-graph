@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: critical-developmental-periods
   type: soft
+- id: myelin-and-myelination
+  type: soft
 builds-toward:
 - gross-motor-milestones-locomotion
 - fine-motor-development-grasp-and-manipulation

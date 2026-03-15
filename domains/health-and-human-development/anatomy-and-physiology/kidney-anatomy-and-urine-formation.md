@@ -6,6 +6,8 @@ course: anatomy-and-physiology
 prerequisites:
 - id: homeostasis-and-negative-feedback-mechanisms
   type: soft
+- id: glomerular-filtration-mechanism
+  type: soft
 tags:
 - kidney
 - nephron

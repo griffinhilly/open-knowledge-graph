@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: infectious-disease-surveillance
   type: soft
+- id: antibiotic-resistance-mechanisms
+  type: soft
 tags:
 - antibiotic-resistance
 - stewardship
