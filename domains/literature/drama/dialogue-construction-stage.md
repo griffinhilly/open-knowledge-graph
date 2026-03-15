@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: dramatic-structure
   type: soft
+- id: conversational-implicature
+  type: soft
 builds-toward:
 - subtext-and-unspoken-meaning
 - dramatic-exposition-revelation

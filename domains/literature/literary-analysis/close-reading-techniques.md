@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: sentence-structure-basics
   type: soft
+- id: reading-comprehension-basics
+  type: soft
 builds-toward:
 - plot-structure
 - characterization-methods

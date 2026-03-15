@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: soliloquy-and-aside
   type: soft
+- id: implicature-and-logical-form
+  type: soft
 builds-toward:
 - modern-realist-drama
 tags:

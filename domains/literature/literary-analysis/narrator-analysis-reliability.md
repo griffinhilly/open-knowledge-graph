@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: unreliable-narrator
   type: hard
+- id: deixis-and-reference
+  type: soft
 builds-toward:
 - intertextual-analysis-and-meaning
 tags:

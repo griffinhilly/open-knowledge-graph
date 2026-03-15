@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: phonological-systems
   type: soft
+- id: phonological-features
+  type: soft
 builds-toward:
 - poetic-voice-and-tone
 - imagery-in-poetry

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: characterization-methods
   type: soft
+- id: information-structure-focus-topic
+  type: soft
 builds-toward:
 - unreliable-narrator
 - tone-and-mood

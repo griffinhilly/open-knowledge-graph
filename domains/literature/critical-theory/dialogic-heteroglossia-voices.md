@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: discourse-analysis
   type: soft
+- id: multilingualism-and-code-switching
+  type: soft
 builds-toward:
 - narrative-voice
 - characterization-dialogue

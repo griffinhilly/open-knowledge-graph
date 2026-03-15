@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: textual-analysis-and-interpretation
   type: hard
+- id: presupposition-and-semantic-content
+  type: soft
 tags:
 - interpretation
 - validity

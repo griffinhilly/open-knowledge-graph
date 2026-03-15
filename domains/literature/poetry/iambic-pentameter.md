@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: articulatory-phonetics
   type: soft
+- id: metrical-systems-stress
+  type: soft
 builds-toward:
 - sonnet-form
 - blank-verse

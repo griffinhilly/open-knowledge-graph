@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: textual-evidence-and-citation
   type: hard
+- id: reading-comprehension-basics
+  type: soft
 builds-toward:
 - textual-analysis-and-interpretation
 - figurative-language-close-reading

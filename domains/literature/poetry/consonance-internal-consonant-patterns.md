@@ -6,6 +6,8 @@ course: poetry
 prerequisites:
 - id: sound-devices-in-poetry
   type: soft
+- id: phonological-rules-derivation
+  type: soft
 tags:
 - sound-devices
 - phonetics

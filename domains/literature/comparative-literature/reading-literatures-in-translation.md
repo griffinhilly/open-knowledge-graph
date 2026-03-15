@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: comparative-literary-method
   type: hard
+- id: language-variation-and-change
+  type: soft
 builds-toward:
 - untranslatable-cultural-specificity
 - postcolonial-translation-resistance

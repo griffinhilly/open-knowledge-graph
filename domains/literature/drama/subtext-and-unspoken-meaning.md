@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: characterization-methods
   type: soft
+- id: presupposition-and-semantic-content
+  type: soft
 builds-toward:
 - character-transformation-arc
 - monologue-and-soliloquy-craft

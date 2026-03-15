@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: phonological-systems
   type: soft
+- id: stress-assignment-rules
+  type: soft
 builds-toward:
 - poetic-form-overview
 - sonnet-form

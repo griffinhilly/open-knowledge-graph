@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: new-criticism-and-formalism
   type: soft
+- id: formal-linguistics-overview
+  type: soft
 builds-toward:
 - semiotics-and-signs
 - narratology

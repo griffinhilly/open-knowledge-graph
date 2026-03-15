@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: phonological-systems
   type: soft
+- id: stress-assignment-rules
+  type: soft
 builds-toward:
 - iambic-pentameter
 - scansion

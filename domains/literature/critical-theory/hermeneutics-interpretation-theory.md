@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: close-reading-techniques
   type: soft
+- id: pragmatics
+  type: soft
 builds-toward:
 - phenomenology-literary-reading
 tags:

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: semiotics-and-signs
   type: soft
+- id: compositional-semantics
+  type: soft
+- id: context-dependent-interpretation
+  type: soft
 builds-toward:
 - benjamin-translation-task
 - venuti-foreignizing-translation

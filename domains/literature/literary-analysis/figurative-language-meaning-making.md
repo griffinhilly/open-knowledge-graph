@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: figurative-language
   type: hard
+- id: compositional-semantics
+  type: soft
 builds-toward:
 - stylistic-analysis-and-effect
 tags:

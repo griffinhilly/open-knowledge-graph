@@ -6,6 +6,8 @@ course: comparative-literature
 prerequisites:
 - id: literary-criticism-overview
   type: hard
+- id: linguistic-typology
+  type: soft
 builds-toward:
 - weltliteratur-concept
 - world-literature-debates

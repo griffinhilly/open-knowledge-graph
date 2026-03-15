@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: semiotics-and-signs
   type: soft
+- id: linguistic-pragmatics
+  type: soft
 builds-toward:
 - transtextuality-genette
 - literary-influence-tradition

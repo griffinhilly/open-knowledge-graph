@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: syntactic-structure
   type: soft
+- id: deixis-and-reference
+  type: soft
 builds-toward:
 - reader-response-theory
 - post-structuralism

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dramatic-monologue-in-poetry
   type: soft
+- id: speech-act-theory
+  type: soft
 builds-toward:
 - character-transformation-arc
 - dramatic-conventions-audience-contract

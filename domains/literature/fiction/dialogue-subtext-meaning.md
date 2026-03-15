@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: characterization-methods
   type: soft
+- id: implicature-and-logical-form
+  type: soft
 tags:
 - dialogue
 - subtext

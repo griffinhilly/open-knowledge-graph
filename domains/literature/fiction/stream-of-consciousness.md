@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: syntactic-structure
   type: soft
+- id: psycholinguistics-intro
+  type: soft
 builds-toward: []
 tags:
 - stream-of-consciousness

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: literary-criticism-overview
   type: soft
+- id: language-ideology
+  type: soft
 builds-toward:
 - literary-cosmopolitanism-ethics
 - canon-contestation-pluralism

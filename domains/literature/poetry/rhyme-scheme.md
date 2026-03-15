@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: phonological-systems
   type: soft
+- id: phonological-rules-derivation
+  type: soft
 builds-toward:
 - sonnet-form
 - villanelle-form

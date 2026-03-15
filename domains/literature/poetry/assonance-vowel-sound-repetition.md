@@ -6,6 +6,8 @@ course: poetry
 prerequisites:
 - id: sound-devices-in-poetry
   type: hard
+- id: phonological-features
+  type: soft
 builds-toward:
 - consonance-internal-consonant-patterns
 tags:

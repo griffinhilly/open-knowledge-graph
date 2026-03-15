@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: setting-and-atmosphere
   type: soft
+- id: emotional-authenticity-persuasion
+  type: soft
 builds-toward:
 - irony-in-literature
 - thematic-development

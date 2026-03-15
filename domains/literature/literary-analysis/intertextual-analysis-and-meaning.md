@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: literary-allusion-identification-tracking
   type: hard
+- id: context-dependent-interpretation
+  type: soft
 builds-toward:
 - genre-analysis-and-meaning
 tags:

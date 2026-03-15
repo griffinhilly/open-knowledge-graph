@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: metaphor-simile-poetic-comparison
   type: hard
+- id: metaphor-and-metonymy
+  type: soft
 builds-toward:
 - figurative-language-meaning-making
 - figurative-language-close-reading

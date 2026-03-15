@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dialogue-analysis-and-function
   type: soft
+- id: reported-speech-indirect-quotation
+  type: soft
 builds-toward:
 - psychological-novel-consciousness
 tags:

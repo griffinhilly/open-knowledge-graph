@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: discourse-analysis
   type: soft
+- id: conversational-implicature
+  type: soft
 builds-toward:
 - short-story-form
 - narrative-voice
