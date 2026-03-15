@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: recursion-basics
   type: hard
+- id: proof-by-cases
+  type: soft
 tags:
 - adversarial-search
 - games

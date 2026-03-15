@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: big-o-notation
   type: soft
+- id: expected-value-and-variance
+  type: soft
 builds-toward:
 - sorting-lower-bounds
 tags:

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: diagonalization
   type: hard
+- id: covariance-correlation-theory
+  type: soft
 tags:
 - unsupervised-learning
 - dimensionality-reduction

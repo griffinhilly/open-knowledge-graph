@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: failure-models-distributed
   type: hard
+- id: formal-logic-propositions
+  type: soft
 builds-toward:
 - paxos-algorithm
 - raft-algorithm

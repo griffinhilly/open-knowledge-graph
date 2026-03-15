@@ -6,6 +6,8 @@ course: operating-systems
 prerequisites:
 - id: context-switching-and-cpu-dispatch
   type: hard
+- id: optimization-problems
+  type: soft
 builds-toward:
 - fcfs-scheduling-algorithm
 - round-robin-scheduling

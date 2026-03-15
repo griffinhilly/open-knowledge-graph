@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lamport-timestamps
   type: soft
+- id: mathematical-induction-intro
+  type: soft
 builds-toward:
 - state-machine-replication
 tags:

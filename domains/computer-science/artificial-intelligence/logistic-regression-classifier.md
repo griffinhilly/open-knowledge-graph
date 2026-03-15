@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: conditional-probability
   type: soft
+- id: probability-rules-for-events
+  type: soft
 tags:
 - supervised-learning
 - classification

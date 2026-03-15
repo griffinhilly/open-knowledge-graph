@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: dot-product
   type: soft
+- id: vector-spaces
+  type: soft
 tags:
 - nlp
 - embeddings

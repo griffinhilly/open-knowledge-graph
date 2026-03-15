@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dining-philosophers-problem
   type: soft
+- id: graph-theory-intro
+  type: soft
 builds-toward:
 - deadlock-banker-algorithm
 tags:

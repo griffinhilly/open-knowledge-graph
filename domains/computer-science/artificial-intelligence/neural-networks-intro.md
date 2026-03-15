@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: derivatives-of-exponential-functions
   type: soft
+- id: vectors-in-rn-operations
+  type: soft
 tags:
 - neural-networks
 - deep-learning

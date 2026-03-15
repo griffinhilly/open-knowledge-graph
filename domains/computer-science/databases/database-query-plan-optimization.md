@@ -6,6 +6,8 @@ course: databases
 prerequisites:
 - id: query-execution-plans
   type: hard
+- id: optimization-multivariable-basics
+  type: soft
 tags:
 - query-optimization
 - performance

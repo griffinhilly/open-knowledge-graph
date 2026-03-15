@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: probability-mass-functions
   type: hard
+- id: probability-axioms-and-rules
+  type: soft
 tags:
 - markov-models
 - sequence-models

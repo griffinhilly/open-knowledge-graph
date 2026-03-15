@@ -14,6 +14,10 @@ prerequisites:
   type: hard
 - id: expected-value
   type: soft
+- id: probability-density-functions-theory
+  type: soft
+- id: kullback-leibler-divergence
+  type: soft
 tags:
 - generative-models
 - probabilistic-models

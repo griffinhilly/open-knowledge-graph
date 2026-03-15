@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: heap-structure-and-heapify-operations
   type: soft
+- id: probability-axioms-and-rules
+  type: soft
 tags:
 - greedy
 - coding

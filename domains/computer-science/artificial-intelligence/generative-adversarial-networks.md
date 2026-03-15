@@ -18,6 +18,8 @@ prerequisites:
   type: hard
 - id: probability-density-functions
   type: soft
+- id: probability-density-functions-theory
+  type: soft
 tags:
 - deep-learning
 - generative-models

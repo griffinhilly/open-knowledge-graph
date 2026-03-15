@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: exponents-intro
   type: soft
+- id: binary-arithmetic
+  type: soft
 builds-toward:
 - arithmetic-logic-unit
 tags:

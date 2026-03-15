@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: graph-theory-fundamentals
   type: soft
+- id: directed-graphs-and-digraphs
+  type: soft
 builds-toward:
 - dataflow-analysis
 tags:

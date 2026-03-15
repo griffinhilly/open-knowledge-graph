@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: optimization-problems
   type: hard
+- id: matrix-operations
+  type: soft
 tags:
 - supervised-learning
 - classification

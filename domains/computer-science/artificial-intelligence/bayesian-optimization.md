@@ -6,6 +6,10 @@ course: artificial-intelligence
 prerequisites:
 - id: hyperparameter-optimization
   type: hard
+- id: bayes-theorem-and-inference
+  type: soft
+- id: expected-value-and-variance
+  type: soft
 builds-toward:
 - hyperparameter-tuning
 - acquisition-functions

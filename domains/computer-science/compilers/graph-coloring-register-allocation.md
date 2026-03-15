@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: register-allocation
   type: hard
+- id: graph-coloring
+  type: soft
 builds-toward:
 - code-emission-target-generation
 tags:

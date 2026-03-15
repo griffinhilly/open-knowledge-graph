@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: variance-of-random-variables
   type: soft
+- id: expected-value-and-variance
+  type: soft
 tags:
 - learning-theory
 - generalization

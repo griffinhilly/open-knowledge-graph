@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: boolean-algebra-and-laws
   type: soft
+- id: boolean-algebra
+  type: soft
+- id: binary-arithmetic
+  type: soft
 builds-toward:
 - arithmetic-logic-units-design
 - fixed-point-number-representation

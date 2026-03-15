@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: multivariable-limits
   type: hard
+- id: directional-derivatives-gradient
+  type: soft
 tags:
 - optimization
 - first-order-methods

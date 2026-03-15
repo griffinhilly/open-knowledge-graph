@@ -24,6 +24,8 @@ prerequisites:
   type: hard
 - id: statistics-descriptive
   type: soft
+- id: expected-value-and-variance
+  type: soft
 tags:
 - supervised-learning
 - regression

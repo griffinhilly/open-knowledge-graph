@@ -6,6 +6,8 @@ course: computer-networking
 prerequisites:
 - id: tcp-ip-model
   type: hard
+- id: binary-number-system
+  type: soft
 builds-toward:
 - ipv6-addressing
 - subnetting-and-cidr-notation

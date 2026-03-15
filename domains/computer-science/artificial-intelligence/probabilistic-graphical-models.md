@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: probability-spaces-measure-theoretic
   type: soft
+- id: probability-axioms-and-rules
+  type: soft
+- id: conditional-probability
+  type: soft
 builds-toward:
 - markov-random-fields
 - factor-graphs-inference

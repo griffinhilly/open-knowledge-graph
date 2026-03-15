@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: expected-value
   type: soft
+- id: expected-value-and-variance
+  type: soft
 tags:
 - decision-making
 - markov-models

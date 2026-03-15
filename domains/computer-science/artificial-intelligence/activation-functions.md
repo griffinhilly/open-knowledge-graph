@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: exponential-functions-and-graphs
   type: soft
+- id: chain-rule
+  type: soft
 builds-toward:
 - deep-learning-foundations
 - vanishing-gradient-problem

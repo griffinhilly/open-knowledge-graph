@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: linear-transformations
   type: soft
+- id: matrix-operations
+  type: soft
 tags:
 - neural-networks
 - training-algorithms

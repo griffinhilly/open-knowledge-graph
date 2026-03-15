@@ -6,6 +6,8 @@ course: computer-architecture
 prerequisites:
 - id: boolean-algebra-and-laws
   type: soft
+- id: boolean-algebra
+  type: soft
 builds-toward:
 - boolean-function-implementation
 - combinational-circuit-design

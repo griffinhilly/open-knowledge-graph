@@ -6,6 +6,10 @@ course: computer-networking
 prerequisites:
 - id: ipv4-addressing
   type: hard
+- id: binary-arithmetic
+  type: soft
+- id: number-base-conversion-operations
+  type: soft
 builds-toward:
 - ip-routing-basics
 tags:

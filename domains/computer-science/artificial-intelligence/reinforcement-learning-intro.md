@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: expected-value-and-variance
   type: soft
+- id: optimization-multivariable-basics
+  type: soft
 tags:
 - reinforcement-learning
 - learning-paradigm

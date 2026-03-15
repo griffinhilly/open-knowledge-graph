@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: optimization-problems
   type: soft
+- id: expected-value-and-variance
+  type: soft
 builds-toward:
 - mixture-models
 - latent-variable-models

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: graph-theory-fundamentals
   type: soft
+- id: graph-theory-intro
+  type: soft
 builds-toward:
 - reaching-definitions-analysis
 - live-variable-analysis

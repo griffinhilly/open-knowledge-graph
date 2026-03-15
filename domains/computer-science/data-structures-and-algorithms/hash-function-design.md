@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: modular-arithmetic
   type: soft
+- id: modular-arithmetic-discrete
+  type: soft
 builds-toward:
 - linear-probing-double-hashing
 - separate-chaining-collisions

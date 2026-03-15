@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: distributed-systems-overview
   type: soft
+- id: modular-arithmetic-discrete
+  type: soft
 builds-toward:
 - distributed-hash-tables
 tags:

@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: markov-chains
   type: soft
+- id: calculus
+  type: soft
+- id: moving-averages-exponential-smoothing
+  type: soft
 builds-toward:
 - temporal-dependencies
 - seq2seq-models

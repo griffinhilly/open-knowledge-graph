@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: tcp-connection-establishment
   type: hard
+- id: optimization-multivariable-basics
+  type: soft
 builds-toward:
 - qos-quality-of-service
 tags:
