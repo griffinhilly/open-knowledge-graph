@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: skeletal-muscle-contraction
   type: soft
+- id: calcium-signaling-neurons
+  type: hard
 builds-toward:
 - motor-control-and-neural-activation
 - muscle-metabolism-and-fatigue

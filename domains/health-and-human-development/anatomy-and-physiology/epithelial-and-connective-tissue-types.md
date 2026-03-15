@@ -6,6 +6,10 @@ course: anatomy-and-physiology
 prerequisites:
 - id: cell-structure-organelles-and-function
   type: hard
+- id: cell-adhesion-tissue
+  type: soft
+- id: cell-junctions-adhesion-communication
+  type: soft
 builds-toward:
 - bone-structure-composition-and-remodeling
 - respiratory-system-anatomy-and-ventilation

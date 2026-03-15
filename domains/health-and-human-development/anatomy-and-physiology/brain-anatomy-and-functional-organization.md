@@ -6,6 +6,14 @@ course: anatomy-and-physiology
 prerequisites:
 - id: nervous-system-overview
   type: soft
+- id: basal-ganglia
+  type: soft
+- id: cerebellum
+  type: soft
+- id: amygdala-emotion
+  type: soft
+- id: hippocampus-memory
+  type: soft
 builds-toward:
 - spinal-cord-and-peripheral-nerve-anatomy
 tags:

@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: fasted-state-metabolism
   type: soft
+- id: fed-fasted-metabolic-state
+  type: hard
+- id: glucose-homeostasis-fed-fasted-metabolic-states
+  type: hard
 builds-toward:
 - obesity-and-metabolic-syndrome
 tags:

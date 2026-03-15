@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: intestinal-absorption-nutrient-transport
   type: hard
+- id: iron-oxygen-transport-dna-synthesis
+  type: soft
 tags:
 - iron
 - bioavailability

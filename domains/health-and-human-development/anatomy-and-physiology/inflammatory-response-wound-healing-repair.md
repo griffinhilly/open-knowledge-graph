@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: inflammation-innate-response
   type: soft
+- id: inflammatory-response-cellular
+  type: soft
+- id: apoptosis-cell-death
+  type: soft
+- id: inflammation-and-wound-healing
+  type: soft
 builds-toward:
 - tissue-repair-and-wound-healing-phases
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: cholesterol-metabolism-and-regulation
   type: soft
+- id: hormone-signaling-mechanisms
+  type: soft
 tags:
 - vitamin-d
 - metabolism

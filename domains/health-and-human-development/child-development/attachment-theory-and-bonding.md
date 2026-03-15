@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: endocrine-glands-and-hormones
   type: soft
+- id: amygdala-emotion
+  type: soft
+- id: dopamine-reward-system
+  type: soft
 builds-toward:
 - temperament-and-individual-differences
 - toddler-social-emotional-development

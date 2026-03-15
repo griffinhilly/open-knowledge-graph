@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: dna-replication
   type: soft
+- id: cell-differentiation-lineage
+  type: soft
 builds-toward:
 - teratogens-and-prenatal-risk
 - neonatal-reflexes-and-sensory-capabilities

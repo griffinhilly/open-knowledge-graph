@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: energy-metabolism-and-calories
   type: soft
+- id: glycolysis
+  type: hard
+- id: citric-acid-cycle-mechanism
+  type: soft
 builds-toward:
 - obesity-and-metabolic-syndrome
 - sports-nutrition-basics

@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: acid-base-chemistry
   type: soft
+- id: acid-base-definitions
+  type: hard
+- id: weak-acid-ionization
+  type: soft
 builds-toward:
 - metabolic-integration-and-fed-fasted-states
 tags:

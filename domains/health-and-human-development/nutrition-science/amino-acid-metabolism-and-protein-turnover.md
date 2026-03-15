@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: amino-acid-structure-and-properties
   type: soft
+- id: amino-acid-degradation-overview
+  type: soft
+- id: protein-synthesis-amino-acid-requirements
+  type: soft
 builds-toward:
 - nutrient-interactions-synergies-and-antagonisms
 - malnutrition-pathophysiology-refeeding-syndrome

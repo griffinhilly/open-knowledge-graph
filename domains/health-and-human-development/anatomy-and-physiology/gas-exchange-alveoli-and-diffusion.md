@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: gas-exchange-and-diffusion
   type: soft
+- id: diffusion-and-ficks-laws
+  type: soft
 tags:
 - gas-exchange
 - diffusion

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: neural-anatomy-and-organization
   type: hard
+- id: neuromuscular-junction
+  type: hard
+- id: acetylcholine-system
+  type: hard
 builds-toward:
 - skeletal-muscle-contraction-mechanics
 tags:

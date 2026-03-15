@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: glomerular-filtration-mechanism
   type: soft
+- id: selective-permeability-and-membrane-channels
+  type: hard
+- id: ion-channels-selectivity
+  type: hard
 builds-toward:
 - fluid-balance-and-electrolytes
 - renal-regulation-of-fluid-balance

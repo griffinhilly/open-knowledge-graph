@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: relative-risk-calculation
   type: soft
+- id: antibody-structure-and-function
+  type: soft
+- id: adaptive-immune-response-kinetics
+  type: soft
 tags:
 - vaccine-studies
 - immunization-programs

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: fatty-acid-oxidation-beta-oxidation
   type: soft
+- id: ketone-body-metabolism
+  type: soft
 builds-toward:
 - metabolic-rate-thermogenesis-energy-expenditure
 - ketone-metabolism-and-metabolic-flexibility

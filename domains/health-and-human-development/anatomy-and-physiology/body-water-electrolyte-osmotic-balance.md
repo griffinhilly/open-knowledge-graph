@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: cell-membrane-structure
   type: hard
+- id: osmosis-and-tonicity
+  type: hard
+- id: colligative-properties
+  type: hard
+- id: ionic-bonding
+  type: soft
 builds-toward:
 - fluid-balance-and-electrolytes
 - renal-regulation-of-fluid-balance

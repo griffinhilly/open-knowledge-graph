@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: buffer-chemistry
   type: soft
+- id: buffer-solutions
+  type: hard
 builds-toward:
 - renal-regulation-acid-base
 - respiratory-compensation-and-control

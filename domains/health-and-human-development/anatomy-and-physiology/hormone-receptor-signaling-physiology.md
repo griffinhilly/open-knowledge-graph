@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: hormone-signaling-mechanisms
   type: hard
+- id: second-messenger-systems
+  type: hard
 builds-toward:
 - endocrine-regulation-feedback
 - metabolic-hormones-glucose-control

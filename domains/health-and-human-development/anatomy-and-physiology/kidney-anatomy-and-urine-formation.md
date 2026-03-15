@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: glomerular-filtration-mechanism
   type: soft
+- id: osmosis-and-tonicity
+  type: hard
+- id: active-transport
+  type: soft
 tags:
 - kidney
 - nephron

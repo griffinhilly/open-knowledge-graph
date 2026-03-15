@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: cell-signaling-intro
   type: hard
+- id: ion-channels-selectivity
+  type: hard
+- id: sensory-neural-coding-perception
+  type: soft
 builds-toward:
 - sensory-systems-anatomy
 tags:

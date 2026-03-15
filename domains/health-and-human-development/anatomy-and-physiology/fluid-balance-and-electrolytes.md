@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: bone-remodeling-and-homeostasis
   type: soft
+- id: osmosis-and-tonicity
+  type: hard
+- id: electrolyte-balance-renal-hormonal-control
+  type: soft
 tags:
 - fluid-compartments
 - osmolarity

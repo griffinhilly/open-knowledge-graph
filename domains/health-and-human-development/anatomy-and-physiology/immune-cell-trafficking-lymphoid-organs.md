@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: immune-memory-and-secondary-immune-response
   type: soft
+- id: lymphoid-organ-architecture-and-function
+  type: soft
+- id: t-cell-development-thymic-selection
+  type: soft
 builds-toward:
 - mucosal-immunity-and-iga-response
 tags:

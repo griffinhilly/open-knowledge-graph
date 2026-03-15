@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: myelin-and-myelination
   type: soft
+- id: synaptic-pruning-and-neural-efficiency
+  type: soft
+- id: neurogenesis-adult
+  type: soft
 builds-toward:
 - gross-motor-milestones-locomotion
 - fine-motor-development-grasp-and-manipulation

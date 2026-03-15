@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: neonatal-reflexes-and-sensory-capabilities
   type: hard
+- id: motor-control-spinal-coordination
+  type: soft
 builds-toward:
 - peer-relationships-and-social-competence-children
 tags:

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: neonatal-reflexes-and-sensory-capabilities
   type: hard
+- id: motor-cortex
+  type: soft
+- id: motor-learning-cerebellar
+  type: soft
 builds-toward:
 - language-pragmatics-discourse-development
 tags:
