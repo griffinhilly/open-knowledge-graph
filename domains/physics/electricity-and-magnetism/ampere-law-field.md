@@ -6,6 +6,10 @@ course: electricity-and-magnetism
 prerequisites:
 - id: biot-savart-field
   type: soft
+- id: curl-and-divergence
+  type: hard
+- id: line-integrals-vector-fields
+  type: hard
 builds-toward:
 - magnetic-field-solenoid
 tags:

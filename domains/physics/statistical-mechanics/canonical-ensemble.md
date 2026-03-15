@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: temperature-and-thermal-equilibrium
   type: hard
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
 - partition-function-definition
 - helmholtz-free-energy

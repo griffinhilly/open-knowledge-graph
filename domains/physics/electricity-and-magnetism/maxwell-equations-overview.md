@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: ampere-law-field
   type: hard
+- id: curl-and-divergence
+  type: hard
 tags:
 - maxwell
 - equations

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: amplitude-period-phase-shift
   type: soft
+- id: trigonometric-ratios-review
+  type: soft
 builds-toward:
 - spring-mass-system
 - simple-pendulum

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: wave-speed-medium
   type: hard
+- id: trigonometric-ratios-review
+  type: soft
 builds-toward:
 - resonance-strings-and-pipes
 tags:

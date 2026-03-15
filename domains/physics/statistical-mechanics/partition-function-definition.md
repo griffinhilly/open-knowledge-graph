@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: expected-value-theory
   type: hard
+- id: exponential-functions-and-graphs
+  type: hard
 builds-toward:
 - helmholtz-free-energy
 - gibbs-free-energy

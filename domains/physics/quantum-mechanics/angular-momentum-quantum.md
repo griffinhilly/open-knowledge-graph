@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conservation-of-angular-momentum
   type: soft
+- id: eigenvalues-eigenvectors
+  type: hard
 builds-toward:
 - orbital-angular-momentum-quantum
 - spin-angular-momentum

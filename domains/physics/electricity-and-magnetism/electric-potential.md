@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: line-integrals-vector-fields
   type: soft
+- id: conservative-fields
+  type: soft
 builds-toward:
 - capacitance
 - conductors-in-electrostatics

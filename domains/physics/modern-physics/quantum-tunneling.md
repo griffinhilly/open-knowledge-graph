@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: heisenberg-uncertainty-principle
   type: soft
+- id: differential-equations-intro
+  type: hard
 builds-toward:
 - nuclear-fission-fusion
 - radioactive-decay

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: second-law-of-thermodynamics
   type: hard
+- id: logarithm-properties
+  type: soft
 tags:
 - entropy
 - reversible

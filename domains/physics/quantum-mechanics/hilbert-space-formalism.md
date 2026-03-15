@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: complex-numbers
   type: hard
+- id: vector-spaces-definition
+  type: hard
+- id: inner-product-spaces
+  type: hard
 builds-toward:
 - dirac-notation
 - quantum-postulates

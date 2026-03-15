@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: laplace-poisson-equations-electrostatics
   type: soft
+- id: taylor-series
+  type: soft
+- id: spherical-coordinates
+  type: soft
 builds-toward:
 - radiation-accelerating-charges
 tags:

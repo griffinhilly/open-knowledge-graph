@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: magnetic-flux-and-induction
   type: hard
+- id: stokes-theorem
+  type: hard
+- id: line-integrals-vector-fields
+  type: hard
 builds-toward:
 - lenz-law-induced-currents
 tags:

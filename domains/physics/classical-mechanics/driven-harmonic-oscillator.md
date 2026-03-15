@@ -6,6 +6,8 @@ course: classical-mechanics
 prerequisites:
 - id: damped-harmonic-oscillator
   type: hard
+- id: higher-order-linear-odes
+  type: hard
 builds-toward:
 - resonance-and-resonance-frequency
 tags:

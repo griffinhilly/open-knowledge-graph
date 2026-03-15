@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: boltzmann-transport-equation
   type: soft
+- id: differential-equations-intro
+  type: hard
 builds-toward:
 - chapman-enskog-expansion
 tags:

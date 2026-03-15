@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: partial-derivatives
   type: soft
+- id: differential-equations-intro
+  type: hard
+- id: eigenvalues-eigenvectors
+  type: hard
 builds-toward:
 - particle-in-a-box
 - quantum-tunneling

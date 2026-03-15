@@ -6,6 +6,8 @@ course: modern-physics
 prerequisites:
 - id: schrodinger-equation-intro
   type: hard
+- id: differential-equations-intro
+  type: hard
 builds-toward:
 - quantum-tunneling
 - quantum-numbers

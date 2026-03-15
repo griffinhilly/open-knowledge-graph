@@ -6,6 +6,8 @@ course: quantum-mechanics
 prerequisites:
 - id: expectation-values
   type: hard
+- id: calculus-of-variations
+  type: hard
 tags:
 - approximation-methods
 - variational

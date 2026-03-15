@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: ac-power-and-resonance
   type: soft
+- id: wave-equation-one-dimensional
+  type: hard
 tags:
 - EM-waves
 - speed-of-light
