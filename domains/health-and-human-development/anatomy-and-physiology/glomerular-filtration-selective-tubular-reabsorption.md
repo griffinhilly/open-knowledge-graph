@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: active-transport
   type: soft
+- id: capillary-filtration-and-reabsorption
+  type: hard
 builds-toward:
 - fluid-balance-and-electrolytes
 - renal-regulation-of-fluid-balance

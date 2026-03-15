@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: carrier-proteins-and-conformational-change
   type: hard
+- id: membrane-transport-mechanisms
+  type: hard
+- id: intestinal-absorption-nutrient-transport
+  type: hard
 builds-toward:
 - nutrient-storage-and-metabolism
 tags:

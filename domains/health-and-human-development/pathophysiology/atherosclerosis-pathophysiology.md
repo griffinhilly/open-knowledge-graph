@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: endothelial-dysfunction
   type: soft
+- id: cholesterol-metabolism-and-regulation
+  type: hard
 builds-toward:
 - myocardial-infarction-pathophysiology
 - stroke-pathophysiology

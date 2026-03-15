@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: fatty-acid-structure-and-classification
   type: soft
+- id: lipid-bilayer-and-amphipathic-molecules
+  type: hard
 builds-toward:
 - energy-metabolism-and-calories
 - obesity-and-metabolic-syndrome

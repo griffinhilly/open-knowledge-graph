@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: endocrine-glands-and-hormones
   type: soft
+- id: atp-energy-currency-synthesis
+  type: hard
+- id: energy-expenditure-metabolic-rate
+  type: hard
 builds-toward:
 - obesity-and-metabolic-syndrome
 - nutritional-assessment-methods

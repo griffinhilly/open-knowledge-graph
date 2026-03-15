@@ -6,6 +6,10 @@ course: anatomy-and-physiology
 prerequisites:
 - id: epithelial-and-connective-tissue-types
   type: hard
+- id: calcium-signaling-neurons
+  type: soft
+- id: cell-differentiation-development
+  type: soft
 builds-toward:
 - skeletal-joints-and-movement-mechanics
 tags:

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: hormone-receptor-signaling-physiology
   type: hard
+- id: insulin-glucagon-glucose-homeostasis
+  type: hard
+- id: protein-kinase-signaling-cascades
+  type: soft
 builds-toward:
 - insulin-resistance-metabolic-pathophysiology
 - obesity-and-metabolic-syndrome

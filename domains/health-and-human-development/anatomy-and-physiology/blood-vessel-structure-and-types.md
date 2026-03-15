@@ -6,6 +6,8 @@ course: anatomy-and-physiology
 prerequisites:
 - id: heart-chambers-septa-and-valves
   type: hard
+- id: capillary-microcirculation-exchange
+  type: hard
 builds-toward:
 - hemodynamics-pressure-volume-flow-relationships
 - gas-exchange-alveoli-and-diffusion

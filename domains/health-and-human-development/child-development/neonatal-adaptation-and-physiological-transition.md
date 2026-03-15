@@ -6,6 +6,8 @@ course: child-development
 prerequisites:
 - id: prenatal-development-overview
   type: hard
+- id: homeostasis-and-feedback
+  type: hard
 builds-toward:
 - infant-motor-development
 tags:

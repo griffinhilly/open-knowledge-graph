@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: infectious-disease-surveillance
   type: hard
+- id: infectious-disease-epidemiology
+  type: hard
+- id: viral-pathogenesis-and-disease
+  type: soft
 tags:
 - transmission
 - reproductive-number

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: inflammatory-mediators-cytokines-and-chemokines
   type: hard
+- id: innate-immune-response
+  type: hard
 builds-toward:
 - chronic-inflammation
 - atherosclerosis-pathophysiology

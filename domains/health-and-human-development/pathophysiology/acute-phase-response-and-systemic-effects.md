@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: inflammatory-mediators-cytokines-and-chemokines
   type: hard
+- id: innate-immune-response
+  type: hard
 builds-toward:
 - sepsis-and-sirs-pathophysiology
 tags:

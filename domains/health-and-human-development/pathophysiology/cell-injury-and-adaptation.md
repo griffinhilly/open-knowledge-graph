@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: cellular-adaptation-atrophy-and-metaplasia
   type: soft
+- id: apoptosis-cell-death
+  type: hard
+- id: cellular-adaptation-hypertrophy-and-hyperplasia
+  type: hard
 builds-toward:
 - necrosis-vs-apoptosis
 - acute-inflammation-pathophysiology

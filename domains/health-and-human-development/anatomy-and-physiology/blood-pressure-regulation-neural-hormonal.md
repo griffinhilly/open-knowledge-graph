@@ -12,6 +12,12 @@ prerequisites:
   type: hard
 - id: vascular-resistance-blood-flow-control
   type: soft
+- id: autonomic-nervous-system
+  type: hard
+- id: hormone-signaling-mechanisms
+  type: hard
+- id: homeostasis-and-feedback
+  type: hard
 builds-toward:
 - hypertension-pathophysiology
 tags:

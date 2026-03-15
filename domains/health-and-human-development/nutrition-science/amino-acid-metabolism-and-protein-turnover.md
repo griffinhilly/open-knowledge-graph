@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: protein-synthesis-amino-acid-requirements
   type: soft
+- id: protein-synthesis
+  type: hard
+- id: amino-acid-classification-and-properties
+  type: hard
 builds-toward:
 - nutrient-interactions-synergies-and-antagonisms
 - malnutrition-pathophysiology-refeeding-syndrome

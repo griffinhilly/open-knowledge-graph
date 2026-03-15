@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: fatty-acid-structure-and-classification
   type: soft
+- id: membrane-transport-mechanisms
+  type: hard
 builds-toward:
 - lipid-profiles-cardiovascular-health-and-disease-risk
 - nutrient-interactions-synergies-and-antagonisms

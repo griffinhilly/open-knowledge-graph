@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: glycolysis-mechanism-and-regulation
   type: hard
+- id: glucose-homeostasis-fed-fasted-metabolic-states
+  type: hard
 builds-toward:
 - obesity-and-metabolic-syndrome
 - sports-nutrition-basics

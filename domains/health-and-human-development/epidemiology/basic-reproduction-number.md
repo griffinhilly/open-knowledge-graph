@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: infectious-disease-surveillance
   type: soft
+- id: population-growth-models
+  type: hard
 builds-toward:
 - sir-compartmental-model
 tags:

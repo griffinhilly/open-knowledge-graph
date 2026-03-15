@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: atp-energy-currency-synthesis
   type: soft
+- id: atp-synthase-structure-mechanism
+  type: hard
 builds-toward:
 - energy-balance-and-body-composition
 - sports-nutrition-basics

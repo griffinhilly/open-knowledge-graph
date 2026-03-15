@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: disease-frequency-measures
   type: soft
+- id: population-age-structure-life-history
+  type: hard
+- id: population-growth-models
+  type: hard
 builds-toward:
 - force-of-infection
 tags:

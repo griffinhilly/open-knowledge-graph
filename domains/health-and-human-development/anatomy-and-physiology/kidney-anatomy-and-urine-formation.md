@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: active-transport
   type: soft
+- id: osmosis-and-water-movement
+  type: hard
+- id: osmolarity-regulation-collecting-duct
+  type: hard
 tags:
 - kidney
 - nephron

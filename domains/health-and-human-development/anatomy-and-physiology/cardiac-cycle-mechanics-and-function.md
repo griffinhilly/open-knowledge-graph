@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: cardiac-output-control-regulation
   type: soft
+- id: muscle-contraction-mechanics-force-velocity
+  type: hard
+- id: action-potential
+  type: soft
 builds-toward:
 - vascular-physiology-and-hemodynamics
 - coronary-circulation-physiology

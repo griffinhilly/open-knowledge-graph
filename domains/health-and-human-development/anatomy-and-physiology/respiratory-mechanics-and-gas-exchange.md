@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: pulmonary-ventilation-mechanics-compliance
   type: hard
+- id: gas-exchange-and-diffusion
+  type: hard
+- id: oxygen-hemoglobin-binding-cooperativity
+  type: hard
 builds-toward:
 - oxygen-transport-and-hemoglobin
 - acid-base-homeostasis-physiology

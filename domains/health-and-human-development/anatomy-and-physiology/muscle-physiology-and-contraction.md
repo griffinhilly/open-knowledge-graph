@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: calcium-signaling-neurons
   type: hard
+- id: atp-energy-currency-synthesis
+  type: hard
+- id: muscle-contraction-mechanics-force-velocity
+  type: hard
 builds-toward:
 - motor-control-and-neural-activation
 - muscle-metabolism-and-fatigue

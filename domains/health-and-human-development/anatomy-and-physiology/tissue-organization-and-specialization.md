@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: epithelial-and-connective-tissue-types
   type: hard
+- id: cell-differentiation-development
+  type: hard
+- id: cell-junctions-adhesion-tissue
+  type: hard
 builds-toward:
 - organ-system-integration-and-homeostasis
 - skeletal-structure-and-biomechanics

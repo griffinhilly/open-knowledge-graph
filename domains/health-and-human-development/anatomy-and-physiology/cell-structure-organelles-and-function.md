@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: organelles-overview
   type: soft
+- id: mitochondrion-energy-production
+  type: soft
 builds-toward:
 - epithelial-and-connective-tissue-types
 - skeletal-muscle-anatomy-and-contraction

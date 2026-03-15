@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: endocrine-glands-and-hormones
   type: soft
+- id: autonomic-nervous-system
+  type: hard
+- id: synaptic-transmission
+  type: soft
 builds-toward:
 - stress-response-adaptation
 tags:

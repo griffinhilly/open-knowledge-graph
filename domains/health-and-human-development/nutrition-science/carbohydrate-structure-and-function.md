@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: carbohydrate-structure-and-classification
   type: soft
+- id: monosaccharides-isomers
+  type: hard
+- id: disaccharides-and-polysaccharides
+  type: hard
 builds-toward:
 - dietary-fiber-and-gut-health
 - energy-metabolism-and-calories
