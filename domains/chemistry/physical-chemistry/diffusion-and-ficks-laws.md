@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: kinetic-theory-of-gases
   type: soft
+- id: diffusion-and-ficks-laws
+  type: hard
 tags:
 - Ficks-laws
 - diffusion-coefficient

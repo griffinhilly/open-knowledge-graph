@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: first-law-of-thermodynamics
   type: soft
+- id: energy-conservation
+  type: soft
 builds-toward:
 - oxidation-reduction-reactions
 tags:

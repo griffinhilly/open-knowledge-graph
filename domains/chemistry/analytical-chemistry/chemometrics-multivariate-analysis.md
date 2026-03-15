@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: linear-regression
   type: soft
+- id: matrices-intro
+  type: hard
 tags:
 - chemometrics
 - multivariate

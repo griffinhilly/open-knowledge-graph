@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: quantum-tunneling
   type: soft
+- id: activation-energy-catalysis-reaction-pathways
+  type: soft
 builds-toward:
 - unimolecular-reaction-mechanisms
 tags:

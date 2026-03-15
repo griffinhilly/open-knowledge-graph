@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: states-of-matter-properties-and-transitions
   type: hard
+- id: kinetic-theory-of-gases
+  type: soft
 builds-toward:
 - gas-pressure-from-kinetic-theory
 - heat-capacity-calorimetry

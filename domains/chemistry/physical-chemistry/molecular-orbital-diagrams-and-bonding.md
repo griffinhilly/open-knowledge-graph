@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: orbital-theory-and-shapes
   type: hard
+- id: quantum-mechanics-postulates-core
+  type: soft
 builds-toward:
 - perturbation-theory-quantum-chemistry
 - selection-rules-electronic-spectroscopy

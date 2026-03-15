@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: concentration-and-molarity
   type: hard
+- id: proportions
+  type: hard
 builds-toward:
 - colligative-properties-solutions
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: exponential-functions-and-graphs
   type: soft
+- id: antiderivatives
+  type: soft
 builds-toward:
 - arrhenius-equation
 tags:

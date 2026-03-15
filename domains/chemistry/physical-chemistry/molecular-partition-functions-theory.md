@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: thermochemistry-heat-and-energy
   type: hard
+- id: partition-function-fundamentals
+  type: hard
+- id: boltzmann-distribution-molecular-populations
+  type: soft
 builds-toward:
 - equipartition-theorem-heat-capacities
 - kinetic-molecular-distribution-speeds

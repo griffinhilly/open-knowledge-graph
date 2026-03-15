@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: exponential-growth-and-decay
   type: hard
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
 - arrhenius-equation
 tags:

@@ -9,6 +9,10 @@ prerequisites:
   type: hard
 - id: variational-principle-quantum-chemistry
   type: soft
+- id: schrodinger-equation-intro
+  type: hard
+- id: variational-method-quantum
+  type: soft
 builds-toward: []
 tags:
 - DFT

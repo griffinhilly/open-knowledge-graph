@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: coulomb-force-superposition
   type: soft
+- id: mass-energy-equivalence
+  type: soft
 builds-toward: []
 tags:
 - mass spectrometry

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: vibrational-spectroscopy-theory
   type: soft
+- id: electromagnetic-spectrum
+  type: soft
+- id: wave-properties-intro
+  type: soft
 builds-toward:
 - nmr-spectroscopy-organic
 tags:

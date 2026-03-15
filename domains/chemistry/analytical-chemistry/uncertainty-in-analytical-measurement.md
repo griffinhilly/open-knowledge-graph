@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: uncertainty-propagation
   type: hard
+- id: standard-error-of-estimators
+  type: hard
+- id: confidence-intervals-framework
+  type: soft
 tags:
 - uncertainty
 - error budget

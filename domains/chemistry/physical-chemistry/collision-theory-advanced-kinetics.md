@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: maxwell-boltzmann-distribution
   type: soft
+- id: collisions-elastic-inelastic
+  type: soft
 builds-toward:
 - transition-state-theory
 - potential-energy-surfaces

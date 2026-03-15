@@ -1,12 +1,14 @@
 ---
 id: fluorescence-and-phosphorescence-theory
-title: 'Fluorescence, Phosphorescence, and Photophysical Decay Pathways'
+title: Fluorescence, Phosphorescence, and Photophysical Decay Pathways
 domain: chemistry
 course: physical-chemistry
 prerequisites:
 - id: electronic-spectroscopy-theory
   type: hard
 - id: energy-level-transitions
+  type: soft
+- id: electronic-transitions-excited-states
   type: soft
 builds-toward: []
 tags:

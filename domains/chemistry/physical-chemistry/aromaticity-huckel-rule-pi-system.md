@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: aromatic-compounds-intro
   type: hard
+- id: molecular-orbital-theory-advanced
+  type: soft
 builds-toward:
 - molecular-orbital-symmetry-classification
 tags:

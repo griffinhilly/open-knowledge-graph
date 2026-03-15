@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: covalent-bonding-formation
   type: hard
+- id: electron-configuration
+  type: soft
 builds-toward:
 - molecular-geometry-prediction
 - resonance-structures

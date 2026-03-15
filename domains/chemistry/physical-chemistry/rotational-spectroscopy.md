@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: angular-momentum
   type: soft
+- id: rotational-spectroscopy
+  type: soft
 builds-toward:
 - vibrational-spectroscopy-theory
 tags:

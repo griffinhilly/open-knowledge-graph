@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: quantum-mechanics-postulates-core
   type: hard
+- id: hydrogen-atom-quantum
+  type: soft
 builds-toward:
 - periodic-trends
 - ionic-bonding

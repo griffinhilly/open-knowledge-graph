@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: integrated-rate-laws
   type: hard
+- id: first-order-linear-odes
+  type: soft
 builds-toward:
 - autocatalytic-reactions-mechanisms
 tags:

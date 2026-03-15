@@ -20,6 +20,10 @@ prerequisites:
   type: soft
 - id: vibrational-modes-and-symmetry
   type: soft
+- id: photon-concept-quanta
+  type: soft
+- id: quantum-transitions
+  type: soft
 tags:
 - UV-Vis
 - Franck-Condon

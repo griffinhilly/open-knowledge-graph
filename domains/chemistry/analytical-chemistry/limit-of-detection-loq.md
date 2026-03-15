@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: normal-distribution
   type: soft
+- id: standard-normal-z-scores-theory
+  type: soft
 tags:
 - LOD
 - LOQ

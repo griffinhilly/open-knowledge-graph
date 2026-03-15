@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: ideal-gas-law
   type: hard
+- id: kinetic-molecular-theory
+  type: soft
 builds-toward:
 - gas-stoichiometry
 - kinetic-molecular-theory

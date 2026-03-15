@@ -22,6 +22,10 @@ prerequisites:
   type: soft
 - id: faraday-law-of-induction
   type: soft
+- id: electric-current-and-resistance
+  type: soft
+- id: lorentz-force-on-moving-charge
+  type: soft
 builds-toward:
 - electrochemical-cells
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: quantum-mechanics-postulates-core
   type: soft
+- id: atomic-structure-basics
+  type: soft
 builds-toward:
 - isotopes-and-atomic-mass
 - electron-configuration-principles

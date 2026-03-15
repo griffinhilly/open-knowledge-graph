@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stoichiometry-calculations
   type: hard
+- id: proportions
+  type: hard
 builds-toward:
 - acid-base-titration
 - redox-titration

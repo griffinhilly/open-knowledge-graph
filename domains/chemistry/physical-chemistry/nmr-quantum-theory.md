@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: spin-quantum-number
   type: soft
+- id: nuclear-magnetic-moments
+  type: hard
+- id: quantum-mechanics-postulates-core
+  type: soft
 tags:
 - NMR
 - spin-1/2

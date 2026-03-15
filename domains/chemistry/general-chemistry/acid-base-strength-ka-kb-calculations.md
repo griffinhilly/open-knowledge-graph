@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: logarithm-properties
   type: hard
+- id: logarithms-intro
+  type: hard
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
 - buffer-chemistry-le-chatelier-application
 tags:

@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: nuclear-magnetic-moments
   type: soft
+- id: electromagnetic-waves
+  type: soft
 builds-toward:
 - nmr-chemical-shift-prediction
 - proton-coupling-constants-jcoupling

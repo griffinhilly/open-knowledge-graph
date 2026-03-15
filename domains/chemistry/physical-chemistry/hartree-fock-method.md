@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: quantum-mechanics-postulates-core
   type: hard
+- id: schrodinger-equation-intro
+  type: hard
+- id: linear-transformations
+  type: soft
 builds-toward:
 - density-functional-theory-intro
 tags:

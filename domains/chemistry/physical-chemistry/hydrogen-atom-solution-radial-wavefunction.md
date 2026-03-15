@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: wave-function-normalization-orthogonality
   type: hard
+- id: hydrogen-atom-quantum
+  type: hard
 builds-toward:
 - electron-correlation-multi-electron-atoms
 tags:
