@@ -6,6 +6,8 @@ course: model-theory
 prerequisites:
 - id: complete-first-order-theories
   type: hard
+- id: set-membership-and-notation
+  type: soft
 builds-toward:
 - type-spaces-and-stone-topology
 - type-realization-and-omission

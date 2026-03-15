@@ -6,6 +6,10 @@ course: propositional-and-predicate-logic
 prerequisites:
 - id: predicate-logic-introduction
   type: hard
+- id: binary-relations
+  type: soft
+- id: functions-and-function-properties
+  type: soft
 builds-toward:
 - quantifier-notation-and-basics
 - terms-and-atomic-formulas

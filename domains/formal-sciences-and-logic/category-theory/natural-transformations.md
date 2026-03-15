@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: function-composition
   type: soft
+- id: function-composition-and-inverses
+  type: soft
 builds-toward:
 - functor-categories
 - yoneda-lemma

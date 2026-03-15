@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: infinite-cardinal-numbers
   type: soft
+- id: cardinality-and-countability
+  type: soft
+- id: countable-sets-and-enumeration
+  type: soft
 builds-toward:
 - lowenheim-skolem-downward
 - lowenheim-skolem-upward

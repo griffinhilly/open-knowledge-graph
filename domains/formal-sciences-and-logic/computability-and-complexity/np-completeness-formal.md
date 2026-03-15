@@ -20,6 +20,8 @@ prerequisites:
   type: hard
 - id: boolean-algebra
   type: soft
+- id: proof-structure-and-terminology
+  type: soft
 builds-toward:
 - cook-levin-theorem-formal
 - pspace-and-complexity-hierarchy

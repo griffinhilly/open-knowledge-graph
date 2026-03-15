@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: linear-transformations
   type: soft
+- id: linear-transformations-definition
+  type: soft
 tags:
 - derived functor
 - Ext

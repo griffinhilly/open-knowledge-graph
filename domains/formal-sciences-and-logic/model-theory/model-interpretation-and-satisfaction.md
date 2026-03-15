@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: relations-as-set-subsets
   type: soft
+- id: set-theory-basics
+  type: soft
+- id: functions-and-mappings-formal
+  type: soft
 builds-toward:
 - elementary-equivalence-indistinguishability
 - complete-first-order-theories

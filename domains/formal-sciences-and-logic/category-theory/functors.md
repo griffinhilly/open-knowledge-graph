@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: function-composition
   type: hard
+- id: functions-and-mappings-formal
+  type: soft
+- id: composition-of-functions-sets
+  type: soft
 builds-toward:
 - natural-transformations
 - functor-categories

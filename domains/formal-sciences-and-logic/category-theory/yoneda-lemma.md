@@ -22,6 +22,10 @@ prerequisites:
   type: soft
 - id: set-operations
   type: soft
+- id: functions-and-mappings-formal
+  type: soft
+- id: equivalence-relations
+  type: soft
 builds-toward:
 - adjoint-functors
 - equivalence-of-categories

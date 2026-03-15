@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: constructible-universe
   type: soft
+- id: set-theory-basics
+  type: soft
 builds-toward: []
 tags:
 - forcing

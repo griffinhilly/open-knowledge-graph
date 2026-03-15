@@ -32,6 +32,8 @@ prerequisites:
   type: soft
 - id: linear-transformations
   type: soft
+- id: binary-relations-definition-and-properties
+  type: soft
 builds-toward:
 - adjunction-unit-and-counit
 - monads-in-category-theory

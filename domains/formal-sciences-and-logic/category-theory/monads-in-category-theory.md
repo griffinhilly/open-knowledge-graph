@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: binary-operations-and-algebraic-structures
   type: soft
+- id: equivalence-relations
+  type: soft
 builds-toward:
 - algebras-over-a-monad
 tags:

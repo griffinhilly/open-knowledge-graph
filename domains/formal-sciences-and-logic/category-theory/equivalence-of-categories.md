@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: function-composition
   type: soft
+- id: function-composition-and-inverses
+  type: soft
 tags:
 - equivalence of categories
 - essentially surjective

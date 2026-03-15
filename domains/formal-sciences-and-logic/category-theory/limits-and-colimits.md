@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: functions-and-function-properties
   type: soft
+- id: set-operations
+  type: soft
 builds-toward:
 - pullbacks-and-pushouts
 - adjoint-functors

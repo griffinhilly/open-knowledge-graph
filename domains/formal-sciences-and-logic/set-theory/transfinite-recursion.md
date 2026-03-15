@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: recursion-on-finite-structures
   type: soft
+- id: well-founded-relations-and-recursion
+  type: soft
 builds-toward:
 - infinite-cardinal-numbers
 - cofinality-and-regular-cardinals

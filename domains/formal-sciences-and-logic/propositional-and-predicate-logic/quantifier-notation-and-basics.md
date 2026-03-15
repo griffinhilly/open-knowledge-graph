@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: domain-and-range
   type: soft
+- id: set-membership-and-notation
+  type: soft
 builds-toward:
 - universal-quantifier-semantics
 - existential-quantifier-semantics

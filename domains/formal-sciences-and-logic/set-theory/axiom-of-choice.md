@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: binary-relations
   type: soft
+- id: set-operations
+  type: soft
+- id: equivalence-relations
+  type: soft
 builds-toward:
 - well-ordering-theorem
 - zorns-lemma

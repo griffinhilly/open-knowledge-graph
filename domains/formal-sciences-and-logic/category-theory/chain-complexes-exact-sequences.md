@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: basis-and-dimension
   type: soft
+- id: linear-transformations-definition
+  type: soft
 builds-toward:
 - homology-and-cohomology
 tags:

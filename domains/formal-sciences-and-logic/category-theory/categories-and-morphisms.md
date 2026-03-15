@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: relations-as-set-subsets
   type: soft
+- id: functions-and-mappings-formal
+  type: soft
 builds-toward:
 - functors
 - isomorphisms-in-categories

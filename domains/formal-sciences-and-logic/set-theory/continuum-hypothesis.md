@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: cantor-diagonalization
   type: soft
+- id: uncountable-sets-and-cantor-diagonalization
+  type: soft
 builds-toward:
 - independence-results-set-theory
 tags:

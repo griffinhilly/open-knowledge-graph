@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vector-spaces
   type: soft
+- id: linear-transformations-definition
+  type: soft
 builds-toward:
 - snake-lemma
 - abelian-structure-properties

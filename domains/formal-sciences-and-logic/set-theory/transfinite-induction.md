@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: well-ordering-principle
   type: soft
+- id: well-founded-relations
+  type: soft
 builds-toward:
 - transfinite-recursion
 - well-ordering-theorem

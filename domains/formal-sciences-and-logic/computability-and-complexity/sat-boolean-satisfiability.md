@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: boolean-algebra
   type: hard
+- id: boolean-functions-and-circuits
+  type: soft
 builds-toward:
 - three-sat-np-complete
 tags:

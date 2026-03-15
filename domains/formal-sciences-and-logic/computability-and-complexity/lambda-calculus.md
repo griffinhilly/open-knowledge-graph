@@ -18,6 +18,10 @@ prerequisites:
   type: hard
 - id: set-fundamentals
   type: soft
+- id: functions-and-mappings-formal
+  type: soft
+- id: composition-of-functions-sets
+  type: soft
 builds-toward:
 - church-turing-thesis-formal
 - general-recursive-functions

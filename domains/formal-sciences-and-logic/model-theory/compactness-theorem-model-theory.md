@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: model-theory-basics
   type: hard
+- id: set-theory-basics
+  type: soft
+- id: proof-structure-and-terminology
+  type: soft
 builds-toward:
 - lowenheim-skolem-theorems-overview
 tags:

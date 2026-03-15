@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: set-fundamentals
   type: soft
+- id: mathematical-induction
+  type: soft
 builds-toward:
 - halting-problem-formal
 - computability-reductions

@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: kernel-and-image
   type: soft
+- id: linear-transformations-definition
+  type: soft
 builds-toward:
 - derived-functors
 tags:

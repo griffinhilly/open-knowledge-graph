@@ -6,6 +6,10 @@ course: model-theory
 prerequisites:
 - id: structures-and-formal-languages
   type: hard
+- id: functions-and-mappings-formal
+  type: soft
+- id: binary-relations-definition-and-properties
+  type: soft
 builds-toward:
 - elementary-equivalence-indistinguishability
 tags:

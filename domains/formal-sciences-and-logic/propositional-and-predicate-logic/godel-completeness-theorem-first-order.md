@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: logical-consequence-and-entailment
   type: soft
+- id: proof-structure-and-terminology
+  type: soft
+- id: mathematical-induction
+  type: soft
 builds-toward:
 - godels-incompleteness-theorems
 - compactness-theorem-applications

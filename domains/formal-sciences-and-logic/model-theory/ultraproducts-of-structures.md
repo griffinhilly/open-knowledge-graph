@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: structure-homomorphisms-embeddings
   type: soft
+- id: set-operations
+  type: soft
+- id: equivalence-relations-and-equivalence-classes
+  type: soft
+- id: cardinality-and-countability
+  type: soft
 builds-toward:
 - los-theorem-and-preservation
 - saturated-models-and-realization
