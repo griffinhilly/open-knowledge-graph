@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: hormones-and-behavior
   type: soft
+- id: intracellular-signaling-and-second-messengers
+  type: soft
 builds-toward:
 - antidepressant-medications
 - mood-stabilizers-anxiolytics

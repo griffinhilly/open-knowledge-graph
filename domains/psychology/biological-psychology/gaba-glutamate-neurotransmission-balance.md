@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: glutamatergic-excitation
   type: soft
+- id: gaba-systems
+  type: hard
 builds-toward:
 - pharmacology-agonists-antagonists
 - psychoactive-drugs-and-behavior

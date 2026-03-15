@@ -6,6 +6,8 @@ course: psychometrics
 prerequisites:
 - id: confirmatory-factor-analysis
   type: hard
+- id: linear-algebra applications
+  type: hard
 builds-toward:
 - differential-item-functioning
 tags:

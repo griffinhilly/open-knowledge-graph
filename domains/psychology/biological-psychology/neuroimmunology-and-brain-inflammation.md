@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: immune-memory-and-secondary-immune-response
   type: soft
+- id: neuroinflammation-glia
+  type: soft
 builds-toward:
 - neuroinflammation-glia
 - depression-and-cytokines

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: reasoning-biases-and-errors
   type: hard
+- id: probability-axioms
+  type: soft
 builds-toward:
 - base-rate-integration-probability
 tags:

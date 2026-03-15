@@ -6,6 +6,8 @@ course: research-methods-psychology
 prerequisites:
 - id: research-design-selection-and-matching
   type: hard
+- id: sampling-distributions-theory
+  type: soft
 builds-toward:
 - statistical-power-and-effect-size-determination
 tags:

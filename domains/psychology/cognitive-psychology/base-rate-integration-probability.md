@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cognitive-biases-judgment-uncertainty
   type: hard
+- id: probability-rules-for-events
+  type: soft
 builds-toward:
 - reasoning-biases-and-errors
 tags:

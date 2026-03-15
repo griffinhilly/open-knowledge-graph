@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: statistical-power-and-effect-size-determination
   type: hard
+- id: t-distribution-theory
+  type: soft
 builds-toward:
 - effect-size-practical-significance-reporting
 tags:

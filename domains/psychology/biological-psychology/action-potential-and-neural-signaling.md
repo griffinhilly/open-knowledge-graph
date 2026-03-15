@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: resting-membrane-potential
   type: hard
+- id: action-potential
+  type: hard
 builds-toward:
 - synaptic-transmission-neurotransmitter-release
 - myelin-and-saltatory-conduction

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: central-vs-peripheral-nervous-system
   type: soft
+- id: pain-nociception-processing
+  type: hard
 builds-toward:
 - psychopharmacology-basics
 tags:

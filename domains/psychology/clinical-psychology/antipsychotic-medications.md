@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dopamine-system
   type: hard
+- id: dopamine-reward-system
+  type: hard
 builds-toward:
 - comorbidity-complex-presentations
 tags:

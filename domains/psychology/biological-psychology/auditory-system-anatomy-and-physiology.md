@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: auditory-processing-pathway
   type: soft
+- id: auditory-system-cochlea-cortex
+  type: hard
 tags:
 - hearing
 - cochlea

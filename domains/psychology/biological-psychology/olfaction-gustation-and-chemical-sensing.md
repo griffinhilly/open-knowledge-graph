@@ -6,6 +6,8 @@ course: biological-psychology
 prerequisites:
 - id: sensory-transduction-and-neural-coding
   type: hard
+- id: olfactory-system
+  type: soft
 tags:
 - smell
 - taste

@@ -6,6 +6,8 @@ course: biological-psychology
 prerequisites:
 - id: neurotransmitter-receptor-binding
   type: hard
+- id: calcium-signaling-neurons
+  type: hard
 builds-toward:
 - synaptic-plasticity-mechanisms
 tags:

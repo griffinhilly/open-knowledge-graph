@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nmda-receptor-structure
   type: hard
+- id: long-term-potentiation
+  type: hard
 builds-toward:
 - memory-consolidation-systems
 - learning-and-experience-dependent-plasticity

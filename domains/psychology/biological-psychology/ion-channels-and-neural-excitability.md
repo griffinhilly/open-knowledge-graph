@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cell-membrane-structure
   type: hard
+- id: ion-channels-and-neural-excitability
+  type: hard
 builds-toward:
 - action-potential-and-neural-signaling
 - resting-membrane-potential-pharmacology

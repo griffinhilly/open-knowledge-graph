@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dorsolateral-prefrontal-cortex-cognitive-control
   type: soft
+- id: motor-cortex
+  type: hard
 builds-toward:
 - basal-ganglia-selection-habits
 - cerebellum-coordination-learning

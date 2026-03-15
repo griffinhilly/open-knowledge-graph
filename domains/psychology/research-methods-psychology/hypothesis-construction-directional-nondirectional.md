@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: literature-review-and-synthesis
   type: soft
+- id: probability-axioms
+  type: soft
 builds-toward:
 - operationalization-iv-and-dv
 - analysis-plan-preregistration-commitment

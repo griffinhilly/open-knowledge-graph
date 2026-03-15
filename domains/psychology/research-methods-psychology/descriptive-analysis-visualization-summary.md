@@ -6,6 +6,8 @@ course: research-methods-psychology
 prerequisites:
 - id: data-preparation-screening-quality
   type: hard
+- id: normal-distribution
+  type: soft
 builds-toward:
 - statistical-inference-significance-testing
 tags:

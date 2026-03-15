@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: synaptic-vesicle-release-exocytosis
   type: soft
+- id: synaptic-transmission
+  type: hard
 builds-toward:
 - neurotransmitter-receptor-binding
 tags:

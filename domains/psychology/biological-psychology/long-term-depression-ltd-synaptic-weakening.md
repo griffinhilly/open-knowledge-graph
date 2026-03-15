@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: long-term-potentiation-ltp-memory-encoding
   type: soft
+- id: long-term-depression
+  type: hard
 builds-toward:
 - memory-consolidation-systems
 - learning-and-experience-dependent-plasticity

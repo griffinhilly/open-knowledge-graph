@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: neuron-structure-and-function
   type: soft
+- id: neurotransmitter-synthesis-storage
+  type: hard
 builds-toward:
 - receptor-types-and-signaling
 - psychopharmacology-basics

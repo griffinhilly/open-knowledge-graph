@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: sleep-stages-and-cycles
   type: soft
+- id: circadian-rhythm-and-melatonin
+  type: soft
 tags:
 - sleep
 - circadian

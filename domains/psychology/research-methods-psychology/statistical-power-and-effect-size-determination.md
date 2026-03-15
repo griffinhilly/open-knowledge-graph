@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: population-sampling-representativeness
   type: hard
+- id: effect-size-and-power
+  type: hard
 builds-toward:
 - statistical-inference-significance-testing
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: photoreceptors-phototransduction
   type: soft
+- id: visual-system-retina-cortex
+  type: hard
 tags:
 - vision
 - retina

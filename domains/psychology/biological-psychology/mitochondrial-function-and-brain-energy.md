@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: action-potential-generation-and-propagation
   type: soft
+- id: mitochondria-structure-and-function
+  type: soft
 builds-toward:
 - neurodegenerative-disease-pathology
 - cognitive-aging-and-decline

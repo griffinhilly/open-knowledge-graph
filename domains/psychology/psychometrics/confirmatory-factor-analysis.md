@@ -6,6 +6,8 @@ course: psychometrics
 prerequisites:
 - id: factor-analysis-measurement
   type: hard
+- id: linear-algebra
+  type: hard
 builds-toward:
 - structural-equation-modeling-measurement
 - validity-evidence-frameworks

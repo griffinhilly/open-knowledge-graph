@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: nervous-system-overview
   type: soft
+- id: astrocytes
+  type: soft
 builds-toward:
 - neuroplasticity
 - psychopharmacology-basics

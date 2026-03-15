@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: psychopharmacology-basics
   type: hard
+- id: serotonin-system
+  type: hard
 tags:
 - antidepressants
 - medication

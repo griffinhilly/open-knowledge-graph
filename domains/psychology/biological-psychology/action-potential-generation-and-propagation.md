@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: voltage-gated-sodium-channels
   type: soft
+- id: action-potential-depolarization-repolarization
+  type: hard
 builds-toward:
 - synaptic-transmission-process
 tags:

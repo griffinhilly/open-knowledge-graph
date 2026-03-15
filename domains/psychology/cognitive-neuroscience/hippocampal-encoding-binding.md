@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: long-term-memory-types
   type: hard
+- id: hippocampus-memory-consolidation
+  type: hard
 builds-toward:
 - memory-consolidation-systems
 tags:

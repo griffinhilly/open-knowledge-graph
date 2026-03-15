@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: cell-senescence-aging
   type: soft
+- id: protein-folding-and-chaperones
+  type: soft
 builds-toward:
 - alzheimers-disease-pathology
 - parkinsons-disease-pathology
