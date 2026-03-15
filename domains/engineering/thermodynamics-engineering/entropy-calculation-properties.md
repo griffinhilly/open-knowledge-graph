@@ -6,6 +6,8 @@ course: thermodynamics-engineering
 prerequisites:
 - id: second-law-thermodynamics-entropy
   type: hard
+- id: partial-derivatives
+  type: soft
 builds-toward:
 - isentropic-process-reversible
 - clausius-clapeyron-vapor-pressure

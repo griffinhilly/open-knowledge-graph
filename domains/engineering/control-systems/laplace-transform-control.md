@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: improper-integrals-convergence
   type: soft
+- id: laplace-transform-fundamentals
+  type: soft
 builds-toward:
 - transfer-functions-control
 - state-space-representation-control

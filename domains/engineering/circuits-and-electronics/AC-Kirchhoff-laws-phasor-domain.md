@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: complex-impedance-networks-ac
   type: hard
+- id: complex-exponential-form
+  type: soft
 builds-toward:
 - AC-power-calculation-and-factor
 - passive-filter-transfer-function-analysis

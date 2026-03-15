@@ -6,6 +6,8 @@ course: circuits-and-electronics
 prerequisites:
 - id: sinusoidal-steady-state-analysis
   type: hard
+- id: complex-numbers-intro
+  type: soft
 builds-toward:
 - resonance-quality-factor
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: complex-numbers-intro
   type: hard
+- id: complex-exponential-function
+  type: soft
 builds-toward:
 - phasor-algebra-complex-impedance
 - ac-circuit-analysis-methods

@@ -6,6 +6,8 @@ course: signals-and-systems
 prerequisites:
 - id: signal-properties-periodicity-energy-power
   type: hard
+- id: trigonometric-identities
+  type: soft
 builds-toward:
 - fourier-transform-definition-properties
 - magnitude-phase-spectrum-representation

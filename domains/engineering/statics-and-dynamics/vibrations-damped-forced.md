@@ -6,6 +6,8 @@ course: statics-and-dynamics
 prerequisites:
 - id: vibrations-simple-harmonic
   type: hard
+- id: differential-equations-intro
+  type: soft
 tags:
 - damping
 - forced-vibration

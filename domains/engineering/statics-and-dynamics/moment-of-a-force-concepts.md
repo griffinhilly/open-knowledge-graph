@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: free-body-diagram-methodology
   type: soft
+- id: cross-product
+  type: soft
 builds-toward:
 - resultant-of-force-moment-systems
 - rigid-body-equilibrium-planar

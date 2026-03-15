@@ -6,6 +6,8 @@ course: signals-and-systems
 prerequisites:
 - id: lti-systems-and-impulse-response
   type: hard
+- id: integral-calculus
+  type: soft
 builds-toward:
 - convolution-theorem-and-applications
 - fourier-transform-definition-properties

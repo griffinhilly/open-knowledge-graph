@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sinusoidal-response-magnitude-phase-angle
   type: hard
+- id: complex-analysis
+  type: soft
 builds-toward:
 - gain-margin-phase-margin-stability
 tags:

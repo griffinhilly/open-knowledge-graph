@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: phase-transitions
   type: soft
+- id: phase-equilibrium-thermodynamics-materials
+  type: soft
 builds-toward:
 - lever-rule
 - iron-carbon-phase-diagram

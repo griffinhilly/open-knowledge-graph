@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: transfer-functions-control
   type: hard
+- id: logarithms-intro
+  type: soft
 tags:
 - bode-plot
 - asymptotic-approximation

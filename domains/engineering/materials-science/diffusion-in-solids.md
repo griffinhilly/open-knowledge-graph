@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: partial-derivatives
   type: soft
+- id: differential-equations-intro
+  type: soft
 builds-toward:
 - heat-treatment-of-steels
 - sintering-and-powder-processing

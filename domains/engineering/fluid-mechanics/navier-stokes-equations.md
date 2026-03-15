@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: vector-fields
   type: soft
+- id: partial-differential-equations
+  type: soft
 builds-toward:
 - laminar-pipe-flow
 - boundary-layer-theory

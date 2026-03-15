@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: saturated-superheated-property-regions
   type: hard
+- id: carnot-cycle
+  type: soft
 builds-toward:
 - rankine-cycle-reheat-regeneration
 tags:

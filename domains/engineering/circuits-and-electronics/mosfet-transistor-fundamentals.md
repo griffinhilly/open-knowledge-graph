@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: electrical-properties-of-materials
   type: soft
+- id: band-theory-intro
+  type: soft
 builds-toward:
 - operational-amplifier-fundamentals
 tags:

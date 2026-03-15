@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: diode-circuit-applications
   type: soft
+- id: band-theory-intro
+  type: soft
 builds-toward:
 - bjt-amplifier-configurations
 - mosfet-transistor-fundamentals

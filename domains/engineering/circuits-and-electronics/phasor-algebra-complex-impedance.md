@@ -6,6 +6,8 @@ course: circuits-and-electronics
 prerequisites:
 - id: ac-source-representation-phasors
   type: hard
+- id: complex-numbers-intro
+  type: soft
 builds-toward:
 - impedance-admittance-networks
 - ac-power-analysis-circuits

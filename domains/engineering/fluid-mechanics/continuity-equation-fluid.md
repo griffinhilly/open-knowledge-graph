@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: divergence-theorem
   type: soft
+- id: partial-derivatives
+  type: soft
 builds-toward:
 - bernoullis-equation
 - navier-stokes-equations

@@ -6,6 +6,8 @@ course: thermodynamics-engineering
 prerequisites:
 - id: compressibility-factor-generalized
   type: hard
+- id: ideal-gas-law
+  type: soft
 builds-toward:
 - gas-mixture-thermodynamics-daltons
 - combustion-stoichiometry-energy-release

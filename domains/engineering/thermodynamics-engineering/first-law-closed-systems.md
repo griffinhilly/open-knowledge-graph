@@ -6,6 +6,8 @@ course: thermodynamics-engineering
 prerequisites:
 - id: first-law-of-thermodynamics
   type: hard
+- id: energy-conservation-mechanical-systems
+  type: soft
 builds-toward:
 - first-law-open-systems
 - rankine-cycle-thermodynamic-analysis

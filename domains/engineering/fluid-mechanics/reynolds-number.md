@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fluid-kinematics
   type: soft
+- id: dimensional-analysis-and-similarity
+  type: soft
 builds-toward:
 - laminar-pipe-flow
 - turbulent-pipe-flow

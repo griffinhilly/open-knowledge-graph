@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: signal-classification-continuous-discrete
   type: hard
+- id: complex-numbers-intro
+  type: soft
 builds-toward:
 - z-transform-properties-inverse
 - digital-signal-processing-fundamentals

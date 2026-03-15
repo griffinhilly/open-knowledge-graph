@@ -6,6 +6,8 @@ course: circuits-and-electronics
 prerequisites:
 - id: phasor-algebra-complex-impedance
   type: hard
+- id: complex-numbers-intro
+  type: soft
 builds-toward:
 - ac-power-analysis-circuits
 - series-resonance-characteristics

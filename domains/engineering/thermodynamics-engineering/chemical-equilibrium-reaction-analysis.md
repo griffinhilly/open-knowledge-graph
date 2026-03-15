@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: combustion-thermodynamic-analysis
   type: soft
+- id: chemical-equilibrium
+  type: soft
 builds-toward:
 - adiabatic-flame-temperature
 - chemical-exergy-fuel-combustion
