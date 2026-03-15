@@ -6,6 +6,8 @@ course: poetry
 prerequisites:
 - id: sound-devices-in-poetry
   type: hard
+- id: articulatory-phonetics
+  type: soft
 builds-toward:
 - assonance-vowel-sound-repetition
 tags:

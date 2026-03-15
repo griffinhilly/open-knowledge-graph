@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: novel-form
   type: hard
+- id: discourse-analysis
+  type: soft
 builds-toward:
 - literary-influence-tradition
 - narrative-forms-cross-cultural

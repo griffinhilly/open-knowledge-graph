@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: linguistic-pragmatics
   type: soft
+- id: deixis-and-reference
+  type: soft
 builds-toward:
 - transtextuality-genette
 - literary-influence-tradition

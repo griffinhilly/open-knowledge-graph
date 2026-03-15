@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kristeva-intertextuality
   type: soft
+- id: discourse-analysis
+  type: soft
 builds-toward:
 - genette-transtextuality-framework
 - narrative-voice

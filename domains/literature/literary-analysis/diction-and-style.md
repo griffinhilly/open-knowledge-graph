@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: morphological-structure
   type: soft
+- id: diction-word-choice-effect
+  type: soft
 builds-toward:
 - tone-and-mood
 - literary-argument-writing

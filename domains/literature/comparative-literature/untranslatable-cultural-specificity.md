@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: literary-translation-interpretation
   type: soft
+- id: deixis-and-reference
+  type: soft
+- id: language-universals
+  type: soft
 builds-toward:
 - postcolonial-translation-resistance
 - metaphor-cultural-embedding

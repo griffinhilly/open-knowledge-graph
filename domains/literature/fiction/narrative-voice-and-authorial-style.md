@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: narrative-voice
   type: hard
+- id: register-formality-control
+  type: soft
 builds-toward:
 - narrative-distance-focalization-theory
 - prose-rhythm-sentence-craft

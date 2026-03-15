@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: literary-criticism-overview
   type: soft
+- id: ethical-rhetoric-and-persuasion
+  type: soft
 builds-toward:
 - literary-translation-interpretation
 - literary-cosmopolitanism-ethics

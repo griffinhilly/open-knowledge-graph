@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: language-variation-and-change
   type: soft
+- id: linguistic-pragmatics
+  type: soft
 builds-toward:
 - untranslatable-cultural-specificity
 - postcolonial-translation-resistance

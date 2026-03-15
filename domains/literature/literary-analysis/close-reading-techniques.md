@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: reading-comprehension-basics
   type: soft
+- id: linguistic-pragmatics
+  type: soft
 builds-toward:
 - plot-structure
 - characterization-methods

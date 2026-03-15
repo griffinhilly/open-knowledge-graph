@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: close-reading-techniques
   type: soft
+- id: linguistic-pragmatics
+  type: soft
 builds-toward:
 - digital-humanities-literary-analysis
 - literary-cosmopolitanism-ethics

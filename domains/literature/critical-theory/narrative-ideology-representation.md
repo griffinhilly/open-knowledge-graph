@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: marxist-literary-criticism
   type: soft
+- id: discourse-analysis
+  type: soft
 builds-toward:
 - symptomal-reading-ideology
 tags:

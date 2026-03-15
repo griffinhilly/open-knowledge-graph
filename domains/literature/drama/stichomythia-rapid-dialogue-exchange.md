@@ -6,6 +6,8 @@ course: drama
 prerequisites:
 - id: dialogue-analysis-and-function
   type: hard
+- id: conversation-analysis
+  type: soft
 builds-toward:
 - dramatic-tension-and-suspense
 - tragic-form-across-cultures

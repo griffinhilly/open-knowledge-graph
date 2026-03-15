@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: compositional-semantics
   type: soft
+- id: metaphor-and-metonymy
+  type: soft
 builds-toward:
 - imagery-in-literature
 - symbolism-in-literature

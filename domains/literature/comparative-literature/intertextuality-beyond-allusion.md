@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: transtextuality-genette
   type: soft
+- id: deixis-and-reference
+  type: soft
 builds-toward:
 - literary-influence-networks
 - postcolonial-rewriting-canon

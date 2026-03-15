@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: pragmatics
   type: soft
+- id: formal-pragmatics-context
+  type: soft
 builds-toward:
 - phenomenology-literary-reading
 tags:

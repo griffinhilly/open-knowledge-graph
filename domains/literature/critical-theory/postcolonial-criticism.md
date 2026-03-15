@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: feminist-literary-criticism
   type: soft
+- id: language-attitudes-and-ideology
+  type: soft
 builds-toward:
 - cultural-studies-approach
 - intersectionality-in-criticism

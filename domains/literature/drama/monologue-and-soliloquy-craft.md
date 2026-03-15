@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: speech-act-theory
   type: soft
+- id: rhetorical-situation-analysis
+  type: soft
 builds-toward:
 - character-transformation-arc
 - dramatic-conventions-audience-contract

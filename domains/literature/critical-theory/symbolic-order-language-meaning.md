@@ -6,6 +6,8 @@ course: critical-theory
 prerequisites:
 - id: discourse-knowledge-power
   type: hard
+- id: semantic-relations
+  type: soft
 builds-toward:
 - deconstruction-trace-difference
 - structuralism-relational-systems

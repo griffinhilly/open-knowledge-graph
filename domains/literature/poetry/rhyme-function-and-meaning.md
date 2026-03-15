@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: figurative-language
   type: soft
+- id: phonological-rules-derivation
+  type: soft
 tags:
 - rhyme
 - meaning-making

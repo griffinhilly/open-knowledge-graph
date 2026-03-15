@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: intertextuality-and-allusion
   type: soft
+- id: deixis-and-reference
+  type: soft
 builds-toward:
 - literary-adaptation-media
 tags:

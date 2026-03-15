@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: language-ideology
   type: soft
+- id: language-attitudes-and-ideology
+  type: soft
 builds-toward:
 - literary-cosmopolitanism-ethics
 - canon-contestation-pluralism

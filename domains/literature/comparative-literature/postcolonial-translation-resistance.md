@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: postcolonial-criticism
   type: soft
+- id: discourse-analysis
+  type: soft
+- id: language-attitudes-and-ideology
+  type: soft
 builds-toward:
 - literary-identity-nation-construction
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: textual-analysis-and-interpretation
   type: soft
+- id: semantic-relations
+  type: soft
 builds-toward:
 - structuralist-semiotics-meaning
 - barthes-mythologies-culture

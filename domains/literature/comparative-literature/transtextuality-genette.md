@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: intertextuality-and-allusion
   type: hard
+- id: deixis-and-reference
+  type: soft
 builds-toward:
 - literary-influence-tradition
 tags:

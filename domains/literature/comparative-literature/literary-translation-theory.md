@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: context-dependent-interpretation
   type: soft
+- id: linguistic-pragmatics
+  type: soft
 builds-toward:
 - benjamin-translation-task
 - venuti-foreignizing-translation

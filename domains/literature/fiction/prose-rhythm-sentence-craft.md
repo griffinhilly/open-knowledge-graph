@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: narrative-voice-and-authorial-style
   type: soft
+- id: sentence-variety-and-rhythm
+  type: soft
 tags:
 - prose
 - rhythm

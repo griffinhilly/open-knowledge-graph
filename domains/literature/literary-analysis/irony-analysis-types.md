@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: tone-and-mood
   type: soft
+- id: irony-and-its-uses
+  type: soft
 builds-toward:
 - unreliable-narrator-analysis
 - authorial-intent-inference

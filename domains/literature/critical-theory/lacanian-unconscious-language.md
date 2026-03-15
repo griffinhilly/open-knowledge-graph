@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: saussurean-sign-system
   type: soft
+- id: psycholinguistics-intro
+  type: soft
 builds-toward:
 - jouissance-excess-psychoanalytic
 - symbolic-order-and-reality

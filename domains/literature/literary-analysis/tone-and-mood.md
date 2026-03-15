@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: emotional-authenticity-persuasion
   type: soft
+- id: tone-and-register-in-writing
+  type: soft
 builds-toward:
 - irony-in-literature
 - thematic-development

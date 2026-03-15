@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: conversational-implicature
   type: soft
+- id: conversation-analysis
+  type: soft
 builds-toward:
 - subtext-and-unspoken-meaning
 - dramatic-exposition-revelation
