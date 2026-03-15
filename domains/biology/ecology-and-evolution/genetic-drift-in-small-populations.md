@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: population-genetics-intro
   type: soft
+- id: probability-axioms
+  type: soft
 builds-toward:
 - mutation-as-evolutionary-force
 - population-genetic-structure-metapopulations

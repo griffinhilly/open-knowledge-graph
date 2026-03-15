@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: statistics-rigorous
   type: soft
+- id: exponential-distribution-theory
+  type: soft
 builds-toward:
 - molecular-evolution-rates
 tags:

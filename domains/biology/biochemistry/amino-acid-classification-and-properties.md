@@ -6,6 +6,8 @@ course: biochemistry
 prerequisites:
 - id: amino-acid-structure-and-properties
   type: hard
+- id: functional-groups-overview
+  type: soft
 builds-toward:
 - protein-primary-structure
 - enzyme-cofactors-and-coenzymes

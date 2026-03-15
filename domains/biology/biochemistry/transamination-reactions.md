@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: enzyme-cofactors-and-coenzymes
   type: soft
+- id: nucleophile-electrophile-definitions
+  type: soft
 builds-toward:
 - amino-acid-degradation-overview
 - oxidative-deamination

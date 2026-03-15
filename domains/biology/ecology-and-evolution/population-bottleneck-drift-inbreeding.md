@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: effective-population-size
   type: hard
+- id: probability-axioms
+  type: soft
 builds-toward:
 - population-viability-analysis
 - conservation-genetics-effective-size

@@ -10,8 +10,10 @@ prerequisites:
   type: soft
 - id: species-interactions
   type: soft
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
-  - biodiversity-and-conservation
+- biodiversity-and-conservation
 tags:
 - island-biogeography
 - species-area

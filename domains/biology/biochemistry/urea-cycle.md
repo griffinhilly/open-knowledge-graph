@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: citric-acid-cycle-mechanism
   type: soft
+- id: organic-chemistry-intro
+  type: soft
 builds-toward:
 - nitrogen-metabolism-integration
 tags:

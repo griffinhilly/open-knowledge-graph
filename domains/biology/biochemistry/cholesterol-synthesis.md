@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: enzyme-cofactors-and-coenzymes
   type: soft
+- id: electrophilic-aromatic-substitution
+  type: soft
 builds-toward:
 - membrane-lipids-and-lipoproteins
 - metabolic-integration-hormonal-regulation

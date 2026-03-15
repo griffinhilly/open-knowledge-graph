@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: enzyme-cofactors-and-coenzymes
   type: hard
+- id: oxidation-reduction-basics
+  type: soft
 builds-toward:
 - urea-cycle
 - ammonia-metabolism

@@ -6,6 +6,8 @@ course: biochemistry
 prerequisites:
 - id: organic-chemistry-intro
   type: hard
+- id: aldehyde-and-ketone-structure-and-nomenclature
+  type: soft
 builds-toward:
 - monosaccharides-isomers
 - disaccharides-and-polysaccharides

@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: nucleophilic-addition-to-carbonyls
   type: soft
+- id: nucleophilic-acyl-substitution
+  type: soft
 builds-toward:
 - protein-primary-structure
 - post-translational-modifications

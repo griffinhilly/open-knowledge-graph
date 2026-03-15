@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: oxidation-reduction-reactions
   type: hard
+- id: oxidation-reduction-basics
+  type: soft
 builds-toward:
 - atp-synthase-structure-mechanism
 tags:

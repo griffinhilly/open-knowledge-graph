@@ -6,6 +6,8 @@ course: biochemistry
 prerequisites:
 - id: organic-chemistry-intro
   type: hard
+- id: carboxylic-acids-and-derivatives
+  type: soft
 builds-toward:
 - fatty-acid-oxidation-beta-oxidation
 - fatty-acid-synthesis

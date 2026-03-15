@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: atp-hydrolysis-and-free-energy
   type: soft
+- id: acid-base-chemistry
+  type: soft
 builds-toward:
 - atp-synthase-mechanism-integration
 tags:

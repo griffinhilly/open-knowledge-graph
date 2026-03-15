@@ -6,6 +6,8 @@ course: biochemistry
 prerequisites:
 - id: amino-acid-degradation-overview
   type: hard
+- id: electrophilic-aromatic-substitution
+  type: soft
 builds-toward:
 - phenylketonuria-and-metabolic-disease
 tags:

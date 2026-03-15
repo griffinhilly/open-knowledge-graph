@@ -6,6 +6,8 @@ course: biochemistry
 prerequisites:
 - id: carbohydrate-structure-and-classification
   type: hard
+- id: e-z-geometric-isomerism
+  type: soft
 builds-toward:
 - disaccharides-and-polysaccharides
 - glycolysis-mechanism-and-regulation

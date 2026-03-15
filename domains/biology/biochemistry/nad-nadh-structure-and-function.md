@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: oxidation-numbers
   type: soft
+- id: oxidation-reduction-basics
+  type: soft
 builds-toward:
 - glycolysis
 - citric-acid-cycle-mechanism

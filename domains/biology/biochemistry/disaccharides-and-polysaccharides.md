@@ -6,6 +6,8 @@ course: biochemistry
 prerequisites:
 - id: monosaccharides-isomers
   type: hard
+- id: nucleophilic-addition-to-carbonyls
+  type: soft
 builds-toward:
 - glycolysis-mechanism-and-regulation
 - glycogen-metabolism

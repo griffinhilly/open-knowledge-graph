@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: sampling-distributions
   type: soft
+- id: expected-value-theory
+  type: soft
 builds-toward:
 - conservation-genetics-effective-size
 - population-viability-analysis

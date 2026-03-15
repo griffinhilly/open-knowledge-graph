@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: solving-quadratics-by-factoring
   type: soft
+- id: algebraic-and-transcendental-elements
+  type: soft
 builds-toward:
 - speciation
 - molecular-evolution

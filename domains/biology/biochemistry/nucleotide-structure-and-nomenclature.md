@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: hydrogen-bonding-energetics
   type: soft
+- id: functional-groups-overview
+  type: soft
 builds-toward:
 - purine-metabolism-biosynthesis
 - pyrimidine-metabolism-biosynthesis

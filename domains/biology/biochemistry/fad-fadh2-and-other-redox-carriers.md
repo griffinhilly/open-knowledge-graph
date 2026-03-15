@@ -6,6 +6,8 @@ course: biochemistry
 prerequisites:
 - id: enzyme-cofactors-and-coenzymes
   type: hard
+- id: oxidation-reduction-basics
+  type: soft
 builds-toward:
 - electron-transport-chain
 tags:

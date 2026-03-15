@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: citric-acid-cycle-mechanism
   type: soft
+- id: gibbs-free-energy-spontaneity
+  type: soft
 builds-toward:
 - atp-synthesis
 tags:

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: electrochemical-cells
   type: soft
+- id: oxidation-reduction-basics
+  type: soft
 builds-toward:
 - calvin-cycle
 tags:

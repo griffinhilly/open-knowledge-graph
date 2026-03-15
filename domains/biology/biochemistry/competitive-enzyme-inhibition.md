@@ -6,6 +6,8 @@ course: biochemistry
 prerequisites:
 - id: michaelis-menten-enzyme-kinetics
   type: hard
+- id: chemical-equilibrium
+  type: soft
 builds-toward:
 - noncompetitive-enzyme-inhibition
 - irreversible-enzyme-inhibition

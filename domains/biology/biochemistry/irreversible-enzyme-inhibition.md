@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: noncompetitive-enzyme-inhibition
   type: soft
+- id: reaction-mechanisms-overview
+  type: soft
 builds-toward:
 - allosteric-enzyme-regulation
 tags:

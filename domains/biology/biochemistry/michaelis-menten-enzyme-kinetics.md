@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: differential-equations-intro
   type: soft
+- id: chemical-kinetics
+  type: soft
 builds-toward:
 - enzyme-inhibition-competitive
 - allosteric-enzyme-regulation
