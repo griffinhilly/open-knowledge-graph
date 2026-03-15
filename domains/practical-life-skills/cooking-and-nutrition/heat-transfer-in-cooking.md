@@ -6,6 +6,8 @@ course: cooking-and-nutrition
 prerequisites:
 - id: kitchen-safety-and-hygiene
   type: soft
+- id: rates-of-change-preview
+  type: soft
 builds-toward:
 - pan-selection-heat-management
 - roasting-techniques

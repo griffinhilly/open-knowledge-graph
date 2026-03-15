@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: kitchen-equipment-essentials
   type: soft
+- id: area-of-circles
+  type: soft
+- id: area-of-rectangles
+  type: soft
 tags:
 - cookware
 - heat-management

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: addition-subtraction-word-problems
   type: soft
+- id: collecting-organizing-data-3rd
+  type: soft
 builds-toward:
 - recurring-subscription-audit-and-elimination
 tags:

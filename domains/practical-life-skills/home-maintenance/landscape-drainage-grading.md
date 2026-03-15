@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: basement-moisture-management
   type: soft
+- id: slope-concept
+  type: soft
+- id: angle-basics-and-classification
+  type: soft
 builds-toward: []
 tags:
 - drainage

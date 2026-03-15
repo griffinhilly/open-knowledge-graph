@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: percent-of-a-number
   type: soft
+- id: proportions
+  type: soft
 builds-toward:
 - lump-sum-vs-dollar-cost-averaging
 tags:

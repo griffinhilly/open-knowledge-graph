@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: multiplying-fractions
   type: soft
+- id: fractions-of-a-set
+  type: soft
+- id: proportions
+  type: soft
 builds-toward:
 - cooking-on-a-budget
 - cooking-for-dietary-restrictions

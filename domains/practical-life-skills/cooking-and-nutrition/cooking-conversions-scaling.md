@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: proportions
   type: soft
+- id: fractions-of-a-set
+  type: soft
+- id: measurement-conversions-customary
+  type: soft
 tags:
 - measurement
 - conversions

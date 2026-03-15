@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: addition-subtraction-word-problems
   type: soft
+- id: collecting-organizing-data-3rd
+  type: soft
 tags:
 - spreadsheets
 - excel

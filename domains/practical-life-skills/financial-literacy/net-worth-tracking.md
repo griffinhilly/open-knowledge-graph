@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: comparing-and-ordering-integers
   type: soft
+- id: addition-subtraction-word-problems
+  type: soft
 builds-toward:
 - mortgage-and-home-buying
 - retirement-accounts

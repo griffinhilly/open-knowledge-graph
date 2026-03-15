@@ -18,6 +18,10 @@ prerequisites:
   type: soft
 - id: comparing-fractions
   type: soft
+- id: addition-subtraction-word-problems
+  type: soft
+- id: comparing-decimals
+  type: soft
 tags:
 - grocery
 - budgeting

@@ -6,6 +6,8 @@ course: digital-literacy
 prerequisites:
 - id: file-system-basics
   type: hard
+- id: exponents-intro
+  type: soft
 tags:
 - compression
 - zip

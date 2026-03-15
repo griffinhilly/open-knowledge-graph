@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: diy-vs-hire-professional
   type: soft
+- id: slope-concept
+  type: soft
+- id: ratios
+  type: soft
 builds-toward: []
 tags:
 - roof

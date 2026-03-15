@@ -6,6 +6,10 @@ course: financial-literacy
 prerequisites:
 - id: revolving-vs-installment-credit
   type: hard
+- id: compound-interest
+  type: soft
+- id: percent-of-a-number
+  type: soft
 builds-toward:
 - debt-management-strategies
 tags:

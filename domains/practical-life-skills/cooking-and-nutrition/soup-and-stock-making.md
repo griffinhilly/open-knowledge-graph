@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: vegetable-preparation
   type: soft
+- id: ratios
+  type: soft
+- id: proportions
+  type: soft
 builds-toward: []
 tags:
 - cooking-methods

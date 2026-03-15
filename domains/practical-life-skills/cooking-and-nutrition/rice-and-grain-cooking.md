@@ -6,6 +6,10 @@ course: cooking-and-nutrition
 prerequisites:
 - id: boiling-and-simmering
   type: hard
+- id: ratios
+  type: soft
+- id: proportional-relationships
+  type: soft
 tags:
 - rice
 - grains

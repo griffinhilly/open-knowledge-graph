@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: heat-transfer-in-cooking
   type: soft
+- id: ratios
+  type: soft
+- id: proportional-relationships
+  type: soft
 builds-toward:
 - rice-and-grain-cooking
 - pasta-and-noodle-cooking

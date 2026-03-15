@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: percent-concept
   type: soft
+- id: percent-of-a-number
+  type: soft
+- id: exponential-growth-and-decay
+  type: soft
 builds-toward:
 - investment-risk-and-return
 - retirement-accounts

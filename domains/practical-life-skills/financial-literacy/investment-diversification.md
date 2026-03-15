@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: index-fund-investing
   type: soft
+- id: percent-of-a-number
+  type: soft
+- id: ratios
+  type: soft
 tags:
 - diversification
 - asset-allocation

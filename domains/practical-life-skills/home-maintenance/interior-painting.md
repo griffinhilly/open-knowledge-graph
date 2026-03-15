@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: power-tool-safety
   type: soft
+- id: measurement-with-standard-units-length
+  type: soft
 tags:
 - painting
 - interiors

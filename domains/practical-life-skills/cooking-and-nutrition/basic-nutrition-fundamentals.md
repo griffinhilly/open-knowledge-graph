@@ -6,6 +6,10 @@ course: cooking-and-nutrition
 prerequisites:
 - id: fractions-of-a-set
   type: soft
+- id: percent-of-a-number
+  type: soft
+- id: ratios
+  type: soft
 builds-toward:
 - food-groups-and-macronutrients
 - reading-nutrition-labels

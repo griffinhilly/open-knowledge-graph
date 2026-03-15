@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: compound-interest
   type: soft
+- id: exponential-functions-and-graphs
+  type: soft
 tags:
 - mortgage
 - fixed-rate

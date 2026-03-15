@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: compound-interest
   type: soft
+- id: percent-of-a-number
+  type: soft
 tags:
 - expense-ratio
 - MER

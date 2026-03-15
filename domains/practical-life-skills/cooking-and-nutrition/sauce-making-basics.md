@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: seasoning-and-flavor-basics
   type: soft
+- id: ratios
+  type: soft
+- id: fractions-of-a-set
+  type: soft
 tags:
 - sauces
 - pan-sauce

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: percent-of-a-number
   type: soft
+- id: comparing-decimals
+  type: soft
 builds-toward:
 - grocery-shopping-and-budgeting
 - meal-planning-basics
