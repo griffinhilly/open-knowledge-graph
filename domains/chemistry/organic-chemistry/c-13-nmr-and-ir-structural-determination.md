@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ir-spectroscopy-basics
   type: soft
+- id: electromagnetic-waves
+  type: soft
 builds-toward:
 - retrosynthetic-analysis
 tags:

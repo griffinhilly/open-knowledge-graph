@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: inductively-coupled-plasma
   type: hard
+- id: photon-model
+  type: soft
+- id: electromagnetic-waves
+  type: soft
 builds-toward:
 - inductively-coupled-plasma-mass-spectrometry-icp-ms
 tags:

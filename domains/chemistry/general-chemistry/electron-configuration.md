@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: quantum-numbers-spherical-harmonics
   type: soft
+- id: quantum-mechanics-postulates-core
+  type: hard
 builds-toward:
 - periodic-trends
 - ionic-bonding

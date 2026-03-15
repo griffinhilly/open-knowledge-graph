@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: solution-properties
   type: hard
+- id: ratios
+  type: soft
 builds-toward:
 - dilution-and-solution-preparation
 - colligative-properties-solutions

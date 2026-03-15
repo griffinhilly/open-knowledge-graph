@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: kinetic-theory-of-gases
   type: soft
+- id: kinetic-energy
+  type: soft
 tags:
 - kinetic theory
 - molecular motion

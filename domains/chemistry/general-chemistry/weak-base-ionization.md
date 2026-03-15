@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: weak-acid-ionization
   type: hard
+- id: logarithms-intro
+  type: soft
 builds-toward:
 - buffer-solutions
 tags:

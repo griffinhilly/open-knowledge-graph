@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: electromagnetic-waves
   type: soft
+- id: photon-model
+  type: soft
 builds-toward:
 - inductively-coupled-plasma
 tags:

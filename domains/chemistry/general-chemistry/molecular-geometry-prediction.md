@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: lewis-structures-basics
   type: hard
+- id: 3d-coordinate-systems
+  type: soft
 builds-toward:
 - polarity-and-dipole-moments
 - intermolecular-forces-overview

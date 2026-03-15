@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: acid-base-chemistry
   type: hard
+- id: logarithms-intro
+  type: soft
 builds-toward:
 - weak-base-ionization
 - polyprotic-acids

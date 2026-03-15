@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: stoichiometry-calculations
   type: hard
+- id: ratios
+  type: soft
 builds-toward:
 - gas-stoichiometry
 tags:

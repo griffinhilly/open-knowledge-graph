@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: exponential-functions-and-graphs
   type: soft
+- id: electromagnetic-waves
+  type: soft
 builds-toward:
 - uv-vis-spectroscopy-analytical
 - atomic-absorption-spectroscopy

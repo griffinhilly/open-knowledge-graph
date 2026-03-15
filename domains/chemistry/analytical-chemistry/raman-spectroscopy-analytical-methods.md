@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: molecular-spectroscopy-selection-rules
   type: soft
+- id: electromagnetic-waves
+  type: soft
+- id: photon-model
+  type: soft
 tags:
 - Raman-spectroscopy
 - vibrational-spectroscopy

@@ -20,6 +20,10 @@ prerequisites:
   type: soft
 - id: chi-square-test
   type: soft
+- id: probability-distributions
+  type: hard
+- id: hypothesis-test-framework
+  type: hard
 builds-toward:
 - calibration-curve-methods
 - method-validation

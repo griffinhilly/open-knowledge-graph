@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: electronic-spectroscopy-theory
   type: soft
+- id: photon-model
+  type: soft
+- id: quantum-mechanics-postulates-core
+  type: soft
 tags:
 - fluorescence
 - phosphorescence

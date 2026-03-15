@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: molar-mass-and-conversions
   type: hard
+- id: ratios
+  type: soft
 builds-toward:
 - limiting-reagent-determination
 - percent-yield-calculations

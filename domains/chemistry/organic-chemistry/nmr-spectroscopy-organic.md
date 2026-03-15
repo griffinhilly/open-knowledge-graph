@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: spin-angular-momentum
   type: soft
+- id: quantum-mechanics-postulates-core
+  type: soft
 builds-toward:
 - nmr-chemical-shift-prediction
 - proton-coupling-constants-jcoupling

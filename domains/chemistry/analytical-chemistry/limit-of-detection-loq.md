@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: statistical-methods-analytical
   type: hard
+- id: signal-to-noise-ratio
+  type: soft
+- id: normal-distribution
+  type: soft
 tags:
 - LOD
 - LOQ

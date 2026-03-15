@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: oxidation-reduction-basics
   type: hard
+- id: conservation-of-energy
+  type: soft
 builds-toward:
 - electrochemical-cells
 - galvanic-cells

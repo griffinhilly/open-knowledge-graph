@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: chemical-equilibrium
   type: hard
+- id: logarithms-intro
+  type: hard
 builds-toward:
 - ph-and-acid-base-calculations
 tags:

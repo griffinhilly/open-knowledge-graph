@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: emission-absorption-spectra
   type: soft
+- id: electromagnetic-waves
+  type: hard
 builds-toward:
 - fluorescence-spectroscopy
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gas-laws
   type: soft
+- id: solving-multi-step-equations
+  type: soft
 builds-toward:
 - reaction-quotient-direction-of-reaction
 - le-chatelier-principle-applications

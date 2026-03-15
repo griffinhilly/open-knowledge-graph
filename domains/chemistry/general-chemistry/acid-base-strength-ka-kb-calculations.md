@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: pH-and-acid-base-calculations
   type: hard
+- id: logarithm-properties
+  type: hard
 builds-toward:
 - buffer-chemistry-le-chatelier-application
 tags:

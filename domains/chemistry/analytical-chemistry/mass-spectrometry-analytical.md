@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: lorentz-force-complete-em
   type: soft
+- id: conservation-of-momentum
+  type: soft
+- id: kinetic-energy
+  type: soft
 tags:
 - mass spectrometry
 - ionization

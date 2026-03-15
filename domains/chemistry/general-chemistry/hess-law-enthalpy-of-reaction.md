@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: chemical-equations-balancing
   type: hard
+- id: conservation-of-energy
+  type: hard
+- id: first-law-of-thermodynamics
+  type: soft
 builds-toward:
 - standard-enthalpy-formation
 tags:

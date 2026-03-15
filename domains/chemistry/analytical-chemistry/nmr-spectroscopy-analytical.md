@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: spin-angular-momentum
   type: soft
+- id: quantum-mechanics-postulates-core
+  type: hard
 tags:
 - NMR
 - chemical shift

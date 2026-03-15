@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: heat-capacity-constant-volume-pressure
   type: soft
+- id: conservation-of-energy
+  type: hard
 builds-toward:
 - entropy-and-gibbs-free-energy
 - chemical-equilibrium

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: uv-vis-spectroscopy-analytical
   type: hard
+- id: linear-regression
+  type: soft
 tags:
 - spectrophotometry
 - UV-Vis

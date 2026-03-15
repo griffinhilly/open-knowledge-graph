@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: le-chatelier-principle-applications
   type: soft
+- id: logarithm-properties
+  type: hard
 builds-toward:
 - acid-base-titration
 tags:
