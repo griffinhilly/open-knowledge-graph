@@ -14,6 +14,12 @@ prerequisites:
   type: soft
 - id: measurement-conversions-customary
   type: soft
+- id: intro-to-fractions
+  type: hard
+- id: unit-rates
+  type: hard
+- id: measurement-conversions-metric
+  type: hard
 tags:
 - measurement
 - conversions

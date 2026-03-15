@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: ohms-law
   type: soft
+- id: electric-current-definition
+  type: soft
 tags:
 - conductometry
 - conductance

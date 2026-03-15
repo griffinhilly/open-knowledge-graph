@@ -13,6 +13,8 @@ prerequisites:
   type: hard
 - id: variational-method-quantum
   type: soft
+- id: quantum-mechanics-postulates-core
+  type: soft
 builds-toward: []
 tags:
 - DFT

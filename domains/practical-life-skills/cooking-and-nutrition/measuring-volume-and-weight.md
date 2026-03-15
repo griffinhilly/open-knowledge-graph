@@ -3,7 +3,11 @@ id: measuring-volume-and-weight
 title: Measuring Volume and Weight Accurately
 domain: practical-life-skills
 course: cooking-and-nutrition
-prerequisites: []
+prerequisites:
+- id: measurement-with-standard-units-length
+  type: hard
+- id: measurement-conversions-customary
+  type: hard
 builds-toward:
 - rice-and-grain-cooking
 - cooking-conversions-scaling

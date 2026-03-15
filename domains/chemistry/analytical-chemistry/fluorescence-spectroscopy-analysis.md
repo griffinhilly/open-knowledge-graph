@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electronic-transitions-excited-states
   type: soft
+- id: photon-concept-quanta
+  type: soft
 tags:
 - fluorescence
 - luminescence

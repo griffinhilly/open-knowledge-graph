@@ -26,6 +26,10 @@ prerequisites:
   type: soft
 - id: partition-function-fundamentals
   type: soft
+- id: partition-function-definition
+  type: hard
+- id: boltzmann-distribution-molecular-populations
+  type: soft
 builds-toward:
 - molecular-partition-functions
 - statistical-thermodynamics-applications

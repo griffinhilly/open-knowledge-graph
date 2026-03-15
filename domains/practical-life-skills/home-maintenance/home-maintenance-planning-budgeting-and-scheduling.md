@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: understanding-home-structure-and-systems
   type: hard
+- id: addition-subtraction-word-problems
+  type: hard
+- id: multiplication-word-problems
+  type: soft
+- id: percent-of-a-number
+  type: soft
 tags:
 - planning
 - budgeting

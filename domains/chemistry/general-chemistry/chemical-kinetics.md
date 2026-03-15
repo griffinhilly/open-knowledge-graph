@@ -18,6 +18,8 @@ prerequisites:
   type: hard
 - id: exponential-functions-and-graphs
   type: soft
+- id: collision-theory-advanced-kinetics
+  type: soft
 builds-toward:
 - arrhenius-equation
 tags:

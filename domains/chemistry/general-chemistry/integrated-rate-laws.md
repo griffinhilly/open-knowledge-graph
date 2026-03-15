@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: antiderivatives
   type: soft
+- id: differential-equations-intro
+  type: soft
 builds-toward:
 - arrhenius-equation
 tags:

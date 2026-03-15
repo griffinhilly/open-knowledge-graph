@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: quantum-mechanics-postulates-core
   type: hard
+- id: wave-function-and-probability
+  type: hard
 builds-toward:
 - born-oppenheimer-approximation
 - hydrogen-atom-wavefunctions

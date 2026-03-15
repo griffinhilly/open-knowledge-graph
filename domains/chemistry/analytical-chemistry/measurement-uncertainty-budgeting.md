@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: statistics-descriptive
   type: soft
+- id: confidence-intervals-framework
+  type: soft
 builds-toward:
 - iso-iec-17025-laboratory-accreditation
 - quality-assurance-analytical

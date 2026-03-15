@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: exponential-functions-and-graphs
   type: soft
+- id: compound-interest
+  type: hard
 builds-toward:
 - bonds-and-fixed-income-securities
 - economic-indicators-and-personal-finance-impact

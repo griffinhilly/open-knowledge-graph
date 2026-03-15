@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: inequalities
   type: soft
+- id: linear-functions
+  type: soft
 tags:
 - tax-brackets
 - marginal-rate

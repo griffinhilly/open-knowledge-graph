@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: compound-interest
   type: hard
+- id: exponential-growth-and-decay
+  type: hard
 builds-toward:
 - employer-sponsored-401k-plans
 - individual-retirement-accounts-iras

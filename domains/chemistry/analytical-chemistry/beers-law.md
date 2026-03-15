@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: electronic-transitions-excited-states
   type: soft
+- id: photon-concept-quanta
+  type: soft
 builds-toward:
 - uv-vis-spectroscopy-analytical
 - atomic-absorption-spectroscopy

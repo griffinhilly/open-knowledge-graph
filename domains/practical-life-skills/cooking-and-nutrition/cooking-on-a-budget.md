@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: comparing-quantities
   type: soft
+- id: money-word-problems
+  type: hard
 tags:
 - budget
 - frugal-cooking

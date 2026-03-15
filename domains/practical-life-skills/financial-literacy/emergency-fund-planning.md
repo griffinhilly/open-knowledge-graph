@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: adding-subtracting-decimals
   type: soft
+- id: percent-of-a-number
+  type: hard
 builds-toward:
 - insurance-principles
 - debt-management-strategies

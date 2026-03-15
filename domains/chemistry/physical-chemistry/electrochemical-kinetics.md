@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: faraday-law-of-induction
   type: soft
+- id: electrode-kinetics-butler-volmer
+  type: soft
 tags:
 - Butler-Volmer
 - overpotential

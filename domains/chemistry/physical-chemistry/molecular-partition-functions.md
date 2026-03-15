@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: sigma-notation
   type: soft
+- id: partition-function-definition
+  type: soft
+- id: equipartition-theorem
+  type: soft
 builds-toward:
 - statistical-thermodynamics-applications
 tags:

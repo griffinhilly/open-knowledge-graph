@@ -6,6 +6,8 @@ course: financial-literacy
 prerequisites:
 - id: personal-budget-fundamentals
   type: hard
+- id: addition-subtraction-word-problems
+  type: hard
 builds-toward:
 - financial-goal-setting
 - emergency-fund-planning

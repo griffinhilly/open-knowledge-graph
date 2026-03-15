@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: passive-investing-and-index-funds
   type: soft
+- id: percent-of-a-number
+  type: hard
+- id: multiplication-word-problems
+  type: soft
 builds-toward:
 - tax-efficient-investment-strategies
 tags:

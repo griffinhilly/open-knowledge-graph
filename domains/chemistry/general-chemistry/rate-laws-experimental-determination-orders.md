@@ -6,6 +6,10 @@ course: general-chemistry
 prerequisites:
 - id: rate-law-determination
   type: soft
+- id: logarithm-properties
+  type: soft
+- id: exponential-functions-and-graphs
+  type: soft
 builds-toward:
 - reaction-mechanisms-elementary-steps
 tags:

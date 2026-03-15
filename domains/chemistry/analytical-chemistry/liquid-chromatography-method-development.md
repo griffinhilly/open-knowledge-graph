@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: method-development-lifecycle
   type: soft
+- id: diffusion-and-ficks-laws
+  type: soft
 tags:
 - HPLC
 - LC

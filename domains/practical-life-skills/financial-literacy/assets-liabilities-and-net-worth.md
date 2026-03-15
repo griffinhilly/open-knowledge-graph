@@ -8,6 +8,12 @@ prerequisites:
   type: soft
 - id: expense-categorization-and-analysis
   type: soft
+- id: addition-subtraction-word-problems
+  type: hard
+- id: opposites-and-additive-inverses
+  type: hard
+- id: integers-and-number-line
+  type: soft
 builds-toward:
 - financial-independence-and-passive-income
 - lifecycle-financial-strategy-and-priorities

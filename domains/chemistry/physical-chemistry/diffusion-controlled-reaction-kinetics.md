@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: diffusion-and-ficks-laws
   type: hard
+- id: partial-derivatives
+  type: soft
 builds-toward:
 - bimolecular-collision-dynamics-trajectory
 tags:

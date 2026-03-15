@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: exponential-growth-and-decay
   type: soft
+- id: proportions
+  type: soft
 builds-toward:
 - investment-risk-and-return
 - retirement-accounts

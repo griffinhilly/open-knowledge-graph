@@ -18,6 +18,10 @@ prerequisites:
   type: soft
 - id: debt-management-strategies
   type: soft
+- id: percent-of-a-number
+  type: hard
+- id: exponential-functions-and-graphs
+  type: soft
 tags:
 - mortgage
 - amortization

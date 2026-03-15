@@ -13,6 +13,8 @@ prerequisites:
   type: soft
 - id: scatterplots-and-correlation
   type: soft
+- id: interpolation-error-analysis
+  type: soft
 builds-toward:
 - method-validation
 tags:

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: intermolecular-forces
   type: soft
+- id: kinetic-theory-of-gases
+  type: soft
+- id: diffusion-and-ficks-laws
+  type: soft
 tags:
 - GC
 - gas chromatography

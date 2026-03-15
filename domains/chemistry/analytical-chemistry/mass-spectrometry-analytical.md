@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: lorentz-force-on-moving-charge
   type: soft
+- id: ion-formation-from-electron-transfer
+  type: soft
 tags:
 - mass spectrometry
 - ionization

@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: electromagnetic-waves
   type: soft
+- id: electromagnetic-spectrum
+  type: soft
 tags:
 - IR
 - FTIR

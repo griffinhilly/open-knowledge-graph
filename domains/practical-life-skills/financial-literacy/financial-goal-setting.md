@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: emergency-fund-planning
   type: soft
+- id: addition-subtraction-word-problems
+  type: soft
 builds-toward: []
 tags:
 - planning

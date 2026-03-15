@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: mean-median-mode
   type: soft
+- id: percent-of-a-number
+  type: hard
+- id: ratios
+  type: soft
 builds-toward:
 - index-fund-investing
 tags:

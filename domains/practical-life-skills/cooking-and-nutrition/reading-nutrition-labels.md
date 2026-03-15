@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: comparing-decimals
   type: soft
+- id: converting-fractions-decimals-percents
+  type: hard
 builds-toward:
 - grocery-shopping-and-budgeting
 - meal-planning-basics

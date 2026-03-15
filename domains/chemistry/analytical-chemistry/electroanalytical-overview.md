@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: electric-current-definition
   type: soft
+- id: electric-potential
+  type: soft
+- id: electron-transfer
+  type: soft
 builds-toward:
 - potentiometry
 - voltammetry

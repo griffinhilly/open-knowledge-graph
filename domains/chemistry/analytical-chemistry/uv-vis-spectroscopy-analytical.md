@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: electromagnetic-waves
   type: hard
+- id: photon-concept-quanta
+  type: soft
 builds-toward:
 - fluorescence-spectroscopy
 tags:

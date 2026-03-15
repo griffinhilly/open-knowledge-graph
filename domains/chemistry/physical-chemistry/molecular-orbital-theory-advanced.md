@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: soft
+- id: molecular-orbital-diagrams
+  type: soft
 builds-toward:
 - huckel-molecular-orbital-theory
 - electronic-spectroscopy-theory

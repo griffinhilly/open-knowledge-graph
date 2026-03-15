@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: measuring-volume-and-weight
   type: hard
+- id: ratios
+  type: hard
+- id: intro-to-fractions
+  type: soft
 builds-toward:
 - rice-and-grain-cooking
 - starch-and-grain-cooking

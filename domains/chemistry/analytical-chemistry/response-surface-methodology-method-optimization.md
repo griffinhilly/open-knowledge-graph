@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: statistical-methods-analytical
   type: hard
+- id: polynomial-functions-degree-and-leading-coefficient
+  type: soft
 builds-toward:
 - optimization-of-analytical-method-parameters
 - method-robustness-stability-assessment

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: electric-charge-and-coulombs-law
   type: soft
+- id: electric-current-definition
+  type: soft
 tags:
 - coulometry
 - Faraday's law

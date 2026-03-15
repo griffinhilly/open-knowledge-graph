@@ -26,6 +26,8 @@ prerequisites:
   type: soft
 - id: lorentz-force-on-moving-charge
   type: soft
+- id: electric-field
+  type: soft
 builds-toward:
 - electrochemical-cells
 tags:

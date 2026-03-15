@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: wave-particle-duality
   type: soft
+- id: atomic-orbitals
+  type: soft
+- id: quantum-mechanics-postulates-core
+  type: soft
 builds-toward:
 - periodic-table-overview
 - electron-configuration

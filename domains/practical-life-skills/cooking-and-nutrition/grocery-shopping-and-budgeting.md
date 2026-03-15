@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: comparing-decimals
   type: soft
+- id: money-fundamentals-definition-and-characteristics
+  type: hard
 tags:
 - grocery
 - budgeting

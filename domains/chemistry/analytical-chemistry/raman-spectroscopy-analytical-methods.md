@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: photon-model
   type: soft
+- id: electromagnetic-spectrum
+  type: soft
+- id: vibrational-spectroscopy-theory
+  type: soft
 tags:
 - Raman-spectroscopy
 - vibrational-spectroscopy

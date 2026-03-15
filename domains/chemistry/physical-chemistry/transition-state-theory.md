@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: activation-energy-catalysis-reaction-pathways
   type: soft
+- id: collision-theory-advanced-kinetics
+  type: soft
 builds-toward:
 - unimolecular-reaction-mechanisms
 tags:

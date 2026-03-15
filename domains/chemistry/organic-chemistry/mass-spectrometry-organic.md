@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: mass-energy-equivalence
   type: soft
+- id: ion-formation-from-electron-transfer
+  type: soft
 builds-toward: []
 tags:
 - mass spectrometry

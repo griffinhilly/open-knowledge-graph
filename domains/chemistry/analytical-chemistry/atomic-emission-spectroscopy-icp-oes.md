@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: line-spectra-discrete-frequencies
   type: soft
+- id: atomic-orbitals
+  type: soft
+- id: photon-concept-quanta
+  type: soft
 builds-toward:
 - inductively-coupled-plasma-mass-spectrometry-icp-ms
 tags:
