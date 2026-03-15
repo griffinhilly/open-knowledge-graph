@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kripke-causal-theory-naming
   type: hard
+- id: first-order-logic-syntax
+  type: soft
 builds-toward:
 - empty-names-fictional
 tags:

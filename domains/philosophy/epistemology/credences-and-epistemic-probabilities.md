@@ -6,6 +6,8 @@ course: epistemology
 prerequisites:
 - id: what-is-knowledge
   type: soft
+- id: probabilistic-reasoning
+  type: soft
 builds-toward:
 - conditionalization-and-bayesian-updating
 - evidential-support-formalization

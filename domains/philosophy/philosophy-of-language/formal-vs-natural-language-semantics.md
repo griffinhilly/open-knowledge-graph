@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: compositionality-principle
   type: soft
+- id: first-order-semantics
+  type: hard
 builds-toward:
 - semantic-underdetermination-context
 tags:

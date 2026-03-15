@@ -6,6 +6,8 @@ course: epistemology
 prerequisites:
 - id: epistemic-logic-basics
   type: hard
+- id: possible-worlds-semantics
+  type: soft
 builds-toward:
 - epistemic-accessibility-relations
 - closure-principles-formalized

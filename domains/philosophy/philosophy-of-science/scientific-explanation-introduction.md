@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: deductive-reasoning
   type: soft
+- id: logical-consequence-and-entailment
+  type: soft
 builds-toward:
 - deductive-nomological-model-of-explanation
 - causal-explanation-theories

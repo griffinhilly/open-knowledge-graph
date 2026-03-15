@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gettier-problems
   type: hard
+- id: first-order-logic-syntax
+  type: soft
 builds-toward:
 - no-false-lemmas-condition
 - defeasibility-conditions-knowledge

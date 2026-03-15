@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: church-turing-thesis
   type: soft
+- id: lambda-calculus
+  type: soft
 builds-toward:
 - multiple-realizability
 - chinese-room-argument

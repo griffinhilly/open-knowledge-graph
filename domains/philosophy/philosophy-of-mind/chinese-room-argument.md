@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: multiple-realizability
   type: soft
+- id: turing-machines-formal
+  type: soft
 builds-toward:
 - turing-test-and-machine-minds
 tags:

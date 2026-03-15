@@ -6,6 +6,8 @@ course: ethics
 prerequisites:
 - id: normative-vs-metaethical-questions
   type: hard
+- id: argumentation-theory
+  type: soft
 builds-toward:
 - reflective-equilibrium-method
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: first-order-semantics
   type: hard
+- id: propositional-semantics
+  type: soft
 builds-toward:
 - intensionality-and-opacity
 - proposition-and-semantic-content

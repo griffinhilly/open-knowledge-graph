@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: artificial-consciousness
   type: soft
+- id: turing-machines-formal
+  type: soft
 builds-toward:
 - chinese-room-understanding-computation
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: epistemic-closure
   type: soft
+- id: first-order-logic-syntax
+  type: soft
 tags:
 - closure
 - deductive-closure

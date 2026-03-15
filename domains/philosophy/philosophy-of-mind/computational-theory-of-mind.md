@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: multiple-realizability
   type: hard
+- id: turing-machines-formal
+  type: soft
 builds-toward:
 - substrate-independence
 - artificial-minds-silicon-based

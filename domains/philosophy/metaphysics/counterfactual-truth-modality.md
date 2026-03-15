@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: modal-semantics-possible-worlds
   type: soft
+- id: modal-logic-intro
+  type: soft
 builds-toward:
 - causal-order-temporal-order
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: frege-sense-and-reference
   type: soft
+- id: first-order-logic-syntax
+  type: soft
 builds-toward:
 - kripke-causal-theory-naming
 - reference-determination

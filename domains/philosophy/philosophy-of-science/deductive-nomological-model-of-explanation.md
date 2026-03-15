@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: laws-of-nature
   type: hard
+- id: deductive-reasoning-and-formal-proofs
+  type: soft
 builds-toward:
 - inductive-statistical-model-of-explanation
 tags:

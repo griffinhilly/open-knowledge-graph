@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: confirmation-theory-science
   type: hard
+- id: probabilistic-reasoning
+  type: hard
 builds-toward:
 - scientific-realism
 - causal-explanation-science

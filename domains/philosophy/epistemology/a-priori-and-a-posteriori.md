@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: propositional-syntax
   type: soft
+- id: modal-logic-intro
+  type: soft
 builds-toward:
 - rationalism-vs-empiricism
 - cartesian-skepticism

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: causation-and-causal-relations
   type: soft
+- id: first-order-logic-syntax
+  type: soft
 tags:
 - events
 - ontology

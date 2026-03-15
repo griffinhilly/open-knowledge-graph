@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: propositional-logic-introduction
   type: hard
+- id: first-order-logic-syntax
+  type: soft
+- id: modal-logic-intro
+  type: soft
 builds-toward:
 - epistemic-logic-basics
 - epistemic-properties-and-metrics

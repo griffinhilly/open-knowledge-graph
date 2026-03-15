@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: universals-and-particulars
   type: hard
+- id: first-order-logic-syntax
+  type: soft
 tags:
 - identity
 - indiscernibles

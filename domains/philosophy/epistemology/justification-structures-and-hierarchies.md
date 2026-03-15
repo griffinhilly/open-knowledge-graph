@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: coherentism
   type: soft
+- id: first-order-logic-syntax
+  type: soft
 builds-toward:
 - justificatory-chains-and-support
 - internalism-externalism-epistemology

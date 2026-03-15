@@ -6,6 +6,8 @@ course: ethics
 prerequisites:
 - id: moral-reasoning-methods
   type: hard
+- id: logical-consistency-and-contradiction
+  type: soft
 tags:
 - epistemology
 - methodology

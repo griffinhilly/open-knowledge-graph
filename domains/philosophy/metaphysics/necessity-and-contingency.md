@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: modal-realism
   type: soft
+- id: modal-logic-intro
+  type: soft
 tags:
 - necessity
 - contingency

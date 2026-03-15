@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: intentionality
   type: soft
+- id: first-order-semantics
+  type: soft
 builds-toward:
 - representationalism
 tags:

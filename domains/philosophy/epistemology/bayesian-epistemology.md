@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: reliabilism
   type: soft
+- id: probabilistic-reasoning
+  type: hard
 tags:
 - Bayesianism
 - credences
