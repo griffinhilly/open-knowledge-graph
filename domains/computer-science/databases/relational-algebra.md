@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: set-operations
   type: soft
+- id: set-operations-and-notation
+  type: soft
 builds-toward:
 - sql-select-basics
 - query-execution-plans

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: soft
+- id: critical-points-extrema
+  type: soft
 builds-toward:
 - training-neural-networks
 - hyperparameter-optimization

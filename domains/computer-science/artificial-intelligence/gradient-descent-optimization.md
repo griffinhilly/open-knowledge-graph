@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: soft
+- id: critical-points-extrema
+  type: soft
+- id: derivatives-of-exponential-functions
+  type: soft
 tags:
 - optimization
 - first-order-methods

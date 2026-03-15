@@ -6,6 +6,10 @@ course: artificial-intelligence
 prerequisites:
 - id: support-vector-machines
   type: hard
+- id: inner-product-spaces
+  type: soft
+- id: function-composition-and-inverses
+  type: soft
 builds-toward:
 - support-vector-regression
 - kernel-ridge-regression

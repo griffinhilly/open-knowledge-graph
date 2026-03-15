@@ -6,6 +6,10 @@ course: artificial-intelligence
 prerequisites:
 - id: probability-basics
   type: hard
+- id: expected-value
+  type: soft
+- id: variance-of-random-variables
+  type: soft
 tags:
 - learning-theory
 - generalization

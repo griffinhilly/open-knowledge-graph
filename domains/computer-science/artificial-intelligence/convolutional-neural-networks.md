@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: matrix-multiplication
   type: soft
+- id: partial-derivatives
+  type: soft
 tags:
 - deep-learning
 - computer-vision

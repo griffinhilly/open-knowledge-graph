@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: probability-basics
   type: hard
+- id: probability-axioms
+  type: soft
+- id: derivatives-of-exponential-functions
+  type: soft
 tags:
 - supervised-learning
 - classification

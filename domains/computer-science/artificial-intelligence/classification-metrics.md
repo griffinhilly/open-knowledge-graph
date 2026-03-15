@@ -6,6 +6,8 @@ course: artificial-intelligence
 prerequisites:
 - id: supervised-learning-intro
   type: hard
+- id: conditional-probability
+  type: soft
 builds-toward:
 - roc-auc
 - confusion-matrix

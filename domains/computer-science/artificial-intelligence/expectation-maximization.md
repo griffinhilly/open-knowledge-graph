@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: expected-value-theory
   type: soft
+- id: conditional-probability
+  type: soft
+- id: derivatives-of-exponential-functions
+  type: soft
 builds-toward:
 - mixture-models
 - latent-variable-models

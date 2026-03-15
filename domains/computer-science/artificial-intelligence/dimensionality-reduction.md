@@ -6,6 +6,8 @@ course: artificial-intelligence
 prerequisites:
 - id: principal-component-analysis
   type: hard
+- id: linear-independence
+  type: soft
 tags:
 - unsupervised-learning
 - feature-reduction

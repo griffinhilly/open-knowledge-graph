@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cross-validation-techniques
   type: hard
+- id: constrained-optimization
+  type: soft
 tags:
 - hyperparameter-tuning
 - optimization

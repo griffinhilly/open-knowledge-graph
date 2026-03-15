@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: gradient-descent-optimization
   type: hard
+- id: critical-points-extrema
+  type: soft
+- id: expected-value
+  type: soft
 tags:
 - ensemble
 - boosting

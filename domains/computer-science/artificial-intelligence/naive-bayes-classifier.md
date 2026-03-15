@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: conditional-probability
   type: soft
+- id: probability-axioms
+  type: soft
 tags:
 - classification
 - probabilistic-models

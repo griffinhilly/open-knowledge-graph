@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: boolean-algebra
   type: soft
+- id: logical-connectives-and-operators
+  type: soft
 builds-toward:
 - universal-logic-gates
 - combinational-circuit-design

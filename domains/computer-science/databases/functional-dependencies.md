@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: binary-relations
   type: soft
+- id: logical-equivalence
+  type: soft
 builds-toward:
 - database-normalization-1nf-2nf
 - database-normalization-3nf-bcnf

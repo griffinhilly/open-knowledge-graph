@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: probability-axioms-and-rules
   type: soft
+- id: probability-axioms
+  type: soft
 tags:
 - decision-making
 - markov-models

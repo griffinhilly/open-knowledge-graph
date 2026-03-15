@@ -6,6 +6,8 @@ course: artificial-intelligence
 prerequisites:
 - id: supervised-learning-intro
   type: hard
+- id: probability-axioms
+  type: soft
 builds-toward:
 - classification-metrics
 - multi-class-evaluation

@@ -6,6 +6,8 @@ course: artificial-intelligence
 prerequisites:
 - id: decision-trees-forests
   type: hard
+- id: probability-axioms
+  type: soft
 tags:
 - ensemble
 - supervised-learning

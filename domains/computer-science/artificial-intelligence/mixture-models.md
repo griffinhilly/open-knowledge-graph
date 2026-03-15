@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: probability-distributions
   type: soft
+- id: probability-axioms
+  type: soft
 builds-toward:
 - probabilistic-clustering
 - latent-class-analysis

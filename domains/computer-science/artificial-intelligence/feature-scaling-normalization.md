@@ -6,6 +6,10 @@ course: artificial-intelligence
 prerequisites:
 - id: feature-engineering-selection
   type: hard
+- id: mean-median-mode
+  type: soft
+- id: standard-normal-z-scores-theory
+  type: soft
 builds-toward:
 - gradient-descent-optimization
 - neural-networks-intro

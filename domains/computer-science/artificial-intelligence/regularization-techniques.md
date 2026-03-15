@@ -6,6 +6,8 @@ course: artificial-intelligence
 prerequisites:
 - id: bias-variance-tradeoff
   type: hard
+- id: constrained-optimization
+  type: soft
 tags:
 - learning-theory
 - overfitting-prevention

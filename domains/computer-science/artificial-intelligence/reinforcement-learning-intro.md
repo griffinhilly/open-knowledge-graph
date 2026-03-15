@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: probability-axioms-and-rules
   type: soft
+- id: expected-value-and-variance
+  type: soft
 tags:
 - reinforcement-learning
 - learning-paradigm

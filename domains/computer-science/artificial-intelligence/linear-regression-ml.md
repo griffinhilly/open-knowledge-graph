@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: linear-transformations
   type: soft
+- id: linear-systems-notation
+  type: soft
+- id: expected-value
+  type: soft
 tags:
 - supervised-learning
 - regression

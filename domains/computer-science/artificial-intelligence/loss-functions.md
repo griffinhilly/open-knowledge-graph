@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: soft
+- id: derivatives-of-exponential-functions
+  type: soft
 builds-toward:
 - backpropagation
 - optimization-algorithms

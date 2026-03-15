@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: gradient-descent-optimization
   type: hard
+- id: derivatives-of-exponential-functions
+  type: soft
+- id: expected-value
+  type: soft
 tags:
 - reinforcement-learning
 - policy-optimization

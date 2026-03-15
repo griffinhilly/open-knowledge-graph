@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: vector-spaces
   type: soft
+- id: constrained-optimization
+  type: soft
+- id: inner-product-spaces
+  type: soft
 tags:
 - supervised-learning
 - classification

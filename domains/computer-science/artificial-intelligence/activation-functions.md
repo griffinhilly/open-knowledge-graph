@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multilayer-perceptrons
   type: hard
+- id: derivatives-of-exponential-functions
+  type: soft
 builds-toward:
 - deep-learning-foundations
 - vanishing-gradient-problem

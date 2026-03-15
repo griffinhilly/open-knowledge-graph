@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: linear-transformations
   type: soft
+- id: matrix-operations
+  type: soft
+- id: dot-product
+  type: soft
 tags:
 - deep-learning
 - attention

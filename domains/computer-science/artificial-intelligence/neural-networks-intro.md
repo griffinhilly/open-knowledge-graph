@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: matrices-intro
   type: soft
+- id: matrix-operations
+  type: soft
 tags:
 - neural-networks
 - deep-learning

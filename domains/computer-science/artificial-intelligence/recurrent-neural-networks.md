@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: partial-derivatives
   type: soft
+- id: matrix-operations
+  type: soft
+- id: sequences-and-series-review
+  type: soft
 tags:
 - deep-learning
 - sequence-models
