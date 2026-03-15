@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: geographic-information-systems-intro
   type: soft
+- id: rates-of-change-preview
+  type: soft
 builds-toward:
 - demographic-transition-model
 - migration-theory-push-pull

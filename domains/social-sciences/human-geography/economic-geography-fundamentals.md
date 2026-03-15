@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: agricultural-geography
   type: soft
+- id: functions-domain-codomain-range
+  type: soft
 builds-toward:
 - industrial-location-theory
 - development-geography

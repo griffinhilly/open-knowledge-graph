@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: expected-value-theory
   type: hard
+- id: probability-axioms
+  type: soft
 tags:
 - rational-choice
 - economics

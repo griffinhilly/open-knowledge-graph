@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: causal-inference-observational-data
   type: soft
+- id: conditional-probability
+  type: soft
 builds-toward:
 - natural-experiments-identification-strategy
 - instrumental-variables-causal-effects

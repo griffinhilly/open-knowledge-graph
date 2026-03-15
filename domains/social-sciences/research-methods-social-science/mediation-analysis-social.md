@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: linear-regression
   type: soft
+- id: partial-derivatives-basics
+  type: soft
 builds-toward:
 - conditional-indirect-effects
 - dynamic-mediation-models

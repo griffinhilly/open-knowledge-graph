@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: matrices-intro
   type: soft
+- id: eigenvalues-and-eigenvectors
+  type: soft
 builds-toward:
 - mixed-methods-integration
 tags:

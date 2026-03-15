@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: prisoner-dilemma-cooperation
   type: soft
+- id: systems-of-first-order-linear-odes
+  type: soft
 builds-toward:
 - escalation-dynamics-crises
 tags:

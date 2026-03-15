@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: coordinate-plane-intro
   type: soft
+- id: optimization-multivariable-basics
+  type: soft
 builds-toward:
 - development-geography
 - colonialism-geographic-legacy

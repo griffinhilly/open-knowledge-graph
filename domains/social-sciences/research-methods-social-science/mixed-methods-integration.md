@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: linear-regression-social-science
   type: soft
+- id: probability-axioms
+  type: soft
 tags:
 - mixed-methods
 - integration

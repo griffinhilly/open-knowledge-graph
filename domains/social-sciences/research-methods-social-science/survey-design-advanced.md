@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sampling-strategies-social-research
   type: hard
+- id: sampling-distributions-theory
+  type: soft
 builds-toward:
 - linear-regression-social-science
 - structural-equation-modeling-latent

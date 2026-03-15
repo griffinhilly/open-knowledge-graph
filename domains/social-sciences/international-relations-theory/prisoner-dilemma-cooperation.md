@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: game-theory-basics-microeconomics
   type: soft
+- id: probability-axioms
+  type: soft
 builds-toward:
 - arms-races-security-spiral
 tags:

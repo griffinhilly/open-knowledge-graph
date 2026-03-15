@@ -6,6 +6,8 @@ course: research-methods-social-science
 prerequisites:
 - id: natural-experiments-identification-strategy
   type: hard
+- id: functions-domain-codomain-range
+  type: soft
 tags:
 - regression-discontinuity
 - rdd

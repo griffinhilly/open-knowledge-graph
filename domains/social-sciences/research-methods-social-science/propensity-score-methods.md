@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: probability-axioms
   type: soft
+- id: logistic-regression-binary-categorical
+  type: soft
 tags:
 - propensity-score
 - matching

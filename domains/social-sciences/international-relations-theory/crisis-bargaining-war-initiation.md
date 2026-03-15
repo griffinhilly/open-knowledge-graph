@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: expected-value-theory
   type: soft
+- id: optimization-multivariable-basics
+  type: soft
 builds-toward:
 - power-transition-hegemonic-dominance
 - diplomatic-signaling-crisis-communication

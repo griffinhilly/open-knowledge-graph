@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: logistic-regression-binary-categorical
   type: hard
+- id: logarithmic-functions-review
+  type: soft
 builds-toward:
 - structural-equation-modeling-latent
 tags:

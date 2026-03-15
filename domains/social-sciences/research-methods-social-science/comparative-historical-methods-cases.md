@@ -6,6 +6,8 @@ course: research-methods-social-science
 prerequisites:
 - id: research-design-from-questions-to-methods
   type: hard
+- id: conditional-probability
+  type: soft
 tags:
 - comparative-historical
 - case-selection

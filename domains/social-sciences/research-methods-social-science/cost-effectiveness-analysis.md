@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: linear-regression-social-science
   type: soft
+- id: linear-programming
+  type: soft
 builds-toward:
 - health-economic-evaluation
 - return-on-investment-analysis

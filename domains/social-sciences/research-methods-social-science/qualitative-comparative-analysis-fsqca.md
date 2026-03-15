@@ -6,6 +6,8 @@ course: research-methods-social-science
 prerequisites:
 - id: qualitative-comparative-analysis
   type: hard
+- id: boolean-algebra
+  type: soft
 tags:
 - qca
 - fsqca
