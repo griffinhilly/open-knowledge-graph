@@ -276,9 +276,9 @@ def build_radial_layout(all_data, configs, depths):
 
         base_angle = sector["start"] + sector_width * course_frac
 
-        # Jitter for organic feel
+        # Jitter for organic feel (radial jitter kept small to preserve depth ordering)
         angle_jitter = (random.random() - 0.5) * sector_width / max(n_courses, 1) * 0.5
-        radial_jitter = (random.random() - 0.5) * (band_max - band_min) * max_radius * 0.18
+        radial_jitter = (random.random() - 0.5) * (band_max - band_min) * max_radius * 0.05
 
         theta = base_angle + angle_jitter
         r = max(20, r + radial_jitter)
@@ -290,6 +290,7 @@ def build_radial_layout(all_data, configs, depths):
             "x": x, "y": y,
             "r": r, "theta": theta,
             "target_r": r,  # For radial spring-back
+            "target_theta": base_angle,  # For angular spring-back (sector center for this course)
             "stage": stage,
         }
 
@@ -361,9 +362,28 @@ def build_radial_layout(all_data, configs, depths):
             fx = dx * strength * alpha
             fy = dy * strength * alpha
             ps["x"] += fx
-            ps["y"] -= fy  # Slight asymmetry to prevent collapse
+            ps["y"] += fy
             pt["x"] -= fx
-            pt["y"] += fy
+            pt["y"] -= fy
+
+        # Soft prerequisite radial ordering: push prereqs inward, successors outward
+        for src, tgt, cross in edge_list:
+            ps = positions[src]
+            pt = positions[tgt]
+            rs = math.hypot(ps["x"], ps["y"])
+            rt = math.hypot(pt["x"], pt["y"])
+            if rs < 1 or rt < 1:
+                continue
+            # Only apply when prereq is at same or greater radius than successor
+            if rs >= rt:
+                overlap = (rs - rt) + 5  # 5px minimum separation target
+                nudge = overlap * 0.006 * alpha
+                # Push prereq inward (scale toward origin)
+                ps["x"] *= max(0.95, 1 - nudge / rs)
+                ps["y"] *= max(0.95, 1 - nudge / rs)
+                # Push successor outward
+                pt["x"] *= min(1.05, 1 + nudge / rt)
+                pt["y"] *= min(1.05, 1 + nudge / rt)
 
         # Radial spring-back to developmental band
         for tid in node_ids:
@@ -376,6 +396,22 @@ def build_radial_layout(all_data, configs, depths):
             ratio = 1 + (target_r - current_r) / current_r * 0.15
             p["x"] *= ratio
             p["y"] *= ratio
+
+        # Angular spring-back to domain sector
+        for tid in node_ids:
+            p = positions[tid]
+            current_r = math.hypot(p["x"], p["y"])
+            if current_r < 1:
+                continue
+            current_theta = math.atan2(p["y"], p["x"])
+            target_theta = p["target_theta"]
+            # Shortest angular distance
+            delta = (target_theta - current_theta + math.pi) % (2 * math.pi) - math.pi
+            # Apply angular correction (rotate toward target)
+            correction = delta * 0.02
+            new_theta = current_theta + correction
+            p["x"] = current_r * math.cos(new_theta)
+            p["y"] = current_r * math.sin(new_theta)
 
     # Update r and theta after simulation
     for tid in node_ids:
@@ -500,6 +536,32 @@ canvas {{ display:block; cursor:grab; }}
 }}
 #tooltip h4 {{ font-size:13px; color:#eee; margin-bottom:3px; }}
 #tooltip .meta {{ font-size:10px; color:#888; line-height:1.4; }}
+#panel {{
+  position:fixed; display:none;
+  background:rgba(10,10,20,0.95); border:1px solid #444;
+  border-radius:8px; padding:16px 20px;
+  z-index:30; max-width:380px; max-height:70vh; overflow-y:auto;
+}}
+#panel h3 {{
+  font-size:15px; margin-bottom:8px;
+}}
+#panel h3 a {{ color:#eee; text-decoration:none; border-bottom:1px solid #555; }}
+#panel h3 a:hover {{ color:#9cd; border-bottom-color:#9cd; }}
+#panel .panel-meta {{ font-size:11px; color:#777; margin-bottom:12px; }}
+#panel .panel-section {{ margin-bottom:10px; }}
+#panel .panel-section h4 {{ font-size:11px; color:#667; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px; }}
+#panel .panel-item {{
+  display:flex; align-items:center; gap:6px;
+  padding:3px 0; font-size:12px; color:#aab; cursor:pointer;
+}}
+#panel .panel-item:hover {{ color:#dde; }}
+#panel .panel-dot {{ width:6px; height:6px; border-radius:50%; flex-shrink:0; }}
+#panel .panel-badge {{
+  font-size:9px; padding:1px 4px; border-radius:3px;
+  font-weight:600; text-transform:uppercase; margin-left:auto;
+}}
+#panel .panel-badge.hard {{ background:rgba(220,80,80,0.15); color:#c66; }}
+#panel .panel-badge.soft {{ background:rgba(80,160,220,0.15); color:#6ab; }}
 #controls {{
   position:fixed; top:16px; right:16px;
   background:rgba(8,8,15,0.9); border:1px solid #222;
@@ -523,6 +585,19 @@ canvas {{ display:block; cursor:grab; }}
   transition:color 0.2s, background 0.2s;
 }}
 #nav a:hover {{ color:#eee; background:rgba(255,255,255,0.08); }}
+#search {{
+  position:fixed; bottom:16px; left:50%; transform:translateX(-50%);
+  background:rgba(8,8,15,0.9); border:1px solid #222;
+  border-radius:8px; padding:6px 14px; z-index:10;
+  display:flex; gap:8px; align-items:center;
+}}
+#search input {{
+  background:#151525; border:1px solid #333; border-radius:4px;
+  padding:5px 10px; font-size:13px; color:#ccc; width:260px;
+  outline:none;
+}}
+#search input:focus {{ border-color:#556; }}
+#search .count {{ font-size:11px; color:#556; white-space:nowrap; }}
 </style>
 </head>
 <body>
@@ -546,6 +621,11 @@ canvas {{ display:block; cursor:grab; }}
   <button onclick="zoomBtn(0.7)">&minus;</button>
 </div>
 <div id="tooltip"></div>
+<div id="panel"></div>
+<div id="search">
+  <input type="text" id="searchInput" placeholder="Search topics... (Ctrl+F)">
+  <span class="count" id="searchCount"></span>
+</div>
 
 <script>
 const data = {graph_json};
@@ -660,15 +740,126 @@ function draw() {{
     ctx.fill();
   }});
 
+  // Draw highlights for selected node (persists after click)
+  const highlightTarget = selectedNode || hoveredNode;
+  if (highlightTarget) {{
+    drawHighlight(highlightTarget);
+  }}
+
+  // Draw search match highlights
+  if (searchMatches.length > 0) {{
+    searchMatches.forEach(n => {{
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, nodeRadius * 3, 0, Math.PI * 2);
+      ctx.fillStyle = `hsl(${{n.hue}}, 80%, ${{n.lightness + 15}}%)`;
+      ctx.fill();
+      ctx.strokeStyle = "rgba(255,255,100,0.8)";
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+    }});
+    // Label single match
+    if (searchMatches.length <= 5) {{
+      searchMatches.forEach(n => {{
+        ctx.font = "bold 9px sans-serif";
+        ctx.fillStyle = "#fff";
+        ctx.textAlign = "center";
+        ctx.fillText(n.title, n.x, n.y - nodeRadius * 4 - 3);
+      }});
+    }}
+  }}
+
   ctx.restore();
   ctx.restore();
 }}
 
-draw();
+function drawHighlight(node) {{
+  // Highlight connected edges (blue=prereqs, orange=dependents)
+  edgeData.forEach(ed => {{
+    if (ed.s === node || ed.t === node) {{
+      ctx.beginPath();
+      ctx.moveTo(ed.s.x, ed.s.y);
+      ctx.lineTo(ed.t.x, ed.t.y);
+      ctx.strokeStyle = ed.t === node
+        ? "rgba(80,180,255,0.6)"
+        : "rgba(255,160,80,0.6)";
+      ctx.lineWidth = 1.2;
+      ctx.stroke();
+    }}
+  }});
+
+  // Highlight connected nodes
+  edgeData.forEach(ed => {{
+    const other = ed.s === node ? ed.t : ed.t === node ? ed.s : null;
+    if (other) {{
+      ctx.beginPath();
+      ctx.arc(other.x, other.y, nodeRadius * 2, 0, Math.PI * 2);
+      ctx.fillStyle = `hsl(${{other.hue}}, 70%, ${{other.lightness + 12}}%)`;
+      ctx.fill();
+      ctx.strokeStyle = "rgba(255,255,255,0.3)";
+      ctx.lineWidth = 0.6;
+      ctx.stroke();
+    }}
+  }});
+
+  // Main node highlight
+  ctx.beginPath();
+  ctx.arc(node.x, node.y, nodeRadius * 3, 0, Math.PI * 2);
+  ctx.fillStyle = `hsl(${{node.hue}}, 80%, ${{node.lightness + 20}}%)`;
+  ctx.fill();
+  ctx.strokeStyle = "#fff";
+  ctx.lineWidth = 1.5;
+  ctx.stroke();
+
+  // Label
+  ctx.font = "bold 9px sans-serif";
+  ctx.fillStyle = "#fff";
+  ctx.textAlign = "center";
+  ctx.fillText(node.title, node.x, node.y - nodeRadius * 4 - 3);
+}}
 
 // --- Mouse interaction ---
 let isDragging = false, dragStartX, dragStartY;
 let hoveredNode = null;
+let selectedNode = null;
+let searchMatches = [];
+
+draw();
+
+// --- Search ---
+const searchInput = document.getElementById("searchInput");
+const searchCount = document.getElementById("searchCount");
+
+searchInput.addEventListener("input", () => {{
+  const q = searchInput.value.trim().toLowerCase();
+  if (q.length < 2) {{
+    searchMatches = [];
+    searchCount.textContent = "";
+    hidePanel();
+    draw();
+    return;
+  }}
+  searchMatches = data.nodes.filter(n =>
+    n.title.toLowerCase().includes(q) || n.id.toLowerCase().includes(q)
+  );
+  searchCount.textContent = searchMatches.length + " match" + (searchMatches.length !== 1 ? "es" : "");
+  if (searchMatches.length === 1) {{
+    selectedNode = searchMatches[0];
+    hoveredNode = searchMatches[0];
+    showPanel(searchMatches[0], W / 2, H / 2);
+  }} else {{
+    selectedNode = null;
+    hidePanel();
+  }}
+  draw();
+}});
+
+document.addEventListener("keydown", (e) => {{
+  if ((e.ctrlKey || e.metaKey) && e.key === "f") {{
+    e.preventDefault();
+    searchInput.focus();
+    searchInput.select();
+  }}
+}});
 
 function screenToWorld(sx, sy) {{
   return {{
@@ -700,55 +891,6 @@ canvas.addEventListener("mousemove", (e) => {{
     if (hoveredNode !== closest) {{
       hoveredNode = closest;
       draw();
-      ctx.save();
-      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      ctx.translate(W / 2 + camX, H / 2 + camY);
-      ctx.scale(camScale * viewScale, camScale * viewScale);
-
-      // Highlight connected edges (blue=prereqs, orange=dependents)
-      edgeData.forEach(ed => {{
-        if (ed.s === closest || ed.t === closest) {{
-          ctx.beginPath();
-          ctx.moveTo(ed.s.x, ed.s.y);
-          ctx.lineTo(ed.t.x, ed.t.y);
-          ctx.strokeStyle = ed.t === closest
-            ? "rgba(80,180,255,0.6)"
-            : "rgba(255,160,80,0.6)";
-          ctx.lineWidth = 1.2;
-          ctx.stroke();
-        }}
-      }});
-
-      // Highlight connected nodes
-      edgeData.forEach(ed => {{
-        const other = ed.s === closest ? ed.t : ed.t === closest ? ed.s : null;
-        if (other) {{
-          ctx.beginPath();
-          ctx.arc(other.x, other.y, nodeRadius * 2, 0, Math.PI * 2);
-          ctx.fillStyle = `hsl(${{other.hue}}, 70%, ${{other.lightness + 12}}%)`;
-          ctx.fill();
-          ctx.strokeStyle = "rgba(255,255,255,0.3)";
-          ctx.lineWidth = 0.6;
-          ctx.stroke();
-        }}
-      }});
-
-      // Main node highlight
-      ctx.beginPath();
-      ctx.arc(closest.x, closest.y, nodeRadius * 3, 0, Math.PI * 2);
-      ctx.fillStyle = `hsl(${{closest.hue}}, 80%, ${{closest.lightness + 20}}%)`;
-      ctx.fill();
-      ctx.strokeStyle = "#fff";
-      ctx.lineWidth = 1.5;
-      ctx.stroke();
-
-      // Label
-      ctx.font = "bold 9px sans-serif";
-      ctx.fillStyle = "#fff";
-      ctx.textAlign = "center";
-      ctx.fillText(closest.title, closest.x, closest.y - nodeRadius * 4 - 3);
-
-      ctx.restore();
     }}
 
     const stageLabels = {{
@@ -782,14 +924,80 @@ canvas.addEventListener("mousedown", (e) => {{
   dragStartX = e.clientX; dragStartY = e.clientY;
   canvas.style.cursor = "grabbing";
 }});
+const panel = document.getElementById("panel");
+
+function showPanel(node, screenX, screenY) {{
+  selectedNode = node;
+  // Find prereqs and successors from edge data
+  const prereqs = edgeData.filter(e => e.t === node).map(e => ({{
+    id: e.s.id, title: e.s.title, hue: e.s.hue, type: e.type
+  }}));
+  const succs = edgeData.filter(e => e.s === node).map(e => ({{
+    id: e.t.id, title: e.t.title, hue: e.t.hue, type: e.type
+  }}));
+
+  const domainLabel = node.domain ? node.domain.replace(/-/g, " ") : "";
+  const courseLabel = node.course ? node.course.replace(/-/g, " ") : "";
+
+  let html = `<h3><a href="topics/${{node.id}}.html" target="_blank">${{node.title}}</a></h3>`;
+  html += `<div class="panel-meta">${{domainLabel}} &middot; ${{courseLabel}}</div>`;
+
+  if (prereqs.length) {{
+    html += `<div class="panel-section"><h4>Prerequisites (${{prereqs.length}})</h4>`;
+    prereqs.forEach(p => {{
+      html += `<div class="panel-item" data-id="${{p.id}}"><span class="panel-dot" style="background:hsl(${{p.hue}},55%,50%)"></span>${{p.title}}<span class="panel-badge ${{p.type}}">${{p.type}}</span></div>`;
+    }});
+    html += `</div>`;
+  }}
+
+  if (succs.length) {{
+    html += `<div class="panel-section"><h4>Leads To (${{succs.length}})</h4>`;
+    succs.forEach(s => {{
+      html += `<div class="panel-item" data-id="${{s.id}}"><span class="panel-dot" style="background:hsl(${{s.hue}},55%,50%)"></span>${{s.title}}<span class="panel-badge ${{s.type}}">${{s.type}}</span></div>`;
+    }});
+    html += `</div>`;
+  }}
+
+  panel.innerHTML = html;
+  panel.style.display = "block";
+  // Position panel near click but keep on screen
+  let px = screenX + 20, py = screenY - 20;
+  if (px + 400 > W) px = screenX - 400;
+  if (py + 300 > H) py = H - 300;
+  if (py < 10) py = 10;
+  panel.style.left = px + "px";
+  panel.style.top = py + "px";
+
+  // Click on prereq/successor item to select that node
+  panel.querySelectorAll(".panel-item").forEach(el => {{
+    el.addEventListener("click", () => {{
+      const targetId = el.getAttribute("data-id");
+      const targetNode = nodeMap[targetId];
+      if (targetNode) {{
+        hoveredNode = targetNode;
+        draw();
+        showPanel(targetNode, px, py);
+      }}
+    }});
+  }});
+
+  draw();
+}}
+
+function hidePanel() {{
+  selectedNode = null;
+  panel.style.display = "none";
+  draw();
+}}
+
 canvas.addEventListener("mouseup", (e) => {{
   isDragging = false;
   canvas.style.cursor = "grab";
-  // Click (not drag) → open detail page or domain hierarchy
   if (!dragMoved) {{
     if (hoveredNode) {{
-      window.open("topics/" + hoveredNode.id + ".html", "_blank");
+      showPanel(hoveredNode, e.clientX, e.clientY);
     }} else {{
+      hidePanel();
       // Check if click is in the outer ring (domain label area)
       const wp = screenToWorld(e.clientX, e.clientY);
       const clickR = Math.hypot(wp.x, wp.y);
@@ -807,6 +1015,17 @@ canvas.addEventListener("mouseup", (e) => {{
         }}
       }}
     }}
+  }}
+}});
+
+document.addEventListener("keydown", (e) => {{
+  if (e.key === "Escape") {{
+    hidePanel();
+    searchInput.value = "";
+    searchMatches = [];
+    searchCount.textContent = "";
+    searchInput.blur();
+    draw();
   }}
 }});
 canvas.addEventListener("mousemove", (e) => {{

@@ -4,10 +4,12 @@ title: Material Culture
 domain: social-sciences
 course: anthropology
 prerequisites:
+- id: anthropology-overview
+  type: hard
 - id: archaeological-methods
   type: soft
 - id: culture-concept
-  type: hard
+  type: soft
 builds-toward:
 - economic-anthropology
 - globalization-cultural-change

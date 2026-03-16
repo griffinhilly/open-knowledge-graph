@@ -4,8 +4,10 @@ title: Ritual and Ceremony
 domain: social-sciences
 course: anthropology
 prerequisites:
-- id: culture-concept
+- id: anthropology-overview
   type: hard
+- id: culture-concept
+  type: soft
 - id: religion-and-society
   type: soft
 builds-toward:

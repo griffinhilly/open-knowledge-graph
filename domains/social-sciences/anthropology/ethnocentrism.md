@@ -4,8 +4,10 @@ title: Ethnocentrism
 domain: social-sciences
 course: anthropology
 prerequisites:
-- id: culture-concept
+- id: anthropology-overview
   type: hard
+- id: culture-concept
+  type: soft
 builds-toward:
 - cultural-relativism
 - cross-cultural-comparison

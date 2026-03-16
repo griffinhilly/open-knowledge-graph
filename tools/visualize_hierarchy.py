@@ -601,6 +601,32 @@ canvas {{ display:block; }}
 }}
 #tooltip h4 {{ font-size:12px; color:#eee; margin-bottom:3px; }}
 #tooltip .meta {{ font-size:10px; color:#888; }}
+#panel {{
+  position:fixed; display:none;
+  background:rgba(30,30,50,0.95); border:1px solid #555;
+  border-radius:8px; padding:12px 16px;
+  z-index:30; max-width:380px; max-height:70vh; overflow-y:auto;
+}}
+#panel h3 {{ font-size:14px; color:#eee; margin-bottom:4px; }}
+#panel h3 a {{ color:#7af; text-decoration:none; }}
+#panel h3 a:hover {{ text-decoration:underline; }}
+#panel .panel-meta {{ font-size:10px; color:#888; margin-bottom:8px; }}
+#panel .panel-section {{ margin-top:8px; }}
+#panel .panel-section h4 {{ font-size:11px; color:#999; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px; }}
+#panel .panel-item {{
+  display:flex; align-items:center; gap:6px;
+  padding:3px 4px; border-radius:4px; cursor:pointer;
+  transition:background 0.15s;
+}}
+#panel .panel-item:hover {{ background:rgba(255,255,255,0.08); }}
+#panel .panel-dot {{ width:8px; height:8px; border-radius:50%; flex-shrink:0; }}
+#panel .panel-title {{ font-size:12px; color:#ccc; flex:1; }}
+#panel .panel-badge {{
+  font-size:9px; padding:1px 5px; border-radius:3px;
+  text-transform:uppercase; letter-spacing:0.3px; flex-shrink:0;
+}}
+.panel-badge.hard {{ background:rgba(255,100,100,0.2); color:#f88; }}
+.panel-badge.soft {{ background:rgba(100,180,255,0.2); color:#8bf; }}
 #controls {{
   position:fixed; top:16px; right:16px;
   background:rgba(26,26,46,0.92); border:1px solid #333;
@@ -624,6 +650,19 @@ canvas {{ display:block; }}
   transition:color 0.2s, background 0.2s;
 }}
 #nav a:hover {{ color:#eee; background:rgba(255,255,255,0.08); }}
+#search {{
+  position:fixed; bottom:16px; left:50%; transform:translateX(-50%);
+  background:rgba(26,26,46,0.92); border:1px solid #333;
+  border-radius:8px; padding:6px 14px; z-index:10;
+  display:flex; gap:8px; align-items:center;
+}}
+#search input {{
+  background:#2a2a4a; border:1px solid #444; border-radius:4px;
+  padding:5px 10px; font-size:13px; color:#ccc; width:260px;
+  outline:none;
+}}
+#search input:focus {{ border-color:#667; }}
+#search .count {{ font-size:11px; color:#667; white-space:nowrap; }}
 </style>
 </head>
 <body>
@@ -647,12 +686,20 @@ canvas {{ display:block; }}
   <button onclick="zoomBtn(0.7)">&minus;</button>
 </div>
 <div id="tooltip"></div>
+<div id="panel"></div>
+<div id="search">
+  <input type="text" id="searchInput" placeholder="Search topics... (Ctrl+F)">
+  <span class="count" id="searchCount"></span>
+</div>
 
 <script>
 const data = {graph_json};
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 const tooltip = document.getElementById("tooltip");
+const panel = document.getElementById("panel");
+let selectedNode = null;
+let searchMatches = [];
 
 let W, H, dpr;
 function resize() {{
@@ -838,7 +885,70 @@ function draw() {{
     ctx.stroke();
   }});
 
+  // Draw highlights for selected or hovered node
+  const highlightTarget = selectedNode || hoveredNode;
+  if (highlightTarget) {{
+    drawHighlight(highlightTarget);
+  }}
+
+  // Draw search match highlights
+  if (searchMatches.length > 0) {{
+    searchMatches.forEach(n => {{
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, nodeRadius * 3, 0, Math.PI * 2);
+      ctx.fillStyle = n.color;
+      ctx.fill();
+      ctx.strokeStyle = "rgba(255,255,100,0.8)";
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+    }});
+    if (searchMatches.length <= 5) {{
+      searchMatches.forEach(n => {{
+        ctx.font = "bold 9px sans-serif";
+        ctx.fillStyle = "#fff";
+        ctx.textAlign = "center";
+        ctx.fillText(n.title, n.x, n.y - nodeRadius * 4 - 3);
+      }});
+    }}
+  }}
+
   ctx.restore();
+  ctx.restore();
+}}
+
+function drawHighlight(node) {{
+  ctx.save();
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.translate(W / 2 + camX, H / 2 + camY);
+  ctx.scale(camScale, camScale);
+  ctx.translate(-W / 2, -H / 2);
+
+  edgeData.forEach(ed => {{
+    if (ed.s === node || ed.t === node) {{
+      ctx.beginPath();
+      ctx.moveTo(ed.s.x, ed.s.y);
+      ctx.lineTo(ed.t.x, ed.t.y);
+      ctx.strokeStyle = ed.t === node
+        ? "rgba(80,180,255,0.6)"
+        : "rgba(255,160,80,0.6)";
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+    }}
+  }});
+
+  ctx.beginPath();
+  ctx.arc(node.x, node.y, nodeRadius * 2, 0, Math.PI * 2);
+  ctx.fillStyle = node.color;
+  ctx.fill();
+  ctx.strokeStyle = "#fff";
+  ctx.lineWidth = 1.5;
+  ctx.stroke();
+
+  ctx.font = "bold 11px sans-serif";
+  ctx.fillStyle = "#fff";
+  ctx.textAlign = "center";
+  ctx.fillText(node.title, node.x, node.y - nodeRadius * 2.5 - 4);
+
   ctx.restore();
 }}
 
@@ -878,39 +988,6 @@ canvas.addEventListener("mousemove", (e) => {{
     if (hoveredNode !== closest) {{
       hoveredNode = closest;
       draw();
-      ctx.save();
-      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      ctx.translate(W / 2 + camX, H / 2 + camY);
-      ctx.scale(camScale, camScale);
-      ctx.translate(-W / 2, -H / 2);
-
-      edgeData.forEach(ed => {{
-        if (ed.s === closest || ed.t === closest) {{
-          ctx.beginPath();
-          ctx.moveTo(ed.s.x, ed.s.y);
-          ctx.lineTo(ed.t.x, ed.t.y);
-          ctx.strokeStyle = ed.t === closest
-            ? "rgba(80,180,255,0.6)"
-            : "rgba(255,160,80,0.6)";
-          ctx.lineWidth = 1.5;
-          ctx.stroke();
-        }}
-      }});
-
-      ctx.beginPath();
-      ctx.arc(closest.x, closest.y, nodeRadius * 2, 0, Math.PI * 2);
-      ctx.fillStyle = closest.color;
-      ctx.fill();
-      ctx.strokeStyle = "#fff";
-      ctx.lineWidth = 1.5;
-      ctx.stroke();
-
-      ctx.font = "bold 11px sans-serif";
-      ctx.fillStyle = "#fff";
-      ctx.textAlign = "center";
-      ctx.fillText(closest.title, closest.x, closest.y - nodeRadius * 2.5 - 4);
-
-      ctx.restore();
     }}
     const domainLabel = closest.domain ? closest.domain.replace(/-/g, " ") : "";
     const courseLabel = closest.course ? closest.course.replace(/-/g, " ") : "";
@@ -932,11 +1009,71 @@ canvas.addEventListener("mousedown", (e) => {{
   dragStartY = e.clientY;
   canvas.style.cursor = "grabbing";
 }});
+function showPanel(node, sx, sy) {{
+  selectedNode = node;
+  draw();
+  const prereqs = edgeData.filter(e => e.t === node);
+  const successors = edgeData.filter(e => e.s === node);
+  const domainLabel = node.domain ? node.domain.replace(/-/g, " ") : "";
+  const courseLabel = node.course ? node.course.replace(/-/g, " ") : "";
+  let html = `<h3><a href="topics/${{node.id}}.html" target="_blank">${{node.title}}</a></h3>`;
+  html += `<div class="panel-meta">${{domainLabel}} &middot; ${{courseLabel}}</div>`;
+  if (prereqs.length > 0) {{
+    html += `<div class="panel-section"><h4>Prerequisites (${{prereqs.length}})</h4>`;
+    prereqs.forEach(e => {{
+      html += `<div class="panel-item" data-id="${{e.s.id}}">`;
+      html += `<span class="panel-dot" style="background:${{e.s.color}}"></span>`;
+      html += `<span class="panel-title">${{e.s.title}}</span>`;
+      html += `<span class="panel-badge ${{e.type}}">${{e.type}}</span>`;
+      html += `</div>`;
+    }});
+    html += `</div>`;
+  }}
+  if (successors.length > 0) {{
+    html += `<div class="panel-section"><h4>Successors (${{successors.length}})</h4>`;
+    successors.forEach(e => {{
+      html += `<div class="panel-item" data-id="${{e.t.id}}">`;
+      html += `<span class="panel-dot" style="background:${{e.t.color}}"></span>`;
+      html += `<span class="panel-title">${{e.t.title}}</span>`;
+      html += `<span class="panel-badge ${{e.type}}">${{e.type}}</span>`;
+      html += `</div>`;
+    }});
+    html += `</div>`;
+  }}
+  if (prereqs.length === 0 && successors.length === 0) {{
+    html += `<div class="panel-section" style="color:#666;">No connections</div>`;
+  }}
+  panel.innerHTML = html;
+  panel.style.display = "block";
+  let px = sx + 20, py = sy - 20;
+  if (px + 390 > W) px = sx - 400;
+  if (py + 300 > H) py = H - 320;
+  if (py < 10) py = 10;
+  if (px < 10) px = 10;
+  panel.style.left = px + "px";
+  panel.style.top = py + "px";
+  panel.querySelectorAll(".panel-item").forEach(el => {{
+    el.addEventListener("click", () => {{
+      const tid = el.getAttribute("data-id");
+      const target = nodeMap[tid];
+      if (target) showPanel(target, parseInt(panel.style.left), parseInt(panel.style.top));
+    }});
+  }});
+}}
+
+function hidePanel() {{
+  panel.style.display = "none";
+  selectedNode = null;
+  draw();
+}}
+
 canvas.addEventListener("mouseup", (e) => {{
   isDragging = false;
   canvas.style.cursor = "default";
   if (!dragMoved && hoveredNode) {{
-    window.open("topics/" + hoveredNode.id + ".html", "_blank");
+    showPanel(hoveredNode, e.clientX, e.clientY);
+  }} else if (!dragMoved) {{
+    hidePanel();
   }}
 }});
 canvas.addEventListener("mousemove", (e) => {{
@@ -953,6 +1090,49 @@ canvas.addEventListener("wheel", (e) => {{
   camScale = Math.max(0.1, Math.min(10, camScale));
   draw();
 }}, {{ passive: false }});
+
+const searchInput = document.getElementById("searchInput");
+const searchCount = document.getElementById("searchCount");
+
+searchInput.addEventListener("input", () => {{
+  const q = searchInput.value.trim().toLowerCase();
+  if (q.length < 2) {{
+    searchMatches = [];
+    searchCount.textContent = "";
+    hidePanel();
+    draw();
+    return;
+  }}
+  searchMatches = data.nodes.filter(n =>
+    n.title.toLowerCase().includes(q) || n.id.toLowerCase().includes(q)
+  );
+  searchCount.textContent = searchMatches.length + " match" + (searchMatches.length !== 1 ? "es" : "");
+  if (searchMatches.length === 1) {{
+    selectedNode = searchMatches[0];
+    hoveredNode = searchMatches[0];
+    showPanel(searchMatches[0], W / 2, H / 2);
+  }} else {{
+    selectedNode = null;
+    hidePanel();
+  }}
+  draw();
+}});
+
+document.addEventListener("keydown", (e) => {{
+  if ((e.ctrlKey || e.metaKey) && e.key === "f") {{
+    e.preventDefault();
+    searchInput.focus();
+    searchInput.select();
+  }}
+  if (e.key === "Escape") {{
+    hidePanel();
+    searchInput.value = "";
+    searchMatches = [];
+    searchCount.textContent = "";
+    searchInput.blur();
+    draw();
+  }}
+}});
 </script>
 </body>
 </html>"""
@@ -1075,6 +1255,32 @@ canvas {{ display:block; cursor:grab; }}
 }}
 #tooltip h4 {{ font-size:13px; color:#eee; margin-bottom:3px; }}
 #tooltip .meta {{ font-size:10px; color:#888; line-height:1.4; }}
+#panel {{
+  position:fixed; display:none;
+  background:rgba(30,30,50,0.95); border:1px solid #555;
+  border-radius:8px; padding:12px 16px;
+  z-index:50; max-width:380px; max-height:70vh; overflow-y:auto;
+}}
+#panel h3 {{ font-size:14px; color:#eee; margin-bottom:4px; }}
+#panel h3 a {{ color:#7af; text-decoration:none; }}
+#panel h3 a:hover {{ text-decoration:underline; }}
+#panel .panel-meta {{ font-size:10px; color:#888; margin-bottom:8px; }}
+#panel .panel-section {{ margin-top:8px; }}
+#panel .panel-section h4 {{ font-size:11px; color:#999; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px; }}
+#panel .panel-item {{
+  display:flex; align-items:center; gap:6px;
+  padding:3px 4px; border-radius:4px; cursor:pointer;
+  transition:background 0.15s;
+}}
+#panel .panel-item:hover {{ background:rgba(255,255,255,0.08); }}
+#panel .panel-dot {{ width:8px; height:8px; border-radius:50%; flex-shrink:0; }}
+#panel .panel-title {{ font-size:12px; color:#ccc; flex:1; }}
+#panel .panel-badge {{
+  font-size:9px; padding:1px 5px; border-radius:3px;
+  text-transform:uppercase; letter-spacing:0.3px; flex-shrink:0;
+}}
+.panel-badge.hard {{ background:rgba(255,100,100,0.2); color:#f88; }}
+.panel-badge.soft {{ background:rgba(100,180,255,0.2); color:#8bf; }}
 #controls {{
   position:fixed; bottom:16px; right:16px;
   background:rgba(13,13,26,0.92); border:1px solid #222;
@@ -1098,6 +1304,19 @@ canvas {{ display:block; cursor:grab; }}
   transition:color 0.2s, background 0.2s;
 }}
 #nav a:hover {{ color:#eee; background:rgba(255,255,255,0.08); }}
+#search {{
+  position:fixed; bottom:16px; left:50%; transform:translateX(-50%);
+  background:rgba(26,26,46,0.92); border:1px solid #333;
+  border-radius:8px; padding:6px 14px; z-index:10;
+  display:flex; gap:8px; align-items:center;
+}}
+#search input {{
+  background:#2a2a4a; border:1px solid #444; border-radius:4px;
+  padding:5px 10px; font-size:13px; color:#ccc; width:260px;
+  outline:none;
+}}
+#search input:focus {{ border-color:#667; }}
+#search .count {{ font-size:11px; color:#667; white-space:nowrap; }}
 </style>
 </head>
 <body>
@@ -1118,12 +1337,20 @@ canvas {{ display:block; cursor:grab; }}
   <button onclick="zoomBtn(0.7)">&minus;</button>
 </div>
 <div id="tooltip"></div>
+<div id="panel"></div>
+<div id="search">
+  <input type="text" id="searchInput" placeholder="Search topics... (Ctrl+F)">
+  <span class="count" id="searchCount"></span>
+</div>
 
 <script>
 const data = {graph_json};
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 const tooltip = document.getElementById("tooltip");
+const panel = document.getElementById("panel");
+let selectedNode = null;
+let searchMatches = [];
 
 let W, H, dpr;
 function resize() {{
@@ -1284,6 +1511,90 @@ function draw() {{
   ctx.fillStyle = "rgba(13,13,26,0.98)";
   ctx.fillRect(0, 0, SIDEBAR_W, HEADER_H);
 
+  // Draw highlights for selected or hovered node
+  const highlightTarget = selectedNode || hoveredNode;
+  if (highlightTarget) {{
+    drawHighlight(highlightTarget);
+  }}
+
+  // Draw search match highlights
+  if (searchMatches.length > 0) {{
+    searchMatches.forEach(n => {{
+      const sx = worldToScreenX(n.x), sy = worldToScreenY(n.y);
+      ctx.beginPath();
+      ctx.arc(sx, sy, nodeRadius * 3, 0, Math.PI * 2);
+      ctx.fillStyle = `hsl(${{n.hue}}, 80%, ${{n.lightness + 15}}%)`;
+      ctx.fill();
+      ctx.strokeStyle = "rgba(255,255,100,0.8)";
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+    }});
+    if (searchMatches.length <= 5) {{
+      searchMatches.forEach(n => {{
+        const sx = worldToScreenX(n.x), sy = worldToScreenY(n.y);
+        ctx.font = "bold 9px sans-serif";
+        ctx.fillStyle = "#fff";
+        ctx.textAlign = "center";
+        ctx.fillText(n.title, sx, sy - nodeRadius * 4 - 3);
+      }});
+    }}
+  }}
+
+  ctx.restore();
+}}
+
+function drawHighlight(node) {{
+  // Highlight connected edges (blue=prereqs, orange=dependents)
+  edgeData.forEach(ed => {{
+    if (ed.s === node || ed.t === node) {{
+      const sx1 = worldToScreenX(ed.s.x), sy1 = worldToScreenY(ed.s.y);
+      const sx2 = worldToScreenX(ed.t.x), sy2 = worldToScreenY(ed.t.y);
+      ctx.save();
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      ctx.beginPath();
+      ctx.moveTo(sx1, sy1);
+      ctx.lineTo(sx2, sy2);
+      ctx.strokeStyle = ed.t === node
+        ? "rgba(80,180,255,0.6)"
+        : "rgba(255,160,80,0.6)";
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+      ctx.restore();
+    }}
+  }});
+
+  // Highlight connected nodes
+  ctx.save();
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  edgeData.forEach(ed => {{
+    const other = ed.s === node ? ed.t : ed.t === node ? ed.s : null;
+    if (other) {{
+      const ox = worldToScreenX(other.x), oy = worldToScreenY(other.y);
+      ctx.beginPath();
+      ctx.arc(ox, oy, nodeRadius * 2.2, 0, Math.PI * 2);
+      ctx.fillStyle = `hsl(${{other.hue}}, 70%, ${{other.lightness + 12}}%)`;
+      ctx.fill();
+      ctx.strokeStyle = "rgba(255,255,255,0.25)";
+      ctx.lineWidth = 0.5;
+      ctx.stroke();
+    }}
+  }});
+
+  // Main node highlight
+  const hx = worldToScreenX(node.x), hy = worldToScreenY(node.y);
+  ctx.beginPath();
+  ctx.arc(hx, hy, nodeRadius * 3, 0, Math.PI * 2);
+  ctx.fillStyle = `hsl(${{node.hue}}, 80%, ${{node.lightness + 20}}%)`;
+  ctx.fill();
+  ctx.strokeStyle = "#fff";
+  ctx.lineWidth = 1.5;
+  ctx.stroke();
+
+  // Label
+  ctx.font = "bold 10px sans-serif";
+  ctx.fillStyle = "#fff";
+  ctx.textAlign = "center";
+  ctx.fillText(node.title, hx, hy - nodeRadius * 4 - 4);
   ctx.restore();
 }}
 
@@ -1320,59 +1631,6 @@ canvas.addEventListener("mousemove", (e) => {{
     if (hoveredNode !== closest) {{
       hoveredNode = closest;
       draw();
-
-      // Highlight connected edges
-      edgeData.forEach(ed => {{
-        if (ed.s === closest || ed.t === closest) {{
-          const sx1 = worldToScreenX(ed.s.x), sy1 = worldToScreenY(ed.s.y);
-          const sx2 = worldToScreenX(ed.t.x), sy2 = worldToScreenY(ed.t.y);
-          ctx.save();
-          ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-          ctx.beginPath();
-          ctx.moveTo(sx1, sy1);
-          ctx.lineTo(sx2, sy2);
-          ctx.strokeStyle = ed.t === closest
-            ? "rgba(80,180,255,0.6)"
-            : "rgba(255,160,80,0.6)";
-          ctx.lineWidth = 1.5;
-          ctx.stroke();
-          ctx.restore();
-        }}
-      }});
-
-      // Highlight connected nodes
-      ctx.save();
-      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      edgeData.forEach(ed => {{
-        const other = ed.s === closest ? ed.t : ed.t === closest ? ed.s : null;
-        if (other) {{
-          const ox = worldToScreenX(other.x), oy = worldToScreenY(other.y);
-          ctx.beginPath();
-          ctx.arc(ox, oy, nodeRadius * 2.2, 0, Math.PI * 2);
-          ctx.fillStyle = `hsl(${{other.hue}}, 70%, ${{other.lightness + 12}}%)`;
-          ctx.fill();
-          ctx.strokeStyle = "rgba(255,255,255,0.25)";
-          ctx.lineWidth = 0.5;
-          ctx.stroke();
-        }}
-      }});
-
-      // Main node highlight
-      const hx = worldToScreenX(closest.x), hy = worldToScreenY(closest.y);
-      ctx.beginPath();
-      ctx.arc(hx, hy, nodeRadius * 3, 0, Math.PI * 2);
-      ctx.fillStyle = `hsl(${{closest.hue}}, 80%, ${{closest.lightness + 20}}%)`;
-      ctx.fill();
-      ctx.strokeStyle = "#fff";
-      ctx.lineWidth = 1.5;
-      ctx.stroke();
-
-      // Label
-      ctx.font = "bold 10px sans-serif";
-      ctx.fillStyle = "#fff";
-      ctx.textAlign = "center";
-      ctx.fillText(closest.title, hx, hy - nodeRadius * 4 - 4);
-      ctx.restore();
     }}
 
     const stageLabels = {{
@@ -1402,11 +1660,71 @@ canvas.addEventListener("mousedown", (e) => {{
   dragStartX = e.clientX; dragStartY = e.clientY;
   canvas.style.cursor = "grabbing";
 }});
+function showPanel(node, sx, sy) {{
+  selectedNode = node;
+  draw();
+  const prereqs = edgeData.filter(e => e.t === node);
+  const successors = edgeData.filter(e => e.s === node);
+  const domainLabel = node.domain ? node.domain.replace(/-/g, " ") : "";
+  const courseLabel = node.course ? node.course.replace(/-/g, " ") : "";
+  let html = `<h3><a href="topics/${{node.id}}.html" target="_blank">${{node.title}}</a></h3>`;
+  html += `<div class="panel-meta">${{domainLabel}} &middot; ${{courseLabel}}</div>`;
+  if (prereqs.length > 0) {{
+    html += `<div class="panel-section"><h4>Prerequisites (${{prereqs.length}})</h4>`;
+    prereqs.forEach(e => {{
+      html += `<div class="panel-item" data-id="${{e.s.id}}">`;
+      html += `<span class="panel-dot" style="background:hsl(${{e.s.hue}}, 55%, ${{e.s.lightness}}%)"></span>`;
+      html += `<span class="panel-title">${{e.s.title}}</span>`;
+      html += `<span class="panel-badge ${{e.type}}">${{e.type}}</span>`;
+      html += `</div>`;
+    }});
+    html += `</div>`;
+  }}
+  if (successors.length > 0) {{
+    html += `<div class="panel-section"><h4>Successors (${{successors.length}})</h4>`;
+    successors.forEach(e => {{
+      html += `<div class="panel-item" data-id="${{e.t.id}}">`;
+      html += `<span class="panel-dot" style="background:hsl(${{e.t.hue}}, 55%, ${{e.t.lightness}}%)"></span>`;
+      html += `<span class="panel-title">${{e.t.title}}</span>`;
+      html += `<span class="panel-badge ${{e.type}}">${{e.type}}</span>`;
+      html += `</div>`;
+    }});
+    html += `</div>`;
+  }}
+  if (prereqs.length === 0 && successors.length === 0) {{
+    html += `<div class="panel-section" style="color:#666;">No connections</div>`;
+  }}
+  panel.innerHTML = html;
+  panel.style.display = "block";
+  let px = sx + 20, py = sy - 20;
+  if (px + 390 > W) px = sx - 400;
+  if (py + 300 > H) py = H - 320;
+  if (py < 10) py = 10;
+  if (px < 10) px = 10;
+  panel.style.left = px + "px";
+  panel.style.top = py + "px";
+  panel.querySelectorAll(".panel-item").forEach(el => {{
+    el.addEventListener("click", () => {{
+      const tid = el.getAttribute("data-id");
+      const target = nodeMap[tid];
+      if (target) showPanel(target, parseInt(panel.style.left), parseInt(panel.style.top));
+    }});
+  }});
+}}
+
+function hidePanel() {{
+  panel.style.display = "none";
+  selectedNode = null;
+  draw();
+}}
+
 canvas.addEventListener("mouseup", (e) => {{
   isDragging = false;
   canvas.style.cursor = "grab";
   if (!dragMoved && hoveredNode) {{
-    window.open("topics/" + hoveredNode.id + ".html", "_blank");
+    showPanel(hoveredNode, e.clientX, e.clientY);
+  }} else if (!dragMoved) {{
+    hidePanel();
   }}
 }});
 canvas.addEventListener("mousemove", (e) => {{
@@ -1436,6 +1754,49 @@ canvas.addEventListener("wheel", (e) => {{
   }}
   draw();
 }}, {{ passive: false }});
+
+const searchInput = document.getElementById("searchInput");
+const searchCount = document.getElementById("searchCount");
+
+searchInput.addEventListener("input", () => {{
+  const q = searchInput.value.trim().toLowerCase();
+  if (q.length < 2) {{
+    searchMatches = [];
+    searchCount.textContent = "";
+    hidePanel();
+    draw();
+    return;
+  }}
+  searchMatches = data.nodes.filter(n =>
+    n.title.toLowerCase().includes(q) || n.id.toLowerCase().includes(q)
+  );
+  searchCount.textContent = searchMatches.length + " match" + (searchMatches.length !== 1 ? "es" : "");
+  if (searchMatches.length === 1) {{
+    selectedNode = searchMatches[0];
+    hoveredNode = searchMatches[0];
+    showPanel(searchMatches[0], W / 2, H / 2);
+  }} else {{
+    selectedNode = null;
+    hidePanel();
+  }}
+  draw();
+}});
+
+document.addEventListener("keydown", (e) => {{
+  if ((e.ctrlKey || e.metaKey) && e.key === "f") {{
+    e.preventDefault();
+    searchInput.focus();
+    searchInput.select();
+  }}
+  if (e.key === "Escape") {{
+    hidePanel();
+    searchInput.value = "";
+    searchMatches = [];
+    searchCount.textContent = "";
+    searchInput.blur();
+    draw();
+  }}
+}});
 </script>
 </body>
 </html>"""
