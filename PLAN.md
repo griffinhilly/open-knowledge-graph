@@ -90,7 +90,7 @@
   - `generate_topic_pages.py`: 2,628 pages with Core Idea, prerequisite chains, successors, navigation
 - [x] Click-to-navigate between graph views and topic detail pages
 
-## Phase 7.5: Topic Granularity Expansion — IN PROGRESS
+## Phase 7.5: Topic Granularity Expansion — DONE
 Expanding non-math domains from ~20 topics/course toward ~35-40 topics/course.
 
 ### Phase 7.5a: Practical Life Skills + Language & Communication — DONE
@@ -124,10 +124,20 @@ Expanding non-math domains from ~20 topics/course toward ~35-40 topics/course.
 - [x] GitHub Pages: auto-deployed via Actions on push
 - [x] GitHub Actions CI: validates + generates visualizations
 
-## Phase 8: Community Launch
+## Phase 8: Community Launch — IN PROGRESS
 - [x] Push to GitHub as public repo
 - [x] Set up GitHub Actions for CI validation
 - [x] Finalize README with coverage table update (13,489 topics)
+- [x] Create issue templates for topic additions and corrections
+- [x] Add Questions + Explainer schema (meta/schema.md, CONTRIBUTING.md)
+- [x] Build adaptive placement assessment (generate_assessment.py + generate_assessment_page.py)
+- [x] Fix developmental stage misassignments (746 topics across 8 domains)
+- [x] Fix prerequisite cycles and format normalization (518 files)
+- [x] Fix inflated cross-domain prerequisites (biology, chemistry, 6 other domains)
+- [x] Overnight Q+E generation for 1,000 hub topics (~935 complete)
+- [ ] Fix remaining radial graph positioning issues (hub topics misplaced)
+- [ ] Add assessment generation to GitHub Actions workflow
+- [ ] Add topic page links (domain/course as clickable navigation)
 - [ ] Promote new draft topics to validated after review
 - [ ] Write announcement post
-- [x] Create issue templates for topic additions and corrections
+- [ ] Populate Q+E across remaining topics (contributor-driven + more overnight runs)

@@ -4,8 +4,8 @@ Open-source, machine-readable knowledge graphs mapping prerequisite relationship
 
 ## Project Structure
 - `domains/` — 19 domains, 13,489 topics, 148 courses
-- `tools/` — Python tooling (validate.py, visualize_hierarchy.py, visualize.py, stats.py, reconcile.py)
-- `tools/overnight/` — Autonomous generation orchestrator (used to build the initial graph)
+- `tools/` — Python tooling (validate.py, visualize_hierarchy.py, visualize.py, stats.py, reconcile.py, generate_assessment.py, generate_assessment_page.py)
+- `tools/overnight/` — Autonomous generation orchestrator (used to build the initial graph and Q+E content)
 - `meta/` — Schema definition, developmental stages, course list
 - `output/` — Generated HTML visualizations (gitignored)
 - `CONTRIBUTING.md` — How to add topics and contribute
@@ -14,7 +14,7 @@ Open-source, machine-readable knowledge graphs mapping prerequisite relationship
 Each topic is a Markdown file with YAML frontmatter. See `meta/schema.md` for the full spec.
 - Required fields: id, title, domain, course, prerequisites
 - Prerequisite types: hard (must know first) or soft (helpful but not required)
-- Body sections: Core Idea (required), How It's Best Learned, Common Misconceptions
+- Body sections: Core Idea (required), How It's Best Learned, Common Misconceptions, Questions (optional), Explainer (optional)
 
 ## Tooling
 
@@ -33,7 +33,8 @@ Tool commands: see `guides/tools-reference.md`
 Visualization design: see `guides/visualization.md`
 
 ## Current Status
-- **13,489 topics** across **19 domains**, **148 courses**, **13,314 prerequisite edges**
+- **13,489 topics** across **19 domains**, **148 courses**, **29,596 prerequisite edges**
+- **~935 topics** have Questions + Explainer sections
 - GitHub Pages live at `griffinhilly.github.io/open-knowledge-graph/`
 - GitHub Actions CI: validates graph + deploys visualizations on every push
 - New topics at `status: draft` pending review; original 2,628 at `status: validated`

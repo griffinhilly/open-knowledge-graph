@@ -10,31 +10,31 @@
 - `LICENSE` — CC BY-SA 4.0 (content) + MIT (code)
 - `.gitignore`
 
-## Domains (19 domains, 3,080+ topics, 101 courses)
+## Domains (19 domains, 13,489 topics, 148 courses)
 
 Each domain has `_domain.yml` + course subdirectories containing topic `.md` files.
 
 | Domain | Path | Topics | Courses |
 |--------|------|--------|---------|
-| Mathematics | `domains/mathematics/` | 661 | 18 |
-| Philosophy | `domains/philosophy/` | 210 | 6 |
-| Language & Communication | `domains/language-and-communication/` | 189 | 4 |
-| Engineering | `domains/engineering/` | 188 | 5 |
-| Computer Science | `domains/computer-science/` | 170 | 6 |
-| Physics | `domains/physics/` | 163 | 5 |
-| Chemistry | `domains/chemistry/` | 162+ | 4 |
-| Practical Life Skills | `domains/practical-life-skills/` | 160 | 4 |
-| Formal Sciences & Logic | `domains/formal-sciences-and-logic/` | 144+ | 4 |
-| Biology | `domains/biology/` | 134 | 5 |
-| History | `domains/history/` | 127 | 5 |
-| Economics | `domains/economics/` | 120 | 4 |
-| Psychology | `domains/psychology/` | 111 | 5 |
-| Literature | `domains/literature/` | 105 | 5 |
-| Music | `domains/music/` | 102 | 5 |
-| Earth & Space Sciences | `domains/earth-and-space-sciences/` | 89 | 4 |
-| Health & Human Development | `domains/health-and-human-development/` | 85 | 4 |
-| Social Sciences | `domains/social-sciences/` | 80 | 4 |
-| Arts & Aesthetics | `domains/arts-and-aesthetics/` | 80 | 4 |
+| Mathematics | `domains/mathematics/` | 1,920 | 28 |
+| Computer Science | `domains/computer-science/` | 1,059 | 11 |
+| Biology | `domains/biology/` | 924 | 9 |
+| Physics | `domains/physics/` | 856 | 8 |
+| Engineering | `domains/engineering/` | 722 | 7 |
+| Economics | `domains/economics/` | 721 | 7 |
+| Philosophy | `domains/philosophy/` | 706 | 8 |
+| Psychology | `domains/psychology/` | 679 | 8 |
+| Earth & Space Sciences | `domains/earth-and-space-sciences/` | 640 | 7 |
+| Music | `domains/music/` | 607 | 6 |
+| History | `domains/history/` | 605 | 6 |
+| Social Sciences | `domains/social-sciences/` | 577 | 7 |
+| Language & Communication | `domains/language-and-communication/` | 537 | 6 |
+| Health & Human Development | `domains/health-and-human-development/` | 530 | 6 |
+| Chemistry | `domains/chemistry/` | 527 | 4 |
+| Literature | `domains/literature/` | 495 | 6 |
+| Practical Life Skills | `domains/practical-life-skills/` | 482 | 4 |
+| Formal Sciences & Logic | `domains/formal-sciences-and-logic/` | 458 | 5 |
+| Arts & Aesthetics | `domains/arts-and-aesthetics/` | 444 | 5 |
 
 ## Tools
 - `tools/validate.py` — Schema + graph validation
@@ -49,6 +49,8 @@ Each domain has `_domain.yml` + course subdirectories containing topic `.md` fil
 - `tools/reconcile_analyze.py` — Mismatch analysis and categorization (outputs reconcile_analysis.json)
 - `tools/reconcile_analysis.json` — Analysis data (1,599 mismatches categorized)
 - `tools/reconcile_log.json` — Change log from reconciliation run
+- `tools/generate_assessment.py` — Selects probe topics + builds frontier chains → `output/assessment-data.json`
+- `tools/generate_assessment_page.py` — Generates adaptive placement assessment UI → `output/assessment.html`
 - `tools/overnight/` — Autonomous generation orchestrator
   - `orchestrator.py` — Main runner (invokes `claude --print` per course)
   - `subjects.py` — Subject queue definitions (all 19 domains, 117 courses)
@@ -61,7 +63,9 @@ Each domain has `_domain.yml` + course subdirectories containing topic `.md` fil
 - `output/index.html` — Domain card grid (links to per-domain hierarchies and radial graph)
 - `output/radial-graph.html` — Full cross-domain radial torus visualization
 - `output/*-hierarchy.html` — 19 per-domain hierarchy views
-- `output/topics/` — 2,628 individual topic detail pages (Core Idea, prerequisite chains, successors)
+- `output/assessment.html` — Adaptive placement assessment (3-round, ~5 minutes)
+- `output/assessment-data.json` — Probe topics and frontier chains for assessment
+- `output/topics/` — 13,489 individual topic detail pages (Core Idea, prerequisite chains, successors)
 
 ## Meta
 - `meta/schema.md` — YAML frontmatter schema definition
