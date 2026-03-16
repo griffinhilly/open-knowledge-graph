@@ -387,6 +387,11 @@ a:hover {{ color:#9cd; text-decoration:underline; }}
 .breadcrumb {{
   font-size:13px; color:#556; margin-bottom:8px;
 }}
+.breadcrumb a {{
+  color:#89a; text-decoration:none; border-bottom:1px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+}}
+.breadcrumb a:hover {{ color:#acd; border-bottom-color:#acd; }}
 .breadcrumb span {{ color:#445; }}
 
 h1 {{
@@ -497,7 +502,7 @@ h1 {{
 </div>
 
 <div class="breadcrumb">
-  {html_mod.escape(domain_label)} <span>›</span> {html_mod.escape(course_label)}
+  <a href="../{domain}-hierarchy.html">{html_mod.escape(domain_label)}</a> <span>›</span> {html_mod.escape(course_label)}
 </div>
 
 <h1>{html_mod.escape(title)}</h1>
