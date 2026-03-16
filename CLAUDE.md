@@ -4,7 +4,7 @@ Open-source, machine-readable knowledge graphs mapping prerequisite relationship
 
 ## Project Structure
 - `domains/` — 19 domains, 13,489 topics, 148 courses
-- `tools/` — Python tooling (validate.py, visualize_hierarchy.py, visualize.py, stats.py, reconcile.py, generate_assessment.py, generate_assessment_page.py)
+- `tools/` — Python tooling (validate.py, visualize_hierarchy.py, visualize_radial.py, generate_topic_pages.py, stats.py, reconcile.py, generate_assessment.py, generate_assessment_page.py, diagnose_positioning.py, diagnose_radial_order.py, trace_topic.py)
 - `tools/overnight/` — Autonomous generation orchestrator (used to build the initial graph and Q+E content)
 - `meta/` — Schema definition, developmental stages, course list
 - `output/` — Generated HTML visualizations (gitignored)
@@ -42,6 +42,15 @@ Visualization design: see `guides/visualization.md`
 ## Related Projects
 - `~/knowledge-architecture/` — Prose-based concept sequences (predecessor project)
 - `~/canons/` — Reading list analysis projects
+
+## Radial Visualization Tuning
+
+The radial layout (`visualize_radial.py`) has several tunable parameters in the force simulation:
+- **Angular spring-back** (0.02): pulls topics toward their domain sector center. Higher = more rigid domains, lower = more organic blending.
+- **Cross-domain edge attraction** (0.008) vs same-domain (0.003): cross-domain edges pull 2.67x harder.
+- **Radial jitter** (5% of band width): keeps depth ordering intact while adding organic feel.
+- **Prerequisite ordering force** (0.006): soft force pushing prerequisites inward, successors outward when they overlap radially.
+- 2,325 edges (8%) still violate radial ordering (prereq staged more advanced than successor). ~676 have 2+ stage gap. Triage by severity for data fixes.
 
 ## Situational Guides
 - When running any tool (validation, visualization, generation, reconciliation) → read `guides/tools-reference.md`

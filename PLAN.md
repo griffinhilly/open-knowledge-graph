@@ -137,7 +137,13 @@ Expanding non-math domains from ~20 topics/course toward ~35-40 topics/course.
 - [x] Overnight Q+E generation for 1,000 hub topics (COMPLETE, 1,006 total)
 - [x] Fix graph-theory-and-combinatorics + probability-and-mathematical-statistics stages
 - [x] Topic page domain breadcrumb as clickable link
-- [ ] Fix remaining radial graph positioning issues (hub topics misplaced)
+- [x] Fix radial graph positioning (rotation bug, angular spring-back, prereq ordering force)
+- [x] Click-to-preview panel with locked edge highlights on all graph views
+- [x] Search bar (Ctrl+F) on all graph views
+- [x] Course breadcrumb links on topic pages
+- [x] culture-concept data fix (stage + edge corrections)
+- [ ] Render Questions + Explainer sections on topic detail pages
+- [ ] Triage top radial ordering violations (676 edges with 2+ stage gap)
 - [ ] Add assessment generation to GitHub Actions workflow
 - [ ] Promote new draft topics to validated after review
 - [ ] Write announcement post

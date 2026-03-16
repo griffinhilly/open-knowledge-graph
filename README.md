@@ -106,6 +106,9 @@ open-knowledge-graph/
     qa_analyze.py            # structural QA analysis
     reconcile.py             # builds-toward reconciliation
     reconcile_analyze.py     # mismatch analysis
+    diagnose_positioning.py  # angular displacement analysis
+    diagnose_radial_order.py # radial ordering violation finder
+    trace_topic.py           # per-topic positioning debugger
     overnight/               # autonomous generation orchestrator
   meta/
     schema.md                # formal schema definition
