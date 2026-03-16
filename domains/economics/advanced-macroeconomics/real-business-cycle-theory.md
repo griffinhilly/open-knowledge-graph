@@ -7,7 +7,7 @@ prerequisites:
 - id: solow-growth-model
   type: hard
 - id: eigenvalues-and-eigenvectors
-  type: hard
+  type: soft
 - id: linear-algebra
   type: soft
 builds-toward:

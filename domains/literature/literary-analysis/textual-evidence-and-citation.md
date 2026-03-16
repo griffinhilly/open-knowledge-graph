@@ -5,7 +5,7 @@ domain: literature
 course: literary-analysis
 prerequisites:
 - id: evidence-and-support
-  type: hard
+  type: soft
 - id: close-reading-techniques
   type: hard
 - id: research-and-citation

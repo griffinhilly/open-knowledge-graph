@@ -7,7 +7,7 @@ prerequisites:
 - id: close-reading-techniques
   type: hard
 - id: analytical-writing
-  type: hard
+  type: soft
 builds-toward:
 - character-development-methods
 - plot-structure-meaning

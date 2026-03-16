@@ -5,7 +5,7 @@ domain: literature
 course: literary-analysis
 prerequisites:
 - id: allusion-and-literary-reference
-  type: hard
+  type: soft
 - id: intertextuality-and-allusion
   type: soft
 - id: close-reading-techniques

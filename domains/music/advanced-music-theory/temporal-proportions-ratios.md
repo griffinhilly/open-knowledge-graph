@@ -7,9 +7,9 @@ prerequisites:
 - id: metric-modulation-theory-advanced
   type: soft
 - id: ratios
-  type: hard
+  type: soft
 - id: proportions
-  type: hard
+  type: soft
 - id: proportional-relationships
   type: soft
 builds-toward:

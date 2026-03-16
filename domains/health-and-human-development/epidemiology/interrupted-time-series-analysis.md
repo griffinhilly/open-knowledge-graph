@@ -5,7 +5,7 @@ domain: health-and-human-development
 course: epidemiology
 prerequisites:
 - id: difference-in-differences
-  type: hard
+  type: soft
 - id: temporal-clustering-analysis
   type: soft
 tags:
