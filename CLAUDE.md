@@ -34,7 +34,7 @@ Visualization design: see `guides/visualization.md`
 
 ## Current Status
 - **13,489 topics** across **19 domains**, **148 courses**, **29,596 prerequisite edges**
-- **~935 topics** have Questions + Explainer sections
+- **1,006 topics** have Questions + Explainer sections
 - GitHub Pages live at `griffinhilly.github.io/open-knowledge-graph/`
 - GitHub Actions CI: validates graph + deploys visualizations on every push
 - New topics at `status: draft` pending review; original 2,628 at `status: validated`

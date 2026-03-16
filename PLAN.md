@@ -134,10 +134,11 @@ Expanding non-math domains from ~20 topics/course toward ~35-40 topics/course.
 - [x] Fix developmental stage misassignments (746 topics across 8 domains)
 - [x] Fix prerequisite cycles and format normalization (518 files)
 - [x] Fix inflated cross-domain prerequisites (biology, chemistry, 6 other domains)
-- [x] Overnight Q+E generation for 1,000 hub topics (~935 complete)
+- [x] Overnight Q+E generation for 1,000 hub topics (COMPLETE, 1,006 total)
+- [x] Fix graph-theory-and-combinatorics + probability-and-mathematical-statistics stages
+- [x] Topic page domain breadcrumb as clickable link
 - [ ] Fix remaining radial graph positioning issues (hub topics misplaced)
 - [ ] Add assessment generation to GitHub Actions workflow
-- [ ] Add topic page links (domain/course as clickable navigation)
 - [ ] Promote new draft topics to validated after review
 - [ ] Write announcement post
 - [ ] Populate Q+E across remaining topics (contributor-driven + more overnight runs)
