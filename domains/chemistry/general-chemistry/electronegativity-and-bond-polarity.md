@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: covalent-bonding
   type: hard
-- id: electric-field-point-charges
-  type: soft
 builds-toward:
 - molecular-polarity
 - vsepr-theory

@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: intermolecular-forces
   type: hard
-- id: clausius-clapeyron-equation
-  type: soft
 builds-toward:
 - vapor-pressure-raoults-law
 tags:

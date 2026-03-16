@@ -6,8 +6,6 @@ course: general-chemistry
 prerequisites:
 - id: oxidation-reduction-reactions
   type: hard
-- id: electric-potential-definition
-  type: soft
 tags:
 - electrochemistry
 - galvanic cells

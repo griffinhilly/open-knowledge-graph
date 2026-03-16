@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: peptide-bonds-and-polypeptide-formation
   type: hard
-- id: hydrogen-bonding-energetics
-  type: soft
 builds-toward:
 - protein-tertiary-structure
 - enzyme-structure-and-function

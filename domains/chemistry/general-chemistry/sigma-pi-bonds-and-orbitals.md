@@ -4,8 +4,6 @@ title: Sigma and Pi Bonds in Molecules
 domain: chemistry
 course: general-chemistry
 prerequisites:
-- id: bonding-antibonding-orbitals
-  type: soft
 - id: covalent-bonding
   type: hard
 builds-toward:

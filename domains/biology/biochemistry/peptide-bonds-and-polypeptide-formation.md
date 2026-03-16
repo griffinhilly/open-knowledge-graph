@@ -9,7 +9,7 @@ prerequisites:
 - id: organic-chemistry-intro
   type: hard
 - id: carboxylic-acids-and-derivatives
-  type: hard
+  type: soft
 - id: nucleophilic-addition-to-carbonyls
   type: soft
 - id: nucleophilic-acyl-substitution

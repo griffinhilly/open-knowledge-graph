@@ -9,7 +9,7 @@ prerequisites:
 - id: amino-acid-classification-and-properties
   type: hard
 - id: hydrogen-bonding-energetics
-  type: hard
+  type: soft
 - id: aromatic-compounds-intro
   type: soft
 builds-toward:

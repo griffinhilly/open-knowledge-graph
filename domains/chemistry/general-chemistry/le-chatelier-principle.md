@@ -6,8 +6,6 @@ course: general-chemistry
 prerequisites:
 - id: chemical-equilibrium
   type: hard
-- id: thermodynamic-equilibrium-mechanical-chemical
-  type: soft
 builds-toward:
 - reaction-quotient
 - solubility-equilibria

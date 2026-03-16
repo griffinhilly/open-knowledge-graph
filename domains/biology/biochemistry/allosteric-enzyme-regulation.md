@@ -8,12 +8,10 @@ prerequisites:
   type: hard
 - id: michaelis-menten-enzyme-kinetics
   type: hard
-- id: hydrogen-bonding-energetics
-  type: soft
 - id: equilibrium-expression-kc-kp-constants
   type: soft
 - id: le-chatelier-principle
-  type: hard
+  type: soft
 builds-toward:
 - enzyme-cooperativity
 - metabolic-integration-hormonal-regulation

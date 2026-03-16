@@ -6,10 +6,6 @@ course: general-chemistry
 prerequisites:
 - id: states-of-matter-phase-changes
   type: hard
-- id: kinetic-theory-of-gases
-  type: hard
-- id: ideal-gas-law
-  type: hard
 - id: kinetic-molecular-theory
   type: soft
 builds-toward:

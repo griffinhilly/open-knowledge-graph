@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: electromagnetic-waves
   type: soft
-- id: vibrational-spectroscopy-theory
-  type: soft
 - id: electromagnetic-spectrum
   type: soft
 - id: wave-properties-intro

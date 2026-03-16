@@ -9,7 +9,7 @@ prerequisites:
 - id: population-growth-models
   type: hard
 - id: systems-of-first-order-linear-odes
-  type: hard
+  type: soft
 - id: differential-equations-intro
   type: soft
 builds-toward:

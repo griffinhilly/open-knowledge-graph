@@ -7,14 +7,12 @@ prerequisites:
 - id: eukaryotic-cells
   type: hard
 - id: intermolecular-forces
-  type: hard
+  type: soft
 - id: molecular-polarity
   type: soft
 - id: functional-groups-overview
   type: soft
 - id: intermolecular-forces-overview
-  type: soft
-- id: hydrogen-bonding-energetics
   type: soft
 builds-toward:
 - passive-transport

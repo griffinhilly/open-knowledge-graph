@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: arrhenius-equation
   type: soft
-- id: collision-theory-advanced-kinetics
-  type: soft
 builds-toward:
 - reaction-mechanisms-elementary-steps
 tags:

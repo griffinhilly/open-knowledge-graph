@@ -11,9 +11,9 @@ prerequisites:
 - id: chi-square-analysis-in-genetics
   type: soft
 - id: linear-regression
-  type: hard
+  type: soft
 - id: statistics-probability
-  type: hard
+  type: soft
 tags:
 - polygenic-inheritance
 - heritability

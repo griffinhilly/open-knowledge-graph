@@ -6,8 +6,6 @@ course: general-chemistry
 prerequisites:
 - id: chemical-kinetics
   type: hard
-- id: collision-theory-advanced-kinetics
-  type: soft
 builds-toward:
 - activation-energy-catalysis-reaction-pathways
 tags:

@@ -11,7 +11,7 @@ prerequisites:
 - id: electrochemistry-basics
   type: soft
 - id: equilibrium-expression-kc-kp-constants
-  type: hard
+  type: soft
 - id: oxidation-reduction-reactions
   type: hard
 - id: oxidation-reduction-basics

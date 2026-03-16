@@ -13,7 +13,7 @@ prerequisites:
 - id: combinations
   type: soft
 - id: probability-axioms-and-rules
-  type: hard
+  type: soft
 builds-toward:
 - genetic-mapping
 tags:
