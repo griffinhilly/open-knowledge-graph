@@ -17,7 +17,7 @@ tags:
 - characteristic-functions
 - fourier-analysis
 - moments
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

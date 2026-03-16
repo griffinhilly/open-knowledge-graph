@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - graph-theory
 - planar-graphs
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

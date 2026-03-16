@@ -15,7 +15,7 @@ tags:
 - sufficient-statistics
 - statistics
 - inference
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

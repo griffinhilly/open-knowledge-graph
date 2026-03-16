@@ -10,7 +10,7 @@ tags:
 - graph-theory
 - minors
 - structure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

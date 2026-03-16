@@ -10,7 +10,7 @@ tags:
 - graph-theory
 - degree-sequences
 - extremal
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

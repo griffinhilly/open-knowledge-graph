@@ -12,7 +12,7 @@ tags:
 - graph-theory
 - planar-graphs
 - minors
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

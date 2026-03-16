@@ -17,7 +17,7 @@ tags:
 - multivariate-normal
 - distributions
 - statistics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

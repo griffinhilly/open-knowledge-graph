@@ -15,7 +15,7 @@ tags:
 - convergence
 - almost-sure
 - limit-theorems
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

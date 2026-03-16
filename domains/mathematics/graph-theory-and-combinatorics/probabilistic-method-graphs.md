@@ -12,7 +12,7 @@ tags:
 - combinatorics
 - probability
 - method
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

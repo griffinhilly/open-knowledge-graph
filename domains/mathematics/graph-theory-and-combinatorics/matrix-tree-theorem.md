@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - algebraic-graph-theory
 - counting
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - mgf
 - generating-functions
 - moments
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

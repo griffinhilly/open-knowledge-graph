@@ -10,7 +10,7 @@ tags:
 - graph-theory
 - matching
 - vertex-cover
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

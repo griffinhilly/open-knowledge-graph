@@ -15,7 +15,7 @@ tags:
 - convergence
 - probability
 - limit-theorems
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

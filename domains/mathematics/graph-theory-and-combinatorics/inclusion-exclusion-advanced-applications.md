@@ -10,7 +10,7 @@ tags:
 - inclusion-exclusion
 - möbius-inversion
 - applications
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

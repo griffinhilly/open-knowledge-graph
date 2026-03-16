@@ -15,7 +15,7 @@ tags:
 - measure-theory
 - borel-sets
 - topology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

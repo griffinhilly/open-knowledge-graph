@@ -16,7 +16,7 @@ tags:
 - independence
 - sigma-algebras
 - probability
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

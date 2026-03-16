@@ -10,7 +10,7 @@ tags:
 - graph-minors
 - robertson-seymour
 - well-quasi-order
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

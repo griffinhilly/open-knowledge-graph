@@ -15,7 +15,7 @@ tags:
 - algebraic-graph-theory
 - matrices
 - spectrum
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

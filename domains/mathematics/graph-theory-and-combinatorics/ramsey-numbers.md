@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - combinatorics
 - ramsey-theory
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

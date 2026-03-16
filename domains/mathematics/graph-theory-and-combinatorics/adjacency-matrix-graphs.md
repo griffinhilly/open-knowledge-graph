@@ -15,7 +15,7 @@ tags:
 - adjacency-matrix
 - spectral-methods
 - eigenvalues
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

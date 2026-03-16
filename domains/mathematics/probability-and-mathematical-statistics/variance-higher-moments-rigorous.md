@@ -16,7 +16,7 @@ tags:
 - moments
 - variance
 - measure-theory
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

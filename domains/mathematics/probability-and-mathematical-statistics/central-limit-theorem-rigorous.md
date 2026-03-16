@@ -18,7 +18,7 @@ tags:
 - central-limit-theorem
 - limit-theorems
 - probability
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

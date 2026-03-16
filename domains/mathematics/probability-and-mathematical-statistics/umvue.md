@@ -14,7 +14,7 @@ tags:
 - umvue
 - unbiased-estimation
 - statistics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

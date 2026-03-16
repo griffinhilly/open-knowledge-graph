@@ -15,7 +15,7 @@ tags:
 - multivariate
 - marginals
 - joint-distributions
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

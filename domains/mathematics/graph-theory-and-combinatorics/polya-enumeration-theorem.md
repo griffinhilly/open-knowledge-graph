@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - combinatorics
 - enumeration
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

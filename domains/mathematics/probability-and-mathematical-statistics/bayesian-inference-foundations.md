@@ -15,7 +15,7 @@ tags:
 - bayesian-inference
 - probability
 - statistics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

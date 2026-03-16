@@ -15,7 +15,7 @@ tags:
 - cramer-rao
 - lower-bounds
 - estimation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

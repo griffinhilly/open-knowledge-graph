@@ -16,7 +16,7 @@ tags:
 - probability
 - measure-theory
 - foundations
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

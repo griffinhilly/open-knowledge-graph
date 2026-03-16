@@ -10,7 +10,7 @@ tags:
 - graph-theory
 - coloring
 - polynomials
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

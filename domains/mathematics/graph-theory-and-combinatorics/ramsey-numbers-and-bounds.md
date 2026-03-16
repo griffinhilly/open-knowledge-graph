@@ -12,7 +12,7 @@ tags:
 - ramsey-numbers
 - bounds
 - probabilistic-method
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

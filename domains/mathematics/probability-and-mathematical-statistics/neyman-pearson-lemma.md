@@ -15,7 +15,7 @@ tags:
 - neyman-pearson
 - hypothesis-testing
 - statistics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

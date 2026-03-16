@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - graph-theory
 - hamiltonicity
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

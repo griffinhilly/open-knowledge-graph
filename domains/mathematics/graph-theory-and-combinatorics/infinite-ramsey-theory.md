@@ -10,7 +10,7 @@ tags:
 - infinite-ramsey
 - set-theory
 - monochromatic-structures
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

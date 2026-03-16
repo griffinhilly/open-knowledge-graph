@@ -12,7 +12,7 @@ tags:
 - matroids
 - independence
 - greedy-algorithms
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

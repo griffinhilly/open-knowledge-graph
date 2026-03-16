@@ -16,7 +16,7 @@ tags:
 - random-variables
 - measurable-functions
 - definitions
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

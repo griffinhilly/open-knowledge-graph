@@ -14,7 +14,7 @@ tags:
 - confidence-intervals
 - interval-estimation
 - statistics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

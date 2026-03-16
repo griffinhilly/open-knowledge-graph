@@ -14,7 +14,7 @@ tags:
 - bayesian-estimation
 - point-estimation
 - statistics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - rao-blackwell
 - unbiased-estimation
 - statistics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

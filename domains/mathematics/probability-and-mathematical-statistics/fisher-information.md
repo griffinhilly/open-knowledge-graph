@@ -15,7 +15,7 @@ tags:
 - fisher-information
 - information-theory
 - statistics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

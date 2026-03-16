@@ -16,7 +16,7 @@ tags:
 - multivariate
 - joint-distributions
 - measure-theory
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

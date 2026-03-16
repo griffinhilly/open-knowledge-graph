@@ -10,7 +10,7 @@ tags:
 - martingales
 - stochastic-processes
 - fair-game
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

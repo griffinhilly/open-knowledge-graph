@@ -15,7 +15,7 @@ tags:
 - distributions
 - density
 - cdf
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

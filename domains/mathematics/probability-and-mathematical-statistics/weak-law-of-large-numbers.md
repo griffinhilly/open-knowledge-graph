@@ -17,7 +17,7 @@ tags:
 - law-of-large-numbers
 - limit-theorems
 - probability
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -10,7 +10,7 @@ tags:
 - block-designs
 - steiner-systems
 - combinatorial-designs
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

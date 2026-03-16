@@ -12,7 +12,7 @@ tags:
 - graph-laplacian
 - spectral-gaps
 - connectivity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

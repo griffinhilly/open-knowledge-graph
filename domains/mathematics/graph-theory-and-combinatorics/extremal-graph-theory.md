@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - graph-theory
 - extremal
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

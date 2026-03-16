@@ -12,7 +12,7 @@ tags:
 - graph-theory
 - planar-graphs
 - coloring
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

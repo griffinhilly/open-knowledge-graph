@@ -12,7 +12,7 @@ tags:
 - network-flows
 - max-flow-min-cut
 - optimization
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - confidence-intervals
 - coverage
 - inversion
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

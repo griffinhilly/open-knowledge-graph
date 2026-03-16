@@ -16,7 +16,7 @@ tags:
 - expectation
 - integration
 - measure-theory
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

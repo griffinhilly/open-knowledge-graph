@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - graph-theory
 - edge-coloring
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

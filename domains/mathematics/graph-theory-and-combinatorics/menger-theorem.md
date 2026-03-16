@@ -10,7 +10,7 @@ tags:
 - menger-theorem
 - connectivity
 - paths
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

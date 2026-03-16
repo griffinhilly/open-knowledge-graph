@@ -19,7 +19,7 @@ tags:
 - convergence
 - implications
 - hierarchy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -10,7 +10,7 @@ tags:
 - hamiltonian-cycles
 - sufficient-conditions
 - np-hard
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

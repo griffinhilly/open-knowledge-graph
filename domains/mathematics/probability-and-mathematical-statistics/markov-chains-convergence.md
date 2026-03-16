@@ -12,7 +12,7 @@ tags:
 - markov-chains
 - convergence
 - mixing
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

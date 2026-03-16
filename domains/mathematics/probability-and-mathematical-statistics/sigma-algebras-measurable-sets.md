@@ -15,7 +15,7 @@ tags:
 - measure-theory
 - sigma-algebras
 - foundations
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

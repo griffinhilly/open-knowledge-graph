@@ -15,7 +15,7 @@ tags:
 - independence
 - sigma-algebras
 - events
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

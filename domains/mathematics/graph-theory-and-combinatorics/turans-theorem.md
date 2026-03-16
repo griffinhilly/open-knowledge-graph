@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - graph-theory
 - extremal
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

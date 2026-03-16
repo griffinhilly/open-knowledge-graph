@@ -12,7 +12,7 @@ tags:
 - martingales
 - stochastic-processes
 - probability
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

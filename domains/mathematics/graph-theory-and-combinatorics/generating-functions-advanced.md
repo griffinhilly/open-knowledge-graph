@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - combinatorics
 - generating-functions
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

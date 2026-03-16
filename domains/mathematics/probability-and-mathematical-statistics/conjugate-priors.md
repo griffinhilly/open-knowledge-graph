@@ -14,7 +14,7 @@ tags:
 - conjugate-priors
 - bayesian-inference
 - statistics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

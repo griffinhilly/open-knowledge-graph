@@ -12,7 +12,7 @@ tags:
 - graph-theory
 - matching
 - bipartite
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

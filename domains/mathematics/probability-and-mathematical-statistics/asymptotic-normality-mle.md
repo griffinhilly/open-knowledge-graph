@@ -17,7 +17,7 @@ tags:
 - asymptotic-normality
 - mle
 - asymptotics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

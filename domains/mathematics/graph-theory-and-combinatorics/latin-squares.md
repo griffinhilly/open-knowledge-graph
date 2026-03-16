@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - combinatorics
 - designs
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

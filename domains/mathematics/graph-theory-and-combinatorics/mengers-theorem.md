@@ -12,7 +12,7 @@ tags:
 - graph-theory
 - connectivity
 - paths
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

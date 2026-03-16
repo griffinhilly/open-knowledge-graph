@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - algebraic-graph-theory
 - laplacian
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

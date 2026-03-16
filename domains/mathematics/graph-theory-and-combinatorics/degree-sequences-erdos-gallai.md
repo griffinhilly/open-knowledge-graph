@@ -13,7 +13,7 @@ tags:
 - degree-sequences
 - graph-characterization
 - theorems
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 
