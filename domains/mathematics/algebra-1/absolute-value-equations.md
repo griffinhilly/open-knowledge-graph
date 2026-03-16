@@ -28,3 +28,13 @@ Emphasize the distance interpretation: |expression| = k means the expression is 
 - Forgetting to consider the negative case (finding only one solution instead of two).
 - Not isolating the absolute value before splitting: solving |2x − 3| + 5 = 12 by writing 2x − 3 + 5 = 12 or 2x − 3 + 5 = −12.
 - Thinking |x| = −4 has a solution (it does not).
+
+## Explainer
+
+You already know that absolute value measures distance from zero on the number line — that is the key to understanding these equations. When you see |2x − 3| = 7, the question is: what values make the expression inside the bars exactly 7 units away from zero? There are always two numbers that are 7 units from zero: positive 7 and negative 7. So the expression inside can equal either 7 or −7. That is the entire logic of the **two-case split**: |expression| = k becomes expression = k or expression = −k.
+
+The critical first step is always to **isolate the absolute value** before splitting. Suppose you have |2x − 3| + 5 = 12. You cannot split immediately — the +5 is outside the bars. Subtract 5 from both sides first to get |2x − 3| = 7, and only then write your two equations: 2x − 3 = 7 and 2x − 3 = −7. Solving the first gives x = 5; solving the second gives x = −2. Both are valid solutions, and you can check: |2(5) − 3| = |7| = 7 ✓ and |2(−2) − 3| = |−7| = 7 ✓.
+
+What happens when the right side is negative, like |x + 1| = −4? Absolute value measures distance, and distance is never negative. No matter what x is, |x + 1| ≥ 0 always. So there are **no solutions** — you do not even need to split into cases. Recognizing this immediately saves work and builds sound mathematical instinct.
+
+This technique — splitting into cases based on what makes an expression positive or negative — is a pattern you will use far beyond absolute value. It appears in piecewise functions, inequalities, and eventually in analyzing cases in proofs. The absolute value equation is your first systematic encounter with **case analysis**: identifying the condition that determines which branch of a problem applies, solving each branch independently, and combining the results. That thinking skill transfers directly to more advanced mathematics.

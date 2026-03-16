@@ -30,3 +30,13 @@ Create grayscale studies and value scales to understand the range from black to 
 ## Common Misconceptions
 - Assuming color is more important than value—value differences are perceived more readily and create more visual clarity than hue differences.
 - Using only middle values—the full range from dark to light creates more visual impact and clarity.
+
+## Explainer
+
+You know from your study of the visual elements that line, shape, color, and other building blocks make up every composition. **Value** — the lightness or darkness of any area, independent of its color — is arguably the most important of these elements, because it is the primary way our visual system distinguishes one form from another. If you squint at any scene until the colors blur away, what remains is the value structure — and that structure alone communicates almost all the spatial and compositional information.
+
+Here is a practical demonstration of why value matters more than color: take any full-color photograph and convert it to grayscale. If the composition is strong, it remains clear and readable — you can still tell what is foreground, what is background, where the light falls, and where the focal point is. Now imagine a painting where every area is a different hue but the same value — all medium tones. Squint at it and it collapses into a flat, muddy field where nothing stands out. This is why artists say "value does the work, color gets the credit."
+
+A **value scale** runs from pure white to pure black, with a continuous range of grays between. Most artists think in terms of roughly nine to eleven distinct steps, though in practice you can simplify to three major groups: **lights** (the top third of the scale), **mid-tones** (the middle third), and **darks** (the bottom third). Strong compositions typically have a clear dominance of one value group — mostly light with strategic darks, or mostly dark with strategic lights — rather than an even distribution across the full range. This uneven distribution is what creates visual drama and directs attention.
+
+**Value contrast** — the degree of difference between adjacent light and dark areas — is your most powerful tool for creating emphasis and depth. High contrast (dark against light) creates sharp separation, draws the eye, and suggests closeness. Low contrast (similar values side by side) creates soft transitions, suggests distance, and allows areas to recede. By placing your strongest value contrasts at the focal point and gradually reducing contrast toward the edges, you build a natural visual hierarchy that guides the viewer's eye exactly where you intend it to go.

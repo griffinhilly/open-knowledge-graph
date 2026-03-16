@@ -32,3 +32,14 @@ Use folded paper strips and circle cutouts to physically create unit fractions. 
 ## Common Misconceptions
 - Students may think 1/4 is larger than 1/3 because 4 is larger than 3, not understanding that more parts means smaller parts.
 - Some students think the numerator represents the part and the denominator represents something else, not grasping the part-of-a-whole relationship.
+
+## Explainer
+
+You already know how to divide shapes into halves, thirds, and fourths, and you have named fractions like 2/4 or 3/4. A **unit fraction** is the simplest version of any fraction: a fraction with 1 in the numerator. 1/2, 1/3, 1/4, 1/6, 1/8 — each one represents exactly one equal part of a whole divided into that many pieces. Unit fractions are the atoms that all other fractions are built from.
+
+The denominator tells you the size of the piece. When you cut a strip of paper into 3 equal parts, each part is 1/3 — one piece out of three. When you cut the same strip into 8 equal parts, each part is 1/8 — one piece out of eight. More cuts means smaller pieces. This leads to the counterintuitive rule: **a larger denominator means a smaller unit fraction**. 1/8 is smaller than 1/3, even though 8 is bigger than 3, because eight pieces share the same whole that only three pieces used to share.
+
+You can see this physically by comparing paper strips of the same length, divided into different numbers of equal parts. Lay a 1/3 strip next to a 1/6 strip — the 1/3 piece is visibly larger. The denominator controls piece size, not piece count. Once this physical reality is clear, comparing unit fractions becomes straightforward: always ask "how many ways is this whole being divided?" More ways = smaller portions.
+
+Unit fractions also live on the number line. 1/4 is the point exactly one-quarter of the way from 0 to 1. 1/2 is halfway. 1/3 is one-third of the way. The number line view will matter when you start comparing fractions and placing them in order — and everything you learn there starts from knowing what each unit fraction represents as a single equal part.
+

@@ -32,3 +32,13 @@ Study the potlatch and kula ring in detail, tracing how exchange creates and rep
 - Treating competitive exchange as economically irrational from a capitalist perspective.
 - Assuming the goal is purely social status rather than also achieving political power and leadership.
 - Overlooking the political and military implications of debt and obligation creation.
+
+## Explainer
+
+Gift economies, as you learned, are not simply voluntary generosity — they create **reciprocal obligations**. When someone gives, the recipient is bound to return something of equivalent or greater value, or face loss of status and social standing. Competitive exchange systems intensify this logic: instead of gifts creating balanced reciprocity, they become arenas of deliberate escalation, where the goal is to out-give rivals and leave them unable to respond.
+
+The **potlatch** ceremonies of the Pacific Northwest are the classic example. Chiefly families would host feasts at which they distributed or even destroyed enormous quantities of goods — blankets, copper shields, canoes, food. The point was not consumption but demonstration: the host's ability to give away more than rivals could match. Rivals who could not reciprocate with equal or greater generosity at their own ceremonies lost status. Success in the potlatch cycle translated directly into political authority — followers aligned with the most generous chief because his generosity demonstrated wealth, supernatural favor, and the capacity to protect and provision his people.
+
+The **kula ring** of Melanesia works differently but on the same underlying logic. Two classes of valuables — arm shells and necklaces — circulate in opposite directions around a ring of islands. No one "owns" kula items permanently; they are given, kept briefly, then passed on. What accumulates is not the goods themselves but **renown**: the reputation of having handled famous valuables, of having forged exchange partnerships with prestigious partners across the sea. Trading partners become linked in lasting relationships of mutual obligation, and political influence follows the network of one's exchange connections.
+
+The key insight — one that requires abandoning market-economy assumptions — is that in these systems, **status is gained by giving, not accumulating**. A chief who hoards goods while rivals distribute theirs loses followers and influence. This seems paradoxical within a framework where wealth equals power, but it makes perfect sense when you understand that in prestige economies, the display of generosity is itself the productive act: it creates the social relationships, obligations, and political debts from which power actually flows. Accumulation without distribution is not wealth — it is isolation.

@@ -24,3 +24,13 @@ The margin of error is the half-width of a confidence interval: ME = (critical v
 
 ## How It's Best Learned
 Calculate required sample sizes for various scenarios. Verify that doubling sample size reduces margin of error by √2. Understand the tradeoff between sample size and precision in practice.
+
+## Explainer
+
+The **margin of error** (ME) is the ± part you see in poll results — the half-width of a confidence interval. If a survey reports "52% support, margin of error ±3 points," the confidence interval runs from 49% to 55%. From your study of confidence intervals, you know an interval is built as (point estimate) ± (critical value × standard error). The margin of error is precisely that second part: ME = z* × SE. Everything else in this topic follows from understanding what controls that quantity.
+
+Two levers control ME: the critical value z* (set by your chosen confidence level) and the standard error SE (set by population variability and sample size). Raising confidence from 95% to 99% increases z* from 1.96 to 2.576, which widens ME. To shrink ME, you can reduce σ (rarely under your control) or increase n. Since SE = σ/√n, the ME scales as 1/√n. This is the key relationship: to cut the margin of error in half, you need four times as many observations, not twice as many.
+
+For means, solving ME = z*(σ/√n) for n gives the sample size planning formula: n = (z*σ/m)², where m is your target margin of error. For proportions, use SE = √(p(1-p)/n) and the corresponding formula n = z²p(1-p)/m². When the true proportion p is unknown, plug in p = 0.5, which maximizes p(1-p) = 0.25 and gives the most conservative (largest) required sample size — guaranteeing you achieve your target precision regardless of the actual proportion. This worst-case approach is standard in survey design.
+
+The √n relationship has a stark practical consequence: precision is expensive. Halving the margin of error requires 4× the sample; reducing it to one-fifth requires 25×. In practice, researchers specify an acceptable margin of error first, then compute the required sample size and budget accordingly. The formula is the planning tool; the √n rule is the intuition behind why high-precision studies cost so much more than moderate-precision ones.

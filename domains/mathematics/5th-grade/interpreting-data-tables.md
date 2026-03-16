@@ -28,3 +28,13 @@ Use tables from contexts students care about: sports stats, class survey data, s
 - Misreading rows versus columns (finding the wrong cell).
 - Not reading the column or row headers to understand what each number represents.
 - Difficulty with tables that have merged cells or hierarchical headers.
+
+## Explainer
+
+You have already read bar graphs, where a single variable is displayed visually with bar heights. A data table stores the same kind of information in a grid, but it can hold far more categories and values in less space — and it allows precise reading without estimating heights. Every number in a table lives at the intersection of a **row** and a **column**, and the meaning of that number comes from reading both headers. The row label tells you *what subject* is described; the column label tells you *what attribute* is measured.
+
+Before answering any question about a table, identify your coordinates: Which row? Which column? Run your finger across the correct row and down the correct column until they meet. This navigation habit prevents the most common error — landing in the right row but the wrong column, or vice versa. For a table of monthly rainfall across three cities, "Seattle in March" is a specific cell. "Seattle" picks the row; "March" picks the column.
+
+Once you can read individual cells accurately, you can answer more complex questions by combining values. **Totals** require adding across an entire row or down an entire column. **Differences** require finding two cells and subtracting. **Trends** require comparing values across several cells in sequence — looking for increases, decreases, or patterns. Each type of question is really an arithmetic problem wearing a table as its context.
+
+The most important discipline is reading the header before reading the numbers. A column labeled "Points per game" means something different from a column labeled "Total points for the season." Units, time periods, and scales all live in the headers. A number means nothing without its label. Whenever a table result seems surprising — an unexpectedly large or small number — return to the headers to check whether you are reading the right column and interpreting the units correctly.

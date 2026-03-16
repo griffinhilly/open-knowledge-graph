@@ -25,3 +25,13 @@ Use arrays and area models: a 7-by-14 array can be split into a 7-by-10 and a 7-
 ## Common Misconceptions
 - Distributing only to the first addend (computing 4 x (10 + 3) as 4 x 10 + 3 = 43).
 - Confusing distributive property with other properties (commutative, associative).
+
+## Explainer
+
+You know how to multiply by multiples of ten — 7 × 10 = 70, 7 × 20 = 140. But what about 7 × 14? That is not a multiple of ten, and it might not be a fact you have memorized. The **distributive property** is the strategy that makes unfamiliar multiplication problems solvable by splitting them into easier ones you already know.
+
+The idea: you can break one of the numbers into a sum, multiply each part separately, and add the results. 7 × 14 becomes 7 × (10 + 4). The distributive property says this equals 7 × 10 + 7 × 4 — you multiply 7 by each addend inside the parentheses, then add. Since 7 × 10 = 70 and 7 × 4 = 28, the answer is 70 + 28 = 98. One unfamiliar problem became two easy ones. In symbols: **a × (b + c) = a × b + a × c**.
+
+The **area model** makes this visible. Draw a rectangle that is 7 units tall and 14 units wide. Draw a vertical line at the 10-unit mark, splitting it into two smaller rectangles: one that is 7 by 10 and one that is 7 by 4. The big rectangle's area equals the combined areas of the two smaller ones: 70 + 28 = 98. Splitting the rectangle does not change its total size — that is exactly what the distributive property says. Area models are especially useful because they make the structure impossible to forget: every part of the rectangle must be counted.
+
+The most common mistake is **distributing to only the first addend**. A student might compute 7 × (10 + 4) as 7 × 10 + 4 = 74 — multiplying 7 by 10 but just carrying the 4 along unchanged. The rule is that the outside multiplier must reach every term inside the parentheses. Think of it as 7 groups of (10 + 4): every group of 10 needs a 7, and every group of 4 needs a 7. Leaving any part without its multiplier means undercounting. Once you have internalized this, multi-digit multiplication and later algebraic simplification (like expanding 3(x + 5) = 3x + 15) are natural extensions of the same idea.

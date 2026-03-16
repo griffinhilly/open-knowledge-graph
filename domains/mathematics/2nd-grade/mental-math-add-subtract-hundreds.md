@@ -35,3 +35,13 @@ Build on the mental-math-tens skill explicitly. Show the parallel: just as 47 + 
 - Adding hundreds to the wrong place (e.g., 450 + 300 = 480).
 - Not recognizing when this fast strategy applies vs. when full regrouping is needed.
 - Confusing hundreds addition with tens addition when numbers are similar.
+
+## Explainer
+
+You already know how to add and subtract tens in your head — for example, 47 + 30 = 77 because 4 tens + 3 tens = 7 tens, and only the tens digit changes. Adding and subtracting hundreds works in exactly the same way, just one place-value column to the left.
+
+When you see 400 + 300, don't think of it as four hundred plus three hundred. Think of it as **4 hundreds + 3 hundreds = 7 hundreds = 700**. The ones and tens digits stay at zero; only the hundreds digit changes. The same idea works with non-round numbers: in 450 + 300, the 50 is untouched — you're only adding hundreds, so 4 hundreds + 3 hundreds = 7 hundreds, giving 750.
+
+Subtraction works the same way in reverse. For 850 − 200, ask: "how many hundreds do I have, and how many am I taking away?" You have 8 hundreds; take away 2 hundreds; left with 6 hundreds. The tens and ones (50) ride along unchanged: 650. This is the same move you made when subtracting tens, just one column over.
+
+The pattern here is bigger than this one skill — it's a window into how the **base-ten system** works. Every place value behaves by the same rules; only the column name changes. Once you can add and subtract ones, tens, and hundreds mentally, you're building the number sense that makes bigger arithmetic feel manageable. When you encounter a problem like 570 + 400, you can immediately see it as a hundreds problem, answer 970 in seconds, and move on — no paper, no counting. That speed and confidence is the payoff of understanding place value deeply.

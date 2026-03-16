@@ -219,6 +219,11 @@ def count_transitive_prereqs(tid, prereqs_of):
     return len(visited)
 
 
+def inline_markdown(text):
+    """Process inline markdown (**bold**) in already-escaped HTML text."""
+    return re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+
+
 def markdown_to_html(text):
     """Simple markdown-to-HTML conversion for topic body text."""
     if not text:
@@ -247,17 +252,303 @@ def markdown_to_html(text):
             if " — " in content:
                 parts = content.split(" — ", 1)
                 content = f"<strong>{parts[0]}</strong> — {parts[1]}"
+            else:
+                content = inline_markdown(content)
             html_lines.append(f"<li>{content}</li>")
         else:
             if in_list:
                 html_lines.append("</ul>")
                 in_list = False
-            html_lines.append(f"<p>{html_mod.escape(stripped)}</p>")
+            html_lines.append(f"<p>{inline_markdown(html_mod.escape(stripped))}</p>")
 
     if in_list:
         html_lines.append("</ul>")
 
     return "\n".join(html_lines)
+
+
+def parse_questions_yaml(text):
+    """Parse the YAML code block from a Questions section."""
+    if not text:
+        return []
+    # Extract YAML from ```yaml ... ``` code block
+    match = re.search(r'```ya?ml\s*\n(.*?)```', text, re.DOTALL)
+    if not match:
+        return []
+    try:
+        questions = yaml.safe_load(match.group(1))
+        return questions if isinstance(questions, list) else []
+    except yaml.YAMLError:
+        return []
+
+
+def generate_questions_page(tid, all_data, all_sections, questions):
+    """Generate a standalone HTML page for a topic's question set."""
+    data = all_data[tid]
+    title = data.get("title", tid)
+    domain = data.get("domain", "")
+    hue = DOMAIN_HUES.get(domain, 0)
+
+    questions_html_parts = []
+    for i, q in enumerate(questions, 1):
+        qtext = html_mod.escape(q.get("question", ""))
+        qtype = q.get("type", "")
+        explanation = html_mod.escape(q.get("explanation", ""))
+
+        if qtype == "multiple-choice":
+            options = q.get("options", [])
+            answer_idx = q.get("answer", 0)
+            options_html = ""
+            for j, opt in enumerate(options):
+                letter = chr(65 + j)  # A, B, C, D
+                is_correct = ' data-correct="true"' if j == answer_idx else ''
+                options_html += (
+                    f'<div class="q-option" data-idx="{j}"{is_correct}>'
+                    f'<span class="q-letter">{letter}</span>'
+                    f'<span>{html_mod.escape(opt)}</span>'
+                    f'</div>\n'
+                )
+            questions_html_parts.append(f"""
+<div class="question-card" data-type="mc">
+  <div class="q-number">Question {i} <span class="q-type-badge">Multiple Choice</span></div>
+  <p class="q-text">{qtext}</p>
+  <div class="q-options">{options_html}</div>
+  <button class="reveal-btn" onclick="revealAnswer(this)">Show Answer</button>
+  <div class="q-explanation hidden">
+    <p>{explanation}</p>
+  </div>
+</div>""")
+
+        elif qtype == "true-false":
+            answer = q.get("answer", False)
+            answer_str = "true" if answer else "false"
+            questions_html_parts.append(f"""
+<div class="question-card" data-type="tf">
+  <div class="q-number">Question {i} <span class="q-type-badge">True / False</span></div>
+  <p class="q-text">{qtext}</p>
+  <div class="q-options">
+    <div class="q-option" data-idx="true"{' data-correct="true"' if answer else ''}>
+      <span class="q-letter">T</span><span>True</span>
+    </div>
+    <div class="q-option" data-idx="false"{' data-correct="true"' if not answer else ''}>
+      <span class="q-letter">F</span><span>False</span>
+    </div>
+  </div>
+  <button class="reveal-btn" onclick="revealAnswer(this)">Show Answer</button>
+  <div class="q-explanation hidden">
+    <p>Answer: <strong>{"True" if answer else "False"}</strong></p>
+    <p>{explanation}</p>
+  </div>
+</div>""")
+
+        elif qtype == "short-answer":
+            answer_text = html_mod.escape(str(q.get("answer", "")))
+            questions_html_parts.append(f"""
+<div class="question-card" data-type="sa">
+  <div class="q-number">Question {i} <span class="q-type-badge">Short Answer</span></div>
+  <p class="q-text">{qtext}</p>
+  <div class="q-sa-prompt">Think about your answer, then reveal below.</div>
+  <button class="reveal-btn" onclick="revealAnswer(this)">Show Answer</button>
+  <div class="q-explanation hidden">
+    <div class="q-model-answer"><strong>Model answer:</strong> {answer_text}</div>
+    <p>{explanation}</p>
+  </div>
+</div>""")
+
+    all_questions_html = "\n".join(questions_html_parts)
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Questions — {html_mod.escape(title)} — Open Knowledge Graph</title>
+<style>
+* {{ margin:0; padding:0; box-sizing:border-box; }}
+body {{
+  background:#0a0a14; color:#ccc;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  line-height:1.6;
+}}
+a {{ color:#7ab; text-decoration:none; }}
+a:hover {{ color:#9cd; text-decoration:underline; }}
+
+.container {{
+  max-width:820px; margin:0 auto; padding:40px 24px 80px;
+}}
+
+.nav {{
+  display:flex; gap:12px; margin-bottom:32px; font-size:13px;
+}}
+.nav a {{
+  color:#556; padding:4px 10px;
+  border:1px solid #222; border-radius:4px;
+  transition:border-color 0.2s;
+}}
+.nav a:hover {{ border-color:#555; color:#aaa; text-decoration:none; }}
+
+h1 {{
+  font-size:24px; color:#eee; margin-bottom:8px;
+  border-left:4px solid hsl({hue},55%,50%);
+  padding-left:16px;
+}}
+.subtitle {{
+  font-size:14px; color:#667; margin-bottom:32px;
+}}
+
+.question-card {{
+  background:#0e0e1a; border:1px solid #1a1a2e;
+  border-radius:8px; padding:24px;
+  margin-bottom:20px;
+}}
+.q-number {{
+  font-size:12px; color:#667; text-transform:uppercase;
+  letter-spacing:0.5px; margin-bottom:10px;
+}}
+.q-type-badge {{
+  background:#151530; border:1px solid #252545;
+  padding:2px 8px; border-radius:3px;
+  font-size:10px; color:#889; margin-left:8px;
+}}
+.q-text {{
+  font-size:16px; color:#dde; margin-bottom:16px; line-height:1.5;
+}}
+.q-options {{
+  display:flex; flex-direction:column; gap:8px;
+  margin-bottom:16px;
+}}
+.q-option {{
+  display:flex; align-items:center; gap:12px;
+  padding:10px 14px;
+  background:#0a0a18; border:1px solid #1a1a2e;
+  border-radius:6px; cursor:pointer;
+  transition:border-color 0.2s, background 0.2s;
+  font-size:14px; color:#bbc;
+}}
+.q-option:hover {{
+  border-color:#333; background:#12122a;
+}}
+.q-option.selected {{
+  border-color:hsl({hue},50%,45%);
+  background:hsl({hue},30%,12%);
+}}
+.q-option.correct {{
+  border-color:#4a7; background:rgba(68,170,119,0.1);
+}}
+.q-option.incorrect {{
+  border-color:#a55; background:rgba(170,85,85,0.1);
+}}
+.q-letter {{
+  width:24px; height:24px; border-radius:50%;
+  background:#151530; border:1px solid #252545;
+  display:flex; align-items:center; justify-content:center;
+  font-size:12px; font-weight:600; color:#889;
+  flex-shrink:0;
+}}
+.q-sa-prompt {{
+  font-size:13px; color:#556; font-style:italic;
+  margin-bottom:16px;
+}}
+.reveal-btn {{
+  background:hsl({hue},30%,20%); color:hsl({hue},50%,70%);
+  border:1px solid hsl({hue},30%,30%);
+  padding:8px 20px; border-radius:6px;
+  cursor:pointer; font-size:13px; font-weight:600;
+  transition:background 0.2s;
+}}
+.reveal-btn:hover {{
+  background:hsl({hue},30%,25%);
+}}
+.reveal-btn.used {{
+  background:#151525; color:#556; border-color:#222;
+  cursor:default;
+}}
+.q-explanation {{
+  margin-top:16px; padding:16px;
+  background:#0a0a18; border-left:3px solid hsl({hue},40%,40%);
+  border-radius:0 6px 6px 0;
+}}
+.q-explanation p {{
+  font-size:14px; color:#aab; margin-bottom:8px; line-height:1.6;
+}}
+.q-explanation p:last-child {{ margin-bottom:0; }}
+.q-model-answer {{
+  font-size:14px; color:#bcc; margin-bottom:12px;
+  padding:10px 14px; background:#0e0e20; border-radius:4px;
+}}
+.hidden {{ display:none; }}
+
+.score-bar {{
+  display:flex; gap:12px; align-items:center;
+  padding:16px 20px; margin-bottom:28px;
+  background:#0e0e1a; border:1px solid #1a1a2e;
+  border-radius:8px; font-size:14px; color:#889;
+}}
+.score-count {{
+  font-weight:600; color:#eee; font-size:18px;
+}}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="nav">
+  <a href="{tid}.html">← Back to Topic</a>
+  <a href="../radial-graph.html">Graph View</a>
+  <a href="../index.html">All Domains</a>
+</div>
+
+<h1>Questions: {html_mod.escape(title)}</h1>
+<p class="subtitle">{len(questions)} questions to test your understanding</p>
+
+<div class="score-bar">
+  Score: <span class="score-count" id="score">0</span> / {len(questions)}
+</div>
+
+{all_questions_html}
+
+</div>
+<script>
+let score = 0;
+const total = {len(questions)};
+
+document.querySelectorAll('.q-option').forEach(opt => {{
+  opt.addEventListener('click', function() {{
+    const card = this.closest('.question-card');
+    if (card.classList.contains('answered')) return;
+    // Clear previous selection in this card
+    card.querySelectorAll('.q-option').forEach(o => o.classList.remove('selected'));
+    this.classList.add('selected');
+  }});
+}});
+
+function revealAnswer(btn) {{
+  const card = btn.closest('.question-card');
+  if (card.classList.contains('answered')) return;
+  card.classList.add('answered');
+  btn.classList.add('used');
+  btn.textContent = 'Answered';
+
+  const explanation = card.querySelector('.q-explanation');
+  explanation.classList.remove('hidden');
+
+  // Grade the answer
+  const selected = card.querySelector('.q-option.selected');
+  const correct = card.querySelector('.q-option[data-correct="true"]');
+
+  if (correct) {{
+    correct.classList.add('correct');
+    if (selected && selected === correct) {{
+      score++;
+    }} else if (selected) {{
+      selected.classList.add('incorrect');
+    }}
+  }}
+
+  document.getElementById('score').textContent = score;
+}}
+</script>
+</body>
+</html>"""
 
 
 def generate_topic_page(tid, all_data, all_sections, prereqs_of, dependents_of, depths):
@@ -282,6 +573,9 @@ def generate_topic_page(tid, all_data, all_sections, prereqs_of, dependents_of, 
     how_learned = sections.get("How It's Best Learned", "")
     misconceptions = sections.get("Common Misconceptions", "")
     notes = sections.get("Notes", "")
+    explainer = sections.get("Explainer", "")
+    questions_raw = sections.get("Questions", "")
+    questions = parse_questions_yaml(questions_raw)
 
     # Prerequisites
     direct_prereqs = prereqs_of.get(tid, [])
@@ -491,6 +785,38 @@ h1 {{
   color:#445; font-size:13px; font-style:italic;
   padding:12px 0;
 }}
+
+.explainer-section {{
+  background:#0e0e1a; border:1px solid #1a1a2e;
+  border-radius:8px; padding:24px 28px;
+  margin-bottom:32px;
+}}
+.explainer-section h2 {{
+  font-size:16px; color:#889; text-transform:uppercase;
+  letter-spacing:0.5px; margin-bottom:16px;
+  padding-bottom:6px; border-bottom:1px solid #1a1a2e;
+}}
+.explainer-section p {{
+  margin-bottom:12px; color:#bcc; font-size:15px; line-height:1.7;
+}}
+.explainer-section p:last-child {{ margin-bottom:0; }}
+
+.questions-link {{
+  display:inline-flex; align-items:center; gap:8px;
+  padding:10px 20px;
+  background:hsl({hue},30%,15%); border:1px solid hsl({hue},30%,25%);
+  border-radius:8px; color:hsl({hue},50%,70%);
+  font-size:14px; font-weight:600;
+  text-decoration:none;
+  transition:background 0.2s, border-color 0.2s;
+}}
+.questions-link:hover {{
+  background:hsl({hue},30%,20%); border-color:hsl({hue},40%,35%);
+  text-decoration:none; color:hsl({hue},50%,80%);
+}}
+.questions-link .q-count {{
+  font-size:12px; font-weight:400; color:hsl({hue},30%,55%);
+}}
 </style>
 </head>
 <body>
@@ -525,6 +851,10 @@ h1 {{
 
 {"<div class='section'><h2>Notes</h2>" + markdown_to_html(notes) + "</div>" if notes else ""}
 
+{"<div class='explainer-section'><h2>Explainer</h2>" + markdown_to_html(explainer) + "</div>" if explainer else ""}
+
+{"<div class='section'><a href='" + tid + "-questions.html' class='questions-link'>Practice Questions <span class='q-count'>" + str(len(questions)) + " questions</span></a></div>" if questions else ""}
+
 <div class="section">
   <h2>Prerequisite Chain</h2>
   {('<div class="chain-container">' + chain_html + '</div><p class="chain-meta">Longest path: ' + str(len(chain)) + ' steps &middot; ' + str(total_transitive) + ' total prerequisite topics</p>') if len(chain) > 1 else '<p class="empty-state">This is a foundational topic with no prerequisites.</p>'}
@@ -558,6 +888,7 @@ def main():
 
     print(f"Generating {len(all_data)} topic pages...")
     count = 0
+    q_count = 0
     for tid in sorted(all_data.keys()):
         html = generate_topic_page(
             tid, all_data, all_sections, prereqs_of, dependents_of, depths
@@ -565,10 +896,21 @@ def main():
         out = TOPICS_DIR / f"{tid}.html"
         out.write_text(html, encoding="utf-8")
         count += 1
+
+        # Generate questions page if topic has questions
+        sections = all_sections.get(tid, {})
+        questions_raw = sections.get("Questions", "")
+        questions = parse_questions_yaml(questions_raw)
+        if questions:
+            q_html = generate_questions_page(tid, all_data, all_sections, questions)
+            q_out = TOPICS_DIR / f"{tid}-questions.html"
+            q_out.write_text(q_html, encoding="utf-8")
+            q_count += 1
+
         if count % 500 == 0:
             print(f"  {count}/{len(all_data)}...")
 
-    print(f"Done! {count} topic pages in {TOPICS_DIR}")
+    print(f"Done! {count} topic pages + {q_count} question pages in {TOPICS_DIR}")
 
 
 if __name__ == "__main__":

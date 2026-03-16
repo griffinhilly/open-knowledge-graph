@@ -27,3 +27,22 @@ status: draft
 
 ## Core Idea
 Polymetric music features simultaneous contradictory meters or metric groupings, a technique used extensively in 20th-century classical music, African music traditions, and progressive rock. Analyzing polymetric works requires tracking independent metric streams and understanding how they interact (reinforcement, conflict, eventual synchronization), revealing compositional complexity beneath the surface.
+
+## How It's Best Learned
+Transcribe short passages from Stravinsky (Rite of Spring), Bartók (string quartets), or West African ensemble music and notate each voice's implicit meter separately. Calculate LCMs to predict synchronization points, then verify against the score.
+
+## Common Misconceptions
+- Confusing polyrhythm (different rhythmic values in one metric context) with polymetric (simultaneous different meters with independent downbeats).
+- Assuming the notated meter signature represents all voices; in polymetric music, one or more parts effectively operate in a different meter.
+- Thinking synchronization points are always structurally significant; sometimes they are, but composers also use them as non-events buried in texture.
+
+## Explainer
+
+From your work on **metric hierarchy**, you know that meter operates on multiple levels simultaneously — the pulse, the beat grouping, and the hypermetric level above that. A single meter signature coordinates all these levels across all voices: the downbeat of every measure aligns, and the metric structure is shared. **Polymetric** writing breaks this coordination deliberately: two or more voices project incompatible metric groupings, so their downbeats cycle in and out of alignment. The result is a texture with no single shared metric grid — instead, independent metric streams coexist, creating tension, ambiguity, and eventual resolution when the streams realign.
+
+The mathematics of synchronization comes directly from your soft prerequisites. If one voice groups in threes and another in fours, they will realign every 3 × 4 = 12 pulses — the **least common multiple** (LCM). This is the cycle length: after 12 pulses, both voices are simultaneously at a downbeat, and the polymetric pattern repeats. More complex combinations — say, 5 against 7 — produce longer cycles (35 pulses) before synchronization. In African ensemble music, these long cycles are structural: the musicians know that every 35 pulses brings a full return, and the music's form is organized around these arrival points. In progressive rock (Radiohead's "2+2+5," Tool's asymmetric time signatures), polymetric layering generates rhythmic density that resolves at predictable (to a trained listener) but non-obvious points.
+
+Analyzing a polymetric passage requires maintaining two or more independent metric readings simultaneously — which is cognitively demanding and analytically unusual. The standard approach is to notate each voice in its own meter, aligned to a common pulse grid, and track where each voice's downbeats fall. From this representation you can calculate the LCM, identify the cycle length, and mark the synchronization points. You can also classify the interaction at each moment: the streams might **conflict** (downbeats falling on each other's weak beats, creating maximum tension), **partially align** (sharing some metric levels but not others), or **briefly converge** at the LCM synchronization. The character of the passage depends on which of these predominates.
+
+Not all apparent metric conflict is polymetric in the strict sense. **Hemiola** — briefly implying 3-in-2 or 2-in-3 by accent and phrasing — is a metric *displacement* within a shared meter, not an independent metric stream. **Syncopation** emphasizes off-beats within a stable metric frame. True polymetric writing, by contrast, sustains independent metric projections across multiple voices for long enough that each voice genuinely has its own downbeat cycle. The analytical distinction matters because the compositional logic is different: syncopation plays against a shared frame, while polymetric writing has *no* single shared frame. Your job as analyst is to determine whether the metric conflict is temporary or sustained, surface-level or structural, and to explain how the composition creates and resolves the resulting tension.
+

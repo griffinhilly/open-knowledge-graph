@@ -33,3 +33,13 @@ Take a complex design and progressively remove elements while maintaining functi
 ## Common Misconceptions
 - Minimal design is boring or lacks personality; clarity and purpose-driven choices can be beautiful and distinctive.
 - Minimalism means having little content; it means choosing what to show and how to present it effectively.
+
+## Explainer
+
+You already understand how composition organizes visual elements into a coherent whole and how visual hierarchy directs the viewer's attention through a design. Minimalism takes these principles to their logical conclusion: if composition is about arranging elements effectively, and hierarchy is about making the important things stand out, then **minimalism** asks what happens when you strip away everything that isn't doing either of those jobs. The answer is clarity — a design where every remaining element earns its place.
+
+The core practice of minimalist design is **reductive editing**. Start with everything you think the design needs, then systematically question each element: does this help the user accomplish their goal? Does it reinforce the visual hierarchy, or does it compete with it? If an element doesn't serve communication, navigation, or emotional tone, it's visual noise. Removing it doesn't leave a hole — it gives the remaining elements more room to breathe. This is why **white space** (or negative space) is not emptiness in minimalist design; it is an active compositional tool that creates focus, separation, and rhythm.
+
+A common trap is confusing minimalism with austerity. A minimalist design can be warm, expressive, even playful — what matters is that every choice is intentional. A single bold color accent on a neutral background is minimalist. A carefully chosen typeface with generous leading is minimalist. The test is not "how little is here?" but "does everything here have a reason?" When you remove a decorative border and the layout feels clearer, that border was noise. When you remove it and the layout feels incomplete or confusing, it was doing structural work — keep it.
+
+The practical payoff of minimalism is **cognitive ease**. Research in visual perception consistently shows that cluttered interfaces increase cognitive load, slow decision-making, and reduce recall. By aligning minimalist principles with what you already know about composition and hierarchy, you create designs that communicate faster, feel more confident, and age better — because there are fewer trendy decorative elements to date them.

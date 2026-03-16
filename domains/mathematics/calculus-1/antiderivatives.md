@@ -30,3 +30,13 @@ Start by reversing known derivative rules: if d/dx[x^3] = 3x^2, then an antideri
 - Forgetting the constant of integration C.
 - Trying to antidifferentiate products by antidifferentiating each factor (the product rule does not reverse this simply).
 - Confusing the antiderivative of x^n (which uses (n+1), not (n-1)) with the derivative.
+
+## Explainer
+
+You've spent weeks learning to differentiate functions. Antidifferentiation is the reverse question: given a function f(x), can you find a function F(x) whose derivative is f(x)? The answer is almost always yes, and building the skill to find F(x) opens the door to the Fundamental Theorem of Calculus — one of the most important results in all of mathematics.
+
+The basic strategy is to read your differentiation rules backwards. Since d/dx[x^n] = nx^(n-1), working backwards: if you see x^n, you need x^(n+1)/(n+1), because differentiating that gives x^n. The **power rule for antiderivatives** says: ∫x^n dx = x^(n+1)/(n+1) + C (for n ≠ -1). Notice the exponent *increases* by 1 — opposite of differentiation — and you divide by the new exponent. Similarly, since d/dx[sin x] = cos x, an antiderivative of cos x is sin x. Since d/dx[e^x] = e^x, an antiderivative of e^x is e^x itself. Build a table by reversing every derivative rule you know.
+
+The **+C** — the constant of integration — is not optional bookkeeping. It's mathematically necessary. If F'(x) = f(x), then (F(x) + 7)' = f(x) too, and so does (F(x) - 12)'. All these functions have the same derivative because constants vanish when differentiated. The *general antiderivative* therefore represents an entire family of functions, all shifted vertically from each other. You can pin down C only when you have additional information — for instance, knowing that F(0) = 5 or that F passes through a specific point.
+
+The constant of integration also reveals why antidifferentiating products is harder than differentiating them. The product rule d/dx[uv] = u'v + uv' means the derivative of a product is a sum of two terms. Going backwards, if you see a sum, you'd have to recognize it came from a product — which requires insight rather than a mechanical rule. This is why techniques like integration by parts are needed later: they translate difficult antiderivative problems back into solvable derivative computations. For now, the key skill is recognizing the basic patterns and applying the reverse rules accurately, always including +C.

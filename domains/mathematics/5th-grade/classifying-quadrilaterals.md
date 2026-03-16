@@ -29,3 +29,13 @@ Use property cards (has right angles, has parallel sides, has equal sides) and s
 - Confusing rhombus with diamond -- rhombus is defined by equal side lengths, not orientation.
 - Not recognizing that a shape can belong to multiple categories simultaneously.
 - Thinking trapezoids must be isosceles (have equal non-parallel sides).
+
+## Explainer
+
+You already know how to classify 2D shapes by their basic properties, and you can identify parallel and perpendicular lines. Quadrilateral classification takes those two skills and builds a logical system from them — one where the categories nest inside each other like Russian dolls. The key insight is that quadrilaterals are not just different shapes side by side; they form a **hierarchy** based on which properties each shape has.
+
+Start with the broadest category: any four-sided polygon is a **quadrilateral**. Now add one property — two pairs of parallel sides — and you get a **parallelogram**. Every parallelogram has opposite sides that are equal in length and opposite angles that are equal. From there, add more constraints to get more specific shapes. Add "all four angles must be right angles" to a parallelogram and you get a **rectangle**. Add "all four sides must be equal length" to a parallelogram and you get a **rhombus**. Add *both* constraints — right angles *and* equal sides — and you get a **square**.
+
+Here is the critical logical consequence of this hierarchy: **every square is a rectangle, and every square is also a rhombus**. A square satisfies every property a rectangle requires (four right angles, two pairs of parallel sides) plus the bonus of equal sides. Saying "a square is not a rectangle" is like saying "a golden retriever is not a dog." The category contains everything with those properties, and squares qualify completely. The hierarchy flows: square ⊂ rectangle ⊂ parallelogram ⊂ quadrilateral.
+
+The **trapezoid** sits outside the parallelogram family (in the U.S. definition) because it has exactly *one* pair of parallel sides, not two. It's a quadrilateral but not a parallelogram. "Always, sometimes, never" questions test this hierarchy thinking directly: "A rectangle is ___ a square." The answer is *sometimes* — when all four sides happen to be equal. "A square is ___ a rectangle." The answer is *always* — by definition. Getting these right requires understanding that the question is about the logical relationship between property sets, not about what a "typical" drawing of the shape looks like.

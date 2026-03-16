@@ -34,3 +34,13 @@ Use color-coding on multiplication tables to highlight patterns: the 9s column h
 ## Common Misconceptions
 - Students may spot a pattern in the first few terms but then make an error when extending it.
 - Confusing additive and multiplicative patterns — '×3' and '+3' produce very different sequences.
+
+## Explainer
+
+A pattern is a sequence with a rule. Once you know the rule, you can predict any term in the sequence — even ones far down the list — without writing them all out. In arithmetic, there are two main kinds of rules: **additive patterns** (add the same amount each step) and **multiplicative patterns** (multiply by the same amount each step). These look different and grow at very different rates.
+
+In an additive pattern like 5, 8, 11, 14, ..., you're adding 3 each time. The gap between any two neighbors is always 3. This is the same structure as skip-counting, which you've practiced before. In a multiplication table, each row is also an additive pattern: the row for 4 goes 4, 8, 12, 16, ... — you add 4 each time. The row for 7 adds 7 each time. Recognizing this helps you see multiplication tables not as a list to memorize but as a system with built-in structure.
+
+When you look at a multiplication table, more patterns emerge. Every number in the 2s column is even. The 5s column alternates between 5 and 0 in the ones place. The 9s column has a special property: the two digits of each product always sum to 9 (9, 18, 27, 36 — check: 1+8=9, 2+7=9, 3+6=9). These aren't coincidences; they're consequences of how multiplication works with our base-ten number system.
+
+The key skill is being able to describe a pattern with a **rule** — not just the next few terms. "Add 6 each time" is a rule. "Each number is three times the position number" is a rule. Once you have the rule, you can extend the pattern confidently, check whether a number belongs to it, and explain to someone else why the pattern works. This is early algebraic thinking: you're treating a rule as an object you can describe and use, not just a sequence you happen to notice.

@@ -28,3 +28,13 @@ Define simple functions (no parameters, no return) and call them. Print output w
 ## Common Misconceptions
 - Defining a function executes it (definition is inert; only calls execute the code).
 - Functions must return a value (many functions perform actions without returning anything).
+
+## Explainer
+
+From your study of program structure and flow, you understand that code executes sequentially, one statement after another. Functions introduce a powerful new idea: you can **name a block of code** and execute it whenever you want by referring to that name. Think of a function like a recipe card in a kitchen. Writing the recipe (defining the function) doesn't cook anything. Picking up the card and following it (calling the function) does the actual work. You can follow the same recipe as many times as you want without rewriting it.
+
+**Defining** a function means telling the computer "here's a block of code I want to reuse — remember it under this name." In Python, that looks like `def greet():` followed by an indented block of code. In JavaScript, it's `function greet() { ... }`. The crucial point is that defining a function has no visible effect. The code inside the function body does not run at definition time. It sits dormant, waiting. **Calling** a function — writing `greet()` with parentheses — is what actually executes the body. The parentheses are the trigger; without them, you're just referring to the function as a value, not running it.
+
+When a function is called, execution **jumps** from the call site into the function body, runs every statement inside, and then **returns** to the line right after the call. Imagine reading a book that says "see Chapter 5 for details." You flip to Chapter 5, read it, and then come back to where you left off. This jump-and-return is managed automatically through a mechanism called the **call stack**, which keeps track of where to resume after each function finishes. You can call functions from within other functions, and the stack keeps everything organized.
+
+The practical benefit is **eliminating duplication**. If you need to print a formatted greeting in five different places, you don't copy and paste the same three lines five times. You define `greet()` once and call it five times. This isn't just about saving keystrokes — it means that when you need to change the greeting, you change it in one place and every call site gets the update. Functions also make programs easier to read: a well-named function like `calculate_tax()` communicates intent immediately, letting readers understand the program's structure without diving into every detail. As you progress to parameters and return values, functions become even more powerful, but the foundation is this: define once, call anywhere.

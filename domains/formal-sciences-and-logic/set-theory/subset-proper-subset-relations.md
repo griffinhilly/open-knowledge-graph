@@ -22,3 +22,15 @@ status: draft
 
 ## Core Idea
 Set A is a subset of B (A ⊆ B) if every element of A is in B; A is a proper subset (A ⊂ B) if A ⊆ B and A ≠ B. These relations form a partial order on sets and establish a hierarchy of containment. Note that ∅ ⊆ A for every set A.
+
+## Explainer
+
+You already know that set membership (∈) asks a yes-or-no question about a single element: is 3 ∈ {1, 2, 3}? The **subset relation** (⊆) lifts that question up one level and asks it about an entire set at once: is every member of A also a member of B? Think of it as a universal membership test applied collectively. If A = {2, 4} and B = {1, 2, 3, 4, 5}, then A ⊆ B because each element of A — namely 2 and 4 — passes the ∈ B test. Not one element is left out.
+
+The distinction between **subset** (⊆) and **proper subset** (⊂) mirrors the distinction between ≤ and < for numbers. A ⊆ B allows A and B to be equal — if A = B, then A ⊆ B is still true, because every element of A is trivially in B. A proper subset (A ⊂ B) adds the extra requirement A ≠ B, meaning B contains at least one element A does not. This parallels the number analogy: just as 5 ≤ 5 is true but 5 < 5 is false, A ⊆ A is always true, but A ⊂ A is always false. Knowing which symbol you need — containment-or-equal versus strict containment — matters whenever you prove set-theoretic statements.
+
+The **empty set** (∅) deserves special attention because it surprises most learners: ∅ ⊆ A for every set A, including ∅ ⊆ ∅. The reason flows directly from the definition. To show A is NOT a subset of B, you need to produce an element of A that fails to be in B. The empty set has no elements, so no such counterexample exists — the subset condition is vacuously satisfied. This isn't a technicality to memorize; it is the definition working exactly as intended, and you will rely on it repeatedly in proofs.
+
+These relations form what mathematicians call a **partial order**: they are reflexive (A ⊆ A), antisymmetric (if A ⊆ B and B ⊆ A, then A = B — which you know from set equality and extensionality), and transitive (if A ⊆ B and B ⊆ C, then A ⊆ C). The partial order structure means you can draw a **Hasse diagram** of sets ordered by containment — a picture where lines go upward from smaller to larger sets. This diagram makes the containment hierarchy visual and will be essential when you study power sets, where every subset of A appears as a node in the diagram above ∅ and below A itself.
+
+A practical reasoning pattern: to prove A ⊆ B, you pick an arbitrary element x, assume x ∈ A, and show x ∈ B. To prove A ⊄ B (A is not a subset), you exhibit a specific element in A that is not in B. This pattern — universal proof by element-chasing — is the workhorse of most set-theoretic arguments, and mastering it now will carry you through power sets, Boolean operations, and beyond.

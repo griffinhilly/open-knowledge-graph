@@ -25,3 +25,13 @@ Fold paper cutouts to test for symmetry physically. Use mirrors along a proposed
 - Thinking every shape has a line of symmetry.
 - Drawing diagonal lines on rectangles as lines of symmetry (only the horizontal and vertical midlines are lines of symmetry for non-square rectangles).
 - Confusing line symmetry with rotational symmetry.
+
+## Explainer
+
+A **line of symmetry** is a line that divides a figure into two halves that are mirror images of each other — the two halves match exactly when the shape is folded along that line. Think of folding a piece of paper: if you can fold the figure so that both halves align perfectly and no part sticks out, the fold line is a line of symmetry. You've worked with lines, rays, and segments, so you can think of the line of symmetry as a special line with a particular relationship to the shape: every point on one side has a matching point at the same distance on the other side.
+
+Not every shape has a line of symmetry, and those that do may have exactly one or several. The letter A has one vertical line of symmetry. A square has four — the two midlines (horizontal and vertical) and the two diagonals. An equilateral triangle has three lines of symmetry, one through each vertex and the midpoint of the opposite side. A **regular polygon** with n sides always has exactly n lines of symmetry, which is one reason regular polygons feel visually balanced and pleasing. A scalene triangle (all different side lengths) has zero.
+
+A common trap with rectangles: it seems like the diagonal should be a line of symmetry because it "divides the rectangle in half," but half in area is not the same as half in shape. If you fold a non-square rectangle along a diagonal, the corners don't match — you get a right triangle overlapping a right triangle, but the long sides overhang. Only the horizontal and vertical midlines fold a rectangle so both halves line up perfectly. For a square, the diagonals also work, because all sides are equal.
+
+Line symmetry shows up everywhere once you start looking: butterfly wings, human faces (approximately), letters of the alphabet, snowflakes, architectural facades, and leaf shapes. In mathematics, it reappears in function graphs — a parabola is symmetric about its vertical axis of symmetry, a foundational concept in algebra. The geometric intuition you build now — what it means for two halves to "match" — carries forward directly into those more abstract settings.

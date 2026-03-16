@@ -27,3 +27,17 @@ Study different notation systems and what they communicate, examine how printed 
 
 ## Common Misconceptions
 Notation is purely functional and doesn't affect musical thinking; all music traditions use Western staff notation; the content of a score automatically determines how music is performed.
+
+## Explainer
+
+The history of music cannot be separated from the history of how music is written down and distributed. Notation is not a passive recording technology — it actively shapes what composers imagine, what performers play, and which musical cultures survive into the future. From your overview of music history you know that oral transmission dominated music across many centuries and cultures; what changes when notation enters the picture is not just convenience but the entire social structure of musical practice.
+
+**Staff notation** as we know it today evolved slowly, with **Guido of Arezzo** in the 11th century making a key advance by introducing a four-line staff that let singers read intervals at sight rather than memorizing everything. Before this, neumes — small marks above text — indicated melodic contour but not precise pitch. The shift to precise pitch notation enabled something that oral transmission cannot: **polyphony at scale**. You cannot teach twenty singers to perform independent lines in coordinated rhythms without a written score. Notation thus made the entire development of Renaissance counterpoint and Baroque fugue possible. The medium and the music co-evolved.
+
+The invention of **music printing** by Ottaviano Petrucci in 1501 amplified this further by making scores reproducible and affordable. Where manuscripts were expensive and unique, printed scores could be owned by middle-class households. This created a market: publishers sought music that would sell, which meant favoring certain genres (keyboard music, songs, dance music) and certain composers. The **canon** of Western music — the names that survived — is partly a record of who had access to printing networks. Composers in distant provinces or without patronage connections often vanished from history not because their music was inferior but because their work never entered the distribution chain.
+
+Different notation systems carry different assumptions. Western staff notation specifies pitch and rhythm with great precision but leaves timbre, articulation, and ornamentation to convention and interpretation. **Tablature** — used for lute, guitar, and keyboard — specifies finger positions rather than abstract pitches, making it easier to learn but encoding the instrument rather than the music. Many world music traditions use **oral transmission** or graphic notation systems that record energy and gesture rather than discrete pitches. Understanding these alternatives reveals how much Western staff notation is a specific cultural choice, not a universal solution.
+
+Today, the distribution revolution has happened again: digital notation software, audio recording, and streaming have decentralized both composition and distribution in ways that partially mirror what printing did in 1501. Composers no longer need publishers to reach audiences. But just as early printing created new gatekeepers (publishers, distributors), digital platforms have created their own. The underlying dynamic — that notation and distribution technologies reshape the social organization of music — remains constant across all these transitions.
+
+

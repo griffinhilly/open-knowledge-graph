@@ -32,3 +32,13 @@ Present matched pairs of a fragment/run-on and its corrected version, asking lea
 ## Common Misconceptions
 - Thinking that any long sentence is a run-on (length is not the issue — structure is).
 - Believing that fragments are always errors; intentional fragments are a stylistic choice in mature writing, but the writer must recognize them as such.
+
+## Explainer
+
+You already know that an independent clause is a complete thought with a subject and a finite verb that can stand alone. A **sentence fragment** is anything punctuated as a sentence that fails this test. It may be missing a subject ("Running through the park." — who ran?), missing a complete verb ("The dog in the yard." — what happened?), or it may be a dependent clause written alone ("Although he tried." — tried to do what?). The dependent clause is the trickiest: it has a subject and a verb, but the subordinating conjunction signals incompleteness. Spot the subordinator, and you've spotted a likely fragment.
+
+The failure mode of the fragment is incompleteness. The failure mode of the **run-on sentence** is the opposite: too much joined without the punctuation to hold it together. A run-on fuses two or more independent clauses as if they were one sentence. "She studied hard she passed the exam" — both are complete independent clauses with no separator between them. The **comma splice** is the most common specific form: "She studied hard, she passed the exam." A comma signals a pause, not a full join. It is not strong enough punctuation to hold two independent clauses together by itself.
+
+From your study of compound sentences, you know the three legitimate ways to join independent clauses: a coordinating conjunction (FANBOYS: for, and, nor, but, or, yet, so), a semicolon alone, or a semicolon followed by a transitional adverb (however, therefore, therefore). Run-ons break these rules by omitting the required connector. The diagnostic question: can you identify two complete independent clauses in one "sentence" without a coordinating conjunction or semicolon between them? If yes, it's a run-on.
+
+The most important clarification: these errors are about **structure, not length**. A long sentence with multiple properly connected clauses is not a run-on — it is a well-built complex or compound sentence. A three-word group missing a verb is a fragment regardless of its brevity. And fragments are not always wrong — skilled writers use them deliberately for effect: "Not a chance." But the intentional fragment is a deliberate choice by someone who could write the complete version and chose not to. The goal is always conscious control: knowing when you have a fragment or run-on, and either correcting it or choosing it purposefully.

@@ -27,3 +27,13 @@ Start with pattern recognition: identify common differences. Derive the nth term
 - Off-by-one errors with n (is the first term n = 0 or n = 1?).
 - Thinking all sequences with a pattern are arithmetic (geometric sequences also have a pattern but use multiplication).
 - Using the wrong formula for S_n when a_n vs. a_1 and d are given.
+
+## Explainer
+
+An **arithmetic sequence** is simply linear growth — or decay — counted in discrete steps. If you know how to solve linear equations, you already understand the underlying structure: the nth term formula a_n = a₁ + (n − 1)d is exactly the slope-intercept form of a line in disguise. The **common difference** d plays the role of slope (how much the output changes per unit increase in n), and a₁ is the starting value. The only wrinkle is the (n − 1) instead of n: since the first term already gives you a₁ before any d has been added, the difference d is added one fewer time than the term number.
+
+A concrete example: you stack cans in a display, with 3 cans on the top row and adding 2 cans to each successive row. The sequence is 3, 5, 7, 9, … with a₁ = 3 and d = 2. The 10th row has a₁₀ = 3 + 9(2) = 21 cans. Notice the pattern: you started at 3 and applied the common difference 9 times to reach the 10th term, not 10 times — that (n − 1) matters.
+
+The sum formula S_n = n(a₁ + a_n)/2 comes from a beautiful trick. Gauss — as a child, allegedly — was asked to sum 1 + 2 + 3 + … + 100. He noticed that pairing the first and last terms gives 101, pairing the second and second-to-last gives 101, and there are 50 such pairs, giving 50 × 101 = 5050. The formula generalizes this: write the sum forwards and backwards, add them term by term, and each of the n pairs sums to (a₁ + a_n). So 2S_n = n(a₁ + a_n), and dividing by 2 gives the formula. An equivalent form is S_n = n/2 · (2a₁ + (n − 1)d), which uses just a₁ and d when you don't know a_n directly.
+
+The key conceptual distinction to keep straight is **arithmetic vs. geometric**: arithmetic sequences add a constant, geometric sequences multiply by a constant. The sequence 3, 6, 12, 24, … is geometric (multiply by 2 each time), not arithmetic. Both are regular patterns, but their sum formulas and long-run behavior are completely different — arithmetic sums grow quadratically in n, while geometric sums grow exponentially or converge, depending on the ratio. As you move toward geometric sequences and sigma notation, you'll see how both families are special cases of a broader theory of series.

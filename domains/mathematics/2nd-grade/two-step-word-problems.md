@@ -38,3 +38,13 @@ Teach students to underline key information and write a plan: 'First I will… t
 - Solving only one of the two required steps.
 - Choosing the wrong operations — addition when subtraction is needed, or vice versa.
 - Losing track of intermediate results when not writing them down.
+
+## Explainer
+
+You already know how to solve one-step word problems — you read the situation, figure out whether to add or subtract, and compute. A **two-step word problem** is simply two of those problems chained together. The answer to the first step becomes the starting point for the second step. The trick is recognizing that two separate questions are hiding inside one story.
+
+Consider this problem: "There are 45 students on the playground. 18 go inside for lunch, then 12 more come out to play. How many students are on the playground now?" You can't answer this in one operation. First you have to find how many remained after 18 left (45 − 18 = 27), then find how many there are after 12 more arrived (27 + 12 = 39). The 27 is an **intermediate result** — it is not the final answer, but you must find it before you can take the next step.
+
+The most important habit is to make your plan before you calculate. Ask yourself: what happens first in the story? What happens second? Write it out: "First: subtract 18 from 45. Then: add 12 to the result." Many students rush to compute and end up solving only one step, or picking the wrong operations. Slowing down to identify the two actions in the story — and the order they happen — prevents most errors.
+
+Drawing a **tape diagram** or bar model is a powerful way to see the structure. Draw a bar for the starting amount, show what is removed or added in step one, and then show what changes in step two. The visual makes it obvious how the two operations fit together. As you encounter more complex problems, this habit of mapping the story before computing becomes even more valuable.

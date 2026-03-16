@@ -26,3 +26,13 @@ Start with concrete growth/decay examples (doubling bacteria, half-life). Graph 
 - Confusing exponential functions (b^x) with power functions (x^b).
 - Believing exponential growth is always fast (it starts slow and accelerates).
 - Not understanding why e is special (it is the natural base for calculus, not just an arbitrary number).
+
+## Explainer
+
+You've already worked with **function notation** — f(x) is a rule that turns an input into an output. Exponential functions are a particular family where the variable appears in the exponent rather than the base: f(x) = a · bˣ. This small change creates dramatically different behavior. In a power function like x³, doubling x multiplies the output by 8. In an exponential function like 3ˣ, increasing x by 1 always multiplies the output by 3, regardless of where you start. That's the key property: each unit increase in x multiplies the output by the constant b.
+
+This **multiplicative growth** is why exponentials are used to model so many real phenomena. If b > 1 (say b = 2), the function doubles with every step — **exponential growth**. If 0 < b < 1 (say b = 1/2), the function halves with every step — **exponential decay**. Compound interest is exponential growth: a balance growing at 5% per year multiplies by 1.05 each year, so after t years you have P · (1.05)ᵗ. Radioactive decay is the mirror image: the number of atoms halves every half-life, giving N(t) = N₀ · (1/2)^(t/h). In both cases, the variable appears in the exponent because the rate of change is proportional to the current amount.
+
+The base **e ≈ 2.718** deserves special attention. It arises naturally from compound interest: if you invest $1 at 100% interest compounded n times per year, you have (1 + 1/n)ⁿ at year's end. As n → ∞ (continuous compounding), this limit is exactly e. What makes e the "natural" base, however, is calculus: the derivative of eˣ is eˣ itself — the only function that is its own rate of change. Every other exponential bˣ can be written as e^(x ln b), so eˣ is the universal exponential underneath all others.
+
+One important graph feature: every exponential f(x) = a · bˣ has a **horizontal asymptote** at y = 0. The function never reaches zero but approaches it arbitrarily closely as x → −∞ (for b > 1) or x → +∞ (for b < 1). The y-intercept is always (0, a), because b⁰ = 1. And while exponential growth starts slowly, it eventually outpaces any power function: 2ˣ eventually exceeds x^1000 no matter how large that exponent is. Understanding this "exponential wins" behavior is essential for logarithms (your next topic), which are the inverse of exponential functions, and for derivatives of exponential functions in calculus.

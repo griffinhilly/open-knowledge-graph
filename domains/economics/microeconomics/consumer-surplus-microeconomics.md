@@ -36,3 +36,13 @@ Calculate surplus as triangle areas for linear supply and demand, then extend to
 ## Common Misconceptions
 - Producer surplus is not the same as profit; it does not account for fixed costs.
 - Students often confuse the direction: consumer surplus is the area *above* the price line but *below* the demand curve, not the reverse.
+
+## Explainer
+
+Consumer surplus builds directly on market equilibrium — the price where supply meets demand. But the equilibrium price hides something important: not every buyer values the good equally. Imagine concert tickets selling for $50. One buyer would have paid $120, another $80, another $55. The market charges them all $50. Each keeps the difference between what they *would* have paid and what they *actually* paid. That gap, summed across all buyers, is **consumer surplus**. Graphically, it is the triangle between the demand curve and the horizontal price line — the area above the price but below the demand curve, computed using the triangle area formula from your prerequisites.
+
+**Producer surplus** is the mirror image. Not every seller has the same cost of production. A seller who can produce at $10 but receives $50 captures $40 of surplus. Summed across sellers, producer surplus is the triangle between the supply curve and the price line — below price but above supply. Total surplus (consumer + producer) represents the net gains from trade: how much better off buyers and sellers are compared to a world where this market didn't exist.
+
+The power of this framework emerges when you apply comparative statics. A fall in price increases consumer surplus — more buyers enter the market, and existing buyers pay less — but compresses producer surplus. The elasticity of demand matters here: a more elastic demand curve (flatter) produces a different surplus triangle shape than an inelastic one, even at the same equilibrium. Understanding how these triangles change under different conditions is the core tool of welfare economics.
+
+Competitive equilibrium is special: it **maximizes total surplus**. Any price different from equilibrium — a price floor above it, a price ceiling below it — creates a situation where some mutually beneficial trades don't happen. The uncaptured surplus from those missing trades is **deadweight loss**. This is the foundation for everything you'll study next: price controls, taxes, externalities, and market failures are all analyzed by asking how they change the size and distribution of the surplus triangles.

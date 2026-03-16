@@ -32,3 +32,13 @@ Begin with physical partitioning: folding paper strips, sharing food equally, sh
 - Not requiring equal-sized parts (accepting a shape split into unequal pieces as showing "thirds").
 - Believing fractions are always less than 1.
 - Treating the numerator and denominator as two separate whole numbers rather than a single quantity.
+
+## Explainer
+
+You've already seen halves, thirds, and fourths — fractions as shaded pieces of shapes. Fourth grade asks you to take the next step: to see fractions not just as parts of pictures, but as **numbers** with their own place on the number line. This is one of the biggest conceptual shifts in elementary mathematics. A fraction like ¾ is a single quantity — one number — not "3 and 4 as separate things."
+
+The **denominator** tells you what kind of unit you're working with. When you divide a whole into 4 equal parts, you've created a new unit: one-fourth. Each equal part is the same size, and there are 4 of them in the whole. The **numerator** then counts how many of those units you have. So ¾ means "three one-fourths" — three of the equal pieces you defined by the denominator. Thinking of fractions this way (numerator counts, denominator names the unit) is more powerful than any picture of pizza slices, because it works with any whole, any size.
+
+Fractions also represent division. ¾ means 3 ÷ 4. If you share 3 cookies equally among 4 people, each person gets ¾ of a cookie. This connection to division means fractions can be greater than 1: 5/4 means 5 ÷ 4, which is 1 with ¼ left over. A fraction is not required to be less than 1 — it is simply the result of dividing a numerator by a denominator. This is why "improper fractions" (numerator ≥ denominator) are perfectly valid numbers.
+
+On a number line, fractions live between whole numbers in predictable locations. To place ¾ on a number line, divide the segment from 0 to 1 into 4 equal parts and count 3 of them. This reveals something important: **the size of the whole matters**. One-half of a 12-inch ruler is 6 inches; one-half of a 6-inch ruler is 3 inches. The same fraction can represent very different amounts depending on what the "whole" is. A fraction without a defined whole is incomplete — always ask: one-half of what?

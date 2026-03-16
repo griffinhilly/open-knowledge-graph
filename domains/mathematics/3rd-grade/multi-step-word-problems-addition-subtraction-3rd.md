@@ -26,3 +26,13 @@ Draw pictures or use objects to model. Write equations for each step. Verify rea
 
 ## Common Misconceptions
 Not reading carefully; performing wrong operations; forgetting a step; not checking.
+
+## Explainer
+
+A **multi-step word problem** is really just a story where something changes more than once, and your job is to track all those changes accurately. You already know how to add and subtract multi-digit numbers — the new challenge is figuring out *which* operations to perform, *in what order*, and *why*. The arithmetic itself is not the hard part; the hard part is translating a real-world situation into a sequence of math steps.
+
+Here is how to approach any multi-step problem systematically. First, read the whole problem before writing anything. Understand what is happening: who has what, what changes, and what you ultimately need to find. Then re-read and identify the **known quantities** (the numbers the problem gives you) and the **unknown** (what you are solving for). In the example "Sarah has 25 apples. She buys 18 more. Then gives 20 to a friend. How many left?" — the knowns are 25, 18, and 20; the unknown is the final count. Notice that three separate events happen, so three separate calculations are needed.
+
+Now break the story into **individual steps**, one event at a time. Step 1: Sarah starts with 25 and gains 18, so 25 + 18 = 43. Step 2: she gives away 20, so 43 − 20 = 23. Each step produces an intermediate answer that feeds into the next step — the output of step 1 becomes the input of step 2. Writing a separate equation for each step, rather than cramming everything into one line, makes it much easier to track your work and catch errors. Drawing a quick picture or a "before/after" diagram also helps you see whether you should be adding (something is gained) or subtracting (something is lost or given away).
+
+Finally, always **check your answer for reasonableness**. Before you commit to "23 apples," ask: does that make sense? Sarah started with 25, gained some, then gave some away. Ending with fewer than 25 is plausible. Ending with, say, 200 would not make sense given the numbers in the problem. Checking reasonableness catches the most common error — using the right arithmetic but in the wrong order — and it is a habit that makes you a stronger problem-solver at every level of mathematics.

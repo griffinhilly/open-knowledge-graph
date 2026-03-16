@@ -28,3 +28,13 @@ Use physical manipulatives or dynamic geometry software to show that fixing thre
 - Thinking that SSS also requires an angle to be known; it does not.
 - Confusing SSS with AAA, which does NOT prove congruence (only similarity).
 - Failing to identify shared sides in overlapping triangles (reflexive property).
+
+## Explainer
+
+Triangles are rigid. Unlike a square, which can be pushed into a parallelogram while keeping side lengths fixed, a triangle with fixed side lengths has only one possible shape. This rigidity — three side lengths uniquely determine a triangle — is the geometric intuition behind the **Side-Side-Side (SSS) congruence postulate**. If all three sides of one triangle match all three sides of another, the triangles are not merely similar; they are identical in shape and size and can be placed exactly on top of each other.
+
+You can verify this physically. Fix three rigid sticks of lengths 3, 4, and 5 cm and try to form a different triangle with them. You cannot — there is only one triangle those lengths can form (plus its mirror image, which is congruent). From your prerequisite on segment and distance, you know what it means for segments to be equal in length; SSS simply requires all three corresponding pairs to match. The triangle's angles are fully locked in by the sides — you get the angles for free, even though you never measured them.
+
+In a proof, establishing SSS means finding three pairs of congruent sides and labeling the correspondence clearly. One pair is often **given** explicitly. A second pair may come from the problem context — equal radii, equal distances from a fixed point, or a symmetric construction. The third is frequently a **shared side**: two triangles that share a common segment automatically have one pair of equal sides by the reflexive property (a segment is congruent to itself). This shared-side observation is one of the most commonly overlooked tools. Whenever you see two triangles that overlap or share an edge, ask whether that shared edge can serve as the third pair.
+
+Once SSS is established, you can invoke CPCTC to conclude that corresponding *angles* are congruent — converting the side information into angle information. Note carefully what SSS cannot do: knowing three equal *angles* (AAA) does not prove congruence, only similarity. Triangles can share all three angle measures while having different sizes. SSS requires all three *side lengths* to match, not just shapes. This distinction between congruence (same shape and size) and similarity (same shape only) is one of the central themes the next topics will develop further.

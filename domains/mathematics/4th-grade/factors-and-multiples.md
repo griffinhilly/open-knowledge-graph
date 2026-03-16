@@ -38,3 +38,13 @@ Use arrays: a number's factor pairs correspond to the different rectangles you c
 - Confusing factors and multiples (thinking factors are larger than the number, or multiples are smaller).
 - Missing factor pairs by not checking systematically (skipping divisors).
 - Forgetting that 1 and the number itself are always factors.
+
+## Explainer
+
+You have already worked with multiples — the endless chain of products you get by multiplying a number by 1, 2, 3, and so on. Now you are going to look at the same multiplication relationship from the opposite direction. While a **multiple** asks "what do I get by multiplying this number by something?", a **factor** asks "what numbers multiply together to make this number?" They are two sides of one coin: because 4 × 6 = 24, you simultaneously know that 4 and 6 are factors of 24, and that 24 is a multiple of both 4 and 6.
+
+A systematic way to find all the factors of a number is to hunt for **factor pairs** — pairs of whole numbers whose product equals your target. For 24, start at 1 and work upward: 1 × 24 = 24 ✓, 2 × 12 = 24 ✓, 3 × 8 = 24 ✓, 4 × 6 = 24 ✓, and 5 doesn't divide 24 evenly. When you try 6, you'd get 6 × 4 — a pair you've already found, just switched. That repeated pair signals you're done. The complete factor list of 24 is: 1, 2, 3, 4, 6, 8, 12, 24. You can visualize each pair as a different rectangular arrangement of 24 tiles — a 1×24 strip, a 2×12 rectangle, a 3×8 rectangle, and a 4×6 rectangle.
+
+A one-sentence check prevents the most common confusion: **a factor is always ≤ the original number; a multiple is always ≥ the original number**. The factors of 24 are all at most 24. The multiples of 24 start at 24 and climb without end. The number itself sits in both lists: 24 is a factor of itself (24 × 1 = 24) and it is its own smallest positive multiple (24 × 1 = 24).
+
+Factors and multiples are not just abstract number exercises — they are the engine behind fraction arithmetic. To add fractions with unlike denominators, you need a **common multiple** of those denominators. To simplify a fraction to lowest terms, you need a **common factor** of the numerator and denominator. Every fraction problem you encounter from here forward draws on exactly the skills you are building now.

@@ -34,3 +34,13 @@ Connect to parametric curves from single-variable calculus — a vector-valued f
 - r′(t) is a vector, not a scalar. Confusing magnitude with the derivative itself is common.
 - Integration of a vector-valued function produces a vector, not a number.
 - The chain rule still applies: if r(t) = r(g(t)), then dr/dt = r′(g(t))·g′(t).
+
+## Explainer
+
+You've worked with parametric curves in single-variable calculus — a curve traced by (x(t), y(t)) as t varies. A vector-valued function r(t) = ⟨f(t), g(t), h(t)⟩ is exactly that idea extended to three dimensions. The scalar parameter t can represent time, arc length, or any convenient variable. As t runs through its domain, the tip of the vector r(t) traces a **space curve** through ℝ³. Every point on the curve corresponds to a t-value, and the entire trajectory is encoded in a single vector expression.
+
+Limits, continuity, and derivatives are defined **component-wise**, meaning all the machinery from single-variable calculus carries over directly: r′(t) = ⟨f′(t), g′(t), h′(t)⟩ just differentiates each component independently. All derivative rules apply component-wise as well — the product rule, quotient rule, and chain rule each work on individual components. The chain rule for r(s(t)) gives dr/dt = r′(s(t)) · s′(t), where the scalar s′(t) scales the entire output vector.
+
+The geometric meaning of r′(t) is the **tangent vector** to the curve at r(t). It points in the direction of travel and its magnitude |r′(t)| is the instantaneous **speed**. Speed and velocity are distinct: **velocity** is the vector r′(t) (directional), **speed** is its scalar magnitude |r′(t)|. The **unit tangent vector** T(t) = r′(t)/|r′(t)| discards speed to preserve only direction — it will be essential when you study curvature and the Frenet-Serret frame for space curves.
+
+Integration also works component-wise: ∫r(t)dt = ⟨∫f(t)dt, ∫g(t)dt, ∫h(t)dt⟩, producing a vector antiderivative. A definite integral ∫_a^b r(t)dt produces a single vector representing **net displacement** — where you end up minus where you started. This is distinct from **arc length** ∫_a^b |r′(t)|dt, which is a scalar measuring total distance traveled along the curve. Net displacement and arc length agree only for straight-line motion in one direction; in general, a winding curve travels far more distance than its net displacement suggests. Keeping these two quantities conceptually separate is one of the key organizational skills in this part of multivariable calculus.

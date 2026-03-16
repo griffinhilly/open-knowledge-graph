@@ -35,3 +35,13 @@ Rewrite existing for-loop accumulation patterns as list comprehensions. Start wi
 - Writing complex nested comprehensions that sacrifice readability for brevity.
 - Confusing list comprehensions (produce a list) with generator expressions (produce a lazy iterator).
 - Forgetting that the expression comes before the for clause, unlike a for loop.
+
+## Explainer
+
+You are comfortable with for loops and list operations — you know how to iterate through a collection and build up a new list by appending to it inside a loop. **List comprehensions** are a more concise syntax for exactly that pattern, and once you see the correspondence, they become a natural part of how you write Python.
+
+Consider a common pattern: starting with an empty list, looping through some items, transforming each one, and appending the result. For example, to square every number in a list: `squares = []`, then `for x in numbers: squares.append(x ** 2)`. The list comprehension equivalent is `squares = [x ** 2 for x in numbers]`. The expression before `for` (here `x ** 2`) is the transformation applied to each element. The `for x in numbers` part is the iteration. The result is a new list containing every transformed value. The logic is identical to the loop — the comprehension is just a more compact way to express it.
+
+You can also add a **filter** with an `if` clause. To get only the even squares: `even_squares = [x ** 2 for x in numbers if x % 2 == 0]`. This is equivalent to putting an if-statement inside the loop before the append. The reading order is: "give me `x ** 2` for each `x` in `numbers`, but only if `x` is even." You can also nest comprehensions for working with multi-dimensional data — `[cell for row in matrix for cell in row]` flattens a list of lists — though nested comprehensions should be used sparingly because they become hard to read quickly.
+
+The advantage of comprehensions is not just brevity — they also signal **intent**. When a reader sees a list comprehension, they immediately know the result is a new list derived from an existing iterable. A for loop could be doing anything: printing, modifying global state, calling APIs. A comprehension declares "I am building a list by transforming data," which makes the code's purpose clear at a glance. As a rule of thumb, if the transformation and filter fit comfortably on one line and are easy to read, use a comprehension. If the logic requires multiple statements, intermediate variables, or complex branching, stick with a regular loop. The goal is always readability — comprehensions are a tool for clarity, not a puzzle to see how much logic you can compress into a single line.

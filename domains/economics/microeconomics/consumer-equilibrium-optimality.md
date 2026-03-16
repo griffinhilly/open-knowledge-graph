@@ -31,3 +31,13 @@ Use diagrams showing the tangency condition. Test sensitivity analysis: how does
 ## Common Misconceptions
 - Confusing the consumer's optimal bundle with the 'best' bundle in absolute terms—optimality is always relative to the budget constraint.
 - Assuming corner solutions (buying only one good) can never be optimal—they can be when preferences are extreme.
+
+## Explainer
+
+The consumer starts with two tools from prerequisites: an indifference map capturing preferences and a budget line capturing what's affordable. The optimization question is simply: which point on the budget line reaches the highest possible indifference curve? Geometry gives the answer immediately. At any point where the budget line cuts through an indifference curve rather than just touching it, you can slide along the budget line to a higher curve. The only point where you cannot do better is the **tangency point**, where the budget line just kisses the indifference curve without crossing.
+
+The tangency condition has an elegant algebraic interpretation. The slope of the indifference curve at any point is the **marginal rate of substitution** (MRS) — the rate at which you are willing to trade good 2 for good 1 while remaining equally satisfied. The slope of the budget line is P₁/P₂ — the rate at which the market will trade good 2 for good 1. When MRS ≠ P₁/P₂, your personal trade-off rate differs from the market's, and a beneficial reallocation is possible. If MRS > P₁/P₂, you value good 1 more than the market requires you to pay; buy more of it. The consumer adjusts until MRS = P₁/P₂, exhausting all beneficial trades.
+
+A useful restatement comes from expressing MRS in terms of marginal utilities: MRS = MU₁/MU₂. Substituting into the optimality condition gives MU₁/P₁ = MU₂/P₂. This **bang-per-buck** formulation says the last dollar spent on each good must deliver the same marginal utility at the optimum. If you got more utility per dollar from good 1 than good 2, you'd reallocate spending toward good 1 until the returns equalized. The equilibrium is thus a state of equalized marginal returns — no reallocation can improve your utility given the budget constraint.
+
+**Corner solutions** are the important exception. If you end up consuming only good 1, the tangency condition may not hold — the MRS may still exceed P₁/P₂ at the corner, but you cannot buy negative quantities of good 2. Corner solutions arise with extreme preferences: perfect substitutes produce a corner whenever the indifference curve slope doesn't exactly match the price ratio, and lexicographic preferences always yield a corner. Recognizing whether a solution is interior (tangency) or corner requires checking both the first-order condition and the boundary.

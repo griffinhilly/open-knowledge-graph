@@ -21,3 +21,13 @@ status: draft
 
 ## Core Idea
 The span of vectors v₁, ..., vₖ is the set of all linear combinations c₁v₁ + ... + cₖvₖ. Span(v₁, ..., vₖ) is a subspace. A set spans a space V if every vector in V can be expressed as a combination. Spanning sets can be linearly dependent; bases are minimal spanning sets.
+
+## Explainer
+
+You already understand linear independence: a set of vectors is independent if none of them can be written as a linear combination of the others — no vector is redundant. The concept of **span** asks a complementary question. Instead of asking "is any vector in this set built from the others?", span asks: "what can you build using these vectors as ingredients?" The span of {v₁, ..., vₖ} is every vector of the form c₁v₁ + c₂v₂ + ... + cₖvₖ, where the constants c₁, ..., cₖ range over all real numbers. It is the set of everything reachable by scaling and adding the given vectors.
+
+Concrete examples make this vivid. In ℝ², the span of a single nonzero vector v is a line through the origin — you can reach any point on that line by scaling v, but nothing off it. The span of two linearly independent vectors in ℝ² is all of ℝ² — you can reach every point in the plane by choosing appropriate scalars. But if two vectors are parallel (linearly dependent), their span is still just a line, because the second vector adds no new reach. This illustrates the key insight: **more vectors in a set does not automatically mean a larger span** if the new vectors are already combinations of the old ones.
+
+Span always produces a **subspace**: it contains the zero vector (take all scalars to be zero), it is closed under addition, and it is closed under scalar multiplication. This is not a coincidence — the span is the smallest subspace containing all the vectors in the set. Any subspace that contains v₁, ..., vₖ must contain all their linear combinations, so Span(v₁, ..., vₖ) is the intersection of all such subspaces.
+
+A set of vectors **spans** a vector space V if Span(v₁, ..., vₖ) = V — meaning every vector in V is reachable. A spanning set can have redundancy: for instance, {e₁, e₂, e₁ + e₂} spans ℝ² even though three vectors are more than the minimum needed. A **basis** is a spanning set with no redundancy — it spans V and is linearly independent simultaneously. This is why bases are described as minimal spanning sets: remove any vector and you lose the ability to reach some part of the space. Span and linear independence are the two sides of the coin that define a basis, the topic you will encounter next.

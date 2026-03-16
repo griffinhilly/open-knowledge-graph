@@ -33,3 +33,13 @@ Sort shapes using Venn diagrams and hierarchical charts. Emphasize that classifi
 - Thinking that a square is not a rectangle (not understanding hierarchical classification).
 - Relying on visual appearance rather than properties (a rotated square looks like a "diamond" but is still a square).
 - Thinking regular and irregular versions of the same polygon are different types of shapes entirely.
+
+## Explainer
+
+You already know how to classify angles (right, acute, obtuse) and recognize parallel and perpendicular lines. Shape classification applies those tools to build a **hierarchy** — a nested system of categories where each level adds a constraint. A shape belongs to a category not because it "looks like" a classic example, but because it has the required properties.
+
+Start with **polygons**: closed figures made entirely of straight sides. Polygons are named by side count — triangle (3), quadrilateral (4), pentagon (5), hexagon (6), and so on. Within the quadrilaterals, you can add constraints to get subcategories. A **parallelogram** has two pairs of parallel sides. A **rectangle** is a parallelogram with four right angles. A **rhombus** is a parallelogram with four equal sides. A **square** is a parallelogram with four right angles *and* four equal sides — making it both a rectangle and a rhombus simultaneously. A **trapezoid** has exactly one pair of parallel sides and does not fit inside the parallelogram branch.
+
+The crucial insight is that these categories **nest**: every square is a rectangle (it has four right angles), every rectangle is a parallelogram (it has two pairs of parallel sides), every parallelogram is a quadrilateral (it has four sides). This means a true statement about all parallelograms is automatically true about all rectangles and all squares. The hierarchy is not arbitrary — it reflects which properties imply which other properties.
+
+This is why the statement "a square is not a rectangle" is *false* even though it feels intuitively right to many students. Being a rectangle requires only four right angles — a square satisfies that requirement. Classification is about necessary and sufficient conditions, not about visual appearance. A square rotated 45° so it sits on a corner looks like a "diamond," but its properties have not changed: it still has four equal sides and four right angles, so it is still a square, a rectangle, and a rhombus. When classifying, always ask: *does this shape have the required properties?* — not *does it look like the typical example?*

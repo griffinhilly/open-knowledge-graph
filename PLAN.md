@@ -142,9 +142,13 @@ Expanding non-math domains from ~20 topics/course toward ~35-40 topics/course.
 - [x] Search bar (Ctrl+F) on all graph views
 - [x] Course breadcrumb links on topic pages
 - [x] culture-concept data fix (stage + edge corrections)
-- [ ] Render Questions + Explainer sections on topic detail pages
+- [x] Render Questions + Explainer sections on topic detail pages
+  - Explainers render on topic pages; Questions on separate interactive pages with scoring
+- [x] Explainer generation for all 13,489 topics (30-worker Sonnet swarm, Mar 16)
+- [ ] Questions generation for remaining ~12,483 topics (30-worker Sonnet swarm)
+  - Manifests built, prioritized by hub connectivity + younger developmental stages
+  - Resume after weekly token limit resets (Saturday Mar 21)
 - [ ] Triage top radial ordering violations (676 edges with 2+ stage gap)
 - [ ] Add assessment generation to GitHub Actions workflow
 - [ ] Promote new draft topics to validated after review
 - [ ] Write announcement post
-- [ ] Populate Q+E across remaining topics (contributor-driven + more overnight runs)

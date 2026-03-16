@@ -32,3 +32,13 @@ Review fraction operations (common denominators for addition/subtraction, multip
 - Applying different sign rules for fractions than for integers (the rules are the same).
 - Adding fractions by adding numerators and denominators separately without finding a common denominator.
 - Forgetting to simplify results or convert improper fractions.
+
+## Explainer
+
+A **rational number** is any number that can be written as a fraction p/q, where p and q are integers and q ≠ 0. This family is larger than it might first appear: every integer is rational (3 = 3/1), every terminating decimal is rational (0.75 = 3/4), and every repeating decimal is rational (0.333… = 1/3). The word "rational" comes from "ratio" — it simply means expressible as a ratio of two integers.
+
+You already know how to add fractions with unlike denominators (find the LCD, rewrite each fraction, add numerators) and how to apply sign rules to integers (same signs → positive, opposite signs → negative). Rational number operations combine both skills. For addition and subtraction, the denominator process is unchanged — you still need a common denominator — but now numerators can be negative. For example, −3/4 + 1/2: the LCD is 4, so rewrite as −3/4 + 2/4 = −1/4. The integer rule kicks in at the numerator level: −3 + 2 = −1, applying the same rule you use for negative integers on a number line.
+
+Multiplication is simpler: multiply numerators together, multiply denominators together, then apply the sign. (−2/3) × (5/7) = −10/21 — negative times positive gives negative. Division means "multiply by the reciprocal": (−3/4) ÷ (1/2) = (−3/4) × (2/1) = −6/4 = −3/2. The key insight is that **fractions obey the same sign rules as integers** because a negative fraction like −3/4 is just a negative number that happens to sit between −1 and 0. There is no separate rule to learn; the sign lives with the numerator.
+
+Decimals follow the same logic. −2.5 × 1.4: ignore signs to get 2.5 × 1.4 = 3.5, then apply the sign rule (negative × positive = negative), giving −3.5. For mixed expressions combining fractions and decimals, convert to a common form first — usually fractions, since decimals can introduce rounding. Fluency with these operations is the foundation for everything in algebra: nearly every equation you will encounter has rational coefficients, and manipulating those coefficients correctly requires exactly these skills.

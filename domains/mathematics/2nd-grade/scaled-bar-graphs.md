@@ -36,3 +36,13 @@ Collect real classroom data (favorite colors, pets, etc.) and build a scaled bar
 - Reading bars that fall between scale lines as the nearest labeled value.
 - Not using the scale key — treating each grid square as 1.
 - Confusing 'how many more' questions (need subtraction) with 'how many total' questions (need addition).
+
+## Explainer
+
+You've read basic bar graphs where each bar was counted square by square, and you've practiced skip-counting by 5s and 10s. A **scaled bar graph** brings these two ideas together: instead of each grid line representing 1 unit, each line represents a group — like 5, 10, or 2. The scale multiplies your ability to display large amounts without drawing enormous bars or a cluttered axis with dozens of tick marks.
+
+The most important habit is always checking the **scale key** on the axis before reading any bar. If the scale says each interval equals 5, then a bar reaching the fourth line equals 4 × 5 = 20, not 4. A bar ending halfway between lines represents a value halfway between the two labeled amounts — if the lines are at 20 and 25, a bar halfway up is about 22 or 23. Every reading error in scaled bar graphs traces back to forgetting or ignoring the scale, so make it the first thing you look at.
+
+Drawing your own scaled bar graph requires one additional judgment: choosing a scale that fits your data neatly. If the largest value in your data is 30, a scale of 5 gives you 6 clean intervals. A scale of 1 would require 30 grid lines — awkward and cramped. A scale of 10 would make a bar for the value 15 land between two lines — harder to draw and read. A good scale keeps most bars landing exactly on lines and makes the graph readable at a glance. There's no single right answer, but larger data values call for larger scale intervals.
+
+Answering **comparison questions** — "How many more cats than dogs?" or "How many fewer students chose blue than red?" — requires subtraction. Read both bars, convert to values using the scale, then subtract the smaller from the larger. These are the most common questions in assessments, and they test both reading accuracy and arithmetic. If you misread a bar because you forgot the scale, your subtraction will be wrong even if the calculation is correct. Read carefully first; calculate second.

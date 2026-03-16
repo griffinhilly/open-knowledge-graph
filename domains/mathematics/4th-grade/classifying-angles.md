@@ -27,3 +27,13 @@ Start with the right angle as the benchmark -- use a corner of a sheet of paper.
 - Thinking the size of an angle depends on the length of the rays (longer rays do not mean a bigger angle).
 - Confusing the angle with the space outside the rays rather than between them.
 - Not recognizing right angles when they are rotated (a right angle does not have to have one horizontal and one vertical ray).
+
+## Explainer
+
+You've worked with points, lines, rays, and segments — the building blocks of geometry. An **angle** is what you get when two rays share a common starting point, called the **vertex**. The angle is the amount of opening between those two rays: how far you'd have to rotate one ray to land on the other.
+
+The most useful benchmark is the **right angle** — exactly 90 degrees. You can find right angles everywhere: the corner of a piece of paper, the corner of a room, the intersection of a plus sign. Right angles have a special symbol: a small square drawn at the vertex. Once you know what a right angle feels like, you can classify any other angle by comparison. If the opening is smaller than a right angle, it's an **acute angle** (think of the sharp, narrow tip of a wedge). If it's larger than a right angle but less than a straight line, it's an **obtuse angle** (think of a door propped open past 90 degrees). If it opens all the way to a straight line — 180 degrees — it's a **straight angle**.
+
+Here's the most important thing to understand about angles: **the size of an angle has nothing to do with the length of its rays**. A clock hand that's 6 inches long and one that's 1 inch long make exactly the same angle when they point to the same numbers. The angle is the rotation between the rays, not the distance along them. This is why we measure angles in degrees (a unit of rotation), not in inches.
+
+Angle classification connects directly to shape classification. A square has four right angles. A triangle with one right angle is a right triangle; if all angles are acute, it's an acute triangle. When you look at a roof peak, you're seeing an acute angle; when you look at a door opened wide, you're seeing an obtuse angle. Developing the habit of asking "is this bigger or smaller than a right angle corner?" gives you a quick, reliable way to classify any angle you encounter — even when it's tilted or in an unexpected orientation.

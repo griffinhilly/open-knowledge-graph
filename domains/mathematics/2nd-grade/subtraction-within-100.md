@@ -34,3 +34,13 @@ Encourage students to use the 'counting up' strategy for problems where the numb
 - Always using the most laborious strategy (e.g., counting back by ones) regardless of the numbers.
 - Forgetting that subtraction is not commutative.
 - Regrouping errors from two-digit subtraction carrying over.
+
+## Explainer
+
+Subtraction within 100 is not one skill — it's a toolkit of strategies, and picking the right one for each problem is what fluency actually looks like. You've already worked through the standard borrowing algorithm and practiced adding and subtracting tens mentally. Now you're putting those tools together and learning when each one shines.
+
+The **counting-up strategy** is one of the most powerful and underused. Instead of computing 81 − 76 by borrowing, ask: "What do I add to 76 to get to 81?" Count up: 76 + 4 = 80, then 80 + 1 = 81. The answer is 5. Counting up is fastest when the two numbers are close together. It also connects subtraction back to the addition work you already know — which is exactly the relationship between addition and subtraction you've been studying. They're two ways of describing the same gap between numbers.
+
+The **subtract tens, then ones** strategy works well when the numbers are farther apart. For 94 − 37: subtract the tens first (94 − 30 = 64), then subtract the ones (64 − 7 = 57). This keeps the computation in chunks small enough to track in your head or on a number line without having to borrow. If subtracting the ones would go below zero (like 64 − 7, where 4 < 7), you can jump back to a ten and adjust — for instance, 64 − 4 = 60, then 60 − 3 = 57.
+
+One of the most useful habits is **estimating before you compute**. Before solving 83 − 48, ask: about how much is this? 80 − 50 = 30, so the answer should be around 30. When you get 35, that feels right. When you get 135 by accidentally adding instead of subtracting, the estimate immediately flags the error. Estimation is not a separate skill — it's a built-in check that catches mistakes before they become wrong answers on paper.

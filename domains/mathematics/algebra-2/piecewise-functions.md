@@ -38,3 +38,13 @@ Start with the absolute value function as a familiar piecewise function. Practic
 - Drawing pieces beyond their defined intervals.
 - Confusing open and closed circles at boundary points (closed means the point is included, open means it is not).
 - Thinking all piecewise functions are discontinuous (many are continuous, like |x|).
+
+## Explainer
+
+A **piecewise function** is a single function that uses different rules depending on where the input falls. You've seen this structure before without naming it: the absolute value function |x| is just a piecewise function with the rule "use x if x ≥ 0, use −x if x < 0." This makes intuitive sense — |x| has to do something different for positive and negative inputs. Piecewise functions generalize this idea: you can stitch together any number of formulas, each responsible for a different piece of the domain.
+
+Evaluating a piecewise function requires two steps. First, determine which interval your input x belongs to. Second, apply the formula for that interval. For example, if f(x) = {x² for x < 0; 2x + 1 for x ≥ 0}, then f(−3) uses the first piece: (−3)² = 9. But f(2) uses the second piece: 2(2) + 1 = 5. The domain restrictions are the guardrails — you must check which "case" applies before computing. This is directly connected to solving inequalities: the condition "x < 0" is an inequality, and you're using your inequality-solving skills to decide which branch applies.
+
+Graphing a piecewise function means drawing each piece only on its specified interval, like coloring within strict boundary lines. At the boundary point between two pieces, you must decide which piece "owns" that point. An **open circle** at an endpoint means the piece stops just before that value (the point is excluded); a **closed circle** means the piece includes that endpoint. If two pieces meet at the same y-value at their shared boundary, the function is continuous there — the graph has no jump. If they meet at different y-values, there is a jump discontinuity. The absolute value function is piecewise but continuous because both pieces give y = 0 at x = 0.
+
+Real-world contexts are full of piecewise functions. Tax brackets are a classic example: you pay one rate on income up to a threshold, a higher rate on income above it. Postage pricing works similarly — a letter under 1 oz costs one amount, 1–2 oz costs more. These scenarios naturally produce piecewise rules because the underlying relationship genuinely changes at boundary values. Recognizing this pattern — "different rules for different ranges" — is the core skill that piecewise functions develop, and it's foundational for understanding continuity more rigorously in calculus.

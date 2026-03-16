@@ -27,3 +27,13 @@ Practice applying inference rules to simple arguments first. Write out formal pr
 
 ## Common Misconceptions
 - Confusing affirming the consequent with modus ponens. - Believing that a logical rule is valid just because it looks similar to a valid rule.
+
+## Explainer
+
+From your study of propositional logic, you know that compound statements are built from simpler ones using connectives like ∧, ∨, ¬, and →. Truth tables let you evaluate any statement given the truth values of its components. But proofs don't work by evaluating truth tables — they work by chaining together inference steps, each one guaranteed to preserve truth. **Inference rules** are the licensed moves of that game.
+
+The most fundamental rule is **modus ponens**: if you know P → Q is true, and you know P is true, you can conclude Q is true. This matches ordinary reasoning — "If it rains, the ground gets wet; it is raining; therefore the ground is wet." Its partner is **modus tollens**: if P → Q and ¬Q, then ¬Q forces ¬P (the contrapositive). The key mistake to avoid is **affirming the consequent**: from P → Q and Q, you cannot conclude P. The ground might be wet because a pipe burst, not because it rained. That inference pattern is invalid — it does not preserve truth.
+
+Two more rules complete the basic toolkit. **Disjunctive syllogism**: from P ∨ Q and ¬P, you may conclude Q. If you know one of two things is true and you rule out the first, the second must hold. **Hypothetical syllogism**: from P → Q and Q → R, you may chain them into P → R. This is the logical version of transitivity, and it underlies multi-step proofs where you build a path from hypothesis to conclusion through intermediate steps.
+
+In practice, a formal proof is a numbered sequence of statements, where each statement is either a given premise or follows from earlier statements by a named inference rule. This discipline forces you to be explicit about *why* each step is valid, not just *that* it seems right. The payoff comes in the next topics — direct proof and proof by contrapositive — which are precisely modus ponens and modus tollens applied at the level of mathematical theorems. Every proof technique in mathematics is, at its core, a disciplined application of these inference rules.
