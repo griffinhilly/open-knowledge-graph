@@ -683,6 +683,7 @@ canvas {{ display:block; }}
 <body>
 
 <canvas id="canvas"></canvas>
+<div id="touchDebug" style="display:none; position:fixed; top:50%; left:16px; right:16px; background:rgba(255,0,0,0.9); color:#fff; padding:12px; border-radius:8px; z-index:999; font-size:12px; font-family:monospace; word-break:break-all;"></div>
 
 <div id="stats">
   <h2>{title}</h2>
@@ -1186,6 +1187,13 @@ canvas.addEventListener("touchend", (e) => {{
         if (d < closestDist) {{ closestDist = d; closest = n; }}
       }});
       const hitRadius = Math.max(nodeRadius * 3, 18) / camScale;
+      // Debug: show tap info
+      const dbg = document.getElementById("touchDebug");
+      if (dbg) {{
+        dbg.textContent = `tap(${{Math.round(lastTouchX)}},${{Math.round(lastTouchY)}}) world(${{Math.round(p.x)}},${{Math.round(p.y)}}) closest=${{closest ? closest.title : "none"}} dist=${{Math.round(closestDist)}} hitR=${{Math.round(hitRadius)}} dragMoved=${{dragMoved}}`;
+        dbg.style.display = "block";
+        setTimeout(() => dbg.style.display = "none", 5000);
+      }}
       if (closest && closestDist < hitRadius) {{
         hoveredNode = closest;
         draw();
@@ -1194,6 +1202,14 @@ canvas.addEventListener("touchend", (e) => {{
         hoveredNode = null;
         draw();
         hidePanel();
+      }}
+    }} else {{
+      // Debug: show drag info
+      const dbg = document.getElementById("touchDebug");
+      if (dbg) {{
+        dbg.textContent = `dragMoved=true (not a tap)`;
+        dbg.style.display = "block";
+        setTimeout(() => dbg.style.display = "none", 3000);
       }}
     }}
   }} else if (e.touches.length === 1) {{
