@@ -646,7 +646,7 @@ def generate_topic_page(tid, all_data, all_sections, prereqs_of, dependents_of, 
     tags_html = ""
     if tags:
         tags_html = " ".join(
-            f'<span class="tag">{html_mod.escape(str(t))}</span>' for t in tags
+            f'<a href="tags/{tag_to_slug(t)}.html" class="tag">{html_mod.escape(str(t))}</a>' for t in tags
         )
 
     return f"""<!DOCTYPE html>
@@ -709,7 +709,9 @@ h1 {{
   background:#151525; border:1px solid #252540;
   padding:2px 8px; border-radius:4px;
   font-size:11px; color:#667;
+  text-decoration:none; transition:border-color 0.2s, color 0.2s;
 }}
+.tag:hover {{ border-color:#444; color:#aab; text-decoration:none; }}
 
 .section {{
   margin-bottom:32px;
@@ -875,6 +877,206 @@ h1 {{
 </html>"""
 
 
+def tag_to_slug(tag):
+    """Convert a tag to a safe filename slug."""
+    slug = str(tag).lower().strip()
+    slug = re.sub(r'[^\w\s-]', '', slug)  # Remove special chars except hyphens
+    slug = re.sub(r'[\s_]+', '-', slug)   # Spaces/underscores to hyphens
+    slug = re.sub(r'-+', '-', slug).strip('-')
+    return slug or 'other'
+
+
+def build_tag_index(all_data):
+    """Build a mapping of tag -> list of topic IDs."""
+    tag_map = defaultdict(list)
+    for tid, data in all_data.items():
+        for tag in data.get("tags", []):
+            tag_map[str(tag).lower()].append(tid)
+    return tag_map
+
+
+def generate_tag_page(tag, topic_ids, all_data):
+    """Generate an HTML page listing all topics with a given tag."""
+    # Sort topics by domain, then title
+    sorted_topics = sorted(
+        topic_ids,
+        key=lambda tid: (
+            all_data[tid].get("domain", ""),
+            all_data[tid].get("title", tid),
+        ),
+    )
+
+    # Group by domain
+    by_domain = defaultdict(list)
+    for tid in sorted_topics:
+        by_domain[all_data[tid].get("domain", "other")].append(tid)
+
+    items_html = []
+    for domain in sorted(by_domain.keys()):
+        domain_label = domain.replace("-", " ").title()
+        hue = DOMAIN_HUES.get(domain, 0)
+        items_html.append(
+            f'<div class="domain-group">'
+            f'<h3 style="color:hsl({hue},50%,65%)">{html_mod.escape(domain_label)}</h3>'
+        )
+        for tid in by_domain[domain]:
+            title = all_data[tid].get("title", tid)
+            stage = all_data[tid].get("stage", "")
+            stage_label = STAGE_LABELS.get(stage, stage)
+            items_html.append(
+                f'<a href="../{tid}.html" class="topic-card">'
+                f'<span class="topic-dot" style="background:hsl({hue},55%,50%)"></span>'
+                f'<span class="topic-title">{html_mod.escape(title)}</span>'
+                f'<span class="topic-stage">{html_mod.escape(stage_label)}</span>'
+                f'</a>'
+            )
+        items_html.append('</div>')
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tag: {html_mod.escape(tag)} — Open Knowledge Graph</title>
+<style>
+* {{ margin:0; padding:0; box-sizing:border-box; }}
+body {{
+  background:#0a0a14; color:#ccc;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  line-height:1.6;
+}}
+a {{ color:#7ab; text-decoration:none; }}
+a:hover {{ color:#9cd; text-decoration:underline; }}
+.container {{ max-width:820px; margin:0 auto; padding:40px 24px 80px; }}
+.nav {{
+  display:flex; gap:12px; margin-bottom:32px; font-size:13px;
+}}
+.nav a {{
+  color:#556; padding:4px 10px;
+  border:1px solid #222; border-radius:4px;
+  transition:border-color 0.2s;
+}}
+.nav a:hover {{ border-color:#555; color:#aaa; text-decoration:none; }}
+h1 {{ font-size:24px; color:#eee; margin-bottom:4px; }}
+.subtitle {{ font-size:14px; color:#667; margin-bottom:28px; }}
+.domain-group {{ margin-bottom:24px; }}
+.domain-group h3 {{
+  font-size:13px; text-transform:uppercase; letter-spacing:0.5px;
+  margin-bottom:8px; padding-bottom:4px; border-bottom:1px solid #1a1a2e;
+}}
+.topic-card {{
+  display:flex; align-items:center; gap:10px;
+  padding:8px 14px;
+  background:#0e0e1a; border:1px solid #1a1a2e;
+  border-radius:6px; text-decoration:none;
+  margin-bottom:4px;
+  transition:border-color 0.2s, background 0.2s;
+}}
+.topic-card:hover {{ border-color:#333; background:#12122a; text-decoration:none; }}
+.topic-dot {{ width:8px; height:8px; border-radius:50%; flex-shrink:0; }}
+.topic-title {{ flex:1; color:#bbc; font-size:14px; }}
+.topic-stage {{ font-size:11px; color:#556; }}
+@media (max-width: 768px) {{
+  .container {{ padding:20px 16px 60px; }}
+  h1 {{ font-size:20px; }}
+}}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="nav">
+  <a href="../radial-graph.html">Graph View</a>
+  <a href="../index.html">All Domains</a>
+  <a href="index.html">All Tags</a>
+</div>
+<h1>#{html_mod.escape(tag)}</h1>
+<p class="subtitle">{len(topic_ids)} topics</p>
+{"".join(items_html)}
+</div>
+</body>
+</html>"""
+
+
+def generate_tag_index(tag_map):
+    """Generate an index page listing all tags with topic counts."""
+    # Sort tags by topic count (descending), then alphabetically
+    sorted_tags = sorted(tag_map.keys(), key=lambda t: (-len(tag_map[t]), t))
+
+    items = []
+    for tag in sorted_tags:
+        count = len(tag_map[tag])
+        items.append(
+            f'<a href="{tag_to_slug(tag)}.html" class="tag-card">'
+            f'<span class="tag-name">{html_mod.escape(tag)}</span>'
+            f'<span class="tag-count">{count}</span>'
+            f'</a>'
+        )
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tags — Open Knowledge Graph</title>
+<style>
+* {{ margin:0; padding:0; box-sizing:border-box; }}
+body {{
+  background:#0a0a14; color:#ccc;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  line-height:1.6;
+}}
+a {{ color:#7ab; text-decoration:none; }}
+a:hover {{ color:#9cd; text-decoration:underline; }}
+.container {{ max-width:820px; margin:0 auto; padding:40px 24px 80px; }}
+.nav {{
+  display:flex; gap:12px; margin-bottom:32px; font-size:13px;
+}}
+.nav a {{
+  color:#556; padding:4px 10px;
+  border:1px solid #222; border-radius:4px;
+  transition:border-color 0.2s;
+}}
+.nav a:hover {{ border-color:#555; color:#aaa; text-decoration:none; }}
+h1 {{ font-size:24px; color:#eee; margin-bottom:4px; }}
+.subtitle {{ font-size:14px; color:#667; margin-bottom:28px; }}
+.tag-grid {{
+  display:flex; flex-wrap:wrap; gap:8px;
+}}
+.tag-card {{
+  display:inline-flex; align-items:center; gap:8px;
+  padding:6px 14px;
+  background:#0e0e1a; border:1px solid #1a1a2e;
+  border-radius:6px; text-decoration:none;
+  transition:border-color 0.2s, background 0.2s;
+}}
+.tag-card:hover {{ border-color:#333; background:#12122a; text-decoration:none; }}
+.tag-name {{ color:#bbc; font-size:14px; }}
+.tag-count {{
+  font-size:11px; color:#556;
+  background:#151525; padding:1px 6px; border-radius:10px;
+}}
+@media (max-width: 768px) {{
+  .container {{ padding:20px 16px 60px; }}
+  h1 {{ font-size:20px; }}
+}}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="nav">
+  <a href="../radial-graph.html">Graph View</a>
+  <a href="../index.html">All Domains</a>
+</div>
+<h1>Tags</h1>
+<p class="subtitle">{len(tag_map)} tags across {sum(len(v) for v in tag_map.values())} topic-tag pairs</p>
+<div class="tag-grid">
+{"".join(items)}
+</div>
+</div>
+</body>
+</html>"""
+
+
 def main():
     print("Loading topics...")
     all_data, all_sections = load_all_topics()
@@ -910,7 +1112,22 @@ def main():
         if count % 500 == 0:
             print(f"  {count}/{len(all_data)}...")
 
-    print(f"Done! {count} topic pages + {q_count} question pages in {TOPICS_DIR}")
+    # Generate tag pages
+    print("Building tag index...")
+    tag_map = build_tag_index(all_data)
+    tags_dir = TOPICS_DIR / "tags"
+    tags_dir.mkdir(exist_ok=True)
+
+    for tag, tids in tag_map.items():
+        tag_html = generate_tag_page(tag, tids, all_data)
+        tag_out = tags_dir / f"{tag_to_slug(tag)}.html"
+        tag_out.write_text(tag_html, encoding="utf-8")
+
+    # Tag index page
+    index_html = generate_tag_index(tag_map)
+    (tags_dir / "index.html").write_text(index_html, encoding="utf-8")
+
+    print(f"Done! {count} topic pages + {q_count} question pages + {len(tag_map)} tag pages in {TOPICS_DIR}")
 
 
 if __name__ == "__main__":

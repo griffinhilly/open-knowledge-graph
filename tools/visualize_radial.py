@@ -516,6 +516,7 @@ def generate_radial_html(all_data, configs, depths, positions, sectors, domain_o
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <title>{title}</title>
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
@@ -598,6 +599,19 @@ canvas {{ display:block; cursor:grab; }}
 }}
 #search input:focus {{ border-color:#556; }}
 #search .count {{ font-size:11px; color:#556; white-space:nowrap; }}
+@media (max-width: 768px) {{
+  #stats {{ top:8px; left:8px; padding:8px 10px; }}
+  #stats h2 {{ font-size:13px; }}
+  #stats p {{ font-size:10px; }}
+  #nav {{ padding:4px 8px; gap:6px; }}
+  #nav a {{ font-size:11px; padding:2px 4px; }}
+  #controls {{ top:8px; right:8px; }}
+  #controls button {{ padding:3px 8px; font-size:11px; }}
+  #panel {{ max-width:calc(100vw - 32px); left:16px !important; right:16px !important; }}
+  #search {{ width:calc(100vw - 32px); left:16px; transform:none; }}
+  #search input {{ flex:1; width:auto; }}
+  #tooltip {{ max-width:200px; font-size:11px; }}
+}}
 </style>
 </head>
 <body>
@@ -1040,6 +1054,81 @@ canvas.addEventListener("wheel", (e) => {{
   const factor = e.deltaY > 0 ? 0.9 : 1.1;
   camScale = Math.max(0.1, Math.min(20, camScale * factor));
   draw();
+}}, {{ passive: false }});
+
+// Touch support: single-finger pan, two-finger pinch-to-zoom
+let touches = {{}};
+let lastPinchDist = 0;
+let lastTouchX = 0, lastTouchY = 0;
+
+function touchDist(t) {{
+  const [a, b] = [t[0], t[1]];
+  return Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
+}}
+function touchCenter(t) {{
+  const [a, b] = [t[0], t[1]];
+  return {{ x: (a.clientX + b.clientX) / 2, y: (a.clientY + b.clientY) / 2 }};
+}}
+
+canvas.addEventListener("touchstart", (e) => {{
+  e.preventDefault();
+  if (e.touches.length === 1) {{
+    lastTouchX = e.touches[0].clientX;
+    lastTouchY = e.touches[0].clientY;
+    isDragging = true;
+    dragMoved = false;
+  }} else if (e.touches.length === 2) {{
+    lastPinchDist = touchDist(e.touches);
+    const c = touchCenter(e.touches);
+    lastTouchX = c.x; lastTouchY = c.y;
+  }}
+  tooltip.style.display = "none";
+}}, {{ passive: false }});
+
+canvas.addEventListener("touchmove", (e) => {{
+  e.preventDefault();
+  if (e.touches.length === 1 && isDragging) {{
+    const dx = e.touches[0].clientX - lastTouchX;
+    const dy = e.touches[0].clientY - lastTouchY;
+    camX += dx; camY += dy;
+    lastTouchX = e.touches[0].clientX;
+    lastTouchY = e.touches[0].clientY;
+    if (Math.abs(dx) > 3 || Math.abs(dy) > 3) dragMoved = true;
+    draw();
+  }} else if (e.touches.length === 2) {{
+    const dist = touchDist(e.touches);
+    const c = touchCenter(e.touches);
+    // Pinch zoom
+    if (lastPinchDist > 0) {{
+      const factor = dist / lastPinchDist;
+      camScale = Math.max(0.1, Math.min(20, camScale * factor));
+    }}
+    // Two-finger pan
+    camX += c.x - lastTouchX;
+    camY += c.y - lastTouchY;
+    lastPinchDist = dist;
+    lastTouchX = c.x; lastTouchY = c.y;
+    dragMoved = true;
+    draw();
+  }}
+}}, {{ passive: false }});
+
+canvas.addEventListener("touchend", (e) => {{
+  e.preventDefault();
+  if (e.touches.length === 0) {{
+    isDragging = false;
+    lastPinchDist = 0;
+    if (!dragMoved && hoveredNode) {{
+      // Tap on node
+      showPanel(hoveredNode, lastTouchX, lastTouchY);
+    }} else if (!dragMoved) {{
+      hidePanel();
+    }}
+  }} else if (e.touches.length === 1) {{
+    lastTouchX = e.touches[0].clientX;
+    lastTouchY = e.touches[0].clientY;
+    lastPinchDist = 0;
+  }}
 }}, {{ passive: false }});
 </script>
 </body>

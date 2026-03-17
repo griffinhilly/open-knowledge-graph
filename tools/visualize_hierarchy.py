@@ -570,6 +570,7 @@ def generate_html(nodes, edges, title="Open Knowledge Graph",
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <title>{title}</title>
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
@@ -663,6 +664,18 @@ canvas {{ display:block; }}
 }}
 #search input:focus {{ border-color:#667; }}
 #search .count {{ font-size:11px; color:#667; white-space:nowrap; }}
+@media (max-width: 768px) {{
+  #stats {{ padding:6px 10px; }}
+  #stats h2 {{ font-size:12px; }}
+  #stats p {{ font-size:10px; }}
+  #nav {{ padding:4px 8px; gap:6px; }}
+  #nav a {{ font-size:11px; padding:2px 4px; }}
+  #controls button {{ padding:3px 8px; font-size:11px; }}
+  #panel {{ max-width:calc(100vw - 32px); left:16px !important; right:16px !important; }}
+  #search {{ width:calc(100vw - 32px); left:16px; transform:none; }}
+  #search input {{ flex:1; width:auto; }}
+  #tooltip {{ max-width:200px; font-size:11px; }}
+}}
 </style>
 </head>
 <body>
@@ -1091,6 +1104,81 @@ canvas.addEventListener("wheel", (e) => {{
   draw();
 }}, {{ passive: false }});
 
+// Touch support: single-finger pan, two-finger pinch-to-zoom
+let lastPinchDist = 0;
+let lastTouchX = 0, lastTouchY = 0;
+
+function touchDist(t) {{
+  const [a, b] = [t[0], t[1]];
+  return Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
+}}
+function touchCenter(t) {{
+  const [a, b] = [t[0], t[1]];
+  return {{ x: (a.clientX + b.clientX) / 2, y: (a.clientY + b.clientY) / 2 }};
+}}
+
+canvas.addEventListener("touchstart", (e) => {{
+  e.preventDefault();
+  if (e.touches.length === 1) {{
+    lastTouchX = e.touches[0].clientX;
+    lastTouchY = e.touches[0].clientY;
+    isDragging = true;
+    dragMoved = false;
+  }} else if (e.touches.length === 2) {{
+    lastPinchDist = touchDist(e.touches);
+    const c = touchCenter(e.touches);
+    lastTouchX = c.x; lastTouchY = c.y;
+  }}
+  tooltip.style.display = "none";
+}}, {{ passive: false }});
+
+canvas.addEventListener("touchmove", (e) => {{
+  e.preventDefault();
+  if (e.touches.length === 1 && isDragging) {{
+    const dx = e.touches[0].clientX - lastTouchX;
+    const dy = e.touches[0].clientY - lastTouchY;
+    camOffX += dx; camOffY += dy;
+    lastTouchX = e.touches[0].clientX;
+    lastTouchY = e.touches[0].clientY;
+    if (Math.abs(dx) > 3 || Math.abs(dy) > 3) dragMoved = true;
+    draw();
+  }} else if (e.touches.length === 2) {{
+    const dist = touchDist(e.touches);
+    const c = touchCenter(e.touches);
+    if (lastPinchDist > 0) {{
+      const factor = dist / lastPinchDist;
+      const wx = (c.x - camOffX) / camScale;
+      const wy = (c.y - camOffY) / camScale;
+      camScale = Math.max(0.05, Math.min(5, camScale * factor));
+      camOffX = c.x - wx * camScale;
+      camOffY = c.y - wy * camScale;
+    }}
+    camOffX += c.x - lastTouchX;
+    camOffY += c.y - lastTouchY;
+    lastPinchDist = dist;
+    lastTouchX = c.x; lastTouchY = c.y;
+    dragMoved = true;
+    draw();
+  }}
+}}, {{ passive: false }});
+
+canvas.addEventListener("touchend", (e) => {{
+  e.preventDefault();
+  if (e.touches.length === 0) {{
+    isDragging = false;
+    lastPinchDist = 0;
+    if (!dragMoved && hoveredNode) {{
+      showPanel(hoveredNode, lastTouchX, lastTouchY);
+    }} else if (!dragMoved) {{
+      hidePanel();
+    }}
+  }} else if (e.touches.length === 1) {{
+    lastTouchX = e.touches[0].clientX;
+    lastTouchY = e.touches[0].clientY;
+    lastPinchDist = 0;
+  }}
+}}, {{ passive: false }});
+
 const searchInput = document.getElementById("searchInput");
 const searchCount = document.getElementById("searchCount");
 
@@ -1235,6 +1323,7 @@ def generate_scatter_html(all_data, configs, depths, positions, sectors,
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <title>{title}</title>
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
@@ -1317,6 +1406,18 @@ canvas {{ display:block; cursor:grab; }}
 }}
 #search input:focus {{ border-color:#667; }}
 #search .count {{ font-size:11px; color:#667; white-space:nowrap; }}
+@media (max-width: 768px) {{
+  #stats {{ padding:6px 10px; }}
+  #stats h2 {{ font-size:12px; }}
+  #stats p {{ font-size:10px; }}
+  #nav {{ padding:4px 8px; gap:6px; }}
+  #nav a {{ font-size:11px; padding:2px 4px; }}
+  #controls button {{ padding:3px 8px; font-size:11px; }}
+  #panel {{ max-width:calc(100vw - 32px); left:16px !important; right:16px !important; }}
+  #search {{ width:calc(100vw - 32px); left:16px; transform:none; }}
+  #search input {{ flex:1; width:auto; }}
+  #tooltip {{ max-width:200px; font-size:11px; }}
+}}
 </style>
 </head>
 <body>
@@ -1753,6 +1854,81 @@ canvas.addEventListener("wheel", (e) => {{
     }}
   }}
   draw();
+}}, {{ passive: false }});
+
+// Touch support: single-finger pan, two-finger pinch-to-zoom
+let lastPinchDist = 0;
+let lastTouchX = 0, lastTouchY = 0;
+
+function touchDist(t) {{
+  const [a, b] = [t[0], t[1]];
+  return Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
+}}
+function touchCenter(t) {{
+  const [a, b] = [t[0], t[1]];
+  return {{ x: (a.clientX + b.clientX) / 2, y: (a.clientY + b.clientY) / 2 }};
+}}
+
+canvas.addEventListener("touchstart", (e) => {{
+  e.preventDefault();
+  if (e.touches.length === 1) {{
+    lastTouchX = e.touches[0].clientX;
+    lastTouchY = e.touches[0].clientY;
+    isDragging = true;
+    dragMoved = false;
+  }} else if (e.touches.length === 2) {{
+    lastPinchDist = touchDist(e.touches);
+    const c = touchCenter(e.touches);
+    lastTouchX = c.x; lastTouchY = c.y;
+  }}
+  tooltip.style.display = "none";
+}}, {{ passive: false }});
+
+canvas.addEventListener("touchmove", (e) => {{
+  e.preventDefault();
+  if (e.touches.length === 1 && isDragging) {{
+    const dx = e.touches[0].clientX - lastTouchX;
+    const dy = e.touches[0].clientY - lastTouchY;
+    camOffX += dx; camOffY += dy;
+    lastTouchX = e.touches[0].clientX;
+    lastTouchY = e.touches[0].clientY;
+    if (Math.abs(dx) > 3 || Math.abs(dy) > 3) dragMoved = true;
+    draw();
+  }} else if (e.touches.length === 2) {{
+    const dist = touchDist(e.touches);
+    const c = touchCenter(e.touches);
+    if (lastPinchDist > 0) {{
+      const factor = dist / lastPinchDist;
+      const wx = (c.x - camOffX) / camScale;
+      const wy = (c.y - camOffY) / camScale;
+      camScale = Math.max(0.05, Math.min(5, camScale * factor));
+      camOffX = c.x - wx * camScale;
+      camOffY = c.y - wy * camScale;
+    }}
+    camOffX += c.x - lastTouchX;
+    camOffY += c.y - lastTouchY;
+    lastPinchDist = dist;
+    lastTouchX = c.x; lastTouchY = c.y;
+    dragMoved = true;
+    draw();
+  }}
+}}, {{ passive: false }});
+
+canvas.addEventListener("touchend", (e) => {{
+  e.preventDefault();
+  if (e.touches.length === 0) {{
+    isDragging = false;
+    lastPinchDist = 0;
+    if (!dragMoved && hoveredNode) {{
+      showPanel(hoveredNode, lastTouchX, lastTouchY);
+    }} else if (!dragMoved) {{
+      hidePanel();
+    }}
+  }} else if (e.touches.length === 1) {{
+    lastTouchX = e.touches[0].clientX;
+    lastTouchY = e.touches[0].clientY;
+    lastPinchDist = 0;
+  }}
 }}, {{ passive: false }});
 
 const searchInput = document.getElementById("searchInput");
