@@ -222,12 +222,14 @@ def load_graph(domain_filter=None, course_filter=None):
             continue
 
         topic_id = data["id"]
+        tags = data.get("tags", [])
         nodes[topic_id] = {
             "id": topic_id,
             "title": data.get("title", topic_id),
             "domain": domain,
             "course": course,
             "stage": data.get("stage", ""),
+            "tags": [str(t).lower() for t in tags] if tags else [],
         }
 
         for prereq in data.get("prerequisites", []):
@@ -1107,6 +1109,7 @@ canvas.addEventListener("wheel", (e) => {{
 // Touch support: single-finger pan, two-finger pinch-to-zoom
 let lastPinchDist = 0;
 let lastTouchX = 0, lastTouchY = 0;
+let touchStartX = 0, touchStartY = 0;
 
 function touchDist(t) {{
   const [a, b] = [t[0], t[1]];
@@ -1122,12 +1125,15 @@ canvas.addEventListener("touchstart", (e) => {{
   if (e.touches.length === 1) {{
     lastTouchX = e.touches[0].clientX;
     lastTouchY = e.touches[0].clientY;
+    touchStartX = lastTouchX;
+    touchStartY = lastTouchY;
     isDragging = true;
     dragMoved = false;
   }} else if (e.touches.length === 2) {{
     lastPinchDist = touchDist(e.touches);
     const c = touchCenter(e.touches);
     lastTouchX = c.x; lastTouchY = c.y;
+    dragMoved = true;
   }}
   tooltip.style.display = "none";
 }}, {{ passive: false }});
@@ -1140,7 +1146,9 @@ canvas.addEventListener("touchmove", (e) => {{
     camOffX += dx; camOffY += dy;
     lastTouchX = e.touches[0].clientX;
     lastTouchY = e.touches[0].clientY;
-    if (Math.abs(dx) > 3 || Math.abs(dy) > 3) dragMoved = true;
+    const totalDx = e.touches[0].clientX - touchStartX;
+    const totalDy = e.touches[0].clientY - touchStartY;
+    if (Math.hypot(totalDx, totalDy) > 15) dragMoved = true;
     draw();
   }} else if (e.touches.length === 2) {{
     const dist = touchDist(e.touches);
@@ -1167,10 +1175,25 @@ canvas.addEventListener("touchend", (e) => {{
   if (e.touches.length === 0) {{
     isDragging = false;
     lastPinchDist = 0;
-    if (!dragMoved && hoveredNode) {{
-      showPanel(hoveredNode, lastTouchX, lastTouchY);
-    }} else if (!dragMoved) {{
-      hidePanel();
+    if (!dragMoved) {{
+      // Tap — do hit detection at touch point
+      const wx = screenToWorldX(lastTouchX);
+      const wy = screenToWorldY(lastTouchY);
+      let closest = null, closestDist = Infinity;
+      data.nodes.forEach(n => {{
+        const d = Math.hypot(n.x - wx, n.y - wy);
+        if (d < closestDist) {{ closestDist = d; closest = n; }}
+      }});
+      const hitRadius = Math.max(nodeRadius * 3, 18) / camScale;
+      if (closest && closestDist < hitRadius) {{
+        hoveredNode = closest;
+        draw();
+        showPanel(closest, lastTouchX, lastTouchY);
+      }} else {{
+        hoveredNode = null;
+        draw();
+        hidePanel();
+      }}
     }}
   }} else if (e.touches.length === 1) {{
     lastTouchX = e.touches[0].clientX;
@@ -1192,7 +1215,10 @@ searchInput.addEventListener("input", () => {{
     return;
   }}
   searchMatches = data.nodes.filter(n =>
-    n.title.toLowerCase().includes(q) || n.id.toLowerCase().includes(q)
+    n.title.toLowerCase().includes(q) ||
+    n.id.toLowerCase().includes(q) ||
+    n.course.toLowerCase().includes(q) ||
+    (n.tags && n.tags.some(t => t.includes(q)))
   );
   searchCount.textContent = searchMatches.length + " match" + (searchMatches.length !== 1 ? "es" : "");
   if (searchMatches.length === 1) {{
@@ -1859,6 +1885,7 @@ canvas.addEventListener("wheel", (e) => {{
 // Touch support: single-finger pan, two-finger pinch-to-zoom
 let lastPinchDist = 0;
 let lastTouchX = 0, lastTouchY = 0;
+let touchStartX = 0, touchStartY = 0;
 
 function touchDist(t) {{
   const [a, b] = [t[0], t[1]];
@@ -1874,12 +1901,15 @@ canvas.addEventListener("touchstart", (e) => {{
   if (e.touches.length === 1) {{
     lastTouchX = e.touches[0].clientX;
     lastTouchY = e.touches[0].clientY;
+    touchStartX = lastTouchX;
+    touchStartY = lastTouchY;
     isDragging = true;
     dragMoved = false;
   }} else if (e.touches.length === 2) {{
     lastPinchDist = touchDist(e.touches);
     const c = touchCenter(e.touches);
     lastTouchX = c.x; lastTouchY = c.y;
+    dragMoved = true;
   }}
   tooltip.style.display = "none";
 }}, {{ passive: false }});
@@ -1892,7 +1922,9 @@ canvas.addEventListener("touchmove", (e) => {{
     camOffX += dx; camOffY += dy;
     lastTouchX = e.touches[0].clientX;
     lastTouchY = e.touches[0].clientY;
-    if (Math.abs(dx) > 3 || Math.abs(dy) > 3) dragMoved = true;
+    const totalDx = e.touches[0].clientX - touchStartX;
+    const totalDy = e.touches[0].clientY - touchStartY;
+    if (Math.hypot(totalDx, totalDy) > 15) dragMoved = true;
     draw();
   }} else if (e.touches.length === 2) {{
     const dist = touchDist(e.touches);
@@ -1919,10 +1951,25 @@ canvas.addEventListener("touchend", (e) => {{
   if (e.touches.length === 0) {{
     isDragging = false;
     lastPinchDist = 0;
-    if (!dragMoved && hoveredNode) {{
-      showPanel(hoveredNode, lastTouchX, lastTouchY);
-    }} else if (!dragMoved) {{
-      hidePanel();
+    if (!dragMoved) {{
+      // Tap — do hit detection at touch point
+      const wx = screenToWorldX(lastTouchX);
+      const wy = screenToWorldY(lastTouchY);
+      let closest = null, closestDist = Infinity;
+      data.nodes.forEach(n => {{
+        const d = Math.hypot(n.x - wx, n.y - wy);
+        if (d < closestDist) {{ closestDist = d; closest = n; }}
+      }});
+      const hitRadius = Math.max(nodeRadius * 3, 18) / camScale;
+      if (closest && closestDist < hitRadius) {{
+        hoveredNode = closest;
+        draw();
+        showPanel(closest, lastTouchX, lastTouchY);
+      }} else {{
+        hoveredNode = null;
+        draw();
+        hidePanel();
+      }}
     }}
   }} else if (e.touches.length === 1) {{
     lastTouchX = e.touches[0].clientX;
@@ -1944,7 +1991,10 @@ searchInput.addEventListener("input", () => {{
     return;
   }}
   searchMatches = data.nodes.filter(n =>
-    n.title.toLowerCase().includes(q) || n.id.toLowerCase().includes(q)
+    n.title.toLowerCase().includes(q) ||
+    n.id.toLowerCase().includes(q) ||
+    n.course.toLowerCase().includes(q) ||
+    (n.tags && n.tags.some(t => t.includes(q)))
   );
   searchCount.textContent = searchMatches.length + " match" + (searchMatches.length !== 1 ? "es" : "");
   if (searchMatches.length === 1) {{
