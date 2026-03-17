@@ -1143,7 +1143,7 @@ canvas.addEventListener("touchmove", (e) => {{
   if (e.touches.length === 1 && isDragging) {{
     const dx = e.touches[0].clientX - lastTouchX;
     const dy = e.touches[0].clientY - lastTouchY;
-    camOffX += dx; camOffY += dy;
+    camX += dx; camY += dy;
     lastTouchX = e.touches[0].clientX;
     lastTouchY = e.touches[0].clientY;
     const totalDx = e.touches[0].clientX - touchStartX;
@@ -1155,14 +1155,10 @@ canvas.addEventListener("touchmove", (e) => {{
     const c = touchCenter(e.touches);
     if (lastPinchDist > 0) {{
       const factor = dist / lastPinchDist;
-      const wx = (c.x - camOffX) / camScale;
-      const wy = (c.y - camOffY) / camScale;
-      camScale = Math.max(0.05, Math.min(5, camScale * factor));
-      camOffX = c.x - wx * camScale;
-      camOffY = c.y - wy * camScale;
+      camScale = Math.max(0.1, Math.min(10, camScale * factor));
     }}
-    camOffX += c.x - lastTouchX;
-    camOffY += c.y - lastTouchY;
+    camX += c.x - lastTouchX;
+    camY += c.y - lastTouchY;
     lastPinchDist = dist;
     lastTouchX = c.x; lastTouchY = c.y;
     dragMoved = true;
@@ -1177,11 +1173,10 @@ canvas.addEventListener("touchend", (e) => {{
     lastPinchDist = 0;
     if (!dragMoved) {{
       // Tap — do hit detection at touch point
-      const wx = screenToWorldX(lastTouchX);
-      const wy = screenToWorldY(lastTouchY);
+      const p = screenToWorld(lastTouchX, lastTouchY);
       let closest = null, closestDist = Infinity;
       data.nodes.forEach(n => {{
-        const d = Math.hypot(n.x - wx, n.y - wy);
+        const d = Math.hypot(n.x - p.x, n.y - p.y);
         if (d < closestDist) {{ closestDist = d; closest = n; }}
       }});
       const hitRadius = Math.max(nodeRadius * 3, 18) / camScale;
