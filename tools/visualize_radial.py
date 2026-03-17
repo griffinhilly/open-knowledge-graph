@@ -523,7 +523,7 @@ def generate_radial_html(all_data, configs, depths, positions, sectors, domain_o
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
 body {{ background:#08080f; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; overflow:hidden; color:#ccc; }}
-canvas {{ display:block; cursor:grab; }}
+canvas {{ display:block; cursor:grab; touch-action:none; }}
 #stats {{
   position:fixed; top:16px; left:16px;
   background:rgba(8,8,15,0.9); border:1px solid #222;

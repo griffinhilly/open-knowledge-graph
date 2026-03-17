@@ -577,7 +577,7 @@ def generate_html(nodes, edges, title="Open Knowledge Graph",
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
 body {{ background:#1a1a2e; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; overflow:hidden; color:#ccc; }}
-canvas {{ display:block; }}
+canvas {{ display:block; touch-action:none; }}
 #legend {{
   position:fixed; bottom:16px; left:16px;
   background:rgba(26,26,46,0.92); border:1px solid #333;
@@ -1371,7 +1371,7 @@ def generate_scatter_html(all_data, configs, depths, positions, sectors,
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
 body {{ background:#0d0d1a; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; overflow:hidden; color:#ccc; }}
-canvas {{ display:block; cursor:grab; }}
+canvas {{ display:block; cursor:grab; touch-action:none; }}
 #stats {{
   position:fixed; bottom:16px; left:16px;
   background:rgba(13,13,26,0.92); border:1px solid #222;
