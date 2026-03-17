@@ -972,6 +972,7 @@ draw();
 // Mouse interaction
 let isDragging = false, dragStartX, dragStartY;
 let hoveredNode = null;
+let lastTouchTime = 0;  // Block synthetic mouse events after touch
 
 function screenToWorld(sx, sy) {{
   return {{
@@ -981,6 +982,7 @@ function screenToWorld(sx, sy) {{
 }}
 
 canvas.addEventListener("mousemove", (e) => {{
+  if (Date.now() - lastTouchTime < 500) return;
   if (isDragging) {{
     camX += e.clientX - dragStartX;
     camY += e.clientY - dragStartY;
@@ -1018,6 +1020,7 @@ canvas.addEventListener("mousemove", (e) => {{
 
 let dragMoved = false;
 canvas.addEventListener("mousedown", (e) => {{
+  if (Date.now() - lastTouchTime < 500) return;
   isDragging = true;
   dragMoved = false;
   dragStartX = e.clientX;
@@ -1083,6 +1086,7 @@ function hidePanel() {{
 }}
 
 canvas.addEventListener("mouseup", (e) => {{
+  if (Date.now() - lastTouchTime < 500) return;
   isDragging = false;
   canvas.style.cursor = "default";
   if (!dragMoved && hoveredNode) {{
@@ -1092,6 +1096,7 @@ canvas.addEventListener("mouseup", (e) => {{
   }}
 }});
 canvas.addEventListener("mousemove", (e) => {{
+  if (Date.now() - lastTouchTime < 500) return;
   if (isDragging) {{
     const dx = e.clientX - dragStartX;
     const dy = e.clientY - dragStartY;
@@ -1168,6 +1173,7 @@ canvas.addEventListener("touchmove", (e) => {{
 
 canvas.addEventListener("touchend", (e) => {{
   e.preventDefault();
+  lastTouchTime = Date.now();
   if (e.touches.length === 0) {{
     isDragging = false;
     lastPinchDist = 0;
@@ -1724,9 +1730,11 @@ draw();
 
 // --- Mouse interaction ---
 let isDragging = false, dragStartX, dragStartY, dragMoved = false;
+let lastTouchTime = 0;
 let hoveredNode = null;
 
 canvas.addEventListener("mousemove", (e) => {{
+  if (Date.now() - lastTouchTime < 500) return;
   if (isDragging) {{
     camOffX += e.clientX - dragStartX;
     camOffY += e.clientY - dragStartY;
@@ -1777,6 +1785,7 @@ canvas.addEventListener("mousemove", (e) => {{
 }});
 
 canvas.addEventListener("mousedown", (e) => {{
+  if (Date.now() - lastTouchTime < 500) return;
   isDragging = true;
   dragMoved = false;
   dragStartX = e.clientX; dragStartY = e.clientY;
@@ -1841,6 +1850,7 @@ function hidePanel() {{
 }}
 
 canvas.addEventListener("mouseup", (e) => {{
+  if (Date.now() - lastTouchTime < 500) return;
   isDragging = false;
   canvas.style.cursor = "grab";
   if (!dragMoved && hoveredNode) {{
@@ -1850,6 +1860,7 @@ canvas.addEventListener("mouseup", (e) => {{
   }}
 }});
 canvas.addEventListener("mousemove", (e) => {{
+  if (Date.now() - lastTouchTime < 500) return;
   if (isDragging) {{
     const dx = e.clientX - dragStartX;
     const dy = e.clientY - dragStartY;
@@ -1943,6 +1954,7 @@ canvas.addEventListener("touchmove", (e) => {{
 
 canvas.addEventListener("touchend", (e) => {{
   e.preventDefault();
+  lastTouchTime = Date.now();
   if (e.touches.length === 0) {{
     isDragging = false;
     lastPinchDist = 0;

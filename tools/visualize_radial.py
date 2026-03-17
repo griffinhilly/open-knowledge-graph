@@ -835,6 +835,7 @@ function drawHighlight(node) {{
 
 // --- Mouse interaction ---
 let isDragging = false, dragStartX, dragStartY;
+let lastTouchTime = 0;
 let hoveredNode = null;
 let selectedNode = null;
 let searchMatches = [];
@@ -888,6 +889,7 @@ function screenToWorld(sx, sy) {{
 }}
 
 canvas.addEventListener("mousemove", (e) => {{
+  if (Date.now() - lastTouchTime < 500) return;
   if (isDragging) {{
     camX += e.clientX - dragStartX;
     camY += e.clientY - dragStartY;
@@ -938,6 +940,7 @@ canvas.addEventListener("mousemove", (e) => {{
 
 let dragMoved = false;
 canvas.addEventListener("mousedown", (e) => {{
+  if (Date.now() - lastTouchTime < 500) return;
   isDragging = true;
   dragMoved = false;
   dragStartX = e.clientX; dragStartY = e.clientY;
@@ -1010,6 +1013,7 @@ function hidePanel() {{
 }}
 
 canvas.addEventListener("mouseup", (e) => {{
+  if (Date.now() - lastTouchTime < 500) return;
   isDragging = false;
   canvas.style.cursor = "grab";
   if (!dragMoved) {{
@@ -1048,6 +1052,7 @@ document.addEventListener("keydown", (e) => {{
   }}
 }});
 canvas.addEventListener("mousemove", (e) => {{
+  if (Date.now() - lastTouchTime < 500) return;
   if (isDragging) {{
     const dx = e.clientX - dragStartX;
     const dy = e.clientY - dragStartY;
@@ -1126,6 +1131,7 @@ canvas.addEventListener("touchmove", (e) => {{
 
 canvas.addEventListener("touchend", (e) => {{
   e.preventDefault();
+  lastTouchTime = Date.now();
   if (e.touches.length === 0) {{
     isDragging = false;
     lastPinchDist = 0;
