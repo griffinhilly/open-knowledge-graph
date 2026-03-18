@@ -576,8 +576,9 @@ def generate_html(nodes, edges, title="Open Knowledge Graph",
 <title>{title}</title>
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
+html, body {{ touch-action:none; }}
 body {{ background:#1a1a2e; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; overflow:hidden; color:#ccc; }}
-canvas {{ display:block; touch-action:none; }}
+canvas {{ display:block; position:relative; touch-action:none; }}
 #legend {{
   position:fixed; bottom:16px; left:16px;
   background:rgba(26,26,46,0.92); border:1px solid #333;
@@ -610,7 +611,13 @@ canvas {{ display:block; touch-action:none; }}
   border-radius:8px; padding:12px 16px;
   z-index:30; max-width:380px; max-height:70vh; overflow-y:auto;
 }}
-#panel h3 {{ font-size:14px; color:#eee; margin-bottom:4px; }}
+#panel .panel-close {{
+  position:absolute; top:6px; right:10px;
+  background:none; border:none; color:#888; font-size:20px;
+  cursor:pointer; padding:2px 6px; line-height:1;
+}}
+#panel .panel-close:hover {{ color:#eee; }}
+#panel h3 {{ font-size:14px; color:#eee; margin-bottom:4px; padding-right:24px; }}
 #panel h3 a {{ color:#7af; text-decoration:none; }}
 #panel h3 a:hover {{ text-decoration:underline; }}
 #panel .panel-meta {{ font-size:10px; color:#888; margin-bottom:8px; }}
@@ -683,7 +690,6 @@ canvas {{ display:block; touch-action:none; }}
 <body>
 
 <canvas id="canvas"></canvas>
-<div id="touchDebug" style="display:none; position:fixed; top:50%; left:16px; right:16px; background:rgba(255,0,0,0.9); color:#fff; padding:12px; border-radius:8px; z-index:999; font-size:12px; font-family:monospace; word-break:break-all;"></div>
 
 <div id="stats">
   <h2>{title}</h2>
@@ -985,8 +991,10 @@ function screenToWorld(sx, sy) {{
 canvas.addEventListener("mousemove", (e) => {{
   if (Date.now() - lastTouchTime < 500) return;
   if (isDragging) {{
-    camX += e.clientX - dragStartX;
-    camY += e.clientY - dragStartY;
+    const dx = e.clientX - dragStartX;
+    const dy = e.clientY - dragStartY;
+    if (Math.abs(dx) > 3 || Math.abs(dy) > 3) dragMoved = true;
+    camX += dx; camY += dy;
     dragStartX = e.clientX;
     dragStartY = e.clientY;
     draw();
@@ -1035,7 +1043,8 @@ function showPanel(node, sx, sy) {{
   const successors = edgeData.filter(e => e.s === node);
   const domainLabel = node.domain ? node.domain.replace(/-/g, " ") : "";
   const courseLabel = node.course ? node.course.replace(/-/g, " ") : "";
-  let html = `<h3><a href="topics/${{node.id}}.html" target="_blank">${{node.title}}</a></h3>`;
+  let html = `<button class="panel-close" onclick="hidePanel()">&times;</button>`;
+  html += `<h3><a href="topics/${{node.id}}.html" target="_blank">${{node.title}}</a></h3>`;
   html += `<div class="panel-meta">${{domainLabel}} &middot; ${{courseLabel}}</div>`;
   if (prereqs.length > 0) {{
     html += `<div class="panel-section"><h4>Prerequisites (${{prereqs.length}})</h4>`;
@@ -1064,6 +1073,7 @@ function showPanel(node, sx, sy) {{
   }}
   panel.innerHTML = html;
   panel.style.display = "block";
+  panel.style.position = "fixed";
   let px = sx + 20, py = sy - 20;
   if (px + 390 > W) px = sx - 400;
   if (py + 300 > H) py = H - 320;
@@ -1094,14 +1104,6 @@ canvas.addEventListener("mouseup", (e) => {{
     showPanel(hoveredNode, e.clientX, e.clientY);
   }} else if (!dragMoved) {{
     hidePanel();
-  }}
-}});
-canvas.addEventListener("mousemove", (e) => {{
-  if (Date.now() - lastTouchTime < 500) return;
-  if (isDragging) {{
-    const dx = e.clientX - dragStartX;
-    const dy = e.clientY - dragStartY;
-    if (Math.abs(dx) > 3 || Math.abs(dy) > 3) dragMoved = true;
   }}
 }});
 canvas.addEventListener("wheel", (e) => {{
@@ -1161,7 +1163,11 @@ canvas.addEventListener("touchmove", (e) => {{
     const c = touchCenter(e.touches);
     if (lastPinchDist > 0) {{
       const factor = dist / lastPinchDist;
+      const oldScale = camScale;
       camScale = Math.max(0.1, Math.min(10, camScale * factor));
+      const r = camScale / oldScale;
+      camX = camX * r + (c.x - W / 2) * (1 - r);
+      camY = camY * r + (c.y - H / 2) * (1 - r);
     }}
     camX += c.x - lastTouchX;
     camY += c.y - lastTouchY;
@@ -1187,13 +1193,6 @@ canvas.addEventListener("touchend", (e) => {{
         if (d < closestDist) {{ closestDist = d; closest = n; }}
       }});
       const hitRadius = Math.max(nodeRadius * 3, 18) / camScale;
-      // Debug: show tap info
-      const dbg = document.getElementById("touchDebug");
-      if (dbg) {{
-        dbg.textContent = `tap(${{Math.round(lastTouchX)}},${{Math.round(lastTouchY)}}) world(${{Math.round(p.x)}},${{Math.round(p.y)}}) closest=${{closest ? closest.title : "none"}} dist=${{Math.round(closestDist)}} hitR=${{Math.round(hitRadius)}} dragMoved=${{dragMoved}}`;
-        dbg.style.display = "block";
-        setTimeout(() => dbg.style.display = "none", 5000);
-      }}
       if (closest && closestDist < hitRadius) {{
         hoveredNode = closest;
         draw();
@@ -1202,14 +1201,6 @@ canvas.addEventListener("touchend", (e) => {{
         hoveredNode = null;
         draw();
         hidePanel();
-      }}
-    }} else {{
-      // Debug: show drag info
-      const dbg = document.getElementById("touchDebug");
-      if (dbg) {{
-        dbg.textContent = `dragMoved=true (not a tap)`;
-        dbg.style.display = "block";
-        setTimeout(() => dbg.style.display = "none", 3000);
       }}
     }}
   }} else if (e.touches.length === 1) {{
@@ -1370,8 +1361,9 @@ def generate_scatter_html(all_data, configs, depths, positions, sectors,
 <title>{title}</title>
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
+html, body {{ touch-action:none; }}
 body {{ background:#0d0d1a; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; overflow:hidden; color:#ccc; }}
-canvas {{ display:block; cursor:grab; touch-action:none; }}
+canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
 #stats {{
   position:fixed; bottom:16px; left:16px;
   background:rgba(13,13,26,0.92); border:1px solid #222;
@@ -1393,7 +1385,13 @@ canvas {{ display:block; cursor:grab; touch-action:none; }}
   border-radius:8px; padding:12px 16px;
   z-index:50; max-width:380px; max-height:70vh; overflow-y:auto;
 }}
-#panel h3 {{ font-size:14px; color:#eee; margin-bottom:4px; }}
+#panel .panel-close {{
+  position:absolute; top:6px; right:10px;
+  background:none; border:none; color:#888; font-size:20px;
+  cursor:pointer; padding:2px 6px; line-height:1;
+}}
+#panel .panel-close:hover {{ color:#eee; }}
+#panel h3 {{ font-size:14px; color:#eee; margin-bottom:4px; padding-right:24px; }}
 #panel h3 a {{ color:#7af; text-decoration:none; }}
 #panel h3 a:hover {{ text-decoration:underline; }}
 #panel .panel-meta {{ font-size:10px; color:#888; margin-bottom:8px; }}
@@ -1752,13 +1750,12 @@ let hoveredNode = null;
 canvas.addEventListener("mousemove", (e) => {{
   if (Date.now() - lastTouchTime < 500) return;
   if (isDragging) {{
-    camOffX += e.clientX - dragStartX;
-    camOffY += e.clientY - dragStartY;
-    dragStartX = e.clientX;
-    dragStartY = e.clientY;
     const dx = e.clientX - dragStartX;
     const dy = e.clientY - dragStartY;
     if (Math.abs(dx) > 3 || Math.abs(dy) > 3) dragMoved = true;
+    camOffX += dx; camOffY += dy;
+    dragStartX = e.clientX;
+    dragStartY = e.clientY;
     draw();
     tooltip.style.display = "none";
     return;
@@ -1814,7 +1811,8 @@ function showPanel(node, sx, sy) {{
   const successors = edgeData.filter(e => e.s === node);
   const domainLabel = node.domain ? node.domain.replace(/-/g, " ") : "";
   const courseLabel = node.course ? node.course.replace(/-/g, " ") : "";
-  let html = `<h3><a href="topics/${{node.id}}.html" target="_blank">${{node.title}}</a></h3>`;
+  let html = `<button class="panel-close" onclick="hidePanel()">&times;</button>`;
+  html += `<h3><a href="topics/${{node.id}}.html" target="_blank">${{node.title}}</a></h3>`;
   html += `<div class="panel-meta">${{domainLabel}} &middot; ${{courseLabel}}</div>`;
   if (prereqs.length > 0) {{
     html += `<div class="panel-section"><h4>Prerequisites (${{prereqs.length}})</h4>`;
@@ -1873,14 +1871,6 @@ canvas.addEventListener("mouseup", (e) => {{
     showPanel(hoveredNode, e.clientX, e.clientY);
   }} else if (!dragMoved) {{
     hidePanel();
-  }}
-}});
-canvas.addEventListener("mousemove", (e) => {{
-  if (Date.now() - lastTouchTime < 500) return;
-  if (isDragging) {{
-    const dx = e.clientX - dragStartX;
-    const dy = e.clientY - dragStartY;
-    if (Math.abs(dx) > 3 || Math.abs(dy) > 3) dragMoved = true;
   }}
 }});
 canvas.addEventListener("wheel", (e) => {{

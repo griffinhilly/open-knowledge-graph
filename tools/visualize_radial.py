@@ -522,8 +522,9 @@ def generate_radial_html(all_data, configs, depths, positions, sectors, domain_o
 <title>{title}</title>
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
+html, body {{ touch-action:none; }}
 body {{ background:#08080f; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; overflow:hidden; color:#ccc; }}
-canvas {{ display:block; cursor:grab; touch-action:none; }}
+canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
 #stats {{
   position:fixed; top:16px; left:16px;
   background:rgba(8,8,15,0.9); border:1px solid #222;
@@ -545,8 +546,14 @@ canvas {{ display:block; cursor:grab; touch-action:none; }}
   border-radius:8px; padding:16px 20px;
   z-index:30; max-width:380px; max-height:70vh; overflow-y:auto;
 }}
+#panel .panel-close {{
+  position:absolute; top:6px; right:10px;
+  background:none; border:none; color:#888; font-size:20px;
+  cursor:pointer; padding:2px 6px; line-height:1;
+}}
+#panel .panel-close:hover {{ color:#eee; }}
 #panel h3 {{
-  font-size:15px; margin-bottom:8px;
+  font-size:15px; margin-bottom:8px; padding-right:24px;
 }}
 #panel h3 a {{ color:#eee; text-decoration:none; border-bottom:1px solid #555; }}
 #panel h3 a:hover {{ color:#9cd; border-bottom-color:#9cd; }}
@@ -961,7 +968,8 @@ function showPanel(node, screenX, screenY) {{
   const domainLabel = node.domain ? node.domain.replace(/-/g, " ") : "";
   const courseLabel = node.course ? node.course.replace(/-/g, " ") : "";
 
-  let html = `<h3><a href="topics/${{node.id}}.html" target="_blank">${{node.title}}</a></h3>`;
+  let html = `<button class="panel-close" onclick="hidePanel()">&times;</button>`;
+  html += `<h3><a href="topics/${{node.id}}.html" target="_blank">${{node.title}}</a></h3>`;
   html += `<div class="panel-meta">${{domainLabel}} &middot; ${{courseLabel}}</div>`;
 
   if (prereqs.length) {{
@@ -1114,10 +1122,14 @@ canvas.addEventListener("touchmove", (e) => {{
   }} else if (e.touches.length === 2) {{
     const dist = touchDist(e.touches);
     const c = touchCenter(e.touches);
-    // Pinch zoom
+    // Pinch zoom anchored at pinch center
     if (lastPinchDist > 0) {{
       const factor = dist / lastPinchDist;
+      const oldScale = camScale;
       camScale = Math.max(0.1, Math.min(20, camScale * factor));
+      const r = camScale / oldScale;
+      camX = camX * r + (c.x - W / 2) * (1 - r);
+      camY = camY * r + (c.y - H / 2) * (1 - r);
     }}
     // Two-finger pan
     camX += c.x - lastTouchX;
