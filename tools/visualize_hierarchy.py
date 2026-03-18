@@ -576,8 +576,8 @@ def generate_html(nodes, edges, title="Open Knowledge Graph",
 <title>{title}</title>
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
-html, body {{ touch-action:none; }}
-body {{ background:#1a1a2e; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; overflow:hidden; color:#ccc; }}
+html, body {{ position:fixed; width:100%; height:100%; overflow:hidden; touch-action:none; }}
+body {{ background:#1a1a2e; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; color:#ccc; }}
 canvas {{ display:block; position:relative; touch-action:none; }}
 #legend {{
   position:fixed; bottom:16px; left:16px;
@@ -1114,6 +1114,11 @@ canvas.addEventListener("wheel", (e) => {{
   draw();
 }}, {{ passive: false }});
 
+// Prevent iOS WebKit from intercepting touch events for native gestures
+document.addEventListener("touchmove", (e) => {{
+  if (!e.target.closest("#legend, #panel")) e.preventDefault();
+}}, {{ passive: false }});
+
 // Touch support: single-finger pan, two-finger pinch-to-zoom
 let lastPinchDist = 0;
 let lastTouchX = 0, lastTouchY = 0;
@@ -1361,8 +1366,8 @@ def generate_scatter_html(all_data, configs, depths, positions, sectors,
 <title>{title}</title>
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
-html, body {{ touch-action:none; }}
-body {{ background:#0d0d1a; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; overflow:hidden; color:#ccc; }}
+html, body {{ position:fixed; width:100%; height:100%; overflow:hidden; touch-action:none; }}
+body {{ background:#0d0d1a; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; color:#ccc; }}
 canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
 #stats {{
   position:fixed; bottom:16px; left:16px;
@@ -1892,6 +1897,11 @@ canvas.addEventListener("wheel", (e) => {{
     }}
   }}
   draw();
+}}, {{ passive: false }});
+
+// Prevent iOS WebKit from intercepting touch events for native gestures
+document.addEventListener("touchmove", (e) => {{
+  if (!e.target.closest("#legend, #panel")) e.preventDefault();
 }}, {{ passive: false }});
 
 // Touch support: single-finger pan, two-finger pinch-to-zoom

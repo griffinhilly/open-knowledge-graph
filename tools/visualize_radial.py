@@ -522,8 +522,8 @@ def generate_radial_html(all_data, configs, depths, positions, sectors, domain_o
 <title>{title}</title>
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
-html, body {{ touch-action:none; }}
-body {{ background:#08080f; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; overflow:hidden; color:#ccc; }}
+html, body {{ position:fixed; width:100%; height:100%; overflow:hidden; touch-action:none; }}
+body {{ background:#08080f; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; color:#ccc; }}
 canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
 #stats {{
   position:fixed; top:16px; left:16px;
@@ -609,13 +609,14 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
 #search input:focus {{ border-color:#556; }}
 #search .count {{ font-size:11px; color:#556; white-space:nowrap; }}
 @media (max-width: 768px) {{
-  #stats {{ top:8px; left:8px; padding:8px 10px; }}
-  #stats h2 {{ font-size:13px; }}
-  #stats p {{ font-size:10px; }}
-  #nav {{ padding:4px 8px; gap:6px; }}
-  #nav a {{ font-size:11px; padding:2px 4px; }}
+  #stats {{ top:8px; left:8px; padding:6px 10px; max-width:60vw; }}
+  #stats h2 {{ font-size:12px; }}
+  #stats p {{ font-size:9px; }}
+  #stats p ~ p {{ display:none; }}
+  #nav {{ top:auto; bottom:60px; left:8px; transform:none; padding:4px 8px; gap:6px; }}
+  #nav a {{ font-size:11px; padding:4px 8px; }}
   #controls {{ top:8px; right:8px; }}
-  #controls button {{ padding:3px 8px; font-size:11px; }}
+  #controls button {{ padding:4px 10px; font-size:13px; }}
   #panel {{ max-width:calc(100vw - 32px); left:16px !important; right:16px !important; }}
   #search {{ width:calc(100vw - 32px); left:16px; transform:none; }}
   #search input {{ flex:1; width:auto; }}
@@ -1072,6 +1073,11 @@ canvas.addEventListener("wheel", (e) => {{
   const factor = e.deltaY > 0 ? 0.9 : 1.1;
   camScale = Math.max(0.1, Math.min(20, camScale * factor));
   draw();
+}}, {{ passive: false }});
+
+// Prevent iOS WebKit from intercepting touch events for native gestures
+document.addEventListener("touchmove", (e) => {{
+  if (!e.target.closest("#legend, #panel")) e.preventDefault();
 }}, {{ passive: false }});
 
 // Touch support: single-finger pan, two-finger pinch-to-zoom
