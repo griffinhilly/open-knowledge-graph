@@ -27,6 +27,12 @@ import random
 from pathlib import Path
 from collections import defaultdict, deque
 
+
+def smart_title(slug):
+    """Title-case a slug, but don't capitalize letters after digits (1st, 2nd, 3rd)."""
+    words = slug.replace("-", " ").split()
+    return " ".join(w if w[0].isdigit() else w.capitalize() for w in words if w)
+
 try:
     import yaml
 except ImportError:
@@ -249,7 +255,7 @@ def load_graph(domain_filter=None, course_filter=None):
             if edge["source"] not in all_ids:
                 nodes[edge["source"]] = {
                     "id": edge["source"],
-                    "title": edge["source"].replace("-", " ").title(),
+                    "title": smart_title(edge["source"]),
                     "domain": "external",
                     "course": "external",
                     "stage": "",
@@ -558,7 +564,7 @@ def generate_html(nodes, edges, title="Open Knowledge Graph",
     legend_items = []
     for course in courses_present:
         color = course_colors.get(course, default_color)
-        label = course.replace("-", " ").title()
+        label = smart_title(course)
         legend_items.append({"color": color, "label": label})
 
     graph_json = json.dumps({
@@ -576,7 +582,7 @@ def generate_html(nodes, edges, title="Open Knowledge Graph",
 <title>{title}</title>
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
-html, body {{ position:fixed; width:100%; height:100%; overflow:hidden; touch-action:none; }}
+html, body {{ overflow:hidden; touch-action:none; }}
 body {{ background:#1a1a2e; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; color:#ccc; }}
 canvas {{ display:block; position:relative; touch-action:none; }}
 #legend {{
@@ -677,6 +683,10 @@ canvas {{ display:block; position:relative; touch-action:none; }}
   #stats {{ padding:6px 10px; }}
   #stats h2 {{ font-size:12px; }}
   #stats p {{ font-size:10px; }}
+  #legend {{ max-height:30vh; font-size:10px; padding:6px 10px; }}
+  #legend h3 {{ font-size:10px; margin-bottom:4px; }}
+  .legend-dot {{ width:8px; height:8px; }}
+  .legend-label {{ font-size:10px; }}
   #nav {{ padding:4px 8px; gap:6px; }}
   #nav a {{ font-size:11px; padding:2px 4px; }}
   #controls button {{ padding:3px 8px; font-size:11px; }}
@@ -974,11 +984,11 @@ function drawHighlight(node) {{
   ctx.restore();
 }}
 
+let hoveredNode = null;
 draw();
 
 // Mouse interaction
 let isDragging = false, dragStartX, dragStartY;
-let hoveredNode = null;
 let lastTouchTime = 0;  // Block synthetic mouse events after touch
 
 function screenToWorld(sx, sy) {{
@@ -1313,9 +1323,9 @@ def generate_scatter_html(all_data, configs, depths, positions, sectors,
             continue
         s = sectors[d]
         hue = SCATTER_HUES.get(d, 0)
-        label = configs.get(d, {}).get("title", d.replace("-", " ").title())
+        label = configs.get(d, {}).get("title", smart_title(d))
         if isinstance(label, str) and not label[0].isupper():
-            label = d.replace("-", " ").title()
+            label = smart_title(d)
         sector_data.append({
             "domain": d,
             "label": label,
@@ -1366,7 +1376,7 @@ def generate_scatter_html(all_data, configs, depths, positions, sectors,
 <title>{title}</title>
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
-html, body {{ position:fixed; width:100%; height:100%; overflow:hidden; touch-action:none; }}
+html, body {{ overflow:hidden; touch-action:none; }}
 body {{ background:#0d0d1a; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; color:#ccc; }}
 canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
 #stats {{
@@ -1456,6 +1466,10 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
   #stats {{ padding:6px 10px; }}
   #stats h2 {{ font-size:12px; }}
   #stats p {{ font-size:10px; }}
+  #legend {{ max-height:30vh; font-size:10px; padding:6px 10px; }}
+  #legend h3 {{ font-size:10px; margin-bottom:4px; }}
+  .legend-dot {{ width:8px; height:8px; }}
+  .legend-label {{ font-size:10px; }}
   #nav {{ padding:4px 8px; gap:6px; }}
   #nav a {{ font-size:11px; padding:2px 4px; }}
   #controls button {{ padding:3px 8px; font-size:11px; }}
@@ -1745,12 +1759,12 @@ function drawHighlight(node) {{
   ctx.restore();
 }}
 
+let hoveredNode = null;
 draw();
 
 // --- Mouse interaction ---
 let isDragging = false, dragStartX, dragStartY, dragMoved = false;
 let lastTouchTime = 0;
-let hoveredNode = null;
 
 canvas.addEventListener("mousemove", (e) => {{
   if (Date.now() - lastTouchTime < 500) return;
@@ -2057,7 +2071,7 @@ def generate_index_html(domains_info):
     total_topics = 0
     total_edges = 0
     for domain, info in sorted(domains_info.items()):
-        label = domain.replace("-", " ").title()
+        label = smart_title(domain)
         rows += f'<a href="{domain}-hierarchy.html" class="domain-card">'
         rows += f'<h3>{label}</h3>'
         rows += f'<p>{info["topics"]} topics &middot; {info["edges"]} edges &middot; {info["courses"]} courses</p>'
@@ -2138,7 +2152,7 @@ def main():
             if not nodes:
                 continue
 
-            title = f"Open Knowledge Graph — {domain.replace('-', ' ').title()}"
+            title = f"Open Knowledge Graph — {smart_title(domain)}"
             html = generate_html(nodes, edges, title=title,
                                 course_colors=colors, course_order=course_ids)
             out = OUTPUT_DIR / f"{domain}-hierarchy.html"
@@ -2230,7 +2244,7 @@ def main():
             return
 
         name = course or domain or "full-graph"
-        title = f"Open Knowledge Graph — {name.replace('-', ' ').title()}"
+        title = f"Open Knowledge Graph — {smart_title(name)}"
         out = Path(args.output) if args.output else OUTPUT_DIR / f"{name}-hierarchy.html"
 
         html = generate_html(nodes, edges, title=title,
