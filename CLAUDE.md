@@ -3,7 +3,7 @@
 Open-source, machine-readable knowledge graphs mapping prerequisite relationships between topics across every domain of human knowledge.
 
 ## Project Structure
-- `domains/` — 19 domains, 13,489 topics, 148 courses
+- `domains/` — 19 domains, 13,518 topics, 149 courses
 - `tools/` — Python tooling (validate.py, visualize_hierarchy.py, visualize_radial.py, generate_topic_pages.py, stats.py, reconcile.py, generate_assessment.py, generate_assessment_page.py, diagnose_positioning.py, diagnose_radial_order.py, trace_topic.py)
 - `tools/overnight/` — Autonomous generation orchestrator (used to build the initial graph and Q+E content)
 - `meta/` — Schema definition, developmental stages, course list
@@ -33,11 +33,12 @@ Tool commands: see `guides/tools-reference.md`
 Visualization design: see `guides/visualization.md`
 
 ## Current Status
-- **13,489 topics** across **19 domains**, **148 courses**, **29,596 prerequisite edges**
-- **1,006 topics** have Questions + Explainer sections
+- **13,518 topics** across **19 domains**, **149 courses**, **29,609 prerequisite edges**
+- **~13,260 topics** have Explainer sections; **1,006 topics** have Questions
 - GitHub Pages live at `griffinhilly.github.io/open-knowledge-graph/`
 - GitHub Actions CI: validates graph + deploys visualizations on every push
 - New topics at `status: draft` pending review; original 2,628 at `status: validated`
+- **Phase 9 (Learning Platform) planned**: Bayesian fluency model, redesigned assessment with actual questions, semantic zoom, learning paths. See PLAN.md for details.
 
 ## Related Projects
 - `~/knowledge-architecture/` — Prose-based concept sequences (predecessor project)
@@ -51,6 +52,12 @@ The radial layout (`visualize_radial.py`) has several tunable parameters in the 
 - **Radial jitter** (5% of band width): keeps depth ordering intact while adding organic feel.
 - **Prerequisite ordering force** (0.006): soft force pushing prerequisites inward, successors outward when they overlap radially.
 - 2,325 edges (8%) still violate radial ordering (prereq staged more advanced than successor). ~676 have 2+ stage gap. Triage by severity for data fixes.
+
+## Learning Platform Architecture (Phase 9)
+- **Fluency model**: Continuous 0-100 per topic, Bayesian log-odds updates, prerequisite propagation
+- **localStorage keys**: `okg-fluency` (scores), `okg-fluency-meta` (metadata), `okg-goals` (starred topics), `okg-adjustments` (manual overrides)
+- **Assessment**: 3-phase adaptive (warm-up → exploration → deep dive), uses actual question bank, silent response time tracking
+- **Graph coloring**: Fluency-based node colors override domain colors when progress data exists; frontier topics get distinctive borders
 
 ## Situational Guides
 - When running any tool (validation, visualization, generation, reconciliation) → read `guides/tools-reference.md`

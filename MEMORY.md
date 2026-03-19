@@ -1,48 +1,52 @@
 # Open Knowledge Graph Memory
 
-## Status (Mar 15, 2026)
-- **13,489 topics** across **19 domains**, **148 courses**, **29,596 prerequisite edges**
-- GitHub repo: `griffinhilly/open-knowledge-graph` (public)
-- GitHub Pages: `griffinhilly.github.io/open-knowledge-graph/` (auto-deployed via Actions)
-- Original 2,628 topics at status: **validated**; ~10,861 expansion topics at status: **draft**
-- **1,006 topics** have Questions + Explainer sections (overnight Q+E run COMPLETE)
+## Status (Mar 19, 2026)
+- **13,518 topics** across **19 domains**, **149 courses**, **29,609 prerequisite edges**
+- **~13,260 topics** have Explainer sections (overnight Sonnet swarm, Mar 16)
+- **1,006 topics** have Questions sections (hub topics from earlier Q+E run)
+- **20,531 tag pages** generated; tags are clickable on topic pages
+- GitHub Pages: `griffinhilly.github.io/open-knowledge-graph/`
+- Project moved to `C:\Users\griff\Projects\griffin\open-knowledge-graph\`
+- **All graph views fully interactive** on desktop and mobile (Mar 18 fix)
+- **Phase 9 planned**: Learning platform overhaul (fluency model, assessment redesign, semantic zoom, learning paths)
+- **Applied Rationality** course added under Philosophy (30 topics, Mar 19)
+- **Domain ordering finalized**: swapped Earth & Space ↔ Chemistry. Narrative: formal foundations → physical sciences → life sciences → social sciences → humanities
 
-## Radial Positioning Fixes (Mar 15, session 2)
-- **Rotation bug found and fixed**: edge attraction had asymmetric y-force (`ps["y"] -= fy` instead of `+= fy`) causing systematic angular displacement in wrong direction. This was the primary cause of topics appearing in wrong domains.
-- **Angular spring-back added** (0.02 strength): gentle pull toward domain sector center. Reduced displaced topics from 4,503 to ~2,400 at this strength. Higher values (0.12) made domains too rigid.
-- **Prereq radial ordering force added**: soft force pushing prerequisites inward, successors outward when they overlap. Helps enforce visual "inner=foundational, outer=advanced" expectation.
-- **Radial jitter reduced** from 18% to 5% of band width to preserve depth ordering within bands.
-- **Dialectic review result**: both data fixes AND algorithm fixes needed. Data fixes for genuine stage misassignments; algorithm fixes for structural same-band ordering. Don't split topics yet.
-- **culture-concept data fix applied**: moved from concrete-operations to abstract-reasoning; softened prereq edges for ethnocentrism, ritual-and-ceremony, material-culture.
-- **2,325 edges (8%) still violate radial ordering** — prereq at more advanced stage than successor. 676 have 2+ stage gap. Next step: triage top violations by severity.
+## Hierarchy Graph TDZ Bug (Mar 18)
+- Both per-domain and full hierarchy templates had `let hoveredNode` declared AFTER the initial `draw()` call, but `draw()` references `hoveredNode` in highlight logic. This temporal dead zone error silently crashed the script, preventing ALL event handlers from registering. The graph rendered via the CSS background but was completely non-interactive.
+- **Diagnostic**: `node --check` found no syntax errors; had to run the JS with a DOM mock (`new Function(js)()`) to catch the runtime `ReferenceError`.
+- **Fix**: Move `let hoveredNode = null` before `draw()`.
+- Also fixed: duplicate mousemove handlers (dragMoved never set), pinch-to-zoom drift (missing anchor math), course name `.title()` capitalizing digits ("1St" → "1st").
 
-## Quality Fixes (Mar 15, session 1)
-- **Stage fixes**: 841 draft topics had wrong developmental stages (blanket assignments from overnight expansion). Fixed via hub analysis + propagation across music, arts, language, practical-life-skills, diff-eq, complex/real analysis, graph-theory-and-combinatorics, probability-and-mathematical-statistics.
-- **Cycle fixes**: 27+ prerequisite cycles broken, format normalized (518 files from crashed session recovered)
-- **Inflated prerequisite depth**: Systemic issue where cross-domain prerequisites chain through courses not actually required. Fixed biology (max depth 58->16), chemistry (removed physical-chem prereqs from gen-chem), and 6 other domains. ~133 files changed total.
+## Overnight Content Generation (Mar 15-16)
+- **Explainer swarm**: 30 Sonnet workers, batch_size=10, parallel shards. Completed ~13,260/13,489.
+- **Shard 22 checkpoint corruption**: 0-byte file caused worker crash. Reset manually.
+- **Questions generation**: manifests ready (`questions-shard-*.json`), prioritized by hub connectivity + younger developmental stages. Waiting for token limit reset (Saturday Mar 21). Launch: `bash tools/overnight/run-parallel.sh questions`
 
-## Overnight Q+E Run (Mar 14-15) — COMPLETE
-- Manifest: `tools/overnight/qe-manifest.json` (1,000 hub topics by connectivity)
-- Result: 1,000/1,000 completed, 0 failed. 1,006 total with Q+E (including 6 hand-crafted examples).
-- Quality spot-checked on supply-and-demand, time-complexity-classes — both excellent
-
-## UI Improvements (Mar 15, session 2)
-- **Click-to-preview panel**: clicking a node in radial or hierarchy views shows panel with prereqs/successors (hard/soft badges). Clicking items navigates to that node. Topic title links to detail page.
-- **Locked edge highlights**: clicking a node locks the blue (prereq) / orange (successor) edge highlights on screen. Escape or click empty space to clear.
-- **Search**: Ctrl+F search bar on all graph views. Multi-match highlights nodes with yellow rings. Single match auto-selects and shows panel.
-- **Course breadcrumb links**: topic pages now link to course (not just domain) in breadcrumb.
-- **Q+E sections NOT yet rendered** on topic pages — data exists in markdown but generate_topic_pages.py doesn't output them.
+## Phase 9 Assessment Redesign (Mar 19, 2026)
+- **Fluency model**: Continuous 0-100 score per topic (not tri-state). Bayesian updating on log-odds scale — sigmoid naturally emerges. Stored in localStorage as integer percentages, only non-zero topics stored.
+- **Prerequisite propagation**: Backward (mastery of successor implies ~0.85^hops fluency on prerequisites) and forward (low fluency on prerequisite caps successors). ~100 well-chosen questions can inform ~1000+ topic fluencies.
+- **Assessment uses actual questions** (MC, T/F) from question bank — NOT self-report familiarity like current assessment. Eliminates anxiety about misrepresenting knowledge.
+- **Silent response time tracking**: Fast correct = strong evidence, slow correct = moderate, fast wrong = likely misclick (low penalty), slow wrong = genuine gap. Never shown to user.
+- **Asymmetric updates**: Wrong answers penalized at 0.7× relative to correct answers. Structurally harder to lose fluency than gain it. Makes assessment feel generous.
+- **Three phases**: (1) Warm-up: pre-formal→concrete, rapid-fire, cross-domain rotation, MC/TF only. (2) Exploration: abstract→formal, adaptive per domain, "something different" escape hatch. (3) Deep Dive: optional, user-selected domains, rigorous, short-answer included.
+- **"Complete assessment" available at every point** — shows best estimate of personalized graph + frontiers.
+- **Post-assessment**: User sees fluency-colored radial graph, domain summary cards with course-level breakdowns, manual adjustment sliders for perceived mismatches.
+- **"Skip this domain"** button to dismiss uninterested domains entirely (dimmed, excluded from frontier).
+- **Landing experience**: Radial graph as-is (beautiful, expansive) → "Explore the Map" or "Personalize Your Map" → assessment. "Show Domains" toggle reduces dot graph to labeled domain nodes.
+- **Math Academy inspiration**: % fluency per topic, frontier = topics with high prerequisite fluency but low own fluency, visual green wave of mastery propagating through graph.
+- **Implementation phases**: A (fluency model + localStorage + graph coloring) → B (assessment phases 1-2) → C (assessment phase 3 + results) → D (landing page + domain toggle + progress bars + polish).
 
 ## Decisions
 - **Format**: Markdown + YAML frontmatter (one file per topic)
 - **License**: CC BY-SA 4.0 for content, MIT for tools
 - **GitHub Pages**: Preferred deployment method; generated HTML stays out of git
-- **Expansion strategy**: Research -> plan -> parallel generation agents -> validate -> commit
 - **New topic status**: `draft` until reviewed; original topics remain `validated`
-- **Questions schema**: YAML-in-code-block inside `## Questions` section. 3 questions per topic (MC, T/F, short-answer). Validated by validate.py as warnings.
-- **Explainer schema**: Freeform markdown in `## Explainer` section. 3-5 paragraphs that teach the concept.
-- **Radial viz domain blurring**: Keep cross-domain angular drift (0.02 spring-back) — topics should migrate toward domains they serve. Don't pin rigidly to sector.
-- **Topic splitting**: NOT recommended as general policy. Reserve for cases where data+algorithm fixes fail to resolve a specific topic's positioning.
-
-## Courses Flagged for Stage Review
-All flagged courses have been fixed.
+- **Questions schema**: YAML-in-code-block inside `## Questions`. 3 questions per topic (MC, T/F, short-answer)
+- **Explainer schema**: Freeform markdown in `## Explainer`. 3-5 paragraphs teaching the concept
+- **Tag pages**: Separate HTML pages per tag, grouped by domain. Tag names slugified for filenames
+- **Questions on separate pages**: `{topic-id}-questions.html` with interactive scoring, not cluttering topic page
+- **Pre-commit hook**: `domains/` and `output/` paths whitelisted — biology "secretion" topics are not secrets
+- **localStorage key contract**: `okg-fluency` (topic→score map), `okg-fluency-meta` (assessment metadata), `okg-goals` (starred target topics), `okg-adjustments` (manual course-level overrides)
+- **Domain ordering** (clockwise on radial graph): Math → Formal Sciences → Philosophy → CS → Engineering → Physics → Earth & Space → Chemistry → Biology → Health → Psychology → Social Sciences → Economics → Practical Life → History → Language → Literature → Arts → Music. Decided via 8-agent dialectic (Mar 19). Only change from original: Earth & Space ↔ Chemistry swap. Gains Bio↔Chem (180 edges) and Earth↔Physics (190 edges) adjacency.
+- **Applied Rationality placement**: Philosophy (not Psychology or Formal Sciences). Decided via 3-agent dialectic: normative character of content is the deciding factor (scored 8/10 Philosophy vs 5/10 Psychology vs 3/10 Formal Sciences).

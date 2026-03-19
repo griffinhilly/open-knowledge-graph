@@ -21,3 +21,12 @@ courses:
 - id: philosophy-of-mind
   title: Philosophy of Mind
   stage: formal-systems
+- id: philosophy-of-science
+  title: Philosophy of Science
+  stage: formal-systems
+- id: philosophy-of-language
+  title: Philosophy of Language
+  stage: formal-systems
+- id: applied-rationality
+  title: Applied Rationality
+  stage: formal-systems

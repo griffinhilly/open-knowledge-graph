@@ -20,17 +20,17 @@ The Markdown body contains a human-readable explanation, pedagogical notes, and 
 
 ## Current Coverage
 
-**13,489 topics across 19 domains, 148 courses, 29,596 prerequisite edges.**
+**13,518 topics across 19 domains, 149 courses, 29,609 prerequisite edges.**
 
 | Domain | Topics | Courses |
 |--------|--------|---------|
-| Mathematics | 1,920 | 28 (Kindergarten through Topology) |
+| Mathematics | 1,919 | 28 (Kindergarten through Topology) |
 | Computer Science | 1,059 | 11 |
 | Biology | 924 | 9 |
 | Physics | 856 | 8 |
+| Philosophy | 736 | 9 |
 | Engineering | 722 | 7 |
 | Economics | 721 | 7 |
-| Philosophy | 706 | 8 |
 | Psychology | 679 | 8 |
 | Earth & Space Sciences | 640 | 7 |
 | Music | 607 | 6 |
@@ -130,3 +130,5 @@ Content is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by
 ## Vision
 
 The prerequisite graph is the skeleton of human knowledge. This project provides a foundation that anyone can build on — curriculum designers, adaptive learning platforms, tutors, or self-directed learners who just want to know: "what should I learn next?"
+
+**Coming soon:** An adaptive assessment and personalized learning tracker that maps your knowledge onto the graph, highlights your frontier (topics you're ready to learn next), and guides your learning path — all running client-side with no account required.

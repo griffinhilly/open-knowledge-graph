@@ -127,7 +127,7 @@ Expanding non-math domains from ~20 topics/course toward ~35-40 topics/course.
 ## Phase 8: Community Launch — IN PROGRESS
 - [x] Push to GitHub as public repo
 - [x] Set up GitHub Actions for CI validation
-- [x] Finalize README with coverage table update (13,489 topics)
+- [x] Finalize README with coverage table update (13,518 topics)
 - [x] Create issue templates for topic additions and corrections
 - [x] Add Questions + Explainer schema (meta/schema.md, CONTRIBUTING.md)
 - [x] Build adaptive placement assessment (generate_assessment.py + generate_assessment_page.py)
@@ -145,10 +145,61 @@ Expanding non-math domains from ~20 topics/course toward ~35-40 topics/course.
 - [x] Render Questions + Explainer sections on topic detail pages
   - Explainers render on topic pages; Questions on separate interactive pages with scoring
 - [x] Explainer generation for all 13,489 topics (30-worker Sonnet swarm, Mar 16)
-- [ ] Questions generation for remaining ~12,483 topics (30-worker Sonnet swarm)
+- [x] Clickable tag pages (20,531 pages) with tag index
+- [x] Graph search matches tags and courses (not just title/ID)
+- [x] Mobile touch support (pinch-to-zoom, pan, tap-to-select, touch-action:none)
+- [x] Pre-commit hook fixed to whitelist domains/ directory
+- [x] Removed duplicate Mean, Median, and Mode topic (college-level)
+- [x] Confirm mobile touch fix working; remove debug overlay from hierarchy views
+  - Root cause: JS temporal dead zone error (`hoveredNode` declared after `draw()` call)
+  - Also fixed: pinch-to-zoom anchoring, duplicate mousemove handlers, course name casing
+  - Also fixed: radial graph mobile header overlap, legend too large on mobile
+  - Added close button to info panel on all graph views
+- [x] Add Applied Rationality course under Philosophy (30 topics, 6 topic groups)
+  - Placement validated via 3-agent dialectic (Philosophy 8/10 vs Psychology 5/10 vs Formal Sciences 3/10)
+- [x] Finalize domain ordering on radial graph
+  - 8-agent dialectic: Modified Arc wins. Swapped Earth & Space ↔ Chemistry for natural science adjacency.
+  - Narrative: formal foundations → physical sciences → life sciences → mind → society → humanities
+- [ ] Questions generation for remaining ~12,512 topics (30-worker Sonnet swarm)
   - Manifests built, prioritized by hub connectivity + younger developmental stages
   - Resume after weekly token limit resets (Saturday Mar 21)
 - [ ] Triage top radial ordering violations (676 edges with 2+ stage gap)
 - [ ] Add assessment generation to GitHub Actions workflow
 - [ ] Promote new draft topics to validated after review
 - [ ] Write announcement post
+
+## Phase 9: Learning Platform — PLANNED (Mar 19, 2026)
+Transform OKG from a static knowledge map into an interactive learning tool. Inspired by Math Academy's adaptive learning model. Nine features across four implementation phases.
+
+### Phase 9A: Fluency Model + Visual Integration
+- [ ] Define fluency data model: continuous 0-100 per topic, Bayesian log-odds updates
+- [ ] Implement localStorage schema (`okg-fluency`, `okg-fluency-meta`, `okg-goals`, `okg-adjustments`)
+- [ ] Implement prerequisite propagation (backward: 0.85^hops decay, forward: ceiling on successors)
+- [ ] Add fluency toggle on topic pages (manually mark known)
+- [ ] Modify graph views to color nodes by fluency (gray→dim→medium→bright→glow)
+- [ ] Better visual differentiation: perceptually uniform color palette, hub topic labels at moderate zoom, directional edge rendering
+
+### Phase 9B: Assessment Engine — Phases 1 & 2
+- [ ] Build `generate_assessment_questions.py` — extract question bank, prioritize by hub connectivity
+- [ ] Assessment welcome screen (low-stakes framing: "trivia game, not exam")
+- [ ] Phase 1 Warm-Up: pre-formal→concrete, rapid-fire MC/TF, cross-domain rotation
+- [ ] Phase 2 Exploration: abstract→formal, adaptive per domain, "something different" + "I'm done" buttons
+- [ ] Silent response time tracking (fast/slow modulates evidence weight)
+- [ ] Asymmetric update rule (wrong answers at 0.7× penalty vs correct)
+- [ ] "Skip this domain" to dismiss uninterested domains
+
+### Phase 9C: Assessment Phase 3 + Results
+- [ ] Phase 3 Deep Dive: user-selected domains, formal→advanced, short-answer questions
+- [ ] Results screen: fluency-colored radial graph (green wave of mastery)
+- [ ] Domain summary cards with course-level fluency breakdowns
+- [ ] Manual adjustment sliders ("This doesn't look right?")
+- [ ] Frontier highlighting (high-prereq-fluency, low-own-fluency topics)
+
+### Phase 9D: Landing Page + Polish
+- [ ] Redesign index page: "Explore the Map" vs "Personalize Your Map"
+- [ ] "Show Domains" toggle on radial graph (collapse dots to labeled domain nodes)
+- [ ] Course-level progress bars on hierarchy views and index page
+- [ ] Guided learning paths (topological sort of uncompleted topics, goal-directed pathfinding)
+- [ ] "Why this topic?" tooltips (downstream fan-out, goal dependencies)
+- [ ] Export/import progress as JSON (cross-device transfer)
+- [ ] Shareable profile URLs (stretch — start with JSON export)
