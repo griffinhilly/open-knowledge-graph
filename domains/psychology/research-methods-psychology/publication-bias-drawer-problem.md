@@ -10,7 +10,7 @@ tags:
 - bias
 - publication
 - meta-science
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

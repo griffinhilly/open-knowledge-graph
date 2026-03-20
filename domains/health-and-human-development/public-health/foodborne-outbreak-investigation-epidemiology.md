@@ -14,7 +14,7 @@ tags:
 - outbreak-investigation
 - food-safety
 - epidemiology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

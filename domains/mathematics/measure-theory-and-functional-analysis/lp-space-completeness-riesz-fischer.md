@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - lp-spaces
 - banach-spaces
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

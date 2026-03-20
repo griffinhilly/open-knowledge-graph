@@ -29,6 +29,45 @@ Put a pot of water on each heat level and time how long it takes to boil. Observ
 ## Common Misconceptions
 - Higher heat always means faster cooking (though heat matters, food size and depth affect speed; high heat can burn the outside before the inside cooks). - Once you set the heat, you shouldn't adjust it (experienced cooks constantly adjust heat during cooking). - All burners heat at the same rate (back burners, different stove models, and uneven heating require testing).
 
+## Questions
+
+```yaml
+- question: "You're making a cream sauce and set the burner to high to finish it faster. What most likely happens?"
+  type: multiple-choice
+  options:
+    - "The sauce cooks perfectly — high heat always produces better results faster."
+    - "The sauce takes longer because extra heat interferes with cooking chemistry."
+    - "The sauce burns, curdles, or separates — cream and fat break at high temperatures."
+    - "Nothing changes — a sauce's temperature is controlled by its ingredients, not the burner."
+  answer: 2
+  explanation: "Cream sauces require low, controlled heat because fat and dairy proteins break down when overheated, causing scorching, curdling, or separation. 'Higher heat always cooks faster' is a common misconception — for delicate foods, the mismatch between the food's heat tolerance and the energy input causes failure, not speed."
+
+- question: "Why does a cold, wet piece of chicken placed in a lukewarm pan come out pale and steamed rather than browned?"
+  type: multiple-choice
+  options:
+    - "Because chicken needs cold pans to develop its best texture."
+    - "Because surface moisture keeps the chicken's temperature below 212°F until it evaporates — browning cannot start until then, and a lukewarm pan cannot drive that moisture off fast enough."
+    - "Because low heat always produces better texture in poultry."
+    - "Because the Maillard reaction happens at any temperature above freezing."
+  answer: 1
+  explanation: "The Maillard reaction — which creates the brown crust and rich flavor — only occurs above about 280°F. Water keeps a food's surface below 212°F until it fully evaporates. A high-heat pan drives off surface moisture rapidly, then the temperature climbs and browning begins. A lukewarm pan evaporates moisture slowly, so the chicken steams in its own liquid and never gets hot enough to brown."
+
+- question: "An experienced cook adjusts the burner heat multiple times while making a single dish."
+  type: true-false
+  answer: true
+  explanation: "Active heat management is what separates skilled from novice cooking. A pasta dish starts on high to boil water, drops to medium to maintain the boil without boiling over, and may go lower when adding sauce. A steak starts high for searing, then lowers to finish cooking through without burning. Setting the heat once and walking away is a beginner mistake."
+
+- question: "Using higher heat always makes food cook faster."
+  type: true-false
+  answer: false
+  explanation: "This is the most common heat-management misconception. While high heat transfers energy faster, many foods (cream sauces, chocolate, eggs, fish) burn, curdle, or break before they finish cooking at high temperatures. The actual time to a successfully finished dish depends on matching the right heat level to the food's tolerance — not maximizing heat."
+
+- question: "Why is it important to adjust heat throughout cooking rather than setting the burner once at the start?"
+  type: short-answer
+  answer: "Different stages of the same recipe need different amounts of heat. For example, you need high heat to bring water to a boil quickly, but then reduce to medium to maintain the boil without overflowing. You sear meat on high to trigger browning, then lower the heat to cook the interior through without burning the surface. The goal is to match the rate of energy transfer to what the food can handle at each stage. Active adjustment gives you control over both speed and outcome."
+  explanation: "This reflects the key shift from passive heat use (set and hope) to active management (adjust throughout). Understanding that each cooking stage has an optimal heat level turns stovetop cooking from guesswork into a series of deliberate decisions."
+```
+
 ## Explainer
 
 Think of a stovetop burner like a volume knob. The heat settings — high, medium-high, medium, medium-low, low — control how much energy per second is transferred into your pan. High heat floods the pan with energy quickly; low heat feeds it slowly. What matters for cooking is matching that energy rate to what your food needs. The wrong match is the root cause of most stovetop cooking failures: too high and the outside burns before the inside cooks; too low and nothing caramelizes or sears, leaving food pale and steamed-tasting.

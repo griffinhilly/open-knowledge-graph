@@ -18,7 +18,7 @@ tags:
 - zhou-dynasty
 - oracle-bones
 - bronze-age-china
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 

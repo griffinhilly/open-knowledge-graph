@@ -17,7 +17,7 @@ tags:
 - beat
 - groove
 - off-beat
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

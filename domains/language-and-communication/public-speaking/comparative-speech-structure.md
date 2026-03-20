@@ -15,7 +15,7 @@ tags:
 - structure
 - comparison
 - analysis
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

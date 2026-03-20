@@ -28,6 +28,45 @@ Collect images showing both geometric and organic shapes from design, nature, an
 ## Common Misconceptions
 Geometric shapes are more skillful to draw or more appropriate for formal work. Organic shapes must look perfectly natural; slightly imperfect shapes don't read as organic. Shapes must be mathematically perfect to be geometric.
 
+## Questions
+
+```yaml
+- question: "A logo designer is creating a symbol for a children's natural toy company and wants it to feel warm, alive, and approachable. Which approach best supports these goals?"
+  type: multiple-choice
+  options:
+    - "Use primarily geometric shapes — squares and triangles — for a modern, structured look"
+    - "Use primarily organic shapes — irregular curves and flowing edges — to suggest naturalness and life"
+    - "Use only circles, because circles are both geometric and somewhat natural"
+    - "Avoid shapes entirely and rely on color and typography alone"
+  answer: 1
+  explanation: "Organic shapes echo living things — they feel warm, spontaneous, and approachable because they mirror the irregularity of the natural world. Geometric shapes communicate order, precision, and human construction — appropriate for a bank or tech company, but not for a brand emphasizing naturalness. The shape choice itself carries meaning before any text is read."
+
+- question: "An artist places a flowing, irregular organic shape at the center of a rigid geometric grid. What is the most likely visual effect?"
+  type: multiple-choice
+  options:
+    - "The organic shape will visually disappear because it doesn't fit the grid"
+    - "The composition will feel chaotic because geometric and organic shapes don't work together"
+    - "The contrast will create visual tension and interest — structure in dialogue with life"
+    - "The grid will overpower the organic shape, making the composition feel purely geometric"
+  answer: 2
+  explanation: "Combining geometric and organic shapes creates productive visual tension. The geometric frame provides order and structure; the organic element provides vitality and irregularity. This contrast energizes a composition in ways that neither type alone can achieve. Purely geometric compositions can feel sterile; purely organic ones can feel chaotic — the dialogue between them is where much of visual interest lives."
+
+- question: "Geometric shapes must be mathematically perfect — drawn with a ruler and compass — to qualify as geometric in art and design."
+  type: true-false
+  answer: false
+  explanation: "What makes a shape geometric is its visual character: regular, precise-looking edges that suggest order and construction. Hand-drawn geometric shapes that are slightly imperfect still read as geometric and still communicate stability and rationality. Requiring mathematical perfection is a misconception that confuses the mathematical definition of a shape with its visual function in art and design."
+
+- question: "Organic shapes tend to make visual compositions feel more spontaneous and approachable than compositions built entirely from geometric shapes."
+  type: true-false
+  answer: true
+  explanation: "Because organic shapes mirror the forms found in nature — which are inherently irregular — they carry associations with living things, growth, and naturalness. This makes them feel warmer and less rigid than geometric shapes. A composition of only rectangles and triangles communicates control and order; introducing organic shapes softens that feeling and adds a sense of life."
+
+- question: "Why might a designer choose geometric shapes for a bank's branding but organic shapes for a wellness spa's branding?"
+  type: short-answer
+  answer: "Geometric shapes communicate order, precision, and stability — qualities that build trust and confidence in financial contexts. Organic shapes communicate naturalness, warmth, and ease — qualities that align with relaxation and well-being. The shape language carries meaning independent of text or color, so designers choose the type whose associations match the feeling the brand wants to evoke."
+  explanation: "This is the core principle: shape choice is not decorative but communicative. Before a viewer reads a single word, the shapes in a logo or layout create an emotional impression. Understanding that geometric shapes suggest 'the mind's desire for order' while organic shapes suggest 'the world's inherent irregularity' allows designers to make intentional choices rather than arbitrary ones."
+```
+
 ## Explainer
 
 A **shape** is any enclosed two-dimensional area — it has height and width, defined by an edge or boundary that separates it from its surroundings. Shapes are among the first visual elements you perceive in any image: before you register color, texture, or detail, your brain identifies the shapes and uses them to recognize objects, read layouts, and navigate visual space. Every visual composition, whether a painting, a photograph, or a website, is ultimately an arrangement of shapes.

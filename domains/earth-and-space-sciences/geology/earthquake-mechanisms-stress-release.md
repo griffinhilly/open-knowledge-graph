@@ -6,8 +6,6 @@ course: geology
 prerequisites:
 - id: plate-boundary-processes-interactions
   type: hard
-- id: coulomb-stress-transfer
-  type: soft
 - id: stress-strain-rock-deformation
   type: soft
 builds-toward:
@@ -16,7 +14,7 @@ tags:
 - earthquakes
 - seismology
 - faults
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

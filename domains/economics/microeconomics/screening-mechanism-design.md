@@ -10,7 +10,7 @@ tags:
 - mechanism design
 - information asymmetry
 - screening
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -28,6 +28,45 @@ Fold paper or use grids to create 6 and 8 equal parts. Compare sizes with halves
 ## Common Misconceptions
 Dividing unevenly; not recognizing that more parts means smaller pieces.
 
+## Questions
+
+```yaml
+- question: "Maria and José each have an identical pizza. Maria's is cut into 8 equal slices; José's is cut into 6 equal slices. Who gets more pizza if each takes 1 slice?"
+  type: multiple-choice
+  options:
+    - "Maria, because 8 is a bigger number than 6"
+    - "José, because his pizza was cut into fewer pieces, making each slice larger"
+    - "They get the same amount, because they each take exactly 1 slice"
+    - "Maria, because fractions with larger denominators represent larger amounts"
+  answer: 1
+  explanation: "More cuts from the same whole means smaller pieces. José's pizza was divided into only 6 pieces, so each slice is larger than if the same pizza had been cut into 8. María's 8 slices are thinner. So 1/6 > 1/8. Options A and D are the core misconception: a larger denominator signals more cuts, which produces smaller pieces — the opposite of what the number's size might suggest."
+
+- question: "Which correctly orders these unit fractions from smallest to largest?"
+  type: multiple-choice
+  options:
+    - "1/2, 1/4, 1/6, 1/8"
+    - "1/8, 1/6, 1/4, 1/2"
+    - "1/6, 1/8, 1/4, 1/2"
+    - "1/8, 1/4, 1/6, 1/2"
+  answer: 1
+  explanation: "Unit fractions order opposite to their denominators. 1/8 is smallest (8 tiny pieces), then 1/6, then 1/4, then 1/2 (only 2 large pieces). The bigger the denominator, the smaller the fraction. This ordering runs counter to how whole numbers order (8 > 6 > 4 > 2), which is exactly what makes it counterintuitive and worth practicing explicitly."
+
+- question: "A strip of paper folded in half three times has 8 equal sections, and each section (1/8) is smaller than each section after only two folds (1/4)."
+  type: true-false
+  answer: true
+  explanation: "Each fold doubles the number of sections and halves the size of each piece. After 1 fold: 2 sections of 1/2. After 2 folds: 4 sections of 1/4. After 3 folds: 8 sections of 1/8. More folds = more sections = smaller each section. This is a physical demonstration of why a larger denominator corresponds to a smaller unit fraction."
+
+- question: "1/6 is larger than 1/4 because 6 is a larger number than 4."
+  type: true-false
+  answer: false
+  explanation: "This is the core misconception. The denominator tells you how many equal parts the whole is divided into — a bigger denominator means more cuts, which means smaller pieces. 1/4 means the whole is split into 4 pieces; 1/6 means it's split into 6 smaller pieces. So 1/4 > 1/6, even though 4 < 6. The fraction ordering runs opposite to the denominator ordering for unit fractions."
+
+- question: "A classmate wants 1/8 of the cake instead of 1/6 because '8 is bigger than 6, so I'll get more.' How do you explain the error?"
+  type: short-answer
+  answer: "A bigger denominator means more cuts, which makes each piece smaller, not bigger. If the cake is divided into 8 equal pieces, each piece is smaller than if it were divided into only 6. So 1/8 is actually less than 1/6. The denominator counts the number of cuts, not the size of each piece."
+  explanation: "The denominator's role is to state how many equal pieces the whole is divided into. More pieces means the same whole is split further, giving smaller slices. A large denominator signals a small fraction: 1/8 < 1/6 < 1/4 < 1/3 < 1/2 < 1. This ordering contradicts the natural ordering of whole numbers, which is why the misconception is so persistent and explicit instruction is essential."
+```
+
 ## Explainer
 
 You already understand that 1/2 means one out of two equal parts, 1/3 means one out of three equal parts, and 1/4 means one out of four equal parts. **Sixths** and **eighths** extend the exact same pattern to finer divisions. **One-sixth** (1/6) means the whole has been cut into 6 equal pieces, and you are talking about 1 of those pieces. **One-eighth** (1/8) means 8 equal pieces, 1 of which you are describing. The denominator simply tells you how many equal pieces the whole was split into.

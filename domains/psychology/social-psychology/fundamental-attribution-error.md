@@ -13,7 +13,7 @@ tags:
 - attribution
 - bias
 - dispositionism
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - minimal-state
 - entitlement-theory
 - self-ownership
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

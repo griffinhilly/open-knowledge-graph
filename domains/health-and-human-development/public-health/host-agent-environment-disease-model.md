@@ -14,7 +14,7 @@ tags:
 - epidemiology
 - disease-causation
 - frameworks
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

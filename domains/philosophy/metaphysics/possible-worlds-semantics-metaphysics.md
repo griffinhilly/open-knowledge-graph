@@ -21,7 +21,7 @@ tags:
 - necessity
 - possibility
 - semantics
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Possible Worlds

@@ -14,7 +14,7 @@ tags:
 - producer theory
 - costs
 - economies of scale
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

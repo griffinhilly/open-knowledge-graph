@@ -17,7 +17,7 @@ tags:
 - Metternich
 - conservatism
 - 19th century
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

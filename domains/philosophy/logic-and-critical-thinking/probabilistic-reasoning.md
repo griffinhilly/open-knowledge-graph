@@ -11,7 +11,7 @@ tags:
 - bayesian
 - reasoning
 - induction
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

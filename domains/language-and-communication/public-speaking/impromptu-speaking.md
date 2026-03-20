@@ -16,7 +16,7 @@ tags:
 - spontaneous
 - structure
 - thinking-on-your-feet
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - mere-exposure
 - familiarity
 - relationships
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

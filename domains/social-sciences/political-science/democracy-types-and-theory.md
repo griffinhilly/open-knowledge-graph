@@ -20,7 +20,7 @@ tags:
 - direct democracy
 - majoritarianism
 - deliberation
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

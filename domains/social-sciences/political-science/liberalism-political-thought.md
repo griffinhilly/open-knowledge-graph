@@ -16,7 +16,7 @@ tags:
 - limited-government
 - free-market
 - democracy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

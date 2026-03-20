@@ -19,7 +19,7 @@ tags:
 - goodness-of-fit
 - expected-ratio
 - degrees-of-freedom
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

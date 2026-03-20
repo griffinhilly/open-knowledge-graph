@@ -7,8 +7,7 @@ prerequisites:
 - id: basis-and-dimension
   type: hard
 builds-toward:
-- column-space
-- null-space
+  - column-space
 tags:
 - rank
 - nullity
@@ -17,7 +16,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Rank-Nullity Theorem
 
 ## Core Idea

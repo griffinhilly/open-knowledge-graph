@@ -15,7 +15,7 @@ tags:
 - neoplatonism
 - renaissance
 - intellectualism
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -22,7 +22,7 @@ tags:
 - polyphenols
 - carotenoids
 - free radicals
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -12,7 +12,7 @@ tags:
 - diaphragm
 - resonance
 - volume
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

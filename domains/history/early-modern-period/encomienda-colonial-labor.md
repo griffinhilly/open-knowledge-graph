@@ -14,7 +14,7 @@ tags:
 - colonialism
 - spain
 - exploitation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

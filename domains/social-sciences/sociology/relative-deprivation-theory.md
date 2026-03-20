@@ -14,7 +14,7 @@ tags:
 - grievance
 - social-unrest
 - stouffer
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

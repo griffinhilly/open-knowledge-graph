@@ -17,7 +17,7 @@ tags:
 - Kennedy
 - Khrushchev
 - crisis
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

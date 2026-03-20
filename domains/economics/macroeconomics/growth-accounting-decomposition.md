@@ -15,7 +15,7 @@ tags:
 - growth
 - productivity
 - accounting
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

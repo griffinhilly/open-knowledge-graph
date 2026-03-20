@@ -10,17 +10,15 @@ prerequisites:
   type: soft
 - id: executive-function-development-components
   type: soft
-builds-toward:
-- abstract-reasoning-and-hypothetical-thinking
+builds-toward: []
 tags:
 - mathematics
 - number-sense
 - numeracy
 - quantitative-reasoning
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Mathematical Thinking and Number Sense
 
 ## Core Idea

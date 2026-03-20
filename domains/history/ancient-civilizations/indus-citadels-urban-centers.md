@@ -12,7 +12,7 @@ tags:
 - urban-design
 - architecture
 - planning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

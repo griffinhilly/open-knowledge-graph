@@ -22,7 +22,7 @@ tags:
 - depopulation
 - labor
 - social-upheaval
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 # The Black Death

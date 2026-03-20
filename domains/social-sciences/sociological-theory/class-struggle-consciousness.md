@@ -14,7 +14,7 @@ tags:
 - class
 - consciousness
 - conflict
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

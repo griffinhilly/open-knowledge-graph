@@ -29,7 +29,7 @@ tags:
 - centripetal-acceleration
 - period
 - frequency
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Circular Motion: Kinematics

@@ -18,7 +18,7 @@ tags:
 - decision-making
 - norms
 - bystander
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

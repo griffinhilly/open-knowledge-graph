@@ -16,7 +16,7 @@ tags:
 - identity
 - secondary-deviance
 - becker
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - black-smokers
 - tube-worms
 - extremophiles
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

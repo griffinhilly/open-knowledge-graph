@@ -15,7 +15,7 @@ tags:
 - jacobi
 - iterative
 - linear-systems
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -21,7 +21,7 @@ tags:
 - phosphorus-cycle
 - nutrient-cycling
 - biogeochemistry
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

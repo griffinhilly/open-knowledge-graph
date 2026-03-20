@@ -19,7 +19,7 @@ tags:
 - atomic-radius
 - electron-affinity
 - effective-nuclear-charge
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

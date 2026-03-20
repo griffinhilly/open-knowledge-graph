@@ -16,7 +16,7 @@ tags:
 - organization
 - information-design
 - clarity
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

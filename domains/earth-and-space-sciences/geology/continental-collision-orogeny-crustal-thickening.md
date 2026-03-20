@@ -12,7 +12,7 @@ tags:
 - orogeny
 - collision
 - tectonics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

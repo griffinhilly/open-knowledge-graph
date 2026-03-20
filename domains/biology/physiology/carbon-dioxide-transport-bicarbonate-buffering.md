@@ -18,7 +18,7 @@ tags:
 - bicarbonate
 - buffering
 - gas exchange
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

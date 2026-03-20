@@ -17,7 +17,7 @@ tags:
 - adh
 - aldosterone
 - sodium-balance
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

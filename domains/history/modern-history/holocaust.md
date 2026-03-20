@@ -17,7 +17,7 @@ tags:
 - antisemitism
 - Nazism
 - memory
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

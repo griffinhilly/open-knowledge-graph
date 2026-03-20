@@ -15,7 +15,7 @@ tags:
 - food-safety
 - nutrition
 - inclusive-cooking
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 

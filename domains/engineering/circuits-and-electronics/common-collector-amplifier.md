@@ -17,7 +17,7 @@ tags:
 - impedance-matching
 - high-input-impedance
 - low-output-impedance
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

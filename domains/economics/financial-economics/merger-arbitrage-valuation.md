@@ -13,7 +13,7 @@ tags:
 - arbitrage
 - valuation
 - risk
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

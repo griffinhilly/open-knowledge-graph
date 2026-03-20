@@ -17,7 +17,7 @@ tags:
 - smooth-muscle
 - vasoconstriction
 - myosin-light-chain
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

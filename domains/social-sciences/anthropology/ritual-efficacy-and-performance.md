@@ -15,7 +15,7 @@ tags:
 - efficacy
 - action
 - causality
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

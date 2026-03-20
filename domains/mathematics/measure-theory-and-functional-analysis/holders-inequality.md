@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - lp-spaces
 - inequalities
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

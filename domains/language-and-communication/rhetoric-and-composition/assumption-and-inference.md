@@ -16,7 +16,7 @@ tags:
 - reasoning
 - critical-thinking
 - argument
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -26,6 +26,45 @@ status: draft
 ## Core Idea
 Mesopotamia, the region between the Tigris and Euphrates rivers, was home to humanity's first cities and complex civilizations. The periodic flooding of these rivers provided fertile soil but required coordinated irrigation systems, which drove urbanization and social organization. Mesopotamian innovations—writing, law codes, organized religion, and bureaucracy—became models for later civilizations.
 
+## Questions
+
+```yaml
+- question: "Early cuneiform writing in Mesopotamia (c. 3200 BCE) was developed primarily to:"
+  type: multiple-choice
+  options:
+    - "Record religious hymns, creation myths, and temple ceremonies for the priestly class"
+    - "Preserve the military conquests and royal genealogies of Sumerian kings"
+    - "Solve an administrative problem: tracking grain inventories, rations, and economic accounts across a complex urban economy"
+    - "Enable long-distance diplomatic communication between rival city-states"
+  answer: 2
+  explanation: "The earliest cuneiform tablets are overwhelmingly administrative — inventories of grain, livestock, and labor. Writing was not invented for culture or religion; it was invented because a city of tens of thousands needed a way to track who owned what and who owed what across an economy too complex for human memory. This origin reveals the causal logic of Mesopotamian civilization: administrative necessity drove institutional innovation. Literary and religious uses developed generations later."
+
+- question: "Why did Mesopotamia — rather than regions with more favorable, predictable geography — become the first site of urban civilization?"
+  type: multiple-choice
+  options:
+    - "Mesopotamia had the world's richest agricultural soil, making farming effortless and generating automatic surplus"
+    - "The region's geography was uniquely isolated, protecting early settlements from invasion and allowing stable development"
+    - "The Tigris and Euphrates floods were irregular and potentially catastrophic, requiring coordinated irrigation that compelled collective organization at urban scale"
+    - "Mesopotamia had the largest river delta in the ancient world, providing natural harbors that enabled trade-based urbanization"
+  answer: 2
+  explanation: "The rivers were simultaneously essential and treacherous — unlike the Nile's relatively predictable annual floods, the Tigris and Euphrates flooded irregularly and sometimes catastrophically. Agriculture in this environment required coordinated canal networks and levees that no single village could build or maintain. This hydraulic imperative — organizing collective labor for water infrastructure — is a leading explanation for why cities emerged here first. The city was a necessary administrative unit, not just a place people clustered."
+
+- question: "The Tigris and Euphrates rivers had predictable, regular flood cycles that made agricultural planning straightforward for Mesopotamian farmers, similar to the Nile in Egypt."
+  type: true-false
+  answer: false
+  explanation: "This is a common misreading. The Tigris and Euphrates flooded irregularly and sometimes catastrophically, driven by unpredictable snowmelt and rainfall in the Anatolian highlands. This is the key contrast with Egypt, where the Nile's relatively predictable annual inundation allowed more autonomous agricultural planning. The unpredictability of Mesopotamian floods was not a setback — it was a structural driver of collective organization, since managing the water required coordinated infrastructure beyond any individual family or village."
+
+- question: "Each wave of conquest in Mesopotamia — by Akkadians, Babylonians, Kassites, Assyrians, and others — tended to absorb and transmit the administrative, literary, and religious traditions of the conquered civilization, making Mesopotamia a crossroads of cultural transmission rather than a series of fresh starts."
+  type: true-false
+  answer: true
+  explanation: "Mesopotamia's open, flat geography made it repeatedly contestable — a long succession of dominant powers. But political instability did not erase Mesopotamian culture. Each conquering group absorbed Sumerian and Akkadian religious, administrative, and literary traditions and often transmitted them further. The Epic of Gilgamesh traveled from Sumerian originals through Akkadian translation to copies across the ancient Near East. This pattern — conquest as a vehicle for cultural dissemination — is a key reason Mesopotamian innovations influenced civilizations far beyond the Tigris-Euphrates valley."
+
+- question: "Why is it more accurate to say that writing in Mesopotamia was 'invented to solve a bureaucratic problem' than to say it was 'invented to record culture'? What does this origin reveal about how civilization develops?"
+  type: short-answer
+  answer: "The earliest cuneiform tablets (c. 3200 BCE) are grain inventories, ration lists, and labor records — the Mesopotamian equivalent of a spreadsheet. Writing emerged because the urban economy of a city like Uruk, with tens of thousands of participants, had outgrown human memory and oral record-keeping. Cultural, literary, and religious uses came later. This origin reveals that civilizational institutions typically emerge as practical responses to organizational problems, not as deliberate cultural achievements. The same logic applies to cities (needed to manage water), centralized authority (needed to coordinate labor), and social stratification (needed to allocate specialized roles)."
+  explanation: "The insight that institutions arise from necessity rather than design connects this topic to the broader concept of how civilizations develop. Features like writing, cities, and the state are often portrayed as achievements or gifts of progress; in reality they were structural solutions to coordination problems created by dense, economically interdependent populations. Recognizing this makes Mesopotamian history analytically useful rather than merely interesting."
+```
+
 ## Explainer
 
 From your study of ancient civilization characteristics, you know that civilization requires surplus—more food than subsistence demands—to free some people from agricultural labor for specialized roles like administration, priesthood, craft production, and military service. Mesopotamia is not just an early example of this dynamic; it is arguably the place where it was first systematically organized at urban scale. Understanding why Mesopotamia became the "cradle of civilization" means understanding the specific pressures that the Tigris and Euphrates rivers created, and how human responses to those pressures invented institutions that all subsequent civilizations inherited.

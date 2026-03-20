@@ -14,7 +14,7 @@ tags:
 - lipid-bilayer
 - membrane-proteins
 - lipid-rafts
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

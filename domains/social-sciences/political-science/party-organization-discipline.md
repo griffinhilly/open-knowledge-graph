@@ -14,7 +14,7 @@ tags:
 - organization
 - discipline
 - leadership
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

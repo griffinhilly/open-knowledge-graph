@@ -15,7 +15,7 @@ tags:
 - fiscal-policy
 - debt
 - deficit
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - components
 - reusability
 - templates
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

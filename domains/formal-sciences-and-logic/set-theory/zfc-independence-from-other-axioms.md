@@ -13,7 +13,7 @@ tags:
 - zfc
 - continuum
 - axioms
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

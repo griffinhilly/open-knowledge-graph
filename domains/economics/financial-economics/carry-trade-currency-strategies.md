@@ -15,7 +15,7 @@ tags:
 - arbitrage
 - interest-rates
 - trading
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

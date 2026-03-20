@@ -12,7 +12,7 @@ tags:
 - unit-cell
 - lattice-parameter
 - crystal-geometry
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

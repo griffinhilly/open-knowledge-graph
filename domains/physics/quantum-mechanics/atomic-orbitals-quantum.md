@@ -10,7 +10,7 @@ tags:
 - atoms
 - orbitals
 - wavefunctions
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - markup
 - deadweight-loss
 - economic-profit
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - reduction
 - form
 - perception
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - spontaneity
 - Gibbs free energy
 - ΔG
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

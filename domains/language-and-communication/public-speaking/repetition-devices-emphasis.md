@@ -13,7 +13,7 @@ tags:
 - anaphora
 - rhetoric
 - emphasis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

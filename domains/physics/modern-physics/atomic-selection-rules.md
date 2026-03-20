@@ -12,7 +12,7 @@ tags:
 - quantum
 - spectroscopy
 - transitions
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

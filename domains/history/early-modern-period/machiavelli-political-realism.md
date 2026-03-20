@@ -15,7 +15,7 @@ tags:
 - statecraft
 - realism
 - power
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

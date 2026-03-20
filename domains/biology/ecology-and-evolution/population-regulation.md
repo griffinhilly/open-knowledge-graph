@@ -18,7 +18,7 @@ tags:
 - regulation
 - negative-feedback
 - population-control
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

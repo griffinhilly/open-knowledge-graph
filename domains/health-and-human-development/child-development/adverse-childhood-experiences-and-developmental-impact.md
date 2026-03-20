@@ -14,7 +14,7 @@ tags:
 - trauma
 - adverse-experiences
 - developmental-neuroscience
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -22,7 +22,7 @@ tags:
 - buffer
 - bicarbonate
 - respiratory-compensation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

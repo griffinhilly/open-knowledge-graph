@@ -20,7 +20,7 @@ tags:
 - hand-coordination
 - manipulation
 - skill-development
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

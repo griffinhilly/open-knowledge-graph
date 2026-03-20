@@ -14,7 +14,7 @@ tags:
 - social-cognition
 - infant-development
 - emotional-communication
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - ELM
 - attitude change
 - influence
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

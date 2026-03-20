@@ -13,7 +13,7 @@ tags:
 - labor
 - comparison
 - ancient-world
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - religion
 - france
 - edict
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

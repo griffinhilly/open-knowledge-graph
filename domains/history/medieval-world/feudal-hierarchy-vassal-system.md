@@ -16,7 +16,7 @@ tags:
 - feudalism
 - hierarchy
 - vassalage
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

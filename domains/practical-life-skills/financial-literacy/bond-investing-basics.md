@@ -14,7 +14,7 @@ tags:
 - bonds
 - fixed-income
 - investing
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

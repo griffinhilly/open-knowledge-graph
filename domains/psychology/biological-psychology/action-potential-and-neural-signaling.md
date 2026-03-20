@@ -23,7 +23,7 @@ tags:
 - electrical-signaling
 - neurophysiology
 - propagation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

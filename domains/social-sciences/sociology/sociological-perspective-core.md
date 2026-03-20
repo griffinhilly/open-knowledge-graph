@@ -13,7 +13,7 @@ tags:
 - foundational
 - perspective
 - theory
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

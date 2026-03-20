@@ -13,7 +13,7 @@ tags:
 - isotopes
 - nucleus
 - mass number
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

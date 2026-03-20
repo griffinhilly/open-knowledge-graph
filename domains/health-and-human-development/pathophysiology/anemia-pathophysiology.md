@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: vitamin-b12-and-folate-metabolism
   type: soft
+- id: cardiogenic-pulmonary-edema-pathophysiology
+  type: soft
 builds-toward:
 - iron-deficiency-anemia
 - megaloblastic-anemia
@@ -21,7 +23,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Anemia: Classification and Pathophysiology
 
 ## Core Idea

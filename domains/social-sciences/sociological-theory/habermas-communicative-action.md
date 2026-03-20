@@ -11,7 +11,7 @@ tags:
 - communicative-action
 - public-sphere
 - deliberation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

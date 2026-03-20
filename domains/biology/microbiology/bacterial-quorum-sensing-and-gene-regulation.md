@@ -16,7 +16,7 @@ tags:
 - quorum-sensing
 - cell-communication
 - autoinduction
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

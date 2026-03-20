@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - optimization
 - extrema
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

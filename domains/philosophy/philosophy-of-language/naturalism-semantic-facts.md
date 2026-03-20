@@ -17,7 +17,7 @@ tags:
 - ontology
 - semantics
 - reduction
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

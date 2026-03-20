@@ -16,7 +16,7 @@ tags:
 - multiband
 - decomposition
 - analysis
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

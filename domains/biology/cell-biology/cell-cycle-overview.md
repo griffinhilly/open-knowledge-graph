@@ -18,7 +18,7 @@ tags:
 - S-phase
 - G2
 - division
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

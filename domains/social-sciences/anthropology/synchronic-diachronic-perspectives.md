@@ -3,7 +3,9 @@ id: synchronic-diachronic-perspectives
 title: Synchronic and Diachronic Perspectives
 domain: social-sciences
 course: anthropology
-prerequisites: []
+prerequisites:
+- id: anthropology-overview
+  type: soft
 builds-toward:
 - cultural-change-innovation
 - cultural-transmission-intergenerational
@@ -15,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Synchronic and Diachronic Perspectives
 
 ## Core Idea

@@ -16,7 +16,7 @@ tags:
 - theme
 - implication
 - parallel-plotting
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

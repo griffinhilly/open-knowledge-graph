@@ -13,7 +13,7 @@ tags:
 - reliability
 - error-tolerance
 - knowledge
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - consciousness
 - efficacy
 - mental-causation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

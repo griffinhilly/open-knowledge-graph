@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: vector-clocks
   type: soft
-builds-toward:
-- causal-consistency-implementation
+builds-toward: []
 tags:
 - clocks
 - physical-time
@@ -18,7 +17,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Hybrid Logical Clocks
 
 ## Core Idea

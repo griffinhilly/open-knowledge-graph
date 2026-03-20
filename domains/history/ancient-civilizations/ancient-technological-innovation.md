@@ -21,7 +21,7 @@ tags:
 - writing
 - agriculture
 - innovation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

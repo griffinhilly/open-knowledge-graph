@@ -16,7 +16,7 @@ tags:
 - solid-solution
 - miscibility-gap
 - lever-rule
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

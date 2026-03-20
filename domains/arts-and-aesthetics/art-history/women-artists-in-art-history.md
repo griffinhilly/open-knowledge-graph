@@ -17,7 +17,7 @@ tags:
 - women-artists
 - art-history
 - equity
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - defensive reasoning
 - self-protective
 - bias
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

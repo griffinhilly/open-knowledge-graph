@@ -16,7 +16,7 @@ tags:
 - moral-knowledge
 - moral-intuitions
 - reflective-equilibrium
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

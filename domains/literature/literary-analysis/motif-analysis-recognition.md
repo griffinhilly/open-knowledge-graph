@@ -18,7 +18,7 @@ tags:
 - pattern
 - repetition
 - theme
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

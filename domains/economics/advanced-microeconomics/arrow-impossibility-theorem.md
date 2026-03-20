@@ -3,14 +3,15 @@ id: arrow-impossibility-theorem
 title: Arrow's Impossibility Theorem and Social Choice
 domain: economics
 course: advanced-microeconomics
-prerequisites: []
+prerequisites:
+- id: information-asymmetry
+  type: soft
 tags:
 - social-choice
 - voting
 stage: advanced
 status: draft
 ---
-
 # Arrow's Impossibility Theorem and Social Choice
 
 ## Core Idea

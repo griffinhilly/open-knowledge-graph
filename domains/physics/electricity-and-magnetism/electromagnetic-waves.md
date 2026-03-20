@@ -20,7 +20,7 @@ tags:
 - Poynting-vector
 - spectrum
 - radiation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Electromagnetic Waves

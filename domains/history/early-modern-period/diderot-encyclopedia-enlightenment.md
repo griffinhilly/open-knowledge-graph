@@ -14,7 +14,7 @@ tags:
 - encyclopedia
 - knowledge
 - enlightenment
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

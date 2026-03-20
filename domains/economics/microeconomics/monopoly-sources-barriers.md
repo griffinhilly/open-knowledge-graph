@@ -13,7 +13,7 @@ tags:
 - market-power
 - barriers-to-entry
 - sources
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

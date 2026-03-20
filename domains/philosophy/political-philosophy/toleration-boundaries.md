@@ -14,7 +14,7 @@ tags:
 - pluralism
 - liberal-limits
 - intolerance
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

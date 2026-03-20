@@ -17,7 +17,7 @@ tags:
 - argument
 - analysis
 - writing
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

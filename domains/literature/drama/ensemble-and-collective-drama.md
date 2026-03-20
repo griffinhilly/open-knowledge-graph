@@ -17,7 +17,7 @@ tags:
 - collective
 - structure
 - community
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

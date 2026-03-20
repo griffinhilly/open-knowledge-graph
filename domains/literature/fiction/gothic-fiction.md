@@ -17,7 +17,7 @@ tags:
 - horror
 - the-uncanny
 - atmosphere
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

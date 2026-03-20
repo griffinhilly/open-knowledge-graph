@@ -24,7 +24,7 @@ status: draft
 # Liquidity and the Asset Liquidity Spectrum
 
 ## Core Idea
-TODO
+When you made the distinction between saving and investing, you were separating money kept safe and accessible from money put to work for growth. Liquidity is the concept that formalizes the "accessible" part: it describes how quickly and easily an asset can be converted into cash without significant loss of value. Not all assets are equally liquid, and understanding where different assets sit on the liquidity spectrum is essential for managing your finances safely.
 
 ## Explainer
 

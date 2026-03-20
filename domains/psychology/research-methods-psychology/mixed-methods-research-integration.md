@@ -16,7 +16,7 @@ tags:
 - mixed-methods
 - integration
 - qualitative-quantitative
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

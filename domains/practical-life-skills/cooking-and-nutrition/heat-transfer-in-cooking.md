@@ -16,7 +16,7 @@ tags:
 - heat
 - cooking-science
 - temperature
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

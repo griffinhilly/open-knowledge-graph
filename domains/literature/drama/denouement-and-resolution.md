@@ -17,7 +17,7 @@ tags:
 - ending
 - closure
 - aftermath
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

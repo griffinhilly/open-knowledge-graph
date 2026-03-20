@@ -22,7 +22,7 @@ tags:
 - roman-numerals
 - harmony
 - diatonic
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

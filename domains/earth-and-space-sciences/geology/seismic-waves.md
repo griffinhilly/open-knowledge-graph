@@ -27,7 +27,7 @@ tags:
 - surface-waves
 - travel-time
 - refraction
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

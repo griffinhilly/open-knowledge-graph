@@ -16,7 +16,7 @@ tags:
 - mrs
 - substitution
 - preference-intensity
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

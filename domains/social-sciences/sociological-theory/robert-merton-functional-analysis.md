@@ -11,7 +11,7 @@ tags:
 - functionalism
 - latent-manifest
 - functions
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

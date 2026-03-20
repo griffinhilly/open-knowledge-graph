@@ -14,7 +14,7 @@ tags:
 - consumer-choice
 - income
 - consumption-path
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - causal-inference
 - social-judgment
 - cognition
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

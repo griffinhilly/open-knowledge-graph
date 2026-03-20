@@ -12,7 +12,7 @@ tags:
 - folds
 - structures
 - compression
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

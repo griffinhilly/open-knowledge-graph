@@ -16,7 +16,7 @@ tags:
 - consent
 - culture
 - struggle
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

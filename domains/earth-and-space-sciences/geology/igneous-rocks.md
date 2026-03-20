@@ -22,7 +22,7 @@ tags:
 - extrusive
 - granite
 - basalt
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

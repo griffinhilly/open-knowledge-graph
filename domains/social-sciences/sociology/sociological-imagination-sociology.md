@@ -3,7 +3,9 @@ id: sociological-imagination-sociology
 title: The Sociological Imagination
 domain: social-sciences
 course: sociology
-prerequisites: []
+prerequisites:
+- id: culture-and-society
+  type: soft
 builds-toward:
 - sociological-research-methods
 - social-structure-and-agency
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # The Sociological Imagination
 
 ## Core Idea

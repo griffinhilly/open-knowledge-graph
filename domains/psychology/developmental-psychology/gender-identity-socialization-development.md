@@ -15,7 +15,7 @@ tags:
 - socialization
 - gender-roles
 - gender-stereotypes
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

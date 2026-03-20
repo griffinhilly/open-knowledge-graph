@@ -27,6 +27,45 @@ Use an oven thermometer to check if your oven's displayed temperature matches th
 ## Common Misconceptions
 - The oven reaches temperature instantly when you turn it on (preheating takes time; starting before it's ready throws off baking results). - All ovens have uniform temperature throughout (hot spots and cold spots exist; baking may require rotating pans). - You can open the oven door to check food without affecting temperature (opening the door lets heat escape and can affect baking results).
 
+## Questions
+
+```yaml
+- question: "A recipe says to bake a cake at 350°F for 35 minutes. You put the cake in immediately without preheating because the oven will reach 350°F in the first few minutes anyway. What is the most likely result?"
+  type: multiple-choice
+  options:
+    - "The cake bakes normally — the oven reaches temperature quickly enough that it does not matter"
+    - "The cake is overdone because slow heat accumulates and creates excess cooking time"
+    - "The cake may be dense or sunken because the baking chemistry is disrupted when heat rises slowly instead of being present from the start"
+    - "Nothing changes — oven temperature only matters for roasting, not baking"
+  answer: 2
+  explanation: "Preheating is critical for baking because the chemistry depends on reactions happening in the correct sequence from the moment food enters the oven. Fats melt, leavening gases expand, and the structure sets at different temperatures. If the oven is cold, the outer layers heat slowly while the center stays cold longer — the surface may partially set before the interior has begun rising, producing a dense or sunken result. A fully preheated oven delivers the correct temperature immediately, ensuring all reactions proceed on schedule."
+
+- question: "Your oven dial reads 375°F and your cookies always brown faster than recipes predict. What is the most likely explanation?"
+  type: multiple-choice
+  options:
+    - "You are using the wrong type of cookie sheet"
+    - "Your oven runs hot — its actual temperature is higher than the 375°F shown on the dial"
+    - "The recipes were written for a different altitude"
+    - "You are opening the oven door too frequently"
+  answer: 1
+  explanation: "Residential ovens commonly run 25°F or more hotter or cooler than the dial indicates, and calibration drifts over time. If cookies consistently brown faster than expected, the oven's actual temperature is likely higher than the displayed setting. An oven thermometer reveals the true temperature. The displayed temperature is a target setting, not a guarantee of actual temperature."
+
+- question: "Preheating is important primarily because it gives the oven time to reach the temperature shown on the dial."
+  type: true-false
+  answer: false
+  explanation: "Partially misleading. Preheating does involve reaching the target temperature, but the deeper reason is that the entire oven cavity — walls, racks, and air mass — must be at the right temperature before food enters. If only the air has warmed but the walls and racks are still cool, heat distribution will be uneven and the baking chemistry will proceed out of sequence. Temperature uniformity throughout the oven cavity is as important as the air temperature reading."
+
+- question: "A convection oven will bake food faster than a conventional oven at the same dial setting."
+  type: true-false
+  answer: true
+  explanation: "True. A convection oven adds a fan that circulates hot air, reducing the thermal boundary layer around food, accelerating moisture evaporation, and distributing heat more evenly. This makes food cook faster and brown more uniformly than in a conventional still-air oven. The standard adjustment is to reduce temperature by about 25°F when using convection to avoid overbrowning, because the effective heat transfer rate is higher."
+
+- question: "Why does preheating matter specifically for baking? What goes wrong if you skip it?"
+  type: short-answer
+  answer: "Baking is chemistry under controlled heat: fats melt, water evaporates, proteins set, starches gelatinize, leavening gases expand, and the crust browns — all at specific temperatures and in a specific sequence. If the oven is not preheated, these reactions happen in the wrong order. The outer layers heat slowly while the center stays cold; the surface may partially set before the interior has begun rising; gases may escape before the structure is established. A fully preheated oven delivers the correct temperature from the first moment, so all reactions proceed on schedule."
+  explanation: "This is what makes baking different from roasting or sautéing: timing is everything. Roasting is forgiving because the goal is simply cooked food. Baking depends on a precise thermal sequence that produces specific structures — rise, crust, crumb. Disrupting that sequence from the start produces results that longer cooking time cannot fix."
+```
+
 ## Explainer
 
 An oven is simply a thermally insulated box with a heat source — usually gas burners or electric heating elements — and a thermostat that cycles the heat on and off to maintain a target temperature. When you turn the dial to 350°F, you're setting the thermostat's target, not instantly commanding that temperature. The heating element runs at full power until the air inside reaches 350°F, then cycles off, then cycles on again as the temperature dips. This is why **preheating** is not optional for most cooking: you need the entire oven cavity — walls, racks, air — to be at the right temperature before food goes in.

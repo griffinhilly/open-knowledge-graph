@@ -18,7 +18,7 @@ tags:
 - adequate-intake
 - nutrient-requirements
 - dietary-guidelines
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

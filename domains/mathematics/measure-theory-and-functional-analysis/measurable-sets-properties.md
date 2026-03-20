@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - measure-theory
 - measurable-sets
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

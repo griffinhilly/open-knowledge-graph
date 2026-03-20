@@ -15,7 +15,7 @@ tags:
 - fallacy
 - logic
 - critical-thinking
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -11,8 +11,7 @@ prerequisites:
 - id: spherical-harmonics-electrostatics
   type: soft
 builds-toward:
-- green-function-method-electrostatics
-- method-of-images
+  - method-of-images
 tags:
 - greens-functions
 - boundary-value-problems
@@ -20,7 +19,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Green Function Method for Electrostatics
 
 ## Core Idea

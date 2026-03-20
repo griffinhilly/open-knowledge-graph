@@ -16,7 +16,7 @@ tags:
 - Germany
 - warfare
 - innovation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -3,7 +3,9 @@ id: pubertal-development-and-timing-effects
 title: Pubertal Development and Timing Effects
 domain: psychology
 course: developmental-psychology
-prerequisites: []
+prerequisites:
+- id: developmental-psychology-overview
+  type: soft
 builds-toward:
 - adolescent-cognitive-development
 - adolescent-prefrontal-development
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Pubertal Development and Timing Effects
 
 ## Core Idea

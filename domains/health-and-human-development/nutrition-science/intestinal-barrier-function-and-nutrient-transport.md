@@ -16,7 +16,7 @@ tags:
 - tight-junctions
 - nutrient-transport
 - permeability
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

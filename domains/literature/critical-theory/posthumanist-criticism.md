@@ -14,7 +14,7 @@ tags:
 - subject
 - non-human
 - agency
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

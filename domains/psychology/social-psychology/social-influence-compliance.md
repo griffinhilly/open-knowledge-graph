@@ -13,7 +13,7 @@ tags:
 - influence
 - reciprocity
 - foot-in-door
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

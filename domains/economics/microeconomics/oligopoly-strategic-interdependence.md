@@ -14,7 +14,7 @@ tags:
 - strategic-behavior
 - interdependence
 - game-theory
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

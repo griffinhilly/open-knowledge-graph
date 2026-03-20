@@ -14,7 +14,7 @@ tags:
 - phillips-curve
 - inflation
 - unemployment
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

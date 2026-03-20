@@ -13,7 +13,7 @@ tags:
 - tercet
 - rhyme
 - italian
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

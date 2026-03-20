@@ -12,7 +12,7 @@ tags:
 - lift
 - circulation
 - vortex
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

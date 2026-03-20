@@ -17,7 +17,7 @@ tags:
 - critique
 - repression
 - unconscious
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

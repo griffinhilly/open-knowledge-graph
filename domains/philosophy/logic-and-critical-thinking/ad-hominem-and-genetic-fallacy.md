@@ -11,7 +11,7 @@ tags:
 - genetic-fallacy
 - relevance
 - fallacies
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

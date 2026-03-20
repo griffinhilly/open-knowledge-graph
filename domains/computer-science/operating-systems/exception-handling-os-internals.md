@@ -14,7 +14,7 @@ tags:
 - exceptions
 - handlers
 - internals
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

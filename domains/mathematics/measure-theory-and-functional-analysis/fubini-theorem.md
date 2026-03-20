@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - integration
 - fubini-theorem
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

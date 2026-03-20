@@ -9,18 +9,16 @@ prerequisites:
 - id: political-culture-and-participation
   type: soft
 builds-toward:
-- campaign-finance-political-money
-- spatial-models-political-ideology
-- political-polarization-affective-division
+  - campaign-finance-political-money
+  - spatial-models-political-ideology
 tags:
 - voting
 - behavior
 - decision-making
 - rationality
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Voter Behavior and Electoral Decision-Making
 
 ## Core Idea

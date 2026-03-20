@@ -17,7 +17,7 @@ tags:
 - verisimilitude
 - anachronism
 - past-setting
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 # Historical Fiction: Fact, Imagination, and the Past

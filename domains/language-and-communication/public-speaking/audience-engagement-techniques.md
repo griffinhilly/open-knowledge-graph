@@ -16,7 +16,7 @@ tags:
 - interaction
 - audience
 - participation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

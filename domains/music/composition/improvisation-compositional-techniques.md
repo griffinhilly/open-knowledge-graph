@@ -13,7 +13,7 @@ tags:
 - composition
 - jazz
 - spontaneity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

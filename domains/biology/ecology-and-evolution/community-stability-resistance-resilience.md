@@ -16,7 +16,7 @@ tags:
 - resistance
 - resilience
 - disturbance
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

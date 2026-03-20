@@ -30,6 +30,45 @@ Set up simple geometric solids (cylinders, spheres, cubes) with a single directe
 ## Common Misconceptions
 Not all shadows are the same darkness—form shadows in transparent materials (fabric, skin) often carry reflected light. Cast shadows are not always pure black; they're influenced by ambient light and reflected color.
 
+## Questions
+
+```yaml
+- question: "You are drawing a sphere lit from the upper left. On the lower-right side of the sphere, in the middle of the dark area, you notice a subtle lighter band near the very bottom edge of the form shadow. What is this lighter area, and what causes it?"
+  type: multiple-choice
+  options:
+    - "A rendering error — the form shadow should be uniformly dark with no lighter areas"
+    - "Reflected light — ambient light bouncing off the table surface back up onto the underside of the form shadow"
+    - "The cast shadow of a second, weaker light source"
+    - "The terminator — the exact boundary where light meets shadow on the sphere's surface"
+  answer: 1
+  explanation: "Form shadows frequently contain reflected light — light that bounces off nearby surfaces (the table, walls, other objects) back onto the shadow side of an object. This reflected light is always darker than the lit side and lighter than the darkest part of the form shadow (the terminator). Recognizing reflected light and rendering it correctly is what gives form shadows their sense of three-dimensionality. The misconception is that all shadows are uniformly dark — they are not."
+
+- question: "A ball casts a shadow on a flat table. The shadow is crisp and sharp directly beneath the ball but becomes soft and diffuse several inches away. What causes this difference in edge quality?"
+  type: multiple-choice
+  options:
+    - "The ball blocks more light directly beneath it, creating a denser shadow there"
+    - "The table surface is smoother directly beneath the ball and rougher at the edges"
+    - "The physical size of the light source creates a widening penumbra — a zone of partial shadow — at greater distances from the casting object"
+    - "Cast shadows are always sharp near objects and always soft at the edges by definition"
+  answer: 2
+  explanation: "A light source has physical size (even the sun subtends a small angle). From any point in the penumbra, part of the light source is blocked and part is visible — creating a partial shadow that gradates from dark to light. The farther you get from the casting object, the wider this penumbra zone becomes, and the softer the edge. Directly under the ball, the full shadow (umbra) dominates, producing a crisp edge. This is a physical optical effect, not a surface property of the table."
+
+- question: "Form shadows follow the contours of the object's own surface, so a smooth sphere produces a gradual shadow transition while a cube produces a sharp-edged one."
+  type: true-false
+  answer: true
+  explanation: "The terminator — where the surface turns away from the light — is a gradual curve on a sphere because the surface changes direction continuously. On a cube, each face is flat and meets the next face at a hard edge, so the terminator is an abrupt line. This relationship between edge quality and surface geometry is one of the most important ways form shadows communicate three-dimensional shape to the viewer."
+
+- question: "Cast shadows are always darker than form shadows because they receive no direct light at all."
+  type: true-false
+  answer: false
+  explanation: "Cast shadows are typically dark, but form shadows are not always lighter. The terminator of a form shadow — where the surface curves most steeply away from the light — is often the darkest value in the entire drawing, darker than the cast shadow. Additionally, cast shadows receive ambient light and can take on reflected color from surrounding surfaces. The value hierarchy is: highlight > light > halftone > terminator ≈ cast shadow core > reflected light in form shadow. The claim that cast shadows are 'always' darkest is an oversimplification."
+
+- question: "Explain how you would use cast shadows and form shadows differently to achieve two distinct goals: making an object look three-dimensional, and anchoring it to a surface."
+  type: short-answer
+  answer: "Form shadows model volume — they follow the object's contours and reveal its three-dimensional shape. A gradual form shadow on a sphere tells the viewer the surface is round; a hard-edged form shadow on a cube reveals its flat faces. Form shadows alone can make an object look three-dimensional but floating in space. Cast shadows anchor the object — they connect it to the surface it rests on and establish where the light comes from. An object with only form shadow looks three-dimensional but weightless; adding the cast shadow grounds it physically on a surface."
+  explanation: "This two-purpose framework is the practical takeaway: reach for form shadow to describe shape, reach for cast shadow to establish space and light source. Together they create convincing, grounded three-dimensional rendering. The absence of cast shadows is a common reason student drawings look like objects floating in mid-air despite having correct value shading."
+```
+
 ## Explainer
 
 You already understand that light creates shadow, and that the direction of light determines where shadows fall. Now the critical distinction: there are two fundamentally different kinds of shadow, and they behave differently in every way that matters for drawing and painting. Confusing them is one of the most common reasons student work looks flat despite having "shading."

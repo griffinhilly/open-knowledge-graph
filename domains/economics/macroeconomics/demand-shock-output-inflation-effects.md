@@ -16,7 +16,7 @@ tags:
 - inflation
 - unemployment
 - multiplier
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

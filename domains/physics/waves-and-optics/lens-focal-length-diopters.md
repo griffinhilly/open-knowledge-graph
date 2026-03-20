@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - lenses
 - optics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

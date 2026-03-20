@@ -17,7 +17,7 @@ tags:
 - tragedy of the commons
 - excludability
 - rivalry
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Public Goods and Common Resources

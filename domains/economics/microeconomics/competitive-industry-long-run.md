@@ -14,7 +14,7 @@ tags:
 - producer theory
 - competition
 - industry equilibrium
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

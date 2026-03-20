@@ -16,7 +16,7 @@ tags:
 - baroque
 - music
 - religion
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

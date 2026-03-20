@@ -12,7 +12,7 @@ tags:
 - nash-equilibrium
 - dominant-strategy
 - conflict
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

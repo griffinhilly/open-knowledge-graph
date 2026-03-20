@@ -15,7 +15,7 @@ tags:
 - refractive-index
 - dispersion
 - optical-properties
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

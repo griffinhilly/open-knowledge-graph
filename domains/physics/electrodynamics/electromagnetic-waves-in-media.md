@@ -14,7 +14,7 @@ tags:
 - waves
 - dielectrics
 - propagation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

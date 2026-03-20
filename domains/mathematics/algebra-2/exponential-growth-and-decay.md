@@ -10,7 +10,7 @@ builds-toward:
   - solving-exponential-equations
   - natural-logarithm-and-e
 tags: [exponential, growth, decay, applications, half-life, doubling-time]
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

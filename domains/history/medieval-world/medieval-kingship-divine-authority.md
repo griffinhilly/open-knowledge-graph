@@ -18,7 +18,7 @@ tags:
 - divine
 - legitimacy
 - rule
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - spin
 - angular-momentum
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - collective-voice
 - ode
 - commentary
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

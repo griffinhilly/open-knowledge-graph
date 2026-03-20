@@ -13,7 +13,7 @@ tags:
 - artistic-genius
 - influence
 - personality
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

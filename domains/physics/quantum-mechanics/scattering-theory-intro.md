@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - scattering
 - cross-sections
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - thyroid-hormone
 - tsh
 - iodine
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

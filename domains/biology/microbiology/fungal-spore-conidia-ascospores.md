@@ -15,7 +15,7 @@ tags:
 - conidia
 - ascospores
 - reproduction
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

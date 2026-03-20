@@ -14,7 +14,7 @@ tags:
 - prime-minister
 - administration
 - government-formation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

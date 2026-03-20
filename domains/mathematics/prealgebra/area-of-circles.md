@@ -32,6 +32,45 @@ Show the wedge-rearrangement demonstration (physically or with animation). Empha
 - Forgetting to square the radius (computing pi * r instead of pi * r²).
 - Mixing up area and circumference formulas.
 
+## Questions
+
+```yaml
+- question: "Circle A has a radius of 3 cm. Circle B has a radius of 6 cm. How many times larger is Circle B's area than Circle A's?"
+  type: multiple-choice
+  options:
+    - "2 times larger — the radius doubled, so the area doubles"
+    - "3 times larger — corresponding to the ratio of their radii"
+    - "4 times larger — area scales with the square of the radius"
+    - "6 times larger — because pi multiplies the squared difference"
+  answer: 2
+  explanation: "Area scales with the square of the radius: A = πr². Circle A has area π(3²) = 9π. Circle B has area π(6²) = 36π. The ratio is 36π ÷ 9π = 4. When the radius doubles, area quadruples — not doubles. This is because area is two-dimensional: it grows in both directions simultaneously. The tempting wrong answer (2 times) treats area as if it scales linearly with radius, like circumference does. The r² in the formula is the key: doubling r multiplies area by 2² = 4."
+
+- question: "A circle has a diameter of 10 cm. Which calculation correctly finds its area?"
+  type: multiple-choice
+  options:
+    - "π × 10² = 100π cm² — applying the formula directly to the given measurement"
+    - "π × 5² = 25π cm² — dividing the diameter by 2 to get the radius first"
+    - "2π × 10 = 20π cm² — using the circumference formula"
+    - "π × (10/2) = 5π cm² — dividing diameter by 2 but not squaring"
+  answer: 1
+  explanation: "The formula A = πr² requires the radius, not the diameter. A diameter of 10 cm means the radius is 5 cm (half the diameter). The correct area is π × 5² = 25π ≈ 78.5 cm². Using the diameter directly — π × 10² = 100π — gives an answer exactly four times too large. This is the most common computational error with circle area: failing to halve the diameter before squaring. Always ask 'Is this the radius or the diameter?' before substituting into the formula."
+
+- question: "Doubling the radius of a circle doubles its area."
+  type: true-false
+  answer: false
+  explanation: "Doubling the radius quadruples the area. If the original radius is r, the original area is πr². If the radius doubles to 2r, the new area is π(2r)² = π × 4r² = 4πr² — exactly four times the original. Circumference scales linearly (C = 2πr), so doubling the radius does double the circumference. Confusing the two formulas leads to the intuition that area also doubles, but the r² in the area formula means area grows much faster than radius."
+
+- question: "The formula A = πr² can be derived by rearranging a circle's wedge-shaped slices into an approximate rectangle with height r and base πr."
+  type: true-false
+  answer: true
+  explanation: "This is the standard geometric motivation for the formula. Slice a circle into many thin wedges (like a pizza), then alternate them pointing up and down. As the wedges become infinitely thin, the resulting shape becomes a rectangle: its height equals the radius r (the length of each wedge), and its base equals half the circumference = πr (half the perimeter wraps along the top, half along the bottom). Area of rectangle = r × πr = πr². This derivation shows where the formula comes from rather than treating it as an arbitrary rule."
+
+- question: "Why does doubling a circle's radius quadruple its area rather than double it?"
+  type: short-answer
+  answer: "Because area is two-dimensional and the formula A = πr² squares the radius. When the radius doubles, the squared term grows by a factor of 2² = 4. The circle grows in both length and width simultaneously when the radius increases, so area grows as the product of two doublings."
+  explanation: "This contrasts with circumference (C = 2πr), which scales linearly — double the radius, double the circumference. Area's quadratic dependence on radius appears throughout science and engineering: a pipe twice as wide carries four times the flow, a photograph blown up to twice the linear size needs four times the ink. Recognizing that area and length scale differently is one of the most important and frequently applied geometric insights."
+```
+
 ## Explainer
 
 You already know that the circumference of a circle is C = 2πr — the total distance around the edge. Area asks a different question: how much flat space does the circle cover? To see where A = πr² comes from, imagine slicing a circle like a pizza into many thin wedges. Now fan those wedges out and lay them alternately pointing up and down, fitting them together like teeth on two combs. The resulting shape is nearly a rectangle. As you cut into thinner and thinner slices, the bumpy top and bottom edges become smoother, and the shape approaches a true rectangle. The height of that rectangle is the radius r, and the length is half the circumference — πr. Area of the rectangle = height × length = r × πr = πr². That is where the formula comes from.

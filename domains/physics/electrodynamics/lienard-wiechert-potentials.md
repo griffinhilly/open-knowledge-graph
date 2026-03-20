@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - moving-charges
 - retarded-fields
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

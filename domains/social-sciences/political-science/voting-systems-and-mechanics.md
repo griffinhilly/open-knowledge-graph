@@ -15,7 +15,7 @@ tags:
 - electoral-systems
 - majoritarian
 - proportional
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

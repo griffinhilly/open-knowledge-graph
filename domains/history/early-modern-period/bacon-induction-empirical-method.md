@@ -13,7 +13,7 @@ tags:
 - empiricism
 - induction
 - scientific-method
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

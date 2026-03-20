@@ -9,9 +9,8 @@ prerequisites:
 - id: ocean-temperature-structure-thermocline
   type: hard
 builds-toward:
-- thermohaline-overturning-circulation
-- deep-ocean-abyssal-currents
-- salinity-distribution-sources-sinks
+  - thermohaline-overturning-circulation
+  - deep-ocean-abyssal-currents
 tags:
 - water-masses
 - density
@@ -21,7 +20,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Water Mass Formation and Classification
 
 ## Core Idea

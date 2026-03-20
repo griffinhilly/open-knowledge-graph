@@ -27,6 +27,45 @@ status: draft
 ## Core Idea
 Linear perspective uses horizon lines and vanishing points to create the illusion of recession into space. One-point perspective (one vanishing point) shows frontal views and interior corridors; two-point perspective (two vanishing points) shows corners and oblique views of objects and buildings. Mastering these systems allows convincing depiction of interior and exterior spaces.
 
+## Questions
+
+```yaml
+- question: "You are drawing a building using two-point perspective. On one wall of the building is a window, viewed perfectly straight-on from the front. What perspective system governs the interior of that window?"
+  type: multiple-choice
+  options:
+    - "Three-point perspective, because the window is an additional object at a different scale"
+    - "No perspective system — windows are always drawn as flat rectangles"
+    - "One-point perspective — the window face is parallel to the picture plane, so its interior recedes to a single vanishing point"
+    - "Two-point perspective — all elements in a single drawing must use the same system"
+  answer: 2
+  explanation: "A single scene can use both perspective systems simultaneously. The building as a whole uses two-point perspective because you are viewing its corner. But a window viewed straight-on has one face parallel to your picture plane — exactly the condition that defines one-point perspective — so its interior (the depth of the recess, any sill or frame) recedes to a single central vanishing point. Crucially, all vanishing points in the scene share the same horizon line, because all objects share the same viewer eye level."
+
+- question: "You are drawing a long hallway that recedes directly away from the viewer. Which perspective system is most natural for this scene, and why?"
+  type: multiple-choice
+  options:
+    - "Two-point perspective — the two side walls each recede separately, requiring two vanishing points"
+    - "One-point perspective — you are facing directly into the hallway, so all receding lines converge to a single central vanishing point"
+    - "Three-point perspective — the height of the hallway requires a vertical vanishing point"
+    - "No formal perspective system — interiors are drawn by eye and judgment"
+  answer: 1
+  explanation: "One-point perspective is the natural system when you are looking directly at or into a surface or space. In a hallway seen head-on, both side walls, the floor, and the ceiling all recede toward a single central vanishing point. The horizontal and vertical edges of the wall faces remain truly horizontal and vertical on the page. Two-point would be needed if you were looking at the hallway entrance from a corner angle — then neither wall face would be parallel to your picture plane."
+
+- question: "In a standard two-point perspective drawing, vertical lines (the corners of buildings, window edges) also converge toward a vanishing point on the horizon line."
+  type: true-false
+  answer: false
+  explanation: "In two-point perspective, only the two sets of horizontal edges recede to vanishing points — one set to the left VP, the other to the right VP. Vertical edges remain truly vertical on the page, drawn as parallel vertical lines. Verticals only gain a vanishing point in three-point perspective, used for extreme upward or downward views (such as looking up at a skyscraper or down from a great height). In standard one-point and two-point perspective, verticals are kept truly vertical."
+
+- question: "Placing both vanishing points close together near the center of the horizon line produces a more accurate, realistic perspective drawing."
+  type: true-false
+  answer: false
+  explanation: "Cramped vanishing points cause exaggerated, fish-eye-like distortion — objects appear unnaturally swollen or curved. The wider apart the vanishing points, the more natural the recession feels. In practice, vanishing points in two-point perspective often fall far outside the edges of the drawing surface — sometimes requiring extra paper taped to the sides. Distortion from crowded vanishing points is one of the most common errors in student perspective drawings, making work that follows the rules correctly still look 'wrong.'"
+
+- question: "What is the underlying principle that unifies one-point and two-point perspective, and how does the horizon line relate to the viewer's position?"
+  type: short-answer
+  answer: "Both systems rest on the same principle: parallel lines in the real world appear to converge toward a shared vanishing point on the horizon line. The horizon line represents the viewer's eye level — raise your eye level and the horizon rises; lower it and the horizon drops. In one-point perspective, you face a surface directly, so one set of receding lines converges to a single forward vanishing point. In two-point, you see a corner, so two sets of horizontal edges each converge to their own VP — both on the same horizon. All vanishing points in a scene, regardless of system, share the same horizon because all objects share the same viewer eye level."
+  explanation: "This shared horizon is why you can mix both systems in one drawing without contradiction. A street scene (two-point) can include a doorway seen straight-on (one-point), and all VPs align on the same horizon line. Getting the horizon line right — placing it at the actual viewer eye level — and spacing vanishing points far enough apart are the two most important practical skills for making perspective drawings look convincing."
+```
+
 ## Explainer
 
 You already understand one-point and two-point perspective individually. This topic is about understanding them as two cases of a single unified system, knowing when to choose one over the other, and combining them fluently in compositions that contain multiple objects at different orientations.

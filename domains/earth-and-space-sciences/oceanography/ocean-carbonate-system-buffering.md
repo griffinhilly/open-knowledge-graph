@@ -16,7 +16,7 @@ tags:
 - pH
 - buffering
 - equilibrium
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

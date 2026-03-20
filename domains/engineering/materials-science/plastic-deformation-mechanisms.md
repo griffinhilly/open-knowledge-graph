@@ -17,7 +17,7 @@ tags:
 - dislocations
 - plastic-deformation
 - schmid-factor
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

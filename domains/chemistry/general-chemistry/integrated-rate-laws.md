@@ -22,7 +22,7 @@ tags:
 - integrated-rate-law
 - graphical-method
 - concentration-vs-time
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 # Integrated Rate Laws

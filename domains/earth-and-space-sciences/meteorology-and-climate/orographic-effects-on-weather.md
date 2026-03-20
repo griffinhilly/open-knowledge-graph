@@ -19,7 +19,7 @@ tags:
 - rain-shadow
 - lift
 - mountains
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

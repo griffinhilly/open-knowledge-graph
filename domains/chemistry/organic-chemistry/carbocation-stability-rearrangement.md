@@ -19,7 +19,7 @@ tags:
 - ring expansion
 - rearrangement
 - tertiary
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 # Carbocation Stability and Rearrangements

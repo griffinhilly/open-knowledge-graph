@@ -16,7 +16,7 @@ tags:
 - ear-training
 - polyphony
 - compositional-texture
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

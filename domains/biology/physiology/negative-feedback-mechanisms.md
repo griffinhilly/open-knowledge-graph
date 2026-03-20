@@ -17,7 +17,7 @@ tags:
 - regulation
 - homeostasis
 - set point
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

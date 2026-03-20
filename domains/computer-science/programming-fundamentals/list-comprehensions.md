@@ -20,7 +20,7 @@ tags:
 - functional style
 - filter
 - map
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # List Comprehensions

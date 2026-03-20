@@ -14,7 +14,7 @@ tags:
 - exocytosis
 - membrane-fusion
 - neurotransmitter-release
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

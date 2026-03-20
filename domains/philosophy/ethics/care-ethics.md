@@ -17,7 +17,7 @@ tags:
 - Noddings
 - feminist-ethics
 - relationships
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

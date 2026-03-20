@@ -13,7 +13,7 @@ tags:
 - paleoclimate
 - weathering
 - soil-horizon
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - measurement
 - probability
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

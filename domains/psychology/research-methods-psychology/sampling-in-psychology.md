@@ -20,7 +20,7 @@ tags:
 - generalizability
 - WEIRD
 - random-sampling
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

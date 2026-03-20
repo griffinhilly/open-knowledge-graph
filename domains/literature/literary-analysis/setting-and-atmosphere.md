@@ -18,7 +18,7 @@ tags:
 - place
 - time
 - environment
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

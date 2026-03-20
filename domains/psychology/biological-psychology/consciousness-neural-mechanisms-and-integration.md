@@ -15,7 +15,7 @@ tags:
 - awareness
 - binding
 - integration
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

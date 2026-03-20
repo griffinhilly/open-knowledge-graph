@@ -18,7 +18,7 @@ tags:
 - connotation
 - myth
 - semiotics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - hilbert-spaces
 - projections
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - form
 - philosophy
 - meaning-in-music
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

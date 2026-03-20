@@ -12,7 +12,7 @@ tags:
 - consumption
 - lifecycle
 - savings
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

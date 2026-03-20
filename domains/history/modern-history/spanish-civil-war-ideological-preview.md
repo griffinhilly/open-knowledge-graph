@@ -17,7 +17,7 @@ tags:
 - civil-war
 - international-brigades
 - ideology
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

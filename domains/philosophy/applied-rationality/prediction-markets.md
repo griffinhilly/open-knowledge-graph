@@ -11,7 +11,7 @@ prerequisites:
 builds-toward:
   - disagreement-and-rational-updating
 tags: ["prediction", "markets", "collective-intelligence", "forecasting", "information"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - differentiation
 - development
 - specialization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

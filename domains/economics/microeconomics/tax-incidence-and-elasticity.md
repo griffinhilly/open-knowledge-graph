@@ -18,7 +18,7 @@ tags:
 - burden
 - elasticity
 - wedge
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

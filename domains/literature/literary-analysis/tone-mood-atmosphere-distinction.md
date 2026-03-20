@@ -9,17 +9,15 @@ prerequisites:
 - id: tone-development-analysis
   type: hard
 builds-toward:
-- tone-register-and-effect
-- setting-mood-atmosphere
+  - tone-register-and-effect
 tags:
 - tone
 - mood
 - atmosphere
 - emotional-effect
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Tone, Mood, and Atmosphere Distinguished
 
 ## Core Idea

@@ -13,7 +13,7 @@ tags:
 - science
 - medicine
 - mathematics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

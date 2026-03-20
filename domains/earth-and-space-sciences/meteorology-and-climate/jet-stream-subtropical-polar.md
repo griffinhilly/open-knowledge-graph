@@ -16,7 +16,7 @@ tags:
 - wind-maximum
 - subtropical
 - polar
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - brute-luck
 - option-luck
 - responsibility
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

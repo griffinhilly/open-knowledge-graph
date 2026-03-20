@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - locally-connected
 - local-property
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - focus
 - pacing
 - tension
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

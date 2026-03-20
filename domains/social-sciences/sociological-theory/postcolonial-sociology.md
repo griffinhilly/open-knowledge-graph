@@ -11,7 +11,7 @@ tags:
 - colonialism
 - decolonization
 - global-south
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

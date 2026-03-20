@@ -16,7 +16,7 @@ tags:
 - major-minor
 - mode
 - key
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

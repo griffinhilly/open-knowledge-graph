@@ -7,8 +7,7 @@ prerequisites:
 - id: periodization-and-historical-division
   type: hard
 builds-toward:
-- comparative-historical-analysis
-- identifying-causation-in-history
+  - comparative-historical-analysis
 tags:
 - time
 - scale
@@ -16,7 +15,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Temporal Scale and Long-Term Perspective in Historical Analysis
 
 ## Core Idea

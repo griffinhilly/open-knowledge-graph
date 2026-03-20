@@ -14,7 +14,7 @@ tags:
 - creep
 - rubber
 - elastomer
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

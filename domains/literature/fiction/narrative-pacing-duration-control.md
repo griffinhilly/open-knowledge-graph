@@ -13,7 +13,7 @@ tags:
 - duration
 - rhythm
 - attention
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

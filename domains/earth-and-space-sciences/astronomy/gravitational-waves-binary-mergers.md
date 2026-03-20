@@ -20,7 +20,7 @@ tags:
 - gravitational-waves
 - compact-objects
 - multi-messenger-astronomy
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

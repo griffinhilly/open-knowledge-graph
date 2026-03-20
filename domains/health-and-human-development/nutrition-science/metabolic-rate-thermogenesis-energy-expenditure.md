@@ -18,7 +18,7 @@ tags:
 - basal-metabolism
 - thermogenesis
 - energy-expenditure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

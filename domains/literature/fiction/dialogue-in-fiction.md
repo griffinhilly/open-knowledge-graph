@@ -24,7 +24,7 @@ tags:
 - speech
 - characterization
 - subtext
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

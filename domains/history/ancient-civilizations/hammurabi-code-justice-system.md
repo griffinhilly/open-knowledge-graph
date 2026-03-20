@@ -13,7 +13,7 @@ tags:
 - law
 - justice
 - Hammurabi
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

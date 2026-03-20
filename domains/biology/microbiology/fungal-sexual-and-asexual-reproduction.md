@@ -17,7 +17,7 @@ tags:
 - asexual
 - sexual
 - life-cycles
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

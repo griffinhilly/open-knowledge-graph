@@ -14,7 +14,7 @@ tags:
 - labor
 - indigenous-exploitation
 - spain
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

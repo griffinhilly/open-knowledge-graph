@@ -14,7 +14,7 @@ tags:
 - dipole-radiation
 - antenna
 - patterns
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

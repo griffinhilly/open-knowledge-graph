@@ -21,7 +21,7 @@ tags:
 - repressor
 - promoter
 - transcription factor
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Gene Regulation in Prokaryotes

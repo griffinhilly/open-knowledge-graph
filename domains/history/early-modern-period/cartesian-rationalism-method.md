@@ -14,7 +14,7 @@ tags:
 - method
 - descartes
 - philosophy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

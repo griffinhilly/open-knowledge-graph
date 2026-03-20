@@ -16,7 +16,7 @@ tags:
 - privacy
 - algorithmic-fairness
 - digital-rights
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

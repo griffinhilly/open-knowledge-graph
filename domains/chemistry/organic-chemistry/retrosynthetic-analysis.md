@@ -17,7 +17,7 @@ tags:
 - target molecule
 - Corey
 - multi-step synthesis
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 # Retrosynthetic Analysis

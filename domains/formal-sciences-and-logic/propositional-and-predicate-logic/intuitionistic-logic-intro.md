@@ -18,7 +18,7 @@ tags:
 - Brouwer
 - BHK
 - law-of-excluded-middle
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Introduction to Intuitionistic Logic

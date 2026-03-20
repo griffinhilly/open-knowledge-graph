@@ -10,7 +10,7 @@ tags:
 - turbulence
 - kinetic-energy
 - energy-cascade
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - categorization
 - visual
 - objects
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

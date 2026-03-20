@@ -17,7 +17,7 @@ tags:
 - categories
 - value
 - aesthetics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

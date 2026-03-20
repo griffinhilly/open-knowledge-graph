@@ -30,6 +30,45 @@ Audit your bank and credit card statements for all recurring charges, compile th
 - Canceling is always straightforward — many services deliberately make cancellation difficult with multi-step processes, retention offers, or phone-call requirements.
 - You will notice if a subscription price increases — many services raise prices with only an email notification that is easy to miss, so charges can grow without active awareness.
 
+## Questions
+
+```yaml
+- question: "You signed up for a free trial of a streaming service three weeks ago and forgot about it. You check your bank statement and see a $14.99 charge. Which factor best explains why this happened?"
+  type: multiple-choice
+  options:
+    - "You must have accidentally upgraded your account during the trial"
+    - "The service auto-converted the trial to a paid subscription, which most free trials do by default"
+    - "Free trials only last one week, so you were billed for two extra weeks"
+    - "The service charged you because you used it more than the trial limit"
+  answer: 1
+  explanation: "Most free trials require a credit card upfront and automatically convert to paid subscriptions when the trial ends — unless you explicitly cancel beforehand. This is a deliberate design choice by the service, not a billing error. The key insight is that 'free trial' is a marketing term for a time-limited subscription with auto-enrollment, not a truly free product sample."
+
+- question: "A friend says, 'I only pay for subscriptions I actually use, so I don't need to audit my accounts.' What is the most important flaw in this reasoning?"
+  type: multiple-choice
+  options:
+    - "Subscription prices never change, so auditing has no financial benefit"
+    - "Autopay masks spending decisions, so services you've stopped using continue charging you without triggering conscious review"
+    - "Auditing is only useful when you have more than ten subscriptions"
+    - "Free trials cannot auto-convert without your consent under consumer protection law"
+  answer: 1
+  explanation: "Autopay converts an active spending decision into a passive default — you don't re-decide each month whether the subscription is worth it. Services you once used but have drifted away from continue charging you silently. Additionally, services raise prices with email notifications that are easy to miss. The entire point of a periodic audit is to convert passive defaults back into conscious decisions."
+
+- question: "Canceling a digital subscription is usually just as easy and quick as signing up for it."
+  type: true-false
+  answer: false
+  explanation: "Many services deliberately use 'dark patterns' that make cancellation difficult: hiding the cancel button deep in settings, requiring a phone call, presenting retention offers, or offering a 'pause' as an alternative. This asymmetry — fast to subscribe, slow to cancel — is an intentional design choice to reduce churn. Effective subscription management requires approaching cancellation with deliberate skepticism rather than assuming the obvious path is the easy one."
+
+- question: "Using a single dedicated credit card for all subscriptions makes it easier to audit your recurring charges."
+  type: true-false
+  answer: true
+  explanation: "Concentrating all subscriptions on one card creates a clean, searchable audit trail. When charges are spread across multiple cards, bank accounts, and digital wallets, a complete picture requires checking every account. A single card means a single statement review covers everything, making quarterly audits far less burdensome."
+
+- question: "Why does autopay make subscription spending harder to control than one-time purchases?"
+  type: short-answer
+  answer: "With a one-time purchase, you must actively decide to spend money each time — the decision is conscious and deliberate. With autopay, the spending decision was made once and then becomes a passive default that continues indefinitely. Each month passes without any active re-evaluation of whether the service is worth the cost. Over time, subscriptions accumulate and persist beyond their useful life because no individual charge is large enough to trigger awareness, and the effort of canceling exceeds the monthly annoyance of the charge."
+  explanation: "This asymmetry — easy to start, invisible to maintain — is the core mechanic that makes subscription auditing necessary. Behavioral economics calls this 'status quo bias': people tend to stay with defaults. Services exploit this by making enrollment frictionless and cancellation friction-heavy. The antidote is periodic, deliberate review that restores the conscious decision-making that autopay bypasses."
+```
+
 ## Explainer
 
 Think of digital subscriptions the way you think of physical clutter — each individual item seems minor, but collectively they occupy space (in this case, your budget) and require attention. From your work with online account management, you know that each service requires login credentials, a billing method, and ongoing settings. What subscription management adds is the recognition that these accounts don't just sit passively: they extract money automatically, every month, whether or not you use them.

@@ -13,7 +13,7 @@ tags:
 - persuasion
 - objection
 - refutation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

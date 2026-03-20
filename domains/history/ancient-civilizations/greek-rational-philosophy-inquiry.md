@@ -13,7 +13,7 @@ tags:
 - philosophy
 - rationalism
 - inquiry
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

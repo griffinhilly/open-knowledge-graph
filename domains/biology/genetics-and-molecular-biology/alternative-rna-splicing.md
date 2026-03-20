@@ -14,7 +14,7 @@ tags:
 - splicing
 - isoforms
 - protein-diversity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

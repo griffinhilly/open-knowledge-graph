@@ -14,7 +14,7 @@ tags:
 - instruction
 - guidance
 - support
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

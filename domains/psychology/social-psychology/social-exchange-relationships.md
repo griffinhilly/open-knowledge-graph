@@ -16,7 +16,7 @@ tags:
 - satisfaction
 - costs-benefits
 - interdependence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - linear-phase
 - distortion
 - group-delay
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

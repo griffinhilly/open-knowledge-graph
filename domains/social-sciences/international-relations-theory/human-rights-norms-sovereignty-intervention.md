@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: human-security-framework
   type: soft
-builds-toward:
-- critical-ir-emancipation-beyond-security
-- english-school-pluralism-solidarism-debate
+builds-toward: []
 tags:
 - human-rights
 - norms
@@ -20,7 +18,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Human Rights Norms and Sovereignty Challenges
 
 ## Core Idea

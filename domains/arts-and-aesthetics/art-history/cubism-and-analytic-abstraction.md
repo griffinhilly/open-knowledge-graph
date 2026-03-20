@@ -17,7 +17,7 @@ tags:
 - perspective
 - geometry
 - picasso-braque
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

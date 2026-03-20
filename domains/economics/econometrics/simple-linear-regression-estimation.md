@@ -16,7 +16,7 @@ tags:
 - estimation
 - regression
 - foundations
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

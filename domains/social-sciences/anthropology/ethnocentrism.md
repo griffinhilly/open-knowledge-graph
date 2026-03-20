@@ -16,7 +16,7 @@ tags:
 - in-group
 - judgment
 - Sumner
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 
@@ -31,6 +31,45 @@ Identify ethnocentric language in historical texts (e.g., 19th-century missionar
 ## Common Misconceptions
 - Ethnocentrism is not unique to any one group or nationality — it is a cross-culturally documented human tendency.
 - Recognizing ethnocentrism does not require abandoning all cultural values, only suspending them methodologically during fieldwork.
+
+## Questions
+
+```yaml
+- question: "A 19th-century anthropologist writes that a certain indigenous group 'has no system of law' because the group resolves disputes through community ceremonies rather than written codes or formal courts. What does this claim best illustrate?"
+  type: multiple-choice
+  options:
+    - "An accurate anthropological finding — law by definition requires formal written codes, which this group lacks"
+    - "Cultural relativism — the anthropologist is correctly observing a difference without imposing judgment"
+    - "Ethnocentrism — the anthropologist measures the group's dispute-resolution practices against a Western legal framework rather than understanding them on their own terms"
+    - "Participant observation — the anthropologist is documenting what they directly witnessed without interpretation"
+  answer: 2
+  explanation: "The claim 'has no law' uses Western legal institutions as the invisible standard. Every human society has mechanisms for regulating behavior and resolving disputes; calling ceremonial or community-based systems 'no law' substitutes one cultural category for a universal one. The anthropologist isn't observing an absence — they are misrecognizing a non-Western form of order as a deficiency. This is ethnocentrism presenting itself as objective observation, which is precisely how it typically operates."
+
+- question: "What is the key relationship between mild in-group preference and extreme ethnocentrism, according to the concept's analysis?"
+  type: multiple-choice
+  options:
+    - "They are psychologically distinct — in-group preference is rooted in identity while extreme ethnocentrism is rooted in active hostility toward outgroups"
+    - "Mild in-group preference is universal and healthy; extreme ethnocentrism is a separate pathology requiring different explanation"
+    - "They represent the same basic tendency operating at different scales and power contexts — not a difference in kind, but in degree and the circumstances that mobilize it"
+    - "Extreme ethnocentrism is unique to cultures with significant historical power over others; mild in-group preference is universal"
+  answer: 2
+  explanation: "The analysis treats ethnocentrism as a single tendency on a spectrum. Pride in one's own food, language, and customs is nearly universal and largely benign. The same logic, scaled up and combined with political power, provided the ideological framework for colonialism and forced assimilation. Recognizing this continuity prevents treating extreme ethnocentrism as alien — something only 'bad people' engage in — and alerts us to the conditions under which ordinary group loyalty becomes destructive."
+
+- question: "Ethnocentrism is primarily a bias found in cultures with colonial histories or significant political power over others."
+  type: true-false
+  answer: false
+  explanation: "Ethnocentrism is a cross-culturally documented human tendency found in all human groups. Sumner observed it in every group he studied regardless of size, power, or history. Every group tends to rate its own customs as natural and view others' practices as strange or inferior. While extreme ethnocentrism has historically been wielded by powerful groups in destructive ways, the underlying bias — treating one's own cultural lens as the neutral standard — appears universally."
+
+- question: "Ethnocentrism typically presents itself to those who hold it as obvious truth rather than as a cultural bias, which is part of what makes it methodologically dangerous in fieldwork."
+  type: true-false
+  answer: true
+  explanation: "This is the key insight about why ethnocentrism is so difficult to detect and correct. When a 19th-century missionary wrote that a group 'had no religion,' the claim felt like a straightforward observation, not a bias — the home culture's categories had become so naturalized they were invisible as categories. Recognizing ethnocentrism requires seeing one's own cultural lens as one lens among many, not as neutral reality. This is a learnable but demanding skill foundational to anthropological training."
+
+- question: "Why does ethnocentrism often feel like 'obvious truth' to those who hold it, rather than appearing as a bias? What makes it harder to detect than other forms of prejudice?"
+  type: short-answer
+  answer: "Ethnocentrism uses one's own cultural categories as the invisible default — not as an explicit value judgment, but as the assumed standard of what is 'normal.' Because the home culture's practices feel self-evidently natural, any deviation registers as strange or deficient rather than simply different. Unlike explicit prejudice (which involves a conscious negative judgment of an outgroup), ethnocentrism operates through unexamined assumptions about what is universal. The bias is invisible because the baseline itself is invisible."
+  explanation: "The 19th-century anthropologist who wrote 'this group has no religion' was not lying or expressing hate — they genuinely saw absence where a different observer would see a different kind of presence. This unconscious substitution of cultural-specific for universal is the mechanism of ethnocentrism. Countering it requires making visible what has been invisible: learning to see one's own cultural lens as a lens rather than as reality."
+```
 
 ## Explainer
 

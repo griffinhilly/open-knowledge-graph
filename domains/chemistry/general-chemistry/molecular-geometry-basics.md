@@ -16,7 +16,7 @@ tags:
 - vsepr
 - shape
 - bonds
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - representation
 - democracy
 - elections
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -22,7 +22,7 @@ tags:
 - backside attack
 - inversion
 - Walden inversion
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # SN2 Substitution Reactions

@@ -16,7 +16,7 @@ tags:
 - behavior
 - sociality
 - evolution
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

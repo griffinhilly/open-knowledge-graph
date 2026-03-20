@@ -17,7 +17,7 @@ tags:
 - nucleophilic addition
 - carbon-carbon bond
 - moisture sensitivity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 # Grignard Reagents

@@ -12,7 +12,7 @@ tags:
 - cancellation
 - subtraction
 - error-amplification
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

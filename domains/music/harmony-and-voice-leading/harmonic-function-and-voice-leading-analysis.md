@@ -17,7 +17,7 @@ tags:
 - harmonic-analysis
 - voice-leading
 - function
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

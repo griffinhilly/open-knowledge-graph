@@ -21,7 +21,7 @@ tags:
 - independent assortment
 - 9:3:3:1 ratio
 - gamete formation
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

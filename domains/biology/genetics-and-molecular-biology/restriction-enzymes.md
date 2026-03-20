@@ -15,7 +15,7 @@ tags:
 - sticky ends
 - blunt ends
 - palindrome
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

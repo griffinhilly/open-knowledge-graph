@@ -14,7 +14,7 @@ tags:
 - operators
 - observables
 - hermitian
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

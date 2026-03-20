@@ -14,7 +14,7 @@ tags:
 - presumption
 - assertion
 - epistemology
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

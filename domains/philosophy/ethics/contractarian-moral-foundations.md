@@ -16,7 +16,7 @@ tags:
 - foundations
 - obligation
 - agreement
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

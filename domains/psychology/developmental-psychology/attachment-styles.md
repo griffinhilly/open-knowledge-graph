@@ -18,7 +18,7 @@ tags:
 - disorganized attachment
 - Strange Situation
 - Ainsworth
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

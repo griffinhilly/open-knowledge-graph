@@ -9,8 +9,7 @@ prerequisites:
 - id: structure-elucidation-using-ir-nmr-and-ms
   type: soft
 builds-toward:
-- confirmatory-testing-identification-methods
-- data-integrity-regulatory-compliance
+  - data-integrity-regulatory-compliance
 tags:
 - forensic
 - identification
@@ -18,7 +17,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Forensic Evidence Analytical Methods
 
 ## Core Idea

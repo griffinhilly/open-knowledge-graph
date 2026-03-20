@@ -15,7 +15,7 @@ tags:
 - climate-change
 - environmental-health
 - emerging-disease
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

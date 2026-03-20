@@ -15,7 +15,7 @@ tags:
 - ideology
 - legitimacy
 - status-quo-bias
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -22,7 +22,7 @@ tags:
 - MR < P
 - deadweight loss
 - markup
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Monopoly

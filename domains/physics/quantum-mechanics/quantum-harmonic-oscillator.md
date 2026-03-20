@@ -15,7 +15,7 @@ builds-toward:
 tags:
 - harmonic-oscillator
 - solvable-systems
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

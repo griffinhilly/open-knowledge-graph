@@ -17,7 +17,7 @@ tags:
 - United-States
 - blockade
 - crisis
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

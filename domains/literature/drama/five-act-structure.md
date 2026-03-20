@@ -15,7 +15,7 @@ tags:
 - structure
 - dramatic-form
 - classical
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

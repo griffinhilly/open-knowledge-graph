@@ -12,7 +12,7 @@ tags:
 - oscillator
 - states
 - minimum-uncertainty
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

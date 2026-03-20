@@ -18,7 +18,7 @@ tags:
 - harmful-algae
 - nitrogen
 - phosphorus
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

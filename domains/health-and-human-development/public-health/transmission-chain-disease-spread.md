@@ -15,7 +15,7 @@ tags:
 - transmission
 - prevention
 - infection-control
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

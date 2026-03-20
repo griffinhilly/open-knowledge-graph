@@ -16,7 +16,7 @@ tags:
 - method
 - variation
 - universals
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

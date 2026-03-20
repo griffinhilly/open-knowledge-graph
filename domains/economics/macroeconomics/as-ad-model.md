@@ -23,7 +23,7 @@ tags:
 - output-gaps
 - price-level
 - stabilization
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # The AS-AD Model

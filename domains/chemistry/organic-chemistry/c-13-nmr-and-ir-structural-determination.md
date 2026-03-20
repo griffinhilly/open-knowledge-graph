@@ -18,7 +18,7 @@ tags:
 - ir
 - spectroscopy
 - structure-determination
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

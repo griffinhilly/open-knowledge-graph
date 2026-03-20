@@ -16,7 +16,7 @@ tags:
 - delegates
 - trustees
 - mandate
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

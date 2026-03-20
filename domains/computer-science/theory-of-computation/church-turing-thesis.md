@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 The Church-Turing thesis states that the informal notion of 'computable by an algorithm' is equivalent to 'recognizable by a Turing machine'. Though unprovable, it is supported by the equivalence of multiple independent models (λ-calculus, recursive functions, Turing machines) and is widely accepted as true.
 
+## Questions
+
+```yaml
+- question: "A computer scientist claims to have formally proved the Church-Turing thesis by demonstrating that lambda calculus and Turing machines compute the same class of functions. What is wrong with this claim?"
+  type: multiple-choice
+  options:
+    - "The claim is correct — showing two formalisms are equivalent constitutes a proof of the thesis"
+    - "The proof only covers lambda calculus; it would need to address all computational models"
+    - "The thesis involves an informal notion ('computable by an algorithm') that cannot be a target of formal proof"
+    - "The equivalence of lambda calculus and Turing machines has not actually been demonstrated"
+  answer: 2
+  explanation: "The Church-Turing thesis cannot be formally proved because one side of the equivalence — 'computable by an algorithm' — is an informal, intuitive concept, not a mathematical object. You can formally prove that two specific formalisms (lambda calculus and Turing machines) compute the same functions, but that does not prove the thesis. The thesis claims this formal class captures the informal notion of 'any algorithm' — a claim that cannot be made rigorous enough for formal proof."
+
+- question: "The convergence of lambda calculus, Turing machines, recursive functions, and Post production systems on the same class of computable functions is significant because:"
+  type: multiple-choice
+  options:
+    - "It proves that no new computational models are possible"
+    - "It shows that any one of these models is sufficient to define computability"
+    - "Multiple independent formalisms arriving at identical results provides strong empirical evidence for the thesis without constituting a proof"
+    - "It confirms that computation is ultimately equivalent to mechanical symbol manipulation"
+  answer: 2
+  explanation: "The convergence is the strongest available evidence for the thesis precisely because the formalisms were developed independently using very different mathematical machinery. When diverse approaches consistently yield the same boundary, this is compelling — analogous to how multiple independent experiments that agree lend confidence to a scientific hypothesis. But it remains evidence, not proof, because the informal notion of 'algorithm' cannot be formally captured to complete the equivalence."
+
+- question: "The Church-Turing thesis has been formally proved using mathematical logic."
+  type: true-false
+  answer: false
+  explanation: "The Church-Turing thesis cannot be formally proved. A formal proof requires both sides of the equivalence to be mathematically defined objects, but 'computable by an algorithm' is an informal, pre-formal concept. This is not a gap in human mathematical ability — it is a fundamental obstacle. The thesis is accepted on the basis of strong empirical evidence (convergence of independent formalisms) and the absence of any counterexample, not on the basis of proof."
+
+- question: "Proving that the halting problem cannot be decided by any Turing machine implies it cannot be solved by any algorithm on any physical computer."
+  type: true-false
+  answer: true
+  explanation: "This is the practical force of the Church-Turing thesis. Because the thesis asserts that Turing machine computability captures the full scope of algorithmic computation, a Turing machine impossibility result extends to every programming language, every computer architecture, and every physically realizable model of computation. The undecidability of the halting problem is therefore a claim about the limits of computation itself, not merely about a specific machine model."
+
+- question: "Why can the Church-Turing thesis not be formally proved, even in principle, despite nearly 90 years of effort?"
+  type: short-answer
+  answer: "Because one side of the equivalence — the informal notion of 'what an algorithm can compute' — is not a mathematical object and therefore cannot participate in a formal proof. A proof requires both sides to be rigorously defined, but 'algorithm' in the intuitive sense resists full formalization."
+  explanation: "This is the deepest point about the thesis. It is not a theorem waiting to be proved; it is a definitional commitment — we adopt Turing computability as the formal definition of 'computable' because every alternative formalization has turned out to be equivalent. The thesis cannot be refuted by counterexample either, unless someone produces an intuitively algorithmic process that no Turing machine can compute. No such example has appeared in nearly a century of searching."
+```
+
 ## Explainer
 
 You have studied the universal Turing machine — a single machine that can simulate any other Turing machine given its description as input. This establishes Turing machines as remarkably powerful computational devices. But a fundamental question remains: are there algorithms that Turing machines *cannot* execute? Or conversely, does every conceivable algorithm correspond to some Turing machine? The **Church-Turing thesis** addresses this by asserting that the informal, intuitive notion of "what an algorithm can compute" is exactly captured by the formal notion of "what a Turing machine can compute."

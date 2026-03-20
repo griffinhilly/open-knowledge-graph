@@ -16,7 +16,7 @@ tags:
 - epistemology
 - local-knowledge
 - ontology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

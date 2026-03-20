@@ -18,7 +18,7 @@ tags:
 - sense of place
 - scale
 - spatial
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

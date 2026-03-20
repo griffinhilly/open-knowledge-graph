@@ -11,8 +11,7 @@ prerequisites:
 - id: quentin-skinner-contextualism
   type: soft
 builds-toward:
-- historical-interpretation-method
-- intellectual-history-cambridge
+  - intellectual-history-cambridge
 tags:
 - hermeneutics
 - interpretation
@@ -21,7 +20,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Hermeneutics and Interpretation of Historical Texts
 
 ## Core Idea

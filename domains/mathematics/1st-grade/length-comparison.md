@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - measurement
 - comparison
-stage: pre-formal
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - thesis
 - claim
 - analysis
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

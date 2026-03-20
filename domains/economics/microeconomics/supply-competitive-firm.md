@@ -13,7 +13,7 @@ tags:
 - firm-supply
 - marginal-cost
 - competitive-firm
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

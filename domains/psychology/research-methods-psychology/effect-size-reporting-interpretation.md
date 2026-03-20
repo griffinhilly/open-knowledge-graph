@@ -12,7 +12,7 @@ tags:
 - statistics
 - effect-size
 - interpretation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

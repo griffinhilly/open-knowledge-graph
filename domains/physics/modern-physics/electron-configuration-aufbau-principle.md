@@ -12,7 +12,7 @@ tags:
 - quantum
 - atoms
 - configuration
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

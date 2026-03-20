@@ -12,7 +12,7 @@ tags:
 - occupational-status
 - prestige
 - inequality
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

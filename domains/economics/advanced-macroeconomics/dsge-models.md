@@ -29,7 +29,7 @@ tags:
 - dsge
 - general-equilibrium
 - stochastic
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

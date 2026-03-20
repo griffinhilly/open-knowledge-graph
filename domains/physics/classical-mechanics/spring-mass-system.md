@@ -17,7 +17,7 @@ tags:
 - oscillation
 - Hooke-law
 - SHM
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Spring-Mass Oscillator

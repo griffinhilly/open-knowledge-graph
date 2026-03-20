@@ -13,7 +13,7 @@ tags:
 - intersectionality
 - gender
 - inequality
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

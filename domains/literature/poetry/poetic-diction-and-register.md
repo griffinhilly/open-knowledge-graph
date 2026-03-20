@@ -15,7 +15,7 @@ tags:
 - vocabulary
 - syntax
 - voice
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

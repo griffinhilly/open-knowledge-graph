@@ -16,7 +16,7 @@ tags:
 - fixed-exchange-rate
 - floating
 - policy-trilemma
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

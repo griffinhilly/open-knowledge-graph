@@ -14,7 +14,7 @@ tags:
 - Pettit
 - arbitrary-power
 - neo-Roman-liberty
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - edge-dislocation
 - screw-dislocation
 - burgers-vector
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

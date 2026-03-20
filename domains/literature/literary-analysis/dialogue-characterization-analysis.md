@@ -18,7 +18,7 @@ tags:
 - character
 - analysis
 - speech
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

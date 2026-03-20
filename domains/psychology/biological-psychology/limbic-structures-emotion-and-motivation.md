@@ -13,7 +13,7 @@ tags:
 - hippocampus
 - emotion
 - motivation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

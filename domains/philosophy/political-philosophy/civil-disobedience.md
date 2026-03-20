@@ -17,7 +17,7 @@ tags:
 - Rawls
 - King
 - nonviolence
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

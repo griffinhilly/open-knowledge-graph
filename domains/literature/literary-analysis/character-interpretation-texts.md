@@ -14,7 +14,7 @@ tags:
 - character
 - interpretation
 - motivation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

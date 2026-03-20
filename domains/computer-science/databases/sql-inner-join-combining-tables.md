@@ -9,9 +9,8 @@ prerequisites:
 - id: relational-algebra-fundamentals
   type: soft
 builds-toward:
-- sql-outer-joins-comprehensive
-- sql-complex-join-types
-- sql-inner-join-combining-tables
+  - sql-outer-joins-comprehensive
+  - sql-complex-join-types
 tags:
 - SQL
 - JOIN
@@ -20,7 +19,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # SQL: INNER JOIN and Basic Joins
 
 ## Core Idea

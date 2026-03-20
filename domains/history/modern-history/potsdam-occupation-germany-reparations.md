@@ -17,7 +17,7 @@ tags:
 - occupation
 - reparations
 - Four-Power
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

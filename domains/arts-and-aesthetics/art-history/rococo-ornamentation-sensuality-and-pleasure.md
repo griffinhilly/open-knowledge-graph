@@ -3,7 +3,9 @@ id: rococo-ornamentation-sensuality-and-pleasure
 title: 'Rococo: Ornamentation, Sensuality, and Pleasure'
 domain: arts-and-aesthetics
 course: art-history
-prerequisites: []
+prerequisites:
+- id: dramatic-structure
+  type: soft
 builds-toward:
 - neoclassicism-and-romanticism
 tags:
@@ -13,10 +15,9 @@ tags:
 - decoration
 - sensuality
 - aristocratic-culture
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Rococo: Ornamentation, Sensuality, and Pleasure
 
 ## Core Idea

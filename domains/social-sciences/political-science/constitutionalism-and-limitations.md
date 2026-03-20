@@ -17,7 +17,7 @@ tags:
 - limited-government
 - law
 - constraints
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -22,7 +22,7 @@ tags:
 - price sensitivity
 - inelastic
 - elastic
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Price Elasticity of Demand

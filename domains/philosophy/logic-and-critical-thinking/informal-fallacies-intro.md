@@ -16,7 +16,7 @@ tags:
 - fallacies
 - informal-logic
 - critical-thinking
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

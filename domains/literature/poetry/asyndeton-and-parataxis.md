@@ -10,7 +10,7 @@ tags:
 - syntax
 - coordination
 - compression
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

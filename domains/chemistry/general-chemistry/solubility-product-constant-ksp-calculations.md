@@ -15,7 +15,7 @@ tags:
 - solubility
 - equilibrium
 - ionic-compounds
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

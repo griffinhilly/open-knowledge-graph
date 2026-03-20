@@ -15,7 +15,7 @@ tags:
 - outer-voices
 - soprano-bass
 - voice-independence
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

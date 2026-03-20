@@ -10,7 +10,7 @@ tags:
 - qr-algorithm
 - eigenvalues
 - qr-decomposition
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

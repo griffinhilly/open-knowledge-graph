@@ -15,7 +15,7 @@ tags:
 - inflation
 - monetary-policy
 - dynamics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

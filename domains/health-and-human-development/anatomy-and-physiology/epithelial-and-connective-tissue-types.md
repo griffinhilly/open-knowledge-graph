@@ -19,7 +19,7 @@ tags:
 - epithelium
 - connective
 - histology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -21,7 +21,7 @@ tags:
 - visual
 - pattern
 - motif
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

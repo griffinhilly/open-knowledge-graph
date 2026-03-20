@@ -26,7 +26,7 @@ tags:
 - purchasing-power
 - real-returns
 - CPI
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

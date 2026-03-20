@@ -16,7 +16,7 @@ tags:
 - pioneer-species
 - climax-community
 - disturbance
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

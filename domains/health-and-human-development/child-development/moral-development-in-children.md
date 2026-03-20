@@ -18,7 +18,7 @@ tags:
 - Piaget
 - Gilligan
 - prosocial-behavior
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Moral Development in Children

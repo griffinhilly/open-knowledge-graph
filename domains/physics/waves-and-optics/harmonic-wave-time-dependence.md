@@ -15,7 +15,7 @@ tags:
 - waves
 - sinusoids
 - periodicity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

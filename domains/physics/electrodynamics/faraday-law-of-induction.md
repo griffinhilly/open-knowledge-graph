@@ -17,7 +17,7 @@ tags:
 - induction
 - time-varying-fields
 - maxwell-equations
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

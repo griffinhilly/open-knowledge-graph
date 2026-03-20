@@ -17,7 +17,7 @@ tags:
 - CIP rules
 - optical activity
 - stereocenter
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

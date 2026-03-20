@@ -16,7 +16,7 @@ tags:
 - allusion
 - reference
 - literary-echo
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

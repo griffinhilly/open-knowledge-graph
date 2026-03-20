@@ -21,7 +21,7 @@ tags:
 - sensory
 - concrete
 - vivid language
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 # Imagery in Poetry

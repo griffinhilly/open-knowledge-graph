@@ -18,7 +18,7 @@ tags:
 - hostile-bias
 - social-dynamics
 - interpretation-bias
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

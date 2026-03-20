@@ -14,7 +14,7 @@ tags:
 - lenses
 - optics
 - image
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

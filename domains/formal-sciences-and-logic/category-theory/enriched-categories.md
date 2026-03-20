@@ -19,7 +19,7 @@ tags:
 - enrichment
 - hom-objects
 - monoidal-category
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

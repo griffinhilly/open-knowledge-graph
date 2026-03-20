@@ -16,7 +16,7 @@ tags:
 - disease
 - agriculture
 - indigenous
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

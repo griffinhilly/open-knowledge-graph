@@ -14,7 +14,7 @@ tags:
 - bond classification
 - metallic bonding
 - electronegativity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

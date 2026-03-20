@@ -18,7 +18,7 @@ tags:
 - resource competition
 - prejudice
 - group conflict
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

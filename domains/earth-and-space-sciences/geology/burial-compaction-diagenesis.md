@@ -13,7 +13,7 @@ tags:
 - compaction
 - burial
 - lithification
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

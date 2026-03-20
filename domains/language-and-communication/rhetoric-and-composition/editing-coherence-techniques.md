@@ -16,7 +16,7 @@ tags:
 - transitions
 - flow
 - editing
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

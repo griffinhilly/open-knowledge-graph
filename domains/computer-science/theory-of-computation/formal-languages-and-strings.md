@@ -26,6 +26,45 @@ Start with small concrete examples of alphabets and languages (binary strings, p
 ## Common Misconceptions
 - Confusing a language with a single string; a language is a set. - Assuming all formal languages are computable or decidable. - Mixing up the alphabet (the symbol set) with the language (the set of strings).
 
+## Questions
+
+```yaml
+- question: "The alphabet Σ = {0, 1}. Which of the following is a formal language over Σ?"
+  type: multiple-choice
+  options:
+    - "The single string '01011'"
+    - "The set {ε, 0, 1, 00, 01, 10, 11} — all strings of length 0, 1, or 2"
+    - "The alphabet {0, 1} itself"
+    - "The symbol '0'"
+  answer: 1
+  explanation: "A language is a *set of strings*, not a single string, symbol, or alphabet. Option A is a string; options C and D are symbols or symbol sets. Option B is a valid finite language — a set of strings over Σ. Every language over Σ is a subset of Σ*, the set of all possible strings."
+
+- question: "A computer scientist says: 'The language of syntactically valid Python programs is infinite.' Which best explains why this is still a valid formal language?"
+  type: multiple-choice
+  options:
+    - "A language must be finite, so this statement is incorrect"
+    - "A formal language is simply a set of strings, and sets can be infinite — there is no size restriction"
+    - "Python programs are not strings, so they cannot form a formal language"
+    - "Only languages defined by regular expressions count as formal languages"
+  answer: 1
+  explanation: "A formal language is any set of strings over an alphabet — it can be finite, infinite, or even empty. Python source files are strings over an alphabet (ASCII characters), and the set of syntactically valid ones is a language. This is precisely the power of the framework: it lets us apply automata theory to real computational problems like parsing."
+
+- question: "The empty language ∅ and the language {ε} are the same thing — both represent languages with no meaningful content."
+  type: true-false
+  answer: false
+  explanation: "These are fundamentally different. ∅ is the empty set — it contains zero strings. {ε} contains exactly one string: the empty string ε, which has length zero. The distinction matters for membership: ε ∈ {ε} is true, but ε ∈ ∅ is false. Conflating them is a common and consequential error in formal language reasoning."
+
+- question: "Every computational problem can be reformulated as a question of whether an input string belongs to some formal language."
+  type: true-false
+  answer: true
+  explanation: "This reformulation is foundational. 'Is N prime?' becomes 'Is the binary string representing N in the language of prime representations?' 'Is this program valid?' becomes 'Is this source string in the language defined by the grammar?' The reformulation isn't cosmetic — it lets us apply automata theory and set-theoretic tools to classify what is and isn't computable."
+
+- question: "What is the difference between an alphabet, a string, and a language, and why do all three concepts need to be distinct?"
+  type: short-answer
+  answer: "An alphabet (Σ) is a finite set of symbols — the basic building blocks. A string is a finite sequence of those symbols (including the empty string ε). A language is a set of strings. The distinctions are necessary because they sit at different levels of abstraction: you define a language (a set) over an alphabet (the symbol pool) using strings (the elements of that set). Collapsing them causes confusion — for instance, treating a language as a single string misses that languages encode entire classes of computational problems, not individual inputs."
+  explanation: "Keeping the three levels separate is what allows the theory to be precise. The alphabet sets the symbol inventory; strings are individual objects in the space Σ*; languages are subsets of Σ* that represent computational problems. The hierarchy — symbols → strings → languages — mirrors the hierarchy of computational models that recognize them."
+```
+
 ## Explainer
 
 Before we can reason rigorously about what computers can and cannot do, we need a precise mathematical vocabulary for the objects computers operate on. At its core, every computational problem involves deciding whether some input — represented as a sequence of symbols — belongs to some well-defined collection. **Formal language theory** provides exactly this vocabulary, and it is simpler than it might first sound.

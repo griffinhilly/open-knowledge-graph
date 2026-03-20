@@ -12,7 +12,7 @@ tags:
 - market-efficiency
 - market-microstructure
 - information
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

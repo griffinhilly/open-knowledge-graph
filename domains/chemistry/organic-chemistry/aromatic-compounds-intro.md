@@ -19,7 +19,7 @@ tags:
 - delocalization
 - pi system
 - antiaromatic
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Aromaticity and Benzene

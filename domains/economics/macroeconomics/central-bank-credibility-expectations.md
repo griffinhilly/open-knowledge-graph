@@ -14,7 +14,7 @@ tags:
 - inflation
 - central-bank
 - policy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

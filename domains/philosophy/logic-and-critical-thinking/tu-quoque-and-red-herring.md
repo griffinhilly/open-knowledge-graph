@@ -14,7 +14,7 @@ tags:
 - whataboutism
 - relevance
 - fallacies
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

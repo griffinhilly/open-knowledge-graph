@@ -3,7 +3,9 @@ id: islamic-art-ornament-geometry-and-sacred-decoration
 title: 'Islamic Art: Ornament, Geometry, and Sacred Decoration'
 domain: arts-and-aesthetics
 course: art-history
-prerequisites: []
+prerequisites:
+- id: dramatic-structure
+  type: soft
 builds-toward:
 - postmodern-art-and-contemporary-plurality
 tags:
@@ -14,10 +16,9 @@ tags:
 - non-western
 - pattern
 - sacred-art
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Islamic Art: Ornament, Geometry, and Sacred Decoration
 
 ## Core Idea

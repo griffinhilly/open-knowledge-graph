@@ -17,7 +17,7 @@ tags:
 - common-ion-effect
 - precipitation
 - ion-product
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 # Solubility Equilibria

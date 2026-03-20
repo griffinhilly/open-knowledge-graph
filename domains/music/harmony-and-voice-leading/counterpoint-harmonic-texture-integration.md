@@ -16,7 +16,7 @@ tags:
 - counterpoint
 - voice-leading
 - texture
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

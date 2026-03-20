@@ -15,7 +15,7 @@ tags:
 - quantifiers
 - categorical-logic
 - reasoning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

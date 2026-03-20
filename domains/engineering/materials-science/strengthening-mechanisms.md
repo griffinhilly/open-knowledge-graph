@@ -13,7 +13,7 @@ tags:
 - solid-solution-strengthening
 - grain-boundary-strengthening
 - precipitation-hardening
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

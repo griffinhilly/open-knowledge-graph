@@ -15,7 +15,7 @@ tags:
 - explanatory-gap
 - consciousness
 - physicalism
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

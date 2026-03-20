@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - measure-theory
 - measurable-functions
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

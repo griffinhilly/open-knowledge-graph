@@ -15,7 +15,7 @@ tags:
 - semantics
 - meaning
 - structure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

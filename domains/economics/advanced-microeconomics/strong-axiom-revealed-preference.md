@@ -10,7 +10,7 @@ tags:
 - rationality
 - consistency
 - preferences
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

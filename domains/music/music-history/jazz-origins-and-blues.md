@@ -19,7 +19,7 @@ tags:
 - New-Orleans
 - improvisation
 - twelve-bar-blues
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

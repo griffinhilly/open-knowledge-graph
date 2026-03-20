@@ -13,7 +13,7 @@ tags:
 - earthquakes
 - probability
 - risk
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

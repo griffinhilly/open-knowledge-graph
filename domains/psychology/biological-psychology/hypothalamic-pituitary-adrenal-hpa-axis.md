@@ -19,7 +19,7 @@ tags:
 - stress
 - hormones
 - homeostasis
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - state-feedback
 - observer
 - eigenvalue-assignment
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

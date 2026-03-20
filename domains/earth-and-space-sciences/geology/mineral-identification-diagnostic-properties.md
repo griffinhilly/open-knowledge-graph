@@ -17,7 +17,7 @@ tags:
 - mineralogy
 - identification
 - properties
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

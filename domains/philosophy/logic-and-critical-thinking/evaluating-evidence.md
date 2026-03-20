@@ -17,7 +17,7 @@ tags:
 - epistemology
 - source-evaluation
 - critical-thinking
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Evaluating Evidence and Source Quality

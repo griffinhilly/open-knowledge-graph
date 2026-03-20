@@ -15,7 +15,7 @@ tags:
 - potentials
 - transformations
 - natural-variables
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

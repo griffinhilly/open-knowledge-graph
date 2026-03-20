@@ -15,7 +15,7 @@ tags:
 - function
 - atmosphere
 - meaning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -3,7 +3,9 @@ id: narrative-analysis-methods
 title: Narrative Analysis
 domain: social-sciences
 course: research-methods-social-science
-prerequisites: []
+prerequisites:
+- id: research-design-advanced
+  type: soft
 builds-toward:
 - mixed-methods-integration
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Narrative Analysis
 
 ## Core Idea

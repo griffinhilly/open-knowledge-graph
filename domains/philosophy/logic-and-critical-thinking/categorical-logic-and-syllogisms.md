@@ -15,7 +15,7 @@ tags:
 - categorical-logic
 - syllogisms
 - deductive
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

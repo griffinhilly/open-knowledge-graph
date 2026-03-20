@@ -29,6 +29,45 @@ Begin with large motor movements (writing letters in the air, on whiteboards) be
 - That children should not write until they can spell correctly -- invented spelling is a healthy developmental stage that strengthens phonemic awareness and letter-sound knowledge.
 - That handwriting instruction is outdated in the digital age -- the motor act of forming letters reinforces letter recognition and supports reading development.
 
+## Questions
+
+```yaml
+- question: "A kindergartner writes 'SPDR' for 'spider.' Their teacher corrects every invented spelling and requires only conventionally correct words. What does research on early literacy suggest about this approach?"
+  type: multiple-choice
+  options:
+    - "It speeds up spelling acquisition because children learn the correct forms earlier"
+    - "It prevents bad spelling habits from forming before they become automatic"
+    - "It may slow literacy development by shifting the child's attention from active sound analysis to rote memorization"
+    - "It is the most effective approach for building both reading and writing simultaneously"
+  answer: 2
+  explanation: "When a child writes 'SPDR' for 'spider,' they are demonstrating active phonological analysis: listening to the sounds in the word and representing each sound with a letter they know. This strengthens phonemic awareness and letter-sound knowledge. Correcting every invented spelling redirects the child's attention from this generative, analytical process to the much more passive task of copying approved spellings — which can actually slow the development of independent word analysis skills."
+
+- question: "How does learning to form letters by hand benefit a child's reading ability?"
+  type: multiple-choice
+  options:
+    - "It doesn't — handwriting is a separate motor skill with no connection to reading"
+    - "Forming letters by hand activates broader brain regions and reinforces the visual memory templates needed for fast letter recognition during reading"
+    - "It improves eye-tracking patterns, which makes it easier to scan lines of text"
+    - "It teaches children the correct directionality (left-to-right) for reading"
+  answer: 1
+  explanation: "Research on handwriting shows that the motor act of forming letters activates different and broader brain regions than typing or tracing. When children write 'b' by hand (starting at the top, drawing down, then adding the bump), they reinforce the exact visual features that distinguish 'b' from 'd' and 'p.' This builds the automatic visual templates the brain needs for rapid letter recognition during reading — which is why explicit handwriting instruction supports, rather than merely accompanies, reading development."
+
+- question: "Writing runs the letter-sound mapping in the opposite direction from reading — reading goes from print to sound, while writing goes from sound to print."
+  type: true-false
+  answer: true
+  explanation: "True. Reading is decoding: you see a letter (or letter combination) and retrieve its sound. Writing is encoding: you hear a sound and must recall which letter represents it, then produce that letter's physical form. Both skills depend on letter-sound knowledge, but they run the mapping in opposite directions. This is why a child can be a capable reader but still struggle to write independently — the reverse process requires additional, separate practice."
+
+- question: "Invented spelling is a sign that a child is behind in literacy; it should be corrected immediately to prevent confusion."
+  type: true-false
+  answer: false
+  explanation: "False. Invented spelling is a healthy and expected developmental stage. When a child writes 'KAT' for 'cat,' they are demonstrating active phonological analysis — listening to individual sounds and matching each to a letter. This process strengthens both phonemic awareness and letter-sound knowledge, which are foundational to reading. Far from being a problem, invented spelling shows the child is engaging deeply with the sound structure of language."
+
+- question: "Why do literacy researchers consider invented spelling valuable rather than a mistake to be corrected?"
+  type: short-answer
+  answer: "Invented spelling requires the child to actively analyze the sounds in a word and map each sound to a letter — the same phonological process at the heart of learning to read. This active analysis strengthens phonemic awareness and letter-sound knowledge. A child who invents a spelling is doing real linguistic work; a child who only copies correct spellings is not."
+  explanation: "The key insight is that the *process* of invented spelling is the learning, not just the product. Analyzing 'spider' into /s/-/p/-/d/-/r/ and writing SPDR shows the child understands that speech can be segmented into sounds and that letters represent those sounds. These are exactly the skills that transfer to reading. Correcting the spelling addresses the surface error but eliminates the cognitive exercise that builds deeper literacy."
+```
+
 ## Explainer
 
 Writing letters and words is the flip side of reading: while reading decodes print into speech, writing encodes speech into print. You already know from your work on **letter-sound correspondence** that each letter (or letter combination) maps to a sound. Writing asks you to run that mapping in reverse — to hear a sound and remember which letter shape represents it. This is harder in one important way: when reading, the print is there to give you clues; when writing, you must retrieve both the sound-to-letter mapping and the physical form of the letter from memory, then coordinate your hand to produce it.

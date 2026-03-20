@@ -14,7 +14,7 @@ tags:
 - transition
 - late-antiquity
 - social-change
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

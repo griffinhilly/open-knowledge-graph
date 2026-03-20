@@ -22,7 +22,7 @@ tags:
 - salt
 - camel
 - sahara
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Trans-Saharan Trade Networks

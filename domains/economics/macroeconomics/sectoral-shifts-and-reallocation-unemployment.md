@@ -12,7 +12,7 @@ tags:
 - unemployment
 - structural
 - sectoral
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

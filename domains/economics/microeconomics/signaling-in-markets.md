@@ -10,7 +10,7 @@ tags:
 - information asymmetry
 - signaling
 - market equilibrium
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

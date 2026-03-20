@@ -25,7 +25,7 @@ status: draft
 # Understanding Financial Statements for Personal Finance
 
 ## Core Idea
-TODO
+Businesses produce three core financial statements — an income statement, a balance sheet, and a cash flow statement — that together describe how money moves through the organization. You have personal equivalents of all three, and understanding them gives you the same analytical power over your personal finances that a CFO has over a company. The underlying concepts connect directly to your prerequisites: money fundamentals define what these statements measure, and budget work is essentially operating an informal income statement.
 
 ## Explainer
 

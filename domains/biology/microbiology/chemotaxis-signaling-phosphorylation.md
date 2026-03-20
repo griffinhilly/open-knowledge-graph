@@ -14,7 +14,7 @@ tags:
 - chemotaxis
 - signal-transduction
 - two-component
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

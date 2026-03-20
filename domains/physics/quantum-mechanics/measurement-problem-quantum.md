@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - measurement-problem
 - collapse
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

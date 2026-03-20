@@ -23,7 +23,7 @@ tags:
 - syntax
 - functionalism
 - AI
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

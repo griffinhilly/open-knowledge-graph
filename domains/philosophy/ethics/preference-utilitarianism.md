@@ -17,7 +17,7 @@ tags:
 - preference-satisfaction
 - Hare
 - Singer
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

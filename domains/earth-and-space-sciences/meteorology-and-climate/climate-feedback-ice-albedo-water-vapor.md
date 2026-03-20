@@ -11,16 +11,14 @@ prerequisites:
 - id: albedo-feedback-paleoclimate
   type: soft
 builds-toward:
-- climate-sensitivity-and-radiative-response
-- anthropogenic-climate-change-forcing
+  - climate-sensitivity-and-radiative-response
 tags:
 - feedback
 - amplification
 - climate-sensitivity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Climate Feedbacks: Ice-Albedo and Water Vapor Feedback
 
 ## Core Idea

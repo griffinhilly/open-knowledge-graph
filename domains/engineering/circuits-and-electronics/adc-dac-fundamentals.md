@@ -19,7 +19,7 @@ tags:
 - r2r-ladder
 - flash-adc
 - successive-approximation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

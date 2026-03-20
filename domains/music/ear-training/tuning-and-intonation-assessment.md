@@ -15,7 +15,7 @@ tags:
 - intonation
 - ear-training
 - acoustics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

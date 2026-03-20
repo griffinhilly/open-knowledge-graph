@@ -35,6 +35,45 @@ Demonstrate the cut-and-rearrange transformation with physical paper cutouts or 
 - Multiplying base times side (using the wrong dimension entirely).
 - Confusing the parallelogram formula with the triangle formula and dividing by 2 unnecessarily.
 
+## Questions
+
+```yaml
+- question: "A parallelogram has a base of 8 cm, a slant side of 6 cm, and a perpendicular height of 5 cm. What is its area?"
+  type: multiple-choice
+  options:
+    - "48 cm² (base × slant side)"
+    - "40 cm² (base × perpendicular height)"
+    - "24 cm² (½ × base × slant side)"
+    - "20 cm² (½ × base × perpendicular height)"
+  answer: 1
+  explanation: "Area = base × perpendicular height = 8 × 5 = 40 cm². The slant side (6 cm) is not the height. Option A is the classic error: reaching for the slant side because it looks like a 'side length.' Options C and D apply the triangle formula (dividing by 2), which is wrong for a parallelogram. The perpendicular height is the straight-up distance from base to top — always shorter than the slant side."
+
+- question: "Why does the area formula for a parallelogram use the perpendicular height rather than the length of the slant side?"
+  type: multiple-choice
+  options:
+    - "Because the slant side is always longer, so using it would overcount the area of the angled corners"
+    - "Because cutting a right triangle from one end and sliding it to the other converts the parallelogram into a rectangle — and the rectangle's height is the perpendicular measurement, not the slant"
+    - "Because the slant side formula only applies when the parallelogram happens to be a rhombus"
+    - "Because mathematicians defined the formula arbitrarily and the perpendicular height is easier to measure in practice"
+  answer: 1
+  explanation: "The cut-and-slide argument is the geometric proof: slice a right triangle off one end of a parallelogram along a vertical line, slide it to the other end, and you have a rectangle with the same base and perpendicular height. Since rearranging pieces preserves area, the parallelogram's area equals the rectangle's area = base × perpendicular height. This also explains why using the slant side gives too large an answer — the slant side is longer than the perpendicular height and does not correspond to any dimension of the equivalent rectangle."
+
+- question: "The formula for the area of a parallelogram is different from the formula for the area of a rectangle."
+  type: true-false
+  answer: false
+  explanation: "Both use A = base × height. The formulas are identical because a parallelogram can be rearranged into a rectangle with the same base and perpendicular height. The cut-and-slide transformation proves this geometrically. This is not a coincidence — it is why the same formula works for both shapes, and it is the conceptual foundation for deriving the triangle and trapezoid formulas from the same starting point."
+
+- question: "The triangle area formula A = ½bh is derived from the parallelogram formula because two identical triangles can be joined to form a parallelogram with the same base and height."
+  type: true-false
+  answer: true
+  explanation: "If you duplicate a triangle and flip it 180°, the two pieces fit together along their shared edge to form a parallelogram. Therefore the triangle is exactly half of a parallelogram with the same base and perpendicular height, giving A = ½ × (bh) = ½bh. Understanding this derivation means you can reconstruct the triangle formula from the parallelogram formula rather than memorizing it as an independent fact."
+
+- question: "Explain why using the slant side of a parallelogram as the height always gives an area that is too large, and describe the geometric reasoning that shows why A = bh is correct."
+  type: short-answer
+  answer: "The slant side is always longer than the perpendicular height (the hypotenuse of a right triangle is always longer than either leg). Since the formula multiplies the base by this measurement, using the slant side produces a larger product than the true area. The correct formula comes from the cut-and-slide argument: cutting a right triangle from one end of the parallelogram and sliding it to the other end produces a rectangle with the same base and perpendicular height. Because rearranging preserves area, and the rectangle's area is base × perpendicular height, the parallelogram's area must be the same."
+  explanation: "The geometric derivation is more than a memory aid — it reveals that area formulas are not arbitrary. The parallelogram formula works because of a conservation principle (rearranging doesn't change area) applied to a specific transformation (cut-and-slide). Students who understand this argument can reconstruct it and apply the same logic to derive related formulas for triangles and trapezoids."
+```
+
 ## Explainer
 
 You already know that the area of a rectangle is base × height. The area of a parallelogram uses the exact same formula — A = bh — and the reason why comes from a clever physical argument. Imagine cutting a parallelogram out of paper. Slice a right triangle off the left end, along a vertical line drawn from the top-left corner straight down to the base. Now slide that triangle over to the right end. The shape you have now is a rectangle with the same base and the same perpendicular height as the original parallelogram. Since rearranging pieces doesn't change area, the parallelogram must have the same area as the rectangle: base × height.

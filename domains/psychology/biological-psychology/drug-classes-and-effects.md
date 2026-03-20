@@ -17,7 +17,7 @@ tags:
 - hallucinogens
 - addiction
 - substance-use
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

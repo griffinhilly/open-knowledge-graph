@@ -19,7 +19,7 @@ tags:
 - blood-pressure
 - resistance
 - microcirculation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -3,7 +3,9 @@ id: egyptian-nile-agriculture-society
 title: The Nile, Agriculture, and Egyptian Civilization
 domain: history
 course: ancient-civilizations
-prerequisites: []
+prerequisites:
+- id: egyptian-civilization
+  type: soft
 builds-toward:
 - egyptian-pyramids-burial-monuments
 - egyptian-priesthood-institutions
@@ -13,10 +15,9 @@ tags:
 - agriculture
 - geography
 - society
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # The Nile, Agriculture, and Egyptian Civilization
 
 ## Core Idea

@@ -13,7 +13,7 @@ tags:
 - convolution
 - h(t)
 - characterization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

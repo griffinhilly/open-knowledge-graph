@@ -7,8 +7,7 @@ prerequisites:
 - id: distributed-systems-overview
   type: hard
 builds-toward:
-- exactly-once-semantics
-- distributed-transactions-2pc
+  - distributed-transactions-2pc
 tags:
 - retry
 - fault-tolerance
@@ -16,7 +15,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Idempotent Operations in Distributed Systems
 
 ## Core Idea

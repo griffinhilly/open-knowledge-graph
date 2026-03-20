@@ -14,7 +14,7 @@ tags:
 - special-relativity
 - spacetime
 - time
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

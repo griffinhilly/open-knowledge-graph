@@ -15,7 +15,7 @@ tags:
 - environment
 - active
 - symbol
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

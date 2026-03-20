@@ -15,7 +15,7 @@ tags:
 - four-part-writing
 - voicing
 - distribution
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

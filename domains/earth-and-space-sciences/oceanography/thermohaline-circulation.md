@@ -30,7 +30,7 @@ tags:
 - ocean conveyor
 - overturning circulation
 - AMOC
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

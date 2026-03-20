@@ -19,7 +19,7 @@ tags:
 - phosphorus
 - iron-limitation
 - redox-chemistry
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

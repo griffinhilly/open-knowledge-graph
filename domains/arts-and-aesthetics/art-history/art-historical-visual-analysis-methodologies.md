@@ -3,7 +3,9 @@ id: art-historical-visual-analysis-methodologies
 title: Art Historical Visual Analysis and Methodologies
 domain: arts-and-aesthetics
 course: art-history
-prerequisites: []
+prerequisites:
+- id: close-reading-techniques
+  type: soft
 builds-toward:
 - iconography-symbolism-and-religious-meaning
 - postmodern-art-and-contemporary-plurality
@@ -12,10 +14,9 @@ tags:
 - interpretation
 - analysis
 - visual-literacy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Art Historical Visual Analysis and Methodologies
 
 ## Core Idea

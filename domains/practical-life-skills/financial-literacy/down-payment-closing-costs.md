@@ -16,7 +16,7 @@ tags:
 - PMI
 - home-buying
 - savings
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

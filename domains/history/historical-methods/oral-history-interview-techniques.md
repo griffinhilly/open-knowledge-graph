@@ -13,7 +13,7 @@ tags:
 - interviews
 - testimony
 - methods
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

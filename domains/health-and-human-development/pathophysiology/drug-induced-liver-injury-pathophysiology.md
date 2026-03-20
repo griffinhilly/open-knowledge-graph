@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: cytochrome-p450-metabolism
   type: soft
+- id: hemostasis-pathophysiology
+  type: soft
 builds-toward:
-- drug-induced-liver-injury-pathophysiology
-- acute-liver-failure-pathophysiology
+  - acute-liver-failure-pathophysiology
 tags:
 - drug-induced-injury
 - hepatotoxicity
@@ -18,7 +19,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Drug-Induced Liver Injury: Hepatocellular vs. Cholestatic Patterns and Mechanisms
 
 ## Core Idea

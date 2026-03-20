@@ -20,7 +20,7 @@ tags:
 - globalization
 - potato
 - smallpox
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

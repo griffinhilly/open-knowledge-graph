@@ -16,7 +16,7 @@ tags:
 - deflation
 - zero-bound
 - liquidity-trap
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

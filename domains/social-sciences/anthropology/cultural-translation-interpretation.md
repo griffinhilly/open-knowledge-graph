@@ -16,7 +16,7 @@ tags:
 - meaning
 - ethnography
 - communication
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

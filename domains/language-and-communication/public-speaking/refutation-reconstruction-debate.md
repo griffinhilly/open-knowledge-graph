@@ -9,17 +9,15 @@ prerequisites:
 - id: counterargument-speech-integration
   type: soft
 builds-toward:
-- debate-rebuttal-technique
-- debate-strategic-concession
+  - debate-rebuttal-technique
 tags:
 - debate
 - refutation
 - argument
 - reconstruction
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Refutation Through Reconstruction in Debate
 
 ## Core Idea

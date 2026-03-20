@@ -14,7 +14,7 @@ tags:
 - market-structure
 - trading
 - mechanics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -22,7 +22,7 @@ tags:
 - commercial farming
 - Green Revolution
 - food systems
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

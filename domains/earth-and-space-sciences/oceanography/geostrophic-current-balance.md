@@ -17,7 +17,7 @@ tags:
 - geostrophic
 - pressure-gradient
 - current-balance
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

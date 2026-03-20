@@ -20,7 +20,7 @@ tags:
 - genetic drift
 - natural selection
 - population genetics
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

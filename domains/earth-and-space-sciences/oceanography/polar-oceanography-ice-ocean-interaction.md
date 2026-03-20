@@ -18,7 +18,7 @@ tags:
 - Antarctic
 - Arctic
 - ice-albedo
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -38,7 +38,7 @@ tags:
 - rhetoric
 - appeals
 - advocacy
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Persuasive Speech Design

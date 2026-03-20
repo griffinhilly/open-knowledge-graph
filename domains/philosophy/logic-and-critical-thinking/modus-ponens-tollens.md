@@ -21,7 +21,7 @@ tags:
 - modus-tollens
 - conditional
 - inference-rules
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

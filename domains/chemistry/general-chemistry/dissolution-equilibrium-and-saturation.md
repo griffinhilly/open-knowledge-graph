@@ -15,7 +15,7 @@ tags:
 - solubility
 - equilibrium
 - concentration
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

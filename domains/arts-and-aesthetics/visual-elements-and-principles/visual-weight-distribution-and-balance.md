@@ -11,9 +11,8 @@ prerequisites:
 - id: positive-and-negative-space
   type: soft
 builds-toward:
-- emphasis-and-scale-relationship-dominance
-- symmetry-types-characteristics-and-effects
-- visual-path-and-compositional-flow-direction
+  - symmetry-types-characteristics-and-effects
+  - visual-path-and-compositional-flow-direction
 tags:
 - balance
 - weight
@@ -23,7 +22,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Visual Weight and Balance: Distribution and Equilibrium
 
 ## Core Idea
@@ -34,6 +32,45 @@ Create simple abstract compositions using only geometric shapes and experiment w
 
 ## Common Misconceptions
 Equating balance with symmetry; believing equal-sized elements have equal visual weight regardless of color or position.
+
+## Questions
+
+```yaml
+- question: "A designer places a large, pale, lightly-textured shape near the center of a composition and a small, dark, highly saturated shape in the far corner. How might this feel?"
+  type: multiple-choice
+  options:
+    - "Necessarily unbalanced, because the large shape must be heavier than the small one"
+    - "Potentially balanced, because the small dark saturated element can carry enough visual weight to counterbalance the large pale shape"
+    - "Balanced only if both shapes share the same color hue"
+    - "Automatically balanced because all center-aligned elements neutralize visual tension"
+  answer: 1
+  explanation: "Visual weight is not determined by size alone. Darkness, saturation, and isolation all amplify weight — a small, dark, saturated element near an edge can carry significant visual pull. The seesaw analogy applies: a heavy object close to the fulcrum can be balanced by a lighter object farther away. The large pale shape and small dark saturated shape may carry equivalent total visual weight depending on the specific values involved. This is the operating principle of asymmetrical balance."
+
+- question: "Which property contributes most strongly to an element's visual weight, according to this topic?"
+  type: multiple-choice
+  options:
+    - "Physical size — larger elements always feel heavier regardless of other properties"
+    - "Value contrast — a dark shape on a light background feels heavier than a light shape, and this is described as among the strongest weight contributors"
+    - "Position — elements near the top of a composition always carry the most visual weight"
+    - "The number of nearby similar elements — isolated elements feel lighter because they have no context"
+  answer: 1
+  explanation: "The explainer states that 'value contrast is among the strongest' contributors to visual weight. A small dark shape against a light background can feel heavier than a large light shape — which explains why a composition with a single dark accent element can feel balanced against a much larger lighter region. Size matters, but it can be overridden by value contrast, saturation, and isolation working together."
+
+- question: "A small, dark, isolated element near the edge of a composition can visually balance a large, light, desaturated area on the opposite side."
+  type: true-false
+  answer: true
+  explanation: "This is the core claim of asymmetrical balance. Darkness amplifies visual weight; isolation amplifies it further (a shape surrounded by empty space commands more attention than one packed among others). These factors can more than compensate for smaller size. The seesaw analogy is exact: balance is achieved through equivalence of combined weight-and-position, not through identical elements."
+
+- question: "Balance in visual composition requires symmetry — elements must be arranged in mirrored positions on either side of a central axis."
+  type: true-false
+  answer: false
+  explanation: "Symmetry is one way to achieve balance, but it is neither the only way nor always the best way. Asymmetrical balance achieves equilibrium through different elements whose combined visual weights produce equilibrium without mirroring. This is actually the more common approach in design and fine art, precisely because it produces more dynamic compositions. The Core Idea flags this as the primary misconception: equating balance with symmetry."
+
+- question: "A designer says a composition feels like it is 'tipping to one side.' Without adding new elements, what kinds of adjustments to existing elements could redistribute visual weight and restore balance?"
+  type: short-answer
+  answer: "To increase weight on the lighter side: darken a shape, increase its saturation, increase its surrounding empty space (isolation), or move it farther from the visual center. To decrease weight on the heavier side: lighten a shape, desaturate it, reduce its isolation by clustering other elements nearby, or move it closer to the center. Position, value, saturation, and isolation are all adjustable properties that directly affect how much visual pull an element exerts."
+  explanation: "The key insight is that visual weight is a composite property — multiple factors interact, and changing any of them shifts the balance. Students who only think of balance in terms of size or symmetry miss the full toolkit. The ability to diagnose imbalance and correct it by adjusting existing elements (rather than adding new ones) is the practical skill this topic develops."
+```
 
 ## Explainer
 

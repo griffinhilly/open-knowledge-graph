@@ -14,7 +14,7 @@ tags:
 - fiscal-policy
 - stabilizers
 - automatic
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

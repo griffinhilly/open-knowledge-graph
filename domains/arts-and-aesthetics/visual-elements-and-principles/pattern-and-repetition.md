@@ -32,6 +32,45 @@ Design a simple motif (a leaf, a geometric shape) and explore how different repe
 - Patterns are purely decorative and add nothing to meaning — in art, pattern can carry cultural symbolism, create optical illusions, and evoke emotion.
 - A pattern must be perfectly regular to be effective — many of the most compelling patterns have deliberate variation.
 
+## Questions
+
+```yaml
+- question: "An artist creates a border by taking a leaf shape and sliding it to the right at regular intervals, with every leaf in exactly the same orientation. Which repetition strategy is this?"
+  type: multiple-choice
+  options:
+    - "Rotation — the motif is moved around a center point"
+    - "Translation — the motif is slid along a line at regular intervals without changing its orientation"
+    - "Reflection — the motif is flipped across an axis"
+    - "Scaling — the motif is repeated at different sizes"
+  answer: 1
+  explanation: "Translation repeats a motif by sliding it in a direction (up, down, left, right, diagonal) at a consistent interval without rotating or flipping it. A row of fence posts, a line of identical stamps, and repeating border patterns all use translation. Rotation would spin the leaf; reflection would flip it; scaling would change its size."
+
+- question: "A designer's wallpaper pattern of evenly spaced identical blue squares looks monotonous. What change would most effectively bring the pattern to life?"
+  type: multiple-choice
+  options:
+    - "Remove all repetition — patterns are purely decorative and can't carry expressive meaning"
+    - "Introduce a deliberate variation — such as changing every fifth square's color or shifting one row's spacing — to create visual interest within the regularity"
+    - "Make every single square a different color, eliminating any sense of repetition"
+    - "Increase the size of all squares so the pattern becomes more prominent and visible"
+  answer: 1
+  explanation: "The key insight is that effective patterns use the tension between regularity and variation. Perfect regularity can feel lifeless because there's nothing to capture the eye. A deliberate break — one red square among blues, a shifted tile, a missing element — becomes a focal point precisely because the regularity makes it conspicuous. Options C removes the pattern entirely; D doesn't address the monotony problem. The goal is strategic variation within an established regularity."
+
+- question: "A pattern must consist of perfectly identical repetitions at equal intervals to be considered a true pattern."
+  type: true-false
+  answer: false
+  explanation: "Patterns can be regular (identical repetitions at even intervals), irregular (varied repetitions), or random (apparently unordered but statistically consistent). Many of the most compelling patterns — in Islamic geometric art, natural phenomena like leopard spots, or handcrafted textiles — use deliberate variation within the pattern structure. The definition of pattern is regular, repeated arrangement; perfect mechanical regularity is just one type."
+
+- question: "The same simple motif can generate very different patterns depending on whether it is translated, rotated, reflected, or scaled."
+  type: true-false
+  answer: true
+  explanation: "The repetition strategy applied to a motif is as important as the motif itself. A leaf shape translated in a row produces a simple border; the same leaf rotated around a center point produces a daisy-like radial design; reflected, it produces bilateral symmetry. The four operations — translation, rotation, reflection, scaling — can be combined to generate an enormous variety of patterns from a single, simple motif. This is why Islamic geometric art achieves extraordinary complexity from basic polygonal shapes."
+
+- question: "Why do designers deliberately introduce breaks or variations into an otherwise regular pattern, and what visual effect does this create?"
+  type: short-answer
+  answer: "A perfectly regular pattern can feel mechanical and lifeless because the eye quickly predicts the next element and stops paying attention. When a designer introduces a deliberate variation — a different color, a missing element, a shifted or rotated motif — the regularity itself makes that variation conspicuous: the eye is drawn to what breaks the expected sequence. This creates a focal point within the pattern. The strategy is to establish enough regularity to build visual order and coherence, then break it at precisely the right place to create emphasis and energy."
+  explanation: "The insight is that regularity and variation work together rather than against each other. Regularity is the backdrop; variation is the signal. Without the regularity, the variation has no context to stand out against. This is why a single red tulip in a field of yellow ones is so eye-catching — and why the same principle applies to designed patterns."
+```
+
 ## Explainer
 
 You already have a sense of how rhythm creates visual movement through the repetition of elements, and how shapes and forms serve as the building blocks of visual composition. **Pattern** takes these ideas and extends them into a systematic principle: when you repeat a visual element — a shape, a line, a color, a texture — in a predictable way, the repetition itself becomes a unifying force that organizes the entire composition.

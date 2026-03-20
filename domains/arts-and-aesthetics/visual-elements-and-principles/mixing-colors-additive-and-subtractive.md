@@ -29,6 +29,45 @@ Mix paints starting with pure colors in various combinations to see how pigments
 ## Common Misconceptions
 Red, yellow, and blue are universal primaries for all color mixing. You can create any color from any starting pigments. Mixing more colors always creates better results.
 
+## Questions
+
+```yaml
+- question: "A stage lighting designer aims a red spotlight and a green spotlight at the same spot on the stage floor. What color does the audience see?"
+  type: multiple-choice
+  options:
+    - "A dark brownish-olive — mixing opposite colors in any medium produces a neutral"
+    - "Yellow — because red and green light combine additively to produce yellow"
+    - "Orange — because red and green are adjacent on the color wheel and blend toward orange"
+    - "Black — combining two colors of light cancels them out"
+  answer: 1
+  explanation: "This is additive mixing (light). Red and green light overlap to produce yellow — not the intuitive result most people expect from their experience mixing paints. In additive mixing, combining colors adds wavelengths together, producing brighter results. Red light contributes long wavelengths; green contributes medium wavelengths; together they stimulate the eye's red and green cone cells simultaneously, which the brain perceives as yellow. This is why mixing paint (subtractive) gives different results than mixing light."
+
+- question: "A painter wants to mix a clean, bright purple. They have warm red paint and ultramarine blue. The result looks dull and grayish. What best explains why?"
+  type: multiple-choice
+  options:
+    - "Purple cannot be mixed from red and blue — it must be purchased as a premixed color"
+    - "The warm red contains yellow pigment that subtracts green wavelengths, muddying the mix when combined with blue"
+    - "The problem is the blue — ultramarine absorbs too many wavelengths to mix cleanly"
+    - "Subtractive mixing always produces gray when combining more than two primaries"
+  answer: 1
+  explanation: "In subtractive mixing, each pigment absorbs (subtracts) certain wavelengths. A warm red typically contains orange-red pigments that also absorb some green/blue wavelengths. When mixed with blue, you're now subtracting red wavelengths (via blue) AND some of the remaining wavelengths that weren't already absorbed, trending toward gray. True magenta (a cool, blue-leaning red) mixes much cleaner purples with blue because its absorption range doesn't overlap as much with blue's reflected wavelengths."
+
+- question: "Red, yellow, and blue are the true universal primary colors for all color mixing, whether working with light or pigment."
+  type: true-false
+  answer: false
+  explanation: "Red-yellow-blue is a traditional but scientifically inaccurate set of primaries. For additive mixing (light), the primaries are red, green, and blue (RGB). For subtractive mixing (pigment), the theoretically correct primaries are cyan, magenta, and yellow (CMY) — as used in printing. The red-yellow-blue model comes from traditional painting instruction predating modern color science and cannot produce as wide a gamut of colors as the correct CMY primaries. True magenta and cyan mix much cleaner secondaries than warm red and primary blue."
+
+- question: "Mixing red and green light in equal proportions produces a dark, brownish color because combining complementary colors neutralizes them."
+  type: true-false
+  answer: false
+  explanation: "This confuses additive (light) and subtractive (pigment) mixing. Mixing red and green pigments does produce a muddy brownish-olive because each pigment absorbs different wavelengths, leaving little reflected light. But mixing red and green light is additive — it adds wavelengths together and produces yellow, which is bright. The 'neutralization' intuition comes from experience with paints and does not transfer to light mixing. In additive mixing, all three primaries (red, green, blue) together produce white, not black."
+
+- question: "Why does adding more pigment colors to a paint mixture trend toward darkness, while adding more light sources to a scene trends toward brightness?"
+  type: short-answer
+  answer: "Because the two processes work by opposite physical mechanisms. Pigments absorb (subtract) wavelengths from white light — each pigment removes more wavelengths from the reflected light reaching your eye, so more pigments means less reflected light and a darker result. Light sources emit wavelengths — each additional light source adds more wavelengths to the total, so more lights means more total light and a brighter result. One process removes information from reflected light; the other adds it directly."
+  explanation: "The naming reflects the direction: 'additive' adds wavelengths (toward white), 'subtractive' subtracts wavelengths (toward black). This asymmetry is why mixing paint requires restraint — limit mixtures to two or three pigments to avoid the muddy gray that results from subtracting too many wavelengths — while light mixing is more forgiving and can be layered freely."
+```
+
 ## Explainer
 
 From your study of hue, saturation, and value, you understand that color has measurable properties. Now the question is: what happens when you combine colors, and why does mixing paint behave so differently from mixing light? The answer lies in understanding two fundamentally different physical processes — **additive mixing** and **subtractive mixing** — each with its own set of primary colors and its own logic.

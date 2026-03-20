@@ -17,7 +17,7 @@ tags:
 - first-person
 - subjectivity
 - limitation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

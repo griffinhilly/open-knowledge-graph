@@ -19,7 +19,7 @@ tags:
 - receptors
 - signaling
 - pharmacology
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

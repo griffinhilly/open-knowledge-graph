@@ -14,7 +14,7 @@ tags:
 - voicing
 - spacing
 - chord-position
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

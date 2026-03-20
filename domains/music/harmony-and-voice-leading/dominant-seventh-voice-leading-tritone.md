@@ -17,7 +17,7 @@ tags:
 - seventh-chords
 - tritone
 - voice-leading
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -21,7 +21,7 @@ tags:
 - interiority
 - Shakespeare
 - monologue
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

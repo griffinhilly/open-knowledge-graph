@@ -15,7 +15,7 @@ tags:
 - hydride-shift
 - methyl-shift
 - 1,2-shift
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

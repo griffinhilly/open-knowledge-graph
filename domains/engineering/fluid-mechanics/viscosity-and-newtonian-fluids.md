@@ -16,7 +16,7 @@ tags:
 - Newtonian fluid
 - non-Newtonian
 - no-slip condition
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

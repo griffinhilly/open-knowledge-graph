@@ -23,7 +23,7 @@ tags:
 - USSR
 - containment
 - Iron Curtain
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Origins of the Cold War

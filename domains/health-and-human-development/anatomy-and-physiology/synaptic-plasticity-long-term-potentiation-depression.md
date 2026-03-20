@@ -14,7 +14,7 @@ tags:
 - synaptic-plasticity
 - LTP
 - LTD
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

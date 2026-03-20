@@ -9,19 +9,17 @@ prerequisites:
 - id: max-weber-rationalization-modernity
   type: soft
 builds-toward:
-- globalization-and-society
-- institutional-change-dynamics
-- social-movements
+  - globalization-and-society
+  - social-movements
 tags:
 - social-change
 - modernization
 - tradition-to-modernity
 - societal-transformation
 - rationalization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Social Change and Modernization
 
 ## Core Idea

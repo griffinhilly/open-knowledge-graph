@@ -10,18 +10,15 @@ prerequisites:
   type: soft
 - id: twin-earth-thought-experiment
   type: soft
-builds-toward:
-- natural-kind-terms-semantics
-- meaning-holism
+builds-toward: []
 tags:
 - externalism
 - content
 - semantics
 - intentionality
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Semantic Content and Externalism
 
 ## Core Idea

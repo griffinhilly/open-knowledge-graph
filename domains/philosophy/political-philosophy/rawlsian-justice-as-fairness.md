@@ -16,7 +16,7 @@ tags:
 - justice
 - fairness
 - original-position
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

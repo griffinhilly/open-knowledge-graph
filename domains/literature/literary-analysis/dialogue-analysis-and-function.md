@@ -17,7 +17,7 @@ tags:
 - character
 - subtext
 - function
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

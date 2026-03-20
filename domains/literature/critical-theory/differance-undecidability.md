@@ -14,7 +14,7 @@ tags:
 - difference
 - undecidability
 - meaning
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -34,6 +34,45 @@ Start with familiar formulas (area, perimeter, distance = rate × time) and solv
 - Dividing by a variable expression without considering whether it could be zero.
 - Incorrectly distributing or factoring when the target variable appears in multiple terms.
 
+## Questions
+
+```yaml
+- question: "The area of a triangle is given by A = (1/2)bh. Solving for b gives:"
+  type: multiple-choice
+  options:
+    - "b = 2A − h"
+    - "b = 2Ah"
+    - "b = 2A/h"
+    - "b = A/(2h)"
+  answer: 2
+  explanation: "To isolate b, first undo the multiplication by 1/2 by multiplying both sides by 2: 2A = bh. Then divide both sides by h: b = 2A/h. The process is identical to solving a numeric equation — apply inverse operations in sequence to peel away everything that isn't the target variable. Option A is wrong because subtraction is never a step here; options B and D result from applying the operations in the wrong order or direction."
+
+- question: "A student is asked to solve d = rt for t and responds, 'I can't — there are no numbers to work with.' What misunderstanding does this reveal?"
+  type: multiple-choice
+  options:
+    - "The student is correct: without numbers you cannot isolate a variable"
+    - "The student needs to choose specific values for d and r before solving"
+    - "The student expects a numerical answer, but the goal of a literal equation is an expression showing how t relates to d and r in general"
+    - "The student is applying the wrong formula and needs to use a different equation"
+  answer: 2
+  explanation: "The key insight about literal equations is that the answer is an expression, not a number — and that is more powerful, not less. Solving d = rt for t gives t = d/r, which is true for every possible trip at every possible speed. The student's confusion comes from expecting the same type of answer as numeric equations. The letters r and d are simply constants whose values happen to be unknown; the inverse-operation rules are identical."
+
+- question: "When solving a literal equation, you must treat every letter in the equation as a variable and cannot isolate just one of them."
+  type: true-false
+  answer: false
+  explanation: "The entire point of solving a literal equation is to isolate one specific target variable while treating all other letters as constants. Just as in a numeric equation where you isolate x while treating the numbers as fixed, in a literal equation you isolate the target variable (say, h) while treating everything else (A, b) as if they were known constants. The rules of algebra do not change — only the form of the answer changes from a number to an expression."
+
+- question: "The process of isolating a variable in a literal equation uses the same inverse-operation rules as solving a numeric equation like 3x + 6 = 15."
+  type: true-false
+  answer: true
+  explanation: "This is the central insight of literal equations. The inverse operations — adding/subtracting to undo addition/subtraction, multiplying/dividing to undo multiplication/division — are identical regardless of whether the other quantities in the equation are specific numbers or letters standing in for numbers. A letter is just an unknown constant. The algebraic rules do not care whether the constant is '6' or 'b'; the procedure is the same."
+
+- question: "What do you do differently when the target variable appears in two or more separate terms of a literal equation, and why does this require a technique beyond basic inverse operations?"
+  type: short-answer
+  answer: "When the target variable appears in multiple terms (e.g., ax + b = cx + d, solved for x), you must first collect all instances of the variable on one side of the equation (ax − cx = d − b), then factor out the variable (x(a − c) = d − b), and finally divide by the coefficient (x = (d − b)/(a − c)). Basic inverse operations work when the variable appears only once — you simply undo operations one step at a time. But when it appears multiple times, you cannot isolate it without first combining those occurrences into a single term through factoring, which is the only genuinely new technique in literal equations beyond what you already know from numeric equations."
+  explanation: "The factoring step is the key additional maneuver. Students who attempt to solve by inverse operations alone when the variable appears twice will get stuck. Recognizing when to collect and factor is the skill that unlocks this class of problem."
+```
+
 ## Explainer
 
 You already know how to solve equations like 3x + 12 = 27 by applying inverse operations in sequence: subtract 12, then divide by 3. A literal equation uses the exact same technique — the only difference is that instead of specific numbers, some of those numbers have been replaced by letters. The letter standing in for a number is still just a number; it is fixed for the purpose of the problem. You isolate the target variable by undoing whatever operations surround it, treating every other letter as if it were a constant you happen not to know.

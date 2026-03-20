@@ -16,7 +16,7 @@ tags:
 - translocase
 - release-factors
 - stop-codons
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

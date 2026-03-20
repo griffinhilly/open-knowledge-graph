@@ -29,7 +29,7 @@ tags:
 - isotopes
 - geochronology
 - half-life
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Radiometric Dating

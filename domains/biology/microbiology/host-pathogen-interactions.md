@@ -20,7 +20,7 @@ tags:
 - symbiosis
 - parasitism
 - toxins
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Host-Pathogen Interactions

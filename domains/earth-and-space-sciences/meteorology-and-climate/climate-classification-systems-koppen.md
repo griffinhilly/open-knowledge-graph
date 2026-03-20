@@ -18,7 +18,7 @@ tags:
 - koppen
 - climate-type
 - temperature-precipitation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

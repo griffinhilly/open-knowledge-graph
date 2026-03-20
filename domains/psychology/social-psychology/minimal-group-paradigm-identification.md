@@ -16,7 +16,7 @@ tags:
 - ingroup-bias
 - intergroup-dynamics
 - group-formation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

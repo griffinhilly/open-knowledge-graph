@@ -12,7 +12,7 @@ tags:
 - non-newtonian
 - power-law
 - viscosity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

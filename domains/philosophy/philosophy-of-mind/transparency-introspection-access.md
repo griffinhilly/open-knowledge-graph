@@ -17,7 +17,7 @@ tags:
 - epistemology
 - access
 - knowledge
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

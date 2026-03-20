@@ -14,7 +14,7 @@ tags:
 - political-theory
 - sovereignty
 - absolutism
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

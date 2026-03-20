@@ -14,7 +14,7 @@ tags:
 - political-theory
 - separation-of-powers
 - enlightenment
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

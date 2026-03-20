@@ -19,7 +19,7 @@ tags:
 - waves
 - wave-equation
 - propagation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

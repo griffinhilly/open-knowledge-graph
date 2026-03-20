@@ -19,7 +19,7 @@ tags:
 - critical-point
 - heat-of-fusion
 - heat-of-vaporization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 # Phase Changes and Diagrams

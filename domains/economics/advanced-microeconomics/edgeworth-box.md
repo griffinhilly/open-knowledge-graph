@@ -14,7 +14,7 @@ tags:
 - general-equilibrium
 - exchange
 - visualization
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

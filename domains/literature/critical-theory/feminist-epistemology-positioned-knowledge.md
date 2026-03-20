@@ -16,7 +16,7 @@ tags:
 - epistemology
 - standpoint
 - position
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

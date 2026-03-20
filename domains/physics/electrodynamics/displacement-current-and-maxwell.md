@@ -15,7 +15,7 @@ tags:
 - maxwell-equations
 - displacement-current
 - symmetry
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

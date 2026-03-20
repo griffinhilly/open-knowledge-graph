@@ -24,7 +24,7 @@ tags:
 - moderation
 - interaction
 - conditional-effects
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

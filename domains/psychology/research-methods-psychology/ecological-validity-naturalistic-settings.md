@@ -18,7 +18,7 @@ tags:
 - ecological
 - field-research
 - naturalistic
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

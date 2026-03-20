@@ -20,7 +20,7 @@ tags:
 - whole step
 - semitone
 - distance
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

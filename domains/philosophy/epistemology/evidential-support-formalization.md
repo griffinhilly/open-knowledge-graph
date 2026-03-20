@@ -15,7 +15,7 @@ tags:
 - confirmation
 - support
 - hypothesis
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

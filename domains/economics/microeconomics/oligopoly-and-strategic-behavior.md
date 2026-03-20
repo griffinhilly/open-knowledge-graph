@@ -18,7 +18,7 @@ tags:
 - Bertrand
 - collusion
 - cartel
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

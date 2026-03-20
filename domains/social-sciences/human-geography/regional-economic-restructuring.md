@@ -15,7 +15,7 @@ tags:
 - restructuring
 - deindustrialization
 - unequal-exchange
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

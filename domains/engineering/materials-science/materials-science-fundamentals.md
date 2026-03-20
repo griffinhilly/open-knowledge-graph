@@ -3,7 +3,9 @@ id: materials-science-fundamentals
 title: Introduction to Materials Science
 domain: engineering
 course: materials-science
-prerequisites: []
+prerequisites:
+- id: stress-strain-behavior
+  type: soft
 builds-toward:
 - atomic-bonding-materials
 - crystal-structure-classification
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Introduction to Materials Science
 
 ## Core Idea

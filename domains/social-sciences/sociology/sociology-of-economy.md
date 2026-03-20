@@ -16,7 +16,7 @@ tags:
 - embedded-economy
 - social-institutions
 - economic-behavior
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

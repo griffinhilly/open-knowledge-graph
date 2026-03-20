@@ -19,7 +19,7 @@ tags:
 - field-lines
 - superposition
 - electrostatics
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

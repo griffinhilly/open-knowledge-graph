@@ -14,7 +14,7 @@ tags:
 - counterpoint
 - polyphony
 - technique
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

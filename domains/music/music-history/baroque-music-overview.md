@@ -25,7 +25,7 @@ tags:
 - Vivaldi
 - Handel
 - Bach
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # The Baroque Era: Style, Form, and Affect

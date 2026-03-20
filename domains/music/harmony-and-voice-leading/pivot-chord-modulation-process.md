@@ -16,7 +16,7 @@ tags:
 - modulation
 - pivot-chord
 - technique
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

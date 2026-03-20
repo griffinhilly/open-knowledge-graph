@@ -26,7 +26,7 @@ tags:
 - CO2
 - water-vapor
 - infrared
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

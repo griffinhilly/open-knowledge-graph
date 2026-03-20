@@ -17,7 +17,7 @@ tags:
 - game-theory
 - incomplete-information
 - types
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

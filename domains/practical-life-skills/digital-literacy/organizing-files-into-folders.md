@@ -30,6 +30,45 @@ Create a folder for documents with subfolders for different types (school, proje
 - You can only have one level of folders. (Folders can contain folders for deeper organization.)
 - Deleting a folder makes it permanently gone. (Most computers have Recycle Bin/Trash where deleted items can be recovered.)
 
+## Questions
+
+```yaml
+- question: "A student has 200 files on her desktop. She creates 10 subfolders and moves all the files into them. What happens to her total storage usage?"
+  type: multiple-choice
+  options:
+    - "It doubles because each file now exists in two places — the folder and the original location"
+    - "It increases slightly because each folder itself takes up disk space"
+    - "It stays essentially the same because folders are organizational labels, not data containers"
+    - "It decreases because organized files are compressed by the operating system"
+  answer: 2
+  explanation: "Folders are just labels the computer uses to group files — they don't copy, duplicate, or store data themselves. Creating 10 folders or 100 folders adds negligible storage overhead. Moving files into folders doesn't create new copies; it changes their location. This is one of the most common misconceptions beginners have: they treat folders as if they add weight, when they add only structure."
+
+- question: "A student accidentally drags an entire 'Projects' folder to the Trash (Mac) but hasn't emptied the Trash yet. Which statement is correct?"
+  type: multiple-choice
+  options:
+    - "All files inside are permanently deleted because deleting the parent folder is irreversible"
+    - "The files can be recovered because the Trash holds deleted items until it is emptied"
+    - "The files are safe in a backup, but the folder structure is gone permanently"
+    - "The files still exist in their original locations because folders and files are deleted separately"
+  answer: 1
+  explanation: "Deleting a folder moves its contents to the Recycle Bin (Windows) or Trash (Mac), not permanently away — until you empty that bin. This is a safety net that exists precisely because accidental deletions are common. The misconception that 'deleting a folder means permanent loss' leads to unnecessary panic; the correct response is to check the Trash before assuming anything is gone."
+
+- question: "Moving a file from one folder to another does not change the contents of the file — only its location."
+  type: true-false
+  answer: true
+  explanation: "Moving is a relocation operation, not a copy-and-delete of the data inside. The file's content is unchanged; only the path (the address the computer uses to find it) changes. This means organizing your files by moving them around is always safe from a data-integrity perspective — you are just updating the file's address, not touching what's inside it."
+
+- question: "Creating many nested subfolders within a folder significantly increases the total storage space used on a computer."
+  type: true-false
+  answer: false
+  explanation: "Folders themselves contain almost no data — they are metadata structures that tell the operating system how to group files. Creating 50 nested subfolders adds trivial overhead, not proportional to the number of files inside them. The misconception likely comes from thinking of folders as physical containers; digitally, they are more like labels or addresses."
+
+- question: "Why is the act of choosing where to save a file described as an 'organizational decision,' not just a technical step?"
+  type: short-answer
+  answer: "When you save a file, you are deciding which category it belongs to and which other files it should be grouped with. That decision shapes whether you — or someone else — can find it later. Saving a document named 'notes.docx' to the desktop without thinking about where it belongs is the same as dropping a piece of paper on the floor instead of filing it. The organizational system only works if saving is treated as deliberately as naming — both are choices about where this file lives in your structure."
+  explanation: "This gets at the deeper purpose of folder organization: it's not about performing a technical action but about making information findable over time. Students who understand this will develop naming and location habits that serve them; students who treat saving as a technicality will accumulate clutter regardless of how good their folder structure is in principle."
+```
+
 ## Explainer
 
 You already know how to create, save, and open files — now imagine you have dozens of them scattered all over your desktop with no particular order. Finding the document you saved last week means scanning through everything. This is the problem that **folders** (also called **directories**) solve: they let you group related files together so you can navigate to the right place quickly instead of hunting through a pile.

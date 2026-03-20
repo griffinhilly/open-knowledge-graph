@@ -24,7 +24,7 @@ tags:
 - energy
 - vaporization
 - condensation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

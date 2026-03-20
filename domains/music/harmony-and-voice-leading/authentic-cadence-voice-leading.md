@@ -16,7 +16,7 @@ tags:
 - authentic-cadence
 - V-I
 - voice-leading
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

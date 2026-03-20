@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: spatial-awareness-depth-on-flat-surfaces
   type: soft
+- id: poetic-form-overview
+  type: soft
 builds-toward:
 - form-dimensionality-and-volume
 - perspective-grid-construction
@@ -18,10 +20,9 @@ tags:
 - three-dimensional
 - volume
 - depth
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Understanding Form and Volume in Visual Art
 
 ## Core Idea

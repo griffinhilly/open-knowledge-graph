@@ -13,7 +13,7 @@ tags:
 - form
 - prose
 - poetry
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

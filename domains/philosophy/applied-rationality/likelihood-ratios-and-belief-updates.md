@@ -14,7 +14,7 @@ builds-toward:
   - calibration-training
   - reference-class-forecasting
 tags: ["bayesian", "likelihood-ratio", "belief-updating", "quantitative-reasoning"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - ethics
 - global
 - reading-practice
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

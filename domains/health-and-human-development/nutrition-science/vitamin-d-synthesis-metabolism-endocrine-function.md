@@ -19,7 +19,7 @@ tags:
 - metabolism
 - endocrine-function
 - hormone
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

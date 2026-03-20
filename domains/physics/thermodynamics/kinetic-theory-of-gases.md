@@ -20,7 +20,7 @@ tags:
 - pressure
 - temperature
 - gas-molecules
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

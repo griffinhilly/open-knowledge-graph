@@ -15,7 +15,7 @@ tags:
 - religion
 - conflict
 - consequences
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

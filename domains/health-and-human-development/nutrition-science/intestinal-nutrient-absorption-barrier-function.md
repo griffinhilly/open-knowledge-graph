@@ -17,7 +17,7 @@ tags:
 - nutrient-absorption
 - tight-junctions
 - intestinal-permeability
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

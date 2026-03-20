@@ -16,7 +16,7 @@ tags:
 - interest
 - loans
 - credit
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

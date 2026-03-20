@@ -16,7 +16,7 @@ tags:
 - lorentz-force
 - maxwell
 - unification
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

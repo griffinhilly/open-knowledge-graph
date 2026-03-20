@@ -18,7 +18,7 @@ tags:
 - salivary-amylase
 - pepsin
 - pancreatic-enzymes
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

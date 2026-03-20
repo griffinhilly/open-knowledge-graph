@@ -25,7 +25,7 @@ tags:
 - psychology
 - performance
 - meaning
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

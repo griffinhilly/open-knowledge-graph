@@ -5,9 +5,9 @@ domain: music
 course: composition
 prerequisites:
 - id: interval-singing
-  type: hard
+  type: soft
 - id: major-scale-construction
-  type: hard
+  type: soft
 - id: phrase-structure-basics
   type: soft
 builds-toward:
@@ -18,7 +18,7 @@ tags:
 - composition
 - writing
 - fundamentals
-stage: formal-systems
+stage: abstract-reasoning
 status: draft
 ---
 

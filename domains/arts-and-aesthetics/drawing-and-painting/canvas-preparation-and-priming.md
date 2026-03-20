@@ -3,7 +3,9 @@ id: canvas-preparation-and-priming
 title: Canvas Preparation and Priming
 domain: arts-and-aesthetics
 course: drawing-and-painting
-prerequisites: []
+prerequisites:
+- id: dramatic-structure
+  type: soft
 builds-toward:
 - oil-painting-basics
 - acrylic-painting-fundamentals
@@ -12,10 +14,9 @@ tags:
 - preparation
 - canvas
 - primer
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
-
 # Canvas Preparation and Priming
 
 ## Core Idea

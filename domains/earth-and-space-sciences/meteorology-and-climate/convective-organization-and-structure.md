@@ -19,7 +19,7 @@ tags:
 - organization
 - supercell
 - squall-line
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

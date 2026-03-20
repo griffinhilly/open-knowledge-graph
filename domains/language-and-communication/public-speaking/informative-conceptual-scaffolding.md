@@ -15,7 +15,7 @@ tags:
 - explanation
 - learning
 - pedagogy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

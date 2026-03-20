@@ -21,7 +21,7 @@ tags:
 - interest-rate
 - points
 - rate-lock
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

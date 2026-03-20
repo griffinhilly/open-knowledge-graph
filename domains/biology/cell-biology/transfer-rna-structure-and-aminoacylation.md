@@ -14,7 +14,7 @@ tags:
 - tRNA
 - aminoacylation
 - translation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

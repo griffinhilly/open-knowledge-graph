@@ -13,7 +13,7 @@ tags:
 - analysis
 - methodology
 - meaning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

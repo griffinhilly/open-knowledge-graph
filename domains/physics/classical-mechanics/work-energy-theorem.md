@@ -18,7 +18,7 @@ tags:
 - work-energy-theorem
 - net-work
 - kinetic-energy
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -17,7 +17,7 @@ tags:
 - leptin
 - ghrelin
 - hunger-hormones
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

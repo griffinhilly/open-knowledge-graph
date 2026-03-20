@@ -18,7 +18,7 @@ tags:
 - dictation
 - beat
 - triple-subdivision
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

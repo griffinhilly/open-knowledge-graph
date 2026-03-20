@@ -15,7 +15,7 @@ tags:
 - mobility
 - stratification
 - inequality
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

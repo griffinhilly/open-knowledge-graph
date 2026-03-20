@@ -11,7 +11,7 @@ tags:
 - somatic
 - sympathetic
 - parasympathetic
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

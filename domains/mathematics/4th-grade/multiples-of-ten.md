@@ -26,6 +26,45 @@ Use a place-value chart to show digits sliding left when multiplied by 10. Have 
 - Thinking "just add a zero" without understanding why, which breaks down with decimals later (0.5 x 10 is not 0.50).
 - Miscounting zeros in products like 600 x 70.
 
+## Questions
+
+```yaml
+- question: "A student calculates 0.5 × 10 by 'adding a zero' and writes the answer as 0.50. What is the correct answer, and why does the shortcut fail here?"
+  type: multiple-choice
+  options:
+    - "0.50 — adding a zero is always the correct method for multiplying by 10"
+    - "5 — the digit 5 shifts one place to the left, from tenths to ones"
+    - "0.510 — you insert the zero after the 5 in the decimal"
+    - "50 — any multiplication by 10 moves the answer past the decimal point"
+  answer: 1
+  explanation: "Multiplying by 10 is a place-value shift: every digit moves one column to the left. The 5 in the tenths place (0.5) shifts to the ones place, giving 5. 'Adding a zero' only mimics this shift for whole numbers — it fails with decimals because writing 0.50 doesn't actually change the value (0.5 = 0.50). Understanding the digit-shift principle, not the zero-appending shortcut, is what survives into decimal arithmetic."
+
+- question: "What is 600 × 70?"
+  type: multiple-choice
+  options:
+    - "4,200 — multiply 6 × 7, then add only the zeros from one factor"
+    - "420 — multiply 6 × 7, keep one zero"
+    - "42,000 — multiply 6 × 7 = 42, then add the three total trailing zeros"
+    - "420,000 — count all digits, not just zeros"
+  answer: 2
+  explanation: "Strip the trailing zeros (two from 600, one from 70), multiply the remaining digits (6 × 7 = 42), then reattach all three zeros: 42,000. The zero-counting step is where errors cluster — be deliberate. Option A only adds zeros from one factor; option D overcounts by including non-zero digits."
+
+- question: "When you multiply 4 × 300, the digit 4 effectively shifts two places to the left, producing 1,200."
+  type: true-false
+  answer: true
+  explanation: "4 × 300 = 4 × (3 × 100). First 4 × 3 = 12, then 12 × 100 shifts every digit of 12 two places left: 1,200. The place-value shift model fully explains the result. The leading digits 1 and 2 have moved left twice relative to where 4 started."
+
+- question: "The 'add a zero' shortcut for multiplying by 10 works for every type of number, including decimals."
+  type: true-false
+  answer: false
+  explanation: "The shortcut works only for whole numbers. For decimals, 'adding a zero' to 0.5 gives 0.50, which equals 0.5 — unchanged. The actual operation is a place-value shift, and that shift must be performed correctly regardless of number type. Memorizing the shortcut without understanding why it works leaves students stranded when decimals appear."
+
+- question: "Explain why the 'add a zero' shortcut works for whole numbers but fails for 0.5 × 10."
+  type: short-answer
+  answer: "For whole numbers, appending a zero shifts all digits one place to the left and fills the now-empty ones place with a zero placeholder — which is exactly what multiplying by 10 does. But for 0.5, the digit 5 is in the tenths place. Multiplying by 10 shifts it left to the ones place, giving 5. Writing '0.50' doesn't shift anything — it just adds a meaningless trailing zero. The digit-shift is the real operation; 'add a zero' is only a coincidental side-effect that works when the ones place was previously occupied."
+  explanation: "The misconception is treating the shortcut as the rule instead of as a consequence of place-value shifting. Students who understand the underlying mechanism can handle any variant — decimals, large numbers, chains of multiples — without needing a separate rule for each case."
+```
+
 ## Explainer
 
 You already know place value — that the digit 6 means different things in 6, 60, and 600 depending on where it sits. Multiplying by a power of ten is precisely a **place-value shift**: every digit moves one column to the left for each factor of 10. When you compute 6 × 10, the 6 in the ones place becomes a 6 in the tens place, giving 60. When you compute 6 × 100, it shifts two places left, giving 600. The zeros you see in the answer aren't magic — they are placeholders that show how far the digits moved.

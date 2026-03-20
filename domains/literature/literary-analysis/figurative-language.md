@@ -23,7 +23,7 @@ tags:
 - personification
 - hyperbole
 - figurative language
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

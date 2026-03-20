@@ -15,7 +15,7 @@ tags:
 - belief system
 - attribution
 - justice
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

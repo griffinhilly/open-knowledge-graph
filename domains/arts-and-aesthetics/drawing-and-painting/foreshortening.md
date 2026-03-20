@@ -35,6 +35,45 @@ Practice by drawing your own arm extended toward you in a mirror. Compare the ap
 - Students consistently draw foreshortened limbs too long because they 'know' how long a limb is. Trust what the eye sees, not what the brain expects.
 - Overlapping forms are the most powerful cue for foreshortening — emphasize them rather than trying to indicate depth through shading alone.
 
+## Questions
+
+```yaml
+- question: "You are drawing a friend's arm extended directly toward you. How should its apparent length compare to its apparent width in your drawing?"
+  type: multiple-choice
+  options:
+    - "Much longer than its width, as it normally appears from the side"
+    - "Slightly shorter than it looks from the side, with careful shading to suggest depth"
+    - "Roughly close to its width — the apparent length compresses dramatically while width stays relatively unchanged"
+    - "Invisible, because a form pointing directly at you has no visible length"
+  answer: 2
+  explanation: "When a form points directly at the viewer, perspective compresses its length while its width (the circular cross-sections) remains relatively unchanged. An arm pointing straight at you might appear almost as wide as it is long — a ratio that feels wrong to draw but looks correct. Option A is the misconception: the brain's stored knowledge of arm length fights the artist into drawing it too long."
+
+- question: "A student drawing a foreshortened arm keeps the arm at its 'normal' length but adds heavy shading to suggest depth. What fundamental error is being made?"
+  type: multiple-choice
+  options:
+    - "Shading should never be used when drawing foreshortened forms"
+    - "The student is relying on prior knowledge of arm length instead of observing actual apparent proportions — the arm must appear much shorter, with overlapping shapes emphasized"
+    - "The shading direction is wrong for foreshortened forms"
+    - "Foreshortening only affects flat geometric shapes; organic forms like arms are exempt"
+  answer: 1
+  explanation: "Shading can enhance foreshortening, but it cannot substitute for accurate proportions. If the arm is drawn at its 'normal' length, no amount of shading will make it look foreshortened — it will just look like a normally-oriented arm with dramatic lighting. The essential step is first observing and drawing the compressed apparent length, then using overlapping forms and shading to reinforce depth."
+
+- question: "When drawing a foreshortened limb, overlapping shapes are a more powerful visual cue for depth than shading alone."
+  type: true-false
+  answer: true
+  explanation: "Overlap — one form passing in front of another — is the strongest spatial cue available in two-dimensional drawing. The contour line where a nearer form crosses in front of a farther one immediately reads as depth to the viewer's brain. Shading supports the illusion but cannot create the same unambiguous sense of one form being in front of another that overlap provides."
+
+- question: "Foreshortening applies the same perspective principles as one- and two-point perspective, but only to flat geometric forms like buildings — not to organic forms like arms and legs."
+  type: true-false
+  answer: false
+  explanation: "Foreshortening applies the same perspective compression to any form directed toward the viewer — organic or geometric. An arm, a leg, a finger, a torso are all subject to the same rules as a cylinder or a box: forms pointing at the viewer appear compressed in length. In fact, foreshortening is most demanding precisely because organic forms are harder to simplify than boxes."
+
+- question: "Why do most beginners consistently draw foreshortened limbs too long, and what is the most effective strategy to counteract this tendency?"
+  type: short-answer
+  answer: "Beginners draw foreshortened limbs too long because the brain holds stored knowledge of how long a limb 'should be' and overrides what the eye actually sees. The most effective counter-strategies are: (1) measuring with a pencil held at arm's length to compare apparent width to apparent length — often finding they are close to equal; (2) emphasizing overlapping forms, which communicate depth more powerfully than any amount of shading; and (3) using negative space around the form as a cross-reference to check proportions."
+  explanation: "This is a psychological problem as much as a technical one. The solution is not to think harder about perspective formulas but to replace the brain's stored model with direct visual measurement. Once the measured ratio is established, the correct (short) length stops feeling wrong and the drawing reads as convincingly foreshortened."
+```
+
 ## Explainer
 
 You already understand how one-point and two-point perspective make parallel lines converge toward vanishing points, creating the illusion of depth on a flat surface. Foreshortening applies the same principle to **organic, rounded forms** — arms, legs, torsos, cylinders, fingers pointing at you. When a form extends directly toward or away from the viewer, perspective compresses its apparent length while its width remains relatively unchanged. The result looks dramatically different from what you "know" the form looks like, which is why foreshortening is one of the hardest drawing skills to develop.

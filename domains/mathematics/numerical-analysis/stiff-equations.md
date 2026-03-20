@@ -12,7 +12,7 @@ tags:
 - stiff-equations
 - ode
 - eigenvalues
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

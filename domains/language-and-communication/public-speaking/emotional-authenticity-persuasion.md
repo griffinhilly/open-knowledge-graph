@@ -15,7 +15,7 @@ tags:
 - emotion
 - authenticity
 - ethics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

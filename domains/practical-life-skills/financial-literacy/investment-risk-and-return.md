@@ -34,7 +34,7 @@ tags:
 - volatility
 - diversification
 - asset-classes
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Investment Risk and Return

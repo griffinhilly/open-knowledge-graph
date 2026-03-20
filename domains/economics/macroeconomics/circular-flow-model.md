@@ -33,6 +33,45 @@ Draw the two-sector version first, labeling every arrow with what flows in which
 - The circular flow shows money flows AND real flows (goods/services); confusing the two distorts meaning.
 - Adding government does not mean the economy is always in balance — deficits and surpluses are possible.
 
+## Questions
+
+```yaml
+- question: "A government increases spending on infrastructure without raising taxes. In the circular flow model, this is best described as:"
+  type: multiple-choice
+  options:
+    - "A leakage that reduces household income available for consumption"
+    - "An injection that adds spending to the circular flow from outside household income"
+    - "A product market transaction that raises the prices households pay for goods"
+    - "A factor market event in which households receive additional wages from the government"
+  answer: 1
+  explanation: "Government spending is one of three injections in the extended circular flow (along with investment and exports). Injections are flows of spending that enter the economy from outside household income earned in the current period. This distinguishes them from leakages — saving, taxes, and imports — which are flows that exit the circuit before being spent on domestic output. A tax cut would affect a leakage; new spending adds an injection."
+
+- question: "Why does measuring GDP as total output, total income, and total spending produce the same number?"
+  type: multiple-choice
+  options:
+    - "Economists choose the most convenient method and round figures to match the others"
+    - "In the circular flow, every sale generates equivalent income which households then spend on output — the three methods trace the same flow of value at different points in the loop"
+    - "All three methods use the same price index, so inflation adjustments cancel any differences"
+    - "National statisticians reconcile discrepancies after collecting data from each source separately"
+  answer: 1
+  explanation: "The circular flow reveals why the three approaches are equivalent: firms' revenue equals households' income equals households' spending equals the value of output. These are not three different economic quantities — they are the same circular flow measured at different points. Output, income, and expenditure approaches must converge because they trace the same value moving around the same loop."
+
+- question: "In the circular flow model, households purchase goods and services in factor markets and sell their labor in product markets."
+  type: true-false
+  answer: false
+  explanation: "This reverses the model. Households supply factors of production (labor, land, capital) in factor markets and receive income (wages, rent, interest, profit) in return. They then spend that income buying goods and services in product markets. Firms are on the other side of each market: they hire factors from households in factor markets and sell output to households in product markets. Confusing these directions is the most common error students make with this model."
+
+- question: "Adding the government sector to the circular flow means deficits and surpluses become possible — the economy does not automatically achieve balance between injections and leakages."
+  type: true-false
+  answer: true
+  explanation: "The equilibrium condition S + T + M = I + G + X is a condition, not an identity that is always satisfied. When total injections exceed total leakages, income and output expand; when leakages exceed injections, income contracts. A government deficit (spending more than it collects in taxes) represents an injection that may or may not be matched by other leakages. The model describes what must hold in equilibrium, not what always holds."
+
+- question: "Why do the output, income, and expenditure approaches to measuring GDP produce the same result, and what does the circular flow model reveal about why this must be so?"
+  type: short-answer
+  answer: "They produce the same result because they measure the same circular flow of value at different points in the loop. Firms sell output (output approach), which generates revenue that becomes household income (income approach), which households spend on goods and services (expenditure approach). In the basic two-sector model these are identical. The circular flow makes this visible: there is only one flow; the three methods are three different observation points along it."
+  explanation: "Students sometimes treat the three GDP measurement approaches as three separate estimation methods that happen to agree. The circular flow clarifies why they must agree in principle: they describe the same economic circuit. Discrepancies in practice arise from data collection challenges, not from conceptual differences between the approaches."
+```
+
 ## Explainer
 
 Start with the two-actor economy you have already studied through scarcity and opportunity cost: households and firms. Households own the economy's productive resources — labor, land, physical capital, entrepreneurial ability. Firms use those resources to produce goods and services. The circular flow model is simply a map of how value moves between these two actors across two sets of markets. In **factor markets**, households supply their resources to firms and receive income in return (wages for labor, rent for land, interest for capital, profit for entrepreneurship). In **product markets**, households use that income to buy the goods and services firms produce. Money flows clockwise; real resources and goods flow counter-clockwise. The economy sustains itself because each actor's expenditure is the other's income.

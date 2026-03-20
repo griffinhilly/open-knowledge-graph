@@ -18,7 +18,7 @@ tags:
 - destructive
 - path difference
 - phase
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - oxidative-phosphorylation
 - proton-gradient
 - F0F1-ATPase
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

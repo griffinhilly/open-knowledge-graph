@@ -15,7 +15,7 @@ tags:
 - grammar-formalism
 - context-free
 - phrase-structure
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

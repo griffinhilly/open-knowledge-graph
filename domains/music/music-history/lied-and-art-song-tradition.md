@@ -14,7 +14,7 @@ tags:
 - poetry
 - form
 - song-cycle
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

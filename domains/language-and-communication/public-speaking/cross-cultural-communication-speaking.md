@@ -12,7 +12,7 @@ tags:
 - inclusive-language
 - adaptation
 - global
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

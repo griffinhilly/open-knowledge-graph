@@ -17,7 +17,7 @@ tags:
 - Aeschylus
 - Euripides
 - Aristophanes
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

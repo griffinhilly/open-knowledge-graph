@@ -20,7 +20,7 @@ tags:
 - perfect
 - augmented
 - diminished
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

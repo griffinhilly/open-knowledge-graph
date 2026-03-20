@@ -19,7 +19,7 @@ tags:
 - implicit bias
 - IAT
 - automatic processing
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Stereotyping and Implicit Bias

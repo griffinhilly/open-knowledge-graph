@@ -11,7 +11,7 @@ prerequisites:
 builds-toward:
   - disagreement-and-rational-updating
 tags: ["epistemics", "humility", "uncertainty", "calibration", "virtue"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

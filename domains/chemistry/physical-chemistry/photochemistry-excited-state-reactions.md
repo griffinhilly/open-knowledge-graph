@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: reaction-mechanisms-elementary-steps
   type: hard
-builds-toward:
-- photochemistry-excited-state-reactions
+builds-toward: []
 tags:
 - photochemistry
 - excited-states
@@ -17,7 +16,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Photochemistry: Excited State Reactions
 
 ## Core Idea

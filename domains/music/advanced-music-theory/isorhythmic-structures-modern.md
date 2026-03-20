@@ -19,7 +19,7 @@ tags:
 - form
 - rhythm
 - modern
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

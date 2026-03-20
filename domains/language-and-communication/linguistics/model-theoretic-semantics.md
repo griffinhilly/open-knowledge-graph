@@ -15,7 +15,7 @@ tags:
 - model-theory
 - truth-conditions
 - extensions-intensions
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

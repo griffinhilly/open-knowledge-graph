@@ -18,7 +18,7 @@ tags:
 - structure
 - meaning
 - systems
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

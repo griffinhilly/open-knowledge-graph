@@ -13,7 +13,7 @@ tags:
 - inscriptions
 - documents
 - writing
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

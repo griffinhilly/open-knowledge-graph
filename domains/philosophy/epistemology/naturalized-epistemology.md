@@ -15,7 +15,7 @@ tags:
 - psychology
 - normativity
 - replacement-thesis
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 # Naturalized Epistemology

@@ -23,7 +23,7 @@ tags:
 - youngs-modulus
 - elastic
 - plastic
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

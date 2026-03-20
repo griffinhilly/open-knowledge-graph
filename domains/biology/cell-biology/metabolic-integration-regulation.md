@@ -16,7 +16,7 @@ tags:
 - metabolism
 - integration
 - regulation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -22,7 +22,7 @@ tags:
 - index of refraction
 - boundary
 - Huygens
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Refraction of Waves

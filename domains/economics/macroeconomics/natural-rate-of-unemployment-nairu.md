@@ -15,7 +15,7 @@ tags:
 - unemployment
 - natural-rate
 - labor-market
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - cistercian
 - monastic-order
 - reform
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

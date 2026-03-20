@@ -13,7 +13,7 @@ tags:
 - interpolation
 - polynomials
 - lagrange
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

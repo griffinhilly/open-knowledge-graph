@@ -31,6 +31,45 @@ Use a number line to model each strategy. Show how 'counting back' works for sub
 - Not recognizing that addition and subtraction are related.
 - Using inefficient strategies (like counting back by ones repeatedly).
 
+## Questions
+
+```yaml
+- question: "A student needs to calculate 52 − 49. Which strategy would be most efficient?"
+  type: multiple-choice
+  options:
+    - "Counting back 49 steps from 52"
+    - "Using the standard algorithm with regrouping"
+    - "Counting up from 49 to 52 — a gap of just 3"
+    - "Thinking of the addition fact 52 + 49"
+  answer: 2
+  explanation: "52 and 49 are very close together — the difference is only 3. Counting up from 49 to 52 takes three steps: 50, 51, 52. This is far more efficient than counting back 49 steps or setting up a multi-step algorithm. When the two numbers are close, counting up finds the small gap with minimal effort — exactly the strategy cashiers use to make change."
+
+- question: "A student sees the problem 13 − 8. They think: 'I know 8 + 5 = 13, so the answer must be 5.' Which strategy are they using?"
+  type: multiple-choice
+  options:
+    - "Counting back — starting at 13 and moving down by 8"
+    - "Think addition — reframing subtraction as a missing addend"
+    - "Counting up — starting at 8 and moving up to 13"
+    - "Decomposing — breaking 13 into 10 and 3"
+  answer: 1
+  explanation: "The student is using the 'think addition' strategy: reframing 13 − 8 as the question '8 + ? = 13.' Because they know the addition fact 8 + 5 = 13, the answer appears immediately — no counting required. This is the most efficient strategy because it converts subtraction into a familiar addition fact lookup."
+
+- question: "Counting back is the best strategy for all subtraction problems, because subtraction means taking away."
+  type: true-false
+  answer: false
+  explanation: "Counting back only works efficiently when subtracting a small number. For 13 − 9, counting back nine steps is slow and error-prone. Counting up (from 9 to 13 in four steps) or thinking addition (9 + 4 = 13) are far more efficient. Choosing the right strategy for each problem — not blindly applying one approach — is the key skill."
+
+- question: "If you know the addition fact 6 + 7 = 13, you can use it directly to solve 13 − 7 without any counting."
+  type: true-false
+  answer: true
+  explanation: "The 'think addition' strategy reframes 13 − 7 as '7 + ? = 13.' Because 6 + 7 = 13 is already known, the answer (6) appears immediately. Every addition fact carries a subtraction fact inside it, and using that relationship eliminates the need to count at all."
+
+- question: "Why is the 'think addition' strategy often more efficient than counting back, especially for larger subtractions?"
+  type: short-answer
+  answer: "Counting back requires tracking many steps carefully, with a high chance of error. Think addition converts the subtraction into a missing addend question — 'what do I add to get this total?' — which can be answered instantly using a known addition fact, with no counting at all."
+  explanation: "The deeper point is that addition and subtraction are mirror images of the same relationship. Skilled mental math rarely involves actually 'subtracting' in the take-away sense — instead, it asks what is missing to complete a known sum. This reframing is faster, more reliable, and builds on the addition fluency students already have."
+```
+
 ## Explainer
 
 You already know how to add and subtract tens mentally — 70 − 30 = 40 without hesitation. You also know that subtraction within 100 is possible, though it can take effort. Now you are learning to make that process faster and more reliable by choosing the right strategy for each problem, rather than using the same approach every time.

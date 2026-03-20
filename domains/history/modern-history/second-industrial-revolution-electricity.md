@@ -16,7 +16,7 @@ tags:
 - electricity
 - chemistry
 - steel
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

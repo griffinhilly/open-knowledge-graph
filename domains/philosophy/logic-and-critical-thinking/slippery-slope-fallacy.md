@@ -12,7 +12,7 @@ tags:
 - slippery-slope
 - causal-reasoning
 - fallacies
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

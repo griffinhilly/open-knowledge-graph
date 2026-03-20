@@ -13,7 +13,7 @@ tags:
 - certainty
 - knowledge
 - error
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

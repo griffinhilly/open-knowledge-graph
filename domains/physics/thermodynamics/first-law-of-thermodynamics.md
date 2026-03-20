@@ -20,7 +20,7 @@ tags:
 - internal-energy
 - heat
 - work
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

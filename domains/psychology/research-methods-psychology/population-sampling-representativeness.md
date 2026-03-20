@@ -15,7 +15,7 @@ tags:
 - populations
 - generalizability
 - representativeness
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

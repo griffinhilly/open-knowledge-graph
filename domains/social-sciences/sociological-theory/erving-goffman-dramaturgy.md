@@ -13,7 +13,7 @@ tags:
 - dramaturgy
 - presentation-of-self
 - interaction
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

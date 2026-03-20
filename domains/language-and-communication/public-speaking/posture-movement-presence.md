@@ -29,6 +29,45 @@ Deliver a speech on video from the waist down and analyze your stance, movement 
 - Podiums do not excuse poor posture; gripping the podium, leaning on it, or hiding behind it are some of the most common presence-killers in formal speaking.
 - Stage presence is not an innate trait — it is a set of physical behaviors that can be practiced and developed like any other skill.
 
+## Questions
+
+```yaml
+- question: "A speaker is presenting a three-part argument. After delivering the first section, she steps deliberately to her left, pauses, and begins the second section. Then, during the most emotionally charged appeal, she steps toward the audience and plants. What is the best description of what she is doing?"
+  type: multiple-choice
+  options:
+    - "Filling silence with movement to appear confident"
+    - "Using spatial position to mark structure and amplify emotional weight"
+    - "Keeping the audience alert by preventing them from getting too comfortable"
+    - "Demonstrating mastery by showing she doesn't need a fixed position"
+  answer: 1
+  explanation: "Lateral movement to mark a transition and stepping toward the audience to increase intimacy are both examples of purposeful spatial choices that reinforce verbal content. This is the core skill: treating the speaking space as a structural tool, not filling it arbitrarily."
+
+- question: "A speaker is told her delivery lacks stage presence. She decides to stand rigidly still at the podium for the entire speech. This will most likely:"
+  type: multiple-choice
+  options:
+    - "Solve the problem, because stillness signals control and authority"
+    - "Help somewhat, because aimless movement was the original issue"
+    - "Make things worse, because rigidity reads as tension, not control"
+    - "Be neutral — stage presence is about voice, not physical behavior"
+  answer: 2
+  explanation: "Rigidity and aimless pacing are two different failure modes — both signal discomfort rather than authority. The goal is purposeful movement contrasted with deliberate stillness, not immobility. A common misconception is that 'standing still = confidence'; the truth is that unvarying stillness often reads as stiffness or anxiety."
+
+- question: "A speaker who plants their feet and stops completely after moving to a new position is using stillness as an expressive tool."
+  type: true-false
+  answer: true
+  explanation: "Deliberate stillness following purposeful movement signals 'I am here, I am settled, pay attention to this.' It is as expressive as the movement that preceded it, because it creates contrast — the moment of stillness draws the audience's focus rather than letting their eyes track meaningless motion."
+
+- question: "Standing behind a podium eliminates most concerns about posture and stage presence because the audience cannot see your lower body."
+  type: true-false
+  answer: false
+  explanation: "Podiums are one of the most common presence-killers in formal speaking. Gripping the podium, leaning on it, or hiding behind it are all visible problems that undermine presence even if the lower body is hidden. Posture at the podium — shoulder position, how weight is held, how the arms are used — still communicates clearly to the audience."
+
+- question: "What is the difference between aimless pacing and purposeful movement, and why does the distinction matter for a speaker's authority?"
+  type: short-answer
+  answer: "Aimless pacing is restless, unconscious side-to-side movement driven by nervous energy with no spatial intent. Purposeful movement is deliberate — stepping to a new position to signal a transition, stepping toward the audience to create intimacy, stepping back to create a reflective pause. The distinction matters because audiences track all movement with their eyes; aimless movement makes them track meaningless information and drains attention from the speech. Purposeful movement followed by deliberate stillness creates contrast that commands attention and signals control."
+  explanation: "The key is conscious intent. Both movement patterns might look similar from a distance, but purposeful movement is preceded by a reason: the speaker chose to move in response to the structure or emotional arc of the speech. This makes aimless movement correctible — not by stopping movement, but by replacing unconscious pacing with deliberate spatial choices."
+```
+
 ## Explainer
 
 From your study of **nonverbal communication**, you know that the body transmits constant information independently of words. Posture and movement are among the most powerful channels in that transmission — and unlike facial expressions, which register subtly, physical stance and spatial choices are immediately legible to everyone in the room from any distance. A speaker's physical presence communicates before they say a word: how they walk to the front, how they plant their feet, how they hold their shoulders. This initial impression shapes how the audience weights everything that follows.

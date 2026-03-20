@@ -20,7 +20,7 @@ tags:
 - hemostasis
 - coagulation
 - thrombosis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

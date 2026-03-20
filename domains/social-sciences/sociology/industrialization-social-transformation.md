@@ -14,7 +14,7 @@ tags:
 - industrialization
 - modernity
 - social-change
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

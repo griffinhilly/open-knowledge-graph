@@ -21,7 +21,7 @@ tags:
 - Locke
 - Kant
 - innate-ideas
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

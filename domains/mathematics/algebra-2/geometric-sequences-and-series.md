@@ -17,7 +17,7 @@ tags:
 - series
 - geometric
 - common-ratio
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Geometric Sequences and Series

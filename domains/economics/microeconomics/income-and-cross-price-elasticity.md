@@ -16,7 +16,7 @@ tags:
 - inferior goods
 - substitutes
 - complements
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

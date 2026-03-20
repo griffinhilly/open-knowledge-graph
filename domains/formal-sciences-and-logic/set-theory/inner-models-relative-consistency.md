@@ -15,7 +15,7 @@ tags:
 - consistency
 - l
 - godel
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

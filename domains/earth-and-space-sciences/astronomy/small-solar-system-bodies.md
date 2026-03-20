@@ -16,7 +16,7 @@ tags:
 - oort-cloud
 - dwarf-planets
 - impact-hazards
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

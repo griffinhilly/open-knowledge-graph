@@ -14,7 +14,7 @@ tags:
 - syllogism
 - chaining
 - conditional-reasoning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

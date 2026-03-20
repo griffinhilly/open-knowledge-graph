@@ -3,7 +3,9 @@ id: formal-table-setting-and-etiquette
 title: Formal Table Setting and Etiquette
 domain: practical-life-skills
 course: cooking-and-nutrition
-prerequisites: []
+prerequisites:
+- id: kitchen-safety-and-hygiene
+  type: soft
 builds-toward:
 - meal-planning-basics
 - kitchen-organization-workflow
@@ -15,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Formal Table Setting and Etiquette
 
 ## Core Idea

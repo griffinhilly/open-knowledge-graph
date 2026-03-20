@@ -15,7 +15,7 @@ tags:
 - production
 - growth
 - fundamentals
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - defeat
 - metajustification
 - rationality
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

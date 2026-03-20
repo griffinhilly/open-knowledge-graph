@@ -16,7 +16,7 @@ tags:
 - food-web
 - top-predator
 - indirect-effect
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

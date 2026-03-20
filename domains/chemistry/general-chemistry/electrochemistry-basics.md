@@ -19,7 +19,7 @@ tags:
 - reducing-agent
 - half-reaction
 - activity-series
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Oxidation-Reduction Reactions

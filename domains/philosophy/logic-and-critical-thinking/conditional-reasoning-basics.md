@@ -16,7 +16,7 @@ tags:
 - conditionals
 - if-then
 - deductive-reasoning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

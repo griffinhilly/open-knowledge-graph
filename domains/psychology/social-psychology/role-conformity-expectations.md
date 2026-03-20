@@ -18,7 +18,7 @@ tags:
 - status
 - social-expectations
 - norms
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

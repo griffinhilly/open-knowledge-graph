@@ -20,7 +20,7 @@ tags:
 - compliance
 - airway-resistance
 - gas-exchange
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

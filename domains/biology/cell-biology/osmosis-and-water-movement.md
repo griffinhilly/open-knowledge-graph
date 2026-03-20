@@ -16,7 +16,7 @@ tags:
 - osmosis
 - water
 - potential
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

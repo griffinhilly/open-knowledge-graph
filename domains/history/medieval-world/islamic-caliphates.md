@@ -17,7 +17,7 @@ tags:
 - caliphate
 - succession
 - governance
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

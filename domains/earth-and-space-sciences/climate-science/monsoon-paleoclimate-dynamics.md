@@ -10,9 +10,7 @@ prerequisites:
   type: soft
 - id: milankovitch-orbital-cycles
   type: soft
-builds-toward:
-- atmospheric-circulation-reconstruction
-- holocene-climate-variability
+builds-toward: []
 tags:
 - monsoon
 - intertropical-convergence-zone
@@ -22,7 +20,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Monsoon Climate Dynamics and Paleoclimate Variability
 
 ## Core Idea

@@ -15,7 +15,7 @@ tags:
 - stress
 - forces
 - motion
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

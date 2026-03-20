@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - density-matrices
 - mixed-states
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

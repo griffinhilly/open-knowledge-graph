@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Word problems require reading for understanding, identifying the operation, solving, and verifying. Addition contexts include combining groups, adding to, and comparing. Students learn to translate words into mathematical expressions.
 
+## Questions
+
+```yaml
+- question: "Jake has 34 cards. He has 11 more cards than Sam. How many cards does Sam have?"
+  type: multiple-choice
+  options:
+    - "45 — add because 'more' signals addition"
+    - "23 — subtract because Sam has fewer than Jake"
+    - "11 — Sam has only the difference"
+    - "34 — Sam has the same as Jake"
+  answer: 1
+  explanation: "The word 'more' here signals a comparison, not a combining action. Jake has 11 *more than* Sam means Sam has 11 fewer than Jake: 34 − 11 = 23. This is the most important trap in word problems — the word 'more' can signal either addition or subtraction depending on what the question actually asks. Always identify what the question is asking for (Sam's amount, not the total) before choosing an operation."
+
+- question: "There are 27 birds in a tree. 15 more birds land. How many birds are there in all? Which equation solves this problem?"
+  type: multiple-choice
+  options:
+    - "27 + 15 = 42"
+    - "27 − 15 = 12"
+    - "15 − 27 = −12"
+    - "27 × 15 = 405"
+  answer: 0
+  explanation: "This is an 'adding to' situation: a quantity starts at 27 and increases by 15. The phrase 'in all' confirms you want the total. 27 + 15 = 42 birds. Here 'more' genuinely signals addition — 15 more birds join the existing 27 — which is why comparing this problem to the Jake/Sam problem above is instructive: same word, different operation."
+
+- question: "The word 'more' in a word problem always means you should add."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception in word-problem solving. 'More' can signal addition ('15 more birds land — how many total?') or subtraction ('Jake has 11 more than Sam — how many does Sam have?'). The operation depends on what the question asks for. Reading the full question and identifying which quantity is unknown — not just scanning for signal words — is the only reliable approach."
+
+- question: "Reading a word problem twice — once for the story and once for the math — helps you correctly identify what operation is needed."
+  type: true-false
+  answer: true
+  explanation: "The first read builds comprehension: who are the people, what are the objects, what is happening? The second read identifies the math structure: what is known, what is unknown, and what operation connects them. Students who read once and grab a signal word frequently choose the wrong operation. The two-read strategy forces separation between understanding the situation and setting up the equation."
+
+- question: "Name two different addition situations that appear in word problems, and give a brief example of each."
+  type: short-answer
+  answer: "1. Combining: two separate groups are put together. Example: 'Maria has 14 stickers and gets 23 more. How many does she have in all?' (14 + 23) 2. Adding to: a quantity increases over time. Example: 'There were 27 birds in a tree. 15 more landed. How many now?' (27 + 15). A third situation — finding the larger amount in a comparison — can also require addition: 'Jake has 11 more than Sam's 23. How many does Jake have?' (23 + 11)."
+  explanation: "Recognizing these problem structures (combine, add-to, compare) helps students look past surface signal words to the underlying mathematical situation. A student who can name the structure before writing an equation is far less likely to be tricked by misleading words like 'more' or 'total' appearing in subtraction problems."
+```
+
 ## Explainer
 
 A word problem is a story that hides a math problem inside it. Your job is to read the story, figure out what operation it is asking for, write the math, and solve it. You already know how to add numbers — the new skill here is figuring out *when* to add. The words in the story give you clues.

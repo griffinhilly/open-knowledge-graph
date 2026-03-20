@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - subspace
 - induced-topology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

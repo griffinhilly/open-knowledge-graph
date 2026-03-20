@@ -9,7 +9,7 @@ prerequisites:
   - id: motivated-reasoning
     type: soft
 tags: ["decision-theory", "sunk-cost", "quitting", "rationality"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

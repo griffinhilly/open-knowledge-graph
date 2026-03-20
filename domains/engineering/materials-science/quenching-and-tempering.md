@@ -17,7 +17,7 @@ tags:
 - ttt-diagram
 - cct-diagram
 - hardenability
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

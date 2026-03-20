@@ -14,7 +14,7 @@ tags:
 - demand-derivation
 - price-change
 - consumer-response
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - gaussian-elimination
 - pivoting
 - linear-systems
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

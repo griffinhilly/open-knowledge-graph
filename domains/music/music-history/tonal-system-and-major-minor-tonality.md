@@ -18,7 +18,7 @@ tags:
 - harmony
 - mode
 - historical-development
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

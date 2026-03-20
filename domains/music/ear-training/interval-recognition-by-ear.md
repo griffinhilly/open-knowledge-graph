@@ -24,7 +24,7 @@ tags:
 - recognition
 - melodic intervals
 - harmonic intervals
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 # Interval Recognition by Ear

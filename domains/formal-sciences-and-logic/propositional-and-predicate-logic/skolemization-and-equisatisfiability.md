@@ -15,7 +15,7 @@ tags:
 - skolemization
 - satisfiability
 - normal-forms
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - magnitude
 - phase
 - jω
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

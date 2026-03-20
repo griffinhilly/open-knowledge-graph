@@ -21,7 +21,7 @@ tags:
 - intestinal-epithelium
 - active-transport
 - carrier-mediated
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

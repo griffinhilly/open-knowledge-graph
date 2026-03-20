@@ -16,7 +16,7 @@ tags:
 - reliability
 - inter-rater
 - agreement
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

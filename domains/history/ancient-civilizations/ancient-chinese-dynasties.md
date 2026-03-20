@@ -19,7 +19,7 @@ tags:
 - legalism
 - confucianism
 - great-wall
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 
@@ -34,6 +34,45 @@ The Qin/Han transition is a case study in how political ideology adapts to insti
 ## Common Misconceptions
 - The 'Great Wall of China' as a continuous structure is largely a Ming Dynasty creation; the Qin and Han walls were more fragmented defensive works.
 - Confucianism was not simply a neutral philosophical tradition; it was actively promoted by the Han state as political ideology.
+
+## Questions
+
+```yaml
+- question: "When the Han Dynasty adopted Confucianism as its state ideology, what most accurately describes what changed relative to Qin governance?"
+  type: multiple-choice
+  options:
+    - "The Han replaced Qin's centralized administrative structures with a more decentralized feudal system"
+    - "The legitimating ideology shifted from Legalism to Confucianism while the underlying administrative machinery remained largely that of the Qin"
+    - "Officials were no longer selected on merit and were instead appointed by hereditary aristocracy"
+    - "The Han completely dismantled the Qin bureaucracy and built its own governmental institutions from scratch"
+  answer: 1
+  explanation: "The Han's key move was ideological rebranding, not institutional reinvention. They inherited Qin's centralized machinery — standardized writing, weights, measures, bureaucratic hierarchy — and reframed it in Confucian moral terms. This solved the legitimacy problem Qin could not: compliance through internalized moral values, not just fear and coercion."
+
+- question: "Why was the Qin Dynasty unable to sustain its rule beyond 15 years despite unifying China and introducing sweeping institutional reforms?"
+  type: multiple-choice
+  options:
+    - "The Qin military was defeated by Han armies that had superior weapons technology"
+    - "Standardizing weights, measures, and written script undermined regional economic systems"
+    - "Legalist governance produced efficient institutions but could not generate legitimate authority; its brutality destroyed the political consensus required for long-term rule"
+    - "Qin Shi Huang died without naming a successor, causing immediate dynastic collapse"
+  answer: 2
+  explanation: "Legalism was effective at building state capacity but generated compliance only through coercion. It had no mechanism for legitimation — no reason subjects would embrace the system rather than simply endure it. When enforcement faltered, opposition erupted. The Han recognized this and layered Confucian moral legitimacy onto the same institutional framework, making the model sustainable."
+
+- question: "The Great Wall of China, as it exists today as a largely continuous stone fortification, was primarily constructed during the Qin Dynasty."
+  type: true-false
+  answer: false
+  explanation: "The Qin and Han built more fragmented defensive earthworks on the northern frontier — not the continuous stone wall most people picture. The iconic Great Wall seen today is primarily a Ming Dynasty (1368–1644 CE) construction, built over a millennium after the Qin. Conflating them is one of the most common misconceptions about ancient Chinese history."
+
+- question: "The Han Dynasty's core administrative structures were largely inherited from the Qin rather than being developed independently."
+  type: true-false
+  answer: true
+  explanation: "This is the central insight of the Qin-to-Han transition. The Han kept standardized writing, weights, measures, centralized bureaucracy, and meritocratic official selection — all Qin innovations. What the Han added was Confucian ideology to legitimize those structures. The institutional continuity explains why the model endured: it had already proven functional; it just needed moral legitimation."
+
+- question: "What does the Qin-to-Han transition reveal about the relationship between institutions and ideology in sustaining political power?"
+  type: short-answer
+  answer: "Institutions provide the machinery of governance — taxation, law enforcement, administrative coordination. But ideology provides legitimacy: the reason subjects comply without constant coercion. The Qin had effective institutions but no legitimating ideology beyond force. The Han reframed the same structures in Confucian moral terms, giving officials a principled reason to serve and subjects a moral framework for accepting authority. Institutions without legitimation are fragile; together, they produce durable states."
+  explanation: "This is why the Han model persisted for two millennia even under foreign conquest: the institutional-ideological package was self-reinforcing. Officials trained in the Confucian classics internalized a worldview that justified their power through moral cultivation and service. Conquerors who wanted to govern China had to adopt the model because it was the only one with the infrastructure and legitimacy to administer such a large territory."
+```
 
 ## Explainer
 

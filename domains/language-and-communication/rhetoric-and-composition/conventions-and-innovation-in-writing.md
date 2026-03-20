@@ -13,7 +13,7 @@ tags:
 - innovation
 - genre
 - writing-craft
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

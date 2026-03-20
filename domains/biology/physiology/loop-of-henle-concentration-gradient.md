@@ -14,7 +14,7 @@ tags:
 - countercurrent-multiplier
 - osmotic-gradient
 - medullary-osmolarity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

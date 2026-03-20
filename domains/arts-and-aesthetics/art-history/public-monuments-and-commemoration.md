@@ -15,7 +15,7 @@ tags:
 - commemoration
 - public-art
 - memory
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -20,7 +20,7 @@ tags:
 - interiority
 - modernism
 - free-indirect-discourse
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Stream of Consciousness Narration

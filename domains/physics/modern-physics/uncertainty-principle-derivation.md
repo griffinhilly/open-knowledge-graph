@@ -14,7 +14,7 @@ tags:
 - quantum
 - uncertainty
 - measurement
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

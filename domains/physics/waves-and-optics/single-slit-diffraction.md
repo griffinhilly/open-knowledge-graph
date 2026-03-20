@@ -18,7 +18,7 @@ tags:
 - Huygens principle
 - minima
 - central maximum
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Single-Slit Diffraction

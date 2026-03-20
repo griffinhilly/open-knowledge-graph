@@ -16,7 +16,7 @@ tags:
 - extension
 - common-extension
 - construction
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

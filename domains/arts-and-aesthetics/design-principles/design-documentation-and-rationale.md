@@ -13,7 +13,7 @@ tags:
 - communication
 - knowledge-sharing
 - rationale
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

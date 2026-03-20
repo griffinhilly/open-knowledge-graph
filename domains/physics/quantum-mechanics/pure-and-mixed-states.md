@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - pure-states
 - mixed-states
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

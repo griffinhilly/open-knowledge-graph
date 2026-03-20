@@ -9,8 +9,7 @@ prerequisites:
 - id: contingency-and-inevitability
   type: soft
 builds-toward:
-- contingency-and-inevitability
-- progress-and-decline
+  - progress-and-decline
 tags:
 - speculative
 - counterfactual
@@ -19,7 +18,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Speculative and Counterfactual History
 
 ## Core Idea

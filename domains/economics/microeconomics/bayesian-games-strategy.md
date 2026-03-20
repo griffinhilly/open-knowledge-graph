@@ -13,7 +13,7 @@ tags:
 - game theory
 - information
 - Bayesian equilibrium
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - quadrature
 - newton-cotes
 - integration
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

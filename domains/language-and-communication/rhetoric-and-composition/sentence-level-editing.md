@@ -32,6 +32,45 @@ Read a draft aloud slowly, listening for awkward rhythms, unclear references, an
 - Editing and revision are the same activity; revision rethinks argument and organization, while editing refines expression at the sentence level — doing them simultaneously divides attention and weakens both.
 - Good writers do not need to edit; even professional writers edit extensively, and the ability to edit one's own prose is a hallmark of expertise, not a sign of weakness.
 
+## Questions
+
+```yaml
+- question: "A writer finishes a first draft and immediately begins checking spelling, grammar, and punctuation throughout. What is the main problem with this approach?"
+  type: multiple-choice
+  options:
+    - "Spell-checkers are more reliable for surface errors than manual proofreading"
+    - "Proofreading should be done in a separate sitting from drafting, never in the same session"
+    - "The writer may spend significant effort polishing sentences that will later be cut during structural revision"
+    - "Grammar errors are too minor to warrant attention before submitting"
+  answer: 2
+  explanation: "Sentence-level editing and proofreading should come after higher-order revision — after argument, structure, and organization are stable. If you proofread a sentence that later gets cut or substantially rewritten, that effort is wasted. The sequence matters: fix the big things first (content, argument, structure), then fix the small things (sentence clarity, variety), then proofread last. This is not a style preference but a practical efficiency rule."
+
+- question: "Compare these two sentences: 'The policy changes were implemented by the administration' versus 'The administration implemented the policy changes.' Why is the second version stronger?"
+  type: multiple-choice
+  options:
+    - "The second uses passive voice, which sounds more authoritative in formal writing"
+    - "The second identifies the agent immediately and uses a direct active verb, making the meaning clearer and more energetic"
+    - "The second is shorter, and shorter sentences are always preferable"
+    - "Both versions are equally clear; the preference is purely stylistic"
+  answer: 1
+  explanation: "Active constructions with strong verbs are clearer because the reader immediately knows who did what. Passive constructions ('were implemented by') delay the agent to the end or omit it entirely, adding fog. But the even stronger revision goes further — replacing the weak passive with a single strong verb: 'The administration reformed the policy' is even better than the active rewrite. Precise verbs are the highest-leverage target in sentence-level editing because they drive clarity and directness simultaneously."
+
+- question: "Revision and sentence-level editing are two names for the same activity, and skilled writers benefit from doing both simultaneously to save time."
+  type: true-false
+  answer: false
+  explanation: "Revision and sentence-level editing address different scales of a document and require different kinds of attention. Revision rethinks argument, structure, and organization — the big-picture questions. Sentence-level editing refines expression within individual sentences and between adjacent sentences. Doing both simultaneously divides attention and weakens both: you can't evaluate whether a paragraph belongs in the essay while also tuning its sentence variety. The most effective writers sequence these stages deliberately."
+
+- question: "Reading a draft aloud is an effective technique for sentence-level editing because awkward rhythms, unclear pronoun references, and confusing sentences become more noticeable when heard rather than read silently."
+  type: true-false
+  answer: true
+  explanation: "Silent reading allows the brain to predict and smooth over what it expects to see — the writer's familiarity with their own text makes them a poor silent reader of it. Reading aloud forces actual processing of every word at every sentence boundary. Awkward rhythm surfaces as stumbles or unnatural pauses; unclear sentences require re-reading to parse; pronoun ambiguity becomes audible. It is one of the most reliable low-tech tools for catching sentence-level problems that silent revision misses."
+
+- question: "Why should proofreading be performed as a final, separate pass rather than integrated throughout the editing process?"
+  type: short-answer
+  answer: "Proofreading requires close attention to surface-level mechanics — spelling, grammar, punctuation — while sentence-level editing requires attention to meaning, clarity, and rhythm. When you try to do both simultaneously, attention splits between reading for sense and scanning for errors, and each suffers. Additionally, doing proofreading before revision is complete means you may polish sentences that are later cut or substantially rewritten, wasting the effort. Treating proofreading as a final dedicated pass ensures that the effort goes into the sentences that will actually appear in the final draft, and that your attention is undivided when catching mechanical errors."
+  explanation: "The sequencing principle — global revision first, sentence-level editing second, proofreading last — reflects a hierarchy of effort: fix what matters most and at the largest scale before investing in smaller-scale refinements."
+```
+
 ## Explainer
 
 From revision strategies, you already know that writing happens in stages and that trying to fix everything at once is a recipe for fixing nothing well. Sentence-level editing is the stage that comes after global revision — after argument, structure, and organization are stable — and it focuses on the smallest unit of meaning: the individual sentence and the connection between adjacent sentences. Because this work is separate from revision, you can give it undivided attention, and because you do it last, you avoid the trap of polishing sentences that will later be cut.

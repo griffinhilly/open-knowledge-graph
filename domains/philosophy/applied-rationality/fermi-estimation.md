@@ -11,7 +11,7 @@ prerequisites:
 builds-toward:
   - expected-value-decision-making
 tags: ["estimation", "quantitative-reasoning", "decomposition", "problem-solving"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - prefrontal-cortex
 - inhibition
 - cognitive-control
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

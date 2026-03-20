@@ -23,7 +23,7 @@ tags:
 - inhibition
 - working-memory
 - neurodevelopmental
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

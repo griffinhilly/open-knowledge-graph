@@ -14,7 +14,7 @@ tags:
 - shocks
 - discontinuity
 - property-changes
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

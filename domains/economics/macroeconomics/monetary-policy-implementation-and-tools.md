@@ -15,7 +15,7 @@ tags:
 - monetary-policy
 - central-bank
 - tools
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

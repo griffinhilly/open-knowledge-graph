@@ -18,7 +18,7 @@ tags:
 - heat-flow
 - Clausius
 - Kelvin-Planck
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

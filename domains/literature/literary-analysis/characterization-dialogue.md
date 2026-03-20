@@ -18,7 +18,7 @@ tags:
 - character
 - subtext
 - voice
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

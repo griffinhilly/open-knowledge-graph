@@ -19,7 +19,7 @@ tags:
 - borrowing
 - capacity
 - cash-flow
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

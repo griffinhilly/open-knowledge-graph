@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: partition-function-definition
   type: soft
-builds-toward:
-- debye-model-solids
+builds-toward: []
 tags:
 - solids
 - phonons
@@ -17,7 +16,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Einstein Model of Solids
 
 ## Core Idea

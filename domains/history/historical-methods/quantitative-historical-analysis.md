@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Quantitative history transforms historical sources into countable data: population sizes, trade volumes, tax records, disease incidence. This approach reveals patterns invisible in narrative sources and enables large-scale comparison. However, historical data is always incomplete, non-randomly sampled, and shaped by what ancient or modern record-keepers chose to count.
 
+## Questions
+
+```yaml
+- question: "A quantitative historian uses 16th-century English parish baptism records to estimate birth rates. The most critical methodological concern she must address is:"
+  type: multiple-choice
+  options:
+    - "That parish records are written in Latin, making them difficult to transcribe accurately"
+    - "That baptism records capture baptisms, not births — and the gap (stillbirths, unbaptized deaths, Dissenter families) is systematically biased toward excluding certain social groups"
+    - "That aggregate birth rate data cannot reveal anything about individual family behavior"
+    - "That 16th-century priests may have misspelled names, reducing the data's accuracy"
+  answer: 1
+  explanation: "The gap between the data recorded (baptisms) and the underlying reality (births) is not random — it systematically excludes stillbirths, infants who died before baptism, and families who avoided the established church. A quantitative historian must model this relationship explicitly. Treating baptism counts as birth counts without correction would produce biased estimates that undercount births among certain social groups."
+
+- question: "A historian finds almost no records of peasant land disputes in a medieval archive. The most appropriate quantitative interpretation is:"
+  type: multiple-choice
+  options:
+    - "Peasants had very few land disputes in this period"
+    - "The absence of records reflects the poor literacy of peasants, who could not write down their disputes"
+    - "Record survival is biased toward aristocratic and official documents; the absence of peasant records more likely reflects differential preservation than differential occurrence"
+    - "This archive is therefore useless for understanding medieval social history"
+  answer: 2
+  explanation: "Non-random survival is fundamental to quantitative historical practice. Royal, aristocratic, and official records were more likely to be preserved; peasant documents were more likely to be lost to fire, flood, neglect, and deliberate destruction. Absence of evidence in archives is not evidence of absence in historical reality — it is evidence of differential preservation."
+
+- question: "Quantitative historical analysis enables historians to identify large-scale patterns — trends in mortality, wages, or migration — that are invisible in any single narrative source."
+  type: true-false
+  answer: true
+  explanation: "This is the core payoff of quantitative methods. Aggregating thousands of probate records, price series, or population registers reveals patterns at a scale that no individual document, chronicle, or letter could show. Cliometrics, Annales history, and demographic reconstruction all depend on this aggregation principle."
+
+- question: "Because quantitative history relies on counting actual historical documents rather than interpreting narratives, its conclusions are free from the interpretive biases that affect traditional narrative history."
+  type: true-false
+  answer: false
+  explanation: "Historical data is always shaped by what record-keepers chose to count, who had access to record-keeping, and what survived. Selection bias — the systematic difference between what records exist and what originally existed — is fundamental to quantitative history. Counting real documents is no protection against this bias; the documents themselves were produced and preserved through processes that systematically favored some social groups and events over others."
+
+- question: "What is 'selection bias' in quantitative historical analysis, and why must historians account for it even when working with thousands of documents?"
+  type: short-answer
+  answer: "Selection bias refers to the systematic difference between what records survived and what originally existed. Records of royalty, aristocracy, and urban institutions were more likely to be preserved than those of peasants, rural communities, and marginalized groups; wars, fires, floods, and deliberate destruction created non-random gaps. Even with thousands of surviving documents, a historian cannot treat them as a representative sample — they must model the relationship between available data and the underlying historical population, making explicit assumptions about what is missing, why it is missing, and what that absence implies for their conclusions."
+  explanation: "The key insight is that data gaps in history are not random noise — they follow systematic patterns tied to power, literacy, institutional access, and archival preservation. Ignoring selection bias turns quantitative analysis into quantitative storytelling about whoever left the most records, not about the historical population as a whole."
+```
+
 ## Explainer
 
 Your source credibility work has trained you to ask: who made this source, and why? Quantitative history confronts that question at scale. Rather than reading one source closely, quantitative historians aggregate many — thousands of probate records, ship manifests, parish registers, census returns — and look for patterns. The payoff is visibility: trends in mortality, prices, wages, migration, or literacy that no individual document could reveal. The risk is systematic bias inherited from whoever did the counting.

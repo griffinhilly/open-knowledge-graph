@@ -16,7 +16,7 @@ tags:
 - syncretism
 - culture-change
 - adaptation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

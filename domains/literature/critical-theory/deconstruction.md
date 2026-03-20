@@ -17,7 +17,7 @@ tags:
 - binary-oppositions
 - trace
 - aporia
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

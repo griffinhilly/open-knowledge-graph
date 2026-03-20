@@ -15,7 +15,7 @@ tags:
 - heterogeneity
 - interaction
 - subgroup-analysis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

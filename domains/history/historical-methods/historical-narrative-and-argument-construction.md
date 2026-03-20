@@ -16,7 +16,7 @@ tags:
 - narrative
 - argument
 - writing
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

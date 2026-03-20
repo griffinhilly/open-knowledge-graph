@@ -12,7 +12,7 @@ tags:
 - airway-resistance
 - asthma
 - bronchoconstriction
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

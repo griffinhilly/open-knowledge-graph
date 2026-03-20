@@ -30,6 +30,45 @@ Start with easier tasks like rhyming and syllable clapping, then progress to iso
 - Confusing phonemic awareness (sounds only, no print) with phonics (connecting sounds to letters) -- phonemic awareness is the auditory foundation that phonics builds upon.
 - Assuming that children who can recite the alphabet have phonemic awareness -- alphabet knowledge is about letter names, while phonemic awareness is about the sounds within spoken words.
 
+## Questions
+
+```yaml
+- question: "A child knows all 26 letters of the alphabet and can write them from memory, but cannot tell you what sound 'dog' starts with or recognize that 'cat' and 'bat' rhyme. What does this reveal?"
+  type: multiple-choice
+  options:
+    - "The child has strong phonemic awareness and is ready to begin phonics instruction"
+    - "The child has letter knowledge but has not yet developed phonemic awareness"
+    - "The child has phonemic awareness but lacks the phonics skills needed to decode words"
+    - "The child needs more alphabet practice before sounds can be introduced"
+  answer: 1
+  explanation: "Letter knowledge (knowing letter names and shapes) is entirely separate from phonemic awareness (hearing and manipulating sounds in spoken words). A child can recite the alphabet perfectly while having no ability to perceive that 'dog' begins with /d/ or that 'cat' and 'bat' share an ending sound. Phonemic awareness is an auditory skill that develops through oral language play, not through print exposure."
+
+- question: "A kindergarten teacher wants to build phonemic awareness. Which activity is most appropriate?"
+  type: multiple-choice
+  options:
+    - "Having students match letter cards to pictures whose names begin with that letter"
+    - "Tracing letters in sand while saying each letter's sound aloud"
+    - "Clapping out syllables in spoken words and identifying the first sound in 'sun'"
+    - "Reading decodable books while pointing to each word"
+  answer: 2
+  explanation: "Clapping syllables and isolating initial sounds are purely oral activities — no print involved. Options A, B, and D all connect sounds to written letters, which is phonics, not phonemic awareness. Phonemic awareness must be developed at the auditory level first; only then does it make sense to attach letters to those sounds through phonics instruction."
+
+- question: "A child can develop strong phonemic awareness even if they have never seen a written letter."
+  type: true-false
+  answer: true
+  explanation: "Phonemic awareness is entirely an oral/auditory skill. It involves hearing and manipulating sounds in spoken language — rhyming, clapping syllables, isolating phonemes — none of which requires print. Children develop phonemic awareness through songs, word play, and conversation, well before they encounter the alphabet."
+
+- question: "A child who can recite the alphabet song has demonstrated phonemic awareness, because they know the sounds the letters represent."
+  type: true-false
+  answer: false
+  explanation: "The alphabet song teaches letter names ('ay, bee, see...'), not phonemes. Phonemic awareness is the ability to hear that spoken words like 'cat' are composed of separate sounds (/k/-/æ/-/t/). Knowing letter names is a separate skill. Many children who can sing the alphabet cannot yet segment or blend the sounds within words."
+
+- question: "Why must phonemic awareness develop before phonics instruction can be effective? Explain the relationship between the two skills."
+  type: short-answer
+  answer: "Phonics teaches that written letters correspond to sounds in spoken words. But this mapping is meaningless to a child who cannot yet perceive that spoken words are made of individual sound segments at all. Phonemic awareness — the auditory ability to notice and manipulate phonemes — is the foundation that makes the alphabetic code learnable. Once a child can hear that 'cat' has three distinct sounds, the instruction that 'c' represents /k/ has somewhere to land."
+  explanation: "The key insight is that phonics is a code built on top of phonemic awareness. Without the auditory foundation, phonics instruction 'slides off' — children can memorize letter names without developing any understanding of how sounds work. This is why literacy intervention programs prioritize oral sound play before introducing any print."
+```
+
 ## Explainer
 
 From your understanding of spoken language, you know that speech is a continuous stream of sound — when you hear someone talk, the sounds flow together without obvious boundaries between words, let alone between individual sounds. Yet to become a reader, a child must crack a very specific code: the alphabetic principle, which holds that written letters correspond to the sounds in spoken words. Before any of that letter-sound work can happen, the child needs to notice that spoken words are *made of* individual sounds at all. That noticing is **phonemic awareness**.

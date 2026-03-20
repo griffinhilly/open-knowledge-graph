@@ -16,7 +16,7 @@ tags:
 - tragedy
 - plot
 - aristotelian
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

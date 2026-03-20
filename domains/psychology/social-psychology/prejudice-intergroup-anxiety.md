@@ -18,7 +18,7 @@ tags:
 - threat
 - realistic-conflict
 - intergroup
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

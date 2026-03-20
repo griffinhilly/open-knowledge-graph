@@ -10,17 +10,15 @@ prerequisites:
   type: soft
 - id: natural-kind-terms-semantics
   type: soft
-builds-toward:
-- narrow-content-individuation
+builds-toward: []
 tags:
 - content
 - externalism
 - environment
 - reference
-stage: formal-systems
+stage: advanced
 status: draft
 ---
-
 # Wide Content and Externalism
 
 ## Core Idea

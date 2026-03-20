@@ -14,7 +14,7 @@ tags:
 - harmony
 - triads
 - extended-chords
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

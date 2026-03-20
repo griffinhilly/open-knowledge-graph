@@ -13,7 +13,7 @@ tags:
 - operators
 - commutators
 - algebra
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 
@@ -21,6 +21,45 @@ status: draft
 
 ## Core Idea
 The commutator [Â, B̂] = ÂB̂ − B̂Â measures how operators fail to commute. Nonzero commutators signal that observables cannot be simultaneously measured with arbitrary precision.
+
+## Questions
+
+```yaml
+- question: "Two quantum-mechanical operators Â and B̂ satisfy [Â, B̂] = 0. What can you immediately conclude about the corresponding observables?"
+  type: multiple-choice
+  options:
+    - "Measuring Â always yields the same numerical result as measuring B̂"
+    - "They share a complete set of eigenstates — a quantum state can simultaneously have a definite value of both observables, and measuring one does not disturb the other"
+    - "Both operators must equal zero"
+    - "The observables are physically identical and measure the same thing"
+  answer: 1
+  explanation: "When [Â, B̂] = 0, the operators commute — they can be simultaneously diagonalized, meaning there exists a basis of states that are eigenstates of both. In such a state, both observables have sharp (definite) values at once. Measuring Â leaves the system in an eigenstate of B̂ as well, so the subsequent measurement of B̂ is not disturbed. This is the direct physical meaning of commutativity: simultaneous knowability."
+
+- question: "The canonical commutation relation [x̂, p̂] = iℏ implies that:"
+  type: multiple-choice
+  options:
+    - "Position and momentum have identical units and can be measured interchangeably"
+    - "The position and momentum operators are equal in magnitude but opposite in sign"
+    - "Position and momentum share no common eigenstates — no quantum state can simultaneously have a definite position and a definite momentum, which is the mathematical root of the Heisenberg uncertainty principle"
+    - "The Hamiltonian commutes with both x̂ and p̂, so both are conserved quantities"
+  answer: 2
+  explanation: "Because [x̂, p̂] ≠ 0, x̂ and p̂ do not share a common eigenbasis. There is no quantum state that is simultaneously an eigenstate of both — any state with a perfectly definite position (a delta function) has completely indefinite momentum, and vice versa. This non-commutativity is not an artifact of imprecise instruments; it is a structural feature of the operators. The Heisenberg uncertainty principle ΔxΔp ≥ ℏ/2 follows mathematically from this single commutation relation."
+
+- question: "If an operator Ô commutes with the Hamiltonian ([Ĥ, Ô] = 0), then the observable corresponding to Ô is conserved — its expectation value does not change over time."
+  type: true-false
+  answer: true
+  explanation: "This is the quantum version of Noether's theorem. The time evolution of an expectation value is governed by d⟨Ô⟩/dt = (i/ℏ)⟨[Ĥ, Ô]⟩ (plus any explicit time dependence). If [Ĥ, Ô] = 0, this derivative vanishes — the expectation value is constant. For example, if a system has rotational symmetry, the angular momentum operators commute with H, and angular momentum is conserved. Commutativity with the Hamiltonian is the precise characterization of a conserved quantity in quantum mechanics."
+
+- question: "The Heisenberg uncertainty principle is fundamentally a statement about measurement disturbance — sufficiently delicate instruments could measure both position and momentum precisely, but practical limitations prevent this."
+  type: true-false
+  answer: false
+  explanation: "This is the most common and most important misconception about quantum uncertainty. The uncertainty principle is not about measurement clumsiness — it follows mathematically from the non-commutativity [x̂, p̂] = iℏ. Even in principle, there is no quantum state in which both position and momentum have simultaneously definite values, because no such eigenstate exists. This is a structural fact about the Hilbert space and its operators, not a technological limitation. The uncertainty is in the quantum state itself, not in the measuring apparatus."
+
+- question: "What does it mean for two operators to 'commute,' and why does non-commutativity have direct physical consequences for what can be simultaneously known about a quantum system?"
+  type: short-answer
+  answer: "Two operators commute if ÂB̂ = B̂Â, i.e., [Â, B̂] = ÂB̂ − B̂Â = 0. Physically, commuting operators share a complete set of simultaneous eigenstates — states in which both observables have definite values. Non-commutativity ([Â, B̂] ≠ 0) means no such shared eigenbasis exists: any eigenstate of Â is a superposition of many eigenstates of B̂, so measuring B̂ after a definite-Â state yields a spread of results. The commutator literally quantifies how much the operators' algebraic order matters, and this algebraic fact is why certain pairs of observables cannot simultaneously have sharp values."
+  explanation: "The deep point is that commutation relations encode the fundamental structure of a quantum theory — not just as a mathematical technicality but as the source of physical constraints. All the content of the uncertainty principle, the conservation laws (via [Ĥ, Ô] = 0), and the entire structure of angular momentum quantization follow from commutation relations, without solving any differential equations. The commutator is the language in which quantum mechanics writes its physical constraints."
+```
 
 ## Explainer
 

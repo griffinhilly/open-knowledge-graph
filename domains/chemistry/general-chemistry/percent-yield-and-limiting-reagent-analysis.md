@@ -15,7 +15,7 @@ tags:
 - percent yield
 - theoretical yield
 - actual yield
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

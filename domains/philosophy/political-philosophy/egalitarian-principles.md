@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - equality
 - distributive-justice
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

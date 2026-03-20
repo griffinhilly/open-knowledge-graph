@@ -14,7 +14,7 @@ tags:
 - fiscal-policy
 - discretionary
 - policy-lags
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

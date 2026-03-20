@@ -15,7 +15,7 @@ tags:
 - smooth-muscle
 - endothelium
 - autoregulation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

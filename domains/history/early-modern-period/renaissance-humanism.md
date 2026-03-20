@@ -21,7 +21,7 @@ tags:
 - classical revival
 - Petrarch
 - Erasmus
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

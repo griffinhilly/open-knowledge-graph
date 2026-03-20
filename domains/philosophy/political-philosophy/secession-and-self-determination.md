@@ -14,7 +14,7 @@ tags:
 - national-self-determination
 - remedial-right
 - primary-right
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

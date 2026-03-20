@@ -18,7 +18,7 @@ tags:
 - posture
 - locomotion
 - milestones
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

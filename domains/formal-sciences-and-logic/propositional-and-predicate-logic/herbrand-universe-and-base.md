@@ -12,7 +12,7 @@ tags:
 - first-order-logic
 - herbrand
 - model-theory
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

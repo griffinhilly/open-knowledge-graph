@@ -13,7 +13,7 @@ tags:
 - heuristics
 - reasoning
 - psychology
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -18,7 +18,7 @@ builds-toward:
   - scope-sensitivity
   - murphyjitsu
 tags: ["debiasing", "rationality", "cognitive-biases", "techniques", "practice"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

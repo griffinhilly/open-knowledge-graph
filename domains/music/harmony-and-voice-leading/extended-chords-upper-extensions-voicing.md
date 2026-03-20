@@ -15,7 +15,7 @@ tags:
 - voicing
 - upper-extensions
 - dissonance
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -19,7 +19,7 @@ tags:
 - price-level
 - output
 - sticky-wages
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

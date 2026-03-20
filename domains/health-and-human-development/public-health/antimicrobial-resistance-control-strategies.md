@@ -16,7 +16,7 @@ tags:
 - infection-prevention
 - surveillance
 - amr
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

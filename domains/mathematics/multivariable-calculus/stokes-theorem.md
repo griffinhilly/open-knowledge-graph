@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - stokes
 - curl
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

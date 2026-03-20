@@ -33,6 +33,45 @@ Create a single piece of content with varying levels of importance, then use des
 - Bigger always means more important; hierarchy is about relationships, not absolute size.
 - All information should be visible at once; progressive revelation is a valid strategy.
 
+## Questions
+
+```yaml
+- question: "A webpage has large headings but both headings and body text are rendered in the same dark black on white. Users report the page feels 'hard to navigate' even though all information is present. What is most likely missing?"
+  type: multiple-choice
+  options:
+    - "The font size is too large for the headings"
+    - "There is not enough information on the page"
+    - "The headings lack sufficient contrast differentiation from body text — the hierarchy has collapsed"
+    - "The page needs more colors to establish visual priority"
+  answer: 2
+  explanation: "Size alone is not sufficient to establish hierarchy — contrast between levels matters. If headings and body text are both high-contrast black text, the distinction between them is reduced to size alone. Strong visual hierarchy requires each level to use a distinct COMBINATION of signals: size, weight, color/contrast, and spacing. When these signals aren't differentiated enough, the hierarchy collapses and users can't scan to find primary vs. secondary content — all levels feel equally demanding."
+
+- question: "You apply the 'squint test' to a poster by blurring your eyes from a distance and can clearly identify one element as most prominent. What does this tell you?"
+  type: multiple-choice
+  options:
+    - "The poster has too much empty space"
+    - "The hierarchy is working — the primary element dominates even at reduced visual resolution"
+    - "The design is too simple and needs more competing elements"
+    - "The contrast is too high and needs to be reduced"
+  answer: 1
+  explanation: "The squint test works because blurring removes fine detail, forcing you to perceive only large-scale contrast relationships. If the most important element still stands out when blurred, the hierarchy is created by large-scale signals — size, weight, and value contrast — rather than fine details that disappear at a glance. This is exactly what a working hierarchy should accomplish: the primary element is unmistakable even in a fast, low-resolution scan, which mirrors how users actually scan real content."
+
+- question: "Visual hierarchy is only useful in graphic design — in information-dense contexts like dashboards or articles, all information should be presented at equal visual weight so users can decide what matters."
+  type: true-false
+  answer: false
+  explanation: "Visual hierarchy is most critical in information-dense contexts precisely because users scan before they read. Without hierarchy, users cannot determine where to look first — everything competes equally, which is cognitively overwhelming. Strong hierarchy aligns with natural scan patterns (F-pattern for text-heavy pages, Z-pattern for sparse layouts) and signals which content is primary. Users feel oriented with hierarchy and lost without it, even when all the information is technically present."
+
+- question: "Visual hierarchy can be established through size alone — if some elements are larger than others, a clear hierarchy exists."
+  type: true-false
+  answer: false
+  explanation: "Size is a powerful hierarchy cue but not sufficient on its own. A large element in a muted, low-contrast color may draw less attention than a small element in a saturated, high-contrast color with strong isolation. Effective hierarchy uses multiple coordinated signals simultaneously — a headline is typically large, bold, AND high-contrast — so levels are clearly distinguishable. Relying on size alone creates a fragile hierarchy that collapses when other signals (color, weight, contrast) work against it."
+
+- question: "Explain what it means for visual hierarchy to function as 'navigation,' and why users feel disoriented when it is absent."
+  type: short-answer
+  answer: "Visual hierarchy tells users where to look first, what comes next, and how content is structured — the visual equivalent of a table of contents. When hierarchy is clear, users can scan a page and understand the information architecture before reading a word. When it is absent, users must read everything to find what they need, which is slow and cognitively taxing. The disorientation comes from lacking a prioritization signal — the brain must process all elements as equally important, which is a much higher cognitive load than following a clear ranked sequence."
+  explanation: "Users don't read pages linearly — they scan in predictable patterns (F, Z, or center-weighted), looking for the primary message before committing to reading. Visual hierarchy aligns with scan behavior by placing the most important content where eyes naturally land first and using size and weight changes to signal section transitions. When hierarchy fails, the scan returns no useful information and users must switch to a slower, effortful reading mode. Good hierarchy makes information structure legible before content is actually read."
+```
+
 ## Explainer
 
 From your work on composition and visual organization, you know how to arrange elements so a layout feels balanced and intentional. From emphasis and focal point, you know how to draw the eye to a single area. Visual hierarchy extends both of these ideas: instead of establishing one focal point, you create a **ranked sequence** of attention — first look here, then here, then here — so the viewer processes information in the order that serves the content's purpose.

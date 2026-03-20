@@ -22,7 +22,7 @@ tags:
 - specialization
 - histology
 - organization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

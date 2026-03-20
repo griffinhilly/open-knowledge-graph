@@ -15,7 +15,7 @@ tags:
 - stratigraphy
 - sedimentology
 - correlation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

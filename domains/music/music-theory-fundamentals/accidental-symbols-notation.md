@@ -17,7 +17,7 @@ tags:
 - sharps
 - flats
 - naturals
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

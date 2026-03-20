@@ -18,7 +18,7 @@ tags:
 - discourse
 - genealogy
 - knowledge
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

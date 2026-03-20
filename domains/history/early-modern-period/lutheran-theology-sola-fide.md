@@ -13,7 +13,7 @@ tags:
 - theology
 - reformation
 - soteriology
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

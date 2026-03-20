@@ -15,7 +15,7 @@ tags:
 - speculation
 - extrapolation
 - worldbuilding
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - scales
 - tonality
 - key-relationships
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

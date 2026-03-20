@@ -16,7 +16,7 @@ tags:
 - equity-valuation
 - dcf
 - cash-flow
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - repetition
 - rhetoric
 - emphasis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

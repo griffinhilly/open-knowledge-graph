@@ -22,7 +22,7 @@ tags:
 - reflexes
 - sensory-development
 - newborn
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

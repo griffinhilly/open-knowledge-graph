@@ -21,7 +21,7 @@ tags:
 - meaning
 - foundational
 - theory
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

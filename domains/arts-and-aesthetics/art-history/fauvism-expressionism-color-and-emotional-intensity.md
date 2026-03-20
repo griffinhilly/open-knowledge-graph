@@ -18,7 +18,7 @@ tags:
 - emotion
 - distortion
 - early-modernism
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

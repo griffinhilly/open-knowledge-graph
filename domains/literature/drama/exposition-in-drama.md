@@ -13,7 +13,7 @@ tags:
 - exposition
 - technique
 - playwriting
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - seafloor-age
 - ridge-dynamics
 - plate-velocity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

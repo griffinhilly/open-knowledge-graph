@@ -14,7 +14,7 @@ tags:
 - soundbites
 - bridging
 - on-camera
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

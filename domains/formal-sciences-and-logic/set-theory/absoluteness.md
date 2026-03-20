@@ -16,7 +16,7 @@ tags:
 - Shoenfield absoluteness
 - transitive models
 - inner models
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

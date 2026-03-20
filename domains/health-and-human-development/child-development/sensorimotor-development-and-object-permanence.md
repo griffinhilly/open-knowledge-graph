@@ -15,7 +15,7 @@ tags:
 - piaget
 - sensorimotor-stage
 - object-permanence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

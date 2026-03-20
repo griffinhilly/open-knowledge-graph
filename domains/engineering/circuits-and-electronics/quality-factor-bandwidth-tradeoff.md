@@ -14,7 +14,7 @@ tags:
 - quality-factor
 - bandwidth
 - resonance
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

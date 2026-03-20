@@ -15,7 +15,7 @@ tags:
 - delegation
 - elected-officials
 - constituent-accountability
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

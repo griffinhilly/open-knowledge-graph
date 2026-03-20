@@ -11,7 +11,7 @@ tags:
 - constraints
 - satisfaction
 - reasoning
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

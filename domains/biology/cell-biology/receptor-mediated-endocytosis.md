@@ -15,7 +15,7 @@ tags:
 - clathrin
 - cargo-internalization
 - receptor-internalization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

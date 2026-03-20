@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: endoplasmic-reticulum-and-golgi
   type: hard
-builds-toward:
-- compartmentalization-cellular-organization
+builds-toward: []
 tags:
 - lysosome
 - digestion
@@ -18,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Lysosomes: Cellular Recycling Centers
 
 ## Core Idea

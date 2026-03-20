@@ -16,7 +16,7 @@ tags:
 - cohesion
 - roles
 - norms
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 
@@ -31,6 +31,45 @@ Analyze a real team experience (sports team, project group) using the Tuckman mo
 ## Common Misconceptions
 - Groups are not merely aggregations of individuals; emergent group-level properties (norms, cohesion, polarization) cannot be reduced to individual traits.
 - Social loafing is not universal — it is reduced by identifiability, personal involvement, and collectivist cultural context.
+
+## Questions
+
+```yaml
+- question: "Five students are assigned a group project where they submit one shared report. The professor grades the report as a whole and does not track individual contributions. Based on social loafing research, what is the most likely outcome compared to five students each producing individual reports?"
+  type: multiple-choice
+  options:
+    - "Better output — group members motivate each other and share cognitive load"
+    - "The same output — group size does not affect individual effort levels"
+    - "Reduced individual effort per person — contributions are not identifiable, enabling free-riding"
+    - "Higher effort from strong students, which fully offsets reduced effort from weaker ones"
+  answer: 2
+  explanation: "Social loafing occurs when individual contributions to a collective task are unidentifiable. The mechanism is diffusion of responsibility: each member's contribution disappears into the shared output, reducing the sense that 'my effort matters.' Ringelmann's rope-pulling experiments showed this pattern clearly. The remedy follows directly from the cause: make contributions identifiable (individual sections, tracked edits, peer ratings) and loafing is substantially reduced."
+
+- question: "A work team has been together for three years, makes decisions quickly with little conflict, and members feel strong mutual loyalty. Which risk does this situation most illustrate?"
+  type: multiple-choice
+  options:
+    - "Social loafing — long-established groups inevitably reduce individual effort over time"
+    - "Role ambiguity — stable groups fail to clarify who is responsible for what"
+    - "The risk that high cohesion amplifies conformity pressure, suppressing dissent and degrading decision quality"
+    - "Storming — all groups cycle back to conflict after extended periods of apparent harmony"
+  answer: 2
+  explanation: "High cohesion increases member satisfaction and group persistence — these are genuine benefits. But cohesion also increases conformity pressure: members are reluctant to challenge the group's consensus because they value membership and harmony. This suppression of dissent is the mechanism behind groupthink, which is the topic this builds toward. The relationship between cohesion and performance is not linear — too little cohesion fragments the group, too much can degrade its ability to critically evaluate its own ideas."
+
+- question: "Social loafing is less likely to occur when individual contributions to a group task can be identified and evaluated."
+  type: true-false
+  answer: true
+  explanation: "Identifiability is the primary moderator of social loafing. When each member's contribution can be observed, evaluated, or attributed, the conditions that enable free-riding are removed: individuals cannot hide reduced effort in a collective output. This is also why social loafing is reduced in collectivist cultural contexts — strong group identification makes individual effort feel meaningful even when externally unidentifiable."
+
+- question: "Groups are essentially aggregates of individuals, so understanding a group's behavior only requires knowing the traits and motivations of its members."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception that group dynamics research refutes. Groups develop emergent properties — norms, roles, status hierarchies, cohesion — that exist at the group level and cannot be predicted from individual traits alone. The same individual behaves differently in a high-cohesion group versus a fragmented one, under strong norms versus weak ones. Group structure shapes individual behavior; you cannot derive the group from the individuals."
+
+- question: "What causes social loafing, and what specific changes to a group task or structure would reduce it? Explain why the remedy follows directly from the cause."
+  type: short-answer
+  answer: "Social loafing is caused by unidentifiability: when individual contributions merge into a collective output, members feel that their personal effort doesn't matter (diffusion of responsibility and reduced instrumentality). The remedy follows directly: make contributions identifiable (assign individual sections, track participation), make the task personally meaningful to members, or use peer evaluation so effort cannot be hidden."
+  explanation: "The causal mechanism determines the intervention. If loafing arises because contributions are invisible, making them visible removes the enabling condition. This is why the standard advice — 'just tell people to try harder' — doesn't work: it doesn't address the structural cause. The more effective interventions change the information environment (who can see what effort was contributed) or the personal stakes (does this outcome matter to me specifically)."
+```
 
 ## Explainer
 

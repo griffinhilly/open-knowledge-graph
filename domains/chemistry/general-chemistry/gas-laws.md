@@ -20,7 +20,7 @@ tags:
 - ideal-gas-law
 - PV-equals-nRT
 - combined-gas-law
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 # Gas Laws

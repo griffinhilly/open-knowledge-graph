@@ -15,7 +15,7 @@ tags:
 - technology
 - governance
 - cities
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

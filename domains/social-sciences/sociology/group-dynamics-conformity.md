@@ -17,7 +17,7 @@ tags:
 - social-influence
 - norms
 - group-behavior
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

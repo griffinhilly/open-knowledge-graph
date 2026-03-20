@@ -11,7 +11,7 @@ tags:
 - coins
 - artifacts
 - economy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

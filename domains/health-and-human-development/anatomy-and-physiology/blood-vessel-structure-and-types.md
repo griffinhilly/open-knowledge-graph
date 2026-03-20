@@ -16,7 +16,7 @@ tags:
 - vein
 - capillary
 - endothelium
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

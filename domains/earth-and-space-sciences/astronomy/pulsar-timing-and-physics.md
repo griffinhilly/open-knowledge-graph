@@ -13,7 +13,7 @@ tags:
 - neutron-star
 - timing
 - magnetosphere
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

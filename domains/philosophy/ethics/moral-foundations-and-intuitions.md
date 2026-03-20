@@ -3,7 +3,9 @@ id: moral-foundations-and-intuitions
 title: Moral Foundations and Intuitions
 domain: philosophy
 course: ethics
-prerequisites: []
+prerequisites:
+- id: metaethics-intro
+  type: soft
 builds-toward:
 - moral-facts-and-objectivity-debate
 - moral-disagreement-sources
@@ -13,10 +15,9 @@ tags:
 - intuitions
 - moral-psychology
 - metaethics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Moral Foundations and Intuitions
 
 ## Core Idea

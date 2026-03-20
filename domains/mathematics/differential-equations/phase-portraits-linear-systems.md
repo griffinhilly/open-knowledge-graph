@@ -14,7 +14,7 @@ tags:
 - phase-portrait
 - trajectories
 - visualization
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

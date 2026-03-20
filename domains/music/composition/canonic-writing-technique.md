@@ -15,7 +15,7 @@ tags:
 - canon
 - fugue
 - imitation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

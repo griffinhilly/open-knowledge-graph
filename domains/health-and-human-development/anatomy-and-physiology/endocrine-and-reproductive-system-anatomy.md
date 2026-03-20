@@ -3,7 +3,9 @@ id: endocrine-and-reproductive-system-anatomy
 title: Endocrine and Reproductive System Anatomy
 domain: health-and-human-development
 course: anatomy-and-physiology
-prerequisites: []
+prerequisites:
+- id: body-organization-and-terminology
+  type: soft
 tags:
 - endocrine
 - reproductive
@@ -13,7 +15,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Endocrine and Reproductive System Anatomy
 
 ## Core Idea

@@ -15,7 +15,7 @@ tags:
 - rhythm-and-blues
 - popular-music
 - British-invasion
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - hand-coordination
 - manipulation
 - physical-development
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

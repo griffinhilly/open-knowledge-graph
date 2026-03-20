@@ -27,7 +27,7 @@ tags:
 - acid-base
 - pH
 - buffer-systems
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Fluid Compartments, Electrolyte Balance, and Acid-Base Regulation

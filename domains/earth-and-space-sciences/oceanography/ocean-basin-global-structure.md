@@ -17,7 +17,7 @@ tags:
 - bathymetry
 - seafloor
 - structure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

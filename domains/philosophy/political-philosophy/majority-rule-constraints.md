@@ -15,7 +15,7 @@ tags:
 - majority-rule
 - minority-protection
 - tyranny-of-majority
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

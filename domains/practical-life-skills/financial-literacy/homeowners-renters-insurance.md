@@ -15,7 +15,7 @@ tags:
 - liability
 - replacement-cost
 - actual-cash-value
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

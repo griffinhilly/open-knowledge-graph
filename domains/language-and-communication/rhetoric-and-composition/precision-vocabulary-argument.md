@@ -9,17 +9,15 @@ prerequisites:
 - id: concision-and-clarity
   type: soft
 builds-toward:
-- sentence-construction-emphasis
-- logical-consistency-argument
+  - sentence-construction-emphasis
 tags:
 - diction
 - vocabulary
 - precision
 - argument
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Precision in Vocabulary and Diction for Argument
 
 ## Core Idea

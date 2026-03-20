@@ -14,7 +14,7 @@ tags:
 - gravity
 - acceleration
 - kinematics
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

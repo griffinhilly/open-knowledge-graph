@@ -15,7 +15,7 @@ tags:
 - interviewing
 - data-collection
 - qualitative
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

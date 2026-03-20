@@ -12,7 +12,7 @@ tags:
 - political-hierarchy
 - china
 - government
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

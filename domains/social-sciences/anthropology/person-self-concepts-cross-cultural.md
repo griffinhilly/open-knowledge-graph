@@ -14,7 +14,7 @@ tags:
 - identity
 - individuality
 - personhood
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

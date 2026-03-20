@@ -23,7 +23,7 @@ tags:
 - bond-enthalpy
 - exothermic
 - endothermic
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Thermochemistry and Enthalpy

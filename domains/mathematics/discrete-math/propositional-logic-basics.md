@@ -3,7 +3,9 @@ id: propositional-logic-basics
 title: Propositional Logic Foundations
 domain: mathematics
 course: discrete-math
-prerequisites: []
+prerequisites:
+- id: graph-theory-intro
+  type: soft
 builds-toward:
 - logical-inference-and-rules
 - logical-equivalences
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Propositional Logic Foundations
 
 ## Core Idea

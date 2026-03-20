@@ -10,7 +10,7 @@ builds-toward:
 - closed-graph-theorem
 tags:
 - functional-analysis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

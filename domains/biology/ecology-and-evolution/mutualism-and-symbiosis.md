@@ -17,7 +17,7 @@ tags:
 - obligate
 - facultative
 - coevolution
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

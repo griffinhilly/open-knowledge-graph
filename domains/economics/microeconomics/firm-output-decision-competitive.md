@@ -15,7 +15,7 @@ tags:
 - producer theory
 - competition
 - profit maximization
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

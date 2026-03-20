@@ -14,7 +14,7 @@ tags:
 - fallacies
 - ambiguity
 - informal
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - anoxia
 - oxygen-depletion
 - respiration-budget
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

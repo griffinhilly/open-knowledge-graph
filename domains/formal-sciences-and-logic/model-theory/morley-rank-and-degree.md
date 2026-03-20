@@ -15,7 +15,7 @@ tags:
 - degree
 - strongly-minimal
 - dimension
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

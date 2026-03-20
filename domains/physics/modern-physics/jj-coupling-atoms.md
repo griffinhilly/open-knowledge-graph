@@ -12,7 +12,7 @@ tags:
 - quantum
 - atoms
 - coupling
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

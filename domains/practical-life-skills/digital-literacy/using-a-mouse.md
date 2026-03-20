@@ -30,6 +30,45 @@ Let children practice moving the mouse in different directions and see the curso
 - Clicking too slowly for it to count as a double-click.
 - Not realizing right-clicking gives different options than left-clicking.
 
+## Questions
+
+```yaml
+- question: "While moving the cursor to the right side of the screen, a student runs out of desk space with her mouse. What should she do?"
+  type: multiple-choice
+  options:
+    - "Use the keyboard instead, since the mouse can no longer reach far enough"
+    - "Lift the mouse, move it back to the center of the desk, set it down, and continue moving"
+    - "Press a button on the mouse to jump the cursor to the other side of the screen"
+    - "Move the monitor closer so the screen distance matches the available desk space"
+  answer: 1
+  explanation: "The mouse only tracks movement when it is in contact with a surface. When you lift it, movement stops being recorded — the cursor stays exactly where it is on screen. This means you can freely reposition the mouse anywhere on the desk and set it down without the cursor moving. Then continue sliding in the original direction. This is called 'lifting and repositioning' and is a normal part of mouse use when desk space is limited."
+
+- question: "A student wants to open a file by clicking its icon, but a single click does nothing. What should she try next?"
+  type: multiple-choice
+  options:
+    - "Right-click the file icon to open it"
+    - "Double-click the icon — two quick clicks in a row — to open the file"
+    - "Hold the left mouse button down while moving the mouse"
+    - "Click a different icon and try again from the beginning"
+  answer: 1
+  explanation: "A single left click selects or highlights an item; it doesn't open it. To open a file, folder, or program, you need a double-click — two clicks in quick succession on the same spot. The computer distinguishes a double-click from two separate single clicks by how fast they occur: if the second click comes quickly enough, it registers as 'open this.' Right-clicking shows a menu of options (including 'Open') but is not the standard way to open a file."
+
+- question: "When you lift a computer mouse off the desk, the cursor on screen continues moving in the same direction until the mouse is set back down."
+  type: true-false
+  answer: false
+  explanation: "The mouse only tracks motion while it is touching a surface. The moment you lift it, no movement is detected and the cursor freezes in place on screen. This is precisely why you can lift and reposition the mouse freely — the cursor doesn't drift or continue. It stays exactly where it was until the mouse is back on the desk and moving again. This 'pause while lifted' behavior is what makes repositioning possible."
+
+- question: "Double-clicking requires the two clicks to happen quickly enough — clicking too slowly may cause the computer to treat them as two separate single clicks instead."
+  type: true-false
+  answer: true
+  explanation: "The computer uses a time threshold to decide whether two clicks are a 'double-click' or two separate 'single clicks.' If the gap between clicks is too long, they are registered as two independent actions rather than one open command. This timing is usually adjustable in system settings, but most computers use a default threshold of roughly half a second. Learning the right rhythm — quick but deliberate — is part of developing mouse fluency."
+
+- question: "Why can you 'run out of desk space' while using a mouse, and what is the correct solution? What does this reveal about how the mouse tracks movement?"
+  type: short-answer
+  answer: "Running out of desk space happens because the mouse translates physical distance moved on the desk into cursor distance moved on screen — and the desk is finite. If the cursor needs to travel farther than the remaining desk space allows, you'll reach the edge before the cursor reaches its destination. The solution is to lift the mouse (which pauses tracking), reposition it in the center of the desk, set it down, and continue. This works because the mouse only detects movement when touching a surface — lifting it is an invisible reset."
+  explanation: "This scenario reveals the fundamental nature of mouse tracking: it measures relative motion on a physical surface, not absolute position. The mouse has no idea where it is on the desk — only how far and in which direction it has moved. Lifting breaks the connection entirely. Understanding this helps users troubleshoot many common mouse behaviors (e.g., why moving the mouse on a glossy or uneven surface causes the cursor to behave erratically — the optical sensor can't read the surface reliably)."
+```
+
 ## Explainer
 
 A computer mouse is a translator between your hand and the screen. When you slide the mouse to the right on your desk, the **cursor** — the small arrow you see on the screen — moves to the right by the same amount. When you slide left, the cursor moves left. The mouse is always watching how far and in which direction it moves, and the computer instantly moves the cursor to match. You can think of the desk as the "real world" and the screen as the "computer world" — the mouse is the bridge between them.

@@ -16,7 +16,7 @@ tags:
 - electrostatics
 - fundamental principle
 - vector addition
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

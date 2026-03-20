@@ -13,7 +13,7 @@ tags:
 - symbolism
 - methodology
 - practice
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

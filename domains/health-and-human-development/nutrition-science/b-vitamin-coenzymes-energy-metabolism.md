@@ -18,7 +18,7 @@ tags:
 - thiamine
 - riboflavin
 - niacin
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - generalizability
 - sampling
 - populations
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

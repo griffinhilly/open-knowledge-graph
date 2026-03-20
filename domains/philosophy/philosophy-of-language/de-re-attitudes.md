@@ -17,7 +17,7 @@ tags:
 - reference
 - intentionality
 - quantification
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

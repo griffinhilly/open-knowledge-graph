@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - approximation-methods
 - variational
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - transformation
 - structural-change
 - rupture
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

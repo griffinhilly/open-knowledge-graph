@@ -16,7 +16,7 @@ tags:
 - legitimacy
 - self-governance
 - authority
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

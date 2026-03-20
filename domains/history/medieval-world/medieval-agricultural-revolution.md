@@ -17,7 +17,7 @@ tags:
 - heavy-plow
 - population-growth
 - manorialism
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

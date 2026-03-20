@@ -16,7 +16,7 @@ tags:
 - discovery
 - tragedy
 - aristotelian
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

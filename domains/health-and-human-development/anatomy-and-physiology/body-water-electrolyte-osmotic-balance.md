@@ -21,7 +21,7 @@ tags:
 - fluid-compartments
 - osmolarity
 - water-balance
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - mlh
 - msh
 - replication
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

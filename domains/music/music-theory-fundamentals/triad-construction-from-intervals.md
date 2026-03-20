@@ -18,7 +18,7 @@ tags:
 - interval
 - construction
 - harmony
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

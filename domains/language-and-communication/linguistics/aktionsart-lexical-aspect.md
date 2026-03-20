@@ -18,7 +18,7 @@ tags:
 - aspect
 - verb-classes
 - telicity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

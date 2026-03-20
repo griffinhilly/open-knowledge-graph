@@ -3,7 +3,9 @@ id: programming-fundamentals-variables-assignment
 title: Variables and Assignment
 domain: computer-science
 course: programming-fundamentals
-prerequisites: []
+prerequisites:
+- id: variables-and-assignment
+  type: soft
 builds-toward:
 - programming-fundamentals-primitive-types
 - programming-fundamentals-arithmetic-operators
@@ -14,7 +16,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Variables and Assignment
 
 ## Core Idea

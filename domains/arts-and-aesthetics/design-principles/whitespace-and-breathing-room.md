@@ -35,6 +35,45 @@ Take a content-heavy design and double all padding and margins, then halve the n
 - Whitespace is only applicable in minimalist or luxury aesthetics — it is a structural tool in every design context, including data-dense dashboards and editorial spreads.
 - More content always communicates more: whitespace often communicates more by making what remains more visible and credible.
 
+## Questions
+
+```yaml
+- question: "A designer is working on a data dashboard that feels cluttered and hard to scan. They double all padding and margins between sections, removing no content. What is most likely to happen?"
+  type: multiple-choice
+  options:
+    - "The dashboard becomes harder to read because users expect dense information displays"
+    - "The dashboard feels clearer and easier to navigate because whitespace reduces cognitive load and allows elements to be perceived individually"
+    - "The added whitespace is wasted because dashboards require content density to be useful"
+    - "Only macro whitespace matters in dashboards; micro whitespace changes like padding have no perceptual effect"
+  answer: 1
+  explanation: "Whitespace is a structural tool that works in every design context, including data-dense interfaces. The misconception is that only minimalist or luxury designs can use generous whitespace. In a cluttered dashboard, adding space between sections allows users to distinguish individual elements, reduces cognitive load, and makes patterns easier to identify. The content hasn't changed — only its perceptibility has improved."
+
+- question: "Which of the following is an example of micro whitespace?"
+  type: multiple-choice
+  options:
+    - "The margin between the edge of the page and the main content area"
+    - "The gap between a hero image and the navigation bar below it"
+    - "The line spacing (leading) between rows of body text"
+    - "The open space between two separate sections of a website layout"
+  answer: 2
+  explanation: "Micro whitespace is the fine-grained spacing within components: line spacing (leading), letter spacing (tracking), and padding inside UI elements like buttons. The other options describe macro whitespace — the large-scale breathing room between major layout elements. Both types matter, but they operate at different scales and serve different functions. Micro whitespace primarily affects legibility and reading comfort; macro whitespace primarily affects pacing and structural clarity."
+
+- question: "Whitespace is primarily a tool for minimalist or luxury design and has limited value in content-heavy contexts like news sites or data dashboards."
+  type: true-false
+  answer: false
+  explanation: "Whitespace is a structural tool in every design context. Even dense, information-rich designs benefit from intentional whitespace — it groups related items (proximity), separates unrelated ones, and allows each element to be perceived individually. The difference between luxury and high-density designs is not whether whitespace is used but how much and where. Eliminating whitespace from a complex layout doesn't add clarity; it creates visual noise that makes the information harder to process."
+
+- question: "Reducing the amount of negative space between two related interface elements causes them to be perceived as more closely associated."
+  type: true-false
+  answer: true
+  explanation: "This is the proximity principle in action. Elements with less space between them are automatically perceived as related by the viewer's visual system, even without explicit visual connectors like lines or borders. Conversely, increasing space between elements creates visual separation. Designers use this to create grouping — gathering form fields that belong together, or separating a navigation zone from a content zone — purely through spacing, without any additional visual treatment."
+
+- question: "Why do luxury brands use generous whitespace, even though they could fit more product information or images in the same space?"
+  type: short-answer
+  answer: "Generous whitespace signals that the content remaining is important enough to stand on its own — it communicates editorial confidence and deliberate curation. By leaving space open, the designer implies that each element deserves focused attention, which elevates the perceived value of the product. Dense layouts signal abundance and economy; sparse layouts signal exclusivity and quality. The whitespace itself is a message: 'We chose not to fill this space, because what we left is worth your full attention.'"
+  explanation: "This is the key insight that separates understanding whitespace from merely knowing its definition. Whitespace is not empty — it carries meaning. The strategic use of space communicates brand values as effectively as the content itself. A luxury brand that fills every pixel would undermine its own positioning by looking like a discount flyer."
+```
+
 ## Explainer
 
 From your work with positive and negative space, you already know that the areas around and between objects are not empty — they are active compositional elements. Whitespace in design is the deliberate application of that principle to layouts. It is the unmarked space between paragraphs, the generous margin around a logo, the gap between a headline and the body text below it. The instinct to fill every available pixel with content is one of the most common traps in design, and understanding whitespace is the antidote.

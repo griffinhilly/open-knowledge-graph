@@ -25,7 +25,7 @@ tags:
 - aerobic
 - oxidation
 - energy
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

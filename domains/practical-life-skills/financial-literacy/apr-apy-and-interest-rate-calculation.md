@@ -26,7 +26,7 @@ tags:
 - apy
 - borrowing-costs
 - savings-returns
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

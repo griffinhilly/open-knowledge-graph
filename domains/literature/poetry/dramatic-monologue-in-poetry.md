@@ -22,7 +22,7 @@ tags:
 - persona poem
 - self-revelation
 - irony
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

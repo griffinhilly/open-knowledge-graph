@@ -14,7 +14,7 @@ tags:
 - average-cost
 - economies-of-scale
 - minimum-efficient-scale
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

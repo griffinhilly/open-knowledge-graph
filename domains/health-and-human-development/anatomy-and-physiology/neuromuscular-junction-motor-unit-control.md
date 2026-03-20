@@ -18,7 +18,7 @@ tags:
 - neuromuscular-junction
 - motor-control
 - acetylcholine
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

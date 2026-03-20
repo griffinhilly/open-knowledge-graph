@@ -13,7 +13,7 @@ tags:
 - omniscient
 - authority
 - narrator
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

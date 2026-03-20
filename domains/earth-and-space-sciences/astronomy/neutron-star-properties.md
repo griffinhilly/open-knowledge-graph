@@ -13,7 +13,7 @@ tags:
 - neutron-stars
 - pulsars
 - compact-objects
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

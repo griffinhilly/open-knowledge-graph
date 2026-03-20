@@ -3,7 +3,9 @@ id: comparative-religion-worldviews
 title: Comparative Religion and Diverse Worldviews
 domain: social-sciences
 course: anthropology
-prerequisites: []
+prerequisites:
+- id: anthropology-overview
+  type: soft
 builds-toward:
 - religion-and-society
 - myth-and-symbolism
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Comparative Religion and Diverse Worldviews
 
 ## Core Idea

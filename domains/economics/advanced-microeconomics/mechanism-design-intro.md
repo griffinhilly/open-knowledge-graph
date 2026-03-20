@@ -18,7 +18,7 @@ tags:
 - mechanism-design
 - institutions
 - incentives
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

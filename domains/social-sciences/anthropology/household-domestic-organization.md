@@ -16,7 +16,7 @@ tags:
 - family
 - organization
 - space
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

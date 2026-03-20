@@ -19,7 +19,7 @@ tags:
 - judgment
 - bias
 - statistics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

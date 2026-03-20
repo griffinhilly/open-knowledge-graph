@@ -15,7 +15,7 @@ tags:
 - raids
 - settlement
 - expansion
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

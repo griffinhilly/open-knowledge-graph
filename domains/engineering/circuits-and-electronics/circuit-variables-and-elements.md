@@ -25,7 +25,7 @@ tags:
 - current
 - power
 - passive-sign-convention
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

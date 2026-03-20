@@ -21,7 +21,7 @@ tags:
 - chain-reaction
 - energy
 - sun
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Nuclear Fission and Fusion

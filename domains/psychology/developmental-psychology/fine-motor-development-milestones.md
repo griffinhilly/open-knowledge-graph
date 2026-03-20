@@ -14,7 +14,7 @@ tags:
 - infancy
 - milestones
 - coordination
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -19,7 +19,7 @@ tags:
 - climate
 - adaptation
 - agency
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

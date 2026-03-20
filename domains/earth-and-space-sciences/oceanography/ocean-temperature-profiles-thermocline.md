@@ -19,7 +19,7 @@ tags:
 - thermocline
 - stratification
 - heat-transfer
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

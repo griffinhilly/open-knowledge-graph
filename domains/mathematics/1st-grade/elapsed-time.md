@@ -18,6 +18,45 @@ status: draft
 ## Core Idea
 Elapsed time measures how much time passes from a start time to an end time. Students count forward by hours and half-hours to find how much time has passed.
 
+## Questions
+
+```yaml
+- question: "You start playing at 2:00 and stop at 4:30. How much time elapsed?"
+  type: multiple-choice
+  options:
+    - "4 hours and 30 minutes — the end time on the clock"
+    - "2 hours and 30 minutes — counted forward from 2:00 to 4:30"
+    - "2 hours — from 2:00 to 4:00 only"
+    - "30 minutes — the difference between :00 and :30"
+  answer: 1
+  explanation: "Elapsed time is a duration, not a clock reading. Count forward in steps: 2:00 → 3:00 is 1 hour, 3:00 → 4:00 is another hour, 4:00 → 4:30 is a half-hour — total 2 hours 30 minutes. The most common error is reporting the end time (4:30) as the answer, confusing 'what time is it?' with 'how long did it take?'"
+
+- question: "School starts at 8:30 and ends at 3:00. A student subtracts and writes '3:00 − 8:30 = the school day.' What is the correct elapsed time?"
+  type: multiple-choice
+  options:
+    - "3 hours — from 8:30 to 11:30"
+    - "5 hours — from 8:30 to 1:30"
+    - "6 hours and 30 minutes — counted forward by whole hours then a half-hour"
+    - "8 hours and 30 minutes — the start time in minutes"
+  answer: 2
+  explanation: "Count forward from 8:30: each step to the next half-hour or hour mark is one jump. 8:30 → 9:30 (1 hr) → 10:30 (2 hr) → 11:30 (3 hr) → 12:30 (4 hr) → 1:30 (5 hr) → 2:30 (6 hr) → 3:00 (half-hour more) = 6 hours 30 minutes. Subtracting clock numbers without careful regrouping leads to errors — the count-forward strategy is more reliable at this stage."
+
+- question: "If a movie starts at 4:00 and ends at 6:30, the elapsed time is 6 hours and 30 minutes."
+  type: true-false
+  answer: false
+  explanation: "6:30 is the end time shown on the clock — not the elapsed time. The elapsed time is how long the movie lasted, found by counting forward: 4:00 → 5:00 (1 hour) → 6:00 (2 hours) → 6:30 (half-hour more) = 2 hours 30 minutes. This is the central misconception in elapsed time: confusing the clock reading at the end with the duration from start to finish."
+
+- question: "Elapsed time is always a duration measured in hours and minutes, not a time you could read off a clock face."
+  type: true-false
+  answer: true
+  explanation: "Elapsed time answers the question 'how long did something take?' — the result is always a duration like '2 hours' or '1 hour 30 minutes.' A clock reading like '3:00' or '4:30' answers 'what time is it right now?' These are different kinds of answers. Recognizing this distinction is the first and most important step in elapsed-time reasoning."
+
+- question: "A student says the answer to 'How long did you sleep if you fell asleep at 8:30 and woke at 7:00 the next morning?' is '7:00.' What is wrong with that answer, and how would you find the correct elapsed time?"
+  type: short-answer
+  answer: "7:00 is the wake-up time on the clock — it is not the duration of sleep. To find elapsed time, count forward from 8:30: 8:30 → 9:30 → 10:30 → 11:30 → 12:30 → 1:30 → 2:30 → 3:30 → 4:30 → 5:30 → 6:30 → 7:00. That is 10 hours and 30 minutes of sleep."
+  explanation: "The error is treating the end time as the elapsed time. Elapsed time requires counting the gap between start and end — it is a measurement of duration, like measuring length between two points, not the value at one endpoint."
+```
+
 ## Explainer
 
 You already know how to read a clock and tell time to the half-hour. You know that 3:00 means the short hand points to 3 and the long hand points to 12, and that 3:30 means it is halfway to 4. **Elapsed time** is a new kind of question: not "what time is it?" but "how long did something take?" These are different questions, and it helps to see why.

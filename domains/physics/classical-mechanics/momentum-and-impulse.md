@@ -16,7 +16,7 @@ tags:
 - impulse
 - force
 - time
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

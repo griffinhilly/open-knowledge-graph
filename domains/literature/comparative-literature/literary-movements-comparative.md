@@ -15,7 +15,7 @@ tags:
 - historical
 - comparative
 - periodization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

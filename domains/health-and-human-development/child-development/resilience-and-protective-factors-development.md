@@ -19,7 +19,7 @@ tags:
 - adversity
 - risk-factors
 - adaptation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

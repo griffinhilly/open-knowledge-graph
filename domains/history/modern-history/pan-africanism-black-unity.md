@@ -15,7 +15,7 @@ tags:
 - black-unity
 - diaspora
 - decolonization
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

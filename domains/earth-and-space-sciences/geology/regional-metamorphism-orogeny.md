@@ -13,7 +13,7 @@ tags:
 - orogeny
 - mountain-building
 - pressure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

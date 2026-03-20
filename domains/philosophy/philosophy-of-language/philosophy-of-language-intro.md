@@ -28,6 +28,45 @@ Begin by identifying the central puzzle: why is meaning more than reference? Stu
 ## Common Misconceptions
 Language is just a naming system where words directly stand for objects. Meaning is identical to reference. The study of language is merely about words, not about the fundamental nature of reality and thought.
 
+## Questions
+
+```yaml
+- question: "'Hesperus' and 'Phosphorus' both refer to Venus. On a pure naming/reference theory of meaning, 'Hesperus is Phosphorus' should be equivalent in meaning to:"
+  type: multiple-choice
+  options:
+    - "'Venus exists' — a claim about the existence of the referent"
+    - "'Hesperus is Hesperus' — a trivially true logical identity"
+    - "An extraordinary astronomical discovery about two distant planets"
+    - "'The morning star is brighter than the evening star'"
+  answer: 1
+  explanation: "If meaning IS reference, then any two names with the same referent are synonymous — they mean exactly the same thing. 'Hesperus is Phosphorus' would then be as trivially true as 'Hesperus is Hesperus.' But this is clearly wrong: 'Hesperus is Phosphorus' was an astronomical discovery requiring observation, not a logical tautology. This shows that two expressions can share a referent while differing in meaning — which is exactly what motivated Frege's distinction between sense and reference."
+
+- question: "The sentence 'Sherlock Holmes is a brilliant detective' is meaningful and widely understood. This poses a problem for a pure reference theory of meaning because:"
+  type: multiple-choice
+  options:
+    - "Fictional detectives cannot be described in meaningful propositions"
+    - "Holmes doesn't exist, so on a reference theory the sentence would be meaningless or defective — yet it clearly isn't"
+    - "The word 'brilliant' cannot have a determinate reference"
+    - "Literary sentences operate by different grammatical rules than ordinary language"
+  answer: 1
+  explanation: "On a pure reference theory, the meaning of a name is the object it names. If there is no object (Holmes doesn't exist), the name has no meaning, and any sentence containing it should be meaningless or defective. But we clearly understand, reason about, and debate such sentences. This breakdown motivates theories that separate the content a term contributes from whether it successfully picks out a real object."
+
+- question: "On a pure reference theory of meaning, 'Hesperus' and 'Phosphorus' are exactly synonymous because they refer to the same object."
+  type: true-false
+  answer: true
+  explanation: "This follows directly from identifying meaning with reference. The point is that this conclusion seems wrong — the two names differ in cognitive significance — which is precisely why the naming/reference theory fails. The truth of this statement is what makes it a useful step in the reductio: accept the theory, derive this consequence, notice it is implausible, conclude the theory needs revision."
+
+- question: "The central insight of philosophy of language is that language is best understood as a naming system where words directly pick out objects in the world."
+  type: true-false
+  answer: false
+  explanation: "This is the naive picture that philosophy of language immediately calls into question. Terms for non-existent things (Holmes), co-referring expressions with different meanings (Hesperus/Phosphorus), and general terms (red, tiger) that don't name any single individual all show that the naming picture breaks down almost immediately. The field's central task is to develop better accounts of meaning that handle these cases."
+
+- question: "What is the 'morning star / evening star' puzzle, and what does it reveal about the relationship between meaning and reference?"
+  type: short-answer
+  answer: "Both 'Hesperus' (the evening star) and 'Phosphorus' (the morning star) refer to Venus, giving them the same reference. But 'Hesperus is Phosphorus' was a genuine astronomical discovery, not a trivial logical truth like 'Hesperus is Hesperus.' This shows that two expressions can share a referent while differing in meaning — their mode of presentation or cognitive significance differs. Meaning therefore cannot simply be identified with reference."
+  explanation: "This puzzle is the entry point to Frege's sense/reference distinction. Sense is the mode of presentation — how an expression presents its referent — and two expressions can have the same reference but different senses. The puzzle matters because it shows that a complete theory of meaning must explain more than just what expressions point to."
+```
+
 ## Explainer
 
 The simplest possible theory of language is a naming picture: words are labels, and meaning is the thing the label is attached to. This picture works reasonably well for proper names ("London" names a city) and for pointing at objects in front of you. But it breaks down almost immediately when you examine language more carefully, and the breakdowns reveal deep questions about the relationship between language, thought, and reality.

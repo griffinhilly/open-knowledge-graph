@@ -11,7 +11,7 @@ tags:
 - connexins
 - communication
 - electrical-coupling
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

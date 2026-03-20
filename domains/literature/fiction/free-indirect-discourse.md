@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: discourse-representation-theory
   type: soft
-builds-toward:
-- psychological-novel-consciousness
+builds-toward: []
 tags:
 - discourse
 - style
@@ -21,10 +20,9 @@ tags:
 - character-voice
 - technique
 - modernism
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Free Indirect Discourse: Blending Voices
 
 ## Core Idea

@@ -12,7 +12,7 @@ tags:
 - syntax
 - framework
 - formalism
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

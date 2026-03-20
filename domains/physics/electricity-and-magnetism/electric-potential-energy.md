@@ -17,7 +17,7 @@ tags:
 - work
 - electrostatics
 - conservative-force
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

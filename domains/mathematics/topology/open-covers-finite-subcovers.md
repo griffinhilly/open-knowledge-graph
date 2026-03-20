@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - open-covers
 - compactness
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

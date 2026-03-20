@@ -19,7 +19,7 @@ tags:
 - externalism
 - semantics
 - individuation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

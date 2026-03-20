@@ -12,7 +12,7 @@ tags:
 - portfolio-theory
 - efficient-frontier
 - capm
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

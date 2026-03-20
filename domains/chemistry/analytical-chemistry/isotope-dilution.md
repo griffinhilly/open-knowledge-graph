@@ -15,7 +15,7 @@ tags:
 - equilibration
 - definitive method
 - high-accuracy quantification
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -19,7 +19,7 @@ tags:
 - objects
 - commodities
 - material culture studies
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

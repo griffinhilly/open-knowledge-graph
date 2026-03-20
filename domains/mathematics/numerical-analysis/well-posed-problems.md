@@ -10,7 +10,7 @@ tags:
 - well-posed
 - hadamard
 - existence-uniqueness
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

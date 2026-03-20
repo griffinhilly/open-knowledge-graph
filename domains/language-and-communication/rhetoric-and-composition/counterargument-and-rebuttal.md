@@ -32,6 +32,45 @@ Practice the concede-but-refute pattern using sentence frames: 'While X is true,
 - Acknowledging a counterargument signals weakness; on the contrary, it signals intellectual confidence and earns reader trust.
 - Every counterargument must be refuted; sometimes the correct response is partial concession with a qualified claim.
 
+## Questions
+
+```yaml
+- question: "A student writing an argumentative essay includes a paragraph that presents the strongest version of the opposing view before explaining why it falls short. How does this most likely affect the essay?"
+  type: multiple-choice
+  options:
+    - "It weakens the essay by giving readers reasons to doubt the thesis"
+    - "It strengthens the essay by showing the writer has considered the full landscape of the issue"
+    - "It is irrelevant — readers skip such paragraphs"
+    - "It only helps if the counterargument is weak and easily dismissed"
+  answer: 1
+  explanation: "Anticipating and engaging with opposing arguments strengthens rather than weakens a position. It demonstrates intellectual honesty, builds ethos (credibility), and forecloses objections before they arise. Writers who ignore counterarguments lose credibility with readers who already know those objections — the essay seems either ignorant or evasive."
+
+- question: "An opposing argument raises a genuinely strong point that partly limits your claim. What is the best response?"
+  type: multiple-choice
+  options:
+    - "Ignore it — mentioning it will undermine your credibility"
+    - "Refute it entirely to appear confident"
+    - "Concede the valid part, then narrow your claim to what you can still defend"
+    - "Replace your thesis with the opposing position"
+  answer: 2
+  explanation: "When a counterargument has real force, the honest and rhetorically effective response is partial concession: acknowledge what is valid, then qualify your original claim so it only covers what you can actually defend. This approach — 'it is true that X, however my claim is specifically about Y' — appears more credible than pretending a strong objection doesn't exist."
+
+- question: "Acknowledging a counterargument in your essay signals that your position is weak."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about counterargument. In practice, the opposite is true: writers who engage counterarguments signal intellectual confidence and earn reader trust. Readers who are already aware of the opposing view will lose confidence in a writer who ignores it. Acknowledging the tension and resolving it is a sign of rigor, not retreat."
+
+- question: "A partial concession — admitting that a critic has a valid point — can make an overall argument more persuasive."
+  type: true-false
+  answer: true
+  explanation: "Partial concession increases credibility because it shows you are engaging honestly with the full complexity of the issue rather than defending a position at all costs. Saying 'it is true that X, but this doesn't undermine the larger claim because...' demonstrates that your position survives honest scrutiny. Readers trust writers who are willing to acknowledge the limits of their argument."
+
+- question: "What does it mean to 'steel-man' a counterargument, and why does it matter more than presenting a weaker version of the opposing view?"
+  type: short-answer
+  answer: "To steel-man a counterargument is to state it in its strongest, most charitable form — the version its best proponents would actually endorse. It matters more than a weak version because a strawman counterargument insults readers who hold that view, is easy to refute in ways that feel cheap, and fails to demonstrate that you have genuinely grappled with the best competing position."
+  explanation: "The payoff of steel-manning is credibility: if you can rebut the strongest version of the opposing argument, readers understand your rebuttal actually holds up. If you rebut a deliberately weakened version, readers who hold the opposing view will dismiss your argument entirely. The goal is not to score debate points but to give a thoughtful reader genuine reasons to accept your position."
+```
+
 ## Explainer
 
 You already know from the Toulmin model that arguments consist of claims, warrants, and backing. But an argument presented in isolation — without acknowledging the strongest competing view — is not persuasive to a skeptical reader. It signals that the writer either does not know the opposing case or is afraid of it. Anticipating counterarguments does the opposite: it shows readers that you have surveyed the full landscape and chosen your position knowingly. This is the foundation of **ethos** — the credibility that makes audiences trust your judgment.

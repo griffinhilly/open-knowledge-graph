@@ -18,7 +18,7 @@ tags:
 - exposition
 - climax
 - denouement
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

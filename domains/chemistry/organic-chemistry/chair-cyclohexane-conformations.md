@@ -16,7 +16,7 @@ tags:
 - equatorial
 - pseudoaxial
 - 1,3-diaxial
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - junction
 - adhesion
 - contact
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

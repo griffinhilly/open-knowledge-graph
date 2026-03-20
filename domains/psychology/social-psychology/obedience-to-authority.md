@@ -15,7 +15,7 @@ tags:
 - Milgram
 - authority
 - situationism
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

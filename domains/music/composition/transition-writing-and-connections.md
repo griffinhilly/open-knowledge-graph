@@ -11,8 +11,7 @@ prerequisites:
 - id: cadential-motion-structural-function
   type: soft
 builds-toward:
-- form-and-phrase-architecture
-- sonata-form-composition
+  - sonata-form-composition
 tags:
 - transition
 - bridge
@@ -21,7 +20,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Transition Writing and Section Connections
 
 ## Core Idea

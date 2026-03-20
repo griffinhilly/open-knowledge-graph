@@ -15,7 +15,7 @@ tags:
 - spirituality
 - experience
 - devotion
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

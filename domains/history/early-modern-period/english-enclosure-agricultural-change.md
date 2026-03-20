@@ -14,7 +14,7 @@ tags:
 - land-use
 - social-change
 - capitalism
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

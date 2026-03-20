@@ -14,7 +14,7 @@ tags:
 - planning
 - sample-size
 - power
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

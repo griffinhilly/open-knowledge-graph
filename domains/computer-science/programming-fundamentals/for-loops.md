@@ -17,7 +17,7 @@ tags:
 - range
 - traversal
 - sequences
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

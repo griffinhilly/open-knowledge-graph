@@ -20,7 +20,7 @@ tags:
 - phase-plot
 - gain
 - logarithmic-scale
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - losses
 - fittings
 - design
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

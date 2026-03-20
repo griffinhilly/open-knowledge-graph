@@ -14,7 +14,7 @@ tags:
 - amplification
 - physiology
 - childbirth
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

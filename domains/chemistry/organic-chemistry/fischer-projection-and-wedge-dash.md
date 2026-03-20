@@ -17,7 +17,7 @@ tags:
 - wedge-dash
 - stereochemistry
 - 2d-representation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

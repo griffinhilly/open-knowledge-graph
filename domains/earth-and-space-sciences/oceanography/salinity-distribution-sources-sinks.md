@@ -18,7 +18,7 @@ tags:
 - precipitation
 - river-input
 - ice
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

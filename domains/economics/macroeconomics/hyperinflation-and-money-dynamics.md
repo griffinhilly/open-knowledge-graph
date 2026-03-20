@@ -14,7 +14,7 @@ tags:
 - inflation
 - money
 - hyperinflation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

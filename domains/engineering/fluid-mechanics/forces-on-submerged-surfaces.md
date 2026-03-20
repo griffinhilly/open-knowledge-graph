@@ -12,7 +12,7 @@ tags:
 - statics
 - forces
 - applications
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

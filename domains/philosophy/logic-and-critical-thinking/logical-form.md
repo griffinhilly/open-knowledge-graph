@@ -17,7 +17,7 @@ tags:
 - logical-form
 - argument-patterns
 - formalization
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - Festinger
 - self-evaluation
 - upward downward comparison
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

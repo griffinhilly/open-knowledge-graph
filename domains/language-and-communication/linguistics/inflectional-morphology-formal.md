@@ -15,7 +15,7 @@ tags:
 - inflection
 - features
 - agreement
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

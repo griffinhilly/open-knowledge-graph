@@ -29,6 +29,45 @@ Try to read each clause in a sentence as a standalone sentence. If it doesn't ma
 - Subordinate clauses must come after the main clause; they can appear at the beginning, middle, or end of a sentence.
 - All subordinate clauses start with subordinating conjunctions; some start with relative pronouns like 'who' or 'which'.
 
+## Questions
+
+```yaml
+- question: "Which of the following sentences contains a subordinate clause at the beginning of the sentence?"
+  type: multiple-choice
+  options:
+    - "She runs every morning and lifts weights twice a week."
+    - "He finished the project, which took three weeks."
+    - "Although he was tired, he completed the assignment."
+    - "The meeting was long; everyone was exhausted."
+  answer: 2
+  explanation: "'Although he was tired' is a subordinate (adverbial) clause — it cannot stand alone ('Although he was tired.' raises the question: so what happened?). It appears at the beginning, followed by the main clause 'he completed the assignment.' Option A contains two independent clauses joined by 'and' — no subordination. Option B has a subordinate clause ('which took three weeks') but not at the beginning. Option D contains two independent clauses separated by a semicolon. This directly tests the misconception that subordinate clauses must follow the main clause."
+
+- question: "A student identifies 'who won the prize' in 'The student who won the prize graduated early' as a subordinate clause. A classmate objects: 'That's not a subordinate clause — it doesn't start with because, although, or another conjunction.' Who is right?"
+  type: multiple-choice
+  options:
+    - "The classmate — subordinate clauses must start with subordinating conjunctions"
+    - "The teacher — subordinate clauses are defined by structural dependence, not by what word introduces them"
+    - "Both — 'who won the prize' is simultaneously a subordinate and independent clause depending on context"
+    - "Neither — 'who won the prize' is a phrase, not a clause, because it modifies a noun"
+  answer: 1
+  explanation: "Subordinate clauses include adverbial clauses (because, although), relative clauses (who, which, that), and noun clauses (that, what, whether). What all subordinate clauses share is structural dependence — 'who won the prize' cannot stand alone as a sentence. The classmate's error is defining subordinate clauses by their introductory word class rather than by grammatical function. Recognizing subordination by function rather than trigger word is the key skill."
+
+- question: "A subordinate clause always follows the main clause in a well-formed English sentence."
+  type: true-false
+  answer: false
+  explanation: "This is the first core misconception in this topic. Subordinate clauses can appear in three positions: before the main clause ('Although it was raining, they played outside'), after it ('They played outside although it was raining'), or embedded in the middle ('The game, which started late, went into overtime'). Position tells you nothing about whether a clause is subordinate. The standalone test is the reliable diagnostic: can it form a complete sentence on its own?"
+
+- question: "'Because she studied every night' is a subordinate clause because it cannot stand alone as a complete sentence without a main clause."
+  type: true-false
+  answer: true
+  explanation: "The standalone test is the reliable diagnostic for subordination. 'Because she studied every night' raises the question 'and so what happened?' — it is structurally incomplete. The word 'because' signals a causal relationship that requires resolution in a main clause. The complete sentence needs something like 'Because she studied every night, she passed the exam.' The main clause ('she passed the exam') can stand alone; the subordinate clause cannot."
+
+- question: "How does subordinating a clause change the meaning of a sentence compared to simply coordinating two independent clauses?"
+  type: short-answer
+  answer: "Coordination (joining with 'and' or 'but') treats two clauses as equally weighted — it sequences ideas without specifying their logical relationship. Subordination encodes a specific logical relationship (causation, concession, condition, time) and creates a hierarchy: the main clause carries the primary point; the subordinate clause specifies when, why, although, or how. 'She was tired and she left early' sequences two facts; 'She left early because she was tired' explains one event by the other, making the causal relationship explicit."
+  explanation: "Subordination is a compositional tool, not just a grammatical category. Skilled writers use it to control what gets foregrounded (main clause) versus what is backgrounded as context (subordinate clause). 'He won the award, which surprised everyone' foregrounds his winning. 'Although he won the award, he remained humble' foregrounds his humility. Coordination can only add or contrast; subordination can specify cause, condition, concession, time, and purpose — a much richer toolkit for encoding the relationships between ideas."
+```
+
 ## Explainer
 
 You already know independent clauses and dependent clauses as separate concepts. This topic fuses them into a single framework that reveals how English sentences are architecturally built: every sentence has at least one **main clause** (the load-bearing wall), and complex sentences attach one or more **subordinate clauses** to it (the rooms that branch off).

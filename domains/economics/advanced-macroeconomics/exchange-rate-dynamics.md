@@ -14,7 +14,7 @@ tags:
 - exchange-rates
 - ppp
 - currency
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

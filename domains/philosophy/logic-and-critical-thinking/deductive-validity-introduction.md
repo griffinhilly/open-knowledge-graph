@@ -16,7 +16,7 @@ tags:
 - deductive-reasoning
 - validity
 - logic
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -26,7 +26,7 @@ tags:
 - inflammation
 - wound-healing
 - tissue-repair
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

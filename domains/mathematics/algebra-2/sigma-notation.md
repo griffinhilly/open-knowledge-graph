@@ -16,7 +16,7 @@ tags:
 - series
 - sigma-notation
 - summation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Sigma Notation

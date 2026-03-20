@@ -14,7 +14,7 @@ tags:
 - dance
 - instrumental
 - stylization
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - repetition
 - memory
 - emphasis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

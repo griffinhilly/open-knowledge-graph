@@ -14,7 +14,7 @@ tags:
 - test-development
 - psychometric-validation
 - scale-construction
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

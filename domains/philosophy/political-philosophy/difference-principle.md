@@ -16,7 +16,7 @@ tags:
 - inequality
 - maximin
 - worst-off
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - circumnavigation
 - magellan
 - global-trade
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

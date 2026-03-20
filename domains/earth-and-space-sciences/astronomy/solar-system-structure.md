@@ -22,7 +22,7 @@ tags:
 - asteroid-belt
 - kuiper-belt
 - oort-cloud
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

@@ -6,6 +6,8 @@ course: artificial-intelligence
 prerequisites:
 - id: probability-basics
   type: hard
+- id: dbscan-clustering
+  type: soft
 tags:
 - unsupervised-learning
 - outlier-detection
@@ -13,7 +15,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Anomaly Detection Methods
 
 ## Core Idea

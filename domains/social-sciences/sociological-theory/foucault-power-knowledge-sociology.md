@@ -13,7 +13,7 @@ tags:
 - power-knowledge
 - discourse
 - subjectivity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

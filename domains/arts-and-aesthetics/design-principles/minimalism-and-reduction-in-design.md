@@ -18,7 +18,7 @@ tags:
 - simplicity
 - elegance
 - reduction
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

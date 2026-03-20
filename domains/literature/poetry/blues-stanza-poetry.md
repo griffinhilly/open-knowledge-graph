@@ -16,7 +16,7 @@ tags:
 - African-American
 - vernacular
 - musical
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

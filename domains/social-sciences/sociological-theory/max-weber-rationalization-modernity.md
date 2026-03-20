@@ -15,7 +15,7 @@ tags:
 - weber
 - rationalization
 - modernity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

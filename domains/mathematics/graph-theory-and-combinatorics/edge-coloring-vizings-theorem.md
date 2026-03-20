@@ -12,7 +12,7 @@ tags:
 - edge-coloring
 - vizings-theorem
 - chromatic-index
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

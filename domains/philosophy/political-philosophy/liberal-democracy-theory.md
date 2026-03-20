@@ -15,7 +15,7 @@ builds-toward:
 tags:
 - liberal-democracy
 - liberalism
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

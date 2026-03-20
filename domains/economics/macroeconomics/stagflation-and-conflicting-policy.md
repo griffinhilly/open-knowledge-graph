@@ -12,7 +12,7 @@ tags:
 - stagflation
 - policy
 - tradeoff
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

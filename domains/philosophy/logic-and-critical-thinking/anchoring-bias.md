@@ -11,7 +11,7 @@ tags:
 - anchoring
 - heuristics
 - framing
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -27,7 +27,7 @@ tags:
 - focalization
 - story-discourse
 - narrative-levels
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

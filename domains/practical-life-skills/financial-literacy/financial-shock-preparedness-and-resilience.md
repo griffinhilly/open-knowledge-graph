@@ -19,7 +19,7 @@ tags:
 - shocks
 - insurance
 - emergency
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

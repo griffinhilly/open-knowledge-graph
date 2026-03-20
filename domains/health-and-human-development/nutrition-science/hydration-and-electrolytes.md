@@ -18,7 +18,7 @@ tags:
 - electrolytes
 - sodium
 - dehydration
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - tonicization
 - harmony
 - secondary-dominants
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

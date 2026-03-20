@@ -15,7 +15,7 @@ tags:
 - division-of-labor
 - work
 - roles
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

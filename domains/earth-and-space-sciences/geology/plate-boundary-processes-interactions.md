@@ -13,7 +13,7 @@ tags:
 - plate-boundaries
 - tectonics
 - deformation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

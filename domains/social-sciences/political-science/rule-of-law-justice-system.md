@@ -14,7 +14,7 @@ tags:
 - justice
 - equality-before-law
 - procedural-fairness
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -6,17 +6,15 @@ course: sociology
 prerequisites:
 - id: institution-theory-sociology
   type: hard
-builds-toward:
-- institutional-legitimacy-compliance
+builds-toward: []
 tags:
 - institutionalization
 - routinization
 - taken-for-granted
 - new-institutional
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Institutionalization Processes and Routinization
 
 ## Core Idea

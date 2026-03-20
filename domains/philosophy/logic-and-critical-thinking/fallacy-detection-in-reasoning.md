@@ -13,7 +13,7 @@ tags:
 - fallacies
 - reasoning-errors
 - argument-criticism
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

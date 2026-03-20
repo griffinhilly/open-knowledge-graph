@@ -6,6 +6,8 @@ course: early-modern-period
 prerequisites:
 - id: catholic-church-power
   type: soft
+- id: printing-press-gutenberg
+  type: soft
 builds-toward:
 - counter-reformation
 - religious-wars-europe
@@ -14,10 +16,9 @@ tags:
 - spain
 - religious-authority
 - persecution
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # The Spanish Inquisition: Religious Persecution and State Authority
 
 ## Core Idea

@@ -11,7 +11,7 @@ tags:
 - justice
 - accessibility
 - borders
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

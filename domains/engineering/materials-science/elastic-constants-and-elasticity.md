@@ -17,7 +17,7 @@ tags:
 - modulus
 - stiffness
 - mechanical-properties
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - meaning
 - implication
 - realism
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

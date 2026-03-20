@@ -15,7 +15,7 @@ tags:
 - vector-borne-disease
 - ecology
 - climate
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

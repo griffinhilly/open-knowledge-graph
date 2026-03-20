@@ -12,7 +12,7 @@ tags:
 - groups
 - organizations
 - institutions
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

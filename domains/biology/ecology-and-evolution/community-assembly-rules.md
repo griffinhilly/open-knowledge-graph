@@ -15,7 +15,7 @@ tags:
 - metacommunity
 - community-composition
 - species-sorting
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

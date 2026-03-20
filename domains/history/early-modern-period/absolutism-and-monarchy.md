@@ -18,7 +18,7 @@ tags:
 - divine right
 - court culture
 - France
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

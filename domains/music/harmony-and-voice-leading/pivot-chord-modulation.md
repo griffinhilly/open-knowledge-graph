@@ -21,7 +21,7 @@ tags:
 - pivot-chord
 - common-chord
 - key-change
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Pivot Chord Modulation

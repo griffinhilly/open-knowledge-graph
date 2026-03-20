@@ -29,6 +29,45 @@ Write down specific anxious thoughts before a speech, then challenge each one wi
 - Positive self-talk is not empty affirmation; it must be grounded in realistic evidence ("I prepared thoroughly" rather than "I'm the best speaker ever") to be effective.
 - Visualization works only when it is specific and process-focused — imagining applause is less effective than imagining yourself delivering a clear transition between main points.
 
+## Questions
+
+```yaml
+- question: "Before a presentation, a speaker thinks: 'If I stumble on one sentence, the audience will think I'm completely incompetent and my entire reputation will be destroyed.' Which cognitive distortions are at work, and how should this thought be challenged?"
+  type: multiple-choice
+  options:
+    - "Mind-reading only — challenged by recognizing you cannot know what the audience is thinking"
+    - "Catastrophizing and all-or-nothing thinking — challenged by noting that audiences expect imperfection, minor errors go unnoticed, and one stumbled sentence cannot determine the reception of a whole speech"
+    - "Positive self-talk — this thought should simply be replaced with a vivid visualization of success"
+    - "Overgeneralization — challenged by remembering that past speeches have gone well"
+  answer: 1
+  explanation: "This combines two distortions. Catastrophizing chains improbable disasters (stumble → judgment → career destruction). All-or-nothing thinking removes the middle ground — a speech is either perfect or ruined. The realistic challenge: audiences are focused on extracting content, not cataloguing errors; minor stumbles are often invisible to listeners; one imperfect sentence is a fraction of a speech's overall impact. The corrected thought is: 'A stumbled sentence is normal, almost certainly unnoticed, and doesn't determine how this speech is received.'"
+
+- question: "Which visualization practice is most supported by research on performance preparation?"
+  type: multiple-choice
+  options:
+    - "Imagining a standing ovation at the end of the speech to build positive associations"
+    - "Imagining the worst-case scenario first, then the best case, to create a balanced mental model"
+    - "Mentally rehearsing specific process steps — the transition between points, a confident pause, clear delivery of the call to action — in vivid detail"
+    - "Avoiding visualization entirely, since rehearsal creates unrealistic expectations about how the speech will go"
+  answer: 2
+  explanation: "Outcome-focused visualization (imagining applause) doesn't provide meaningful neural rehearsal. Process-focused visualization — mentally enacting specific steps of the performance — activates many of the same neural pathways as physical rehearsal, giving the brain a template to follow. For speakers, this means visualizing the actual speech: navigating transitions, maintaining eye contact, delivering a confident pause. Specificity is what makes visualization effective, not vague positive imagery."
+
+- question: "The most effective way to build speaker confidence is to eliminate nervousness entirely through relaxation techniques before speaking."
+  type: true-false
+  answer: false
+  explanation: "The goal of cognitive confidence strategies is not to eliminate arousal but to reinterpret it. Some level of arousal is actually beneficial for performance. Speakers who feel no nervousness may be underenergized. The goal is cognitive reframing — changing what the arousal means — rather than suppression. Behavioral techniques like controlled breathing manage symptoms; cognitive strategies address the interpretive layer that determines whether symptoms feel incapacitating or invigorating."
+
+- question: "The physiological symptoms of nervousness and excitement are nearly identical; what distinguishes them is largely how the speaker interprets the arousal."
+  type: true-false
+  answer: true
+  explanation: "Heart rate, heightened alertness, and adrenaline are common to both fear and excitement — the physiology is nearly the same. Research on reappraisal supports the claim that speakers trained to interpret arousal as 'I'm excited and ready' rather than 'I'm terrified' report lower anxiety and perform better. The arousal is relatively fixed; the cognitive label attached to it is modifiable, and that label determines the emotional experience."
+
+- question: "What is the difference between positive self-talk and cognitive reframing, and why does the difference matter for reducing speech anxiety?"
+  type: short-answer
+  answer: "Positive self-talk as empty affirmation ('I'm amazing, everything will be perfect') is disconnected from reality and collapses under pre-speech anxiety. Cognitive reframing challenges specific distorted thoughts with realistic, evidence-based assessments ('I've given ten presentations and never forgotten everything; the likely outcome is a competent speech with a few rough spots'). The grounding in evidence is what makes reframing durable."
+  explanation: "Anxiety is maintained by distorted beliefs, not accurate ones. Replacing distorted thoughts with other inaccurate beliefs (positive fantasies) doesn't resolve the distortion — it layers another disconnected belief on top. Reframing works by identifying the specific catastrophizing claim, finding evidence that contradicts it, and replacing it with an honest assessment the speaker can actually believe. A speaker who genuinely believes 'minor errors are normal and invisible to audiences' — because they have evidence — has changed their cognitive model, not just papered over anxiety with cheerfulness."
+```
+
 ## Explainer
 
 From your earlier work on speech anxiety management, you learned behavioral strategies: controlled breathing, progressive muscle relaxation, deliberate pacing, thorough preparation. These manage the physiological symptoms of anxiety — the racing heart, the shallow breath, the trembling hands. But they don't directly address the thoughts running through your mind before and during a speech. Cognitive strategies target a different layer: the **interpretive process** through which arousal becomes either crippling fear or productive energy. You can breathe slowly and still be convinced that you're about to humiliate yourself. Cognitive tools change that conviction.

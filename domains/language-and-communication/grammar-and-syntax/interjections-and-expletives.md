@@ -28,6 +28,45 @@ Identify expletive "it" and "there" by testing whether the word refers to someth
 - Confusing the expletive "it" with the referential pronoun "it"; in "It is raining," "it" is an expletive (no antecedent), while in "I saw the car and it was red," "it" refers to the car.
 - Treating all interjections as informal or juvenile; interjections like "indeed," "alas," and "well" are common in formal and literary writing.
 
+## Questions
+
+```yaml
+- question: "In the sentence 'There are three problems with this plan,' what is the grammatical subject?"
+  type: multiple-choice
+  options:
+    - "'There' — it occupies the subject position at the start of the sentence"
+    - "'three problems' — the word 'there' is an expletive placeholder with no meaning"
+    - "'this plan' — because the sentence is ultimately about the plan"
+    - "'problems' — the head noun of the noun phrase"
+  answer: 1
+  explanation: "'There' is an expletive — it fills the grammatical subject slot but has no semantic content and refers to nothing. The real (logical) subject is 'three problems,' which follows the verb 'are.' This is the defining feature of expletive constructions: the true subject is delayed, and a dummy word fills the front position. Option A is the most tempting wrong answer because 'there' comes first and looks like a subject."
+
+- question: "Which of the following correctly identifies the interjection and explains why it is one?"
+  type: multiple-choice
+  options:
+    - "'Well, I suppose you are right' — 'Well' is the interjection because it expresses hesitation and has no grammatical connection to the rest of the sentence"
+    - "'Well, I suppose you are right' — 'Well' is the interjection because it is the first word"
+    - "'Alas, the experiment failed' — 'Alas' is a conjunction connecting the two clauses"
+    - "'Oh! That is remarkable' — 'That' is the interjection because it signals surprise"
+  answer: 0
+  explanation: "An interjection is defined by its syntactic independence — it has no grammatical connection (no subject/verb/object relationship) with the surrounding sentence. 'Well' expresses hesitation and, if removed, leaves 'I suppose you are right' as a complete, grammatical sentence. That independence is the test for interjections, not just the word's position or emotional tone."
+
+- question: "In the sentence 'It is raining heavily,' the word 'it' does not refer to any specific thing and is an expletive."
+  type: true-false
+  answer: true
+  explanation: "This is the classic example of expletive 'it.' Ask: what does 'it' refer to? There is no antecedent — it is not pointing to any thing, person, or idea mentioned earlier. The word 'it' is simply filling the grammatical subject position because English requires a subject. This distinguishes it from referential 'it,' as in 'I saw the storm and it was severe,' where 'it' clearly refers to the storm."
+
+- question: "Interjections are always informal and are never appropriate in serious literary or formal writing."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception. Interjections like 'alas,' 'indeed,' 'well,' 'O,' and 'ah' appear frequently in formal and literary writing, including Shakespeare, classical essays, and speeches. What makes something an interjection is its syntactic independence, not its register. Even 'indeed' — perfectly formal — can function as an interjection when it stands independently to express affirmation."
+
+- question: "How can you tell whether 'it' is an expletive or a referential pronoun? Describe the test you would apply."
+  type: short-answer
+  answer: "Ask what 'it' refers to. If 'it' points to a specific noun, phrase, or idea mentioned in the text (its antecedent), it is a referential pronoun. If 'it' has no antecedent — nothing it refers to — it is an expletive placeholder. For example, in 'I dropped the vase and it shattered,' 'it' refers to the vase (referential). In 'It is important to study,' 'it' refers to nothing (expletive)."
+  explanation: "The antecedent test is the definitive method. Expletive 'it' can often be revised out: 'It is important to study' becomes 'Studying is important,' making the true subject explicit. If rewriting removes 'it' and produces a cleaner, more direct sentence with no loss of meaning, 'it' was likely an expletive. Referential 'it' cannot be eliminated this way without losing clarity."
+```
+
 ## Explainer
 
 You've studied how sentences are built — subjects, verbs, objects, and the ways they connect. Most parts of speech slot into that structure: nouns fill subject and object positions, verbs anchor the predicate, adjectives modify nouns. **Interjections** are the exception. They are grammatically free-floating: "Oh! That's surprising" contains two complete units — the interjection "Oh!" and the sentence "That's surprising" — and neither depends on the other. Remove the interjection and the sentence still works perfectly. That syntactic independence is the defining feature of interjections, not their emotional content.

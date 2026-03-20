@@ -17,7 +17,7 @@ tags:
 - dark-comedy
 - Chekhov
 - Beckett
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

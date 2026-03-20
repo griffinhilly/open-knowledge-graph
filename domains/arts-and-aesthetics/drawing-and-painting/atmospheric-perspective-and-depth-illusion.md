@@ -30,6 +30,45 @@ Atmospheric perspective mimics how air and distance affect appearance: distant o
 ## How It's Best Learned
 Observe actual distance in landscapes. Practice painting distant mountains lighter and bluer, near trees darker and warmer.
 
+## Questions
+
+```yaml
+- question: "An artist paints a mountain range in the distance. Compared to foreground trees, the distant mountains should appear:"
+  type: multiple-choice
+  options:
+    - "Darker in value, warmer in color, and with sharper edges"
+    - "Lighter in value, cooler/bluer in color, and with softer edges"
+    - "Lighter in value, warmer in color, and with softer edges"
+    - "Lighter in value, cooler in color, and with sharper edges"
+  answer: 1
+  explanation: "Atmospheric perspective produces three simultaneous changes with distance: values lighten (scattered light fills in shadows), colors shift toward cool blue-gray (short blue wavelengths scatter more through the atmosphere), and edges soften (the atmosphere acts as a diffusion filter). All three must shift together — applying only one or two while leaving others unchanged creates an inconsistent illusion that undermines depth."
+
+- question: "An artist is painting a still life of fruit arranged on a table. How strongly should atmospheric perspective be applied to create depth in this scene?"
+  type: multiple-choice
+  options:
+    - "Strongly — atmospheric perspective is the primary depth cue for all scenes regardless of scale"
+    - "Moderately — reduce it by half compared to a landscape"
+    - "Very subtly or not at all — atmospheric effects are only dramatic over hundreds of meters"
+    - "The same as any landscape — depth cues do not depend on the scale of the scene"
+  answer: 2
+  explanation: "Atmospheric perspective is caused by light scattering through particles in the air between viewer and object. Over a tabletop distance, this effect is imperceptible. Overapplying it to small-scale scenes creates an unconvincing foggy effect. Depth in a still life is primarily achieved through linear perspective, overlapping, and value contrast — not atmospheric haze. Match the effect to the actual distance being depicted."
+
+- question: "Distant objects in a landscape appear warmer and more saturated in color than nearby objects because they receive more direct sunlight."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true: distant objects appear cooler and less saturated. The atmosphere scatters shorter (blue) wavelengths more than longer (warm) ones — the same phenomenon that makes the sky blue. As distance increases, this progressive scattering shifts distant objects toward blue-gray while reducing their color saturation. Keeping warm, saturated colors in the distance destroys the atmospheric depth illusion."
+
+- question: "Applying lighter values, cooler colors, and softer edges together creates a more convincing sense of atmospheric depth than applying only one of these cues."
+  type: true-false
+  answer: true
+  explanation: "The three atmospheric cues — value, color temperature, and edge softness — reinforce each other. When all three shift consistently from foreground to background, the brain receives multiple coherent signals pointing to the same depth interpretation. When they contradict (e.g., cool colors but sharp edges, or soft edges but warm saturated hues), the visual cues conflict and the illusion weakens or breaks."
+
+- question: "Why do distant objects take on a blue-gray cast? Explain the optical reason, not just the artistic rule."
+  type: short-answer
+  answer: "The atmosphere contains particles (dust, moisture, aerosols) that scatter light. Short wavelengths (blue) scatter much more than long wavelengths (warm/red). As light travels from a distant object to the viewer, the intervening atmosphere scatters blue light into the line of sight while filtering out warm wavelengths. The result is that distant objects appear progressively more blue-gray — the same physics that makes the sky blue."
+  explanation: "This is Rayleigh scattering: smaller particles disproportionately scatter shorter wavelengths. The same effect gives the sky its blue color and makes sunsets red (when light travels through more atmosphere, nearly all blue has scattered away). Understanding the optical basis helps artists apply the effect correctly: hazy days (more particles) produce stronger atmospheric perspective than crisp clear days, and knowing why lets you modulate the effect intentionally."
+```
+
 ## Explainer
 
 From your work with atmospheric perspective and spatial recession, you know that objects change appearance as they recede into the distance. **Atmospheric perspective** is the specific set of visual effects caused by particles in the air — dust, moisture, pollution — scattering light between you and distant objects. The further away something is, the more air sits between you and it, and the more its appearance is altered. This is not an artistic invention; it is an optical phenomenon you can observe any time you look at a mountain range or down a long street.

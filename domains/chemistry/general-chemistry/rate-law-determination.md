@@ -14,7 +14,7 @@ tags:
 - reaction-order
 - rate-constant
 - experimental-kinetics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 # Rate Law Determination

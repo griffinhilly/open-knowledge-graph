@@ -14,7 +14,7 @@ tags:
 - responsiveness
 - extemporaneous
 - delivery
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

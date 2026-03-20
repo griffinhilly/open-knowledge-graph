@@ -16,7 +16,7 @@ tags:
 - natural-rights
 - political-philosophy
 - human-rights
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

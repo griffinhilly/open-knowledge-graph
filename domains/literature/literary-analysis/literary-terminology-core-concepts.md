@@ -17,7 +17,7 @@ tags:
 - vocabulary
 - foundations
 - terminology
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

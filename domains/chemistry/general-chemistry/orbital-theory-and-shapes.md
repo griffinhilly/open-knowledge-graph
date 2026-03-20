@@ -15,7 +15,7 @@ tags:
 - orbitals
 - quantum numbers
 - s p d f orbitals
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

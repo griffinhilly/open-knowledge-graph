@@ -9,8 +9,7 @@ prerequisites:
 - id: bgp-border-gateway-protocol
   type: hard
 builds-toward:
-- mpls-multiprotocol-label-switching
-- network-standards-and-ietf
+  - network-standards-and-ietf
 tags:
 - routing
 - segment-routing
@@ -19,7 +18,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Segment Routing and Source Routing
 
 ## Core Idea

@@ -15,7 +15,7 @@ tags:
 - devices
 - meaning
 - interpretation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

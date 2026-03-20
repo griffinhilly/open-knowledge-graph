@@ -19,7 +19,7 @@ tags:
 - 476-ce
 - late-antiquity
 - transformation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

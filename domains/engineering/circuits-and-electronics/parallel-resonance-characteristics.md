@@ -13,7 +13,7 @@ tags:
 - resonance
 - parallel-circuits
 - frequency-response
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

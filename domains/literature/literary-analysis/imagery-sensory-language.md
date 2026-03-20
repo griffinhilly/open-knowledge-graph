@@ -16,7 +16,7 @@ tags:
 - sensory-language
 - visual
 - auditory
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -9,9 +9,8 @@ prerequisites:
 - id: probability-axioms
   type: hard
 builds-toward:
-- compound-probability
-- binomial-distribution
-- random-variables-intro
+  - binomial-distribution
+  - random-variables-intro
 tags:
 - independence
 - multiplication-rule
@@ -19,7 +18,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Independence and the Multiplication Rule
 
 ## Core Idea

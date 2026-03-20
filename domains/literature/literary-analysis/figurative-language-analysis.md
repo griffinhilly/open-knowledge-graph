@@ -22,7 +22,7 @@ tags:
 - metaphor
 - simile
 - devices
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

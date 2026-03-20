@@ -18,7 +18,7 @@ tags:
 - conjugate-base
 - proton-donor
 - electron-pair-acceptor
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 # Acid-Base Definitions

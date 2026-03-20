@@ -12,7 +12,7 @@ tags:
 - absorption
 - liver
 - pancreas
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

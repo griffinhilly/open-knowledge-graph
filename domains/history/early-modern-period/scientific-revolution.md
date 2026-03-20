@@ -22,7 +22,7 @@ tags:
 - heliocentrism
 - empiricism
 - Royal Society
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

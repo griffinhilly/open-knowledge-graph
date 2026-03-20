@@ -19,7 +19,7 @@ tags:
 - beat
 - measure
 - rhythm
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

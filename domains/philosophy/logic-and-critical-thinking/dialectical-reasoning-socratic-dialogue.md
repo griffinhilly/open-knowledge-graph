@@ -15,7 +15,7 @@ tags:
 - dialectic
 - socratic
 - methodology
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - moral-saints
 - demandingness
 - beyond-duty
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - polis
 - city-state
 - politics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

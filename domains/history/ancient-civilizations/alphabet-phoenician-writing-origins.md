@@ -3,17 +3,18 @@ id: alphabet-phoenician-writing-origins
 title: The Phoenician Alphabet and Writing System Origins
 domain: history
 course: ancient-civilizations
-prerequisites: []
+prerequisites:
+- id: cuneiform-and-early-writing
+  type: soft
 tags:
 - alphabet
 - phoenician
 - writing
 - script
 - communication
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # The Phoenician Alphabet and Writing System Origins
 
 ## Core Idea

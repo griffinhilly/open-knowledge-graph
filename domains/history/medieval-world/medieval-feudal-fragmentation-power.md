@@ -14,7 +14,7 @@ tags:
 - fragmentation
 - feudal
 - decentralization
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

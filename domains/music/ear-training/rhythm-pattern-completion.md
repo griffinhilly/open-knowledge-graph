@@ -16,7 +16,7 @@ tags:
 - ear-training
 - pattern-recognition
 - improvisation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

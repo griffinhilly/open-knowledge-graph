@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Work is geographically organized through systems of labor mobilization, skill development, and wage differentiation. Livelihoods—the diverse strategies people use to make a living—vary geographically based on local resources, labor markets, and individual circumstances. Geographic position shapes working conditions and livelihood possibilities.
 
+## Questions
+
+```yaml
+- question: "A software engineer in San Francisco earns four times the salary of an equally skilled software engineer in Manila. The most accurate explanation for this difference is:"
+  type: multiple-choice
+  options:
+    - "The San Francisco engineer is four times as productive due to better infrastructure and tools"
+    - "Market forces are inefficient; over time wages will equalize as companies offshore more work"
+    - "Capital can move freely to lower wages, but labor faces barriers to mobility, creating persistent local wage differentials"
+    - "The cost of living is higher in San Francisco, and wages simply track local prices with no structural cause"
+  answer: 2
+  explanation: "The key insight is asymmetric mobility: capital can relocate to cheaper labor markets almost instantly; workers face language barriers, visa restrictions, family ties, and housing costs that make moving much costlier. This spatial fixity of labor relative to capital creates and sustains geographic wage differentials that persist even between workers of equal skill. Option D describes a correlation (wages and cost of living both high) but not the underlying structural mechanism."
+
+- question: "A rural household in the Global South combines subsistence farming, seasonal city wage labor, remittances from a family member abroad, and informal mutual aid. A livelihood analysis would interpret this as:"
+  type: multiple-choice
+  options:
+    - "A sign of poverty — the household lacks stable formal employment"
+    - "Unusual and unsustainable — livelihoods should converge on single formal jobs as economies develop"
+    - "A deliberate risk-spreading strategy adapted to an environment where any single income source is unreliable"
+    - "Evidence of underemployment requiring formal workforce integration programs"
+  answer: 2
+  explanation: "The 'livelihoods' concept treats income diversity not as failure or poverty but as rational portfolio management. In environments with unreliable income sources, diversifying across farming, wage labor, remittances, and social networks is a stability strategy. This is why a jobs-only lens misses much of what households actually do to sustain themselves — the broader portfolio is the real livelihood."
+
+- question: "Two villages 50 kilometers apart can have dramatically different livelihood structures and economic opportunities even if their populations have identical skills and education levels."
+  type: true-false
+  answer: true
+  explanation: "Geographic position shapes livelihood possibilities in concrete ways: proximity to a port, access to irrigation, location within a special economic zone, road and electricity infrastructure, proximity to migration corridors. These spatial facts determine what economic options realistically exist. Skills are necessary but not sufficient — the local economy must offer slots where those skills can be applied."
+
+- question: "Geographic wage differentials between countries or regions primarily reflect differences in worker productivity and skill levels rather than structural features of labor markets."
+  type: true-false
+  answer: false
+  explanation: "Labor geography's central insight is that wages reflect local labor market conditions, costs, and regulatory environments — not just individual productivity. Equally skilled workers in different locations earn different wages because labor is spatially fixed while capital is mobile. Capital moves toward lower wages; workers cannot easily follow arbitrage opportunities to higher wages. The differential is structural, not a reflection of individual capability."
+
+- question: "Why does labor geography argue that place-based policies (investing in infrastructure and industrial clusters in specific locations) can outperform policies focused solely on individual skill-building?"
+  type: short-answer
+  answer: "Skills are necessary but not sufficient for improving livelihoods — the local economy must offer job slots where those skills can actually be deployed. If a region lacks roads, electricity, markets, or employers in a given sector, even highly skilled workers cannot access opportunities. Place-based policy addresses the structural context: building infrastructure, attracting employers, and connecting communities to markets creates the conditions within which individual skills become economically valuable. Skill-building without addressing the local economic structure leaves workers equipped for jobs that don't exist nearby."
+  explanation: "This question tests whether students understand the relationship between individual capability and structural context. The geographical insight is that where you are shapes what is possible for you — independent of your personal attributes. Development policy that ignores this tends to underperform."
+```
+
 ## Explainer
 
 From your study of economic production and distribution, you know that capitalism organizes production across space — factories cluster in some places, offices in others, and raw material extraction somewhere else entirely. From migration and mobility networks, you know that people move to pursue economic opportunity, and that these movements are not random but patterned by social networks, legal systems, and information asymmetries. **Labor geography** asks a more fundamental question that sits at the intersection of these two: how does place shape the conditions under which people work, and how do workers themselves shape the geographies of work?

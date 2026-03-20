@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - polarization
 - waves
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

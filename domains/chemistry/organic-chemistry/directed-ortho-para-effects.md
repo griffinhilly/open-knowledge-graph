@@ -16,7 +16,7 @@ tags:
 - meta
 - resonance
 - inductive
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

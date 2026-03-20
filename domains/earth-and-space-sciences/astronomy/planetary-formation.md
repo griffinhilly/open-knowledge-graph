@@ -17,7 +17,7 @@ tags:
 - differentiation
 - frost-line
 - planetesimals
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Planetary Formation: The Nebular Hypothesis

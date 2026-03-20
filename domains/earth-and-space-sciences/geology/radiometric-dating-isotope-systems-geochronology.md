@@ -6,8 +6,6 @@ course: geology
 prerequisites:
 - id: geological-time-scale
   type: soft
-- id: radioactive-heat-production
-  type: soft
 - id: radioactive-decay
   type: hard
 - id: alpha-decay-emission
@@ -18,7 +16,7 @@ tags:
 - geochronology
 - dating
 - isotopes
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

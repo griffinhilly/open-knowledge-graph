@@ -9,8 +9,7 @@ prerequisites:
 - id: argument-structure-toulmin
   type: soft
 builds-toward:
-- evidence-integration-analysis
-- evaluating-sources-writing
+  - evidence-integration-analysis
 tags:
 - evidence
 - support
@@ -19,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Evidence Hierarchy and Support Levels
 
 ## Core Idea

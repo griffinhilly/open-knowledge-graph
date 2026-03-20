@@ -15,7 +15,7 @@ tags:
 - trade
 - company
 - asia
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

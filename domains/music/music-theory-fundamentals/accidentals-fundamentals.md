@@ -13,7 +13,7 @@ tags:
 - pitch
 - notation
 - accidentals
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

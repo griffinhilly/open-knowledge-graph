@@ -32,7 +32,7 @@ tags:
 - BMR
 - TDEE
 - energy balance
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Energy Metabolism, Caloric Needs, and Basal Metabolic Rate

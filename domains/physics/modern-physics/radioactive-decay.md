@@ -20,7 +20,7 @@ tags:
 - beta
 - gamma
 - decay
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Radioactive Decay

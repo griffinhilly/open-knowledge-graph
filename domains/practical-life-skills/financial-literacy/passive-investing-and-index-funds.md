@@ -15,7 +15,7 @@ tags:
 - index-funds
 - passive-investing
 - etf
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

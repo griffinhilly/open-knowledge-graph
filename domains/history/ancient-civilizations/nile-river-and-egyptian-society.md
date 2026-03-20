@@ -14,7 +14,7 @@ tags:
 - geography
 - ecology
 - agriculture
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

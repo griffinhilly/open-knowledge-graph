@@ -14,7 +14,7 @@ tags:
 - scope
 - variables
 - lifetime
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

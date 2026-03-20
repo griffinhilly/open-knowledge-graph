@@ -14,7 +14,7 @@ tags:
 - Sedgwick
 - performativity
 - heteronormativity
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

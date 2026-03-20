@@ -15,7 +15,7 @@ tags:
 - veto
 - oversight
 - power-constraint
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - kinetochore
 - chromosome-segregation
 - spindle-attachment
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

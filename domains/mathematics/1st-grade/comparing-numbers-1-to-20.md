@@ -15,7 +15,7 @@ tags:
 - comparison
 - ordering
 - symbols
-stage: pre-formal
+stage: concrete-operations
 status: draft
 ---
 
@@ -23,6 +23,45 @@ status: draft
 
 ## Core Idea
 Using the symbols <, >, and = to compare quantities: 12 > 8, 5 < 10, 7 = 7. Understanding 'greater than,' 'less than,' and 'equal to' supports logical reasoning and prepares for inequalities.
+
+## Questions
+
+```yaml
+- question: "A student writes '8 > 12' and says '8 is greater because I wrote it first.' What is wrong?"
+  type: multiple-choice
+  options:
+    - "Nothing — 8 is greater because it has fewer digits than 12"
+    - "The symbol is wrong — since 12 is farther right on the number line, the correct statement is 8 < 12"
+    - "The student should use = because both numbers are less than 20"
+    - "Both 8 > 12 and 12 > 8 are correct ways to say the same thing"
+  answer: 1
+  explanation: "The > symbol means the number on the left is greater — but 12 is greater than 8, not the other way around. On a number line, 12 is farther to the right, which always means larger. The correct statement is 8 < 12 (8 is less than 12) or 12 > 8. The position in the sentence doesn't determine which number is greater — the symbol's direction does, and it always opens toward the bigger number."
+
+- question: "Which comparison correctly shows that 14 is less than 17?"
+  type: multiple-choice
+  options:
+    - "14 > 17"
+    - "17 < 14"
+    - "14 < 17"
+    - "14 = 17"
+  answer: 2
+  explanation: "14 < 17 means '14 is less than 17,' which is correct. The < symbol opens toward 17 (the larger number). Option A reverses the relationship. Option B says '17 is less than 14,' which is false. Option D says they are equal, which is false. A reliable check: the open side of the symbol always faces the bigger number."
+
+- question: "The '>' symbol always opens toward the smaller number, like a mouth eating the smaller amount."
+  type: true-false
+  answer: false
+  explanation: "The symbol always opens toward the LARGER number — the mouth eats the bigger value. In '15 > 9,' the open side of > faces 15 (the larger number). In '3 < 11,' the open side of < faces 11. If you remember it as a mouth, the mouth is always hungry for the bigger number. Reversing this — thinking it opens toward the smaller — is the most common symbol-direction error."
+
+- question: "Writing 7 = 7 is a valid mathematical statement that means both sides represent the same quantity."
+  type: true-false
+  answer: true
+  explanation: "The equal sign means 'the same amount as.' 7 = 7 is perfectly valid and simply states that 7 and 7 are the same quantity. This might seem trivial, but understanding '=' as a relationship of equal quantities — not just an operation result — is foundational. Later, students will write things like 3 + 4 = 7, which uses the same idea: the quantity on the left equals the quantity on the right."
+
+- question: "You're not sure which symbol belongs between 11 and 15. How could you use a number line to figure it out, and what would you write?"
+  type: short-answer
+  answer: "On a number line, numbers increase from left to right. Find 11 and 15 on the line — 11 is to the left of 15, which means 11 is smaller. Since 11 is less than 15, write 11 < 15. The symbol opens toward 15 (the larger number, farther right on the line)."
+  explanation: "The number line makes the comparison visual: left = smaller, right = larger. This reasoning transfers to any pair of numbers, not just 1–20. Once a student can picture position on a number line, they never need to guess — they find both numbers, see which is farther right, and that one is greater."
+```
 
 ## Explainer
 

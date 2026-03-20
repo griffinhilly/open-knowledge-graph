@@ -15,7 +15,7 @@ tags:
 - modernism
 - serialism
 - experimental
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

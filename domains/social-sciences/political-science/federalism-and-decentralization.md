@@ -18,7 +18,7 @@ tags:
 - decentralization
 - subnational government
 - intergovernmental relations
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

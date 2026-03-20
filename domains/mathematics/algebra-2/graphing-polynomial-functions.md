@@ -31,6 +31,45 @@ Start with factored polynomials so zeros are immediate. Discuss multiplicity and
 - Drawing sharp corners or breaks (polynomial graphs are smooth and continuous).
 - Assuming the maximum number of turning points always occurs (a degree-n polynomial has at most n-1, but may have fewer).
 
+## Questions
+
+```yaml
+- question: "A polynomial has a factor of (x − 3)² and a factor of (x + 1). Which statement correctly describes the graph's behavior at x = 3 and x = −1?"
+  type: multiple-choice
+  options:
+    - "The graph crosses the x-axis at both x = 3 and x = −1, since both are zeros"
+    - "The graph bounces off the x-axis at x = 3 and crosses at x = −1, because the multiplicity of 3 is even and the multiplicity of −1 is odd"
+    - "The graph crosses the x-axis at x = 3 and bounces at x = −1, since (x − 3)² is a larger factor"
+    - "The graph touches but does not cross at either zero, since both factors are squared in the expanded polynomial"
+  answer: 1
+  explanation: "Multiplicity determines the crossing behavior at each zero. The factor (x − 3)² gives x = 3 a multiplicity of 2 (even), so the graph touches the x-axis there and turns back — it bounces. The factor (x + 1) gives x = −1 a multiplicity of 1 (odd), so the graph crosses the x-axis there, changing sign. The rule is: even multiplicity → bounce (the factor squared is always non-negative, so the function doesn't change sign); odd multiplicity → cross (the factor changes sign as x passes through the zero). Treating all zeros the same way — always crossing — is the most common graphing error."
+
+- question: "A polynomial has a negative leading coefficient and an odd degree. Which end behavior is correct?"
+  type: multiple-choice
+  options:
+    - "The graph rises on both the left and right sides"
+    - "The graph falls on both the left and right sides"
+    - "The graph rises on the left and falls on the right"
+    - "The graph falls on the left and rises on the right"
+  answer: 2
+  explanation: "End behavior is determined entirely by the leading term. For odd-degree polynomials with a positive leading coefficient, the graph falls left and rises right (like y = x³). With a negative leading coefficient, the behavior flips: the graph rises left and falls right (like y = −x³). For large |x|, the leading term dominates all others — all the lower-degree terms become negligible. Sketching the end behavior first 'sets the frame' of the graph before filling in zeros, turning points, and the y-intercept."
+
+- question: "A degree-6 polynomial always has exactly 5 turning points."
+  type: true-false
+  answer: false
+  explanation: "A degree-n polynomial has *at most* n − 1 turning points — this is a maximum, not a guarantee. A degree-6 polynomial can have 5 turning points, but it might have only 3, or even 1. The actual number of turning points depends on the specific polynomial and its zeros and their multiplicities. For example, a polynomial with a zero of multiplicity 6 at the origin (y = x⁶) has only one turning point (the vertex). Confusing 'at most n − 1' with 'exactly n − 1' is a common misconception."
+
+- question: "If a polynomial has a zero at x = 4 with even multiplicity, the graph touches the x-axis at x = 4 without crossing it."
+  type: true-false
+  answer: true
+  explanation: "When a zero has even multiplicity, the corresponding factor appears an even number of times — for example, (x − 4)². An even power is always non-negative regardless of whether x is slightly less than or slightly greater than 4. This means the polynomial does not change sign at x = 4: it approaches 0 from positive values (if the leading effect is positive), touches the axis, and returns to positive values. The graph 'bounces' like a parabola whose vertex sits on the x-axis. Odd multiplicity produces a sign change — crossing — because an odd power does change sign as x passes through the zero."
+
+- question: "Why can you sketch an accurate graph of a polynomial function from just three features — end behavior, zeros with multiplicities, and the y-intercept — without plotting many individual points?"
+  type: short-answer
+  answer: "These three features fully constrain the shape of the graph between its anchor points. End behavior tells you where the graph heads as x goes to ±∞, establishing the tails. Zeros with multiplicities tell you exactly where the graph intersects or touches the x-axis and whether it crosses (odd multiplicity) or bounces (even multiplicity). Sign analysis between consecutive zeros tells you whether the curve is above or below the x-axis in each interval. The y-intercept provides one concrete point at x = 0. Because polynomial graphs are smooth and continuous — no sharp corners or breaks — connecting these anchor points while respecting end behavior and sign gives an accurate sketch. You are reading the polynomial's structure, not sampling it."
+  explanation: "The deeper insight is that a polynomial's graph is entirely determined by its algebraic structure — degree, leading coefficient, and factored form — without any calculus. Each feature of the graph has a direct algebraic explanation, which is why reading the polynomial carefully is more powerful than plotting points."
+```
+
 ## Explainer
 
 A polynomial graph is determined almost entirely by three features you already know: the leading term's degree and sign (from end behavior), the zeros and their multiplicities (from factoring), and the y-intercept (from plugging in x = 0). Graphing by hand means assembling these features into a coherent picture — not plotting hundreds of points.

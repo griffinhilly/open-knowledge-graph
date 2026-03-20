@@ -15,7 +15,7 @@ tags:
 - bass-line
 - structural
 - voice-leading
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

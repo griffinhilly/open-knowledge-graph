@@ -30,6 +30,45 @@ A strong focal point guides the viewer's attention and makes a composition memor
 ## How It's Best Learned
 Identify the focal point in successful artworks. In your own work, intentionally sacrifice detail elsewhere to emphasize one area.
 
+## Questions
+
+```yaml
+- question: "An artist paints a portrait and invests careful, detailed rendering in the face, the clothing, the hands, and the background — every area receives the same level of finish. The result feels scattered and visually unresolved. What is the most likely cause?"
+  type: multiple-choice
+  options:
+    - "The color palette is too muted to create visual interest"
+    - "Equal rendering across the composition creates equal visual weight everywhere — there is no hierarchy, so the eye has no anchor and wanders without settling"
+    - "The composition has too much negative space around the subject"
+    - "The artist used too many sharp edges throughout the painting"
+  answer: 1
+  explanation: "Visual emphasis requires hierarchy — some areas must dominate others. When everything receives equal treatment, the eye treats all areas as equally important and never locks onto a focal point. This is the key insight: you cannot create emphasis simply by adding more to the focal area; you must also reduce the competition from everywhere else. Equal rendering equals no focal point."
+
+- question: "A painter wants to make the eyes the focal point of a portrait. Which approach will most reliably achieve this?"
+  type: multiple-choice
+  options:
+    - "Render the eyes in finer detail than any other area of the painting"
+    - "Place the highest value contrast — the lightest light directly against the darkest dark — at the eyes, while deliberately softening contrast in the clothing, hair, and background"
+    - "Use brighter, more saturated color in the eye area compared to the rest of the face"
+    - "Position the eyes exactly at the center of the canvas for maximum prominence"
+  answer: 1
+  explanation: "Value contrast is the strongest attentional signal available to a visual artist — the human eye is drawn to areas of maximum contrast before anything else. Adding detail (option A) helps but is secondary; detail in lower-contrast areas is easily overlooked. Color saturation (option C) works but is less powerful than value contrast. Placement at center (option D) provides some compositional weight but doesn't generate the same pull as high contrast. The combination of a very light and very dark value side by side at the focal area acts like a spotlight."
+
+- question: "Creating a strong focal point requires not just adding contrast and detail to the area of interest, but also intentionally reducing contrast and detail in the surrounding areas."
+  type: true-false
+  answer: true
+  explanation: "Emphasis is relational — something stands out only in comparison to what surrounds it. If contrast is high everywhere, nothing has emphasis. The focal point earns its dominance partly from its own qualities and partly from the deliberate quieting of everything else. This is why the discipline of creating a focal point is described as 'sacrifice': you must hold back in areas you care about so that the focal area can dominate."
+
+- question: "Adding more detail to the focal area of a drawing is sufficient to create a strong focal point, even if equal detail is applied across the entire composition."
+  type: true-false
+  answer: false
+  explanation: "Detail without contrast gradient produces no focal hierarchy. If every area is rendered with equal detail, the eye treats all areas equally — adding more detail to one area simply makes everything more detailed, not more differentiated. Focal points work through relative contrast: an area is focal because it stands out from its surroundings in value, edge sharpness, detail density, or color saturation. Without reducing these qualities elsewhere, increasing them in one spot produces no net emphasis."
+
+- question: "Why is 'sacrifice' an essential concept in creating a focal point, and what specifically must be sacrificed?"
+  type: short-answer
+  answer: "Sacrifice refers to deliberately reducing the rendering quality — contrast, detail, edge sharpness, color saturation — in areas of the composition that are NOT the focal point. What must be sacrificed is the artist's natural impulse to render everything carefully. The focal point only dominates when subordinate areas are quieter: softer edges, closer values, less detail. Without this sacrifice, everything competes equally for attention and no focal point emerges."
+  explanation: "The concept of sacrifice reframes the challenge of emphasis: it's not about what you add to the focal area but about what you hold back everywhere else. Think of it as a budget of the viewer's attention — spending it all in one place requires not spending it elsewhere. Artists who struggle with focal points often do so not because their focal area is too weak but because the surrounding areas are too strong. The solution is restraint, not more rendering."
+```
+
 ## Explainer
 
 You already understand emphasis as a compositional principle and contrast as a design tool — now the task is to wield them together to create a **focal point** in a drawing or painting. A focal point is the area where you want the viewer's eye to land first and return to repeatedly. Without one, a composition feels like a visual democracy where everything competes equally for attention and nothing wins. With a strong focal point, even a complex scene becomes legible because the viewer has an anchor.

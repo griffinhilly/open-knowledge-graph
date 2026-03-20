@@ -11,16 +11,14 @@ prerequisites:
 - id: commutative-diagrams-and-composition
   type: hard
 builds-toward:
-- the-five-lemma
-- diagram-chasing-lemmas
+  - the-five-lemma
 tags:
 - homological-algebra
 - diagram-chasing
 - connecting-morphism
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # The Snake Lemma
 
 ## Core Idea

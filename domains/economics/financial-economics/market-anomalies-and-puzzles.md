@@ -20,7 +20,7 @@ tags:
 - momentum
 - size-effect
 - equity-premium-puzzle
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Market Anomalies and Asset Pricing Puzzles

@@ -20,7 +20,7 @@ tags:
 - pan-frying
 - maillard
 - stovetop
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 # Sautéing and Pan Cooking

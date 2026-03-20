@@ -14,7 +14,7 @@ tags:
 - quantization
 - noise-shaping
 - resolution
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

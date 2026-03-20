@@ -18,7 +18,7 @@ tags:
 - backcross
 - homozygous-recessive
 - gamete-frequency
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

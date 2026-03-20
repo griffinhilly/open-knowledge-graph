@@ -27,6 +27,45 @@ Use concrete objects (blocks, counters, fingers). Combine groups and count the t
 ## Common Misconceptions
 Children may recount everything from 1 instead of counting on. They may not understand that combining two groups makes a larger group. Some may lose track of the original groups.
 
+## Questions
+
+```yaml
+- question: "A child has 3 red counters and 4 blue counters. She pushes them together into one pile and counts them. Her friend counts the same pile but starts with a blue counter first. What will the two children find?"
+  type: multiple-choice
+  options:
+    - "The child who counted red first will get a higher total"
+    - "Both children will get the same total of 7, no matter which color they count first"
+    - "The total depends on the order you count, so both answers could differ"
+    - "They must sort the counters back into separate piles to get the right answer"
+  answer: 1
+  explanation: "The total of a combined group doesn't depend on which objects you count first or how they are arranged. 3 red + 4 blue = 7 regardless of order. This reliability is the heart of the part-whole relationship — the whole is fully determined by the sizes of the parts, not by the method of counting."
+
+- question: "A child has 5 blocks and wants to add 3 more. Which approach is most efficient?"
+  type: multiple-choice
+  options:
+    - "Count all 8 blocks from 1 every time"
+    - "Start at 5 and count on 3 more: 6, 7, 8"
+    - "Guess the total without counting"
+    - "You must always start from 1 to get the correct answer"
+  answer: 1
+  explanation: "Counting on from the larger group — starting at 5 and continuing for 3 more (6, 7, 8) — is faster and uses what you already know. Counting from 1 works but wastes time re-establishing information you already have. Both give the same correct answer, but counting on builds the mental habit that makes later addition fluent."
+
+- question: "When you combine a group of 3 and a group of 4, the result is always 7, no matter how you arrange the objects afterward."
+  type: true-false
+  answer: true
+  explanation: "The total is determined by the sizes of the parts, not by arrangement. Rearranging 7 objects in any pattern still gives 7 objects. This is what makes combining sets mathematically reliable — the whole is always the sum of its parts, independent of physical arrangement."
+
+- question: "When two groups are combined, the total depends on which group you count first."
+  type: true-false
+  answer: false
+  explanation: "The order in which you count objects in a combined group never changes the total. Whether you count the red blocks first or the blue blocks first, 2 red + 3 blue always totals 5. This is a foundational property that makes addition predictable and trustworthy — it doesn't matter where you start, you always arrive at the same whole."
+
+- question: "Why is it helpful to start counting from the bigger group when you combine two groups, instead of always starting from 1?"
+  type: short-answer
+  answer: "If you already know how many are in the bigger group, you can use that as a starting point and only count the additional objects from the smaller group. For example, with 5 and 2, start at 5 and count on: 6, 7 — just 2 steps instead of counting all 7 from scratch. This saves time by using information you already have."
+  explanation: "This strategy is called counting on, and it builds toward efficient addition. It works because the combined total doesn't depend on counting from 1 — the first group's count is already established. Over time this habit develops into number sense: you stop needing to physically count objects and start reasoning about quantities directly."
+```
+
 ## Explainer
 
 You know how to count objects in a group and find its total — the cardinality principle tells you that the last number you say when counting is how many there are. Now we take one step further: what happens when two groups come together? This is the very first idea behind addition, and it starts with physical objects you can touch and move.

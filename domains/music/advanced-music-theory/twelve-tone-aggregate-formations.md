@@ -17,8 +17,7 @@ prerequisites:
 - id: combinatorics
   type: soft
 builds-toward:
-- derived-row-techniques
-- pitch-class-set-cartography
+  - pitch-class-set-cartography
 tags:
 - serialism
 - twelve-tone
@@ -26,7 +25,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Twelve-Tone Aggregate Formations
 
 ## Core Idea

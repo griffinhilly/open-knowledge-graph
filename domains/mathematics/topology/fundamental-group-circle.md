@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - fundamental-group
 - circle
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

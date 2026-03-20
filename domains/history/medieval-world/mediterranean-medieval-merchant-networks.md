@@ -16,7 +16,7 @@ tags:
 - merchants
 - commerce
 - networks
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - alcohol
 - aldehyde
 - ketone
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

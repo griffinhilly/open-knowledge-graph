@@ -14,7 +14,7 @@ tags:
 - timbre
 - composition
 - instruments
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

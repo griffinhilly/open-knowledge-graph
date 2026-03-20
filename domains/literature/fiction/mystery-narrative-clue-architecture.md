@@ -13,7 +13,7 @@ tags:
 - clues
 - information
 - structure
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

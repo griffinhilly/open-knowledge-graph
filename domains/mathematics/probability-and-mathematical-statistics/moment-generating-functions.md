@@ -16,7 +16,7 @@ tags:
 - mgf
 - generating-functions
 - moments
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

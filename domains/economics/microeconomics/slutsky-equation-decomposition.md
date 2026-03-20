@@ -9,16 +9,14 @@ prerequisites:
 - id: hicksian-demand
   type: hard
 builds-toward:
-- demand-system-integrability
-- normal-vs-inferior-goods-analysis
+  - demand-system-integrability
 tags:
 - consumer theory
 - price effects
 - decomposition
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Slutsky Equation and Price Effect Decomposition
 
 ## Core Idea

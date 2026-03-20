@@ -22,7 +22,7 @@ tags:
 - specificity
 - predictive-value
 - lead-time-bias
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Screening Programs and Diagnostic Test Performance

@@ -15,7 +15,7 @@ tags:
 - integrability
 - consistency
 - rationality
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

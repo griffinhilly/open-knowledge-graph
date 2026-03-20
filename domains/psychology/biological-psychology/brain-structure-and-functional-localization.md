@@ -14,7 +14,7 @@ tags:
 - cortex
 - function
 - localization
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

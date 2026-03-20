@@ -12,7 +12,7 @@ tags:
 - coronary-arteries
 - myocardial-oxygen
 - autoregulation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

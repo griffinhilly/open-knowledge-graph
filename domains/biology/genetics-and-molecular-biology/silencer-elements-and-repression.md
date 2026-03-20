@@ -16,7 +16,7 @@ tags:
 - silencer-elements
 - repressor-proteins
 - chromatin-compaction
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

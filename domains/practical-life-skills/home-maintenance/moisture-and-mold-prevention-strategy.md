@@ -32,6 +32,45 @@ Check your basement for water stains and efflorescence. Use a moisture meter to 
 - All moisture problems require major structural repairs.
 - Painting over moisture damage will solve the problem.
 
+## Questions
+
+```yaml
+- question: "You clean a mold patch on a bathroom wall with bleach, but it returns within two weeks. What is the most likely explanation?"
+  type: multiple-choice
+  options:
+    - "The bleach concentration was too low to kill the mold spores permanently"
+    - "The mold species is resistant to surface treatments and requires professional remediation"
+    - "The underlying moisture source was never eliminated, so mold regrows on the still-damp surface"
+    - "Mold-resistant paint should have been applied immediately after cleaning"
+  answer: 2
+  explanation: "Surface cleaning removes visible mold but does nothing about why it grew there in the first place. If the wall remains damp — from a slow plumbing leak, inadequate exhaust ventilation, or condensation — mold has everything it needs to recolonize within days. The correct order of operations is: find and stop the moisture source first, then remediate and repair. Cleaning before the source is eliminated is temporary at best and creates a false sense of resolution."
+
+- question: "A homeowner notices water stains on the basement wall after every heavy rain. The soil outside slopes gently toward the foundation. Which intervention most directly addresses the root cause?"
+  type: multiple-choice
+  options:
+    - "Installing a basement dehumidifier to reduce indoor humidity"
+    - "Applying waterproofing sealant to the interior of the basement wall"
+    - "Regrading the soil so it slopes away from the foundation"
+    - "Running bathroom exhaust fans more frequently during rain"
+  answer: 2
+  explanation: "The root cause here is exterior water intrusion: rainwater is directed toward the foundation by the improper grade (flat or inward slope) and then pushes through the wall. Regrading — sloping the soil away from the foundation by at least 6 inches over 10 feet — stops this water from accumulating against the wall. Interior sealant (option B) may slow infiltration but does not remove the hydraulic pressure of water pooling outside; it often fails under pressure and does not address the source. A dehumidifier addresses indoor humidity, not liquid water intrusion."
+
+- question: "Indoor relative humidity above 60% can allow mold to colonize surfaces within 24–48 hours after a moisture event."
+  type: true-false
+  answer: true
+  explanation: "Mold requires moisture, organic material, and time. At or above 60% relative humidity, condensation forms readily on cooler surfaces and organic building materials (drywall paper, wood framing) absorb enough moisture for mold to begin colonizing very quickly — sometimes within a day or two. Keeping indoor relative humidity between 30–50% is the primary indoor defense against mold. A hygrometer costing under $15 makes this easy to monitor."
+
+- question: "Painting over moisture-damaged surfaces with mold-resistant paint is an effective long-term solution for preventing mold recurrence."
+  type: true-false
+  answer: false
+  explanation: "Mold-resistant paint inhibits mold growth on a dry surface — but if the surface is still receiving moisture, the moisture will blister the paint, continue wetting the substrate beneath, and mold will grow behind the paint layer rather than being stopped by it. This is one of the most common and costly moisture-management mistakes. The rule is: stop the water first, then repair and paint. Applying any coating before eliminating the source is wasted effort and can mask ongoing damage until it becomes severe."
+
+- question: "Why must a moisture problem's source be eliminated before any repair work is done, and what goes wrong if that order is reversed?"
+  type: short-answer
+  answer: "If you patch, repaint, or replace materials before stopping the water source, moisture continues entering and re-wetting the new materials. The repair fails: paint blisters, new drywall absorbs moisture, and mold regrows — often behind the new surface where it is invisible. You end up redoing the repair while the hidden damage worsens. Stopping the source first ensures the structure is actually dry before repairs begin, so materials can be replaced into a dry environment and will remain dry going forward."
+  explanation: "This 'source first' discipline applies across all four moisture pathways: exterior intrusion (fix grade, gutters, roof), below-grade intrusion (drainage, sump), interior generation (ventilation, exhaust fans), and envelope leaks (caulk, sealing). In every case, symptom treatment before source correction is a money-losing sequence."
+```
+
 ## Explainer
 
 From your home inspection training, you know how to spot signs of moisture damage — staining, efflorescence, soft materials, musty odors. From water damage basics, you understand what mold needs to grow: moisture, a food source (organic material), and time. Moisture prevention strategy is the systematic approach to eliminating that first ingredient before mold or rot ever gets a foothold.

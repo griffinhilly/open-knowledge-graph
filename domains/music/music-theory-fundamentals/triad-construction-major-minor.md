@@ -18,7 +18,7 @@ tags:
 - triads
 - major
 - minor
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

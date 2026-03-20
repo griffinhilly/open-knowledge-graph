@@ -39,6 +39,45 @@ Study the animation specifications of a major design system (Material Design's m
 - Motion design is about making interfaces "feel premium" or impressive — its primary purpose is functional: communicating spatial relationships, state changes, and feedback. Decorative motion without informational purpose degrades usability.
 - All animations should be as fast as possible — duration depends on the distance traveled and the complexity of the change. Very fast transitions can feel jarring and prevent users from tracking what changed.
 
+## Questions
+
+```yaml
+- question: "A designer animates a modal dialog sliding into view using a 400ms linear transition. A colleague says it 'feels robotic.' What is the most likely cause?"
+  type: multiple-choice
+  options:
+    - "400ms is too long; all animations should be under 200ms to feel responsive"
+    - "Linear interpolation moves the element at constant speed throughout, which is physically implausible — real objects accelerate and decelerate"
+    - "Modal dialogs should fade in rather than slide, as sliding is inappropriate for overlay elements"
+    - "The transition is too slow at the beginning and too fast at the end, which is the definition of linear motion"
+  answer: 1
+  explanation: "Linear motion — constant speed throughout — is the primary cause of animations that feel mechanical or robotic. Nothing in the physical world moves at perfectly constant speed: objects accelerate from rest and decelerate before stopping. An ease-out curve (fast start, gradual deceleration to a stop) would make the modal feel like it's arriving and settling into place, matching how a physical object behaves. The 400ms duration is actually appropriate for a large element entering from off-screen — option A's rule is too simplistic. The issue is exclusively the linear easing."
+
+- question: "A loading indicator needs to be added to a web app. Which of the following motion choices best follows the principle of restraint?"
+  type: multiple-choice
+  options:
+    - "A spinner that rotates, pulses in size, and changes color simultaneously to signal that something important is happening"
+    - "A simple rotating spinner using ease-in-out timing, with no additional motion layers"
+    - "A progress bar with a bouncing animation to keep the user engaged during long waits"
+    - "Multiple overlapping animations to show the user that the system is actively working hard"
+  answer: 1
+  explanation: "Restraint is the highest principle in motion design. Every animation competes for limited attention. A simple spinner with a single, physically plausible motion communicates 'loading' clearly without noise. Options A, C, and D add motion layers that have no additional informational value — they do not communicate anything the simple spinner doesn't already communicate. Simultaneous competing animations increase cognitive load rather than reducing it. The best motion design is nearly invisible: users don't notice the animation itself, they simply feel the interface is responsive."
+
+- question: "The primary purpose of motion in interface design is to communicate information — spatial relationships, state changes, and feedback — rather than to create visual richness or a premium feel."
+  type: true-false
+  answer: true
+  explanation: "This is the foundational principle of functional motion design. Every transition should answer a question the user is unconsciously asking: where did that element come from? Where did it go? Did my action register? Motion that communicates these things reduces cognitive load. Motion that merely makes an interface look impressive or premium without adding informational value distracts and clutters. As the topic notes: 'Motion design is about making interfaces feel premium' is a misconception — that gets the purpose backwards."
+
+- question: "Using faster animation speeds is generally preferable in interface design, because users want interfaces to feel snappy and responsive."
+  type: true-false
+  answer: false
+  explanation: "Duration should be proportional to the distance and complexity of the change, not minimized universally. Short durations (100–200ms) suit small, local changes like button hover states. Larger transitions — a page sliding into view — need longer durations (300–500ms) because the eye needs time to track movement across a greater distance. Very fast transitions for large elements feel jarring because users can't track what changed. Making everything as fast as possible treats duration as a style preference when it is actually a functional variable calibrated to the perceptual demands of each transition."
+
+- question: "A designer adds a 500ms ease-in-out animation to a button's hover state. Identify which principle(s) this likely violates, and describe what would be more appropriate."
+  type: short-answer
+  answer: "500ms violates the principle that duration should be proportional to the distance and complexity of the change. A button hover state is a small, local change — it should respond in 100–200ms to feel immediate and reactive. 500ms would make the button feel sluggish, as if it's not responding to the cursor. Additionally, ease-in-out (slow start and slow finish) is better suited for elements traveling across the screen; a hover state that simply changes color or appearance would benefit more from ease-out (quick response, settling finish) or just ease-out. The fix: reduce the duration to 100–150ms and use ease-out."
+  explanation: "The deeper principle is that every animation parameter — duration, easing, distance — should be a deliberate response to what that specific transition needs to communicate and how far/how much is changing. Using a single default duration and easing curve for all animations treats motion as style, which leads to interfaces that feel inconsistently responsive. Calibrating each transition to its perceptual demands is what separates functional motion design from decorative animation."
+```
+
 ## Explainer
 
 You already understand visual hierarchy and how emphasis directs a viewer's attention to what matters most. Motion design extends these principles into the dimension of time. Instead of arranging elements spatially to create a reading order, you choreograph how elements enter, exit, and transform to guide attention through a sequence of moments. Every transition is an opportunity to answer a question the user is unconsciously asking: where did that come from? Where did it go? Did my action work?

@@ -33,7 +33,7 @@ tags:
 - thesis
 - literary analysis essay
 - academic writing
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Literary Argument Writing

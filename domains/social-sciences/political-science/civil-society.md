@@ -21,7 +21,7 @@ tags:
 - civic participation
 - associational life
 - Tocqueville
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Civil Society and Political Participation

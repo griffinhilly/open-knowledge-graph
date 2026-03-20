@@ -14,7 +14,7 @@ tags:
 - perception
 - persuasion
 - messaging
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - 6/8
 - triplet
 - rhythm
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 # Compound Meter

@@ -18,7 +18,7 @@ tags:
 - infant-emotions
 - social-development
 - fear-response
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

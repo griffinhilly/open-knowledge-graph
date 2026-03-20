@@ -16,7 +16,7 @@ tags:
 - third-world
 - economics
 - inequality
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

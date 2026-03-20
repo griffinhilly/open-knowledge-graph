@@ -16,7 +16,7 @@ tags:
 - ear-training
 - inversion
 - pitch-relationships
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

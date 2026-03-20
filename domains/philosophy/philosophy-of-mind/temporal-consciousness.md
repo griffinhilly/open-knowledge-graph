@@ -13,7 +13,7 @@ tags:
 - phenomenology
 - consciousness
 - flow
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

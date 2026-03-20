@@ -17,7 +17,7 @@ tags:
 - equilibrium
 - gibbs-free-energy
 - thermodynamics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

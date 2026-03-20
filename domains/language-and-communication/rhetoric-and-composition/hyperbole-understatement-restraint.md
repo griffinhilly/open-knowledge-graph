@@ -15,7 +15,7 @@ tags:
 - devices
 - style
 - emotion
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

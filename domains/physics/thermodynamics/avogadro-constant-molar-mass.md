@@ -3,7 +3,9 @@ id: avogadro-constant-molar-mass
 title: Avogadro's Number and Molar Mass
 domain: physics
 course: thermodynamics
-prerequisites: []
+prerequisites:
+- id: temperature-and-thermal-equilibrium
+  type: soft
 builds-toward:
 - ideal-gas-law
 tags:
@@ -13,7 +15,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Avogadro's Number and Molar Mass
 
 ## Core Idea

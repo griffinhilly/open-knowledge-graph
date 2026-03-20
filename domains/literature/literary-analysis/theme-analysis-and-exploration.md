@@ -15,7 +15,7 @@ tags:
 - meaning
 - pattern
 - interpretation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

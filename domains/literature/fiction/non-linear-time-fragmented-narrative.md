@@ -13,7 +13,7 @@ tags:
 - non-linear
 - flashback
 - structure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - harmonization
 - melody
 - voice-leading
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

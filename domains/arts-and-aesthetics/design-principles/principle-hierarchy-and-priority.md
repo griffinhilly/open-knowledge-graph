@@ -17,7 +17,7 @@ tags:
 - decision-making
 - strategy
 - constraints
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

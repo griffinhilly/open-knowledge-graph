@@ -12,7 +12,7 @@ tags:
 - visual-hierarchy
 - presentations
 - PowerPoint
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

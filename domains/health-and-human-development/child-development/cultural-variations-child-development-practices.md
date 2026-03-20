@@ -14,7 +14,7 @@ tags:
 - development-context
 - cultural-norms
 - cross-cultural
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

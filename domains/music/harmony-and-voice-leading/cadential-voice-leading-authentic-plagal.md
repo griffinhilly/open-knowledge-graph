@@ -19,7 +19,7 @@ tags:
 - plagal
 - voice-leading
 - phrase-ending
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - composition
 - acoustics
 - timbre
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

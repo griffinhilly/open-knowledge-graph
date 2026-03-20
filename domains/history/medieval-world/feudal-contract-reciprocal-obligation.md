@@ -14,7 +14,7 @@ tags:
 - obligation
 - reciprocity
 - law
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

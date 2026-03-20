@@ -16,7 +16,7 @@ tags:
 - symptom
 - defense
 - unconscious
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

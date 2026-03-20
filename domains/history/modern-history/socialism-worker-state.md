@@ -16,7 +16,7 @@ tags:
 - worker-control
 - collective-ownership
 - class-struggle
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

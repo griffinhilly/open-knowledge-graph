@@ -15,7 +15,7 @@ tags:
 - dehumanization
 - moral disengagement
 - violence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - long-run
 - scale
 - cost-structure
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

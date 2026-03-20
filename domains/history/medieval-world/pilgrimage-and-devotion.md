@@ -13,7 +13,7 @@ tags:
 - devotion
 - pilgrimage
 - Christianity
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

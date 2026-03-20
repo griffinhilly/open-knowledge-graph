@@ -15,7 +15,7 @@ tags:
 - old-kingdom
 - pyramids
 - pharaohs
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

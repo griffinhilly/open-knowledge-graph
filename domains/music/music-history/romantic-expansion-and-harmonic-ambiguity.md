@@ -16,7 +16,7 @@ tags:
 - chromaticism
 - expression
 - tonality
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

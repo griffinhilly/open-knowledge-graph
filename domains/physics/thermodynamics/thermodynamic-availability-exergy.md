@@ -12,7 +12,7 @@ tags:
 - second-law
 - useful-work
 - efficiency
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

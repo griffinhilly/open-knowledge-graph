@@ -26,7 +26,7 @@ tags:
 - consistency
 - self-reference
 - Peano-arithmetic
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - magnitudes
 - colors
 - filters
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

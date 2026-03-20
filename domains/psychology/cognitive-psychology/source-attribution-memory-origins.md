@@ -15,7 +15,7 @@ tags:
 - metamemory
 - source-monitoring
 - judgment
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

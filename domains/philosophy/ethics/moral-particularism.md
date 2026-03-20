@@ -14,7 +14,7 @@ tags:
 - Dancy
 - holism-of-reasons
 - moral-principles
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

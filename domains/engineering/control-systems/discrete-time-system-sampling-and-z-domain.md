@@ -16,7 +16,7 @@ tags:
 - discrete-time
 - aliasing
 - sampler-hold
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

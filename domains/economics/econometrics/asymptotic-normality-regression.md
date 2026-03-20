@@ -18,7 +18,7 @@ tags:
 - asymptotic-theory
 - inference
 - clt
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

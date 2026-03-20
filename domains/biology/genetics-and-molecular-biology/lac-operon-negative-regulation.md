@@ -16,7 +16,7 @@ tags:
 - operon-model
 - repressor-protein
 - transcription-control
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

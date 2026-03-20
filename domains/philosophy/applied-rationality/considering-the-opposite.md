@@ -14,7 +14,7 @@ builds-toward:
   - steelmanning
   - intellectual-humility-and-calibrated-uncertainty
 tags: ["debiasing", "confirmation-bias", "technique", "critical-thinking"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - diffusion
 - oxygen
 - carbon-dioxide
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

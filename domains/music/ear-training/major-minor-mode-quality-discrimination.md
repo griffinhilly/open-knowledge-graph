@@ -16,7 +16,7 @@ tags:
 - major-minor
 - tonality
 - quality
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

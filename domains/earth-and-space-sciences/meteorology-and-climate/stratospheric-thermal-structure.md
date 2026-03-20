@@ -15,7 +15,7 @@ tags:
 - stratosphere
 - radiation
 - thermal
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

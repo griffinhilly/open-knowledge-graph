@@ -15,7 +15,7 @@ tags:
 - skills
 - habits
 - learning
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

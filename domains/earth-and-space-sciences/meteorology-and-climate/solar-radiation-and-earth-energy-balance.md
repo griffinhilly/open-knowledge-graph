@@ -22,7 +22,7 @@ tags:
 - insolation
 - energy-balance
 - radiation
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

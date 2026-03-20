@@ -15,7 +15,7 @@ tags:
 - validity
 - ambiguity
 - analysis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

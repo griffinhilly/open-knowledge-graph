@@ -15,7 +15,7 @@ tags:
 - native-species
 - succession
 - disturbance
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

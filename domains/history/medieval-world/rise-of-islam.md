@@ -19,7 +19,7 @@ tags:
 - arabia
 - religion
 - expansion
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - phase shift
 - anti-reflection
 - soap bubble
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Thin-Film Interference

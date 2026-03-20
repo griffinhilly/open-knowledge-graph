@@ -14,7 +14,7 @@ tags:
 - social-contract
 - state-of-nature
 - political-justification
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - consent
 - legitimacy
 - authority
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

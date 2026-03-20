@@ -14,7 +14,7 @@ tags:
 - organization
 - rehearsal
 - mnemonics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

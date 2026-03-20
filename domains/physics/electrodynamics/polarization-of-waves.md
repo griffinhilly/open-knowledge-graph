@@ -13,7 +13,7 @@ tags:
 - polarization
 - wave-properties
 - light
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

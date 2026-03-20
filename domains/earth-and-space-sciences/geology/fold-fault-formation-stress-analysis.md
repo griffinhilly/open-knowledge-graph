@@ -6,15 +6,13 @@ course: geology
 prerequisites:
 - id: plate-boundary-processes-interactions
   type: hard
-- id: stress-tensor-inversion-from-earthquakes
-  type: soft
 builds-toward:
 - geologic-structures-folds-faults
 tags:
 - structural-geology
 - tectonics
 - deformation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - element-chasing
 - homological-algebra
 - proof-methods
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

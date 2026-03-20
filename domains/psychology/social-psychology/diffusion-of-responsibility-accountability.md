@@ -16,7 +16,7 @@ tags:
 - groups
 - accountability
 - social-influence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

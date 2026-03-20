@@ -12,7 +12,7 @@ tags:
 - straw-man
 - misrepresentation
 - fallacies
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

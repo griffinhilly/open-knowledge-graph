@@ -17,7 +17,7 @@ tags:
 - resistance
 - resistivity
 - drift-velocity
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

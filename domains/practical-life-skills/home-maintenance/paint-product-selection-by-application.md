@@ -31,6 +31,45 @@ Visit a paint store and read product descriptions, comparing latex, oil, and spe
 ## Common Misconceptions
 - More expensive paint is always better. - Interior and exterior paint are interchangeable. - Primer is optional. - One coat is sufficient for most applications.
 
+## Questions
+
+```yaml
+- question: "A homeowner wants to paint the exterior of their house and has leftover interior latex paint from a bedroom renovation. What is the most likely outcome if they use it outside?"
+  type: multiple-choice
+  options:
+    - "It will work fine because latex is water-resistant once dry"
+    - "It will need an extra coat but otherwise perform normally"
+    - "It will fail early — peeling, fading, or allowing mildew — because it lacks exterior formulation"
+    - "The color will be slightly off but durability will be the same"
+  answer: 2
+  explanation: "Interior and exterior paints are fundamentally different formulations, not the same product in different packaging. Exterior paint contains UV inhibitors to resist fading, biocides to resist mildew, and flexible binders designed to handle freeze-thaw cycles. Interior paint has none of these. Using it outside causes rapid failure — typically peeling, chalking, or mildew growth — often within one to two seasons. This is a chemical and structural incompatibility, not merely an aesthetic issue."
+
+- question: "You are painting bathroom walls that will be regularly wiped down. Which sheen level is most appropriate?"
+  type: multiple-choice
+  options:
+    - "Flat/matte — it hides surface imperfections best"
+    - "Eggshell or satin — durable enough to wipe clean without being excessively shiny"
+    - "Gloss — the highest sheen always means the most durable surface"
+    - "Any sheen works because all bathroom paints have the same durability"
+  answer: 1
+  explanation: "Eggshell and satin are the workhorses for high-contact, washable surfaces. Flat paint hides imperfections but cannot be scrubbed — it will mark permanently and absorb moisture. Gloss is over-specified for most bathroom walls; it reveals every surface imperfection and looks institutional. Semi-gloss makes more sense for trim and doors. The sheen choice is driven by the trade-off: higher sheen = more washable but more revealing of surface flaws."
+
+- question: "Primer is optional if you are applying a high-quality premium paint over freshly patched drywall."
+  type: true-false
+  answer: false
+  explanation: "Primer is never optional on new or freshly patched drywall, regardless of paint quality. New drywall and patches absorb paint differently than the surrounding wall surface. Without primer, paint soaks in unevenly, leaving visible 'flashing' — dull spots that show through the topcoat even after multiple coats of expensive paint. Primer seals the substrate and provides a consistent surface for the topcoat to bond to. No premium paint formulation eliminates this need."
+
+- question: "Modern water-based alkyd ('waterborne enamel') paints can achieve oil-like hardness with easier water cleanup."
+  type: true-false
+  answer: true
+  explanation: "Traditional oil-based paint produces a harder, more durable finish than standard latex but requires mineral spirits for cleanup and takes 8–24 hours to dry. Modern waterborne alkyds have been formulated to provide oil-like hardness and surface leveling while cleaning up with water and drying in a few hours. This makes them an excellent choice for trim, cabinets, and doors without the VOC fumes, long dry times, and solvent cleanup of traditional oil paint."
+
+- question: "Why does choosing the wrong paint type cause actual adhesion or durability failures rather than just an imperfect appearance?"
+  type: short-answer
+  answer: "Paint is engineered specifically for its target environment — the binders, additives, and pigment carriers are formulated to bond to specific surfaces and survive specific conditions. Using interior paint outside fails because it lacks UV inhibitors and flexible binders for freeze-thaw stress. Using too low a sheen on a high-contact surface fails because the binder isn't hard enough to withstand repeated scrubbing. Skipping primer on new drywall causes flashing because the substrate absorbs paint unevenly. In each case, the mismatch is chemical and structural, producing failures that require stripping and repainting rather than just a second coat."
+  explanation: "The practical consequence of treating paint as a single commodity is expensive rework. Paint that peels within two years, walls that can't be cleaned without leaving marks, or surfaces that show every patch under the final coat all require stripping, repriming, and repainting. The decision tree — environment, formulation type, sheen level, primer need — exists because each dimension addresses a specific failure mode, not a preference."
+```
+
 ## Explainer
 
 Paint is not a single product — it's a category that includes dozens of formulations, each engineered for specific conditions. Choosing the wrong type doesn't just waste money; it causes adhesion failures, early peeling, mold growth, or surfaces that look wrong and clean poorly. The selection process follows a simple decision tree: first, what surface and environment? Then, what sheen level? Finally, do you need a specialty formulation or primer?

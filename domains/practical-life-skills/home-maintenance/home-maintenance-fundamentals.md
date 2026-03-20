@@ -29,6 +29,45 @@ Observe what needs care or breaks in your own home. Ask homeowners what seasonal
 ## Common Misconceptions
 Maintenance is only needed when something breaks. (Preventive maintenance prevents most problems.) Only professionals can do home repairs. (Many basic repairs are safe for homeowners.)
 
+## Questions
+
+```yaml
+- question: "A homeowner notices his gutters are clogged with leaves in October. He decides to clear them next spring. That winter, water overflows repeatedly, soaks the fascia boards, and they begin to rot. Which statement best explains this outcome?"
+  type: multiple-choice
+  options:
+    - "The homeowner was unlucky — fascia rot from water is unpredictable and rare"
+    - "Deferred maintenance converted a cheap preventive task into an expensive corrective repair"
+    - "Gutter cleaning is a professional task and should never be DIY"
+    - "The fascia boards were already weak before the gutters clogged"
+  answer: 1
+  explanation: "This is the central economic argument for preventive maintenance. A $0 task (clearing leaves) was deferred, converting it into a potentially hundreds-of-dollars repair (replacing rotted fascia boards). Deferred maintenance is not money saved — it is larger bills accumulating with interest. The homeowner's mistake was treating a preventive task as optional rather than scheduled."
+
+- question: "You notice a small crack in the caulk around your bathroom tub. Water has not yet leaked through. What type of maintenance does this represent, and what is the right response?"
+  type: multiple-choice
+  options:
+    - "Emergency repair — call a plumber immediately before any water escapes"
+    - "Preventive maintenance — fix it now before water infiltrates and causes larger damage"
+    - "Corrective maintenance — wait until you see actual water damage before acting"
+    - "Cosmetic issue — caulk is not structural and can safely be ignored"
+  answer: 1
+  explanation: "A cracked caulk line is a small failure that hasn't yet caused damage — addressing it now is preventive. Left alone, water infiltration will rot the surrounding wood, grow mold, and may eventually reach the subfloor, converting a $5 tube of caulk into a major repair. This is exactly the 'fix small failures before they cascade' principle of preventive maintenance."
+
+- question: "Deferred maintenance costs more in the long run than completing preventive tasks on schedule."
+  type: true-false
+  answer: true
+  explanation: "The economics of home maintenance are consistent: small, cheap preventive tasks (changing air filters, clearing gutters, recaulking) prevent large, expensive corrective repairs (HVAC replacement, fascia rot, water damage). A $15 furnace filter prevents a $3,000 HVAC replacement. Skipping preventive maintenance doesn't save money — it delays and amplifies the cost."
+
+- question: "Only licensed professionals can safely perform basic home maintenance tasks."
+  type: true-false
+  answer: false
+  explanation: "One of the explicit goals of learning home maintenance fundamentals is knowing the boundary between DIY and professional work. Many basic tasks — changing air filters, testing smoke detectors, recaulking, cleaning gutters, replacing weatherstripping — are safe, appropriate, and inexpensive for homeowners to do themselves. The skill is knowing which tasks fall in that category and which require professional expertise."
+
+- question: "Why is 'I'll fix it when it breaks' actually a more expensive approach to home maintenance than following a preventive schedule?"
+  type: short-answer
+  answer: "Reactive maintenance waits for systems to fail completely before addressing them — by which point a small, cheap problem has often cascaded into a large, expensive one. A clogged dryer vent becomes a fire hazard or dryer failure; a small roof leak becomes a rotted rafter. Preventive tasks are cheap precisely because they address problems at their earliest, most manageable stage. Waiting until something breaks means paying for the damage it caused while failing, not just for the repair."
+  explanation: "This is the core economic logic of preventive maintenance. Every building system degrades predictably over time — the question is whether you service it on a cheap schedule or pay for the expensive failure at the end. The analogy to car oil changes is instructive: no one waits for the engine to seize before changing the oil."
+```
+
 ## Explainer
 
 A house is a machine made of subsystems — structural, electrical, plumbing, HVAC, roofing, exterior envelope — each of which degrades over time at a predictable rate. **Preventive maintenance** is the practice of servicing these systems on a schedule before they fail, analogous to changing a car's oil rather than waiting for the engine to seize. The economics are decisive: a $15 furnace filter replaced every three months prevents a $3,000 HVAC replacement. Gutters cleared twice a year prevent water infiltration that rots fascia boards, damages siding, and floods basements. In homeownership, deferred maintenance is not money saved — it is larger repair bills accumulating with interest.

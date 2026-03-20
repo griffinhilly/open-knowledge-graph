@@ -15,7 +15,7 @@ tags:
 - form
 - writing-modes
 - rhetoric
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

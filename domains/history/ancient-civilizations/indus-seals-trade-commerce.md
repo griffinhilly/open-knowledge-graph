@@ -3,7 +3,9 @@ id: indus-seals-trade-commerce
 title: Indus Valley Seals and Trade Networks
 domain: history
 course: ancient-civilizations
-prerequisites: []
+prerequisites:
+- id: mesopotamia-origins
+  type: soft
 builds-toward:
 - indus-citadels-urban-centers
 tags:
@@ -12,10 +14,9 @@ tags:
 - trade
 - commerce
 - standardization
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Indus Valley Seals and Trade Networks
 
 ## Core Idea

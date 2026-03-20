@@ -15,7 +15,7 @@ tags:
 - landscape
 - built-environment
 - tradition
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - retirement
 - ira
 - taxes
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - intensity
 - polarizer angle
 - cosine squared
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

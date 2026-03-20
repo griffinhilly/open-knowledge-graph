@@ -18,7 +18,7 @@ tags:
 - error
 - downfall
 - fate
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

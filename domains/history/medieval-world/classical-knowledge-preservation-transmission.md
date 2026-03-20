@@ -18,7 +18,7 @@ tags:
 - transmission
 - preservation
 - learning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

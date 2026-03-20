@@ -9,8 +9,7 @@ prerequisites:
 - id: postcolonial-historiography
   type: soft
 builds-toward:
-- comparative-historical-research
-- postcolonial-historiography
+  - postcolonial-historiography
 tags:
 - connected histories
 - entanglement
@@ -19,7 +18,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Connected Histories and Entanglement
 
 ## Core Idea

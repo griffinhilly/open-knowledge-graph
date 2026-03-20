@@ -14,7 +14,7 @@ tags:
 - selective-reabsorption
 - glucose-reabsorption
 - organic-secretion
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

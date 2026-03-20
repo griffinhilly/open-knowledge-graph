@@ -14,7 +14,7 @@ tags:
 - diffraction-grating
 - spectroscopy
 - grating-equation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

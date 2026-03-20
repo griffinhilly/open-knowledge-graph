@@ -15,7 +15,7 @@ tags:
 - metamorphic
 - petrology
 - facies
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - saint-cult
 - devotion
 - material-culture
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

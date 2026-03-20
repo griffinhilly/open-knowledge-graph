@@ -17,7 +17,7 @@ tags:
 - classification
 - ritual
 - religion
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -31,6 +31,45 @@ Start with low-stakes, familiar topics: show-and-tell, sharing a favorite book, 
 - That young children are naturally too shy to present and should not be pushed -- most children enjoy sharing when the environment is supportive, the topic is familiar, and the stakes are low.
 - That presentation skills develop on their own from classroom participation -- explicit instruction on volume, eye contact, and topic focus produces measurably better results than incidental practice alone.
 
+## Questions
+
+```yaml
+- question: "Why should a presenter aim their voice at the back row rather than at the person sitting in front of them?"
+  type: multiple-choice
+  options:
+    - "It shows the presenter is confident and experienced"
+    - "Audience members who cannot hear rarely say so — they simply stop listening"
+    - "Projecting to the back automatically slows your speaking pace"
+    - "The back row is where the most important audience members usually sit"
+  answer: 1
+  explanation: "Unlike in a one-on-one conversation — where a listener will ask you to repeat yourself — audience members in a presentation usually stay silent when they cannot hear, and simply disengage. By the time a presenter realizes they are inaudible, they have already lost a significant part of their audience. Aiming for the back row ensures everyone can hear, and feels louder than necessary to the presenter, which is usually exactly the right volume for the room."
+
+- question: "A student presenter is nervous and rushes through their report to finish quickly. What adjustment would most improve the presentation?"
+  type: multiple-choice
+  options:
+    - "Memorize the entire report word-for-word to reduce the chance of mistakes"
+    - "Slow down and pause briefly after key points — nervous presenters almost always speak too fast"
+    - "Ask the audience to hold all questions until the end"
+    - "Use fewer words to make the presentation shorter overall"
+  answer: 1
+  explanation: "Nervousness consistently drives speakers to speed up, which makes content harder to follow and signals anxiety to the audience. Deliberately slowing down — even when it feels unnaturally slow to the speaker — usually produces a better pace for listeners. Strategic pauses after key points give the audience time to absorb each idea and signal that something important was just said. Slowing down is one of the highest-impact adjustments a beginning presenter can make."
+
+- question: "The main purpose of eye contact in a presentation is to make the speaker appear more confident."
+  type: true-false
+  answer: false
+  explanation: "Eye contact primarily serves the audience, not the speaker's image. When a speaker makes eye contact, the audience member feels addressed and included — the speaker is communicating 'I am speaking to you specifically.' Eye contact also gives the speaker real-time feedback: you can see when listeners look confused, engaged, or checked out, and adjust accordingly. Confidence may be a side effect, but audience connection and feedback are the core functions."
+
+- question: "In an oral presentation, repeating your main point at the beginning and again at the end is unnecessary repetition that weakens the presentation."
+  type: true-false
+  answer: false
+  explanation: "Oral presentations intentionally use more repetition than written communication because listeners cannot re-read. Stating your topic at the start orients the audience so they know what framework to use as they listen. Summarizing at the end reinforces what was covered and ensures the audience remembers it. This 'tell them what you'll say, say it, tell them what you said' structure is a feature, not redundancy — it compensates for the fact that spoken words disappear immediately."
+
+- question: "Why do oral presentations require more explicit structure — signposting, upfront topic statements, summaries — than written communication?"
+  type: short-answer
+  answer: "Because listeners cannot go back and re-read. In writing, a reader who misses something can reread the paragraph. In speaking, once words are said they are gone. Signposting phrases ('first,' 'now let's look at,' 'to wrap up') help the audience track where they are in the presentation. A clear opening statement lets the audience build the right mental framework before details arrive. A closing summary ensures they leave with the main idea even if they missed parts. All of this compensates for the lack of re-readability."
+  explanation: "This is the fundamental difference between speech and text as communication modes. Good oral structure is not about being repetitive for its own sake — it is about giving a one-shot audience the navigational tools they need to follow and retain the content."
+```
+
 ## Explainer
 
 You have already practiced **storytelling** — organizing events or ideas into a sequence with a beginning, middle, and end, using your voice and words to hold a listener's attention. You have also practiced **listening comprehension**, which means you already know what it feels like to be the audience — when a speaker is clear and engaging, and when they are not. Oral presentation is where those two skills combine in a new context. The core abilities transfer directly: you still need to know what you want to say, say it in an order that makes sense, and check whether your audience is following. What changes is the setting — you are speaking to a group that has gathered specifically to listen to you, which introduces new demands on your voice, your body, and your structure.

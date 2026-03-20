@@ -15,7 +15,7 @@ tags:
 - compliance
 - sales tactics
 - framing effects
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

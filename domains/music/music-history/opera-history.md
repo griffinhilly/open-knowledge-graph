@@ -18,7 +18,7 @@ tags:
 - bel-canto
 - music-drama
 - leitmotif
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

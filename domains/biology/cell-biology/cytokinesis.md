@@ -16,7 +16,7 @@ tags:
 - cell-plate
 - division
 - animal-plant
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

@@ -8,16 +8,14 @@ prerequisites:
   type: hard
 - id: functors
   type: hard
-builds-toward:
-- localization-of-categories
+builds-toward: []
 tags:
 - quotient-construction
 - equivalence-relations
 - morphism-identification
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Quotient Categories
 
 ## Core Idea

@@ -14,7 +14,7 @@ tags:
 - output
 - marginal-revenue
 - marginal-cost
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

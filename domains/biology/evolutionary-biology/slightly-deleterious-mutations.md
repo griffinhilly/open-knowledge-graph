@@ -11,8 +11,7 @@ prerequisites:
 - id: population-genetics-intro
   type: soft
 builds-toward:
-- nearly-neutral-evolution
-- efficacy-selection-finite-populations
+  - efficacy-selection-finite-populations
 tags:
 - mutation
 - deleterious
@@ -21,7 +20,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Slightly Deleterious Mutations and Mutational Load
 
 ## Core Idea

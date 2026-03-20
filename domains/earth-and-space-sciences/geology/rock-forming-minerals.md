@@ -23,7 +23,7 @@ tags:
 - quartz
 - mafic
 - felsic
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

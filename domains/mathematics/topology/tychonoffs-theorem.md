@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - tychonoff
 - product-compactness
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

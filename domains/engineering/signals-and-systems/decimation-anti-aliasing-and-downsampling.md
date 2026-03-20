@@ -6,17 +6,15 @@ course: signals-and-systems
 prerequisites:
 - id: anti-aliasing-filters-pre-sampling-design
   type: hard
-builds-toward:
-- polyphase-filter-decomposition-multirate
+builds-toward: []
 tags:
 - decimation
 - downsampling
 - anti-aliasing
 - multirate
-stage: formal-systems
+stage: advanced
 status: draft
 ---
-
 # Decimation, Anti-Aliasing, and Downsampling
 
 ## Core Idea

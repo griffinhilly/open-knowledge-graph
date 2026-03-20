@@ -12,7 +12,7 @@ tags:
 - language-development
 - social-communication
 - pragmatics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

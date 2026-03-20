@@ -30,6 +30,45 @@ Study anatomy references and draw eyes from life at multiple angles. Render the 
 ## Common Misconceptions
 Eyes are not flat circles on the face—they sit in sockets and are partially covered by eyelids. The iris is not always fully visible. Highlights belong on the eyeball surface, not on the iris.
 
+## Questions
+
+```yaml
+- question: "A student draws a portrait eye by placing the bright specular highlight precisely in the center of the iris and drawing the upper eyelid as a simple curved line with no shadow on the eyeball below it. The result looks flat and 'pasted on.' Which two changes would most directly fix this?"
+  type: multiple-choice
+  options:
+    - "Make the iris larger and add more detail to the pupil and eyelashes"
+    - "Move the highlight to the cornea's surface (which can overlap both iris and pupil) and add the eyelid's shadow falling onto the upper eyeball"
+    - "Increase the contrast of the iris color and darken the white of the eye"
+    - "Add more eyelashes and refine the tear duct area"
+  answer: 1
+  explanation: "Two structural facts fix the flatness: (1) The specular highlight belongs on the cornea — the transparent curved surface sitting over the iris — not on the iris itself. Placed on the cornea, it often overlaps iris and pupil, which is anatomically correct and makes the eye look alive. (2) The upper eyelid casts a shadow on the top of the eyeball. Without this shadow, the lid looks like it is on the same plane as the eye rather than in front of it. These are the two most critical structural details."
+
+- question: "Why is the specular highlight in a portrait eye placed on the cornea rather than painted directly onto the iris?"
+  type: multiple-choice
+  options:
+    - "The iris has no reflective surface; highlights should always be kept away from it"
+    - "The cornea is a curved, transparent surface that sits over the iris — the light source reflects off this spherical surface, and the highlight often overlaps both iris and pupil"
+    - "Highlights on the iris are a convention that Renaissance painters used but modern portraitists have abandoned"
+    - "It is purely an aesthetic convention with no anatomical basis"
+  answer: 1
+  explanation: "The cornea is a dome-shaped transparent layer over the iris and pupil. Because it protrudes outward from the surface of the eye and is highly reflective, the specular highlight — the sharp reflection of the light source — appears on the cornea's curved surface. This can place the highlight anywhere on the eye, including overlapping the iris and pupil, which is anatomically accurate and visually essential for making the eye look three-dimensional and alive."
+
+- question: "In a convincing portrait, the upper eyelid casts a subtle shadow onto the top of the eyeball — this shadow is what communicates that the lid is a separate form sitting in front of the sphere."
+  type: true-false
+  answer: true
+  explanation: "The upper lid is anatomically in front of the eyeball — it sits over the sphere. Light coming from above is blocked by the lid before it reaches the top of the eyeball, casting a shadow onto the eyeball's surface. Without this shadow, the lid and the eyeball appear to be on the same plane. Adding this shadow is one of the highest-leverage rendering details for depth and realism."
+
+- question: "In a neutral forward-facing expression, the iris is usually fully visible — the eyelids only partially cover the eye when it looks to the side."
+  type: true-false
+  answer: false
+  explanation: "In a resting, neutral expression, the upper eyelid typically covers the top portion of the iris. The iris is almost never fully visible without the lid cutting across its upper arc. Drawing a fully exposed, uncovered iris creates an unnatural wide-eyed stare. This is one of the most common errors in beginner portraiture and is corrected by careful observation of how much iris is actually visible."
+
+- question: "Why is understanding that the eye is a sphere seated in a bony socket — rather than a flat disc — essential to rendering it convincingly in a portrait?"
+  type: short-answer
+  answer: "Every convincing detail of a painted or drawn eye follows from the sphere: the specular highlight sits on the curved cornea's surface (not flat on the iris), the upper eyelid casts a shadow onto the top of the eyeball (showing the lid is in front of the sphere), the iris appears slightly recessed behind the convex cornea, and the whole form has the gradual light-to-shadow transition of any rounded three-dimensional object. Treating the eye as flat leads to highlights in anatomically wrong positions, missing eyelid shadows, and the characteristic 'pasted-on' appearance that marks poorly rendered portrait eyes."
+  explanation: "The sphere is the foundational conceptual model. Once a student understands the eye as a sphere partially covered by muscular lids sitting in a bony socket, all the rendering rules follow logically from light behavior on curved surfaces — they don't need to be memorized as arbitrary conventions."
+```
+
 ## Explainer
 
 From your work on facial proportions, you know that the eyes sit roughly at the horizontal midpoint of the head, spaced approximately one eye-width apart. That proportional framework tells you *where* to place the eyes, but rendering them convincingly requires understanding *what* you are actually drawing. The human eye is not a flat disc painted onto the face — it is a **sphere seated in a bony socket**, partially covered by two muscular lids. Everything about drawing a convincing eye follows from this three-dimensional reality.

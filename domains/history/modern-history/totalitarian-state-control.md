@@ -15,7 +15,7 @@ tags:
 - authoritarianism
 - state-control
 - propaganda
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 The distributive property states that 3 × 7 = 3 × (5 + 2) = (3 × 5) + (3 × 2). Breaking a number into parts and multiplying each part separately mirrors dividing a rectangle into smaller rectangles. This supports mental math and prepares for multi-digit algorithms.
 
+## Questions
+
+```yaml
+- question: "A student needs to calculate 6 × 7 but is more confident with 6 × 5. Which approach correctly uses the distributive property?"
+  type: multiple-choice
+  options:
+    - "6 × 7 = 6 × 5 + 7 (add the second factor to the first product)"
+    - "6 × 7 = (6 × 5) + (6 × 2), because 7 = 5 + 2"
+    - "6 × 7 = (6 × 5) × (6 × 2), because you multiply each part"
+    - "6 × 7 = 6 × 5 + 5, because you just add another 5"
+  answer: 1
+  explanation: "The distributive property says you can break one factor into parts and multiply each part by the other factor, then add the products: 6 × 7 = 6 × (5 + 2) = (6 × 5) + (6 × 2) = 30 + 12 = 42. Option A adds 7 to the product instead of multiplying — a common error. Option C multiplies the partial products together instead of adding them. Option D arbitrarily adds 5 without mathematical justification."
+
+- question: "To check the distributive property for 4 × 8, a student draws a rectangle that is 4 units tall and 8 units wide, then splits it into a 4 × 3 section and a 4 × 5 section. What is the total area?"
+  type: multiple-choice
+  options:
+    - "(4 × 3) + (4 × 5) = 12 + 20 = 32, which equals 4 × 8"
+    - "(4 + 3) × (4 + 5) = 7 × 9 = 63, because splitting changes the area"
+    - "(4 × 3) × (4 × 5) = 12 × 20 = 240, because you multiply the parts"
+    - "The total area cannot be determined without measuring the split"
+  answer: 0
+  explanation: "The area of the full rectangle is 4 × 8 = 32. Splitting it with a vertical line creates two smaller rectangles: 4 × 3 = 12 and 4 × 5 = 20. Adding them: 12 + 20 = 32. The split does not change the total area — it just reorganizes it. The key is that you ADD the partial products, not multiply them. This is why the distributive property works: you're counting the same space in a different way."
+
+- question: "The distributive property only works when you break apart the second factor, not the first."
+  type: true-false
+  answer: false
+  explanation: "The distributive property works symmetrically — you can break apart either factor. For 6 × 8, you could split the 6: (4 + 2) × 8 = (4 × 8) + (2 × 8) = 32 + 16 = 48. Or split the 8: 6 × (5 + 3) = (6 × 5) + (6 × 3) = 30 + 18 = 48. Both give the same answer. You choose which factor to split based on what makes the mental calculation easiest."
+
+- question: "3 × (5 + 2) = (3 × 5) + (3 × 2) = 21 is a correct application of the distributive property."
+  type: true-false
+  answer: true
+  explanation: "Yes — this is the distributive property applied correctly. 5 + 2 = 7, so 3 × 7 = 3 × (5 + 2). Distributing the 3 to each part gives (3 × 5) + (3 × 2) = 15 + 6 = 21. And 3 × 7 = 21 directly confirms the result. Each part of the sum gets multiplied by the same factor, then the partial products are added."
+
+- question: "Why doesn't drawing a vertical line inside a rectangle change its total area, and how does this explain why the distributive property works?"
+  type: short-answer
+  answer: "The line reorganizes the rectangle into two smaller pieces but doesn't remove or add any space. The total area stays the same — you're just counting it in two parts instead of one. This shows that (a × b) + (a × c) = a × (b + c): splitting the width into b and c and multiplying each piece by the height a gives the same total as multiplying a by the full width."
+  explanation: "The area model makes the distributive property feel inevitable rather than arbitrary. Students who can explain this connection understand multiplication as area — a deep geometric insight — rather than treating the property as a rule to apply by rote."
+```
+
 ## Explainer
 
 You already know your multiplication facts from 3s through 9s. The distributive property is a strategy that lets you use facts you know to compute facts you haven't memorized — or to make hard facts easier. The key idea is that multiplication distributes across addition: if you break a number into smaller pieces, you can multiply each piece separately and add the results. The total is exactly what you would have gotten by multiplying the original number.

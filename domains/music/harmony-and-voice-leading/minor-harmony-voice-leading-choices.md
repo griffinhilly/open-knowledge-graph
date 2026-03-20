@@ -17,7 +17,7 @@ tags:
 - minor-tonality
 - harmonic-minor
 - voice-leading
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

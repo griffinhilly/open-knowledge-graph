@@ -14,7 +14,7 @@ tags:
 - dividends
 - valuation
 - corporate-policy
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

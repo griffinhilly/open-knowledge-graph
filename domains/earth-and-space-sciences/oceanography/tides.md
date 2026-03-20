@@ -18,7 +18,7 @@ tags:
 - neap tides
 - tidal forcing
 - amphidromic point
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

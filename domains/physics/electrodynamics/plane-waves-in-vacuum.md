@@ -13,7 +13,7 @@ tags:
 - waves
 - propagation
 - vacuum
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

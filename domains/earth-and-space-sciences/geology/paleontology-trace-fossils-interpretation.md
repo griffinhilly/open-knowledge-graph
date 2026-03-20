@@ -12,7 +12,7 @@ tags:
 - paleontology
 - fossils
 - biostratigraphy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

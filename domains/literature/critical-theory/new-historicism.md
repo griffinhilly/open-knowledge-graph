@@ -20,7 +20,7 @@ tags:
 - power
 - containment
 - subversion
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - serial-correlation
 - testing
 - diagnostics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

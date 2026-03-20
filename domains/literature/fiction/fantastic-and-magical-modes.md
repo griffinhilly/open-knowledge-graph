@@ -17,7 +17,7 @@ tags:
 - wonder
 - modes
 - supernatural
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - duration
 - note-values
 - timing
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

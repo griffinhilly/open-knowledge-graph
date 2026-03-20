@@ -11,18 +11,16 @@ prerequisites:
 - id: binding-problem-consciousness
   type: soft
 builds-toward:
-- global-workspace-theory
-- heterophenomenology-methodology
+  - global-workspace-theory
 tags:
 - consciousness
 - information-theory
 - neuroscience
 - mechanism
 - integration
-stage: formal-systems
+stage: advanced
 status: draft
 ---
-
 # Integrated Information Theory of Consciousness
 
 ## Core Idea

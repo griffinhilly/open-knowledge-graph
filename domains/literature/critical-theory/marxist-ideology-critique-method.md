@@ -16,7 +16,7 @@ tags:
 - ideology
 - materialism
 - base-superstructure
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

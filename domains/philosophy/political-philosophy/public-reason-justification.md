@@ -14,7 +14,7 @@ tags:
 - justification
 - legitimacy
 - liberal-democracy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

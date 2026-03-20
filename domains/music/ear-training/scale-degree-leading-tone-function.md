@@ -16,7 +16,7 @@ tags:
 - leading-tone
 - tendency-tone
 - function
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

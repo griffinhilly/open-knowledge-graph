@@ -19,7 +19,7 @@ tags:
 - integration
 - capitalism
 - interdependence
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

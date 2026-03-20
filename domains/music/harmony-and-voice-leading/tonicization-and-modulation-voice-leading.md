@@ -15,7 +15,7 @@ tags:
 - modulation
 - secondary-dominant
 - tonal-center
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

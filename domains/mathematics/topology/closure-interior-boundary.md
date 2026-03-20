@@ -15,7 +15,7 @@ tags:
 - closure
 - interior
 - boundary
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

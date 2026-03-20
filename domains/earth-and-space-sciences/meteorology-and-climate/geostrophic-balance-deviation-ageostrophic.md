@@ -15,7 +15,7 @@ tags:
 - dynamics
 - wind
 - pressure-gradient
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

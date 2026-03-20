@@ -19,7 +19,7 @@ tags:
 - unconscious
 - desire
 - repression
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

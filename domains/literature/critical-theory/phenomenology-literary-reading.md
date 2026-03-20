@@ -15,7 +15,7 @@ tags:
 - embodied-reading
 - experience
 - consciousness
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

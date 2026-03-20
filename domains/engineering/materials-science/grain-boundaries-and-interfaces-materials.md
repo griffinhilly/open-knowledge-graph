@@ -15,7 +15,7 @@ tags:
 - high-angle
 - low-angle
 - grain-size
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

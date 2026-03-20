@@ -15,7 +15,7 @@ tags:
 - emphasis
 - stress
 - intonation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

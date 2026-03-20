@@ -18,7 +18,7 @@ tags:
 - attributable-risk
 - causation
 - epidemiology
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -31,6 +31,45 @@ Undertake a complete design sprint: write a self-imposed brief, produce 20+ thum
 - Talented designers get it right the first time — iteration is the mechanism of quality, not a sign of failure.
 - The brief constrains creativity — in practice, tight constraints produce more creative and coherent solutions than open-ended briefs.
 
+## Questions
+
+```yaml
+- question: "A student designer produces one strong-looking concept and submits it without testing or seeking critique. Their reasoning: 'If it looks good, it is good.' What is wrong with this approach?"
+  type: multiple-choice
+  options:
+    - "Designs should always look rough at first and only improve through revision"
+    - "Without critique referenced against the brief, there is no way to know if the design meets its objectives, regardless of how it looks"
+    - "One concept is always too few — the rule is a minimum of five"
+    - "Personal judgment is never reliable in design"
+  answer: 1
+  explanation: "A design can look visually appealing while completely failing its brief — wrong audience, wrong message, wrong tone. The brief defines the success criteria; critique references those criteria. Skipping iteration means you have only tested the design against your own taste, not against the problem it was meant to solve. 'It looks good to me' is the least reliable measure of whether a design works for its intended audience and purpose."
+
+- question: "A client gives this feedback on a logo design: 'I just don't like the typography — it feels off.' What is the problem with this critique, and how should it be reframed?"
+  type: multiple-choice
+  options:
+    - "Nothing is wrong — gut reactions are valuable design data"
+    - "The designer should simply change the typography to whatever the client prefers"
+    - "The feedback is subjective and not actionable; it should reference the brief — e.g., 'The typeface does not convey the authority specified for this financial brand'"
+    - "Typography is a secondary concern and should not be critiqued at this stage"
+  answer: 2
+  explanation: "Effective design critique is objective and brief-referenced. 'I don't like X' gives the designer no actionable direction — it could mean change it to anything else. Brief-referenced feedback identifies a specific mismatch between the design and its goals. Critique that cannot be traced to the brief's criteria is preference expression, and following it produces designs that satisfy the critic's taste rather than the brief's requirements. Learning to frame feedback this way is one of the most important skills in professional design collaboration."
+
+- question: "Producing many iterations before settling on a solution is a sign that a designer lacks talent — skilled designers find the right answer quickly."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true: iteration is the mechanism of quality, not evidence of failure. Professional designers kill dozens of directions before committing to one. The first idea is almost always the most obvious and therefore the most generic. Pushing through iteration — generating quantities of sketches, selecting promising directions, developing them, testing, refining — is exactly what separates professional work from amateur work. The 'first-idea genius' is a myth that discourages the iterative practice that produces genuinely strong solutions."
+
+- question: "A tight, restrictive brief actually enables more creative and coherent design solutions than an open-ended one."
+  type: true-false
+  answer: true
+  explanation: "Counterintuitive but well-supported: constraints focus creative energy. An open brief ('design something cool') provides no selection criteria — every direction is equally valid, which paradoxically makes decision-making harder and outputs more generic. A tight brief gives you criteria to test ideas against and forces creative solutions within real constraints. Professionals regularly report that their best work came from difficult, demanding briefs. The brief is not a cage — it is the target that makes good design measurable and purposeful."
+
+- question: "What is the purpose of the design brief, and how does it change the nature of critique?"
+  type: short-answer
+  answer: "The brief defines the problem, the audience, the constraints, and the success criteria — it transforms design from personal expression into problem-solving. In critique, the brief becomes the objective reference point: feedback is valid when it identifies a mismatch between the design and the brief's criteria, and invalid when it merely expresses personal taste. Without a brief, there is no objective basis for critique, only 'I like / don't like.' The brief also protects the designer: when a client demands a change that conflicts with the brief's objectives, the designer has grounds to push back with evidence rather than opinion."
+  explanation: "The brief is not written once and forgotten — designers often spend more time refining the brief than generating initial concepts, because a well-defined problem is already half solved. A brief that misidentifies the audience or misspecifies the goal produces good-looking work that fails its actual purpose."
+```
+
 ## Explainer
 
 Design process is not a talent — it is a discipline. The difference between a novice and a professional is not that the professional has better first ideas, but that the professional has a systematic method for generating many ideas, filtering them against criteria, and refining the survivors. Understanding this process gives you a framework that applies whether you are designing a poster, an interface, a building, or a product.

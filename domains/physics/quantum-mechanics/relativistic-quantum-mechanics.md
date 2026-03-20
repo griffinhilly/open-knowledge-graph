@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - relativistic-qm
 - special-relativity
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - electron affinity
 - periodic trends
 - anions
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

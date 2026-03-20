@@ -16,7 +16,7 @@ tags:
 - choice
 - preference
 - normative-ethics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

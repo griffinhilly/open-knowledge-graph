@@ -13,7 +13,7 @@ tags:
 - interactive-proofs
 - IP
 - Arthur-Merlin
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

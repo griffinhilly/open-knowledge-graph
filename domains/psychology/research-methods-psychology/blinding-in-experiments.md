@@ -16,7 +16,7 @@ tags:
 - demand-characteristics
 - experimenter-bias
 - placebo
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

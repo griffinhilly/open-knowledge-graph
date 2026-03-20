@@ -13,7 +13,7 @@ tags:
 - density-interface
 - stratification
 - mixing
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

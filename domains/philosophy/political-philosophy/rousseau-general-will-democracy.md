@@ -16,7 +16,7 @@ tags:
 - general-will
 - democracy
 - legitimacy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - stereoisomers
 - cis-trans
 - internal symmetry
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

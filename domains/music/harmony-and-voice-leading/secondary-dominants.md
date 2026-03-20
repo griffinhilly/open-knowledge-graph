@@ -25,7 +25,7 @@ tags:
 - applied-chords
 - chromaticism
 - tonicization
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Secondary Dominants

@@ -16,7 +16,7 @@ tags:
 - secondary-dominant
 - voice-leading
 - chromatic
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

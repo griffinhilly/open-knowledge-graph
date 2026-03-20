@@ -16,7 +16,7 @@ tags:
 - lipid
 - protein
 - fluidity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

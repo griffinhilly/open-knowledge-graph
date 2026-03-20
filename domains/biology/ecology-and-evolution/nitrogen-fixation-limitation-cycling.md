@@ -16,7 +16,7 @@ tags:
 - fixation
 - cycling
 - limitation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

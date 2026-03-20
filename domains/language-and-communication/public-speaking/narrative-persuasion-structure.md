@@ -16,7 +16,7 @@ tags:
 - persuasion
 - storytelling
 - structure
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

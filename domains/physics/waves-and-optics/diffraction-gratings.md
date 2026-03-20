@@ -15,7 +15,7 @@ tags:
 - spectroscopy
 - principal maxima
 - resolving power
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Diffraction Gratings

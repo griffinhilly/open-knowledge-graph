@@ -17,7 +17,7 @@ tags:
 - health-belief-model
 - social-ecological-model
 - behavior-change
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -12,7 +12,7 @@ tags:
 - resonance
 - acoustics
 - pipes
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

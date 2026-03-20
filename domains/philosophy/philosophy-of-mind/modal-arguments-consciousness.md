@@ -19,7 +19,7 @@ tags:
 - modal-logic
 - metaphysics
 - possibility
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -11,7 +11,7 @@ tags:
 - availability
 - heuristics
 - risk-perception
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

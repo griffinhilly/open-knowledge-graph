@@ -35,6 +35,45 @@ Have students measure the same object with both an inch ruler and a centimeter r
 - Not keeping the ruler straight along the object.
 - Confusing inches and centimeters or reading the wrong scale on a two-sided ruler.
 
+## Questions
+
+```yaml
+- question: "A student places a ruler so the '1' mark aligns with the left end of a pencil. The right end reaches the '7' mark. The student records the pencil as 7 units long. What is wrong?"
+  type: multiple-choice
+  options:
+    - "Nothing is wrong — the right end is at 7, so the pencil is 7 units"
+    - "The student read the wrong scale on a two-sided ruler"
+    - "The pencil is 6 units long, not 7 — measurement should start at 0, so starting at 1 adds one extra unit to the reading"
+    - "The student should read the left end of the pencil, not the right end"
+  answer: 2
+  explanation: "A ruler is a number line: the distance from 0 to 7 is 7 units, but the distance from 1 to 7 is only 6 units. By starting at 1, the student shifts the entire scale by 1 and gets a reading that is always one unit too high. The correct practice is to align the zero mark — not the '1' and not the ruler's physical edge — with one end of the object."
+
+- question: "A student measures her pencil case with a centimeter ruler and gets 28 cm. Her friend measures the same case with an inch ruler and gets 11 inches. The student says her friend must have made an error because 28 is bigger than 11. Is she right?"
+  type: multiple-choice
+  options:
+    - "Yes — the larger number is always the more accurate measurement"
+    - "No — centimeters are smaller units than inches, so more of them are needed to cover the same length; both measurements describe the same physical length and can both be correct"
+    - "Yes — centimeters and inches should give the same number if measured correctly"
+    - "No — inches always give a larger number than centimeters"
+  answer: 1
+  explanation: "The size of the unit determines the size of the number. Centimeters are about 2.5 times smaller than inches, so it takes roughly 2.5 times as many centimeters to span the same length. 28 cm ≈ 11 inches is a perfectly consistent measurement of the same object. Comparing raw numbers across different units is meaningless without accounting for unit size — this is the core conceptual insight about standard measurement."
+
+- question: "Measuring the same object in centimeters always produces a larger number than measuring it in inches."
+  type: true-false
+  answer: true
+  explanation: "Centimeters are smaller than inches (roughly 2.54 cm per inch). Because each centimeter unit covers less distance, more of them are needed to span the same length. So the same object always yields a bigger count in centimeters than in inches. This is a reliable rule: smaller units → larger number; larger units → smaller number."
+
+- question: "The most important step when using a ruler is to align the physical left edge of the ruler (the end of the ruler) with one end of the object being measured."
+  type: true-false
+  answer: false
+  explanation: "The critical alignment is the zero mark, not the ruler's physical edge. Many rulers have a small blank border before the zero — placing the physical edge flush with the object would start the measurement before the zero, producing a reading that is too large. Students should actively find the '0' mark and align it with one end of the object."
+
+- question: "Why does starting a measurement at the '1' mark instead of the '0' mark always give an incorrect answer, regardless of how carefully you read the other end of the object?"
+  type: short-answer
+  answer: "A ruler works like a number line: the measurement is the distance between the starting mark and the ending mark. Starting at 1 means you are measuring from 1 to the final reading — which is always one unit less than the number you read. If the far end is at 9 and you started at 1, the actual length is 8, but the student records 9. No matter how precisely you read the far end, a wrong starting point produces a wrong answer."
+  explanation: "This is an 'off-by-one' error built into the setup, not the reading. The fix is simple — always start at zero — but students must understand why: the number at the far end only equals the length when the starting number is zero."
+```
+
 ## Explainer
 
 You already know how to measure length using nonstandard units — lining up paperclips end to end, or counting how many blocks long a desk is. That approach works for comparing two objects in the same room, but imagine trying to tell a friend across town how long your desk is: "seven paperclips" only makes sense if they have identical paperclips. **Standard units** solve this problem by giving everyone the same reference length.

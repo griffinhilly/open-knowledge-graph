@@ -13,7 +13,7 @@ tags:
 - totalitarianism
 - soviet-union
 - dictatorship
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

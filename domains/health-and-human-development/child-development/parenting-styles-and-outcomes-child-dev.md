@@ -20,7 +20,7 @@ tags:
 - authoritarian
 - permissive
 - uninvolved
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

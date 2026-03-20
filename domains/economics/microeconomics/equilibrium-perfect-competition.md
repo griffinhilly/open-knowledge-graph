@@ -15,7 +15,7 @@ tags:
 - supply-demand
 - perfect-competition
 - price-taker
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

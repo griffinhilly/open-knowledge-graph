@@ -18,7 +18,7 @@ tags:
 - tubular-reabsorption
 - selectivity
 - gfr
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

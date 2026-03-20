@@ -19,7 +19,7 @@ tags:
 - interpretation
 - central idea
 - argument
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

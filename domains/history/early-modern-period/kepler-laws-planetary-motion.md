@@ -14,7 +14,7 @@ tags:
 - astronomy
 - planetary-motion
 - mathematics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - positive-rights
 - liberty
 - duties
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

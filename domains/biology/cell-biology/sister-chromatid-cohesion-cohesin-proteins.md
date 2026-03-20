@@ -14,7 +14,7 @@ tags:
 - sister-chromatids
 - cohesin
 - chromosome-segregation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

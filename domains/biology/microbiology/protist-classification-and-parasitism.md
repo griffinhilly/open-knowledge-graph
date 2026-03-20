@@ -16,7 +16,7 @@ tags:
 - parasites
 - protozoa
 - pathogenic
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

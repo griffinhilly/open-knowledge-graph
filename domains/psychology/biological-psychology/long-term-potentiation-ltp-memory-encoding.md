@@ -29,7 +29,7 @@ tags:
 - plasticity
 - learning
 - memory-encoding
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

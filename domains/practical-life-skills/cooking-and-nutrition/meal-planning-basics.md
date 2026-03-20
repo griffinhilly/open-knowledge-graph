@@ -29,7 +29,7 @@ tags:
 - batch-cooking
 - weekly-schedule
 - nutrition
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 # Meal Planning Basics

@@ -15,7 +15,7 @@ tags:
 - sensory-development
 - sensory-integration
 - perceptual-learning
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

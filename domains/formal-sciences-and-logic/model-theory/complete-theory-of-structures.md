@@ -18,7 +18,7 @@ tags:
 - Th(M)
 - consequence
 - deduction
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

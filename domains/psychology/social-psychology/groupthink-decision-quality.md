@@ -18,7 +18,7 @@ tags:
 - group-dynamics
 - cohesion
 - conformity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

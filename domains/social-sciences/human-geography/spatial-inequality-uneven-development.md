@@ -7,18 +7,16 @@ prerequisites:
 - id: development-geography
   type: hard
 builds-toward:
-- regional-economic-restructuring
-- colonialism-postcolonial-legacies
-- commodity-chains-global
+  - regional-economic-restructuring
+  - commodity-chains-global
 tags:
 - inequality
 - development
 - capitalism
 - uneven-development
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Spatial Inequality and Uneven Development
 
 ## Core Idea

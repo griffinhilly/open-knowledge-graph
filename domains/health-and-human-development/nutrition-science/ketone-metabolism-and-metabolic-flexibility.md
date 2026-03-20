@@ -15,7 +15,7 @@ tags:
 - ketosis
 - metabolic-flexibility
 - fatty-acid-oxidation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

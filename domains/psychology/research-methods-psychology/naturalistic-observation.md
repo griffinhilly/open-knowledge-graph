@@ -14,7 +14,7 @@ tags:
 - field-research
 - inter-rater-reliability
 - reactivity
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Naturalistic Observation

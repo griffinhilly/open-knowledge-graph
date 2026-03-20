@@ -14,7 +14,7 @@ tags:
 - leaps
 - reading
 - solfège
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

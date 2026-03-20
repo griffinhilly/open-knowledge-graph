@@ -16,7 +16,7 @@ tags:
 - transport
 - nutrients
 - epithelium
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

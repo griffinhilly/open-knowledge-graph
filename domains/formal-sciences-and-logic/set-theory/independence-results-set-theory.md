@@ -17,7 +17,7 @@ tags:
 - Godel
 - Cohen
 - models
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

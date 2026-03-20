@@ -12,7 +12,7 @@ tags:
 - savings
 - checking
 - financial-tools
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 

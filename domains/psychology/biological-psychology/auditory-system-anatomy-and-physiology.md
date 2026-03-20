@@ -19,7 +19,7 @@ tags:
 - cochlea
 - sound
 - tonotopy
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - interpretation
 - meaning
 - analysis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

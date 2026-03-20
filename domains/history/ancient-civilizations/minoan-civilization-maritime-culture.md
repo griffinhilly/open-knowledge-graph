@@ -16,7 +16,7 @@ tags:
 - maritime
 - bronze-age
 - crete
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

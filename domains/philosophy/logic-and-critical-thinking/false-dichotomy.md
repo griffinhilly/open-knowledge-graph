@@ -11,7 +11,7 @@ tags:
 - dilemma
 - presumption
 - fallacies
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

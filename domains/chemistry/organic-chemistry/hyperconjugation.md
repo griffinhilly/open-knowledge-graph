@@ -15,7 +15,7 @@ tags:
 - carbocation stabilization
 - alkene stability
 - orbital overlap
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 # Hyperconjugation

@@ -20,7 +20,7 @@ tags:
 - promoter
 - mRNA
 - template strand
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

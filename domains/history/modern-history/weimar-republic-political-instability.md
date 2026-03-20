@@ -16,7 +16,7 @@ tags:
 - crisis
 - hyperinflation
 - political-extremism
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

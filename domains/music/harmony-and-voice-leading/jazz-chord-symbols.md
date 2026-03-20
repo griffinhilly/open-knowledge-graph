@@ -17,7 +17,7 @@ tags:
 - chord-symbols
 - lead-sheet
 - notation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

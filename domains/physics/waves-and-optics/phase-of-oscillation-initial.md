@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - waves
 - phase
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

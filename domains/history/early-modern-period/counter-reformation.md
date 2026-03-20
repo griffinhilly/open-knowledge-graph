@@ -18,7 +18,7 @@ tags:
 - Catholicism
 - Inquisition
 - Loyola
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -19,7 +19,7 @@ tags:
 - calcium
 - troponin
 - mechanics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - photosynthesis
 - cyanobacteria
 - energy
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

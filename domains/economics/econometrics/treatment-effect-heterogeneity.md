@@ -12,7 +12,7 @@ tags:
 - treatment-heterogeneity
 - cate
 - subgroup-analysis
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

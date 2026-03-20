@@ -25,7 +25,7 @@ tags:
 - situational irony
 - dramatic irony
 - sarcasm
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Irony in Literature

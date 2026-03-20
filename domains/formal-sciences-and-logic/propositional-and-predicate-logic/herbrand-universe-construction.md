@@ -18,7 +18,7 @@ tags:
 - model-theory
 - herbrand
 - decidability
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

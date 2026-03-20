@@ -15,7 +15,7 @@ tags:
 - common ion effect
 - solubility reduction
 - equilibrium
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

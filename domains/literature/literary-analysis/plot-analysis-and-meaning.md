@@ -9,17 +9,15 @@ prerequisites:
 - id: plot-structure
   type: hard
 builds-toward:
-- conflict-analysis-narrative
-- irony-meaning-and-effect
+  - irony-meaning-and-effect
 tags:
 - plot
 - structure
 - narrative
 - meaning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Plot Structure and Narrative Meaning
 
 ## Core Idea

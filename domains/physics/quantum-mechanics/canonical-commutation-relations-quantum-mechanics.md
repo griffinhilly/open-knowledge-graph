@@ -12,7 +12,7 @@ tags:
 - commutation-relations
 - position-momentum
 - foundations
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

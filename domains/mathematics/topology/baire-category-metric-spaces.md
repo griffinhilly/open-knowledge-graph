@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - baire-category
 - metric-spaces
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

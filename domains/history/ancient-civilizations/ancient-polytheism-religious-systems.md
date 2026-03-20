@@ -13,7 +13,7 @@ tags:
 - polytheism
 - ancient-world
 - theology
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

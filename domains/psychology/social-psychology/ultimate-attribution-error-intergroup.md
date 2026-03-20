@@ -17,7 +17,7 @@ tags:
 - intergroup bias
 - ultimate attribution error
 - stereotypes
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

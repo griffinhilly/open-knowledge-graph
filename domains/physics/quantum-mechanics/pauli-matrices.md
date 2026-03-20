@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - spin
 - matrices
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

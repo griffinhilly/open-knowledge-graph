@@ -12,7 +12,7 @@ tags:
 - equity-valuation
 - multiples
 - financial-analysis
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

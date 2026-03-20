@@ -21,7 +21,7 @@ tags:
 - auctions
 - mechanism-design
 - bidding
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

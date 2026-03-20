@@ -13,7 +13,7 @@ tags:
 - ocean-trenches
 - convergent-margins
 - deep-ocean
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

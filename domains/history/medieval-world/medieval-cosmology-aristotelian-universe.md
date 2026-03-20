@@ -12,7 +12,7 @@ tags:
 - aristotle
 - science
 - astronomy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

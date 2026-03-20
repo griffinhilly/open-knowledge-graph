@@ -15,7 +15,7 @@ tags:
 - cell-biology
 - structure
 - bacteria
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

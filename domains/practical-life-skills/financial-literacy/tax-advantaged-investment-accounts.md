@@ -16,7 +16,7 @@ tags:
 - retirement
 - accounts
 - tax-strategy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

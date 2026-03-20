@@ -15,7 +15,7 @@ tags:
 - medium-run
 - unemployment
 - inflation-stability
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

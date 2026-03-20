@@ -13,7 +13,7 @@ tags:
 - perception
 - justification
 - foundationalism
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

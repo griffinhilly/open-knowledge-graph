@@ -14,7 +14,7 @@ tags:
 - liquidity
 - spreads
 - trading-costs
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

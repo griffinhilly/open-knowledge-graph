@@ -26,7 +26,7 @@ tags:
 - digital-switch
 - triode
 - saturation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

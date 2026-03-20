@@ -10,7 +10,7 @@ tags:
 - optics
 - magnification
 - instruments
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

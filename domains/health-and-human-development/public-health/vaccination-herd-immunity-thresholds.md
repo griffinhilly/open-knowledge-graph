@@ -15,7 +15,7 @@ tags:
 - vaccination
 - herd-immunity
 - immunization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

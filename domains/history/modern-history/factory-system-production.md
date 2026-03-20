@@ -16,7 +16,7 @@ tags:
 - mechanization
 - production
 - manufacturing
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -31,6 +31,45 @@ Experience a complete Baroque opera or extended excerpts, paying attention to ho
 ## Common Misconceptions
 - That Baroque opera's recitative is musically uninteresting or is there merely to 'get through' the plot. - That aria and recitative are rigidly separated genres with no interaction. - That opera was entertainment for the masses; early opera was actually an elite art form.
 
+## Questions
+
+```yaml
+- question: "In a Baroque opera, a messenger arrives and, in rapid speech-like singing over simple continuo, reports that the hero has been captured. Then the heroine stops, and sings an extended, melodically rich passage expressing her anguish. What are these two sections called, and what distinguishes them?"
+  type: multiple-choice
+  options:
+    - "Both are arias, distinguished by tempo: the first is fast (aria veloce) and the second is slow (aria lenta)"
+    - "The first is a recitative (speech-like, plot-driven); the second is an aria (melodically developed, emotion-dwelling)"
+    - "The first is an overture and the second is a chorus, reflecting the contrast between instrumental and vocal writing"
+    - "Both are recitatives, distinguished by the number of performers: solo versus ensemble"
+  answer: 1
+  explanation: "This is the foundational recitative-aria distinction of Baroque opera. Recitative imitates heightened speech: it follows the natural rhythms of the text, moves quickly, and carries narrative action with minimal harmonic support. Aria is the opposite: dramatic time pauses, a character dwells inside an emotional state with fully developed melody, richer harmonic support, and often vocal virtuosity. The distinction maps onto a human experiential logic — we narrate in speech but sing when overwhelmed by feeling."
+
+- question: "Early Baroque opera was primarily a court and aristocratic art form rather than popular entertainment. What structural feature of opera most directly explains this?"
+  type: multiple-choice
+  options:
+    - "Operas were too long for working-class audiences to attend"
+    - "Libretti required literary education in classical mythology and history for the emotional impact to land"
+    - "Opera tickets were priced beyond working-class budgets"
+    - "The instruments used were only available at aristocratic courts"
+  answer: 1
+  explanation: "The emotional power of early Baroque opera — Orfeo's grief, Dido's lament — depended on audiences knowing the underlying classical narrative. When Orfeo loses Eurydice, an audience that knows Ovid's *Metamorphoses* feels the full weight; an audience that doesn't is just watching a man cry. Libretti drew on Virgil, Ovid, and Tasso — a literary inheritance accessible through elite education. This tight coupling between operatic content and humanist learning explains why opera was commissioned by courts and academies, not why it was merely expensive."
+
+- question: "Recitative in Baroque opera is musically uninteresting and serves only to move the plot along between emotionally significant arias."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception that the topic directly addresses. While recitative does carry narrative and dramatic action, skilled Baroque composers — Monteverdi especially — used chromatic harmonies, halting rhythms, and expressive word-painting within recitative to prepare and deepen the emotional impact of what follows. Recitative is not filler; it is the narrative context that makes the aria meaningful. The two are interdependent: the aria's emotional weight depends on the situation established through recitative."
+
+- question: "The recitative-aria distinction in Baroque opera reflects a deeply human pattern: people narrate events through speech but resort to singing when overcome by feeling."
+  type: true-false
+  answer: true
+  explanation: "This is the foundational principle that made the recitative-aria structure feel natural and enduring. Monteverdi and his contemporaries were drawing on observed human experience: we recount facts and plot in ordinary prose, but extraordinary emotion — grief, joy, rage — seems to demand something beyond language. Aria gives voice to that 'beyond.' This experiential logic is why the recitative-aria distinction wasn't just a Baroque convention; it persisted as a structural template through centuries of opera, because it mapped onto something real about how humans process and express experience."
+
+- question: "What is the structural difference between recitative and aria in Baroque opera, and why was this distinction foundational enough to remain in use for centuries?"
+  type: short-answer
+  answer: "Recitative is heightened speech set to music: it follows the natural rhythms and inflections of the text, moves at a speech-like pace, and carries dramatic action — dialogue, plot development, conflict — typically over simple continuo accompaniment. Aria pauses the dramatic action so a character can dwell in an emotional state at length, with fully developed melody, richer harmonic and orchestral support, and often virtuosic vocal display. The distinction endured because it maps onto a human experiential logic: we speak to narrate and sing when overcome by feeling. This made the structure feel natural rather than arbitrary, allowing it to serve as a template from Monteverdi (1607) through Mozart, Verdi, and beyond."
+  explanation: "The recitative-aria distinction also solved a practical dramatic problem: opera needs to move the story forward efficiently (recitative does this), but it also needs to create emotional depth and vocal grandeur (aria does this). Without this division, early opera would either stall in emotional reflection or rush past emotional impact. The structure lets opera do both — advancing and dwelling — by clearly separating narrative time from emotional time."
+```
+
 ## Explainer
 
 From your study of Baroque musical style, you know the era was defined by affective intensity, ornamental elaboration, the basso continuo, and the drive to express and move the passions of listeners. From Renaissance polyphony, you know a tradition of elaborate choral writing in which many independent voice lines wove together. Opera was born precisely at the moment when Italian intellectuals began asking: what if music could carry the full weight of dramatic narrative? The result — emerging from Florentine academies around 1600 — was one of the most consequential inventions in musical history.

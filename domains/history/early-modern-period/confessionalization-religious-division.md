@@ -15,7 +15,7 @@ tags:
 - religious-identity
 - theology
 - early-modern-state
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

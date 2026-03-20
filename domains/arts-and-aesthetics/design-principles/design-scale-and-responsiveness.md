@@ -19,7 +19,7 @@ tags:
 - scale
 - context
 - multi-platform
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

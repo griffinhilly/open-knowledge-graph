@@ -14,7 +14,7 @@ tags:
 - rockwell
 - vickers
 - yield-strength
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

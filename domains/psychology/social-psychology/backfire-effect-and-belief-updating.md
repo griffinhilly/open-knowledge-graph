@@ -15,7 +15,7 @@ tags:
 - backfire effect
 - misinformation
 - attitude change
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

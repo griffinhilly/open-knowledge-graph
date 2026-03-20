@@ -18,7 +18,7 @@ tags:
 - citation
 - analysis
 - textual support
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

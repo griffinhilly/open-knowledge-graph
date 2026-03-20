@@ -14,7 +14,7 @@ tags:
 - bacteriophages
 - lytic
 - lysogenic
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

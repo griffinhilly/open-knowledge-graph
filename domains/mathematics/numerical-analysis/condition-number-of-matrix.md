@@ -14,7 +14,7 @@ tags:
 - condition-number
 - matrix
 - ill-conditioning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

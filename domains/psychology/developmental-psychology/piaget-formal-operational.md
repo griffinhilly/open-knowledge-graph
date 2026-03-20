@@ -31,6 +31,45 @@ Use the pendulum task and combination tasks to directly test formal operational 
 - Not all adults consistently reason at the formal operational level — domain familiarity and education matter greatly.
 - Formal operational thought does not guarantee good decision-making; it is a cognitive competence, not a performance guarantee.
 
+## Questions
+
+```yaml
+- question: "Two 12-year-olds are given strings of different lengths, weights of different masses, and a pendulum. They must figure out what determines swing speed. Maria tries many random combinations and notices shorter strings tend to swing faster. Carlos lists all possible variables, then tests each one by holding the others constant. Whose approach demonstrates formal operational thinking?"
+  type: multiple-choice
+  options:
+    - "Maria, because she discovered the correct answer through observation"
+    - "Carlos, because he systematically isolates variables using hypothetical-deductive reasoning"
+    - "Both equally, because they both used direct observation"
+    - "Neither, because formal operations only applies to abstract verbal problems, not hands-on tasks"
+  answer: 1
+  explanation: "Carlos demonstrates formal operational thinking: he first generates all possible hypotheses, then designs tests that control variables — the structure of a controlled experiment. Maria's trial-and-error approach, though it yields useful data, reflects concrete operational thinking: she responds to what she observes without a prior systematic plan. The defining feature of formal operations is the ability to reason from a complete set of possibilities before acting."
+
+- question: "What is the key cognitive leap that marks the transition from concrete operational to formal operational thinking?"
+  type: multiple-choice
+  options:
+    - "The ability to use language to describe objects and relationships"
+    - "The ability to reason about abstract, hypothetical, and counterfactual propositions — not just tangible realities"
+    - "The ability to memorize and recall larger amounts of factual information"
+    - "The ability to perform arithmetic and classify objects by multiple attributes"
+  answer: 1
+  explanation: "The concrete operational stage enables logical reasoning but only about things that can be directly perceived or manipulated. Formal operations removes that constraint: the thinker can reason about possibilities that don't currently exist, hypothetical scenarios, and purely abstract propositions. This is the leap from 'what is' to 'what could be.'"
+
+- question: "A teenager who excels at strategic reasoning in chess may still think concretely when evaluating a persuasive political argument they've never encountered before."
+  type: true-false
+  answer: true
+  explanation: "Formal operations is a competence, not a universal performance guarantee. The stage defines what becomes cognitively possible, not what is deployed in every situation. Domain familiarity and education provide the schematic structure that formal reasoning needs — the same person can reason formally in areas of expertise and concretely in unfamiliar domains. Piaget himself acknowledged this domain-specificity."
+
+- question: "Once a person reaches Piaget's formal operational stage, they apply hypothetical-deductive reasoning consistently across all areas of life."
+  type: true-false
+  answer: false
+  explanation: "This is a common misreading of Piaget. Reaching the formal operational stage means the capacity becomes available, not that it is automatically deployed everywhere. Research shows people often reason formally in their areas of expertise but concretely in domains where they lack experience. The stage describes a new cognitive possibility, not a uniform upgrade to all thinking."
+
+- question: "Why does Piaget's formal operational stage predict the idealism and social passion often observed in adolescents?"
+  type: short-answer
+  answer: "Formal operations enables reasoning about the possible, not just the actual. Once an adolescent can construct a vivid mental model of how the world could be — a just society, an equal distribution of resources, a world without hypocrisy — they can compare that imagined ideal to the actual world and feel the gap as injustice. The indignation 'that's not fair!' requires first imagining a fairer alternative, which is itself a formal operational act."
+  explanation: "Before formal operations, a child accepts the world largely as it is because they lack the cognitive tools to construct detailed alternatives. With formal operations, 'the possible' becomes a real mental object. This cognitive shift is the necessary condition for idealism — without the ability to imagine different worlds, there is no basis for moral outrage at the current one. This is also why critical thinking education remains important: having the capacity for formal reasoning doesn't automatically produce it in all contexts."
+```
+
 ## Explainer
 
 From the concrete operational stage, you already know that Piaget's stages represent qualitatively different modes of thinking — not just "more knowledge," but fundamentally different logical structures. In the concrete operational stage, children can reason logically, but only about tangible, present objects: they can conserve number, classify, and seriate, but their reasoning is anchored to what they can directly perceive or manipulate. The formal operational stage removes that anchor. What becomes possible around age 11–12 is reasoning about the possible, not just the actual.

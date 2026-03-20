@@ -12,7 +12,7 @@ tags:
 - behavioral-finance
 - investor-behavior
 - psychology
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

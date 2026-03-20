@@ -28,6 +28,45 @@ Practice plunging technique on a slow-draining sink before it becomes fully bloc
 - Chemical drain cleaners are a permanent fix — they may dissolve a clog temporarily but leave residue that builds future clogs faster.
 - Running hot water before pouring chemicals helps — it can actually accelerate chemical damage to PVC pipes.
 
+## Questions
+
+```yaml
+- question: "A homeowner has a slow-draining bathroom sink and decides to pour chemical drain cleaner down it rather than use a plunger, for a quicker fix. Which consequence is most likely if she does this regularly?"
+  type: multiple-choice
+  options:
+    - "The drain will be permanently cleared with no future clog buildup"
+    - "The PVC pipes may soften and degrade over time, and chemical residue will accelerate future clogs"
+    - "The plumbing will become too clean, causing water to drain too quickly and overflow"
+    - "The chemical becomes permanently ineffective in that specific pipe after the first use"
+  answer: 1
+  explanation: "Lye-based chemical cleaners generate an exothermic reaction that can soften and damage PVC pipes — the standard material in most modern homes. They also leave caustic residue on pipe walls that hair and soap can adhere to more easily, actually accelerating future buildup. They are not a permanent fix; they are a short-term workaround with long-term costs. The correct approach is mechanical first: plunger, then snake."
+
+- question: "A homeowner uses a cup plunger correctly for 20 strokes but cannot clear the clog. What is the correct next step before calling a plumber?"
+  type: multiple-choice
+  options:
+    - "Pour boiling water down the drain to melt any grease in the clog"
+    - "Use a hand-cranked drain snake to physically break up or hook and remove the obstruction"
+    - "Add chemical drain cleaner to follow up on the plunger attempt"
+    - "Block all nearby sink drains simultaneously to build higher pressure in the clogged pipe"
+  answer: 1
+  explanation: "The mechanical escalation order is: plunger → drain snake → plumber. A hand-cranked snake (also called a drain auger) feeds a flexible cable into the pipe until it hits the clog, then hooks or breaks it up. Option C is dangerous: if you have already plunged and chemicals are now poured in, subsequent plunging risks splashing highly caustic liquid. Boiling water (option A) can help with pure grease but won't remove hair-based clogs."
+
+- question: "Chemical drain cleaners are a safe, permanent solution to household drain clogs and can be used freely on all pipe types."
+  type: true-false
+  answer: false
+  explanation: "Chemical drain cleaners have several significant limitations: they can soften and damage PVC pipes (the standard in modern homes), they are highly caustic and hazardous to skin and eyes, they don't work well on grease-only clogs, and they leave residue that may accelerate future clogs. They are not permanent — they may dissolve part of a clog while leaving material that builds up again faster. Mechanical methods are safer and more effective for most household clogs."
+
+- question: "When plunging a sink, blocking the overflow hole with a wet rag before starting improves effectiveness."
+  type: true-false
+  answer: true
+  explanation: "The overflow hole is a small opening near the top of the sink basin. If left open while plunging, air bypasses the plunger seal through the overflow hole, preventing the pressure and suction from building up against the clog. Blocking it with a wet rag forces all the force through the drain opening where it can actually dislodge the obstruction. This is one of the most commonly missed steps in proper plunger technique."
+
+- question: "Why should mechanical methods (plunger, drain snake) be tried before chemical drain cleaners? What are the specific risks of relying on chemicals?"
+  type: short-answer
+  answer: "Mechanical methods physically remove the clog without damaging the pipes. Chemical cleaners can soften and degrade PVC pipes over time, are hazardous to skin and eyes, don't work on all clog types (especially grease), and leave residue that accelerates future buildup. An additional danger: if chemicals are already in the pipe and plunging is attempted afterward, caustic liquid can splash and cause burns. Mechanics first avoids all of these risks."
+  explanation: "The key insight is that chemical cleaners feel like the 'easy' solution but carry hidden costs — pipe damage, safety risks, and incomplete clearing. Mechanical tools feel harder to use but are actually more effective for most household clogs and don't create secondary problems. Understanding the P-trap geometry (where clogs form) helps explain why a snake reaching 12 inches into the drain can solve most problems without any chemicals at all."
+```
+
 ## Explainer
 
 Your prerequisite on plumbing basics introduced the **P-trap** — the curved pipe section under every sink and drain that holds a small amount of water to block sewer gases from entering the home. That same U-shape is also where most clogs form. Hair, soap scum, and toothpaste accumulate on the curve's inner walls over weeks and months until the restricted passage slows drainage to a trickle. Understanding the geometry helps you choose the right tool: if the clog is in the P-trap (within 12 inches of the drain opening), a plunger or snake can almost always clear it. If the drain is slow but not fully blocked, the clog is likely partial buildup — a regular plunger and some patience is the right response. If multiple drains are slow simultaneously, the blockage is downstream in the shared drain line, which is a different problem that may require professional augering.

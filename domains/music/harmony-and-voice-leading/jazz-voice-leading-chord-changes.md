@@ -14,7 +14,7 @@ tags:
 - jazz
 - voice-leading
 - harmony
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: ribosomes-and-protein-synthesis-intro
   type: hard
-builds-toward:
-- rough-endoplasmic-reticulum-ribosomes
+builds-toward: []
 tags:
 - ER
 - protein-synthesis
@@ -17,7 +16,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Rough Endoplasmic Reticulum and Ribosomal Synthesis
 
 ## Core Idea

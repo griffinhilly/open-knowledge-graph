@@ -14,7 +14,7 @@ tags:
 - hypothesis-testing
 - statistics
 - SNR
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - ma
 - continuum
 - extensions
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -3,7 +3,9 @@ id: mesoamerican-and-pre-columbian-visual-expression
 title: Mesoamerican and Pre-Columbian Visual Expression
 domain: arts-and-aesthetics
 course: art-history
-prerequisites: []
+prerequisites:
+- id: dramatic-structure
+  type: soft
 builds-toward:
 - postcolonial-aesthetics
 tags:
@@ -15,10 +17,9 @@ tags:
 - non-western
 - indigenous
 - iconography
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Mesoamerican and Pre-Columbian Visual Expression
 
 ## Core Idea

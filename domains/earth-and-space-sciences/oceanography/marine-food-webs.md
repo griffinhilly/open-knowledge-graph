@@ -17,7 +17,7 @@ tags:
 - trophic levels
 - trophic efficiency
 - pelagic ecosystem
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

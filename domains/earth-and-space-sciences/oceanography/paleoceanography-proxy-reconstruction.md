@@ -19,7 +19,7 @@ tags:
 - sediment-cores
 - reconstruction
 - paleoclimate
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

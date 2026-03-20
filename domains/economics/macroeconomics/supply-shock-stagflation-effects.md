@@ -16,7 +16,7 @@ tags:
 - inflation
 - unemployment
 - oil-shocks
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

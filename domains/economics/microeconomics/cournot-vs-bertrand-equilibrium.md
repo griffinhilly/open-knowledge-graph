@@ -12,7 +12,7 @@ tags:
 - oligopoly
 - game theory
 - competition models
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

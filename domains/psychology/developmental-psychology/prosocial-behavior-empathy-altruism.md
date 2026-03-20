@@ -17,7 +17,7 @@ tags:
 - empathy
 - altruism
 - helping-behavior
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

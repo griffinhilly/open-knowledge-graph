@@ -16,7 +16,7 @@ tags:
 - methodology
 - interpretation
 - textual-evidence
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - hydrogen-atom
 - energy-levels
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

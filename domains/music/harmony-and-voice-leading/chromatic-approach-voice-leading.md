@@ -15,7 +15,7 @@ tags:
 - chromatic
 - voice-leading
 - non-chord-tones
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

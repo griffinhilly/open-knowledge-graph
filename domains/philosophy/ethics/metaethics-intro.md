@@ -19,7 +19,7 @@ tags:
 - metaethics
 - foundations
 - moral-semantics
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

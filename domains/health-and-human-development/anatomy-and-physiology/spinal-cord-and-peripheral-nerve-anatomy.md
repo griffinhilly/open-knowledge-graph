@@ -13,7 +13,7 @@ tags:
 - nerves
 - dorsal-ventral
 - gray-matter
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

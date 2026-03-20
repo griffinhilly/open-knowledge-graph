@@ -15,7 +15,7 @@ tags:
 - locke
 - natural-rights
 - limited-government
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

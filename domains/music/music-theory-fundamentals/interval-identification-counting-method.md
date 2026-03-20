@@ -16,7 +16,7 @@ tags:
 - naming
 - counting
 - letter-names
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

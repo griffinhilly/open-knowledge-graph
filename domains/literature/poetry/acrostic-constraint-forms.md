@@ -16,7 +16,7 @@ tags:
 - form
 - hidden-message
 - limitation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

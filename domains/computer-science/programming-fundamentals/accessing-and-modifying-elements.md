@@ -13,7 +13,7 @@ tags:
 - arrays
 - indexing
 - mutation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

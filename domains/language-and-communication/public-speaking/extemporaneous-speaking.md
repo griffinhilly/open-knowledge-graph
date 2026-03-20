@@ -22,7 +22,7 @@ tags:
 - notes
 - preparation
 - delivery-mode
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Extemporaneous Speaking

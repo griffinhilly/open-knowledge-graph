@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - spectral-theorem
 - operators
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

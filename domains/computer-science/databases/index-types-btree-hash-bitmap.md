@@ -11,8 +11,7 @@ prerequisites:
 - id: indexing-concepts
   type: hard
 builds-toward:
-- physical-storage-pages-records
-- index-design-selection
+  - index-design-selection
 tags:
 - index-types
 - B-tree
@@ -22,7 +21,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Index Types: B-Trees, Hash Indexes, and Bitmap Indexes
 
 ## Core Idea

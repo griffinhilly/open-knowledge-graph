@@ -15,7 +15,7 @@ tags:
 - utopia
 - political-fiction
 - speculative-fiction
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Dystopian Fiction

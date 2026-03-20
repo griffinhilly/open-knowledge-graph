@@ -17,7 +17,7 @@ tags:
 - extended
 - figurative-language
 - analysis
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

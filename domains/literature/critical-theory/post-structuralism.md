@@ -22,7 +22,7 @@ tags:
 - Lacan
 - undecidability
 - difference
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Post-Structuralism

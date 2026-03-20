@@ -12,7 +12,7 @@ tags:
 - meiosis
 - recombination
 - crossover
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -8,16 +8,14 @@ prerequisites:
   type: hard
 - id: properties-intrinsic-extrinsic
   type: hard
-builds-toward:
-- stage-theory-identity
+builds-toward: []
 tags:
 - temporal
 - properties
 - change
-stage: formal-systems
+stage: advanced
 status: draft
 ---
-
 # Temporal Properties and Temporal Change
 
 ## Core Idea

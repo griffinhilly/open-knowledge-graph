@@ -29,6 +29,45 @@ Apply each maxim to examples and see how violation or exploitation generates imp
 ## Common Misconceptions
 Speakers always follow the maxims—Grice explicitly allows violations and exploitation. The maxims are universal laws—they may be language-game or culture-specific; cross-linguistic evidence is mixed.
 
+## Questions
+
+```yaml
+- question: "After a painfully dull lecture, a student says 'Well, that was absolutely riveting.' Everyone present knows the lecture was boring. What generates the implicature that the student found it tedious?"
+  type: multiple-choice
+  options:
+    - "The student is quietly violating the maxim of Quality by saying something false"
+    - "The student is opting out of the Cooperative Principle entirely"
+    - "The student is flouting Quality — saying something obviously false — so the listener infers the opposite meaning to restore coherence"
+    - "The student is violating the maxim of Quantity by saying too little"
+  answer: 2
+  explanation: "This is sarcasm, the paradigm case of flouting Quality. The student says something patently false in a way everyone can see — that's a flout, not a quiet lie. The listener, assuming the speaker is cooperative at some higher level, infers the intended meaning is the opposite of the literal content. If the student were quietly violating Quality (lying), the listener would simply believe the lecture was riveting. The conspicuousness of the violation is what triggers the implicature."
+
+- question: "A professor who has graded every exam says 'Some students passed.' What implicature does this generate, and which maxim drives it?"
+  type: multiple-choice
+  options:
+    - "No implicature — 'some' is a precise quantifier with no implied meaning"
+    - "The professor is violating Quality by understating the results"
+    - "Not all students passed — because Quantity requires the professor to say 'all' if that were true, and they didn't"
+    - "The professor is flouting Manner by using an ambiguous word"
+  answer: 2
+  explanation: "This is a classic scalar implicature driven by the maxim of Quantity. The listener knows the professor has complete information. If all students had passed, Quantity would require saying 'all students passed.' By saying only 'some,' the professor implicates that the stronger claim — 'all' — is not true. The key is that the implicature arises from what was NOT said: the absence of 'all' carries meaning when the speaker could have said it."
+
+- question: "Flouting a maxim means violating it secretly, so that the listener does not notice the departure from cooperative behavior."
+  type: true-false
+  answer: false
+  explanation: "Flouting is the exact opposite of a secret violation. To flout a maxim is to violate it obviously and conspicuously, in a way the listener can clearly see. It is the visibility of the violation that triggers the implicature: the listener reasons, 'The speaker is clearly not being literally cooperative, so they must mean something beyond the literal content.' A secret violation — saying something false and intending the listener to believe it — is lying, not flouting."
+
+- question: "Implicatures are cancellable: a speaker can add further words withdrawing an implied meaning without creating a logical contradiction."
+  type: true-false
+  answer: true
+  explanation: "Cancellability is the defining diagnostic feature that distinguishes implicatures from semantic entailments. 'Some students passed — in fact, all of them did' is not a contradiction, even though 'some' normally implicates 'not all.' This shows 'not all' is an implicature, not an entailment. By contrast, 'The bachelor got married — in fact, he was never unmarried' would be a contradiction, because 'unmarried' is entailed by 'bachelor,' not merely implicated."
+
+- question: "What is the difference between a speaker who lies and a speaker who is sarcastic, from the standpoint of Grice's framework? Why does the listener respond differently in each case?"
+  type: short-answer
+  answer: "A liar quietly violates the maxim of Quality — they say something false intending the listener to believe it is true. The violation is hidden. A sarcastic speaker flouts Quality — they say something obviously false, relying on the listener to see the violation and infer the opposite meaning. The listener responds differently because flouting signals cooperative intent at a higher level: 'I know you know I know this is false, so there must be a non-literal meaning.' The conspicuousness of the flout is the mechanism that triggers implicature."
+  explanation: "Grice's framework hinges on the distinction between covert and overt maxim violations. Lying exploits the listener's assumption of Quality to deceive. Sarcasm exploits the listener's ability to detect a Quality violation and reason about what the speaker could have meant instead. The same maxim (Quality) is involved, but opposite inferential processes result. This is why sarcasm only works when the literal falsity is mutually obvious — if there were any ambiguity, the listener would simply believe the literal content."
+```
+
 ## Explainer
 
 You already understand the basic Gricean insight from your study of conversational implicature: what a speaker *means* often goes well beyond what their words literally say, and this gap is systematically exploitable. The **Cooperative Principle** is Grice's attempt to explain the machinery that makes this possible — to answer the question: why do listeners infer the "extra" meaning reliably? The answer is that listeners assume speakers are being cooperative, and cooperation generates predictable inferences when apparent violations occur.

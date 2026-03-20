@@ -33,6 +33,45 @@ Classify conjunctions encountered in reading by type and by the logical relation
 - Treating correlative conjunctions as optional stylistic flourishes when they actually impose strict parallelism requirements on the elements they connect.
 - Believing that subordinating conjunctions always come at the beginning of a sentence; they introduce the dependent clause, which can appear before or after the independent clause.
 
+## Questions
+
+```yaml
+- question: "Compare these two sentences: (A) 'She was exhausted, but she finished the report.' (B) 'Although she was exhausted, she finished the report.' What is the key structural difference?"
+  type: multiple-choice
+  options:
+    - "Sentence B makes finishing the report the main point, while treating exhaustion as a concession that supports it"
+    - "Sentence A is grammatically correct; sentence B is a fragment because it begins with a subordinating conjunction"
+    - "They express exactly the same logical relationship — only the word choice differs"
+    - "Sentence B uses a correlative conjunction, making both clauses equally prominent"
+  answer: 0
+  explanation: "This is the core difference between coordination and subordination. In sentence A, 'but' is a coordinating conjunction — both clauses are grammatically equal, and both get roughly equal weight. In sentence B, 'although' is a subordinating conjunction that demotes the exhaustion clause to a dependent (supporting) role. The main clause — 'she finished the report' — becomes the primary point. Choosing between these structures is a choice about what you want the reader to take away. Sentence B is grammatically complete; a subordinating conjunction can begin a sentence when the dependent clause comes first."
+
+- question: "Which sentence contains a parallelism error caused by a correlative conjunction?"
+  type: multiple-choice
+  options:
+    - "She is not only talented but also works hard."
+    - "She is both talented and dedicated."
+    - "Either you study for the test or you accept a low grade."
+    - "Neither the coach nor the players were satisfied."
+  answer: 0
+  explanation: "Correlative conjunctions require strict parallel structure between their two halves. In option A, 'not only talented' pairs an adjective with 'but also works hard,' which is a verb phrase — mismatched forms. The parallel version is: 'She is not only talented but also hardworking.' Options B, C, and D all maintain parallelism: adjective+adjective, clause+clause, and noun+noun respectively. Recognizing that correlative conjunctions impose this grammatical constraint is the key practical skill."
+
+- question: "A subordinating conjunction can introduce a clause that appears either at the beginning or the end of a sentence."
+  type: true-false
+  answer: true
+  explanation: "The dependent clause introduced by a subordinating conjunction is mobile: 'Because it was raining, I stayed in' and 'I stayed in because it was raining' are both grammatically correct. When the dependent clause comes first, it is typically followed by a comma. The subordinating conjunction introduces the dependent clause wherever it appears — it does not anchor that clause to the start of the sentence."
+
+- question: "Subordinating conjunctions always appear at the beginning of a sentence."
+  type: true-false
+  answer: false
+  explanation: "Subordinating conjunctions introduce the dependent clause, and that clause can appear before or after the main clause. 'Although he was tired, he finished the work' places the dependent clause first; 'He finished the work although he was tired' places it last. Both are grammatical. The misconception likely arises because introductory examples often place the dependent clause first. In practice, writers vary placement for rhythm and emphasis."
+
+- question: "How does choosing between a coordinating conjunction and a subordinating conjunction change what you communicate to the reader about the relationship between two ideas?"
+  type: short-answer
+  answer: "A coordinating conjunction treats both ideas as grammatically equal — neither dominates the other. The reader receives both pieces of information at the same logical level. A subordinating conjunction creates a hierarchy: one clause becomes the main point and the other becomes supporting context. This signals to the reader which idea to prioritize. For example, 'He was tired, but he finished the report' (coordination) presents both facts equally. 'Although he was tired, he finished the report' (subordination) foregrounds the finishing and treats tiredness as a concession — the reader's attention is directed toward the accomplishment."
+  explanation: "This is why the choice of conjunction is a rhetorical decision, not just a grammatical one. Skilled writers choose conjunction types deliberately to guide how readers weigh and remember information."
+```
+
 ## Explainer
 
 You already know coordinating conjunctions (FANBOYS: for, and, nor, but, or, yet, so) and subordinating conjunctions (because, although, when, if, since, unless). This topic is about seeing those two families as part of a single three-part system — and adding the third member, **correlative conjunctions** — so you can make deliberate, informed choices about how to connect ideas.

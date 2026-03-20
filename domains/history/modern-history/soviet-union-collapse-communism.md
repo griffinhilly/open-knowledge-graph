@@ -17,7 +17,7 @@ tags:
 - collapse
 - '1991'
 - Gorbachev
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

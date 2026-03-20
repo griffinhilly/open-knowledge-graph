@@ -12,7 +12,7 @@ builds-toward:
   - solving-exponential-equations
   - solving-logarithmic-equations
 tags: [logarithms, properties, product-rule, quotient-rule, power-rule]
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - vikings
 - settlement
 - normandy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

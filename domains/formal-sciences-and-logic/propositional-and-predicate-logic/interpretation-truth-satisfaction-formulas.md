@@ -15,7 +15,7 @@ tags:
 - interpretation
 - truth
 - satisfaction
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -9,8 +9,7 @@ prerequisites:
 - id: substance-dualism
   type: hard
 builds-toward:
-- hard-problem-of-consciousness
-- emergence-reduction-consciousness
+  - emergence-reduction-consciousness
 tags:
 - dualism
 - consciousness
@@ -19,7 +18,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Property Dualism
 
 ## Core Idea

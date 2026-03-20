@@ -16,7 +16,7 @@ tags:
 - WTO
 - international regimes
 - global governance
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

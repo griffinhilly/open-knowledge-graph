@@ -14,7 +14,7 @@ tags:
 - oral-delivery
 - sequencing
 - logic
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

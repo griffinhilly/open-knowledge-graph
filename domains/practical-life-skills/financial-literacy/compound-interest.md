@@ -26,7 +26,7 @@ tags:
 - exponential-growth
 - savings
 - debt
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

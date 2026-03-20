@@ -19,7 +19,7 @@ tags:
 - kimberlé-crenshaw
 - overlapping-identities
 - systems-of-oppression
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

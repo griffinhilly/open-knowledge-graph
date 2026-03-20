@@ -10,7 +10,7 @@ tags:
 - circular-polarization
 - elliptical-polarization
 - polarization-states
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

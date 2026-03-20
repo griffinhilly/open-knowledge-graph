@@ -14,7 +14,7 @@ tags:
 - nuclear
 - binding-energy
 - mass-defect
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

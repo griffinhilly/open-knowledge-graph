@@ -19,7 +19,7 @@ tags:
 - taste
 - institutions
 - value
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

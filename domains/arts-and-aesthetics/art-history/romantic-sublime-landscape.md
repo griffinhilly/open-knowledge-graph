@@ -17,7 +17,7 @@ tags:
 - sublime
 - emotion
 - nature
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

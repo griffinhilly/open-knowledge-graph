@@ -30,6 +30,45 @@ Teach specific types of context clues: definition clues ("A habitat, or the plac
 - That context always provides enough information to determine a word's precise meaning -- sometimes context gives only a vague sense, and a dictionary or direct instruction is needed.
 - That this skill replaces the need for explicit vocabulary instruction -- context clues and direct teaching are complementary strategies, and both are necessary for robust vocabulary growth.
 
+## Questions
+
+```yaml
+- question: "A student reads: 'Unlike her gregarious sister, who loved parties and loud conversation, Emma preferred to stay home alone.' What type of context clue helps determine the meaning of 'gregarious'?"
+  type: multiple-choice
+  options:
+    - "Definition clue — the author directly defines gregarious in the sentence"
+    - "Example clue — specific examples of gregarious activities are listed"
+    - "Contrast clue — Emma's opposite behavior signals that gregarious means something like sociable or outgoing"
+    - "Inference clue — only the general mood of the passage allows a guess"
+  answer: 2
+  explanation: "A contrast clue signals the opposite meaning. 'Unlike' explicitly flags the contrast: gregarious is described as the opposite of Emma's preference for being alone. From this, a reader can infer that gregarious means something like sociable, outgoing, or fond of company. This is different from a definition clue (which directly states the meaning) or an inference clue (which requires global passage reasoning)."
+
+- question: "A student reads: 'The procedure required meticulous preparation of the reagents.' She guesses 'reagents' means 'materials or substances used in the experiment.' A classmate says: 'You now know exactly what a reagent is.' Is the classmate right?"
+  type: multiple-choice
+  options:
+    - "Yes — context always provides the full meaning of a word"
+    - "No — context gave a reasonable approximate meaning, but 'reagent' has a precise technical definition that context alone cannot fully convey"
+    - "No — context clues only work in fiction, not in scientific text"
+    - "Yes — the student's guess is precise enough for any scientific purpose"
+  answer: 1
+  explanation: "Context clues are probabilistic, not definitive. The student's guess is reasonable — 'reagents' does involve materials used in procedures — but a reagent specifically is a substance used to cause a chemical reaction or test for a compound. That precision is unavailable from context alone. Technical vocabulary in science, law, and mathematics often requires explicit instruction because the precision the domain requires exceeds what context can provide."
+
+- question: "A reader who encounters an unknown word in multiple different contexts over time will develop a richer understanding of it than one who looks it up once in a dictionary."
+  type: true-false
+  answer: true
+  explanation: "Research on vocabulary acquisition consistently shows that multiple encounters in varied contexts build richer, more flexible word knowledge than a single definitional lookup. Each new context adds a dimension of meaning — how the word is used in different situations, what it combines with, what tone it carries. A dictionary definition is a useful starting point, but deep word knowledge comes from accumulated exposures."
+
+- question: "Context clues can always provide the precise meaning of an unfamiliar word."
+  type: true-false
+  answer: false
+  explanation: "This is an explicit misconception from the topic. Context clues are probabilistic — they narrow down what a word might mean, often to a general sense or approximate category, but they cannot always deliver precise definitions. Technical terms (reagent, tort, asymptote) have exact meanings that context may only gesture at. Knowing the limits of context clues is as important as knowing how to use them — sometimes a dictionary or direct instruction is necessary."
+
+- question: "Why is the strategy 'skip unknown words and keep reading' less effective than using context clues, even when context clues give only an approximate meaning?"
+  type: short-answer
+  answer: "Skipping leaves a gap in comprehension that may affect understanding of the rest of the passage. Even an approximate meaning from context — 'this word means something like slow or difficult' — helps the reader make sense of the sentence and accumulate a partial understanding of the word. That partial understanding deepens with each encounter. A word that is skipped every time remains permanently unknown; a word that is approximated repeatedly gradually becomes understood. Context clues also build the skill of reasoning from evidence, which transfers to all future reading."
+  explanation: "The verification loop (guess → check against sentence → refine) is a meta-cognitive strategy that makes readers active rather than passive. Even imprecise guesses exercise the skill and leave a trace in memory that subsequent encounters can build on. Skipping forfeits both the immediate comprehension benefit and the vocabulary-building opportunity."
+```
+
 ## Explainer
 
 Because you already understand reading comprehension and have been building vocabulary, you know that reading requires both decoding words and understanding what they mean. But no one can be explicitly taught every word they will ever encounter — there are simply too many. **Vocabulary from context** is the strategy that makes independent vocabulary growth possible: using the information surrounding an unknown word to construct a reasonable guess at its meaning. Think of it as detective work. When a reader encounters an unfamiliar word, the surrounding text is a crime scene full of clues — and the goal is to reason from evidence rather than guess blindly.

@@ -16,7 +16,7 @@ tags:
 - knowledge
 - semantics
 - pragmatics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

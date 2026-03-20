@@ -15,7 +15,7 @@ tags:
 - diatonic-progressions
 - chord-progressions
 - voice-leading
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

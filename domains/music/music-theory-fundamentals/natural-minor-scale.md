@@ -16,7 +16,7 @@ tags:
 - scales
 - minor
 - natural
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - interference
 - geometry
 - waves
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

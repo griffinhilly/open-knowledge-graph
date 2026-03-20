@@ -13,7 +13,7 @@ tags:
 - community
 - methodology
 - social-history
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

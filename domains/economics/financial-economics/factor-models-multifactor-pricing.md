@@ -14,7 +14,7 @@ tags:
 - multifactor-models
 - apt
 - asset-pricing
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -19,7 +19,7 @@ tags:
 - compliance
 - tidal-volume
 - spirometry
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

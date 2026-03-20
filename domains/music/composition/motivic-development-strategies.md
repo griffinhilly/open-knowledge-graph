@@ -18,7 +18,7 @@ tags:
 - development
 - variation
 - coherence
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - asset-allocation
 - portfolio
 - strategy
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - second degree
 - third degree
 - consumer surplus
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

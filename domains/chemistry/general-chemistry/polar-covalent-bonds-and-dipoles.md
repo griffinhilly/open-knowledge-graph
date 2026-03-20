@@ -16,7 +16,7 @@ tags:
 - dipole
 - bonds
 - electronegativity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

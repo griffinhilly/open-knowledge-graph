@@ -16,7 +16,7 @@ tags:
 - equivalence
 - bijection
 - structure-preserving
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

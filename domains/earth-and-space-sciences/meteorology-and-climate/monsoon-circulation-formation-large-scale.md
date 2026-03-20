@@ -15,7 +15,7 @@ tags:
 - tropical
 - seasonal
 - circulation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

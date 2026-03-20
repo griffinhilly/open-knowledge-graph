@@ -18,7 +18,7 @@ tags:
 - o-minimal
 - geometry
 - application
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

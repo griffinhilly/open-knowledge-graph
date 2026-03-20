@@ -7,18 +7,16 @@ prerequisites:
 - id: colligative-properties
   type: soft
 builds-toward:
-- ocean-density-thermal-stratification
-- ocean-carbonate-system-buffering
-- thermohaline-circulation-density-driven
+  - ocean-carbonate-system-buffering
+  - thermohaline-circulation-density-driven
 tags:
 - salinity
 - dissolved-ions
 - seawater
 - chemical-composition
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Salinity and Seawater Composition
 
 ## Core Idea

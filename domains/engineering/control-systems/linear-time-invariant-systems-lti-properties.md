@@ -15,7 +15,7 @@ tags:
 - lti
 - linearity
 - time-invariance
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

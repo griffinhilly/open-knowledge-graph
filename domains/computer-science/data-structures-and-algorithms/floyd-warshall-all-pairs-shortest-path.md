@@ -14,7 +14,7 @@ tags:
 - dynamic-programming
 - negative-weights
 - transitive-closure
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

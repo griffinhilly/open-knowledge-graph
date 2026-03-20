@@ -9,8 +9,7 @@ prerequisites:
 - id: voice-leading-principles
   type: hard
 builds-toward:
-- invertible-counterpoint-extended
-- canonic-imitation-structures
+  - canonic-imitation-structures
 tags:
 - counterpoint
 - voice-leading
@@ -18,7 +17,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Species Counterpoint in Free Composition
 
 ## Core Idea

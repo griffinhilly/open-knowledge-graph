@@ -13,7 +13,7 @@ tags:
 - approximation
 - optimization
 - intractability
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

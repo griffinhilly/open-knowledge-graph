@@ -17,7 +17,7 @@ tags:
 - experimentation
 - empiricism
 - scientific-revolution
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

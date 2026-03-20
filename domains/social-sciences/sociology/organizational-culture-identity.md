@@ -14,7 +14,7 @@ tags:
 - organizational-culture
 - identity
 - institutions
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

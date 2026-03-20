@@ -19,7 +19,7 @@ tags:
 - Cbz
 - orthogonal protection
 - deprotection
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 # Protecting Groups in Organic Synthesis

@@ -14,7 +14,7 @@ tags:
 - surplus
 - welfare-analysis
 - policy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

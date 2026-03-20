@@ -35,6 +35,45 @@ Before starting any still life, landscape, or figure study, fill a quarter page 
 - Students often skip thumbnailing and jump straight to the final piece, then find the composition fails. Thumbnailing takes 10 minutes and saves hours.
 - Thumbnails should be value studies (light vs. dark masses), not detailed sketches. Detail is irrelevant at this stage.
 
+## Questions
+
+```yaml
+- question: "An art student starts a still life thumbnail by carefully sketching the outline of the vase in fine detail. What is the most significant problem with this approach?"
+  type: multiple-choice
+  options:
+    - "Thumbnails must be drawn in pen, not pencil"
+    - "The thumbnail should focus on value masses (light vs. dark areas), not detailed outlines"
+    - "The student should use a larger paper for thumbnails"
+    - "Still life subjects should not be thumbnailed — only landscapes need planning"
+  answer: 1
+  explanation: "The purpose of a thumbnail is to plan the distribution of light and dark masses and the placement of major elements — not to capture detail. A thumbnail focused on fine outlines misses the entire point: you're supposed to squint at your subject until details disappear and block in only the major value zones. Detail is irrelevant and counterproductive at thumbnail stage."
+
+- question: "An artist makes one thumbnail, decides it looks acceptable, and begins the final piece. What has the artist most likely missed?"
+  type: multiple-choice
+  options:
+    - "Nothing — one thumbnail is sufficient if you are confident in the arrangement"
+    - "The opportunity to explore alternative compositions that might be stronger"
+    - "The requirement to include color notes in thumbnails"
+    - "The need to replicate the thumbnail exactly in the final piece"
+  answer: 1
+  explanation: "Making only one thumbnail skips the core purpose of the exercise: rapidly testing multiple arrangements to find the strongest one. A single thumbnail locks you into your first instinct, which is often not the most dynamic composition. The standard practice of 5–10 thumbnails tests different placements, value distributions, and formats before committing."
+
+- question: "A thumbnail sketch should represent value masses — areas of light and dark — not the details of individual objects."
+  type: true-false
+  answer: true
+  explanation: "This is the key principle of effective thumbnailing. You squint at your subject until details disappear, seeing only zones of light and dark, then block those zones into the small rectangle. You are not drawing the apple — you are placing a dark shape against a light background. This forces you to evaluate the abstract design of the composition, which is what determines whether it succeeds."
+
+- question: "Thumbnailing is most useful after starting a final drawing, to catch compositional errors mid-way through."
+  type: true-false
+  answer: false
+  explanation: "Thumbnailing is pre-work done BEFORE the final piece to prevent compositional errors from occurring. Once you have invested significant time in a final drawing, compositional problems are expensive to fix. The whole point of spending 10 minutes on thumbnails is to avoid discovering a flawed composition an hour into the final work — not to diagnose it once it has already happened."
+
+- question: "Why is it important to vary the thumbnails you make, rather than producing multiple versions of the same arrangement?"
+  type: short-answer
+  answer: "Making thumbnails with genuinely different arrangements — varying subject placement, the ratio of light to dark, the format (horizontal vs. vertical), and the horizon line — tests whether your first instinct is truly the strongest option. If every thumbnail looks nearly the same, you haven't actually explored the possibilities. Variety gives you real choices to compare, which often reveals a more dynamic or effective arrangement you wouldn't have found otherwise."
+  explanation: "The value of thumbnailing comes from comparison. When you make five distinct arrangements and circle the strongest one, you can analyze why it works — diagonal thrust, asymmetric balance, strong value contrast — and that analysis builds compositional instinct over time. Thumbnails that are all minor variations of one idea reduce the process to busywork rather than genuine exploration."
+```
+
 ## Explainer
 
 You know how to make marks on paper and you understand that compositions need balance and a clear focal point. **Compositional sketching** — commonly called **thumbnailing** — is where those ideas become a practical planning tool. Before starting any finished piece, artists make a series of small, fast sketches (typically 2–3 inches across) that explore different ways to arrange the major elements. These are not drawings of things — they are drawings of relationships: where the big dark mass sits, where the light area falls, where the eye enters and where it rests.

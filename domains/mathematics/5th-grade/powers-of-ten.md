@@ -29,6 +29,45 @@ Build a powers-of-ten table and have students discover the pattern (each row is 
 - Not recognizing that 10^1 = 10 and 10^0 = 1.
 - Thinking the exponent counts the zeros when the base is not 10.
 
+## Questions
+
+```yaml
+- question: "A student says '10 to the power of 4 equals 40, because 10 times 4 is 40.' What is the correct value of 10^4?"
+  type: multiple-choice
+  options:
+    - "40 — multiply 10 by the exponent"
+    - "14 — add 10 and 4"
+    - "10,000 — multiply 10 by itself 4 times: 10 × 10 × 10 × 10"
+    - "1,000 — the exponent 4 means shift 3 places"
+  answer: 2
+  explanation: "The exponent tells how many times 10 appears as a factor. 10^4 = 10 × 10 × 10 × 10 = 10,000. The most common misconception (option A) multiplies 10 by the exponent instead of using it as a repeat count. 10^4 has four zeros, giving 10,000 — not 40."
+
+- question: "What power of 10 corresponds to the thousands place in our place value system?"
+  type: multiple-choice
+  options:
+    - "10^1, because 1,000 has one comma"
+    - "10^4, because 1,000 has four digits"
+    - "10^3, because 1,000 = 10 × 10 × 10"
+    - "10^10, because it's the tens place times one hundred"
+  answer: 2
+  explanation: "1,000 = 10 × 10 × 10 = 10^3. The exponent 3 equals the number of zeros in 1,000. In place value: ones = 10^0 = 1, tens = 10^1 = 10, hundreds = 10^2 = 100, thousands = 10^3 = 1,000. Each step left adds one to the exponent."
+
+- question: "10^2 = 20, because 10 times 2 equals 20."
+  type: true-false
+  answer: false
+  explanation: "This is the most common error with powers of ten. 10^2 means 10 × 10 = 100, not 10 × 2 = 20. The exponent tells how many times 10 is used as a factor, not how many times 10 is multiplied by the exponent. 10^2 = 100, which has exactly 2 zeros."
+
+- question: "The number of zeros in a power of ten equals the exponent."
+  type: true-false
+  answer: true
+  explanation: "10^1 = 10 (one zero), 10^2 = 100 (two zeros), 10^3 = 1,000 (three zeros), 10^4 = 10,000 (four zeros). This pattern holds because each multiplication by 10 appends one zero. It is a useful shortcut — but only because the base is 10. Don't apply this rule to powers of other bases."
+
+- question: "Why does the exponent in a power of ten equal the number of zeros in the result? Explain using 10^3 as an example."
+  type: short-answer
+  answer: "Each time you multiply by 10, you append one zero to the result. 10^3 = 10 × 10 × 10: start with 10 (one zero), multiply by 10 to get 100 (two zeros), multiply by 10 again to get 1,000 (three zeros). The exponent counts how many times you multiplied by 10, which is exactly how many zeros accumulated."
+  explanation: "Students who only memorize 'count the zeros' can apply it mechanically but break down when asked why, or when the base changes. Understanding why the zeros accumulate builds the foundation for place-value shifts when multiplying or dividing by powers of ten — the next skill in the sequence."
+```
+
 ## Explainer
 
 You already understand decimal place value — that each place is worth ten times more than the place to its right — and you know your multiples of ten (10, 20, 30..., 100, 200...). **Powers of ten** give you a compact way to write numbers like 1,000 or 1,000,000 and to express why our number system works the way it does.

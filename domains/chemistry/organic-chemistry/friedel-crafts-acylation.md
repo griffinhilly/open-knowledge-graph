@@ -16,7 +16,7 @@ tags:
 - acylium
 - ketone
 - electrophilic-aromatic-substitution
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

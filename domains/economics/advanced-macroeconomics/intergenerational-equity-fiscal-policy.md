@@ -14,7 +14,7 @@ tags:
 - fiscal-policy
 - intergenerational
 - debt
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

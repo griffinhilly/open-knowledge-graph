@@ -20,7 +20,7 @@ tags:
 - dramatic monologue
 - mask
 - lyric I
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - constraint
 - repetition
 - complexity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

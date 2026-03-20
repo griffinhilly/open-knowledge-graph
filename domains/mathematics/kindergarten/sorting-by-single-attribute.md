@@ -3,7 +3,9 @@ id: sorting-by-single-attribute
 title: Sorting by One Attribute
 domain: mathematics
 course: kindergarten
-prerequisites: []
+prerequisites:
+- id: sorting-by-attributes
+  type: soft
 builds-toward:
 - sorting-by-multiple-attributes
 tags:
@@ -13,7 +15,6 @@ tags:
 stage: pre-formal
 status: draft
 ---
-
 # Sorting by One Attribute
 
 ## Core Idea
@@ -24,6 +25,45 @@ Provide objects (buttons, blocks, pictures) and ask to sort by color, size, or s
 
 ## Common Misconceptions
 Creating multiple groups based on different attributes rather than one consistent rule. Misidentifying the attribute.
+
+## Questions
+
+```yaml
+- question: "Mia is sorting crayons by color. She puts all the red crayons in one group. Then she moves a large blue crayon into the red group because 'it's the biggest one.' What went wrong?"
+  type: multiple-choice
+  options:
+    - "She should have sorted by size instead of color from the beginning"
+    - "She changed her sorting rule in the middle, so the group no longer follows one consistent attribute"
+    - "She put too many crayons in one group — groups should be equal in size"
+    - "Blue and red are similar colors, so placing them together is acceptable"
+  answer: 1
+  explanation: "Sorting by one attribute means choosing one rule and applying it consistently to every object. Mia started with color but switched to size for the blue crayon. Now the 'red' group contains red crayons (sorted by color) and a large blue crayon (sorted by size) — no single rule explains who belongs. This is the core misconception: drifting between attributes mid-sort destroys the logical structure of the groups."
+
+- question: "A teacher gives students a pile of buttons that are different colors, sizes, and shapes. She says 'sort by one attribute.' Which of these shows correct sorting?"
+  type: multiple-choice
+  options:
+    - "One group of red buttons and one group of big buttons"
+    - "One group of large round buttons and one group of small square buttons"
+    - "One group of red buttons and one group of all the non-red buttons"
+    - "Arrange them from the smallest to the largest"
+  answer: 2
+  explanation: "Option C sorts by color only — every button goes into either 'red' or 'not red,' and only color is used. Option A mixes two attributes (color and size) across different groups — one group is defined by color, the other by size. Option B uses two attributes simultaneously (size AND shape) to define each group. Option D is ordering by size, which is different from sorting into groups. Sorting by one attribute means one single rule defines membership in every group."
+
+- question: "When you sort objects correctly by one attribute, every object in your collection can be placed into exactly one group."
+  type: true-false
+  answer: true
+  explanation: "A well-defined single attribute creates clear, non-overlapping groups — every object belongs somewhere and no object belongs in two places at once. If you sort by color, every object is some color and belongs to exactly one color group. This property (called exhaustiveness and mutual exclusivity) is what makes the sort logically sound."
+
+- question: "A correct sort always produces groups that are equal in size."
+  type: true-false
+  answer: false
+  explanation: "Sorting is about applying a consistent rule, not about making equal groups. If you sort a bag of marbles by color and there are 8 red ones, 2 blue ones, and 1 green one, that is a perfectly correct sort — the groups are very unequal in size. What matters is that every marble went to the right group according to the color rule."
+
+- question: "Why does changing your sorting rule in the middle of sorting make the groups meaningless?"
+  type: short-answer
+  answer: "If you change the rule mid-sort, the objects in each group no longer share the same attribute — some got there by color, others by size, others by shape. Someone looking at the groups cannot figure out the rule, because there is no single rule that explains who belongs. Sorting only creates meaningful groups when one consistent attribute defines membership for every single object."
+  explanation: "This is the heart of logical categorization. The power of a sort is that the group membership communicates something — 'these all share X.' The moment the rule changes, the communication breaks down. This principle extends to scientific taxonomy, library classification, and database design: consistent criteria are what make categories informative."
+```
 
 ## Explainer
 

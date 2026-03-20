@@ -23,7 +23,7 @@ tags:
 - Roth
 - tax-advantaged
 - contribution-limits
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Retirement Accounts: 401(k), IRA, and Tax Advantages

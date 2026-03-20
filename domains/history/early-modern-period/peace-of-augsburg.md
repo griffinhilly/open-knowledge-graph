@@ -15,7 +15,7 @@ tags:
 - religion
 - germany
 - toleration
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

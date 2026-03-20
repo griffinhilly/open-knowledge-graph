@@ -17,7 +17,7 @@ tags:
 - appoggiatura
 - non-harmonic-tone
 - dissonance
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

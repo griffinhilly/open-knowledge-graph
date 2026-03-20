@@ -13,7 +13,7 @@ builds-toward:
   - solving-logarithmic-equations
   - natural-logarithm-and-e
 tags: [logarithms, inverse, exponential, definition]
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

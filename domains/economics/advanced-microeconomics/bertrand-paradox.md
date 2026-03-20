@@ -12,7 +12,7 @@ tags:
 - oligopoly
 - paradox
 - price-vs-quantity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - independence
 - violence
 - torture
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -10,7 +10,7 @@ tags:
 - moral-hazard
 - incentives
 - insurance
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

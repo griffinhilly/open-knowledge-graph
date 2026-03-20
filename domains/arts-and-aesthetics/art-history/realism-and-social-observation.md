@@ -19,7 +19,7 @@ tags:
 - contemporary
 - peasant
 - urban
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

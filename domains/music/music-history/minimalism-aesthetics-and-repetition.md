@@ -14,7 +14,7 @@ tags:
 - aesthetics
 - repetition
 - process
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

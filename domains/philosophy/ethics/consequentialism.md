@@ -18,7 +18,7 @@ tags:
 - consequentialism
 - outcomes
 - welfare
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

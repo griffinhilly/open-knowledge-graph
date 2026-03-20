@@ -18,7 +18,7 @@ tags:
 - maxwell-equations
 - field-theory
 - divergence-curl
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

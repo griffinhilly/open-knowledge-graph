@@ -17,7 +17,7 @@ tags:
 - transfer-functions
 - laplace
 - differential-equations
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

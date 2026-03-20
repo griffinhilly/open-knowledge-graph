@@ -13,7 +13,7 @@ tags:
 - education
 - curriculum
 - rhetorical-training
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

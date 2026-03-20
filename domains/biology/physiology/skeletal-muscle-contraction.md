@@ -17,7 +17,7 @@ tags:
 - troponin
 - calcium
 - cross-bridge cycle
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

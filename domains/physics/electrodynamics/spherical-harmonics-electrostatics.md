@@ -13,8 +13,7 @@ prerequisites:
 - id: legendre-polynomials-and-equations
   type: hard
 builds-toward:
-- green-function-method-electrostatics
-- boundary-value-problem-types
+  - green-function-method-electrostatics
 tags:
 - special-functions
 - boundary-value-problems
@@ -22,7 +21,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Spherical Harmonics in Electrostatics
 
 ## Core Idea

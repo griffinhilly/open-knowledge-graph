@@ -15,7 +15,7 @@ tags:
 - argument
 - pivot
 - sonnet
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

@@ -23,7 +23,7 @@ tags:
 - Asia
 - race
 - empire
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

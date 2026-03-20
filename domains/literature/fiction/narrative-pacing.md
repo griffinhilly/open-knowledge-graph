@@ -19,7 +19,7 @@ tags:
 - scene-vs-summary
 - tension
 - rhythm
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Narrative Pacing in Fiction

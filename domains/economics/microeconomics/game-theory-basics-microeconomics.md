@@ -20,7 +20,7 @@ tags:
 - payoff matrix
 - dominant strategy
 - prisoners dilemma
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

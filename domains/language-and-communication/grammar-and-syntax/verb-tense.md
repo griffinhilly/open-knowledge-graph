@@ -30,6 +30,45 @@ Build timelines alongside tense paradigms, placing events at specific points to 
 - Treating tense as simply 'when something happened' without understanding aspect (e.g., distinguishing 'I ate' from 'I have eaten').
 - Unnecessary tense shifts within a passage that confuse readers about the sequence of events.
 
+## Questions
+
+```yaml
+- question: "Which sentence best fits the blank: 'I _____ already, so I'm not hungry'?"
+  type: multiple-choice
+  options:
+    - "ate — simple past names the completed action"
+    - "have eaten — present perfect links the completed action to the present state"
+    - "was eating — past progressive describes an ongoing past action"
+    - "had eaten — past perfect places the eating before some other past event"
+  answer: 1
+  explanation: "The present perfect ('have eaten') is the right choice because the sentence connects a completed action to a current condition ('I'm not hungry'). The simple past ('ate') merely reports a past event without implying present relevance. The key insight of aspect: both 'ate' and 'have eaten' describe a past action, but the present perfect keeps one foot in the present, signaling the action's ongoing significance."
+
+- question: "By the time the paramedics arrived, the patient _____ consciousness. Which verb form correctly sequences these two past events?"
+  type: multiple-choice
+  options:
+    - "lost — simple past, which makes the events sound simultaneous"
+    - "had lost — past perfect, which places the loss of consciousness before the arrival"
+    - "has lost — present perfect, which brings the action into the present"
+    - "was losing — past progressive, which describes an ongoing action rather than a completed one"
+  answer: 1
+  explanation: "The past perfect ('had lost') is the grammatical tool for sequencing two past events: it marks 'the earlier of two past actions.' The patient lost consciousness first; the paramedics arrived second. Simple past ('lost') creates ambiguity — readers may interpret both events as simultaneous. The past perfect removes that ambiguity by explicitly placing one event further back in time."
+
+- question: "'I ate' and 'I have eaten' mean exactly the same thing because both describe a completed past action."
+  type: true-false
+  answer: false
+  explanation: "They differ in aspect. 'I ate' (simple past) reports a completed event in the past with no direct link to the present. 'I have eaten' (present perfect) reports a completed action with current relevance — it implies the eating matters now (e.g., 'so I'm full'). Aspect describes the internal structure of the event: simple aspect presents the event as a neutral fact; perfect aspect frames the completed event as connected to the present moment."
+
+- question: "Using more than one tense within a single piece of writing is always an error that should be corrected."
+  type: true-false
+  answer: false
+  explanation: "Multiple tenses within a piece are often correct and necessary. A narrative in simple past routinely uses past perfect to signal flashbacks, and may use present tense for universal truths. The error is *unmotivated* tense shifts — changes without a clear reason — which leave readers uncertain about when events occur. Every deliberate tense shift should serve a purpose: establishing temporal sequence, marking a flashback, or expressing a general truth."
+
+- question: "What is the difference between 'tense' and 'aspect' in English grammar? Use one example to illustrate."
+  type: short-answer
+  answer: "Tense locates an event in time relative to the moment of speaking: past, present, or future. Aspect describes whether the action is viewed as complete or ongoing. For example, 'I ate' and 'I have eaten' both use past tense — both describe something before now — but they differ in aspect: 'ate' (simple aspect) presents the eating as a neutral completed fact, while 'have eaten' (perfect aspect) connects the completed eating to the present moment."
+  explanation: "The tense/aspect distinction explains pairs that students often confuse, such as simple past vs. present perfect, or past progressive vs. simple past. Tense answers 'when?'; aspect answers 'is it done, and does it connect to now?' Conflating the two leads to errors like using present perfect for events that have no current relevance ('I have visited Rome in 2010') or simple past when current relevance is essential ('I ate — so I'm not hungry')."
+```
+
 ## Explainer
 
 You already know that **verb phrases** combine a main verb with auxiliaries to form complex predicates. Tense and aspect are the two grammatical categories that verb phrases encode about time. They are distinct concepts that often travel together, which is why beginners conflate them. **Tense** locates an event on the timeline relative to the moment of speaking: past places it before now, present places it at now (or in an ongoing state), future places it after now. **Aspect** describes the internal structure of the event — whether it is viewed as a completed whole or as an ongoing process.

@@ -13,7 +13,7 @@ tags:
 - structure
 - voice-leading
 - coherence
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

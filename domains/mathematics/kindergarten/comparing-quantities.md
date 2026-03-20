@@ -36,6 +36,45 @@ Use physical matching: line up objects from each group in pairs and see if any a
 - Judging by physical size of objects rather than quantity (e.g., 3 large blocks seems like 'more' than 5 small ones).
 - Confusing 'more' and 'less' — these require explicit vocabulary practice.
 
+## Questions
+
+```yaml
+- question: "You have 3 large dinosaur toys and 5 small dinosaur toys. Which group has more?"
+  type: multiple-choice
+  options:
+    - "The large dinosaurs, because they are bigger"
+    - "The small dinosaurs, because there are 5 of them"
+    - "They are equal, because they are all dinosaurs"
+    - "You cannot tell without measuring them"
+  answer: 1
+  explanation: "Comparing quantities means counting the number of objects, not their size. There are 5 small dinosaurs and only 3 large ones, so the small dinosaur group has more. The size of individual objects has no effect on the count. This is the most common confusion young learners face — big objects can feel like 'more,' but only the count determines which group is greater."
+
+- question: "You want to find out which of two bags has more marbles without counting. What is the best strategy?"
+  type: multiple-choice
+  options:
+    - "Pick the heavier bag — it must have more marbles"
+    - "Line up one marble from each bag in pairs and see which bag has marbles left over"
+    - "Look at which bag is bigger and guess"
+    - "Spread both bags out and pick the one that covers more space"
+  answer: 1
+  explanation: "One-to-one matching is the fundamental comparison strategy: pair up one object from each group, and whichever group has objects left over is the larger group. This works without any counting and is how mathematicians define 'more' — by the existence of a one-to-one correspondence. Weight and size are unreliable because objects vary in ways unrelated to quantity."
+
+- question: "If you count 6 red apples and 6 green apples, the two groups are equal."
+  type: true-false
+  answer: true
+  explanation: "Equal means both groups have exactly the same count. 6 red apples and 6 green apples both have a count of 6, so they are equal — one-to-one matching would pair every red apple with exactly one green apple with none left over. Color, size, or any other attribute doesn't change the comparison; only the count matters."
+
+- question: "A group of 3 large blocks has more than a group of 5 small blocks."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception in comparing quantities: large objects are not 'more.' More, fewer, and equal refer only to the count of objects in each group. There are 3 large blocks and 5 small blocks. 5 is greater than 3, so the small-blocks group has more — regardless of the size of individual objects."
+
+- question: "Why doesn't the physical size of objects matter when comparing which group has more?"
+  type: short-answer
+  answer: "'More' refers to how many objects are in a group, not how big each object is. Comparing quantities means counting, not measuring. A group of 10 tiny beads has more than a group of 3 large balls because there are 10 in one group and only 3 in the other."
+  explanation: "The entire meaning of 'more' in mathematics is about count — the number of things — not size, weight, or volume. When we compare quantities, we ask 'how many?' about each group and then compare those numbers. This is why one-to-one matching works even without number names: leftover objects reveal which group has a higher count, independently of any physical property of the objects themselves."
+```
+
 ## Explainer
 
 You already know how to count objects and how counting a group tells you how many are in it. Comparing quantities is the next step: instead of asking "how many?" about one group, you ask "which has more?" about two groups. This is one of the most fundamental ideas in mathematics — the ability to compare sizes is what turns counting from a memorization exercise into a reasoning tool.

@@ -15,7 +15,7 @@ tags:
 - memory
 - encoding-specificity
 - cues
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

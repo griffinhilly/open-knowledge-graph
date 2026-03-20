@@ -15,7 +15,7 @@ tags:
 - livelihoods
 - poverty
 - labor
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

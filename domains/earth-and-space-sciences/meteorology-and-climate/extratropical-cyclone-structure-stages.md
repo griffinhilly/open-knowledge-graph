@@ -18,7 +18,7 @@ tags:
 - pressure-system
 - weather
 - life-cycle
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

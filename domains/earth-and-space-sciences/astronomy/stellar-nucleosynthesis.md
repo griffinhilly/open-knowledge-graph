@@ -26,7 +26,7 @@ tags:
 - r-process
 - heavy-elements
 - iron-peak
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

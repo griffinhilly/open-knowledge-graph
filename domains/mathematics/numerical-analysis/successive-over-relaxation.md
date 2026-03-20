@@ -12,7 +12,7 @@ tags:
 - sor
 - over-relaxation
 - iterative
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

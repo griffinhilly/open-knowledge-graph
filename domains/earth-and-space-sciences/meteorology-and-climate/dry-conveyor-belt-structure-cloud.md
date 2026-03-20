@@ -15,7 +15,7 @@ tags:
 - synoptic
 - cyclones
 - structure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

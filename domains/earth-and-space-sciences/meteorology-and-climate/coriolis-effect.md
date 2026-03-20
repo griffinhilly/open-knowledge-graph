@@ -26,7 +26,7 @@ tags:
 - deflection
 - wind
 - geostrophic
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

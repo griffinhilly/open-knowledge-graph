@@ -15,7 +15,7 @@ tags:
 - element-ratios
 - nutrient-balance
 - constraint
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

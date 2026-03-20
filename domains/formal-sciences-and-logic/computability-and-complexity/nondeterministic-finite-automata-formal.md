@@ -15,7 +15,7 @@ tags:
 - automata
 - nondeterminism
 - regular-languages
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

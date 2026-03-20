@@ -16,7 +16,7 @@ tags:
 - stone-tools
 - technology
 - lithic
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

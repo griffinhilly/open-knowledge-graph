@@ -15,7 +15,7 @@ tags:
 - concentration
 - countercurrent
 - osmolarity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - angular-momentum
 - quantum-numbers
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

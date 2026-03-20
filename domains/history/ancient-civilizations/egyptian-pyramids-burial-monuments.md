@@ -15,7 +15,7 @@ tags:
 - burial
 - kingship
 - old-kingdom
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

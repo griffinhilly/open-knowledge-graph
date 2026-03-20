@@ -12,7 +12,7 @@ tags:
 - analysis
 - transcription
 - voice-leading-techniques
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

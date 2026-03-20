@@ -15,7 +15,7 @@ tags:
 - length
 - proper-length
 - lorentz-contraction
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

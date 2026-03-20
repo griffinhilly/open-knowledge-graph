@@ -19,7 +19,7 @@ tags:
 - circadian
 - sleep-cycle
 - EEG
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

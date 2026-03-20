@@ -16,7 +16,7 @@ tags:
 - Italy
 - Monteverdi
 - Gesualdo
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

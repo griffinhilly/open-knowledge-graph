@@ -17,7 +17,7 @@ tags:
 - pascal-triangle
 - combinations
 - expansion
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Binomial Theorem

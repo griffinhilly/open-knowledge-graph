@@ -16,7 +16,7 @@ tags:
 - voice-exchange
 - counterpoint
 - technique
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

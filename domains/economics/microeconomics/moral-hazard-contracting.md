@@ -10,7 +10,7 @@ tags:
 - information asymmetry
 - moral hazard
 - principal-agent
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

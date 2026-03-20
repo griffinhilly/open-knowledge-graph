@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 A ten frame is a grid of 10 boxes (usually 2 rows of 5). Filling a ten frame and using another shows sums visually: 7 in one frame and 5 in another, with 3 filling the first frame to make 10, then 2 remaining. This concrete aid bridges counting to mental math.
 
+## Questions
+
+```yaml
+- question: "A student wants to add 8 + 5 using a ten frame. They place 8 counters in the first frame (leaving 2 empty spots). How many counters from the group of 5 should be moved into the first frame, and what is the final answer?"
+  type: multiple-choice
+  options:
+    - "Move 2 counters; the answer is 13"
+    - "Move 5 counters; the answer is 15"
+    - "Move 3 counters; the answer is 13"
+    - "Move 8 counters; the answer is 16"
+  answer: 0
+  explanation: "The first frame has 2 empty spots, so you move exactly 2 of the 5 counters to fill it — making 10. That uses up 2 of the 5, so 3 remain for the second frame. The answer is 10 + 3 = 13. This is the make-a-ten strategy made visible: you decompose 5 into (2 + 3), use the 2 to reach 10, then add the 3."
+
+- question: "Why does the ten-frame strategy use 10 as a stopping point rather than simply adding the two numbers directly?"
+  type: multiple-choice
+  options:
+    - "Because ten frames only have 10 boxes, so you are physically forced to stop at 10"
+    - "Because adding through 10 uses number bonds students already know, making it easier than counting from an arbitrary sum"
+    - "Because all addition answers within 20 are multiples of 10"
+    - "Because counting past 10 is too hard for first graders"
+  answer: 1
+  explanation: "10 is a landmark in our base-ten number system. Students already know their number bonds to 10 (8 + 2 = 10, 7 + 3 = 10, etc.), so reaching 10 is easy. Once at 10, adding the remaining amount is also easy because 10 + anything just changes the tens digit. The ten frame exploits this structure visually, turning a hard problem (8 + 5) into two easy steps (8 + 2 = 10, then 10 + 3 = 13)."
+
+- question: "The ten-frame strategy for addition only works if a student already knows their number bonds to 10."
+  type: true-false
+  answer: true
+  explanation: "The whole point of the ten-frame method is to reach 10 as a stepping stone. To do this, you need to instantly know how many more a number needs to reach 10 — that is, you need your number bonds to 10. If you don't know that 7 needs 3 more to reach 10, you can't use the strategy fluently. Number bonds to 10 are a listed prerequisite for this topic for exactly this reason."
+
+- question: "The ten frame is primarily a tool for helping children count more carefully and avoid errors when adding small numbers."
+  type: true-false
+  answer: false
+  explanation: "The ten frame's purpose is not accuracy in counting — it is to bridge counting to mental math by making the make-a-ten strategy visual. The goal is that students internalize the strategy so thoroughly that they no longer need the physical frame. Over time, seeing 8 + 6 triggers automatic decomposition ('8 needs 2 to reach 10, leaving 4, so 14') — a mental habit the ten frame is training, not a counting aid."
+
+- question: "Explain how a ten frame turns the problem 7 + 6 into two simpler steps. What role does the number 10 play?"
+  type: short-answer
+  answer: "Place 7 counters in the first frame — 3 spots remain empty. Move 3 of the 6 counters into the first frame to fill it (making 10). The remaining 3 counters go in the second frame. Answer: 10 + 3 = 13. The number 10 is the stepping stone: instead of adding 7 and 6 directly, you decompose 6 into (3 + 3), use the first 3 to reach 10, then add the second 3. Two easy steps replace one harder one."
+  explanation: "This is the make-a-ten strategy made concrete. 10 is useful because it is a place-value landmark — adding anything to 10 is trivial in our base-ten system. The ten frame makes this structure visible so students can see exactly how many counters cross the 'bridge' to fill the first frame versus how many start the second frame."
+```
+
 ## Explainer
 
 A **ten frame** is a 2-by-5 grid that makes the number 10 visible. Because you already know your number bonds to 10 — the pairs that combine to make ten (like 7 + 3 or 6 + 4) — the ten frame turns that knowledge into a picture. When you place counters in a ten frame, you can see at a glance how many are filled and how many empty spots remain. Those empty spots tell you exactly how far away from 10 you are without counting.

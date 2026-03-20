@@ -15,7 +15,7 @@ tags:
 - pivot-chord
 - voice-leading
 - key-change
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

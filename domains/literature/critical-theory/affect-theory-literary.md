@@ -14,7 +14,7 @@ tags:
 - intensity
 - sensation
 - force
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

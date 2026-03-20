@@ -30,6 +30,45 @@ Start with sentences that already have an auxiliary (is, are, was, were, have, h
 ## Common Misconceptions
 Students may invert the subject and main verb without moving the auxiliary. They might forget to add 'do/does/did' in simple present and past. Some learners think all verbs can just move to the front without an auxiliary.
 
+## Questions
+
+```yaml
+- question: "In the sentence 'She has been working late,' what is the correct yes/no question form?"
+  type: multiple-choice
+  options:
+    - "Has been she working late?"
+    - "Has she been working late?"
+    - "Does she has been working late?"
+    - "Is she working late?"
+  answer: 1
+  explanation: "Only the FIRST auxiliary verb moves to question position — 'has' — not all auxiliaries and not the main verb. 'Has been she working late?' incorrectly moves both auxiliaries. 'Does she has been working late?' wrongly applies do-support to a sentence that already has an auxiliary; do-support is a last resort only when no auxiliary exists. 'Is she working late?' changes tense and meaning entirely."
+
+- question: "A student forming a question from 'He walked to school' writes 'Walked he to school?' What grammatical principle did this student miss?"
+  type: multiple-choice
+  options:
+    - "The subject should come after the main verb in questions"
+    - "Simple past sentences have no auxiliary, so do-support is required: 'Did he walk to school?'"
+    - "All verbs in simple past must remain in place; only present-tense verbs move"
+    - "The correct form is 'Does he walk to school?' — simple past is not allowed in questions"
+  answer: 1
+  explanation: "Simple past declarative sentences have no auxiliary verb, so there is nothing to invert. English solves this with do-support: a form of 'do' is inserted to serve as a placeholder auxiliary, the tense marker moves onto 'did', and the main verb reverts to its base form: 'Did he walk to school?' Moving the main verb directly ('Walked he...?') is not grammatical in modern Standard English."
+
+- question: "In the sentence 'They can leave early,' the correct yes/no question is 'Can they leave early?' — the main verb 'leave' does not move."
+  type: true-false
+  answer: true
+  explanation: "Correct. Subject-auxiliary inversion moves only the first auxiliary ('can') to before the subject. The main verb 'leave' stays in place. The rule is anchored to the auxiliary because auxiliaries are the grammatical carriers of tense and modality."
+
+- question: "Do-support is used to add emphasis to questions even when the sentence already contains an auxiliary verb, as in 'Does she is going?'"
+  type: true-false
+  answer: false
+  explanation: "Do-support is a last resort, deployed only when no auxiliary verb is present. When a sentence already has an auxiliary, that auxiliary handles the inversion — do-support is never inserted in addition to it. 'Does she is going?' is ungrammatical; the correct form is simply 'Is she going?'"
+
+- question: "Why does 'She likes pizza' become 'Does she like pizza?' rather than 'Likes she pizza?' What does the shift in tense from 'likes' to 'does' reveal about English grammar?"
+  type: short-answer
+  answer: "English question formation requires an auxiliary verb to invert. Since 'She likes pizza' has no auxiliary, the grammar inserts 'does' via do-support. The tense marking (-s) shifts from the main verb onto 'does', and the main verb reverts to its base form 'like'. This reveals that English grammar treats questions as fundamentally requiring an auxiliary — and will create one if necessary — rather than allowing main verbs to move freely into question position."
+  explanation: "Moving the main verb ('Likes she pizza?') was grammatical in Early Modern English but is no longer Standard English. The do-support process shows that tense must be carried by an auxiliary in inverted structures. The -s for third-person singular present moves to 'does', leaving 'like' uninflected. This pattern is perfectly consistent: in all do-support questions, the main verb appears in its base form because the tense has already been claimed by 'do/does/did'."
+```
+
 ## Explainer
 
 You've learned that every English sentence has a subject and a predicate, and that auxiliary verbs like *is*, *are*, *was*, *were*, *have*, *has*, *can*, *will*, and *should* attach to main verbs to add meaning about time, possibility, and aspect. Those two pieces of knowledge are exactly what question formation operates on. The grammatical operation for forming yes/no questions in English is **subject-auxiliary inversion**: move the first auxiliary verb to the position before the subject, and the sentence becomes a question.

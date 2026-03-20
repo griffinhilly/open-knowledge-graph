@@ -15,7 +15,7 @@ tags:
 - bacterial-genetics
 - chromosome
 - gene-organization
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

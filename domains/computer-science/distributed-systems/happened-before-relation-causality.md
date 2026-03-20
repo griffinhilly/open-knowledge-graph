@@ -17,7 +17,7 @@ tags:
 - ordering
 - logical-clocks
 - partial-order
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

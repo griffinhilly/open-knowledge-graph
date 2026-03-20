@@ -29,6 +29,45 @@ Create a series of test marks with different pencil grades (HB, 2B, 6B), charcoa
 ## Common Misconceptions
 More expensive materials do not automatically produce better drawings—technique matters far more. Some materials (certain inks, pastels) fade over time; knowing permanence prevents future loss.
 
+## Questions
+
+```yaml
+- question: "An artist wants to make quick compositional sketches that can be easily adjusted and wiped away during the planning stage of a large drawing. Which material is best suited for this?"
+  type: multiple-choice
+  options:
+    - "India ink with a dip pen, for confident and expressive lines"
+    - "A 6B graphite pencil, for rich dark marks"
+    - "Vine charcoal, which sits lightly on the surface and erases easily"
+    - "Compressed charcoal, for the darkest possible marks"
+  answer: 2
+  explanation: "Vine charcoal is the most erasable drawing medium — it sits on top of the paper surface and wipes off with a cloth, making it ideal for exploratory planning work. Compressed charcoal (D) is much darker and more permanent. Graphite (B) is harder to fully erase once built up. Ink (A) is completely permanent — the worst choice for work that needs revision."
+
+- question: "A student uses the most expensive set of graphite pencils available but finds their drawings look no better than a classmate's work done with a basic set. What does this most likely reveal?"
+  type: multiple-choice
+  options:
+    - "The student's pencils are probably counterfeit"
+    - "Expensive materials always produce better results — the student must be using them incorrectly"
+    - "Technique matters far more than material cost — skill drives quality, not price"
+    - "The classmate must also be using professional-grade materials"
+  answer: 2
+  explanation: "The core principle is that technique and knowledge of how to use a medium's properties drive drawing quality far more than cost. An expensive 6B pencil and an inexpensive one share the same physical characteristics; the difference is negligible compared to the artist's skill in applying marks, managing value, and choosing the right grade for the task."
+
+- question: "Ink is considered an 'unforgiving' medium because once a mark is made it cannot be removed, which forces the artist to develop intentionality."
+  type: true-false
+  answer: true
+  explanation: "Ink's permanence is both its main constraint and its main teacher. Because marks cannot be erased, every line must be deliberate. This is why ink is typically learned after graphite or charcoal — the artist first develops confident line quality in more forgiving media. The constraint of permanence turns ink into a discipline-building medium that shapes the entire drawing process."
+
+- question: "A hard graphite pencil (like 4H) is the best choice for drawing rich, dark shadows in a portrait."
+  type: true-false
+  answer: false
+  explanation: "Hard pencils (H grades) produce light, fine, precise marks — they lack the tonal range to create rich, dark shadows. For deep shadows and velvety darks, soft pencils (4B, 6B) or charcoal are appropriate. The trade-off is always control vs. expression: hard = precision and light marks; soft = darkness and expressive range. Using a hard pencil for shadows is a classic material-mismatch error."
+
+- question: "An artist chooses to work in ink rather than graphite for a finished illustration. Beyond the visual result, how does this choice affect the drawing process itself?"
+  type: short-answer
+  answer: "Working in ink requires decisiveness from the start — every mark is permanent, so there is no erasing or revising. The artist must commit to each line and plan ahead rather than building up and correcting. This changes the mental process: more deliberate planning before drawing, less exploratory mark-making during."
+  explanation: "Material selection shapes the cognitive process, not just the appearance. Ink forces commitment and advance thinking. Graphite allows iteration and correction. Charcoal rewards bold gestural approaches. Choosing a medium is a creative decision that determines what kind of thinking the drawing will require — it is never a neutral choice."
+```
+
 ## Explainer
 
 You have already learned how paper affects your drawing and how different marks behave on a surface. Now it is time to understand the tools that make those marks. Every drawing medium has a distinct personality defined by a handful of physical properties, and choosing the right one for your subject is a decision that shapes the entire drawing before you make a single stroke.

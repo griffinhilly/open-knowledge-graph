@@ -15,7 +15,7 @@ tags:
 - time
 - A-theory
 - B-theory
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

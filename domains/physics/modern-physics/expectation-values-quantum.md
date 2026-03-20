@@ -14,7 +14,7 @@ tags:
 - quantum
 - observables
 - measurement
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

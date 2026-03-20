@@ -16,7 +16,7 @@ tags:
 - MAD
 - arms race
 - Hiroshima
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

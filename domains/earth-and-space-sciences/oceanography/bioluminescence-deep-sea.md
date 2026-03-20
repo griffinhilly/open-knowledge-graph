@@ -14,7 +14,7 @@ tags:
 - chemiluminescence
 - counter-illumination
 - communication
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

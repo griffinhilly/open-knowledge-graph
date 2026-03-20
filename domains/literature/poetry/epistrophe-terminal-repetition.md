@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: poetic-repetition-and-refrain
   type: soft
-builds-toward:
-- anaphora-initial-repetition
+builds-toward: []
 tags:
 - epistrophe
 - repetition
@@ -17,10 +16,9 @@ tags:
 - closure
 - refrain
 - sound
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Epistrophe: Repetition at Line Endings
 
 ## Core Idea

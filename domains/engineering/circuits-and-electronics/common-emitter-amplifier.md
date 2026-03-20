@@ -20,7 +20,7 @@ tags:
 - small-signal
 - hybrid-pi-model
 - phase-inversion
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

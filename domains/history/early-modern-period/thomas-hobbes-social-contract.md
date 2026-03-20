@@ -15,7 +15,7 @@ tags:
 - philosophy
 - state
 - social-contract
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

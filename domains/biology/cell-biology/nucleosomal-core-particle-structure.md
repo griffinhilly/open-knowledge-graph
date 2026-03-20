@@ -14,7 +14,7 @@ tags:
 - nucleosome
 - chromatin
 - histones
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

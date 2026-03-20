@@ -13,7 +13,7 @@ tags:
 - graph-theory
 - flows
 - networks
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

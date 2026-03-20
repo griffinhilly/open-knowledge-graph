@@ -13,7 +13,7 @@ tags:
 - floor
 - ceiling
 - piecewise
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Step Functions

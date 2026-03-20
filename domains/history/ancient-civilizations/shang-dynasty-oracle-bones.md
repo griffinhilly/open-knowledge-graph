@@ -16,7 +16,7 @@ tags:
 - writing
 - divination
 - oracle-bones
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

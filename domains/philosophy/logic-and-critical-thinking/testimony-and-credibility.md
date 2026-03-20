@@ -13,7 +13,7 @@ tags:
 - credibility
 - evidence
 - epistemology
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

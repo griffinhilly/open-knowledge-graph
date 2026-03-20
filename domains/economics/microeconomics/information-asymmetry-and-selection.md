@@ -12,7 +12,7 @@ tags:
 - information
 - adverse-selection
 - market-failure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

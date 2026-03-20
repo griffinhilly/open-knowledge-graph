@@ -20,7 +20,7 @@ tags:
 - Verfremdungseffekt
 - alienation
 - political-theatre
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Epic Theatre and Brecht

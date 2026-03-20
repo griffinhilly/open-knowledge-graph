@@ -27,7 +27,7 @@ tags:
 - solfège
 - reading
 - stepwise motion
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 # Sight-Singing: Stepwise Melodies

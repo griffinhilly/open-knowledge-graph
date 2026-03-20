@@ -12,7 +12,7 @@ tags:
 - deshielding
 - electronegativity
 - ring-current
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

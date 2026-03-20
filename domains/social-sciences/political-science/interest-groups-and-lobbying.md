@@ -19,7 +19,7 @@ tags:
 - pluralism
 - collective action
 - PACs
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

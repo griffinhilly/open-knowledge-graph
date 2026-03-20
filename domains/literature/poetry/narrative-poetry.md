@@ -13,7 +13,7 @@ tags:
 - storytelling
 - verse
 - plot
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

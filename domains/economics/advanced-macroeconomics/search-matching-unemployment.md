@@ -14,7 +14,7 @@ tags:
 - unemployment
 - search
 - matching
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - dementia
 - working memory
 - processing speed
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

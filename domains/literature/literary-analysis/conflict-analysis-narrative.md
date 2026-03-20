@@ -15,7 +15,7 @@ tags:
 - narrative
 - tension
 - meaning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

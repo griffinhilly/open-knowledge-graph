@@ -14,7 +14,7 @@ tags:
 - martin-luther
 - catholic-church
 - religious-reform
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

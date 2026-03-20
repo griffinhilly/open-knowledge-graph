@@ -17,7 +17,7 @@ tags:
 - hybridity
 - mestiza
 - consciousness
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

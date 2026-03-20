@@ -13,7 +13,7 @@ tags:
 - quantity-competition
 - nash-equilibrium
 - oligopoly
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

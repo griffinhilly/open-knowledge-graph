@@ -16,7 +16,7 @@ tags:
 - binary-systems
 - alloys
 - equilibrium
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

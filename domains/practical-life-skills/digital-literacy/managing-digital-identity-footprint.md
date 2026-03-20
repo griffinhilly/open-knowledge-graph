@@ -27,6 +27,45 @@ Your digital footprint is the trail of information created by your online activi
 ## How It's Best Learned
 Search for yourself on Google and social media platforms. Check privacy settings on your social accounts. Create a plan for what digital identity you want to project.
 
+## Questions
+
+```yaml
+- question: "A 22-year-old deletes embarrassing photos from her social media accounts before applying for jobs. A recruiter searches her name. What does the concept of digital footprint permanence suggest about what the recruiter might still find?"
+  type: multiple-choice
+  options:
+    - "Nothing — deleted content is permanently removed once the platform confirms deletion"
+    - "Only her passive footprint (tracked browsing data) remains; published content is gone"
+    - "Cached versions, archived copies, or screenshots that others saved may still be discoverable"
+    - "The photos will reappear automatically unless she pays a reputation management service"
+  answer: 2
+  explanation: "Digital footprint permanence means that once content is published online, it can be archived, screenshotted, cached, or shared in ways that persist even after the original deletion. Search engine caches, the Wayback Machine, and other users' saves can preserve content indefinitely. This is one of the key insights of digital footprint management: deletion from the original source does not guarantee removal from all copies."
+
+- question: "Which of the following best describes the difference between an active and a passive digital footprint?"
+  type: multiple-choice
+  options:
+    - "Active footprints are created on desktop computers; passive footprints are created on mobile devices"
+    - "Active footprints are from social media; passive footprints are from email and private messages"
+    - "Active footprints are data you deliberately publish; passive footprints are data collected about you without direct action"
+    - "Active footprints are legally public; passive footprints are legally protected from commercial use"
+  answer: 2
+  explanation: "The active/passive distinction is about intentionality and agency. Your active footprint is what you deliberately share — posts, profiles, comments. Your passive footprint is what is collected about you without your direct participation: location data harvested by apps, browsing habits tracked by ad networks, data broker profiles compiled from public records. Both dimensions constitute your overall footprint, but you have more direct control over the active portion."
+
+- question: "Closing dormant online accounts is a meaningful part of managing your digital footprint, not just routine account hygiene."
+  type: true-false
+  answer: true
+  explanation: "Abandoned accounts extend your attack surface — they can be compromised and used to impersonate you or spread content under your name. They may also contain outdated or unflattering information that is still findable. Digital identity management includes reducing the number of places where old, uncontrolled versions of you exist online, not just managing active accounts."
+
+- question: "The best strategy for managing your digital identity is to minimize your online presence as much as possible."
+  type: true-false
+  answer: false
+  explanation: "A minimal online presence leaves a vacuum that can be filled by whatever others post about you, old unflattering content, or simply a lack of findable information — which can itself raise concerns for employers or professional contacts. Proactive reputation management means building a coherent, positive presence (professional profiles, portfolio sites, public projects) that surfaces in search results and accurately represents who you are. The goal is intentional projection, not invisibility."
+
+- question: "Why is simply deleting content or ignoring your digital footprint insufficient for managing your digital identity? What does effective management actually require?"
+  type: short-answer
+  answer: "Deletion is insufficient because content may persist in caches, archives, or screenshots; and the passive footprint — data collected about you by third parties — cannot be deleted at all. Effective management requires both defensive and proactive work: auditing (searching your name, reviewing privacy settings, closing old accounts) and proactive projection (building positive, professional content that surfaces in search results and reflects who you want to be seen as). Defense alone leaves a vacuum; projection alone ignores vulnerabilities."
+  explanation: "The two-dimensional approach — audit and project — addresses both the permanence problem (old content persists) and the identity problem (what do people actually find?). The goal is not just removing negatives but ensuring the most visible version of you is the most accurate one."
+```
+
 ## Explainer
 
 Every action you take online leaves a trace — a post, a comment, a profile, a purchase, a search. This collection of traces is your **digital footprint**, and it has two dimensions. Your **active footprint** is what you deliberately publish: photos you post, accounts you create, things you write publicly. Your **passive footprint** is what is collected about you without direct action: location data harvested by apps, browsing habits tracked by ad networks, and data brokers who compile profiles from public records and third-party sources. You already understand from your work on data privacy that companies collect information about you; the footprint concept extends that into a longer-term picture of how all this data accumulates and persists.

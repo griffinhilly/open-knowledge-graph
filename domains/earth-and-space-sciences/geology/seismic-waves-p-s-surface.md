@@ -4,8 +4,6 @@ title: 'Seismic Waves: Body Waves and Surface Waves'
 domain: earth-and-space-sciences
 course: geology
 prerequisites:
-- id: elastic-wave-propagation-in-solids
-  type: hard
 - id: earthquake-mechanisms-stress-release
   type: hard
 - id: wave-properties-intro
@@ -16,7 +14,7 @@ tags:
 - seismology
 - waves
 - crustal-structure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - boundary-conditions
 - conductors
 - dielectrics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

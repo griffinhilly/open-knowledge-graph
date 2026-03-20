@@ -14,7 +14,7 @@ tags:
 - concision
 - persuasion
 - hook
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

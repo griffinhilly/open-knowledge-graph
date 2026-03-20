@@ -15,7 +15,7 @@ tags:
 - cholesterol
 - cardiovascular-health
 - lipoproteins
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

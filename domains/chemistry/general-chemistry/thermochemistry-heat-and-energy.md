@@ -16,7 +16,7 @@ tags:
 - exothermic
 - endothermic
 - heat
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

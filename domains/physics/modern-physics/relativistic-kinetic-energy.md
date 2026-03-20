@@ -14,7 +14,7 @@ tags:
 - special-relativity
 - energy
 - dynamics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

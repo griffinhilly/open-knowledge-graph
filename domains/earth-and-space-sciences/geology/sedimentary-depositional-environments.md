@@ -15,7 +15,7 @@ tags:
 - sedimentation
 - environments
 - facies
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

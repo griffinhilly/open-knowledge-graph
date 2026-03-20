@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: colligative-properties
   type: soft
-builds-toward:
-- phase-changes-and-diagrams
+builds-toward: []
 tags:
 - vapor-pressure
 - Raoults-law
@@ -17,7 +16,7 @@ tags:
 - positive-deviation
 - negative-deviation
 - volatile-solute
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 # Vapor Pressure and Raoult's Law

@@ -14,7 +14,7 @@ tags:
 - first-order-logic
 - instances
 - substitution
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

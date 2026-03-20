@@ -15,7 +15,7 @@ tags:
 - epidemiology
 - modeling
 - disease-transmission
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -11,17 +11,15 @@ prerequisites:
 - id: modal-logic-intro
   type: soft
 builds-toward:
-- modal-status-identity-statements
-- direct-reference-theory
+  - direct-reference-theory
 tags:
 - semantics
 - modality
 - two-dimensionalism
 - meaning
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Two-Dimensional Semantics
 
 ## Core Idea

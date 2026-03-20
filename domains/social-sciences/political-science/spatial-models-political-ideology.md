@@ -20,7 +20,7 @@ tags:
 - ideology
 - positioning
 - voting
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

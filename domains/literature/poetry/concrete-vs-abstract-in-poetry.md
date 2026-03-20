@@ -14,7 +14,7 @@ tags:
 - imagery
 - diction
 - show-dont-tell
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - pitch retention
 - audiation
 - short-term memory
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

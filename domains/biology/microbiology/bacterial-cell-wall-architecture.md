@@ -16,7 +16,7 @@ tags:
 - bacterial-structure
 - cell-wall
 - gram-stain
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

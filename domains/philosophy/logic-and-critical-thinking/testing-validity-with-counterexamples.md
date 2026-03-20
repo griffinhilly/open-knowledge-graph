@@ -16,7 +16,7 @@ tags:
 - counterexamples
 - testing
 - deductive
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - direct-democracy
 - representation
 - deliberation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

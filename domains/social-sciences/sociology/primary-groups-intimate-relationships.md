@@ -13,7 +13,7 @@ tags:
 - groups
 - relationships
 - socialization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

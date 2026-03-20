@@ -29,6 +29,45 @@ Introduce a few words at a time (3-5 per week) with repeated practice. Use flash
 - That all early reading should be sight-word memorization -- phonics and sight words work together, and overreliance on memorization limits a child's ability to read unfamiliar words.
 - That sight words are only irregular words -- even regularly spelled high-frequency words (like "in" or "at") become sight words once a reader recognizes them automatically.
 
+## Questions
+
+```yaml
+- question: "A first-grader correctly identifies the word 'the' every time it appears but cannot explain what the individual letters stand for. What does this most likely indicate?"
+  type: multiple-choice
+  options:
+    - "The child has a phonics deficit and needs remediation"
+    - "The child has developed automaticity for 'the' — recognizing it as a whole visual unit"
+    - "The child is guessing based on context clues"
+    - "The child is not truly reading because she cannot decode the word"
+  answer: 1
+  explanation: "Automatic recognition of a whole word without phonemic decoding is exactly what sight word automaticity looks like. Fluent readers recognize high-frequency words as visual units stored in memory — retrieved in one step rather than assembled from phonemes. This is a sign of progress, not a gap. The inability to explain letter-by-letter phonics for a well-automatized word is expected and appropriate."
+
+- question: "Why does recognizing sight words automatically help a child understand what they read, even though sight words are usually simple words like 'the' and 'was'?"
+  type: multiple-choice
+  options:
+    - "Sight words carry the main meaning of most sentences"
+    - "Automatic recognition frees up cognitive attention that would otherwise go to decoding, leaving more capacity for comprehension"
+    - "Children who know sight words have larger vocabularies and understand more words"
+    - "Sight words appear so rarely that knowing them saves time at key moments"
+  answer: 1
+  explanation: "The bottleneck is cognitive attention, not word knowledge. Decoding even simple words requires working memory. When a reader must decode 'the' and 'was' on every encounter, those cognitive resources are unavailable for comprehension tasks like tracking narrative, making inferences, and connecting ideas. Automaticity removes this competition — sight words are retrieved instantly at no attention cost, freeing the mind for meaning-making."
+
+- question: "A child who has memorized hundreds of sight words but has not learned phonics will be able to read any new word they encounter."
+  type: true-false
+  answer: false
+  explanation: "False. Sight word memorization only covers known words. When a reader encounters an unfamiliar word, they need phonics — the ability to decode by mapping letters to sounds. This is the key misconception the topic warns against: overreliance on memorization leaves readers helpless with novel words. Phonics and sight words work together; neither alone is sufficient."
+
+- question: "The word 'said' must be learned as a sight word rather than decoded phonetically because it appears very frequently in text."
+  type: true-false
+  answer: false
+  explanation: "False. Frequency is not the reason 'said' must be memorized — irregularity is. 'Said' is pronounced /sɛd/, not /seɪd/ as standard phonics rules would predict. Its spelling is irregular, making phonetic decoding unreliable. By contrast, a regular word like 'in' or 'at' can become automatic through repeated exposure even though it follows phonics rules. The distinction matters: irregular words require explicit memorization; regular high-frequency words automate naturally."
+
+- question: "Why is automaticity in sight word recognition described as removing a 'bottleneck' to reading comprehension?"
+  type: short-answer
+  answer: "Reading comprehension requires cognitive attention directed at meaning — tracking the story, connecting ideas, making inferences. Decoding words competes for that same limited attention. When a reader must laboriously sound out every common word like 'the,' 'was,' or 'they,' the mental effort of decoding prevents comprehension from happening at full capacity. Once these words are automatic — recognized instantly with no effort — the reader's full attention is available for understanding what the words mean together."
+  explanation: "The bottleneck metaphor captures the key: it is not that sight words are inherently meaningful, it is that fluent decoding of them clears the path for comprehension to happen. This is why sight word fluency is one of the strongest early predictors of reading comprehension — not because these words carry meaning, but because automating them removes the obstacle that was blocking comprehension."
+```
+
 ## Explainer
 
 You've already studied letter-sound correspondence — the core principle that written letters (graphemes) map onto spoken sounds (phonemes), and that skilled readers use this mapping to decode unfamiliar words. Sight words sit at the intersection of that phonics knowledge and a practical reality: many of the most common words in English either violate the regular phonics rules or appear so frequently that stopping to decode them would make reading impossibly slow.

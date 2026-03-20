@@ -18,7 +18,7 @@ tags:
 - hydrogenation
 - halogenation
 - Lindlar catalyst
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 # Addition Reactions of Alkynes

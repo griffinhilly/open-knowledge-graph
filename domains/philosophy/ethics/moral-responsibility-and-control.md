@@ -15,7 +15,7 @@ tags:
 - control
 - agency
 - moral-luck
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -6,13 +6,14 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: permutations-and-combinations
   type: hard
+- id: catalan-numbers
+  type: soft
 tags:
 - combinatorics
 - counting
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Stirling Numbers of the First and Second Kind
 
 ## Core Idea

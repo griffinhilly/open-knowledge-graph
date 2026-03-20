@@ -13,7 +13,7 @@ tags:
 - pragma-dialectics
 - dialogue
 - reasoning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - yield
 - duration
 - interest-rate-risk
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

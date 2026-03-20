@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: analyte-identification-interferences
   type: hard
-builds-toward:
-- analytical-method-validation-core-parameters
+builds-toward: []
 tags:
 - selectivity
 - specificity
@@ -18,7 +17,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Analytical Selectivity and Specificity: Method Discrimination
 
 ## Core Idea

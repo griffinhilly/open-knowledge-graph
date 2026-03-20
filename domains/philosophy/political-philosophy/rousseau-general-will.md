@@ -15,7 +15,7 @@ tags:
 - popular-sovereignty
 - freedom
 - democracy
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

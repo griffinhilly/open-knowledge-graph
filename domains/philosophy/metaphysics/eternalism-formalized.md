@@ -15,7 +15,7 @@ tags:
 - eternalism
 - block-universe
 - temporal-metaphysics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

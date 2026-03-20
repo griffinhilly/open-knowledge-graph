@@ -17,7 +17,7 @@ tags:
 - eradication
 - elimination
 - control-targets
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

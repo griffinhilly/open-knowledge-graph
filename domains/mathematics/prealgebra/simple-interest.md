@@ -14,7 +14,7 @@ tags:
 - percent
 - finance
 - applications
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 # Simple Interest

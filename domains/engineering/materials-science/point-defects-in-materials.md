@@ -14,7 +14,7 @@ tags:
 - vacancies
 - interstitials
 - point-defects
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

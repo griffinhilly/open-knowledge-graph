@@ -16,7 +16,7 @@ tags:
 - call and response
 - imitation
 - vocal
-stage: pre-formal
+stage: formal-systems
 status: validated
 ---
 

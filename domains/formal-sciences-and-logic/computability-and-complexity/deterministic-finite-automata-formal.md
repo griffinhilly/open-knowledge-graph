@@ -19,7 +19,7 @@ tags:
 - automata
 - regular-languages
 - computation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

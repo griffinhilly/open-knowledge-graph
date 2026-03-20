@@ -16,7 +16,7 @@ tags:
 - solmization
 - do re mi
 - pitch naming
-stage: pre-formal
+stage: formal-systems
 status: validated
 ---
 

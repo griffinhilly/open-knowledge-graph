@@ -14,7 +14,7 @@ tags:
 - theology
 - sacred
 - visual
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

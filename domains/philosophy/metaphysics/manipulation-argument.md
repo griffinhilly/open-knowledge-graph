@@ -14,7 +14,7 @@ tags:
 - compatibilism
 - sourcehood
 - moral responsibility
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

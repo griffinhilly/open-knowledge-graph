@@ -29,6 +29,45 @@ Use physical examples: railroad tracks (parallel), the corner of a book (perpend
 - Confusing "perpendicular" with "intersecting" -- all perpendicular lines intersect, but not all intersecting lines are perpendicular.
 - Believing that lines that appear to meet far away on a drawing must intersect (they could be nearly-but-not-exactly parallel, or they could converge -- precision matters).
 
+## Questions
+
+```yaml
+- question: "Two lines cross each other at a 60-degree angle. A student says they must be perpendicular because they intersect. What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Lines cannot intersect at 60 degrees; all intersecting lines meet at either 90 or 45 degrees"
+    - "Diagonal lines cannot be perpendicular under any circumstances"
+    - "Intersecting lines are perpendicular only when they meet at exactly 90 degrees; these lines cross at 60 degrees, so they are not perpendicular"
+    - "The student is correct — any two lines that cross qualify as perpendicular"
+  answer: 2
+  explanation: "'Intersecting' means the lines cross at some point — it says nothing about the angle. 'Perpendicular' is a special case of intersecting where the angle is exactly 90 degrees. Most intersecting lines are not perpendicular. The student's error is treating intersection as sufficient for perpendicularity, when perpendicularity requires the additional condition of a right angle."
+
+- question: "Which statement correctly describes the relationship between parallel, perpendicular, and intersecting lines?"
+  type: multiple-choice
+  options:
+    - "Parallel lines eventually meet at a right angle if extended far enough"
+    - "Perpendicular lines never intersect — they stay the same distance apart forever"
+    - "All perpendicular lines intersect, but not all intersecting lines are perpendicular"
+    - "Lines can be both parallel and perpendicular at the same time"
+  answer: 2
+  explanation: "Perpendicular lines are a subset of intersecting lines — they cross at 90 degrees. Parallel lines never intersect at all (they stay the same distance apart). Saying perpendicular lines 'never intersect' confuses them with parallel lines. The correct hierarchy: all perpendicular lines intersect, but intersecting lines are only perpendicular when the angle is exactly 90 degrees."
+
+- question: "Two diagonal lines slanting in the same direction and always the same distance apart are parallel, even though neither line is horizontal or vertical."
+  type: true-false
+  answer: true
+  explanation: "Parallelism is defined by lines never meeting and staying equidistant — orientation is irrelevant. Lines can be parallel at any angle: horizontal, vertical, or diagonal. Students who think parallel lines must be horizontal or vertical are confusing a specific common example with the general definition."
+
+- question: "All lines that intersect are perpendicular."
+  type: true-false
+  answer: false
+  explanation: "Intersection only means the lines cross. Two lines can cross at any angle — 30°, 45°, 60°, 80°, etc. Perpendicular is reserved for the specific case of a 90-degree intersection. The vast majority of intersecting line pairs are not perpendicular."
+
+- question: "Explain the difference between 'intersecting lines' and 'perpendicular lines.' Why is it incorrect to use these terms interchangeably?"
+  type: short-answer
+  answer: "'Intersecting' means the lines meet at some point — it describes whether lines cross, not the angle at which they cross. 'Perpendicular' is a special case of intersecting where the crossing angle is exactly 90 degrees. Every perpendicular pair is intersecting, but most intersecting pairs are not perpendicular. Using the terms interchangeably would incorrectly imply that every pair of crossing lines forms a right angle, which is false."
+  explanation: "The distinction matters when classifying shapes: a rectangle has perpendicular adjacent sides (90 degrees), while a rhombus that isn't a square has intersecting diagonals that are not perpendicular. Blurring these concepts leads to errors in shape classification and coordinate geometry."
+```
+
 ## Explainer
 
 You already know that a **line** extends infinitely in both directions, and you understand **right angles** — the 90-degree angles that look like the corner of a square. Parallel and perpendicular lines are the two most important *relationships* between lines, and they are defined by what happens (or doesn't happen) when lines extend.

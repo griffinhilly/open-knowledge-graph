@@ -12,7 +12,7 @@ tags:
 - statics
 - buoyancy
 - applications
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

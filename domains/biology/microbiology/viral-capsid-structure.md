@@ -14,7 +14,7 @@ tags:
 - capsid
 - structure
 - assembly
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

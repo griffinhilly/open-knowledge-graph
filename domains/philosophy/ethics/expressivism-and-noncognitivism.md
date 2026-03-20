@@ -15,7 +15,7 @@ tags:
 - antirealism
 - expressivism
 - language
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

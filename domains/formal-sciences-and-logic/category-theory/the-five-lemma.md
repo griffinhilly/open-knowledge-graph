@@ -8,16 +8,14 @@ prerequisites:
   type: hard
 - id: exact-sequences-in-abelian-categories
   type: hard
-builds-toward:
-- diagram-chasing-lemmas
+builds-toward: []
 tags:
 - homological-algebra
 - isomorphism-criteria
 - diagram-chasing
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # The Five Lemma and Related Results
 
 ## Core Idea

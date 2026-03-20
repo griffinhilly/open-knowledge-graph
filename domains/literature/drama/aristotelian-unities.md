@@ -16,7 +16,7 @@ tags:
 - time
 - place
 - action
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

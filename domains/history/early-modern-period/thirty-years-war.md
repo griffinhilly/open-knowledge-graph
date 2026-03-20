@@ -16,7 +16,7 @@ tags:
 - germany
 - europe
 - conflict
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

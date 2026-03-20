@@ -15,7 +15,7 @@ tags:
 - large-cardinals
 - hierarchy
 - provability
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

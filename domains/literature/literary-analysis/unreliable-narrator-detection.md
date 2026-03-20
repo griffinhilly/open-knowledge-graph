@@ -9,17 +9,15 @@ prerequisites:
 - id: narrator-analysis-reliability
   type: hard
 builds-toward:
-- unreliable-narrator-analysis
-- narrative-perspective-analysis
+  - unreliable-narrator-analysis
 tags:
 - narrator
 - reliability
 - perspective
 - interpretation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Detecting and Analyzing Unreliable Narrators
 
 ## Core Idea

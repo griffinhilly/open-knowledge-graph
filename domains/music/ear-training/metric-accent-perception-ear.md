@@ -15,7 +15,7 @@ tags:
 - meter
 - rhythm
 - beat
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

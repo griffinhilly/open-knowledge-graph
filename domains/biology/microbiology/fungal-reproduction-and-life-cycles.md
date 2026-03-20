@@ -14,7 +14,7 @@ tags:
 - reproduction
 - spores
 - life-cycles
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

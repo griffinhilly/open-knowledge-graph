@@ -21,7 +21,7 @@ tags:
 - oxygen-binding
 - cooperativity
 - oxygen-content
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

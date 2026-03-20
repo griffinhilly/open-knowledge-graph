@@ -14,7 +14,7 @@ tags:
 - pole-zero
 - magnitude
 - phase
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

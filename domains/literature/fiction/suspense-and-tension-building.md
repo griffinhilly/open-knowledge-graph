@@ -9,16 +9,14 @@ prerequisites:
 - id: plot-structure
   type: soft
 builds-toward:
-- climax-and-central-crisis
-- genre-conventions-and-reader-contract
+  - genre-conventions-and-reader-contract
 tags:
 - suspense
 - tension
 - emotional-pressure
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Suspense and Tension Building
 
 ## Core Idea

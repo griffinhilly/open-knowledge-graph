@@ -15,7 +15,7 @@ tags:
 - logic
 - boolean
 - operators
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

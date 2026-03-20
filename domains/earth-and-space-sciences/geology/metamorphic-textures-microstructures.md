@@ -12,7 +12,7 @@ tags:
 - metamorphic
 - deformation
 - texture
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

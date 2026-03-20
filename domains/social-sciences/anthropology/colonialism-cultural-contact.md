@@ -16,7 +16,7 @@ tags:
 - contact
 - cultural-impact
 - power
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

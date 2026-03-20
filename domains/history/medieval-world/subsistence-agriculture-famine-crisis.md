@@ -16,7 +16,7 @@ tags:
 - famine
 - crisis
 - economy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - operators
 - modal-syntax
 - formalization
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

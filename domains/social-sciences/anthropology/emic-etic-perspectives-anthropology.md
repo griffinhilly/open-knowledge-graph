@@ -3,7 +3,9 @@ id: emic-etic-perspectives-anthropology
 title: Emic and Etic Perspectives
 domain: social-sciences
 course: anthropology
-prerequisites: []
+prerequisites:
+- id: anthropology-overview
+  type: soft
 builds-toward:
 - ethnographic-interviewing-methods
 - participant-observation-reflexivity
@@ -15,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Emic and Etic Perspectives
 
 ## Core Idea

@@ -15,7 +15,7 @@ tags:
 - gamma-carboxylation
 - coagulation
 - bone-proteins
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

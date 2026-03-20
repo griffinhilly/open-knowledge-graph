@@ -13,7 +13,7 @@ tags:
 - engagement
 - questions
 - reflection
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

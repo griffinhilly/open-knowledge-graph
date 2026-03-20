@@ -20,7 +20,7 @@ tags:
 - audience-knowledge
 - suspense
 - tragedy
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

@@ -22,6 +22,45 @@ Children identify the four most common US coins by name and appearance: penny (1
 ## How It's Best Learned
 Examine real coins and coin pictures. Describe features (size, color, pictures). Sort mixed coins into groups. Handle and compare coins directly.
 
+## Questions
+
+```yaml
+- question: "A child says, 'The nickel must be worth more than the dime because it is bigger.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "The child is right — bigger coins are always worth more money"
+    - "Coin size and coin value are not the same thing — the dime is worth 10¢ while the nickel is worth only 5¢, even though the dime is smaller"
+    - "Both coins are worth the same amount since they are both silver"
+    - "The nickel is only worth more than the dime when it is a newer coin"
+  answer: 1
+  explanation: "The dime is the smallest of the four common coins yet worth more than the nickel. Coin value is assigned by the government and does not follow from size. This is the central misconception to overcome: you cannot determine a coin's value by how big it is."
+
+- question: "Which coin is described? 'It is silver-colored, the smallest of the four common coins, has a ridged edge, and is worth 10 cents.'"
+  type: multiple-choice
+  options:
+    - "Penny — the most common coin"
+    - "Nickel — the coin with a smooth edge"
+    - "Dime — the smallest coin, worth more than the nickel despite being smaller"
+    - "Quarter — the largest silver coin"
+  answer: 2
+  explanation: "The dime is uniquely the smallest coin in size among the four, yet it is worth 10 cents — more than the nickel, which is physically larger. Its ridged edge also distinguishes it from the nickel, which has a smooth edge. Remembering these specific features (smallest, ridged, silver) helps identify the dime reliably."
+
+- question: "The largest coin among the four common US coins is also worth the most money."
+  type: true-false
+  answer: true
+  explanation: "The quarter is both the largest of the four coins and worth the most at 25 cents. However, this is the exception — the dime is smaller than the nickel yet worth more. Size and value do not have a simple, consistent relationship across all four coins."
+
+- question: "The penny is silver-colored like the other three common US coins."
+  type: true-false
+  answer: false
+  explanation: "The penny is copper-colored (reddish-brown), which makes it the easiest coin to identify at a glance. The nickel, dime, and quarter are all silver-colored. The penny's distinctive color is one of its most reliable identification features."
+
+- question: "What feature should you look for first to tell a dime from a nickel, and why can't you just use the rule 'bigger coin = more money'?"
+  type: short-answer
+  answer: "Look at size first — the dime is noticeably smaller and thinner than the nickel. Also check the edge: the dime has ridges while the nickel has a smooth edge. The rule 'bigger = more money' fails here because the dime (10¢) is smaller than the nickel (5¢), so coin size and coin value are not reliably linked."
+  explanation: "The dime-nickel pair is the key counterexample that breaks the 'bigger = more valuable' shortcut. Learning to notice specific physical features (size, edge texture, color) rather than relying on value-size assumptions is the practical skill this topic builds."
+```
+
 ## Explainer
 
 Each of the four common US coins looks different, and learning to tell them apart is mostly about noticing the right features. The **penny** is the easiest to spot: it is the only coin with a copper color. Its reddish-brown color stands out from the silver-colored coins. On the front (called the "heads" side) you see Abraham Lincoln, and on the back you see a memorial. A penny is worth 1 cent — the smallest amount of any coin.

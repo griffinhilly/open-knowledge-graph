@@ -17,7 +17,7 @@ tags:
 - dopamine
 - stimulants
 - addiction
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

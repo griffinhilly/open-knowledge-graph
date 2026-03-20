@@ -15,7 +15,7 @@ tags:
 - epidemiology
 - burden-of-disease
 - risk-metrics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

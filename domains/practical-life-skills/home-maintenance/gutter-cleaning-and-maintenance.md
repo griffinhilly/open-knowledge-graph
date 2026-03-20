@@ -30,6 +30,45 @@ On a dry day, set up a stable ladder on level ground, work along one section at 
 - Clogged gutters are only a cosmetic issue — overflowing water can cause thousands of dollars in foundation damage, basement flooding, and structural wood rot.
 - You should only clean gutters in the fall — spring cleaning is equally important to clear winter debris, seed pods, and pollen buildup before heavy rain season.
 
+## Questions
+
+```yaml
+- question: "A homeowner installs gutter guards on all gutters and concludes they no longer need to clean them. What will most likely happen?"
+  type: multiple-choice
+  options:
+    - "Nothing — gutter guards fully prevent all debris accumulation"
+    - "Fine sediment, shingle grit, and small seeds will still accumulate over time, eventually restricting flow"
+    - "The gutters will need cleaning only once every five years instead of twice a year"
+    - "The gutter guards will automatically flush debris into the downspouts"
+  answer: 1
+  explanation: "Gutter guards block large debris like leaves, but fine materials — shingle grit, seed pods, pollen, and silt — still pass through or accumulate on the guards themselves. Over time this buildup restricts water flow just as unguarded debris does. Gutter guards reduce cleaning frequency and effort, but they do not eliminate the need for periodic inspection and maintenance."
+
+- question: "Why do clogged gutters pose a risk to a home's foundation, even though gutters are attached to the roof?"
+  type: multiple-choice
+  options:
+    - "They don't — foundation damage only comes from plumbing leaks inside the house"
+    - "Overflowing water falls directly against the foundation, saturating soil and creating hydrostatic pressure that can cause basement leaks and cracks"
+    - "The extra weight of debris in the gutters compresses the foundation over time"
+    - "Clogged gutters cause roof leaks that eventually drain down through the walls to the foundation"
+  answer: 1
+  explanation: "When gutters overflow, water falls at the base of the house rather than being channeled away. Saturated soil builds hydrostatic pressure against basement walls. This is the primary mechanism of foundation damage from gutter neglect — it has nothing to do with the weight of debris. This is why the end of the downspout should discharge at least 4–6 feet from the foundation."
+
+- question: "Gutters should be cleaned in both spring and fall, not just after the leaves fall in autumn."
+  type: true-false
+  answer: true
+  explanation: "Fall cleaning removes leaves, but spring cleaning is equally important: it clears winter debris, seed pods, pollen, and compacted sediment before heavy spring rain season. Heavy spring rains with clogged gutters cause the same overflow damage as any other season. Limiting cleaning to fall leaves the system vulnerable during the high-rainfall months."
+
+- question: "Gutter guards eliminate the need for gutter cleaning and inspection."
+  type: true-false
+  answer: false
+  explanation: "Gutter guards reduce the accumulation of large debris but do not eliminate it. Fine materials still build up. Additionally, the guards themselves can become clogged or damaged and need inspection. No gutter guard system available eliminates the need for periodic inspection — it only changes how often cleaning is required and what type of debris is the primary concern."
+
+- question: "Why can clogged gutters cause basement flooding even when the roof itself is undamaged?"
+  type: short-answer
+  answer: "Clogged gutters overflow at the roofline, sending water cascading down the side of the house directly against the foundation. Saturated soil creates hydrostatic pressure against basement walls, eventually forcing water through cracks. The damage path is: overflowing gutter → water pooling at foundation → soil saturation → basement infiltration."
+  explanation: "The gutter's job is to intercept water before it reaches the ground near the house and carry it safely away. When that system fails, gravity sends all that water to the worst possible location — right where the structure meets the earth. This is why gutters are considered a critical water-management system, not just an exterior finishing detail."
+```
+
 ## Explainer
 
 From your seasonal home maintenance work, you know that different systems need attention at different times of year. Gutters are a twice-annual task with a clear purpose: managing where rainwater goes. Understanding the physics of what happens when gutters fail makes the maintenance task feel less like a chore and more like protecting a significant investment.

@@ -14,7 +14,7 @@ tags:
 - alienation
 - labor
 - capitalism
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

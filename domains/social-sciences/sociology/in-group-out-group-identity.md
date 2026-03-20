@@ -18,7 +18,7 @@ tags:
 - social-categorization
 - prejudice
 - in-group-bias
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

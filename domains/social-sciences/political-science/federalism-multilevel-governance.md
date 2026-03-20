@@ -16,7 +16,7 @@ tags:
 - decentralization
 - subnational
 - governance
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

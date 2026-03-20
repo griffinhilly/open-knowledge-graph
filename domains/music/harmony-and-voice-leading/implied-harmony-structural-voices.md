@@ -14,7 +14,7 @@ tags:
 - implied-harmony
 - structural-analysis
 - reduction
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

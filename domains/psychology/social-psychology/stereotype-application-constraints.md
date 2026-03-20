@@ -16,7 +16,7 @@ tags:
 - individuation
 - context-dependence
 - controlled-processing
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

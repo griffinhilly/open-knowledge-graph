@@ -16,7 +16,7 @@ tags:
 - valence electrons
 - reactivity
 - electron shells
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

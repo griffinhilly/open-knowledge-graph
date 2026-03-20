@@ -16,7 +16,7 @@ tags:
 - bronze-age
 - warfare
 - palace-culture
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

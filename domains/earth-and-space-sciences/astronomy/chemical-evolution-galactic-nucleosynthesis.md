@@ -18,7 +18,7 @@ tags:
 - chemical-evolution
 - nucleosynthesis
 - metallicity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

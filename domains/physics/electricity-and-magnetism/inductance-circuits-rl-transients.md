@@ -14,7 +14,7 @@ tags:
 - inductance
 - rl-circuit
 - transient
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - experimental-bias
 - participant-behavior
 - research-artifacts
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

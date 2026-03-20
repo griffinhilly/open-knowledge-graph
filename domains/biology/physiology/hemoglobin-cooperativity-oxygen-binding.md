@@ -16,7 +16,7 @@ tags:
 - cooperativity
 - sigmoidal-binding
 - allosteric
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

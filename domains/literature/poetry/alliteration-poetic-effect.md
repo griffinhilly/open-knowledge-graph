@@ -20,7 +20,7 @@ tags:
 - sound-devices
 - phonetics
 - aesthetic-effect
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

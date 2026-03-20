@@ -19,7 +19,7 @@ tags:
 - patch
 - colonization
 - extinction
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

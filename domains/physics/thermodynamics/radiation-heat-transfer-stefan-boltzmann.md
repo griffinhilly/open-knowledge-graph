@@ -10,7 +10,7 @@ tags:
 - radiation
 - heat-transfer
 - electromagnetic
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

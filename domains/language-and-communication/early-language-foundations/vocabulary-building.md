@@ -31,6 +31,45 @@ Read aloud frequently, pausing to explain unfamiliar words using child-friendly 
 - That vocabulary is best learned through word lists and memorization -- children acquire words far more effectively through meaningful, repeated exposure in context.
 - That children understand a word fully after hearing it once -- most words require 10-15 exposures across different contexts before they become part of a child's active vocabulary.
 
+## Questions
+
+```yaml
+- question: "A teacher wants students to truly learn the word 'persevere.' Which approach is most likely to result in students using it independently?"
+  type: multiple-choice
+  options:
+    - "Add it to a vocabulary list students copy and study for a quiz"
+    - "Define it once during a read-aloud and move on"
+    - "Use the word repeatedly across different contexts — read-alouds, classroom conversations, and by encouraging students to use it themselves"
+    - "Have students look it up in the dictionary and write one sentence"
+  answer: 2
+  explanation: "Words become part of active vocabulary through 10–15 exposures in varied contexts, not through a single definition or memorization. The quiz-list approach teaches the referential meaning but not how to use the word fluently. Repeated use across different situations builds syntactic flexibility, connotation, and collocational knowledge — the multiple layers that constitute genuinely knowing a word."
+
+- question: "A child hears the word 'enormous' for the first time in a bedtime story. What can we accurately say about the child's knowledge of that word?"
+  type: multiple-choice
+  options:
+    - "The word is now part of their active vocabulary"
+    - "The child has formed a partial, initial representation that needs reinforcement across more exposures to become robust"
+    - "The child will not remember the word unless it is explicitly taught in a formal lesson"
+    - "The child understands the word fully because children learn language naturally"
+  answer: 1
+  explanation: "This is fast mapping — children can form an initial rough sketch of a word after one exposure, but that sketch is fragile and incomplete. It must be filled in through repeated encounters (typically 10–15) before the word is genuinely consolidated. Fast mapping is the beginning of word learning, not the end of it."
+
+- question: "Vocabulary is most effectively taught through word lists because explicit memorization ensures children can define terms accurately."
+  type: true-false
+  answer: false
+  explanation: "Word-list memorization can produce dictionary definitions on demand, but children acquire words far more effectively through meaningful, repeated exposure in context. List-learned words are often brittle — children can define them but not use them correctly in a sentence or recognize them in a new context. Rich contextual exposure builds multiple layers of word knowledge simultaneously."
+
+- question: "A child who enters school with a larger vocabulary tends to widen that gap relative to peers with smaller vocabularies over the course of schooling."
+  type: true-false
+  answer: true
+  explanation: "This is the 'rich-get-richer' dynamic in vocabulary development. Children with larger vocabularies understand more of what they read, so reading feels rewarding and they do more of it, which exposes them to more words. Children with smaller vocabularies find reading harder and do less of it. This gap, measurable at age 3, tends to compound through schooling — which is why early vocabulary-building activities have disproportionate long-term effects."
+
+- question: "Why does encountering a word in many different contexts help a child learn it better than hearing it many times in the same context?"
+  type: short-answer
+  answer: "Each new context adds a different layer of meaning — syntactic use, connotation, collocational knowledge — that repeated exposure in the same setting cannot provide. A word heard in a single story may only teach its referential meaning (what category of thing it refers to). Multiple contexts across stories, conversations, and hands-on experiences build the full, multi-dimensional understanding that lets a child use the word flexibly and accurately."
+  explanation: "Vocabulary knowledge is a spectrum, not a binary. A child 'knows' a word at the level of referential meaning long before they know its connotations, its syntactic flexibility, or which other words it typically appears with. Varied contexts teach varied layers. This is why rich conversation and daily read-alouds — not flashcards — are the evidence-based approach to early vocabulary building."
+```
+
 ## Explainer
 
 From your study of spoken language basics, you know that young children arrive at vocabulary learning already equipped with a remarkable capacity for language: they can distinguish phonemes, recognize their native language's sound patterns, and tune in to the speech of caregivers. Vocabulary building is what happens when this auditory foundation starts connecting sound patterns to meaning — the first time a child hears "dog" and looks at the dog, and something clicks.

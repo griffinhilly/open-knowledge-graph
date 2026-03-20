@@ -3,15 +3,16 @@ id: pun-wordplay-multiple-meaning
 title: 'Pun and Wordplay: Multiple Meanings'
 domain: literature
 course: poetry
-prerequisites: []
+prerequisites:
+- id: poetic-form-overview
+  type: soft
 tags:
 - wordplay
 - ambiguity
 - meaning
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Pun and Wordplay: Multiple Meanings
 
 ## Core Idea

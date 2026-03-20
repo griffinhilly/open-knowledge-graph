@@ -16,7 +16,7 @@ tags:
 - communication
 - metaphor
 - symbolism
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

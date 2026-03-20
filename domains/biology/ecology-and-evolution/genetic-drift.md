@@ -23,7 +23,7 @@ tags:
 - stochastic
 - allele-frequency
 - small-populations
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

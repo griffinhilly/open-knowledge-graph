@@ -12,7 +12,7 @@ tags:
 - fallacies
 - tradition
 - informal
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

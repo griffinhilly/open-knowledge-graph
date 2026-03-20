@@ -18,7 +18,7 @@ tags:
 - regulation
 - hormonal-control
 - stomach-pancreas-intestine
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

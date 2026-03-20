@@ -24,7 +24,7 @@ tags:
 - consent
 - state
 - justification
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Political Authority and Legitimacy

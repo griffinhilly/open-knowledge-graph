@@ -29,7 +29,7 @@ tags:
 - angular-resolution
 - aperture
 - interferometry
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 # Telescopes and Observing Methods

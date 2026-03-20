@@ -17,7 +17,7 @@ tags:
 - geochronology
 - dating
 - time-scale
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

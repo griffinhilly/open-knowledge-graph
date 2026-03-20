@@ -16,7 +16,7 @@ tags:
 - sunk cost
 - short run
 - long run
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Shutdown and Breakeven Decisions

@@ -13,7 +13,7 @@ tags:
 - ascorbic-acid
 - antioxidant
 - collagen-synthesis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

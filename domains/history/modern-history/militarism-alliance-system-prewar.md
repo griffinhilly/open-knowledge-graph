@@ -14,7 +14,7 @@ tags:
 - arms-race
 - alliances
 - international-relations
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

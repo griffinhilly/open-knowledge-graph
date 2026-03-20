@@ -14,7 +14,7 @@ tags:
 - KK-principle
 - higher-order
 - williamson
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - fermentation
 - anaerobic
 - metabolism
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

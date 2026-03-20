@@ -14,7 +14,7 @@ tags:
 - planning
 - purchasing-power
 - economics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

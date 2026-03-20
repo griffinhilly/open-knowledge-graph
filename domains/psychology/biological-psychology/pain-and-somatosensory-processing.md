@@ -20,7 +20,7 @@ tags:
 - somatosensory-cortex
 - pain
 - phantom-limb
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

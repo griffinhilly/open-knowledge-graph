@@ -18,7 +18,7 @@ tags:
 - exposition
 - obligatory-scene
 - dramaturgy
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # The Well-Made Play

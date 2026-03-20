@@ -18,7 +18,7 @@ tags:
 - equilibrium shifts
 - supply shifts
 - demand shifts
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

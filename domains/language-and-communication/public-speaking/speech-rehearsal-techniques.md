@@ -12,7 +12,7 @@ tags:
 - recording
 - feedback
 - preparation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

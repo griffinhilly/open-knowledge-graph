@@ -24,6 +24,45 @@ Texture describes surface quality—rough, smooth, bumpy, soft, shiny—and exis
 ## How It's Best Learned
 Create texture studies using various media—pencil, paint, ink, collage, mixed media—to build a vocabulary of how different tools and techniques create different visual textures. Feel actual textured surfaces while observing their appearance to understand the relationship between tactile and visual texture.
 
+## Questions
+
+```yaml
+- question: "A photorealistic oil painting depicts a rough stone wall. When you run your hand across the painting's canvas, it feels smooth. What does this demonstrate?"
+  type: multiple-choice
+  options:
+    - "The painting is unfinished — a truly skilled artist would add actual texture to the surface"
+    - "Visual texture creates the illusion of tactile qualities on a physically smooth surface"
+    - "Texture in paintings is purely decorative and doesn't communicate anything meaningful"
+    - "The painter failed to render the stone convincingly"
+  answer: 1
+  explanation: "This is the defining difference between visual and tactile texture. Visual texture is an illusion produced through marks, patterns, and value changes — the painting looks rough but the canvas surface is smooth. The brain interprets visual cues about light scattering and surface irregularity and generates the perception of roughness even with no physical roughness present. Photographs work the same way: a photo of sandpaper looks gritty but feels like glossy paper."
+
+- question: "An artist wants to create maximum textural contrast in a still life composition. Which pairing of objects would be most effective?"
+  type: multiple-choice
+  options:
+    - "A white ceramic vase next to a gray ceramic bowl"
+    - "A large sphere next to a small cube of the same material"
+    - "A smooth glass bottle next to a rough burlap sack"
+    - "Two flowers of different colors"
+  answer: 2
+  explanation: "Textural contrast requires pairing surfaces with opposing qualities. Glass (smooth, reflective, producing sharp highlights) against burlap (rough, matte, scattering light into soft gradations) maximizes the contrast. The other pairings create contrast in color or shape, not texture. Placing opposite textures adjacent to each other makes both more visually prominent — the same principle as placing light next to dark."
+
+- question: "Smooth surfaces and rough surfaces interact with light differently: smooth surfaces produce sharp, bright highlights while rough surfaces scatter light and create softer gradations."
+  type: true-false
+  answer: true
+  explanation: "This is the physical basis for rendering visual texture convincingly. A smooth, reflective surface (glass, polished metal) concentrates reflected light into sharp, localized highlights with abrupt edges. A rough surface (stone, bark, fabric) scatters light in many directions, producing diffuse, softer value transitions with irregular patterns of tiny lights and darks. Understanding this light behavior is what lets artists render any surface from observation."
+
+- question: "Visual texture and tactile texture always match — a surface that looks rough in an artwork will also feel rough when physically touched."
+  type: true-false
+  answer: false
+  explanation: "Visual and tactile texture are independent properties. A photograph of sandpaper looks gritty but feels like glossy photo paper. A charcoal drawing of rough bark has a smooth paper surface. They can align (as in impasto painting, where built-up paint creates actual physical ridges) or diverge entirely (as in any flat medium). Tactile texture is physical reality; visual texture is an illusion constructed through marks and value."
+
+- question: "An artist is drawing a glass bottle next to a piece of rough driftwood. Explain how the approach to rendering visual texture should differ between the two objects."
+  type: short-answer
+  answer: "Glass is smooth and reflective: render it with sharp, high-contrast highlights, abrupt value transitions, and areas of transparency where underlying forms show through. Driftwood is rough: render it with soft, gradual value transitions, irregular patterns of tiny lights and darks, and no sharp highlights — rough surfaces scatter light rather than concentrating it. Different mark-making strategies simulate the specific way each surface interacts with light."
+  explanation: "Visual texture is created by replicating the optical signature of each surface type. The key is observation: study how light actually behaves on a given material, then find marks in your medium that reproduce those patterns. Glass, stone, fabric, and skin each have a distinct 'visual recipe.' Applying the wrong recipe — sharp highlights on rough stone, for instance — immediately looks unconvincing."
+```
+
 ## Explainer
 
 Texture is the visual element that appeals most directly to the sense of touch. Even when you cannot physically feel a surface — when looking at a painting, a photograph, or a screen — your brain interprets visual cues and tells you what that surface would feel like. This connection between sight and touch is what makes texture such a powerful communicative tool: it brings a sense of physical reality into flat, two-dimensional work.

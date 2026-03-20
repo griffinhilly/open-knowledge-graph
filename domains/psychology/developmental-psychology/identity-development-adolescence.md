@@ -22,7 +22,7 @@ tags:
 - moratorium
 - achievement
 - diffusion
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Identity Development in Adolescence

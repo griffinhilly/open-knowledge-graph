@@ -16,7 +16,7 @@ tags:
 - chemical-shift
 - coupling
 - spectroscopy
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

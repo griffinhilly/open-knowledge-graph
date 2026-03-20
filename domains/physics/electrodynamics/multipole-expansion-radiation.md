@@ -14,7 +14,7 @@ tags:
 - multipole
 - expansion
 - far-field
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

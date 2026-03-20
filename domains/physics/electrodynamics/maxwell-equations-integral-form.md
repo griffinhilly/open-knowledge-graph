@@ -15,9 +15,8 @@ prerequisites:
 - id: stokes-theorem
   type: hard
 builds-toward:
-- maxwell-equations-differential-form
-- gauss-law-applications
-- ampere-maxwell-law
+  - maxwell-equations-differential-form
+  - ampere-maxwell-law
 tags:
 - maxwell-equations
 - vector-calculus
@@ -25,7 +24,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Maxwell's Equations in Integral Form
 
 ## Core Idea

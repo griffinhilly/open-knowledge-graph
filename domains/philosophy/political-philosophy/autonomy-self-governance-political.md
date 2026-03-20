@@ -16,7 +16,7 @@ tags:
 - self-governance
 - individual
 - freedom
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - loops
 - control flow
 - termination
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - mimicry
 - neural-mechanisms
 - groups
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

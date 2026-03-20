@@ -19,7 +19,7 @@ tags:
 - cooking-methods
 - foundational-techniques
 - flavor-building
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 

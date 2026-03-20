@@ -31,6 +31,45 @@ Use counters, drawings, or objects to create visible groups. Have students count
 - Counting some objects more than once.
 - Not recognizing that 3 × 4 and 4 × 3 result in the same total (commutative property).
 
+## Questions
+
+```yaml
+- question: "A student has 4 bags with 6 apples in each bag. Which multiplication sentence represents this situation?"
+  type: multiple-choice
+  options:
+    - "6 × 6 = 36, because there are 6 apples in each bag"
+    - "4 × 6 = 24, because there are 4 groups of 6"
+    - "4 × 4 = 16, because there are 4 bags"
+    - "6 × 4 = 24, and this is a different value from 4 × 6 = 24"
+  answer: 1
+  explanation: "The first number is the number of groups (4 bags), and the second number is the group size (6 apples each), so 4 × 6 = 24 is the correct sentence. Note that 6 × 4 also equals 24 due to the commutative property, but option D incorrectly claims the two expressions have different values — they produce the same total."
+
+- question: "Which of the following represents the same quantity as 3 × 5?"
+  type: multiple-choice
+  options:
+    - "3 + 5 = 8, using addition instead of multiplication"
+    - "5 + 5 + 5 = 15, adding 5 three times"
+    - "3 + 3 + 3 + 3 + 3 = 15, which represents a different grouping from 3 × 5"
+    - "Only drawings of equal groups can represent multiplication — not repeated addition"
+  answer: 1
+  explanation: "3 × 5 means '3 groups of 5,' which is the same as 5 + 5 + 5 = 15. Option C (3 + 3 + 3 + 3 + 3) represents 5 × 3 — five groups of 3 — which equals 15 by the commutative property but describes a different physical grouping. Option B is the most direct match for '3 groups of 5.'"
+
+- question: "3 × 7 and 7 × 3 have the same total, so they describe exactly the same physical arrangement of objects."
+  type: true-false
+  answer: false
+  explanation: "They have the same product (21), but describe different arrangements. 3 × 7 means 3 groups of 7; 7 × 3 means 7 groups of 3. Physically, these look different — 3 rows of 7 versus 7 rows of 3 — but the total number of objects is the same. This is the commutative property: the order of the factors does not change the product, even though the grouping looks different."
+
+- question: "Multiplication is just a faster way to write repeated addition for equal groups."
+  type: true-false
+  answer: true
+  explanation: "4 × 6 is exactly the same quantity as 6 + 6 + 6 + 6. The multiplication symbol is shorthand for 'groups of,' and the product equals the total you would get by adding the group size repeatedly. As numbers get larger, multiplication becomes much faster than writing out long repeated addition sentences."
+
+- question: "If you see a picture of 5 groups with 3 objects in each group, how would you write this as both a repeated addition sentence and a multiplication sentence?"
+  type: short-answer
+  answer: "Repeated addition: 3 + 3 + 3 + 3 + 3 = 15. Multiplication: 5 × 3 = 15."
+  explanation: "The two sentences describe the same quantity in different forms. The first number in the multiplication sentence (5) is the number of groups; the second number (3) is the size of each group. Being able to translate freely between pictures, repeated addition, and multiplication sentences builds the understanding that multiplication is meaningful — not just a rule to memorize."
+```
+
 ## Explainer
 
 You already understand equal groups: collections where every group holds the same number of objects. Multiplication is simply a compact notation for that idea. Instead of writing 4 + 4 + 4, mathematicians write **3 × 4**, which is read "3 groups of 4." The multiplication symbol (×) is shorthand for "groups of," and the two numbers on either side answer the two questions you have been practicing: how many groups, and how many in each group.

@@ -16,7 +16,7 @@ tags:
 - marx
 - materialism
 - conflict
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

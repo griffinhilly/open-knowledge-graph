@@ -11,17 +11,15 @@ prerequisites:
 - id: close-reading-techniques
   type: hard
 builds-toward:
-- point-of-view-technical-effects
-- tone-development-analysis
+  - tone-development-analysis
 tags:
 - stream-of-consciousness
 - consciousness
 - narration
 - analysis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Reading and Analyzing Stream of Consciousness
 
 ## Core Idea

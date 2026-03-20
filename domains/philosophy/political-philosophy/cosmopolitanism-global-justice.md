@@ -16,7 +16,7 @@ tags:
 - global-justice
 - duties
 - equality
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

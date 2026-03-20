@@ -13,7 +13,7 @@ tags:
 - art
 - mathematics
 - perspective
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

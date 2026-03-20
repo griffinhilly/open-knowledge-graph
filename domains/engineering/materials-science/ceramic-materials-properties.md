@@ -10,7 +10,7 @@ tags:
 - ceramics
 - ionic-bonding
 - brittle-materials
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

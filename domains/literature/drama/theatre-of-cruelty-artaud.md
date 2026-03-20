@@ -16,7 +16,7 @@ tags:
 - artaud
 - 20th-century
 - theory
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

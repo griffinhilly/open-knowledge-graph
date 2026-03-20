@@ -8,16 +8,14 @@ prerequisites:
   type: hard
 - id: business-cycles
   type: soft
-builds-toward:
-- recession-definition-measurement-dating
+builds-toward: []
 tags:
 - business-cycles
 - measurement
 - filtering
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Trend and Cycle Decomposition
 
 ## Core Idea

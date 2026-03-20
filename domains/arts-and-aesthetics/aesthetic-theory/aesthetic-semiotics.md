@@ -19,7 +19,7 @@ tags:
 - meaning
 - interpretation
 - representation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

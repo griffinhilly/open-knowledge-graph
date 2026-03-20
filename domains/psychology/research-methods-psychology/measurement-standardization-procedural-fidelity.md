@@ -11,17 +11,15 @@ prerequisites:
 - id: inter-rater-reliability-observer-agreement
   type: soft
 builds-toward:
-- qualitative-research-validity-trustworthiness
-- measurement-standardization-procedural-fidelity
+  - qualitative-research-validity-trustworthiness
 tags:
 - measurement
 - reliability
 - standardization
 - implementation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Measurement Standardization and Procedural Fidelity in Implementation
 
 ## Core Idea

@@ -12,7 +12,7 @@ tags:
 - market structure
 - oligopoly
 - strategy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

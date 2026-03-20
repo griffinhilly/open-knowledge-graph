@@ -16,7 +16,7 @@ tags:
 - gridlock
 - deadlock
 - change
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

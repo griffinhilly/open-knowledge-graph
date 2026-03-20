@@ -12,7 +12,7 @@ tags:
 - factor-demand
 - derived-demand
 - labor-demand
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

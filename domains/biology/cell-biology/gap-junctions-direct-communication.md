@@ -12,7 +12,7 @@ tags:
 - gap-junction
 - connexin
 - communication
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

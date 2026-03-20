@@ -22,7 +22,7 @@ tags:
 - carthage
 - grain-trade
 - commerce
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Mediterranean Trade Networks in Antiquity

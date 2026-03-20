@@ -13,7 +13,7 @@ tags:
 - forgetting
 - interference
 - decay
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

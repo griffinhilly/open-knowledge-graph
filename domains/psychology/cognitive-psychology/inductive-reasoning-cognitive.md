@@ -14,7 +14,7 @@ tags:
 - induction
 - generalization
 - category-learning
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

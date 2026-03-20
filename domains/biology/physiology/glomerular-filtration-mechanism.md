@@ -14,7 +14,7 @@ tags:
 - gfr
 - ultrafiltration
 - afferent-efferent-arterioles
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

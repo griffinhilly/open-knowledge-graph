@@ -12,7 +12,7 @@ tags:
 - secretion-system
 - virulence
 - pathogenesis
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

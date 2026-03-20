@@ -16,7 +16,7 @@ tags:
 - working-memory
 - baddeley
 - short-term
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

@@ -12,7 +12,7 @@ tags:
 - propensity-score
 - treatment-effects
 - observational
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

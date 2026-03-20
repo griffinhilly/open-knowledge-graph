@@ -14,7 +14,7 @@ tags:
 - bayesian
 - inference
 - probability
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

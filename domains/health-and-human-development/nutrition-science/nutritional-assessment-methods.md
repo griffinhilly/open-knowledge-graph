@@ -19,7 +19,7 @@ tags:
 - anthropometrics
 - BMI
 - biomarkers
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Nutritional Assessment: Dietary, Anthropometric, and Biochemical Methods

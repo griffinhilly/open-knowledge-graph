@@ -18,7 +18,7 @@ tags:
 - self-regulation
 - peer interaction
 - ages 3-5
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

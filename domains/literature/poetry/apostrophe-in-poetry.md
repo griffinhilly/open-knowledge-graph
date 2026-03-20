@@ -14,7 +14,7 @@ tags:
 - rhetoric
 - direct-address
 - intensification
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

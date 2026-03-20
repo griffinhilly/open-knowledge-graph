@@ -12,7 +12,7 @@ tags:
 - secant-method
 - root-finding
 - finite-difference
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

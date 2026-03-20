@@ -13,7 +13,7 @@ tags:
 - spindle-checkpoint
 - mad-bub-proteins
 - anaphase
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

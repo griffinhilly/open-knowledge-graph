@@ -16,7 +16,7 @@ tags:
 - pump-work
 - turbine-work
 - head
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

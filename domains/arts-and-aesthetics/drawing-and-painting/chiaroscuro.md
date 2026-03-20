@@ -36,6 +36,45 @@ Draw a sphere lit by a single lamp in a darkened room, identifying and rendering
 - The core shadow is not the darkest area — the cast shadow beneath the object is often darker. The reflected light lifts the core shadow slightly.
 - Using chiaroscuro without understanding its tonal zones produces random dark patches rather than convincing volume.
 
+## Questions
+
+```yaml
+- question: "On a sphere lit by a single strong lamp, which tonal zone is typically the darkest?"
+  type: multiple-choice
+  options:
+    - "The highlight, because it receives the most direct light"
+    - "The halftone, because it transitions between light and shadow"
+    - "The core shadow, because it faces directly away from the light"
+    - "The cast shadow projected onto the surface beneath the sphere"
+  answer: 3
+  explanation: "The cast shadow — the dark shape thrown onto the surrounding surface — is usually darker than the core shadow on the sphere itself. Light from nearby surfaces bounces back onto the sphere's shadowed side (reflected light), slightly lifting the core shadow's value. The cast shadow receives no such reflected light from below, so it remains the deepest dark. This surprises most beginners, who assume the core shadow on the form must be the darkest area."
+
+- question: "A student renders the reflected light area on a sphere as bright as the halftone region, reasoning that 'adding reflected light adds brightness.' What problem does this create?"
+  type: multiple-choice
+  options:
+    - "The reflected light will appear as a second highlight on the shadow side"
+    - "It destroys the sense of a unified shadow mass — the entire shadow side must read darker than the lit side, even where reflected light lightens it slightly"
+    - "It makes the core shadow appear brighter than the highlight"
+    - "There is no problem; reflected light can be any value as long as the highlight is brightest"
+  answer: 1
+  explanation: "Reflected light is a real phenomenon, but it is always subordinate to the overall light-dark division of the form. The shadowed side of a sphere is in shadow because no direct light reaches it. Reflected light lifts only the darkest parts of that shadow slightly — it never crosses over into the value range of the lit side. When reflected light is made too bright, the viewer loses the clear sense of which side is lit and which is in shadow, flattening the illusion of volume."
+
+- question: "In chiaroscuro technique, the reflected light area falls within the shadow zone but is slightly lighter in value than the core shadow."
+  type: true-false
+  answer: true
+  explanation: "Reflected light is caused by light bouncing off nearby surfaces back onto the shadowed side of a form. It is located between the core shadow and the cast shadow, and it is brighter than the core shadow — but always darker than any tone on the directly lit side. This subtle brightening within the shadow mass is what gives chiaroscuro its sense of three-dimensional roundness."
+
+- question: "Chiaroscuro defines the edges and volume of forms primarily through strong outlines rather than through gradations from light to shadow."
+  type: true-false
+  answer: false
+  explanation: "Chiaroscuro is explicitly an alternative to outline-based drawing. Instead of using lines to mark where one form ends and another begins, chiaroscuro defines form through the boundary where light transitions into shadow. In works by Leonardo, Caravaggio, and Rembrandt, outlines often dissolve entirely — edges emerge from contrast between tonal zones, not from drawn lines."
+
+- question: "Why is the core shadow not the darkest area on a form rendered with chiaroscuro, even though it is the zone that faces most directly away from the light?"
+  type: short-answer
+  answer: "The core shadow is lightened slightly by reflected light — light bouncing off nearby surfaces (the table, the floor, other objects) back onto the shadowed side of the form. Because the core shadow receives this secondary illumination, it is a bit brighter than the cast shadow beneath the object, which receives no reflected light from below. So while the core shadow is the darkest area on the form itself, the cast shadow it projects onto surrounding surfaces is typically darker."
+  explanation: "Understanding the relationship between reflected light and the core shadow is one of the most counterintuitive aspects of chiaroscuro. Beginners often place the darkest dark in the core shadow and then make reflected light nearly as bright as the halftone — both errors flatten the form. The correct hierarchy is: highlight > halftone > reflected light > core shadow > cast shadow (darkest)."
+```
+
 ## Explainer
 
 You already know that light falling on an object creates predictable zones of brightness and shadow, and you understand value — the scale from pure white to pure black that describes how light or dark a tone is. **Chiaroscuro** takes these fundamentals and pushes them to their dramatic extreme, using bold contrast between light and dark to make forms appear to emerge from darkness with almost sculptural presence. The word itself — from the Italian *chiaro* (light) and *oscuro* (dark) — names the technique's essential move: instead of relying on outlines to define the edges of forms, chiaroscuro defines them through the boundary where light meets shadow.

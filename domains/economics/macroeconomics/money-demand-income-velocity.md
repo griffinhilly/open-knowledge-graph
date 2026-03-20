@@ -11,7 +11,7 @@ tags:
 - money-demand
 - quantity-theory
 - income
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

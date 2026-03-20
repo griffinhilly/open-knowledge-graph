@@ -15,7 +15,7 @@ tags:
 - crime
 - inequality
 - organization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

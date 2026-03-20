@@ -21,7 +21,7 @@ tags:
 - feminism
 - patriarchy
 - gender-roles
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

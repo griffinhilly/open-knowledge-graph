@@ -16,7 +16,7 @@ tags:
 - ribosomes
 - translation
 - prokaryotes
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

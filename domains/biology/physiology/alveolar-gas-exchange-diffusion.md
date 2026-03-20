@@ -17,7 +17,7 @@ tags:
 - diffusion
 - oxygen
 - carbon dioxide
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

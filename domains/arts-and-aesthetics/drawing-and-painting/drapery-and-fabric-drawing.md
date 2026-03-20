@@ -31,6 +31,45 @@ Draw fabric directly from observation—simple draped sheets, crumpled cloth, an
 ## Common Misconceptions
 Drapery is not random wrinkles; each fold follows underlying form. Shadows in folds should not be uniformly dark—reflected light and material properties affect shadow richness.
 
+## Questions
+
+```yaml
+- question: "A student drawing a draped shirt on a figure tries to accurately render every visible wrinkle with equal emphasis. What problem does this approach create?"
+  type: multiple-choice
+  options:
+    - "The drawing will have too much tonal contrast in the shadow areas"
+    - "The drawing will appear flat and noisy because minor surface wrinkles distract from the primary structural folds that define the cloth's volume and movement"
+    - "The drawing will look too photorealistic and lose its artistic quality"
+    - "This approach is actually recommended — rendering all wrinkles equally produces the most convincing drapery"
+  answer: 1
+  explanation: "The text explicitly warns against this: 'If you render every tiny crease with equal emphasis, the drawing becomes noisy and flat.' Convincing drapery requires a hierarchy — primary structural folds (caused by major tension points), secondary folds branching from them, and surface texture at the smallest scale. Emphasizing the structural folds and letting minor ones recede creates a coherent, readable form. Treating all wrinkles equally destroys that hierarchy."
+
+- question: "A shirt on a standing figure creates deep folds pulling from the shoulders down toward the waist. According to the principles of drapery drawing, what primarily determines where these folds form?"
+  type: multiple-choice
+  options:
+    - "The weight of the fabric, which causes it to pool at the heaviest points"
+    - "The direction of the light source hitting the garment"
+    - "The points of tension — the shoulders and waist — where the cloth is held, stretched, or supported"
+    - "The specific type of fabric, because different materials create different fold locations"
+  answer: 2
+  explanation: "All fabric folds originate from points of tension — places where the cloth is held, pinned, stretched, or supported. The shoulders and waist anchor the fabric, and folds cascade between those points. This is the core insight: folds are not random but follow a physical logic governed by gravity and tension. Understanding this transforms observation from 'copying what I see' into 'reading the logic of what I see.'"
+
+- question: "The crest of a fabric fold (the convex ridge) catches light, while the interior of a fold (the concavity) falls into shadow — the same principle as rendering any rounded three-dimensional form."
+  type: true-false
+  answer: true
+  explanation: "The text confirms this: 'Each fold is essentially a small cylinder or ridge, so you are rendering many small forms rather than one large one.' The same light-and-shadow logic that applies to a sphere or cylinder applies to individual fabric folds. The crest catches direct light; the concavity catches shadow. This principle allows artists to render drapery using the same foundational understanding of form and light they apply to all other subjects."
+
+- question: "Silk, wool, and cotton all produce folds with similar sharpness and tonal transitions, so they can be rendered using the same approach."
+  type: true-false
+  answer: false
+  explanation: "The text states the opposite: material matters enormously. Silk creates sharp, tight folds with high-contrast highlights. Wool creates broad, soft folds with gentle tonal transitions. Cotton falls between. Rendering these materials identically produces generic fabric with no convincing material quality. Part of what distinguishes skilled drapery drawing is observing and reproducing these material-specific differences — fold sharpness, shadow softness, highlight quality — so that the viewer could almost feel the texture."
+
+- question: "Why does understanding 'points of tension' transform drapery drawing from copying wrinkles to constructing forms?"
+  type: short-answer
+  answer: "Because it gives the artist a causal framework rather than a visual one. Instead of copying whatever wrinkles happen to be visible, the artist can identify the anchor points (where the fabric is held, pinned, or supported), predict where primary folds will radiate from, and understand secondary and surface folds as downstream effects. This means the artist can also invent plausible drapery from imagination — and can simplify complex cloth into its essential structure by asking 'what are the main tension points?' rather than 'how many wrinkles do I see?'"
+  explanation: "The shift from visual copying to structural understanding is the core skill the text describes. Observing tension points lets the artist read the logic of the cloth, which in turn enables prioritization: major folds get emphasis, minor ones are subordinated. The result is drapery that reads as a coherent three-dimensional form rather than a chaotic surface."
+```
+
 ## Explainer
 
 From your observational drawing practice, you have developed the ability to look carefully at a subject and translate its three-dimensional form onto a flat surface. Drapery drawing applies that skill to one of the most deceptively complex subjects in art: **cloth**. Fabric folds are not random — they follow physical laws governed by gravity, tension, and the underlying form the cloth covers. Understanding the logic behind folds transforms drapery from a confusing tangle of wrinkles into a readable system of forms that you can both observe and, critically, invent from imagination when needed.

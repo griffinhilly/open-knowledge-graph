@@ -15,7 +15,7 @@ tags:
 - categoricity
 - complete-type
 - characterization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - bicarbonate
 - buffer
 - respiratory
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

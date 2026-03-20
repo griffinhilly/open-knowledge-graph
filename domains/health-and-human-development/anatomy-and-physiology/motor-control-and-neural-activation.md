@@ -20,7 +20,7 @@ tags:
 - recruitment
 - force-gradation
 - fatigue
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

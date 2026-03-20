@@ -16,7 +16,7 @@ tags:
 - religious-enforcement
 - heresy
 - authority
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

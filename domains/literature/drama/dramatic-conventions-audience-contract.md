@@ -17,7 +17,7 @@ tags:
 - theatrical-codes
 - form
 - genre
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

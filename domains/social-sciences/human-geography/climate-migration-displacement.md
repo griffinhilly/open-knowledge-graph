@@ -15,7 +15,7 @@ tags:
 - climate
 - displacement
 - environmental
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

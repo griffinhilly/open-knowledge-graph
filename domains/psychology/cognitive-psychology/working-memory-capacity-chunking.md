@@ -15,7 +15,7 @@ tags:
 - capacity
 - chunking
 - limitations
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

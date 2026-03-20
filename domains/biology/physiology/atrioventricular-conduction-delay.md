@@ -16,7 +16,7 @@ tags:
 - conduction
 - delay
 - electrophysiology
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - orthogonal-polynomials
 - weights
 - quadrature
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

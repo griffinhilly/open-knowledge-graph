@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - measure-theory
 - lebesgue-measure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

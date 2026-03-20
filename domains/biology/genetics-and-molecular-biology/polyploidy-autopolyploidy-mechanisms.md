@@ -14,7 +14,7 @@ tags:
 - polyploidy
 - autopolyploidy
 - whole-genome-duplication
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

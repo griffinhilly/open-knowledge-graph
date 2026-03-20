@@ -15,7 +15,7 @@ tags:
 - mixture
 - parallel-mode
 - chromatic
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

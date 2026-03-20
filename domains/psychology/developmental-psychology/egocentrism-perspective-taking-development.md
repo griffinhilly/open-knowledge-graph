@@ -19,7 +19,7 @@ tags:
 - preoperational
 - self-centered
 - social-cognition
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

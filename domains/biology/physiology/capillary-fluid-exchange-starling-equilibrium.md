@@ -17,7 +17,7 @@ tags:
 - fluid exchange
 - osmosis
 - hemodynamics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

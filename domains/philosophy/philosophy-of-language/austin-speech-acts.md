@@ -29,3 +29,42 @@ Distinguish performative utterances ('I name this ship') from constative ones ('
 
 ## Common Misconceptions
 All utterances are either true or performative—Austin later blurred this distinction, treating all utterances as performing acts. Performatives are exempt from truth-evaluation—they can be evaluated for truthfulness of their presuppositions.
+
+## Questions
+
+```yaml
+- question: "Someone who is not an ordained minister says 'I now pronounce you married' at a wedding ceremony. According to Austin, this utterance is best described as:"
+  type: multiple-choice
+  options:
+    - "False — the couple is not actually married"
+    - "True — the words were spoken sincerely and publicly"
+    - "Infelicitous — it fails because the speaker lacks the proper authority and conditions"
+    - "A constative — it describes a state of affairs rather than enacting one"
+  answer: 2
+  explanation: "Austin argues that performative utterances are not evaluated as true or false but as felicitous or infelicitous — successful or failed. A performative fails when its conditions of felicity are not met: the speaker must have the appropriate authority, the correct procedure must be followed, and so on. An unauthorized pronouncement doesn't produce a false marriage — it produces no marriage at all. Option A applies the wrong evaluative framework (truth-value) to a performative."
+
+- question: "Why did Austin later question his own constative/performative distinction?"
+  type: multiple-choice
+  options:
+    - "He found that constative utterances are also subject to felicity conditions, not just truth evaluation"
+    - "He realized that performatives could be evaluated as true or false after all"
+    - "He concluded that most ordinary language is neither constative nor performative"
+    - "He decided the distinction was linguistically useful but philosophically trivial"
+  answer: 0
+  explanation: "Austin's mature view (his locutionary/illocutionary/perlocutionary framework) dissolved the original distinction because even 'constative' statements like 'The cat is on the mat' are subject to felicity conditions — they presuppose a context, an audience, appropriate circumstances. If performatives can be evaluated for the presuppositional truth of what they assume, and constatives are always performing some act (asserting, claiming, describing), the sharp line between the two categories collapses."
+
+- question: "'I promise to return your book' performs an action rather than merely describing the speaker's mental state."
+  type: true-false
+  answer: true
+  explanation: "This is Austin's central insight. Saying 'I promise' does not describe a pre-existing promise or report an inner intention — it creates the promise in the very act of utterance. The same logic applies to 'I apologize,' 'I bet,' 'I name this ship.' These are performative utterances: saying them is doing them. Contrast this with 'She promised to return the book,' which does describe a past act."
+
+- question: "Performative utterances are entirely exempt from any form of truth evaluation."
+  type: true-false
+  answer: false
+  explanation: "This is a common overgeneralization. While performatives cannot be straightforwardly true or false (a promise isn't true or false), they are not immune to all truth-related assessment. Their presuppositions can be evaluated: 'I hereby bequeath you my estate' presupposes that the speaker owns an estate. If they do not, the utterance misfires, and the presupposition is false. Austin's point is that the primary evaluative framework for performatives is felicity (success/failure), not truth-value — not that truth is entirely irrelevant."
+
+- question: "Why does Austin argue that 'I do' in a wedding ceremony cannot be evaluated as true or false, and what criteria should be used to evaluate it instead?"
+  type: short-answer
+  answer: "'I do' doesn't describe a fact about the world — it enacts the act of consenting to marriage. There is no proposition to be true or false. It should instead be evaluated by its felicity conditions: Was the proper procedure followed? Did the speaker have standing? Was the context appropriate? If all conditions are met, the utterance succeeds (is felicitous); if conditions fail, it misfires or is void."
+  explanation: "Austin's insight is that the truth/false framework only applies to utterances that make statements about how things are. Many utterances — promises, verdicts, declarations, vows — don't describe reality; they change it. Applying truth-evaluation to 'I do' is a category error. The right question is not 'Is this true?' but 'Did this act succeed?' — which requires checking the conditions under which such acts can be validly performed."
+```

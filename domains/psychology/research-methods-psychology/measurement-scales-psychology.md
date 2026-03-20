@@ -19,7 +19,7 @@ tags:
 - interval
 - ratio
 - scales-of-measurement
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

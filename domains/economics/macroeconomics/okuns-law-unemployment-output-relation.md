@@ -15,7 +15,7 @@ tags:
 - output
 - okun
 - business-cycle
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

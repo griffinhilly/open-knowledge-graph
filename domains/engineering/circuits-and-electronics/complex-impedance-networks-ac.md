@@ -17,7 +17,7 @@ tags:
 - impedance
 - admittance
 - reactive-networks
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

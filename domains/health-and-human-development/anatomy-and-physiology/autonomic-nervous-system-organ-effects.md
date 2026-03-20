@@ -18,7 +18,7 @@ tags:
 - autonomic-nervous-system
 - sympathetic
 - parasympathetic
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

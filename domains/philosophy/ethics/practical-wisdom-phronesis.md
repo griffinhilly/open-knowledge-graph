@@ -13,7 +13,7 @@ tags:
 - wisdom
 - judgment
 - aristotle
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

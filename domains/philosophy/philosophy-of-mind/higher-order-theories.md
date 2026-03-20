@@ -15,7 +15,7 @@ tags:
 - HOP
 - higher-order-representation
 - consciousness
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

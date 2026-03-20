@@ -18,7 +18,7 @@ tags:
 - responsiveness
 - bonding
 - dyadic-reciprocity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

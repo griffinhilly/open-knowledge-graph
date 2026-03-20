@@ -20,7 +20,7 @@ tags:
 - comparative
 - natural-selection
 - encephalization
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

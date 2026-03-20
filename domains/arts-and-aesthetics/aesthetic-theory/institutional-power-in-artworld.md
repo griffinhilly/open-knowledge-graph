@@ -13,18 +13,16 @@ prerequisites:
 - id: art-definition-and-ontology
   type: soft
 builds-toward:
-- artistic-transgression-institutional-critique
-- art-political-intervention
+  - art-political-intervention
 tags:
 - institutions
 - power
 - artworld
 - legitimacy
 - gatekeeping
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Institutional Power and Gatekeeping in the Artworld
 
 ## Core Idea

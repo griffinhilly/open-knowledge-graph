@@ -18,7 +18,7 @@ tags:
 - blues-form
 - tritone-substitution
 - jazz-harmony
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

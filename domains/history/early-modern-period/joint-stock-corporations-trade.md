@@ -14,7 +14,7 @@ tags:
 - trade-monopolies
 - colonialism
 - commerce
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

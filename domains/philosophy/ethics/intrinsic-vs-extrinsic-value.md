@@ -3,7 +3,9 @@ id: intrinsic-vs-extrinsic-value
 title: Intrinsic vs Extrinsic Value
 domain: philosophy
 course: ethics
-prerequisites: []
+prerequisites:
+- id: metaethics-intro
+  type: soft
 builds-toward:
 - utilitarianism
 - consequentialism
@@ -13,10 +15,9 @@ tags:
 - intrinsic
 - extrinsic
 - axiology
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Intrinsic vs Extrinsic Value
 
 ## Core Idea

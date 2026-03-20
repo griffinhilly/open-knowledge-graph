@@ -20,7 +20,7 @@ tags:
 - budget line
 - affordable set
 - relative prices
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Budget Constraint

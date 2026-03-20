@@ -16,7 +16,7 @@ tags:
 - distributed
 - sync
 - async
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

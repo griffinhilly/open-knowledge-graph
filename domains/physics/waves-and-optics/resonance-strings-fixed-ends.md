@@ -12,7 +12,7 @@ tags:
 - resonance
 - standing-waves
 - musical-strings
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

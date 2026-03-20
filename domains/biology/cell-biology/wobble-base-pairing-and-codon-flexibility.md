@@ -12,7 +12,7 @@ tags:
 - wobble
 - genetic-code
 - translation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

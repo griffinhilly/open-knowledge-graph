@@ -17,7 +17,7 @@ tags:
 - local-adaptation
 - genotype-environment-interaction
 - fitness-landscape
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

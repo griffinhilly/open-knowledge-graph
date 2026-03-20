@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - observables
 - averages
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

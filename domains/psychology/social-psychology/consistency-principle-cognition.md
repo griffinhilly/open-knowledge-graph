@@ -16,7 +16,7 @@ tags:
 - balance
 - attitude-change
 - motivation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

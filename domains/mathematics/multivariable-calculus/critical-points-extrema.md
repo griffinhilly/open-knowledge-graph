@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - critical-points
 - extrema
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

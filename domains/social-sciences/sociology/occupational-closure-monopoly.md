@@ -14,7 +14,7 @@ tags:
 - monopoly
 - credentialism
 - parkin
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

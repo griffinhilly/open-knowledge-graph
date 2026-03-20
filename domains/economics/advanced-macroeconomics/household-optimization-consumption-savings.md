@@ -19,7 +19,7 @@ tags:
 - consumption
 - savings
 - optimization
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

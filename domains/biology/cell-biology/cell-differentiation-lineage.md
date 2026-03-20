@@ -15,7 +15,7 @@ tags:
 - lineage-specification
 - transcription-factors
 - development
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - observer-based-feedback
 - output-feedback
 - compensation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

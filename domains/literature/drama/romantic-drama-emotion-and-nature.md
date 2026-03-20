@@ -18,7 +18,7 @@ tags:
 - nature
 - individualism
 - rebellion
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - perspective-differences
 - bias
 - self-other-asymmetry
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

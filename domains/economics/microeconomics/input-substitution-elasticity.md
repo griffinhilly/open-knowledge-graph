@@ -12,7 +12,7 @@ tags:
 - producer theory
 - elasticity
 - substitution
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

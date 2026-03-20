@@ -20,7 +20,7 @@ tags:
 - cognition
 - overview
 - information-processing
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

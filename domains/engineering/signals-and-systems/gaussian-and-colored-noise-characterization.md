@@ -14,7 +14,7 @@ tags:
 - gaussian
 - colored-noise
 - characterization
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

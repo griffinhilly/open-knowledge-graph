@@ -16,7 +16,7 @@ tags:
 - substrate-independence
 - multiple-realization
 - functionalism
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

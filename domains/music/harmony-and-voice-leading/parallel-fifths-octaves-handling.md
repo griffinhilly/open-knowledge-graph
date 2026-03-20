@@ -14,7 +14,7 @@ tags:
 - parallel-motion
 - voice-leading
 - rules
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

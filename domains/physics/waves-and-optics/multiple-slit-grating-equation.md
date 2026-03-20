@@ -12,7 +12,7 @@ tags:
 - diffraction
 - gratings
 - spectroscopy
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - freedoms
 - civil-liberties
 - human-rights
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

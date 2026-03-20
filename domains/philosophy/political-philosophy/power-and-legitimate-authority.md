@@ -16,7 +16,7 @@ tags:
 - authority
 - legitimacy
 - domination
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - ideology
 - subject
 - hailing
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

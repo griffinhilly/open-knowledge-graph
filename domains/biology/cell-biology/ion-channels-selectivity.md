@@ -20,7 +20,7 @@ tags:
 - selectivity-filter
 - gating
 - channel-proteins
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

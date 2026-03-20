@@ -9,8 +9,7 @@ prerequisites:
 - id: bond-pricing
   type: soft
 builds-toward:
-- interest-rate-term-structure
-- bond-duration-application
+  - bond-duration-application
 tags:
 - bonds
 - fixed-income
@@ -19,7 +18,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Zero-Coupon Bond Pricing and Valuation
 
 ## Core Idea

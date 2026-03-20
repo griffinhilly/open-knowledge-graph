@@ -12,7 +12,7 @@ tags:
 - combinatorics
 - probability
 - probabilistic-method
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

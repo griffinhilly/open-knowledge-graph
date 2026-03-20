@@ -26,6 +26,45 @@ Use objects to physically divide and see what's left over. Draw pictures showing
 ## Common Misconceptions
 Ignoring the remainder; not understanding what it represents.
 
+## Questions
+
+```yaml
+- question: "14 students need to travel in vans that hold 3 passengers each. How many vans are needed?"
+  type: multiple-choice
+  options:
+    - "4 vans, because 14 ÷ 3 = 4 R2"
+    - "5 vans, because the 2 remaining students still need a ride"
+    - "4 vans, because the remainder of 2 can be ignored"
+    - "3 vans, because 3 groups of 3 equals 9"
+  answer: 1
+  explanation: "14 ÷ 3 = 4 R2 — four full vans carry 12 students, with 2 remaining. Since people can't be left behind, you need a 5th van for the 2 remaining students. The math gives 4 R2 in every version of this problem, but the real-world situation determines what to do: when the remainder represents people who still need something, you round up. This is a key lesson of remainders — the arithmetic is fixed; the interpretation is contextual."
+
+- question: "A baker has 23 eggs and needs 4 eggs per batch of muffins. She calculates 23 ÷ 4 = 5 R3. How many complete batches can she make?"
+  type: multiple-choice
+  options:
+    - "6 batches, because you always round up when there's a remainder"
+    - "5 batches, because she can only make full batches with the eggs she has"
+    - "3 batches, because the remainder is 3"
+    - "4 batches, because 4 eggs per batch"
+  answer: 1
+  explanation: "23 ÷ 4 = 5 R3 means 5 full groups of 4, with 3 eggs left over. The baker needs complete groups of 4 eggs for each batch — she can't make a partial batch with only 3 eggs. So she makes 5 complete batches, with 3 eggs left unused. Rounding up to 6 would require 24 eggs, and she only has 23. Here the remainder is kept as leftover material, not rounded up — contrast this with the van problem, where leftover passengers need a vehicle."
+
+- question: "The remainder in a division problem is always smaller than the divisor."
+  type: true-false
+  answer: true
+  explanation: "If the remainder were equal to or larger than the divisor, you could form one more complete group. For example, if 14 ÷ 3 gave a 'remainder' of 3, you could add one more group of 3, giving 5 groups instead of 4. The remainder is precisely the amount left that isn't enough for another full group — so by definition it must be less than the divisor. If your remainder equals or exceeds the divisor, you've made a calculation error."
+
+- question: "For the same division problem, the remainder always means you should round up to the next whole number."
+  type: true-false
+  answer: false
+  explanation: "What you do with the remainder depends entirely on the context. For the van problem, you round up (leftover students still need a ride). For cutting 3-foot pieces from a 14-foot rope, you get 4 pieces and 2 feet of scrap — you keep only complete pieces and the remainder is waste. The math (4 R2) is the same in both cases; the situation determines the interpretation. Always read the question to decide whether to round up, round down, or report the remainder."
+
+- question: "Why does the same division problem sometimes call for rounding up and sometimes for ignoring the remainder? What determines which you do?"
+  type: short-answer
+  answer: "The division problem itself always produces the same result — quotient and remainder are fixed by the numbers. What changes is the real-world meaning of the remainder. You round up when the leftover amount still needs to be accounted for (passengers needing a ride, people needing seats). You keep or ignore the remainder when incomplete groups don't count (partial batches that can't be made, scrap material that's wasted). Always read the question to understand what the leftovers represent in the situation."
+  explanation: "This is the most important conceptual move with remainders: separating the arithmetic (which is mechanical and fixed) from the interpretation (which requires understanding the context). Students who always round up or always ignore the remainder are applying a rule without thinking — the skill is to recognize what the situation actually demands."
+```
+
 ## Explainer
 
 You already know division as equal sharing: if you have 12 cookies and 3 friends, each friend gets 4 cookies and nothing is left over. That's the clean, perfect case. But the real world is messier — most numbers don't divide evenly. That leftover amount is the **remainder**, and understanding it is just as important as finding the quotient.

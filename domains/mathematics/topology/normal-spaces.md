@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - normal
 - t4
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - rebellion
 - uprising
 - resistance
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

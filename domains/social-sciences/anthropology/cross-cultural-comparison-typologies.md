@@ -29,6 +29,45 @@ Use comparative databases or classic typologies (descent systems: bilateral, pat
 - Treating comparison as value-neutral when categories are culturally constructed.
 - Losing the specificity and context of individual cases in pursuit of comparison.
 
+## Questions
+
+```yaml
+- question: "An anthropologist classifies two societies as 'patrilineal' in a cross-cultural database. What does this classification guarantee about those two societies?"
+  type: multiple-choice
+  options:
+    - "That women have equal or less power than men in both societies"
+    - "That both societies formally trace descent through the father's line"
+    - "That both societies share similar inheritance practices and residence patterns"
+    - "That both societies share common ancestry or historical contact"
+  answer: 1
+  explanation: "A typological category specifies only the structural feature used to classify — in this case, the formal rule of descent. It says nothing about inheritance law, residence customs, gender power dynamics, or kinship terminology, all of which vary dramatically among patrilineal societies. This is the core tension: the category enables comparison but strips exactly the contextual detail that would tell you what the classification actually means inside each society."
+
+- question: "A researcher finds that 80 of 100 societies in a sample perform the same rain ritual and concludes this is strong independent evidence of a universal human tendency. A colleague warns about the Galton problem. What is the colleague's concern?"
+  type: multiple-choice
+  options:
+    - "The sample of 100 is statistically too small to make claims about universal human tendencies"
+    - "Many of those 80 societies may share the ritual through common ancestry or cultural diffusion, making them non-independent cases rather than separate confirmations of the same hypothesis"
+    - "Rain rituals are too subjectively defined to fit into a reliable typological category"
+    - "The researcher should control for geographic proximity before drawing conclusions"
+  answer: 1
+  explanation: "The Galton problem is about non-independence of cases. If societies are related through shared ancestry or cultural diffusion, then finding the same trait in 80 of them doesn't give you 80 independent data points — it might give you one ancestral trait repeated 80 times. Statistical inference from cross-cultural samples requires that the cases actually be independent; when they're not, apparent patterns may reflect history rather than universal pressures."
+
+- question: "Calling two societies 'patrilineal' tells you that they have similar customs around inheritance, women's authority, and residence patterns."
+  type: true-false
+  answer: false
+  explanation: "Typological categories describe one structural feature — here, the formal rule of descent — and say nothing about other social arrangements. Patrilineal societies vary enormously in whether women hold political or economic power, where married couples live, how inheritance actually works in practice, and how individuals emotionally experience kinship. The category is an analytical tool for comparison, not a description of a social package deal."
+
+- question: "Cross-cultural typologies are useful tools for enabling comparison, but the categories themselves are constructed by researchers rather than being natural divisions found in the world."
+  type: true-false
+  answer: true
+  explanation: "This is the key methodological insight: typological categories are analytical constructs, not natural kinds. Researchers group societies by features that look similar from an outside vantage point, but that vantage point is always shaped by the researcher's cultural background and theoretical assumptions. Nineteenth-century anthropologists built many typologies from European categories and misrepresented what they found. Modern cross-cultural comparison requires treating categories as tools with known limitations, not as objective descriptions of social reality."
+
+- question: "What is the core tension in cross-cultural comparison, and why can't it be fully resolved?"
+  type: short-answer
+  answer: "The tension is between abstraction (needed for comparison) and context (lost through abstraction). Comparison requires reducing diverse societies to shared categories, but those categories inevitably strip away local meanings and may impose the researcher's own cultural frameworks. You cannot compare without abstracting, yet every abstraction loses something essential. The tension is managed — by being explicit about constructed categories, using multiple methods, and pairing quantitative comparison with ethnographic depth — but not resolved."
+  explanation: "This tension is fundamental to the method, not a fixable flaw. It explains why the field has moved from seeking universal laws to more modest goals: mapping patterns of co-variation and charting the range of human variation. Typologies remain indispensable as comparison vocabularies, but analysts must treat them as analytical tools rather than natural kinds — knowing that 'patrilineal' is a researcher's category, not a self-evident feature of social life."
+```
+
 ## Explainer
 
 A single ethnography tells you what one society looks like from the inside — rich, contextual, specific. But it cannot tell you whether what you observed is universal, regionally common, or unique. Cross-cultural comparison is the method that moves anthropology from description to explanation by examining variation across many cases. The logic is similar to controlled comparison in natural science: if you want to know whether a feature of social life (say, matrilineal descent) tends to co-occur with another feature (say, particular residence patterns), you need more than one case to test the hypothesis.

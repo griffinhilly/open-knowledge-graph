@@ -27,7 +27,7 @@ tags:
 - motion
 - velocity
 - acceleration
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

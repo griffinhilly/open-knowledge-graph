@@ -19,7 +19,7 @@ tags:
 - passive-income
 - wealth
 - goals
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

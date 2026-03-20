@@ -29,6 +29,45 @@ Analyze the function algebraically before graphing: find domain restrictions, fa
 - Thinking the graph cannot cross a horizontal asymptote (it can, in the middle of its domain; HAs describe end behavior only).
 - Not factoring before identifying asymptotes, leading to missed holes.
 
+## Questions
+
+```yaml
+- question: "Given f(x) = (x − 2)(x + 3) / [(x − 2)(x − 5)], what happens at x = 2?"
+  type: multiple-choice
+  options:
+    - "There is a vertical asymptote at x = 2 because the denominator equals zero there"
+    - "There is a hole (removable discontinuity) at x = 2 because the factor (x − 2) cancels"
+    - "The function equals zero at x = 2 because the numerator equals zero there"
+    - "The function is defined and continuous at x = 2 after simplification"
+  answer: 1
+  explanation: "When (x − 2) appears in both numerator and denominator, it cancels — but the function is still undefined at x = 2 (you cannot substitute 2 into the original expression). This creates a hole (removable discontinuity): the graph approaches a finite value at x = 2 but has a missing point. A vertical asymptote only occurs at x = 5, where (x − 5) remains in the denominator after cancellation. Skipping the factoring step leads to misclassifying x = 2 as a vertical asymptote."
+
+- question: "For the rational function f(x) = (3x³ + x) / (6x³ − 2x² + 1), what is the horizontal asymptote?"
+  type: multiple-choice
+  options:
+    - "y = 0, because rational functions always have y = 0 as the horizontal asymptote"
+    - "y = 1/2, because the leading coefficients are 3 and 6, and 3/6 = 1/2"
+    - "There is no horizontal asymptote because the degree of the numerator exceeds the denominator"
+    - "y = 3, because the leading coefficient of the numerator is 3"
+  answer: 1
+  explanation: "When the numerator and denominator have equal degree (both degree 3 here), the horizontal asymptote is the ratio of leading coefficients: 3/6 = 1/2. The rule: if deg(numerator) < deg(denominator), HA is y = 0; if equal, HA is leading-coefficient ratio; if numerator's degree is greater by 1, there's an oblique asymptote (no horizontal). Answer A is wrong — y = 0 only applies when the denominator has higher degree."
+
+- question: "A rational function's graph can never cross its horizontal asymptote."
+  type: true-false
+  answer: false
+  explanation: "This is a common but incorrect belief. Horizontal asymptotes describe end behavior — what happens as x → ±∞ — but say nothing about behavior at finite x-values. The graph is free to cross the horizontal asymptote for finite values of x; it just must eventually approach the asymptote as x grows very large. Vertical asymptotes, by contrast, cannot be crossed because the function is literally undefined at those x-values."
+
+- question: "If the factor (x − 4) appears in both the numerator and denominator of a rational function, then x = 4 is a vertical asymptote."
+  type: true-false
+  answer: false
+  explanation: "A shared factor creates a hole (removable discontinuity), not a vertical asymptote. When (x − 4) cancels from both numerator and denominator, the function is undefined at x = 4, but the graph approaches a finite value there — a missing point, not an asymptote. A vertical asymptote occurs only where the denominator is zero after all cancellation is complete. This distinction is why factoring before analyzing asymptotes is essential."
+
+- question: "Why must you fully factor a rational function before identifying its vertical asymptotes and holes, rather than simply finding where the denominator equals zero?"
+  type: short-answer
+  answer: "Because a zero of the denominator might also be a zero of the numerator. When a factor cancels from both numerator and denominator, that x-value produces a hole (removable discontinuity) rather than a vertical asymptote — the graph approaches a finite value there but has a missing point. Only denominator zeros that survive after cancellation produce vertical asymptotes. Without factoring first, you cannot distinguish between these two fundamentally different features."
+  explanation: "The practical consequence: f(x) = (x−2)/(x−2)(x−5) and g(x) = 1/(x−5) have the same formula after simplification, but f(x) has a hole at x = 2 while g(x) doesn't. Treating f as if it had a vertical asymptote at x = 2 would be wrong. Factoring is the step that surfaces this difference."
+```
+
 ## Explainer
 
 A **rational function** is simply a fraction where both numerator and denominator are polynomials. From your study of polynomial functions and long division, you know how polynomials behave: degree controls end behavior, roots control zeros. A rational function inherits this, but the denominator adds new phenomena — places where the function breaks down or grows without bound.

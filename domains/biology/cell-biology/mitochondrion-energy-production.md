@@ -16,7 +16,7 @@ tags:
 - respiration
 - energy
 - atp
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

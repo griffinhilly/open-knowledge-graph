@@ -18,7 +18,7 @@ tags:
 - transnationalism
 - cultural-homogenization
 - inequality
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

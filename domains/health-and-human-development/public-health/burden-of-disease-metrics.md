@@ -16,7 +16,7 @@ tags:
 - health-burden
 - priority-setting
 - measurement
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

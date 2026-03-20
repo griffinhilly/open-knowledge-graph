@@ -13,7 +13,7 @@ tags:
 - rounding
 - error
 - propagation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

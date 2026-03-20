@@ -35,6 +35,45 @@ Practice by explaining a complex concept you understand well to someone who does
 - Expository writing is easier than argumentative writing because there is no thesis to defend; explanation requires its own rigorous structure and depth.
 - An expository essay has no central claim; it has an explanatory thesis that states what the essay will explain and why it matters.
 
+## Questions
+
+```yaml
+- question: "A student writes an essay explaining how vaccines produce immunity. She organizes it by describing her personal learning journey — starting with her confusion, then her first discovery, then subsequent realizations. What is the primary problem with this organizational approach?"
+  type: multiple-choice
+  options:
+    - "The essay is organized around the writer's experience rather than the reader's need to understand the subject"
+    - "A vaccine explanation requires more scientific authority than a student can provide"
+    - "The essay lacks a clear thesis statement at the beginning"
+    - "Personal narrative is inherently incompatible with expository writing"
+  answer: 0
+  explanation: "This is writer-centered organization — the structure follows what the writer found interesting or the order she happened to learn things, rather than what sequence a reader needs to build genuine understanding. Good expository writing asks: what does the reader need to know first to make sense of what comes next? The foundational mechanism should come before the advanced consequence; simpler terms should be defined before they're used. The writer's discovery path is rarely the reader's optimal learning path."
+
+- question: "A process analysis essay explaining how a bill becomes law should primarily sequence its content based on:"
+  type: multiple-choice
+  options:
+    - "The most dramatic or politically interesting moments, placed first to engage readers"
+    - "The actual chronological sequence of steps in the legislative process"
+    - "The issues the writer finds most important about the legislative process"
+    - "The steps that are most controversial or debated, to signal the essay's depth"
+  answer: 1
+  explanation: "Process analysis follows chronological or causal sequence because each step depends on the previous one. Skipping steps or reordering them to prioritize drama or the writer's interests creates a map the reader cannot follow. The test of good process exposition is: could a reader who had no prior knowledge follow these steps and understand how the process actually works? That requires respecting the actual sequence, not rearranging it for rhetorical effect."
+
+- question: "A well-written expository essay has an explanatory thesis — a claim about what the essay will explain and why it matters — even though it does not argue for a position."
+  type: true-false
+  answer: true
+  explanation: "One of the most common misconceptions is that expository writing has no thesis. It does — but the thesis is explanatory rather than argumentative. An expository thesis states what the essay will explain and frames why understanding it matters. 'This essay explains how the Federal Reserve uses interest rate policy to control inflation' is an explanatory thesis. It does not advocate for a position, but it provides the reader with a clear map of where the essay is going and what they should understand by the end."
+
+- question: "Expository writing is easier than argumentative writing because there is no thesis to defend and no need for rigorous logical structure."
+  type: true-false
+  answer: false
+  explanation: "This misconception leads writers to produce disorganized, writer-centered explanations. Expository writing requires its own rigorous structure — one organized around the reader's growing comprehension rather than rhetorical persuasion. The difficulty is different: instead of building an airtight case, you must sequence information so that each step builds on the last, anticipate every point of confusion, and define terms before you use them. Many writers find this harder than argument because there is no clear adversarial target to organize around."
+
+- question: "What is 'writer-centered explanation,' and why is it the primary failure mode of expository writing?"
+  type: short-answer
+  answer: "Writer-centered explanation organizes content around what the writer knows or finds interesting rather than around what the reader needs to understand. This often produces paragraphs that move from recent discoveries to foundational mechanisms (inverted from the reader's perspective), use terms before defining them, or skip steps because the writer finds them obvious. It fails because the measure of expository writing is not the writer's understanding — it is whether a reader who did not understand now does. Good expository revision means reading as a naïve reader and reorganizing to eliminate every moment of lost footing."
+  explanation: "The key test is: who is the organization serving? If the structure reflects the writer's knowledge hierarchy, it is writer-centered. If it reflects the reader's comprehension journey, it is reader-centered. The revision strategy is to mark every point of confusion a naïve reader would experience and then ask what information would have prevented that confusion, placed earlier in the text."
+```
+
 ## Explainer
 
 You already understand essay organization—how paragraphs follow from a thesis, how transitions signal logical relationships, and how evidence supports claims. You know that evidence and support are what underpin effective writing. Expository writing uses all of these structures, but redirects their purpose: instead of building a case for the reader to accept, you are building a map for the reader to navigate. The shift sounds subtle, but it changes every sentence-level decision.

@@ -25,7 +25,7 @@ tags:
 - scale degrees
 - harmony
 - analysis
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 # Diatonic Harmony and Roman Numeral Analysis

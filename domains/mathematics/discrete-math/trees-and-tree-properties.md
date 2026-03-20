@@ -17,7 +17,7 @@ tags:
 - leaves
 - parent-child
 - properties
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

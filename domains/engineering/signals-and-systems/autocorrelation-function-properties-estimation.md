@@ -14,7 +14,7 @@ tags:
 - autocorrelation
 - estimation
 - properties
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

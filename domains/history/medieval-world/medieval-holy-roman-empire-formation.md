@@ -16,7 +16,7 @@ tags:
 - empire
 - germany
 - governance
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

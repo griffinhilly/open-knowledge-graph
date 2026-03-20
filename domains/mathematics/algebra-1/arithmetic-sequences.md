@@ -39,6 +39,45 @@ Start with patterns: give sequences and ask students to find the common differen
 - Confusing arithmetic sequences with geometric sequences (adding vs. multiplying).
 - Not recognizing negative common differences (decreasing sequences are still arithmetic).
 
+## Questions
+
+```yaml
+- question: "The explicit formula for an arithmetic sequence is aₙ = a₁ + (n − 1)d. A student mistakenly writes aₙ = a₁ + nd instead. What specific error does this introduce?"
+  type: multiple-choice
+  options:
+    - "The formula now calculates the sum of the sequence instead of a single term"
+    - "The formula produces a result that is exactly d too large — it adds d one extra time, as if the first term had already had d added to it"
+    - "The formula breaks down only for large values of n"
+    - "The formula confuses the common difference with the first term"
+  answer: 1
+  explanation: "The (n − 1) exists because to reach the nth term you add d exactly (n − 1) times — the first term is reached with zero additions of d. Using nd instead adds d one extra time, producing a result that is always d larger than the correct answer. For example, in the sequence 3, 7, 11, 15... with a₁ = 3 and d = 4: the 3rd term should be 11. The correct formula gives 3 + (3−1)×4 = 11; the wrong formula gives 3 + 3×4 = 15 — that's the 4th term, not the 3rd."
+
+- question: "You plot the terms of the arithmetic sequence 5, 8, 11, 14, 17, ... with term number n on the x-axis and term value on the y-axis. What does the graph look like, and what determines its slope?"
+  type: multiple-choice
+  options:
+    - "A curved (parabolic) line, because the values keep increasing"
+    - "Points falling on a straight line with slope 5, since a₁ = 5"
+    - "Points falling on a straight line with slope 3, since the common difference d = 3"
+    - "A scatter plot with no pattern, since sequences are discrete"
+  answer: 2
+  explanation: "Arithmetic sequences are discrete linear functions. When plotted, the points fall exactly on a straight line. The slope of that line is the common difference d — in this case, 3. The first term a₁ determines the y-intercept (specifically, the y-intercept of the underlying line is a₁ − d = 5 − 3 = 2). Option B is the classic confusion: a₁ is the value of the first term, not the slope. The rate of change between terms — which is what slope measures — is d."
+
+- question: "A decreasing arithmetic sequence (where each term is smaller than the previous) is not truly arithmetic because the common difference must be positive."
+  type: true-false
+  answer: false
+  explanation: "A sequence is arithmetic if the difference between consecutive terms is constant — regardless of sign. A negative common difference (d < 0) produces a decreasing sequence that is perfectly arithmetic. For example, 20, 15, 10, 5, 0, −5, ... has d = −5 and is arithmetic. The formula aₙ = a₁ + (n − 1)d works exactly the same way; d being negative simply means the sequence decreases rather than increases."
+
+- question: "An arithmetic sequence is a discrete version of a linear function: the common difference plays the same role as slope."
+  type: true-false
+  answer: true
+  explanation: "The explicit formula aₙ = a₁ + (n − 1)d can be rewritten as aₙ = d·n + (a₁ − d), which is exactly slope-intercept form y = mx + b. The common difference d is the slope (the constant rate of change per step), and (a₁ − d) is the y-intercept. The only difference from a continuous linear function is that n is restricted to positive integers — you only hit discrete points on the line rather than every real x-value."
+
+- question: "A job starts at a salary of $48,000 and increases by $3,000 every year. Explain why this is an arithmetic sequence and calculate the salary in the 6th year."
+  type: short-answer
+  answer: "This is arithmetic because the salary increases by a constant amount ($3,000) each year — that constant is the common difference d = 3,000. Using the explicit formula: a₆ = a₁ + (n − 1)d = 48,000 + (6 − 1)(3,000) = 48,000 + 15,000 = $63,000."
+  explanation: "The key check for arithmetic sequences is whether the difference between any two consecutive terms is always the same. Here, year 1 to year 2 increases by $3,000, year 2 to year 3 increases by $3,000, and so on — constant difference, arithmetic sequence. The (n − 1) in the formula accounts for the fact that you add d five times to get from year 1 to year 6, not six times."
+```
+
 ## Explainer
 
 An arithmetic sequence is what you get when you apply a constant rate of change one step at a time. Consider a parking garage that charges $5 to enter and $3 for each hour. After 1 hour you've paid $8, after 2 hours $11, after 3 hours $14. Each term is exactly $3 more than the last — that $3 is the **common difference** d. The sequence 8, 11, 14, 17, 20, ... is arithmetic because the gap between consecutive terms never changes. You already know variable expressions; the sequence is really a rule: start at a₁ and keep adding d.

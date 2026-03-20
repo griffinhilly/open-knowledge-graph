@@ -11,7 +11,7 @@ tags:
 - schools
 - lineage
 - influence-networks
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

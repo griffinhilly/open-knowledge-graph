@@ -22,7 +22,7 @@ tags:
 - 12-bar blues
 - harmony
 - composition
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 # Common Chord Progressions

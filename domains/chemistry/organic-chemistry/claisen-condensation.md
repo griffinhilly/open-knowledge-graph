@@ -16,7 +16,7 @@ tags:
 - condensation
 - beta-keto-ester
 - c-c-coupling
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - scaffolding
 - sociocultural
 - private-speech
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

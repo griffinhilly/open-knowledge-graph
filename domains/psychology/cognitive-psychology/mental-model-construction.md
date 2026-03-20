@@ -15,7 +15,7 @@ tags:
 - representation
 - reasoning
 - understanding
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

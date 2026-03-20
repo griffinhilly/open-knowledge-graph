@@ -26,7 +26,7 @@ tags:
 - peptide-hormones
 - receptor-types
 - second-messengers
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

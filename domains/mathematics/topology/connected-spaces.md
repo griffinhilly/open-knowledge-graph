@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - connected
 - connectivity
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -22,7 +22,7 @@ tags:
 - essential amino acids
 - nitrogen balance
 - protein quality
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

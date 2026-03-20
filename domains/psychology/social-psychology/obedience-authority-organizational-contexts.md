@@ -13,7 +13,7 @@ tags:
 - authority
 - organizational behavior
 - situational factors
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

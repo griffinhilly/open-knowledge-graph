@@ -16,7 +16,7 @@ tags:
 - hybridity
 - mimicry
 - difference
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

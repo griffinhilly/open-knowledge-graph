@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - hilbert-spaces
 - functional-analysis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

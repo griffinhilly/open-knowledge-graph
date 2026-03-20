@@ -31,6 +31,45 @@ Read pictographs with varying scales and discuss how to handle a category that d
 - Forgetting to use the key — counting symbols as if each equals 1.
 - Not knowing how to represent a number that is not a multiple of the scale (half-symbols solve this).
 
+## Questions
+
+```yaml
+- question: "A pictograph shows that Classroom A has 6 apple symbols. The key says: 🍎 = 5 students. How many students are in Classroom A?"
+  type: multiple-choice
+  options:
+    - "6 students — count the symbols"
+    - "11 students — add 6 + 5"
+    - "30 students — multiply 6 × 5"
+    - "5 students — the key value is always the answer"
+  answer: 2
+  explanation: "The key tells you that each symbol represents 5 students, not 1. You must multiply: 6 symbols × 5 students per symbol = 30 students. Counting the symbols as if each equals 1 is the most common error with scaled pictographs — it's exactly what the key is designed to prevent. The key is the first thing to read before interpreting any data in the graph."
+
+- question: "A data table shows that 25 students chose soccer as their favorite sport. If the pictograph key is ⚽ = 5 students, how many soccer ball symbols should appear in the soccer row?"
+  type: multiple-choice
+  options:
+    - "25 symbols — one for each student"
+    - "20 symbols — subtract 25 − 5"
+    - "5 symbols — divide 25 ÷ 5"
+    - "125 symbols — multiply 25 × 5"
+  answer: 2
+  explanation: "To convert a data value into symbols, divide by the scale: 25 ÷ 5 = 5 symbols. This is the reverse process of reading — instead of multiplying symbols × scale to get the count, you divide count ÷ scale to get the number of symbols to draw. Option A (25 symbols) is the error of ignoring the key entirely; option D (125 symbols) reverses the operation."
+
+- question: "A half-symbol in a scaled pictograph represents half the value shown in the key."
+  type: true-false
+  answer: true
+  explanation: "If the key states each symbol = 4, then a half-symbol represents 2. Half-symbols exist specifically to handle data values that fall between multiples of the scale. For example, if a category has 14 items and the scale is 4 (14 ÷ 4 = 3.5), you draw 3 full symbols and 1 half-symbol. Without half-symbols, you could only represent exact multiples of the scale."
+
+- question: "When reading a scaled pictograph, you should count the total number of symbols in a row to find the data value for that category."
+  type: true-false
+  answer: false
+  explanation: "Counting symbols gives you the number of symbols — not the data value. You must always multiply: data value = number of symbols × scale. For example, 4 symbols with a key of ⭐ = 10 means 40 items, not 4. Forgetting to multiply is the defining error with scaled pictographs, which is exactly why the key is the most important element to check before reading any data."
+
+- question: "Why do scaled pictographs use a key, and what would go wrong if you forgot it and just counted the symbols as if each equaled 1?"
+  type: short-answer
+  answer: "The key tells you how many items each symbol represents. It exists because large datasets would require impractically many individual symbols — scaling lets you represent hundreds of items with a manageable number of symbols. If you forget the key and count symbols as 1 each, you undercount by a factor of the scale. For example, with a scale of 5, a row of 8 symbols represents 40 items — but ignoring the key gives the wrong answer of 8."
+  explanation: "Choosing the right scale is itself a skill: you want symbol counts under about 10 per row so the graph stays readable, but you also want the scale to divide evenly into most of your data values. The key is not decoration — it is the conversion factor that makes the entire graph meaningful, and reading it first is the non-negotiable first step."
+```
+
 ## Explainer
 
 You already know how to read a simple picture graph where each symbol stands for exactly 1 item. Now you are adding a new power: each symbol can represent *more than one* item. A **scaled pictograph** uses a **key** that says something like "⭐ = 5 students." That means every full star you see in a row stands for 5 students — so a row with 6 stars represents 30 students, not 6. The key multiplies your counting.

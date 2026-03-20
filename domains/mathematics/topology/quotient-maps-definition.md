@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - quotient-maps
 - identification
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

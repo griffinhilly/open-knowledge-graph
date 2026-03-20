@@ -13,7 +13,7 @@ tags:
 - voice-motion
 - outer-voices
 - part-writing
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

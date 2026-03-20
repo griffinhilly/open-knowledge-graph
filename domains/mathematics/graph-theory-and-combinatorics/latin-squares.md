@@ -6,13 +6,14 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: permutations-and-combinations
   type: soft
+- id: catalan-numbers
+  type: soft
 tags:
 - combinatorics
 - designs
-stage: formal-systems
+stage: advanced
 status: draft
 ---
-
 # Latin Squares and Orthogonal Structures
 
 ## Core Idea

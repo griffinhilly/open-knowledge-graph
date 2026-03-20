@@ -18,7 +18,7 @@ tags:
 - abolition
 - Black independence
 - Caribbean
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

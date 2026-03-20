@@ -15,7 +15,7 @@ tags:
 - Ehrenfeucht-Fraïssé
 - game
 - atomic-type
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

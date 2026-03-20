@@ -14,7 +14,7 @@ tags:
 - melody
 - non-chord-tones
 - ornamentation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

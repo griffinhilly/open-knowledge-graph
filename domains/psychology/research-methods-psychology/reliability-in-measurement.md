@@ -22,7 +22,7 @@ tags:
 - inter-rater
 - internal-consistency
 - Cronbach-alpha
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Reliability in Psychological Measurement

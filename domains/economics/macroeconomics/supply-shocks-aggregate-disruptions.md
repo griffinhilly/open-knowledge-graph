@@ -15,7 +15,7 @@ tags:
 - supply-shocks
 - stagflation
 - prices
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

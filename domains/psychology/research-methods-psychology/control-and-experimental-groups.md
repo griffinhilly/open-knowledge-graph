@@ -14,7 +14,7 @@ tags:
 - experimental-group
 - placebo
 - baseline
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

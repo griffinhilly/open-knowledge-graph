@@ -29,6 +29,45 @@ Read sentences in isolation and ask: 'What, specifically, does this pronoun refe
 - Assuming context will always disambiguate a vague pronoun for the reader.
 - Overlooking broad reference (This shows that…) as a reference error because the sentence still 'sounds fine' when read quickly.
 
+## Questions
+
+```yaml
+- question: "Read this sentence: 'When Maria called Sophie, she was nervous.' What is the primary problem with this sentence?"
+  type: multiple-choice
+  options:
+    - "The verb tense is incorrect — 'was' should be 'is'"
+    - "The pronoun 'she' is ambiguous because it could refer to either Maria or Sophie"
+    - "The sentence is a fragment because it begins with 'when'"
+    - "Pronouns cannot refer to people — only to things"
+  answer: 1
+  explanation: "The pronoun 'she' has two equally plausible antecedents — Maria and Sophie. Both are grammatically valid: either could have been nervous. This is ambiguous reference — the reader must guess the intended meaning. The fix is to replace the pronoun with the specific noun: 'When Maria called Sophie, Maria was nervous.' Note that the problem is *reference*, not agreement — 'she' correctly matches both antecedents in number and gender."
+
+- question: "Consider: 'My father is a surgeon, and I've always been fascinated by it.' What type of pronoun reference error does 'it' represent?"
+  type: multiple-choice
+  options:
+    - "Ambiguous reference — 'it' could refer to either 'father' or 'surgeon'"
+    - "Implied antecedent — 'it' refers to 'surgery,' a noun that never appears in the sentence"
+    - "Agreement error — 'it' should be 'them'"
+    - "No error — context makes the meaning clear enough"
+  answer: 1
+  explanation: "This is an implied antecedent error. The intended referent is 'surgery' or 'medicine,' but that noun is never written — it must be inferred from the word 'surgeon.' The antecedent exists in the reader's mind but not on the page. Good writing requires the antecedent to be explicitly stated, not merely implied. The fix: 'I've always been fascinated by surgery' or 'I've always been fascinated by the field.'"
+
+- question: "Broad reference occurs when 'this,' 'that,' 'which,' or 'it' refers to an entire preceding idea rather than to a specific noun."
+  type: true-false
+  answer: true
+  explanation: "Broad reference is exactly this pattern: a pronoun pointing back at a clause, situation, or concept instead of a distinct noun. For example, 'She quit her job, which surprised everyone' — 'which' refers to the whole preceding event, not any single noun. This is grammatically tolerated but rhetorically imprecise because the reader must reconstruct what exactly caused surprise. Broad reference is the hardest category to catch because the sentences sound fluent and natural."
+
+- question: "If a reader can figure out what a pronoun refers to from context, the pronoun reference is clear and acceptable."
+  type: true-false
+  answer: false
+  explanation: "Comprehensibility is not the standard for clear reference — precision is. 'My father is a doctor, and I've always wanted to do it' is inferable, but the antecedent 'it' (medicine? doctoring?) is never stated. Forcing readers to infer antecedents places unnecessary cognitive load on them and introduces the risk of misreading. Good pronoun reference ensures the antecedent is unambiguously stated in the text, not just guessable from context."
+
+- question: "What is the difference between ambiguous pronoun reference and an implied antecedent? Give one example of each and explain how you would fix it."
+  type: short-answer
+  answer: "Ambiguous reference: two or more stated nouns are plausible antecedents (e.g., 'When Tom met Bill, he smiled' — who smiled?). Fix: replace the pronoun with the specific noun. Implied antecedent: the pronoun refers to a noun that was never actually written (e.g., 'She's a doctor and loves it' — 'it' implies 'medicine' but that word doesn't appear). Fix: state the noun explicitly."
+  explanation: "Both errors make readers work harder than they should, but they differ in kind. Ambiguous reference gives too many antecedents; implied antecedent gives none. In both cases the fix is the same family of moves: name the referent explicitly rather than expecting the reader to track or infer it."
+```
+
 ## Explainer
 
 From pronoun agreement, you know that a pronoun must match its antecedent in number and gender: "The students submitted *their* papers." That prerequisite handles the *agreement* problem. Pronoun reference clarity handles a related but distinct problem: even a grammatically agreeing pronoun can fail if the reader cannot identify *which* noun it refers to. Agreement asks "does the pronoun match?" Reference clarity asks "can the reader find the match without guessing?"

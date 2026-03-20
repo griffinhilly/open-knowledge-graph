@@ -14,7 +14,7 @@ tags:
 - telescope
 - astronomy
 - observation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

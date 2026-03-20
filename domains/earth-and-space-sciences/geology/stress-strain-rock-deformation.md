@@ -6,8 +6,6 @@ course: geology
 prerequisites:
 - id: plate-tectonics-driving-forces
   type: hard
-- id: stress-tensor-inversion-from-earthquakes
-  type: soft
 - id: youngs-modulus-elasticity
   type: soft
 builds-toward:
@@ -18,7 +16,7 @@ tags:
 - strain
 - deformation
 - mechanics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

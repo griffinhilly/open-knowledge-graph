@@ -15,7 +15,7 @@ tags:
 - intuitionistic
 - modal
 - alternatives
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

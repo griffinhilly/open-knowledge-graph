@@ -20,7 +20,7 @@ tags:
 - mechanics
 - compliance
 - resistance
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

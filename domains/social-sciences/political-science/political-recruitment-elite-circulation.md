@@ -16,7 +16,7 @@ tags:
 - elites
 - representation
 - candidates
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

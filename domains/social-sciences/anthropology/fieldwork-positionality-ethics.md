@@ -16,7 +16,7 @@ tags:
 - fieldwork
 - positionality
 - ethics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

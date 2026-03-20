@@ -16,7 +16,7 @@ tags:
 - coherence
 - memory
 - audience-processing
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

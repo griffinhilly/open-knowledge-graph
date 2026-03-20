@@ -20,7 +20,7 @@ tags:
 - receptor
 - EPSP
 - IPSP
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

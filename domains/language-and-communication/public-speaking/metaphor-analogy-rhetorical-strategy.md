@@ -14,7 +14,7 @@ tags:
 - rhetoric
 - figurative-language
 - persuasion
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

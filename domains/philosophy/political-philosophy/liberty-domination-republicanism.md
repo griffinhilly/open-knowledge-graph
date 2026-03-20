@@ -16,7 +16,7 @@ tags:
 - domination
 - republicanism
 - freedom
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

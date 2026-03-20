@@ -22,7 +22,7 @@ tags:
 - completeness
 - first-order-logic
 - proof-theory
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

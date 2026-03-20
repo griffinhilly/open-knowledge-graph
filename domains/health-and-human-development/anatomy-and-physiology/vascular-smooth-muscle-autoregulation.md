@@ -14,7 +14,7 @@ tags:
 - vascular-tone
 - autoregulation
 - endothelium
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

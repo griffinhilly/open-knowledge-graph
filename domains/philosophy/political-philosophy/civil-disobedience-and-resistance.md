@@ -16,7 +16,7 @@ tags:
 - resistance
 - justice
 - nonviolence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - divided-differences
 - interpolation
 - newton
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

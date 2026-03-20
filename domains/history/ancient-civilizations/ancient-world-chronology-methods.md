@@ -29,6 +29,45 @@ Work through a specific example—trace how Egyptian king lists align with radio
 ## Common Misconceptions
 Radiocarbon dating works equally well for all time periods—it is actually less accurate for very recent or very ancient samples. The 'ancient world' is not a single time period but spans thousands of years.
 
+## Questions
+
+```yaml
+- question: "An archaeologist uses radiocarbon dating on charcoal from an ancient hearth and receives a result of '3,200 ± 80 years before present.' Why is this result expressed as a range rather than a single year?"
+  type: multiple-choice
+  options:
+    - "The laboratory made a measurement error that could not be resolved"
+    - "Atmospheric ¹⁴C concentrations have varied over time, and calibration curves can map a single measurement to multiple possible calendar date ranges"
+    - "Radiocarbon dating only works for broad time periods such as centuries, not for individual years"
+    - "The organic material was too degraded to give a precise reading"
+  answer: 1
+  explanation: "Radiocarbon measurements must be converted to calendar years using calibration curves built from samples with independently known ages. Because atmospheric ¹⁴C concentrations have fluctuated due to solar activity and volcanic events, calibration curves contain wiggles and plateaus — regions where a single ¹⁴C measurement corresponds to multiple possible calendar date ranges. The ± uncertainty reflects both the measurement precision of the instrument and the ambiguities introduced by these calibration features. This is a structural feature of the method, not a failure."
+
+- question: "A historian wants to date a wooden beam from a Viking longhouse as precisely as possible. Which method is most likely to provide a year-specific date?"
+  type: multiple-choice
+  options:
+    - "Radiocarbon dating, because it directly measures the age of organic material"
+    - "Stratigraphy, because the layer the beam was found in indicates its age relative to other objects"
+    - "Dendrochronology, because matching the beam's ring pattern to a master chronology can pinpoint the year the tree was felled"
+    - "King list analysis, because Viking records name rulers whose reigns can be counted backward"
+  answer: 2
+  explanation: "Dendrochronology — tree-ring dating — is the most precise chronological tool available for wood, sometimes providing year-exact dates. Trees add one ring per year with a width reflecting annual climate; by matching the ring sequence of an ancient beam to a master chronology built from overlapping ring sequences, researchers can identify the exact calendar year the tree was felled. Radiocarbon dating gives a range of years, not a single year. Stratigraphy provides relative (not absolute) dates unless the layer contains objects with known dates."
+
+- question: "Radiocarbon dating results must be calibrated against independently dated samples because atmospheric ¹⁴C concentrations have not been constant over time."
+  type: true-false
+  answer: true
+  explanation: "The radiocarbon method assumes that organisms absorbed ¹⁴C at the same rate as living organisms today. But atmospheric ¹⁴C concentrations have varied due to solar activity, volcanic eruptions, and other factors. Without calibration, raw radiocarbon measurements would be systematically off for many periods. Dendrochronology has become the primary calibration tool: timbers with precisely known ring counts provide ¹⁴C measurements at known calendar years, allowing researchers to build calibration curves that convert raw measurements to calendar dates."
+
+- question: "A radiocarbon measurement of an ancient wooden beam directly tells you when that beam was built into the structure it was found in."
+  type: true-false
+  answer: false
+  explanation: "Radiocarbon dating measures when the organism died — in the case of a wooden beam, when the tree was felled. It does not tell you when the beam was used in construction. A tree might have been felled decades before the building was constructed, or old wood might have been reused in later structures. Additionally, the result gives a date range rather than a single year. Interpreting a radiocarbon date therefore requires considering these sources of ambiguity alongside the date range produced by the calibration."
+
+- question: "Historians say that ancient chronology is 'an achievement, not a given.' What does this mean, and why would relying on a single dating method produce a less reliable chronology than using multiple methods together?"
+  type: short-answer
+  answer: "It means that the timelines we read in textbooks are the product of ongoing scholarly work, cross-referencing, and debate — not self-evident facts. Each dating method has its own strengths and limitations: radiocarbon gives absolute date ranges but requires calibration and has ambiguous plateaus; stratigraphy gives relative dates that need an anchor; king lists can be checked against astronomical observations; dendrochronology provides precise dates but only for wood. When multiple independent methods converge on the same date range, confidence increases. A single method might be systematically biased or only applicable to certain materials, so agreement across methods is the best evidence for a reliable chronology."
+  explanation: "The principle is triangulation: independent lines of evidence that converge on the same conclusion are far more reliable than a single line of evidence, no matter how sophisticated. This is also why ancient chronology remains actively debated — when methods disagree, as in the 'high vs. low chronology' debate for the Bronze Age Aegean, the disagreement reflects genuine uncertainty that cannot be resolved without new evidence."
+```
+
 ## Explainer
 
 Before we can understand what happened in ancient history, we have to establish *when* it happened — and in the absence of a continuous written record, this requires layering multiple independent methods and accepting different degrees of precision for different periods. **Chronology** is not a given in ancient history; it is an achievement, and an ongoing one. The dates you see in textbooks for Egyptian dynasties or Bronze Age settlements are the product of decades of archaeological debate, cross-referencing, and periodic revision as new evidence accumulates.

@@ -13,7 +13,7 @@ tags:
 - stress-intensity-factor
 - crack
 - flaw-tolerance
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

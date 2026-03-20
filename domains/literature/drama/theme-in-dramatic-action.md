@@ -9,18 +9,16 @@ prerequisites:
 - id: dramatic-structure
   type: soft
 builds-toward:
-- character-transformation-arc
-- tragic-and-comic-vision
+  - tragic-and-comic-vision
 tags:
 - theme
 - meaning
 - action
 - interpretation
 - significance
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Theme Development Through Dramatic Action
 
 ## Core Idea

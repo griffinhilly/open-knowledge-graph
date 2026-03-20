@@ -18,7 +18,7 @@ tags:
 - gross-motor
 - fine-motor
 - infancy
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

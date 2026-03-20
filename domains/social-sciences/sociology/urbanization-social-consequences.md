@@ -12,7 +12,7 @@ tags:
 - urbanization
 - cities
 - social-problems
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

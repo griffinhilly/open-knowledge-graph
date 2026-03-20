@@ -14,7 +14,7 @@ tags:
 - control
 - interference
 - cognition
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

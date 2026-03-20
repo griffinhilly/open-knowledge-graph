@@ -12,7 +12,7 @@ tags:
 - things
 - non-human
 - agency
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

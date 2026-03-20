@@ -22,7 +22,7 @@ tags:
 - Napoleon
 - popular sovereignty
 - nationalism
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

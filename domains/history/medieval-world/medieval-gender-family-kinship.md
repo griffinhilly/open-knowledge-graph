@@ -14,7 +14,7 @@ tags:
 - kinship
 - women
 - society
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

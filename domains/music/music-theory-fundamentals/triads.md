@@ -20,7 +20,7 @@ tags:
 - diminished
 - augmented
 - harmony
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

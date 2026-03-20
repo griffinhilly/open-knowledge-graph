@@ -19,7 +19,7 @@ tags:
 - truth-table
 - boolean-algebra
 - inverter
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

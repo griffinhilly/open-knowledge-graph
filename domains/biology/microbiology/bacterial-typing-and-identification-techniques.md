@@ -14,7 +14,7 @@ tags:
 - identification
 - typing
 - diagnostics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

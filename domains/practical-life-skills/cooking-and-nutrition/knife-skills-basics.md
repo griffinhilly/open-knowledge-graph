@@ -31,6 +31,45 @@ Start with soft vegetables like zucchini or mushrooms before hard ones like carr
 - A sharp knife is more dangerous than a dull one — the opposite is true because dull knives require excessive force and slip.
 - All cuts are interchangeable — dice versus chop versus mince produce significantly different textures and cook times.
 
+## Questions
+
+```yaml
+- question: "A home cook is struggling to cut through a tomato. The knife keeps pushing the skin in instead of slicing through it. What is the most likely cause and correct fix?"
+  type: multiple-choice
+  options:
+    - "The cook is using the wrong cut — they should mince instead of slice"
+    - "The knife is dull and needs sharpening or honing"
+    - "The cutting board is unstable — they should hold the tomato in their hand"
+    - "The knife is too sharp and is gripping the tomato skin"
+  answer: 1
+  explanation: "A sharp knife glides through tomato skin with almost no downward pressure. When a knife pushes the skin inward before cutting, it's the telltale sign of a dull blade — the edge has lost its bite and can no longer slice cleanly. The fix is to hone or sharpen the knife, not change the technique. Note that option C — holding the tomato in your hand — would be genuinely dangerous."
+
+- question: "A recipe calls for carrots in a stir-fry where visual presentation matters. Which cut is most appropriate?"
+  type: multiple-choice
+  options:
+    - "Rough chop — irregular pieces add a rustic feel"
+    - "Mince — the finest pieces blend into the sauce perfectly"
+    - "Julienne — long thin matchstick pieces cook quickly and look elegant"
+    - "Medium dice — cubes are the default for all stir-fries"
+  answer: 2
+  explanation: "Julienne produces long, thin matchstick-shaped pieces suited for stir-fries where presentation matters. The pieces are visually appealing and cook quickly because they are thin. Rough chop produces uneven pieces that cook unevenly. Mince produces pieces so small they essentially disappear — not ideal when you want visible carrot. Medium dice is versatile but not optimized for visual presentation."
+
+- question: "Cutting all vegetables to the same size matters because inconsistent sizes cause some pieces to be overcooked while others are still raw."
+  type: true-false
+  answer: true
+  explanation: "Smaller pieces cook faster than larger ones. If you have a mix of large and small pieces in the same pan, by the time the large pieces are cooked through, the small pieces will be overdone, and vice versa. Consistent sizing ensures everything in the pan finishes cooking at the same time — this is one of the key reasons professional cooks invest in precise cuts."
+
+- question: "A dull knife is safer to use than a sharp one because it cannot cut as deeply if it slips."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about knife safety, and it is dangerously wrong. A dull knife requires significantly more downward force to cut. That extra force means the knife is much more likely to slip sideways off the food and into your fingers. A sharp knife glides through food with minimal pressure, giving you control. Professional cooks use sharp knives precisely because they are safer and more predictable."
+
+- question: "Explain how the claw grip protects your fingers while cutting, and why it works better than simply trying to keep fingertips away from the blade."
+  type: short-answer
+  answer: "The claw grip curls fingertips inward so the knuckles — not the fingertips — face the blade. The flat of the blade rests against the knuckles as a guide. Since the blade cannot go past the knuckles, it physically cannot reach the curled-under fingertips. Simply keeping fingers 'away' provides no mechanical barrier — one slip ruins it. The claw grip makes safety automatic rather than dependent on constant vigilance."
+  explanation: "This is a classic case where a physical system is more reliable than attention alone. Experienced cooks use the claw grip automatically, without thinking, because the habit was built during slow, deliberate practice. The grip works whether you're cooking for five minutes or five hours — attention can waver, but grip mechanics don't."
+```
+
 ## Explainer
 
 You already know kitchen safety fundamentals — keeping surfaces stable, handling hot equipment carefully, avoiding cross-contamination. Knife skills build on that foundation by adding precision and efficiency to your work at the cutting board. A skilled cook can prepare a week's worth of vegetables in the time it takes a beginner to chop one onion, and the difference is almost entirely technique, not speed — technique that, once learned, becomes fast automatically.

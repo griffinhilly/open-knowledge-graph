@@ -17,7 +17,7 @@ tags:
 - social-networks
 - graph-theory
 - relations
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

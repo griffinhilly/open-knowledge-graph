@@ -14,7 +14,7 @@ tags:
 - history
 - methodology
 - analysis
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

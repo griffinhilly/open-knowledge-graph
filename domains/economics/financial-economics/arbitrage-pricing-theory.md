@@ -16,7 +16,7 @@ tags:
 - fama-french
 - multi-factor
 - arbitrage
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

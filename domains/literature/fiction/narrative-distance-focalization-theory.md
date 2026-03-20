@@ -11,16 +11,14 @@ prerequisites:
 - id: omniscient-narrator-authority-effect
   type: soft
 builds-toward:
-- narration-and-narrative-constraint
-- moral-ambiguity-and-complex-antagonists
+  - narration-and-narrative-constraint
 tags:
 - narrative-distance
 - focalization
 - perspective
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Narrative Distance and Focalization Theory
 
 ## Core Idea

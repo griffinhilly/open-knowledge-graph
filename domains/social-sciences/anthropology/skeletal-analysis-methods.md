@@ -15,7 +15,7 @@ tags:
 - skeleton
 - analysis
 - paleopathology
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

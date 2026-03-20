@@ -15,7 +15,7 @@ tags:
 - allylic
 - selectivity
 - free-radical
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

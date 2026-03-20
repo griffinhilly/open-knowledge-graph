@@ -15,7 +15,7 @@ tags:
 - triangulation
 - convergence
 - multiple-methods
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

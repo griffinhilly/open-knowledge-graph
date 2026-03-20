@@ -15,7 +15,7 @@ tags:
 - housing
 - poverty
 - inequality
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

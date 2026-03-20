@@ -13,7 +13,7 @@ tags:
 - intervals
 - pitch
 - frequency
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

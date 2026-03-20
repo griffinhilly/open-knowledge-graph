@@ -13,7 +13,7 @@ tags:
 - opening
 - engagement
 - speech-strategy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

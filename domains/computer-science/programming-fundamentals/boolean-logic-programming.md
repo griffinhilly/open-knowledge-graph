@@ -20,7 +20,7 @@ tags:
 - not
 - truth tables
 - compound conditions
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

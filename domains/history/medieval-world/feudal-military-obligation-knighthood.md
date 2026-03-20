@@ -14,7 +14,7 @@ tags:
 - knighthood
 - feudalism
 - cavalry
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

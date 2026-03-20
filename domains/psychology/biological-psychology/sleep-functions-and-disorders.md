@@ -12,7 +12,7 @@ tags:
 - sleep-apnea
 - narcolepsy
 - memory-consolidation
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

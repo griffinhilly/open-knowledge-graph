@@ -19,7 +19,7 @@ tags:
 - actin
 - myosin
 - sarcomere
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

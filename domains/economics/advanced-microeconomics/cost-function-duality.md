@@ -16,7 +16,7 @@ tags:
 - duality
 - producer-theory
 - cost-minimization
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

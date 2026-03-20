@@ -14,7 +14,7 @@ tags:
 - convergence
 - guarantees
 - timeline
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - market-failure
 - adverse-selection
 - unraveling
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

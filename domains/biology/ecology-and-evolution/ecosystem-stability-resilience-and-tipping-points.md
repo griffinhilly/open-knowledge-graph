@@ -15,7 +15,7 @@ tags:
 - resilience
 - regime-shift
 - ecosystem
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

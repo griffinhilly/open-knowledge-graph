@@ -15,7 +15,7 @@ tags:
 - plumbing
 - appliances
 - energy-efficiency
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 

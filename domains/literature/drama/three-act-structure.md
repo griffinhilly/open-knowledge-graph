@@ -13,7 +13,7 @@ tags:
 - structure
 - dramatic-form
 - fundamental
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

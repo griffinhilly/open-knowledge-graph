@@ -6,16 +6,14 @@ course: child-development
 prerequisites:
 - id: neonatal-reflexes-and-sensory-capabilities
   type: soft
-builds-toward:
-- sensory-system-integration-and-perceptual-development
+builds-toward: []
 tags:
 - sensory-development
 - visual-perception
 - infant-cognition
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Visual Development: Acuity and Perception
 
 ## Core Idea

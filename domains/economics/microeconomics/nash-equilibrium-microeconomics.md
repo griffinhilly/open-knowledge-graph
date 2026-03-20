@@ -15,7 +15,7 @@ tags:
 - best response
 - mixed strategy
 - no regret
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Nash Equilibrium

@@ -17,7 +17,7 @@ tags:
 - phase
 - process
 - structure
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

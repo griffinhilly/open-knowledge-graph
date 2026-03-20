@@ -18,7 +18,7 @@ tags:
 - outbreak-dynamics
 - infectious-disease
 - pathogen
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

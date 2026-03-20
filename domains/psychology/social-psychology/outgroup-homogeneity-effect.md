@@ -17,7 +17,7 @@ tags:
 - stereotyping
 - outgroup perception
 - individuation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

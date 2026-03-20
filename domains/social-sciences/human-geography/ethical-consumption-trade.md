@@ -15,7 +15,7 @@ tags:
 - justice
 - consumption
 - global
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

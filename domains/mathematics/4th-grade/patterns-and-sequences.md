@@ -33,6 +33,45 @@ Use visual patterns (tile arrangements, dot arrays) alongside number sequences s
 - Correctly identifying the pattern for the first few terms but miscounting when extending further.
 - Describing only what changes without stating the starting point (the rule "add 3" is incomplete without knowing the first term).
 
+## Questions
+
+```yaml
+- question: "A student says the rule for a sequence is 'add 4.' She uses this rule to write: 4, 8, 12, 16... Her classmate uses the same rule to write: 1, 5, 9, 13... Who is right?"
+  type: multiple-choice
+  options:
+    - "The first student — 'add 4' must start at 4"
+    - "The second student — 'add 4' must start at 1"
+    - "Both are right — 'add 4' is an incomplete rule without a starting value, so both sequences are valid"
+    - "Neither — a rule must describe a multiplicative pattern to be valid"
+  answer: 2
+  explanation: "A rule like 'add 4' describes only the common difference — how the sequence grows. Without knowing the starting value, infinitely many different sequences all follow the rule 'add 4.' Both sequences shown are valid arithmetic sequences with common difference 4, just starting at different values. A complete rule for an arithmetic sequence requires BOTH the starting value and the common difference."
+
+- question: "In the sequence 2, 6, 18, 54, 162, a student claims the rule is 'add 4 each time.' What error has she made?"
+  type: multiple-choice
+  options:
+    - "She identified the wrong starting value — it should start at 0"
+    - "She assumed the pattern was additive when it is actually multiplicative — each term is multiplied by 3"
+    - "She is correct; 2 + 4 = 6 so the rule works for the first step"
+    - "She should have said 'add 16' because the gap between 2 and 18 is 16"
+  answer: 1
+  explanation: "The gaps between consecutive terms are 4, 12, 36, 108 — widening each time, not staying constant. This is the signature of a multiplicative pattern: 2×3=6, 6×3=18, 18×3=54. An additive pattern ('add a constant') has equal gaps; a multiplicative pattern has gaps that themselves grow by a constant ratio. Assuming all patterns are arithmetic (add a constant) is the most common pattern-recognition error."
+
+- question: "To find the 20th term of an arithmetic sequence, you must first list all 19 terms before it."
+  type: true-false
+  answer: false
+  explanation: "False. Once you know the starting value and the common difference, you can jump directly to any term. The 20th term equals the starting value plus 19 times the common difference (you add the difference 19 times to get from term 1 to term 20). For the sequence 3, 7, 11, 15... the 20th term is 3 + 19×4 = 79. This 'jump to any term' property is what makes pattern rules powerful — and it is the core idea behind algebraic expressions."
+
+- question: "A pattern's rule is fully described by its common difference alone (e.g., 'add 5' is a complete description of an arithmetic sequence)."
+  type: true-false
+  answer: false
+  explanation: "False. 'Add 5' tells you how the sequence grows but not where it starts. The sequences 1, 6, 11, 16... and 3, 8, 13, 18... and 100, 105, 110... all follow 'add 5' but are completely different sequences. A complete description requires both the starting value and the common difference. This becomes especially important when using the rule to find specific terms."
+
+- question: "A student says the rule for a pattern is 'add 3.' Why is this description incomplete, and what additional information is needed to fully define the sequence?"
+  type: short-answer
+  answer: "The description is incomplete because 'add 3' only specifies the common difference — how much the sequence grows at each step. Without a starting value, infinitely many different sequences all follow this rule (e.g., 1, 4, 7, 10... and 2, 5, 8, 11... and 10, 13, 16, 19...). To fully define the sequence, you also need the first term (the starting value). Together, 'start at 2, add 3 each time' is a complete rule."
+  explanation: "The need for two pieces of information — starting value and common difference — mirrors what you will later learn about linear equations (which have both a y-intercept and a slope). A rule with only one piece is ambiguous; it describes a family of sequences rather than one specific sequence."
+```
+
 ## Explainer
 
 A **pattern** is a regularity — a structure that repeats or grows in a predictable way. In mathematics, patterns are not decorative; they are the first sign of a rule waiting to be discovered. When you see 3, 7, 11, 15, 19, you can feel the rhythm: something keeps getting added. The skill being built here is not just spotting that rhythm, but naming the rule precisely enough to continue the sequence indefinitely — or to find any term without listing all the ones before it.

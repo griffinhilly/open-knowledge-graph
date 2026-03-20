@@ -12,7 +12,7 @@ tags:
 - chebyshev
 - optimal-nodes
 - interpolation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

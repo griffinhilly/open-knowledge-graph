@@ -21,7 +21,7 @@ tags:
 - mass
 - motet
 - imitation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

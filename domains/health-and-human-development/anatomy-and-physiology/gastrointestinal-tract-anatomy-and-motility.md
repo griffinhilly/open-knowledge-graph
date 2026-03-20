@@ -15,7 +15,7 @@ tags:
 - motility
 - peristalsis
 - esophagus
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

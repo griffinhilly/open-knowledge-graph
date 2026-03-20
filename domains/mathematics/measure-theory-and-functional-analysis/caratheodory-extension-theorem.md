@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - measure-theory
 - extension-theorems
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

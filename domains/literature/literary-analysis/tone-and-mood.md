@@ -30,7 +30,7 @@ tags:
 - affect
 - diction
 - register
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 # Tone and Mood

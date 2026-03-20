@@ -12,7 +12,7 @@ tags:
 - counterfactual
 - reasoning
 - speculation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

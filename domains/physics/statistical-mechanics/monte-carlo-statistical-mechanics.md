@@ -9,8 +9,7 @@ prerequisites:
 - id: canonical-ensemble
   type: soft
 builds-toward:
-- metropolis-algorithm
-- ising-model-statmech
+  - metropolis-algorithm
 tags:
 - monte-carlo
 - importance-sampling
@@ -18,7 +17,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Monte Carlo Methods and Importance Sampling
 
 ## Core Idea

@@ -24,7 +24,7 @@ tags:
 - antinodes
 - harmonics
 - modes
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

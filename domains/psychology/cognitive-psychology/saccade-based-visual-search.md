@@ -14,7 +14,7 @@ tags:
 - attention
 - vision
 - visual-search
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

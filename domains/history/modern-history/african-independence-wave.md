@@ -16,7 +16,7 @@ tags:
 - decolonization
 - 1960s
 - nationalism
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

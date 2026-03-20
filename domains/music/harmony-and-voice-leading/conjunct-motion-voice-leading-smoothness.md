@@ -12,7 +12,7 @@ tags:
 - conjunct-motion
 - voice-leading
 - smoothness
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

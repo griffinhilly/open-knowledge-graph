@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 The nucleus is a highly organized structure with distinct chromatin domains: euchromatin (transcriptionally active, decondensed), heterochromatin (silent, condensed), and focal structures like the nucleolus. Chromosomes occupy distinct territories in three-dimensional space, organized into topologically independent domains (TADs) that constrain DNA-DNA interactions and regulate gene accessibility. The nuclear envelope contains ~3,000 pore complexes that selectively transport RNA and proteins.
 
+## Questions
+
+```yaml
+- question: "A chromosomal rearrangement moves a strong enhancer from one TAD into an adjacent TAD that normally contains a proto-oncogene. What is the most likely consequence?"
+  type: multiple-choice
+  options:
+    - "Ribosomal RNA production increases because the nucleolus expands into the new domain"
+    - "The proto-oncogene becomes inappropriately activated because the TAD boundary that normally insulated the enhancer from the gene has been disrupted"
+    - "Histone acetylation spreads uniformly across both TADs, silencing both regions"
+    - "Nuclear pore complexes redistribute to the rearranged chromosome to compensate for increased transcription"
+  answer: 1
+  explanation: "TAD boundaries, maintained by CTCF and cohesin, act as insulators that prevent enhancers in one domain from activating genes in another. When a boundary is disrupted, an enhancer can now physically contact genes it normally never reaches. If that gene is a growth-regulating proto-oncogene, inappropriate activation can drive uncontrolled cell division — this is a documented mechanism in certain leukemias and developmental disorders. This illustrates why 3D genome organization is a functional layer of gene regulation, not just structural packaging."
+
+- question: "Gene X is expressed in liver cells but completely silenced in neurons. The DNA sequence of Gene X is identical in both cell types, and the transcription factors that activate Gene X are present in both. What is the most likely explanation for the cell-type difference?"
+  type: multiple-choice
+  options:
+    - "Neurons have fewer nuclear pore complexes and cannot export Gene X mRNA efficiently"
+    - "Neurons have a different DNA sequence at Gene X due to somatic mutations"
+    - "In neurons, Gene X is repositioned to the nuclear periphery near the lamina — a transcriptionally repressive environment — while in liver cells it loops away into the transcriptionally permissive nuclear interior"
+    - "Ribosomes in neurons are specialized and cannot translate the protein encoded by Gene X"
+  answer: 2
+  explanation: "The nuclear periphery, associated with the nuclear lamina, is generally transcriptionally repressive. Genes that contact lamina-associated domains (LADs) tend to be silenced. The same gene can occupy different nuclear positions in different cell types, explaining cell-type-specific expression patterns even with identical DNA sequences and identical transcription factor availability. This spatial repositioning is a mechanism of epigenetic regulation — heritable differences in gene expression driven by chromosome architecture rather than DNA sequence."
+
+- question: "TAD boundaries act as insulators that prevent an enhancer in one topological domain from activating genes in an adjacent domain."
+  type: true-false
+  answer: true
+  explanation: "This is the defining functional role of TADs. The CTCF protein and cohesin complex create loop structures that physically confine DNA-DNA interactions within each TAD. Regulatory elements — enhancers, silencers — act locally within their domain and are insulated from genes in neighboring domains. Disrupting TAD boundaries (through mutations in CTCF binding sites or chromosomal rearrangements) allows enhancers to reach genes they were never meant to contact, which can cause developmental syndromes or cancer."
+
+- question: "Gene regulation is determined entirely by DNA sequence and the binding of transcription factors; the three-dimensional position of a chromosome in the nucleus has no effect on gene expression."
+  type: true-false
+  answer: false
+  explanation: "This is incorrect. Three-dimensional nuclear position is itself a regulatory layer. Genes located at the nuclear periphery near the lamina are generally silenced. Genes that loop into the nuclear interior near transcription factories are generally active. Enhancer-gene contact frequency — determined by 3D folding within TADs — directly controls transcriptional output. Two genes with identical DNA sequences and identical transcription factor environments can be expressed differently based solely on their spatial location within the nucleus. Genome regulation cannot be understood from the linear sequence alone."
+
+- question: "Why is the three-dimensional organization of chromosomes in the nucleus considered a layer of gene regulation rather than just structural packaging of DNA?"
+  type: short-answer
+  answer: "Three-dimensional organization directly controls which regulatory elements (enhancers, silencers) can physically contact which genes. TADs confine these interactions to local domains, ensuring that an enhancer activates its intended target gene and not a gene in a neighboring domain. The position of a gene relative to the nuclear periphery (repressive) or interior (permissive) determines its baseline accessibility. When this organization is disrupted — through rearrangements, boundary mutations, or developmental repositioning — gene expression changes accordingly. The 3D architecture is therefore not passive packaging but an active, heritable regulatory system that operates independently of the DNA sequence itself."
+  explanation: "The distinction from 'mere packaging' is that 3D organization has functional consequences: the same DNA sequence is expressed differently depending on where it sits in three-dimensional nuclear space. This is why chromosome conformation capture technologies (Hi-C, ChIP-seq) have transformed our understanding of gene regulation — they revealed that enhancers separated by megabases on the linear genome can be physically adjacent in 3D space, and that this proximity determines transcriptional activity."
+```
+
 ## Explainer
 
 From your earlier study of the nucleus, you know it houses the cell's genetic material within a double-membrane envelope. But the nucleus is not just a bag of DNA — it is an intricately organized three-dimensional space where the physical arrangement of chromosomes directly influences which genes get turned on or off. Think of it less like a filing cabinet and more like an open-plan office where the seating arrangement determines who collaborates with whom.

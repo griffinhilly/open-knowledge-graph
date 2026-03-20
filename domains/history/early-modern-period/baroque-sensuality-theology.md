@@ -14,7 +14,7 @@ tags:
 - counter-reformation
 - theology
 - sensuality
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

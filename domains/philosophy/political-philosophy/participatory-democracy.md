@@ -14,7 +14,7 @@ tags:
 - Barber
 - citizen-assemblies
 - direct-participation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

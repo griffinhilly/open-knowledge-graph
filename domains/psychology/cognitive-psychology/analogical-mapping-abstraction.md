@@ -15,7 +15,7 @@ tags:
 - analogy
 - problem-solving
 - transfer
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

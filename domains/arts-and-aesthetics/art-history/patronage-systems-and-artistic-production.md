@@ -30,6 +30,45 @@ Study specific patronage relationships: the Medici family's support of Renaissan
 - Assuming artists were always free to create what they wished; patronage constraints were often severe and deterministic.
 - Believing patronage only affected subject matter; it influenced technique, scale, medium, and what artistic innovations were possible.
 
+## Questions
+
+```yaml
+- question: "A Renaissance painter working under Church patronage depicts the Virgin Mary in the traditional blue mantle using a strictly conventional pose. A modern viewer assumes the artist lacked creativity. What does understanding patronage reveal instead?"
+  type: multiple-choice
+  options:
+    - "The artist was constrained by limited technical training typical of the period"
+    - "Iconographic conventions were patron-enforced requirements; innovation required theological justification and patron approval"
+    - "Blue mantles were simply the most technically achievable color with available pigments"
+    - "The artist was imitating earlier works to establish reputation within a guild system"
+  answer: 1
+  explanation: "The Catholic Church, as the dominant patron of European art for over a millennium, required images that communicated doctrine through established iconographic conventions. Artists working under Church patronage could not freely deviate from these requirements — the mantle's color, the figure's pose, and the composition's arrangement were often stipulated by patron need and theological expectation. The modern romantic image of the solitary creative genius is largely a post-Renaissance invention; for most of art history, artists were skilled workers fulfilling contractual obligations."
+
+- question: "Wealthy Netherlandish patrons' preference for detailed, luminous, and durable paintings contributed to which development?"
+  type: multiple-choice
+  options:
+    - "The revival of ancient Greek naturalistic sculpture traditions in northern Europe"
+    - "The spread of oil painting techniques over tempera, because oils better satisfied patron demands for luminosity and longevity"
+    - "The development of fresco as the dominant medium for domestic art"
+    - "The establishment of academic art training institutions throughout northern Europe"
+  answer: 1
+  explanation: "Patronage shaped not just subject matter but the material conditions of artistic practice, including medium. Oil painting spread partly because Netherlandish patrons valued its capacity for fine detail, rich luminosity, and greater durability compared to egg tempera. A patron's preferences about how a finished work should look directly influenced which technical innovations gained traction and spread across workshops. Material innovation was often demand-driven."
+
+- question: "Patronage primarily constrained artists' subject matter; once iconographic requirements were satisfied, artists were generally free to experiment with technique and medium."
+  type: true-false
+  answer: false
+  explanation: "Patronage shaped every dimension of artistic production — not just subject matter but scale, medium, technique, and what innovations were economically viable. The patron determined whether a work was a fresco or an oil painting, monumental or intimate, temporary or permanent. Patrons' budgets determined access to expensive pigments like ultramarine. Their display contexts determined scale and format. Characterizing patronage as only a subject-matter constraint fundamentally underestimates its scope."
+
+- question: "The Impressionists' break from academic style was partly driven by their exclusion from the salon patronage network, forcing them to build an alternative market structure."
+  type: true-false
+  answer: true
+  explanation: "The Impressionists were not simply aesthetic rebels; they were artists who had been shut out of the salon system — the official exhibition and patronage mechanism that determined which artists received recognition and sales. Unable to access that network, they organized independent exhibitions and cultivated private collectors and dealers, effectively creating a new market structure. Understanding their aesthetic break requires understanding the economic and institutional context that prompted it."
+
+- question: "Why is the question 'who paid for this?' one of the most clarifying questions you can ask when studying a work of art history?"
+  type: short-answer
+  answer: "The patron who funded a work determined its subject matter, scale, medium, iconographic requirements, and the context in which it would be displayed — all of which shaped what the artist made and how. Knowing the patron's identity, goals, and institutional affiliations reveals the ideology, social function, and constraints behind the work."
+  explanation: "Art does not arise in a social vacuum. Every commissioned work reflects a negotiation between the artist's skills and the patron's objectives. A Church patron wanted doctrinal clarity for illiterate worshippers. A merchant patron wanted civic prestige and personal glorification. A royal court wanted projected power and refined taste. Each produced radically different art even within the same period and city. The patron's goals are often more explanatory than the artist's biography when accounting for what was made and why."
+```
+
 ## Explainer
 
 The romantic image of the artist as a solitary genius creating from pure inspiration is largely a modern invention. For most of art history, artists were skilled laborers who worked on commission, and the person paying — the **patron** — had enormous influence over what was made, how it looked, and what it meant. Understanding patronage is not a footnote to art history; it is the economic engine that explains why certain works exist and others never could.

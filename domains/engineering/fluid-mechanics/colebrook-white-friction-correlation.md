@@ -14,7 +14,7 @@ tags:
 - friction
 - correlation
 - turbulent
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

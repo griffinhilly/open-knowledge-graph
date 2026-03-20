@@ -15,7 +15,7 @@ tags:
 - development
 - education
 - habituation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

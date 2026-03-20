@@ -16,7 +16,7 @@ tags:
 - addition
 - markovnikov
 - carbocation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

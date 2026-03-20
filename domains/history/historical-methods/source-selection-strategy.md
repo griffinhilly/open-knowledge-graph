@@ -15,7 +15,7 @@ tags:
 - sources
 - sampling
 - research-design
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

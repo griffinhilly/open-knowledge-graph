@@ -15,7 +15,7 @@ tags:
 - visualization
 - summary-statistics
 - data-presentation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

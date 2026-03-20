@@ -15,7 +15,7 @@ tags:
 - diagnosis
 - soundings
 - visualization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

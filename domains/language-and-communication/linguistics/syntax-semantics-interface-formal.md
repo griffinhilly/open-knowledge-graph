@@ -13,7 +13,7 @@ tags:
 - semantics
 - interface
 - compositionality
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

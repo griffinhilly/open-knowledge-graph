@@ -14,7 +14,7 @@ tags:
 - achiral
 - plane-of-symmetry
 - prochirality
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

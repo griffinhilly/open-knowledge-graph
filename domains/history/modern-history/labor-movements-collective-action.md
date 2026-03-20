@@ -13,7 +13,7 @@ tags:
 - unions
 - strikes
 - collective-action
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

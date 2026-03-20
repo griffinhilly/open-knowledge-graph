@@ -15,7 +15,7 @@ tags:
 - maternal-health
 - prevention
 - global-health
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

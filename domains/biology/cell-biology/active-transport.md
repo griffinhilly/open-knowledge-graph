@@ -20,7 +20,7 @@ tags:
 - pumps
 - endocytosis
 - exocytosis
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Active Transport

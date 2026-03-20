@@ -15,7 +15,7 @@ tags:
 - sensory-receptor
 - adaptation
 - coding
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

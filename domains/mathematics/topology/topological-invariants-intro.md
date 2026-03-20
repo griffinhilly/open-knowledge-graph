@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - invariants
 - properties
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

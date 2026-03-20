@@ -23,7 +23,7 @@ tags:
 - social-construction
 - prejudice
 - discrimination
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

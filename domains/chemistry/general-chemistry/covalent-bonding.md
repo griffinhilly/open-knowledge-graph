@@ -16,7 +16,7 @@ tags:
 - bond-energy
 - octet-rule
 - nonmetals
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

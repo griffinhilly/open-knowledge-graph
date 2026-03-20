@@ -11,18 +11,16 @@ prerequisites:
 - id: institutional-power-in-artworld
   type: soft
 builds-toward:
-- aesthetics-and-moral-philosophy
-- artistic-transgression-institutional-critique
+  - artistic-transgression-institutional-critique
 tags:
 - politics
 - intervention
 - social-change
 - art
 - aesthetics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Art as Political Intervention
 
 ## Core Idea

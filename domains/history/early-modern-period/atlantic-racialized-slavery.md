@@ -16,7 +16,7 @@ tags:
 - colonialism
 - labor
 - atlantic
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

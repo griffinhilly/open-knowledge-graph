@@ -19,7 +19,7 @@ tags:
 - multiplier
 - consumption
 - investment
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

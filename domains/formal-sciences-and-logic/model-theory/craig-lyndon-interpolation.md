@@ -15,7 +15,7 @@ tags:
 - interpolation
 - interpolant
 - consequence
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

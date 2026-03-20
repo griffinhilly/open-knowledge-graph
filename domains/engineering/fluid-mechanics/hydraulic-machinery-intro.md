@@ -19,7 +19,7 @@ tags:
 - system curve
 - specific speed
 - NPSH
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Hydraulic Machinery: Pumps and Turbines

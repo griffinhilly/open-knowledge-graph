@@ -21,7 +21,7 @@ tags:
 - Henderson-Hasselbalch
 - titration
 - Kw
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - learning
 - analogy
 - generalization
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

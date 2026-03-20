@@ -14,7 +14,7 @@ tags:
 - cell-cycle
 - checkpoint
 - p53
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

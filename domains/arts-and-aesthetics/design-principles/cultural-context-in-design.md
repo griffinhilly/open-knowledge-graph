@@ -17,7 +17,7 @@ tags:
 - context
 - diversity
 - inclusivity
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

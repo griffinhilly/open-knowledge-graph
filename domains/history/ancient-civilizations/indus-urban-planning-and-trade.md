@@ -16,7 +16,7 @@ tags:
 - planning
 - trade
 - harappa
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

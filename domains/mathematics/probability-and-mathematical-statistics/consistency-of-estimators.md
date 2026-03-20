@@ -14,7 +14,7 @@ tags:
 - consistency
 - asymptotics
 - estimation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

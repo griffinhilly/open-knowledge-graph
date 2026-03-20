@@ -18,7 +18,7 @@ tags:
 - differential-mode
 - common-mode
 - long-tailed-pair
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

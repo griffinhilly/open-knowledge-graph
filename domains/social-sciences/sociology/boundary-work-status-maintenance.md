@@ -15,7 +15,7 @@ tags:
 - status-maintenance
 - distinction
 - cultural-boundaries
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

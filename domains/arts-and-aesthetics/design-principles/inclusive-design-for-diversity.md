@@ -17,7 +17,7 @@ tags:
 - diversity
 - universal-design
 - equity
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

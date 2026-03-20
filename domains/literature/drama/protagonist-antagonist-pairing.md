@@ -17,7 +17,7 @@ tags:
 - opposition
 - structure
 - dramatic-core
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

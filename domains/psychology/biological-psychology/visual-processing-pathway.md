@@ -17,7 +17,7 @@ tags:
 - dorsal-stream
 - ventral-stream
 - vision
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Visual Processing Pathway

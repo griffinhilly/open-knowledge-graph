@@ -17,7 +17,7 @@ tags:
 - Allied
 - logistics
 - Western-Europe
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - proof-method
 - contradiction
 - indirect-proof
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - medicine
 - autonomy
 - justice-in-healthcare
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Bioethics

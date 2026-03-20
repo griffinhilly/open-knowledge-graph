@@ -24,7 +24,7 @@ tags:
 - fetus
 - teratogens
 - conception
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

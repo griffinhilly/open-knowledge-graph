@@ -13,7 +13,7 @@ tags:
 - clarity
 - internal-previews
 - internal-summaries
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

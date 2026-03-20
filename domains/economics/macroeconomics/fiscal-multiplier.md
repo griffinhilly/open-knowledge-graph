@@ -24,7 +24,7 @@ tags:
 - MPC
 - crowding-out
 - Keynesian
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # The Fiscal Multiplier

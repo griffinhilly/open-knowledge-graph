@@ -12,7 +12,7 @@ tags:
 - fermions
 - bosons
 - statistics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

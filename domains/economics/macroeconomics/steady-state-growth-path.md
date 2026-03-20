@@ -15,7 +15,7 @@ tags:
 - growth
 - steady-state
 - long-run
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

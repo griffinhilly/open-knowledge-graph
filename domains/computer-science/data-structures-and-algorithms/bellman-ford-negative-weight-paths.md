@@ -10,7 +10,7 @@ tags:
 - shortest-paths
 - algorithms
 - negative-weights
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

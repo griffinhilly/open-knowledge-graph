@@ -13,7 +13,7 @@ tags:
 - biography-method
 - life-history
 - research
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

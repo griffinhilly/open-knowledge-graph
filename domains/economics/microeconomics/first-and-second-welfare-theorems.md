@@ -12,7 +12,7 @@ tags:
 - welfare-theorems
 - efficiency
 - equity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

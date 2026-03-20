@@ -18,7 +18,7 @@ tags:
 - speciesism
 - sentience
 - animal-rights
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

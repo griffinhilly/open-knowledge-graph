@@ -16,7 +16,7 @@ tags:
 - justice
 - fairness
 - difference-principle
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

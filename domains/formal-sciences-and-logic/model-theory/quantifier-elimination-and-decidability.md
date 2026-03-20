@@ -9,7 +9,7 @@ prerequisites:
 - id: model-completeness-theorems
   type: soft
 builds-toward:
-- undecidability-and-gödel
+- undecidability-and-godel
 - decidable-theories
 tags:
 - quantifier-elimination

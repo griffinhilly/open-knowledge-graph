@@ -15,7 +15,7 @@ tags:
 - indigenous
 - plants
 - animals
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

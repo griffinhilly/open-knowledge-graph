@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - connected-components
 - decomposition
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

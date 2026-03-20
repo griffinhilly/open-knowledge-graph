@@ -20,7 +20,7 @@ tags:
 - crystallography
 - bonding
 - structure
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

@@ -9,19 +9,17 @@ prerequisites:
 - id: demographic-transition-model
   type: soft
 builds-toward:
-- urbanization-and-city-life
-- aging-and-society
-- generational-differences
+  - urbanization-and-city-life
+  - generational-differences
 tags:
 - demography
 - population
 - age-structure
 - social-composition
 - population-effects
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Demographic Structure and Population Effects
 
 ## Core Idea

@@ -13,7 +13,7 @@ tags:
 - market structure
 - monopoly
 - pricing
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

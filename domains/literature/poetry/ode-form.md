@@ -17,7 +17,7 @@ tags:
 - Pindaric
 - praise
 - apostrophe
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

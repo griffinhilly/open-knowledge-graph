@@ -16,7 +16,7 @@ tags:
 - performance
 - recovery
 - glycogen
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

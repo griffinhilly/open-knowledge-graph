@@ -9,16 +9,14 @@ prerequisites:
 - id: real-vs-nominal-gdp
   type: hard
 builds-toward:
-- okun-law
-- fiscal-policy-macroeconomics
+  - fiscal-policy-macroeconomics
 tags:
 - cycles
 - gap
 - measurement
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # The Output Gap
 
 ## Core Idea

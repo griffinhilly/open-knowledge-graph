@@ -15,7 +15,7 @@ tags:
 - relativism
 - cultural
 - truth-relativity
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

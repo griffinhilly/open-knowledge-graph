@@ -29,7 +29,7 @@ tags:
 - population growth
 - transition model
 - stages
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

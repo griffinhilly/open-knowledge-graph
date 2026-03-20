@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Addition and subtraction are inverse operations: if 5+3=8, then 8-3=5 and 8-5=3. Recognizing this relationship helps students see that fact families belong together and supports flexible thinking.
 
+## Questions
+
+```yaml
+- question: "You know that 6 + 7 = 13. Which subtraction facts does this immediately give you, without any new calculation?"
+  type: multiple-choice
+  options:
+    - "13 - 6 = 7 and 13 - 7 = 6"
+    - "7 - 6 = 1 and 6 - 7 = -1"
+    - "13 - 6 = 7 only, because subtraction is not commutative"
+    - "None — addition and subtraction are separate skills"
+  answer: 0
+  explanation: "Addition and subtraction are inverse operations: every addition fact contains two subtraction facts in the same fact family. Knowing 6 + 7 = 13 immediately tells you that 13 - 7 = 6 and 13 - 6 = 7. The same three numbers (6, 7, 13) are related in all four facts of the family."
+
+- question: "A student is trying to solve 9 - 4. She thinks: 'I don't know that subtraction fact, but I know 4 + 5 = 9, so the answer must be 5.' This approach works because..."
+  type: multiple-choice
+  options:
+    - "Addition always produces bigger numbers than subtraction"
+    - "Subtraction undoes addition, so if 4 + 5 = 9, then 9 - 4 = 5"
+    - "She got lucky — this strategy only works sometimes"
+    - "The numbers 4, 5, and 9 are special; this would not work with other numbers"
+  answer: 1
+  explanation: "This is exactly the power of understanding inverse operations. Because subtraction undoes addition, you can answer any subtraction question by asking 'what do I add to get that total?' The strategy works for all whole number facts — it reflects the structure of the number system itself, not a coincidence."
+
+- question: "Once you know one addition fact, you automatically know four related facts."
+  type: true-false
+  answer: true
+  explanation: "True. Knowing 3 + 4 = 7 gives you four facts: 3 + 4 = 7, 4 + 3 = 7 (commutative property), 7 - 4 = 3, and 7 - 3 = 4. These four facts form a fact family — they all share the same three numbers and reflect the inverse relationship between addition and subtraction."
+
+- question: "To solve a subtraction fact you don't know, it's better to memorize it directly rather than use addition knowledge."
+  type: true-false
+  answer: false
+  explanation: "False. Using addition knowledge to solve subtraction is a powerful and efficient strategy. Because addition and subtraction are inverse operations, existing addition facts unlock subtraction facts. Thinking 'what plus 4 equals 9?' to answer 9 - 4 is not a workaround — it is how mathematicians think flexibly about number relationships."
+
+- question: "Why can knowing 5 + 8 = 13 help you solve 13 - 5? Explain the connection."
+  type: short-answer
+  answer: "Because addition and subtraction are inverse operations — they undo each other. The numbers 5, 8, and 13 belong to a fact family. If adding 5 to 8 gives 13, then taking 5 away from 13 must give back 8. You do not need to memorize 13 - 5 separately; your addition knowledge already contains the answer."
+  explanation: "The relationship runs in both directions: addition combines two parts into a whole, and subtraction separates a whole back into its parts. Fact families make this explicit — one group of three numbers generates four related facts. Learning addition first does not just feel easier; it directly builds subtraction knowledge."
+```
+
 ## Explainer
 
 You already know how to add numbers within 10 and subtract numbers within 10. Now we're going to see something surprising: those two skills are secretly the same skill, just running in different directions.

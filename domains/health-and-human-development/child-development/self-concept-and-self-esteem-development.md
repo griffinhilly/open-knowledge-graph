@@ -19,7 +19,7 @@ tags:
 - identity
 - self-worth
 - social-comparison
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

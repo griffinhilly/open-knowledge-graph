@@ -18,7 +18,7 @@ tags:
 - nationalism
 - '1848'
 - Europe
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

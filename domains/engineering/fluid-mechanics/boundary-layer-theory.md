@@ -24,7 +24,7 @@ tags:
 - displacement thickness
 - momentum thickness
 - skin friction
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

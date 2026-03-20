@@ -18,7 +18,7 @@ tags:
 - crystallization
 - mineral-sequence
 - magmatism
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

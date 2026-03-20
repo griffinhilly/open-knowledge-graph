@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - spin
 - two-level-systems
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

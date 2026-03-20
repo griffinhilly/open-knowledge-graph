@@ -13,7 +13,7 @@ tags:
 - expectations
 - inflation
 - behavioral
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

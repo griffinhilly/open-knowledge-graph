@@ -17,7 +17,7 @@ tags:
 - non-cognitivism
 - expressivism
 - emotivism
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Expressivism in Ethics

@@ -30,6 +30,45 @@ Download a document from a website and find it on your computer. Upload a file t
 - Downloaded files automatically disappear after you close the website.
 - You can upload any file anywhere without consequences.
 
+## Questions
+
+```yaml
+- question: "When you click a download link and the file arrives on your computer, what has happened to the original file on the web server?"
+  type: multiple-choice
+  options:
+    - "It has been moved to your device — the server no longer has a copy"
+    - "It has been encrypted and held temporarily until you confirm the download"
+    - "A copy has been sent to your device; the server's original file is unchanged"
+    - "It has been compressed and will be deleted from the server after 24 hours"
+  answer: 2
+  explanation: "Downloading is always a copy operation, never a move. The web server retains the original file — that's why thousands of people can download the same file. Your device receives a duplicate that is saved to your downloads folder. Understanding this also explains why downloaded files persist on your device indefinitely; the server doesn't track or remove your local copy."
+
+- question: "A colleague sends you a Word document (.docx) as an email attachment from their known work address. Before opening it, what is the best security practice?"
+  type: multiple-choice
+  options:
+    - "Open it immediately — it came from a known sender, so it is safe"
+    - "Check that it ends in .docx; documents with common extensions are always safe to open"
+    - "Be aware that even .docx files can contain macros or embedded scripts; consider disabling macros or scanning the file before opening"
+    - "Upload it to cloud storage first — cloud services neutralize all file-based threats before you open them"
+  answer: 2
+  explanation: "File extensions don't guarantee safety. Even common document formats like .docx, .pdf, or .zip can contain macros, embedded scripts, or malicious content. A file from a known sender can still be dangerous if that sender's account was compromised or if they unknowingly forwarded infected content. The safest approach is to be aware of the risk, disable macros by default in Office, and scan unfamiliar or unexpected files. Option A is the most common mistake — source familiarity does not equal file safety."
+
+- question: "Files you download from the internet are automatically deleted when you close the browser tab or website you downloaded them from."
+  type: true-false
+  answer: false
+  explanation: "Downloaded files are saved to a permanent location on your device (typically a Downloads folder) and remain there until you manually delete them. The website has no ability to delete files already saved to your computer. This is why downloads folders accumulate clutter over time and why managing them periodically is good digital hygiene. The browser and the website lose all connection to the file once the download completes."
+
+- question: "Uploading a photo to a public website may share your physical location with others, even if you don't type your address anywhere."
+  type: true-false
+  answer: true
+  explanation: "Photos taken on smartphones typically contain EXIF metadata embedded in the file, which can include GPS coordinates, the date and time the photo was taken, and device information. When you upload a photo without stripping this metadata, anyone who downloads the file can read those coordinates. Many social media platforms strip EXIF data automatically, but not all services do. Being aware of metadata is a key part of thoughtful file sharing."
+
+- question: "What security consideration applies specifically when uploading a file that does not apply in the same way when simply browsing a website?"
+  type: short-answer
+  answer: "When uploading, you must think about what information the file itself contains — both its intended content and embedded metadata. A photo may carry GPS coordinates; a Word document may contain revision history, author names, or comments. Simply browsing a website involves receiving information, but uploading means sending your own data to an external server. Once uploaded, you often cannot control how that data is stored, shared, or indexed. You should verify the platform is trusted, consider what metadata is embedded in the file, and think about whether the file's contents are appropriate to share in that context."
+  explanation: "Browsing is largely passive — you receive content. Uploading is active — you send potentially sensitive data. The security risks run in both directions of file transfer, but the upload direction requires thinking about data you are exposing rather than data being pushed to you. This is particularly important for files containing private information like location data, personal details, or confidential documents."
+```
+
 ## Explainer
 
 You already know the essentials of navigating a browser — clicking links, entering URLs, filling out forms. **Downloading** and **uploading** are the two transfer operations that extend browsing from passive reading to active file exchange. Understanding both — where files go, what happens to them, and what risks are involved — turns you from a passive consumer of the web into someone who can move information between the internet and your device with confidence and care.

@@ -16,7 +16,7 @@ tags:
 - vocabulary
 - rhetoric
 - precision
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

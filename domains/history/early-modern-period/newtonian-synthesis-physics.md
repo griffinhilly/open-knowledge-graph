@@ -16,7 +16,7 @@ tags:
 - mathematics
 - gravity
 - scientific-revolution
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - axial
 - appendicular
 - joints
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 
@@ -32,6 +32,45 @@ Use a labeled skeleton model or 3D anatomy app to identify all major bones and b
 ## Common Misconceptions
 - Bones are not inert scaffolding — they are metabolically active organs that store calcium and house bone marrow.
 - The spine has four distinct curvatures (cervical, thoracic, lumbar, sacral), not one straight column.
+
+## Questions
+
+```yaml
+- question: "An elderly patient has osteoporosis, which significantly reduces the mineral (hydroxyapatite) content of their bones. Based on bone's composite structure, what would you predict about their fracture risk and why?"
+  type: multiple-choice
+  options:
+    - "Decreased fracture risk — less mineral means more flexibility from the collagen component"
+    - "Increased fracture risk — reduced hydroxyapatite reduces compressive strength, making bone more likely to fracture under load"
+    - "No change in fracture risk — collagen alone provides sufficient structural support"
+    - "Increased fracture risk only for flat bones, because long bones rely primarily on collagen"
+  answer: 1
+  explanation: "Bone strength comes from the interplay of collagen (tensile/flexible) and hydroxyapatite (hard/compressive). Losing mineral content reduces compressive strength dramatically — the patient's bones can no longer resist the loads of everyday activity. Option A is the tempting misconception: more collagen relative to mineral does increase flexibility, but a bone that bends too easily under load still fractures. The composite design is what provides resistance to multiple force types, and losing one component compromises the whole."
+
+- question: "Long bones like the femur have a hollow medullary cavity rather than being solid bone throughout. What does this design accomplish?"
+  type: multiple-choice
+  options:
+    - "It reduces total bone mass while preserving structural strength, analogous to an engineering I-beam"
+    - "It provides extra space for blood vessel storage in high-demand tissues"
+    - "It allows the bone to flex and bend without fracturing under load"
+    - "It evolved to reduce the body's metabolic demand since solid bone requires more energy to maintain"
+  answer: 0
+  explanation: "A hollow tube resists bending and torsion nearly as well as a solid rod of the same material, but uses far less material — engineers exploit this with I-beams and bicycle frames. The long bone's hollow shaft (cortical bone cylinder) is one of the most weight-efficient structural designs in biology. The medullary cavity does house yellow marrow (fat) and the endosteum, but those are secondary — the mechanical logic of the hollow tube is the primary driver of this shape. Option C confuses flexibility with structural efficiency."
+
+- question: "Bones are essentially inert structural scaffolding — their primary function is mechanical support, and they do not actively participate in the body's metabolic processes."
+  type: true-false
+  answer: false
+  explanation: "This is one of the most common misconceptions about bone. Bones are metabolically active organs that store and release calcium (critical for nerve and muscle function), house red bone marrow (which produces blood cells), and are continuously remodeled throughout life by osteoblasts (which build bone) and osteoclasts (which resorb it). A broken bone heals; inert scaffolding does not. The mineral content of bone is a dynamic calcium reservoir that the body draws on to maintain blood calcium levels."
+
+- question: "Synovial joints, such as the knee and shoulder, allow greater range of motion than fibrous or cartilaginous joints because they are enclosed in a fluid-filled capsule with cartilage-covered surfaces."
+  type: true-false
+  answer: true
+  explanation: "Fibrous joints (like skull sutures) allow almost no movement. Cartilaginous joints (like intervertebral discs) allow limited compression and bending. Synovial joints are the most complex and mobile: articular cartilage reduces friction, synovial fluid lubricates the joint and nourishes the avascular cartilage, and the joint capsule encloses the whole system. The geometry of the bony surfaces then determines the specific range and direction of motion — a ball-and-socket (shoulder) moves in all planes; a hinge (elbow) is constrained to one axis."
+
+- question: "Why does bone's composite structure — combining organic collagen and inorganic hydroxyapatite — make it stronger than either material would be alone?"
+  type: short-answer
+  answer: "Collagen provides tensile strength and flexibility — it resists pulling and bending forces. Hydroxyapatite provides hardness and compressive strength — it resists crushing forces. Neither material alone resists both types of force well. Combined, the collagen fibers prevent cracks from propagating through the brittle mineral, while the mineral prevents the collagen from deforming under compression. The result is a material that resists tension, compression, and bending — the mixed loads bones encounter during normal movement."
+  explanation: "This composite principle is why a child's bone greenstick-fractures (bends without fully breaking) rather than shattering — the proportionally higher collagen content allows more flex. Conversely, a brittle material like pure ceramic (analogous to pure hydroxyapatite) shatters cleanly under impact. The interaction between organic and inorganic phases is what gives bone its remarkable combination of toughness and stiffness — a design that engineers now try to replicate in synthetic biomaterials."
+```
 
 ## Explainer
 

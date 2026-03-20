@@ -15,7 +15,7 @@ tags:
 - embodiment
 - experience
 - temporality
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - group-dynamics
 - discussion
 - collaboration
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

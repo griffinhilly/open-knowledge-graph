@@ -22,7 +22,7 @@ tags:
 - EEG
 - MEG
 - methods
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

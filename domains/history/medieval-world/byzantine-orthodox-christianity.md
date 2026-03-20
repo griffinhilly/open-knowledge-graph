@@ -16,7 +16,7 @@ tags:
 - caesaropapism
 - theology
 - byzantium
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

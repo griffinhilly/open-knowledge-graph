@@ -14,7 +14,7 @@ tags:
 - retirement
 - withdrawal
 - income
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

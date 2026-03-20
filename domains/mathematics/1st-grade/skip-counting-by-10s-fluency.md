@@ -27,6 +27,45 @@ Skip counting by 10s (10, 20, 30, 40, ...) is fundamental to understanding place
 ## How It's Best Learned
 Use tens bundles, ten-frames in rows, and number charts that show the tens. Emphasize that only the tens digit changes in a predictable way.
 
+## Questions
+
+```yaml
+- question: "A student can correctly recite 10, 20, 30, 40, 50 when asked, but pauses for several seconds to figure out each number. Does this student have fluency with skip counting by 10s?"
+  type: multiple-choice
+  options:
+    - "Yes — fluency just means being able to get the right answer"
+    - "No — fluency means the pattern is fast and automatic, not just correct with effort"
+    - "Yes — as long as the answers are correct, speed does not matter"
+    - "No — the student should be counting by 5s instead"
+  answer: 1
+  explanation: "Fluency requires both accuracy AND automaticity — the ability to produce the sequence quickly without stopping to figure out each step. A student who can get correct answers with effort has the concept but not yet the fluency. Fluency means the pattern runs like reciting the alphabet: no pauses, no calculation needed."
+
+- question: "When skip counting by 10s starting from 0, which digit changes with each step?"
+  type: multiple-choice
+  options:
+    - "The ones digit — it changes to a new number each time"
+    - "The hundreds digit — it increases by 1 each step"
+    - "The tens digit — it increases by 1 while the ones digit stays at 0"
+    - "Both digits change in equal amounts"
+  answer: 2
+  explanation: "In the sequence 10, 20, 30, 40... only the tens digit changes (1, 2, 3, 4...) while the ones digit stays at 0 every time. This is because skip counting by 10 means adding one ten — you are not adding any ones, so the ones digit never changes. This is the place value pattern that makes the sequence so predictable."
+
+- question: "Being fluent at skip counting by 10s means you can say the next number (like 80 after 70) instantly, without stopping to figure it out."
+  type: true-false
+  answer: true
+  explanation: "Fluency means the skill is automatic — no calculation is required to produce the next number. When skip counting by 10s is fluent, '70 → 80' is as immediate as '6 → 7' when counting by ones. This automaticity is exactly what makes the skill useful as a tool for quickly counting large quantities."
+
+- question: "When skip counting by 10s, both the tens digit and the ones digit change with each step."
+  type: true-false
+  answer: false
+  explanation: "Only the tens digit changes. In 10, 20, 30, 40, 50 — the ones digit is always 0. Since each step adds exactly one ten (and zero ones), the ones place never changes. Recognizing this is the place value insight: the sequence is really 1 ten, 2 tens, 3 tens — the tens digit is just counting how many tens you have."
+
+- question: "Why does skip counting by 10s always leave the ones digit at zero?"
+  type: short-answer
+  answer: "Because each step adds exactly one ten and zero ones. Since you're never adding any ones, the ones digit has no reason to change — it stays at 0 every time."
+  explanation: "This connects directly to place value: the ones column only changes when you add ones. Skip counting by 10 adds only to the tens column. So 10, 20, 30 are really 1 ten, 2 tens, 3 tens — the ones place is untouched. Understanding this makes the pattern logical rather than just a memorized chant."
+```
+
 ## Explainer
 
 You already know how to skip count by 10s—you can recite 10, 20, 30, 40, 50, and onward. **Fluency** means something more than just being able to do it when you think carefully. It means the pattern becomes fast and automatic, like saying the alphabet: you don't have to stop and figure out what comes next. When counting by 10s is fluent, it becomes a tool you can reach for instantly whenever you need it.

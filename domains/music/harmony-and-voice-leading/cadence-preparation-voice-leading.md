@@ -15,7 +15,7 @@ tags:
 - cadences
 - voice-leading
 - phrase-structure
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -3,7 +3,9 @@ id: east-asian-landscape-painting-and-scroll-traditions
 title: East Asian Landscape Painting and Scroll Traditions
 domain: arts-and-aesthetics
 course: art-history
-prerequisites: []
+prerequisites:
+- id: dramatic-structure
+  type: soft
 builds-toward:
 - romantic-landscape-philosophy-and-sublime-nature
 tags:
@@ -14,10 +16,9 @@ tags:
 - non-western
 - chinese-art
 - japanese-art
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # East Asian Landscape Painting and Scroll Traditions
 
 ## Core Idea

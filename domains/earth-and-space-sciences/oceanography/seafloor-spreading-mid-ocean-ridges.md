@@ -21,7 +21,7 @@ tags:
 - magnetic anomalies
 - plate divergence
 - oceanic crust
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

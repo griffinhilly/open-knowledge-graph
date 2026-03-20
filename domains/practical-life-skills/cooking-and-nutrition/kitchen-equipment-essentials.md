@@ -13,7 +13,7 @@ tags:
 - kitchen-setup
 - tools
 - cookware
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 
@@ -29,6 +29,45 @@ Start with a minimal kit and add tools only when you encounter a recipe or techn
 - Expensive cookware automatically produces better food — technique and heat management matter far more than brand, and a well-seasoned cast iron skillet outperforms many high-end alternatives.
 - You need a full matched set of pots and pans — buying individual pieces that suit your cooking style is more practical and often cheaper than a boxed set full of sizes you will rarely use.
 - Non-stick pans are essential for everything — they are useful for eggs and delicate fish but cannot develop the fond (browned bits) that stainless steel provides for building pan sauces.
+
+## Questions
+
+```yaml
+- question: "A home cook replaces their stainless steel skillet with a non-stick pan to simplify everyday cooking. What is the main practical consequence of this change?"
+  type: multiple-choice
+  options:
+    - "They gain equal searing capability with the added benefit of easier cleanup"
+    - "They lose the ability to develop fond, which is essential for building pan sauces"
+    - "They benefit because non-stick surfaces reach higher temperatures more safely than stainless"
+    - "The trade-off is minimal — both pan types produce equivalent results for most cooking tasks"
+  answer: 1
+  explanation: "Non-stick pans are useful for eggs and delicate fish, but they cannot develop fond — the browned bits left in a stainless or cast iron pan after searing that form the base of pan sauces. Non-stick coatings are designed to prevent this browning. The two pan types complement each other rather than substitute for one another. Using only a non-stick eliminates an entire category of cooking technique."
+
+- question: "Why is an instant-read thermometer described as 'the single tool most likely to improve your cooking immediately'?"
+  type: multiple-choice
+  options:
+    - "It replaces the need to develop intuition about heat management over time"
+    - "It removes experience-based guesswork about doneness, providing reliable information in seconds"
+    - "It is the only accurate way to determine cooking temperatures for all foods"
+    - "It signals to others that you are treating cooking as a serious technical discipline"
+  answer: 1
+  explanation: "Judging doneness by feel, color, or timing takes years to develop reliably and varies with pan thickness, starting temperature, and stove output. A thermometer gives precise, objective information in seconds — whether chicken is at 74°C or a steak at 57°C. It does not replace technique; it augments it by eliminating the most common source of overcooked or undercooked food. The explainer explicitly calls it out as uniquely high-impact for beginners."
+
+- question: "Expensive cookware is the primary driver of cooking quality for home cooks."
+  type: true-false
+  answer: false
+  explanation: "Technique and heat management matter far more than brand or price. A well-seasoned cast iron skillet — which can be purchased very cheaply — outperforms many expensive alternatives for searing and high-heat cooking. The core principle is that equipment should earn its place by being versatile and frequently used, not by being expensive. Costly equipment paired with poor technique produces poor results."
+
+- question: "A non-stick pan and a stainless steel skillet serve different purposes and work best as complements rather than substitutes."
+  type: true-false
+  answer: true
+  explanation: "Non-stick excels at eggs and delicate fish where sticking is the main challenge. Stainless steel (or cast iron) excels at searing and sautéing where developing fond for pan sauces is the goal — a task non-stick coatings prevent by design. Each earns its place by doing something the other cannot. Having both covers a wider range of cooking scenarios than doubling up on either type."
+
+- question: "What does it mean for a kitchen tool to 'earn its place,' and why does starting with a minimal kit help a cook develop this judgment?"
+  type: short-answer
+  answer: "A tool earns its place if it does something that cannot be done nearly as well without it and is used often enough to justify the storage space. Starting with a minimal kit forces you to encounter recipes that genuinely require a specific tool before acquiring it — building direct experience of what each piece of equipment actually contributes rather than accumulating gadgets speculatively."
+  explanation: "The minimal-kit-first approach converts equipment acquisition into an empirical process: you only buy a tool when you have concretely experienced the need for it. This prevents clutter from single-purpose gadgets and builds genuine understanding of what each tool does that distinguishes it from alternatives — which is the real knowledge the topic is trying to convey."
+```
 
 ## Explainer
 

@@ -24,7 +24,7 @@ tags:
 - application
 - elimination
 - decidability
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

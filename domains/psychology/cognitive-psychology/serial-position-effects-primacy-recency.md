@@ -14,7 +14,7 @@ tags:
 - memory
 - working-memory
 - serial-position
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

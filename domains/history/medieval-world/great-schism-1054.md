@@ -17,7 +17,7 @@ tags:
 - east-west
 - excommunication
 - filioque
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

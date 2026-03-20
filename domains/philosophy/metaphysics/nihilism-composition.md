@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: mereology-basics
   type: hard
-builds-toward:
-- liberal-vs-conservative-metaphysics
+builds-toward: []
 tags:
 - nihilism
 - composition
@@ -17,7 +16,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Mereological Nihilism
 
 ## Core Idea

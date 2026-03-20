@@ -20,7 +20,7 @@ tags:
 - Pigouvian tax
 - Coase theorem
 - social cost
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Externalities and Market Failure

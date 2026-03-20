@@ -12,7 +12,7 @@ tags:
 - energy
 - head
 - applications
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

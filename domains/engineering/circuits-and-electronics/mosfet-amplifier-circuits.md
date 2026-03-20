@@ -18,7 +18,7 @@ tags:
 - small-signal-model
 - transconductance
 - mosfet-biasing
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

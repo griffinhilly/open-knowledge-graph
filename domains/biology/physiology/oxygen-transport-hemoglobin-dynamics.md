@@ -13,18 +13,16 @@ prerequisites:
 - id: acid-base-chemistry
   type: soft
 builds-toward:
-- acid-base-respiratory-compensation
-- blood-flow-redistribution-homeostasis
+  - acid-base-respiratory-compensation
 tags:
 - oxygen
 - hemoglobin
 - transport
 - cooperativity
 - oxygen saturation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
-
 # Oxygen Transport and Hemoglobin Dynamics
 
 ## Core Idea

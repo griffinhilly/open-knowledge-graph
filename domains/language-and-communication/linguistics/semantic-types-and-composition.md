@@ -16,7 +16,7 @@ tags:
 - semantics
 - type-theory
 - composition
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

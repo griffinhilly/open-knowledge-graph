@@ -13,7 +13,7 @@ tags:
 - Shang
 - oracle-bones
 - writing
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

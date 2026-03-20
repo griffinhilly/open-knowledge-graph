@@ -14,7 +14,7 @@ tags:
 - false-belief
 - representational-thought
 - social-cognition
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

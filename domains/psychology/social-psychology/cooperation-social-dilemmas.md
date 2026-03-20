@@ -16,7 +16,7 @@ tags:
 - prisoner-dilemma
 - commons
 - interdependence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

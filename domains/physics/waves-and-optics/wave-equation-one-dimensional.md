@@ -17,7 +17,7 @@ tags:
 - waves
 - pde
 - mathematics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

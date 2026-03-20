@@ -14,7 +14,7 @@ tags:
 - scale
 - returns
 - homogeneity
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

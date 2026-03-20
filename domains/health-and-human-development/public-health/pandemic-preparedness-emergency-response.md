@@ -14,7 +14,7 @@ tags:
 - emergency-response
 - incident-command
 - outbreak
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

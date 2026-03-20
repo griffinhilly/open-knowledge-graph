@@ -14,7 +14,7 @@ tags:
 - education
 - counter-reformation
 - global-expansion
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

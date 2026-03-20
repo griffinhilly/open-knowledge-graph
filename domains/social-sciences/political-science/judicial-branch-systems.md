@@ -16,7 +16,7 @@ tags:
 - judges
 - constitutional-review
 - legal-interpretation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

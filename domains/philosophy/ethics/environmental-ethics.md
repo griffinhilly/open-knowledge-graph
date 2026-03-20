@@ -16,7 +16,7 @@ tags:
 - intrinsic-value
 - deep-ecology
 - animal-rights
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Environmental Ethics

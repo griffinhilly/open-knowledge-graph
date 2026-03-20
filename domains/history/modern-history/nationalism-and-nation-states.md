@@ -19,7 +19,7 @@ tags:
 - sovereignty
 - self-determination
 - 19th century
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Nationalism and the Rise of Nation-States

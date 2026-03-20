@@ -17,7 +17,7 @@ tags:
 - SSP
 - ensemble
 - uncertainty
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

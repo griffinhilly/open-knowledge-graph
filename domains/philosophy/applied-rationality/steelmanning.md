@@ -12,7 +12,7 @@ builds-toward:
   - disagreement-and-rational-updating
   - intellectual-humility-and-calibrated-uncertainty
 tags: ["argumentation", "charity", "rationality", "epistemics"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

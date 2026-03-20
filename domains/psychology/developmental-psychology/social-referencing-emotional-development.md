@@ -17,7 +17,7 @@ tags:
 - emotional-development
 - infant-behavior
 - affiliation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

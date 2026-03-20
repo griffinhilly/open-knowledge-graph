@@ -15,7 +15,7 @@ tags:
 - exponential-matrix
 - time-domain-solution
 - discretization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

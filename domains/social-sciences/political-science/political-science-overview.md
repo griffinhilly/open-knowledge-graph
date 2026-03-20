@@ -16,7 +16,7 @@ tags:
 - political science
 - discipline overview
 - politics
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - postcolonial
 - plurality
 - alternatives
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

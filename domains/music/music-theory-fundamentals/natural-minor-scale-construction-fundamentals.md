@@ -30,6 +30,45 @@ Compare natural minor scales to their relative major scales side-by-side. Build 
 ## Common Misconceptions
 Students often confuse natural minor with harmonic minor or melodic minor. Another misconception is that the relative major and minor are unrelated; they actually share all the same notes but begin on different scale degrees.
 
+## Questions
+
+```yaml
+- question: "A student builds E natural minor as E–F♯–G–A–B–C–D–E, then wants to verify it by finding the relative major. They count up three half steps from E and land on G. How should they verify this?"
+  type: multiple-choice
+  options:
+    - "Build G major (G–A–B–C–D–E–F♯–G) and confirm it contains all the same pitches as E natural minor"
+    - "Add a raised 7th to E natural minor to create harmonic minor, then compare with G major"
+    - "Count six scale degrees up from E to find the relative major — the 6th degree determines the relationship"
+    - "Confirm E natural minor and G major have the same number of sharps in their key signatures"
+  answer: 0
+  explanation: "E natural minor and G major are relative pairs — they share all seven pitches (E F♯ G A B C D) and differ only in which note functions as tonic. Building G major confirms the relationship: G–A–B–C–D–E–F♯–G matches exactly. Note that 'three half steps up from E' is a minor third, which is the correct interval from any natural minor tonic to its relative major."
+
+- question: "A piece uses the notes C–D–E♭–F–G–A♭–B♭–C. A student assumes it's E♭ major since it has multiple flats. What is the more accurate identification?"
+  type: multiple-choice
+  options:
+    - "The student is correct — any scale with multiple flats is a flat major key"
+    - "This is C natural minor — applying W-H-W-W-H-W-W from C produces exactly these pitches"
+    - "This is B♭ major written starting from its 2nd scale degree"
+    - "This cannot be identified without knowing the harmonic context and which note is the tonal center"
+  answer: 1
+  explanation: "Applying W-H-W-W-H-W-W from C: C–D (whole), D–E♭ (half), E♭–F (whole), F–G (whole), G–A♭ (half), A♭–B♭ (whole), B♭–C (whole). This matches perfectly — C natural minor. Note that C natural minor and E♭ major share all the same notes (they are relative pairs), which explains the student's confusion. But the tonal center — not just the collection of pitches — determines the key."
+
+- question: "In a natural minor scale, the half steps fall between scale degrees 3–4 and 7–8, just like in a major scale, which is why they sound similar."
+  type: true-false
+  answer: false
+  explanation: "This is the opposite of reality. In major, half steps fall between degrees 3–4 and 7–8 (W-W-H-W-W-W-H). In natural minor, half steps fall between degrees 2–3 and 5–6 (W-H-W-W-H-W-W). The repositioning of the half steps — especially the absence of a leading tone at degree 7 in natural minor — is precisely what produces the characteristic darker, less conclusive sound of the natural minor scale."
+
+- question: "A natural minor scale and its relative major scale are built from exactly the same set of pitches; what distinguishes them is which pitch functions as the tonic."
+  type: true-false
+  answer: true
+  explanation: "This is the defining property of the relative major/minor relationship. A natural minor and C major share all seven pitches: C–D–E–F–G–A–B. What makes a passage feel 'in A minor' vs. 'in C major' is the harmonic context — which note is treated as home base, which chords provide points of rest, and how melodic phrases resolve. The same notes can evoke entirely different emotional characters depending on which is treated as the tonic."
+
+- question: "Why do a natural minor scale and its relative major sound emotionally different if they contain exactly the same notes?"
+  type: short-answer
+  answer: "The emotional character comes from which note functions as the tonic (home base) and where the half steps fall relative to that tonic. In A minor, A is the tonic, and the half steps at degrees 2–3 and 5–6 create a different pattern of tension and resolution than the half steps at degrees 3–4 and 7–8 in C major — producing the darker, less conclusive sound characteristic of minor."
+  explanation: "Harmony and melody are structured around the intervals between the tonic and the other scale degrees. A minor third above the tonic (in minor) versus a major third (in major) is the most immediately audible difference. The whole character of a scale is determined by these intervallic relationships from the tonic — not by the names of the pitches involved. Identical notes, different home base, entirely different emotional world."
+```
+
 ## Explainer
 
 You already know how to build major scales using the whole-step/half-step pattern (W-W-H-W-W-W-H). The natural minor scale uses the same raw materials — the twelve chromatic pitches — but arranges whole and half steps in a different order: **W-H-W-W-H-W-W**. That shift in pattern is what gives minor scales their characteristic darker, more melancholic sound. The half steps fall between scale degrees 2–3 and 5–6 in minor, compared to 3–4 and 7–8 in major, and this repositioning completely changes the harmonic character of the scale.

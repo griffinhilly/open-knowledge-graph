@@ -15,7 +15,7 @@ tags:
 - interference
 - coherence
 - patterns
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

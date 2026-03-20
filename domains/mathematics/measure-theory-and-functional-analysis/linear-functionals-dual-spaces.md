@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - functional-analysis
 - dual-spaces
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

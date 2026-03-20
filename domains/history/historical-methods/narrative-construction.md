@@ -15,7 +15,7 @@ tags:
 - writing
 - representation
 - methodology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

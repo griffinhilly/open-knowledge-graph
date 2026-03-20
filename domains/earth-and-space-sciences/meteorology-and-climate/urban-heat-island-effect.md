@@ -19,7 +19,7 @@ tags:
 - impervious-surface
 - land-use
 - local-climate
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

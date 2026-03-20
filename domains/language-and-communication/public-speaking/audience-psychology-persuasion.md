@@ -14,7 +14,7 @@ tags:
 - cognitive-dissonance
 - social-proof
 - resistance
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

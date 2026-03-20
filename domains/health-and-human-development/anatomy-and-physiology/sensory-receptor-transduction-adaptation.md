@@ -18,7 +18,7 @@ tags:
 - sensory-transduction
 - adaptation
 - perception
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

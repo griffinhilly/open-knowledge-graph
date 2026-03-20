@@ -17,7 +17,7 @@ tags:
 - being
 - unconcealment
 - phenomenology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

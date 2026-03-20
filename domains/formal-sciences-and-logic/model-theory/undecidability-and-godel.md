@@ -1,5 +1,5 @@
 ---
-id: undecidability-and-gödel
+id: undecidability-and-godel
 title: Undecidability of First-Order Theories
 domain: formal-sciences-and-logic
 course: model-theory
@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: godels-incompleteness-theorems
   type: soft
-builds-toward:
-- models-of-arithmetic-peano
-- finite-axiomatization-and-completeness
+builds-toward: []
 tags:
 - undecidability
 - gödel
@@ -18,7 +16,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Undecidability of First-Order Theories
 
 ## Core Idea

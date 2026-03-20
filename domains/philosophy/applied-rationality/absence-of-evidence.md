@@ -11,7 +11,7 @@ prerequisites:
 builds-toward:
   - extraordinary-claims-and-evidence-scaling
 tags: ["bayesian", "evidence", "probability", "reasoning"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

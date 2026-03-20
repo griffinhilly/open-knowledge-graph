@@ -15,7 +15,7 @@ tags:
 - levels
 - emergence
 - causal-closure
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

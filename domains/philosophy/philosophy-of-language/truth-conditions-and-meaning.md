@@ -13,8 +13,7 @@ prerequisites:
 - id: first-order-logic-syntax
   type: soft
 builds-toward:
-- intensionality-and-opacity
-- proposition-and-semantic-content
+  - intensionality-and-opacity
 tags:
 - semantics
 - truth-conditions
@@ -22,7 +21,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Truth Conditions and Meaning
 
 ## Core Idea

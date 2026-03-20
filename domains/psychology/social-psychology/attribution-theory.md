@@ -15,7 +15,7 @@ tags:
 - attribution
 - causal inference
 - social cognition
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

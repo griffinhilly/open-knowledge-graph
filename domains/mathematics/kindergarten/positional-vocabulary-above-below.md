@@ -3,7 +3,9 @@ id: positional-vocabulary-above-below
 title: 'Positional Words: Above and Below'
 domain: mathematics
 course: kindergarten
-prerequisites: []
+prerequisites:
+- id: counting-to-20
+  type: soft
 builds-toward:
 - positional-words
 tags:
@@ -13,7 +15,6 @@ tags:
 stage: pre-formal
 status: draft
 ---
-
 # Positional Words: Above and Below
 
 ## Core Idea
@@ -24,6 +25,45 @@ Use physical demonstrations in the classroom. Place objects above and below a li
 
 ## Common Misconceptions
 Children may confuse above and below or not understand the vertical dimension. They may use inaccurate language like "on top" and "under" when above/below is meant.
+
+## Questions
+
+```yaml
+- question: "A sandwich sits on a plate, and the plate sits on a table. Which statement is true?"
+  type: multiple-choice
+  options:
+    - "The plate is above everything"
+    - "The plate is above the table and below the sandwich"
+    - "The plate is below everything"
+    - "The plate is above the sandwich and below the table"
+  answer: 1
+  explanation: "Above and below are relational — they describe where one object is compared to another. The plate is above the table (it sits on top of it) AND below the sandwich (the sandwich rests on top of the plate). The same object can be above one thing and below another at the same time."
+
+- question: "A bird is flying in the sky. The bird is above the tree. The tree is above the ground. Which statement correctly applies 'above' and 'below'?"
+  type: multiple-choice
+  options:
+    - "The ground is above the tree"
+    - "The bird is below the tree"
+    - "The ground is below the tree, and the tree is below the bird"
+    - "The bird is below the ground"
+  answer: 2
+  explanation: "In a vertical stack, each item is above everything lower and below everything higher. The ground is the lowest, so it is below the tree, which is below the bird. 'Above' means higher up; 'below' means lower down. The relationship works in both directions: if A is above B, then B is below A."
+
+- question: "The word 'above' describes a fixed location in space — something that is above will always be above no matter what."
+  type: true-false
+  answer: false
+  explanation: "Above and below are relational terms — they describe a relationship between two specific objects, not a fixed position. A shelf is above the floor, but it might be below a painting on the wall. An airplane is above the clouds but below the stars. The same object can be above some things and below others depending on what you're comparing it to."
+
+- question: "Something can be above one object and below a different object at the same time."
+  type: true-false
+  answer: true
+  explanation: "This is the key insight: above and below always describe a relationship between two things. A book on a middle shelf is above the lowest shelf and below the highest shelf. Your waist is above your knees and below your shoulders. 'Above' is not a place — it is a relationship."
+
+- question: "Why can't you say something is just 'above' without saying what it is above?"
+  type: short-answer
+  answer: "Because 'above' is a relational word — it only has meaning when comparing two things. Saying an object is 'above' without naming the reference point is like saying something is 'bigger' without saying what it's bigger than. The ceiling is above the floor, but the ceiling might be below the roof. The relationship depends on the two objects being compared."
+  explanation: "Understanding that positional words are relational — not absolute — is the key conceptual move. This same logic applies to many mathematical and scientific comparisons later on (greater than, less than, higher than, etc.). Grounding it in physical experience with above and below builds the relational thinking that underlies those later concepts."
+```
 
 ## Explainer
 

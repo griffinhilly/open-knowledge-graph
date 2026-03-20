@@ -3,7 +3,9 @@ id: anatomical-terminology-and-body-compartments
 title: Anatomical Terminology and Body Compartments
 domain: health-and-human-development
 course: anatomy-and-physiology
-prerequisites: []
+prerequisites:
+- id: body-organization-and-terminology
+  type: soft
 builds-toward:
 - cell-structure-organelles-and-function
 - bone-structure-composition-and-remodeling
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Anatomical Terminology and Body Compartments
 
 ## Core Idea

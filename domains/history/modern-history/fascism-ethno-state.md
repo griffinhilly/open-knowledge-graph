@@ -17,7 +17,7 @@ tags:
 - authoritarianism
 - ethno-nationalism
 - militarism
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -39,6 +39,45 @@ Teach students to underline key information and write a plan: 'First I will… t
 - Choosing the wrong operations — addition when subtraction is needed, or vice versa.
 - Losing track of intermediate results when not writing them down.
 
+## Questions
+
+```yaml
+- question: "A baker made 48 muffins. She sold 23 in the morning and then baked 15 more. A student writes: 48 − 23 = 25 and stops. What is wrong?"
+  type: multiple-choice
+  options:
+    - "The student chose the wrong operation — it should be 48 + 23 first"
+    - "The student found only the intermediate result; the second step (adding 15 more muffins) was never completed"
+    - "The student used the wrong numbers — the 15 and 23 should be added first"
+    - "Nothing is wrong — 25 is the correct final answer"
+  answer: 1
+  explanation: "The problem has two events: selling 23 muffins (subtraction) and then baking 15 more (addition). The student completed only the first operation and stopped. The intermediate result — 25 muffins remaining after the morning sale — is not the final answer. The second step (25 + 15 = 40) must still be done. This is the most common error in two-step problems: stopping after the first calculation."
+
+- question: "In the muffin problem above, what does the number 25 represent?"
+  type: multiple-choice
+  options:
+    - "The final answer — how many muffins the baker has at the end"
+    - "The total number of muffins sold and baked combined"
+    - "An intermediate result — muffins remaining after the morning sale, which becomes the starting number for step two"
+    - "The number of muffins baked in the second batch"
+  answer: 2
+  explanation: "An intermediate result is an answer to the first step that is not the final answer — it is the starting point for the second step. Identifying it correctly is what makes two-step problems work. In this problem, 25 is the number of muffins left after selling 23; it is not a final answer but a necessary stepping stone to find how many remain after baking 15 more."
+
+- question: "In a two-step word problem, the answer to the first step becomes the starting number for the second step."
+  type: true-false
+  answer: true
+  explanation: "This is the defining feature of a two-step problem. The two operations are chained: you use the result of step one as input for step two. In the playground example (45 students, 18 go inside, 12 come back out), you cannot compute the final count until you first know how many stayed when 18 left. That intermediate result (27) feeds directly into the second operation."
+
+- question: "If a word problem contains two numbers, it must be a two-step problem."
+  type: true-false
+  answer: false
+  explanation: "The number of numbers in a problem does not determine whether it is one-step or two-step. A one-step problem like 'Maria has 45 stickers and gives 18 away — how many does she have?' contains two numbers but requires only one operation. What makes a problem two-step is that two separate operations are needed to find the answer, not how many numbers appear in the story."
+
+- question: "Why is writing out the intermediate result (the answer to step one) important when solving a two-step word problem?"
+  type: short-answer
+  answer: "The intermediate result is the answer to the first step and the starting number for the second step. Writing it down makes the chain of reasoning visible and prevents errors: you can check that step one is right before using it in step two. Students who do both steps mentally often lose track of the intermediate result, use the wrong number in step two, or confuse it with the final answer."
+  explanation: "Externalizing the intermediate result is a study habit that scales to more complex problems. Tape diagrams and bar models work on the same principle — they make the problem's structure visible before any calculation happens. The written intermediate answer is not just bookkeeping; it is evidence that the student correctly identified what the first step was asking for."
+```
+
 ## Explainer
 
 You already know how to solve one-step word problems — you read the situation, figure out whether to add or subtract, and compute. A **two-step word problem** is simply two of those problems chained together. The answer to the first step becomes the starting point for the second step. The trick is recognizing that two separate questions are hiding inside one story.

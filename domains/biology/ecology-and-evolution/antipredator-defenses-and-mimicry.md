@@ -15,7 +15,7 @@ tags:
 - mimicry
 - predation
 - evolution
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

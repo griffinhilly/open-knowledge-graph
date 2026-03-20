@@ -12,7 +12,7 @@ tags:
 - wcag
 - universal-design
 - diverse-users
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

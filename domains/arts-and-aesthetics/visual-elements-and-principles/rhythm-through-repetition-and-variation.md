@@ -32,6 +32,45 @@ Create a series of marks, shapes, or patterns with perfectly consistent repetiti
 ## Common Misconceptions
 Rhythm requires perfectly regular repetition. Adding variation to repetition disrupts the rhythm. Rhythm is only found in decorative or ornamental work.
 
+## Questions
+
+```yaml
+- question: "A textile designer creates a pattern using a single circle repeated in perfectly uniform rows and columns at equal intervals. A critic says the pattern 'has no visual rhythm.' What change would most effectively introduce rhythm?"
+  type: multiple-choice
+  options:
+    - "Replace all circles with squares to create visual variety"
+    - "Make the spacing between all circles completely irregular"
+    - "Keep the repeating circle structure but introduce controlled variation — such as making every third circle larger — to create a secondary pattern within the repetition"
+    - "Remove half the circles to create asymmetry and unpredictability"
+  answer: 2
+  explanation: "The uniform grid has regularity but no rhythm because there's no variation to give the repetition pulse or interest. Simply replacing circles with squares destroys the repetition structure entirely. Making spacing completely irregular removes the predictable pattern the viewer needs to track. The correct approach is to preserve the repeating structure (so the eye has something to follow) while introducing controlled variation (so the eye has something to notice). Every-third-larger creates alternating rhythm — a secondary grouping pattern layered on the base repetition."
+
+- question: "A calligraphic composition repeats a brushstroke at consistent intervals, but every third stroke is thicker and bolder than the others. This is best described as what type of rhythm?"
+  type: multiple-choice
+  options:
+    - "Regular rhythm, because the intervals between strokes are consistent"
+    - "No rhythm, because the variation in stroke weight breaks the repeating pattern"
+    - "Progressive rhythm, because the strokes are escalating in size"
+    - "Alternating rhythm, because a secondary accent pattern (every third) is layered over the consistent base repetition"
+  answer: 3
+  explanation: "Alternating rhythm occurs when a secondary pattern is layered over a consistent base repetition, creating a grouped structure. Here: thin-thin-thick, thin-thin-thick — the base interval is consistent (regular), but the variation in weight creates a grouping of three that gives the rhythm a secondary beat. This is distinct from progressive rhythm (where each element changes in a directional sequence, creating acceleration or deceleration) and regular rhythm (which has no variation at all)."
+
+- question: "Adding variation to a repeating visual pattern always disrupts the rhythm and makes the composition feel chaotic and incoherent."
+  type: true-false
+  answer: false
+  explanation: "This reverses the actual relationship. Variation within a repeating structure is precisely what creates visual rhythm — it is not the enemy of rhythm but its partner. Pure repetition without variation produces mechanical regularity (wallpaper), which has pattern but lacks rhythm. Variation introduces the accents, surprises, and points of interest that give the pattern a sense of movement and energy. The condition for chaos is variation WITHOUT repetition — no underlying structure for the eye to track. Controlled variation within clear repetition is the definition of rhythm."
+
+- question: "A row of identical, evenly spaced circles creates a completely predictable regular rhythm that the eye can follow — but this predictability also makes it feel mechanical and monotonous without variation."
+  type: true-false
+  answer: true
+  explanation: "Regular rhythm is the baseline case: maximum predictability, minimum engagement. The eye quickly learns the pattern and stops actively attending to it. This is why wallpaper — technically unified — feels visually dead. Some degree of variation is needed to reward continued looking. This doesn't mean regular rhythm is always wrong — it can be appropriate for conveying calm, order, or precision — but as a compositional tool it functions more as background than as active visual interest."
+
+- question: "Why are repetition and variation described as 'partners' rather than opposites in creating visual rhythm? What does each contribute that the other cannot provide alone?"
+  type: short-answer
+  answer: "Repetition provides the underlying structure — the predictable pattern the viewer's eye learns and can follow. It creates unity, order, and a baseline expectation. Variation provides points of interest within that structure — the accents, surprises, and changes that prevent monotony and direct attention. Without repetition, variation produces chaos: the eye has nothing to track and no way to distinguish signal from noise. Without variation, repetition produces mechanical uniformity: technically unified but visually dead. Together, repetition establishes the 'beat' and variation creates the 'music' — the analogy to rhythm in music is exact."
+  explanation: "This partnership explains why the most compelling visual patterns across all traditions — Islamic geometric ornament, Celtic knotwork, Hokusai's waves, architectural facades — all share this structure: a clear repeating element with carefully controlled departures. The departures are what make the pattern worth looking at; the repetition is what makes the departures legible. In your own work, the practical question is: what is my repeating element, and what variation will I introduce to create the pacing and energy the composition needs?"
+```
+
 ## Explainer
 
 You already understand that lines have weight, direction, and continuity, and that shapes interact with the space around them. **Visual rhythm** emerges when those elements repeat in a way your eye can predict — and then surprise you just enough to stay interesting. The analogy to music is direct: a drumbeat gives you a steady pulse, but a great drummer adds fills, accents, and syncopation. Pure repetition is the pulse; variation is what makes it music.

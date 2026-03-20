@@ -11,7 +11,7 @@ tags:
 - hierarchy
 - estates
 - stratification
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

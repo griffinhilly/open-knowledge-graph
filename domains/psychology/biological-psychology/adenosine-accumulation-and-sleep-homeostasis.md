@@ -17,7 +17,7 @@ tags:
 - homeostasis
 - A1-receptors
 - basal-forebrain
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

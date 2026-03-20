@@ -15,7 +15,7 @@ tags:
 - technique
 - illusion
 - truth
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

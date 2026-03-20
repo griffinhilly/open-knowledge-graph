@@ -11,7 +11,7 @@ builds-toward:
 - boundary-set-topology
 tags:
 - closed-sets
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

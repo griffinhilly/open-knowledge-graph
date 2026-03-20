@@ -16,7 +16,7 @@ tags:
 - dual-process
 - emotion
 - character
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

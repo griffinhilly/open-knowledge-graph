@@ -26,6 +26,45 @@ Locate your furnace, air handler, or HVAC unit. Identify the air filter and its 
 ## Common Misconceptions
 Filter changes are a professional job. (This is a simple five-minute task any homeowner can do.) All filters are the same. (Filters come in different sizes and efficiency ratings.)
 
+## Questions
+
+```yaml
+- question: "A homeowner notices their home isn't heating well and energy bills have risen. They haven't changed the HVAC filter in 8 months. What is the most likely cause of both problems?"
+  type: multiple-choice
+  options:
+    - "The furnace is too old and needs replacement"
+    - "A clogged filter is restricting airflow, making the blower work harder and reducing heating efficiency"
+    - "The thermostat is set too low"
+    - "HVAC filters only affect air quality, not heating performance"
+  answer: 1
+  explanation: "A severely clogged filter restricts the airflow the blower pulls through the return duct. With less airflow, the system must run longer to reach the target temperature (higher energy bills), and less conditioned air reaches rooms (poor heating). The blower motor also works harder against the restriction, increasing wear. This is why filter changes — simple and inexpensive — are the single most impactful homeowner maintenance task."
+
+- question: "Which part of the HVAC cycle does the air filter protect beyond just air quality?"
+  type: multiple-choice
+  options:
+    - "It cools the refrigerant before it enters the compressor"
+    - "It captures particles before they can coat heating/cooling coils and clog the blower, preventing mechanical strain and overheating"
+    - "It regulates the thermostat signal to prevent overheating"
+    - "It adds humidity to the air before it reaches the ducts"
+  answer: 1
+  explanation: "The filter sits in the air return path — all air coming back from living spaces passes through it before reaching the mechanical components. Without a clean filter, dust coats the heating/cooling coils (reducing efficiency), clogs the blower wheel (straining the motor), and in severe cases can cause the heat exchanger to overheat (risking cracks that leak carbon monoxide) or cooling coils to freeze. Filter maintenance is equipment protection as much as air quality management."
+
+- question: "A higher MERV-rated filter always provides better performance than a lower MERV-rated filter."
+  type: true-false
+  answer: false
+  explanation: "Higher MERV filters capture smaller particles, which is better for air quality, but they also restrict airflow more because the denser filter material is harder for the blower to pull air through. An excessively high MERV filter in a system not designed for it can reduce airflow enough to cause the same problems as a clogged filter — strained motor, poor conditioning, and potentially frozen coils. For most homes, MERV 8–11 balances filtration effectiveness against airflow restriction."
+
+- question: "Changing an HVAC filter is a task that requires a professional and should not be attempted by a homeowner."
+  type: true-false
+  answer: false
+  explanation: "Filter changes are explicitly a homeowner task — a five-minute job that requires no tools or technical knowledge beyond locating the filter, noting its size (printed on the cardboard frame), and sliding in a replacement. This is one of the most common misconceptions that leads people to neglect the most important maintenance task. Professional servicing is needed for other HVAC work (refrigerant handling, coil cleaning, heat exchanger inspection), but not filter replacement."
+
+- question: "How does a clogged HVAC filter lead to problems beyond just dirty air? Explain the chain of effects."
+  type: short-answer
+  answer: "A clogged filter restricts the airflow the blower pulls through the return duct. With less airflow, the blower motor works harder (higher energy use, increased wear), less conditioned air reaches rooms (poor heating or cooling), and mechanical components are stressed — insufficient airflow over heating coils can cause overheating and heat exchanger cracks (a carbon monoxide risk), while insufficient airflow over cooling coils can cause them to freeze. A simple dirty filter cascades into mechanical damage, safety risks, and efficiency loss."
+  explanation: "This cascade is why filter maintenance has an outsized impact relative to its simplicity. The filter is not just an air quality accessory — it is a critical component in the system's airflow and thermal management. Regular changes prevent a sequence of increasingly serious and expensive failures."
+```
+
 ## Explainer
 
 **HVAC** stands for heating, ventilation, and air conditioning — three functions that are often handled by a single integrated system in a modern home. From your study of home structure and systems, you know that a house has mechanical systems running through it: electrical, plumbing, and HVAC. The HVAC system is how your home controls the temperature and air quality of every room through a network of **ducts** that deliver conditioned air and return stale air back to be treated again.

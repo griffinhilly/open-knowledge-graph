@@ -13,7 +13,7 @@ tags:
 - instantaneous-frequency
 - amplitude-modulation
 - analytic-signal
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

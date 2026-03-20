@@ -14,7 +14,7 @@ tags:
 - formalism
 - grammar
 - computation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

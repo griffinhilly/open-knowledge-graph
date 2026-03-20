@@ -17,7 +17,7 @@ tags:
 - capm
 - discount-rate
 - equity-valuation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

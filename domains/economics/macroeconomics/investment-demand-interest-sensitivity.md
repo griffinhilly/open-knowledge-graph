@@ -15,7 +15,7 @@ tags:
 - interest-rates
 - capital-formation
 - user-cost
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - classical
 - romantic
 - quartet
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

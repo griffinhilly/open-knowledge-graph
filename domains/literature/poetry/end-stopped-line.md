@@ -10,7 +10,7 @@ tags:
 - line-structure
 - syntax
 - closure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

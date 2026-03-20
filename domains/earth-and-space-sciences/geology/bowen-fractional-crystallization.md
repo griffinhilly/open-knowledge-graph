@@ -15,7 +15,7 @@ tags:
 - Bowen
 - igneous
 - differentiation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

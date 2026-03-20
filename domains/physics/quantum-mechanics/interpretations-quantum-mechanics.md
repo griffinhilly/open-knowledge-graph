@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - interpretations
 - foundations
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

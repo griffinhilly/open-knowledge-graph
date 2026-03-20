@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - second-countability
 - separability
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - self-determination
 - borders
 - secession
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

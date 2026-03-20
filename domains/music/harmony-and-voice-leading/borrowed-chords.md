@@ -21,7 +21,7 @@ tags:
 - borrowed-chords
 - chromaticism
 - parallel-minor
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

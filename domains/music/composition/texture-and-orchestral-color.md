@@ -9,17 +9,15 @@ prerequisites:
 - id: orchestration-timbre-choices
   type: soft
 builds-toward:
-- accompaniment-patterns-and-figures
-- orchestration-and-instrument-balance
+  - orchestration-and-instrument-balance
 tags:
 - texture
 - timbre
 - orchestration
 - color
-stage: formal-systems
+stage: advanced
 status: draft
 ---
-
 # Texture and Orchestral Color
 
 ## Core Idea

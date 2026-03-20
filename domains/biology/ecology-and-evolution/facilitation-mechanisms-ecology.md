@@ -15,7 +15,7 @@ tags:
 - facilitation
 - positive-interactions
 - community-structure
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

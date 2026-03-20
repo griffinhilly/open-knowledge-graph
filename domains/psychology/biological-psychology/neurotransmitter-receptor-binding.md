@@ -22,7 +22,7 @@ tags:
 - ionotropic
 - metabotropic
 - binding
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

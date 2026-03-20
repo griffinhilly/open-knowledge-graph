@@ -17,7 +17,7 @@ tags:
 - sculpture
 - description
 - interarts
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

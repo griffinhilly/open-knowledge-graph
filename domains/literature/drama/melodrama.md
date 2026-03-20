@@ -15,7 +15,7 @@ tags:
 - genre
 - emotion
 - structure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

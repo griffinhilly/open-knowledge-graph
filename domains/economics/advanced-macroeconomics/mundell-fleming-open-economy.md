@@ -19,7 +19,7 @@ tags:
 - mundell-fleming
 - open-economy
 - exchange-rates
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

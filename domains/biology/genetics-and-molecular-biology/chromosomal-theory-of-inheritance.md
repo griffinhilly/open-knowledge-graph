@@ -21,7 +21,7 @@ tags:
 - genes
 - heredity
 - Sutton-Boveri
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

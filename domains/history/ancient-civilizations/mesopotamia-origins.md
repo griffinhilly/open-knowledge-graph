@@ -19,7 +19,7 @@ tags:
 - akkad
 - fertile-crescent
 - early-civilization
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

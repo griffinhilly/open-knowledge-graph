@@ -20,7 +20,7 @@ tags:
 - minerals
 - crystals
 - crystallography
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

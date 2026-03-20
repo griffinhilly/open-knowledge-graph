@@ -15,7 +15,7 @@ tags:
 - trait-inference
 - cognitive-integration
 - asch
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

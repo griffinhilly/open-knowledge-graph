@@ -16,7 +16,7 @@ tags:
 - prestige
 - status
 - social-organization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

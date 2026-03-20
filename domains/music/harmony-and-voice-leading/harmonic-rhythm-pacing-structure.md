@@ -14,7 +14,7 @@ tags:
 - harmonic-rhythm
 - pacing
 - structure
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

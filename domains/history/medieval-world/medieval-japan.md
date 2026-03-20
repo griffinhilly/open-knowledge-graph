@@ -17,7 +17,7 @@ tags:
 - bushido
 - zen
 - feudal-japan
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

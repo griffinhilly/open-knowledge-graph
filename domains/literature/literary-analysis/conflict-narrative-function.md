@@ -15,7 +15,7 @@ tags:
 - conflict
 - tension
 - narrative-drive
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

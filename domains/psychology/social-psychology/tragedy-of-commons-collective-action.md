@@ -14,7 +14,7 @@ tags:
 - resource-management
 - social-dilemma
 - sustainability
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

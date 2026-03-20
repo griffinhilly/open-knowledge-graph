@@ -13,7 +13,7 @@ tags:
 - labor-market-friction
 - nominal-rigidity
 - contracts
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -10,18 +10,16 @@ prerequisites:
   type: hard
 - id: a-theory-b-theory-of-time
   type: soft
-builds-toward:
-- four-dimensionalism-temporal-parts
+builds-toward: []
 tags:
 - time
 - persistence
 - three-dimensionalism
 - endurance
 - ontology
-stage: formal-systems
+stage: advanced
 status: draft
 ---
-
 # Three-Dimensionalism and Endurance
 
 ## Core Idea

@@ -15,7 +15,7 @@ tags:
 - Cohen
 - Dworkin
 - resources
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

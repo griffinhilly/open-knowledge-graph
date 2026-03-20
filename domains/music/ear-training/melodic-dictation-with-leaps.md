@@ -20,7 +20,7 @@ tags:
 - intervals
 - leaps
 - transcription
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 # Melodic Dictation: Melodies with Leaps

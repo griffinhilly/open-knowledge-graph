@@ -13,7 +13,7 @@ tags:
 - logic
 - debate
 - argument
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

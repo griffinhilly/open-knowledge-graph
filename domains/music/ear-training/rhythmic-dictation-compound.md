@@ -20,7 +20,7 @@ tags:
 - compound meter
 - 6/8
 - notation
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

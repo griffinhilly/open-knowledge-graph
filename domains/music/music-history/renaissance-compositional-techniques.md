@@ -26,6 +26,45 @@ Renaissance composers developed imitation (canonic repetition of melodic ideas a
 ## Common Misconceptions
 - Renaissance counterpoint was formulaic. (Composers like Palestrina and Lassus achieved extraordinary variety within strict grammatical rules.)
 
+## Questions
+
+```yaml
+- question: "In a Renaissance motet, each new phrase of text triggers a new melodic idea that enters in the soprano, then the alto, then the tenor, then the bass — each entry overlapping with the previous one. Near the end, all four voices suddenly align in the same rhythm for the climactic phrase. This structure illustrates:"
+  type: multiple-choice
+  options:
+    - "Alternation between strict canon and freely composed melody"
+    - "The integration of imitation (staggered entries threading the melodic idea through all voices) with homophony (simultaneous rhythm for textual emphasis at the climax)"
+    - "Word painting applied individually to each syllable of the final phrase"
+    - "A through-composed structure in which no melodic material recurs"
+  answer: 1
+  explanation: "This describes the characteristic architecture of mature Renaissance polyphony: a new 'point of imitation' (a short melodic idea) is introduced by one voice, then taken up by successive voices at staggered intervals, creating an interlocking texture. The shift to homophony — all voices moving together — at the climax is a deliberate rhetorical choice, using the contrast between imitative complexity and homophonic directness to emphasize the most important words. This interplay is the defining formal logic of composers like Palestrina and Josquin."
+
+- question: "A Renaissance composer writes a motet in which the melodic line descends chromatically on the word 'morte' (death), rises sharply on 'resurrexit' (he has risen), and uses rapid, breathless syllabic text delivery on a description of soldiers fleeing. This technique is called:"
+  type: multiple-choice
+  options:
+    - "Canon"
+    - "Point of imitation"
+    - "Word painting (or text painting)"
+    - "Hocket"
+  answer: 2
+  explanation: "Word painting (also called text painting or *Augenmusik*) is the Renaissance compositional practice of making musical gesture literally illustrate verbal meaning. It was not merely decorative — it was a compositional doctrine that musical affect should mirror and intensify what the text describes. Ascending lines for heaven or rising, descending lines for death or falling, dense dissonance for pain, slow harmonic movement for grief — these were standard conventions that composers and educated listeners both recognized and expected."
+
+- question: "Renaissance imitative polyphony works by threading a single melodic idea through all voice parts at staggered intervals — each voice enters with the same idea slightly offset in time, while earlier voices continue with new material."
+  type: true-false
+  answer: true
+  explanation: "This is the defining mechanism of imitation. When the soprano introduces a melodic idea, the alto enters with the same idea before the soprano has finished, while the soprano moves on to new material. Then the tenor enters, and the bass. The result is an intricate interlocking fabric where the same melodic thread passes through all voices sequentially, creating both unity (everyone shares the same material) and interest (the staggered entries create counterpoint against each other)."
+
+- question: "Renaissance polyphony was formulaic — composers like Palestrina followed mechanical rules that left little room for expressive variety or individual creativity."
+  type: true-false
+  answer: false
+  explanation: "This is the topic's explicit misconception. Renaissance counterpoint operated within strict grammatical constraints (rules about dissonance, voice leading, and harmonic motion), but these rules functioned more like the grammar of a language than a mechanical algorithm. Within them, composers achieved extraordinary variety — in rhythmic vitality, in the choice and character of melodic ideas, in the balance between imitative complexity and homophonic clarity, in how text-setting shaped musical form. The analogy is a sonnet: strict rules, endless expressive range."
+
+- question: "How do imitation and text-setting work together in Renaissance polyphony, and what problem does each solve for the composer?"
+  type: short-answer
+  answer: "Imitation solves the architectural problem: how do multiple independent voices cohere? By threading the same melodic idea through staggered entries, all voices share material, creating unity across time and texture. Text-setting solves the expressive problem: what should the musical content convey, and when should the texture change? New lines of text trigger new points of imitation; moments of textual emphasis are marked by shifts to homophony; melodic contour mirrors verbal meaning through word painting. Together, imitation provides the architecture and text-setting provides the expressive logic that determines what happens within that architecture."
+  explanation: "The genius of the mature Renaissance style is that these two principles reinforce each other. Imitation distributes musical energy across time and voices — it's the compositional engine that keeps the texture interesting and unified. Text-setting motivates the moment-to-moment choices: when to introduce a new point, when to change character, when to drop the complexity for directness. A composer using only imitation would produce academic texture; using only text-setting might produce declamation without architecture. The synthesis is what gives the best Renaissance polyphony its quality of being simultaneously rigorous and expressive."
+```
+
 ## Explainer
 
 The central compositional achievement of the Renaissance was learning to make multiple independent melodic lines cohere. From your study of Renaissance music style and context, you know that polyphony — music with several simultaneous voice parts — was the prestige form. The challenge every composer faced was: how do you write four or five lines that are each melodically interesting and yet sound unified as a whole? The answer Renaissance composers developed was **imitation**.

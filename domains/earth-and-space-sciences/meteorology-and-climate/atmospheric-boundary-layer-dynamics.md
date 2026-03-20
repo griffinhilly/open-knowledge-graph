@@ -20,7 +20,7 @@ tags:
 - surface
 - wind
 - turbulence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

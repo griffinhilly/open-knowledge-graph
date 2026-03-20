@@ -20,7 +20,7 @@ tags:
 - diversification
 - rebalancing
 - portfolio
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

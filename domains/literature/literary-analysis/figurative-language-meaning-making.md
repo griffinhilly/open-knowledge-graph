@@ -19,7 +19,7 @@ tags:
 - metaphor
 - meaning
 - poetry
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

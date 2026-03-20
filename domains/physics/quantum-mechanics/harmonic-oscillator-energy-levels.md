@@ -10,7 +10,7 @@ tags:
 - energy-levels
 - eigenstates
 - spectrum
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

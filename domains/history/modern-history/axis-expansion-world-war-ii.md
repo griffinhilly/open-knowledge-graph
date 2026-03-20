@@ -16,7 +16,7 @@ tags:
 - axis
 - expansion
 - aggression
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

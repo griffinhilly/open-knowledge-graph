@@ -9,8 +9,7 @@ prerequisites:
 - id: ontological-categories
   type: hard
 builds-toward:
-- grounding-fundamentality-hierarchy
-- fundamental-properties-sparse-abundant
+  - fundamental-properties-sparse-abundant
 tags:
 - structure
 - fundamentals
@@ -19,7 +18,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Metaphysical Structure and Architectural Form
 
 ## Core Idea

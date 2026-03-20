@@ -6,13 +6,11 @@ course: geology
 prerequisites:
 - id: seismic-waves
   type: soft
-- id: elastic-wave-propagation-in-solids
-  type: soft
 tags:
 - seismology
 - waves
 - velocity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

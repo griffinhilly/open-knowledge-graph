@@ -13,7 +13,7 @@ prerequisites:
 tags:
 - sound-devices
 - phonetics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

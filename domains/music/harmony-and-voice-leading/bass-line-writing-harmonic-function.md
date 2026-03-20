@@ -15,7 +15,7 @@ tags:
 - voice-leading
 - figured-bass
 - harmonization
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - non-harmonic-tones
 - decoration
 - voice-leading
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

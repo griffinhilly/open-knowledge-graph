@@ -14,7 +14,7 @@ tags:
 - form
 - structure
 - analysis
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

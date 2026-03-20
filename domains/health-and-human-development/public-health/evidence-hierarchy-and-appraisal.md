@@ -13,7 +13,7 @@ tags:
 - study-quality
 - bias-assessment
 - systematic-review
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

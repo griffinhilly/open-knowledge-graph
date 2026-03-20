@@ -12,7 +12,7 @@ tags:
 - technical-analysis
 - market-efficiency
 - empirical-evidence
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - hieroglyphics
 - alphabet
 - literacy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - models
 - synchrony
 - assumptions
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

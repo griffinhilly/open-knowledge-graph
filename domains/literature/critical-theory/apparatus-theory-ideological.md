@@ -14,7 +14,7 @@ tags:
 - althusser
 - formation
 - interpellation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - discrimination
 - protest
 - social-movement
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

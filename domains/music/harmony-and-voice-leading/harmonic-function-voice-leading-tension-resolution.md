@@ -18,7 +18,7 @@ tags:
 - tension-resolution
 - voice-leading
 - tonic-dominant
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

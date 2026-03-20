@@ -16,7 +16,7 @@ tags:
 - ultrafilters
 - large-cardinals
 - measure
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

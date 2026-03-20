@@ -21,7 +21,7 @@ tags:
 - optimization
 - graph
 - topology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

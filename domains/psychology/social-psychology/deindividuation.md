@@ -17,7 +17,7 @@ tags:
 - anonymity
 - crowd behavior
 - self-awareness
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Deindividuation

@@ -13,8 +13,7 @@ prerequisites:
 - id: optimization-multivariable-basics
   type: soft
 builds-toward:
-- power-transition-hegemonic-dominance
-- diplomatic-signaling-crisis-communication
+  - power-transition-hegemonic-dominance
 tags:
 - bargaining
 - crisis
@@ -24,7 +23,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Crisis Bargaining and Escalation to War
 
 ## Core Idea

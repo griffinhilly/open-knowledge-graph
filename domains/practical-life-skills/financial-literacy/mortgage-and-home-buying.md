@@ -28,7 +28,7 @@ tags:
 - down-payment
 - home-equity
 - interest-rate
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Mortgages and Home Buying

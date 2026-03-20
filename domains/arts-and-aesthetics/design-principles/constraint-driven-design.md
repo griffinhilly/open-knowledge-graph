@@ -18,7 +18,7 @@ tags:
 - creativity
 - problem-solving
 - design-process
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

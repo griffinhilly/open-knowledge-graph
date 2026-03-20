@@ -16,7 +16,7 @@ tags:
 - reciprocity
 - gift
 - kula
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

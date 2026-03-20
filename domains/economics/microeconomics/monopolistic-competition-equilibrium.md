@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - market structure
 - monopolistic competition
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

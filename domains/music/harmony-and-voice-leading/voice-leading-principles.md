@@ -25,7 +25,7 @@ tags:
 - parallel-fifths
 - contrary-motion
 - voice-independence
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Voice Leading Principles

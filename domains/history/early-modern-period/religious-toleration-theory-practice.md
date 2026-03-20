@@ -15,7 +15,7 @@ tags:
 - religious-conflict
 - political-philosophy
 - pragmatism
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

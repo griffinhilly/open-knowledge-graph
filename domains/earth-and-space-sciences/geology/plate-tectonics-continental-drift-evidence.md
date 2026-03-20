@@ -6,15 +6,13 @@ course: geology
 prerequisites:
 - id: earth-interior-structure
   type: hard
-- id: paleomagnetic-poles-and-plate-reconstruction
-  type: soft
 builds-toward:
 - plate-boundary-processes-interactions
 tags:
 - plate-tectonics
 - continental-drift
 - seafloor-spreading
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

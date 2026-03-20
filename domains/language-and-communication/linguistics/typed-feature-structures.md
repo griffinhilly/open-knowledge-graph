@@ -15,7 +15,7 @@ tags:
 - formalism
 - representation
 - features
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - occupational-structure
 - occupational-socialization
 - career
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - two-categories
 - weak-functors
 - natural-transformations
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

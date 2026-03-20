@@ -17,7 +17,7 @@ tags:
 - consumption
 - income
 - aggregate-demand
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -29,6 +29,45 @@ Write for loops with various iteration counts. Trace the index variable's change
 - The loop variable's scope extends beyond the loop (in many languages, it's scoped to the loop).
 - Off-by-one errors are unavoidable (careful initialization and condition checking prevent them).
 
+## Questions
+
+```yaml
+- question: "A programmer writes `for (i = 1; i <= 5; i++)`. How many times does the loop body execute?"
+  type: multiple-choice
+  options:
+    - "4"
+    - "5"
+    - "6"
+    - "It depends on the loop body"
+  answer: 1
+  explanation: "The loop runs for i = 1, 2, 3, 4, and 5 — five iterations. The condition `i <= 5` includes 5, so the loop continues while i is 1 through 5, then stops when i becomes 6 (where `6 <= 5` is false). Students often confuse this with `i < 5` (which would give only 4 iterations: i = 1, 2, 3, 4) or expect 6 iterations because they start counting from 1 and include the boundary."
+
+- question: "A programmer wants to access every element in a 10-element array with indices 0 through 9. Which loop is correct?"
+  type: multiple-choice
+  options:
+    - "`for (i = 1; i <= 10; i++)`"
+    - "`for (i = 0; i < 10; i++)`"
+    - "`for (i = 0; i <= 10; i++)`"
+    - "`for (i = 1; i < 10; i++)`"
+  answer: 1
+  explanation: "Arrays are 0-indexed: the first element is at index 0 and the last at index 9. The correct loop starts at 0 and uses `i < 10` (stops when i reaches 10, never executing the body with i = 10). Option 0 misses index 0 and wrongly accesses index 10 (out of bounds). Option 2 tries to access index 10, which is out of bounds. Option 3 misses index 0 and stops at index 8, processing only 9 of 10 elements."
+
+- question: "In a for loop written as `for (i = 0; i < 5; i++)`, the variable `i` takes on the values 0, 1, 2, 3, 4, and 5 during execution."
+  type: true-false
+  answer: false
+  explanation: "The loop body runs with i equal to 0, 1, 2, 3, and 4. When i reaches 5, the condition `5 < 5` is false, and the loop terminates before executing the body. The value 5 is computed by the update step (after i = 4), but the condition is checked immediately — and the body never runs with i = 5. This is the crucial off-by-one insight: the condition determines whether the body executes, not whether the counter was incremented to that value."
+
+- question: "For loops are best used when the number of iterations is not known until the program runs."
+  type: true-false
+  answer: false
+  explanation: "For loops are designed for situations where the number of iterations is known beforehand — a fixed count, the length of a collection, or a defined range. When the number of iterations depends on a condition that could be satisfied at any unpredictable point, a while loop is more appropriate. The for loop's structured header (init; condition; update) is optimized for counting a known range; using it for open-ended termination conditions produces confusing code."
+
+- question: "What is an off-by-one error in a for loop, and what is the most common cause?"
+  type: short-answer
+  answer: "An off-by-one error is when a loop runs one too many or one too few times — iterating with i = 0 through 5 when 0 through 4 was intended, for example. It is almost always caused by using `<=` instead of `<` (or vice versa) in the loop condition. The fix is to reason about the boundary explicitly: 'When i equals the boundary value, should the loop body still execute?' If the answer is no, use strict inequality (`<`); if yes, use `<=`."
+  explanation: "Off-by-one errors are among the most common bugs in programming. The mental model that prevents them is asking: 'What happens on the last iteration?' For an array of length n with 0-based indexing, the last valid index is n-1, so `i < n` is correct and `i <= n` would attempt an out-of-bounds access. Substituting the boundary value into the condition and asking 'should this run?' is the most reliable check."
+```
+
 ## Explainer
 
 Programs often need to repeat an action multiple times: print ten lines, process every student's grade, or draw a hundred pixels. You could write the same statement ten times, but this is tedious, error-prone, and impossible when the count is not known until the program runs. A **for loop** automates repetition by specifying three things in its header: where to start, when to stop, and how to step forward.

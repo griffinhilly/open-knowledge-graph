@@ -12,7 +12,7 @@ tags:
 - labor economics
 - labor supply
 - household
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

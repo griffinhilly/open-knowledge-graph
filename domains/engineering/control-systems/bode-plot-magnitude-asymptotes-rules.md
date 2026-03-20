@@ -15,7 +15,7 @@ tags:
 - asymptotes
 - magnitude
 - logarithmic-scale
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

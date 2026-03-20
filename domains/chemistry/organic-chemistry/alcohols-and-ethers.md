@@ -28,7 +28,7 @@ tags:
 - primary
 - secondary
 - tertiary
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Alcohols and Ethers: Structure, Properties, and Nomenclature

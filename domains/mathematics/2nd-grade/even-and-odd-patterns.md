@@ -29,6 +29,45 @@ Use counters to arrange numbers into pairs, demonstrating evenness or oddness. U
 - Not recognizing that evens and odds alternate.
 - Confusing even/odd with quantity (e.g., thinking bigger numbers are more even).
 
+## Questions
+
+```yaml
+- question: "Is the number 8,247 even or odd? How can you tell without counting pairs?"
+  type: multiple-choice
+  options:
+    - "Even, because 8 is an even digit"
+    - "Odd, because 2 + 4 + 7 = 13 which is odd"
+    - "Odd, because the ones digit is 7, which is odd"
+    - "You cannot tell without arranging 8,247 objects into pairs"
+  answer: 2
+  explanation: "Only the ones digit determines whether a number is even or odd. The ones digit of 8,247 is 7, which is odd, so the number is odd — no matter what the other digits are. The thousands, hundreds, and tens digits are always multiples of 1000, 100, or 10, all of which are divisible by 2 (even). Only the ones digit can introduce an odd remainder."
+
+- question: "Why does only the ones digit determine whether a large number is even or odd?"
+  type: multiple-choice
+  options:
+    - "Because larger digits contribute more to the total, so only the largest digit matters"
+    - "Because 10, 100, 1000, and all higher place values are multiples of 10, which are all even, so only the ones digit can make the total odd"
+    - "Because even and odd alternate, and the ones digit tells you which step in the alternation you are on"
+    - "Because the ones digit is the only digit you can pair up"
+  answer: 1
+  explanation: "Any number can be written as (tens portion) + (ones digit). The tens portion is always a multiple of 10 — and since 10, 20, 30, ... are all divisible by 2, the tens portion is always even. An even number plus an even ones digit is even; an even number plus an odd ones digit is odd. The ones digit is the only part that can affect evenness, so it is the only digit you need to check."
+
+- question: "The number 1,372 is odd because two of its digits (1 and 3) are odd."
+  type: true-false
+  answer: false
+  explanation: "False. The even/odd classification of a number depends only on its ones digit, not on how many of its digits are odd. The ones digit of 1,372 is 2, which is even, so 1,372 is an even number. The digits 1 and 3 in the thousands and tens places are multiples of 1000 and 10 respectively — both even — so they contribute nothing to the number's oddness."
+
+- question: "On the number line, even and odd numbers strictly alternate with no exceptions — every even number is immediately followed and preceded by an odd number."
+  type: true-false
+  answer: true
+  explanation: "True. Adding 1 to any even number gives an odd number, and adding 1 to any odd number gives an even number. This is because adding 1 changes the ones digit by 1, cycling it through the sequence ...0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0... which strictly alternates between even and odd digits. The alternation is perfect, universal, and never breaks — not for any whole number, however large."
+
+- question: "How can you tell whether 9,846 is even or odd without counting pairs of objects? Explain why this shortcut works."
+  type: short-answer
+  answer: "Look at the ones digit: it is 6, which is even, so 9,846 is even. The shortcut works because every place value above the ones (tens, hundreds, thousands, ...) is a multiple of 10, and all multiples of 10 are even numbers. When you add even numbers together, you always get an even result. So the thousands, hundreds, and tens digits of 9,846 always contribute an even amount. Only the ones digit determines whether the final total is even or odd."
+  explanation: "Understanding why the shortcut works is more important than just knowing the rule. The reason connects directly to place value: higher place values are always divisible by 2, so they never affect evenness. This insight generalizes — it explains why we can determine divisibility by 2 with a single-digit check on any number."
+```
+
 ## Explainer
 
 Think back to what you know about even and odd numbers: even numbers can be split into pairs with nothing left over, while odd numbers always have one leftover. That's the basic definition. Now let's look at the **patterns** those numbers create when you line them all up.

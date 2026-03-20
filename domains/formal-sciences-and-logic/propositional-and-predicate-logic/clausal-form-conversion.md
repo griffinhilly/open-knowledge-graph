@@ -16,7 +16,7 @@ tags:
 - first-order-logic
 - normal-forms
 - automated-reasoning
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - names
 - reference
 - causation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 
@@ -30,6 +30,45 @@ Trace the causal history of a name from its origin through a community. Contrast
 
 ## Common Misconceptions
 Kripke said speakers need not know what they're referring to—they don't need the correct description or history, but the name must be grounded in community practice. Causal history is metaphysically mysterious—Kripke was proposing an empirical hypothesis about naming conventions.
+
+## Questions
+
+```yaml
+- question: "A speaker mistakenly believes 'Einstein' refers to whoever invented the lightbulb. When they say 'Einstein was a genius,' who are they referring to?"
+  type: multiple-choice
+  options:
+    - "Thomas Edison, since that's who satisfies the description 'inventor of the lightbulb'"
+    - "No one, because the description associated with the name is false"
+    - "Albert Einstein, because their use is connected through a community causal chain to the correct individual"
+    - "The meaning shifts depending on which description the speaker holds most firmly"
+  answer: 2
+  explanation: "On Kripke's causal-historical view, what fixes reference is not the descriptions a speaker associates with a name, but the causal chain connecting their use back to the original baptism. Even with a false belief about the person, the speaker still refers to Einstein because their use is anchored through community practice to the historical individual. This is what Kripke calls the 'linguistic division of labor' — ordinary speakers can refer successfully without holding correct descriptions."
+
+- question: "The sentence 'Aristotle might never have taught Alexander' is:"
+  type: multiple-choice
+  options:
+    - "A contradiction — if 'Aristotle' means 'the teacher of Alexander,' then this says the teacher of Alexander was not the teacher of Alexander"
+    - "Coherent and possibly true — 'Aristotle' is a rigid designator picking out the same person even in worlds where he had a different career"
+    - "False — historical facts about what Aristotle actually did are necessarily true across all possible worlds"
+    - "Meaningless — we cannot coherently reason about counterfactual historical scenarios"
+  answer: 1
+  explanation: "This is Kripke's central modal argument against description theories. If 'Aristotle' were synonymous with 'the teacher of Alexander,' the sentence would be a contradiction. But it is not — we can coherently imagine Aristotle becoming a fisherman instead. This shows that 'Aristotle' must refer to the person, not to whoever satisfies a description. Names are rigid designators: they pick out the same individual in every possible world where that individual exists, regardless of which properties they happen to have."
+
+- question: "According to Kripke, the reference of a proper name is fixed at an initial baptism and transmitted through a community chain, regardless of what descriptions speakers associate with the name."
+  type: true-false
+  answer: true
+  explanation: "This is the core claim of the causal-historical theory. Reference is grounded in an initial baptismal event — either by ostension ('This person is Aristotle') or description ('Let's name the baby Aristotle'). The name then propagates through a community of speakers, each intending to refer to whoever the previous speaker was referring to. What matters for reference is the chain, not the descriptive content any individual speaker associates with the name."
+
+- question: "On Kripke's view, a name refers to the object that uniquely satisfies the descriptions most speakers in a community associate with it."
+  type: true-false
+  answer: false
+  explanation: "This is the descriptivist view that Kripke directly attacks. He argues that names do not function as abbreviated descriptions. His modal argument shows that we can coherently imagine the name's bearer not satisfying any given description, which means the descriptions cannot be what fix reference. Instead, reference is fixed by the causal-historical chain back to the initial baptism — and speakers can refer correctly even when their associated descriptions are false or incomplete."
+
+- question: "What is a rigid designator, and why does Kripke argue that proper names are rigid designators while definite descriptions are not?"
+  type: short-answer
+  answer: "A rigid designator is an expression that picks out the same individual in every possible world where that individual exists, regardless of what properties they have in that world. Kripke argues names are rigid because 'Aristotle might not have been a philosopher' refers to that very person possibly having a different career — the name tracks the individual across counterfactual scenarios. A definite description like 'the teacher of Alexander' is not rigid because it picks out whoever satisfies that description in each possible world, which could be a different person. Names latch onto individuals through causal history; descriptions latch onto roles that may be filled by different individuals in different circumstances."
+  explanation: "The rigidity of names has important metaphysical consequences. If 'Hesperus' and 'Phosphorus' are both rigid designators for the planet Venus, then 'Hesperus is Phosphorus' is necessarily true if true at all — not contingently true as a description theory would suggest. This connection between naming, rigidity, and modal necessity is Kripke's broader contribution to metaphysics."
+```
 
 ## Explainer
 

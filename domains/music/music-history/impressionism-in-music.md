@@ -21,7 +21,7 @@ tags:
 - timbre
 - France
 - Symbolism
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

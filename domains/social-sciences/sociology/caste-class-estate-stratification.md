@@ -12,7 +12,7 @@ tags:
 - stratification-systems
 - inequality
 - historical
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

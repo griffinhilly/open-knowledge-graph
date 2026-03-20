@@ -22,7 +22,7 @@ tags:
 - insulin resistance
 - cardiovascular disease
 - type 2 diabetes
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Obesity, Metabolic Syndrome, and Diet-Related Chronic Disease

@@ -16,7 +16,7 @@ tags:
 - vcf-format
 - functional-prediction
 - clinical-significance
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

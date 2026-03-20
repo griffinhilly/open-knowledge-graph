@@ -18,7 +18,7 @@ tags:
 - fst
 - wahlund-effect
 - local-adaptation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

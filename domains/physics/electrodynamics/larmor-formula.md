@@ -15,7 +15,7 @@ tags:
 - power
 - larmor
 - acceleration
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

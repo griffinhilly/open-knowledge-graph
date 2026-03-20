@@ -32,6 +32,45 @@ Case studies linking each boundary type to a real-world feature (Mid-Atlantic Ri
 - Transform faults are not simply strike-slip faults; they are kinematically linked to ridge segments and terminate at triple junctions, not at random.
 - Mountain ranges do not require continental collision; volcanic arcs above subduction zones also build significant topography.
 
+## Questions
+
+```yaml
+- question: "The Indian plate collides with the Eurasian plate. Both are continental lithosphere. What is the most likely geological outcome?"
+  type: multiple-choice
+  options:
+    - "A massive mountain belt — neither plate subducts, so the crust crumples and thickens"
+    - "A deep ocean trench and volcanic arc as one plate subducts beneath the other"
+    - "A mid-ocean ridge where new oceanic crust is continuously produced"
+    - "A transform fault system with frequent shallow earthquakes but no volcanism"
+  answer: 0
+  explanation: "Continental lithosphere is made of granite, which is less dense than oceanic basalt. When two continental plates collide, neither is heavy enough to sink into the mantle — both are too buoyant to subduct. Instead, the collision crumples and thickens the crust, building high mountain ranges. The Himalayas formed exactly this way. Options B and D describe features of other boundary types; option C describes a divergent boundary."
+
+- question: "A geologist surveys a region and finds: a deep ocean trench offshore, a chain of active volcanoes on the adjacent continent, and frequent large earthquakes at depth. Which boundary type best explains all three features simultaneously?"
+  type: multiple-choice
+  options:
+    - "Convergent (oceanic plate subducting beneath continental plate)"
+    - "Divergent (plates pulling apart, new crust forming)"
+    - "Transform (plates sliding horizontally past each other)"
+    - "Convergent (two continental plates colliding)"
+  answer: 0
+  explanation: "All three features are diagnostic of oceanic-continental subduction. The trench forms where the denser oceanic plate dives beneath the continent. Volcanism inland is produced when water released from the descending slab lowers the mantle wedge's melting point. Deep earthquakes follow the subducting slab. Transform boundaries (C) produce shallow earthquakes but no volcanism or trenches. Continental collision (D) produces mountains but not ocean trenches or volcanic arcs."
+
+- question: "Transform boundaries produce frequent shallow earthquakes but little to no volcanism."
+  type: true-false
+  answer: true
+  explanation: "At transform boundaries, plates slide horizontally past each other — no plate is created or destroyed, and no mantle material is brought to the surface. Without new magma reaching the surface, there is no mechanism for volcanism. The grinding motion does generate frequent earthquakes, but these are shallow because the motion occurs within the lithosphere rather than at depth. The San Andreas Fault is the classic example."
+
+- question: "At any convergent boundary, one plate always subducts beneath the other, forming ocean trenches and volcanic arcs."
+  type: true-false
+  answer: false
+  explanation: "Subduction requires at least one plate of dense oceanic lithosphere. When two continental plates converge, neither is dense enough to subduct — both are buoyant relative to the underlying mantle. Instead of subduction, the crust crumples upward into mountain belts. The Himalayas, Alps, and Appalachians all formed this way. Ocean trenches and volcanic arcs are produced only at convergent boundaries where oceanic lithosphere is involved."
+
+- question: "Why can't two colliding continental plates easily subduct, and what happens to the crust instead?"
+  type: short-answer
+  answer: "Continental lithosphere is composed mainly of granite, which is less dense than the mantle below. Because it is buoyant, it resists sinking into the denser mantle — unlike oceanic lithosphere (basalt), which is dense enough to subduct when it collides with lighter crust. When two continental plates collide, neither sinks; instead, the collision compresses and thickens the crust. Material that cannot go down is forced upward and sideways, building mountain ranges. This is why the highest mountain belts on Earth — the Himalayas, formed by India colliding with Eurasia — occur at continent-continent boundaries rather than subduction zones."
+  explanation: "This also explains why subduction always involves oceanic lithosphere on at least one side. The buoyancy contrast between oceanic and continental lithosphere is the underlying driver of which plate subducts and which rides over — the rule is not about which plate is 'on top' geographically, but about which is denser."
+```
+
 ## Explainer
 
 Earth's outer shell is not a single unbroken surface — it is divided into roughly a dozen major plates of rigid lithosphere that float on the slowly flowing asthenosphere beneath. Everything interesting in plate tectonics happens where these plates meet. There are exactly three ways two plates can interact: they can move apart, push together, or slide past each other. These three interactions — **divergent**, **convergent**, and **transform** boundaries — account for the global distribution of earthquakes, volcanoes, and mountain belts.

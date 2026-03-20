@@ -15,7 +15,7 @@ tags:
 - morality
 - guilt
 - shame
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

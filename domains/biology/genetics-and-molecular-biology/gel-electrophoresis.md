@@ -20,7 +20,7 @@ tags:
 - PAGE
 - DNA separation
 - molecular weight
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

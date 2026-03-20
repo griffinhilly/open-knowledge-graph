@@ -15,7 +15,7 @@ tags:
 - short-run
 - as-ad
 - quantity-adjustment
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

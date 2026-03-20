@@ -16,7 +16,7 @@ tags:
 - merchants
 - towns
 - class
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

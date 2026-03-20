@@ -15,7 +15,7 @@ tags:
 - authority
 - politics
 - organization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

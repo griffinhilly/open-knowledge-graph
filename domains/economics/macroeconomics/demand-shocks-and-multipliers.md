@@ -15,7 +15,7 @@ tags:
 - demand-shocks
 - multiplier
 - dynamics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

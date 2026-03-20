@@ -12,7 +12,7 @@ tags:
 - birefringence
 - optical-crystals
 - anisotropic-materials
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

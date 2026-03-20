@@ -12,7 +12,7 @@ tags:
 - attribution
 - self-enhancement
 - bias
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

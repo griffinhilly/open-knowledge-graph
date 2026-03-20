@@ -25,6 +25,45 @@ status: draft
 ## Core Idea
 Authority is the right to command and the duty to obey; legitimacy is the belief that this authority is rightfully exercised. Max Weber identified three sources of legitimate authority: traditional (based on custom), charismatic (based on personal magnetism), and rational-legal (based on established rules). Authority without legitimacy tends to rely on coercion, while legitimate authority maintains stability through consent.
 
+## Questions
+
+```yaml
+- question: "Most drivers stop at red lights even when no police officer is present. Which explanation best captures what political scientists mean by 'legitimate authority'?"
+  type: multiple-choice
+  options:
+    - "People stop because they fear being caught by traffic cameras they cannot see"
+    - "People stop because they believe the traffic system and the rules it enforces have a rightful claim on their behavior"
+    - "People stop out of habit, which is purely a psychological phenomenon with no political dimension"
+    - "People stop because they calculate that the benefit of compliance outweighs the cost in every individual case"
+  answer: 1
+  explanation: "Legitimate authority achieves compliance through recognized right, not constant surveillance. People internalizing the traffic system as rightful — worth following even when no one is watching — is exactly what legitimacy means: the belief that the authority has the right to command and that there is a corresponding duty to obey. Options A and D describe power based on prudential calculation (fear, cost-benefit), not genuine authority. Option C ignores the social recognition that makes habit here specifically political."
+
+- question: "A charismatic leader emerges during a constitutional crisis, claiming to represent 'the will of the people' directly and demanding extraordinary powers beyond those granted by the constitution. According to Weber, what type of authority is this leader appealing to?"
+  type: multiple-choice
+  options:
+    - "Rational-legal authority, because the leader invokes popular will which underpins constitutional democracy"
+    - "Traditional authority, because the appeal to 'the people' invokes long-standing democratic customs"
+    - "Charismatic authority, because the claim rests on the leader's exceptional personal mandate rather than established rules"
+    - "Coercive power, because bypassing constitutional limits means the authority is no longer legitimate"
+  answer: 2
+  explanation: "Charismatic authority rests on perceived exceptional personal qualities — the leader's claim to speak directly for the people is a claim about their own unique insight or mandate, not an appeal to established legal procedures. Critically, it bypasses rational-legal authority (the constitution) rather than operating through it. Weber recognized that charismatic authority is inherently unstable and often emerges precisely when rational-legal or traditional legitimacy has eroded."
+
+- question: "As a government's legitimacy declines, it tends to rely more heavily on coercion to maintain compliance."
+  type: true-false
+  answer: true
+  explanation: "This is a central insight of legitimacy theory. Legitimate authority is efficient — it achieves compliance through consent at low cost. When legitimacy erodes, the government must substitute surveillance, punishment, and force to maintain the same level of compliance. Coercion is expensive: it requires enforcement infrastructure, breeds resentment, and can spiral as resentment further undermines legitimacy. The shift from consent to coercion is both a symptom and an accelerant of legitimacy crises."
+
+- question: "Under rational-legal authority, officials are obeyed primarily because of their personal qualities and demonstrated competence."
+  type: true-false
+  answer: false
+  explanation: "Rational-legal authority attaches to the office, not the person. A police officer is obeyed not because of who they are personally but because they occupy a legally-defined role with specific powers. This is precisely what distinguishes rational-legal from charismatic authority, where compliance is tied to the leader's individual exceptionalism. When an official leaves office, their authority over others in that capacity ends — the office continues to carry authority regardless of who holds it."
+
+- question: "What is the difference between power and authority, and why does the distinction matter for understanding political stability?"
+  type: short-answer
+  answer: "Power is the capacity to get others to do what you want through any means — force, incentives, or influence. Authority is specifically rightful power: the ability to command that carries an obligation to obey, not merely a prudential incentive to comply. The distinction matters because authority achieves compliance cheaply through recognized right, while pure power requires constant enforcement. A government with authority is stable at low cost; one relying on power alone is expensive to maintain and vulnerable to any challenger who can match its coercive capacity."
+  explanation: "The gun-wielding thief versus the police officer example captures this: both have the physical capacity to compel behavior, but only the officer has a socially recognized right to command. Authority is fundamentally a social phenomenon — it exists only through recognition. This is why legitimacy crises threaten stability: they strip authority of its social recognition, leaving only power, which is far more fragile and costly to sustain."
+```
+
 ## Explainer
 
 From your study of state power and sovereignty, you know that states hold a monopoly on the legitimate use of force within their territory. But this raises an immediate question: why do most people obey the state most of the time, even when no officer is watching? The answer is not simply fear of punishment — the coercive capacity of states is real but limited; no state can be everywhere at once. The deeper answer is **legitimacy**: people comply because they believe, at least tacitly, that the authority making demands on them has the right to do so.

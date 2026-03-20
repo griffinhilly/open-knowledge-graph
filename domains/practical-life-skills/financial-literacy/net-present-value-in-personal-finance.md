@@ -19,7 +19,7 @@ tags:
 - valuation
 - comparison
 - decision-framework
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

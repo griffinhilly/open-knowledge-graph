@@ -18,7 +18,7 @@ tags:
 - secondary-world
 - setting
 - speculative-fiction
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

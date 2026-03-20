@@ -36,6 +36,45 @@ Build on the mental-math-tens skill explicitly. Show the parallel: just as 47 + 
 - Not recognizing when this fast strategy applies vs. when full regrouping is needed.
 - Confusing hundreds addition with tens addition when numbers are similar.
 
+## Questions
+
+```yaml
+- question: "What is 650 + 300?"
+  type: multiple-choice
+  options:
+    - "680 — add 3 to the tens digit"
+    - "950 — add 3 to the hundreds digit, tens and ones unchanged"
+    - "9500 — multiply by 3"
+    - "653 — add 3 to the ones digit"
+  answer: 1
+  explanation: "300 is 3 hundreds. You already have 6 hundreds in 650. 6 hundreds + 3 hundreds = 9 hundreds. The tens (5) and ones (0) are untouched. Result: 950. Only the hundreds digit changes — this is the whole point of the mental math strategy for hundreds. Option A is a common error: adding to the wrong column."
+
+- question: "A student computes 450 + 300 = 480. What mistake did the student make?"
+  type: multiple-choice
+  options:
+    - "They forgot to carry the 1"
+    - "They added 300 to the tens place instead of the hundreds place"
+    - "They should have added 300 to each digit separately"
+    - "They made an arithmetic error: 4 + 3 = 8 is wrong, it should be 7"
+  answer: 1
+  explanation: "300 affects only the hundreds column. The student added 3 to the tens digit (5 + 3 = 8) instead of the hundreds digit (4 + 3 = 7). The correct answer is 750: 4 hundreds + 3 hundreds = 7 hundreds, and the '50' rides along unchanged. This error reveals a place-value confusion — not knowing which column a multiple of 100 belongs to."
+
+- question: "To solve 740 − 200 mentally, you only need to change the hundreds digit."
+  type: true-false
+  answer: true
+  explanation: "200 is 2 hundreds. Subtract 2 hundreds from the 7 hundreds in 740: 7 − 2 = 5 hundreds. The tens digit (4) and ones digit (0) are untouched. Result: 540. The strategy works because subtracting a multiple of 100 affects only the hundreds column — the tens and ones are irrelevant."
+
+- question: "Adding 300 to any number always changes three digits in the result."
+  type: true-false
+  answer: false
+  explanation: "Adding 300 changes only the hundreds digit (unless that causes regrouping into the thousands, which won't happen within the range of these problems). The tens and ones digits stay completely the same. For example, 450 + 300 = 750: only the hundreds digit changed from 4 to 7. The idea that '300 is a three-digit number so it changes three digits' is an intuitive but false conclusion."
+
+- question: "Why can you add or subtract hundreds without ever touching the tens and ones digits?"
+  type: short-answer
+  answer: "Because multiples of 100 add to the hundreds column only. In our base-ten system, 100 is exactly one unit in the hundreds place and zero units in every other place. So adding 300 means adding 3 to the hundreds digit. The tens and ones digits represent a completely separate part of the number — they are not involved in hundreds arithmetic at all."
+  explanation: "This is the column-independence principle of place value: each column operates independently when you're adding a number that belongs entirely to one column. The same logic explains why adding 30 changes only the tens digit (not the ones), and adding 3 changes only the ones. Understanding this unlocks mental math across all place values."
+```
+
 ## Explainer
 
 You already know how to add and subtract tens in your head — for example, 47 + 30 = 77 because 4 tens + 3 tens = 7 tens, and only the tens digit changes. Adding and subtracting hundreds works in exactly the same way, just one place-value column to the left.

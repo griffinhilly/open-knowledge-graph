@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: comparative-historical-analysis
   type: soft
-builds-toward:
-- historical-narrative-and-argument-construction
+builds-toward: []
 tags:
 - synthesis
 - evidence
@@ -19,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Synthesizing Multiple Sources and Triangulating Evidence
 
 ## Core Idea

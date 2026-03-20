@@ -17,7 +17,7 @@ tags:
 - ions
 - transport
 - potential
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

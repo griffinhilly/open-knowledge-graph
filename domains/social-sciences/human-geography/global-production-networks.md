@@ -15,7 +15,7 @@ tags:
 - global-capitalism
 - value-chains
 - labor
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

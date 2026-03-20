@@ -15,7 +15,7 @@ tags:
 - moisture
 - indices
 - stability
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -21,7 +21,7 @@ tags:
 - refutation
 - philosophical-method
 - generalization
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # The Counterexample Method

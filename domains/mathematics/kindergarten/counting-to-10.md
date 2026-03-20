@@ -28,6 +28,45 @@ Use songs, finger counting, and physical objects. Children should touch or move 
 - Skipping numbers (e.g., '1, 2, 3, 5') — emphasize consistent order.
 - Reciting the sequence without understanding that each word refers to a quantity.
 
+## Questions
+
+```yaml
+- question: "A child counts 7 toys one by one, touching each toy as she goes. When asked 'How many toys are there?' she immediately starts counting from the beginning again. What does this tell us about her understanding?"
+  type: multiple-choice
+  options:
+    - "She made an error in her original count and needs to recheck"
+    - "She has not yet grasped cardinality — she doesn't understand that the last number she said already IS the answer"
+    - "She doesn't know the correct counting sequence"
+    - "She touched some toys more than once (violated one-to-one correspondence)"
+  answer: 1
+  explanation: "The cardinality principle says the final number you say when counting a group tells you how many are in the whole group — you don't need to recount. A child who recounts after a correct count hasn't yet internalized this principle. She may have stable order and one-to-one correspondence but still treats counting as a procedure rather than understanding that the last word *is* the answer."
+
+- question: "A child counts 5 blocks but accidentally touches the first block twice, counting it as both '1' and '2.' She announces there are 6 blocks. Which counting principle did she violate?"
+  type: multiple-choice
+  options:
+    - "Stable order — she said the number names in the wrong sequence"
+    - "Cardinality — she misidentified the total"
+    - "One-to-one correspondence — each object must be counted exactly once"
+    - "No principle was violated; her answer is correct"
+  answer: 2
+  explanation: "One-to-one correspondence requires pairing exactly one number word with each distinct object — no object gets counted twice and none gets skipped. By touching the first block twice, she broke this pairing, which caused her final count to be wrong. Cardinality (option B) wasn't the root problem; she applied the cardinality principle correctly by reporting her last number — the underlying error was the double-count."
+
+- question: "A child who can perfectly recite 'one, two, three, four, five' already knows how to count objects correctly."
+  type: true-false
+  answer: false
+  explanation: "Reciting the counting sequence and using it to count real objects are two separate skills. A child who has memorized the sequence might still rush ahead, skip an object, or count the same object twice — all violations of one-to-one correspondence. Counting objects correctly also requires cardinality: understanding that the final number gives the total, not just that it comes last in the sequence."
+
+- question: "The cardinality principle states that the last number word you say when counting a group tells you how many objects are in the entire group."
+  type: true-false
+  answer: true
+  explanation: "This is the cardinality principle. When you count five blocks and land on 'five,' that word doesn't just mean 'the fifth thing I touched' — it means the whole group has five members. Children who understand cardinality can answer 'how many?' without recounting. Children who haven't internalized it tend to recount every time, because they haven't grasped that the final count *is* the answer."
+
+- question: "What are the three counting principles that children must learn when learning to count objects, and why is knowing the sequence alone not enough?"
+  type: short-answer
+  answer: "The three principles are: (1) stable order — always say the number names in the same fixed sequence; (2) one-to-one correspondence — match exactly one number word to each object, no skips or doubles; (3) cardinality — the last number said tells you the total quantity in the group. Knowing the sequence alone is not enough because a child could recite 'one, two, three' perfectly but still count the same block twice or not understand that 'three' means the group has three members."
+  explanation: "Counting involves weaving together three distinct ideas. Each is learnable separately and children often master them in sequence. A child may have stable order before one-to-one correspondence, and one-to-one correspondence before cardinality. Only when all three work together does counting function as a reliable tool for determining quantity."
+```
+
 ## Explainer
 
 Counting to 10 might seem simple, but it involves several distinct ideas that children learn to weave together. The first is the **counting sequence** — a fixed list of words said in exactly the same order every time: one, two, three, four, five, six, seven, eight, nine, ten. This order is not negotiable or changeable, like the alphabet. Learning the sequence is a memory task, built up through songs, repetition, and daily practice.

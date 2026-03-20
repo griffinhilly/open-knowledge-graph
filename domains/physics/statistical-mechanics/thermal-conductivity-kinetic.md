@@ -6,8 +6,7 @@ course: statistical-mechanics
 prerequisites:
 - id: chapman-enskog-expansion
   type: hard
-builds-toward:
-- green-kubo-formula
+builds-toward: []
 tags:
 - transport
 - kinetic-theory
@@ -15,7 +14,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Thermal Conductivity from Kinetic Theory
 
 ## Core Idea

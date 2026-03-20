@@ -17,7 +17,7 @@ tags:
 - idealization
 - nature
 - shepherd
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

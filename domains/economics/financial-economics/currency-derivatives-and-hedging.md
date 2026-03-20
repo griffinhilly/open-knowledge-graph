@@ -12,7 +12,7 @@ tags:
 - fx
 - hedging
 - derivatives
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

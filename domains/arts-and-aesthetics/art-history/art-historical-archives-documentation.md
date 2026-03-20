@@ -15,7 +15,7 @@ tags:
 - research
 - documentation
 - methodology
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

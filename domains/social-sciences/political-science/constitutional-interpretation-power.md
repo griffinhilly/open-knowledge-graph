@@ -9,18 +9,16 @@ prerequisites:
 - id: judicial-branch-systems
   type: hard
 builds-toward:
-- civil-liberties-and-rights-protection
-- institutional-checks-and-balances
-- constitutional-amendment-change
+  - civil-liberties-and-rights-protection
+  - institutional-checks-and-balances
 tags:
 - judicial-review
 - constitutional
 - interpretation
 - courts
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Judicial Review and Constitutional Interpretation
 
 ## Core Idea

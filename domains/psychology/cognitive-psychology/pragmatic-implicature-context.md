@@ -15,7 +15,7 @@ tags:
 - pragmatics
 - meaning
 - inference
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - worldbuilding
 - setting
 - internal-logic
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

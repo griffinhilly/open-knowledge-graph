@@ -13,7 +13,7 @@ tags:
 - contact
 - thermal
 - aureole
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

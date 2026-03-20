@@ -23,7 +23,7 @@ tags:
 - rotation
 - moment-arm
 - lever
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

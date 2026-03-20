@@ -12,7 +12,7 @@ tags:
 - resolution
 - rayleigh-criterion
 - diffraction-limit
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

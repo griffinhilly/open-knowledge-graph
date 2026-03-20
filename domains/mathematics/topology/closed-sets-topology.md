@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - closed-sets
 - complements
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

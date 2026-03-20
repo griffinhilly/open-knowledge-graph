@@ -21,7 +21,7 @@ tags:
 - Shakespearean
 - volta
 - fourteen lines
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # The Sonnet

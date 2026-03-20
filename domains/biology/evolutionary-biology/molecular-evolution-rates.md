@@ -14,8 +14,7 @@ prerequisites:
   type: soft
 - id: statistics-probability
   type: soft
-builds-toward:
-- genealogical-methods-phylogenetics
+builds-toward: []
 tags:
 - molecular-clock
 - evolution-rate
@@ -24,7 +23,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Molecular Clock and Evolutionary Rate Variation
 
 ## Core Idea

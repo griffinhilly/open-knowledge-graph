@@ -35,6 +35,45 @@ Fact-family triangles with the product at the top and two factors at the bottom 
 - Students may not yet realize that division 'undoes' multiplication, treating them as completely separate operations.
 - They may list only two equations from a fact family instead of all four.
 
+## Questions
+
+```yaml
+- question: "A student knows that 9 × 6 = 54. Which division problems can they solve immediately using this fact?"
+  type: multiple-choice
+  options:
+    - "Only 54 ÷ 9 = 6, because division only reverses the first number"
+    - "Both 54 ÷ 9 = 6 and 54 ÷ 6 = 9, because the fact family has two division equations"
+    - "Neither — division facts must be memorized separately from multiplication"
+    - "54 ÷ 54 = 1, because any number divided by itself is 1"
+  answer: 1
+  explanation: "Every multiplication fact generates two division facts. The three numbers 9, 6, and 54 form a fact family: 9 × 6 = 54 and 6 × 9 = 54, plus 54 ÷ 9 = 6 and 54 ÷ 6 = 9. Knowing one fact gives you all four equations for free. Option A is the most common error — students often generate only one division fact instead of both."
+
+- question: "A student is stuck on 63 ÷ 7. Which strategy best uses the relationship between multiplication and division?"
+  type: multiple-choice
+  options:
+    - "Count up from 7 until you reach 63 and keep track of how many times you added"
+    - "Think: what number times 7 equals 63? Since 9 × 7 = 63, the answer is 9"
+    - "Subtract 7 from 63 repeatedly and count the subtractions"
+    - "Use the division algorithm: 63 ÷ 7 requires long division"
+  answer: 1
+  explanation: "The 'think multiplication' strategy reframes division as a missing-factor problem. Instead of computing 63 ÷ 7, you ask: '? × 7 = 63.' If you know your 7-times table, you recall 9 × 7 = 63 and immediately have your answer. This is far faster than counting up or repeated subtraction, and it directly uses the inverse relationship between the operations."
+
+- question: "Knowing 7 × 8 = 56 immediately tells you the answers to both 56 ÷ 7 and 56 ÷ 8."
+  type: true-false
+  answer: true
+  explanation: "The three numbers 7, 8, and 56 form a complete fact family: 7 × 8 = 56, 8 × 7 = 56, 56 ÷ 7 = 8, and 56 ÷ 8 = 7. A single multiplication fact unlocks both division facts because all four equations describe the same relationship among the same three numbers."
+
+- question: "Multiplication and division are separate operations with no predictable relationship, so division facts must be learned independently."
+  type: true-false
+  answer: false
+  explanation: "Multiplication and division are inverse operations — each undoes the other — and they share fact families. Every division fact is a rearrangement of a multiplication fact. This is why learning your multiplication facts makes division dramatically easier: you already have the answer, just accessed from a different direction. Treating them as unrelated doubles the memorization load unnecessarily."
+
+- question: "Why does knowing multiplication facts make division problems easier to solve?"
+  type: short-answer
+  answer: "Because division can be rephrased as a missing-factor multiplication problem. '48 ÷ 6 = ?' becomes '? × 6 = 48.' If you know 8 × 6 = 48, you immediately have your answer. The multiplication table works in both directions."
+  explanation: "The inverse relationship means every division problem has a corresponding multiplication problem. Instead of computing division from scratch, you search your multiplication knowledge for a match. This is not a trick — it reflects the true structure: multiplication and division describe the same relationship between three numbers (groups, size, total), just from different angles."
+```
+
 ## Explainer
 
 Multiplication and division are two sides of the same coin. Multiplication asks: "I have 3 groups of 8 — how many total?" Division asks: "I have 24 things and I want 3 equal groups — how many in each group?" Both questions are about the same relationship between three numbers: 3, 8, and 24. Understanding that these operations are **inverse operations** — each one undoes the other — is one of the most useful ideas in elementary arithmetic.

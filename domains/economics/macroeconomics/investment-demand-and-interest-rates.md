@@ -18,7 +18,7 @@ tags:
 - investment
 - interest-rates
 - capital
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

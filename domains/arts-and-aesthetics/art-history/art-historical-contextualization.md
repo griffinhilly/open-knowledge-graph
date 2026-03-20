@@ -16,7 +16,7 @@ tags:
 - context
 - social-history
 - interpretation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -24,7 +24,7 @@ tags:
 - predation
 - cycles
 - population-dynamics
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Predator-Prey Dynamics and the Lotka-Volterra Model

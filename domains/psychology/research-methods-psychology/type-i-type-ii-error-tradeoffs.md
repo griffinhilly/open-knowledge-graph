@@ -12,7 +12,7 @@ tags:
 - statistics
 - errors
 - decision
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

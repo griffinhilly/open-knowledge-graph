@@ -14,7 +14,7 @@ builds-toward:
   - premortem-analysis
   - murphyjitsu
 tags: ["planning", "bias", "overconfidence", "forecasting", "project-management"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

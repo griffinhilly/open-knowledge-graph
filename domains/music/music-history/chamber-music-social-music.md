@@ -30,6 +30,45 @@ Listen to string quartets and analyze how they differ structurally from symphoni
 ## Common Misconceptions
 Chamber music is less important or significant than symphonic music; only classical and romantic periods produced significant chamber music; chamber music is primarily for professional musicians rather than amateurs.
 
+## Questions
+
+```yaml
+- question: "A composer in the 1820s wants to write music of deep personal searching and structural complexity, free from commercial pressure and public performance expectations. According to the text, which genre would best serve this goal?"
+  type: multiple-choice
+  options:
+    - "Opera, because it combines drama and music for maximum emotional scale"
+    - "The symphony, because large forces enable grander structural ambitions"
+    - "The string quartet, because chamber music was a private laboratory where composers worked without the constraints of commercial or public performance"
+    - "The concerto, because the soloist's virtuosity allows personal expression"
+  answer: 2
+  explanation: "The text explicitly describes the string quartet as the genre where composers 'worked without the commercial pressures of opera or the public visibility of the orchestra, producing some of the most structurally ambitious and personally searching music of the era.' Beethoven's late quartets are the paradigm case — too difficult for amateur performance and too serious for salon entertainment, they represent the genre at its most philosophically intense."
+
+- question: "What made Haydn's Op. 33 quartets (1781) distinctively new, according to the text?"
+  type: multiple-choice
+  options:
+    - "They were written for public concert halls rather than private salons"
+    - "They required professional virtuosos rather than amateur performers"
+    - "They distributed melodic and accompanying roles across all four voices, making the texture a conversation among equals rather than a melody with accompaniment"
+    - "They were the first quartets to include a slow movement"
+  answer: 2
+  explanation: "The text identifies Haydn's key innovation as distributing melodic interest to all four parts — viola and cello carrying melodic interest rather than serving as pure harmonic support. This created a conversational texture in which every voice contributes, responds, and hands ideas to the others. This is structurally and aesthetically different from orchestral music, where a simpler melodic hierarchy typically prevails."
+
+- question: "In the domestic chamber music context, the physical distance between performer and listener was often collapsed because audiences at aristocratic quartet evenings were frequently the players themselves."
+  type: true-false
+  answer: true
+  explanation: "The text gives Archduke Rudolph as the paradigm case: Beethoven's great patron was himself a performer who participated in chamber music and commissioned works he could play. This collapsed the social and physical distance typical of public concerts, and music that rewards close, attentive listening — formal wit, surprise, intimate dialogue — was perfectly suited to this context in a way it would not be in a large concert hall."
+
+- question: "Chamber music is less structurally ambitious than orchestral music because it was composed primarily for amateur domestic performers rather than professional musicians."
+  type: true-false
+  answer: false
+  explanation: "This is the misconception the text directly addresses. While chamber music originated in domestic performance contexts and was initially accessible to skilled amateurs, Beethoven's late quartets and many Romantic chamber works are among the most structurally demanding music ever written — too difficult for the aristocratic amateur. The text describes the string quartet as the genre where composers 'thought hardest about form, texture, and long-range structure,' making it a compositional laboratory that shaped public orchestral music."
+
+- question: "Why did the string quartet develop a unique prestige as a genre for compositional experimentation, despite — or because of — its intimate scale?"
+  type: short-answer
+  answer: "Because the small ensemble and private context freed composers from commercial and public pressures, enabling structural experiments that the orchestra (with its public audiences and performance costs) could not easily sustain. Four players in a room allowed each voice to be heard in its full complexity, rewarding exactly the kind of formal sophistication that would pass too quickly in a large hall. This made the quartet a 'private laboratory' whose experiments eventually shaped the public concert repertoire."
+  explanation: "The text describes a productive paradox: chamber music remained formally intimate while aspiring to symphonic structural complexity, and this combination gave it unique prestige. The genre's scale was not a limitation but a feature — it enabled a closeness of compositional attention and listening engagement that larger forces cannot replicate."
+```
+
 ## Explainer
 
 Music history is often told as a story of major public forms — symphonies, operas, concertos performed before large audiences. But for most of the eighteenth and nineteenth centuries, the majority of musical activity happened in rooms: drawing rooms, aristocratic salons, and later middle-class parlors. From your knowledge of artistic patronage and institutions, you know that the contexts in which music was made shape its character and its forms. **Chamber music** — works for a small number of players, one to a part — is the direct product of domestic performance contexts, and its aesthetic character is inseparable from the social relationships it served.

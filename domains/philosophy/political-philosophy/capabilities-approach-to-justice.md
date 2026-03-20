@@ -14,7 +14,7 @@ tags:
 - capabilities
 - justice
 - freedom
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

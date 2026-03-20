@@ -25,7 +25,7 @@ tags:
 - religious-war
 - latin-states
 - contact-zones
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 # The Crusades

@@ -13,7 +13,7 @@ tags:
 - conventions
 - rhetoric
 - discourse
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

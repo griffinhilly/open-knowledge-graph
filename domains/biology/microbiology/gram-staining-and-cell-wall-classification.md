@@ -15,7 +15,7 @@ tags:
 - staining
 - classification
 - diagnosis
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - geometry
 - diameter
 - correlations
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

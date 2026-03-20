@@ -26,7 +26,7 @@ tags:
 - ATP
 - NADH
 - cytoplasm
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

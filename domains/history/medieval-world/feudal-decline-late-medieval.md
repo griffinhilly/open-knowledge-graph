@@ -15,7 +15,7 @@ tags:
 - decline
 - late-medieval
 - transition
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - smooth-motion
 - conjunct
 - independence
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -32,6 +32,45 @@ Act out store scenarios with play money. Teach both the subtraction method and t
 - Forgetting to account for the cents column when the price has cents.
 - Giving change in the fewest coins without checking correctness first.
 
+## Questions
+
+```yaml
+- question: "An eraser costs 78¢ and you pay with a $1 bill. What is the correct way to find the change?"
+  type: multiple-choice
+  options:
+    - "Subtract $1.00 from 78¢ to find the difference"
+    - "Subtract 78¢ from 100¢ to get 22¢ change"
+    - "Add 78¢ and 100¢ together"
+    - "The change is always the same as the cost of the item"
+  answer: 1
+  explanation: "Change is what you get back after paying, so you subtract the price FROM the amount paid: 100¢ − 78¢ = 22¢. Option A reverses the subtraction — subtracting a larger amount from a smaller one doesn't make sense in this context and gives a negative result. You always subtract in the direction from 'what you paid' down to 'what it costs.'"
+
+- question: "A book costs 63¢. You pay with $1. Using the count-up method, which sequence correctly finds the change?"
+  type: multiple-choice
+  options:
+    - "Start at 100¢ and count down to 63¢, counting each cent"
+    - "Start at 63¢, add 7¢ to reach 70¢, then add 30¢ to reach 100¢ — total added is 37¢"
+    - "Start at 63¢ and subtract 1¢ at a time until you reach 0"
+    - "Add 63 + 100 and divide by 2"
+  answer: 1
+  explanation: "The count-up method starts at the price and counts forward to the amount paid, adding in convenient chunks. From 63¢: add 7¢ to reach 70¢, then add 30¢ to reach 100¢. The total added (7 + 30 = 37¢) is the change. This mirrors what cashiers do naturally and avoids borrowing in subtraction. Both the subtraction method and the count-up method give the same answer."
+
+- question: "You can check your change calculation by adding the change back to the price — if the total equals the amount you paid, your answer is correct."
+  type: true-false
+  answer: true
+  explanation: "This is the standard verification method. If an item costs 63¢ and you calculated 37¢ change, check: 63 + 37 = 100¢ = $1. The check works because subtraction and addition are inverse operations. If change + price = amount paid, the subtraction was done correctly."
+
+- question: "If an item costs 45¢ and you pay with $1, you find the change by subtracting $1.00 from 45¢."
+  type: true-false
+  answer: false
+  explanation: "This reverses the subtraction. You subtract the price FROM the amount paid: 100¢ − 45¢ = 55¢. Subtracting the paid amount from the price (45 − 100) gives a negative number, which doesn't make sense for change. Change is always what's 'left over' after the price is covered — you start with the larger number (what you paid) and subtract the smaller one (the price)."
+
+- question: "How can you check whether your change calculation is correct?"
+  type: short-answer
+  answer: "Add the change back to the price. If the sum equals the amount you paid, the answer is correct. For example: price 63¢ + change 37¢ = 100¢ = $1 paid. ✓"
+  explanation: "Change is calculated by subtraction, and subtraction can always be verified by the inverse operation — addition. This check catches both computational errors and direction errors (accidentally subtracting the wrong way). Making the habit of checking every change calculation builds accuracy and reinforces the relationship between addition and subtraction."
+```
+
 ## Explainer
 
 Imagine you're buying a pencil that costs 63 cents and you hand the cashier a dollar bill. The cashier owes you back the difference — the amount left over after paying the price. That leftover amount is called **change**. Making change is just subtraction in a real-world context: start with what you paid, subtract what the item cost, and the result is what comes back to you.

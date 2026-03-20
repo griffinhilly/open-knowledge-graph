@@ -15,7 +15,7 @@ tags:
 - fiscal-policy
 - crowding-out
 - interest-rates
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

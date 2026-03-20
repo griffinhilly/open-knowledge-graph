@@ -11,7 +11,7 @@ tags:
 - notes
 - preparation
 - keywords
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

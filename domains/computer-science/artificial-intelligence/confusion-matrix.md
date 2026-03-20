@@ -9,8 +9,7 @@ prerequisites:
 - id: probability-axioms
   type: soft
 builds-toward:
-- classification-metrics
-- multi-class-evaluation
+  - multi-class-evaluation
 tags:
 - confusion-matrix
 - tp
@@ -20,7 +19,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Confusion Matrix and Classification Metrics
 
 ## Core Idea

@@ -13,7 +13,7 @@ tags:
 - composite-quadrature
 - integration
 - error-control
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

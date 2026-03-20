@@ -12,7 +12,7 @@ tags:
 - computability
 - undecidability
 - formal-languages
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

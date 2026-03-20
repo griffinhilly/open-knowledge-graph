@@ -16,7 +16,7 @@ tags:
 - regulation
 - marginal cost pricing
 - average cost pricing
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

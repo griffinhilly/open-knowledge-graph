@@ -11,8 +11,7 @@ prerequisites:
 - id: part-writing-doubling-and-spacing-rules
   type: hard
 builds-toward:
-- voice-leading-smooth-motion-composition
-- counterpoint-two-voice
+  - voice-leading-smooth-motion-composition
 tags:
 - voice-leading
 - harmony
@@ -21,7 +20,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Four-Part Voice Writing (SATB)
 
 ## Core Idea

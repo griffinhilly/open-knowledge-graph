@@ -17,7 +17,7 @@ tags:
 - fc-acylation
 - acylium-ion
 - aromatic-ketones
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

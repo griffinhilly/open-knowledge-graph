@@ -17,7 +17,7 @@ tags:
 - weber
 - legitimacy
 - domination
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

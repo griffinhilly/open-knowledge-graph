@@ -16,7 +16,7 @@ tags:
 - power-consolidation
 - territory
 - modern-state
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

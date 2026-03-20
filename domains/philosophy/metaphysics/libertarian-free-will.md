@@ -14,7 +14,7 @@ tags:
 - indeterminism
 - free will
 - incompatibilism
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

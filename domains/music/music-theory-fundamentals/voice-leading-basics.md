@@ -15,7 +15,7 @@ tags:
 - voice-leading
 - smooth
 - spacing
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

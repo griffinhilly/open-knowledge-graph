@@ -18,7 +18,7 @@ tags:
 - monosaccharides
 - enzymes
 - absorption-mechanisms
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

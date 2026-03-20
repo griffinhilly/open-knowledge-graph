@@ -12,7 +12,7 @@ tags:
 - substitution
 - inputs
 - technical-efficiency
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

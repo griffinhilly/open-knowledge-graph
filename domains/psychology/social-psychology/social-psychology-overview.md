@@ -18,7 +18,7 @@ tags:
 - overview
 - social behavior
 - situationism
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

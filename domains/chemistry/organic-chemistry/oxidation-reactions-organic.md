@@ -18,7 +18,7 @@ tags:
 - Swern
 - alcohol oxidation
 - selectivity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 # Oxidation Reactions in Organic Chemistry

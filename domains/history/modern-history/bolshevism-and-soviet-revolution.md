@@ -16,7 +16,7 @@ tags:
 - soviet-union
 - communism
 - revolution
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

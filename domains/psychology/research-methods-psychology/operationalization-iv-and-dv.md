@@ -15,7 +15,7 @@ tags:
 - variables
 - measurement
 - manipulation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

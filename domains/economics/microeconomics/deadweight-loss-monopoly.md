@@ -14,7 +14,7 @@ tags:
 - monopoly
 - welfare
 - deadweight loss
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

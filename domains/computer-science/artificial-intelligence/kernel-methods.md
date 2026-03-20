@@ -13,8 +13,7 @@ prerequisites:
 - id: dot-product
   type: soft
 builds-toward:
-- support-vector-regression
-- kernel-ridge-regression
+  - kernel-ridge-regression
 tags:
 - kernel
 - kernel-trick
@@ -22,7 +21,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Kernel Methods and the Kernel Trick
 
 ## Core Idea

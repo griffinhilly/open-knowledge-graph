@@ -14,7 +14,7 @@ tags:
 - inequality
 - sorting
 - cultural-capital
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

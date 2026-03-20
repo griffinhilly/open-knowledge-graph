@@ -16,7 +16,7 @@ tags:
 - rent-seeking
 - accountability
 - governance
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

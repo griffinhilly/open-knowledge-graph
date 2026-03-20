@@ -33,6 +33,45 @@ Start by reading pre-made bar graphs with different scales, identifying the scal
 - Reading bars between gridlines incorrectly when the scale is not 1.
 - Forgetting to multiply by the scale value when calculating the total for a bar.
 
+## Questions
+
+```yaml
+- question: "A bar graph has a scale of 5 (each gridline = 5 students). The bar for 'soccer' reaches the 6th gridline. How many students chose soccer?"
+  type: multiple-choice
+  options:
+    - "6 students — the bar reaches the 6th line"
+    - "30 students — because 6 × 5 = 30"
+    - "11 students — because 6 + 5 = 11"
+    - "15 students — because the scale adds 5 per bar"
+  answer: 1
+  explanation: "The scale tells you what each gridline represents. If each unit = 5, then a bar at the 6th gridline represents 6 × 5 = 30. Reading the bar height as a face value (6) is the most common error on scaled bar graphs — it ignores the scale entirely."
+
+- question: "On a scaled bar graph where each unit = 10, the 'red' bar reaches halfway between the 30 and 40 gridlines, and the 'blue' bar reaches the 50 gridline. How many more students chose blue than red?"
+  type: multiple-choice
+  options:
+    - "15 more — because 50 − 35 = 15"
+    - "10 more — the bars differ by one full gridline"
+    - "20 more — because 50 − 30 = 20"
+    - "5 more — they differ by half a unit"
+  answer: 0
+  explanation: "Halfway between 30 and 40 on a scale-of-10 graph is 35. Blue = 50. The difference is 50 − 35 = 15. Option B ignores the halfway position. Option C ignores the halfway position and rounds down. Once you convert bar heights to real values using the scale, the comparison is ordinary subtraction."
+
+- question: "On a bar graph where each unit equals 5, a bar that reaches the 4th gridline represents 4 students."
+  type: true-false
+  answer: false
+  explanation: "A bar at the 4th gridline represents 4 × 5 = 20 students, not 4. The gridline number must be multiplied by the scale to get the actual value. Reading bar height as face value only works when the scale is 1."
+
+- question: "The main reason to use a scale greater than 1 on a bar graph is to make large data sets fit into a readable, practical chart."
+  type: true-false
+  answer: true
+  explanation: "Scaling compresses large numbers visually. A graph showing 340 students at scale = 1 would need a 340-unit axis. At scale = 10, the same data fits in 34 units. The visual relationships between bars are preserved; only the labeling changes. Scaling doesn't distort the data — it makes it manageable."
+
+- question: "What is the first thing you should do before reading any bar on a scaled bar graph, and why?"
+  type: short-answer
+  answer: "Identify the scale — find out what value each gridline unit represents. Without knowing the scale, you cannot convert bar height into an actual quantity."
+  explanation: "The same bar height means completely different values depending on the scale. A bar at height 4 means 4 students at scale=1, 20 students at scale=5, and 40 students at scale=10. The scale is the key that unlocks the numbers. Always read it first — it's usually labeled on the y-axis or in a legend."
+```
+
 ## Explainer
 
 You've already worked with basic bar graphs where each unit on the vertical axis stands for exactly one thing — one student, one vote, one item. A **scaled bar graph** uses the same visual format but changes the meaning of each unit. When the scale says "each square = 5 students," a bar that reaches the 4th gridline represents 4 × 5 = 20 students, not 4. The bars still communicate quantity through height, but you must translate height into value using the scale.

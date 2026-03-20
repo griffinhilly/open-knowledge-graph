@@ -14,7 +14,7 @@ tags:
 - motor-protein
 - myosin
 - kinesin
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

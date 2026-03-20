@@ -12,7 +12,7 @@ tags:
 - semantics
 - modality
 - possible-worlds
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

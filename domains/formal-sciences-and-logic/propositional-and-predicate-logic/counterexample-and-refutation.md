@@ -12,7 +12,7 @@ tags:
 - first-order-logic
 - proof-methods
 - refutation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

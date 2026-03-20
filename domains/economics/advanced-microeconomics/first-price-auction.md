@@ -10,7 +10,7 @@ tags:
 - auctions
 - bidding
 - sealed-bid
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

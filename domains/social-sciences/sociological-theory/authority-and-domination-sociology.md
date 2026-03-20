@@ -13,7 +13,7 @@ tags:
 - power
 - domination
 - legitimacy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

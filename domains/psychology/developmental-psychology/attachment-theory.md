@@ -18,7 +18,7 @@ tags:
 - internal working model
 - proximity seeking
 - secure base
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Attachment Theory

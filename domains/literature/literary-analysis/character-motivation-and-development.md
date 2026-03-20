@@ -16,7 +16,7 @@ tags:
 - motivation
 - dynamic character
 - static character
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

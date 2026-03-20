@@ -14,7 +14,7 @@ tags:
 - Kripke-structures
 - model-checking
 - program-verification
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

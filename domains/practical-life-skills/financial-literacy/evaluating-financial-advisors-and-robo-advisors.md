@@ -14,7 +14,7 @@ tags:
 - fees
 - fiduciary
 - management
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

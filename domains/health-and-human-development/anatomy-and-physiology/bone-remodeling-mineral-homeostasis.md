@@ -14,7 +14,7 @@ tags:
 - bone-remodeling
 - calcium-regulation
 - PTH
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

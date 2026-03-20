@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - waves
 - superposition
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

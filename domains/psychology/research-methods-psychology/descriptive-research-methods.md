@@ -25,7 +25,7 @@ tags:
 - survey
 - case-study
 - archival
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Descriptive Research Methods

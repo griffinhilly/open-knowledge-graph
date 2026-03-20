@@ -16,7 +16,7 @@ tags:
 - life
 - population
 - governance
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

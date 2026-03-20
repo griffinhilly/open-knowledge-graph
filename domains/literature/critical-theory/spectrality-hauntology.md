@@ -14,7 +14,7 @@ tags:
 - derrida
 - ghost
 - absence
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

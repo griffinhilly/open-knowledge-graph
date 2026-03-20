@@ -12,7 +12,7 @@ tags:
 - phonology
 - sound-change
 - phonological-processes
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

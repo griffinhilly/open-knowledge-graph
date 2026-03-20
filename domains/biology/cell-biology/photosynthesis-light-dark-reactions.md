@@ -18,7 +18,7 @@ tags:
 - photosynthesis
 - light-reactions
 - calvin-cycle
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

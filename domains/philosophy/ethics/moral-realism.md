@@ -19,7 +19,7 @@ tags:
 - moral-facts
 - realism
 - objectivism
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

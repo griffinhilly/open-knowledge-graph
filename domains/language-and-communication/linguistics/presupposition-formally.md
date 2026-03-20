@@ -12,7 +12,7 @@ tags:
 - semantics
 - presupposition
 - logic
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

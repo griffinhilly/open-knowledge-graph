@@ -17,7 +17,7 @@ tags:
 - ternary
 - binary
 - structure
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

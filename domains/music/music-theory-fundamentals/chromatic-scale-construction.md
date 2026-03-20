@@ -17,7 +17,7 @@ tags:
 - scale
 - twelve-tones
 - semitone
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

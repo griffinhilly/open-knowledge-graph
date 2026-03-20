@@ -30,6 +30,45 @@ Pick one month of photos on your phone or computer. Create a folder structure or
 - Deleting a photo from your phone after it syncs to the cloud often deletes it from the cloud too, because most services treat them as the same copy.
 - Screenshots, downloaded memes, and WhatsApp images clutter your photo library just as much as real photos — periodic cleanup of these low-value files is what keeps a library manageable.
 
+## Questions
+
+```yaml
+- question: "You've used Google Photos for years, assuming all your photos are stored permanently at full quality for free. What is wrong with this assumption?"
+  type: multiple-choice
+  options:
+    - "Google Photos never backs up videos, only photos"
+    - "Google Photos requires a desktop app to back up at full quality"
+    - "Free Google Photos storage compresses originals and has storage limits, so you may lose quality or run out of space"
+    - "Photos are only backed up when you are connected to Wi-Fi"
+  answer: 2
+  explanation: "Free Google Photos accounts compress images (unless you pay for original-quality storage) and count toward your Google account's storage limit. This is one of the most common misconceptions about cloud photo services — users assume 'synced' means 'safely preserved at original quality forever,' but the free tier trades storage space for compression and is not unlimited."
+
+- question: "You confirm that a photo has synced to Google Photos, then delete it from your phone's camera roll. What most likely happens?"
+  type: multiple-choice
+  options:
+    - "The photo remains in Google Photos because the cloud copy is independent of the device"
+    - "The photo is deleted from Google Photos too, because cloud services mirror your device"
+    - "The photo moves to a 'Recently Deleted' folder only on your device and stays in Google Photos"
+    - "Nothing happens — you cannot delete synced photos from a phone"
+  answer: 1
+  explanation: "Most cloud photo services treat the device and cloud as synchronized mirrors, not independent copies. Deleting from one propagates to the other. This surprises many users who believe the cloud copy is a separate, protected backup. The distinction matters: syncing is not the same as backing up. A true backup is a copy you control independently — the 3-2-1 rule (local + cloud + offline) addresses this."
+
+- question: "EXIF metadata embedded in a photo file includes information like the date taken, GPS coordinates, and camera settings, independently of the filename or folder it's stored in."
+  type: true-false
+  answer: true
+  explanation: "EXIF (Exchangeable Image File Format) data is a standardized block embedded inside the photo file itself, written by the camera or phone at capture time. It persists regardless of what you name the file or where you put it, which is why apps like Google Photos can sort unsorted archives by date and show photos on a map without relying on folder structure. This metadata layer is what makes intelligent photo organization possible."
+
+- question: "Cloud photo services like iCloud and Google Photos guarantee that your original-quality photos are stored permanently at no cost."
+  type: true-false
+  answer: false
+  explanation: "Both iCloud and Google Photos offer limited free storage and compress originals unless you pay for premium plans. Google Photos ended its unlimited free original-quality storage in 2021. 'Unlimited free storage' offers typically involve compression. For permanent, original-quality preservation, you need either paid cloud storage or local copies — ideally both, following the 3-2-1 backup principle."
+
+- question: "Why does understanding EXIF metadata matter for long-term photo management, beyond just organizing by date?"
+  type: short-answer
+  answer: "EXIF metadata allows software and you to sort, search, and recover photos without relying on filenames or folder structure. It enables map views, timeline sorting, and deduplication tools to work on unsorted archives. When migrating between platforms — say, from Google Photos to iCloud — understanding that the metadata travels with the file means you can preserve date and location information regardless of how the files are named. Without understanding metadata, you become locked into whichever app originally managed your library."
+  explanation: "The deeper point is that metadata separates passive users of photo apps from people who control their own archive. If your photo app shuts down, changes pricing, or corrupts its database, your photos are only recoverable if you understand that the organizing information is embedded in the files themselves — not just in the app's database."
+```
+
 ## Explainer
 
 From your work on file system basics, you know that files live in a hierarchical directory structure — folders nested within folders, each file identified by a path. You also understand that file organization is a design problem: the structure you choose determines how easily you can find things later. Photo and video organization applies these principles to one of the most personal and rapidly-growing collections of digital files most people manage.

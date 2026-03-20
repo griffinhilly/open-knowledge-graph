@@ -15,7 +15,7 @@ tags:
 - city-states
 - governance
 - politics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

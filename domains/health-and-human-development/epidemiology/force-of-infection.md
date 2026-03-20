@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: disease-frequency-measures
   type: soft
-builds-toward:
-- age-structured-epidemiological-models
+builds-toward: []
 tags:
 - transmission-rate
 - contact-patterns
@@ -19,7 +18,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Force of Infection
 
 ## Core Idea

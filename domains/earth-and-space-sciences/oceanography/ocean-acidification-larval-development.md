@@ -14,7 +14,7 @@ tags:
 - sensory-disruption
 - recruitment-failure
 - metabolic-cost
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

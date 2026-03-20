@@ -15,7 +15,7 @@ tags:
 - fiscal-policy
 - unemployment-insurance
 - progressive-taxes
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - stroke volume
 - regulation
 - exercise
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

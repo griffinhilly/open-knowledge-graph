@@ -10,7 +10,7 @@ tags:
 - quantum
 - atoms
 - periodic-table
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -11,7 +11,7 @@ tags:
 - displacement
 - urban-change
 - housing
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

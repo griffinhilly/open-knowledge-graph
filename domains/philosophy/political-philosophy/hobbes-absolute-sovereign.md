@@ -16,7 +16,7 @@ tags:
 - sovereignty
 - social-contract
 - authority
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

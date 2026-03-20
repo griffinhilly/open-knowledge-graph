@@ -17,7 +17,7 @@ tags:
 - viral-classification
 - genome-types
 - viral-structure
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

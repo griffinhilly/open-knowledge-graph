@@ -14,7 +14,7 @@ tags:
 - general equilibrium
 - efficiency
 - exchange
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

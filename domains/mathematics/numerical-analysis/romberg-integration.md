@@ -12,7 +12,7 @@ tags:
 - romberg
 - integration
 - extrapolation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

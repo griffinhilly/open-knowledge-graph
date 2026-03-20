@@ -17,7 +17,7 @@ tags:
 - acid
 - pepsin
 - digestion
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

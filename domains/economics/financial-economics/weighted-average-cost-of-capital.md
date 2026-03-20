@@ -12,7 +12,7 @@ tags:
 - corporate-finance
 - discount-rate
 - capital-structure
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

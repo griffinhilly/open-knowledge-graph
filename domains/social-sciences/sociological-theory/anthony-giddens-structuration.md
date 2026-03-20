@@ -11,7 +11,7 @@ tags:
 - structuration
 - agency
 - structure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

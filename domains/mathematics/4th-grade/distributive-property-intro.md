@@ -26,6 +26,45 @@ Use arrays and area models: a 7-by-14 array can be split into a 7-by-10 and a 7-
 - Distributing only to the first addend (computing 4 x (10 + 3) as 4 x 10 + 3 = 43).
 - Confusing distributive property with other properties (commutative, associative).
 
+## Questions
+
+```yaml
+- question: "A student solves 6 × (10 + 4) by writing: 6 × 10 + 4 = 64. What error did she make?"
+  type: multiple-choice
+  options:
+    - "She should have subtracted 4 instead of adding at the end"
+    - "She correctly distributed 6 to 10, but forgot to also multiply 6 by 4"
+    - "She should have added 10 + 4 first to get 14, then multiplied 6 × 14"
+    - "She applied the wrong property; this requires the commutative property"
+  answer: 1
+  explanation: "The student distributed 6 to the first addend (10) but left the second addend (4) unchanged instead of multiplying it by 6. The correct application is 6 × 10 + 6 × 4 = 60 + 24 = 84. This is the most common distributive property error: the outside multiplier must reach every term inside the parentheses, not just the first one."
+
+- question: "An area model for 8 × 15 splits the rectangle into an 8-by-10 and an 8-by-5 section. Which equation does this model represent?"
+  type: multiple-choice
+  options:
+    - "8 × 15 = 8 × 10 + 5"
+    - "8 × 15 = (8 + 10) × (8 + 5)"
+    - "8 × 15 = 8 × 10 + 8 × 5"
+    - "8 × 15 = 8 + 10 × 8 + 5"
+  answer: 2
+  explanation: "The area model splits the large rectangle (8 × 15) into two smaller rectangles: one with dimensions 8 × 10 and one with 8 × 5. The total area is the sum of the two parts: 80 + 40 = 120. This matches a × (b + c) = a × b + a × c, where a = 8, b = 10, c = 5. Option A shows the classic error of distributing only to the first term."
+
+- question: "The distributive property allows you to break one multiplication problem into two easier ones, as long as the two parts you use add back up to the original number."
+  type: true-false
+  answer: true
+  explanation: "This is precisely the property's power: you can decompose one factor into any sum (e.g., 14 = 10 + 4, or 14 = 7 + 7, or 14 = 12 + 2), multiply each part by the outside number, and add the results. The only requirement is that the parts sum to the original factor. Each valid decomposition produces the same correct answer."
+
+- question: "In the expression 5 × (20 + 3), you only need to multiply 5 by 20, because 3 is just added at the end anyway."
+  type: true-false
+  answer: false
+  explanation: "The 3 must also be multiplied by 5. The correct expansion is 5 × 20 + 5 × 3 = 100 + 15 = 115. Treating 5 × (20 + 3) as 5 × 20 + 3 = 103 is a common error that undercounts by 12. Every term inside the parentheses must receive the outside multiplier — think of it as 5 groups of (20 + 3): every group contains both a 20 and a 3."
+
+- question: "Use an equal-groups story to explain why the distributive property requires multiplying the outside number by every term inside the parentheses, not just the first one."
+  type: short-answer
+  answer: "Imagine 4 bags, and each bag contains 10 apples and 3 oranges. The total fruit is 4 × (10 + 3). To count all the fruit, you need 4 groups of apples (4 × 10 = 40) AND 4 groups of oranges (4 × 3 = 12). If you only multiplied 4 by the apples and just added 3 for the oranges, you'd have 43 instead of 52 — missing 9 oranges. Every group has all the parts, so every part must be multiplied by the number of groups: 40 + 12 = 52."
+  explanation: "The equal-groups story makes the necessity of full distribution concrete. Each of the 4 groups contains both a 10-piece and a 3-piece; the outside multiplier (4) belongs to every element in every group. Partial distribution is like counting only some of the items in each group."
+```
+
 ## Explainer
 
 You know how to multiply by multiples of ten — 7 × 10 = 70, 7 × 20 = 140. But what about 7 × 14? That is not a multiple of ten, and it might not be a fact you have memorized. The **distributive property** is the strategy that makes unfamiliar multiplication problems solvable by splitting them into easier ones you already know.

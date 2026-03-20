@@ -12,7 +12,7 @@ tags:
 - hieroglyphics
 - script
 - language
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

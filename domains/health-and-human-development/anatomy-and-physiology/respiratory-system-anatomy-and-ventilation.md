@@ -13,7 +13,7 @@ tags:
 - lungs
 - diaphragm
 - ventilation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - logic
 - finite-model-theory
 - characterization
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

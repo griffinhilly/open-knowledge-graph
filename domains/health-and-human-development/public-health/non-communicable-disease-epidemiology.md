@@ -14,7 +14,7 @@ tags:
 - risk-factors
 - prevention
 - multifactorial
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

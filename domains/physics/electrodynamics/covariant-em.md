@@ -12,7 +12,7 @@ tags:
 - relativity
 - four-vectors
 - covariance
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

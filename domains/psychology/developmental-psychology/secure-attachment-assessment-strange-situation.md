@@ -16,7 +16,7 @@ tags:
 - assessment
 - caregiver-infant
 - reunion-separation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - consistency
 - availability
 - durability
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

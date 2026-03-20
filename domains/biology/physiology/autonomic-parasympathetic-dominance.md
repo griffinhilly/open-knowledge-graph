@@ -18,7 +18,7 @@ tags:
 - sympathetic
 - tone
 - balance
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

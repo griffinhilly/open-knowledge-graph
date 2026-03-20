@@ -19,7 +19,7 @@ tags:
 - sleep
 - memory
 - consolidation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - phrase-structure
 - voice-leading
 - rhythm
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

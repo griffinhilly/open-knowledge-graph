@@ -15,7 +15,7 @@ tags:
 - cell-wall
 - classification
 - bacterial-structure
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

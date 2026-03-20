@@ -16,7 +16,7 @@ tags:
 - hemodynamics
 - output
 - regulation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

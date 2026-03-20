@@ -12,7 +12,7 @@ tags:
 - meiosis
 - oocyte-arrest
 - cell-cycle
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

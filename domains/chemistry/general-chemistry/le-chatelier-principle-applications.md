@@ -13,7 +13,7 @@ tags:
 - equilibrium
 - stress
 - shift
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

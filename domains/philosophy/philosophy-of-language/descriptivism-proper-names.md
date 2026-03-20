@@ -16,7 +16,7 @@ tags:
 - descriptions
 - reference
 - semantics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

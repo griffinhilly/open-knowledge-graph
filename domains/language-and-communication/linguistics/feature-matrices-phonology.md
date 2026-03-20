@@ -15,7 +15,7 @@ tags:
 - phonology
 - features
 - formalism
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

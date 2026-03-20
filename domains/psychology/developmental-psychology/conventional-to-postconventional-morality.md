@@ -13,7 +13,7 @@ tags:
 - kohlberg
 - postconventional
 - adolescence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

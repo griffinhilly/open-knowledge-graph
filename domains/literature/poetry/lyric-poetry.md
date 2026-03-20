@@ -16,7 +16,7 @@ tags:
 - emotion
 - meditation
 - voice
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

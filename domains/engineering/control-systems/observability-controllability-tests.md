@@ -15,7 +15,7 @@ tags:
 - observability
 - rank-test
 - gramian
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

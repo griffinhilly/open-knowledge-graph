@@ -25,7 +25,7 @@ tags:
 - structure determination
 - 1H NMR
 - 13C NMR
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

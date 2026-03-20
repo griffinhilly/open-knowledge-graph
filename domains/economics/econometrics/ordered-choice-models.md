@@ -13,7 +13,7 @@ tags:
 - ordinal
 - logit
 - probit
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

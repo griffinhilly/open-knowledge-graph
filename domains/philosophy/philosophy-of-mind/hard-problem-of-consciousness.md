@@ -19,7 +19,7 @@ tags:
 - Chalmers
 - explanatory-gap
 - consciousness
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

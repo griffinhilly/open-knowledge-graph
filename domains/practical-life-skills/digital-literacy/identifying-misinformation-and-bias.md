@@ -29,6 +29,45 @@ Look for sensational headlines and check if articles support them. Examine suspi
 - All bias is intentional deception. (Some bias is unconscious.)
 - Official-looking emails are always from the company. (Phishing emails are designed to look official.)
 
+## Questions
+
+```yaml
+- question: "A news article about a proposed immigration policy contains only verifiable statistics — every factual claim checks out. A friend says, 'This article is definitely unbiased because everything in it is true.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Nothing — factual accuracy is what distinguishes unbiased from biased reporting"
+    - "The article could still be biased through selective framing: which facts were included, whose voices were quoted, and what context was provided or omitted"
+    - "The article is only biased if the author had a stated political affiliation"
+    - "Bias only applies to opinion articles, not fact-based reporting"
+  answer: 1
+  explanation: "The key insight is that bias operates through selection and framing, not just through false statements. A piece can contain only accurate facts and still present a systematically distorted picture by choosing which facts to include, what language to use, and whose perspectives to amplify or exclude. This is why the text says 'just check if it's true' is insufficient for detecting bias — you must also ask who is quoted, who is absent, and how language frames the issue."
+
+- question: "You receive an urgent email claiming to be from your bank, warning that your account will be suspended in 24 hours unless you click a link to verify your identity. What is the most important first step?"
+  type: multiple-choice
+  options:
+    - "Reply to the email to confirm your identity before the deadline"
+    - "Call the number listed in the email immediately"
+    - "Go directly to your bank's official website — not via the link — to check your account status"
+    - "Forward the email to friends to see if they received the same message"
+  answer: 2
+  explanation: "The correct response is to verify through an independent channel — going directly to the institution rather than using anything in the suspicious message. Phishing exploits urgency ('24 hours') to bypass careful thinking. The link, phone number, and sender address in a phishing email may all be fraudulent. Navigating independently to the bank's known website eliminates the risk of following a malicious link while still letting you verify whether the alert is real."
+
+- question: "A photograph showing real violence can still be used as a form of misinformation if it is presented as depicting a different event than the one it actually shows."
+  type: true-false
+  answer: true
+  explanation: "This is a common technique: using authentic images out of context to support false claims. The photograph itself is real — the misinformation lies in the false framing. Reverse image search is specifically useful for catching this technique, because it lets you trace the photograph back to its original context and publication date. Authenticity of the image does not guarantee accuracy of the claim it is used to support."
+
+- question: "The most reliable defense against online bias is finding a single authoritative neutral news source and relying on it consistently."
+  type: true-false
+  answer: false
+  explanation: "The text explicitly states that no truly neutral source exists. The goal is not to find one unbiased source but to triangulate across multiple perspectives — reading coverage of the same event from outlets with different political leanings, then identifying where they diverge. That divergence reveals the framing choices each outlet makes. Relying on a single 'authoritative' source actually increases bias risk because you absorb one outlet's selection and framing choices uncritically."
+
+- question: "Why is 'just check if it's true' an insufficient strategy for evaluating a news article, even when the facts it contains are all accurate?"
+  type: short-answer
+  answer: "Because bias operates through selection and framing rather than through false statements. An article can be technically accurate but still mislead by choosing which facts to highlight, which voices to quote, what language to use, and what context to include or omit. Detecting this kind of bias requires different questions: Who funded the outlet? Whose perspectives are present and whose are absent? Are both sides described in neutral language or charged language? Truth-checking alone cannot reveal these structural choices."
+  explanation: "Misinformation and bias require different detection tools. Misinformation calls for fact-checking and source-tracing. Bias calls for comparison across perspectives and analysis of framing. Treating them as the same problem — solvable by checking facts — leaves readers vulnerable to accurate-but-misleading content."
+```
+
 ## Explainer
 
 From evaluating online information, you know how to assess a source's basic credibility — checking who wrote something, where it was published, when, and why. Misinformation and bias are the next layer of complexity: problems that can appear even in content that passes basic credibility checks, and that require a different set of questions to detect. The three problems covered here — misinformation, bias, and phishing — require related but distinct skills.

@@ -18,7 +18,7 @@ tags:
 - rewards
 - debt
 - strategy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -9,18 +9,16 @@ prerequisites:
 - id: feminist-aesthetics-and-the-female-gaze
   type: hard
 builds-toward:
-- emotion-in-aesthetic-judgment
-- aesthetics-and-moral-philosophy
+  - aesthetics-and-moral-philosophy
 tags:
 - queer-theory
 - sexuality
 - aesthetics
 - gender
 - desire
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Queer Aesthetics
 
 ## Core Idea

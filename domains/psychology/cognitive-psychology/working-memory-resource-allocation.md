@@ -13,7 +13,7 @@ tags:
 - resources
 - allocation
 - competition
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - industrial-organization
 - sequential-games
 - first-mover-advantage
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

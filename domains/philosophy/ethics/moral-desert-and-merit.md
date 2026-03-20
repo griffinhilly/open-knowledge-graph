@@ -11,7 +11,7 @@ tags:
 - merit
 - justice
 - responsibility
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

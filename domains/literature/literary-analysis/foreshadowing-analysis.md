@@ -17,7 +17,7 @@ tags:
 - flashback
 - narrative
 - technique
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

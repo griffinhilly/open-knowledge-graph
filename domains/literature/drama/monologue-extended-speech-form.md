@@ -16,7 +16,7 @@ tags:
 - character
 - address
 - revelation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

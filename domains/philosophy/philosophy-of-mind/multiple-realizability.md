@@ -18,7 +18,7 @@ tags:
 - Putnam
 - reduction
 - special-sciences
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

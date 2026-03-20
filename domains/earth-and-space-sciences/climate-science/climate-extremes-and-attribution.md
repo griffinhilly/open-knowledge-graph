@@ -11,8 +11,7 @@ prerequisites:
 - id: severe-weather-systems
   type: soft
 builds-toward:
-- regional-climate-downscaling
-- climate-extremes-and-attribution
+  - regional-climate-downscaling
 tags:
 - extremes
 - attribution
@@ -22,7 +21,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Climate Extremes and Event Attribution
 
 ## Core Idea

@@ -17,7 +17,7 @@ tags:
 - instrumental-value
 - pluralism
 - incommensurability
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

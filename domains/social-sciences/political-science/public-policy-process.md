@@ -24,7 +24,7 @@ tags:
 - policy cycle
 - implementation
 - evaluation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # The Public Policy Process

@@ -13,7 +13,7 @@ tags:
 - water-balance
 - aquaporins
 - homeostasis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

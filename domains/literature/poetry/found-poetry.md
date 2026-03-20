@@ -13,7 +13,7 @@ tags:
 - existing-text
 - erasure
 - transformation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -22,7 +22,7 @@ tags:
 - foundations
 - linear-algebra
 - functional-analysis
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

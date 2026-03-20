@@ -28,7 +28,7 @@ tags:
 - Turing
 - computational
 - mental-states
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

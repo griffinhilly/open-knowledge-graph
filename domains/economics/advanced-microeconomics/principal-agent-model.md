@@ -15,7 +15,7 @@ tags:
 - contract-theory
 - delegation
 - incentives
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

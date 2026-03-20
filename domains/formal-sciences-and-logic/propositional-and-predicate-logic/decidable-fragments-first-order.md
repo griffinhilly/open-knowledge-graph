@@ -12,7 +12,7 @@ tags:
 - first-order-logic
 - decidability
 - computational-complexity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

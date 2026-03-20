@@ -16,7 +16,7 @@ tags:
 - verisimilitude
 - mimesis
 - representation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

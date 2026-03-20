@@ -14,7 +14,7 @@ tags:
 - stress
 - momentum
 - radiation-pressure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - representation
 - search
 - heuristics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

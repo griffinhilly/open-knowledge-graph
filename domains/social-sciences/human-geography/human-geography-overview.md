@@ -18,7 +18,7 @@ tags:
 - introduction
 - spatial
 - human-environment
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

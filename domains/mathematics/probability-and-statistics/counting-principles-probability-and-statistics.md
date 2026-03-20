@@ -3,7 +3,9 @@ id: counting-principles-probability-and-statistics
 title: Counting Principles
 domain: mathematics
 course: probability-and-statistics
-prerequisites: []
+prerequisites:
+- id: probability-axioms
+  type: soft
 builds-toward:
 - combinations
 - permutations
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Counting Principles
 
 ## Core Idea

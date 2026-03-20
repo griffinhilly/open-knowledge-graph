@@ -12,7 +12,7 @@ tags:
 - contract-theory
 - screening
 - self-selection
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

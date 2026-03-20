@@ -16,7 +16,7 @@ tags:
 - structure
 - design
 - composition
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - mutation
 - immutability
 - data
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

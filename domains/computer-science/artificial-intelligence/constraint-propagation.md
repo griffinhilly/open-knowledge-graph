@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: algorithm-design-basics
   type: soft
-builds-toward:
-- backtracking-search-csp
+builds-toward: []
 tags:
 - constraints
 - csp
@@ -18,7 +17,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Constraint Propagation
 
 ## Core Idea

@@ -13,7 +13,7 @@ tags:
 - society-types
 - macro-sociology
 - evolution
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

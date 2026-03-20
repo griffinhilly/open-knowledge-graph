@@ -16,7 +16,7 @@ tags:
 - motivations
 - trade
 - empire
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

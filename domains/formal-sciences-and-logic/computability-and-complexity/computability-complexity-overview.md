@@ -3,7 +3,9 @@ id: computability-complexity-overview
 title: 'Computability and Complexity: Overview and Connections'
 domain: formal-sciences-and-logic
 course: computability-and-complexity
-prerequisites: []
+prerequisites:
+- id: mu-recursive-functions
+  type: soft
 builds-toward:
 - formal-computational-models
 - undecidable-problems-examples
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Computability and Complexity: Overview and Connections
 
 ## Core Idea

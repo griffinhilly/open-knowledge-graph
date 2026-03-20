@@ -20,7 +20,7 @@ tags:
 - doing-allowing
 - doctrine-of-double-effect
 - moral-intuition
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # The Trolley Problem and Doing/Allowing

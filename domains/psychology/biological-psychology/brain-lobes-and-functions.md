@@ -23,7 +23,7 @@ tags:
 - temporal-lobe
 - occipital-lobe
 - cortex
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

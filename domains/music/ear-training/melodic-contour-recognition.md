@@ -16,7 +16,7 @@ tags:
 - contour
 - direction
 - ear training
-stage: pre-formal
+stage: formal-systems
 status: validated
 ---
 

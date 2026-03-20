@@ -14,7 +14,7 @@ tags:
 - rotation
 - vortex
 - circulation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

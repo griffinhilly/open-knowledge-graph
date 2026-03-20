@@ -20,7 +20,7 @@ tags:
 - beta-oxidation
 - ketone-bodies
 - energy-metabolism
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

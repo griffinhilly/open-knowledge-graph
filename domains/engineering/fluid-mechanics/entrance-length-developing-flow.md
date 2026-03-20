@@ -14,7 +14,7 @@ tags:
 - hydrodynamic entry region
 - velocity profile development
 - entrance effects
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 # Entrance Length and Developing Flow

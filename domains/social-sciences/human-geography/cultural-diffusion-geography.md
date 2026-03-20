@@ -20,7 +20,7 @@ tags:
 - hierarchical diffusion
 - stimulus diffusion
 - relocation diffusion
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

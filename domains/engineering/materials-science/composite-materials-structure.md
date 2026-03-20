@@ -13,7 +13,7 @@ tags:
 - fiber-reinforcement
 - matrix
 - multiphase
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

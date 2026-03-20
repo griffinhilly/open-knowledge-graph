@@ -12,7 +12,7 @@ tags:
 - production-function
 - inputs
 - isoquants
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

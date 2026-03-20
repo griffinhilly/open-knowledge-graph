@@ -14,7 +14,7 @@ tags:
 - egocentrism
 - social-anxiety
 - self-consciousness
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

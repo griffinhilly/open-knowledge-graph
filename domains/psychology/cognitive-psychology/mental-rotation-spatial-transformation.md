@@ -11,7 +11,7 @@ tags:
 - spatial
 - rotation
 - transformation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

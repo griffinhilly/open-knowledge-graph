@@ -15,7 +15,7 @@ tags:
 - newton-method
 - root-finding
 - convergence
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -21,7 +21,7 @@ tags:
 - meditation
 - altered-states
 - anesthesia
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # States of Consciousness

@@ -12,7 +12,7 @@ tags:
 - fermentation
 - biotechnology
 - production
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

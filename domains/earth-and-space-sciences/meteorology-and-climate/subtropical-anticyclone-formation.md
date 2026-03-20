@@ -18,7 +18,7 @@ tags:
 - circulation
 - subtropical
 - descending-air
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

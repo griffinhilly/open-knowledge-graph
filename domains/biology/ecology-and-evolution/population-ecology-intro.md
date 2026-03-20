@@ -19,7 +19,7 @@ tags:
 - demography
 - density
 - distribution
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - troposphere
 - stratosphere
 - composition
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

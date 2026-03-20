@@ -17,7 +17,7 @@ tags:
 - expansion
 - trade
 - settlement
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

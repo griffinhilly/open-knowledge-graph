@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: modal-semantics-necessity-possibility
   type: hard
-builds-toward:
-- de-re-de-dicto-distinction
+builds-toward: []
 tags:
 - intensionality
 - possible-worlds
@@ -17,7 +16,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Intensionality and Possible Worlds Semantics
 
 ## Core Idea

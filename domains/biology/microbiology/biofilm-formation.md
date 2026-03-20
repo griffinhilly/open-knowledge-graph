@@ -22,7 +22,7 @@ tags:
 - chronic infection
 - medical device
 - antibiotic tolerance
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

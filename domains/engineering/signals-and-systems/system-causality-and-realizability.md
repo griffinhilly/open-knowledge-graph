@@ -3,7 +3,9 @@ id: system-causality-and-realizability
 title: System Causality and Realizability Constraints
 domain: engineering
 course: signals-and-systems
-prerequisites: []
+prerequisites:
+- id: orthogonal-signal-decomposition-basis
+  type: soft
 builds-toward:
 - lti-systems-and-impulse-response
 - transfer-functions-control
@@ -15,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # System Causality and Realizability Constraints
 
 ## Core Idea

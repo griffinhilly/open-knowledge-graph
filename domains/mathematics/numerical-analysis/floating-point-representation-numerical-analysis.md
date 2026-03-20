@@ -3,7 +3,9 @@ id: floating-point-representation-numerical-analysis
 title: Floating Point Representation
 domain: mathematics
 course: numerical-analysis
-prerequisites: []
+prerequisites:
+- id: machine-epsilon
+  type: soft
 builds-toward:
 - machine-epsilon
 - rounding-errors
@@ -11,10 +13,9 @@ tags:
 - floating-point
 - representation
 - computer-arithmetic
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Floating Point Representation
 
 ## Core Idea

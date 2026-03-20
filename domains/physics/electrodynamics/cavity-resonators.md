@@ -12,7 +12,7 @@ tags:
 - cavities
 - resonators
 - standing-waves
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

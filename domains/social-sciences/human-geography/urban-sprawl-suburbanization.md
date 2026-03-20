@@ -15,7 +15,7 @@ tags:
 - cities
 - land-use
 - inequality
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

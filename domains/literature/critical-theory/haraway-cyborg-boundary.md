@@ -16,7 +16,7 @@ tags:
 - posthuman
 - technology
 - hybridity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

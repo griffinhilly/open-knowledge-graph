@@ -15,7 +15,7 @@ tags:
 - metaethics
 - constructivism
 - idealization
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

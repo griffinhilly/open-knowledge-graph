@@ -16,7 +16,7 @@ tags:
 - markets
 - economics
 - industrial-production
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

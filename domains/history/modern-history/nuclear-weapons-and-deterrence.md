@@ -13,7 +13,7 @@ tags:
 - deterrence
 - strategy
 - cold-war
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

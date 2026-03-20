@@ -13,7 +13,7 @@ tags:
 - education
 - printing
 - knowledge
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

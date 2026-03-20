@@ -15,7 +15,7 @@ tags:
 - pacing
 - resolution
 - denouement
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

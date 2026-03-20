@@ -28,6 +28,45 @@ Trace a real psychological discovery (e.g., Pavlov's conditioning) through each 
 - Theories in science are not 'just guesses' — they are well-supported explanations backed by evidence.
 - A single study rarely 'proves' anything; converging evidence across multiple studies builds scientific consensus.
 
+## Questions
+
+```yaml
+- question: "A psychology lab publishes a single study showing that classical music played for 10 minutes improves math test scores. A journalist reports: 'Science has proven that classical music makes you smarter.' What is most wrong with this conclusion?"
+  type: multiple-choice
+  options:
+    - "The study was not peer-reviewed, so it counts as anecdote rather than data"
+    - "A single study is insufficient to establish scientific consensus; converging evidence from multiple replications is required"
+    - "Music and intelligence are unrelated domains, so the study must contain a methodological flaw"
+    - "Inferential statistics can show correlation but can never speak to academic performance"
+  answer: 1
+  explanation: "Scientific consensus requires converging evidence across many independent replications — not a single study, however well-designed. A single result may reflect sampling artifacts, measurement quirks, or chance. The journalist's language ('proven') bypasses the probabilistic and iterative nature of scientific inference entirely."
+
+- question: "A psychologist proposes: 'People sometimes act because of unconscious desires; when they don't act on those desires, they repress them instead.' Why do critics argue this theory is unscientific?"
+  type: multiple-choice
+  options:
+    - "The theory deals with unobservable mental processes that cannot be measured"
+    - "The theory predicts contradictory outcomes — both action and inaction — so no result could falsify it"
+    - "The theory was formulated before modern statistical methods existed"
+    - "Unconscious processes fall outside psychology's domain and belong to philosophy"
+  answer: 1
+  explanation: "A claim that can explain any possible outcome is non-falsifiable — it has no predictive content. If both acting on a desire and suppressing it confirm the theory, the theory cannot be tested or refuted. Option A is tempting but misses the point: the problem is logical (no possible disconfirmation), not merely empirical."
+
+- question: "In science, the word 'theory' refers to a well-tested explanatory framework supported by extensive evidence — not a guess or speculation."
+  type: true-false
+  answer: true
+  explanation: "This is a critical distinction between scientific and everyday language. 'Gravity,' 'evolution,' and 'learning' are theories in the scientific sense — comprehensive explanatory systems that organize and predict observations across many conditions. The popular meaning of 'theory' as 'mere conjecture' is the opposite of the scientific meaning."
+
+- question: "Because the scientific method relies on systematic observation and data, it produces definitive, certain conclusions about the phenomena it studies."
+  type: true-false
+  answer: false
+  explanation: "Scientific conclusions are always probabilistic, not certain. A p-value tells you how surprising the data would be under the null hypothesis — it does not certify truth. More importantly, the scientific method is specifically designed for error correction, not certainty: hypotheses, tests, and revisions are structured so that mistakes can be caught and theories updated. Certainty is not the goal; progressive refinement is."
+
+- question: "Why is falsifiability considered an essential criterion for a scientific hypothesis?"
+  type: short-answer
+  answer: "A falsifiable hypothesis specifies conditions under which it could be proven wrong. Without this, a claim can accommodate any possible outcome — which means it makes no genuine predictions and cannot be tested. Science advances by eliminating bad explanations, and only falsifiable claims can be eliminated. A hypothesis that fits every possible result explains nothing."
+  explanation: "The falsifiability criterion (associated with Karl Popper) is what separates scientific claims from metaphysical or rhetorical ones. 'People sometimes feel anxious' is unfalsifiable — there's no conceivable observation that could disprove it. 'Social anxiety scores increase with group size as measured by X scale' is falsifiable: you could collect data and find no such increase. The second is a scientific hypothesis; the first is not."
+```
+
 ## Explainer
 
 Before the scientific method existed as a formal practice, humans explained behavior through storytelling, religious doctrine, and intuition — methods that feel compelling but are systematically unreliable. The power of the scientific method is not that it produces certainty, but that it builds in mechanisms for *error correction*. Every step in the cycle — hypothesis, test, analysis, revision — is designed to catch mistakes that intuition would never notice. Psychology adopted this framework to study the most difficult object in nature: the human mind, which is subjective, context-dependent, and prone to self-report distortions.

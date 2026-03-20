@@ -20,7 +20,7 @@ tags:
 - ear-training
 - solfege
 - diatonic
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

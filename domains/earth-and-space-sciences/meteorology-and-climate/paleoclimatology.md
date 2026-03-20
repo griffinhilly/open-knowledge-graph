@@ -25,7 +25,7 @@ tags:
 - foraminifera
 - Milankovitch
 - proxy-records
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Paleoclimatology and Climate Proxies

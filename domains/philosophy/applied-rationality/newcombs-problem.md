@@ -11,7 +11,7 @@ prerequisites:
 builds-toward:
   - causal-vs-evidential-decision-theory
 tags: ["decision-theory", "thought-experiment", "newcomb", "rationality"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

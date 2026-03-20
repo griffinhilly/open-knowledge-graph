@@ -17,7 +17,7 @@ tags:
 - deviance-sociology
 - social-control
 - structural-causes
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

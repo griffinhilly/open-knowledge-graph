@@ -17,7 +17,7 @@ tags:
 - knowledge
 - explanatory-gap
 - phenomenal
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

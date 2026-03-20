@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: context-switching-and-cpu-dispatch
   type: soft
-builds-toward:
-- atomic-operations-and-compare-swap
+builds-toward: []
 tags:
 - synchronization
 - locks
@@ -17,7 +16,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Spinlocks and Busy-Waiting Synchronization
 
 ## Core Idea

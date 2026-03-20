@@ -16,7 +16,7 @@ tags:
 - focal point
 - center of curvature
 - real image
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

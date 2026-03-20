@@ -12,7 +12,7 @@ tags:
 - convergence
 - error-reduction
 - rates
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

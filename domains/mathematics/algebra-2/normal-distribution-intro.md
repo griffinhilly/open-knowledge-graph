@@ -14,7 +14,7 @@ tags:
 - normal-distribution
 - bell-curve
 - standard-deviation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Normal Distribution Introduction

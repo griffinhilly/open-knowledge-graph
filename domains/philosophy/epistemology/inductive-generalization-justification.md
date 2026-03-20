@@ -13,7 +13,7 @@ tags:
 - generalization
 - inductive-inference
 - justification
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

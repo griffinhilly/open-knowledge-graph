@@ -13,7 +13,7 @@ prerequisites:
 tags:
 - applications
 - physics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

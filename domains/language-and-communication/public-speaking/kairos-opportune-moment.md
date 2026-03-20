@@ -15,7 +15,7 @@ tags:
 - context
 - readiness
 - persuasion
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

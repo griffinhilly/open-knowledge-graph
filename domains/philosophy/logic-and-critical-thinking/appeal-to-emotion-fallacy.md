@@ -12,7 +12,7 @@ tags:
 - ad-misericordiam
 - fallacies
 - relevance
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

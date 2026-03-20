@@ -15,7 +15,7 @@ tags:
 - product differentiation
 - excess capacity
 - zero profit
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

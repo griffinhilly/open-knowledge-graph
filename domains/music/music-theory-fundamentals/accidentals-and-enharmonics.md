@@ -18,7 +18,7 @@ tags:
 - flats
 - enharmonic
 - notation
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

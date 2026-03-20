@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: constructivism-wendt
   type: soft
-builds-toward:
-- sovereignty-westphalian-state-system
+builds-toward: []
 tags:
 - recognition
 - legitimacy
@@ -19,7 +18,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # State Recognition and International Legitimacy
 
 ## Core Idea

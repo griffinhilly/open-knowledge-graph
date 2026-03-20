@@ -13,7 +13,7 @@ tags:
 - composition
 - synthesis
 - technology
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

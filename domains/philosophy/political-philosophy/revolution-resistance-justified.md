@@ -16,7 +16,7 @@ tags:
 - resistance
 - tyranny
 - overthrow
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

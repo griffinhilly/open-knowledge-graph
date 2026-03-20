@@ -15,7 +15,7 @@ tags:
 - belief-systems
 - religion
 - metaphysics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

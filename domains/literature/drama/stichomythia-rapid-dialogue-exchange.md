@@ -22,7 +22,7 @@ tags:
 - tension
 - rhythm
 - verse
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

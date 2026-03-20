@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - radiation-reaction
 - abraham-lorentz
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

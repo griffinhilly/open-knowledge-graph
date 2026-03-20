@@ -16,7 +16,7 @@ tags:
 - inquiry
 - fallibilism
 - truth
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 # Pragmatist Epistemology

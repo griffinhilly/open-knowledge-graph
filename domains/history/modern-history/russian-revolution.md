@@ -17,7 +17,7 @@ tags:
 - Lenin
 - communism
 - '1917'
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

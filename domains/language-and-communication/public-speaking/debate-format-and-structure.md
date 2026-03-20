@@ -21,7 +21,7 @@ tags:
 - argumentation
 - competitive
 - structure
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Debate Format and Structure

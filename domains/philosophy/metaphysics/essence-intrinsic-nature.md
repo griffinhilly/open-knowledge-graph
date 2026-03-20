@@ -13,7 +13,7 @@ tags:
 - essentialism
 - intrinsic-nature
 - identity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

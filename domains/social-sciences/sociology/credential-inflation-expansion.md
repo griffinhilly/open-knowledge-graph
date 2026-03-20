@@ -15,7 +15,7 @@ tags:
 - educational-expansion
 - credentials
 - arms-race
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

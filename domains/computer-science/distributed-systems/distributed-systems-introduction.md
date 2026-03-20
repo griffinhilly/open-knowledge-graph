@@ -13,7 +13,7 @@ tags:
 - fundamentals
 - motivation
 - challenges
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - extinction
 - small-populations
 - risk
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -26,7 +26,7 @@ tags:
 - sliding-filament
 - sarcomere
 - cross-bridge
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

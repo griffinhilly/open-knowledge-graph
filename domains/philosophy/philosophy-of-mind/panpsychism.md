@@ -15,7 +15,7 @@ tags:
 - Strawson
 - proto-consciousness
 - Russellian-monism
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

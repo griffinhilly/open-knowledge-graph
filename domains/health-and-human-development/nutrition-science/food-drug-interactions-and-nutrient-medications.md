@@ -15,7 +15,7 @@ tags:
 - medication
 - nutrient-absorption
 - side-effects
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

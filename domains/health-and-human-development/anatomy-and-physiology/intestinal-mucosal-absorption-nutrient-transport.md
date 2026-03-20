@@ -14,7 +14,7 @@ tags:
 - nutrient-absorption
 - intestinal-transport
 - brush-border
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

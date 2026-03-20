@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - neighborhoods
 - local-bases
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

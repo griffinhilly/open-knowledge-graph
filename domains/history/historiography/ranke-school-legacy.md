@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: ranke-scientific-history
   type: hard
-builds-toward:
-- historicism-concept
-- historical-objectivity-problem
+builds-toward: []
 tags:
 - history
 - methodology
@@ -18,7 +16,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Leopold von Ranke and the Scientific History Movement
 
 ## Core Idea

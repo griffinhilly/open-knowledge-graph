@@ -12,7 +12,7 @@ tags:
 - waves
 - velocity
 - calculus
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

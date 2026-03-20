@@ -26,7 +26,7 @@ tags:
 - abrupt climate change
 - AMOC
 - carbon cycle
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - gain-loss
 - risk
 - salience
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

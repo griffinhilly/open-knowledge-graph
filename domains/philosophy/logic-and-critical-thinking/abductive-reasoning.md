@@ -15,7 +15,7 @@ tags:
 - inference-to-best-explanation
 - explanation
 - scientific-reasoning
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

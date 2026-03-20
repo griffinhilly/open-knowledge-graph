@@ -15,7 +15,7 @@ tags:
 - coherence
 - flow
 - signposting
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - catalyst
 - reaction-progress
 - Ea
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 # Reaction Coordinate Diagrams

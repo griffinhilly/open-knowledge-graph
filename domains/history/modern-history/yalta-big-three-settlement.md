@@ -17,7 +17,7 @@ tags:
 - Big-Three
 - Roosevelt-Stalin-Churchill
 - settlement
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

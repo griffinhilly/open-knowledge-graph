@@ -19,7 +19,7 @@ tags:
 - power
 - decolonization
 - critique
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

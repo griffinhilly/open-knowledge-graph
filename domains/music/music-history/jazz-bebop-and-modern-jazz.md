@@ -19,7 +19,7 @@ tags:
 - modal-jazz
 - cool-jazz
 - free-jazz
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

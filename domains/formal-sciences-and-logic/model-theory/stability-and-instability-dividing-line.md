@@ -16,7 +16,7 @@ tags:
 - dividing-line
 - Shelah
 - NIP
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

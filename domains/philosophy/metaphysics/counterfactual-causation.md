@@ -18,7 +18,7 @@ tags:
 - causation
 - possible worlds
 - dependence
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Counterfactual Theory of Causation

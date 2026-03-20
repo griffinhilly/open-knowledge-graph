@@ -16,7 +16,7 @@ tags:
 - equilibrium
 - utility-max
 - consumer-choice
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

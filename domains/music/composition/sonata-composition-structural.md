@@ -17,7 +17,7 @@ tags:
 - sonata
 - structure
 - development
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - bicarbonate-reabsorption
 - acid-secretion
 - ammonia-excretion
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

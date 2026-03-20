@@ -21,7 +21,7 @@ tags:
 - Parliament
 - Cromwell
 - Bill of Rights
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

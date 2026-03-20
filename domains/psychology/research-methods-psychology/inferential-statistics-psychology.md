@@ -39,7 +39,7 @@ tags:
 - ANOVA
 - significance
 - p-value
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Inferential Statistics in Psychology

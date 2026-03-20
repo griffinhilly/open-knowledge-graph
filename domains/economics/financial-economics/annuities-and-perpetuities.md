@@ -20,7 +20,7 @@ tags:
 - perpetuity
 - cash-flow-streams
 - gordon-growth
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Annuities and Perpetuities

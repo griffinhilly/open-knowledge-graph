@@ -12,7 +12,7 @@ tags:
 - analysis
 - voice-leading
 - structure
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

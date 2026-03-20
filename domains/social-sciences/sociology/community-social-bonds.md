@@ -19,7 +19,7 @@ tags:
 - social-cohesion
 - belonging
 - alienation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

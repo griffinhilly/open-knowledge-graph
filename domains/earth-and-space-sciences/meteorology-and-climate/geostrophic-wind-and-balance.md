@@ -13,19 +13,17 @@ prerequisites:
 - id: pressure-gradient-force
   type: soft
 builds-toward:
-- thermal-wind-balance
-- geostrophic-wind-and-balance
-- upper-level-divergence-and-pressure
+  - thermal-wind-balance
+  - upper-level-divergence-and-pressure
 tags:
 - wind
 - pressure
 - balance
 - geostrophic
 - dynamics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Geostrophic Wind and Pressure-Coriolis Balance
 
 ## Core Idea

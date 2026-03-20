@@ -14,7 +14,7 @@ tags:
 - legitimacy
 - sources
 - government
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

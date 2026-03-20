@@ -19,7 +19,7 @@ tags:
 - cultural-identity
 - socialization
 - cultural-transmission
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

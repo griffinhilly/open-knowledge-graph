@@ -17,7 +17,7 @@ tags:
 - Taylor
 - community
 - liberalism-critique
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

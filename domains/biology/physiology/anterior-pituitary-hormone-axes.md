@@ -19,7 +19,7 @@ tags:
 - thyroid
 - adrenal
 - growth
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

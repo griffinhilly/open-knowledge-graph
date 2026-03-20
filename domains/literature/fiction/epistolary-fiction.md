@@ -13,7 +13,7 @@ tags:
 - letters
 - documents
 - form
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

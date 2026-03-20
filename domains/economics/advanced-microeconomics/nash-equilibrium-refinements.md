@@ -15,7 +15,7 @@ tags:
 - game-theory
 - equilibrium
 - solution-concepts
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

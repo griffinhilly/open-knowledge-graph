@@ -18,7 +18,7 @@ tags:
 - structural-causes
 - social-construction
 - social-change
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

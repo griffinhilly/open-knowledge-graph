@@ -31,6 +31,45 @@ Practice converting vague research questions ('Does stress affect memory?') into
 - A hypothesis is not a guess; it is an informed, reasoned prediction grounded in theory or prior findings.
 - Failing to reject the null hypothesis does not prove the null is true — it just means insufficient evidence was found.
 
+## Questions
+
+```yaml
+- question: "A psychologist predicts: 'Participants exposed to a time-pressure stressor will recall fewer words from a studied list than participants in a control condition.' Which property most makes this a good scientific hypothesis?"
+  type: multiple-choice
+  options:
+    - "It references a real and well-studied phenomenon (stress and memory)"
+    - "It specifies the variables and predicts a direction that observable data could contradict"
+    - "It is based on intuitive common sense about how stress affects performance"
+    - "It uses a controlled experiment, which is the gold standard of scientific design"
+  answer: 1
+  explanation: "A good hypothesis is specific, falsifiable, and grounded. Option B captures the defining quality: the hypothesis names both variables, predicts a direction (fewer words recalled), and — critically — could be proven wrong if the stressed group recalled more words or the same number. Option A describes being grounded in prior work, which is necessary but not the key property. Options C and D describe aspects of the study design, not the hypothesis itself."
+
+- question: "A study comparing two groups finds no statistically significant difference (p = 0.23). A student concludes: 'This proves the null hypothesis — there is truly no effect.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "A p-value of 0.23 is too large to interpret in either direction"
+    - "Failing to reject the null hypothesis only means insufficient evidence was found — it does not prove the null is true"
+    - "The student should accept the alternative hypothesis instead, since p > 0.05"
+    - "Statistical tests can only prove hypotheses when p < 0.01"
+  answer: 1
+  explanation: "The logic of hypothesis testing is asymmetric: you can reject H₀ (by finding data that would be very unlikely if H₀ were true), but you cannot confirm H₀ by failing to reject it. A p = 0.23 means the data are not surprising under H₀ — but that is consistent with both 'there is no effect' and 'there is an effect but the study was underpowered to detect it.' The null is never proved; it is either rejected or not rejected. This is a direct application of falsification logic."
+
+- question: "'Positive thinking improves outcomes' is a scientific hypothesis because it predicts a relationship between two real phenomena."
+  type: true-false
+  answer: false
+  explanation: "Despite sounding like a prediction, this claim is not falsifiable as stated. 'Positive thinking' and 'outcomes' are too vague to operationalize and test — what counts as positive thinking? What counts as improvement? A scientific hypothesis must be specific enough that you could describe what data would count as evidence against it. A proper version might be: 'Participants instructed to use positive self-talk before a math test will score higher than a control group.' That version names the variables, specifies the direction, and could clearly be proven wrong."
+
+- question: "A directional (one-tailed) hypothesis is statistically more powerful than a non-directional (two-tailed) hypothesis when the expected direction is justified by prior evidence."
+  type: true-false
+  answer: true
+  explanation: "When you specify a direction in advance (e.g., 'treatment group will score higher, not just differently'), all of your statistical power is concentrated in one tail of the distribution rather than split between two. This makes it easier to detect a real effect in the predicted direction. However, this is only scientifically honest when prior evidence genuinely supports that direction — using a one-tailed test to get a lower p-value after seeing which way the data went is a form of p-hacking."
+
+- question: "Why is falsifiability considered the defining property of a scientific hypothesis, rather than simply whether the prediction turns out to be accurate?"
+  type: short-answer
+  answer: "A hypothesis is falsifiable if there exist possible observations that would prove it wrong. Without this property, a claim cannot be tested — it explains everything and therefore predicts nothing. Accuracy matters too, but only if the claim was falsifiable in the first place; an unfalsifiable claim that turns out to 'match' the data has not been confirmed by science — it was never at risk of being disconfirmed."
+  explanation: "Karl Popper formalized this: science advances by eliminating false theories, not by accumulating confirmations. A claim like 'invisible forces guide everything' cannot be tested because no observation could count against it. A claim like 'stressed participants recall fewer words' is specific enough that a particular outcome would refute it. The asymmetry is key — you can falsify by counterexample, but you can never fully verify by examples, since the next observation might still contradict the theory. Falsifiability is what keeps science anchored to reality."
+```
+
 ## Explainer
 
 From the scientific method, you know that science advances through a cycle of observation, theory, and empirical test. A hypothesis is the bridge between theory and test — it is the specific, concrete prediction that links the abstract idea to observable data. The challenge is that most interesting questions ("Does stress affect memory?") are too vague to test directly. To move from question to hypothesis, you must specify exactly what you mean by "stress," exactly what you mean by "memory," and exactly what relationship you expect to find. This process of specification is what turns a research idea into something falsifiable.

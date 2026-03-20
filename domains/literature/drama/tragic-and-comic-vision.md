@@ -9,18 +9,16 @@ prerequisites:
 - id: comedy-and-comic-structure
   type: hard
 builds-toward:
-- dramatic-form-and-structure-types
-- theme-in-dramatic-action
+  - dramatic-form-and-structure-types
 tags:
 - tragedy
 - comedy
 - genre
 - vision
 - worldview
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Tragic and Comic Vision in Drama
 
 ## Core Idea

@@ -21,7 +21,7 @@ tags:
 - static
 - torque
 - force-balance
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

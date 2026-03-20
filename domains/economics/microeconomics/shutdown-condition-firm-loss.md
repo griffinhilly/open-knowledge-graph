@@ -14,7 +14,7 @@ tags:
 - fixed-costs
 - variable-costs
 - operating-loss
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

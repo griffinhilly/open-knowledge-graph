@@ -15,7 +15,7 @@ tags:
 - nationalism
 - sovereignty
 - statehood
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

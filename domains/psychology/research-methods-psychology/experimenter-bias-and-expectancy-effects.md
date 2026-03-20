@@ -14,7 +14,7 @@ tags:
 - bias
 - experimenter
 - validity
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

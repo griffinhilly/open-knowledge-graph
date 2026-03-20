@@ -17,7 +17,7 @@ tags:
 - legitimacy
 - power
 - milgram
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

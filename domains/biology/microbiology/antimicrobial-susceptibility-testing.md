@@ -14,7 +14,7 @@ tags:
 - susceptibility
 - testing
 - resistance
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

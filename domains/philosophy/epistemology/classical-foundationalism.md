@@ -17,7 +17,7 @@ tags:
 - infallibility
 - basic-beliefs
 - certainty
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 # Classical Foundationalism

@@ -34,6 +34,45 @@ Start by identifying whether expressions are polynomials (e.g., 1/x is not, beca
 - Confusing the degree of a polynomial with the number of terms.
 - Not writing in standard form (terms in descending order of degree).
 
+## Questions
+
+```yaml
+- question: "Which of the following expressions is NOT a polynomial?"
+  type: multiple-choice
+  options:
+    - "3x² + 2x − 5"
+    - "7x⁴ − x + 9"
+    - "x³ + √x − 1"
+    - "x³ − 1"
+  answer: 2
+  explanation: "√x = x^(1/2) has a fractional exponent, which violates the defining rule of polynomials: all exponents on the variable must be non-negative integers. The expressions in options A, B, and D all have exponents that are non-negative integers (0, 1, 2, 3, or 4), so they qualify as polynomials. The constant −1 in option D is simply −1·x⁰, which has exponent 0 — still a non-negative integer."
+
+- question: "A student claims that 1/x is a polynomial because it has only one term — just like 7x⁴, which is a monomial. What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "The student is correct — having one term is the definition of a monomial, and 1/x qualifies"
+    - "1/x is not a polynomial because it equals x⁻¹, which has a negative exponent — violating the non-negative integer exponent rule"
+    - "1/x is not a polynomial because it has a fraction, and fractions are never allowed in polynomials"
+    - "1/x is not a polynomial because it cannot be evaluated for x = 0, making it undefined"
+  answer: 1
+  explanation: "The number of terms is irrelevant to whether an expression is a polynomial — what matters is the nature of the exponents. 1/x = x⁻¹ has an exponent of −1, which is negative, making it not a polynomial. The student correctly identifies that number of terms defines monomial/binomial/trinomial classification, but incorrectly applies that to the definition of polynomial itself. Fractions in coefficients (like (1/2)x²) are fine; the restriction applies to the exponents on the variable, not to coefficients."
+
+- question: "The degree of the polynomial 4x³ − 2x + 1 is 3 because it has 3 terms."
+  type: true-false
+  answer: false
+  explanation: "This is the most common confusion in polynomial vocabulary. The degree is the *highest exponent* on the variable — in 4x³ − 2x + 1, that is 3, making it a cubic. The number of terms (3 in this case) is what makes it a *trinomial*. These are two completely independent descriptions. A polynomial like 5x⁷ has degree 7 but only 1 term (a monomial). Confusing degree with number of terms leads to persistent classification errors."
+
+- question: "The sum of any two polynomials is always another polynomial."
+  type: true-false
+  answer: true
+  explanation: "This closure property holds because adding non-negative integers always produces non-negative integers. When you add two polynomials, you combine like terms — terms with matching exponents — and the resulting exponents are exactly the same non-negative integers that appeared in the originals (or cancel to zero, which is fine). No negative or fractional exponents can appear. This closure under addition (and also under subtraction and multiplication) is one reason polynomials are so central to algebra: you can manipulate them freely without leaving the polynomial family."
+
+- question: "Why is 1/x not a polynomial, even though it looks like a simple algebraic expression?"
+  type: short-answer
+  answer: "1/x equals x⁻¹, which has an exponent of −1. Polynomials require all exponents on the variable to be non-negative integers (0, 1, 2, 3, ...). A negative exponent violates this rule. The restriction to non-negative integer exponents is what makes polynomials well-behaved: combining polynomials through addition, subtraction, or multiplication always yields another polynomial. Allowing negative exponents would break this closure property."
+  explanation: "This question targets the core definition rather than surface pattern-matching. A student who merely memorizes 'no fractions' might think (1/2)x² is not a polynomial — it is, because the fraction is in the coefficient, not the exponent. The actual rule is about exponents only. Writing 1/x = x⁻¹ makes the violation explicit and connects back to the exponent rules the student has already studied."
+```
+
 ## Explainer
 
 You already know how to work with variables and algebraic expressions, and you've learned exponent rules for products and powers. A **polynomial** is a specific kind of expression built from those tools: it combines non-negative integer powers of a variable with constants, using only addition, subtraction, and multiplication. Think of a polynomial as a list of **terms**, where each term is a coefficient times a power of the variable.

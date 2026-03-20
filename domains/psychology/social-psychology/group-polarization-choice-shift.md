@@ -15,7 +15,7 @@ tags:
 - risky-shift
 - group-decision-making
 - social-comparison
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

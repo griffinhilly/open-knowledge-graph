@@ -15,7 +15,7 @@ tags:
 - names
 - truth-values
 - empty-terms
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

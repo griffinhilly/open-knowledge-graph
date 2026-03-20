@@ -14,7 +14,7 @@ tags:
 - directions
 - planes
 - slip-systems
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

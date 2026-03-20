@@ -13,7 +13,7 @@ tags:
 - empathy
 - altruism
 - moral-development
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

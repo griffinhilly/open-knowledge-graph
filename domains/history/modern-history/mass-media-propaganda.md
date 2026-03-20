@@ -15,7 +15,7 @@ tags:
 - propaganda
 - public-opinion
 - manipulation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

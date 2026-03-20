@@ -6,17 +6,15 @@ course: drama
 prerequisites:
 - id: comedy-and-comic-structure
   type: hard
-builds-toward:
-- commedia-dell-arte-tradition
+builds-toward: []
 tags:
 - farce
 - comedy
 - physical-humor
 - genre
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Farce and Physical Comedy
 
 ## Core Idea

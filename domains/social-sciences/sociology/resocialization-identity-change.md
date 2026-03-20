@@ -14,7 +14,7 @@ tags:
 - socialization
 - identity
 - adult-development
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

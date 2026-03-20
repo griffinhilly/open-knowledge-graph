@@ -17,7 +17,7 @@ tags:
 - representation
 - medium
 - technology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

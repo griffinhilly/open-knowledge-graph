@@ -18,7 +18,7 @@ tags:
 - unconformity
 - steno
 - sequence-stratigraphy
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

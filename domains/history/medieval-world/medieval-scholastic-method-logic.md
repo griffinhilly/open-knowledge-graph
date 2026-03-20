@@ -16,7 +16,7 @@ tags:
 - logic
 - method
 - reasoning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

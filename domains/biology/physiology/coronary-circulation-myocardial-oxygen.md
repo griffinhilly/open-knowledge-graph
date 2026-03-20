@@ -15,7 +15,7 @@ tags:
 - coronary
 - oxygen
 - metabolism
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - retinol
 - vision
 - epithelial-health
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - demand
 - consumer-behavior
 - behavioral
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - democracy
 - legitimacy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

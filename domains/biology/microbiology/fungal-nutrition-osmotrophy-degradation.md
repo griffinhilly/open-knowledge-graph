@@ -14,7 +14,7 @@ tags:
 - fungi
 - nutrition
 - degradation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

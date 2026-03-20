@@ -13,7 +13,7 @@ tags:
 - differentiation
 - zero-profit
 - tangency
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

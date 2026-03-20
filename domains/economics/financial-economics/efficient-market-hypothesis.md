@@ -19,7 +19,7 @@ tags:
 - weak-form
 - semi-strong
 - active-vs-passive
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Efficient Market Hypothesis (EMH)

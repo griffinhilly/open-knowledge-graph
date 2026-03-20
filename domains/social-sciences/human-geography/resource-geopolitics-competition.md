@@ -15,7 +15,7 @@ tags:
 - resources
 - power
 - conflict
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

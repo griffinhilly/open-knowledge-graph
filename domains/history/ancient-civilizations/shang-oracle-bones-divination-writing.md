@@ -6,6 +6,8 @@ course: ancient-civilizations
 prerequisites:
 - id: shang-bronze-vessels-ritual-objects
   type: soft
+- id: shang-dynasty-oracle-bones
+  type: soft
 builds-toward:
 - zhou-feudalism-political-hierarchy
 tags:
@@ -15,10 +17,9 @@ tags:
 - writing
 - script
 - china
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Shang Oracle Bones, Divination, and Early Chinese Writing
 
 ## Core Idea

@@ -14,7 +14,7 @@ tags:
 - toxins
 - virulence
 - pathogenesis
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

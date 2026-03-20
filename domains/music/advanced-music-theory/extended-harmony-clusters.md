@@ -16,7 +16,7 @@ tags:
 - clusters
 - extended
 - timbre
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

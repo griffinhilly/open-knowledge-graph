@@ -22,7 +22,7 @@ tags:
 - motif
 - meaning
 - representation
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

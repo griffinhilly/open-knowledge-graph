@@ -31,3 +31,42 @@ Compare a Baroque aria to a madrigal from the previous era, observing changes in
 
 ## Common Misconceptions
 - That Baroque music is ornate but emotionally shallow. - That Baroque harmonic practice was random or undisciplined. - That Baroque forms like sonata and concerto were rigid molds rather than flexible frameworks for innovation.
+
+## Questions
+
+```yaml
+- question: "A listener describes a Baroque concerto as 'elaborate but emotionally shallow — all that ornamentation is just decoration.' Which concept does this misunderstand most directly?"
+  type: multiple-choice
+  options:
+    - "Baroque music contained no ornamentation — what sounds like ornament is actually structural counterpoint"
+    - "The doctrine of affections — Baroque composers systematically mapped ornamental figures and harmonic progressions to specific emotional states; ornamentation was the vehicle of emotional expression, not a substitute for it"
+    - "Baroque ornamentation was improvised by performers at random and was not part of the composer's emotional intent"
+    - "Baroque music aimed for emotional neutrality and mathematical balance, as opposed to Romantic expressiveness"
+  answer: 1
+  explanation: "The doctrine of affections is the theoretical foundation of Baroque musical aesthetics: specific musical figures, rhythms, and harmonic progressions were understood to evoke specific emotional states (affections). Ornamentation was not decorative filler but a precisely calibrated emotional language. Calling it shallow mistakes the medium — an unfamiliar musical vocabulary — for an absence of content."
+
+- question: "Opera, the concerto, and the keyboard suite emerged as defining Baroque genres primarily because they:"
+  type: multiple-choice
+  options:
+    - "Were simpler and more accessible to amateur musicians than Renaissance polyphony"
+    - "Were mandated by the Catholic Church as replacements for Renaissance sacred forms"
+    - "Reflected Baroque composers' rejection of emotional content in favor of formal mathematical structure"
+    - "Combined music with drama, spectacle, and the showcasing of virtuosity — directly expressing Baroque values of contrast, affective intensity, and individual display"
+  answer: 3
+  explanation: "Baroque aesthetics prized contrast (terraced dynamics, solo vs. tutti alternation), virtuosity, and the systematic expression of specific emotions. Opera fused music with theatrical drama and vocal display; the concerto pitted a soloist against the ensemble in a drama of contrast; the suite organized contrasting dances to move through a sequence of affections. These genres were vehicles for the aesthetic values that defined the era."
+
+- question: "Baroque harmonic practice was essentially improvisational — composers wrote what sounded good intuitively without systematic underlying principles."
+  type: true-false
+  answer: false
+  explanation: "Baroque harmonic practice was highly systematic. The doctrine of affections provided a framework for associating harmonic progressions with emotional states. Basso continuo practice gave performers a rigorous system of figured bass notation for realizing harmonies. Far from being random, Baroque harmony was governed by explicit principles that composers, performers, and theorists all shared — even when individual realization involved improvisation within those rules."
+
+- question: "The Baroque era (1600–1750) is characterized in part by the use of specific musical figures and harmonic progressions to systematically evoke defined emotional states in listeners."
+  type: true-false
+  answer: true
+  explanation: "This is precisely the doctrine of affections (Affektenlehre): the theoretical basis for Baroque musical aesthetics. Composers believed that music could and should move listeners to specific emotions, and they developed a vocabulary of musical figures — rhythmic patterns, melodic shapes, harmonic progressions — each associated with particular affections such as grief, joy, agitation, or nobility."
+
+- question: "What is the 'doctrine of affections,' and how did it shape the way Baroque composers approached musical form, ornamentation, and the relationship between music and text?"
+  type: short-answer
+  answer: "The doctrine of affections (Affektenlehre) held that music's purpose is to move the listener to specific emotional states, and that particular musical figures — rhythms, melodic shapes, harmonic progressions, ornaments — reliably evoke particular emotions. Composers systematically assigned musical materials to emotional states: slow chromatic descents for grief, rapid scales for agitation, dotted rhythms for nobility. This shaped form by making contrast of affections a structural principle, shaped ornamentation by making it an emotional vehicle rather than decoration, and shaped text-setting by requiring musical figures to match the emotional content of words."
+  explanation: "The doctrine of affections is what distinguishes Baroque musical aesthetics from both Renaissance balance/restraint and Romantic spontaneous self-expression. It is a rationalized, systematic approach to emotion — more like a vocabulary than a feeling — which is why Baroque music can seem simultaneously rigorous and dramatic. Understanding it transforms how you hear Baroque ornamentation: every trill and appoggiatura is a word in an emotional language."
+```

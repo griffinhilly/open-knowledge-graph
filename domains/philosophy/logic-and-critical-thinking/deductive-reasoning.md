@@ -20,7 +20,7 @@ tags:
 - deduction
 - reasoning
 - inference
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

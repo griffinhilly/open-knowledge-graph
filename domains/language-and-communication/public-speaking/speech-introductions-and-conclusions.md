@@ -20,7 +20,7 @@ tags:
 - attention-getter
 - preview
 - summary
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

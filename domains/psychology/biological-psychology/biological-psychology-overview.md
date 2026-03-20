@@ -20,7 +20,7 @@ tags:
 - biopsychology
 - neuroscience
 - mind-body
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

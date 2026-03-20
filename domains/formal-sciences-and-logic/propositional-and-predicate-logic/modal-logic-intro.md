@@ -16,7 +16,7 @@ tags:
 - Kripke-semantics
 - necessity
 - possibility
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

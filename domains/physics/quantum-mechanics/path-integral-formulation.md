@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - path-integrals
 - feynman
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

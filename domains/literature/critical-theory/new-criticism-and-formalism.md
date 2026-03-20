@@ -21,7 +21,7 @@ tags:
 - autonomy
 - organic-unity
 - close-reading
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

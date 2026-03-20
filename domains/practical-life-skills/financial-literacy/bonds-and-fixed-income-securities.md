@@ -17,7 +17,7 @@ tags:
 - government-bonds
 - corporate-bonds
 - interest-payments
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

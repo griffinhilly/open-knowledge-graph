@@ -19,7 +19,7 @@ tags:
 - hemizygous
 - carrier
 - color blindness
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

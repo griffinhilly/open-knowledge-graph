@@ -17,7 +17,7 @@ tags:
 - wakefulness
 - lateral-hypothalamus
 - sleep-wake
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

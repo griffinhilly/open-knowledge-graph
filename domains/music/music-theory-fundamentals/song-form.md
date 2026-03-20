@@ -16,7 +16,7 @@ tags:
 - AABA
 - structure
 - analysis
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

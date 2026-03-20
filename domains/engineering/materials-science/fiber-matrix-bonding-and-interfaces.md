@@ -16,7 +16,7 @@ tags:
 - interface
 - bonding
 - mechanical-interlocking
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

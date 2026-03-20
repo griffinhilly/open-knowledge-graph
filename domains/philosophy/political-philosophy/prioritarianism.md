@@ -14,7 +14,7 @@ tags:
 - worst-off
 - weighted-benefits
 - distributive-justice
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

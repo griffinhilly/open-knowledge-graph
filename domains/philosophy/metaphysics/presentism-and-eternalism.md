@@ -16,7 +16,7 @@ tags:
 - growing block
 - temporal ontology
 - time
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

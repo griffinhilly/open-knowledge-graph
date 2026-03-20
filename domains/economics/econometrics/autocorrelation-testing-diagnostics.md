@@ -12,7 +12,7 @@ tags:
 - autocorrelation
 - durbin-watson
 - breusch-godfrey
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

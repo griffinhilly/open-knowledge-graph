@@ -16,7 +16,7 @@ tags:
 - inflation
 - expectations
 - wage-price-spiral
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

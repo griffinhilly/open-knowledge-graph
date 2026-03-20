@@ -38,6 +38,45 @@ Create abstract compositions using only lines of different directions and length
 ## Common Misconceptions
 Assuming all lines function equally; not recognizing that line direction is independent of subject matter.
 
+## Questions
+
+```yaml
+- question: "An artist wants to convey a sense of calm and expansiveness in a landscape composition. Which approach to line direction best supports this goal?"
+  type: multiple-choice
+  options:
+    - "Dominant use of diagonals to suggest the vastness of open terrain"
+    - "Dominant use of vertical lines to evoke the height and power of the landscape"
+    - "Dominant use of horizontal lines that echo the ground and horizon, reinforcing stillness"
+    - "A random mix of all directions to create richness and complexity"
+  answer: 2
+  explanation: "Horizontal lines carry inherent associations with rest, stability, and the ground — they echo a body lying down or the flat horizon. Calm and expansiveness are emotional registers that map directly onto this directional quality. Diagonals suggest motion and instability (the opposite of calm). Verticals feel alert and powerful, not restful. The emotional content of line direction operates even in purely abstract compositions."
+
+- question: "A composition is built primarily from energetic diagonal lines. The artist places one prominent horizontal line across the lower third of the image. What is the most likely visual effect?"
+  type: multiple-choice
+  options:
+    - "The horizontal line will be visually ignored because diagonals dominate the composition"
+    - "The horizontal creates a moment of visual rest and becomes a focal point through directional contrast"
+    - "The horizontal cancels the energy of the diagonals, flattening the entire composition"
+    - "The horizontal line creates additional diagonal energy by providing a baseline for the other lines to push against"
+  answer: 1
+  explanation: "Directional contrast is a compositional tool: the dominant direction establishes a baseline, and departures from it draw the eye. In a field of diagonals, a calm horizontal stands out and provides a visual pause — the eye is drawn to it precisely because it is different. This is the principle in action: the contrast creates a focal point, not a cancellation. The composition becomes more dynamic because the horizontal gives the viewer's eye somewhere to land."
+
+- question: "The emotional associations of line direction — horizontal feels calm, diagonal feels dynamic — operate even in purely abstract compositions with no recognizable subject matter."
+  type: true-false
+  answer: true
+  explanation: "Line direction carries inherent directional energy rooted in physical experience, not in representation. Our response to horizontal lines as stable and diagonal lines as dynamic comes from their relationship to gravity and bodily experience — resting vs. falling — not from what they depict. An abstract painting of nothing but diagonal marks still feels more energetic than one of horizontal marks. This is why the topic notes that line direction is 'independent of subject matter.'"
+
+- question: "The directional energy of lines in a composition depends entirely on what objects those lines represent."
+  type: true-false
+  answer: false
+  explanation: "Line direction has inherent perceptual energy that is independent of subject matter. A diagonal line in an abstract composition still feels dynamic whether or not it 'represents' anything. A horizontal line in a portrait still communicates calm even if it represents something specific. The emotional effect of line direction comes from the direction itself — its relationship to gravity and our physical experience — not from the narrative content of what is depicted."
+
+- question: "Why do diagonal lines feel more dynamic than horizontal or vertical lines, and how can an artist use this to guide the viewer's eye?"
+  type: short-answer
+  answer: "Diagonal lines suggest instability — they are neither resting (horizontal) nor standing (vertical), but falling or rising. Our visual system reads this implied motion immediately, making diagonals feel energetic and active. An artist can exploit this by using diagonals to create directional flow: arranging diagonal lines so they point toward areas of importance, or using a single diagonal to break a calm horizontal composition and pull the eye to a focal point. The contrast between directions is the mechanism — where dominant directions are broken, the eye is drawn."
+  explanation: "The physical-experience basis for directional associations is key: horizontal = ground/rest, vertical = standing/alert, diagonal = falling/rising. Artists use this vocabulary consciously. Guiding the eye means arranging lines so their directions create a path — a current the viewer follows through the composition. Planning the directional structure before adding detail is the practice recommendation: the emotional and kinetic content of the composition is set by direction before any other element."
+```
+
 ## Explainer
 
 You already know that lines come in different types and qualities — thick, thin, curved, jagged — and that visual compositions have rhythm and flow. This topic connects those ideas: the **direction** a line travels is one of the most powerful tools you have for controlling how a viewer's eye moves through your work, and it operates whether the subject is a landscape, a portrait, or a completely abstract composition.

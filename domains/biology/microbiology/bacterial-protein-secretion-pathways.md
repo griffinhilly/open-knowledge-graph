@@ -14,7 +14,7 @@ tags:
 - secretion
 - protein-export
 - pathways
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

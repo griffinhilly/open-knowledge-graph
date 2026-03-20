@@ -18,7 +18,7 @@ tags:
 - classification
 - analysis
 - plot
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

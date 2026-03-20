@@ -7,14 +7,13 @@ prerequisites:
 - id: periodic-table-overview
   type: hard
 builds-toward:
-- oxidation-reduction-basics
-- electrochemistry-basics
+  - electrochemistry-basics
 tags:
 - oxidation-state
 - oxidation-number-rules
 - electron-bookkeeping
 - formal-charge-vs-oxidation-number
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 # Oxidation Numbers

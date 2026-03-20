@@ -14,7 +14,7 @@ tags:
 - resonance
 - strings
 - harmonics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -9,8 +9,7 @@ prerequisites:
 - id: natural-transformations
   type: hard
 builds-toward:
-- braided-monoidal-categories
-- compact-closed-categories
+  - compact-closed-categories
 tags:
 - symmetric
 - monoidal
@@ -20,7 +19,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Symmetric Monoidal Categories
 
 ## Core Idea

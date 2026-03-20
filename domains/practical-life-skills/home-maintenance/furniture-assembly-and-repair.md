@@ -31,6 +31,45 @@ Assemble a piece of flat-pack furniture following the instructions carefully, th
 - Wood glue is a weak, temporary fix — modern wood glue, when properly clamped and cured, creates a bond stronger than the surrounding wood fibers.
 - Wobbly furniture is ruined and needs replacing — most wobbles are caused by a single loose joint or uneven leg that takes minutes to fix with basic tools.
 
+## Questions
+
+```yaml
+- question: "You're assembling a bookshelf and want to fully tighten the cam fasteners on one side panel before attaching the second side. What's the problem with this approach?"
+  type: multiple-choice
+  options:
+    - "Nothing — tightening one side first gives you a stable anchor to work from"
+    - "You should use a power drill to tighten faster and more securely"
+    - "Fully tightening before the full structure is assembled can lock in misalignments that are very difficult to correct once the remaining panels are added"
+    - "Cam fasteners should never be tightened — they lock automatically when the panels are pressed together"
+  answer: 2
+  explanation: "Flat-pack furniture is engineered with minimal tolerances. Tightening one section fully before others are attached can create misalignments that are almost impossible to undo without damaging the particle board. The professional method is to assemble everything loosely first, check that the structure is square and all joints are seated correctly, then tighten in stages from the center outward. Checking alignment first is the step most beginners skip."
+
+- question: "A friend says: 'Wood glue is just a temporary fix — the joint will fall apart again in a few months.' How do you respond?"
+  type: multiple-choice
+  options:
+    - "Agree — wood glue is weaker than mechanical fasteners and should only be used as temporary support"
+    - "Disagree — modern wood glue, properly applied and clamped, creates a bond stronger than the surrounding wood fibers"
+    - "Agree — glue is fine for light repairs but any load-bearing joint needs screws or bolts"
+    - "Disagree — but only because you should always use screws alongside the glue"
+  answer: 1
+  explanation: "Modern PVA wood glue, when properly applied to both surfaces and held under clamping pressure for at least an hour, creates a bond stronger than the wood fibers themselves. A properly glued joint will typically break through the wood, not through the glue line. The misconception that glue is weak comes from seeing bad applications: glue without clamping, or glue applied to a gap rather than a tight-fitting joint."
+
+- question: "A power drill is the best tool for tightening cam-and-dowel fasteners in flat-pack furniture."
+  type: true-false
+  answer: false
+  explanation: "A power drill will over-tighten cam fasteners before you notice — the cam housing in particle board strips easily, leaving a hole that no longer holds. A hand screwdriver is correct because it provides tactile feedback: you can feel when the cam is 'snug plus a quarter turn' and stop before stripping. This is why most flat-pack furniture instructions explicitly call for a flat-head screwdriver, not a drill."
+
+- question: "Furniture that wobbles is not necessarily ruined — most wobbles are caused by a single loose joint or uneven leg that can be fixed with basic tools."
+  type: true-false
+  answer: true
+  explanation: "Most wobbles have simple causes: a loose leg-to-apron bolt that needs tightening with a wrench, a worn furniture foot that needs replacing with a self-adhesive pad, or a single loose mortise-and-tenon joint that needs wood glue and clamping. Before concluding furniture is beyond repair, place it on a known flat surface to identify which leg is causing the rock and inspect the joints for the actual cause."
+
+- question: "Why is it important to assemble furniture loosely first and tighten in stages, rather than fully tightening each fastener as you go?"
+  type: short-answer
+  answer: "Assembling loosely first lets you check alignment and squareness before anything is locked in. Flat-pack furniture has minimal tolerances — once a section is fully tightened, any misalignment is very hard to correct without damaging the material. Tightening in stages, from the center outward after confirming the structure is square, ensures all joints seat properly before you commit to final tightness."
+  explanation: "This is the same principle used in precision assembly across many fields: establish alignment first, then fix it in place. The failure mode — tightening too early — is subtle because the furniture looks assembled, but slight misalignments cause doors to hang wrong, drawers to stick, or shelves to sag. Two extra minutes of checking before final tightening prevents problems that may be impossible to fix afterward."
+```
+
 ## Explainer
 
 Furniture assembly and repair draw directly on your basic hand tool skills — the difference here is understanding *why* each step matters, not just following a sequence blindly. Flat-pack furniture (IKEA and similar) is engineered for unskilled assembly, but it is also engineered with minimal tolerances. This means small mistakes — tightening one side fully before the other, skipping the order specified in the instructions — can misalign joints that are very difficult to correct once locked in. The professional habit is to assemble loosely first, check alignment and squareness, then tighten in stages from the center outward.

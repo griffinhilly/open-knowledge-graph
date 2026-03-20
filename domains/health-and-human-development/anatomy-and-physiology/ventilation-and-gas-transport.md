@@ -22,7 +22,7 @@ tags:
 - CO2-transport
 - chemoreceptors
 - pH
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

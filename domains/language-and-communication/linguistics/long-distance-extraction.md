@@ -15,7 +15,7 @@ tags:
 - movement
 - constraints
 - locality
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

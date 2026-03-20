@@ -16,7 +16,7 @@ tags:
 - enso
 - variability
 - teleconnection
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - trisomy
 - chromosomal-imbalance
 - gene-dosage
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

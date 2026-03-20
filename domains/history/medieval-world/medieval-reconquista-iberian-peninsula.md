@@ -16,7 +16,7 @@ tags:
 - iberia
 - religious-war
 - christian
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

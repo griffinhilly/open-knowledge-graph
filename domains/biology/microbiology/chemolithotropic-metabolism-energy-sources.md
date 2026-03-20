@@ -14,7 +14,7 @@ tags:
 - chemolithotrophy
 - energy
 - metabolism
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

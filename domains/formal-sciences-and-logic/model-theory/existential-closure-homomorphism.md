@@ -17,7 +17,7 @@ tags:
 - closure
 - preservation
 - homomorphism
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

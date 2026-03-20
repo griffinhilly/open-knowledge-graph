@@ -18,7 +18,7 @@ tags:
 - cladogram
 - common-ancestor
 - systematics
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

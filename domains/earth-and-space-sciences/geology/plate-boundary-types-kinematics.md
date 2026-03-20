@@ -6,8 +6,6 @@ course: geology
 prerequisites:
 - id: plate-tectonics
   type: soft
-- id: focal-mechanisms-and-stress-tensors
-  type: soft
 builds-toward:
 - subduction-zone-structure-metamorphism
 - continental-collision-orogeny-crustal-thickening
@@ -16,7 +14,7 @@ tags:
 - plate-tectonics
 - boundaries
 - kinematics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

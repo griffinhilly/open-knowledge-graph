@@ -20,7 +20,7 @@ tags:
 - Soviet Union
 - 1989
 - Berlin Wall
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # The End of the Cold War and Soviet Collapse

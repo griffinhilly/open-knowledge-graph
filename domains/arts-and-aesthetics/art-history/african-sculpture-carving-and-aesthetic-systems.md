@@ -3,7 +3,9 @@ id: african-sculpture-carving-and-aesthetic-systems
 title: African Sculpture, Carving, and Aesthetic Systems
 domain: arts-and-aesthetics
 course: art-history
-prerequisites: []
+prerequisites:
+- id: dramatic-structure
+  type: soft
 builds-toward:
 - postmodern-art-and-contemporary-plurality
 - fauvism-expressionism-color-and-emotional-intensity
@@ -14,10 +16,9 @@ tags:
 - carving
 - aesthetics
 - cultural-meaning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # African Sculpture, Carving, and Aesthetic Systems
 
 ## Core Idea

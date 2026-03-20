@@ -13,7 +13,7 @@ tags:
 - montesquieu
 - constitutional-theory
 - balance-of-power
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

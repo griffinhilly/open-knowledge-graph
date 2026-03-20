@@ -14,7 +14,7 @@ tags:
 - dialogue
 - debate
 - reasoning-with-others
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

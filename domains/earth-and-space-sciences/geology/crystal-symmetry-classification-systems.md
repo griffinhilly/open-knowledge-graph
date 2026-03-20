@@ -14,7 +14,7 @@ tags:
 - crystallography
 - symmetry
 - mineral-structure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

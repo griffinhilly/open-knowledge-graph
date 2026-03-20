@@ -21,7 +21,7 @@ tags:
 - sustained comparison
 - symbolism
 - meaning
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

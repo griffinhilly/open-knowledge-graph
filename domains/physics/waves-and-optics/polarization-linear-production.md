@@ -12,7 +12,7 @@ tags:
 - polarization
 - linear-polarization
 - polarizers
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

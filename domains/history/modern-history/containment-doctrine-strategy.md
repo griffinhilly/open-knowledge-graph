@@ -17,7 +17,7 @@ tags:
 - United-States
 - strategy
 - Soviet-Union
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - genre
 - nature
 - perspective
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

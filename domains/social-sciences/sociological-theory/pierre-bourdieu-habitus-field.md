@@ -16,7 +16,7 @@ tags:
 - habitus
 - field
 - capital
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

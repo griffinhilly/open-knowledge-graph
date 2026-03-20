@@ -19,7 +19,7 @@ tags:
 - center of pressure
 - plane surfaces
 - curved surfaces
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Hydrostatic Forces on Submerged Surfaces

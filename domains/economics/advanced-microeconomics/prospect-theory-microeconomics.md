@@ -12,7 +12,7 @@ tags:
 - behavioral-economics
 - risk
 - decision-making
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

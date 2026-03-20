@@ -14,7 +14,7 @@ tags:
 - fraunhofer-diffraction
 - far-field
 - diffraction-pattern
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

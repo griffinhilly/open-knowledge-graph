@@ -13,7 +13,7 @@ tags:
 - graph-theory
 - foundations
 - definitions
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

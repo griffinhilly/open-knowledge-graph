@@ -16,7 +16,7 @@ tags:
 - timing
 - rhythm
 - vocal-control
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - nature
 - philosophy
 - nineteenth-century
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

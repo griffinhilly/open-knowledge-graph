@@ -16,7 +16,7 @@ tags:
 - point-of-view
 - narrator
 - narrative-distance
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

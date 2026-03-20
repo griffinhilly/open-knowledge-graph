@@ -14,7 +14,7 @@ tags:
 - stationary-distributions
 - markov-chains
 - probability
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

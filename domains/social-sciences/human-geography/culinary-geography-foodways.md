@@ -15,7 +15,7 @@ tags:
 - economy
 - food
 - place
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

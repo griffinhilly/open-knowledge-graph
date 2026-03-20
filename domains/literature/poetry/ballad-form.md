@@ -16,7 +16,7 @@ tags:
 - folk
 - oral
 - tradition
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - intraspecific
 - competitive-exclusion
 - coexistence
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

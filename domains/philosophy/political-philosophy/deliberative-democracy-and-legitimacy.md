@@ -16,7 +16,7 @@ tags:
 - democracy
 - public-reason
 - legitimacy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

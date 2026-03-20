@@ -15,7 +15,7 @@ tags:
 - narration
 - constraint
 - limitation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

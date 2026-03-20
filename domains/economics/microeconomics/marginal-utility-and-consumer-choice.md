@@ -17,7 +17,7 @@ tags:
 - diminishing returns
 - MU
 - consumer equilibrium
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

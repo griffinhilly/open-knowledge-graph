@@ -15,7 +15,7 @@ tags:
 - subtext
 - meaning
 - speech
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

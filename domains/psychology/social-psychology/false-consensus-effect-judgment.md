@@ -14,7 +14,7 @@ tags:
 - consensus
 - social-perception
 - heuristics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

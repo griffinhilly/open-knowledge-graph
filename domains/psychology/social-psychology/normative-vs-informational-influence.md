@@ -17,7 +17,7 @@ tags:
 - conformity
 - mechanisms
 - psychology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

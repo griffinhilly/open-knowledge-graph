@@ -15,7 +15,7 @@ tags:
 - rawls
 - justice
 - original-position
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

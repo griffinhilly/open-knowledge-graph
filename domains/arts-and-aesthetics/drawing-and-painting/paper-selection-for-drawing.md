@@ -28,6 +28,45 @@ Purchase sample packs of drawing papers and test them with different media: penc
 ## Common Misconceptions
 Believing any paper will work for any medium. Charcoal on smooth paper slides; pen on rough paper splays. Match the paper tooth to the medium.
 
+## Questions
+
+```yaml
+- question: "An artist trying to build dark shadows with charcoal finds the marks stay pale and slide off no matter how hard they press. What is the most likely cause?"
+  type: multiple-choice
+  options:
+    - "They need softer charcoal sticks."
+    - "They are pressing too hard and compressing the surface."
+    - "They are using smooth paper — charcoal particles have nothing to grip and simply slide off."
+    - "Charcoal cannot produce dark values; only graphite can."
+  answer: 2
+  explanation: "Charcoal is a powder that relies on tooth — the microscopic bumps and valleys in the paper surface — to hold its particles in place. Smooth paper (like Bristol smooth) has minimal tooth, so charcoal slides rather than embedding, regardless of pressure. The solution is not a technique adjustment but a material change: use textured paper."
+
+- question: "An artist is making detailed architectural drawings with a fine-tip ink pen. Which paper is the best choice?"
+  type: multiple-choice
+  options:
+    - "Rough watercolor paper — its heavy texture grips ink and prevents smearing."
+    - "Smooth, well-sized paper — the nib glides cleanly without catching on fibers."
+    - "Newsprint — it is inexpensive and universally ink-friendly."
+    - "Any paper works equally well for ink pens."
+  answer: 1
+  explanation: "Fine-tip ink pens need smooth paper so the nib can glide without snagging on paper fibers. On rough paper, the nib catches on the texture, causing lines to splay, bleed, or skip. Well-sized (coated) smooth paper also prevents ink from spreading into the paper's fibers, keeping lines crisp. This is a direct application of matching paper tooth to medium."
+
+- question: "Heavyweight paper (140 lb or more) is less likely to buckle or warp when used with wet media like ink washes or watercolor."
+  type: true-false
+  answer: true
+  explanation: "Heavier paper has more fiber mass and structural integrity, allowing it to absorb moisture without warping. Lightweight sketch paper (50–60 lb) has little mass and buckles noticeably when wet. For any technique involving water-based media, paper weight directly determines whether the surface stays flat enough to work on."
+
+- question: "Acid-free paper matters only for professional artists — beginners do not need to worry about it."
+  type: true-false
+  answer: false
+  explanation: "The acid-free designation is about paper chemistry, not skill level. Paper made without acid-neutralizing treatment yellows, becomes brittle, and deteriorates within years — regardless of who drew on it. Any finished piece you want to preserve, whether made by a beginner or professional, benefits from acid-free paper. Inexpensive non-acid-free paper is perfectly fine for practice and warmups; the distinction is whether the work is meant to last."
+
+- question: "Why can't you use the same paper for every drawing medium?"
+  type: short-answer
+  answer: "Different media work through different physical mechanisms and need different surfaces to perform correctly. Charcoal and soft pastel are powdery — they need rough, high-tooth paper for particles to grip and build up. Ink pens need smooth paper so the nib glides without catching on fibers. Graphite performs best on moderate tooth that allows fine detail without sliding. Using the wrong paper means the medium cannot do what it's supposed to do. Paper is an active material that shapes your marks — not a neutral background."
+  explanation: "This is the core insight: paper is a collaborating material, not a passive surface. Understanding tooth, weight, and composition lets you predict how a medium will behave before you start, saving frustration that beginners often mistakenly attribute to poor technique."
+```
+
 ## Explainer
 
 Paper is not just something you draw on — it is a material with its own properties that actively shape your marks. Choosing the right paper for your medium is one of the simplest ways to improve your drawings immediately, and choosing the wrong paper is one of the most common sources of frustration for beginners who blame their technique when the real problem is the surface.

@@ -13,7 +13,7 @@ tags:
 - environmental-governance
 - resources
 - sustainability
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

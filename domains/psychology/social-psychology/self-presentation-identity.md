@@ -16,7 +16,7 @@ tags:
 - face-work
 - dramaturgy
 - impression-management
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

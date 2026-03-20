@@ -2,7 +2,7 @@
 id: shortest-job-first-analysis
 title: 'Shortest Job First: Optimality and Practicality'
 domain: computer-science
-course: paging-scheduling
+course: operating-systems
 prerequisites:
 - id: scheduling-algorithm-analysis
   type: hard

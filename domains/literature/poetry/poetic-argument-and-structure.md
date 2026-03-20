@@ -18,7 +18,7 @@ tags:
 - volta
 - form
 - logic
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

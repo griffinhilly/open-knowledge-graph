@@ -14,7 +14,7 @@ tags:
 - intervals
 - leaps
 - contour
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

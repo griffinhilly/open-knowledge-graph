@@ -14,7 +14,7 @@ tags:
 - decline
 - transition
 - power
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

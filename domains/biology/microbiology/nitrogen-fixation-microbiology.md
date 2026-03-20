@@ -22,7 +22,7 @@ tags:
 - denitrification
 - nitrogen cycle
 - heterocyst
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Nitrogen Fixation and the Microbial Nitrogen Cycle

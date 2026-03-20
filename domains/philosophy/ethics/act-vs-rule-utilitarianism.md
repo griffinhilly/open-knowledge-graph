@@ -13,7 +13,7 @@ tags:
 - act-utilitarianism
 - rule-utilitarianism
 - normative-ethics
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - literary-devices
 - reference
 - meaning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

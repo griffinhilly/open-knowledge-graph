@@ -15,7 +15,7 @@ tags:
 - phosphate
 - hydroxyapatite
 - bone-mineralization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - screening
 - diagnostics
 - prevention
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

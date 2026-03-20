@@ -15,7 +15,7 @@ tags:
 - zoonotic-disease
 - spillover
 - pandemic-preparedness
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

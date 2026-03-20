@@ -6,8 +6,7 @@ course: sociological-theory
 prerequisites:
 - id: sociological-imagination
   type: soft
-builds-toward:
-- ethnomethodology
+builds-toward: []
 tags:
 - phenomenology
 - lived-experience
@@ -16,7 +15,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Phenomenological Sociology
 
 ## Core Idea

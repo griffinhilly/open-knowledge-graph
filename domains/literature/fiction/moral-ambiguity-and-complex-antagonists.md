@@ -14,7 +14,7 @@ tags:
 - morality
 - ambiguity
 - antagonist
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

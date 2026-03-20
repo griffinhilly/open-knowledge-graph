@@ -12,7 +12,7 @@ tags:
 - endothelium
 - nitric-oxide
 - prostacyclin
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

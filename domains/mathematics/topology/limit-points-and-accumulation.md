@@ -7,15 +7,13 @@ prerequisites:
 - id: open-sets-topology
   type: hard
 builds-toward:
-- sequences-convergence-topology
-- closed-sets-topology
+  - sequences-convergence-topology
 tags:
 - limit-points
 - convergence
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Limit Points and Accumulation Points
 
 ## Core Idea

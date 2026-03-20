@@ -15,7 +15,7 @@ tags:
 - algebraic-closure
 - independence
 - dimension
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

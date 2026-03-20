@@ -9,8 +9,7 @@ prerequisites:
 - id: incidence-density-rates
   type: hard
 builds-toward:
-- standardized-rate-calculation
-- cumulative-incidence-probability
+  - standardized-rate-calculation
 tags:
 - survival-analysis
 - population-rates
@@ -18,7 +17,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Life Table Methods and Population Survival
 
 ## Core Idea

@@ -17,7 +17,7 @@ tags:
 - Leibniz
 - rationalism
 - Locke
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 # Innatism

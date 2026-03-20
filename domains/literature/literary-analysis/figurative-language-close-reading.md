@@ -18,7 +18,7 @@ tags:
 - metaphor
 - analysis
 - style
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

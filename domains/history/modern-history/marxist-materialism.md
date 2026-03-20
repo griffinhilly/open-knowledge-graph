@@ -15,7 +15,7 @@ tags:
 - historical-materialism
 - class-analysis
 - dialectics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

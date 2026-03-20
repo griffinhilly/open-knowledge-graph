@@ -15,7 +15,7 @@ tags:
 - cosmology
 - continuity
 - morality
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

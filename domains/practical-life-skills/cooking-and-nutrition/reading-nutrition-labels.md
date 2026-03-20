@@ -28,7 +28,7 @@ tags:
 - serving-size
 - daily-value
 - ingredients
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 

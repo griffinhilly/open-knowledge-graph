@@ -18,7 +18,7 @@ tags:
 - epicenter
 - magnitude
 - fault-rupture
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - emotion
 - Aristotle
 - audience
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Catharsis in Drama

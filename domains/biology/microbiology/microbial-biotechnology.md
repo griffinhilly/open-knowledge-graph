@@ -24,7 +24,7 @@ tags:
 - biopharmaceuticals
 - synthetic biology
 - expression system
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Microbial Biotechnology

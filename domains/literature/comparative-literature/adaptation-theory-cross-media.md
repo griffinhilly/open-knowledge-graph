@@ -15,7 +15,7 @@ tags:
 - media
 - narrative
 - form
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

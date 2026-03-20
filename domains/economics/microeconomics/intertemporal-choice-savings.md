@@ -14,7 +14,7 @@ tags:
 - intertemporal economics
 - consumption
 - savings
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -26,7 +26,7 @@ tags:
 - ATP
 - NADPH
 - water-splitting
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

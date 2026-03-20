@@ -26,7 +26,7 @@ tags:
 - steady-state
 - TFP
 - convergence
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Economic Growth and the Solow Model

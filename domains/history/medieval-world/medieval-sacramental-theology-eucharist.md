@@ -16,7 +16,7 @@ tags:
 - sacrament
 - eucharist
 - doctrine
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

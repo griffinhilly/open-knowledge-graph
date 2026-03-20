@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - urysohn
 - lemma
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

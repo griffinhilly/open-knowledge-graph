@@ -17,7 +17,7 @@ tags:
 - energy-flow
 - poynting
 - intensity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

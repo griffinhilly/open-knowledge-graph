@@ -14,7 +14,7 @@ tags:
 - facial-recognition
 - emotion-understanding
 - social-cognition
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - opening
 - hook
 - inciting-incident
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - orchestration
 - ensemble
 - composition
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

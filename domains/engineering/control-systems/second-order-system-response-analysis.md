@@ -14,7 +14,7 @@ tags:
 - damping-ratio
 - poles
 - characteristic-equation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

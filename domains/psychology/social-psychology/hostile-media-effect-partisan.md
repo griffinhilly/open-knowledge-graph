@@ -14,7 +14,7 @@ tags:
 - partisan
 - perception
 - group-identity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

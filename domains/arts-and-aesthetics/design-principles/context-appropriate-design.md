@@ -17,7 +17,7 @@ tags:
 - appropriateness
 - adaptive
 - responsive
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

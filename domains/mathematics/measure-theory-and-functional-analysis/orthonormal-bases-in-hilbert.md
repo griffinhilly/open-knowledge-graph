@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - hilbert-spaces
 - orthonormal-bases
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

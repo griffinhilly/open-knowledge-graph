@@ -12,7 +12,7 @@ tags:
 - boundary
 - military
 - china
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

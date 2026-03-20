@@ -19,7 +19,7 @@ tags:
 - permeability
 - water-table
 - Darcy
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Hydrogeology and Groundwater

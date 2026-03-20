@@ -17,7 +17,7 @@ tags:
 - ΔG
 - ΔS
 - thermodynamics
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

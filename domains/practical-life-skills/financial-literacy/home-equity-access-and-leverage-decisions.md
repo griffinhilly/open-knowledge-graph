@@ -14,7 +14,7 @@ tags:
 - leverage
 - mortgages
 - risk
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

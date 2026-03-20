@@ -14,7 +14,7 @@ tags:
 - quality
 - freshness
 - selection
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

@@ -33,6 +33,45 @@ Use the number line heavily. Have students count spaces from zero for various in
 - Some students think |−3| = −3 because they see the negative sign and don't process the bars.
 - Confusing absolute value with "opposite" — the absolute value of a positive number is not its opposite.
 
+## Questions
+
+```yaml
+- question: "What is |3 − 8|?"
+  type: multiple-choice
+  options:
+    - "−5"
+    - "5"
+    - "11"
+    - "−11"
+  answer: 1
+  explanation: "Evaluate the expression inside first: 3 − 8 = −5. Then take the absolute value (distance from zero): |−5| = 5. The most common error is to 'drop the negative sign' on the 3 or 8 before subtracting, which gives the wrong answer. The bars act like parentheses — everything inside is computed first."
+
+- question: "If x = −6, what is |x + 2|?"
+  type: multiple-choice
+  options:
+    - "8"
+    - "−4"
+    - "4"
+    - "−8"
+  answer: 2
+  explanation: "Substitute x = −6 and evaluate inside first: −6 + 2 = −4. Then take the absolute value: |−4| = 4. Option A (8) comes from incorrectly treating |x| as 6 before adding 2. Option B keeps the negative sign, which is wrong because absolute value is always non-negative. The key rule: evaluate the expression inside the bars completely, then report the distance from zero."
+
+- question: "For any two real numbers a and b, |a − b| = |b − a|."
+  type: true-false
+  answer: true
+  explanation: "Absolute value measures distance on the number line, and distance is symmetric — the distance from a to b is the same as the distance from b to a. Algebraically, b − a = −(a − b), and |−(a − b)| = |a − b| since absolute value ignores the sign. This is why order doesn't matter when computing distance between two numbers."
+
+- question: "If x is a positive number, then |x − 15| = x − 15."
+  type: true-false
+  answer: false
+  explanation: "This is only true when x ≥ 15. When x is positive but less than 15 — say x = 4 — then x − 15 = −11, and |x − 15| = |−11| = 11, not −11. Absolute value depends on whether the expression inside is non-negative, not on whether x itself is positive. A positive x does not guarantee a non-negative expression inside the bars."
+
+- question: "Why is 'just drop the negative sign' a dangerous shortcut for evaluating absolute value?"
+  type: short-answer
+  answer: "The shortcut only works when the input is a bare negative number like |−5|. It fails on expressions like |3 − 8|, where you must evaluate the expression first (getting −5) before taking the distance. 'Dropping the negative sign' on 3 or 8 individually gives the wrong answer. Absolute value means distance from zero of the entire expression inside the bars — not a piecewise operation on individual terms."
+  explanation: "The shortcut encourages students to act on the negative sign before computing, but absolute value applies to the final result inside the bars. |3 − 8| ≠ 3 + 8. The correct process is: evaluate inside completely, identify the result, then ask how far that result is from zero. This matters especially for expressions with variables, like |a − b|, where you cannot determine the sign without knowing the values."
+```
+
 ## Explainer
 
 You have already worked with the **number line** and learned about **opposites**: −5 is the opposite of 5, and they sit on opposite sides of zero at equal distances. Absolute value captures exactly that distance. The **absolute value** of a number is simply how far it is from zero on the number line, measured as a non-negative quantity. Because distance is never negative, absolute value is never negative either. Both 5 and −5 are five steps from zero, so |5| = 5 and |−5| = 5.

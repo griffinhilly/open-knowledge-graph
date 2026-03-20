@@ -29,7 +29,7 @@ tags:
 - uneven development
 - spatial economy
 - clusters
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Economic Geography: Location, Agglomeration, and Uneven Development

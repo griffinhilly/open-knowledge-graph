@@ -37,6 +37,45 @@ Wrap risky operations (type conversion, file access, division) in try-except blo
 - Catching exceptions that should propagate (e.g., KeyboardInterrupt).
 - Confusing error handling (try-except) with error prevention (input validation before the risky operation).
 
+## Questions
+
+```yaml
+- question: "A Python program uses a bare `except: pass` to wrap its main processing function. It works fine in testing. In production, users report they cannot stop the program with Ctrl+C. What is the most likely cause?"
+  type: multiple-choice
+  options:
+    - "The `pass` statement should be replaced with a `return` statement to allow clean exits"
+    - "A bare `except:` catches all exceptions including `KeyboardInterrupt`, silently swallowing the signal that would otherwise stop the program"
+    - "The `try` block needs to be wrapped in a `while` loop to handle repeated exceptions in production"
+    - "The function raises too many different exception types for a single handler to manage"
+  answer: 1
+  explanation: "A bare `except:` catches everything — including `KeyboardInterrupt` (Ctrl+C) and `SystemExit`. Combined with `pass`, it silently discards the signal, making the program impossible to stop normally. This is the canonical reason to always name specific exception types. Catch only what you expect and can meaningfully handle; let everything else propagate."
+
+- question: "A function opens a network connection, performs an operation that might fail, and must close the connection whether the operation succeeds or fails. Which structure handles this correctly?"
+  type: multiple-choice
+  options:
+    - "Put the close call inside both the try and except blocks separately"
+    - "Use a `finally` block, which runs regardless of whether an exception was raised"
+    - "Use an `else` block, which runs only if no exception occurred"
+    - "Wrap the entire function in an outer try-except and close the connection in the outer handler"
+  answer: 1
+  explanation: "`finally` is designed precisely for cleanup that must always execute — closing files, releasing connections, freeing resources. The `else` block runs only on success, so it won't close if an exception is raised. Duplicating the close call in try and except is error-prone and hard to maintain. `finally` provides a single, guaranteed execution point regardless of the code path."
+
+- question: "Catching a specific exception type (e.g., `except ValueError`) is better practice than using a bare `except:` clause."
+  type: true-false
+  answer: true
+  explanation: "Specific exception handling allows you to respond appropriately to expected errors while letting unexpected ones (and system signals like KeyboardInterrupt) propagate normally. A bare `except:` catches everything, including bugs you haven't anticipated — hiding errors that should be visible and making programs impossible to stop or debug. Always name the exception you expect."
+
+- question: "Using try-except blocks is the best way to prevent invalid user input from reaching your program, replacing the need for upfront input validation."
+  type: true-false
+  answer: false
+  explanation: "This confuses error handling with error prevention. Input validation (checking format, range, or type before processing) prevents known invalid inputs from reaching risky operations — it's cleaner and more explicit. Error handling with try-except is appropriate for failures you can't reliably predict in advance: network timeouts, corrupted files, race conditions. Good programs use both strategies at different points."
+
+- question: "What is the difference between error prevention and error handling, and when is each approach appropriate?"
+  type: short-answer
+  answer: "Error prevention uses upfront validation to check inputs before a risky operation — e.g., checking that a string is numeric before converting it. Error handling uses try-except to respond to runtime failures. Prevention is best when you can reliably detect problems in advance. Handling is appropriate for situations that are hard to predict: network failures, missing files, unexpected data formats. Good programs use both."
+  explanation: "The distinction matters because overusing try-except for things that should be validated upfront produces code that's harder to read and debug. If you can say 'if input is valid, proceed; otherwise, prompt again,' that's cleaner than catching a ValueError after the fact. Save exception handling for genuinely unpredictable failures — the cases where you can't know in advance whether the operation will succeed."
+```
+
 ## Explainer
 
 You know how to define and call functions, and you have encountered situations where things go wrong at runtime — a user types "abc" when your program expects a number, or a file you try to open does not exist. Without error handling, these situations crash your program with a traceback. **Exceptions** are Python's mechanism for dealing with runtime errors gracefully, allowing your program to detect the problem, respond to it, and continue running.

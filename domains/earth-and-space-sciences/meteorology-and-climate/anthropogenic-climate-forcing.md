@@ -18,7 +18,7 @@ tags:
 - aerosols
 - radiative-forcing
 - carbon-cycle
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

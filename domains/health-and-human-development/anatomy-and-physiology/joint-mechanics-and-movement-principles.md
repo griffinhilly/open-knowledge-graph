@@ -15,7 +15,7 @@ tags:
 - movement
 - leverage
 - range-of-motion
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

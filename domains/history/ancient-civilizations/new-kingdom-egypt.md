@@ -11,7 +11,7 @@ tags:
 - new-kingdom
 - empire
 - expansion
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -33,6 +33,45 @@ Present matched pairs of a fragment/run-on and its corrected version, asking lea
 - Thinking that any long sentence is a run-on (length is not the issue — structure is).
 - Believing that fragments are always errors; intentional fragments are a stylistic choice in mature writing, but the writer must recognize them as such.
 
+## Questions
+
+```yaml
+- question: "Which of the following is a sentence fragment?"
+  type: multiple-choice
+  options:
+    - "She ran to the store because she needed milk."
+    - "Although the storm had passed, the streets were still wet."
+    - "Because she was tired after the long drive."
+    - "He studied for hours and finally finished the test."
+  answer: 2
+  explanation: "Option C is a dependent clause written alone. 'Because' is a subordinating conjunction that signals incompleteness — the clause cannot stand alone even though it has a subject and verb. Options A, B, and D are all complete sentences. Note that B contains a dependent clause (Although the storm had passed), but it is correctly attached to an independent clause."
+
+- question: "Which of the following is a run-on sentence?"
+  type: multiple-choice
+  options:
+    - "She was exhausted; however, she kept working."
+    - "She was exhausted, but she kept working."
+    - "She was exhausted she kept working."
+    - "She was exhausted, and keeping working longer than expected."
+  answer: 2
+  explanation: "Option C fuses two independent clauses ('She was exhausted' and 'she kept working') with no punctuation or conjunction between them — a classic run-on. Option A is correct (semicolon + transitional adverb). Option B is correct (coordinating conjunction after a comma). Option D is a different kind of error (faulty parallelism) but not a run-on."
+
+- question: "A very long sentence with many clauses is always a run-on sentence."
+  type: true-false
+  answer: false
+  explanation: "Length is irrelevant to the run-on diagnosis. A run-on is defined by structure: two or more independent clauses joined without proper punctuation or conjunction. A long sentence with multiple properly connected clauses — using semicolons, coordinating conjunctions, or subordinating conjunctions — is a well-formed sentence, not a run-on."
+
+- question: "A comma placed between two independent clauses is strong enough punctuation to join them into one sentence."
+  type: true-false
+  answer: false
+  explanation: "This is the comma splice — the most common run-on error. A comma signals a pause, not a complete join. To connect two independent clauses, you need a coordinating conjunction (FANBOYS) after the comma, a semicolon alone, or a semicolon with a transitional adverb. 'She studied hard, she passed the exam' is a comma splice and must be corrected."
+
+- question: "What is the difference between a fragment and a run-on sentence, in terms of what each gets wrong about sentence structure?"
+  type: short-answer
+  answer: "A fragment is incomplete — it lacks a subject, a complete verb, or a complete thought, and cannot stand alone. A run-on has too much — it joins two or more complete independent clauses without the required punctuation or conjunction. Fragments are too little; run-ons are too much."
+  explanation: "Both errors violate the rules of independent clause structure, but in opposite directions. Understanding this contrast helps writers diagnose which error they have made: Is there a complete thought here that needs more? (fragment) Or are there two complete thoughts crammed together without proper separation? (run-on)"
+```
+
 ## Explainer
 
 You already know that an independent clause is a complete thought with a subject and a finite verb that can stand alone. A **sentence fragment** is anything punctuated as a sentence that fails this test. It may be missing a subject ("Running through the park." — who ran?), missing a complete verb ("The dog in the yard." — what happened?), or it may be a dependent clause written alone ("Although he tried." — tried to do what?). The dependent clause is the trickiest: it has a subject and a verb, but the subordinating conjunction signals incompleteness. Spot the subordinator, and you've spotted a likely fragment.

@@ -26,7 +26,7 @@ tags:
 - path difference
 - Young
 - light
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Young's Double-Slit Experiment

@@ -20,7 +20,7 @@ tags:
 - sovereignty
 - sectarian conflict
 - toleration
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

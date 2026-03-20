@@ -3,7 +3,9 @@ id: number-zero-concept
 title: The Number Zero
 domain: mathematics
 course: kindergarten
-prerequisites: []
+prerequisites:
+- id: counting-to-20
+  type: soft
 builds-toward:
 - cardinality-principle
 - counting-to-10
@@ -15,7 +17,6 @@ tags:
 stage: pre-formal
 status: draft
 ---
-
 # The Number Zero
 
 ## Core Idea
@@ -26,6 +27,45 @@ Start with concrete experiences: empty containers, empty hands, "no more blocks 
 
 ## Common Misconceptions
 Children may not understand that zero is a real number. They might think counting always starts at one. Some may confuse zero with the letter O.
+
+## Questions
+
+```yaml
+- question: "There are 3 fish in a bowl. You take all 3 out. How many fish are in the bowl?"
+  type: multiple-choice
+  options:
+    - "You can't say — there are no fish left to count"
+    - "0 fish"
+    - "1 fish — you always count at least one"
+    - "The answer is blank because nothing is left"
+  answer: 1
+  explanation: "Zero is the number we use to describe an empty set. The bowl still exists, and we can describe exactly how many fish are in it: zero. Zero is not the absence of an answer — it IS the answer. This is what makes zero a real number, not just an empty space."
+
+- question: "What comes right after zero when you count forward from zero?"
+  type: multiple-choice
+  options:
+    - "Zero is not part of counting, so nothing comes after it"
+    - "10, because zero and 10 look similar"
+    - "1 — zero comes just before 1 on the number line"
+    - "2 — zero is used only for tens, like in 20"
+  answer: 2
+  explanation: "Zero has a fixed position: it comes before 1. When you count 0, 1, 2, 3... zero is the starting point. This placement is important — it means the number line doesn't have to start at 1, and numbers like 10 use zero to show there are no extra ones."
+
+- question: "Zero is a real number that tells us a specific amount — that there are none of something."
+  type: true-false
+  answer: true
+  explanation: "Zero is a number just like 1, 2, or 5. It names a precise quantity: none. Saying 'zero apples' gives just as much information as saying 'five apples.' Zero belongs to the counting family and has its own place on the number line."
+
+- question: "Counting always has to start at 1, because there is no reason to count when there is nothing."
+  type: true-false
+  answer: false
+  explanation: "You can start counting at zero. When you count backward — 5, 4, 3, 2, 1, 0 — zero is the endpoint, not a missing step. Zero is a valid number that represents 'none,' and recognizing it as a real number is one of the most important early math ideas."
+
+- question: "Why do we call zero a 'number' if it means there is nothing there?"
+  type: short-answer
+  answer: "Zero is a number because it names a specific, precise amount: none. An empty bowl has a countable amount of fish in it — zero. Having a name for 'none' lets us describe, compare, and calculate with empty quantities the same way we do with any other amount."
+  explanation: "The power of zero is that it turns 'nothing' into something we can work with mathematically. Without zero, we couldn't write numbers like 10 (which uses zero as a placeholder), and we couldn't express the idea that a count or measurement has reached its lowest point. Zero is a genuine mathematical invention that was missing from early number systems."
+```
 
 ## Explainer
 

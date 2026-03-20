@@ -14,7 +14,7 @@ tags:
 - peer-relationships
 - social-development
 - play-development
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

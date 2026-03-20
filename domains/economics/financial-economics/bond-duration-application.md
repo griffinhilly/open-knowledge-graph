@@ -12,8 +12,7 @@ prerequisites:
   type: hard
 - id: derivatives-of-logarithmic-functions
   type: soft
-builds-toward:
-- bond-convexity-price-effects
+builds-toward: []
 tags:
 - bonds
 - duration
@@ -22,7 +21,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Duration and Interest Rate Sensitivity Applications
 
 ## Core Idea

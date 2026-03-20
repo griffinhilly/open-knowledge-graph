@@ -13,9 +13,8 @@ prerequisites:
 - id: nucleophile-electrophile-definitions
   type: soft
 builds-toward:
-- amino-acid-degradation-overview
-- oxidative-deamination
-- urea-cycle
+  - oxidative-deamination
+  - urea-cycle
 tags:
 - amino-acids
 - enzymes
@@ -23,7 +22,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Transamination and Aminotransferases
 
 ## Core Idea

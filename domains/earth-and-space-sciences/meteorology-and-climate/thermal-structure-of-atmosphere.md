@@ -18,7 +18,7 @@ tags:
 - layers
 - troposphere
 - stratosphere
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

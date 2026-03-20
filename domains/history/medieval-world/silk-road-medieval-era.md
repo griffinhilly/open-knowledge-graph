@@ -18,7 +18,7 @@ tags:
 - cultural-exchange
 - central-asia
 - connectivity
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

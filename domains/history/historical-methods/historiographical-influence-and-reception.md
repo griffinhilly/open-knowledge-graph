@@ -12,7 +12,7 @@ tags:
 - historiography
 - influence
 - reception
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

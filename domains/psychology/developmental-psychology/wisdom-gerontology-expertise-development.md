@@ -14,7 +14,7 @@ tags:
 - life-understanding
 - wisdom
 - gerontology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

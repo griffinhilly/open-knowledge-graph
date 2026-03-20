@@ -14,7 +14,7 @@ tags:
 - fallacies
 - questions
 - presupposition
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

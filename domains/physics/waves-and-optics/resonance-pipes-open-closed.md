@@ -14,7 +14,7 @@ tags:
 - resonance
 - sound
 - pipes
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

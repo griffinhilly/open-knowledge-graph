@@ -19,7 +19,7 @@ tags:
 - socialism
 - ideology
 - left-right spectrum
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

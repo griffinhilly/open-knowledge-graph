@@ -15,7 +15,7 @@ tags:
 - hobbes
 - social-contract
 - sovereignty
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

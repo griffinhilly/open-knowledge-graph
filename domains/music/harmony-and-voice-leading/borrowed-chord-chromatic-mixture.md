@@ -16,7 +16,7 @@ tags:
 - borrowed-chords
 - chromatic
 - mixture
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

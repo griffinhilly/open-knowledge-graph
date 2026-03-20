@@ -12,7 +12,7 @@ tags:
 - categorical-logic
 - distribution
 - validity-rules
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

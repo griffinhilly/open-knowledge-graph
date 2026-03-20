@@ -15,7 +15,7 @@ tags:
 - recombination-frequency
 - linkage
 - meiosis
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

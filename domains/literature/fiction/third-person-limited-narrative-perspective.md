@@ -15,7 +15,7 @@ tags:
 - third-person
 - limited
 - perspective
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

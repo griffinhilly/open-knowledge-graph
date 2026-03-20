@@ -17,7 +17,7 @@ tags:
 - mourning
 - consolation
 - pastoral
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

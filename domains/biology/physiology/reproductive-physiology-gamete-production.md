@@ -15,7 +15,7 @@ tags:
 - gametogenesis
 - sex hormones
 - HPG axis
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

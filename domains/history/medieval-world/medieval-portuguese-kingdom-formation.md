@@ -16,7 +16,7 @@ tags:
 - kingdom
 - reconquista
 - formation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

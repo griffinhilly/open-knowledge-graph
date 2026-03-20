@@ -23,7 +23,7 @@ tags:
 - cyclone
 - supercell
 - wind-shear
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 # Severe Weather Systems

@@ -21,7 +21,7 @@ tags:
 - uninvolved
 - warmth
 - control
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Parenting Styles and Child Outcomes

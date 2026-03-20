@@ -15,7 +15,7 @@ tags:
 - trade
 - wealth
 - colonialism
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

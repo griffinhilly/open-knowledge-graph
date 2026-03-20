@@ -15,7 +15,7 @@ tags:
 - ventilation
 - dead space
 - gas exchange
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

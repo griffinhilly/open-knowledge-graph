@@ -9,8 +9,7 @@ prerequisites:
 - id: confounding-epidemiology
   type: hard
 builds-toward:
-- marginal-structural-models
-- g-estimation-causal-effects
+  - marginal-structural-models
 tags:
 - longitudinal-analysis
 - time-varying-confounding
@@ -18,7 +17,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Time-Varying Confounders and Longitudinal Exposure
 
 ## Core Idea

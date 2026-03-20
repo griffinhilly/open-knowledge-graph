@@ -10,9 +10,7 @@ prerequisites:
   type: hard
 - id: jet-stream-variability-climate
   type: soft
-builds-toward:
-- climate-extremes-and-attribution
-- regional-climate-downscaling
+builds-toward: []
 tags:
 - downscaling
 - regional-projections
@@ -21,7 +19,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Regional Climate Downscaling and Projections
 
 ## Core Idea

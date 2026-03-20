@@ -9,7 +9,7 @@ prerequisites:
 - id: compactness-theorem-model-theory
   type: soft
 builds-toward:
-- undecidability-and-gödel
+- undecidability-and-godel
 - quantifier-elimination-and-decidability
 tags:
 - axiomatization

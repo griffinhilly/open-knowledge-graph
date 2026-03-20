@@ -17,7 +17,7 @@ tags:
 - selection
 - polymorphism
 - frequency-dependent
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

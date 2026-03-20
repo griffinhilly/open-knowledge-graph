@@ -10,9 +10,7 @@ prerequisites:
   type: soft
 - id: composition-and-simples
   type: soft
-builds-toward:
-- material-constitution-problem
-- rigid-designation-essentialism
+builds-toward: []
 tags:
 - sortals
 - identity
@@ -22,7 +20,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Sortal Concepts and Identity Conditions
 
 ## Core Idea

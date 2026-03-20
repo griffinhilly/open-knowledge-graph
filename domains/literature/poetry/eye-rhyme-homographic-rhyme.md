@@ -10,7 +10,7 @@ tags:
 - rhyme
 - visual-form
 - wordplay
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

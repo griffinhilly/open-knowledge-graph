@@ -10,7 +10,7 @@ tags:
 - syntax
 - framework
 - types
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

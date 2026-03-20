@@ -15,7 +15,7 @@ tags:
 - dynasties
 - native
 - medieval
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

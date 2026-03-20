@@ -16,7 +16,7 @@ tags:
 - information-delivery
 - dialogue
 - realism
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -22,7 +22,7 @@ tags:
 - growth-spurt
 - sexual-maturation
 - body-image
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Puberty and Adolescent Physical Development

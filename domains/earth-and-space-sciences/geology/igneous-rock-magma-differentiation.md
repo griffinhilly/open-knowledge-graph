@@ -22,7 +22,7 @@ tags:
 - magma
 - crystallization
 - petrology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

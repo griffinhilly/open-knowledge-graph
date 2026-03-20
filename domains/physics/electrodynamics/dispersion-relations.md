@@ -14,7 +14,7 @@ tags:
 - dispersion
 - group-velocity
 - phase-velocity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

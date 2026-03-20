@@ -20,7 +20,7 @@ tags:
 - built environment
 - landscape
 - symbolic landscape
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 # Cultural Landscape

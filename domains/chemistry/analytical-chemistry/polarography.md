@@ -14,7 +14,7 @@ tags:
 - half-wave potential
 - diffusion current
 - mercury
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

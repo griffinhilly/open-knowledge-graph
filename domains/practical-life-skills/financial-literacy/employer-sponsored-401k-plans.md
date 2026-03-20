@@ -15,7 +15,7 @@ tags:
 - retirement
 - 401k
 - employer-benefits
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

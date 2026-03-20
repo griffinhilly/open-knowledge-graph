@@ -9,8 +9,7 @@ prerequisites:
 - id: carbon-cycle-paleoclimate
   type: soft
 builds-toward:
-- carbon-cycle-paleoclimate
-- paleoclimate-tipping-points
+  - paleoclimate-tipping-points
 tags:
 - methane
 - ch4
@@ -20,7 +19,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Methane Sources and Paleoclimate Feedback
 
 ## Core Idea

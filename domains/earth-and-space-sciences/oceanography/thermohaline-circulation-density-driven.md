@@ -20,7 +20,7 @@ tags:
 - conveyor-belt
 - density-driven
 - overturning-circulation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

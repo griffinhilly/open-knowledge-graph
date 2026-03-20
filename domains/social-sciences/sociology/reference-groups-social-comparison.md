@@ -16,7 +16,7 @@ tags:
 - aspirations
 - merton
 - hyman
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

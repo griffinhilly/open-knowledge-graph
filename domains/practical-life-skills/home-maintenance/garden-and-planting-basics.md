@@ -18,7 +18,7 @@ tags:
 - gardening
 - plants
 - outdoor
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 
@@ -33,6 +33,45 @@ Begin with a small raised bed or container — these provide controlled soil con
 ## Common Misconceptions
 - More water always helps struggling plants — overwatering is the most common cause of houseplant and garden plant death, causing root rot.
 - Fertilizer fixes all plant problems — fertilizer feeds healthy plants; it cannot compensate for wrong sun, poor drainage, or disease.
+
+## Questions
+
+```yaml
+- question: "A gardener's tomato plants are yellowing and producing almost no fruit despite weekly fertilizer applications. The plants are in a bed that gets only 2 hours of sunlight per day. What is most likely causing the problem and what should the gardener do?"
+  type: multiple-choice
+  options:
+    - "The plants need more fertilizer — increase the application rate for better nutrient uptake"
+    - "The plants are overwatered — reduce watering frequency to once per week"
+    - "The plants lack adequate sunlight — tomatoes need 6–8 hours of direct sun, and no amount of fertilizer compensates for insufficient photosynthesis"
+    - "The soil needs more compost to improve drainage and nutrient availability"
+  answer: 2
+  explanation: "Sun is a biological requirement, not an aesthetic preference. Tomatoes need 6–8 hours of direct sunlight for photosynthesis; without it, they cannot produce the energy for fruit regardless of soil nutrition. Fertilizer feeds healthy, photosynthesizing plants — it cannot substitute for light. This is the core principle: match the plant to the conditions, or no input will rescue it."
+
+- question: "A gardener in USDA Zone 5 wants to plant a flowering shrub that will return each spring. Which factor is most important when selecting the shrub at the nursery?"
+  type: multiple-choice
+  options:
+    - "Whether the shrub's bloom color matches the garden's existing color palette"
+    - "Whether the shrub is rated hardy to Zone 5 or a colder zone, so it will survive winter minimum temperatures"
+    - "Whether the shrub performed well in the nursery's climate-controlled greenhouse"
+    - "Whether the shrub was grown using organic methods"
+  answer: 1
+  explanation: "Hardiness zone rating is the primary filter for any perennial plant. A shrub rated only to Zone 7 will die in a Zone 5 winter no matter how healthy it looks at purchase. The USDA zone map exists precisely for this decision: it encodes whether a plant's biological cold tolerance matches your climate. Greenhouse performance is meaningless; what matters is survival through your winter minimum."
+
+- question: "When a garden plant is wilting or struggling, increasing watering frequency is usually the safest and most effective first response."
+  type: true-false
+  answer: false
+  explanation: "Overwatering is the most common cause of plant failure, not underwatering. Wilting can be caused by either too little or too much water — overwatered roots rot and lose their ability to take up water, causing the same wilting symptom as drought. The correct diagnosis is to check soil moisture (push a finger an inch into the soil) before adding more water. Reflexively watering a struggling plant often makes the problem worse."
+
+- question: "Adding compost to garden soil improves both clay soil (which drains too slowly) and sandy soil (which drains too quickly), moving both toward better growing conditions."
+  type: true-false
+  answer: true
+  explanation: "Compost improves soil structure in both directions: in clay, it opens up the dense matrix to improve drainage and root penetration; in sand, it adds organic matter that retains water and nutrients longer. This makes compost the universal soil amendment — not because it's magic, but because it moves almost any soil toward the loamy middle ground that most plants prefer."
+
+- question: "Why do most garden plants benefit from deep, infrequent watering rather than frequent shallow watering?"
+  type: short-answer
+  answer: "Deep watering pushes moisture deep into the soil, encouraging roots to grow downward to reach it. This produces a deeper root system that can access moisture even during dry spells, making plants more drought-tolerant. Frequent shallow watering keeps moisture near the surface, so roots stay shallow. Shallow-rooted plants are more vulnerable to heat and drought and require constant attention to survive."
+  explanation: "The practical implication: water less often but more thoroughly, and check moisture by probing an inch into the soil rather than watering on a fixed schedule. This single habit reduces overwatering, encourages deeper roots, and makes plants more resilient — and it applies equally to lawns, vegetable gardens, and container plants."
+```
 
 ## Explainer
 

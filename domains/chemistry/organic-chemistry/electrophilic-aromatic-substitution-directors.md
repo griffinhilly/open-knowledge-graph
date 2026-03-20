@@ -16,7 +16,7 @@ tags:
 - ortho-para
 - meta
 - substitution
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

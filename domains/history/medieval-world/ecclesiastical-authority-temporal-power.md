@@ -18,7 +18,7 @@ tags:
 - temporal
 - politics
 - power
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

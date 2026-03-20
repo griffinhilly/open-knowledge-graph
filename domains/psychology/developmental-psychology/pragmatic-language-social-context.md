@@ -14,7 +14,7 @@ tags:
 - social-communication
 - context-sensitivity
 - conversational-skill
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

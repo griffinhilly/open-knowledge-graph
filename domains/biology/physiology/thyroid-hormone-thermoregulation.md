@@ -16,7 +16,7 @@ tags:
 - metabolism
 - heat
 - energy expenditure
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

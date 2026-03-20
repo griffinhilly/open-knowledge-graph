@@ -15,7 +15,7 @@ tags:
 - perception
 - filtering
 - cognitive
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

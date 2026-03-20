@@ -17,7 +17,7 @@ tags:
 - pans
 - timing
 - heat
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

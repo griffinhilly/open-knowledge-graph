@@ -14,7 +14,7 @@ tags:
 - roman-numeral-analysis
 - harmonic-function
 - analysis
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

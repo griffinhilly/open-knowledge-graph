@@ -14,7 +14,7 @@ tags:
 - subduction
 - metamorphism
 - plate-tectonics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -9,8 +9,7 @@ prerequisites:
 - id: stage-directions-and-performance-text
   type: soft
 builds-toward:
-- dramatic-space-and-setting
-- theatrical-period-movements
+  - theatrical-period-movements
 tags:
 - blocking
 - movement
@@ -20,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Stage Blocking and Meaningful Movement
 
 ## Core Idea

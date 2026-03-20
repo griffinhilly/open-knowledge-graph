@@ -13,7 +13,7 @@ tags:
 - fixed-point
 - iteration
 - root-finding
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

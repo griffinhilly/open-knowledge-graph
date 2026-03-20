@@ -3,7 +3,9 @@ id: basic-flavor-components-salt-acid-fat
 title: 'Understanding Basic Flavors: Salt, Acid, Fat, and Heat'
 domain: practical-life-skills
 course: cooking-and-nutrition
-prerequisites: []
+prerequisites:
+- id: seasoning-and-flavor-basics
+  type: soft
 builds-toward:
 - tasting-evaluating-food-flavor
 - pan-cooking-and-sauteing-basics
@@ -16,7 +18,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Understanding Basic Flavors: Salt, Acid, Fat, and Heat
 
 ## Core Idea

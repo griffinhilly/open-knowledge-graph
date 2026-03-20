@@ -23,7 +23,7 @@ tags:
 - forced migration
 - racism
 - triangular trade
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # The Atlantic Slave Trade

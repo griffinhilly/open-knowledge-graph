@@ -15,7 +15,7 @@ tags:
 - occupational-health
 - prevention
 - hazard-control
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - relativity
 - reference-frames
 - mechanics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

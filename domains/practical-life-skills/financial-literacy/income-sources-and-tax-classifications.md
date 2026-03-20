@@ -30,6 +30,45 @@ Examine your own pay stub; if self-employed or with multiple income streams, tra
 ## Common Misconceptions
 - Thinking self-employment income is tax-free; it actually faces higher taxes due to self-employment tax. - Assuming investment income is taxed like wages; capital gains and dividend taxes differ from ordinary income. - Believing gross income is what you 'earn'; net income after taxes is what you actually have.
 
+## Questions
+
+```yaml
+- question: "A freelance consultant earns $80,000 in 1099 income. A salaried employee earns $80,000 in W-2 income. Ignoring deductions, who faces a higher total federal tax burden on the same gross income?"
+  type: multiple-choice
+  options:
+    - "The W-2 employee — withholding spreads the tax burden and increases the total owed"
+    - "They face equal burdens — both earn the same gross income and pay the same income tax rates"
+    - "The freelancer — self-employed workers pay the full 15.3% self-employment tax in addition to income tax, while W-2 employees pay only 7.65%"
+    - "The W-2 employee — employer-paid payroll taxes are included in the employee's taxable income"
+  answer: 2
+  explanation: "This is the key misconception about self-employment. W-2 employees split payroll tax with their employer — the employee pays 7.65% (for Social Security and Medicare) and the employer pays another 7.65%. Self-employed workers effectively pay both halves: 15.3% in self-employment tax, on top of ordinary income tax. On the same $80,000 gross, the freelancer owes roughly $12,000 more in payroll taxes than the W-2 employee. (Half of self-employment tax is deductible, partially offsetting this, but the net burden remains higher.)"
+
+- question: "An investor sells stock she held for 18 months at a $10,000 profit. Compared to earning the same $10,000 as wages, how is this taxed?"
+  type: multiple-choice
+  options:
+    - "The same — all income is taxed at the same ordinary income tax rates"
+    - "At a higher rate — investment gains face an additional capital gains surcharge on top of income tax"
+    - "At a lower rate — long-term capital gains are taxed at preferential rates of 0%, 15%, or 20%"
+    - "Tax-free — investment income from assets held more than one year is exempt from federal tax"
+  answer: 2
+  explanation: "Long-term capital gains (from assets held more than one year) are taxed at preferential rates — 0%, 15%, or 20% depending on total income — substantially lower than ordinary income tax rates, which can reach 37%. The 18-month holding period qualifies this as long-term. This is why a wealthy investor may pay a lower effective tax rate than a salaried employee: much of their income is classified as long-term capital gains. Short-term gains (held one year or less) are taxed as ordinary income."
+
+- question: "Self-employment income is generally less burdened by tax than W-2 wage income because freelancers can deduct their business expenses."
+  type: true-false
+  answer: false
+  explanation: "While business deductions do reduce a freelancer's taxable income, the self-employment tax (15.3% on net earnings, covering both employee and employer shares of Social Security and Medicare) creates a significantly higher baseline tax burden than W-2 employment. A W-2 employee's employer pays half of payroll taxes — a benefit the freelancer doesn't receive. Business deductions can offset this partially, but on the same gross income with similar expenses, the freelancer's total tax obligation typically exceeds the W-2 employee's."
+
+- question: "Long-term capital gains from investments held more than one year are taxed at lower rates than ordinary wage income for most taxpayers."
+  type: true-false
+  answer: true
+  explanation: "Long-term capital gains receive preferential tax treatment: rates of 0%, 15%, or 20% depending on income bracket, compared to ordinary income rates that rise up to 37%. This is a deliberate policy choice intended to encourage long-term investment. The practical effect is that an investor earning $100,000 in long-term capital gains may pay less federal income tax than a worker earning the same $100,000 in wages."
+
+- question: "Explain why a freelancer and a salaried employee both reporting $80,000 in gross income do not face the same total federal tax burden, focusing specifically on how payroll taxes differ."
+  type: short-answer
+  answer: "W-2 employees and their employers each pay 7.65% of wages in payroll taxes (Social Security and Medicare), for a combined total of 15.3%. The employee only sees and pays their 7.65% share — the employer's share is a separate cost that never appears on the employee's paycheck. A self-employed worker must pay both halves themselves as self-employment tax: 15.3% on net self-employment income. On $80,000, the freelancer owes roughly $11,300 in self-employment tax, while the W-2 employee pays about $6,120. Although self-employed workers can deduct half of self-employment tax from gross income (reducing the income tax portion), the net payroll tax burden on a self-employed person is substantially higher than on a W-2 employee with the same gross income."
+  explanation: "This asymmetry is one of the most important practical insights in personal taxation. Many new freelancers are surprised when their first tax bill arrives — they saw the full payment from clients and didn't realize that a large portion was effectively payroll tax that an employer had been quietly paying on their behalf in their previous job."
+```
+
 ## Explainer
 
 From your work with W-2s, 1099s, and pay stubs, you can already identify whether income came from an employer or from self-employment. This topic zooms out to see the full landscape: income comes from many sources, and the IRS treats each source differently. Understanding these distinctions is not just academic — the tax classification of your income determines your tax rate, how and when you pay, and what deductions you can take.

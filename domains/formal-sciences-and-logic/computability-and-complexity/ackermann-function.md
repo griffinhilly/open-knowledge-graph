@@ -12,7 +12,7 @@ tags:
 - computability
 - recursive-functions
 - fast-growing-hierarchy
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

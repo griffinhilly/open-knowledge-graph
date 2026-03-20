@@ -13,7 +13,7 @@ tags:
 - astronomy
 - redshift
 - blueshift
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

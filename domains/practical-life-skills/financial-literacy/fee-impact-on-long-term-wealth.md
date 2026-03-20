@@ -19,7 +19,7 @@ tags:
 - investing
 - wealth
 - optimization
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -3,7 +3,9 @@ id: signal-energy-and-power-classification
 title: Signal Energy and Power Classification
 domain: engineering
 course: signals-and-systems
-prerequisites: []
+prerequisites:
+- id: orthogonal-signal-decomposition-basis
+  type: soft
 builds-toward:
 - signal-properties-periodicity-energy-power
 - random-signals-autocorrelation-psd
@@ -15,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Signal Energy and Power Classification
 
 ## Core Idea

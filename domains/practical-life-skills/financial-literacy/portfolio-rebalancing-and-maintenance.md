@@ -14,7 +14,7 @@ tags:
 - rebalancing
 - portfolio-management
 - discipline
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

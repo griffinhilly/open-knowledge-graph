@@ -21,7 +21,7 @@ tags:
 - millet
 - Mediterranean
 - devshirme
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -20,7 +20,7 @@ tags:
 - declination
 - altitude-azimuth
 - celestial-sphere
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

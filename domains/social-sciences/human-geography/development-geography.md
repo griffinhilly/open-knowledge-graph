@@ -35,7 +35,7 @@ tags:
 - world-systems
 - modernization
 - Global South
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Development Geography and Global Inequality

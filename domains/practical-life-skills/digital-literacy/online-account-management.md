@@ -30,6 +30,45 @@ Enable two-factor authentication on your most important accounts (email, banking
 - 'Sign in with Google/Apple' is not inherently less secure; it can be safer since it reduces the number of passwords to manage.
 - Unused accounts are security liabilities — their credentials can be breached and used in credential-stuffing attacks against your active accounts.
 
+## Questions
+
+```yaml
+- question: "An attacker successfully steals your password for an account protected by an authenticator app. What can the attacker do?"
+  type: multiple-choice
+  options:
+    - "Log in immediately using the stolen password"
+    - "Log in by requesting a password reset email"
+    - "Log in only if they also have physical access to your phone"
+    - "Log in by calling your mobile carrier"
+  answer: 2
+  explanation: "With 2FA enabled, a password alone is insufficient. An authenticator app generates time-based codes on your physical device — to log in, an attacker would also need your phone in hand. This is the core protection 2FA provides: even if they obtain your password (something you know), they cannot proceed without the second factor (something you have). Remote attacks that steal passwords are stopped cold."
+
+- question: "You enabled SMS text-message codes on your banking account. A friend says SMS 2FA is just as secure as an authenticator app. Are they correct?"
+  type: multiple-choice
+  options:
+    - "Yes — both require a phone, so they offer equal security"
+    - "Yes — SMS is actually more secure because codes are sent from outside your device"
+    - "No — SMS can be bypassed via SIM swap attacks; authenticator apps generate codes locally and are significantly more secure"
+    - "No — but only because authenticator apps are free and more convenient"
+  answer: 2
+  explanation: "SMS 2FA is better than no 2FA, but it has a known vulnerability: SIM swap attacks, where an attacker convinces your mobile carrier to transfer your phone number to a device they control. They then receive your SMS codes. Authenticator apps generate time-based codes locally using a cryptographic seed — an attacker needs physical possession of your device. This is a meaningful security difference, especially for high-value accounts."
+
+- question: "Your email account should be the top priority for enabling 2FA because email is used to reset passwords for all your other accounts."
+  type: true-false
+  answer: true
+  explanation: "Email is the master key to your digital identity. If an attacker compromises your email account, they can trigger 'forgot password' resets for every other account you own — banking, social media, shopping, and more. Protecting email with 2FA matters more than 2FA on any single downstream account."
+
+- question: "Inactive online accounts you no longer use cannot be compromised, so there is no reason to delete them."
+  type: true-false
+  answer: false
+  explanation: "Inactive accounts remain security liabilities. When a service gets breached, your old username and password combination gets exposed. Attackers use those credentials in 'credential stuffing' — automatically testing them against active services (banking, email, etc.). Old accounts also retain personal data that can be misused. Deleting unused accounts reduces your attack surface even if you never think about those accounts anymore."
+
+- question: "Explain why two-factor authentication provides significantly stronger protection than a strong password alone."
+  type: short-answer
+  answer: "A password is a single secret (something you know). If it is stolen, guessed, or leaked in a breach, anyone can use it remotely. 2FA adds a second factor — something you physically have (a phone or hardware key) — that an attacker cannot obtain remotely. Even with the correct password, they cannot log in without physical access to your second factor, defeating phishing, credential stuffing, and brute-force attacks."
+  explanation: "Security in layers means each factor eliminates a category of attack. A strong password stops guessing attacks. 2FA stops remote attacks that obtain the password by other means. Together they require an attacker to both know your secret AND physically possess your device — a far higher bar that eliminates the vast majority of real-world account compromises."
+```
+
 ## Explainer
 
 From your work on password security, you know that a strong, unique password is the foundation of account protection. But a password alone is a single lock on a door — if someone gets the key, they're in. **Two-factor authentication (2FA)** adds a second lock that requires something you *have* (your phone) in addition to something you *know* (your password). Even if an attacker steals or guesses your password, they still can't access your account without that second factor. This is why enabling 2FA on your email account matters most: email is the master key to every other account, since password resets go there.

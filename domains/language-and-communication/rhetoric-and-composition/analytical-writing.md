@@ -33,6 +33,45 @@ Start with a single passage or artifact and practice generating multiple interpr
 - Analysis is the same as summary; summary reports what a text says, while analysis argues what a text means or how it achieves its effects.
 - An analytical essay must cover everything about its subject; effective analysis is selective, focusing on the features that most illuminate the thesis.
 
+## Questions
+
+```yaml
+- question: "A student writes the following as their thesis: 'This poem uses many water images.' Why does this fail as an analytical thesis?"
+  type: multiple-choice
+  options:
+    - "It does not mention the poem's title or author"
+    - "It is a factual observation that any reader would immediately agree with — it makes no arguable interpretive claim about what the images mean or how they function"
+    - "A thesis must address the poem's historical context to be analytical"
+    - "Water imagery is too common a literary device to be worth analyzing"
+  answer: 1
+  explanation: "The test for an analytical thesis is: could a thoughtful reader of the same text reach a different interpretation? 'This poem uses water images' is an observation — everyone who read the poem would agree. There is nothing to argue. A genuine analytical thesis would claim something about what the images *do* or *mean*: 'The poem's water imagery systematically undermines the speaker's stated composure.' That's arguable, and it requires interpretive work to support."
+
+- question: "In an analytical essay, the ideal ratio of evidence to interpretation should:"
+  type: multiple-choice
+  options:
+    - "Be roughly equal — the evidence and its explanation should receive the same amount of space"
+    - "Favor evidence — more textual quotation signals stronger, more rigorous support"
+    - "Favor interpretation — brief, targeted evidence followed by extended explanation of what it means"
+    - "Depend entirely on the length of the text being analyzed"
+  answer: 2
+  explanation: "The most common failure in student analytical writing is spending most words on evidence (quoting or describing) and very few words explaining what the evidence means. The ratio should run the other way: get to the evidence quickly, then spend most of your words on the 'so what?' — explaining why this evidence supports your interpretive claim, what it reveals, why the alternative interpretation is less convincing. Evidence without interpretation is not analysis; it is a list."
+
+- question: "A strong analytical essay should cover all significant features of the text or artifact being analyzed to ensure the argument is thorough and complete."
+  type: true-false
+  answer: false
+  explanation: "Effective analysis is intentionally selective. Attempting to cover everything in a text of any length produces an inventory of observations, not an argument. The discipline of analysis is choosing: which features most directly illuminate the thesis? Which evidence would actually shift a skeptic's view? The rest should be left out, even if interesting. Selectivity is not laziness — it is the analytical writer's most important judgment call."
+
+- question: "The difference between summary and analysis is that summary reports what a text says, while analysis argues what a text means and how it achieves its effects."
+  type: true-false
+  answer: true
+  explanation: "This distinction is the foundation of the entire topic. Expository writing and summary communicate information; analytical writing advances an interpretive argument. Summary answers 'what?'; analysis answers 'how?' and 'so what?' A student who summarizes a poem has reported its content; a student who analyzes it has made an arguable claim about its meaning, structure, or strategy and supported that claim through close reading."
+
+- question: "What is the 'so what?' move in analytical writing, and why is it the step most student writers skip?"
+  type: short-answer
+  answer: "The 'so what?' move is the transition from noticing a feature of the text to explaining its significance — why it matters, what it accomplishes, what it reveals about the text's meaning or strategy. Students skip it because they mistake identification (naming the feature) for analysis. Pointing out that a poem repeats a word is observation; explaining that the repetition enacts the speaker's psychological obsession is analysis."
+  explanation: "The 'observe, infer, interpret' framework maps directly onto this: observation identifies the feature, inference explains the immediate effect ('this makes the reader feel X'), and interpretation draws the larger conclusion ('which suggests the text is doing Y'). Most student writing stops at observation or inference and never reaches interpretation. The 'so what?' question, asked after every piece of evidence, forces the writer to complete all three moves and prevents the writing from collapsing back into summary."
+```
+
 ## Explainer
 
 You know from expository writing how to explain a subject clearly and organize information so a reader can follow it. You know from essay organization how to structure a piece with a thesis, supporting points, and a conclusion. Analytical writing builds on both of these — but it changes the fundamental goal. Expository writing informs; analytical writing **interprets**. The question is no longer "what is this?" but "what does this mean, and how does it work?" The writer takes a position about significance, not just a position about facts.

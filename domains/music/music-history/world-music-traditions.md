@@ -22,7 +22,7 @@ tags:
 - tala
 - polyrhythm
 - non-Western
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

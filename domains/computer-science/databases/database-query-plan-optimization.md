@@ -12,7 +12,7 @@ tags:
 - query-optimization
 - performance
 - cost-based-optimization
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -29,6 +29,45 @@ Listen to recorded chant and analyze its connection to Latin text prosody and li
 ## Common Misconceptions
 - That medieval chant was simple or primitive because it is monophonic. - That medieval music theory and practice resembled modern system and goals. - That polyphony developed linearly from chant; the actual process was more complex and regional.
 
+## Questions
+
+```yaml
+- question: "A listener hears Gregorian chant for the first time and says: 'It sounds so simple — just one melody, no harmony. It must be an early, undeveloped form of music.' What is wrong with this assessment?"
+  type: multiple-choice
+  options:
+    - "Chant actually uses complex harmony — it only sounds monophonic because historical recordings compress the dynamic range"
+    - "This applies modern standards to a system with entirely different goals, missing that chant's richness lies in melodic/textual relationship, modal coloring, and liturgical function — not harmonic complexity"
+    - "The listener is right that chant is simpler than later music, but wrong to call it undeveloped — simplicity was a deliberate aesthetic choice"
+    - "Chant is not truly monophonic — medieval performers always added improvised harmonies not captured in the notation"
+  answer: 1
+  explanation: "Calling chant 'primitive' because it is monophonic is an anachronistic judgment — it measures medieval music by modern standards of harmonic complexity. Chant was a complete and sophisticated aesthetic system with its own theory of consonance, modal colorings, and compositional craft. Its richness is melodic and textual: the relationship between a long melismatic passage and a single Latin syllable, the modal coloring suited to a liturgical season. Understanding it requires suspending modern expectations about what music should do."
+
+- question: "What was the primary function of Gregorian chant in medieval Europe?"
+  type: multiple-choice
+  options:
+    - "To entertain congregations and make church services more emotionally engaging"
+    - "To express the individual emotional experiences of the priest-composers who wrote it"
+    - "To support prayer, aid memorization of scripture, sanctify worship spaces, and mark liturgical time"
+    - "To demonstrate the technical vocal virtuosity of trained singers in cathedral schools"
+  answer: 2
+  explanation: "Chant existed to serve liturgical functions — shaping the acoustic atmosphere of stone churches, aiding memorization of Latin texts, orienting worshippers toward prayer, and marking time within the liturgical calendar. It was not composed to entertain or to express personal emotion. Understanding this functional purpose is what allows you to appreciate why it sounds as it does: its qualities follow from its purpose, not from ignorance of harmonic possibilities."
+
+- question: "The emergence of polyphony in medieval music was a gradual process that began as an embellishment of existing chant, not an abrupt break from it."
+  type: true-false
+  answer: true
+  explanation: "Early polyphony (organum) began by adding a second voice moving in parallel intervals above the chant — literally an elaboration of the existing monophonic tradition. Over centuries, composers gave the added voices increasing rhythmic and melodic independence. The Notre Dame school systematized rhythm and multi-voice notation, but this represented a gradual evolution, not a sudden revolution. The chant remained the structural foundation even as polyphony grew more complex."
+
+- question: "The eight church modes that organize Gregorian chant are essentially the same as the modern major and minor scale system."
+  type: true-false
+  answer: false
+  explanation: "The modal system differs fundamentally from modern major/minor tonality. The modern major scale corresponds to one mode (Ionian) and natural minor to another (Aeolian), but the remaining six modes have different interval structures and different characteristic qualities. More importantly, medieval theorists understood and used modes very differently from how we understand modern keys: modes were associated with specific emotional colorings and liturgical appropriateness, not with the harmonic functions (tonic, dominant, subdominant) that define modern tonality."
+
+- question: "What does it mean to say that Gregorian chant was a 'complete and sophisticated aesthetic system' despite being monophonic?"
+  type: short-answer
+  answer: "Sophistication in chant lies in dimensions other than harmony: in the modal system with its eight modes and their distinct emotional colorings, in the complex relationship between melodic shape and Latin text prosody, in the use of melismatic passages (many notes on one syllable) as meditation on a single word, and in the highly developed compositional craft that governed how melodies fit liturgical texts and seasons. Medieval theorists had their own elaborate theories of consonance, dissonance, and appropriate style. Monophony was not a limitation but a complete aesthetic framework with its own goals and craft."
+  explanation: "The key move is setting aside the assumption that musical sophistication requires harmonic complexity. By medieval standards, a chant melody was sophisticated if it suited its text, fit its liturgical function, used appropriate modal colorings, and balanced syllabic and melismatic passages artfully. These were developed, theorized criteria — not primitive improvisation."
+```
+
 ## Explainer
 
 You already know that Western music history unfolds in distinct eras with different values and techniques. The medieval period (roughly 500–1400 CE) is where European musical notation, theory, and practice first coalesced into a documented tradition — and the center of that tradition was the **Gregorian chant**. Named after Pope Gregory I (though the actual collection and codification happened over centuries), Gregorian chant is **monophonic**: a single unaccompanied melodic line, sung in unison. There are no chords, no meter as you would recognize it, and no notated rhythm in the modern sense. Instead, the rhythm follows the natural flow of Latin prose — expansive, breath-driven, and liturgically purposeful.

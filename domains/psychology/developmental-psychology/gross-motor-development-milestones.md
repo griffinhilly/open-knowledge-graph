@@ -14,7 +14,7 @@ tags:
 - infancy
 - milestones
 - locomotion
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

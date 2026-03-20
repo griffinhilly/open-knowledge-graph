@@ -8,18 +8,16 @@ prerequisites:
   type: hard
 - id: multiperspectival-ensemble
   type: soft
-builds-toward:
-- genre-boundary-crossing
+builds-toward: []
 tags:
 - metafiction
 - postmodern
 - self-aware
 - playful
 - fragmentation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Postmodern Metafictional Play
 
 ## Core Idea

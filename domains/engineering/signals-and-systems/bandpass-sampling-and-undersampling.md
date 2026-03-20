@@ -12,7 +12,7 @@ tags:
 - bandpass-sampling
 - undersampling
 - sampling-theorem
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

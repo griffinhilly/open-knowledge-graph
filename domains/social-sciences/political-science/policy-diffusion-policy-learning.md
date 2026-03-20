@@ -16,7 +16,7 @@ tags:
 - learning
 - innovation
 - adoption
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

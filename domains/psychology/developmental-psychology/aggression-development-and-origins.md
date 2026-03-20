@@ -13,7 +13,7 @@ tags:
 - behavior
 - childhood
 - social development
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - expectations
 - inflation
 - forecasting
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

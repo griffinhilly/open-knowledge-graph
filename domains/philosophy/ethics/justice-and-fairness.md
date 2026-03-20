@@ -23,6 +23,45 @@ Justice is the virtue of giving people what they are due—distributing goods, o
 ## How It's Best Learned
 Consider the difference principle debate: is inequality fair if it benefits the worst-off (allowing incentives for productive talent), or must distribution be equal to respect equal moral status?
 
+## Questions
+
+```yaml
+- question: "A city allocates scarce affordable housing units by lottery among all medically eligible applicants. A resident objects that applicants with the most urgent housing need don't receive priority. What kind of justice complaint is this?"
+  type: multiple-choice
+  options:
+    - "Procedural justice — the lottery procedure itself is unfair"
+    - "Distributive justice — the outcome doesn't reflect morally relevant differences in need"
+    - "Neither — lotteries are inherently just because everyone has equal probability"
+    - "Rawlsian justice — the lottery doesn't satisfy the difference principle"
+  answer: 1
+  explanation: "The resident is making a distributive justice complaint: the *outcome* of the allocation doesn't track need, which they believe is a morally relevant factor. The lottery may be procedurally fair (equal probability for all eligible applicants) while producing distributively arbitrary results. This illustrates the key insight that procedural and distributive justice are distinct dimensions that can come apart."
+
+- question: "Rawls's difference principle permits economic inequalities. Which position most directly rejects this, and on what grounds?"
+  type: multiple-choice
+  options:
+    - "Utilitarianism — inequalities are only permitted when they maximize total welfare, not just benefit to the worst-off"
+    - "Libertarianism — distributions arising from voluntary exchange are just regardless of resulting patterns, so inequality-correcting redistribution is itself unjust"
+    - "Egalitarianism — all inequalities violate equal moral status, making the difference principle too permissive"
+    - "Global justice theory — the difference principle is limited to a single society and ignores global inequality"
+  answer: 1
+  explanation: "Libertarians (like Nozick) reject the difference principle not because it allows too much inequality, but because they reject the idea that outcomes must satisfy any distributive pattern at all. If people voluntarily transact and trade, the resulting distribution is just regardless of its pattern — redistributive taxation to benefit the worst-off violates individual entitlements. This is a more direct rejection of Rawls's approach than utilitarian or egalitarian objections."
+
+- question: "According to Rawls, any society where some members are wealthier than others is unjust."
+  type: true-false
+  answer: false
+  explanation: "Rawls explicitly permits inequalities — but only if they benefit the least advantaged members of society (the difference principle). His argument from the veil of ignorance leads to principles that protect against the worst outcomes, not to strict equality. A doctor earning more than average is permissible if the incentive draws talented people into medicine, improving healthcare for everyone including the worst-off. Strict equality is not Rawls's position."
+
+- question: "A hiring process can be procedurally fair while still producing distributively unjust outcomes."
+  type: true-false
+  answer: true
+  explanation: "This is the core insight about the two dimensions of justice. A meritocratic hiring system that applies its own rules impartially may be procedurally fair yet produce outcomes that entrench historical disadvantages — for instance, if the 'merit' criteria systematically favor candidates from privileged backgrounds. Diagnosing a justice complaint requires identifying which dimension is at issue, since procedural and distributive justice can come apart significantly."
+
+- question: "Why might two philosophers who both accept utilitarianism as their normative framework reach different conclusions about who counts as a subject of justice?"
+  type: short-answer
+  answer: "Even within a shared framework, the question of who counts as a subject of justice depends on prior commitments about whose welfare matters and how far the scope of moral concern extends. Utilitarians are committed to counting welfare wherever it exists — which logically extends the scope of justice to global inequality (all humans), future generations (their welfare counts), and possibly non-human animals (their capacity to suffer is morally relevant). But two utilitarians could reasonably disagree about how to weigh distant or uncertain future welfare, or about whether animal welfare rises to the level of justice rather than mere protection from cruelty."
+  explanation: "The scope question — who counts as a subject of justice — is as contested as the distribution question. It depends on metaethical and normative commitments: the more one values welfare impartially, the broader the scope of justice. Recognizing that 'justice' is a cluster of questions (what is owed, to whom, by whom, through which institutions) prevents treating it as a single problem with one correct answer."
+```
+
 ## Explainer
 
 From normative and metaethical inquiry, you know that ethics involves both first-order questions (what should we do?) and second-order questions (what makes something right or wrong?). **Justice** is primarily a first-order concept — a virtue, a property of institutions, and a standard for evaluating how goods, opportunities, and burdens are allocated. But the answers to justice questions depend partly on which normative framework you apply, making justice a place where ethical theory meets practical institutional design.

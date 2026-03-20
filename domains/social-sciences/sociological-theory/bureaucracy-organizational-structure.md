@@ -14,7 +14,7 @@ tags:
 - bureaucracy
 - organization
 - rationalization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

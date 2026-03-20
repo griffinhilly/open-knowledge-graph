@@ -13,7 +13,7 @@ tags:
 - hazard-control
 - hierarchy
 - workplace-safety
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

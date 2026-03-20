@@ -23,7 +23,7 @@ tags:
 - third person
 - omniscience
 - focalization
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

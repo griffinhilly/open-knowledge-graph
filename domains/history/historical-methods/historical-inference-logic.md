@@ -15,7 +15,7 @@ tags:
 - methodology
 - reasoning
 - evidence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

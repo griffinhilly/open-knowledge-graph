@@ -16,7 +16,7 @@ tags:
 - register
 - accommodation
 - prose
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

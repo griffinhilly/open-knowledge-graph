@@ -18,7 +18,7 @@ tags:
 - motility
 - digestion
 - coordination
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

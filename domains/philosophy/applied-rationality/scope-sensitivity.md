@@ -12,7 +12,7 @@ builds-toward:
   - expected-value-decision-making
   - effective-altruism-and-scope
 tags: ["debiasing", "scope", "scale", "quantitative-reasoning", "altruism"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

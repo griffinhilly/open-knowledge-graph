@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 English has many nouns that do not follow the regular plural pattern. Some nouns change internally (man → men, woman → women, child → children, tooth → teeth, foot → feet, mouse → mice). Other nouns have the same singular and plural form (sheep, fish, deer). Still others come from other languages and keep their original plural forms (datum → data, crisis → crises, phenomenon → phenomena). Learning the most common irregular plurals is essential for accurate speech and writing.
 
+## Questions
+
+```yaml
+- question: "Someone invents a new fictional creature called a 'glurb.' What is almost certainly the correct plural?"
+  type: multiple-choice
+  options:
+    - "Glurben — new creature words follow the Old English vowel-mutation pattern"
+    - "Glurbs — new words almost always take the regular -s plural because irregular forms belong to historically old, high-frequency words"
+    - "Glurb — all animal names are zero-plural"
+    - "It is impossible to know without checking a dictionary"
+  answer: 1
+  explanation: "Irregular plurals exist because those words are ancient and extremely high-frequency — speakers encountered the irregular forms so often that they became second nature and resisted regularization. New words, including invented ones, almost universally receive the regular -s treatment. There is no historical tradition of irregularity to preserve. This is why new tech products become 'iPhones,' not 'iPhoenen' or 'iPhone.'"
+
+- question: "A scientist writes 'criteria' in her paper. Her colleague says she should write 'criterias' instead. Who is correct?"
+  type: multiple-choice
+  options:
+    - "The colleague — 'criterias' is now standard in academic writing"
+    - "The scientist — 'criteria' is already the plural form; the singular is 'criterion'"
+    - "Neither — the correct plural is 'criterions'"
+    - "The scientist — but only because 'criteria' sounds more formal, not because of grammar"
+  answer: 1
+  explanation: "'Criteria' is the classical Greek plural of 'criterion.' It is already a plural — writing 'criterias' applies a regular plural ending to an already-plural word. In formal and academic writing, the classical plural is expected for words that entered English through scholarly channels. Using 'criteria' correctly signals familiarity with the academic register in which the word circulates."
+
+- question: "High-frequency, ancient words like 'man' and 'tooth' are more likely to retain irregular plural forms than newer, less common words."
+  type: true-false
+  answer: true
+  explanation: "Words encountered constantly resist regularization because speakers hear and use the irregular forms so often that they become second nature. A child hears 'men' and 'teeth' hundreds of times before reaching school. Rare or new words get the -s treatment automatically because there is no established tradition of irregularity to reinforce. This is why irregular plurals cluster among the most fundamental vocabulary — body parts, family terms, common animals — rather than appearing randomly."
+
+- question: "'Sheeps' is becoming increasingly accepted as the plural of 'sheep' in standard English, following the same gradual regularization seen in words like 'forums.'"
+  type: true-false
+  answer: false
+  explanation: "'Sheep' is a zero-plural word — singular and plural are identical. 'Sheeps' is never standard. Zero-plural animal words (sheep, deer, fish, species) have shown remarkable resistance to regularization, far more than Latin/Greek academic terms like 'forums' or 'indexes.' This stability is partly because zero-plural words are used constantly in both singular and plural contexts, keeping the zero-plural pattern in active circulation."
+
+- question: "Why do words like 'man → men' and 'tooth → teeth' form plurals by changing a vowel rather than adding -s? What does this tell us about the history of these words?"
+  type: short-answer
+  answer: "These words preserve an ancient Old English plural system called vowel mutation (umlaut), where the plural was signaled by changing the vowel rather than adding a suffix. Because these words are among the oldest and most frequently used in English, speakers encountered the irregular forms so often that they survived long after the system that produced them disappeared. High-frequency words resist regularization."
+  explanation: "Irregular plural patterns are not random — they are historical residue. Old English used vowel mutation systematically across many words, but most have since regularized under the -s pattern. The survivors (man/men, foot/feet, goose/geese, mouse/mice) are precisely the ones that were most common, because constant use kept the irregular forms in circulation. Understanding the historical source transforms apparent exceptions into predictable patterns."
+```
+
 ## Explainer
 
 You know that English typically forms plurals by adding -s or -es (cat → cats, bus → buses). That's the default rule, applied automatically to new words — when a new tech product launches, we say "two iPhones," not some invented plural. But English has been spoken and written for over a thousand years, absorbing vocabulary from Old English, Latin, Greek, French, and other languages. Many of those borrowed words arrived with their own pluralization systems and, for various reasons, kept them. Irregular plurals are the historical residue of those other systems.

@@ -10,7 +10,7 @@ tags:
 - monopoly
 - pricing
 - discrimination
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

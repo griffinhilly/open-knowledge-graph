@@ -12,7 +12,7 @@ tags:
 - hypothesis-testing
 - inference
 - model-fit
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

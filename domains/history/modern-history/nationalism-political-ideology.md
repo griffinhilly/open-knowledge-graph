@@ -17,7 +17,7 @@ tags:
 - ideology
 - identity
 - political-thought
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

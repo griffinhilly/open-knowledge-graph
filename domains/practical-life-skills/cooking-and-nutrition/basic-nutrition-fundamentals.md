@@ -19,7 +19,7 @@ tags:
 - health
 - calories
 - nutrients
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 

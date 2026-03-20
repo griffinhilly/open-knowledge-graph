@@ -14,7 +14,7 @@ tags:
 - narrative
 - rhetorical-strategy
 - persuasion
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

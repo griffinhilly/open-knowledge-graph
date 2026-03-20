@@ -22,7 +22,7 @@ tags:
 - power
 - sample-size
 - type-II-error
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

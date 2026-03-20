@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - diffraction
 - approximation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

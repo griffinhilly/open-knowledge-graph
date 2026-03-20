@@ -15,7 +15,7 @@ tags:
 - ecology
 - conservation
 - sustainability
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

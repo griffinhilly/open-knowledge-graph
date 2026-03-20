@@ -27,7 +27,7 @@ tags:
 - ols
 - estimation
 - regression
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

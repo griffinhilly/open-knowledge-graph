@@ -15,7 +15,7 @@ tags:
 - styles
 - growth
 - value
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

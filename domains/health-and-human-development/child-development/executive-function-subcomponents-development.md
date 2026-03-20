@@ -17,7 +17,7 @@ tags:
 - inhibitory-control
 - working-memory
 - cognitive-flexibility
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -25,7 +25,7 @@ tags:
 - internal-validity
 - external-validity
 - ecological-validity
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Validity in Psychological Measurement

@@ -16,7 +16,7 @@ tags:
 - mass-loss
 - radiation-pressure
 - evolution
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

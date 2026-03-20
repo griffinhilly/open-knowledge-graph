@@ -14,7 +14,7 @@ tags:
 - time
 - growing-block
 - becoming
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

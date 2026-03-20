@@ -9,9 +9,8 @@ prerequisites:
 - id: cartesian-product
   type: soft
 builds-toward:
-- relational-algebra-fundamentals
-- functional-dependency-schema
-- entity-relationship-conceptual-design
+  - relational-algebra-fundamentals
+  - functional-dependency-schema
 tags:
 - relational
 - model
@@ -19,7 +18,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # The Relational Data Model
 
 ## Core Idea
@@ -30,6 +28,45 @@ Practice translating real-world concepts into tables—create schemas for a libr
 
 ## Common Misconceptions
 The relational model is not the same as having tables in a spreadsheet. Relational databases enforce constraints, support complex queries, and manage relationships between tables systematically.
+
+## Questions
+
+```yaml
+- question: "A developer says: 'I'll just use a spreadsheet instead of a database — they're both organized in rows and columns, so the functionality is equivalent.' What is the most significant capability this approach sacrifices?"
+  type: multiple-choice
+  options:
+    - "The ability to display data in a visual grid format"
+    - "Schema enforcement, complex cross-table querying, and systematic constraint management across related tables"
+    - "The ability to sort and filter rows by column values"
+    - "The ability to share data with multiple users simultaneously"
+  answer: 1
+  explanation: "The relational model enforces that every row conforms to a declared schema, supports complex set-theoretic queries (joining, selecting, projecting) with precise mathematical semantics, and manages relationships between tables through shared attribute values and constraints. Spreadsheets offer none of these guarantees: any cell can contain any value, there is no formal concept of a join, and 'relationships' between sheets are informal and fragile. The relational model trades individual-cell flexibility for system-level reliability."
+
+- question: "In the relational model, a relation is formally defined as:"
+  type: multiple-choice
+  options:
+    - "Any table that can be displayed with rows and columns in a user interface"
+    - "A named collection of rows and columns that applications can read and write"
+    - "A subset of the Cartesian product of its attribute domains"
+    - "A file on disk containing structured data organized hierarchically"
+  answer: 2
+  explanation: "A relation is mathematically a subset of A₁ × A₂ × ... × Aₙ, where each Aᵢ is the domain of an attribute. This set-theoretic foundation is what gives relational operations their precise, composable semantics. A Students table with attributes (name: string, age: integer) draws its rows from string × integer — but only the rows that represent actual students. This is why relational algebra (selection, projection, join) is so well-defined: every operation maps one or more relations to another relation."
+
+- question: "A key advantage of the relational model is data independence: the logical structure of data is separated from how it is physically stored on disk."
+  type: true-false
+  answer: true
+  explanation: "Data independence means you describe *what* data you want (via queries), not *how* to retrieve it. The database engine decides physical storage layout, indexing, and access paths. This means applications can survive physical restructuring (new indexes, different file layouts, hardware changes) without modification. It also means queries written today can still work correctly after the database has been reorganized for performance."
+
+- question: "The relational model's strict schema enforcement — requiring every row to conform to declared column types — is a design limitation that makes it less suitable for general structured data problems."
+  type: true-false
+  answer: false
+  explanation: "Schema enforcement is the source of the relational model's power, not a limitation. Because the system guarantees that every row conforms to the schema, complex multi-table queries produce predictable, reliable results. Constraints you declare are enforced consistently. The 'rigidity' at the individual-cell level purchases reliability at the system level. For nearly every structured data problem, that trade is overwhelmingly worth it — which is why relational databases have dominated for 50 years."
+
+- question: "What is 'data independence' in the relational model, and why does it represent an improvement over earlier hierarchical database approaches?"
+  type: short-answer
+  answer: "Data independence means the logical structure of the data (the schema: tables, columns, relationships) is separated from how it is physically stored. Applications query what they want without specifying how to retrieve it. Hierarchical databases required applications to navigate explicit parent-child pointers, coupling application logic tightly to physical storage structure. Changing the storage layout broke applications. The relational model decouples them."
+  explanation: "In hierarchical databases, to retrieve a student's courses you had to follow a specific pointer path from student → enrollment → course. If the physical organization changed, all code following those paths broke. With the relational model, you write 'SELECT courses WHERE student_id = X' and the engine figures out the physical retrieval. Applications become independent of storage decisions, enabling restructuring and optimization without rewriting application code."
+```
 
 ## Explainer
 

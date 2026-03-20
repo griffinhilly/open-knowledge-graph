@@ -16,7 +16,7 @@ tags:
 - transport
 - reabsorption
 - secretion
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

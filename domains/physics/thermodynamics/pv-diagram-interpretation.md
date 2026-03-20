@@ -7,9 +7,8 @@ prerequisites:
 - id: thermodynamic-processes
   type: hard
 builds-toward:
-- otto-cycle-internal-combustion
-- diesel-cycle-compression-ignition
-- rankine-cycle-steam-power
+  - diesel-cycle-compression-ignition
+  - rankine-cycle-steam-power
 tags:
 - visualization
 - processes
@@ -17,7 +16,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # P-V Diagram Interpretation and Thermodynamic Processes
 
 ## Core Idea

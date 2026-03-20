@@ -13,7 +13,7 @@ tags:
 - Alexander
 - cultural-fusion
 - empire
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

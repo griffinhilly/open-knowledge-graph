@@ -19,7 +19,7 @@ tags:
 - monetarism
 - velocity
 - Fisher-equation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - social-control
 - stigma
 - medicalization
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - deglazing
 - reduction
 - technique
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

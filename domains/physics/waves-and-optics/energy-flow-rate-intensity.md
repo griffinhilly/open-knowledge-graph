@@ -15,7 +15,7 @@ tags:
 - waves
 - energy
 - power
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

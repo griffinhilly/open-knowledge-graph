@@ -14,7 +14,7 @@ tags:
 - chance
 - indeterminacy
 - modernism
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

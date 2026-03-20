@@ -15,7 +15,7 @@ tags:
 - real-power
 - reactive-power
 - power-factor
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

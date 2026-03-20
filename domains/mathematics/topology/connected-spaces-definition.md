@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - connectedness
 - fundamental
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

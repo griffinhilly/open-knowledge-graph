@@ -19,7 +19,7 @@ tags:
 - moment
 - torque
 - rotation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

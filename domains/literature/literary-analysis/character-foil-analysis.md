@@ -17,7 +17,7 @@ tags:
 - foil
 - comparison
 - contrast
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

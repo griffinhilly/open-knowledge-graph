@@ -20,7 +20,7 @@ tags:
 - glucose-homeostasis
 - insulin-signaling
 - glucose-transporter
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

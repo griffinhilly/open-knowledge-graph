@@ -15,7 +15,7 @@ tags:
 - register
 - voice
 - effect
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

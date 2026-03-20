@@ -21,7 +21,7 @@ tags:
 - entropy
 - predictability
 - analysis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

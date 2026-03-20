@@ -18,7 +18,7 @@ tags:
 - matter-waves
 - de-broglie
 - wavelength
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

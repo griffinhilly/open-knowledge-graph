@@ -19,7 +19,7 @@ tags:
 - standards
 - validity
 - judgment
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

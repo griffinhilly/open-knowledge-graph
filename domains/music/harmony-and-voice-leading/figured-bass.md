@@ -18,7 +18,7 @@ tags:
 - notation
 - inversions
 - baroque
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

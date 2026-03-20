@@ -17,7 +17,7 @@ tags:
 - grouping
 - white-space
 - form
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - convergence
 - cyclone
 - occlusion
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

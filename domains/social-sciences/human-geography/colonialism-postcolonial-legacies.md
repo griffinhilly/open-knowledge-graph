@@ -14,7 +14,7 @@ tags:
 - postcolonial
 - imperialism
 - legacy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

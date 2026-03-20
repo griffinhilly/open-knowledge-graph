@@ -22,7 +22,7 @@ tags:
 - sea-level
 - Arctic-amplification
 - attribution
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Climate Change: Science and Evidence

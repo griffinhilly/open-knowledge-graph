@@ -10,17 +10,15 @@ prerequisites:
   type: soft
 - id: psychological-research-ethics
   type: soft
-builds-toward:
-- exploratory-vs-confirmatory-analysis-strategies
+builds-toward: []
 tags:
 - transparency
 - preregistration
 - open-science
 - research-integrity
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Preregistration and Research Transparency Planning
 
 ## Core Idea

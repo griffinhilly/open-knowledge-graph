@@ -34,6 +34,45 @@ Start with a bare noun and progressively add modifiers — first a determiner, t
 - Stacking too many pre-modifiers without punctuation or logical ordering, creating noun pileups that readers cannot parse (the large old red Italian leather racing car seat).
 - Treating noun-noun compounds (chicken soup, bus stop) as adjective + noun pairs, when the first noun actually classifies the type rather than describing a quality.
 
+## Questions
+
+```yaml
+- question: "A student writes: 'the Italian old lovely small clock.' Why does this sound awkward to native English speakers?"
+  type: multiple-choice
+  options:
+    - "Too many adjectives have been used — English allows at most two pre-modifiers before a noun"
+    - "The adjectives violate the natural order English speakers follow: opinion before size before age before origin — it should be 'the lovely small old Italian clock'"
+    - "Italian adjectives must always follow the noun in English, not precede it"
+    - "Adjectival modifiers must be converted to prepositional phrases when more than two are used"
+  answer: 1
+  explanation: "English pre-modifiers follow a fixed natural hierarchy: opinion/evaluation first, then size, then age, then shape, then color, then origin, then material, then purpose. 'Lovely' (opinion) must come before 'small' (size), which must come before 'old' (age), which must come before 'Italian' (origin). The correct order is 'the lovely small old Italian clock.' The awkwardness is not about quantity but about violating the deeply embedded ordering rules English speakers follow intuitively."
+
+- question: "What is the key semantic difference between pre-modifiers (adjectives before the noun) and post-modifiers (prepositional phrases after the noun)?"
+  type: multiple-choice
+  options:
+    - "Pre-modifiers express permanent properties; post-modifiers express temporary or situational ones"
+    - "Pre-modifiers describe inherent qualities in a fixed hierarchical order; post-modifiers express relational information connecting the noun to other things"
+    - "Pre-modifiers are always single-word adjectives; post-modifiers are always multi-word clauses"
+    - "Pre-modifiers narrow the reference of the noun; post-modifiers broaden it beyond the sentence"
+  answer: 1
+  explanation: "Pre-modifiers — adjectives, nouns used as classifiers — describe qualities ordered by how inherent they are to the noun's nature. Post-modifiers like prepositional phrases ('the house on the hill,' 'a girl with red hair') identify the noun through its relationships to other things. This relational function is why post-modifiers tend to carry more contextual, referential information rather than describing intrinsic qualities."
+
+- question: "In English, the adjective that describes material (e.g., 'leather') should come closer to the head noun than the adjective that describes color (e.g., 'red'), making 'red leather jacket' more natural than 'leather red jacket.'"
+  type: true-false
+  answer: true
+  explanation: "Material modifiers sit closer to the noun because they classify what kind of thing it fundamentally is — a leather jacket is a type of jacket defined by its material. Color is a more incidental quality and therefore sits further from the noun in the pre-modifier sequence. The rule is: more classifying (inherent to the noun's essence) → closer to the noun; more evaluative (an added quality) → further from the noun."
+
+- question: "In a noun-noun compound like 'chicken soup' or 'bus stop,' the first noun functions as an adjective describing a quality of the second noun."
+  type: true-false
+  answer: false
+  explanation: "Noun-noun compounds work differently from adjective + noun constructions. The first noun classifies the type of the second noun — it doesn't describe a quality. 'Chicken soup' is soup of the chicken variety, not soup that possesses some quality of being chicken-like. Unlike 'red soup' (which is paraphraseable as 'soup that is red'), 'chicken soup' is not paraphraseable as 'soup that is chicken.' This classifying function is distinct from adjectival modification."
+
+- question: "Why does English have a fixed natural order for pre-modifiers, and what principle determines which modifiers appear closest to the head noun?"
+  type: short-answer
+  answer: "The fixed order reflects how closely each modifier type relates to the noun's essential nature. Modifiers that classify what kind of thing the noun is — material (leather), purpose (racing), origin (French) — sit closest to the noun because they are most definitional. Modifiers that add incidental qualities — opinion (lovely), size (big), age (old) — sit further away because they say something about the noun without defining its type. Determiners come first to establish reference before qualities are added."
+  explanation: "The order is not arbitrary — it mirrors a semantic hierarchy from most-evaluative to most-classifying. This is why 'the lovely old Italian leather racing jacket' sounds natural while scrambling those modifiers sounds wrong, even though the same words appear. Recognizing this hierarchy helps writers place modifiers correctly and helps readers parse dense noun phrases."
+```
+
 ## Explainer
 
 From your study of noun phrases, you know that a noun phrase is built around a head noun with optional components. The interesting question is how many layers of information those optional components can carry, and in what order. A fully expanded noun phrase can pack a remarkable amount of information into a tightly structured unit — and understanding this structure is what separates writers who construct precise noun phrases from those who resort to awkward verb-heavy constructions.

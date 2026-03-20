@@ -16,7 +16,7 @@ tags:
 - persuasion
 - influence
 - compliance
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

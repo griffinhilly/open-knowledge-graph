@@ -23,7 +23,7 @@ tags:
 - consonance
 - onomatopoeia
 - sound
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

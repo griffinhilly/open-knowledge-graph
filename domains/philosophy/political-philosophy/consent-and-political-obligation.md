@@ -16,7 +16,7 @@ tags:
 - obligation
 - legitimacy
 - contract
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

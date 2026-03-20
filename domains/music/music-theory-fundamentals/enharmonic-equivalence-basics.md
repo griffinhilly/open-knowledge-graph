@@ -14,7 +14,7 @@ tags:
 - pitch
 - notation
 - enharmonics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

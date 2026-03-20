@@ -14,7 +14,7 @@ tags:
 - nucleophile
 - regioselectivity
 - sn2
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

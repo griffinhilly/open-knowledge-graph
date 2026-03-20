@@ -17,7 +17,7 @@ tags:
 - exotoxins
 - endotoxins
 - pathogenesis
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

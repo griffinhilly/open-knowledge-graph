@@ -17,7 +17,7 @@ tags:
 - flash-back
 - experimental
 - modernism
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

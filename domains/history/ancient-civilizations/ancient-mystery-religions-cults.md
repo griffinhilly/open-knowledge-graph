@@ -3,17 +3,18 @@ id: ancient-mystery-religions-cults
 title: Ancient Mystery Religions and Cult Practices
 domain: history
 course: ancient-civilizations
-prerequisites: []
+prerequisites:
+- id: mesopotamia-origins
+  type: soft
 tags:
 - mystery-religions
 - cults
 - religion
 - practice
 - ritual
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Ancient Mystery Religions and Cult Practices
 
 ## Core Idea

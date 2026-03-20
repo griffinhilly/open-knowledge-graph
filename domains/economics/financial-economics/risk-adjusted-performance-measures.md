@@ -18,7 +18,7 @@ tags:
 - treynor-ratio
 - performance-evaluation
 - alpha
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Risk-Adjusted Performance Measures

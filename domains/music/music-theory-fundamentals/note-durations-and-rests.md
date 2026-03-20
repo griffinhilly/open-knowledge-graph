@@ -17,7 +17,7 @@ tags:
 - note values
 - rests
 - duration
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

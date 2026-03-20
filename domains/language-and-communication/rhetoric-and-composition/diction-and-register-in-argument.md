@@ -15,7 +15,7 @@ tags:
 - register
 - audience
 - rhetoric
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

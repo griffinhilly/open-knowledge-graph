@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 A number line shows fractions as distances from 0. Fractions to the right are greater. Number lines help students see that 1/2 = 2/4 and that fractions can be compared by position.
 
+## Questions
+
+```yaml
+- question: "A student compares 1/8 and 1/3. Since 8 is greater than 3, the student concludes that 1/8 is greater than 1/3. What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Fractions with 1 in the numerator cannot be compared directly"
+    - "A larger denominator means the whole is divided into more pieces, making each piece smaller — so 1/8 is actually less than 1/3"
+    - "Both fractions equal 1, so they are the same size"
+    - "You need to find a common denominator before any comparison is possible"
+  answer: 1
+  explanation: "The denominator tells you how many equal pieces the whole is cut into — the more pieces, the smaller each one. Dividing a pizza into 8 slices gives you smaller slices than dividing it into 3. So 1/8 (one of eight small slices) is much less than 1/3 (one of three large slices). This is the key counterintuitive insight about unit fractions: larger denominator means smaller value, because the whole is being divided into more (therefore tinier) parts."
+
+- question: "On a number line from 0 to 1, the fractions 1/2 and 2/4 land on the exact same point. What does this tell you?"
+  type: multiple-choice
+  options:
+    - "The number line must be drawn incorrectly — two different fractions can't be at the same location"
+    - "2/4 is slightly larger than 1/2 because it has a larger numerator"
+    - "1/2 and 2/4 are equivalent fractions that represent the same amount"
+    - "Fractions should only be compared on separate number lines to avoid confusion"
+  answer: 2
+  explanation: "Two fractions that land on the same point on the number line must represent the same distance from 0 — and therefore the same amount. This is the definition of equivalent fractions: different-looking symbols that name the same position. The number line makes equivalence visible in a way that symbols alone often don't: 1/2 and 2/4 really do occupy the same location because half of one whole is the same as two-fourths of one whole."
+
+- question: "On a number line, a fraction that appears further to the right always represents a greater value than a fraction appearing to the left."
+  type: true-false
+  answer: true
+  explanation: "True. This is the same rule that applies to whole numbers on a number line, extended to fractions. Position encodes magnitude: the further right, the closer to 1 (and beyond), the greater the value. This is why the number line is such a powerful tool for comparing fractions — you can read relative size directly from position without any additional calculation."
+
+- question: "You can directly compare 2/3 and 3/4 by placing 2/3 on a number line divided into thirds and 3/4 on a separate number line divided into fourths, then comparing their positions."
+  type: true-false
+  answer: false
+  explanation: "False. Fractions are only directly comparable when they are measured against the same whole and on the same number line. If one line shows thirds and another shows fourths, the two lines may be different lengths or their segments may not align — positions on different lines cannot be reliably compared. Both fractions must appear on the same number line (divided to show both thirds and fourths, or converted to a common denominator) to compare meaningfully."
+
+- question: "Why does a fraction with a larger denominator (like 1/8) represent a smaller amount than a fraction with a smaller denominator (like 1/4), even though 8 > 4?"
+  type: short-answer
+  answer: "The denominator tells you how many equal parts the whole is divided into. More parts means smaller parts — just like cutting a pizza into 8 slices gives you smaller slices than cutting it into 4. When the numerator is 1, you get exactly one of those parts, so 1/8 (one small part) is less than 1/4 (one larger part)."
+  explanation: "This is one of the most important counterintuitive insights in elementary fraction work. Students naturally apply whole-number logic ('bigger number = bigger value'), but denominators work inversely: the denominator counts divisions of the whole, and more divisions produce smaller pieces. On a number line, you can see this directly — the tick marks for eighths are packed more closely together than the tick marks for fourths, so each eighth-interval is physically shorter."
+```
+
 ## Explainer
 
 You already know how to place fractions on a number line: divide the segment from 0 to 1 into equal parts, then count parts from the left. A fraction like 3/4 sits three-quarters of the way from 0 to 1. The number line brings something powerful that fraction circles alone cannot provide: **position encodes size**. Whatever is further to the right is greater. This is the same rule you've used for whole numbers, and it works for fractions too.

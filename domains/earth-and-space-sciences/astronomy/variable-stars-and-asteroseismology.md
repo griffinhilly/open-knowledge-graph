@@ -12,7 +12,7 @@ tags:
 - variable-stars
 - pulsations
 - asteroseismology
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

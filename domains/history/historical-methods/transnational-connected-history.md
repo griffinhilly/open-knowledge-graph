@@ -15,7 +15,7 @@ tags:
 - connected-history
 - methodology
 - global
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

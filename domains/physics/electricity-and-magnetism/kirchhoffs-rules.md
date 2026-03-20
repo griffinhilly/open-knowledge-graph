@@ -18,7 +18,7 @@ tags:
 - junction-rule
 - loop-rule
 - circuit-analysis
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

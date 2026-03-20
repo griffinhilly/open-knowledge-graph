@@ -28,6 +28,45 @@ Look for interjections in dialogue and writing. Practice writing your own exclam
 - Interjections are always exclamations; they can express various emotions like surprise, pain, or disappointment, not just exclamation.
 - Exclamatory sentences must contain interjections; exclamatory sentences express strong emotion but may not contain an interjection.
 
+## Questions
+
+```yaml
+- question: "Consider these two sentences: (A) 'Wow! I can't believe we won!' and (B) 'The team worked all season for this victory!' Which statement about them is correct?"
+  type: multiple-choice
+  options:
+    - "Both sentences are exclamatory and both contain interjections"
+    - "Sentence A is exclamatory and contains an interjection; Sentence B is exclamatory but contains no interjection"
+    - "Sentence A contains an interjection but is not exclamatory; Sentence B is exclamatory"
+    - "Neither sentence contains an interjection because interjections must appear at the end of a sentence"
+  answer: 1
+  explanation: "'Wow!' is an interjection — a standalone emotional word set apart by punctuation. 'I can't believe we won!' is an exclamatory sentence. 'The team worked all season for this victory!' is also exclamatory (expresses strong feeling, ends with !) but contains no standalone interjection word — proving that exclamatory sentences do not require interjections."
+
+- question: "Which sentence is exclamatory but does NOT contain an interjection?"
+  type: multiple-choice
+  options:
+    - "Oh, I see what you mean."
+    - "Ouch! That really stung!"
+    - "What an incredible performance that was!"
+    - "Well, that was completely unexpected!"
+  answer: 2
+  explanation: "'What an incredible performance that was!' is an exclamatory sentence — it expresses strong emotion and ends with an exclamation mark — but it contains no standalone interjection word. Options A (Oh), B (Ouch), and D (Well) all contain interjections that are set off by punctuation and stand outside the grammatical structure of the rest of the sentence."
+
+- question: "An exclamatory sentence must contain an interjection to express strong emotion."
+  type: true-false
+  answer: false
+  explanation: "Exclamatory sentences express strong emotion through their overall structure, content, and the exclamation mark — not through the presence of an interjection. 'The house is on fire!' is fully exclamatory with no interjection at all. Interjections and exclamatory sentences are two separate grammatical tools that can appear together or independently."
+
+- question: "The same interjection word can express different levels of emotional intensity depending on the punctuation that follows it."
+  type: true-false
+  answer: true
+  explanation: "'Oh! You scared me!' (startled, intense) versus 'Oh, I see.' (neutral acknowledgment) show that 'Oh' can carry very different emotional weight. The exclamation point signals a high-intensity reaction; the comma signals a calmer, more reflective tone. This makes punctuation after interjections a meaningful stylistic choice, not just a formality."
+
+- question: "Explain the difference between an interjection and an exclamatory sentence. Can a sentence be exclamatory without containing an interjection? Give an example."
+  type: short-answer
+  answer: "An interjection is a standalone word or phrase that expresses emotion and stands apart from the grammatical structure around it (e.g., 'Ouch!', 'Wow!', 'Oh,'). An exclamatory sentence is a complete grammatical sentence that expresses strong emotion and ends with an exclamation point. Yes — a sentence can be exclamatory without an interjection: 'The whole crowd jumped to their feet!' is exclamatory but contains no interjection."
+  explanation: "The confusion between these two arises because they often appear together. But they are independent: an interjection can appear without a full exclamatory sentence ('Ouch!' alone is fine), and a full exclamatory sentence can appear without any interjection. Understanding the difference matters for writing because overusing interjections can feel informal or childish, while exclamatory sentences can convey strong emphasis in any register."
+```
+
 ## Explainer
 
 You already know from your study of **interjections and expletives** that some words exist primarily to express a speaker's emotional state rather than to carry grammatical weight. This topic extends that understanding in two directions: how interjections behave in writing, and what makes a full sentence exclamatory.

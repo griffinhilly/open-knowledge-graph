@@ -12,7 +12,7 @@ builds-toward:
 - dominated-convergence-theorem
 tags:
 - integration
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

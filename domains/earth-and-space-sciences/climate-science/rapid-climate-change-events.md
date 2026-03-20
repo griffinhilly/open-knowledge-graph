@@ -11,8 +11,7 @@ prerequisites:
 - id: ice-core-paleoclimate-records
   type: soft
 builds-toward:
-- climate-tipping-points
-- rapid-climate-change-events
+  - climate-tipping-points
 tags:
 - abrupt-change
 - paleoclimate
@@ -21,7 +20,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Rapid Climate Change Events in Paleoclimate
 
 ## Core Idea

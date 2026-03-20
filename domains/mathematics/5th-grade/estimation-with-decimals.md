@@ -29,6 +29,45 @@ Start with money contexts: "About how much will these three items cost?" before 
 - Thinking estimation is "wrong" or sloppy — it is a deliberate strategy, not a lack of precision.
 - Rounding all numbers the same direction (always up or always down), which can systematically inflate or deflate the estimate instead of balancing rounding errors.
 
+## Questions
+
+```yaml
+- question: "A student computes 6.93 × 2.1 and gets 145.53. They estimate 7 × 2 = 14. What should they conclude?"
+  type: multiple-choice
+  options:
+    - "145.53 is probably correct — rounding introduced enough error to explain the large difference"
+    - "Something went wrong — the exact answer should be near 14, not near 145"
+    - "Estimation cannot be used to check multiplication, only addition"
+    - "They should have rounded to the nearest tenth for a more reliable estimate"
+  answer: 1
+  explanation: "The estimate of 14 creates a 'target neighborhood.' An exact answer of 145.53 is ten times too large, which signals a misplaced decimal point. Estimation's primary purpose is catching errors of this magnitude — it does not give the right answer, it tells you whether your answer is in the right ballpark. Options A and C misunderstand this function."
+
+- question: "When estimating 3.47 + 8.62, a student always rounds both numbers up to get 4 + 9 = 13. The exact answer is 12.09. What is the problem with always rounding the same direction?"
+  type: multiple-choice
+  options:
+    - "Nothing — any consistent rounding method produces a valid estimate"
+    - "The estimate will always be lower than the exact answer"
+    - "The estimate consistently overcounts, missing the error-cancellation benefit of mixed rounding"
+    - "Rounding to whole numbers is too imprecise for addition problems"
+  answer: 2
+  explanation: "When you round 3.47 up to 4 (+0.53 error) and 8.62 up to 9 (+0.38 error), both errors push the estimate high, giving 13 instead of 12.09. If instead you round 3.47 up to 4 but 8.62 down to 9 — well, 8.62 rounds naturally to 9 — a better example is 3.47+8.32: rounding 3.47 up (+0.53) and 8.32 down (−0.32) means the errors partially cancel, giving a closer estimate. Mixing directions reduces systematic bias in your estimates."
+
+- question: "Estimation with decimals is most useful for catching major errors like misplaced decimal points, not for producing exact answers."
+  type: true-false
+  answer: true
+  explanation: "Correct. The explainer describes estimation as producing a 'target neighborhood' to verify against. If your computed answer falls far outside that neighborhood (e.g., 79.2 when the estimate is 8), a significant error — most likely a decimal point mistake — has occurred. Estimation deliberately trades precision for speed and is not designed to replace exact computation."
+
+- question: "Rounding all numbers up is the safest estimation strategy because it guarantees the estimate will never be lower than the true answer."
+  type: true-false
+  answer: false
+  explanation: "Always rounding up produces a consistently inflated estimate, which is actually less accurate than mixed rounding. The best estimates mix rounding directions so that upward rounding errors partially cancel downward ones. A 'safe' strategy that is systematically high misleads you just as much as one that is systematically low — both pull the estimate away from the true value."
+
+- question: "Why does mixing rounding directions (some numbers round up, some down) produce a better estimate than always rounding in the same direction?"
+  type: short-answer
+  answer: "When some numbers round up and others round down, the overestimates and underestimates partially cancel each other, keeping the total estimate close to the true value. Always rounding in one direction stacks errors together, pushing the estimate consistently above or below the exact answer."
+  explanation: "This is the principle of error cancellation. In 4.78 + 3.14, rounding 4.78 up to 5 adds +0.22 to the estimate, while rounding 3.14 down to 3 subtracts −0.14. Net error: only +0.08. The estimate of 8 is very close to the exact 7.92 because the errors partially offset. If both had been rounded up (5 + 4 = 9), the estimate would overshoot by nearly 1."
+```
+
 ## Explainer
 
 You already know how to round decimal numbers — moving a decimal like 3.67 to the nearest tenth gives 3.7, or to the nearest whole number gives 4. You also know how to add and subtract decimals exactly. **Estimation with decimals** combines those two skills: round first, then compute with the simpler numbers. The goal is to get an answer that is close enough to be useful without doing the full calculation.

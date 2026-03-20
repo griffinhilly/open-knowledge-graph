@@ -17,7 +17,7 @@ tags:
 - complement
 - pattern recognition
 - cytokines
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

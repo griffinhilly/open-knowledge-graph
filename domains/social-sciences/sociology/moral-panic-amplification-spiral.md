@@ -14,7 +14,7 @@ tags:
 - social-control
 - amplification
 - cohen
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

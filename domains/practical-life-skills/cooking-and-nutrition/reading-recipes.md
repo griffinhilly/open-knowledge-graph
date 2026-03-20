@@ -23,7 +23,7 @@ tags:
 - mise-en-place
 - measurement
 - instructions
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 

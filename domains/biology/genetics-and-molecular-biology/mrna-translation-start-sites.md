@@ -16,7 +16,7 @@ tags:
 - initiation
 - start-codon
 - ribosome
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -22,7 +22,7 @@ tags:
 - passive-investing
 - expense-ratio
 - diversification
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

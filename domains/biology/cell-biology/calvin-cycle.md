@@ -18,7 +18,7 @@ tags:
 - RuBisCO
 - G3P
 - glucose
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

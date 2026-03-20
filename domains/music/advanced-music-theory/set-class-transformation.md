@@ -27,7 +27,7 @@ tags:
 - transformation
 - harmony
 - analysis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

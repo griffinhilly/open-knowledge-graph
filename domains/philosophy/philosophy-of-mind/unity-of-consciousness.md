@@ -11,17 +11,15 @@ prerequisites:
 - id: neural-correlates-of-consciousness
   type: soft
 builds-toward:
-- temporal-consciousness
-- attention-consciousness-relationship
+  - temporal-consciousness
 tags:
 - unity
 - binding
 - integration
 - phenomenology
-stage: formal-systems
+stage: advanced
 status: draft
 ---
-
 # The Unity of Consciousness
 
 ## Core Idea

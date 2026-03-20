@@ -15,7 +15,7 @@ tags:
 - settlement
 - landscape
 - spatial-organization
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

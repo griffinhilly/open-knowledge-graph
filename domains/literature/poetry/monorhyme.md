@@ -13,7 +13,7 @@ tags:
 - constraint
 - musicality
 - persistence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

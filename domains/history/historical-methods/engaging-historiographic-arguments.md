@@ -13,7 +13,7 @@ tags:
 - historiography
 - argument
 - critical-reading
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

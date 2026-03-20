@@ -29,7 +29,7 @@ tags:
 - quiescent-point
 - bias
 - operating-regions
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Bipolar Junction Transistor (BJT) Fundamentals

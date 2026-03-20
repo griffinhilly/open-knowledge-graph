@@ -18,7 +18,7 @@ tags:
 - five-line
 - anapestic
 - wordplay
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

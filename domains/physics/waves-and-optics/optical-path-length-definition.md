@@ -14,7 +14,7 @@ tags:
 - optical-path-length
 - phase
 - interference
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

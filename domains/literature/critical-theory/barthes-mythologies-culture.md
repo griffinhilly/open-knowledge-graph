@@ -20,7 +20,7 @@ tags:
 - semiotics
 - ideology
 - connotation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

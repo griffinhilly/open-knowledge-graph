@@ -16,7 +16,7 @@ tags:
 - crystallography
 - planes
 - directions
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

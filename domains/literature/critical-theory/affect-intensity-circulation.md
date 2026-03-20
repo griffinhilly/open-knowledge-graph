@@ -15,7 +15,7 @@ tags:
 - intensity
 - circulation
 - emotion
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

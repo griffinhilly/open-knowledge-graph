@@ -12,7 +12,7 @@ tags:
 - least-squares
 - linear-regression
 - overdetermined
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

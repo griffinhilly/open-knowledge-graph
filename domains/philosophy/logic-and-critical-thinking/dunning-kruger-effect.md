@@ -11,7 +11,7 @@ tags:
 - metacognition
 - self-assessment
 - calibration
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

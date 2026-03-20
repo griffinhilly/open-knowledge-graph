@@ -18,7 +18,7 @@ tags:
 - Weimar
 - reparations
 - Wilson
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

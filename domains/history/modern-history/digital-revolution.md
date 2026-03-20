@@ -12,7 +12,7 @@ tags:
 - information
 - digital
 - transformation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

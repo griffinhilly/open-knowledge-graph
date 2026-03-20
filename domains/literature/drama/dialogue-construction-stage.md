@@ -19,18 +19,16 @@ prerequisites:
 - id: dialogue-formatting-and-attribution
   type: soft
 builds-toward:
-- subtext-and-unspoken-meaning
-- dramatic-exposition-revelation
-- scene-beats-and-structure
+  - subtext-and-unspoken-meaning
+  - scene-beats-and-structure
 tags:
 - dialogue
 - character
 - stage-writing
 - performance
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Dialogue Construction for Stage
 
 ## Core Idea

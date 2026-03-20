@@ -15,7 +15,7 @@ tags:
 - netherlands
 - republic
 - trade
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

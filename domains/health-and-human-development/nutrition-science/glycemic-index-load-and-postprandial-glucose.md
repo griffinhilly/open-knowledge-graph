@@ -15,7 +15,7 @@ tags:
 - glucose
 - glycemic-response
 - insulin
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

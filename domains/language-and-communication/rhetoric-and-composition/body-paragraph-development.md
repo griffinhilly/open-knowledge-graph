@@ -34,6 +34,45 @@ Color-code a draft paragraph: highlight claims in one color, evidence in another
 - A paragraph is long enough once it has a quote and a citation; without analysis connecting the evidence to the claim, the paragraph is incomplete regardless of length.
 - Each paragraph should contain only one piece of evidence; complex claims often require multiple pieces of evidence, each analyzed, to be persuasive.
 
+## Questions
+
+```yaml
+- question: "A student writes the following body paragraph: 'Education policy shapes student outcomes. Studies show that class size matters. One study found that smaller classes improved test scores by 15%. Another study found similar results in rural schools.' What is the most significant weakness of this paragraph?"
+  type: multiple-choice
+  options:
+    - "The paragraph has too many pieces of evidence for a single topic"
+    - "The topic sentence is too broad to be proven in a single paragraph"
+    - "The paragraph presents evidence but contains no analysis explaining what the evidence means or how it proves the claim"
+    - "The paragraph would be stronger if it used direct quotes instead of paraphrases"
+  answer: 2
+  explanation: "This paragraph has a topic sentence and two pieces of supporting evidence, but no analysis. After each statistic, the writer immediately moves to the next point rather than explaining what the evidence reveals, why it matters, or how it connects to the paragraph's claim. A reader receives the data but must supply the reasoning. Analysis would ask: What does a 15% improvement reveal about the mechanism by which class size affects learning? Without those explanations, the paragraph is underdeveloped regardless of how much evidence it contains."
+
+- question: "In the CEA (Claim-Evidence-Analysis) pattern, what distinguishes analysis from a summary of the evidence?"
+  type: multiple-choice
+  options:
+    - "Analysis is longer than summary and provides more factual detail about what happened"
+    - "Analysis explains why the evidence supports the claim and what it means, while summary only restates what the evidence says"
+    - "Analysis introduces new evidence to reinforce the first piece"
+    - "Analysis appears at the beginning of the paragraph as the topic sentence, before the evidence is presented"
+  answer: 1
+  explanation: "Summary restates the evidence in different words: 'This shows that class sizes matter.' Analysis explains the mechanism: 'This 15% gain suggests that reduced class sizes allow teachers to identify individual learning gaps and adjust instruction accordingly.' Analysis explicitly names the connection between data and claim, answers the implicit reader question 'So what?', and makes the reasoning visible. It is not length that distinguishes analysis from summary, but the kind of thinking involved."
+
+- question: "A body paragraph that includes a substantial direct quote and runs more than ten sentences is necessarily well-developed, even if it contains no explicit analysis."
+  type: true-false
+  answer: false
+  explanation: "Length is not development. A paragraph can be long and still consist entirely of topic sentence → evidence → more evidence → restatement, with no analysis ever connecting evidence to claim. The measure of development is whether the writer has explained why the evidence proves the claim and what it means for the argument. A ten-sentence paragraph with no analysis is still underdeveloped; a five-sentence paragraph with a clear claim, one piece of evidence, and two analytical sentences can be fully developed."
+
+- question: "A body paragraph that begins arguing that renewable energy reduces carbon emissions but ends discussing the economic costs of solar panels would benefit from being split into two separate paragraphs."
+  type: true-false
+  answer: true
+  explanation: "This describes a failure of paragraph unity: one paragraph is doing the work of two. The topic sentence about carbon emissions makes a specific claim, and all subsequent sentences should advance that claim. Once the paragraph shifts to economic costs, it has introduced a second argument that deserves its own topic sentence, evidence, and analysis. Splitting the paragraph gives each argument room to develop fully. The test is simple: cover the topic sentence and ask whether each remaining sentence serves it."
+
+- question: "Why is analysis — rather than evidence — the element that determines whether a body paragraph is developed or underdeveloped?"
+  type: short-answer
+  answer: "Evidence is only persuasive when accompanied by reasoning that explains how it proves the claim. A quote, statistic, or example does not speak for itself; the writer must interpret it, connecting it to the argument and explaining what it reveals that a reader might not supply independently. Without analysis, a paragraph becomes a collection of data points without an argument. Development depth is measured by the ratio of analytical reasoning to evidence — how thoroughly the writer has explained the 'so what?' of each piece of evidence."
+  explanation: "This question forces students to articulate why the common shortcut ('I included the quote, the paragraph is done') fails. Evidence is necessary but not sufficient. The analytical layer is where the writer's reasoning becomes visible — where the reader learns not just that something happened, but what it means for the argument being made."
+```
+
 ## Explainer
 
 You already know two of the key ingredients for a strong body paragraph: how to write a focused **topic sentence** that states what the paragraph proves, and how to select **evidence** that supports a claim. The challenge is what comes between — and the gap most writers leave there is analysis. Think of a paragraph as a small, self-contained persuasive argument: the topic sentence is the claim, the evidence is the data, and the analysis is the reasoning that explains why the data supports the claim. Without the reasoning, a reader receives your evidence but is left to supply the interpretation themselves — and they won't supply yours.

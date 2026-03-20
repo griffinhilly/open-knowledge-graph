@@ -16,7 +16,7 @@ tags:
 - zaitsev
 - hofmann
 - alkene
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

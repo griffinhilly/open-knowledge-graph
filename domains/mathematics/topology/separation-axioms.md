@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - separation
 - axioms
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

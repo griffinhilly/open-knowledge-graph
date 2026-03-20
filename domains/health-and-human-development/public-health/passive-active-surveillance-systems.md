@@ -13,7 +13,7 @@ tags:
 - surveillance
 - disease-monitoring
 - systems
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -19,7 +19,7 @@ tags:
 - arc
 - transformation
 - discovery
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - attention
 - temporal-dynamics
 - perception
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

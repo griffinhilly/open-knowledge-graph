@@ -23,7 +23,7 @@ tags:
 - chord progressions
 - Roman numerals
 - transcription
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 # Harmonic Dictation: Basic Chord Progressions

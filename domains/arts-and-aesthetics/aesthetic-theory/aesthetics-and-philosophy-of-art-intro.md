@@ -6,6 +6,8 @@ course: aesthetic-theory
 prerequisites:
 - id: philosophy-intro
   type: hard
+- id: metaethics-intro
+  type: soft
 builds-toward:
 - beauty-and-taste-in-aesthetic-tradition
 - plato-and-idealism-in-art
@@ -17,7 +19,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Aesthetics and Philosophy of Art: Introduction
 
 ## Core Idea

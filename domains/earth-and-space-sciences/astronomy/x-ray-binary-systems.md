@@ -12,7 +12,7 @@ tags:
 - x-ray-binary
 - accretion
 - compact-object
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

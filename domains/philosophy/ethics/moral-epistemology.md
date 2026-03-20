@@ -15,7 +15,7 @@ tags:
 - knowledge
 - justification
 - metaethics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - circular-reasoning
 - fallacies
 - presumption
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

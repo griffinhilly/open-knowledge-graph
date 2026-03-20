@@ -18,7 +18,7 @@ tags:
 - lithosphere
 - processes
 - system
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

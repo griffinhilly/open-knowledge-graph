@@ -25,7 +25,7 @@ tags:
 - anemia
 - pellagra
 - beriberi
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Nutritional Deficiency Disorders and Clinical Presentations

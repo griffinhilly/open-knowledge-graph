@@ -18,7 +18,7 @@ tags:
 - carbonyl
 - cyclic hemiacetal
 - glycoside
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 # Hemiacetal and Acetal Formation

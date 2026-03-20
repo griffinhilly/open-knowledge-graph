@@ -13,7 +13,7 @@ tags:
 - militarism
 - society
 - Greece
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

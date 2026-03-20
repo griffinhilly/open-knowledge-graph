@@ -19,7 +19,7 @@ tags:
 - judgment
 - experience
 - aesthetics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -20,7 +20,7 @@ tags:
 - structure
 - outline
 - main-points
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

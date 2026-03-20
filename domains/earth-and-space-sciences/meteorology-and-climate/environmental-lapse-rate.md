@@ -16,7 +16,7 @@ tags:
 - temperature-profile
 - measurement
 - atmosphere
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

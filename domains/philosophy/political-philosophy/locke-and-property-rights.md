@@ -15,7 +15,7 @@ tags:
 - locke
 - property
 - limited-government
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

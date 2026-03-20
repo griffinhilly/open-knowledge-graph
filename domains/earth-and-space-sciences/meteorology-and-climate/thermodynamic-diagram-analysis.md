@@ -19,7 +19,7 @@ tags:
 - hodograph
 - thermodynamic-diagram
 - analysis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

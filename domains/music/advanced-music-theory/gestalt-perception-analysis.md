@@ -13,7 +13,7 @@ tags:
 - Gestalt
 - grouping
 - form
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

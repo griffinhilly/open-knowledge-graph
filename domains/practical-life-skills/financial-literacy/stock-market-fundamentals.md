@@ -24,7 +24,7 @@ tags:
 - dividends
 - market-cap
 - valuation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - implicit-bias
 - modern-discrimination
 - egalitarian-values
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

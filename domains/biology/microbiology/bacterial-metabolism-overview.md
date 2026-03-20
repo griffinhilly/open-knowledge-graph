@@ -23,7 +23,7 @@ tags:
 - heterotroph
 - autotroph
 - chemotroph
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

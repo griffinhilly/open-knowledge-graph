@@ -13,7 +13,7 @@ tags:
 - diagrams
 - composition
 - fundamentals
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -20,7 +20,7 @@ tags:
 - MALT
 - lymphocytes
 - edema
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

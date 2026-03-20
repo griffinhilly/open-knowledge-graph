@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - regularity
 - t3-axiom
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - contingency
 - closing
 - offer
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -21,7 +21,7 @@ tags:
 - water-vapor
 - cloud-feedback
 - climate-sensitivity
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Climate Feedback Mechanisms

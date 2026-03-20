@@ -31,6 +31,45 @@ Tour your house with an adult and identify different systems. Locate the electri
 ## Common Misconceptions
 All homes have identical systems. (House designs and systems vary by age, location, and type.) These systems are completely separate. (They're interconnected—electricity powers HVAC and water heaters.)
 
+## Questions
+
+```yaml
+- question: "During a power outage, a homeowner notices that not only the lights but also the heating system and the well water pump have stopped working. Why?"
+  type: multiple-choice
+  options:
+    - "Power outages permanently damage all home systems simultaneously"
+    - "The heating and water systems are independent of electricity, so something else must also be failing"
+    - "The electrical, HVAC, and plumbing systems are interconnected — many systems depend on electricity to function, so one outage disables multiple systems"
+    - "This is unusual; most homes have automatic backup power for heating and water"
+  answer: 2
+  explanation: "Home systems are not isolated — they share dependencies. A furnace or heat pump requires electricity; a well water pump requires electricity; the lights obviously require electricity. A single power failure can simultaneously disable all of these, which can seem mysterious if you assume each system is completely separate. Understanding interdependency prevents the confusion of treating each symptom as an unrelated problem."
+
+- question: "A homeowner notices that a toilet drains very slowly. There are no tripped breakers in the electrical panel. What does this most likely indicate?"
+  type: multiple-choice
+  options:
+    - "The problem is electrical — the breaker panel simply hasn't detected the fault yet"
+    - "The issue is in the drain-waste-vent plumbing system, which operates on gravity and air pressure rather than electricity"
+    - "The HVAC system is reducing water pressure throughout the house"
+    - "The foundation has shifted, which is causing the electrical panel to malfunction"
+  answer: 1
+  explanation: "Drain problems belong to the plumbing system's drain-waste-vent side, which operates entirely on gravity — no electricity involved. Checking the electrical panel is irrelevant. Understanding which system governs which symptom is exactly the diagnostic benefit of knowing home systems and their principles of operation."
+
+- question: "Blocking or removing a roof vent pipe can prevent drains from working properly, because gravity drainage requires air to enter the drain system."
+  type: true-false
+  answer: true
+  explanation: "The drain-waste-vent system relies on both gravity and air. Without vent pipes allowing air in, a partial vacuum forms as water flows out, slowing or stopping drainage — the same principle as covering the top of a straw. This is a real interdependency within the plumbing system itself, and it illustrates why systems have more internal connections than they appear to."
+
+- question: "The electrical, plumbing, and HVAC systems in a home operate completely independently of one another."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception. These systems share dependencies: electricity powers the furnace, water heater, well pump, and air handler. A power outage affects heating, cooling, and sometimes water simultaneously. Understanding these connections is what allows a homeowner to make sense of symptoms that seem unrelated but share a root cause."
+
+- question: "Why does understanding the hierarchy and location of home systems help a homeowner diagnose problems more effectively?"
+  type: short-answer
+  answer: "When you know which system controls which function, you can match symptoms to their likely source. A dead outlet points to a tripped circuit breaker, not a plumbing problem. Slow drainage points to the drain-waste-vent system, not the electrical panel. You also understand interdependencies — a power outage disabling heat and water makes sense once you know those systems require electricity. Without this map, every problem seems unrelated and mysterious."
+  explanation: "The key insight is that a home is a system of systems, and problems rarely occur in isolation. Knowing the hierarchy (main panel → circuits → devices; supply → fixtures → drain) lets you trace a fault to its source rather than guessing. This is what separates informed maintenance from random troubleshooting."
+```
+
 ## Explainer
 
 A home is not a monolithic object but a collection of interdependent systems built on a structural skeleton. From your work on home maintenance fundamentals, you have a general sense that homes require upkeep. This topic gives that upkeep a map — once you know what the systems are and how they relate, maintenance tasks and failure diagnoses become dramatically easier because you understand the context of what you're looking at.

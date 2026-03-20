@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - entanglement
 - correlations
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

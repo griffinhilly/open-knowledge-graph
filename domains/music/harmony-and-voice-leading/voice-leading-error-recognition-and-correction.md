@@ -13,7 +13,7 @@ tags:
 - part-writing
 - voice-leading
 - correction
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

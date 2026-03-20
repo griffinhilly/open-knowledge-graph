@@ -15,7 +15,7 @@ tags:
 - territory
 - sovereignty
 - boundaries
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

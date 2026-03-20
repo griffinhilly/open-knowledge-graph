@@ -13,7 +13,7 @@ tags:
 - food-quality
 - metrics
 - energy-density
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - faults
 - rupture
 - seismology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

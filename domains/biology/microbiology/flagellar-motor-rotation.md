@@ -14,7 +14,7 @@ tags:
 - flagella
 - motility
 - motor-proteins
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

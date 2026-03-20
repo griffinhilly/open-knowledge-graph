@@ -14,7 +14,7 @@ tags:
 - quantum
 - atoms
 - hydrogen
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

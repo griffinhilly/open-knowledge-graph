@@ -15,7 +15,7 @@ tags:
 - gauge-choices
 - lorentz
 - coulomb
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

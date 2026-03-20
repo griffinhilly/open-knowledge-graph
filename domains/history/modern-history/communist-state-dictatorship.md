@@ -17,7 +17,7 @@ tags:
 - dictatorship-proletariat
 - soviet-union
 - vanguard-party
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

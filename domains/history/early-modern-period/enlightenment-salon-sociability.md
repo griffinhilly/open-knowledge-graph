@@ -14,7 +14,7 @@ tags:
 - women
 - intellectual-culture
 - sociability
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

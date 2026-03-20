@@ -19,7 +19,7 @@ tags:
 - babylon
 - legal-history
 - code-of-laws
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

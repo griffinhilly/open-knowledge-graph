@@ -15,7 +15,7 @@ tags:
 - postcolonial
 - power
 - representation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

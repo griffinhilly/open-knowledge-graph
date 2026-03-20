@@ -19,7 +19,7 @@ tags:
 - periods
 - epochs
 - stratigraphy
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

@@ -21,7 +21,7 @@ tags:
 - simple meter
 - notation
 - transcription
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

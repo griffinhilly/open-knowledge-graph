@@ -28,6 +28,45 @@ Practice typing text in a word processor. Learn one shortcut at a time (save, co
 - All shortcuts work the same everywhere. (Most are standard, but programs have their own.)
 - Shift is only used for capital letters. (Shift also produces symbols like ! and @.)
 
+## Questions
+
+```yaml
+- question: "You want to copy a paragraph, paste it elsewhere, and then undo the paste. Which sequence of shortcuts works in most programs?"
+  type: multiple-choice
+  options:
+    - "F1, F2, F3"
+    - "Ctrl+C, Ctrl+V, Ctrl+Z"
+    - "Alt+C, Alt+V, Alt+Z"
+    - "Shift+C, Shift+V, Shift+Z"
+  answer: 1
+  explanation: "Ctrl+C copies, Ctrl+V pastes, and Ctrl+Z undoes — these are the most universally consistent shortcuts across programs. Alt and Shift are modifier keys with different roles (Alt opens menus; Shift changes case or extends selections). Function keys like F1 are not copy/paste/undo. These five core Ctrl shortcuts (C, V, Z, S, A) are worth memorizing as muscle memory because they apply nearly everywhere."
+
+- question: "Why is keeping your fingers on the home row more important than typing fast?"
+  type: multiple-choice
+  options:
+    - "It isn't — typing speed is what matters most"
+    - "The home row keys are the most commonly used letters in English"
+    - "Returning to the home row after each keystroke means you can find any key without looking at the keyboard"
+    - "Home row position prevents accidentally pressing modifier keys"
+  answer: 2
+  explanation: "The benefit of home row isn't which keys are there — it's consistency. When your fingers always return to the same anchor position, your hands build a spatial map of the keyboard. You can reach any key accurately without looking down. Inconsistent typists — who hunt for some keys — are slow not because their fingers move slowly, but because they must visually locate keys. Consistency fixes this."
+
+- question: "Most keyboard shortcuts like Ctrl+C and Ctrl+Z work the same way across many different programs — word processors, browsers, and email clients all use the same conventions."
+  type: true-false
+  answer: true
+  explanation: "Core shortcuts like Ctrl+C (copy), Ctrl+V (paste), Ctrl+Z (undo), Ctrl+S (save), and Ctrl+A (select all) are standard across virtually all Windows and web applications because developers follow shared conventions. This is what makes them worth learning — you invest the muscle memory once and benefit in every program you use."
+
+- question: "The Shift key is only used to type capital letters."
+  type: true-false
+  answer: false
+  explanation: "Shift accesses the upper character on any key that has two characters — so Shift+1 produces !, Shift+2 produces @, Shift+/ produces ?, and so on. Shift is a general modifier key that unlocks a second layer of characters, not just a capitalization button. This is one of three main modifier keys (Ctrl, Alt, Shift) that each create their own layer of commands."
+
+- question: "You're using a program you've never opened before and want to find its keyboard shortcuts without already knowing them. What's one way to discover them, and why does it work?"
+  type: short-answer
+  answer: "Open the program's menus and look at each menu item — most programs display the keyboard shortcut next to the item name (e.g., 'Save   Ctrl+S'). This works because developers follow conventions of displaying shortcuts in menus, and scanning menus also teaches you what actions the program is capable of."
+  explanation: "Menus are the built-in shortcut guide for any program. This technique works because: (1) it's always available without internet access, (2) shortcuts shown next to menu items are the program's actual shortcuts, not general guesses, and (3) it teaches you both the shortcut and the program's feature set at the same time. Once you learn the logic — Ctrl for actions, Ctrl+Shift for extended actions — you can also make educated guesses before checking."
+```
+
 ## Explainer
 
 The keyboard is divided into logical zones: the letter keys in the center, number keys along the top row, function keys (F1–F12) above those, and a cluster of navigation and editing keys on the right side. The most important thing to understand early is that the keyboard does not just produce characters — certain keys act as **modifier keys** that change what every other key does. **Ctrl**, **Alt**, and **Shift** are the three main modifiers, and they unlock a second and third "layer" of commands without adding extra buttons.

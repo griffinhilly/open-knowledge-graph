@@ -22,7 +22,7 @@ tags:
 - epsc
 - ipsc
 - summation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

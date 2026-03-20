@@ -18,7 +18,7 @@ tags:
 - classical
 - tonality
 - form-development
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

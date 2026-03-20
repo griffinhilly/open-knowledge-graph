@@ -13,7 +13,7 @@ tags:
 - delocalization
 - bonding
 - formal charge
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

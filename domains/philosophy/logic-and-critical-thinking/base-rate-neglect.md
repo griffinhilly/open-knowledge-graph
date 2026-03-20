@@ -13,7 +13,7 @@ tags:
 - probability
 - cognitive-bias
 - reasoning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

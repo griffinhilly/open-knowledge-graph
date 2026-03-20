@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - fixed-points
 - contraction
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

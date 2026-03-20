@@ -12,7 +12,7 @@ tags:
 - mechanism-design
 - auctions
 - incentives
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -9,16 +9,14 @@ prerequisites:
 - id: membrane-lipids-and-lipoproteins
   type: hard
 builds-toward:
-- selective-permeability-and-membrane-channels
-- lipid-bilayer-and-amphipathic-molecules
+  - selective-permeability-and-membrane-channels
 tags:
 - membrane-structure
 - lipids
 - hydrophobic-effect
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Lipid Bilayer Structure and Amphipathic Molecules
 
 ## Core Idea

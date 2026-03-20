@@ -31,6 +31,45 @@ Use a thermometer on every protein for a month to build a mental model of time-t
 - Cutting into meat to check doneness is a good method — this releases juices and gives unreliable information; a thermometer is faster and more accurate.
 - Resting meat is optional — skipping the rest causes significant juice loss (up to 40% more than rested meat) and does not allow carryover cooking to finish the job.
 
+## Questions
+
+```yaml
+- question: "You're cooking chicken thighs. They look pale and grayish throughout, with no pink color. The thermometer reads 162°F. Are they safe to eat?"
+  type: multiple-choice
+  options:
+    - "No — chicken must be white throughout with no gray tones before it's safe"
+    - "No — chicken must reach exactly 165°F; 162°F is insufficient"
+    - "Yes — internal temperature is the reliable safety indicator, and 162°F plus carryover cooking during resting will reach 165°F"
+    - "Uncertain — you need to check the juice color before deciding"
+  answer: 2
+  explanation: "Color is an unreliable doneness indicator — it depends on pH, myoglobin chemistry, and other variables that have nothing to do with safety. At 162°F, the chicken is within 3°F of the 165°F target, and carryover cooking during a short rest will push it to or past 165°F. This is the practical application of the principle: temperature, not appearance, is the reliable measure. Checking juice color or waiting for a specific visual appearance will sometimes give you correct information and sometimes wrong information."
+
+- question: "You pull a thick steak off a screaming-hot cast iron pan when it reads 125°F internally. After resting five minutes on a cutting board, you measure it again and get 132°F. What explains this 7°F rise?"
+  type: multiple-choice
+  options:
+    - "The cutting board conducted heat into the steak from the warm kitchen surface"
+    - "The thermometer was inaccurate during cooking and has self-corrected"
+    - "Carryover cooking: the hot exterior layers continued transferring heat into the cooler interior after the steak left the heat source"
+    - "Myosin proteins released stored heat as they finished denaturing"
+  answer: 2
+  explanation: "Carryover cooking occurs because of the thermal gradient between the hot exterior and cooler interior. When the steak was on the pan, the exterior surface was 400°F+ while the center was 125°F. Removing it from heat stops adding energy from outside, but the already-hot exterior layers continue conducting heat inward until temperatures equalize. This is predictable and useful: knowing a steak will gain 5–10°F during rest lets you pull it early and reach the exact target without overcooking."
+
+- question: "A whole pork tenderloin can be safely served at 145°F internal temperature, but ground pork must reach 160°F."
+  type: true-false
+  answer: true
+  explanation: "True, and the reason reveals the underlying food safety principle. Whole muscle cuts start with sterile interiors — bacteria contaminate only the surface, which far exceeds 145°F during cooking. The 3-minute rest at 145°F provides additional safety margin. Ground meat is different: grinding distributes surface bacteria throughout the entire mass, including the center. The interior of a ground meat patty was once an exterior surface, so the entire mass must reach a kill temperature — hence the higher 160°F requirement."
+
+- question: "If chicken looks pink near the bone, it is definitely undercooked and unsafe to eat."
+  type: true-false
+  answer: false
+  explanation: "False. Pink color in cooked chicken, particularly near bones, can result from several factors unrelated to doneness: bone marrow (which is dark and can leach into surrounding meat), the myoglobin chemistry of the particular bird, or even chemical reactions with certain cooking environments. Chickens raised free-range, fed specific diets, or processed in certain ways can remain pink at safe temperatures. The only reliable safety indicator is internal temperature reaching 165°F — not color."
+
+- question: "Why does carryover cooking happen, and how does it affect when you should pull meat from the heat source?"
+  type: short-answer
+  answer: "Carryover cooking happens because of the thermal gradient between the hot exterior and cooler interior of the meat. The exterior reaches very high temperatures during cooking while the center lags behind. When you remove the meat from heat, that gradient still exists — the hot outer layers continue conducting heat inward until temperatures equalize. The practical implication is that you should pull meat several degrees before the target temperature, with the exact margin depending on the size of the cut: larger cuts have larger gradients and more carryover (10–15°F for a roast vs. 5–7°F for a steak)."
+  explanation: "Understanding the physical mechanism makes the rule memorable and generalizable. It's not an arbitrary rule to 'pull early' — it follows directly from basic heat transfer. The same principle explains why you should rest meat after cooking: during rest, carryover finishes and proteins relax, allowing the pressure-driven moisture redistribution that keeps the meat juicy when cut."
+```
+
 ## Explainer
 
 When you apply heat to meat, you are causing proteins to **denature** — their tightly coiled molecular structures unfold and then bond together in new configurations. This is a one-way, temperature-driven transformation. At low temperatures, muscle proteins remain flexible and the meat stays tender and juicy. As temperature rises, progressively more proteins denature: myosin (the primary muscle protein) begins to firm up around 120–130°F, while collagen (connective tissue) starts converting to gelatin around 160–170°F during slow cooking. The texture changes you experience as doneness — rare, medium, well-done — directly correspond to how much of this protein denaturation has occurred. This is why internal temperature, not color or time, is the only reliable doneness indicator: color depends on myoglobin chemistry and pH, which vary by animal breed, feed, and handling. Temperature tells you exactly how far the protein transformation has progressed.

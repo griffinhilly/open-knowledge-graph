@@ -15,7 +15,7 @@ tags:
 - strategy
 - concession
 - argumentation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

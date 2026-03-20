@@ -16,7 +16,7 @@ tags:
 - biogeochemical-cycling
 - nutrient-cycling
 - ecosystem
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

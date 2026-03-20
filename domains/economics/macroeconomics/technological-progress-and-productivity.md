@@ -9,16 +9,14 @@ prerequisites:
 - id: endogenous-growth-theory
   type: soft
 builds-toward:
-- steady-state-growth-path
-- supply-shocks-aggregate-disruptions
+  - supply-shocks-aggregate-disruptions
 tags:
 - productivity
 - technology
 - growth
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Technological Progress and Total Factor Productivity
 
 ## Core Idea

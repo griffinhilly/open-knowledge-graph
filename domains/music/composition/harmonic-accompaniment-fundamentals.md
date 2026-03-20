@@ -5,9 +5,9 @@ domain: music
 course: composition
 prerequisites:
 - id: diatonic-chord-construction
-  type: hard
+  type: soft
 - id: chord-progressions
-  type: hard
+  type: soft
 builds-toward:
 - diatonic-harmonic-progression-composition
 - voice-leading-smooth-motion-composition
@@ -16,7 +16,7 @@ tags:
 - accompaniment
 - composition
 - support
-stage: formal-systems
+stage: abstract-reasoning
 status: draft
 ---
 

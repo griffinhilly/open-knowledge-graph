@@ -16,7 +16,7 @@ tags:
 - biomechanics
 - stress-strain
 - microarchitecture
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

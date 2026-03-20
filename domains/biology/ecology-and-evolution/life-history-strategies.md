@@ -19,7 +19,7 @@ tags:
 - life-history
 - trade-offs
 - reproductive-strategy
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -28,7 +28,7 @@ tags:
 - case study
 - MSSD
 - MDSD
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Comparative Politics: Method and Approach

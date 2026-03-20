@@ -16,7 +16,7 @@ tags:
 - duality
 - optimization
 - utility
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

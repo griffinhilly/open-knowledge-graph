@@ -14,7 +14,7 @@ tags:
 - investment
 - asset-pricing
 - stock-market
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

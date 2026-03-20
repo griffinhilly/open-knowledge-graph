@@ -15,7 +15,7 @@ tags:
 - chloroplast
 - photosynthesis
 - energy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

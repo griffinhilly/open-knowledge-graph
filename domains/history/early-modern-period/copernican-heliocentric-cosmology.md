@@ -14,7 +14,7 @@ tags:
 - cosmology
 - astronomy
 - paradigm-shift
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

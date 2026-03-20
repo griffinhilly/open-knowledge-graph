@@ -17,7 +17,7 @@ tags:
 - versailles
 - international-order
 - peace-settlement
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

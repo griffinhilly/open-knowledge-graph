@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - cosmopolitanism
 - global-justice
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - igneous
 - crystallization
 - texture
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

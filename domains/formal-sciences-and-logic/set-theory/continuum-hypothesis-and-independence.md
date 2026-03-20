@@ -17,7 +17,7 @@ tags:
 - independence
 - godel-cohen
 - forcing
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

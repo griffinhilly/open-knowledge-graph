@@ -16,7 +16,7 @@ tags:
 - tonal gravity
 - resolution
 - tendency tones
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

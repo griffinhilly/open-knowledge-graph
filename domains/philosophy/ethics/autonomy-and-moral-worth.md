@@ -13,7 +13,7 @@ tags:
 - autonomy
 - dignity
 - kantian
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

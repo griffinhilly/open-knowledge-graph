@@ -16,7 +16,7 @@ tags:
 - auditory-cortex
 - hearing
 - frequency
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

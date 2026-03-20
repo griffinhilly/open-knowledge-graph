@@ -15,7 +15,7 @@ tags:
 - genre
 - conventions
 - expectations
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -27,6 +27,45 @@ Start with a general topic that interests you. Brainstorm 5-10 possible question
 ## Common Misconceptions
 A research question is not the same as a thesis statement; it expresses genuine uncertainty, while a thesis argues a position. Another misconception is that you must rigidly stick to your initial question; flexibility is realistic.
 
+## Questions
+
+```yaml
+- question: "A student writes: 'Climate change is primarily caused by human activity, as demonstrated by rising CO2 levels.' What kind of statement is this?"
+  type: multiple-choice
+  options:
+    - "A well-formed research question because it identifies a specific topic and provides evidence"
+    - "A thesis statement, not a research question, because it argues a predetermined conclusion"
+    - "An over-scoped question that needs narrowing"
+    - "A topic statement that needs to be converted into a question"
+  answer: 1
+  explanation: "A research question expresses genuine uncertainty and guides investigation; a thesis argues a position. This statement commits to a conclusion ('primarily caused by human activity') before any research begins, which is the defining feature of a thesis. Starting research from a thesis biases the investigation — you look for evidence that confirms rather than genuinely inquiring. The correct statement to answer would begin: 'To what extent...?' or 'How...?'"
+
+- question: "Which of the following best represents a well-scoped research question?"
+  type: multiple-choice
+  options:
+    - "How has human activity affected the environment?"
+    - "What is climate change?"
+    - "How have coastal cities in Southeast Asia adapted their building codes in response to increased flood risk since 2010?"
+    - "Has climate change ever been studied before?"
+  answer: 2
+  explanation: "Option C specifies time period (since 2010), geography (Southeast Asia), subject population (coastal cities), and a specific phenomenon (building code adaptation in response to flood risk). It has a genuine unknown and natural limits. Option A is vastly over-scoped — a career of research couldn't answer it fully. Option B is a topic, not a question. Option D is trivially answerable and has no research value."
+
+- question: "Revising your research question after encountering existing literature is a productive and expected part of the research process."
+  type: true-false
+  answer: true
+  explanation: "Your initial question is a hypothesis about what's worth investigating. As you encounter existing literature, you discover what is already well-answered (and therefore unproductive to revisit), what is contested (valuable territory), and what genuine gaps exist. Revision in response to this is intellectual growth, not failure. A question that never changes usually means you haven't read widely enough yet."
+
+- question: "A research question that can be answered with a simple yes or no is well-formed because it is specific and focused."
+  type: true-false
+  answer: false
+  explanation: "A yes/no question may be highly specific but is usually either trivially answerable or answerable with minimal evidence. Good research questions ask 'how,' 'why,' 'to what extent,' or 'in what ways' — they require analysis, synthesis, and evidence to answer. 'Did Shakespeare use metaphor?' is both specific and answerable in a sentence. 'How does Shakespeare's use of metaphor in the history plays construct models of political legitimacy?' is the kind of question that actually drives meaningful research."
+
+- question: "What is the key difference between a research question and a thesis statement, and why does the distinction matter for how you conduct research?"
+  type: short-answer
+  answer: "A research question expresses genuine uncertainty and guides investigation; a thesis argues a specific position that research has already reached. The distinction matters because starting with a thesis means you've committed to a conclusion before research begins, which biases the process toward confirmation rather than genuine inquiry. A question opens space for discovery; a thesis closes it. A research question also tells you when research is complete — when you can answer it — while a thesis leaves no natural endpoint."
+  explanation: "The practical consequence is significant: researchers who begin with a thesis tend to cherry-pick supporting evidence and dismiss disconfirming evidence without engaging it. Researchers who begin with a genuine question are forced to grapple with evidence that complicates or contradicts their initial intuitions. The revision of a question mid-research (in response to what you find) is the mechanism by which research actually deepens understanding."
+```
+
 ## Explainer
 
 A research question is not a topic, not a thesis, and not a list of things to find out. It is a **single, answerable question about a genuine uncertainty**. The distinction matters because each of these false starts leads to different problems. "Climate change" is a topic, not a question — too broad to organize research around. "Climate change is caused by human activity" is a thesis, not a question — it assumes the conclusion before research begins. "I want to learn about how cities are responding to flooding" is a topic list, not a question — it generates information without a focal point. A research question has a specific subject, a specific dimension of that subject, and a genuine unknown: "How have coastal cities in Southeast Asia adapted their building codes in response to increased flood risk since 2010?"

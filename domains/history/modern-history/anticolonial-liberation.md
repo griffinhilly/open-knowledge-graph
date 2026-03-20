@@ -15,7 +15,7 @@ tags:
 - liberation
 - independence
 - resistance
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

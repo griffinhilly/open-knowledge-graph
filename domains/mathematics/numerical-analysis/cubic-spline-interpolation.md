@@ -12,7 +12,7 @@ tags:
 - splines
 - cubic
 - interpolation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

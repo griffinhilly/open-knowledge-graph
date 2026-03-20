@@ -16,7 +16,7 @@ tags:
 - torsional-strain
 - stability
 - heat-of-combustion
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

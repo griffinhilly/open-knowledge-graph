@@ -16,7 +16,7 @@ tags:
 - dye injection
 - schlieren
 - flow visualization
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 # Flow Visualization Techniques

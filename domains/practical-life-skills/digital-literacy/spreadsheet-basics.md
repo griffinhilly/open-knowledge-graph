@@ -28,7 +28,7 @@ tags:
 - google-sheets
 - formulas
 - data
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

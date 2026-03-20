@@ -25,7 +25,7 @@ tags:
 - sign-system
 - meaning-production
 - structuralism
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

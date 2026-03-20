@@ -17,7 +17,7 @@ tags:
 - representation
 - voice
 - colonialism
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - instrumentation-amplifier
 - differential-input
 - cmrr
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

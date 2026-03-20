@@ -17,7 +17,7 @@ tags:
 - price taker
 - long-run equilibrium
 - zero profit
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

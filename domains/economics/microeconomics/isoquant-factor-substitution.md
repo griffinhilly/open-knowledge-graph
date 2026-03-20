@@ -16,7 +16,7 @@ tags:
 - factor-substitution
 - inputs
 - mrts
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

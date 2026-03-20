@@ -26,7 +26,7 @@ tags:
 - spices
 - joint-stock
 - capitalism
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Early Modern Global Trade Networks

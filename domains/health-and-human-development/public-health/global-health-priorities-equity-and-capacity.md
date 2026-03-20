@@ -12,7 +12,7 @@ tags:
 - global-health
 - equity
 - health-systems
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

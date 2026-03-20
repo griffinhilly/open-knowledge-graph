@@ -12,7 +12,7 @@ tags:
 - deficits
 - capital-flows
 - policy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

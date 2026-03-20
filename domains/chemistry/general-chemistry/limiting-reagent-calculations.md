@@ -18,7 +18,7 @@ tags:
 - theoretical-yield
 - percent-yield
 - stoichiometry
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 # Limiting Reagent Calculations

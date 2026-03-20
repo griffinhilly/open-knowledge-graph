@@ -13,7 +13,7 @@ tags:
 - income
 - taxes
 - employment
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 

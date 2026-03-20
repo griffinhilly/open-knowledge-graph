@@ -6,6 +6,8 @@ course: visual-elements-and-principles
 prerequisites:
 - id: visual-contrast-in-elements
   type: hard
+- id: feudalism
+  type: soft
 builds-toward:
 - visual-movement-directing-the-eye
 - rhythm-through-repetition-and-variation
@@ -13,10 +15,9 @@ tags:
 - emphasis
 - focal-point
 - hierarchy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Emphasis: Creating Focal Points Through Visual Weight
 
 ## Core Idea

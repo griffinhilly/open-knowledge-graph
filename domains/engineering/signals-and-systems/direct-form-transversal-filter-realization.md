@@ -14,7 +14,7 @@ tags:
 - realization
 - direct-form
 - transversal
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

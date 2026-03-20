@@ -9,17 +9,15 @@ prerequisites:
 - id: stage-directions-and-performance-text
   type: soft
 builds-toward:
-- dramatic-climax-construction
-- dramatic-tension-management
+  - dramatic-climax-construction
 tags:
 - structure
 - scene-construction
 - performance-technique
 - pacing
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Scene Beats and Dramatic Structure
 
 ## Core Idea

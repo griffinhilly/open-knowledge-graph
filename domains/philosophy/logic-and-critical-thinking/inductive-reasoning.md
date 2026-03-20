@@ -17,7 +17,7 @@ tags:
 - probability
 - generalisation
 - evidence
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

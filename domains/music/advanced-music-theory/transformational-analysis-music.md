@@ -24,7 +24,7 @@ tags:
 - transformation
 - pitch-class
 - analysis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

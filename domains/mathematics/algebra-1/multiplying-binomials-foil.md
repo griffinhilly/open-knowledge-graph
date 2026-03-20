@@ -28,6 +28,45 @@ Practice FOIL as a procedure while emphasizing it is just organized distribution
 - Forgetting to combine the outer and inner terms.
 - Trying to apply FOIL to non-binomial products (FOIL only works for binomial × binomial; use general distribution otherwise).
 
+## Questions
+
+```yaml
+- question: "A student expands (x + 5)² and writes x² + 25. What error did they make, and what is the correct answer?"
+  type: multiple-choice
+  options:
+    - "They forgot to square the constant — the correct answer is x² + 5²"
+    - "They squared each term separately instead of applying FOIL — the correct answer is x² + 10x + 25"
+    - "They only computed the First and Last terms of FOIL — the correct answer is x² + 5x + 25"
+    - "They applied the difference of squares pattern incorrectly — the correct answer is x² − 25"
+  answer: 1
+  explanation: "The error is squaring each term separately: (x + 5)² ≠ x² + 5². FOIL gives four products: First (x·x = x²), Outer (x·5 = 5x), Inner (5·x = 5x), Last (5·5 = 25). Combining: x² + 5x + 5x + 25 = x² + 10x + 25. The middle term 10x comes from the outer and inner products — exactly the term that gets dropped when students incorrectly distribute the exponent. For (x + a)², the correct pattern is always x² + 2ax + a², and the middle coefficient is always twice the product of the two terms."
+
+- question: "A student tries to use FOIL to multiply (x² + 3x + 2)(x + 1). What is the problem with this approach?"
+  type: multiple-choice
+  options:
+    - "FOIL only works when the first factor has a leading coefficient of 1"
+    - "FOIL only applies to binomial × binomial; one factor here is a trinomial, requiring full distribution"
+    - "FOIL cannot be applied when the second factor contains a constant term"
+    - "FOIL requires both factors to have the same degree"
+  answer: 1
+  explanation: "FOIL is a mnemonic for organizing the four products that arise when multiplying exactly two binomials (two-term expressions). When one factor is a trinomial (three terms), there are six products to compute (3 × 2), not four. The correct approach is full distribution: multiply each term in the trinomial by each term in the binomial. Thinking of FOIL as a special case of the distributive property — rather than a separate rule — makes it natural to extend distribution to any polynomial multiplication."
+
+- question: "FOIL is a mathematical rule distinct from the distributive property, specifically designed for polynomial multiplication."
+  type: true-false
+  answer: false
+  explanation: "FOIL is not a separate rule — it is a mnemonic for organizing the distributive property when both factors are binomials. The distributive property says: multiply each term in the first polynomial by each term in the second. For two binomials, this produces exactly four products, and FOIL names them in order (First, Outer, Inner, Last) to prevent any from being missed. Treating FOIL as an independent rule leads to confusion about when it applies and why it works."
+
+- question: "When expanding (x + a)(x − a), the outer and inner terms cancel, leaving no middle term in the result."
+  type: true-false
+  answer: true
+  explanation: "FOIL gives: First = x², Outer = −ax, Inner = +ax, Last = −a². The outer term is −ax and the inner term is +ax — they are equal in magnitude and opposite in sign, so they sum to zero. The result is x² − a², the difference of squares pattern. This cancellation happens whenever the two binomials differ only in the sign of their constant term. Recognizing this pattern before computing saves time and reveals algebraic structure."
+
+- question: "Why does (x + 3)² equal x² + 6x + 9, not x² + 9? Explain where the middle term comes from."
+  type: short-answer
+  answer: "Squaring (x + 3) means multiplying (x + 3)(x + 3). FOIL produces four products: x·x = x², x·3 = 3x, 3·x = 3x, and 3·3 = 9. The two middle terms (3x + 3x = 6x) come from the outer and inner products. The error x² + 9 omits these entirely, as if (x + 3)² meant 'square each term separately,' which violates the distributive property."
+  explanation: "The middle term 6x is the signature of a perfect square trinomial. For any (x + a)², the middle term is always 2ax — twice the product of the two terms in the binomial. This is because the outer and inner FOIL products are always identical for a perfect square, so they add rather than cancel. Understanding this pattern prevents the most common FOIL error and prepares students to recognize and factor perfect square trinomials later."
+```
+
 ## Explainer
 
 You already know how to multiply polynomials using the distributive property: multiply each term in the first polynomial by each term in the second, then collect like terms. FOIL is not a new rule — it's a memory trick for organizing that distribution when both polynomials happen to be **binomials** (exactly two terms each). The name labels the four products in the order you should compute them: First, Outer, Inner, Last.

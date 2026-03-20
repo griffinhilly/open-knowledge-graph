@@ -14,7 +14,7 @@ tags:
 - antimicrobial
 - innate-immunity
 - peptides
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - properties
 - addition
-stage: pre-formal
+stage: abstract-reasoning
 status: draft
 ---
 

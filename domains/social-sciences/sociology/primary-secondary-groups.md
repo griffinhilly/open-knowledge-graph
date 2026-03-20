@@ -15,7 +15,7 @@ tags:
 - social-structure
 - primary-groups
 - secondary-groups
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

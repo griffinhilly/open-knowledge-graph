@@ -19,7 +19,7 @@ tags:
 - emission-nebulae
 - reflection-nebulae
 - dark-nebulae
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

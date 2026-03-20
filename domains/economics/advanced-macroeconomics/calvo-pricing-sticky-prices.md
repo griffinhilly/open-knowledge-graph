@@ -14,7 +14,7 @@ tags:
 - pricing
 - sticky-prices
 - nominal-rigidities
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

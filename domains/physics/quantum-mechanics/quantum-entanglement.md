@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - entanglement
 - correlations
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

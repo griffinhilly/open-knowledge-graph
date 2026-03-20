@@ -15,7 +15,7 @@ tags:
 - markov-chains
 - stochastic-processes
 - probability
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

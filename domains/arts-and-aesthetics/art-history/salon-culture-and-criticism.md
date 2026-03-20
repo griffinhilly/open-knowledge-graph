@@ -17,7 +17,7 @@ tags:
 - criticism
 - taste
 - market
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

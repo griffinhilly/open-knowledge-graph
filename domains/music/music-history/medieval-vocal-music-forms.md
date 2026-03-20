@@ -25,6 +25,45 @@ Medieval vocal forms evolved from monophonic plainchant (responsorial and antiph
 ## Common Misconceptions
 - Organum was always consonant and smooth. (Early organum used parallel fifths and fourths, which sound stark to modern ears.) - The motet was a simple form. (Late medieval motets were formally intricate with multiple simultaneous texts.)
 
+## Questions
+
+```yaml
+- question: "What was the most significant reason that the 13th-century isorhythmic motet — with multiple independent voices singing different simultaneous texts — could not have existed in the era of early parallel organum?"
+  type: multiple-choice
+  options:
+    - "The Church had not yet granted permission for secular texts to appear in sacred music"
+    - "Composers in the early period lacked the musical imagination needed for independent voices"
+    - "Mensural notation had not yet been developed to specify exact rhythmic durations for each independent voice"
+    - "Early medieval cathedrals were too acoustically reverberant for simultaneous texts to be heard distinctly"
+  answer: 2
+  explanation: "The feedback loop between notation and compositional possibility is the through-line of this evolution. Early parallel organum required only a chant book and a convention (add a voice a fifth below); no rhythm specification was needed because both voices moved together. Independent polyphony with multiple simultaneous texts and rhythms in different languages required notation that could specify exact duration for each note in each voice separately. Without mensural notation, such music could not be composed, transmitted, or reliably performed."
+
+- question: "In the Notre Dame organum of Leonin and Pérotin, what role did the original chant melody (the tenor) play?"
+  type: multiple-choice
+  options:
+    - "It was abandoned in favor of entirely new melodic material to give composers creative freedom"
+    - "It was held in very long, slow notes in the lowest voice while upper voices wove florid counterpoint above it"
+    - "It was harmonized at the octave to create a fuller, richer unison texture"
+    - "It was divided between multiple voices to create a call-and-response texture between high and low registers"
+  answer: 1
+  explanation: "The term 'tenor' comes from the Latin tenere — to hold. In Notre Dame organum, the original chant melody was stretched into extremely long held notes in the bottom voice, providing a structural foundation over which one or more upper voices moved in rapid, florid counterpoint. This created a dramatic acoustic contrast: the slow, barely moving foundation below against the active, rhythmically complex lines above. The chant was not abandoned — it was structurally essential."
+
+- question: "Early parallel organum introduced genuine melodic independence between voices — each voice moved at its own pace in a different melodic direction."
+  type: true-false
+  answer: false
+  explanation: "Early parallel organum (roughly 9th century) had the added voice simply shadowing the chant at a constant interval — typically a perfect fifth or fourth below — with no independent melodic motion. Both voices moved together in the same rhythm. Melodic independence came later, with free organum (which allowed contrary and oblique motion) and eventually with melismatic organum and discant style at Notre Dame, where voices began moving in genuinely independent rhythms."
+
+- question: "The isorhythmic motet used a repeating rhythmic pattern (talea) and a repeating pitch pattern (color) that could cycle at different lengths, creating layered structural complexity."
+  type: true-false
+  answer: true
+  explanation: "This structural intricacy is what distinguishes the isorhythmic motet as a compositional achievement. The talea (rhythmic cycle) and color (pitch cycle) repeat independently — they may not align, meaning the same pitch pattern appears in different rhythmic positions each time through. The resulting architecture is formally rigorous but not necessarily audible on first listening. Composers like Machaut used this as an organizational principle that gave the work deep structural coherence beneath its complex surface."
+
+- question: "How did the development of mensural notation transform what medieval composers could create?"
+  type: short-answer
+  answer: "Mensural notation assigned specific rhythmic durations to note symbols, making it possible to write down and transmit exact rhythms for multiple independent voices simultaneously. Before it, only conventions (like 'add a voice a fifth below') were needed; after it, composers could specify different rhythms in each voice independently. This made independent polyphony, the Notre Dame organum, and ultimately the motet — with its simultaneously independent texts, languages, and melodies — possible to compose and perform reliably."
+  explanation: "The relationship is causal: each new form of compositional complexity required a notation system capable of capturing it. Notation didn't just record music that already existed — it enabled music that could not exist without it. The isorhythmic motet's structural rigor (talea and color cycles) is inconceivable without a notation precise enough to specify every note's duration. This feedback loop between what composers imagined and what notation made transmissible is the engine of the entire evolution from chant to motet."
+```
+
 ## Explainer
 
 From your study of medieval music contexts, you already know that the Church was the dominant patron and setting for music in the medieval period. Almost all the vocal forms covered here arose as solutions to a liturgical problem: how do you make the performance of sacred texts more spiritually powerful and musically elaborate while remaining anchored to the plainchant tradition? The answer unfolded over roughly five centuries through a series of innovations, each made possible by the one before it.

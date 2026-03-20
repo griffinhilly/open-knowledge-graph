@@ -15,7 +15,7 @@ tags:
 - historical
 - cultural
 - interpretation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -31,6 +31,45 @@ Study how basic geometric forms appear under single light sources, observing whi
 ## Common Misconceptions
 Only sculpture has form; drawings and paintings show only shape. Form requires photorealism to read as three-dimensional. Form and shape mean the same thing.
 
+## Questions
+
+```yaml
+- question: "An artist has drawn a perfect circle on paper and wants viewers to read it as a sphere rather than a flat disc. Which technique would be most effective?"
+  type: multiple-choice
+  options:
+    - "Thickening the outline on one side to suggest edge roundness"
+    - "Adding a gradient from bright to dark across the surface to represent light falling on a curved form"
+    - "Drawing a cast shadow directly beneath the circle"
+    - "Adding evenly spaced texture lines across the entire surface"
+  answer: 1
+  explanation: "The key tool for making form visible is value change driven by light. A gradient from highlight through halftone to core shadow tells the viewer's brain that the surface is curving away from a light source — the defining characteristic of a three-dimensional sphere. A cast shadow helps suggest the object sits in space, but without the surface gradient, the circle still reads as flat. Outline thickness and even texture do not communicate curvature."
+
+- question: "What is the fundamental distinction between 'shape' and 'form' as visual elements?"
+  type: multiple-choice
+  options:
+    - "Shape is used in painting; form is the domain of sculpture"
+    - "Shape is two-dimensional — it has height and width but no depth; form implies three dimensions including depth"
+    - "Shape refers to geometric subjects; form refers to organic and figurative subjects"
+    - "Shape requires skill and training; form is an intuitive quality any drawing possesses"
+  answer: 1
+  explanation: "Shape and form differ by dimension: a shape (circle, square) is flat — two dimensions only. A form (sphere, cube) has height, width, and depth — it occupies space. On a flat surface, you cannot create actual depth, but using value, light, and spatial cues, you can create a convincing illusion that the viewer's brain reads as three-dimensional form. The terms are not interchangeable."
+
+- question: "The value sequence — highlight, halftone, core shadow, reflected light — is consistent across all basic geometric forms when lit by a single light source."
+  type: true-false
+  answer: true
+  explanation: "This sequence is a universal consequence of light hitting a surface. Wherever a surface faces the light directly, there is a highlight. Where it begins to curve away, a halftone. Where light cannot reach, the core shadow. At the very edge, light bouncing off nearby surfaces creates reflected light. This pattern applies to a sphere, cube, cylinder, or cone — and by extension to any complex object built from these forms."
+
+- question: "Creating convincing three-dimensional form in a drawing requires photorealistic detail and rendering."
+  type: true-false
+  answer: false
+  explanation: "Even a simple, loosely rendered value transition from light to dark is enough for the viewer's brain to read three-dimensional form. The illusion depends on the presence and relative accuracy of the value relationships — not on photographic completeness. A few value zones, correctly placed, read as a sphere. Photorealism is one approach to form; it is not a requirement."
+
+- question: "Why is it useful to see complex subjects — like a human figure or an animal — as assemblies of basic geometric forms before drawing them?"
+  type: short-answer
+  answer: "Basic forms (sphere, cylinder, cube, cone) have predictable, well-understood structures and lighting patterns. By reducing a complex subject to these building blocks, you can manage proportions, perspective, and value patterns systematically. A human arm becomes a cylinder, joints become spheres, the torso becomes a modified box. This simplification makes overwhelming subjects approachable because you apply known form-building principles to each component rather than trying to capture complexity all at once."
+  explanation: "The alternative — trying to draw a complex subject directly — leads to copying outlines without understanding structure. When the structure is understood through basic forms, the artist can draw the subject from any angle, under any lighting, and even from imagination. This is the difference between copying a reference and truly understanding what you are drawing."
+```
+
 ## Explainer
 
 You have already learned to observe lines in nature and art, and you understand the difference between geometric and organic shapes. Now the question is: how do you make a flat circle on paper look like a sphere hanging in space? The answer is **form** — the visual element that transforms two-dimensional shapes into three-dimensional illusions with convincing volume and weight.

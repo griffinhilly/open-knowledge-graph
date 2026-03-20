@@ -15,7 +15,7 @@ tags:
 - coexistence
 - rules
 - ecology
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

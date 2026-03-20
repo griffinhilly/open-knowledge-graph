@@ -14,7 +14,7 @@ tags:
 - adaptation
 - cross-cultural
 - values
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

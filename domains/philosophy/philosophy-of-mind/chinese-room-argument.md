@@ -24,7 +24,7 @@ tags:
 - strong-AI
 - syntax
 - semantics
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # The Chinese Room Argument

@@ -13,7 +13,7 @@ tags:
 - rationalism
 - epistemology
 - method
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

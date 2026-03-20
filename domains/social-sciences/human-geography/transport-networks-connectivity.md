@@ -14,7 +14,7 @@ tags:
 - infrastructure
 - connectivity
 - networks
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

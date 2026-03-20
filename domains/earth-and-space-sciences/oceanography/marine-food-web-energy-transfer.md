@@ -17,7 +17,7 @@ tags:
 - trophic-levels
 - efficiency
 - bioaccumulation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

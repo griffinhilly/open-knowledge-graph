@@ -15,7 +15,7 @@ tags:
 - pacing
 - performance
 - technique
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

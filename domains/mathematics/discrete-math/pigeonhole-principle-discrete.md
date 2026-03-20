@@ -3,7 +3,9 @@ id: pigeonhole-principle-discrete
 title: The Pigeonhole Principle and Its Applications
 domain: mathematics
 course: discrete-math
-prerequisites: []
+prerequisites:
+- id: graph-theory-intro
+  type: soft
 builds-toward:
 - graph-connectivity-components
 tags:
@@ -12,7 +14,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # The Pigeonhole Principle and Its Applications
 
 ## Core Idea

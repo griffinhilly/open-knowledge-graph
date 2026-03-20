@@ -18,7 +18,7 @@ tags:
 - dogmatism
 - abductive-response
 - epistemic-closure
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

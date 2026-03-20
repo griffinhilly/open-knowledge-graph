@@ -16,7 +16,7 @@ tags:
 - chord
 - spacing
 - texture
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

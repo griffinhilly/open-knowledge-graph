@@ -19,7 +19,7 @@ tags:
 - preferences
 - ordinal
 - rational consumer
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Utility and Preferences

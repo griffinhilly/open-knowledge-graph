@@ -12,7 +12,7 @@ builds-toward:
   - solving-radical-equations
   - rational-exponents
 tags: [radicals, functions, graphing, domain, square-root]
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

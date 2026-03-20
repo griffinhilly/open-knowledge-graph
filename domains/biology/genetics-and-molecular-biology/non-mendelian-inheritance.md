@@ -16,7 +16,7 @@ tags:
 - polygenic traits
 - pleiotropy
 - epistasis
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Non-Mendelian Inheritance Patterns

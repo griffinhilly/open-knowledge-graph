@@ -17,7 +17,7 @@ tags:
 - semantic
 - multiple-meaning
 - compression
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

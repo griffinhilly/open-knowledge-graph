@@ -15,7 +15,7 @@ tags:
 - spain
 - americas
 - indigenous
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

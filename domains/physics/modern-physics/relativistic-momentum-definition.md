@@ -14,7 +14,7 @@ tags:
 - special-relativity
 - momentum
 - dynamics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - structure
 - narrative
 - meaning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

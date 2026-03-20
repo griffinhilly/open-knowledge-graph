@@ -14,7 +14,7 @@ tags:
 - all-pass
 - phase
 - equalization
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

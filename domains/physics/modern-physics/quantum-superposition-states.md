@@ -16,7 +16,7 @@ tags:
 - quantum
 - superposition
 - states
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

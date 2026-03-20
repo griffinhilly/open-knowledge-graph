@@ -9,8 +9,7 @@ prerequisites:
 - id: utilitarianism
   type: soft
 builds-toward:
-- preference-utilitarianism
-- animal-ethics
+  - animal-ethics
 tags:
 - normative-ethics
 - welfare
@@ -18,10 +17,9 @@ tags:
 - hedonism
 - desire-satisfaction
 - objective-list
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Welfare and Wellbeing
 
 ## Core Idea

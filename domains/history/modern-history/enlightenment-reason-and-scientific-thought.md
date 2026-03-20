@@ -14,7 +14,7 @@ tags:
 - reason
 - science
 - intellectual-history
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

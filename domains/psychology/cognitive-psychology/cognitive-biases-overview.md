@@ -24,7 +24,7 @@ tags:
 - judgment
 - decision-making
 - heuristics
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Cognitive Biases and Judgment Under Uncertainty

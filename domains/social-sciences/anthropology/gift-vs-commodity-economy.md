@@ -16,7 +16,7 @@ tags:
 - exchange
 - reciprocity
 - market
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - relativism
 - cultural-ethics
 - subjectivism
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

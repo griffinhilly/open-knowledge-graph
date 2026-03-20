@@ -14,7 +14,7 @@ tags:
 - rebalancing
 - portfolio
 - discipline
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

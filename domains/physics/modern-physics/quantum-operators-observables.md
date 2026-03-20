@@ -12,7 +12,7 @@ tags:
 - quantum
 - operators
 - measurement
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

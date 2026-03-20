@@ -18,7 +18,7 @@ tags:
 - names
 - semantics
 - directness
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

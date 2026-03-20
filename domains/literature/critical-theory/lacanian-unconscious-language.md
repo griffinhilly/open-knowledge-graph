@@ -23,7 +23,7 @@ tags:
 - unconscious
 - language
 - symbolic
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

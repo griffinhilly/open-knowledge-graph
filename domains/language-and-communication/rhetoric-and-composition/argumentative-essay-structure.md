@@ -32,6 +32,45 @@ Outline an argumentative essay twice: once with the counterargument early and on
 - The counterargument weakens the essay by giving airtime to the opposition; addressing counterarguments actually strengthens credibility because it shows the writer has considered the full complexity of the issue.
 - There is one correct structure for all argumentative essays; the best structure depends on the claim, the audience's likely objections, and the available evidence, so skilled writers adapt structure to rhetorical situation.
 
+## Questions
+
+```yaml
+- question: "A student excludes all counterarguments from their essay, reasoning that 'giving the opposition airtime weakens my case.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Nothing — a tightly focused essay that ignores opposition is often more persuasive"
+    - "Essays are required by convention to include counterarguments, even if it does not help rhetorically"
+    - "Engaging with the strongest opposing view demonstrates intellectual honesty and builds credibility; ignoring it makes the argument appear weak or naive"
+    - "Counterarguments are only required in academic essays, not in persuasive writing"
+  answer: 2
+  explanation: "Addressing a counterargument does not give it power — it demonstrates that the writer has taken the opposing view seriously and found it insufficient. Readers who already hold the opposing view will be especially skeptical of an essay that ignores their position; showing that you understand their concern and have a stronger response is what moves them. An essay that sidesteps opposition signals that the writer may not have engaged with the full complexity of the issue. Credibility comes from surviving challenges, not avoiding them."
+
+- question: "You are writing to a hostile audience that strongly holds the position opposite to yours. Which structural approach is most likely to keep them reading and open to your argument?"
+  type: multiple-choice
+  options:
+    - "Classical arrangement: lead with your strongest evidence before introducing any opposing view"
+    - "Rogerian arrangement: begin by fairly presenting the opposing view to show you understand it, before advancing your own position"
+    - "Weakest-to-strongest ordering: start with your least compelling point to build gradually"
+    - "Strongest-first ordering: hit them immediately with your best argument to overwhelm early resistance"
+  answer: 1
+  explanation: "A hostile audience feels dismissed if you launch immediately into arguments they have already rejected. The Rogerian approach — opening by presenting their position fairly and sympathetically — signals that you are not an adversary but a person who genuinely understands their concern. Only after that trust is established can you introduce your own position credibly. Classical and strongest-first arrangements risk losing hostile readers who disengage as soon as they feel unheard. Structure is audience-facing: the same argument needs different arrangements for different audiences."
+
+- question: "A well-constructed argumentative essay always places the counterargument at the end, after the writer's full case has been built."
+  type: true-false
+  answer: false
+  explanation: "There is no universal rule for counterargument placement. Both Classical arrangement (build your case first, then address opposition) and Rogerian arrangement (present the opposing view first to defuse resistance) are legitimate and effective depending on context. Classical works well for neutral or supportive audiences; Rogerian works better for hostile audiences who need to feel heard before engaging with a contrary argument. The choice is a strategic decision based on the claim, the audience, and the stakes — not a fixed convention."
+
+- question: "Conceding partial validity to an opposing view is a stronger rhetorical move than simply refuting it outright."
+  type: true-false
+  answer: true
+  explanation: "Concession-refutation ('While X is true in circumstances Y, the weight of evidence shows Z') is typically more persuasive than pure refutation because it demonstrates intellectual honesty. It signals that the writer has genuinely engaged with the opposing argument rather than dismissing it — which builds trust with readers who may sympathize with that view. Pure refutation ('The opposing view is simply wrong') can come across as overconfident or dismissive, alienating readers who see genuine merit in the other side. Conceding what is genuinely valid while arguing for a stronger position is what serious argumentative writing does."
+
+- question: "What does it mean for argumentative structure to be 'audience-facing' rather than 'writer-facing,' and why does the distinction matter?"
+  type: short-answer
+  answer: "Writer-facing structure organizes arguments in the order that makes logical sense to the writer — how the reasoning naturally unfolds. Audience-facing structure organizes them in the order most likely to persuade a specific reader — accounting for their prior beliefs, likely objections, and reading experience. The distinction matters because the most logically coherent structure is not always the most persuasive one. A hostile reader needs different treatment than a supportive one; a reader who might quit on page two needs your strongest point first. Skilled argumentative writers hold two maps simultaneously: the logical map of the argument and the rhetorical map of the reader's experience."
+  explanation: "The goal of an argumentative essay is not to record the writer's reasoning process but to move the reader toward the writer's conclusion. This requires imagining the reader's experience at each step: where will they be skeptical? Where might they disengage? Where does trust need to be built before an argument can land? Answering these questions is audience-facing design — the difference between an essay that is logically correct and one that is genuinely persuasive."
+```
+
 ## Explainer
 
 From persuasive writing, you know how to construct a claim and support it with evidence and reasoning. From counterargument and rebuttal, you know how to identify opposing views and respond to them. Argumentative essay structure is the question of how to assemble these skills into a complete essay — specifically, the structural decisions that determine whether the essay's argument is experienced as coherent, credible, and persuasive, rather than merely adequate.

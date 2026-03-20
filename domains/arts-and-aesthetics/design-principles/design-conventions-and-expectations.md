@@ -16,7 +16,7 @@ tags:
 - user-behavior
 - mental-models
 - usability
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

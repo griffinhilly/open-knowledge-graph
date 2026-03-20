@@ -12,7 +12,7 @@ tags:
 - triple-point
 - phase-equilibrium
 - three-phases
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

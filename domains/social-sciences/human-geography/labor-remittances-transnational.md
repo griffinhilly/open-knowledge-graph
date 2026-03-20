@@ -15,7 +15,7 @@ tags:
 - economy
 - transnational
 - livelihoods
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

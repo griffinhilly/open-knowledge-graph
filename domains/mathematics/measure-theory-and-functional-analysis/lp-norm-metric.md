@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - lp-spaces
 - norms
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

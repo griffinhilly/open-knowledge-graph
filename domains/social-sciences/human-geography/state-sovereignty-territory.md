@@ -15,7 +15,7 @@ tags:
 - state
 - borders
 - geopolitics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - typography
 - responsive
 - mobile
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

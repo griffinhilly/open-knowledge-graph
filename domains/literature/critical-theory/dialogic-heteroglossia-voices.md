@@ -19,7 +19,7 @@ tags:
 - heteroglossia
 - voices
 - polyphony
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

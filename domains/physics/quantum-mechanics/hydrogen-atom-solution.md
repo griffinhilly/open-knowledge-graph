@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - hydrogen-atom
 - solvable-systems
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

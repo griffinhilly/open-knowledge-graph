@@ -26,7 +26,7 @@ tags:
 - decision-making
 - professional-services
 - safety
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 # When to DIY vs. Hire a Professional

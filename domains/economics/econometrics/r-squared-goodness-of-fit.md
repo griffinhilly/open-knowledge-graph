@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - model-fit
 - goodness-of-fit
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

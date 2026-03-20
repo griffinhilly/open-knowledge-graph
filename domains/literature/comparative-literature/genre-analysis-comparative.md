@@ -15,7 +15,7 @@ tags:
 - form
 - comparative
 - literary-conventions
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

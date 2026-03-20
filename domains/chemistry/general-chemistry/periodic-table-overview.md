@@ -23,7 +23,7 @@ tags:
 - nonmetals
 - metalloids
 - blocks
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

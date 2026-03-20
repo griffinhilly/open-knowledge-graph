@@ -15,7 +15,7 @@ tags:
 - maxwell-equations
 - flux
 - circulation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

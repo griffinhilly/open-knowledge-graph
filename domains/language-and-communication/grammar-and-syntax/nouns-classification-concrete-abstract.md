@@ -24,6 +24,45 @@ Create two lists: one of things you can touch, see, smell, taste, or hear (concr
 ## Common Misconceptions
 - All abstract nouns are difficult or uncommon; everyday words like 'love', 'time', and 'responsibility' are abstract nouns.
 
+## Questions
+
+```yaml
+- question: "A student argues that 'love' is a concrete noun because love feels very real and powerful. What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Love is not a noun — it is primarily a verb"
+    - "'Real' and 'concrete' are different things. A noun is concrete only if it can be perceived through the five senses, not merely because it is emotionally vivid or powerful"
+    - "Love is abstract only in formal writing; in everyday speech it counts as concrete"
+    - "All feelings are technically concrete because they are experienced in the body"
+  answer: 1
+  explanation: "The student has confused 'real' with 'concrete.' Abstract nouns name things that are absolutely real — grief, freedom, and justice are as real as any rock or table — but they cannot be perceived through the senses. You cannot see love itself, touch courage itself, or smell justice. The concrete/abstract distinction is not about intensity or reality; it is specifically about sensory perceivability. Love is abstract because no amount of looking, listening, or touching puts you in direct sensory contact with love as a standalone thing."
+
+- question: "Which of the following is an abstract noun?"
+  type: multiple-choice
+  options:
+    - "mountain"
+    - "melody"
+    - "anger"
+    - "pencil"
+  answer: 2
+  explanation: "Anger is an abstract noun — it names an internal emotional state that cannot be directly perceived through the senses. You can see the physical effects of anger (a flushed face, a clenched fist), but you cannot perceive anger itself. Mountain and pencil are concrete (physically present and touchable). Melody is a common borderline case — sound is a sense, so a melody can be heard — making anger the clearest example of an abstract noun in this list."
+
+- question: "You can photograph a concrete noun in isolation, but you cannot photograph an abstract noun in isolation — only its effects or expressions."
+  type: true-false
+  answer: true
+  explanation: "True. This is a useful practical test. You can photograph an apple, a cathedral, or a thunderstorm — each is directly perceivable. But you cannot photograph 'freedom' itself, only a person acting freely. You cannot photograph 'grief,' only a grieving face. The photograph test works because cameras capture sensory data — light reflected from physical things — and abstract nouns don't exist in that sensory-physical domain."
+
+- question: "Abstract nouns are always rare, complex, or academic words — common everyday words like 'love' and 'time' are concrete because everyone understands them."
+  type: true-false
+  answer: false
+  explanation: "False. Many of the most everyday, familiar words in the language are abstract nouns: love, time, fun, hope, luck, responsibility, beauty, peace. Abstract simply means not perceivable by the senses — it has nothing to do with rarity or difficulty. In fact, abstract nouns often name the concepts humans care about most, which is why they appear so frequently in ordinary speech."
+
+- question: "Explain why 'courage' is an abstract noun even though we can observe courageous behavior. What does the concrete/abstract distinction actually track?"
+  type: short-answer
+  answer: "Courage itself cannot be seen, touched, heard, tasted, or smelled — it is a concept we apply to behavior, not a thing we perceive directly. The concrete/abstract distinction tracks sensory perceivability: concrete nouns name things you can make sensory contact with; abstract nouns name ideas, qualities, and concepts that exist in thought and experience but not as standalone sensory objects."
+  explanation: "We can perceive a soldier walking into gunfire (concrete actions and objects), but 'courage' is the abstract interpretation we place on that behavior. The noun names the concept, not the observable event. This is why abstract nouns often require concrete examples to become meaningful — 'courage' only communicates clearly when accompanied by a specific courageous act. The distinction matters in writing because it tells you when you need to anchor an abstract claim with concrete evidence."
+```
+
 ## Explainer
 
 You already know that nouns are words that name things — people, places, objects, and ideas. The **concrete/abstract** distinction builds directly on that foundation: it asks what *kind of thing* the noun names. **Concrete nouns** name things that exist in the physical world, things you can perceive with at least one of your five senses. You can see a mountain, hear thunder, taste sugar, touch velvet, and smell bread baking. These nouns point to something real and sensory.

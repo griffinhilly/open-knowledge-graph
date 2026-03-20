@@ -16,7 +16,7 @@ tags:
 - dilemma
 - strategic-interaction
 - social-dilemma
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -21,7 +21,7 @@ tags:
 - history-effect
 - maturation
 - selection-bias
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Confounding Variables and Internal Validity

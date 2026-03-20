@@ -15,7 +15,7 @@ tags:
 - crack-propagation
 - paris-law
 - growth-rate
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

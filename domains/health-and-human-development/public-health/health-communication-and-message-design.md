@@ -12,7 +12,7 @@ tags:
 - communication
 - messaging
 - health-promotion
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

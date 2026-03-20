@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - hilbert-spaces
 - parseval
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

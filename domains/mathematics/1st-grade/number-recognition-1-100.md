@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Students learn to recognize written numerals from 1 to 100 and associate them with their spoken names. Understanding how to read numbers up to 100 is essential for working with larger quantities and beginning to understand place value.
 
+## Questions
+
+```yaml
+- question: "What does the digit '4' in the number 47 represent?"
+  type: multiple-choice
+  options:
+    - "Four individual objects"
+    - "Four tens, or forty"
+    - "Four hundred"
+    - "The fourth number in the sequence"
+  answer: 1
+  explanation: "In a two-digit number, the first digit always counts the tens. The '4' in 47 means four groups of ten, which equals forty. The second digit (7) counts the leftover ones. Together, forty plus seven equals forty-seven. Thinking of 47 as 'four things' ignores the structure of our place-value system."
+
+- question: "Which of the following decade number names sounds the most different from the ones digit it is based on?"
+  type: multiple-choice
+  options:
+    - "Sixty (based on six)"
+    - "Seventy (based on seven)"
+    - "Twenty (based on two)"
+    - "Ninety (based on nine)"
+  answer: 2
+  explanation: "Most decade names closely resemble the ones digit they come from: six → sixty, seven → seventy, nine → ninety. But 'twenty' sounds quite different from 'two.' Similarly, 'thirty' and 'fifty' and 'eighty' are irregular. These are worth extra attention because the pattern breaks down for them. Recognizing which names are irregular helps you learn them deliberately rather than expecting the pattern to work everywhere."
+
+- question: "To read any two-digit number from 21 to 99, a student must memorize each of the 79 names separately."
+  type: true-false
+  answer: false
+  explanation: "This is false — and the pattern is the key insight of this topic. Every two-digit number follows a tens-plus-ones structure: the first digit tells you which decade (twenty, thirty, forty...) and the second digit tells you how many extra ones. Once you know the decade names and the ones names, you can build any two-digit number's name from just those parts. Memorizing each separately would be much harder than learning the underlying pattern."
+
+- question: "The number 83 means 'eight tens and three ones.'"
+  type: true-false
+  answer: true
+  explanation: "This is exactly the place-value structure of two-digit numbers. The '8' in the tens place represents eight groups of ten (eighty), and the '3' in the ones place represents three individual units. Together, eighty plus three equals eighty-three. This tens-and-ones structure is not just a way to read numbers — it is the foundation of place value that underlies all arithmetic."
+
+- question: "Why do numbers from 21 to 99 follow a predictable pattern that makes them easier to read than memorizing each name separately?"
+  type: short-answer
+  answer: "Because each two-digit number is built from two parts: a tens part (which decade it belongs to) and a ones part (how many extra ones). Once you know the names of the ten decade numbers (twenty, thirty, forty...) and the names of the single digits (one through nine), you can combine them to read any two-digit number."
+  explanation: "The pattern reflects how our base-ten number system works. Every number has a tens place and a ones place. Reading a two-digit number is just a two-step process: name the tens, then name the ones. This is why the pattern exists — it mirrors the structure of the numbers themselves, not an arbitrary naming convention."
+```
+
 ## Explainer
 
 You already know how to recognize numbers from 1 to 20, matching each written numeral to its spoken name and to a quantity. Now we are going further — all the way to 100. The good news is that numbers from 21 to 99 follow a very clear pattern, so once you see it, you do not have to memorize each one separately.

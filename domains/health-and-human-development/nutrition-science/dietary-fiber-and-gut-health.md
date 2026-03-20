@@ -21,7 +21,7 @@ tags:
 - gut microbiome
 - fermentation
 - short-chain fatty acids
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

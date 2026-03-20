@@ -18,7 +18,7 @@ tags:
 - segmentation
 - accessory-organs
 - enteric-nervous-system
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

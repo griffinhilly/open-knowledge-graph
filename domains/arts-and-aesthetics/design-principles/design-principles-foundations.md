@@ -31,6 +31,45 @@ Study historical and contemporary design examples that demonstrate each principl
 - Following all principles equally is necessary; some must be prioritized based on context.
 - Principles are purely aesthetic rather than functional.
 
+## Questions
+
+```yaml
+- question: "A designer is creating a complex data dashboard where users need to quickly scan multiple categories of information. Which principle should be prioritized to make the dashboard most effective?"
+  type: multiple-choice
+  options:
+    - "Contrast — use dramatic color differences to make every data point stand out equally"
+    - "Proximity and alignment — group related data together and align columns to create scannable structure"
+    - "Repetition alone — repeat visual elements as often as possible for consistency"
+    - "Contrast and uniqueness — make each section visually distinct from all others"
+  answer: 1
+  explanation: "For a data-dense dashboard, proximity and alignment directly support the core task: scanning and comparing data quickly. Proximity groups related items so users don't have to search; alignment creates the invisible grid that guides the eye through rows and columns. Excessive contrast (options A/D) can create visual noise that impedes scanning when everything competes for attention equally. The key insight is that principle priority depends on the communication goal."
+
+- question: "Why does the principle of proximity work — why do elements placed near each other appear related?"
+  type: multiple-choice
+  options:
+    - "It is a design convention taught in schools and adopted as a standard over time"
+    - "Nearby elements share more color and shape properties, making them appear similar"
+    - "The visual system automatically groups nearby elements through Gestalt perceptual mechanisms"
+    - "Proximity reduces the number of elements the viewer must process individually"
+  answer: 2
+  explanation: "Proximity works because of Gestalt perceptual psychology: the brain automatically groups nearby elements as belonging together before any conscious interpretation occurs. This is not a cultural convention (it works across cultures) nor primarily about shared properties (option B describes similarity, a different Gestalt principle). Design principles are, in this sense, reverse-engineered from neuroscience — they describe what the human visual system is already predisposed to do."
+
+- question: "Two design principles can directly conflict with each other in a given design problem, requiring the designer to make a judgment call about which to prioritize."
+  type: true-false
+  answer: true
+  explanation: "For example, 'maintain consistency' and 'create contrast' can directly oppose each other. A consistent background color throughout a page maintains visual unity (repetition), but a critical error message may need to break that consistency to stand out (contrast). Neither principle is universally more important; context and communication goal determine the priority. This is why design principles are guidelines requiring judgment, not rules to be applied mechanically."
+
+- question: "Design principles like contrast, alignment, and proximity are arbitrary aesthetic preferences that vary by culture and designer."
+  type: true-false
+  answer: false
+  explanation: "Design principles are grounded in Gestalt psychology and human perceptual neuroscience, not arbitrary convention. The visual system is tuned to detect difference (contrast), follow edges and lines (alignment), and group nearby objects (proximity) — these are built-in cognitive tendencies, not culturally learned preferences. This is why the same principles work across different cultures and contexts: they describe how the brain processes visual information."
+
+- question: "Why are design principles described as guidelines rather than rules, and what does this mean for how a designer should apply them?"
+  type: short-answer
+  answer: "Design principles can conflict with each other — for example, 'create contrast' may conflict with 'maintain consistency,' and 'use proximity to group items' may conflict with 'use white space generously.' A mechanical rule can't resolve these conflicts; a guideline requires judgment about which principle serves the communication goal in this specific context. A designer applies principles not by checking them off equally but by asking which principle matters most for what this design needs to accomplish."
+  explanation: "This also explains why well-designed objects can look very different from each other: a movie poster and a scientific data table are both well-designed, but they prioritize different principles. The common misconception is that 'good design = applying all principles equally,' but that often produces mediocre work. The skill is selective prioritization based on audience, purpose, and medium."
+```
+
 ## Explainer
 
 Design principles are the grammar of visual communication — just as grammatical rules allow you to construct sentences that others can parse, design principles provide the structural logic that makes visual compositions legible, navigable, and meaningful. You do not need to have studied design formally to have encountered these principles; you experience their presence (or absence) every time you glance at a poster, use an app, or walk through a building. When something "just works" visually, principles are operating. When something feels cluttered, confusing, or off-balance, principles have been violated.

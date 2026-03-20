@@ -11,7 +11,7 @@ prerequisites:
 - id: arithmetic-functions-and-multiplicativity
   type: soft
 builds-toward:
-- undecidability-and-gödel
+- undecidability-and-godel
 - omitting-types-theorem-countable
 tags:
 - peano-arithmetic

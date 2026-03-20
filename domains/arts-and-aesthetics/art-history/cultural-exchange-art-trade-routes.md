@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Art history is not a story of isolated cultural development but of continuous exchange through trade routes, military conquest, and travel. Silk Road commerce brought Chinese techniques to Islamic and European artisans; colonial encounters introduced European artists to non-Western aesthetics; maritime trade diffused porcelain, textile, and painting traditions globally. Recognizing these networks challenges the myth of purely indigenous artistic traditions and reveals art as a collaborative, syncretic achievement.
 
+## Questions
+
+```yaml
+- question: "Chinese blue-and-white porcelain is widely considered a quintessentially Chinese artistic tradition. What does the actual history of this art form reveal?"
+  type: multiple-choice
+  options:
+    - "Blue-and-white porcelain was invented entirely in China, with no external influence — confirming its status as a pure indigenous tradition"
+    - "The cobalt blue pigment came from Persia and the technique developed partly in response to Islamic market demand, making it a product of cross-cultural exchange"
+    - "Blue-and-white porcelain was originally a European style brought to China by missionaries"
+    - "The technique emerged independently and simultaneously in China, Persia, and Europe — evidence of parallel cultural development"
+  answer: 1
+  explanation: "This is the topic's central example. The cobalt blue that defines 'quintessentially Chinese' blue-and-white ceramics was sourced from Persia via the Silk Road, and the style developed partly to meet Islamic market demand. Even the most iconic 'characteristic' traditions are often products of sustained cross-cultural exchange rather than autonomous indigenous development."
+
+- question: "A student claims that Italian Renaissance art represents the autonomous flowering of European artistic genius, uninfluenced by other cultures. The most accurate response is:"
+  type: multiple-choice
+  options:
+    - "This is correct — the Renaissance was a uniquely European achievement that drew exclusively on classical Greco-Roman sources"
+    - "This is inaccurate — the Renaissance absorbed Byzantine icons, Islamic geometric patterns encountered via the Crusades, and Chinese silk textiles arriving through Venetian and Genoese merchants"
+    - "This is mostly correct — outside influences were minor and did not materially shape the style"
+    - "This is a legitimate interpretation since major artistic traditions inevitably develop independently"
+  answer: 1
+  explanation: "The Italian Renaissance is presented in traditional art history as a European rebirth drawing on classical antiquity. But Byzantine icons shaped early Italian painting, Islamic geometric patterns influenced architectural decoration, and Chinese silks and decorative motifs arrived via Venetian trade. The exchange was multidirectional and constitutive, not incidental."
+
+- question: "The influence of trade routes on artistic development generally flowed in one direction — from more technologically advanced civilizations to less advanced ones."
+  type: true-false
+  answer: false
+  explanation: "Exchange was bidirectional and complex. Japanese woodblock prints (ukiyo-e) profoundly shaped French Impressionism and Post-Impressionism (Japonisme); African sculpture was central to Picasso's development of Cubism; Islamic geometric patterns influenced Gothic and Renaissance architecture. The categories 'advanced' and 'primitive' reflect colonial ideology, not the actual dynamics of artistic exchange."
+
+- question: "Hybrid artworks — such as Mughal miniatures that absorbed European shading techniques while retaining Mughal compositional traditions — are evidence that what we consider 'characteristic' traditions often emerge from cross-cultural dialogue."
+  type: true-false
+  answer: true
+  explanation: "Hybrid objects are not footnotes or curiosities — they are evidence of how artistic identity is actually forged. Mughal painting, Japanese Namban art depicting Portuguese traders, and Chinese export porcelain decorated with European coats of arms all reveal that sustained cross-cultural contact was constitutive of the traditions we now treat as self-contained."
+
+- question: "Why does recognizing trade networks as conduits of artistic exchange challenge the way art history has traditionally been organized?"
+  type: short-answer
+  answer: "Traditional art history organizes itself around national or civilizational stories — Greek art, Chinese art, Italian Renaissance — implying each tradition developed according to its own internal logic. Recognizing exchange networks shows that these categories are constructions: the most celebrated traditions absorbed techniques, motifs, and materials from distant cultures via trade. This challenges the myth of purely indigenous artistic identity and reveals that artistic greatness has always been, in part, a syncretic collaborative achievement carried along the same routes that carried goods, languages, and ideas."
+  explanation: "The deeper implication is historiographical: not just 'art was influenced by trade,' but that the very categories we use to organize art history (national schools, civilizational traditions) obscure the actual mechanisms of artistic development. Reframing around exchange networks produces a fundamentally different — and more accurate — account of how styles, techniques, and materials spread."
+```
+
 ## Explainer
 
 Traditional art history often presents artistic development as a series of national or civilizational stories — Greek art, Chinese art, Islamic art — as if each tradition evolved in isolation according to its own internal logic. The reality is that art has always traveled, and understanding **trade routes as conduits of artistic exchange** fundamentally reframes how we think about stylistic development, technical innovation, and cultural identity in art.

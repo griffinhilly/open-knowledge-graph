@@ -16,7 +16,7 @@ tags:
 - atmosphere
 - mood
 - sensory
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

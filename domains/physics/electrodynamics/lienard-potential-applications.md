@@ -12,7 +12,7 @@ tags:
 - potentials
 - moving-charges
 - applications
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

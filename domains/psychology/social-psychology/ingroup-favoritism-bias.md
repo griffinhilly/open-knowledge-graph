@@ -16,7 +16,7 @@ tags:
 - social identity
 - group favoritism
 - intergroup
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

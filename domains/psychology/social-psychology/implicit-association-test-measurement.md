@@ -16,7 +16,7 @@ tags:
 - measurement
 - psychometrics
 - assessment
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

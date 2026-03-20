@@ -23,7 +23,7 @@ tags:
 - quantitative-easing
 - reserve-requirements
 - discount-rate
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Monetary Policy Tools

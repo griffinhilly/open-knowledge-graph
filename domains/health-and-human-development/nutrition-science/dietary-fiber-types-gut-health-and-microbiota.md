@@ -14,7 +14,7 @@ tags:
 - microbiota
 - prebiotic
 - scfa
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

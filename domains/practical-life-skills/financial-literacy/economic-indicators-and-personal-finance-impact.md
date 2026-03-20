@@ -19,14 +19,14 @@ tags:
 - gdp
 - employment
 - macroeconomics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 
 # Economic Indicators and Personal Finance Impact
 
 ## Core Idea
-TODO
+The macroeconomy is not an abstraction — it shows up in your monthly budget, your mortgage rate, and your savings account yield. The key is knowing which headline numbers to pay attention to and what they actually signal about your financial life. From your work on inflation and purchasing power, you know that rising prices erode what your money can buy.
 
 ## Explainer
 

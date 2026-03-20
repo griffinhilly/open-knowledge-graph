@@ -23,7 +23,7 @@ tags:
 - necessity
 - analyticity
 - Kant
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

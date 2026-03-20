@@ -20,7 +20,7 @@ tags:
 - kp
 - equilibrium-constant
 - equilibrium
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

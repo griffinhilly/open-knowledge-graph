@@ -13,7 +13,7 @@ tags:
 - class
 - working-class
 - industrialization
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

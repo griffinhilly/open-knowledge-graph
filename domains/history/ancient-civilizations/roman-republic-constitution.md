@@ -23,7 +23,7 @@ tags:
 - twelve-tables
 - patricians
 - plebeians
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # The Roman Republic: Constitution and Institutions

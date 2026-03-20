@@ -12,7 +12,7 @@ tags:
 - expansion
 - archaic
 - trade
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

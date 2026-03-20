@@ -17,7 +17,7 @@ tags:
 - phosphorus
 - limitation
 - primary-production
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

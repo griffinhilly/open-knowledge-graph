@@ -6,6 +6,8 @@ course: quantum-mechanics
 prerequisites:
 - id: differential-equations
   type: hard
+- id: commutation-relations
+  type: soft
 builds-toward:
 - wkb-quantization-rule
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # The WKB Approximation
 
 ## Core Idea

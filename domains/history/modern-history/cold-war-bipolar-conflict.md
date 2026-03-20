@@ -18,7 +18,7 @@ tags:
 - bipolar-world
 - ideological-conflict
 - superpowers
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

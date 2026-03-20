@@ -12,7 +12,7 @@ tags:
 - graph-theory
 - flows
 - optimization
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

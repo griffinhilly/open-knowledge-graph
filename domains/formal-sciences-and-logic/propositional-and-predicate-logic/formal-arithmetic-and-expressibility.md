@@ -20,7 +20,7 @@ tags:
 - formal-arithmetic
 - representability
 - primitive-recursion
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

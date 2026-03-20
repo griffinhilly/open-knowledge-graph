@@ -12,7 +12,7 @@ tags:
 - extrapolation
 - acceleration
 - richardson
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

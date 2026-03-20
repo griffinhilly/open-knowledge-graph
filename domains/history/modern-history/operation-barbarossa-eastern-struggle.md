@@ -17,7 +17,7 @@ tags:
 - warfare
 - Eastern-Europe
 - total-war
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

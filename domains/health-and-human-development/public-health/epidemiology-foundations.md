@@ -16,7 +16,7 @@ tags:
 - epidemiology
 - public-health
 - foundations
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

@@ -17,7 +17,7 @@ tags:
 - function
 - strategy
 - goal-directed
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

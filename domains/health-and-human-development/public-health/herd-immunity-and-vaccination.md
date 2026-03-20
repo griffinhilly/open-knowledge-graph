@@ -24,7 +24,7 @@ tags:
 - R0
 - immunization-programs
 - infectious-disease
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

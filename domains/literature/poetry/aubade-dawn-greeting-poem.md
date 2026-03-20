@@ -17,7 +17,7 @@ tags:
 - morning
 - transition
 - lyric
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

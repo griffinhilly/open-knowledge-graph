@@ -14,7 +14,7 @@ tags:
 - analysis
 - structure
 - levels
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

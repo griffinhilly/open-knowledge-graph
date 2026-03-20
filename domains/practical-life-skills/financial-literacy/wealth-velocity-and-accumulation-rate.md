@@ -21,7 +21,7 @@ tags:
 - accumulation
 - rate
 - savings
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

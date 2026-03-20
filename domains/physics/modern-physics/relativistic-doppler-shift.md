@@ -12,7 +12,7 @@ tags:
 - special-relativity
 - waves
 - doppler
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

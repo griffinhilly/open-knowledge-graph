@@ -12,7 +12,7 @@ tags:
 - glycogenolysis
 - gluconeogenesis
 - fasting
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -11,8 +11,7 @@ prerequisites:
 - id: quantifier-scope-ambiguity
   type: hard
 builds-toward:
-- quantifier-scope-interactions
-- de-re-de-dicto-readings
+  - de-re-de-dicto-readings
 tags:
 - logic
 - quantification
@@ -21,7 +20,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Scope Ambiguity and Logical Form
 
 ## Core Idea

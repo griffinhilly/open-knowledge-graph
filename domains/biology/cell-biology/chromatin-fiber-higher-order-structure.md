@@ -14,7 +14,7 @@ tags:
 - chromatin
 - 30nm-fiber
 - heterochromatin
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

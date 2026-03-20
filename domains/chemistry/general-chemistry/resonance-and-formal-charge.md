@@ -15,7 +15,7 @@ tags:
 - resonance-hybrid
 - benzene
 - ozone
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

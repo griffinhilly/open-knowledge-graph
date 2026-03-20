@@ -17,7 +17,7 @@ tags:
 - social-perception
 - facial-recognition
 - affective-development
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

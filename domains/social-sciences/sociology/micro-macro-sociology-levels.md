@@ -13,7 +13,7 @@ tags:
 - theory
 - levels-of-analysis
 - methodology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - exchange-rates
 - price-levels
 - goods-arbitrage
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - wind
 - three-cell-model
 - zonal
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - identity
 - modality
 - a-posteriori
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

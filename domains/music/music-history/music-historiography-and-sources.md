@@ -30,6 +30,45 @@ Research music history using primary and secondary sources, examine how differen
 ## Common Misconceptions
 Music history is objective fact rather than interpretation; older sources are more reliable than modern scholarship; scores represent exactly how music was actually performed; manuscript sources are always more authentic than printed versions.
 
+## Questions
+
+```yaml
+- question: "A musicologist studies a Baroque composer's autograph score. Which question can the score most reliably answer?"
+  type: multiple-choice
+  options:
+    - "What tempos were used in the composer's own performances?"
+    - "How the music sounded in the performance spaces of the period"
+    - "What pitches and rhythmic values the composer notated"
+    - "Whether the composer intended ornaments to be improvised or written out"
+  answer: 2
+  explanation: "A score records notation — pitches, rhythms, dynamics as marked — but cannot record performance. Tempos are rarely specified precisely in Baroque notation; how the composer performed the work (or heard it in his head) is inaccessible from the score alone. Acoustic properties of historical performance spaces cannot be recovered from a score. Whether ornaments were improvised requires consulting period treatises and contextual documents, not just the score itself. Source criticism means knowing precisely what each source type can and cannot tell you — the score is authoritative on notation, silent on realization."
+
+- question: "Why has music history traditionally focused predominantly on Western European male composers in the art-music tradition?"
+  type: multiple-choice
+  options:
+    - "Because Western European art music is objectively more complex and historically significant than other musical traditions"
+    - "Because music outside this tradition was not written down and therefore cannot be studied historically"
+    - "Because the scholars, archives, and institutions that produced music history reflected and reproduced the values and access structures of their own cultural context"
+    - "Because other musical traditions did not develop historical documentation practices until recently"
+  answer: 2
+  explanation: "The received canon reflects the conditions under which music historiography developed, not an objective hierarchy of musical significance. Musicology as a discipline emerged from European universities and conservatories, funded by institutions that valued the European art-music tradition. Archives were maintained for the music that institutions cared about; scholars wrote about music their training led them to recognize as significant. This is not a neutral process — it is a selection shaped by cultural power. Feminist, postcolonial, and ethnomusicological scholarship has demonstrated that exclusion from the canon reflects these conditions, not inherent musical value."
+
+- question: "Two musicologists examining identical primary sources about the same 18th-century composer may legitimately reach different historical conclusions."
+  type: true-false
+  answer: true
+  explanation: "Historical knowledge requires interpretation of evidence, and interpretive frameworks shape conclusions. One historian may foreground biographical psychology, another formal structure, another social context — and each framework causes different aspects of the same evidence to become salient. Sources do not speak for themselves; they are read through analytical lenses that affect what questions are asked, what counts as significant, and how ambiguous evidence is resolved. This is not relativism — some interpretations are better supported than others — but it does mean that history is never simply a neutral assembly of facts from sources."
+
+- question: "Older primary sources are generally more reliable for understanding historical music-making than modern scholarly works, because they are closer in time to the events being described."
+  type: true-false
+  answer: false
+  explanation: "Reliability depends on source type, purpose, and constraints — not age alone. An older source may be closer in time to the events but was produced with its own agenda, audience, and limitations. A concert review from 1820 reflects the critic's aesthetic values, the conventions of music journalism, and what the critic chose to notice — not an objective record. Modern scholarship, while more distant in time, can synthesize multiple sources, apply rigorous source criticism, and access evidence unavailable to contemporaries (such as recovered manuscripts or comparative data). 'Older = more reliable' is one of the key misconceptions in source evaluation."
+
+- question: "Explain why a musical score is an incomplete primary source, and what types of questions it cannot answer about historical music-making."
+  type: short-answer
+  answer: "A score records notation — what pitches, rhythms, and dynamics were written down — but not performance. It cannot answer questions about tempo, articulation beyond what is marked, improvised ornaments, tuning systems used, how performers realized the notation in context, what instruments were available or preferred, or how the music sounded in specific performance spaces. Recovering actual historical performance requires additional source types: treatises on performance practice, instrument inventories, concert reviews, correspondence, and comparisons with related repertoire."
+  explanation: "The fundamental limit of score evidence is that notation is an instruction set, not a recording. It encodes only what the composer chose to write and what the notation system of the period could represent. Much of what made historical performance alive — phrasing, timing nuance, improvised embellishment, the sound of period instruments — lies entirely outside the score. Historians who treat the score as equivalent to 'the music itself' commit the error of mistaking the map for the territory. Source criticism requires always asking: what can this particular source type access, and what lies beyond its reach?"
+```
+
 ## Explainer
 
 You already know how music history is organized into periods and how those periods are defined by broad stylistic and cultural shifts. But knowing *that* history happened is different from understanding *how we know* it happened and *who decides* what counts as history worth knowing. **Music historiography** is the study of that second question: the methods, assumptions, and biases built into the writing of music history. It forces a crucial distinction — between the historical events themselves and the accounts we have constructed of those events.

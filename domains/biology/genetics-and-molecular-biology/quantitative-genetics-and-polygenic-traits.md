@@ -19,7 +19,7 @@ tags:
 - heritability
 - selection-response
 - quantitative-trait
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -30,6 +30,45 @@ Use structured peer review prompts — "What is the thesis? Where does the argum
 - Peer review is mainly about catching grammar errors; the most valuable feedback addresses argument, evidence, and organization — issues the writer cannot see because they are too close to their own intentions.
 - Positive feedback is not useful; knowing what works is essential because it tells the writer what to preserve and build on during revision.
 
+## Questions
+
+```yaml
+- question: "Two peers respond to a student's essay. Peer A says: 'You should move your third paragraph to the introduction.' Peer B says: 'I lost track of your main argument around paragraph three.' Which feedback is more useful to the writer, and why?"
+  type: multiple-choice
+  options:
+    - "Peer A's — it gives a concrete revision action the writer can immediately implement"
+    - "Peer B's — it locates where the problem was experienced and lets the writer diagnose the cause themselves"
+    - "Both are equally useful because they identify the same structural problem"
+    - "Neither — both reviewers should focus on sentence-level issues like grammar and word choice"
+  answer: 1
+  explanation: "Peer B's feedback is more useful because it is descriptive — it reports the reader's experience ('I lost track') at a specific location ('around paragraph three'). This gives the writer accurate information about where the text broke down while leaving the diagnosis and solution with the writer. Peer A's prescriptive feedback ('you should move...') reflects the reviewer's structural preferences, but the writer might have a different cause for the same problem. Descriptive feedback serves the writer; prescriptive feedback often serves the reviewer's vision of the essay."
+
+- question: "Why is positive feedback during peer review genuinely useful rather than merely polite encouragement?"
+  type: multiple-choice
+  options:
+    - "Writers need emotional support to stay motivated during the revision process"
+    - "Positive feedback balances negative comments and makes the session feel fair"
+    - "Knowing what is working tells the writer what to preserve and build on during revision"
+    - "Positive feedback helps the reviewer practice identifying strengths in their own writing"
+  answer: 2
+  explanation: "Revision is not simply a process of fixing problems — it is also a process of understanding what works and amplifying it. If a writer revises aggressively without knowing which moves succeeded, they may accidentally cut or bury the strongest parts of the draft. Positive feedback is information: 'Your opening anecdote grabbed me immediately' tells the writer to protect and extend that strength. This is not about motivation — it is about giving the writer an accurate map of what the draft is doing, both where it fails and where it succeeds."
+
+- question: "When a writer's instinct during peer feedback is to explain 'what I was trying to say,' that impulse is actually evidence that the draft failed to communicate that meaning."
+  type: true-false
+  answer: true
+  explanation: "If you have to explain your meaning after a reader expresses confusion, your draft did not do its job — the explanation belongs in the text, not in the conversation around it. The instinct to defend or clarify is natural, but acting on it during feedback is counterproductive. The correct response is to listen, write down what you were trying to say, and then ask: why didn't the draft convey that? The reviewer's confusion is data about the draft's failure, not a sign that the reviewer misread."
+
+- question: "The primary purpose of peer review is to help writers catch grammar and spelling errors, which are invisible to the writer because they are too familiar with their own text."
+  type: true-false
+  answer: false
+  explanation: "The most valuable feedback in peer review addresses argument, evidence, and organization — not surface errors. Grammar checkers and careful rereading can catch most sentence-level errors; a human reader adds unique value by reporting whether the argument is clear, the evidence convincing, and the structure navigable. Spending peer review sessions on comma errors misses the point. The Explainer states this directly: 'intentional blindness' prevents writers from seeing whether their argument lands, not whether their punctuation is correct."
+
+- question: "Why does doing peer review make you a better self-reviser, even beyond the feedback you receive on your own drafts? What skills transfer?"
+  type: short-answer
+  answer: "Peer review trains you to read critically by practicing specific diagnostic questions: Where is the thesis? Where does the argument weaken? Where is evidence thin? Where did I as a reader get confused? These questions become automatic — a checklist that runs in the background when you draft and revise your own work. Once you have learned to locate someone else's failing argument or unclear transition, you develop the ability to identify the same patterns in your own prose, which is normally invisible because you know what you meant to write."
+  explanation: "This transfer is the structural reason composition courses use peer review. The exercise is simultaneously feedback-giving (for the reviewed writer) and reading practice (for the reviewer). Writers who have reviewed seriously typically describe their self-revision improving because they internalize the reviewer's perspective — they begin reading their own drafts as a stranger would, which is the foundational revision skill."
+```
+
 ## Explainer
 
 You already know from revision strategies that good revision requires distance — the ability to read your own draft as a stranger would. The problem is that writers accumulate **intentional blindness** as they draft: you know what you meant to say so thoroughly that you cannot see what the text actually says. Peer review solves this problem by introducing a reader who genuinely does not have your intentions in their head. Their confusion, their slowing down, their re-reading — these are data. The peer reviewer's job is not to fix your draft but to report their reading experience honestly.

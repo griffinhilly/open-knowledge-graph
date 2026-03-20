@@ -16,7 +16,7 @@ tags:
 - herbs
 - spices
 - flavor-balance
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 

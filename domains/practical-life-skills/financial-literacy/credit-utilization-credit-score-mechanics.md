@@ -19,7 +19,7 @@ tags:
 - credit-score
 - borrowing
 - financial-health
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

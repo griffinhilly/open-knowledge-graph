@@ -16,7 +16,7 @@ tags:
 - chitin
 - glucan
 - fungi-structure
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

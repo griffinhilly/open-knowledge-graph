@@ -28,7 +28,7 @@ tags:
 - money-market
 - equilibrium
 - Keynesian
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # The IS-LM Model

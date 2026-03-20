@@ -39,7 +39,7 @@ tags:
 - security-market-line
 - expected-return
 - cost-of-equity
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Capital Asset Pricing Model (CAPM)

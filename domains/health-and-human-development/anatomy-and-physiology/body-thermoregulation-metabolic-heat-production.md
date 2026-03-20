@@ -16,7 +16,7 @@ tags:
 - thermoregulation
 - metabolic-rate
 - homeostasis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

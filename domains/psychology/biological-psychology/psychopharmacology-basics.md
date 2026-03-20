@@ -25,7 +25,7 @@ tags:
 - blood-brain-barrier
 - dose-response
 - tolerance
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Psychopharmacology Basics

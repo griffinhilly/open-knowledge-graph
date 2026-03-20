@@ -9,6 +9,8 @@ prerequisites:
   type: hard
 - id: hepatocellular-injury-mechanisms
   type: hard
+- id: chronic-inflammation
+  type: soft
 builds-toward:
 - liver-cirrhosis-pathophysiology
 - hepatocellular-carcinoma-pathophysiology
@@ -20,7 +22,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Nonalcoholic Fatty Liver Disease: Lipid Accumulation, Oxidative Stress, and Fibrosis Progression
 
 ## Core Idea

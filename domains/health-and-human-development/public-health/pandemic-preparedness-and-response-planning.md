@@ -12,7 +12,7 @@ tags:
 - pandemic
 - preparedness
 - emergency-response
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

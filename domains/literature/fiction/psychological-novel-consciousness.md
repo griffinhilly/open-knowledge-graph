@@ -17,7 +17,7 @@ tags:
 - interiority
 - modernism
 - subjective
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

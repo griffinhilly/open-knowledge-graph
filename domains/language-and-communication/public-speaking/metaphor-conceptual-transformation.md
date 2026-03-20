@@ -16,7 +16,7 @@ tags:
 - explanation
 - conceptual-blending
 - rhetoric
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

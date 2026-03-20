@@ -11,7 +11,7 @@ tags:
 - narrative
 - identity
 - self-concept
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

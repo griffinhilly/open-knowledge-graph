@@ -18,7 +18,7 @@ tags:
 - desire
 - action
 - motivation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

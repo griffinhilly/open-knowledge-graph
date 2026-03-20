@@ -19,7 +19,7 @@ tags:
 - chunking
 - skill-acquisition
 - pattern-recognition
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Expertise and Chunking

@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: halting-problem-formal
   type: hard
-- id: undecidability-and-gödel
+- id: undecidability-and-godel
   type: soft
 tags:
 - non-computability

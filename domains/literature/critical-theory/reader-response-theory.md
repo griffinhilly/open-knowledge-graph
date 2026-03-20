@@ -22,7 +22,7 @@ tags:
 - Fish
 - interpretive-communities
 - implied-reader
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Reader-Response Theory

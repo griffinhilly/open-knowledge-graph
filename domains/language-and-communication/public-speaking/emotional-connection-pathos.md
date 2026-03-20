@@ -13,7 +13,7 @@ tags:
 - emotion
 - connection
 - appeal
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

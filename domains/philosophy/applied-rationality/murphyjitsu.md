@@ -9,7 +9,7 @@ prerequisites:
   - id: the-planning-fallacy
     type: soft
 tags: ["CFAR", "planning", "technique", "robustness", "mental-simulation"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

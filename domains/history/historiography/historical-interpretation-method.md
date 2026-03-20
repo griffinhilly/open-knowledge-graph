@@ -11,9 +11,8 @@ prerequisites:
 - id: source-criticism
   type: hard
 builds-toward:
-- historical-evidence-epistemology
-- objectivity-and-perspective
-- textual-hermeneutics-history
+  - objectivity-and-perspective
+  - textual-hermeneutics-history
 tags:
 - interpretation
 - methodology
@@ -21,7 +20,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Historical Interpretation as Method
 
 ## Core Idea

@@ -18,7 +18,7 @@ tags:
 - physicalism
 - reduction
 - neural
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

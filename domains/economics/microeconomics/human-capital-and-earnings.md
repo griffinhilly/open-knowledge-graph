@@ -10,7 +10,7 @@ tags:
 - labor economics
 - human capital
 - education
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - hypothesis-testing
 - regression
 - p-values
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Biostatistics in Public Health

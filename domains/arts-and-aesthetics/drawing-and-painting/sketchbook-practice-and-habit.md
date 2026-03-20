@@ -22,6 +22,45 @@ status: draft
 ## Core Idea
 Regular sketchbook practice builds skill, confidence, and visual thinking faster than occasional intensive sessions. A sketchbook is private space for experimentation without performance pressure. Consistent drawing habit develops hand-eye coordination, observational acuity, and personal artistic voice.
 
+## Questions
+
+```yaml
+- question: "Two students want to improve their drawing skills. Student A does a 2-hour drawing session every Sunday. Student B draws for 10 minutes every single day. Whose approach will likely produce more improvement over a month?"
+  type: multiple-choice
+  options:
+    - "Student A — longer sessions mean more deliberate practice and deeper focus"
+    - "Student B — frequent, consistent repetition builds perceptual skills faster than infrequent long sessions"
+    - "They are equivalent — total hours per month are what matter, not how they are distributed"
+    - "Student A — rest days give the brain time to consolidate learning between sessions"
+  answer: 1
+  explanation: "Drawing is a perceptual skill that develops through frequent repetition spaced over time. Student B draws 7 days per week — daily activation of the hand-eye loop — while Student A draws once. Even though Student A's total monthly hours (roughly 8) exceed Student B's (roughly 5), the daily frequency of Student B's practice is what produces faster improvement. Consistency beats duration for skill acquisition."
+
+- question: "Why is it important that a sketchbook be treated as private space, not as a portfolio or display piece?"
+  type: multiple-choice
+  options:
+    - "Sketchbooks are legally protected and cannot be shown publicly"
+    - "Performance anxiety — fear of judgment — inhibits experimentation and kills the daily habit that produces real growth"
+    - "Other people's feedback is always harmful to developing artists"
+    - "Private sketchbooks are easier to carry and maintain"
+  answer: 1
+  explanation: "When an artist worries about whether each page looks good, they start avoiding difficult or experimental drawings — exactly the ones that produce the most learning. Performance anxiety turns the sketchbook into a source of stress rather than a tool for exploration. A private, low-stakes sketchbook gives permission to fail, which is a prerequisite for the experimentation that builds skill."
+
+- question: "Ten minutes of drawing every day produces more skill improvement over time than a two-hour session once a week."
+  type: true-false
+  answer: true
+  explanation: "Drawing skill develops through perceptual learning — building the hand-eye connection through frequent repetition spaced over time. Daily practice activates and reinforces this perceptual loop every day, while weekly sessions have a much lower activation frequency. Skill acquisition research consistently shows that distributed practice outperforms massed practice for perceptual and motor skills."
+
+- question: "The quality of individual sketchbook drawings is the most reliable indicator of long-term artistic improvement."
+  type: true-false
+  answer: false
+  explanation: "The most reliable indicator is consistency — filling the sketchbook through daily practice, regardless of quality. Individual drawing quality varies day to day with mood, energy, and difficulty of subject. What matters is the cumulative volume of looking and mark-making. A full sketchbook of uneven drawings represents more real learning than a half-empty one containing only your best work."
+
+- question: "Why does keeping a sketchbook private and non-performative matter for skill development?"
+  type: short-answer
+  answer: "Because performance pressure causes artists to avoid risky or unfamiliar subjects, which are the ones that produce the most learning. A private sketchbook removes the fear of judgment, allowing free experimentation and the willingness to draw badly — which is necessary for growth. Stakes-free practice is what makes the daily habit sustainable."
+  explanation: "Skill development requires failure. If every drawing must look good, you will only draw what you already know how to draw, which limits growth. The sketchbook functions as a low-stakes laboratory: a place to attempt things that might not work, observe what goes wrong, and try again tomorrow. Removing the audience removes the filter that would otherwise prevent that experimentation."
+```
+
 ## Explainer
 
 You have practiced making marks and drawing from observation. Sketchbook practice is about turning those skills from things you do in exercises into things you do habitually, every day, without ceremony or pressure. The distinction matters: structured practice sessions build specific techniques, but a daily sketchbook habit builds the broader capacity to see, think, and solve problems visually. It is the difference between going to the gym for a scheduled workout and being a person who moves throughout the day. Both matter, but the habit is what compounds over time.

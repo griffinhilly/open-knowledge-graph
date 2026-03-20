@@ -13,7 +13,7 @@ tags:
 - dispositional-inference
 - situation-underestimation
 - cognitive-error
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

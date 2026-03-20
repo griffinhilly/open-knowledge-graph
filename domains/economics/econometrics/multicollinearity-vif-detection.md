@@ -15,7 +15,7 @@ prerequisites:
 tags:
 - multicollinearity
 - diagnostics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ builds-toward:
   - the-bottom-line
   - considering-the-opposite
 tags: ["rationality", "biases", "self-deception", "epistemology"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

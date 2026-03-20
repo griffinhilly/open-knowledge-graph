@@ -18,7 +18,7 @@ tags:
 - distortion
 - subjectivity
 - 20th-century
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

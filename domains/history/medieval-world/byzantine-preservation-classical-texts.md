@@ -13,7 +13,7 @@ tags:
 - classical
 - preservation
 - intellectual
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

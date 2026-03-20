@@ -11,7 +11,7 @@ prerequisites:
 builds-toward:
 - fol-soundness-completeness
 - compactness-theorem-model-theory
-- undecidability-and-gödel
+- undecidability-and-godel
 tags:
 - metatheory
 - foundational-theorems

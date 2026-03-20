@@ -14,7 +14,7 @@ tags:
 - nuclear
 - radioactivity
 - exponential
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

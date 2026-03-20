@@ -19,7 +19,7 @@ tags:
 - Sibelius
 - Russian-Five
 - program-music
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Musical Nationalism in the 19th Century

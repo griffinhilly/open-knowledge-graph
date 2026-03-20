@@ -15,7 +15,7 @@ tags:
 - cloud-formation
 - lifting
 - thermodynamics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

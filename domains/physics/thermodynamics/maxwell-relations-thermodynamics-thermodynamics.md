@@ -14,7 +14,7 @@ tags:
 - potentials
 - relations
 - measurable-properties
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

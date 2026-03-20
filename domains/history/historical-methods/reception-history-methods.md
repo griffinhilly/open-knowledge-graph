@@ -13,7 +13,7 @@ tags:
 - ideas
 - transmission
 - methodology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

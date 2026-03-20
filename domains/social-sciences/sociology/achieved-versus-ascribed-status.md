@@ -13,7 +13,7 @@ tags:
 - ascribed-status
 - social-position
 - role
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

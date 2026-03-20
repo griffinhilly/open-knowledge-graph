@@ -16,7 +16,7 @@ tags:
 - rumors
 - moral-panic
 - emergent-norms
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

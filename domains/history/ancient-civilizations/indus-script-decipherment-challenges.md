@@ -13,7 +13,7 @@ tags:
 - script
 - writing
 - decipherment
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

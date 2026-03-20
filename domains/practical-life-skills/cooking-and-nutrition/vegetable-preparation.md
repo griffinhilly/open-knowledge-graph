@@ -21,7 +21,7 @@ tags:
 - peeling
 - cutting
 - blanching
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 # Vegetable Preparation

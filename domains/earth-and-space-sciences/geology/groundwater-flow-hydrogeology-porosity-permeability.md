@@ -6,13 +6,11 @@ course: geology
 prerequisites:
 - id: hydrogeology-groundwater
   type: soft
-- id: fluid-flow-porous-media
-  type: soft
 tags:
 - hydrogeology
 - flow
 - groundwater
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

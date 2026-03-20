@@ -16,7 +16,7 @@ tags:
 - fees
 - compounding
 - trading-costs
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

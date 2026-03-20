@@ -16,7 +16,7 @@ tags:
 - transmission
 - coverage-threshold
 - r0
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - externalism
 - semantics
 - essence
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

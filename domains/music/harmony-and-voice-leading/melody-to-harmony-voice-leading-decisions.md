@@ -14,7 +14,7 @@ tags:
 - melody-harmonization
 - chord-selection
 - voice-leading
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

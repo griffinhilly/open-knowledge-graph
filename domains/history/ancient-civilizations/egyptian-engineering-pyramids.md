@@ -13,7 +13,7 @@ tags:
 - engineering
 - pyramids
 - technology
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

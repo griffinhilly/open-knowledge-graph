@@ -15,7 +15,7 @@ tags:
 - representation
 - witness
 - catastrophe
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

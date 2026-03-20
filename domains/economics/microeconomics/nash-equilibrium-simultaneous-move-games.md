@@ -14,7 +14,7 @@ tags:
 - simultaneous-move
 - game-theory
 - equilibrium
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

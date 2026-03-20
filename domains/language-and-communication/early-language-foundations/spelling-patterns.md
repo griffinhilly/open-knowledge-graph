@@ -29,6 +29,45 @@ Teach one pattern at a time through word sorts: give children a set of words and
 - That English spelling is entirely irregular and must be memorized word by word -- approximately 84% of English words follow predictable spelling patterns.
 - That teaching spelling patterns is separate from teaching reading -- spelling and reading reinforce each other, as both depend on understanding letter-sound relationships.
 
+## Questions
+
+```yaml
+- question: "A student encounters the unfamiliar word 'brane.' Applying spelling patterns, how should the vowel be pronounced?"
+  type: multiple-choice
+  options:
+    - "Short 'a' sound, like in 'can' — because a-n is a consonant-vowel-consonant sequence"
+    - "Long 'a' sound, like in 'cane' — because the CVCe pattern signals the preceding vowel is long"
+    - "It cannot be decoded without first memorizing the word"
+    - "Short 'a' with a silent final e, giving the same sound as 'bran'"
+  answer: 1
+  explanation: "The CVCe (silent-e) pattern: when a word ends in consonant-vowel-consonant-e, the silent e signals that the vowel before the final consonant says its long sound (its letter name). 'Brane' follows: b-r-a-n-e = CVCe, so the 'a' says its name ('ay'), producing 'brayn.' This allows decoding of words never seen before — the pattern does the work that memorization would otherwise require."
+
+- question: "Why are spelling patterns described as 'unlocking word families' rather than just teaching individual words?"
+  type: multiple-choice
+  options:
+    - "Because each pattern applies to exactly one word, which forms its family"
+    - "Because knowing one pattern — like the -at family — instantly lets you read and spell bat, cat, hat, mat, rat without memorizing each one separately"
+    - "Because word families share the same first letter"
+    - "Because patterns are taught in family groups, with parents introducing them first"
+  answer: 1
+  explanation: "A pattern is a key that opens a category. Once you know the CVC pattern for the -at word family, every word fitting the pattern — bat, cat, fat, hat, mat, pat, rat, sat — becomes readable and spellable without separate memorization. The pattern generates the words. This is exponentially more powerful than memorizing individual words, which is why approximately 84% of English words follow predictable spelling patterns that reward pattern instruction."
+
+- question: "English spelling is so irregular that most words must be memorized individually, without useful patterns."
+  type: true-false
+  answer: false
+  explanation: "This is the most pervasive misconception about English spelling. Approximately 84% of English words follow predictable spelling patterns. The patterns — CVC (short vowel), CVCe (silent-e signals long vowel), vowel teams (ai, oa, ee), and others — cover the vast majority of common words. Exceptions exist (head, have), but they are the minority. Teaching spelling as pure memorization misses the underlying system and makes the task far harder than necessary."
+
+- question: "The silent 'e' in CVCe words like 'hope' has no effect on pronunciation — it is simply unpronounced."
+  type: true-false
+  answer: false
+  explanation: "The silent e has a crucial effect on pronunciation — it signals that the preceding vowel says its long sound. Compare 'hop' (short o) and 'hope' (long o). The e is silent in the sense that it isn't spoken as a separate sound, but it actively changes the vowel quality of the entire word. It functions as a diacritic — a silent marker — not as a mere leftover letter. This distinction is central to the CVCe pattern."
+
+- question: "How does knowing the CVCe pattern help a reader decode a word they have never seen before?"
+  type: short-answer
+  answer: "The CVCe pattern is a rule: when a word ends in consonant-vowel-consonant-e, the vowel before the final consonant says its long sound. So encountering 'strobe' for the first time, a reader applies the pattern: ends in b-e with a vowel (o) before it — so the o says its name: 'strobe.' The pattern works without prior exposure to the specific word, transforming decoding into a systematic process rather than guessing."
+  explanation: "This is the core power of pattern-based spelling instruction: predictive generalization. Instead of storing each word individually, a reader stores a rule and applies it to new words. The silent e is the trigger: spot it, check for the CVC structure before it, and predict the long vowel. This works equally for familiar words like 'cake' and unfamiliar words like 'vane' or 'prude.' The pattern transfers; memorization of individual words does not."
+```
+
 ## Explainer
 
 When you learned to decode words, you built the foundational insight that letters represent sounds. Spelling patterns extend that insight in both directions at once: from sound to letter (spelling) and from letter to sound (reading). A **spelling pattern** is a recurring combination of letters that consistently maps to a predictable pronunciation. Learning patterns means learning the system's rules, not just memorizing individual words — and it turns out that English, despite its reputation for irregularity, is far more rule-governed than it appears.

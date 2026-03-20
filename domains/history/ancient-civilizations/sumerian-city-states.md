@@ -13,7 +13,7 @@ tags:
 - city-states
 - urbanism
 - governance
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

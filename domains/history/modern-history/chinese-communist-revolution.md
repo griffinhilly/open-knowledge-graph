@@ -19,7 +19,7 @@ tags:
 - peasantry
 - civil-war
 - ideology
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

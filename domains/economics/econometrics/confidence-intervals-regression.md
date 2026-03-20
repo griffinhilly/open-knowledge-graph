@@ -14,7 +14,7 @@ tags:
 - inference
 - hypothesis-testing
 - intervals
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

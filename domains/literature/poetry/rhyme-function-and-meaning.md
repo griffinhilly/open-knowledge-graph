@@ -18,7 +18,7 @@ tags:
 - rhyme
 - meaning-making
 - closure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

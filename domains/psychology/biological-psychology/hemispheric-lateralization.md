@@ -17,7 +17,7 @@ tags:
 - Broca
 - Wernicke
 - corpus-callosum
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Hemispheric Lateralization

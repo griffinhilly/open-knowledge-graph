@@ -26,7 +26,7 @@ tags:
 - assessment
 - ASQ
 - early-identification
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Developmental Screening and Assessment

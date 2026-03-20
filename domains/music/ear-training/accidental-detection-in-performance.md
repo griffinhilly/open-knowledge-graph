@@ -16,7 +16,7 @@ tags:
 - error-detection
 - ear-training
 - notation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

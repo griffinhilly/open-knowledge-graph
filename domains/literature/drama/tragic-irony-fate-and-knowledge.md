@@ -18,7 +18,7 @@ tags:
 - knowledge
 - ignorance
 - tragedy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

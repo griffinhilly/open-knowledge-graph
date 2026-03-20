@@ -15,7 +15,7 @@ tags:
 - notation
 - hilbert-spaces
 - foundations
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

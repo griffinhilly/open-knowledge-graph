@@ -11,7 +11,7 @@ tags:
 - qualitative-synthesis
 - systematic-review
 - integration
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - ≡
 - indistinguishability
 - same-theory
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

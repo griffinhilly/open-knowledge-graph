@@ -16,7 +16,7 @@ tags:
 - preferences
 - formation
 - change
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - deterrence
 - mutually-assured-destruction
 - cold-war
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - yield-strength
 - strain-hardening
 - work-hardening
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

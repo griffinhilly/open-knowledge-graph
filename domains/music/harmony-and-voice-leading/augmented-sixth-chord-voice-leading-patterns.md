@@ -18,7 +18,7 @@ tags:
 - French
 - German
 - chromatic
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

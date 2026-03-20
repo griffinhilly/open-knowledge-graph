@@ -12,7 +12,7 @@ tags:
 - compact-objects
 - black-holes
 - general-relativity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - reciprocity
 - persuasion
 - concession
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - commerce
 - colonialism
 - africa
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

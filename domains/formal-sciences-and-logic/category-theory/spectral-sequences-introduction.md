@@ -17,7 +17,7 @@ tags:
 - filtered-complexes
 - pages
 - convergence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

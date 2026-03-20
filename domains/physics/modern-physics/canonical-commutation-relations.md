@@ -14,7 +14,7 @@ tags:
 - quantum
 - commutation
 - operators
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - form
 - representation
 - structure
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - emotion
 - pathos
 - 18th-century
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

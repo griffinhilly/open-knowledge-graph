@@ -18,7 +18,7 @@ tags:
 - cristae
 - matrix
 - ATP
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

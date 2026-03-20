@@ -18,7 +18,7 @@ tags:
 - inverse
 - one-to-one
 - horizontal-line-test
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Inverse Functions

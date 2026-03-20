@@ -32,6 +32,45 @@ Audit a real wayfinding system (a building, a website, or a complex application)
 - Wayfinding is not just about signs and labels — spatial layout, lighting, sightlines, and landmarks all function as navigational cues.
 - More information does not improve wayfinding; selective emphasis and progressive disclosure reduce cognitive load far more than comprehensive labeling.
 
+## Questions
+
+```yaml
+- question: "A hospital replaces its single hallway sign reading 'Cardiology →' with a comprehensive floor directory listing all 200 departments alphabetically. How does this change affect wayfinding?"
+  type: multiple-choice
+  options:
+    - "It improves wayfinding because visitors can now find any department without asking for help"
+    - "It worsens wayfinding by overwhelming users with irrelevant information at a decision point, creating cognitive overload"
+    - "It has no significant effect — users will simply scan for the department they need"
+    - "It improves wayfinding only for first-time visitors who don't know the layout"
+  answer: 1
+  explanation: "This is the cardinal error in wayfinding: substituting comprehensive information for selective emphasis. A 200-item alphabetical list forces the user to do the cognitive work of filtering, scanning, and locating — work the sign should have done for them. Good wayfinding provides only the information relevant to the current decision. At a single corridor, 'Cardiology →' answers the wayfinding question; the full directory is reference material, not guidance."
+
+- question: "A website shows only top-level navigation categories (Home, Products, About, Contact) and reveals subcategories only after a category is selected. What design principle does this illustrate?"
+  type: multiple-choice
+  options:
+    - "Redundant coding — the same information is conveyed through multiple visual channels"
+    - "Progressive disclosure — information is revealed at the resolution of the current decision"
+    - "Visual hierarchy — the most important items are made visually largest"
+    - "Spatial mapping — navigation items are arranged to mirror physical layout"
+  answer: 1
+  explanation: "Progressive disclosure presents only the information relevant to the current decision, hiding downstream details until they are needed. Showing all subcategories on load would present dozens of options when the user has only decided to explore the site — cognitive overload before a single decision has been made. Matching the depth of information to the depth of the current decision is how wayfinding prevents overwhelm at each step."
+
+- question: "An effective wayfinding system should provide comprehensive information at every decision point so users never need to ask for help."
+  type: true-false
+  answer: false
+  explanation: "Comprehensive information at every decision point produces cognitive overload, which is the primary failure mode of wayfinding design. Effective systems are selective: they provide only what is needed for the current decision and use progressive disclosure to surface additional information as users move forward. The goal is not to inform exhaustively but to orient efficiently — answering the four wayfinding questions (Where am I? Where can I go? How do I get there? Have I arrived?) without burdening the user with everything else."
+
+- question: "Redundant coding — conveying the same wayfinding information through icons, text, and color simultaneously — improves navigation by ensuring the message reaches users regardless of their ability, language, or attention level."
+  type: true-false
+  answer: true
+  explanation: "Redundant coding is a core wayfinding principle precisely because any single channel can fail: a colorblind user may miss color coding alone; a non-native speaker may miss text-only signs; an inattentive user may skip small icons. Combining multiple channels (the red octagonal stop sign works through shape + color + text simultaneously) ensures the message survives any single channel failure. This is especially important in high-stakes environments like hospitals, airports, and emergency egress routes."
+
+- question: "List the four questions an effective wayfinding system must answer at every decision point, and explain why the absence of any one of them causes problems."
+  type: short-answer
+  answer: "The four questions are: (1) Where am I? (orientation), (2) Where can I go? (options), (3) How do I get there? (direction), and (4) How do I know I've arrived? (confirmation). If any one is missing, users experience anxiety or make errors. Without orientation, users don't know their starting point. Without options, they can't plan a route. Without direction, they can't execute. Without confirmation, they can't be sure they succeeded — and may keep searching even after arriving."
+  explanation: "This framework is the practical test for any wayfinding system: stand at each decision point and ask whether all four questions are answered by what's visible. Airport wayfinding typically succeeds by systematically answering all four at each fork, terminal entrance, and gate. Hospital wayfinding frequently fails at confirmation — visitors reach a department but can't tell whether they've found the right wing or floor."
+```
+
 ## Explainer
 
 You already understand visual hierarchy — how size, contrast, color, and position direct a viewer's attention through a composition in a deliberate order. And from Gestalt principles, you know how the brain groups, separates, and organizes visual elements into meaningful patterns. **Information hierarchy and wayfinding** apply these perceptual foundations to a specific, practical problem: helping people navigate complex environments without getting lost, confused, or overwhelmed. Whether the environment is a hospital corridor, an airport terminal, a government website, or a dense reference document, the design challenge is the same: guide a person who does not know the system through a series of decisions that lead to their goal.

@@ -15,7 +15,7 @@ tags:
 - externalism
 - wide-content
 - narrow-content
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - social-mobility
 - occupational-structure
 - blau-duncan
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

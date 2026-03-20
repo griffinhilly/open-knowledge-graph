@@ -16,7 +16,7 @@ tags:
 - genetic-variation
 - allelic-variation
 - gwas
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

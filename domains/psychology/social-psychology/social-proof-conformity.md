@@ -18,7 +18,7 @@ tags:
 - social proof
 - informational influence
 - cascades
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

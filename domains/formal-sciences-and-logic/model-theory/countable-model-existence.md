@@ -18,7 +18,7 @@ tags:
 - LS-theorem
 - existence
 - cardinality
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

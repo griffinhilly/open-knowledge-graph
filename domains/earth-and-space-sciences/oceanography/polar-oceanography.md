@@ -20,7 +20,7 @@ tags:
 - polar vortex
 - Antarctic Bottom Water
 - Arctic amplification
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

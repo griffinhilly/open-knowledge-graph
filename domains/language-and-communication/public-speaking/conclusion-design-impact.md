@@ -14,7 +14,7 @@ tags:
 - retention
 - call-to-action
 - closure
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

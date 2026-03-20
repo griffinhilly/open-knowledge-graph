@@ -18,7 +18,7 @@ tags:
 - input-impedance
 - feedback-resistor
 - transimpedance
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

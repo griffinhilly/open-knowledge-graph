@@ -17,7 +17,7 @@ tags:
 - Rousseau
 - foundational
 - political-philosophy
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

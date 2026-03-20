@@ -16,7 +16,7 @@ tags:
 - freezing
 - expiration
 - waste-reduction
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 
@@ -31,6 +31,45 @@ Audit a refrigerator and categorize every item by correct storage location (door
 ## Common Misconceptions
 - Hot food must cool completely before refrigerating — this delays cooling through the danger zone; refrigerate within 2 hours, in shallow containers to speed cooling.
 - 'Best by' means the food is unsafe after that date — it indicates peak quality, not safety.
+
+## Questions
+
+```yaml
+- question: "You make a large pot of chili at 6pm and leave it on the counter to cool. At 9pm it has reached room temperature and you refrigerate it. Was this safe food handling?"
+  type: multiple-choice
+  options:
+    - "Yes — food should always cool to room temperature before refrigerating to avoid warming up neighboring items"
+    - "Yes — bacteria cannot grow in a covered pot"
+    - "No — the chili spent more than two hours in the temperature danger zone, allowing significant bacterial growth"
+    - "No — chili should always be discarded after cooking and never refrigerated"
+  answer: 2
+  explanation: "The temperature danger zone (4–60°C / 40–140°F) is where foodborne pathogens multiply rapidly — potentially doubling every 20 minutes. Food should not remain in this zone for more than two hours total. By leaving the chili on the counter for three hours, you kept it in the danger zone far past the safe limit. The correct approach is to divide leftovers into shallow containers immediately after cooking and refrigerate within two hours. The fear of warming neighboring items is real but manageable; the bacterial growth inside the food poses a far greater risk."
+
+- question: "What fundamentally distinguishes a 'use by' date from a 'best by' date on packaged food?"
+  type: multiple-choice
+  options:
+    - "Use by dates appear on perishable items; best by dates appear only on non-food products"
+    - "Use by is a safety deadline — consumption after this date poses genuine illness risk; best by is a quality claim that the product is at peak flavor or texture until that date"
+    - "Use by dates are set by government regulators; best by dates are set by the manufacturer"
+    - "They mean the same thing, with different terminology used by different manufacturers"
+  answer: 1
+  explanation: "A use-by date is a manufacturer's safety assessment: consuming deli meats, prepared salads, or fresh seafood after the use-by date poses genuine illness risk. A best-by (or best-before) date is a quality claim: canned goods, dry pasta, and most pantry staples may be past peak flavor or texture after that date, but are not necessarily unsafe. Conflating these two causes both wasteful discarding of perfectly safe food and, in the opposite direction, occasionally keeping genuinely risky products past their safety threshold."
+
+- question: "A jar of peanut butter labeled 'Best By March 2026,' stored unopened in a cool dry pantry, is unsafe to eat in April 2026."
+  type: true-false
+  answer: false
+  explanation: "A 'best by' date is a quality guarantee, not a safety deadline. Peanut butter, like most dry pantry staples, is shelf-stable well beyond its best-by date as long as it has been stored properly. The date means it will be at its best flavor and texture until March 2026 — not that it is dangerous afterward. By contrast, 'use by' dates on deli meats or fresh seafood are safety deadlines where consuming the product past that date poses real illness risk."
+
+- question: "Dividing hot leftovers into shallow containers before refrigerating is safer than placing a single large pot directly in the refrigerator."
+  type: true-false
+  answer: true
+  explanation: "Shallow containers maximize surface area, allowing the center of the food to drop through the temperature danger zone quickly. A large pot placed whole in the refrigerator can remain dangerously warm at its core for hours — the outer layers cool, but the interior stays in the danger zone where bacteria multiply. By dividing into shallow containers, you ensure rapid, even cooling throughout, minimizing total time spent in the danger zone."
+
+- question: "Why does the common practice of letting hot food cool to room temperature before refrigerating it actually increase food safety risk rather than reduce it?"
+  type: short-answer
+  answer: "Letting food cool to room temperature before refrigerating extends the time it spends in the temperature danger zone (4–60°C), where bacteria multiply most rapidly. The goal should be to move food through this zone as quickly as possible — not slowly. Refrigerating hot food in shallow containers right away (within two hours) is safer because it minimizes time in the danger zone. The concern about warming the refrigerator is valid but manageable; bacterial growth in the food poses a far greater risk than a temporary rise in refrigerator temperature."
+  explanation: "This question directly tests the key misconception in the topic. Students who believe the 'cool first' rule are thinking about the refrigerator's performance rather than the food's safety. The reasoning must shift from 'what's bad for the fridge?' to 'what's bad for the food?' — and in the food, the danger is time spent in the temperature danger zone."
+```
 
 ## Explainer
 

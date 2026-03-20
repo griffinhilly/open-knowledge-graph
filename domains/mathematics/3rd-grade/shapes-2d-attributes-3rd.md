@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 2D shapes have measurable attributes: number of sides, angles, pairs of parallel sides, symmetry. A rectangle has 4 right angles, 2 pairs of parallel sides, and 2 lines of symmetry. Comparing shapes by attributes deepens geometric reasoning.
 
+## Questions
+
+```yaml
+- question: "Is every square also a rectangle?"
+  type: multiple-choice
+  options:
+    - "No — squares and rectangles are completely different shapes with different names"
+    - "No — a rectangle requires sides of unequal length, which a square does not have"
+    - "Yes — a square has 4 right angles and 2 pairs of parallel sides, satisfying all the requirements for a rectangle"
+    - "Yes — but only if the square's sides are longer than 1 unit"
+  answer: 2
+  explanation: "A rectangle is defined by its attributes: 4 right angles and 2 pairs of parallel sides. A square has all of those attributes, plus one additional one — all 4 sides are equal. Because a square satisfies every rectangle attribute, it is a rectangle. Option A treats shape names as completely separate categories; option B invents a false requirement. Geometric categories are defined by attributes, not by names, so they can nest inside each other."
+
+- question: "A quadrilateral has 4 right angles, 2 pairs of parallel sides, but its length and width are different. What shape is it?"
+  type: multiple-choice
+  options:
+    - "A square"
+    - "A rectangle that is not a square"
+    - "A rhombus"
+    - "A parallelogram that is not a rectangle"
+  answer: 1
+  explanation: "A rectangle requires 4 right angles and 2 pairs of parallel sides — both are present. The fact that length ≠ width rules out a square, since a square requires all 4 sides to be equal. A rhombus has equal sides but not necessarily right angles. A parallelogram has parallel sides but not necessarily right angles. The described shape matches rectangle exactly."
+
+- question: "A non-square rectangle has exactly 2 lines of symmetry: one horizontal and one vertical."
+  type: true-false
+  answer: true
+  explanation: "A non-square rectangle can be folded in half horizontally (top half matches bottom) or vertically (left half matches right), giving 2 lines of symmetry. A diagonal fold does NOT work because a rectangle's length and width are different — folding corner to corner produces two unequal triangles. This distinguishes it from a square, which also has diagonal symmetry because all its sides are equal."
+
+- question: "Every rectangle is also a square because all rectangles have 4 equal angles."
+  type: true-false
+  answer: false
+  explanation: "While all rectangles do have 4 equal right angles, that alone does not make them squares. A square additionally requires all 4 sides to be equal in length. A rectangle where the length and width differ satisfies the angle requirement but not the equal-sides requirement. The relationship is one-directional: every square is a rectangle, but not every rectangle is a square."
+
+- question: "What makes geometric attribute-based classification more useful than simply recognizing shapes by their names?"
+  type: short-answer
+  answer: "Attribute-based classification lets you describe, compare, and reason about shapes you may never have seen before — any shape with 4 right angles and 2 pairs of parallel sides is a rectangle, regardless of its specific dimensions. It also reveals relationships between categories: a square is a special rectangle, not a completely separate thing. Naming by sight only works for familiar shapes and gives no insight into their properties or relationships."
+  explanation: "This is the conceptual shift the topic is trying to build. Name-based reasoning hits a wall the moment a student encounters an unfamiliar shape or needs to compare two shapes systematically. Attribute-based reasoning is composable: you can combine attributes (right angles + equal sides + parallel sides) to precisely identify any quadrilateral and understand how the categories relate. This is foundational for all of geometry."
+```
+
 ## Explainer
 
 In 2nd grade you learned to name 2D shapes by sight — triangles, squares, rectangles, hexagons. Now you're going a level deeper: instead of just naming a shape, you're describing it by its **attributes**, which are measurable or definable features that a shape either has or doesn't have. This shift from naming to analyzing is the heart of geometric reasoning.

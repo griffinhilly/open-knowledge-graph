@@ -28,6 +28,45 @@ Recognize that imperatives address the listener and the subject "you" is underst
 - Thinking imperatives are always rude (they can be polite with "please" and appropriate tone).
 - Not recognizing imperatives as complete sentences despite the missing stated subject.
 
+## Questions
+
+```yaml
+- question: "Why is 'Close the window' a grammatically complete sentence even though it has no stated subject?"
+  type: multiple-choice
+  options:
+    - "It is not complete — it is a sentence fragment that needs a subject added"
+    - "The verb 'close' acts as both the subject and predicate in imperative sentences"
+    - "The subject is understood to be 'you' — the person being addressed — even though it is not spoken"
+    - "Imperatives are a special exception to grammar rules that do not require subjects"
+  answer: 2
+  explanation: "'Close the window' is a complete sentence because it has an understood subject: 'you.' Imperative sentences address a specific person or group, so the subject is always 'you' — known to both speaker and listener without being stated. This is not an exception to grammar rules but an application of them. The subject exists and is recoverable; it's merely omitted by convention. Contrast this with a true fragment like 'Ran to the store,' where no subject can be recovered."
+
+- question: "Which sentence is an imperative?"
+  type: multiple-choice
+  options:
+    - "She closed the window."
+    - "Did you close the window?"
+    - "Close the window."
+    - "The window is closed."
+  answer: 2
+  explanation: "'Close the window' is an imperative — it issues a command, uses the base form of the verb, and has an understood subject 'you.' 'She closed the window' is declarative (states a fact, explicit subject). 'Did you close the window?' is interrogative (asks a question). 'The window is closed' is declarative (describes a state). Imperatives are identified by their command function, base-form verb, and the absence of an explicit subject — all present in option C."
+
+- question: "An imperative sentence is a sentence fragment because it does not contain a stated subject."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about imperatives. A sentence fragment lacks a recoverable subject. In imperatives, the subject is not absent — it is understood to be 'you,' the person being addressed. Because the subject is always recoverable (you can always add 'you' to the front: 'You close the window'), imperatives are grammatically complete sentences. A fragment like 'Ran to the store' is incomplete because no subject is recoverable."
+
+- question: "The subject of every imperative sentence is the understood 'you,' referring to the person or people being addressed."
+  type: true-false
+  answer: true
+  explanation: "Every imperative addresses its listener(s) as the performer of the action, so 'you' is always the implied subject — whether the command goes to one person or many. 'Go home' means 'You go home' (singular) or 'You all go home' (plural). Unlike other sentence types where the subject varies, imperatives are always second person. This fixed subject is why imperatives are complete sentences despite lacking an explicit subject: the 'you' is always determinable from context."
+
+- question: "How can you test whether a sentence is an imperative? Describe the test and explain why it works."
+  type: short-answer
+  answer: "Add 'you' to the front of the sentence. If the result makes sense as a complete sentence (e.g., 'You sit down,' 'You close the window'), the original is an imperative. The test works because imperatives are elliptical forms of full subject-predicate sentences where the 'you' subject has been dropped by convention."
+  explanation: "This test exploits the key grammatical feature of imperatives: their understood subject is always 'you.' By making the implied subject explicit, you reveal the full sentence underlying the imperative. If adding 'you' produces a grammatical sentence, the subject was legitimately recoverable — confirming the imperative is complete, not fragmentary. The test also distinguishes imperatives from fragments: 'You ran to the store' doesn't work as a command, showing 'Ran to the store' has no recoverable subject and is a genuine fragment."
+```
+
 ## Explainer
 
 You already know from studying subjects and predicates that every sentence needs both components — a subject naming what the sentence is about and a predicate saying something about it. Imperative sentences appear to violate this: "Sit down" has no explicit subject. But they don't break the rule — they follow a special convention. The **understood subject** of every imperative is "you," the person being addressed. "Sit down" is grammatically equivalent to "You sit down." The subject exists; it's simply omitted because it's always already known. This is why "Sit down" is a complete sentence while "Ran to the store" is not — the difference is that imperatives have a recoverable subject.

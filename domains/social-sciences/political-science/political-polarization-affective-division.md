@@ -16,7 +16,7 @@ tags:
 - partisanship
 - conflict
 - division
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - milestones
 - physical-development
 - locomotion
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

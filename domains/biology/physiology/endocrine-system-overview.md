@@ -17,7 +17,7 @@ tags:
 - glands
 - chemical signaling
 - slow regulation
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

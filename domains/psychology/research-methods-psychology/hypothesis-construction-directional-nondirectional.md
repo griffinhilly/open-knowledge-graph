@@ -19,7 +19,7 @@ tags:
 - planning
 - hypothesis
 - prediction
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

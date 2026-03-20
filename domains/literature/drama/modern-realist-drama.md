@@ -30,7 +30,7 @@ tags:
 - Chekhov
 - Miller
 - social-drama
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Modern Realist Drama

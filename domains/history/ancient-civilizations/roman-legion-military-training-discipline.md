@@ -12,7 +12,7 @@ tags:
 - legion
 - training
 - discipline
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

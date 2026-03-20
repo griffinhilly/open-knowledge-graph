@@ -15,7 +15,7 @@ tags:
 - Mackie
 - anti-realism
 - error-theory
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Moral Error Theory

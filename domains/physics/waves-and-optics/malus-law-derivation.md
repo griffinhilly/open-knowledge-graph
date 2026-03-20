@@ -14,7 +14,7 @@ tags:
 - malus-law
 - polarization
 - intensity-transmission
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

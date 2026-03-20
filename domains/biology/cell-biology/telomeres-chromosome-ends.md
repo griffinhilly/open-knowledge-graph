@@ -6,17 +6,15 @@ course: cell-biology
 prerequisites:
 - id: dna-replication
   type: hard
-builds-toward:
-- cell-senescence-aging
+builds-toward: []
 tags:
 - telomeres
 - replication
 - end-replication-problem
 - chromosome-ends
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Telomeres and the End-Replication Problem
 
 ## Core Idea

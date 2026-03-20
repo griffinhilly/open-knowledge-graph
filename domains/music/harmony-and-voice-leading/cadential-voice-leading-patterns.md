@@ -16,7 +16,7 @@ tags:
 - cadence
 - voice-leading
 - closure
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

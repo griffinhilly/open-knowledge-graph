@@ -21,7 +21,7 @@ tags:
 - grammar
 - Chomsky
 - critical-period
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

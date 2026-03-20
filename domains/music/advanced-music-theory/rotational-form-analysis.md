@@ -21,7 +21,7 @@ tags:
 - sonata
 - rotation
 - structure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

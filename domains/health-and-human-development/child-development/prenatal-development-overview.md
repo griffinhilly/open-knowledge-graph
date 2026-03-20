@@ -24,7 +24,7 @@ tags:
 - fetal-development
 - trimesters
 - embryology
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

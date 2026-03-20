@@ -14,7 +14,7 @@ tags:
 - prose
 - rhythm
 - syntax
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

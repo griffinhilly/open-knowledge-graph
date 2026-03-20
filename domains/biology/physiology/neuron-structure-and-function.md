@@ -18,7 +18,7 @@ tags:
 - axon
 - myelin
 - nervous system
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

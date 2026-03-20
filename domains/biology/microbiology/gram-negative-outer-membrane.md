@@ -15,7 +15,7 @@ tags:
 - gram-negative
 - outer-membrane
 - lps
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

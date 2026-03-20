@@ -11,18 +11,16 @@ prerequisites:
 - id: representation-and-mimesis
   type: soft
 builds-toward:
-- conceptual-art-and-art-definition
-- technology-and-aesthetic-mediation
+  - technology-and-aesthetic-mediation
 tags:
 - deconstruction
 - postmodernism
 - meaning
 - critique
 - Derrida
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Deconstruction and Aesthetic Meaning
 
 ## Core Idea

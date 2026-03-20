@@ -15,7 +15,7 @@ tags:
 - methodology
 - social-history
 - analysis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

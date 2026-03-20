@@ -28,6 +28,45 @@ Examine notational examples spanning medieval neumes to modern scores, observing
 ## Common Misconceptions
 - That music notation is a universal language unchanged across time. - That complex notation can fully capture how music should sound. - That notation preceded rather than enabled compositional developments.
 
+## Questions
+
+```yaml
+- question: "Guido d'Arezzo's invention of staff notation around 1025 is described as transformative not just for performance but for composition itself. Which of the following best explains why?"
+  type: multiple-choice
+  options:
+    - "It made music louder and easier to hear in large medieval cathedrals during liturgical services"
+    - "It allowed singers to memorize pieces faster by writing them down as personal reminders"
+    - "It enabled singers to learn an unfamiliar melody from written notation alone, without ever hearing it performed, enabling standardization across Europe and new compositional complexity"
+    - "It introduced rhythm and meter into Western music for the first time, replacing purely improvisational chant"
+  answer: 2
+  explanation: "Before staff notation, exact pitches could not be specified in writing — neumes showed only contour. Guido's staff fixed absolute pitches, meaning a singer in a monastery in Scotland could accurately sing a melody composed in Rome without a live teacher present. This enabled the standardization of liturgical chant across dispersed communities and, crucially, unlocked compositional possibilities (like polyphony, with multiple precisely-tuned voices) that require composers to specify exact pitch relationships. The invention changed what music could *be*, not just how it was written."
+
+- question: "Two pianists play the same Chopin nocturne from identical scores and produce noticeably different performances. What does this best illustrate about musical notation?"
+  type: multiple-choice
+  options:
+    - "One pianist misread or misinterpreted the notation"
+    - "The incompleteness of notation is a feature, not a flaw — the space between written note and performed sound is where interpretation lives, and no amount of additional symbols can fully close it"
+    - "Modern notation is insufficiently detailed to capture Chopin's actual intentions"
+    - "Chopin deliberately wrote ambiguous scores to give performers freedom to improvise"
+  answer: 1
+  explanation: "Notation cannot capture every dimension of performance: exactly how long a fermata lasts, the precise physical weight behind a forte, the exact timing of a rubato phrase. This incompleteness is structural and intentional — it is what makes interpretation possible. A fermata says 'hold here' but leaves the duration to the performer's judgment. Even composers who tried to maximize notation specificity (like Messiaen or Ligeti) could not eliminate this gap. Different performances of the same score are not failures of notation — they are the consequence of notation doing what it is designed to do: enable, not determine."
+
+- question: "Early medieval neumes indicated only the contour of a melody — whether pitch went up or down — without specifying exact pitches, so a singer could not learn an unfamiliar piece from them alone."
+  type: true-false
+  answer: true
+  explanation: "Neumes were performance aids for singers who already knew the melody, not scores from which unfamiliar music could be learned. They marked 'go higher' or 'go lower' relative to what the singer already knew, but did not fix absolute pitches. This is why musical transmission before staff notation was entirely oral — the living performance was the piece, and notation only supplemented memory. The invention of the staff changed this fundamentally, enabling transmission without any live performance at all."
+
+- question: "The development of musical notation preceded the emergence of new compositional forms like polyphony — composers imagined these complex forms first and then invented notation to write them down."
+  type: true-false
+  answer: false
+  explanation: "The causal relationship runs primarily in the other direction: notational innovations enabled compositional possibilities. You cannot compose precise multi-voice polyphony without a way to specify exact pitches and durations for each voice simultaneously. The staff made exact pitch specification possible; mensural notation made precise rhythmic specification possible. Each notational advance unlocked forms that were not achievable before. Notation didn't merely record what composers already imagined — it expanded what they could imagine and create."
+
+- question: "Explain why it is accurate to say that musical notation 'enables' rather than merely 'records' music. Use at least one specific historical example."
+  type: short-answer
+  answer: "Notation enables music by making possible forms of composition that could not exist without it. A specific example: Renaissance polyphony — music with multiple independent voices interweaving precise pitches and rhythms — requires composers to specify exact pitches and rhythmic durations for each voice simultaneously. This is only possible once you have staff notation (for exact pitch) and mensural notation (for exact rhythm). Without these tools, a composer has no way to 'lock in' what each of several voices does at each moment. Notation doesn't just record polyphony — it is the precondition for its existence."
+  explanation: "Other valid examples: Guido d'Arezzo's staff enabling standardization of chant across dispersed monasteries (oral transmission could not maintain that fidelity at scale); bar lines enabling the regular metric pulse of Baroque dance music; dynamic markings allowing Beethoven to control expressive detail in performances he wasn't present for. The broader point is that each notational technology expanded the design space of what composers could conceive, write, and communicate — notation is a creative tool, not just a recording medium."
+```
+
 ## Explainer
 
 Think of music notation as a technology for storing and transmitting sound — and like all technologies, it shapes what its users can imagine and create. The earliest Western notational systems, called **neumes**, emerged in medieval monasteries around the 9th century as reminders for singers who already knew a melody. A neume indicated contour — go higher here, lower there — but not exact pitch or duration. You could not learn a piece from neumes alone; they were performance annotations, not scores. This tells you something important: before precise notation, musical transmission was entirely oral, and the music was the living performance, not any written record.

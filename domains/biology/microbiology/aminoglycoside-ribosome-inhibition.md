@@ -14,7 +14,7 @@ tags:
 - aminoglycosides
 - ribosome
 - protein-synthesis
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

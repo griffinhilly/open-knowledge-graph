@@ -12,7 +12,7 @@ tags:
 - access
 - consciousness
 - information
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - literacy
 - sumer
 - communication
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

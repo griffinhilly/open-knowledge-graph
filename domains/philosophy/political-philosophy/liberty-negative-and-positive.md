@@ -17,7 +17,7 @@ tags:
 - Isaiah Berlin
 - negative-liberty
 - positive-liberty
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

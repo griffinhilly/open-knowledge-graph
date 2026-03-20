@@ -21,7 +21,7 @@ tags:
 - voice
 - style
 - prose-style
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

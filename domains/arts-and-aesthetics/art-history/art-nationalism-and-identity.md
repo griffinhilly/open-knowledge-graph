@@ -14,7 +14,7 @@ tags:
 - identity
 - culture
 - politics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

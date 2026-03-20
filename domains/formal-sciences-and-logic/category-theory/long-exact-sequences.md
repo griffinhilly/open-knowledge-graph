@@ -15,7 +15,7 @@ tags:
 - exactness
 - connecting-morphism
 - homological-algebra
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

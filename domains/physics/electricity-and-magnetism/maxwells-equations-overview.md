@@ -27,7 +27,7 @@ tags:
 - displacement-current
 - unification
 - electromagnetism
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Maxwell's Equations

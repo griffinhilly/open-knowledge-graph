@@ -14,7 +14,7 @@ tags:
 - emotion-regulation
 - coping
 - social-emotional-development
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

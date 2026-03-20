@@ -17,7 +17,7 @@ tags:
 - '1929'
 - New Deal
 - unemployment
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

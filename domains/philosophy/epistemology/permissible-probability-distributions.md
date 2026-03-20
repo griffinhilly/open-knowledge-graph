@@ -14,7 +14,7 @@ tags:
 - rationality-constraints
 - probability-assignments
 - prior-belief
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

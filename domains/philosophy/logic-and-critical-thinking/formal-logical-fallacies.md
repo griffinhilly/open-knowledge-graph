@@ -12,7 +12,7 @@ tags:
 - formal-fallacy
 - deduction
 - logical-form
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

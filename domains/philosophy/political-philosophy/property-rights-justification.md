@@ -16,7 +16,7 @@ tags:
 - justice
 - distribution
 - economic-rights
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

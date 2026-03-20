@@ -13,7 +13,7 @@ tags:
 - literary-devices
 - meaning
 - imagery
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

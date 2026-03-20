@@ -15,7 +15,7 @@ tags:
 - electrostatics
 - visualization
 - field representation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

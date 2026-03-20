@@ -16,7 +16,7 @@ tags:
 - Lévi-Strauss
 - Geertz
 - structuralism
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

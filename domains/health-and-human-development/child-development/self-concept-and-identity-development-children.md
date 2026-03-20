@@ -16,7 +16,7 @@ tags:
 - self-esteem
 - self-awareness
 - psychosocial-development
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

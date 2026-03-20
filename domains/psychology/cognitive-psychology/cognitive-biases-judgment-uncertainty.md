@@ -12,7 +12,7 @@ tags:
 - judgment
 - probability
 - decision
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -22,7 +22,7 @@ tags:
 - tempo
 - proportion
 - rhythm
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -18,8 +18,7 @@ prerequisites:
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: hard
-builds-toward:
-- dimensionality-assessment-and-bifactor-models
+builds-toward: []
 tags:
 - irt
 - multidimensional-measurement
@@ -28,7 +27,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Multidimensional Item Response Theory
 
 ## Core Idea

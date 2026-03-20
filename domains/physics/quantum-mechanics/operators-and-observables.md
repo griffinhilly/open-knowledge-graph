@@ -15,7 +15,7 @@ builds-toward:
 tags:
 - observables
 - operators
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

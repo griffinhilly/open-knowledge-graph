@@ -17,7 +17,7 @@ tags:
 - barrier-evolution
 - divergence
 - speciation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - persuasion
 - commitment
 - self-perception
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

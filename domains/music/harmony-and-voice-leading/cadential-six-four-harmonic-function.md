@@ -15,7 +15,7 @@ tags:
 - cadential
 - inversion
 - voice-leading
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

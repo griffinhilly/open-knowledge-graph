@@ -13,7 +13,7 @@ tags:
 - cooking-methods
 - outdoor-cooking
 - heat-management
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 

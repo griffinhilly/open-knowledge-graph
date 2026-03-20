@@ -18,7 +18,7 @@ tags:
 - growth
 - human-capital
 - endogenous
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

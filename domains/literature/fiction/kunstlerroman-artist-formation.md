@@ -17,7 +17,7 @@ tags:
 - vocation
 - formation
 - modernism
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

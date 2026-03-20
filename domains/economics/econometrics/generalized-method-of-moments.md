@@ -20,7 +20,7 @@ tags:
 - estimation
 - gmm
 - moment-conditions
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

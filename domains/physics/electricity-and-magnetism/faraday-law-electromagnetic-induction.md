@@ -24,7 +24,7 @@ tags:
 - faraday-law
 - induction
 - emf
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

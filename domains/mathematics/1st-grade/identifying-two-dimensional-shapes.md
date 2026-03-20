@@ -15,7 +15,7 @@ tags:
 - geometry
 - 2d-shapes
 - identifying
-stage: pre-formal
+stage: concrete-operations
 status: draft
 ---
 
@@ -23,6 +23,45 @@ status: draft
 
 ## Core Idea
 Students learn to identify and name common two-dimensional shapes like circles, triangles, rectangles, and squares. They recognize these shapes in the environment and understand basic properties like number of sides and corners.
+
+## Questions
+
+```yaml
+- question: "A student is shown a triangle tilted on its side and says, 'That's not a real triangle — triangles have to point up.' What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "The student is correct; triangles must have one flat side on the bottom to be identified correctly"
+    - "The student should count corners instead of sides when a shape is rotated"
+    - "A shape's identity is determined by its attributes — number of sides and corners — not its orientation or position"
+    - "Triangles can be rotated up to 45 degrees before they are reclassified as a different shape"
+  answer: 2
+  explanation: "A triangle is defined as any closed shape with exactly 3 straight sides and 3 corners — regardless of how it's positioned, how big it is, or what it looks like at a glance. Rotating a triangle does not change its attributes. Relying on visual appearance ('pointing up') rather than counting attributes leads to incorrect identifications."
+
+- question: "Which statement about squares and rectangles is TRUE?"
+  type: multiple-choice
+  options:
+    - "Squares and rectangles are completely different shapes with nothing in common"
+    - "Every rectangle is also a square, because all rectangles have four right-angle corners"
+    - "Every square is also a rectangle, because a square has four sides and four right-angle corners"
+    - "A rectangle becomes a square only when you rotate it to stand on its short side"
+  answer: 2
+  explanation: "A rectangle is defined as a four-sided shape with four right-angle corners. A square meets all those requirements, plus has the additional property that all four sides are equal. So a square is a special type of rectangle — every square qualifies, but not every rectangle does (most rectangles have two pairs of equal sides, not all four equal). Rotation never changes what a shape is."
+
+- question: "A large triangle and a tiny triangle have the same number of sides and corners, even though they look very different in size."
+  type: true-false
+  answer: true
+  explanation: "Size does not affect a shape's attributes. Any triangle, regardless of size, has exactly 3 straight sides and 3 corners. This is why shape identification focuses on counting attributes rather than measuring size or comparing appearance."
+
+- question: "A shape that looks like a rectangle at first glance must have four sides of equal length."
+  type: true-false
+  answer: false
+  explanation: "A rectangle requires four right-angle corners and opposite sides of equal length — but not all four sides equal. Only a square (a special rectangle) has all four sides equal. A typical rectangle is longer than it is wide, and that is perfectly valid. Assuming equal sides is a common overgeneralization from the familiar square."
+
+- question: "Why do mathematicians identify shapes by counting their sides and corners rather than by how they look? Give an example where relying on appearance alone would lead to a mistake."
+  type: short-answer
+  answer: "Appearance depends on orientation, size, and proportion — all of which can vary without changing what a shape is. A triangle that is very flat and wide, or tilted at an odd angle, may not look like the 'standard' triangle a student pictures, but it still has 3 sides and 3 corners and is therefore a triangle. Counting attributes gives an objective rule that works regardless of how the shape is drawn. Example: a student relying on appearance might call a tilted rectangle a 'parallelogram' because it doesn't look 'upright,' when counting four sides and four right angles correctly identifies it as a rectangle."
+  explanation: "Attribute-based classification is the foundation of mathematical reasoning about shapes. It prepares students for later work where shapes appear in non-standard orientations, at varied scales, and in complex figures — contexts where visual intuition alone fails."
+```
 
 ## Explainer
 

@@ -19,7 +19,7 @@ tags:
 - ethics
 - Boas
 - judgment
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Cultural Relativism

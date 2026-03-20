@@ -16,7 +16,7 @@ tags:
 - albigensian
 - waldensian
 - dissent
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

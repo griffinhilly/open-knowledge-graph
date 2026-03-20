@@ -17,7 +17,7 @@ tags:
 - La-Nina
 - climate-oscillation
 - teleconnections
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

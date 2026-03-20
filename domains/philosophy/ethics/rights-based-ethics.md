@@ -17,7 +17,7 @@ tags:
 - Nozick
 - Locke
 - side-constraints
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

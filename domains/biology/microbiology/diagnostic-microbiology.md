@@ -25,7 +25,7 @@ tags:
 - MALDI-TOF
 - clinical microbiology
 - rapid antigen test
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Diagnostic Microbiology

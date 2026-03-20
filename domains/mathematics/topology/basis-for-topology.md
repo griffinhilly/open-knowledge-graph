@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - basis
 - generating-topologies
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

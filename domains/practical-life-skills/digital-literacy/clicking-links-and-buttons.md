@@ -32,6 +32,45 @@ Open a website with children and find a link. Have them move the mouse over it t
 - Not knowing that buttons can look different on different websites.
 - Clicking when the mouse isn't directly over the link or button.
 
+## Questions
+
+```yaml
+- question: "You are reading a recipe online and click 'Print Recipe.' The page reformats into a printer-friendly view. Did you click a link or a button, and why?"
+  type: multiple-choice
+  options:
+    - "A link — because clicking navigated the page to a new view"
+    - "A link — because it was probably blue or underlined text"
+    - "A button — because it performed an action on the current page rather than taking you to a new website"
+    - "A button — because buttons are always found on recipe websites"
+  answer: 2
+  explanation: "Buttons perform actions on the current page — formatting for print, submitting a form, playing a video. Links navigate you to a new page or website. Even though the page changed visually, you stayed on the same recipe site; the action happened where you already were. The behavior, not the visual appearance, is what distinguishes a button from a link."
+
+- question: "Before clicking something that looks like it might be a link, which two signals tell you it is a real link and where it leads?"
+  type: multiple-choice
+  options:
+    - "The color of the text and whether it is larger than surrounding text"
+    - "Whether the cursor changes to a pointing hand AND whether a destination URL appears at the bottom-left of the browser window"
+    - "Whether the text is capitalized and whether it is inside a colored box"
+    - "The font style and whether other links appear nearby on the page"
+  answer: 1
+  explanation: "The most reliable signals are behavioral: the cursor changes from an arrow to a pointing hand when hovering over a link, and the destination URL appears in the browser's status bar (bottom-left corner) before you click. These signals work even when links are styled unconventionally — not blue, not underlined — which is common on modern websites. Color and font style alone are unreliable because they are purely design choices."
+
+- question: "When you hover your mouse over a link, the cursor changes from an arrow to a pointing hand."
+  type: true-false
+  answer: true
+  explanation: "Yes — this cursor change is the most reliable visual indicator that an element is a clickable link. It works across all major browsers and is a consistent web standard. The cursor behavior tells you an element is interactive even when it does not follow the classic blue-underlined-text convention."
+
+- question: "Clicking a button on a web page always takes you to a new web page."
+  type: true-false
+  answer: false
+  explanation: "Buttons perform actions on the current page — they do not navigate you away. Examples: 'Submit' sends a form, 'Play' starts a video, 'Add to Cart' updates a shopping list, 'Download' begins a file download. The core distinction is: links navigate; buttons act. A link takes you somewhere new; a button does something where you already are."
+
+- question: "What is the key difference between a link and a button on a web page? Describe what each one does when clicked."
+  type: short-answer
+  answer: "A link navigates you to a new location — a different page, a different website, or a different section of the same page. A button performs an action on the current page — submitting a form, playing media, adding to a cart, or downloading a file. The key test: does clicking take you somewhere new (link) or does something happen right here (button)?"
+  explanation: "This distinction is the foundation of web interaction. Understanding it helps you predict what will happen when you click something and also helps with safe browsing: a link that unexpectedly takes you somewhere unrelated is a warning sign, while a button that unexpectedly downloads something is suspicious. Both elements have predictable, consistent behavior once you understand the underlying difference."
+```
+
 ## Explainer
 
 You've learned to open a web browser and move the mouse pointer around the screen. The next step is understanding how a webpage responds when you click on things. Unlike a printed page, a website is a live document with **interactive elements** built into it — parts that are designed to respond when you click, not just display text. The two most common interactive elements are **links** and **buttons**, and recognizing them is the foundation of navigating the web.

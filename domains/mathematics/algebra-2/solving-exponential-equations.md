@@ -17,7 +17,7 @@ tags:
 - equations
 - logarithms
 - solving
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Solving Exponential Equations

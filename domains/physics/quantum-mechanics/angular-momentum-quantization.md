@@ -15,7 +15,7 @@ builds-toward:
 tags:
 - angular-momentum
 - quantization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

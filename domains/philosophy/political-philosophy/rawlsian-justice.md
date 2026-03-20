@@ -16,7 +16,7 @@ tags:
 - two-principles
 - equal-liberty
 - difference-principle
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

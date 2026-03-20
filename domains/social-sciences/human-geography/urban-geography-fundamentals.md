@@ -31,7 +31,7 @@ tags:
 - suburb
 - gentrification
 - urban models
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Urban Geography and City Structure

@@ -16,7 +16,7 @@ tags:
 - Presburger-arithmetic
 - decision-procedures
 - undecidable-theories
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - recrystallization
 - grain-growth
 - precipitate
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

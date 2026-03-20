@@ -13,7 +13,7 @@ tags:
 - interference
 - decay
 - memory
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - trench-warfare
 - military-technology
 - stalemate
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -20,7 +20,7 @@ tags:
 - melody
 - passing-tone
 - suspension
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

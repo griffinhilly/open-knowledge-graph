@@ -14,7 +14,7 @@ tags:
 - human-capital
 - education
 - growth
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -24,7 +24,7 @@ tags:
 - taxation
 - standing armies
 - centralization
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Early Modern State Formation

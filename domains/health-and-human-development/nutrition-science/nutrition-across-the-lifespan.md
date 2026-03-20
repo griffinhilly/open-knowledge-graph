@@ -16,7 +16,7 @@ tags:
 - infant nutrition
 - breastfeeding
 - aging
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

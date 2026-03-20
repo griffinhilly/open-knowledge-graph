@@ -6,17 +6,15 @@ course: human-geography
 prerequisites:
 - id: state-sovereignty-territory
   type: hard
-builds-toward:
-- colonialism-postcolonial-legacies
+builds-toward: []
 tags:
 - nation-state
 - boundaries
 - nationalism
 - imagined-communities
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Nation-State Formation and Contested Boundaries
 
 ## Core Idea

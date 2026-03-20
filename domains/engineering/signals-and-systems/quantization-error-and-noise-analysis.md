@@ -14,7 +14,7 @@ tags:
 - ADC
 - noise
 - error
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

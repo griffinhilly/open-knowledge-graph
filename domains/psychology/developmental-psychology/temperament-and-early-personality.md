@@ -19,7 +19,7 @@ tags:
 - easy-difficult-slow-to-warm
 - goodness of fit
 - Thomas Chess
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Temperament and Early Personality

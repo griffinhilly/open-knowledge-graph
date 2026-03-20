@@ -20,7 +20,7 @@ tags:
 - peak
 - trough
 - NBER
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

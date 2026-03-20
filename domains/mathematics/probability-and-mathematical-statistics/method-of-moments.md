@@ -14,7 +14,7 @@ tags:
 - method-of-moments
 - estimation
 - statistics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - timbre
 - instruments
 - sonority
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

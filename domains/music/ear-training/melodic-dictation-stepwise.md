@@ -26,7 +26,7 @@ tags:
 - transcription
 - stepwise motion
 - notation
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 # Melodic Dictation: Stepwise Melodies

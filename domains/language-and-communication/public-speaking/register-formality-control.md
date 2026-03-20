@@ -14,7 +14,7 @@ tags:
 - style
 - adaptation
 - audience
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

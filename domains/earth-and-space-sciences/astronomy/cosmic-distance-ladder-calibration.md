@@ -19,7 +19,7 @@ tags:
 - distance-ladder
 - calibration
 - cosmology
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

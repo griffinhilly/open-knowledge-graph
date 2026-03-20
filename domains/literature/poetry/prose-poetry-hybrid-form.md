@@ -17,7 +17,7 @@ tags:
 - paragraph
 - lyric
 - compression
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

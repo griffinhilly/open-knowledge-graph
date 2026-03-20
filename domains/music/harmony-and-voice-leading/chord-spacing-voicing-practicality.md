@@ -15,7 +15,7 @@ tags:
 - spacing
 - voicing
 - chord-density
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

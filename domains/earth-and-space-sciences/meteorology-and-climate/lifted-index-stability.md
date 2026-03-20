@@ -16,7 +16,7 @@ tags:
 - index
 - forecast
 - instability
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

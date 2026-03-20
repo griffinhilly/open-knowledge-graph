@@ -15,7 +15,7 @@ tags:
 - aporia
 - undecidability
 - trace
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

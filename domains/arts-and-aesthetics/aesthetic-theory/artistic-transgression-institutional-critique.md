@@ -11,17 +11,15 @@ prerequisites:
 - id: art-definition-and-ontology
   type: soft
 builds-toward:
-- art-political-intervention
-- institutional-power-in-artworld
+  - institutional-power-in-artworld
 tags:
 - transgression
 - institutional-critique
 - avant-garde
 - institutions
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Artistic Transgression and Institutional Critique
 
 ## Core Idea

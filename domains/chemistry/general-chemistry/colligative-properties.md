@@ -14,7 +14,7 @@ tags:
 - osmotic-pressure
 - Raoults-law
 - vant-Hoff-factor
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

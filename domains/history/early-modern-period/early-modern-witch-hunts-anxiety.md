@@ -12,7 +12,7 @@ tags:
 - violence
 - persecution
 - social-change
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

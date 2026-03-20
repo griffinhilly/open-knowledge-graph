@@ -14,7 +14,7 @@ tags:
 - pause
 - line-structure
 - breath
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

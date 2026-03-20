@@ -12,7 +12,7 @@ tags:
 - consumer-theory
 - demand
 - price-effect
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

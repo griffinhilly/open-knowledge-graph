@@ -17,7 +17,7 @@ tags:
 - racism
 - state-violence
 - industrial-murder
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -24,7 +24,7 @@ tags:
 - inequality
 - mobility
 - life-chances
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

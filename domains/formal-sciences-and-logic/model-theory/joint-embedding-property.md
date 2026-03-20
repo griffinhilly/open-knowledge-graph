@@ -15,7 +15,7 @@ tags:
 - universal
 - generic
 - Fraïssé-limit
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

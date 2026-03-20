@@ -25,7 +25,7 @@ status: draft
 # Cash Flow Analysis and Management
 
 ## Core Idea
-TODO
+You already know how to build a budget — a plan that maps out expected income and expenses. Cash flow analysis takes the next step: it examines the actual timing and movement of money, not just totals. Cash flow is the net result of subtracting all money going out from all money coming in over a given period.
 
 ## Explainer
 

@@ -17,7 +17,7 @@ tags:
 - polarization
 - risky shift
 - group decision-making
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

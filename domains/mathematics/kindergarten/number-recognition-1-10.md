@@ -30,6 +30,45 @@ Flash cards, number books, and classroom number walls help. Pair each numeral wi
 - Reversing numerals such as 2, 3, 5, 6, and 9 — a normal developmental stage that improves with practice.
 - Confusing 6 and 9.
 
+## Questions
+
+```yaml
+- question: "A child sees the written symbol '7' on a flashcard. What should this immediately bring to mind?"
+  type: multiple-choice
+  options:
+    - "A shape that looks like a slanted line with a hook"
+    - "The spoken word 'seven' and a mental image of seven objects"
+    - "Any symbol that comes after the symbol for six"
+    - "A symbol used only in books and on clocks"
+  answer: 1
+  explanation: "Numeral recognition is a three-way link: written symbol → spoken word → quantity. Recognizing only the shape without connecting it to a count means the numeral isn't truly understood. The goal is that seeing '7' automatically calls up both the word 'seven' and the idea of seven things."
+
+- question: "A student writes the numeral for nine but it ends up looking like a six. This most likely means:"
+  type: multiple-choice
+  options:
+    - "The student does not understand what nine means"
+    - "The student cannot count to nine"
+    - "The student is still developing control over the orientation of numerals"
+    - "The student needs to go back to counting to 5"
+  answer: 2
+  explanation: "Confusing 6 and 9 is a completely normal developmental stage — these numerals are mirror images of each other when rotated 180°. It reflects a challenge with orientation, not a lack of number sense. With practice, correct orientation becomes automatic. This does not indicate the student doesn't know what nine means."
+
+- question: "A child who can count to 10 out loud automatically knows how to recognize all the written numerals 1–10."
+  type: true-false
+  answer: false
+  explanation: "Oral counting and numeral recognition are related but separate skills. A child may say 'one, two, three...' correctly without being able to identify which written symbol is '3' or connecting it to three objects. Numeral recognition specifically bridges the spoken language of numbers to their written symbols — a distinct skill that requires its own practice."
+
+- question: "The written symbol '5' and a group of five objects are two different representations of the same number."
+  type: true-false
+  answer: true
+  explanation: "This is the core idea of numeral recognition: the symbol '5' is a written mark that stands for the quantity five — the same five you can count on your fingers or in a pile of blocks. Numerals, spoken words, and quantities are three different forms of the same underlying number. Being fluent means moving easily between all three."
+
+- question: "What is numeral recognition, and why does it matter for all future mathematics?"
+  type: short-answer
+  answer: "Numeral recognition is the ability to see a written symbol like '4' and immediately know it means the word 'four' and a group of four things. It matters because all written mathematics — addition, subtraction, clocks, prices, scores — is built from these ten symbols. Without recognizing them instantly, a student cannot read or write any mathematical expression."
+  explanation: "Oral counting and written mathematics are separate systems. Numeral recognition is the bridge. Every arithmetic equation, every number line, every word problem uses the ten symbols 0–9. Fluent recognition of these symbols, and their connection to actual quantities, is the entry point to all written number work."
+```
+
 ## Explainer
 
 You already know how to count to 10 — you can say "one, two, three, four, five, six, seven, eight, nine, ten" in order and point to one object for each word. Now you are learning that each of those number words has a **symbol** that stands for it. The symbol for "one" is 1. The symbol for "five" is 5. The symbol for "ten" is 10. These symbols are called **numerals**, and they are how numbers are written down so other people can read them.

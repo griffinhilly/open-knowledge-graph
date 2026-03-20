@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - limit-points
 - accumulation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

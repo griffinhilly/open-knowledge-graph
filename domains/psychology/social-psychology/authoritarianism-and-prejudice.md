@@ -14,7 +14,7 @@ tags:
 - prejudice
 - personality
 - conformity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

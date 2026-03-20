@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - continuity
 - fundamental
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

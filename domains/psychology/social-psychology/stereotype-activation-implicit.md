@@ -17,7 +17,7 @@ tags:
 - automatic-cognition
 - semantic-associations
 - priming
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

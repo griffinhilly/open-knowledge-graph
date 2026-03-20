@@ -12,7 +12,7 @@ tags:
 - meiosis
 - gamete
 - recombination
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

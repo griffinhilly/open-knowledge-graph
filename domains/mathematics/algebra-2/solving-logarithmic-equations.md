@@ -11,7 +11,7 @@ prerequisites:
 builds-toward:
   - natural-logarithm-and-e
 tags: [logarithms, equations, solving, extraneous-solutions]
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

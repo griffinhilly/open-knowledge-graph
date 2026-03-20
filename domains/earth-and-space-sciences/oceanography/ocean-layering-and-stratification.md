@@ -18,7 +18,7 @@ tags:
 - halocline
 - stratification
 - mixed layer
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

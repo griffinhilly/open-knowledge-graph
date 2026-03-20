@@ -22,7 +22,7 @@ tags:
 - ECG
 - chambers
 - valves
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

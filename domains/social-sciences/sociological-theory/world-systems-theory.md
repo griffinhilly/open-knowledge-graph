@@ -13,7 +13,7 @@ tags:
 - world-systems
 - imperialism
 - global-inequality
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

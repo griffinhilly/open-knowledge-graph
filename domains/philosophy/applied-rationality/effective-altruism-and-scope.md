@@ -11,7 +11,7 @@ prerequisites:
   - id: tail-risk-and-black-swans
     type: soft
 tags: ["effective-altruism", "scope", "rationality", "ethics", "impact"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

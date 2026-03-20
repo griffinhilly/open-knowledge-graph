@@ -31,6 +31,45 @@ Measure your own hand and foot against your head. Draw hands in various position
 ## Common Misconceptions
 Drawing hands and feet too small relative to the head. Over-detailing fingers and toes before understanding overall proportion.
 
+## Questions
+
+```yaml
+- question: "An art student is drawing a standing figure and is about to render the hands. Which approach is most consistent with the proportional principles in this topic?"
+  type: multiple-choice
+  options:
+    - "Start with thumbnail and fingernail details to ensure accuracy, then adjust the overall size if needed"
+    - "Check that the hand is roughly the same length as the face from chin to hairline before drawing any details"
+    - "Make the hand about half the size of the head to avoid it looking too large"
+    - "Draw each finger individually from the base up to get proportions right"
+  answer: 1
+  explanation: "The most common error in figure drawing is making hands too small. A hand — measured from wrist to fingertip — is roughly the same length as the face from chin to hairline (approximately one head-length). This proportion check should happen before any detail work. Option A reverses the correct order (large forms first, details second). Option C would produce a hand that is too small — the very error this topic corrects. Option D also reverses the order: fingers should be drawn after the palm mass is established."
+
+- question: "A student draws a foot and wants to make it look convincing from a three-quarter view. Which detail will most immediately improve the drawing's believability?"
+  type: multiple-choice
+  options:
+    - "Adding more toes to fill the visual space"
+    - "Ensuring the inner ankle bone appears higher than the outer ankle bone"
+    - "Drawing the arch symmetrically on both sides of the foot"
+    - "Making the toes roughly equal in length for anatomical accuracy"
+  answer: 1
+  explanation: "The asymmetry of the ankle bones — the inner (medial) malleolus sits higher than the outer (lateral) malleolus — is a small detail that immediately makes a foot drawing look convincing. Most beginners place both ankle bones at the same height or ignore them. Option C is incorrect: the arch is visible mainly on the inner edge; the outer edge contacts the ground along its length, so symmetric arches would be anatomically wrong. Option D is incorrect: toes graduate in length, with the big toe typically the longest."
+
+- question: "When drawing a hand, separating the individual fingers before establishing the overall palm mass is the recommended approach because it builds accuracy from small details upward."
+  type: true-false
+  answer: false
+  explanation: "This reverses the correct procedure. The principle is big shapes first, details second. The correct approach is to block the palm as a flat trapezoid, treat the fingers as a mitten shape, and establish the thumb's plane before separating individual fingers. Artists who jump to individual fingers first end up with fingers that don't connect to a coherent palm structure. Accurate proportion and placement of the whole hand come from establishing the large masses first, then carving in finger separations and knuckle details."
+
+- question: "An open hand held over an adult face covers approximately the same distance as the face from chin to hairline — roughly one head-length."
+  type: true-false
+  answer: true
+  explanation: "This is the single most useful proportion in hand drawing and the best corrective for the most common mistake. If you hold an open hand over your face, it covers from chin to hairline — roughly one head-length. This proportion check should precede any detail work. Because most beginning artists draw hands too small, this comparison serves as an immediate, concrete test: does the hand in my drawing cover the same vertical distance as the face? If not, it's probably too small."
+
+- question: "Why do artists draw hands and feet as simple geometric volumes before adding details, and what goes wrong when they skip this step?"
+  type: short-answer
+  answer: "Simple volumes establish the correct size, position, and orientation of the hand or foot in space before any details are committed. The palm is blocked as a trapezoid, fingers treated as a grouped mitten, the foot as a wedge. When artists skip this step and draw individual fingers or toes directly, they produce details that don't connect to a coherent underlying structure — fingers that don't originate from a consistent palm plane, toes that float rather than radiating from the ball of the foot."
+  explanation: "The principle is the same as in all representational drawing: large relationships before small details. If you get the large shapes wrong, adding accurate small details makes the drawing more convincingly wrong, not more right. The volume-first approach also handles foreshortening more reliably — once you've established a block in correct perspective, you can carve details into it. This is why experienced figure drawers block hands as mittens and feet as wedges, even in quick sketches."
+```
+
 ## Explainer
 
 Hands and feet intimidate most beginning artists, but the reason they are difficult is not complexity — it is that people try to draw fingers and toes before understanding the larger shapes. From your work with proportion and scale, you know that accurate drawing starts with big relationships before small details. Hands and feet follow the same principle: get the overall shape and proportions right first, and the details fall into place.

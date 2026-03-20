@@ -13,7 +13,7 @@ tags:
 - interaction
 - self
 - mind
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - intervals
 - harmony
 - melody
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

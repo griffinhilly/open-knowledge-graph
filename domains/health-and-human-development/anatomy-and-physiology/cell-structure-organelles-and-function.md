@@ -8,24 +8,22 @@ prerequisites:
   type: soft
 - id: eukaryotic-cells
   type: soft
-- id: mitochondria-structure-and-function
-  type: soft
 - id: cell-theory
   type: soft
 - id: organelles-overview
-  type: soft
-- id: mitochondrion-energy-production
   type: soft
 builds-toward:
 - epithelial-and-connective-tissue-types
 - skeletal-muscle-anatomy-and-contraction
 - kidney-anatomy-and-urine-formation
+- mitochondria-structure-and-function
+- mitochondrion-energy-production
 tags:
 - cell
 - organelles
 - nucleus
 - membrane
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

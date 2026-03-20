@@ -14,7 +14,7 @@ tags:
 - safety
 - tools
 - physical-safety
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

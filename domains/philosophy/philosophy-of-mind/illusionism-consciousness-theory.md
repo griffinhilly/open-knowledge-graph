@@ -19,7 +19,7 @@ tags:
 - metaphysics
 - representation
 - qualia
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

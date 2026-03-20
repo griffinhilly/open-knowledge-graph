@@ -9,8 +9,7 @@ prerequisites:
 - id: state-machine-replication
   type: soft
 builds-toward:
-- raft-leader-election
-- paxos-made-practical
+  - paxos-made-practical
 tags:
 - failover
 - leader-change
@@ -19,7 +18,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # View Change and Leader Failover Protocols
 
 ## Core Idea

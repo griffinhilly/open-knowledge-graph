@@ -17,7 +17,7 @@ tags:
 - generativity
 - lifespan
 - Levinson
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

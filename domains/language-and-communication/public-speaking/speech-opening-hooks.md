@@ -16,7 +16,7 @@ tags:
 - introduction
 - engagement
 - attention
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

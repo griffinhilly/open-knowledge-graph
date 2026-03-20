@@ -14,7 +14,7 @@ tags:
 - hypothesis-testing
 - inference
 - coefficients
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - solid state
 - unit cell
 - ionic crystals
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

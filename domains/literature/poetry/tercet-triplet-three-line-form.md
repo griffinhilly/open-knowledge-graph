@@ -10,7 +10,7 @@ tags:
 - form
 - stanza
 - three-line
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

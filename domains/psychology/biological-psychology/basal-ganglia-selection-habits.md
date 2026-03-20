@@ -15,7 +15,7 @@ tags:
 - motor-systems
 - motivation
 - learning
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

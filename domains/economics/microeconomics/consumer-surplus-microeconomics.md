@@ -22,7 +22,7 @@ tags:
 - producer surplus
 - welfare
 - efficiency
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Consumer and Producer Surplus

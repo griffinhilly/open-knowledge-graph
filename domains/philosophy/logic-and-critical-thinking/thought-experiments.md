@@ -17,7 +17,7 @@ tags:
 - hypothetical
 - intuition-pumps
 - philosophical-method
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Thought Experiments in Philosophy

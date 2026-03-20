@@ -16,7 +16,7 @@ tags:
 - stone-architecture
 - trade
 - shona
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Great Zimbabwe and Southern African Kingdoms

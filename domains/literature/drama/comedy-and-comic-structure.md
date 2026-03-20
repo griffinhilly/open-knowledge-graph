@@ -15,7 +15,7 @@ tags:
 - comic-structure
 - New-Comedy
 - Old-Comedy
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

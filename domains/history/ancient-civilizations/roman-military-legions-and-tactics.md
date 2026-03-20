@@ -12,7 +12,7 @@ tags:
 - legions
 - organization
 - tactics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

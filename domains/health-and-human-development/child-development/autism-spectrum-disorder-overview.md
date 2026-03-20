@@ -18,7 +18,7 @@ tags:
 - social-communication
 - restricted-interests
 - neurodevelopmental
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

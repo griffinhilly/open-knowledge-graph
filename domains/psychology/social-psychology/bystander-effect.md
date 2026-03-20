@@ -15,7 +15,7 @@ tags:
 - diffusion of responsibility
 - helping
 - Latané Darley
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

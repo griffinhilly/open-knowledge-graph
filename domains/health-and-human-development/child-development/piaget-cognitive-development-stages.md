@@ -21,7 +21,7 @@ tags:
 - preoperational
 - concrete-operations
 - formal-operations
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - exchange-rates
 - regimes
 - policy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

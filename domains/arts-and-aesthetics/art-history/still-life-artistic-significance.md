@@ -13,7 +13,7 @@ tags:
 - genre
 - symbolism
 - composition
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

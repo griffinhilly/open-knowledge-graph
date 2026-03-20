@@ -19,7 +19,7 @@ tags:
 - Huxley
 - causal-inertness
 - consciousness
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Epiphenomenalism

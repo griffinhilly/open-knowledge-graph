@@ -13,7 +13,7 @@ tags:
 - counterexamples
 - refutation
 - validity-testing
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

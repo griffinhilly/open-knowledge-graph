@@ -14,7 +14,7 @@ tags:
 - design
 - factorial
 - interaction
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

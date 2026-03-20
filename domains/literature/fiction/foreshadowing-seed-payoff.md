@@ -13,7 +13,7 @@ tags:
 - seed
 - payoff
 - structure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

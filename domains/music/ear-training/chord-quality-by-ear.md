@@ -21,7 +21,7 @@ tags:
 - minor
 - diminished
 - augmented
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

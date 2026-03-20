@@ -12,7 +12,7 @@ tags:
 - psychology
 - behavior
 - investing
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

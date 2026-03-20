@@ -16,7 +16,7 @@ tags:
 - intervals
 - counting
 - naming
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

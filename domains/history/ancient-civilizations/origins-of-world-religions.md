@@ -27,7 +27,7 @@ tags:
 - buddhism
 - zoroastrianism
 - axial-age
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Origins of Major World Religions in the Ancient Period

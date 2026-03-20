@@ -12,7 +12,7 @@ tags:
 - laminar
 - entrance
 - development
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

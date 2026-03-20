@@ -14,7 +14,7 @@ tags:
 - problem-solving
 - logic
 - strategy-development
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -3,7 +3,9 @@ id: holistic-analysis-cultural-systems
 title: Holism and Integrated Cultural Systems
 domain: social-sciences
 course: anthropology
-prerequisites: []
+prerequisites:
+- id: anthropology-overview
+  type: soft
 builds-toward:
 - functional-explanations-anthropology
 - structural-analysis-social-systems
@@ -15,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Holism and Integrated Cultural Systems
 
 ## Core Idea

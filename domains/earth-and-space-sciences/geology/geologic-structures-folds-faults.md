@@ -19,7 +19,7 @@ tags:
 - thrust
 - normal-fault
 - structural-geology
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

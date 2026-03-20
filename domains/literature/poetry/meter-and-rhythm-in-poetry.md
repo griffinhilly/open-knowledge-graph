@@ -27,7 +27,7 @@ tags:
 - rhythm
 - prosody
 - stress
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

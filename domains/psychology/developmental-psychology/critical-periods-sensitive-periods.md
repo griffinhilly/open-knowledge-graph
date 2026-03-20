@@ -21,7 +21,7 @@ tags:
 - imprinting
 - plasticity
 - deprivation
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Critical Periods and Sensitive Periods

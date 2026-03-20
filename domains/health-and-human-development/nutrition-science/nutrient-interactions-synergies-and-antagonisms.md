@@ -15,7 +15,7 @@ tags:
 - synergies
 - antagonisms
 - bioavailability
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

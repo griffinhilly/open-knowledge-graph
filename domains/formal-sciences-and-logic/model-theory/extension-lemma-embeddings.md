@@ -18,7 +18,7 @@ tags:
 - embedding
 - homomorphism-extension
 - partial-map
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

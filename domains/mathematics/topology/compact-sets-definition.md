@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - compact
 - compactness
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

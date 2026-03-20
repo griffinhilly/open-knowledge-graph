@@ -17,7 +17,7 @@ tags:
 - anticyclones
 - cyclones
 - energy-dissipation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

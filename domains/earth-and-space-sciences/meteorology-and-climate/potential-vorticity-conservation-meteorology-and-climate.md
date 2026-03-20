@@ -16,7 +16,7 @@ tags:
 - conservation
 - dynamics
 - potential
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

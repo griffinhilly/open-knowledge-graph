@@ -23,7 +23,7 @@ tags:
 - fluid-mosaic-model
 - phospholipids
 - membrane-proteins
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

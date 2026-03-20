@@ -14,7 +14,7 @@ tags:
 - figurative-language
 - comparison
 - imagery
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

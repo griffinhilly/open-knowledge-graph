@@ -12,7 +12,7 @@ tags:
 - rationality
 - consistency
 - demand-theory
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

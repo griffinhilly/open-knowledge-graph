@@ -19,7 +19,7 @@ tags:
 - regulating
 - supporting
 - natural-capital
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

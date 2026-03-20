@@ -33,7 +33,7 @@ tags:
 - nodal-analysis
 - mesh-analysis
 - superposition-AC
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

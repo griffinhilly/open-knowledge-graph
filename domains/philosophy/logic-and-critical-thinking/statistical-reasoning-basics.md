@@ -13,7 +13,7 @@ tags:
 - statistics
 - probability
 - data-reasoning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

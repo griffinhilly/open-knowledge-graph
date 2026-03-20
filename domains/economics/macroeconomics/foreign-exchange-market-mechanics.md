@@ -14,7 +14,7 @@ tags:
 - exchange-rates
 - supply-demand
 - currency
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

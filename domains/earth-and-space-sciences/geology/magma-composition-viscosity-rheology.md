@@ -21,7 +21,7 @@ tags:
 - magmatism
 - viscosity
 - composition
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

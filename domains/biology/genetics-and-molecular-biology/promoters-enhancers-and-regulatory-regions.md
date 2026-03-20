@@ -19,7 +19,7 @@ tags:
 - enhancers
 - silencers
 - insulators
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - gene-expression
 - central-dogma
 - protein
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

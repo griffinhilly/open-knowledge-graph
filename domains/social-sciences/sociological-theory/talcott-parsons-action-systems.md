@@ -13,7 +13,7 @@ tags:
 - systems-theory
 - action
 - integration
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

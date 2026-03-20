@@ -21,7 +21,7 @@ tags:
 - trade-winds
 - jet-stream
 - ITCZ
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - Asch
 - normative influence
 - informational influence
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

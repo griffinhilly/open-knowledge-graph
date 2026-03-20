@@ -15,7 +15,7 @@ tags:
 - clarity
 - specialized
 - explanation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

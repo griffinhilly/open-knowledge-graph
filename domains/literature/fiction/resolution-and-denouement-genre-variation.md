@@ -14,7 +14,7 @@ tags:
 - resolution
 - denouement
 - ending
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

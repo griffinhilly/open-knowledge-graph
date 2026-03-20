@@ -17,7 +17,7 @@ tags:
 - bioavailability
 - metabolism
 - deficiency
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

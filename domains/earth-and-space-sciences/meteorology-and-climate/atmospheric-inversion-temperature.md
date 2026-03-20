@@ -17,7 +17,7 @@ tags:
 - stagnation
 - pollution
 - temperature
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

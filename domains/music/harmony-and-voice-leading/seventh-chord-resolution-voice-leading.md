@@ -16,7 +16,7 @@ tags:
 - seventh-chords
 - resolution
 - dissonance
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

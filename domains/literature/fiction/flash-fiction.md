@@ -13,7 +13,7 @@ tags:
 - microfiction
 - compression
 - economy
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

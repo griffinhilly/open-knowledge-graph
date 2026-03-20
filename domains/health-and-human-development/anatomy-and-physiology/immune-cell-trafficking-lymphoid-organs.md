@@ -22,7 +22,7 @@ tags:
 - immune-trafficking
 - lymphocyte-homing
 - lymphoid-organs
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

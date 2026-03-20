@@ -14,7 +14,7 @@ tags:
 - sensory
 - description
 - concrete
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

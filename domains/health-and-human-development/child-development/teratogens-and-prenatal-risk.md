@@ -20,7 +20,7 @@ tags:
 - prenatal-risk
 - fetal-alcohol-syndrome
 - environmental-health
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

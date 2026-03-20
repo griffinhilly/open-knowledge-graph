@@ -11,18 +11,16 @@ prerequisites:
 - id: postcolonial-aesthetics
   type: soft
 builds-toward:
-- aesthetic-normativity-in-criticism
-- aesthetic-experience-and-cultivation
+  - aesthetic-experience-and-cultivation
 tags:
 - universalism
 - relativism
 - beauty
 - culture
 - judgment
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Aesthetic Universalism and Relativism
 
 ## Core Idea

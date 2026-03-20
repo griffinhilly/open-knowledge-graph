@@ -21,7 +21,7 @@ tags:
 - NAIRU
 - stagflation
 - expectations
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # The Phillips Curve

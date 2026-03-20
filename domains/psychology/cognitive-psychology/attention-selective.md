@@ -16,7 +16,7 @@ tags:
 - attention
 - perception
 - filter-theory
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

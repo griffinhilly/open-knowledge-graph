@@ -14,7 +14,7 @@ tags:
 - justificatory-liberalism
 - reasonable-pluralism
 - legitimacy
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

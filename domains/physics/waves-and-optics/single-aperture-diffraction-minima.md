@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - diffraction
 - waves
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

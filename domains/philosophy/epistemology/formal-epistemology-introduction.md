@@ -19,7 +19,7 @@ tags:
 - formal-methods
 - logic
 - methodology
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

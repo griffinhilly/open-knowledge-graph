@@ -16,7 +16,7 @@ tags:
 - transition
 - collapse
 - recovery
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

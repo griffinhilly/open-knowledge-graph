@@ -17,7 +17,7 @@ tags:
 - Bellman-Ford
 - negative-weights
 - negative-cycles
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

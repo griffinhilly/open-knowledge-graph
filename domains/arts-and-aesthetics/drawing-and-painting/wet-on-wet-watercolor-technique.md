@@ -28,6 +28,45 @@ Practice with skies first—a forgiving subject. Experiment with timing: wet pap
 ## Common Misconceptions
 Expecting photorealistic results from a chance-based technique. Wet-on-wet excels at suggestion and atmosphere, not precise detail.
 
+## Questions
+
+```yaml
+- question: "A student wets the paper and immediately applies pigment. The paint spreads wildly and becomes very pale and uncontrolled. What went wrong?"
+  type: multiple-choice
+  options:
+    - "The pigment was mixed too strongly before being applied"
+    - "The paper was too wet — standing water caused uncontrolled dispersion and diluted the pigment"
+    - "The paper had dried too much before pigment was added"
+    - "The student used too large a brush for the technique"
+  answer: 1
+  explanation: "Wet-on-wet technique requires reading the paper's moisture level carefully. When paper still has standing water (a mirror-like gloss), pigment disperses wildly and gets diluted to paleness because there's too much water carrying it outward. The sweet spot is a 'satin sheen' — uniform moisture without puddles. Applying immediately after wetting is the classic timing error: the paper needs a moment for the water to absorb evenly into the fibers before pigment is introduced."
+
+- question: "A student wants to paint a sky that fades from dark blue at the top to lighter near the horizon using wet-on-wet. Which approach is correct?"
+  type: multiple-choice
+  options:
+    - "Apply concentrated blue to dry paper at the top, then add water to dilute it as you move down"
+    - "Wet the entire paper, wait for a satin sheen, then sweep strong blue across the top and let it fade into the moisture below"
+    - "Apply multiple thin washes of blue, letting each dry fully before adding the next"
+    - "Wet only the top half of the paper and apply pigment to the dry bottom for a natural gradient"
+  answer: 1
+  explanation: "Option B correctly describes wet-on-wet technique: pre-wet the entire surface, wait for the satin sheen (the key timing cue), then introduce pigment. The moisture already in the paper carries the pigment softly downward, creating a natural soft-edged gradation — exactly the atmospheric effect wet-on-wet excels at. Option A is wet-on-dry technique and would produce hard edges. Option C is a glazing technique, unrelated to wet-on-wet. Option D would create a sharp waterline at the wet/dry boundary."
+
+- question: "When painting wet-on-wet, you should mix your pigment lighter than usual because the wet paper will intensify the colors."
+  type: true-false
+  answer: false
+  explanation: "The opposite is true. The water already on the paper significantly dilutes whatever pigment you apply, making colors appear much softer and lighter than they look on your palette. To compensate, you should always mix your pigment stronger and more concentrated than you think you need. What looks too bold on the palette will settle to a much gentler tone once it spreads across the wet surface. This is one of the most important calibration lessons in wet-on-wet work."
+
+- question: "The timing of when you apply pigment to wet paper significantly affects the final result in wet-on-wet watercolor."
+  type: true-false
+  answer: true
+  explanation: "Timing is the central skill in wet-on-wet technique. Too early (standing water) = wild, pale, uncontrolled dispersion. Too late (paper approaching dry) = hard edges that defeat the purpose of the technique. The narrow sweet spot — a satin sheen with no puddles — produces soft, controlled gradations. Unlike wet-on-dry, where the artist has complete control at any moment, wet-on-wet is a timed window that opens and closes as the paper dries."
+
+- question: "How do you know when paper is at the right level of wetness for wet-on-wet, and what happens at each extreme — too wet versus too dry?"
+  type: short-answer
+  answer: "You check by tilting the paper toward a light source and reading the surface sheen: a mirror-like gloss means too wet, a matte finish means too dry, and a satin sheen (uniform but not reflective) means the paper is ready. Too wet: pigment disperses wildly, spreads uncontrollably, and is heavily diluted — colors come out pale and unpredictable. Too dry: pigment creates hard edges on contact with the drying surface, just like wet-on-dry technique — the soft, flowing quality is lost."
+  explanation: "The ability to read paper moisture is the craft skill that separates consistent wet-on-wet results from guesswork. This sheen-reading technique can't be learned from description alone — it requires practice observing paper at different moisture levels and correlating what you see with what the pigment does. Learning the visual cue (satin sheen) before picking up the brush is the habit that makes the technique reliable."
+```
+
 ## Explainer
 
 From your work with basic watercolor techniques, you know that watercolor's defining characteristic is transparency — pigment suspended in water, applied in thin layers over white paper. **Wet-on-wet** takes this further by eliminating the hard edges that form when paint meets dry paper. Instead of applying pigment to a dry surface (wet-on-dry), you first wet the paper with clean water, then introduce pigment into that moisture. The water already on the paper carries the pigment outward in soft, unpredictable blooms, creating effects that would be impossible to achieve with deliberate brushwork alone.

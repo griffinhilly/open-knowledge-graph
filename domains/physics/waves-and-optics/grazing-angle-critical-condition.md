@@ -10,7 +10,7 @@ tags:
 - refraction
 - tir
 - optics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -21,7 +21,7 @@ tags:
 - duality
 - complementarity
 - double-slit
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Wave-Particle Duality

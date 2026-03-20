@@ -11,11 +11,18 @@ tags:
 - graphic
 - experimental
 - performance
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 
 # Graphic Notation and Experimental Score Systems
 
 ## Core Idea
-Graphic notation abandons traditional staff notation, using visual symbols, shapes, and spatial relationships to convey musical ideas. Interpretation requires understanding composer intent while allowing performer agency. Analyzing graphic works demands different analytical tools than traditional analysis.
+Graphic notation replaces traditional staff notation with visual symbols, shapes, colors, and spatial relationships to convey musical ideas. Composers like Feldman, Cardew, and Cage developed systems where the score becomes a visual artwork that performers interpret. The degree of determinacy varies widely: some graphic scores specify pitch and rhythm loosely through spatial position, while others function as open prompts for improvisation. Analyzing graphic works demands attention to the composer's stated intentions, the visual grammar of the score, and the range of valid interpretive choices available to performers.
+
+## How It's Best Learned
+Study specific landmark works—Feldman's graph pieces, Cardew's *Treatise*, and Cage's notations—alongside recordings of different performers interpreting the same score. Comparing performances reveals how graphic notation creates a space of possibilities rather than a single fixed reading.
+
+## Common Misconceptions
+Graphic notation is not "anything goes." Most graphic scores have detailed performance instructions. The visual freedom does not mean absence of structure—it means a different kind of structure that balances composer intent with performer agency.
+

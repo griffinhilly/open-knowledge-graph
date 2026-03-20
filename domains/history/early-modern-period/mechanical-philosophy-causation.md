@@ -17,7 +17,7 @@ tags:
 - causation
 - worldview
 - epistemology
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

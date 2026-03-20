@@ -18,7 +18,7 @@ tags:
 - interstitials
 - substitutional
 - impurities
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - interdependence
 - international institutions
 - Kant
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

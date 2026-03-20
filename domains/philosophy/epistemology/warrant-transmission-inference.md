@@ -11,7 +11,7 @@ tags:
 - warrant
 - inference
 - entailment
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

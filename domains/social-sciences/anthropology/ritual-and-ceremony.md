@@ -19,7 +19,7 @@ tags:
 - liminality
 - Turner
 - van Gennep
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

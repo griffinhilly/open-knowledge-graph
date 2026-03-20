@@ -14,7 +14,7 @@ tags:
 - wages
 - labor-market
 - unemployment
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

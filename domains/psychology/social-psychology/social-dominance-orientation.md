@@ -15,7 +15,7 @@ tags:
 - hierarchy
 - inequality
 - prejudice
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

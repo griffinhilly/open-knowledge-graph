@@ -12,7 +12,7 @@ tags:
 - graph-theory
 - operations
 - products
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

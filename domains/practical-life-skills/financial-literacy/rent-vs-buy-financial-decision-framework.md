@@ -16,7 +16,7 @@ tags:
 - buy
 - decision-making
 - long-term-planning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

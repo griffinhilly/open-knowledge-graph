@@ -25,7 +25,7 @@ tags:
 - persia
 - cultural-exchange
 - globalization
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # The Silk Road and Ancient Trade Networks

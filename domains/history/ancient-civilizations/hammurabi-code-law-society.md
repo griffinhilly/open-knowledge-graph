@@ -15,7 +15,7 @@ tags:
 - mesopotamia
 - code
 - governance
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

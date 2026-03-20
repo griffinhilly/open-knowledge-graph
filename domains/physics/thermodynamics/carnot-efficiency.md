@@ -17,7 +17,7 @@ tags:
 - maximum-efficiency
 - temperature-ratio
 - reversible-engine
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Carnot Efficiency and Maximum Efficiency Theorem

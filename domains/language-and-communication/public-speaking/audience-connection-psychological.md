@@ -14,7 +14,7 @@ tags:
 - rapport
 - engagement
 - emotional-appeal
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

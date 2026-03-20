@@ -16,7 +16,7 @@ tags:
 - rights
 - human-rights
 - foundations
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

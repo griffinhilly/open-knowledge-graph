@@ -15,7 +15,7 @@ tags:
 - potential-output
 - output-gap
 - measurement
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

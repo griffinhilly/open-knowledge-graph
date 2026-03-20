@@ -20,7 +20,7 @@ tags:
 - e
 - euler
 - continuous-compounding
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Natural Logarithm and e

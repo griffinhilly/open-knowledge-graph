@@ -20,7 +20,7 @@ tags:
 - inverse square law
 - sound level
 - power
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Sound Intensity and the Decibel Scale

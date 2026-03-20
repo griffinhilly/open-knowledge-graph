@@ -12,7 +12,7 @@ tags:
 - water-safety
 - infectious-disease
 - environmental-health
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - contingency
 - emergence
 - history
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

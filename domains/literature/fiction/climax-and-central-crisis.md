@@ -15,7 +15,7 @@ tags:
 - climax
 - crisis
 - peak-tension
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

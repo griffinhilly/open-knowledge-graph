@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: rotational-kinematics
   type: hard
-builds-toward:
-- rolling-without-slipping
+builds-toward: []
 tags:
 - kinetic-energy
 - rotation
@@ -19,7 +18,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Rotational Kinetic Energy
 
 ## Core Idea

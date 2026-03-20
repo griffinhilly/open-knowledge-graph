@@ -11,18 +11,16 @@ prerequisites:
 - id: modern-realist-drama
   type: soft
 builds-toward:
-- dramatic-form-and-structure-types
-- dramatic-conventions-audience-contract
+  - dramatic-conventions-audience-contract
 tags:
 - history
 - period
 - theatre-history
 - tradition
 - cultural-context
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Theatrical Period Movements and History
 
 ## Core Idea

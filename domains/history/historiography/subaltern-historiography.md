@@ -9,9 +9,8 @@ prerequisites:
 - id: postcolonial-historiography
   type: hard
 builds-toward:
-- postcolonial-historiography
-- indigenous-historiography
-- postcolonial-research-methods
+  - postcolonial-historiography
+  - indigenous-historiography
 tags:
 - subaltern
 - postcolonial
@@ -20,7 +19,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Subaltern Studies and Postcolonial Historiography
 
 ## Core Idea

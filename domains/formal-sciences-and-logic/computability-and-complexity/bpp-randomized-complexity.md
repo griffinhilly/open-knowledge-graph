@@ -16,7 +16,7 @@ tags:
 - randomness
 - derandomization
 - BPP
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - longitudinal
 - change
 - development
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

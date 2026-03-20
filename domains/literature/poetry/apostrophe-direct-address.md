@@ -17,7 +17,7 @@ tags:
 - rhetorical-device
 - speaker
 - audience
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - shortest-path
 - all-pairs
 - dynamic-programming
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

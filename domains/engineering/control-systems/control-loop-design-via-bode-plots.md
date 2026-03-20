@@ -16,7 +16,7 @@ tags:
 - design-methodology
 - iterative-design
 - frequency-domain-design
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

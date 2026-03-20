@@ -15,7 +15,7 @@ tags:
 - speculative-fiction
 - technology
 - extrapolation
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

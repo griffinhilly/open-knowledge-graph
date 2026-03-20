@@ -13,7 +13,7 @@ tags:
 - termination
 - stop-codons
 - release-factors
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

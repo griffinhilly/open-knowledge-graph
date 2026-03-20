@@ -16,7 +16,7 @@ tags:
 - narratee
 - perspective
 - experimental
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

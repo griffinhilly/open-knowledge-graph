@@ -10,7 +10,7 @@ tags:
 - paradox
 - self-reference
 - logic-limits
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

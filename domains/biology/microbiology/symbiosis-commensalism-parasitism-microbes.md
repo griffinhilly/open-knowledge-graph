@@ -14,7 +14,7 @@ tags:
 - symbiosis
 - interactions
 - ecology
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - consent
 - power
 - culture
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

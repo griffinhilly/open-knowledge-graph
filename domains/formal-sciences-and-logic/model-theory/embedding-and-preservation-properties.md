@@ -16,7 +16,7 @@ tags:
 - preservation
 - homomorphism
 - formula-classes
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

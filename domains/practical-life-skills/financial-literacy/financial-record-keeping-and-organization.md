@@ -23,7 +23,7 @@ status: draft
 # Financial Record-Keeping and Organization
 
 ## Core Idea
-TODO
+Financial records are the raw material of sound financial decision-making. When you know where your money went last year, you can budget better this year. When you have documentation of every tax deduction, you pay only what you owe.
 
 ## Explainer
 

@@ -15,7 +15,7 @@ tags:
 - homogeneous
 - Fraïssé
 - saturated
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

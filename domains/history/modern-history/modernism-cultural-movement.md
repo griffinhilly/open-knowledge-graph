@@ -13,7 +13,7 @@ tags:
 - art
 - literature
 - cultural-innovation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

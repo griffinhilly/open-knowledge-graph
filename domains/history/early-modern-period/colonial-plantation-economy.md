@@ -22,7 +22,7 @@ tags:
 - slavery
 - capitalism
 - racial hierarchy
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # The Colonial Plantation Economy

@@ -15,7 +15,7 @@ tags:
 - calcium-absorption
 - bone-health
 - immune-function
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

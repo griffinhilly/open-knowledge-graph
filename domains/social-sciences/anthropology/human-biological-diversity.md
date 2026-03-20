@@ -16,7 +16,7 @@ tags:
 - adaptation
 - diversity
 - human-variation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

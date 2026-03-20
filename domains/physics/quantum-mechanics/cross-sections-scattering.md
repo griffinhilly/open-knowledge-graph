@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - cross-sections
 - scattering
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

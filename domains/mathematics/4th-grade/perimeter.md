@@ -27,6 +27,45 @@ Have students measure the perimeter of real objects: desktops, books, the classr
 - Multiplying length by width for perimeter instead of adding all sides.
 - Forgetting to include all sides of irregular shapes.
 
+## Questions
+
+```yaml
+- question: "A farmer wants to put a fence around a rectangular garden that is 12 meters long and 8 meters wide. How much fencing does she need?"
+  type: multiple-choice
+  options:
+    - "96 meters — multiply length × width to find the total space to fence"
+    - "20 meters — add the length and width once"
+    - "40 meters — add all four sides: 12 + 8 + 12 + 8"
+    - "48 meters — use the formula P = l × w ÷ 2"
+  answer: 2
+  explanation: "Perimeter is the total distance around the shape — all four sides added together. A rectangle has two sides of each length, so 12 + 8 + 12 + 8 = 40 meters. Option A (96 m) is the area mistake — 12 × 8 = 96 tells you how much soil to buy, not how much fencing. Fencing follows the boundary, not the interior."
+
+- question: "A rectangle has a perimeter of 28 cm and a length of 9 cm. What is its width?"
+  type: multiple-choice
+  options:
+    - "19 cm"
+    - "5 cm"
+    - "10 cm"
+    - "14 cm"
+  answer: 1
+  explanation: "Use P = 2l + 2w: 28 = 2(9) + 2w → 28 = 18 + 2w → 10 = 2w → w = 5 cm. A common error is subtracting 9 from 28 and getting 19, which forgets that perimeter counts both lengths and both widths — not just one of each."
+
+- question: "The perimeter of a rectangle is measured in square units, just like area."
+  type: true-false
+  answer: false
+  explanation: "Perimeter is a linear (one-dimensional) measurement — it counts the total length around the boundary, so it uses units like cm, m, or inches. Square units (cm², m²) are used for area, which measures the interior space. This is one of the most important distinctions between the two concepts."
+
+- question: "To find the perimeter of any polygon, you always add up the lengths of all its sides."
+  type: true-false
+  answer: true
+  explanation: "This general method works for every polygon — triangles, rectangles, irregular hexagons, and any other shape with straight sides. The rectangle shortcut P = 2l + 2w is just a faster version of adding all four sides when you know opposite sides are equal. The underlying rule is always: sum all side lengths."
+
+- question: "What is the difference between perimeter and area? Give a real-world example of a situation where you would need to calculate each."
+  type: short-answer
+  answer: "Perimeter is the total length around the outside boundary of a shape, measured in linear units (cm, m). Area is the amount of space inside a shape, measured in square units (cm², m²). Example: you'd calculate perimeter to find how much fencing to enclose a yard; you'd calculate area to find how much carpet to cover that yard's floor."
+  explanation: "Same yard, completely different questions. Perimeter answers 'how long is the path around it?' — relevant for fencing, framing, or ribbon. Area answers 'how much space is inside?' — relevant for flooring, painting, or seeding. Confusing the two leads to real-world errors, like buying 96 meters of fencing for a yard that only needs 40."
+```
+
 ## Explainer
 
 You already know multi-digit addition — adding numbers with regrouping across multiple columns. **Perimeter** is a measurement application of that skill: the total length you'd travel if you walked all the way around the outside of a shape. Perimeter is always a **linear measurement** (one-dimensional), meaning it's measured in the same units as individual side lengths — inches, centimeters, meters, and so on.

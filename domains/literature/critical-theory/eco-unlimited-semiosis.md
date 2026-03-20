@@ -17,7 +17,7 @@ tags:
 - interpretation
 - semiosis
 - meaning
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

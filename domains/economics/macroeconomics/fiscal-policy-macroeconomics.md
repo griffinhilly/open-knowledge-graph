@@ -21,7 +21,7 @@ tags:
 - taxation
 - automatic-stabilizers
 - discretionary
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Fiscal Policy

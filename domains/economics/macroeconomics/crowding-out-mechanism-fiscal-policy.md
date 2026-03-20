@@ -15,7 +15,7 @@ tags:
 - fiscal-policy
 - interest-rates
 - investment
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

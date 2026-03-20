@@ -11,7 +11,7 @@ prerequisites:
 builds-toward:
   - effective-altruism-and-scope
 tags: ["risk", "probability", "black-swans", "nassim-taleb", "fat-tails"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

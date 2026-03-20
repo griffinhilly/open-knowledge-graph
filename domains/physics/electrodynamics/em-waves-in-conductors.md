@@ -14,7 +14,7 @@ tags:
 - conductors
 - skin-depth
 - attenuation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

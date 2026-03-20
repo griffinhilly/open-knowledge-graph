@@ -15,7 +15,7 @@ tags:
 - planet-formation
 - core-accretion
 - migration
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

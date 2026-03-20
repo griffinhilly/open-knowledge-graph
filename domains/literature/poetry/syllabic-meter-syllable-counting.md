@@ -10,7 +10,7 @@ tags:
 - meter
 - form
 - haiku
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - trade
 - cultural-exchange
 - depopulation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Effects of Mongol Conquest on Eurasia

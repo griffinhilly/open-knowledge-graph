@@ -14,7 +14,7 @@ tags:
 - fluoroquinolones
 - topoisomerase
 - dna-gyrase
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

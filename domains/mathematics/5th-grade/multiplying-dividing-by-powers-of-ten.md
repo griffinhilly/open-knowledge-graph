@@ -30,6 +30,45 @@ Use a place-value chart with a fixed decimal point and slide the digits left or 
 - "Appending zeros" without understanding (works for whole numbers but not for decimals: 4.5 x 10 is 45, not 4.50).
 - Confusing the number of places to shift with the number itself (multiplying by 100 shifts 2 places, not 100 places).
 
+## Questions
+
+```yaml
+- question: "What is 4.7 × 100?"
+  type: multiple-choice
+  options:
+    - "4.700"
+    - "47"
+    - "470"
+    - "0.047"
+  answer: 2
+  explanation: "Multiplying by 100 = 10² shifts every digit two places to the left. The 4 moves from the ones place to the hundreds place, and the 7 moves from the tenths place to the tens place: the result is 470. Option B (47) is only one shift — that would be 4.7 × 10. Option A (4.700) adds zeros after the decimal but keeps the value identical to 4.7, which is the 'appending zeros' error. Option D is what dividing by 100 gives, not multiplying."
+
+- question: "A student calculates 36.5 ÷ 10 and writes 36.50. What error did the student make?"
+  type: multiple-choice
+  options:
+    - "No error — 36.50 is correct because you append a zero when dividing by 10"
+    - "The student shifted the digits the wrong direction: dividing by 10 shifts digits right, giving 3.65"
+    - "The student should have shifted digits left, giving 365"
+    - "You cannot divide a decimal by 10"
+  answer: 1
+  explanation: "Dividing by 10 shifts every digit one place to the RIGHT (toward smaller place values): 36.5 ÷ 10 = 3.65. The 3 moves from tens to ones, the 6 from ones to tenths, the 5 from tenths to hundredths. The student confused dividing (shifts right, makes smaller) with multiplying (shifts left, makes larger). Writing 36.50 doesn't change the value at all — it still equals 36.5."
+
+- question: "When you multiply a number by 10, each digit moves one place to the left in the place-value chart."
+  type: true-false
+  answer: true
+  explanation: "Multiplying by 10 makes every digit worth 10 times as much, which means each digit moves into the next-higher position: ones become tens, tens become hundreds, tenths become ones. This leftward shift is why the product is larger. The decimal point itself is a fixed marker — it's the digits that move relative to it."
+
+- question: "Multiplying any number by a power of ten always produces a larger result."
+  type: true-false
+  answer: false
+  explanation: "This only holds when multiplying by powers of ten greater than 1 (10, 100, 1000...). Multiplying by 10⁰ = 1 leaves the number unchanged. And dividing by a power of ten (which is multiplying by a negative power, like 10⁻¹) makes the number smaller. The correct rule: multiplying by 10ⁿ where n > 0 shifts digits left (larger); dividing by 10ⁿ shifts digits right (smaller)."
+
+- question: "Explain why 4.5 × 10 = 45, not 4.50. What is wrong with the idea of 'just adding a zero'?"
+  type: short-answer
+  answer: "Adding a zero after the decimal (4.50) doesn't change the value — 4.5 and 4.50 are the same number. The correct operation is to shift each digit one place left: the 4 moves from the ones place to the tens place, and the 5 moves from the tenths place to the ones place. The result is 45. The 'add a zero' shortcut only works for whole numbers (like 5 × 10 = 50) because appending a zero there does shift every digit left. For decimals, you must actually move the digits — not append."
+  explanation: "The 'add a zero' rule is a memorized shortcut that breaks down with decimals. Understanding that digits shift position (and why) prevents this error. 4.5 has a 4 in the ones place and a 5 in the tenths place. Multiplying by 10 promotes each digit one place: 4 → tens, 5 → ones. Result: 45. Writing 4.50 leaves the digit positions unchanged and gives the same value as 4.5."
+```
+
 ## Explainer
 
 You've already learned that our number system is built on **place value**: each position in a number is worth exactly 10 times the position to its right. The ones place is worth 1, the tens place is worth 10, the hundreds place is worth 100, and so on. Moving to the right works the same way in reverse — tenths are worth 1/10, hundredths are worth 1/100. Multiplying or dividing by a power of ten is simply the act of shifting every digit into the next-higher or next-lower position, and the number of positions shifted equals the **exponent** of 10 you're multiplying or dividing by.

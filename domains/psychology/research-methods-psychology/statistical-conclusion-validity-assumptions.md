@@ -20,7 +20,7 @@ tags:
 - statistics
 - assumptions
 - inference
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

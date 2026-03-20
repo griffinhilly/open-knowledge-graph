@@ -16,7 +16,7 @@ tags:
 - protest
 - law-breaking
 - justice
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

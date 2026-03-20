@@ -16,7 +16,7 @@ tags:
 - plot
 - character
 - tension
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

@@ -19,7 +19,7 @@ tags:
 - pre-socratics
 - ethics
 - metaphysics
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

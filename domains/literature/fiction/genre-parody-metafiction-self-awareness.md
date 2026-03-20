@@ -12,7 +12,7 @@ tags:
 - parody
 - metafiction
 - self-awareness
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

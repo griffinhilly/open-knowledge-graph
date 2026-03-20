@@ -21,7 +21,7 @@ tags:
 - diffraction grating
 - optical layout
 - spectrophotometer
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

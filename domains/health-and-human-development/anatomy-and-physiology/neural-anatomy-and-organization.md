@@ -25,7 +25,7 @@ tags:
 - ANS
 - PNS
 - lobes
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

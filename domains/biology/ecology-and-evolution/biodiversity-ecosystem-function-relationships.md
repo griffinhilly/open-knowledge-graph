@@ -15,7 +15,7 @@ tags:
 - ecosystem-function
 - productivity
 - stability
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - design
 - functional
 - tradition
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

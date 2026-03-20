@@ -15,7 +15,7 @@ tags:
 - technology
 - production
 - inputs
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

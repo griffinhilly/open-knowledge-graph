@@ -13,7 +13,7 @@ tags:
 - figurative-language
 - imagery
 - style
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

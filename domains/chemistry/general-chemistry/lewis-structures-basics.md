@@ -16,7 +16,7 @@ tags:
 - valence electrons
 - bonding
 - dots
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - observation
 - methodology
 - participation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

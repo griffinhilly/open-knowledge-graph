@@ -11,8 +11,7 @@ prerequisites:
 - id: substance-and-property
   type: soft
 builds-toward:
-- categorical-dispositions-distinction
-- abstract-entities-platonism
+  - abstract-entities-platonism
 tags:
 - properties
 - fundamentality
@@ -22,7 +21,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Fundamental and Derivative Properties: Sparse and Abundant Ontologies
 
 ## Core Idea

@@ -12,7 +12,7 @@ tags:
 - gaussian-quadrature
 - optimal
 - integration
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

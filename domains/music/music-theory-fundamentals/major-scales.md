@@ -23,7 +23,7 @@ tags:
 - whole step
 - half step
 - W-W-H-W-W-W-H
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 # Major Scales

@@ -3,7 +3,9 @@ id: microbiology-scope-and-history
 title: Scope and History of Microbiology
 domain: biology
 course: microbiology
-prerequisites: []
+prerequisites:
+- id: bacterial-cell-structure
+  type: soft
 builds-toward:
 - bacterial-cell-structure
 - viral-replication-cycle
@@ -15,7 +17,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Scope and History of Microbiology
 
 ## Core Idea

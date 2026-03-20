@@ -13,7 +13,7 @@ tags:
 - information-structure
 - pragmatics
 - focus
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

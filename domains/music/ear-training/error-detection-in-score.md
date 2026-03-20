@@ -15,7 +15,7 @@ tags:
 - score reading
 - verification
 - sight-singing
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

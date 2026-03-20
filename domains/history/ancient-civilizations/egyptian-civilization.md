@@ -19,7 +19,7 @@ tags:
 - nile
 - old-kingdom
 - new-kingdom
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

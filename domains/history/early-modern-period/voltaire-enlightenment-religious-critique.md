@@ -14,7 +14,7 @@ tags:
 - enlightenment
 - religion
 - tolerance
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

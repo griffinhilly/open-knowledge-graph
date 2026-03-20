@@ -14,7 +14,7 @@ tags:
 - reactance
 - motivation
 - freedom
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

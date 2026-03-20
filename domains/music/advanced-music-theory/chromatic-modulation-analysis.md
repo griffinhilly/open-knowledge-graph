@@ -15,7 +15,7 @@ tags:
 - voice-leading
 - chromaticism
 - harmony
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

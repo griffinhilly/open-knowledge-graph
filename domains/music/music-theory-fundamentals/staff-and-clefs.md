@@ -15,7 +15,7 @@ tags:
 - clef
 - treble
 - bass
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - metric-topology
 - induced-topology
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

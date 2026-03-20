@@ -15,7 +15,7 @@ tags:
 - protest
 - activism
 - change
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

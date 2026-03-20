@@ -15,7 +15,7 @@ tags:
 - genocide
 - racial-ideology
 - war-crimes
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - epistemology
 - empiricism
 - sensation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

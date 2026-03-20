@@ -15,7 +15,7 @@ tags:
 - design
 - quasi-experimental
 - causal-inference
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - stereochemistry
 - cahn-ingold-prelog
 - absolute-configuration
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -19,7 +19,7 @@ tags:
 - action-painting
 - american
 - postwar
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

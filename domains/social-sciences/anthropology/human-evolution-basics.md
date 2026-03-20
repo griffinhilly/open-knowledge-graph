@@ -19,7 +19,7 @@ tags:
 - encephalization
 - paleoanthropology
 - Homo sapiens
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

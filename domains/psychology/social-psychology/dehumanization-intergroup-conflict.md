@@ -18,7 +18,7 @@ tags:
 - conflict
 - violence
 - aggression
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - consistency
 - contradiction
 - logical-form
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

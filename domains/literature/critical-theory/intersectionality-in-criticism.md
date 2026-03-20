@@ -20,7 +20,7 @@ tags:
 - class
 - gender
 - Anzaldúa
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - Bakhtin
 - novel
 - polyphony
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

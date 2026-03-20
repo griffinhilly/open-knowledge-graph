@@ -20,7 +20,7 @@ tags:
 - Americas
 - Potosí
 - silver
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

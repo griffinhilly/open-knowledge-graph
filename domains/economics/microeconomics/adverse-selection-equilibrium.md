@@ -10,7 +10,7 @@ tags:
 - information asymmetry
 - adverse selection
 - equilibrium
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

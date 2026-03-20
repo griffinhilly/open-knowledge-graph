@@ -15,7 +15,7 @@ tags:
 - classification
 - meaning-systems
 - boundaries
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

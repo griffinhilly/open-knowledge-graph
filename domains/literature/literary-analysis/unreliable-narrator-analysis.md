@@ -18,7 +18,7 @@ tags:
 - narration
 - analysis
 - perspective
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

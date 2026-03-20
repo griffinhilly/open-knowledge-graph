@@ -27,7 +27,7 @@ tags:
 - phase-diagram
 - equilibrium
 - pressure-temperature
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

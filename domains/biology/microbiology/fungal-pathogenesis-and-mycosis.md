@@ -16,7 +16,7 @@ tags:
 - mycosis
 - fungal-disease
 - opportunistic
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

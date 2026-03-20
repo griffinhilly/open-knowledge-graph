@@ -15,7 +15,7 @@ tags:
 - show-tell
 - narrative
 - style
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

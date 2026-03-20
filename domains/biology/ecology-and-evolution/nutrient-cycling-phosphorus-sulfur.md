@@ -17,7 +17,7 @@ tags:
 - sulfur
 - sedimentary
 - nutrients
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

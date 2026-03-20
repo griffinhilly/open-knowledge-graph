@@ -18,7 +18,7 @@ tags:
 - 3-1-ratio
 - gamete-formation
 - punnett-square
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

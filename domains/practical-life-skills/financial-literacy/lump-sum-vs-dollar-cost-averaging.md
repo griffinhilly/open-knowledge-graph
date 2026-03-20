@@ -14,7 +14,7 @@ tags:
 - strategy
 - psychology
 - risk
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

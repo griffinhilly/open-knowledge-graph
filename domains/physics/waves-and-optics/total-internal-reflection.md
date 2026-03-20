@@ -13,7 +13,7 @@ tags:
 - critical angle
 - fiber optics
 - TIR
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

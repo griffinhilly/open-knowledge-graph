@@ -17,7 +17,7 @@ tags:
 - unemployment
 - inflation
 - equilibrium
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

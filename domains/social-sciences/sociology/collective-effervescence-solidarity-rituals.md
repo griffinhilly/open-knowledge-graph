@@ -16,7 +16,7 @@ tags:
 - solidarity
 - emotional-energy
 - durkheim
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -26,7 +26,7 @@ tags:
 - proton-gradient
 - oxygen
 - inner-membrane
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

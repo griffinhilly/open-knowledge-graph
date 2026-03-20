@@ -15,7 +15,7 @@ tags:
 - character-displacement
 - sympatry
 - reproductive-character-displacement
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

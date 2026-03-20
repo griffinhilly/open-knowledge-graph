@@ -39,6 +39,45 @@ Design three logo concepts for the same fictional brand, each in a different for
 - Logos need gradients and visual complexity to look modern — the most resilient logos (Apple, Nike, FedEx) are geometrically simple because simplicity is the only property that survives all reproduction contexts.
 - Logo design is about the designer's creativity — it is about solving the client's communication problem within a defined strategic framework.
 
+## Questions
+
+```yaml
+- question: "A designer creates a logo with fine gradient shading, thin decorative lines, and four brand colors that looks beautiful on screen. What is the most likely problem according to logo design principles?"
+  type: multiple-choice
+  options:
+    - "The logo is too simple and will fail to be distinctive in its category"
+    - "The logo will fail versatility testing — gradients disappear in one-color reproduction, thin lines vanish at small sizes, and fine detail is lost in embroidery or engraving"
+    - "The design process should have started with digital refinement, not pencil sketches"
+    - "Using more than two colors is prohibited in professional logo design standards"
+  answer: 1
+  explanation: "Versatility is the criterion most logos fail. A gradient requires multiple colors to exist — in a one-color print or embossed on leather, it becomes a flat blob. Fine lines below a certain weight disappear at 16px or when embroidered on fabric. The logo may be beautiful in ideal digital conditions but collapse in real-world reproduction. The stress battery — black only, white only, 16px, embroidery, embossing — exists precisely to expose these failures before the logo is committed to."
+
+- question: "A new startup wants to use a standalone logomark (symbol only, no text) for maximum brand recognition from launch. What should they understand?"
+  type: multiple-choice
+  options:
+    - "Logomarks are the best starting point because symbols communicate faster than words"
+    - "A standalone logomark only carries meaning after years of brand investment — without established recognition, a symbol alone communicates nothing about who the company is"
+    - "Logomarks are outdated; combination marks are always preferred in modern branding"
+    - "Logomarks work best for service companies, not product companies"
+  answer: 1
+  explanation: "A logomark like Apple's apple or Nike's swoosh works in isolation only because those brands spent decades building associations. A new company's abstract symbol carries no meaning to an audience that hasn't encountered the brand before. That's why the explainer recommends most new brands start with combination marks (symbol + wordmark), building symbol recognition over time, and graduate to standalone logomarks only after the symbol has accumulated enough brand meaning to function independently."
+
+- question: "A logo that requires color to be understood fails the versatility criterion."
+  type: true-false
+  answer: true
+  explanation: "Correct. The explainer states explicitly: 'If it requires color to be understood, it fails.' Color is a medium-dependent property — it is absent in embossing, black-and-white printing, fax transmission, and single-color merchandise. A logo whose meaning or identity collapses without color is fragile. The strongest logos (Nike swoosh, Apple apple, FedEx wordmark) are instantly recognizable in pure black."
+
+- question: "The primary goal of logo design is to express the designer's creative vision within the brand's industry context."
+  type: true-false
+  answer: false
+  explanation: "The explainer states directly: 'Logo design is about solving the client's communication problem within a defined strategic framework' — not expressing the designer's creativity. This is one of the listed Common Misconceptions. The designer's skill is in service of the client's brand identity and communication needs. A logo that showcases the designer's aesthetic preferences but fails to represent the brand's personality or audience appropriately has failed its purpose, however beautiful it may be."
+
+- question: "Why is simplicity described as a 'survival requirement' rather than an aesthetic preference in logo design, and what reproduction contexts make this clear?"
+  type: short-answer
+  answer: "Simplicity is a survival requirement because a logo must work across every reproduction context, including those that destroy visual complexity: 16px favicon, embroidery on fabric, single-color stamp, embossing on leather, billboard at distance. Fine details, gradients, and multiple colors cannot survive these contexts. A complex logo that looks polished on screen becomes an indistinct blob at small sizes or in one-color reproduction. Geometric simplicity is the only property that survives all contexts reliably."
+  explanation: "The explainer frames each of the five criteria — simple, memorable, timeless, versatile, appropriate — as 'survival requirements, not aesthetic preferences.' Simplicity earns its place because of what it enables: recognition at a glance, in peripheral vision, at very small sizes, and in constrained reproduction conditions. The logos that have lasted decades (Apple, Nike, IBM) are geometrically simple. The logos that aged poorly (early 2000s gradient logos, beveled 3D marks) failed because their complexity was medium-dependent."
+```
+
 ## Explainer
 
 From your work on branding and identity, you know that a brand is a system of associations in the audience's mind — not a single image. The logo is the anchor point of that system: the one visual element that appears on every touchpoint, from app icons to building signage to invoice headers. Because it must function everywhere, logo design is one of the most constrained forms of design — and as you know from studying shape, form, and color theory, working within tight constraints demands deep understanding of visual fundamentals.

@@ -18,7 +18,7 @@ tags:
 - becoming
 - flow
 - temporal-metaphysics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -6,6 +6,8 @@ course: control-systems
 prerequisites:
 - id: frequency-response-magnitude-phase-plots
   type: hard
+- id: frequency-response-magnitude-phase-basics
+  type: soft
 builds-toward:
 - control-loop-design-via-bode-plots
 tags:
@@ -14,10 +16,9 @@ tags:
 - peak
 - magnitude-response
 - frequency-domain-performance
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Bandwidth and Resonant Frequency Selection
 
 ## Core Idea

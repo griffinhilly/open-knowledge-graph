@@ -16,7 +16,7 @@ tags:
 - supply
 - responsiveness
 - time horizon
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

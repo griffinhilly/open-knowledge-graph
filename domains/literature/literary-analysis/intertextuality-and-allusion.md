@@ -24,7 +24,7 @@ tags:
 - influence
 - reference
 - meaning
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Intertextuality and Allusion

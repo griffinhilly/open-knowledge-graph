@@ -15,7 +15,7 @@ tags:
 - strength-prediction
 - micromechanics
 - failure-criteria
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

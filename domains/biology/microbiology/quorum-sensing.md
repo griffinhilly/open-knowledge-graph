@@ -20,7 +20,7 @@ tags:
 - AI-2
 - density-dependent
 - bioluminescence
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Quorum Sensing

@@ -18,7 +18,7 @@ tags:
 - world-literature
 - canon
 - circulation
-stage: pre-formal
+stage: advanced
 status: draft
 ---
 

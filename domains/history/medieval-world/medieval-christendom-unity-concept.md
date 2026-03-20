@@ -17,7 +17,7 @@ tags:
 - unity
 - religious
 - concept
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - networks
 - spatial-systems
 - population
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

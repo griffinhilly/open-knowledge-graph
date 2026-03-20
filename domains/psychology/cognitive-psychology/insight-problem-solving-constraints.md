@@ -11,7 +11,7 @@ tags:
 - insight
 - constraints
 - creativity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

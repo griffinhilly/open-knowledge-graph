@@ -27,6 +27,45 @@ The part-part-whole model shows how numbers can be composed of smaller parts and
 ## How It's Best Learned
 Use visual diagrams showing circles or boxes divided to show parts and the whole. Use objects that can be physically separated and combined. Label parts clearly as 'part' and 'whole.'
 
+## Questions
+
+```yaml
+- question: "Ben has 5 red blocks and some blue blocks. He has 11 blocks in all. In the part-part-whole model, which number is the WHOLE?"
+  type: multiple-choice
+  options:
+    - "5"
+    - "The unknown number of blue blocks"
+    - "11"
+    - "All of the numbers together"
+  answer: 2
+  explanation: "The whole is always the total — the complete group before it is split into parts. 11 is the whole because it represents all the blocks combined. 5 and the unknown number of blue blocks are the two parts. Knowing the whole (11) and one part (5) lets you find the missing part by subtracting: 11 − 5 = 6."
+
+- question: "A student sees the problem 8 − 3 = ? and says, 'This is subtraction, so I cannot use my part-part-whole model — that model is only for addition.' Is she correct?"
+  type: multiple-choice
+  options:
+    - "Yes — the part-part-whole model only works for addition"
+    - "No — the model works for both addition and subtraction because they share the same three-number relationship"
+    - "Yes — subtraction always needs a different diagram"
+    - "No — but only because the numbers in this problem are small"
+  answer: 1
+  explanation: "Addition and subtraction are the SAME part-part-whole relationship viewed from different directions. The numbers 3, 5, and 8 are connected: 3 + 5 = 8, 5 + 3 = 8, 8 − 3 = 5, 8 − 5 = 3. Addition finds the whole when you know both parts; subtraction finds a missing part when you know the whole and one part. The model applies to both operations — it is the relationship that matters, not the operation symbol."
+
+- question: "If you know the whole and one part in a part-part-whole relationship, you can always find the missing part."
+  type: true-false
+  answer: true
+  explanation: "Yes — the whole equals the sum of its parts, so if you know the whole and one part, subtracting gives the other part. For example: whole = 9, one part = 4, missing part = 9 − 4 = 5. This is exactly what subtraction does in the part-part-whole model."
+
+- question: "The part-part-whole model is only useful for addition problems."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception to avoid. The part-part-whole model applies equally to addition and subtraction. Addition uses the model to find the whole from two known parts (part + part = whole). Subtraction uses the same model to find a missing part when the whole and one part are known (whole − part = missing part). They are not separate operations — they are two ways of navigating the same three-number relationship."
+
+- question: "You have 7 apples. Some are red and some are green. You know 4 are red. Explain how the part-part-whole model helps you find how many are green."
+  type: short-answer
+  answer: "In the part-part-whole model, 7 is the whole, 4 (red apples) is one part, and the unknown green apples are the other part. Because the parts must add up to the whole, you subtract: 7 − 4 = 3 green apples."
+  explanation: "The model makes the structure of the problem visible: whole = part + part. When the whole and one part are known, the missing part is found by subtraction. This is not a different kind of problem from addition — it is the same relationship, just asking for a different piece of information."
+```
+
 ## Explainer
 
 From your work with combining sets and separating sets, you know two things: putting groups together gives you a larger group, and taking part of a group away gives you a smaller group. The **part-part-whole model** gives you a way to see those two operations as aspects of the same underlying relationship, rather than as separate procedures. If you know the parts, you can find the whole. If you know the whole and one part, you can find the other part. Everything connects through the relationship between the number and its components.

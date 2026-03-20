@@ -20,7 +20,7 @@ tags:
 - consciousness
 - substrate
 - artificial
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

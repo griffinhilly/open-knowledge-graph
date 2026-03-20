@@ -14,7 +14,7 @@ tags:
 - sound-devices
 - phonetics
 - musicality
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

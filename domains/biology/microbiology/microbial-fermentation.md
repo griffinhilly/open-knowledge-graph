@@ -17,7 +17,7 @@ tags:
 - ethanol
 - glycolysis
 - industrial-microbiology
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Microbial Fermentation

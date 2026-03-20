@@ -15,7 +15,7 @@ tags:
 - ribosomes
 - translation
 - 70s
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

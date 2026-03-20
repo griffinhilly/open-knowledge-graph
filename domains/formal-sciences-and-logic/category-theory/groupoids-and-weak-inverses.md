@@ -14,7 +14,7 @@ tags:
 - groupoids
 - invertible-morphisms
 - automorphisms
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

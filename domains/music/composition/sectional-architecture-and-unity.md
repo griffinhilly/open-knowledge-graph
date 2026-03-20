@@ -17,7 +17,7 @@ tags:
 - unity
 - composition
 - architecture
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

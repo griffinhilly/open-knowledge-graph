@@ -17,7 +17,7 @@ tags:
 - oils
 - heat-management
 - cooking-techniques
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

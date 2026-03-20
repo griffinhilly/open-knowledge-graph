@@ -17,7 +17,7 @@ tags:
 - genotype
 - phenotype
 - heterozygote
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

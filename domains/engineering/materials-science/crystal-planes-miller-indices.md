@@ -16,7 +16,7 @@ tags:
 - miller-indices
 - crystallography
 - planes-directions
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

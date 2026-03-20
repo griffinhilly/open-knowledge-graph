@@ -13,7 +13,7 @@ tags:
 - newtons-laws
 - action-reaction
 - force-pairs
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

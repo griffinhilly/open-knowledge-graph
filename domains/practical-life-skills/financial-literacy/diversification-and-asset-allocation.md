@@ -18,7 +18,7 @@ tags:
 - diversification
 - asset-allocation
 - portfolio
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

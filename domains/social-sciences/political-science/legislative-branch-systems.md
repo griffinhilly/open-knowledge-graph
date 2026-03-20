@@ -16,7 +16,7 @@ tags:
 - congress
 - representation
 - lawmaking
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

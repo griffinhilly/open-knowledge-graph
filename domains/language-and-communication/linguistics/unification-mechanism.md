@@ -15,7 +15,7 @@ tags:
 - formalism
 - agreement
 - computation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

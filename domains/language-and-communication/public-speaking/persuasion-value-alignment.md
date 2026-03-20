@@ -9,17 +9,15 @@ prerequisites:
 - id: audience-psychology-persuasion
   type: soft
 builds-toward:
-- audience-cultural-values-persuasion
-- persuasive-speech-design
+  - persuasive-speech-design
 tags:
 - persuasion
 - values
 - audience
 - alignment
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Persuasion Through Value Alignment
 
 ## Core Idea

@@ -14,7 +14,7 @@ tags:
 - modernism
 - defamiliarization
 - form
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

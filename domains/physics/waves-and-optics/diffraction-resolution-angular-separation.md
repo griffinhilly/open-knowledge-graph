@@ -12,7 +12,7 @@ tags:
 - resolution
 - diffraction
 - optics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

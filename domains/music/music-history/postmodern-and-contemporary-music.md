@@ -23,6 +23,45 @@ Post-1960s composers—Minimalists (Glass, Riley), Spectralists (Grisey), and ec
 ## How It's Best Learned
 Hear a minimalist work (Glass's Akhnaten or Philip Glass operas) alongside a spectralist composition (e.g., Grisey's Partiels) and a contemporary heterogeneous work to grasp how post-1960 composers move in radically different directions, sometimes simultaneously, without the unified modernist agenda.
 
+## Questions
+
+```yaml
+- question: "A contemporary composer writes a piece that quotes Mahler, incorporates West African drumming patterns, and uses algorithmically generated electronic textures — all in the same work. A high modernist critic calls this incoherent eclecticism. The postmodern perspective would respond:"
+  type: multiple-choice
+  options:
+    - "The critic is correct — serious composition requires commitment to a single systematic approach to maintain artistic integrity"
+    - "The eclecticism is unfortunate but unavoidable given how digital technology has eroded stylistic boundaries"
+    - "Stylistic pluralism is itself the aesthetic position — rejecting the idea that there is one correct direction for music is the philosophical stance, not a failure of discipline"
+    - "The composer should have chosen one influence as a foundation and incorporated the others as secondary elements"
+  answer: 2
+  explanation: "Postmodern composition is defined by the rejection of the modernist premise that musical progress is linear and that there is a 'correct' avant-garde direction. Combining Mahler, West African drumming, and algorithmic composition in one work is not eclecticism-as-weakness but a deliberate philosophical position: all of the above, or none, depending on what the piece needs. The high modernist objection (that this lacks rigor) presupposes the very hierarchy — complexity over accessibility, system over intuition — that postmodernism interrogates."
+
+- question: "What do Minimalism and Spectralism share, despite their obvious stylistic differences?"
+  type: multiple-choice
+  options:
+    - "Both use the natural overtone series as the primary source of harmonic material"
+    - "Both emerged as reactions against the complexity and ideological rigidity of mid-century high modernist serialism"
+    - "Both embrace repetition and gradual process as primary compositional tools"
+    - "Both were championed at the Darmstadt summer courses in the 1950s and 60s"
+  answer: 1
+  explanation: "Minimalism and Spectralism approached the problem from opposite directions — Minimalism simplified (repetition, consonance, gradual process), while Spectralism grounded new complexity in acoustic physics — but both were rejections of the Darmstadt high modernist orthodoxy that had made serialism nearly mandatory for 'serious' composition. Darmstadt was precisely where serialism was championed (making option D wrong for both). The overtone series is spectralism's tool but not minimalism's. Repetition characterizes minimalism but not spectralism."
+
+- question: "Postmodern composers rejected Minimalism along with high modernism, since both represented unified stylistic movements that imposed a single aesthetic direction on composition."
+  type: true-false
+  answer: false
+  explanation: "Postmodernism did not systematically reject Minimalism — Minimalism itself was one of the early postmodern reactions against high modernism. The postmodern stance is not 'reject all movements' but 'reject the idea that there must be one correct direction.' A contemporary composer might freely draw on minimalist techniques (as Glass and Reich themselves continued to develop) alongside quotation, world music influences, and electronics. Stylistic pluralism means all approaches remain available, not that earlier movements are off-limits."
+
+- question: "Steve Reich's phase-shifting technique creates emergent musical patterns that the composer has not explicitly written into the score."
+  type: true-false
+  answer: true
+  explanation: "Phase-shifting works by playing the same musical loop on two instruments or recordings at slightly different speeds. As they drift apart, the overlapping patterns produce composite rhythmic and melodic patterns that no one has composed — they emerge from the interaction of the two shifting loops. This is what makes Reich's technique compositionally radical: the composer sets up a process and lets the music generate itself. It is control through mechanism rather than note-by-note composition, which was a profound departure from both the density of serialism and the note-specific control of traditional composition."
+
+- question: "What does it mean to say that 'the absence of a dominant style is itself the defining characteristic' of contemporary composition? Why is this different from having no aesthetic direction at all?"
+  type: short-answer
+  answer: "Saying the absence of a dominant style is the defining characteristic means that stylistic pluralism is not a vacuum or a failure — it is a positive philosophical stance: the rejection of the modernist premise that musical progress is linear and that there must be one correct direction. Contemporary composers are not directionless; they make deliberate stylistic choices from the full range of available languages. This is different from aesthetic chaos because individual works still have internal coherence and intent — the pluralism operates at the level of the field, not within each piece."
+  explanation: "This distinction matters because 'no dominant style' is easy to misread as 'anything goes, nothing matters.' But postmodern composers like Schnittke, Pärt, or Saariaho make highly intentional choices — they're not writing in every style simultaneously. The pluralism means the field has no enforced consensus, which liberates individual composers to find their own language without the modernist pressure to be on the 'right' side of history."
+```
+
 ## Explainer
 
 From your study of early 20th-century modernism, you know that composers like Schoenberg, Stravinsky, and Bartók broke decisively with the tonal language of the 19th century, embracing atonality, serialism, and rhythmic disruption. By mid-century, the high modernist commitment to systematic complexity — especially the post-Webern serialism championed at Darmstadt — had become its own orthodoxy. **Postmodern music** is best understood as a reaction against this: a rejection of the idea that musical progress is linear, that there is a "correct" avant-garde direction, and that listeners' pleasure and comprehension should be subordinated to structural rigor.

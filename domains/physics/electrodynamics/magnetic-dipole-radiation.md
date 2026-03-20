@@ -12,7 +12,7 @@ tags:
 - radiation
 - multipole
 - magnetic
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

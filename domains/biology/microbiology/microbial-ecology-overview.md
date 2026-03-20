@@ -24,7 +24,7 @@ tags:
 - syntrophy
 - microbial diversity
 - unculturable bacteria
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Microbial Ecology Overview

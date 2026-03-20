@@ -13,7 +13,7 @@ tags:
 - coping
 - protective-factors
 - risk-factors
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

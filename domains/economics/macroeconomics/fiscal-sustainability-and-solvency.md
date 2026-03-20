@@ -14,7 +14,7 @@ tags:
 - fiscal-policy
 - sustainability
 - solvency
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

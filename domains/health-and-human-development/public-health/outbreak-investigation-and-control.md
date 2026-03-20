@@ -15,7 +15,7 @@ tags:
 - epidemiology
 - outbreak-control
 - investigation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - agency
 - macro-micro
 - foundational
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Social Structure and Agency

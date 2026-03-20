@@ -16,7 +16,7 @@ tags:
 - modulation
 - secondary-dominants
 - key-area
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

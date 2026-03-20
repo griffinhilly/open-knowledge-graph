@@ -25,6 +25,45 @@ Compare two objects side by side. Use ribbons, sticks, or straws of different le
 ## Common Misconceptions
 Children may compare only a part of an object, or not align objects properly for comparison. They might confuse "longer" with "taller" or "bigger."
 
+## Questions
+
+```yaml
+- question: "Two crayons are placed side by side, but their left ends are not aligned — the blue crayon starts an inch further to the right. The blue crayon's right end sticks out past the red crayon's right end. What should a student say?"
+  type: multiple-choice
+  options:
+    - "The blue crayon is longer because its right end sticks out further"
+    - "We cannot tell yet — we need to align both starting ends before comparing"
+    - "The blue crayon is bigger, so it must be longer"
+    - "We need a ruler to compare lengths"
+  answer: 1
+  explanation: "When starting ends are not aligned, the comparison is invalid — one object may appear to reach further simply because it started further along. The rule is always to line up the starting points first, then observe which end extends further. Option A is the classic error: it looks at the result without checking that the comparison was set up fairly."
+
+- question: "Which of the following is the most important step when comparing the lengths of two sticks by placing them side by side?"
+  type: multiple-choice
+  options:
+    - "Making sure both sticks are the same color"
+    - "Aligning one end of each stick at the same starting point"
+    - "Choosing sticks that look very different from each other"
+    - "Counting how many sticks there are in total"
+  answer: 1
+  explanation: "Aligning one end of each object at the same starting point is the essential step. Without a common starting point, you are not measuring from a shared zero, and the comparison tells you nothing reliable about actual length. The other options are irrelevant to whether the comparison is accurate."
+
+- question: "The 'longer' object is the one whose end reaches further past the same starting point than the other object."
+  type: true-false
+  answer: true
+  explanation: "This is exactly right. With both objects starting from the same point, the one that extends further is longer. This is the definition of direct comparison: observe which object reaches past the other from a common starting position."
+
+- question: "A bigger or heavier object is always longer than a smaller or lighter object."
+  type: true-false
+  answer: false
+  explanation: "Length is one specific measurable attribute — how far an object extends from end to end. An object can be bigger (wider, heavier, or taller) without being longer. For example, a thick, heavy wooden block could be shorter in length than a thin, light piece of string. Confusing 'bigger' with 'longer' is a common error that this comparison activity is designed to correct."
+
+- question: "Why is it important to align the bottom ends of two objects before comparing their lengths?"
+  type: short-answer
+  answer: "If the starting ends are not aligned, one object may appear to reach further simply because it started further along — not because it is actually longer. Alignment ensures both objects begin at the same zero point, so what you observe at the other end is a true measure of relative length."
+  explanation: "This is the foundational habit of measurement: every comparison begins at a defined, shared starting point. Without it, you are comparing final positions, not lengths. This same principle carries forward to formal measurement with rulers, where measurements always start at zero."
+```
+
 ## Explainer
 
 Length is one of the first measurable **attributes** children encounter — a property of an object that can be described as more or less than another. Before children can measure with rulers or numbers, they need to build the concept of length itself: what it means for one thing to *be* longer than another. This is not as obvious as it seems. A child who hasn't developed this concept might pick the "bigger" object (confusing size with length), or compare misaligned objects and get the wrong answer.

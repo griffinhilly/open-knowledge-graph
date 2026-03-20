@@ -9,8 +9,7 @@ prerequisites:
 - id: seasoning-and-flavor-basics
   type: soft
 builds-toward:
-- recipe-adaptation-and-substitutions
-- culinary-herbs-and-spices
+  - recipe-adaptation-and-substitutions
 tags:
 - cuisine
 - flavor
@@ -19,7 +18,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # World Cuisine Flavor Profiles
 
 ## Core Idea

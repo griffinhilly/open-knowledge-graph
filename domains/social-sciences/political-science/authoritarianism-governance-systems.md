@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Authoritarianism is a system of governance where political power is concentrated in the hands of a leader, party, or small elite, with limited mechanisms for popular participation or accountability. Modern authoritarian regimes vary significantly—from single-party states to personalist dictatorships to military juntas—but all share restrictions on political competition, limited civil liberties, and weak institutionalization of power transfer.
 
+## Questions
+
+```yaml
+- question: "A ruling party has held power for 60 years, features meritocratic promotion within the party, institutionalized collective decision-making, and consistent long-term economic policy. Political scientists would classify this as which type of authoritarian regime?"
+  type: multiple-choice
+  options:
+    - "Personalist dictatorship — only personal loyalty over decades could maintain such control"
+    - "Military junta — long-term stability requires military backing to sustain"
+    - "Single-party regime — institutionalized party structures produce policy consistency and durability"
+    - "Hybrid democracy — 60 years of stability implies some electoral legitimacy"
+  answer: 2
+  explanation: "Single-party regimes (like China's CCP or the Soviet Communist Party) are historically the most durable authoritarian type precisely because institutionalized collective decision-making, meritocratic promotion, and policy continuity don't depend on a single individual. Personalist regimes, by contrast, are volatile because they depend on one person's continued presence and judgment. A 60-year tenure with these institutional features is the hallmark of a single-party system."
+
+- question: "An authoritarian government holds regular elections, maintains a functioning legislature, and operates courts that occasionally rule against minor officials. This is best understood as:"
+  type: multiple-choice
+  options:
+    - "Evidence that the regime is actually a democracy with restrictions"
+    - "Institutional design to manage intra-elite competition, signal stability, and provide controlled outlets for grievance that stop short of threatening core power"
+    - "A sign the regime is transitioning toward democratic governance"
+    - "Propaganda tools with no practical function for regime stability"
+  answer: 1
+  explanation: "Counterintuitively, many authoritarian regimes maintain nominally democratic institutions not because they're becoming democratic, but because these institutions serve regime stability. Legislatures provide a forum for bargaining among elite factions. Elections allow the regime to identify opposition and co-opt popular figures. Courts can discipline minor officials without threatening leadership. The presence of elections or courts is not, by itself, evidence of democracy — what matters is whether these institutions constrain those who hold power."
+
+- question: "Personalist dictatorships tend to be more volatile than single-party regimes because concentrating power in one individual makes institutionalized succession difficult and incentivizes erratic purges of potential rivals."
+  type: true-false
+  answer: true
+  explanation: "This is one of Barbara Geddes' key empirical findings. Personalist regimes like Saddam Hussein's Iraq or Gaddafi's Libya are inherently unstable: the leader cannot delegate without creating rivals, cannot institutionalize succession without undermining the personal basis of authority, and typically responds to threats with purges rather than institutional accommodation. Single-party regimes, by contrast, have internal mechanisms for managing elite competition and succession that don't depend on one person."
+
+- question: "Authoritarian regimes rely primarily on mass coercion and physical repression to maintain power — co-optation and institutional mechanisms play only a minor supporting role."
+  type: true-false
+  answer: false
+  explanation: "Coercion alone is insufficient for regime maintenance — no state can police every transaction. The stability of authoritarian regimes depends heavily on co-optation (buying loyalty through patronage and policy benefits), information management (propaganda, censorship), and institutional design (legislatures, elections, courts). Calibrated repression is one tool among several, and is typically targeted at actual opponents rather than deployed indiscriminately, because mass repression can provoke the unified resistance that topples regimes."
+
+- question: "Why do many authoritarian regimes maintain elections, legislatures, and courts even though meaningful political competition is absent?"
+  type: short-answer
+  answer: "These nominally democratic institutions serve practical functions for regime maintenance. Legislatures provide an arena for managing intra-elite competition through bargaining rather than violence. Elections allow the regime to co-opt popular figures, identify opposition strength, and signal stability to foreign investors and trading partners. Courts can enforce contracts and discipline minor officials, which supports economic activity without threatening core power. By providing controlled outlets for grievances and elite competition, these institutions reduce the likelihood that dissatisfied factions will seek to overthrow the regime."
+  explanation: "The deeper insight is that authoritarian resilience is not just about force — it's about calibrating multiple mechanisms to the threat environment. Institutions that look democratic from the outside may function as tools of authoritarian maintenance. This is why institutional form (the presence of elections) must be distinguished from institutional function (whether those elections constrain power)."
+```
+
 ## Explainer
 
 From government types and structures, you learned the basic taxonomy: democracies feature competitive elections, rule of law, and protected civil liberties; autocracies concentrate power and restrict competition. The most important refinement for understanding authoritarianism in practice is that **authoritarian regimes are not a residual category** — they are not simply "everything that isn't democracy." Early comparative politics treated them that way, but decades of research have shown that the *type* of authoritarian arrangement predicts behavior, stability, and likely breakdown in systematic ways.

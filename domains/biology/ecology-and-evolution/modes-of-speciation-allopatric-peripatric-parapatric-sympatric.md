@@ -19,7 +19,7 @@ tags:
 - peripatric
 - parapatric
 - sympatric
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

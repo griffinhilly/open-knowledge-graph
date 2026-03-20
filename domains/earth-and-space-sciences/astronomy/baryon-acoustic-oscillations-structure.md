@@ -13,7 +13,7 @@ tags:
 - large-scale-structure
 - dark-matter
 - cosmology
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

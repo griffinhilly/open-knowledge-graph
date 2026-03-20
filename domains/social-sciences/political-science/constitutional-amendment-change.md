@@ -16,7 +16,7 @@ tags:
 - constitution
 - change
 - reform
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

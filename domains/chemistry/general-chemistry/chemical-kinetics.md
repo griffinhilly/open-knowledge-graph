@@ -27,7 +27,7 @@ tags:
 - reaction-order
 - half-life
 - integrated-rate-law
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

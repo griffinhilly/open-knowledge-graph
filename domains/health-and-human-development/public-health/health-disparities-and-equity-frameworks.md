@@ -15,7 +15,7 @@ tags:
 - equity
 - disparities
 - social-determinants
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

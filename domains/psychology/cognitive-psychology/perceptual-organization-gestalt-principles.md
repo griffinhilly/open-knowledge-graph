@@ -16,7 +16,7 @@ tags:
 - gestalt
 - organization
 - visual
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

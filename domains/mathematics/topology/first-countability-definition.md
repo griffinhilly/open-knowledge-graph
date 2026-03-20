@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - first-countability
 - countability
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

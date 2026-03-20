@@ -16,7 +16,7 @@ tags:
 - majority-rule
 - representation
 - popular-sovereignty
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

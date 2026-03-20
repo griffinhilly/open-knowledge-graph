@@ -16,7 +16,7 @@ tags:
 - worldview
 - belief-systems
 - ontology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

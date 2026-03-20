@@ -15,7 +15,7 @@ tags:
 - arabic
 - monorhyme
 - cultural-specificity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

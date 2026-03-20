@@ -13,7 +13,7 @@ tags:
 - process
 - methodology
 - problem-solving
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 
@@ -28,6 +28,45 @@ Walk through a real problem (redesigning a local business's website, solving a p
 ## Common Misconceptions
 - Design thinking requires expensive tools or consultants; the framework itself is free and can be applied informally.
 - Design thinking always results in novel solutions; sometimes it validates that an existing approach is correct.
+
+## Questions
+
+```yaml
+- question: "A product team spends one day on Empathize and Define, then moves quickly to Ideate, Prototype, and Test. Six months later, users are indifferent to the product despite its polished execution. What does design thinking suggest most likely went wrong?"
+  type: multiple-choice
+  options:
+    - "The team failed to generate enough ideas during the Ideate phase"
+    - "The prototypes were too high-fidelity and took too long to build"
+    - "The team built a well-designed solution to a poorly understood or incorrectly defined problem"
+    - "The Test phase was not conducted with a large enough sample of users"
+  answer: 2
+  explanation: "Design thinking's most important phases are Empathize and Define — where the problem is actually understood and framed. Rushing these phases means the team is solving a problem they assumed rather than one rooted in genuine user needs. A beautifully executed solution to the wrong problem produces exactly the indifference described here. This is the central discipline of design thinking: delay solution generation until the problem is genuinely understood."
+
+- question: "During the Test phase, users interact with a prototype in ways the team never anticipated and reveal they were actually trying to solve a different problem. What should the team do next, according to design thinking?"
+  type: multiple-choice
+  options:
+    - "Revise the prototype until users interact with it as originally intended"
+    - "Accept that user behavior is unpredictable and proceed with the original design"
+    - "Cycle back to the Empathize and Define phases to update their problem understanding"
+    - "Conduct a larger round of testing to confirm whether the unexpected behavior is consistent"
+  answer: 2
+  explanation: "Design thinking is explicitly iterative, not linear. When testing reveals that the problem was misunderstood, the correct response is to loop back — not forward. Going back to Empathize and Define with new information from testing is not a failure; it is the process working as intended. Teams that treat testing as a final validation step rather than a learning opportunity miss the core value of the framework."
+
+- question: "In design thinking, the Define phase produces a clear problem statement before any solution ideas are considered."
+  type: true-false
+  answer: true
+  explanation: "This is one of the discipline's key structural commitments. The 'How might we...' problem statement produced in Define deliberately separates problem framing from solution generation. Teams that skip this and go directly from user observations to ideas often end up anchored to their first intuition. Defining the problem independently of any solution forces the team to verify they are solving the right problem before investing in solutions."
+
+- question: "The primary purpose of the Ideate phase in design thinking is to identify the single best solution as quickly as possible."
+  type: true-false
+  answer: false
+  explanation: "Ideate is explicitly a divergent phase — its goal is to generate as many possible solutions as the team can, deliberately suspending judgment and evaluation. Quantity matters more than quality here, because the non-obvious solutions that often prove most valuable rarely surface if the team stops at the first good idea. Selection from the generated set happens afterward, before Prototype. Rushing to convergence in Ideate defeats the purpose of expanding the solution space."
+
+- question: "Why is design thinking described as iterative rather than linear, and why does this distinction matter for the quality of solutions produced?"
+  type: short-answer
+  answer: "Design thinking's phases are meant to be revisited, not completed once in sequence. Testing consistently reveals new information about users — how they actually behave, what confuses them, what problem they were really trying to solve. This new information often invalidates or refines the original problem statement from Define, which means new ideas need to be generated and tested. A team that treats the process as a linear pipeline uses testing only to validate a predetermined solution. A team that embraces iteration uses testing to refine their understanding of the problem, which produces solutions that address real user needs rather than assumed ones."
+  explanation: "The willingness to cycle back — especially to revise the problem definition — is what distinguishes design thinking from conventional project management, where redefining scope mid-project is seen as failure. In design thinking, it's a sign the process is working."
+```
 
 ## Explainer
 

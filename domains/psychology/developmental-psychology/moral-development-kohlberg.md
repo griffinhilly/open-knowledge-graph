@@ -19,7 +19,7 @@ tags:
 - conventional
 - postconventional
 - Heinz dilemma
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Kohlberg's Theory of Moral Development

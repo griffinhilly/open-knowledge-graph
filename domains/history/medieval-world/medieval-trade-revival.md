@@ -25,7 +25,7 @@ tags:
 - banking
 - guilds
 - hanseatic-league
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # The Medieval Commercial Revolution

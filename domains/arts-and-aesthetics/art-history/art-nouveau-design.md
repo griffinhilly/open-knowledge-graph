@@ -17,7 +17,7 @@ tags:
 - organic
 - industrial
 - decorative
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

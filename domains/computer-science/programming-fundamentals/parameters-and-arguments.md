@@ -29,6 +29,45 @@ Write functions with one, two, and many parameters. Call functions with differen
 - Parameters and arguments are the same (parameters are formal variables; arguments are actual values).
 - Changing a parameter inside a function always affects the original variable (this depends on pass-by-value vs. pass-by-reference).
 
+## Questions
+
+```yaml
+- question: "In Python, consider: `def double(x): x = x * 2`. After running `n = 5; double(n)`, what is the value of n?"
+  type: multiple-choice
+  options:
+    - "10 — the function modified x, and x was bound to n"
+    - "5 — x is a local variable; reassigning x inside the function does not affect n"
+    - "None — functions without return statements set caller variables to None"
+    - "An error occurs because x is modified inside the function"
+  answer: 1
+  explanation: "When `n` is passed to `double`, the parameter `x` receives a copy of the value 5. Reassigning `x = x * 2` only changes the local variable `x` inside the function — it does not reach back and change `n` in the caller. For simple immutable types like integers, the parameter is effectively a local copy. This is a key distinction: modifying the parameter's value (reassignment) is different from mutating the object the parameter points to."
+
+- question: "A function is defined as `def append_zero(lst): lst.append(0)`. After running `my_list = [1, 2]; append_zero(my_list)`, what is `my_list`?"
+  type: multiple-choice
+  options:
+    - "[1, 2] — the function worked on a copy of the list"
+    - "[1, 2, 0] — the parameter referred to the same list object in memory"
+    - "[0] — the function replaced the list's contents"
+    - "An error — lists cannot be passed as arguments"
+  answer: 1
+  explanation: "Lists are mutable objects. When `my_list` is passed to `append_zero`, the parameter `lst` points to the *same list object* in memory — not a copy. Calling `lst.append(0)` mutates that shared object, so the change is visible in the caller through `my_list`. This contrasts with the integer case: here the function didn't *reassign* `lst` (which would have had no effect on `my_list`); it *mutated* the object `lst` refers to."
+
+- question: "Modifying a parameter inside a function always changes the original variable that was passed as the argument."
+  type: true-false
+  answer: false
+  explanation: "Whether the original is affected depends on whether you mutate the object (changes are visible) or reassign the parameter (no effect on caller). For immutable types like integers and strings, 'modification' necessarily means reassignment, so the caller is never affected. For mutable types like lists, calling a mutating method (`.append()`, `.sort()`) affects the shared object, but reassigning the parameter (`lst = []`) does not reach the caller."
+
+- question: "The terms 'parameter' and 'argument' refer to different things: parameters are the named placeholders declared in a function's definition, while arguments are the actual values supplied when the function is called."
+  type: true-false
+  answer: true
+  explanation: "This distinction is precise and useful. In `def greet(name):`, `name` is a parameter — a formal variable in the function signature. In `greet('Alice')`, `'Alice'` is the argument — the actual value bound to that parameter at call time. Conflating the two makes it harder to reason about function definitions versus function calls, and obscures the mechanics of how values flow into and through functions."
+
+- question: "Explain why calling `lst.append(42)` inside a function changes the caller's list, but assigning `lst = []` inside the same function does not."
+  type: short-answer
+  answer: "When a list is passed as an argument, the parameter `lst` and the caller's variable both point to the same list object in memory. Calling `lst.append(42)` mutates that shared object, so the change is visible through both references. Assigning `lst = []` only rebinds the local variable `lst` to a new empty list — it breaks `lst`'s connection to the original object without affecting the caller's variable, which still points to the original list."
+  explanation: "This is Python's 'pass-by-object-reference' model. The parameter and the argument start as two names for the same object. Mutation changes the object itself (seen by everyone who holds a reference). Reassignment changes which object the local name refers to (invisible to the caller). Understanding this distinction prevents an entire class of bugs where functions unexpectedly do or do not modify the data passed to them."
+```
+
 ## Explainer
 
 You already know how to define and call functions — you can write `def greet():` and invoke it with `greet()`. But functions become truly powerful when they can accept **input** that changes their behavior. Instead of writing a separate function for every greeting, you write `def greet(name):` and pass different names each time. The variable `name` in the function signature is a **parameter** — a placeholder that receives a value when the function is called. The value you pass in — like `greet("Alice")` — is the **argument**. The parameter gets bound to the argument's value at call time, and within the function body, you use the parameter just like any other variable.

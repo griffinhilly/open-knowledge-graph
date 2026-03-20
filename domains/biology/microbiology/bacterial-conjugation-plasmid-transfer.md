@@ -15,7 +15,7 @@ tags:
 - conjugation
 - plasmids
 - gene-transfer
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

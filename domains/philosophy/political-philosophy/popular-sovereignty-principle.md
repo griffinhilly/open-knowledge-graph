@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - democracy
 - sovereignty
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - lithosphere
 - asthenosphere
 - seismic-discontinuities
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

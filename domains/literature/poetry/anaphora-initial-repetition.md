@@ -17,7 +17,7 @@ tags:
 - rhythm
 - emphasis
 - sound
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

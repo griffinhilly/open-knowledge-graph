@@ -16,7 +16,7 @@ tags:
 - baseline noise
 - detection
 - sensitivity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

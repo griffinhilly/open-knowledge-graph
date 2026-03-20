@@ -20,7 +20,7 @@ tags:
 - cognitive-flexibility
 - inhibition
 - prefrontal-cortex
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - monopoly
 - market-power
 - barriers-to-entry
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - cyclones
 - intensification
 - extreme-weather
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

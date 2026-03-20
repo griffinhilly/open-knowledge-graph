@@ -22,7 +22,7 @@ tags:
 - acid-base
 - pH-regulation
 - buffer-systems
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

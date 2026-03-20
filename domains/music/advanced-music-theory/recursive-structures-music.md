@@ -23,7 +23,7 @@ tags:
 - self-similarity
 - form
 - structure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

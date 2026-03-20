@@ -14,7 +14,7 @@ tags:
 - identity
 - boundaries
 - conflict
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

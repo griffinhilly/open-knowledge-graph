@@ -14,7 +14,7 @@ tags:
 - literacy
 - manuscripts
 - knowledge
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

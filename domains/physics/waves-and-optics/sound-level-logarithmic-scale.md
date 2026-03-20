@@ -10,7 +10,7 @@ tags:
 - acoustics
 - sound
 - logarithm
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

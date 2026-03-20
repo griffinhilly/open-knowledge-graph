@@ -14,7 +14,7 @@ tags:
 - leakage
 - windowing
 - trade-offs
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

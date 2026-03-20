@@ -19,7 +19,7 @@ tags:
 - capacity
 - encoding-retrieval
 - learning
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - stress
 - accent
 - beat-hierarchy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

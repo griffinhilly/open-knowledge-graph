@@ -15,7 +15,7 @@ tags:
 - neo-colonialism
 - economic-domination
 - dependency
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

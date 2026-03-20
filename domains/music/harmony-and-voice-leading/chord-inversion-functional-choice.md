@@ -14,7 +14,7 @@ tags:
 - inversions
 - function
 - harmony
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

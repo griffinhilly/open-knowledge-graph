@@ -10,7 +10,7 @@ builds-toward:
   - considering-the-opposite
   - steelmanning
 tags: ["rationality", "biases", "argument-evaluation", "motivated-cognition"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

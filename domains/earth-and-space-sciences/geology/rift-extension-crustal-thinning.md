@@ -6,13 +6,11 @@ course: geology
 prerequisites:
 - id: plate-boundary-types-kinematics
   type: hard
-- id: mantle-convection-and-dynamics
-  type: soft
 tags:
 - extension
 - rifting
 - tectonics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

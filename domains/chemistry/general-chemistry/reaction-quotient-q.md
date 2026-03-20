@@ -15,7 +15,7 @@ tags:
 - reaction quotient
 - Q vs K
 - equilibrium state
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

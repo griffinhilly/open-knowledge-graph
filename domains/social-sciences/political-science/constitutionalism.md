@@ -18,7 +18,7 @@ tags:
 - constitutional design
 - rights
 - judicial review
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

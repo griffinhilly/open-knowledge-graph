@@ -16,7 +16,7 @@ tags:
 - double-bond
 - priority-rules
 - cahn-ingold-prelog
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

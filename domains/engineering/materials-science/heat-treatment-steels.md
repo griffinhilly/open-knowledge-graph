@@ -13,7 +13,7 @@ tags:
 - annealing
 - quenching
 - tempering
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

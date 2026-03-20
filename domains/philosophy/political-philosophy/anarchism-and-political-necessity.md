@@ -16,7 +16,7 @@ tags:
 - authority
 - legitimacy
 - cooperation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

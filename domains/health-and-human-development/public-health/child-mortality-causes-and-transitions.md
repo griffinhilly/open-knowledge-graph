@@ -15,7 +15,7 @@ tags:
 - child-mortality
 - development
 - disease-burden
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

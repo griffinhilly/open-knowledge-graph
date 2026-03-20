@@ -22,7 +22,7 @@ tags:
 - prion
 - neurodegeneration
 - aging
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

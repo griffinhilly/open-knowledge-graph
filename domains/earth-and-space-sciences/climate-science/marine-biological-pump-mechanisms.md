@@ -11,8 +11,7 @@ prerequisites:
 - id: ocean-layering-and-stratification
   type: soft
 builds-toward:
-- carbon-dioxide-ocean-circulation
-- marine-primary-productivity
+  - marine-primary-productivity
 tags:
 - biological-pump
 - carbon-flux
@@ -21,7 +20,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Marine Biological Pump Mechanisms and Efficiency
 
 ## Core Idea

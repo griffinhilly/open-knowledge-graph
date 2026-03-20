@@ -10,7 +10,7 @@ tags:
 - pricing-strategy
 - market-power
 - welfare
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

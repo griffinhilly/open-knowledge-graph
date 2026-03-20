@@ -17,7 +17,7 @@ tags:
 - popular-sovereignty
 - political-equality
 - collective-decision
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

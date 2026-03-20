@@ -15,7 +15,7 @@ tags:
 - exposition
 - backstory
 - craft
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

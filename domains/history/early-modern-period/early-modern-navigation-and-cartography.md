@@ -13,7 +13,7 @@ tags:
 - navigation
 - technology
 - cartography
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

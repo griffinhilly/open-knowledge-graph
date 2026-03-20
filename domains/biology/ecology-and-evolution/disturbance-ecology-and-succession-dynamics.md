@@ -15,7 +15,7 @@ tags:
 - succession
 - community
 - dynamics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

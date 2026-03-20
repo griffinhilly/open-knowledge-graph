@@ -15,7 +15,7 @@ tags:
 - independence
 - kingship
 - british-isles
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

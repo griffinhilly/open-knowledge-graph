@@ -21,7 +21,7 @@ tags:
 - effect-size
 - sample-size
 - design-planning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - heart
 - intercalated-disks
 - syncytium
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

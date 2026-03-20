@@ -20,7 +20,7 @@ tags:
 - warm-front
 - occluded-front
 - stationary-front
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

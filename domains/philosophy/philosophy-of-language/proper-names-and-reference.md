@@ -14,7 +14,7 @@ tags:
 - reference
 - Kripke
 - semantics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

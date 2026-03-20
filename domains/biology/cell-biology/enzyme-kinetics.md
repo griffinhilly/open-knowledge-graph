@@ -29,7 +29,7 @@ tags:
 - Km
 - inhibition
 - kinetics
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

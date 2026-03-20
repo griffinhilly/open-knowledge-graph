@@ -9,16 +9,14 @@ prerequisites:
 - id: chemical-equations-balancing
   type: hard
 builds-toward:
-- bond-energy-and-enthaly
-- reaction-coordinate-diagrams
+  - reaction-coordinate-diagrams
 tags:
 - Hess's Law
 - enthalpy
 - reaction pathways
-stage: formal-systems
+stage: advanced
 status: draft
 ---
-
 # Hess's Law and Enthalpy Calculation
 
 ## Core Idea

@@ -17,7 +17,7 @@ tags:
 - HPA axis
 - glucocorticoid
 - adaptation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

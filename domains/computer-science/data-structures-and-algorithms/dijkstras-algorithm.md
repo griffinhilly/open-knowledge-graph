@@ -23,7 +23,7 @@ tags:
 - Dijkstra
 - weighted-graph
 - greedy
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Dijkstra's Algorithm

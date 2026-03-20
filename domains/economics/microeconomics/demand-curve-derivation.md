@@ -14,7 +14,7 @@ tags:
 - price-consumption curve
 - individual demand
 - market demand
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Deriving the Demand Curve

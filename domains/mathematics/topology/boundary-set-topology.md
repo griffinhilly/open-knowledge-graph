@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - boundary
 - operators
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

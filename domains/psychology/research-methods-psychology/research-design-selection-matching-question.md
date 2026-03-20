@@ -18,7 +18,7 @@ tags:
 - research-questions
 - design-selection
 - tradeoffs
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

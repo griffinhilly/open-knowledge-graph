@@ -13,7 +13,7 @@ tags:
 - restoration
 - preservation
 - authenticity
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

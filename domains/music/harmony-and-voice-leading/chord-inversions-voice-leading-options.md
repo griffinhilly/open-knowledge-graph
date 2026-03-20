@@ -15,7 +15,7 @@ tags:
 - inversions
 - voice-leading
 - bass-line
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - contradiction
 - meaning
 - effect
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

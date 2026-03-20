@@ -15,7 +15,7 @@ tags:
 - classical
 - greek-drama
 - plot-device
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

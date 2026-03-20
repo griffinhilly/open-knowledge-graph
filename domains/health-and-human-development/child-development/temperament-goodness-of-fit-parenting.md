@@ -14,7 +14,7 @@ tags:
 - individual-differences
 - parental-responsiveness
 - goodness-of-fit
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

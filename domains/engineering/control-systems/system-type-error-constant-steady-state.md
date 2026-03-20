@@ -16,7 +16,7 @@ tags:
 - zero-steady-state-error
 - tracking
 - regulation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

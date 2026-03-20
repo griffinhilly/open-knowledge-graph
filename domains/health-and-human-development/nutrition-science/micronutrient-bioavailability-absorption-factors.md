@@ -17,7 +17,7 @@ tags:
 - minerals
 - bioavailability
 - absorption
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

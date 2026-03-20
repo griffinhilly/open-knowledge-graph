@@ -12,7 +12,7 @@ tags:
 - critical-point
 - phase-diagram
 - supercritical
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

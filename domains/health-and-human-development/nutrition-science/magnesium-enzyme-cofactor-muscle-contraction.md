@@ -15,7 +15,7 @@ tags:
 - atp
 - enzyme-cofactor
 - muscle-contraction
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

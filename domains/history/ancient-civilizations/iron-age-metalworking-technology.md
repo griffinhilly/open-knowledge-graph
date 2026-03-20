@@ -3,17 +3,18 @@ id: iron-age-metalworking-technology
 title: Iron Age Technology and Metalworking
 domain: history
 course: ancient-civilizations
-prerequisites: []
+prerequisites:
+- id: mesopotamia-origins
+  type: soft
 tags:
 - iron-age
 - technology
 - metalworking
 - tools
 - weapons
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Iron Age Technology and Metalworking
 
 ## Core Idea

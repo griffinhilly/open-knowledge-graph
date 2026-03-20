@@ -17,7 +17,7 @@ tags:
 - pruning
 - plasticity
 - development
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

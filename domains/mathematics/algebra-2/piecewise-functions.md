@@ -22,7 +22,7 @@ tags:
 - piecewise
 - graphing
 - domain
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Piecewise Functions

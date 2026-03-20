@@ -18,7 +18,7 @@ tags:
 - angle of reflection
 - normal
 - specular
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - holistic
 - interconnection
 - consistency
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

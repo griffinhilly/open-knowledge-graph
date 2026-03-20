@@ -26,7 +26,7 @@ tags:
 - planning
 - infrastructure
 - ancient-cities
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Urbanization in the Ancient World

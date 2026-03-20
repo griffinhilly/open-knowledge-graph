@@ -19,7 +19,7 @@ tags:
 - anecdote
 - engagement
 - illustration
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

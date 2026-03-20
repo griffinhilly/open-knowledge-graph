@@ -12,7 +12,7 @@ tags:
 - fallacies
 - popularity
 - informal
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

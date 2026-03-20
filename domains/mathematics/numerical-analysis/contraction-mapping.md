@@ -12,7 +12,7 @@ tags:
 - contraction-mapping
 - banach
 - fixed-point
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - economy
 - caribbean
 - plantation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

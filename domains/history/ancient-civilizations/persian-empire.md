@@ -19,7 +19,7 @@ tags:
 - darius
 - xerxes
 - empire
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

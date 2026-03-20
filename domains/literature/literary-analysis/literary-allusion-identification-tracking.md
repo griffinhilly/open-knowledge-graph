@@ -17,7 +17,7 @@ tags:
 - reference
 - intertextuality
 - analysis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - political-consolidation
 - unification
 - sovereignty
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

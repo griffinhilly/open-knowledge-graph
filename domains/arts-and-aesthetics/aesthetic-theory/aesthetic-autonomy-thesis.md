@@ -18,7 +18,7 @@ tags:
 - formalism
 - autonomy
 - aesthetic-theory
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - anomalies
 - demand-anomalies
 - giffen-veblen
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

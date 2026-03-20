@@ -17,7 +17,7 @@ tags:
 - countermotion
 - contrapuntal
 - independence
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

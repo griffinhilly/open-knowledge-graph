@@ -15,7 +15,7 @@ tags:
 - tropical
 - upper-level
 - dynamics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

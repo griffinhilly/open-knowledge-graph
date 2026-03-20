@@ -15,7 +15,7 @@ tags:
 - cities
 - development
 - power
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

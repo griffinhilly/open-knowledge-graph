@@ -21,6 +21,45 @@ status: draft
 ## Core Idea
 A number line represents numbers in order on a line, showing their sequence and spacing. Number lines help visualize addition and subtraction as movements and support skip-counting.
 
+## Questions
+
+```yaml
+- question: "You are at 7 on a number line and want to solve 7 + 4. What do you do?"
+  type: multiple-choice
+  options:
+    - "Jump directly to the number 4 on the number line"
+    - "Hop 4 places to the right, landing on 11"
+    - "Hop 4 places to the left, landing on 3"
+    - "Count back from 7 four times"
+  answer: 1
+  explanation: "Addition means moving to the right on a number line. Starting at 7 and taking 4 hops to the right brings you to 11. Option C is the subtraction direction — moving left means subtracting. The number line makes direction and movement the concrete meaning of the operation."
+
+- question: "What does a number line show that a simple list of numbers in counting order does NOT show?"
+  type: multiple-choice
+  options:
+    - "The names of each number from 0 to 20"
+    - "Which number comes right after any given number"
+    - "How far apart numbers are from each other"
+    - "That numbers always go from smallest to largest"
+  answer: 2
+  explanation: "A counting list tells you order (what comes next), but a number line also encodes distance. On a number line, the gap from 3 to 7 is visually the same size as the gap from 13 to 17 — both are 4 units. This distance information is what makes a number line useful for addition and subtraction, not just for knowing sequence."
+
+- question: "On a number line, the distance from 2 to 5 is the same as the distance from 14 to 17."
+  type: true-false
+  answer: true
+  explanation: "Both distances are exactly 3 units. This equal-spacing property is fundamental to the number line: numbers are evenly spaced, so the distance between any two numbers equals their difference, regardless of where they sit on the line. This is what makes the number line a reliable tool for arithmetic."
+
+- question: "On a number line, you move to the left to add a number and to the right to subtract a number."
+  type: true-false
+  answer: false
+  explanation: "This is reversed. Addition means moving to the right (toward larger numbers), and subtraction means moving to the left (toward smaller numbers). A common confusion is that 'going back' sounds like subtracting, but 'back' on a number line means left, which is indeed subtraction — the issue is applying this correctly. Adding always increases the value, so you move in the direction of bigger numbers: right."
+
+- question: "Why is a number line more useful than just knowing which number comes next when counting?"
+  type: short-answer
+  answer: "A number line shows how far apart numbers are, not just their order. It makes distances visible and turns addition into rightward movement and subtraction into leftward movement, so you can physically 'hop' to an answer and see magnitude at a glance."
+  explanation: "Knowing that 10 comes after 9 doesn't tell you that 10 is much farther from 1 than it is from 8. The number line encodes both order and magnitude. This spatial representation is what allows the number line to model arithmetic as movement, making it a foundational tool for understanding addition, subtraction, and eventually fractions and negative numbers."
+```
+
 ## Explainer
 
 You already know how to count from 0 all the way to 20 (your prerequisite). When you count — 1, 2, 3, 4... — you're already moving through numbers in order. The **number line** makes that movement visible by putting every number at a fixed spot on a straight line, equally spaced from its neighbors. Zero is all the way to the left. Twenty is all the way to the right. Every number in between has its own home, and the numbers are always in the same order, equally far apart.

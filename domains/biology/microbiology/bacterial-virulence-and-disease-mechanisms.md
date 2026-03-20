@@ -16,7 +16,7 @@ tags:
 - pathogenesis
 - disease
 - bacterial-factors
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

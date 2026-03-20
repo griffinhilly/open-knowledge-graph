@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - chemical-potential
 - mixtures
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

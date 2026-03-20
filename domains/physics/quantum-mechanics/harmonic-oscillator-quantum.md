@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - oscillator
 - exactly-solvable
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

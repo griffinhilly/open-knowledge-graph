@@ -16,7 +16,7 @@ tags:
 - attitudes
 - ABC model
 - classical conditioning
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

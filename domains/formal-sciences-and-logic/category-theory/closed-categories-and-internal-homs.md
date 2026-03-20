@@ -17,7 +17,7 @@ tags:
 - exponential-objects
 - internal-hom
 - curry-howard
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

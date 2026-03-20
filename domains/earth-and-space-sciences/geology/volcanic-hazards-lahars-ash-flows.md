@@ -10,7 +10,7 @@ tags:
 - volcanism
 - hazards
 - risk-assessment
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

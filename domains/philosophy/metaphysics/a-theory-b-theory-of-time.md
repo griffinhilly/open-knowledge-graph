@@ -15,7 +15,7 @@ tags:
 - eternalism
 - growing block
 - temporal ontology
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

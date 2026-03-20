@@ -26,6 +26,45 @@ Build composite shapes from unit cubes and practice counting. Then introduce dec
 - Using incorrect dimensions for one of the component prisms.
 - Subtracting volumes when they should be adding (or vice versa, depending on the problem setup).
 
+## Questions
+
+```yaml
+- question: "An L-shaped room is split vertically into two rectangular prisms: Prism A (4×3×2 m) and Prism B (2×3×2 m). A classmate instead splits it horizontally into Prism C (6×3×1 m) and Prism D (6×3×1 m). Which decomposition gives the correct total volume?"
+  type: multiple-choice
+  options:
+    - "Only the vertical split is correct — you must cut along the longest dimension"
+    - "Only the horizontal split is correct — horizontal layers match the unit-cube counting method"
+    - "Both decompositions are correct and will give the same total volume"
+    - "Neither is correct — you need to find the one decomposition the problem intends"
+  answer: 2
+  explanation: "Volume additivity means any valid decomposition into non-overlapping rectangular prisms produces the same total. The vertical split gives 24 + 12 = 36 m³; the horizontal split gives 18 + 18 = 36 m³. If two valid decompositions give different answers, you've made an arithmetic error, not a conceptual one. The existence of multiple valid cuts is a feature of the method, not a problem."
+
+- question: "A student finds the volume of a composite figure by computing Prism A (volume 30) + Prism B (volume 20), but the correct answer is 42. What error most likely explains the discrepancy?"
+  type: multiple-choice
+  options:
+    - "The student used the wrong formula for one of the prisms"
+    - "The student double-counted the layer of cubes shared at the seam between the two prisms"
+    - "The student forgot to include one of the two prisms"
+    - "The student measured height instead of width for one prism"
+  answer: 1
+  explanation: "30 + 20 = 50, not 42, which means the student overcounted by 8. The most characteristic error in decomposition is double-counting the layer of cubes at the boundary where two prisms meet. Those cubes lie on the shared face — they belong to one prism or the other, not both. The seam is a shared face, not a shared volume. If the shared face is 2×4, its layer of cubes has volume 8 — exactly the overcounting here."
+
+- question: "If you decompose a composite shape into non-overlapping rectangular prisms in two different ways, both valid, you will get the same total volume."
+  type: true-false
+  answer: true
+  explanation: "This is the principle of volume additivity: total volume equals the sum of non-overlapping parts, regardless of how the parts are chosen. As long as the sub-prisms together fill the original shape without overlap, any decomposition works. This is directly analogous to area additivity for composite flat shapes. If two valid decompositions give different answers, there is an arithmetic error in one of them."
+
+- question: "For a composite figure, there is exactly one correct way to decompose it into rectangular prisms."
+  type: true-false
+  answer: false
+  explanation: "Most composite shapes can be cut in multiple valid ways. An L-shape can be cut vertically or horizontally into two rectangular prisms. Both cuts are valid, and both give the same total volume. The key constraint is that the pieces must be non-overlapping and together fill the original shape. 'Correct' means satisfying that constraint — there is no unique correct cut."
+
+- question: "Why does decomposing a composite figure into non-overlapping rectangular prisms always give the correct total volume, no matter how many pieces you use or where you make the cuts?"
+  type: short-answer
+  answer: "Because volume is additive over non-overlapping regions. If two regions share no interior points, the volume of their union equals the sum of their individual volumes. This principle means you can partition a complex shape into any number of simpler pieces — as long as the pieces cover the whole shape without overlapping — and sum their volumes to get the total."
+  explanation: "This is the same additivity principle that lets you find the area of an L-shaped figure by adding the areas of two rectangles. Volume extends this into three dimensions. The formula l×w×h works for each rectangular piece; adding those products works because each cubic unit in the composite shape belongs to exactly one piece. Double-counting (overlapping pieces) is the only failure mode — it violates the 'non-overlapping' requirement."
+```
+
 ## Explainer
 
 You already know that the volume of a rectangular prism equals length × width × height (or equivalently, the area of the base times the height). You also understand volume as the count of unit cubes that pack into a space. This lesson extends both ideas to shapes that aren't simple boxes.

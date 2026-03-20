@@ -13,7 +13,7 @@ tags:
 - historiography
 - schools
 - traditions
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

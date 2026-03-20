@@ -14,7 +14,7 @@ tags:
 - extended-chords
 - voice-leading
 - harmony
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

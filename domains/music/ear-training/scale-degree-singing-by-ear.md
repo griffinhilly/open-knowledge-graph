@@ -16,7 +16,7 @@ tags:
 - singing
 - ear-training
 - scale-degrees
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

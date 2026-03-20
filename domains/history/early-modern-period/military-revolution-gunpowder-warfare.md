@@ -13,7 +13,7 @@ tags:
 - technology
 - military
 - state
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

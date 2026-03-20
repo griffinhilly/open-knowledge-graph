@@ -15,7 +15,7 @@ tags:
 - temporality
 - non-linearity
 - futurity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

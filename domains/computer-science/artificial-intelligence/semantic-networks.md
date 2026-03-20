@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: graph-theory-fundamentals
   type: soft
-builds-toward:
-- knowledge-graphs
+builds-toward: []
 tags:
 - knowledge-representation
 - conceptual-networks
@@ -17,7 +16,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Semantic Networks
 
 ## Core Idea

@@ -39,6 +39,45 @@ Write the same argumentative position for two different audiences — a sympathe
 - Persuasive writing and argumentative writing are the same; persuasive writing emphasizes emotional appeal and action, while academic argumentative writing prioritizes logos and evidence.
 - Stating your thesis more emphatically makes it more persuasive; clarity and support, not repetition or intensity, produce persuasion.
 
+## Questions
+
+```yaml
+- question: "A writer is making a controversial argument about immigration policy for an audience that strongly disagrees with her position. Which organizational strategy gives her the best chance of being heard?"
+  type: multiple-choice
+  options:
+    - "Classical arrangement — state her thesis immediately to establish confidence and clarity"
+    - "Rogerian arrangement — begin by accurately representing the opposing view, find common ground, then advocate her position"
+    - "Present the strongest counterargument last, after she has built up enough supporting evidence to overwhelm it"
+    - "Avoid acknowledging the opposing view, since doing so gives it unnecessary attention"
+  answer: 1
+  explanation: "For resistant audiences, Rogerian arrangement is more effective than classical arrangement because it demonstrates respect and understanding before asking the audience to reconsider. A resistant reader who sees their own view accurately represented — not strawmanned or dismissed — is more likely to remain open. By finding common ground first, the writer signals that she understands the complexity and is not simply dismissing the audience's concerns. Classical arrangement works well for undecided readers; Rogerian works for those who are already opposed. The choice of architecture is not a matter of preference but of audience analysis."
+
+- question: "A student argues that stating his thesis more emphatically — repeating it several times throughout the essay and ending with a dramatic restatement — will make his argument more persuasive. According to persuasive writing principles, this approach:"
+  type: multiple-choice
+  options:
+    - "Is correct — repetition reinforces the thesis and makes it more memorable for readers"
+    - "Is partially correct — emphasis is effective in conclusion paragraphs but should not appear in the body"
+    - "Is incorrect — persuasion comes from the quality of evidence and reasoning, not from forcefulness or repetition of assertion"
+    - "Depends on the audience — some readers respond to emphatic restatement while others prefer understatement"
+  answer: 2
+  explanation: "Asserting a thesis louder or more often does not make it more persuasive — it can actually backfire by making the writer seem insecure about the evidence or dismissive of the reader's intelligence. Persuasion is produced by the quality of evidence, the fairness of engagement with counterarguments, and the logical strength of the reasoning. A reader who has been given strong grounds to believe a claim needs no emphatic repetition; a reader who has not been given strong grounds will not be convinced by repetition alone. The misconception here mistakes intensity of assertion for strength of argument."
+
+- question: "Addressing counterarguments in a persuasive essay weakens the argument by drawing the reader's attention to objections they may not have considered on their own."
+  type: true-false
+  answer: false
+  explanation: "This is a common avoidance strategy that actually backfires. Readers who encounter only one side of a contested argument often sense the one-sidedness and trust the writer less. Writers who engage counterarguments honestly — refuting them, limiting their scope, or conceding a partial point while explaining why the main position still holds — demonstrate intellectual honesty and signal that they have genuinely wrestled with the complexity of the question. This builds the ethos (credibility) component of persuasion. Moreover, readers who already know the counterarguments will respect a writer who addresses them far more than one who ignores them. Counterargument engagement is a proof of seriousness, not a concession of defeat."
+
+- question: "The same argument — with the same evidence and logical structure — can be effective with one audience and ineffective with another, depending on how it is organized and how the appeals are calibrated."
+  type: true-false
+  answer: true
+  explanation: "Persuasion is fundamentally audience-specific. A Toulmin-structured argument that wins a philosophy seminar may alienate a community meeting; a Rogerian approach that works for a resistant editorial audience may feel unnecessarily deferential to an already-sympathetic one. This is because the rhetorical triangle places audience at the center of every persuasive act: the same claim, from the same speaker, lands differently depending on who is reading, what they already believe, and what relationship they have to the subject. The architecture, choice of evidence, balance of appeals, and even vocabulary should all be chosen with the specific audience's stance in mind."
+
+- question: "Why does engaging seriously with counterarguments strengthen a persuasive essay rather than weaken it?"
+  type: short-answer
+  answer: "Engaging counterarguments strengthens a persuasive essay in two ways. First, it builds ethos: a writer who represents opposing views fairly and then addresses them demonstrates intellectual honesty and signals that their position is the result of genuine deliberation, not the avoidance of difficulty. Readers trust this writer more than one who appears to have ignored competing evidence. Second, it actually strengthens the argument: by refuting objections, limiting their scope, or conceding secondary points while defending the core claim, the writer eliminates the most plausible reasons to reject the thesis. An essay that survives engagement with its best objections is more persuasive than one that never faced them."
+  explanation: "This is also why the strongest persuasive essays feel earned: the reader has watched the writer work through complexity and emerge with a considered position, rather than asserted one. Counterargument is not a concession — it is evidence that the thesis has been stress-tested and held up. Writers who avoid counterargument often do so from a misguided sense that acknowledging other views weakens their own, when in fact the opposite is true."
+```
+
 ## Explainer
 
 You already know the Toulmin model: a **claim** is backed by **grounds**, connected by a **warrant**, qualified by a **rebuttal**. You also know the rhetorical triangle: every piece of writing exists in the relationship among speaker, audience, and subject. Persuasive writing puts these two frameworks to work simultaneously. Every argument you construct through Toulmin must also pass the triangle test — does this claim land with *this* audience, from *this* speaker, on *this* subject? The argument that wins a philosophy seminar may alienate a town hall. Persuasion is always audience-specific.

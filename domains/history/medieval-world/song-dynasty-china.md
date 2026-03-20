@@ -18,7 +18,7 @@ tags:
 - gunpowder
 - commerce
 - neo-confucianism
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

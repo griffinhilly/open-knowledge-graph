@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - cauchy-sequences
 - convergence
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

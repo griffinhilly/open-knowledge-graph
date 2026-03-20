@@ -11,7 +11,7 @@ tags:
 - free-entry
 - zero-profit
 - competitive-equilibrium
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

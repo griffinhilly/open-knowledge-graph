@@ -22,7 +22,7 @@ tags:
 - tragedy
 - mimesis
 - plot
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Aristotelian Tragedy

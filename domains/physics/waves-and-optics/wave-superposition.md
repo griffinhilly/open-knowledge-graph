@@ -15,7 +15,7 @@ tags:
 - addition of waves
 - linear
 - displacement
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

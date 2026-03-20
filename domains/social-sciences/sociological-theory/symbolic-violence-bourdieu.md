@@ -6,8 +6,7 @@ course: sociological-theory
 prerequisites:
 - id: bourdieu-habitus
   type: hard
-builds-toward:
-- cultural-reproduction
+builds-toward: []
 tags:
 - bourdieu
 - symbolic-violence
@@ -17,7 +16,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Symbolic Violence
 
 ## Core Idea

@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: thermodynamic-property-diagrams
   type: hard
-builds-toward:
-- rankine-power-generation-cycles
+builds-toward: []
 tags:
 - steam-tables
 - property-diagrams
@@ -18,7 +17,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Using Steam Tables and Thermodynamic Diagrams
 
 ## Core Idea

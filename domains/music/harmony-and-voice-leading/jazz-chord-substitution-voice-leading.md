@@ -10,16 +10,14 @@ prerequisites:
   type: hard
 - id: voice-leading-principles
   type: hard
-builds-toward:
-- extended-harmony-voice-leading-handling
+builds-toward: []
 tags:
 - jazz
 - substitution
 - reharmonization
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Jazz Chord Substitution and Reharmonization
 
 ## Core Idea

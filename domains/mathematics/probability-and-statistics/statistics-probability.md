@@ -13,7 +13,7 @@ tags:
 - descriptive-statistics
 - bridge
 - relative-frequency
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # From Descriptive Statistics to Probability

@@ -12,18 +12,16 @@ prerequisites:
   type: soft
 - id: modal-logic-intro
   type: soft
-builds-toward:
-- causal-order-temporal-order
+builds-toward: []
 tags:
 - counterfactuals
 - modality
 - truth-conditions
 - causation
 - semantics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
-
 # Counterfactual Truth Conditions and Modal Metaphysics
 
 ## Core Idea

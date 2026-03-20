@@ -16,7 +16,7 @@ tags:
 - provocation
 - heat
 - frustration
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

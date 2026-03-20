@@ -18,7 +18,7 @@ tags:
 - electrophysiology
 - contraction
 - coronary-perfusion
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

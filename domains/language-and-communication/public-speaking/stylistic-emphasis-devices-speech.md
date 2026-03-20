@@ -14,7 +14,7 @@ tags:
 - style
 - devices
 - memorability
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

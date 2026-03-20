@@ -16,7 +16,7 @@ tags:
 - character
 - psychology
 - realism
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

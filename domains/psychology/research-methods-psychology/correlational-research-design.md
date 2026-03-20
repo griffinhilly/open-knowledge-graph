@@ -20,7 +20,7 @@ tags:
 - prediction
 - causation
 - third-variable-problem
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

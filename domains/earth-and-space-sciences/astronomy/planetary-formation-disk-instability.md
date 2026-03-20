@@ -12,7 +12,7 @@ tags:
 - planet-formation
 - disk-instability
 - direct-collapse
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

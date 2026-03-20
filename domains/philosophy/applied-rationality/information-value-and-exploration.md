@@ -9,7 +9,7 @@ prerequisites:
   - id: bayesian-thinking-in-practice
     type: soft
 tags: ["decision-theory", "information", "exploration", "exploitation", "VoI"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

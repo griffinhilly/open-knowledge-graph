@@ -13,7 +13,7 @@ tags:
 - empire
 - law
 - hammurabi
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

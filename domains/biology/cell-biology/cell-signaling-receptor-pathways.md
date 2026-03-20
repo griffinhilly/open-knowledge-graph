@@ -14,7 +14,7 @@ tags:
 - signaling
 - receptor
 - pathway
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

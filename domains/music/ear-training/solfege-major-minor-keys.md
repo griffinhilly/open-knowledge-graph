@@ -13,8 +13,7 @@ prerequisites:
 - id: movable-do-solfege
   type: soft
 builds-toward:
-- scale-degree-ear-identification
-- harmonic-function-root-movement-ear
+  - harmonic-function-root-movement-ear
 tags:
 - solfege
 - singing
@@ -23,10 +22,9 @@ tags:
 - relative-pitch
 - audiation
 - movable-do
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Solfège Training in Major and Minor Keys
 
 ## Core Idea

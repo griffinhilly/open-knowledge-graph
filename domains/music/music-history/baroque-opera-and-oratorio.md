@@ -17,7 +17,7 @@ tags:
 - recitative
 - aria
 - Camerata
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

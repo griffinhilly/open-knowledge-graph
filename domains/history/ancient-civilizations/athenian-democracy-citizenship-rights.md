@@ -13,7 +13,7 @@ tags:
 - democracy
 - citizenship
 - politics
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

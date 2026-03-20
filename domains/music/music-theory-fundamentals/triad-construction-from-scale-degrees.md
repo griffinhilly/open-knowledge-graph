@@ -18,7 +18,7 @@ tags:
 - harmony
 - scale-degrees
 - diatonic
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

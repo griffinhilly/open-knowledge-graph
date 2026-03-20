@@ -14,7 +14,7 @@ tags:
 - holy-war
 - justification
 - religion
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

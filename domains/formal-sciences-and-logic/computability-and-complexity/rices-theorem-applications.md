@@ -9,7 +9,7 @@ prerequisites:
 - id: undecidability-proof-by-reduction
   type: hard
 builds-toward:
-- undecidability-and-gödel
+- undecidability-and-godel
 tags:
 - rice-theorem
 - semantic-properties

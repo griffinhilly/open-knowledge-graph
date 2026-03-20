@@ -17,7 +17,7 @@ tags:
 - membrane-transport
 - water-balance
 - solutes
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

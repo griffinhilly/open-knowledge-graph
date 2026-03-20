@@ -18,7 +18,7 @@ tags:
 - audience-interaction
 - management
 - response
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Managing Q&A Sessions

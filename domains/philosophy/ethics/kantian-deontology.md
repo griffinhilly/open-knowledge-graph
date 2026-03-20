@@ -17,7 +17,7 @@ tags:
 - rationalism
 - autonomy
 - duty
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

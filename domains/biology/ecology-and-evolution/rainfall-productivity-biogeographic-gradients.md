@@ -17,7 +17,7 @@ tags:
 - productivity
 - diversity-gradient
 - biogeography
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

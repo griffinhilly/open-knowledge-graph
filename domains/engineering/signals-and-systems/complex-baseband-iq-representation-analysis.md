@@ -7,17 +7,15 @@ prerequisites:
 - id: modulation-amplitude-frequency-shift-keying
   type: hard
 builds-toward:
-- instantaneous-amplitude-and-frequency
-- bandpass-sampling-and-undersampling
+  - instantaneous-amplitude-and-frequency
 tags:
 - baseband
 - IQ
 - complex
 - representation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
-
 # Complex Baseband and In-Phase/Quadrature Representation
 
 ## Core Idea

@@ -18,7 +18,7 @@ tags:
 - financing
 - health-workforce
 - health-system-performance
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

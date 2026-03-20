@@ -15,17 +15,15 @@ prerequisites:
 - id: implicature-and-logical-form
   type: soft
 builds-toward:
-- unreliable-narrator-analysis
-- authorial-intent-inference
+  - authorial-intent-inference
 tags:
 - irony
 - analysis
 - type
 - meaning
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Analyzing Irony: Types, Function, and Effect
 
 ## Core Idea

@@ -34,6 +34,45 @@ Use anatomical references (écorché models, anatomy books) while drawing from l
 - Anatomy must be photographic to be correct; stylized proportion is equally valid.
 - You must memorize every muscle; learning major landmarks suffices.
 
+## Questions
+
+```yaml
+- question: "An artist draws a standing figure with all the weight shifted onto the right leg. The pelvis tilts down on the left (free) side. According to the principle of contrapposto, the ribcage should:"
+  type: multiple-choice
+  options:
+    - "Tilt down on the left as well, to match the pelvis and maintain symmetry"
+    - "Remain completely level, since the spine is rigid and doesn't transmit the tilt"
+    - "Tilt down on the right — the opposite direction from the pelvis — creating a compensating S-curve"
+    - "Rotate away from the viewer to show the figure is in motion"
+  answer: 2
+  explanation: "Contrapposto is the body's compensating response to weight shift: when the pelvis tilts one way along the flexible spine, the ribcage counterbalances by tilting in the opposite direction. This creates the characteristic S-curve visible in classical sculpture and figure drawing. Artists who don't understand this structure will draw figures that look stiff or impossibly balanced because the compensating relationship between pelvis and ribcage is the single biggest determinant of a pose's visual credibility."
+
+- question: "An art student asks why they need to learn muscle origins and insertions rather than just copying carefully from observation. The most accurate answer is:"
+  type: multiple-choice
+  options:
+    - "Anatomy terminology is required for communication with medical illustrators and life drawing instructors"
+    - "Knowing where a muscle attaches lets you predict what surface changes appear when it contracts, enabling accurate drawing of poses you've never directly observed"
+    - "You need to memorize all 600+ muscles to draw figures with professional accuracy"
+    - "Muscle names help you identify which areas of the figure to exaggerate for expressive effect"
+  answer: 1
+  explanation: "This is the functional payoff of anatomy study: predictive power. If you understand that the biceps origin is on the shoulder and insertion is on the forearm, you can deduce that contracting it flexes the elbow and creates a visible bulge mid-upper-arm. You can then draw a flexed arm accurately from any angle, including poses you've never seen. Pure observation without structural knowledge means you can only copy what's directly in front of you; anatomy lets you generalize to any pose."
+
+- question: "The proportional canon (7-8 head-lengths for the adult body) is a rigid law — deviating from it constitutes a drawing error that must be corrected."
+  type: true-false
+  answer: false
+  explanation: "The proportional canon is a scaffolding for error-checking, not a law of nature. Individual variation, age, sex, and stylistic choice all produce legitimate deviations. What the canon gives you is a baseline: if your figure's arms end at the knees rather than mid-thigh, you know something is probably wrong. But an artist deliberately elongating limbs for expressive effect, or drawing a stocky versus slender figure, is making valid choices. The topic explicitly states: 'Proportion is not rigid; variation makes figures individual and alive.'"
+
+- question: "Understanding the structural relationship between the ribcage, pelvis, and spine is more foundational for drawing dynamic poses than memorizing every individual muscle."
+  type: true-false
+  answer: true
+  explanation: "The ribcage-pelvis-spine relationship is the 'single biggest unlock for dynamic, believable poses' according to the explainer — and it makes sense structurally. Nearly every pose can be understood as a configuration of these three volumes connected by the flexible spine. Once you can see and draw this three-mass relationship convincingly, the figure reads as alive in space. Individual muscle knowledge adds refinement on top of this foundation, but without it, even accurate muscle rendering fails to produce convincing poses."
+
+- question: "What is the fundamental advantage of understanding anatomy over simply copying what you observe in a live model?"
+  type: short-answer
+  answer: "Anatomy gives you predictive power — the ability to draw convincing figures from imagination and in poses you've never directly observed. When you understand bone structure and the origin-insertion mechanics of muscles, you can deduce what the surface should look like in any configuration rather than depending on a reference being present."
+  explanation: "Pure observation is necessarily passive and dependent: you can only draw what's in front of you, and any deviation from observed reference introduces guesswork. Anatomy makes the artist active and generative: understanding *why* the body looks the way it does in a given pose means you can construct any pose from knowledge rather than waiting for a model to assume it. This is the difference between a craftsperson who can copy and an artist who can create."
+```
+
 ## Explainer
 
 From your figure drawing fundamentals, you know how to capture a pose with gesture and build basic forms. Now anatomy and proportion give you the structural knowledge to make those forms convincing — to understand *why* the body looks the way it does in a given pose, not just copy what you see. Think of anatomy as the blueprint underneath the surface: once you understand the architecture of bone and muscle, you can draw the figure from any angle, in any pose, even from imagination.

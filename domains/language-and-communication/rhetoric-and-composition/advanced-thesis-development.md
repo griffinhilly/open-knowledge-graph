@@ -31,6 +31,45 @@ Write an initial thesis, then revise it three times to become more specific and 
 ## Common Misconceptions
 A thesis should be a question, not a statement. / A thesis should introduce all main points upfront. / A thesis should appeal to everyone rather than stake a position.
 
+## Questions
+
+```yaml
+- question: "A student's initial thesis reads: 'Social media is harmful to teenagers.' After drafting her essay, she realizes she has argued specifically that image-comparison features harm adolescent girls' self-esteem more than mere exposure time does. The best course of action is:"
+  type: multiple-choice
+  options:
+    - "Keep the original thesis since it covers the essay's general topic"
+    - "Revise the thesis to match what the essay actually argues — something like 'Image-comparison features, not mere exposure time, drive disproportionate mental health harm in adolescent girls'"
+    - "Add more body paragraphs to broaden the essay to match the original thesis"
+    - "Add a parenthetical disclaimer clarifying 'especially for girls on certain platforms'"
+  answer: 1
+  explanation: "Advanced theses emerge through revision. Once drafting reveals what you actually argue, the thesis must be sharpened to match — not broadened to cover what you didn't argue. The revised thesis has specificity (a subgroup, a mechanism), complexity (design vs. exposure), and clear stakes. Keeping the vague original wastes everything the essay actually demonstrates."
+
+- question: "Which of the following is the strongest advanced thesis?"
+  type: multiple-choice
+  options:
+    - "'Climate change is a serious global problem that requires urgent action.'"
+    - "'Climate change affects many aspects of modern life.'"
+    - "'Although renewable energy adoption has accelerated, the persistence of fossil fuel subsidies suggests that market forces alone cannot achieve the emissions reductions required by 2050.'"
+    - "'Should we act on climate change? The answer is clearly yes.'"
+  answer: 2
+  explanation: "Option C has all three marks of an advanced thesis: specificity (fossil fuel subsidies as the mechanism), complexity (acknowledges the genuine progress of renewable adoption before complicating it), and clear stakes (the claim that markets alone are insufficient is contestable and consequential). Options A and B are too vague to be argued; option D is framed as a question and then collapses into an obvious answer."
+
+- question: "A strong advanced thesis should enumerate all of the essay's main supporting points upfront so the reader knows what to expect."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception that produces mechanical, list-like thesis statements. An advanced thesis makes one nuanced central claim with specificity and complexity — it does not preview every sub-argument. The essay's job is to develop the argument; the thesis's job is to state what argument is being made."
+
+- question: "Acknowledging a counterargument or concession within the thesis itself — using a structure like 'Although X, the more important factor is Y because...' — generally strengthens rather than weakens the argument."
+  type: true-false
+  answer: true
+  explanation: "A concession within the thesis signals intellectual honesty and names the complication the essay will need to address. It prevents body paragraphs from ignoring the strongest version of the opposing view and increases the writer's credibility. A thesis that preemptively accounts for the counterargument is already a stronger argument than one that pretends the counterargument doesn't exist."
+
+- question: "Why is the instruction 'write your thesis first, then support it' potentially misleading advice for developing an advanced thesis?"
+  type: short-answer
+  answer: "Most first-draft theses are too broad, too weak, or too settled because the writer hasn't yet discovered what they actually argue. The real argument emerges through drafting the body — working through evidence and reasoning reveals what the essay actually demonstrates. Once that is clear, the writer returns to the thesis and sharpens it to match. The best advanced theses are often written or rewritten last, functioning as precise summaries of a completed argument rather than initial commitments. Treating the thesis as fixed from the start prevents this necessary revision."
+  explanation: "This is the topic's deepest insight. Experienced writers treat the initial thesis as a working hypothesis, not a contract. The discipline of revision — discovering what you argued and then stating it precisely — is what separates an advanced thesis from a serviceable one."
+```
+
 ## Explainer
 
 From your foundational thesis work and your study of argumentative essay structure, you know that a thesis makes a claim and the body paragraphs develop and support that claim. At the introductory level, a thesis can be fairly simple: "Social media negatively affects adolescent mental health." It takes a position, it is arguable, it tells the reader what the essay will argue. That is sufficient for a short argumentative essay. Advanced thesis development asks: what makes a thesis not just acceptable but genuinely worth reading?

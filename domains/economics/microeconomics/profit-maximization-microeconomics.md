@@ -27,7 +27,7 @@ tags:
 - MR=MC
 - economic profit
 - marginal revenue
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Profit Maximization

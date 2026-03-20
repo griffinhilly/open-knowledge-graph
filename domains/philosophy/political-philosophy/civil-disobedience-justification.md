@@ -12,7 +12,7 @@ tags:
 - civil-disobedience
 - resistance
 - justice
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

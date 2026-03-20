@@ -29,6 +29,45 @@ Work through Putnam's thought experiments about XYZ (a substance chemically iden
 ## Common Misconceptions
 Externalism denies the existence of internal representational states—externalism claims internal states don't determine content; internal states still exist. Putnam proved externalism is true—he presented influential arguments, but internalists offer replies and alternative theories.
 
+## Questions
+
+```yaml
+- question: "On Twin Earth, XYZ is superficially identical to water but chemically different. In 1750, an Earthling and their Twin Earth counterpart are psychologically identical — same beliefs, same experiences — and both use the word 'water.' Putnam concludes:"
+  type: multiple-choice
+  options:
+    - "They mean the same thing, since meaning is determined by internal mental states which are identical"
+    - "Their words 'water' have different extensions — one refers to H₂O, the other to XYZ — despite their identical mental states"
+    - "Neither person really refers to anything, since chemistry hadn't yet discovered the difference"
+    - "The Earthling's 'water' refers to both H₂O and XYZ, since the terms were indistinguishable at the time"
+  answer: 1
+  explanation: "This is the core conclusion of the Twin Earth argument: same mental state, different reference. The Earthling's 'water' tracks H₂O (the substance in their environment), and the Twin Earther's tracks XYZ. Because their mental states are identical yet their words refer to different things, mental states alone cannot determine meaning and reference. Something outside the head — the actual nature of the substance — is doing the semantic work."
+
+- question: "Putnam says we 'divide the linguistic labor' with respect to natural kind terms. This means:"
+  type: multiple-choice
+  options:
+    - "Expert and non-expert speakers use natural kind terms with different, incompatible meanings"
+    - "Most speakers don't need to know the chemical or scientific nature of what they refer to — their words defer to experts whose knowledge fixes the extension for the whole community"
+    - "Only chemists and scientists can use natural kind terms with genuine reference"
+    - "Natural kind terms should be replaced with technical vocabulary to avoid ambiguity"
+  answer: 1
+  explanation: "The division of linguistic labor explains how ordinary speakers can competently use words like 'gold' or 'water' without personally knowing the science. When you say 'that ring is gold,' your word 'gold' refers to whatever the experts determine gold really is (atomic number 79), even if you couldn't pass a chemistry test. Reference is socially distributed — the community defers to the relevant experts, and this collective practice fixes the extension. Your individual ignorance doesn't prevent you from referring correctly."
+
+- question: "According to Putnam's semantic externalism, two people with exactly the same internal mental states must have words with exactly the same meaning and reference."
+  type: true-false
+  answer: false
+  explanation: "This is precisely what the Twin Earth thought experiment refutes. The Earthling and Twin Earther are molecule-for-molecule identical — same mental states, same internal representations — yet their word 'water' has different extensions (H₂O vs. XYZ). If meanings were entirely in the head, identical mental states would guarantee identical meanings. The fact that they don't is Putnam's key evidence that external, worldly facts co-determine meaning."
+
+- question: "Putnam's argument implies that natural kind terms like 'water' refer to the underlying nature of a substance (discovered by science), not merely to the observable descriptions speakers associate with it."
+  type: true-false
+  answer: true
+  explanation: "This is the direct reference component of semantic externalism. 'Water' doesn't mean 'the clear, tasteless liquid we drink' — it refers to whatever stuff our samples of water actually are, which science discovered to be H₂O. The reference was fixed by ostension ('that stuff') and then tracks the underlying nature. This explains why 'water is H₂O' is a discovery rather than a definition: we weren't just unpacking our mental concept, we were learning what water really is."
+
+- question: "What is the philosophical significance of the Twin Earth thought experiment? What does it show — or strongly suggest — about how meaning and reference work?"
+  type: short-answer
+  answer: "It suggests that meaning cannot be entirely determined by what is in the speaker's head. Two mentally identical people can have words with different extensions if their environments differ, showing that external, worldly facts (what the substance actually is) partly constitute meaning. This challenges the internalist view that meaning is purely a function of the speaker's internal mental or descriptive content."
+  explanation: "The thought experiment's force comes from the combination of: (1) stipulating identical mental states, and (2) showing different reference — which proves the mental states alone cannot be what fixes reference. The conclusion — 'meanings ain't in the head' — redirects philosophical attention from the speaker's mind to the world the speaker is embedded in. This has ripple effects in philosophy of mind (is mental content also externally determined?), epistemology (can you know your own thoughts by introspection?), and theory of reference."
+```
+
 ## Explainer
 
 From your study of meaning and reference, you know that words refer to things in the world — "water" refers to water, "Aristotle" refers to Aristotle. The classical view of how this works, going back at least to Frege, is that reference is mediated by **sense** or **descriptive content** in the mind of the speaker: you refer to Aristotle because you associate the name with a description ("the teacher of Alexander," "the author of the Nicomachean Ethics") that uniquely picks him out. On this picture, what your words mean is determined by what's in your head. Putnam's semantic externalism is a systematic attack on this picture.

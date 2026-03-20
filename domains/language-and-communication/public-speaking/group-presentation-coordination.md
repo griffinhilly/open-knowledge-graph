@@ -14,7 +14,7 @@ tags:
 - coordination
 - transitions
 - rehearsal
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

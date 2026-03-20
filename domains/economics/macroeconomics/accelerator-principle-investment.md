@@ -14,7 +14,7 @@ tags:
 - investment
 - output
 - acceleration
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

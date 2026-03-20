@@ -18,7 +18,7 @@ tags:
 - direct-modulation
 - sequential-modulation
 - enharmonic-modulation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Modulation Techniques

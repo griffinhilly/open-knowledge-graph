@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - regular
 - t3
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

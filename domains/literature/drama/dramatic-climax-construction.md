@@ -19,7 +19,7 @@ tags:
 - tension
 - payoff
 - peak-moment
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

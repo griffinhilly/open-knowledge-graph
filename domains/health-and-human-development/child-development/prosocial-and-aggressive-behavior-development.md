@@ -16,7 +16,7 @@ tags:
 - prosocial-behavior
 - empathy
 - behavior-development
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

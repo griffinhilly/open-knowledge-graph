@@ -17,7 +17,7 @@ tags:
 - geometry
 - design
 - streamline
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - meter
 - stress-patterns
 - old-english
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

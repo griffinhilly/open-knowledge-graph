@@ -15,7 +15,7 @@ tags:
 - respiration
 - atp
 - energy
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

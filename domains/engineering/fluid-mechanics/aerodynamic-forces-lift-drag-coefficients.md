@@ -13,7 +13,7 @@ tags:
 - lift
 - drag
 - coefficients
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

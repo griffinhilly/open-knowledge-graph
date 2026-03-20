@@ -9,8 +9,7 @@ prerequisites:
 - id: thermodynamic-processes
   type: hard
 builds-toward:
-- ts-diagram-entropy-temperature
-- pv-diagram-interpretation
+  - ts-diagram-entropy-temperature
 tags:
 - cycles
 - steam-power
@@ -18,7 +17,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # The Rankine Cycle and Steam Power Plants
 
 ## Core Idea

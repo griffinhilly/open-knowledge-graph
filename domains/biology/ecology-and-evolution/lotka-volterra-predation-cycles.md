@@ -19,7 +19,7 @@ tags:
 - population-dynamics
 - cycles
 - oscillation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

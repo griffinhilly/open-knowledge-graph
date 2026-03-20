@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: imagery-in-poetry
   type: soft
-builds-toward:
-- aubade-dawn-greeting-poem
+builds-toward: []
 tags:
 - nocturne
 - night
@@ -17,10 +16,9 @@ tags:
 - introspection
 - mystery
 - moon
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Nocturne: The Night Poem
 
 ## Core Idea

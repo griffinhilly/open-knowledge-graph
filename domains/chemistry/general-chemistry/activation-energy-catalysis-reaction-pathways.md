@@ -15,7 +15,7 @@ tags:
 - catalyst
 - reaction-pathway
 - kinetics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

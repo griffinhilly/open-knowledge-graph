@@ -18,7 +18,7 @@ tags:
 - rotation
 - dynamics
 - convection
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

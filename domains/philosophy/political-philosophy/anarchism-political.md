@@ -14,7 +14,7 @@ tags:
 - Wolff
 - legitimacy
 - statelessness
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

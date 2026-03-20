@@ -14,7 +14,7 @@ tags:
 - method
 - inquiry
 - reasoning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

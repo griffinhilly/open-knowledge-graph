@@ -20,7 +20,7 @@ tags:
 - call stack
 - self-reference
 - induction
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

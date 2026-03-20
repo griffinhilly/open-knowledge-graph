@@ -15,7 +15,7 @@ tags:
 - electronegativity
 - bond polarity
 - polar covalent
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

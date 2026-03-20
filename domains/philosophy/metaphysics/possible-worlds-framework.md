@@ -17,7 +17,7 @@ tags:
 - modality
 - necessity
 - semantics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

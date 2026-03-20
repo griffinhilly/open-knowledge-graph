@@ -15,7 +15,7 @@ tags:
 - multiplication-readiness
 - grouping
 - equal-groups
-stage: pre-formal
+stage: concrete-operations
 status: draft
 ---
 
@@ -23,6 +23,45 @@ status: draft
 
 ## Core Idea
 Groups are equal when they have the same number of objects. Three groups of 2 apples each is 'equal groups.' Seeing 2 + 2 + 2 as 'three groups of 2' introduces the idea that repeated equal groups lead to multiplication, a bridge from addition.
+
+## Questions
+
+```yaml
+- question: "Three bags each contain 4 apples. Which mathematical sentence best captures the STRUCTURE of this equal-groups situation?"
+  type: multiple-choice
+  options:
+    - "4 + 3 = 7 — because there are 4 apples and 3 bags"
+    - "4 + 4 + 4 = 12 — because the same group size (4) is repeated once for each of the 3 groups"
+    - "3 + 3 + 3 + 3 = 12 — because we add the number of bags four times"
+    - "12 ÷ 3 = 4 — because division reveals the group size"
+  answer: 1
+  explanation: "Three groups of 4 means the number 4 is repeated 3 times: 4 + 4 + 4 = 12. The addend (4) is the group size, and the number of repetitions (3) is the number of groups. Option C (3 + 3 + 3 + 3) represents 4 groups of 3, which gives the same total but reverses the roles. Identifying the group size and the number of groups — not just the total — is the structural insight that makes equal groups the bridge to multiplication."
+
+- question: "What is the key difference between simply seeing '12 counters' and seeing '4 groups of 3 counters'?"
+  type: multiple-choice
+  options:
+    - "There is no mathematical difference — both describe the same 12 objects"
+    - "Seeing equal groups reads the mathematical structure (same-size units) rather than just the total quantity"
+    - "Seeing groups is only useful when the groups are different colors or shapes"
+    - "Seeing 12 counters is more accurate because you count every object individually"
+  answer: 1
+  explanation: "Seeing 12 objects is just counting a quantity. Seeing 4 groups of 3 is reading the organization — recognizing that the 12 is structured as four same-size units of 3. This structural reading is the foundation of multiplication. The same 12 objects can be arranged as 4 groups of 3, 3 groups of 4, 6 groups of 2, or 2 groups of 6, each revealing a different multiplicative relationship. Multiplication is about structure, not just quantity."
+
+- question: "The addition sentence 5 + 5 + 5 = 15 can be described as '3 groups of 5' because the number 5 appears three times."
+  type: true-false
+  answer: true
+  explanation: "Equal groups and repeated addition are two descriptions of the same situation. When you add the same number repeatedly, you have equal groups: the number being added is the group size, and the number of repetitions is the number of groups. 5 + 5 + 5 = 15 is exactly 3 equal groups of 5. This equivalence is the conceptual bridge between addition and multiplication."
+
+- question: "The addition sentence 2 + 4 + 2 + 4 = 12 is an example of equal groups because the total (12) can be evenly divided into groups."
+  type: true-false
+  answer: false
+  explanation: "Equal groups means EVERY group has the SAME number of objects. The addition 2 + 4 + 2 + 4 mixes groups of size 2 and groups of size 4 — the groups are unequal. Equal groups require one repeated addend: 3 + 3 + 3 + 3 = 12 is 4 equal groups of 3. The equality of group size is what defines the concept and what makes the connection to multiplication possible."
+
+- question: "Why does the equal groups concept matter for learning multiplication later? What is the connection between 'seeing equal groups' and the multiplication expression 3 × 4?"
+  type: short-answer
+  answer: "When all groups are the same size, addition becomes structured — you add the same number over and over. 3 × 4 means '3 groups of 4,' which is the same as 4 + 4 + 4. Multiplication captures that repeated, structured addition in a single compact expression. Without understanding equal groups, multiplication is just a memorized trick rather than a meaningful operation."
+  explanation: "Multiplication is not invented from scratch — it is shorthand for repeated addition of equal-sized groups. The transition only makes sense if students understand equal groups: why write 3 × 4 unless you already recognize 4 + 4 + 4 as 'three groups of 4'? Equal groups is the conceptual foundation that gives multiplication meaning and makes later fact memorization feel coherent rather than arbitrary."
+```
 
 ## Explainer
 

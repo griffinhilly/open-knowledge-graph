@@ -16,7 +16,7 @@ tags:
 - angle-condition
 - magnitude-condition
 - locus
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

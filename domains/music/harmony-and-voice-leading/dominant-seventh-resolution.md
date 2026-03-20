@@ -19,7 +19,7 @@ tags:
 - resolution
 - leading-tone
 - tritone
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

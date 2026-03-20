@@ -17,7 +17,7 @@ tags:
 - kernels
 - images
 - homology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

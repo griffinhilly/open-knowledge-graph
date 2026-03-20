@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: corporate-bond-credit-spreads
   type: soft
-builds-toward:
-- credit-analysis-bond-selection
+builds-toward: []
 tags:
 - credit-risk
 - default
@@ -18,7 +17,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Default Probability and Recovery Rate Estimation
 
 ## Core Idea

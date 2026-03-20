@@ -17,7 +17,7 @@ tags:
 - fiscal-policy
 - monetary-policy
 - interest-rates
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

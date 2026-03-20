@@ -25,7 +25,7 @@ tags:
 - probability
 - composition
 - algorithm
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - metalanguage
 - pragmatics
 - word-meaning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

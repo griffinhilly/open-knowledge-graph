@@ -19,7 +19,7 @@ tags:
 - well-made-play
 - experimental
 - architecture
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

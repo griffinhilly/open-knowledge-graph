@@ -16,7 +16,7 @@ tags:
 - Marcus-Aurelius
 - Seneca
 - living-according-to-nature
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

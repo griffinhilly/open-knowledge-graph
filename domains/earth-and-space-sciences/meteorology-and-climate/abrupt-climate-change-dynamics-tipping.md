@@ -15,7 +15,7 @@ tags:
 - abrupt-change
 - tipping-points
 - nonlinear
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

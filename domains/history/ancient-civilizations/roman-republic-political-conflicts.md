@@ -3,7 +3,9 @@ id: roman-republic-political-conflicts
 title: 'The Roman Republic: Class Conflict and Constitutional Development'
 domain: history
 course: ancient-civilizations
-prerequisites: []
+prerequisites:
+- id: roman-empire-rise
+  type: soft
 builds-toward:
 - roman-legal-code-justice-system
 tags:
@@ -12,10 +14,9 @@ tags:
 - politics
 - conflict
 - constitution
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # The Roman Republic: Class Conflict and Constitutional Development
 
 ## Core Idea

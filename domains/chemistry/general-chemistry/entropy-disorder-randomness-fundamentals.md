@@ -15,7 +15,7 @@ tags:
 - disorder
 - randomness
 - second-law
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

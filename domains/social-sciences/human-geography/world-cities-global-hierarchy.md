@@ -25,7 +25,7 @@ tags:
 - urban hierarchy
 - command and control
 - GaWC
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # World Cities and the Global Urban Hierarchy

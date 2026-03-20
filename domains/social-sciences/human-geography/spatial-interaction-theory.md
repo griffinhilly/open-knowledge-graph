@@ -37,7 +37,7 @@ tags:
 - complementarity
 - transferability
 - connectivity
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Spatial Interaction and the Gravity Model

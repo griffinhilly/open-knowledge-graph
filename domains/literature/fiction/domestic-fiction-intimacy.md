@@ -16,7 +16,7 @@ tags:
 - intimate
 - interior
 - relationships
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

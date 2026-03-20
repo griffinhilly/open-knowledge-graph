@@ -14,7 +14,7 @@ tags:
 - structural-inequality
 - justice
 - sdoh
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

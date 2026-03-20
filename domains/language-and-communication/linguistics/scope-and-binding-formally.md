@@ -12,7 +12,7 @@ tags:
 - semantics
 - scope
 - binding
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

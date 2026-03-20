@@ -14,7 +14,7 @@ tags:
 - urban
 - urbanization
 - interdependence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

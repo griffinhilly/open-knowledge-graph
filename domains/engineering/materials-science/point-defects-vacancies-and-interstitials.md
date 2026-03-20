@@ -17,7 +17,7 @@ tags:
 - vacancies
 - interstitials
 - thermodynamics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

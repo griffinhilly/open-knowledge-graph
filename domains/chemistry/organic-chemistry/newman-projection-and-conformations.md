@@ -19,7 +19,7 @@ tags:
 - staggered
 - eclipsed
 - 3d-visualization
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

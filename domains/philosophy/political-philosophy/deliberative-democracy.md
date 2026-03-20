@@ -16,7 +16,7 @@ tags:
 - public-reason
 - Rawls
 - legitimacy
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

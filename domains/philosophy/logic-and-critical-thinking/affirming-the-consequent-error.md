@@ -16,7 +16,7 @@ tags:
 - fallacies
 - deductive-errors
 - conditionals
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

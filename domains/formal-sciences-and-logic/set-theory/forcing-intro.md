@@ -18,7 +18,7 @@ tags:
 - independence
 - continuum hypothesis
 - forcing conditions
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

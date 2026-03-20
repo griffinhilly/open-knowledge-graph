@@ -16,7 +16,7 @@ tags:
 - pitch
 - acoustics
 - fundamentals
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

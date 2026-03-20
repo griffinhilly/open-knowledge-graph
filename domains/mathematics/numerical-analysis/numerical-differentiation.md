@@ -14,7 +14,7 @@ tags:
 - differentiation
 - finite-difference
 - numerical
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

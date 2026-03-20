@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - functional-analysis
 - operators
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

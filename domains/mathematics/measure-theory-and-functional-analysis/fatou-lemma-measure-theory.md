@@ -10,7 +10,7 @@ builds-toward:
 - dominated-convergence-theorem
 tags:
 - convergence-theorems
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

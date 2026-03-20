@@ -14,7 +14,7 @@ tags:
 - nuclear
 - radioactivity
 - decay
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

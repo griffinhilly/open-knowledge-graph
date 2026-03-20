@@ -17,7 +17,7 @@ tags:
 - adaptation
 - demographics
 - context
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - preschool
 - mentalization
 - perspective-taking
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

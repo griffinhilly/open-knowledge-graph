@@ -17,7 +17,7 @@ tags:
 - absorption-window
 - bioavailability
 - digestive-function
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

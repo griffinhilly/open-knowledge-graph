@@ -12,7 +12,7 @@ tags:
 - imaginative-play
 - cognitive-development
 - creativity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

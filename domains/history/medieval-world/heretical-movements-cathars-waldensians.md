@@ -12,7 +12,7 @@ tags:
 - waldensians
 - sects
 - dissent
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -20,7 +20,7 @@ tags:
 - warm-front
 - frontogenesis
 - dynamics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

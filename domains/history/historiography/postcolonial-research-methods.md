@@ -9,8 +9,7 @@ prerequisites:
 - id: historical-methodology-systems
   type: soft
 builds-toward:
-- subaltern-historiography
-- indigenous-historiography
+  - subaltern-historiography
 tags:
 - postcolonial
 - methodology
@@ -19,7 +18,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Postcolonial Approaches to Historical Research
 
 ## Core Idea

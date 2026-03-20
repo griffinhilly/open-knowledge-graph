@@ -23,7 +23,7 @@ tags:
 - process
 - externalism
 - generality-problem
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Process Reliabilism

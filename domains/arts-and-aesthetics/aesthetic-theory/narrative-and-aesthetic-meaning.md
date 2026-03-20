@@ -19,7 +19,7 @@ tags:
 - meaning
 - story
 - reception
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - inflation-bias
 - credibility
 - policy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

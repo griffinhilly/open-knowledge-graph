@@ -9,18 +9,16 @@ prerequisites:
 - id: five-act-structure
   type: soft
 builds-toward:
-- dramatic-climax-construction
-- scene-beats-and-structure
+  - scene-beats-and-structure
 tags:
 - tension
 - pacing
 - suspense
 - structure
 - audience-engagement
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Dramatic Tension and Suspense Management
 
 ## Core Idea

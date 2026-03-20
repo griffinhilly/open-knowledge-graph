@@ -18,7 +18,7 @@ tags:
 - experimental-bias
 - double-blind
 - observer-bias
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

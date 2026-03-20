@@ -14,7 +14,7 @@ tags:
 - percent yield
 - actual yield
 - efficiency
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - homotopy
 - algebraic-topology
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

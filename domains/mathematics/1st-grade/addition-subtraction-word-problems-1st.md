@@ -27,6 +27,45 @@ Students apply addition and subtraction facts to solve word problems that descri
 ## How It's Best Learned
 Start with simple problems, use manipulatives to act out the situation, draw pictures, and discuss different solution strategies. Use consistent problem-solving steps and language.
 
+## Questions
+
+```yaml
+- question: "Lena had 15 books. She gave some away and now has 9. A student says the answer is 15 + 9 = 24 because they see two numbers. What should the student do instead?"
+  type: multiple-choice
+  options:
+    - "The student is correct: 15 + 9 = 24 books given away"
+    - "Subtract: 15 − 9 = 6 books given away, because the collection is shrinking"
+    - "More information is needed before solving"
+    - "Multiply, because two different amounts are mentioned"
+  answer: 1
+  explanation: "Lena started with more books and now has fewer — the collection shrank. That always signals subtraction, regardless of what numbers appear or where. The mistake of adding both numbers in the problem is extremely common; the fix is to ask 'is the amount growing or shrinking?' before writing any equation."
+
+- question: "Which of these situations calls for subtraction?"
+  type: multiple-choice
+  options:
+    - "A jar has 8 marbles. You add 4 more. How many are in the jar?"
+    - "There are 12 birds on a fence. 5 fly away. How many are left?"
+    - "Tom has 3 red blocks and 6 blue blocks. How many blocks altogether?"
+    - "Maya earns 5 stickers Monday and 7 Tuesday. How many does she have?"
+  answer: 1
+  explanation: "Birds flying away reduces the group — the amount is shrinking — so you subtract: 12 − 5 = 7. The other three situations all combine or accumulate amounts, which means addition. The key question is always: is the total amount getting bigger (add) or smaller (subtract)?"
+
+- question: "A word problem that asks 'how many are left?' always requires subtraction."
+  type: true-false
+  answer: true
+  explanation: "'How many are left?' means something was removed or used, so the quantity shrank. That reliably signals subtraction. Recognizing these situation cues helps you connect the real-world story to the correct operation."
+
+- question: "If you see the word 'more' in a word problem, you should always add."
+  type: true-false
+  answer: false
+  explanation: "'More' can signal different operations depending on the situation. 'She got 4 more' means addition, but 'How many more does A have than B?' is a comparison requiring subtraction (A − B). The word alone isn't enough — you must understand what is happening in the story."
+
+- question: "Jake had 6 apples. His friend gave him some more. Now Jake has 10 apples. How many did his friend give him? Explain how you decide whether to add or subtract, and write the equation."
+  type: short-answer
+  answer: "The friend gave Jake 4 apples. The missing piece is what was added, so: 6 + ? = 10, or equivalently 10 − 6 = 4."
+  explanation: "Jake's collection grew (he received more), so the situation involves addition — but the 'added' amount is missing, not the total. You can think of this as a missing-addend problem: 6 + ? = 10. Subtracting the known part from the total (10 − 6 = 4) finds the missing part. Drawing the situation or acting it out with objects helps reveal the structure before writing the equation."
+```
+
 ## Explainer
 
 You already know how to **add within 20** and **subtract within 20** — you can solve problems like 8 + 5 or 14 − 6 when you see the numbers written out. Word problems are the next step: instead of being given the numbers and the operation sign, you are given a story, and you have to figure out which numbers to use and whether to add or subtract. This is a different kind of thinking, and it is one of the most important skills in mathematics — turning a real situation into a math problem.

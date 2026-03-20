@@ -21,7 +21,7 @@ tags:
 - Pareto
 - deadweight loss
 - policy
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Welfare Analysis

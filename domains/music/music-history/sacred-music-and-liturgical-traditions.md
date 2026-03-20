@@ -16,7 +16,7 @@ tags:
 - vocal-music
 - tradition
 - polyphony
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

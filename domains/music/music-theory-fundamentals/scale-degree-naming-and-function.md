@@ -15,7 +15,7 @@ tags:
 - degrees
 - function
 - tonality
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

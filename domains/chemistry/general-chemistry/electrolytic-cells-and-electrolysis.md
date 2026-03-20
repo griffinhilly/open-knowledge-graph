@@ -15,7 +15,7 @@ tags:
 - electrolysis
 - electrolytic cells
 - non-spontaneous
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

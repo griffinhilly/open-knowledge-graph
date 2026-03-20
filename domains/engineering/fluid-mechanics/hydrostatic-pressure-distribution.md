@@ -15,7 +15,7 @@ tags:
 - statics
 - pressure
 - hydrostatics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

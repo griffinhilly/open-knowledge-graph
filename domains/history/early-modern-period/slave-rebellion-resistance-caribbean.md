@@ -15,7 +15,7 @@ tags:
 - slavery
 - caribbean
 - agency
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

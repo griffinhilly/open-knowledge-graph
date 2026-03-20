@@ -10,7 +10,7 @@ tags:
 - dispersion
 - optics
 - wavelength
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

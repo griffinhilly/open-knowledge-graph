@@ -15,7 +15,7 @@ tags:
 - weber
 - sacred-profane
 - civil-religion
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - shamanism
 - specialists
 - ritual-practitioners
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

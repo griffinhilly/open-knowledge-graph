@@ -8,16 +8,14 @@ prerequisites:
   type: hard
 - id: directed-acyclic-graphs
   type: hard
-builds-toward:
-- depth-first-search-graphs
+builds-toward: []
 tags:
 - directed-graphs
 - ordering
 - algorithms
-stage: formal-systems
+stage: advanced
 status: draft
 ---
-
 # Topological Sorting and Ordering
 
 ## Core Idea

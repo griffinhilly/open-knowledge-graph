@@ -19,7 +19,7 @@ tags:
 - galactic-center
 - Sagittarius-A-star
 - dark-matter-halo
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

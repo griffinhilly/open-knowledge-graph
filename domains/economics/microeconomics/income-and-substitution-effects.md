@@ -15,7 +15,7 @@ tags:
 - substitution effect
 - Slutsky decomposition
 - Giffen goods
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 
@@ -30,6 +30,45 @@ Use the Slutsky decomposition graphically: draw the original optimum, the compen
 ## Common Misconceptions
 - Students often forget that the substitution effect is always negative for a price increase; the sign of the total effect depends on the income effect.
 - Giffen goods are real but extremely rare — the logic requires a strongly inferior good that consumes a large share of budget.
+
+## Questions
+
+```yaml
+- question: "A very poor household spends most of its income on a staple food (potatoes). The price of potatoes falls significantly. According to the income and substitution effects framework, which outcome is theoretically possible?"
+  type: multiple-choice
+  options:
+    - "The household definitely buys more potatoes — the substitution effect always dominates"
+    - "The household buys less potatoes — the real income gain allows them to afford better food, and the income effect outweighs the substitution effect"
+    - "The household buys exactly the same amount — the two effects always cancel for staple foods"
+    - "The income effect cannot apply to goods that take up a large budget share"
+  answer: 1
+  explanation: "This is the Giffen good scenario. When a staple consumes a large share of income, a price drop generates a substantial real income gain. For an inferior good (one consumers buy less of as they grow richer), this income gain causes them to shift toward preferred foods. If the income effect is large enough to outweigh the substitution effect (which always points toward buying more), quantity demanded of potatoes actually falls. This gives an upward-sloping demand curve — unusual but logically coherent once you decompose the effects."
+
+- question: "The substitution effect of a price decrease is:"
+  type: multiple-choice
+  options:
+    - "Always positive (more quantity demanded), regardless of whether the good is normal or inferior"
+    - "Positive for normal goods, negative for inferior goods"
+    - "Zero for inferior goods — substitution only applies to normal goods"
+    - "Determined by the direction of the income effect for that good"
+  answer: 0
+  explanation: "The substitution effect is always unambiguous in sign: when price falls, the good is relatively cheaper than alternatives, so consumers substitute toward it — regardless of whether it is normal or inferior. The substitution effect measures movement along a single indifference curve (holding utility constant), reflecting pure relative price changes. It is the income effect whose sign varies: positive for normal goods (more consumption as real income rises), negative for inferior goods (less consumption as real income rises)."
+
+- question: "The substitution effect always causes quantity demanded to move in the opposite direction of a price change — when price rises, the substitution effect alone reduces quantity demanded."
+  type: true-false
+  answer: true
+  explanation: "The substitution effect captures the pure relative price response: when a good becomes relatively more expensive than alternatives, consumers substitute away from it, holding utility constant. This is always negative for a price increase, always positive for a price decrease. There are no exceptions. The total effect on quantity demanded may be ambiguous (for inferior goods) because the income effect can work in the opposite direction, but the substitution effect itself never changes sign."
+
+- question: "For an inferior good whose price rises, both the income effect and the substitution effect cause quantity demanded to fall."
+  type: true-false
+  answer: false
+  explanation: "When the price of an inferior good rises, the substitution effect causes quantity demanded to fall (the good is relatively more expensive). But the income effect works in the opposite direction: the price increase reduces real income, and for an inferior good, lower real income means consumers buy *more* of it (they substitute toward it when they're poorer). The two effects work against each other. If the income effect is strong enough, it can dominate — producing a Giffen good with an upward-sloping demand curve."
+
+- question: "Explain, in your own words, why a Giffen good has an upward-sloping demand curve. What must be true about the income and substitution effects for this to occur?"
+  type: short-answer
+  answer: "A Giffen good has an upward-sloping demand curve because when its price falls, the income effect (which is positive for this inferior good — real income rises, so less of the inferior good is consumed) outweighs the substitution effect (which always pushes toward more consumption when price falls). The net effect is less quantity demanded at a lower price. For this to occur, the good must be inferior and must constitute a large enough share of the consumer's budget that a price change produces a substantial real income effect."
+  explanation: "The Slutsky decomposition reveals that every price change has two components operating simultaneously. The substitution effect always obeys the law of demand. The income effect depends on whether the good is normal or inferior. For a Giffen good, the income effect is so large and negative (inferior good + large budget share) that it reverses the law of demand. The upward slope is not a violation of rationality — it is the correct prediction of the model when the two effects are decomposed correctly."
+```
 
 ## Explainer
 

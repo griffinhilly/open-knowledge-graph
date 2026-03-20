@@ -30,6 +30,45 @@ Study trees from life with a focus on overall shape and value pattern. Use hatch
 ## Common Misconceptions
 Trees are not solid green blobs—they have structure, gaps between branches, and a range of greens and neutral tones. Light hits foliage edges and penetrates some areas, creating internal light and shadow.
 
+## Questions
+
+```yaml
+- question: "An artist draws a tree by outlining the trunk, adding branch lines, and filling the canopy with a solid green shape. The result looks flat and symbolic. What is the most important correction?"
+  type: multiple-choice
+  options:
+    - "Use a darker green and add more branch lines inside the canopy"
+    - "Break the canopy into separate foliage mass clusters with light, shadow, and sky holes between them"
+    - "Add individual leaves around the edge of the circular canopy"
+    - "Increase the size of the trunk relative to the canopy"
+  answer: 1
+  explanation: "The 'lollipop tree' failure — flat, symbolic outline filled solidly — comes from treating the canopy as a single shape. The correction is to build foliage masses: distinct clusters with their own light and shadow sides, separated by sky holes (negative gaps where background shows through). This three-dimensional structure, not more detail or darker color, is what makes a tree look convincing."
+
+- question: "When rendering foliage, an artist squints at the tree and notices patches of bright sky visible through the leaves. What should the artist do with these sky holes?"
+  type: multiple-choice
+  options:
+    - "Ignore them and fill the entire canopy, since sky holes are distracting irregularities"
+    - "Carefully outline each sky hole to create a precise map of the gaps"
+    - "Draw them as negative shapes — they break up the mass and give the tree dimensional quality"
+    - "Add sky holes only when drawing species known for gaps, like pines"
+  answer: 2
+  explanation: "Sky holes — negative spaces between foliage clusters — are essential to a convincing tree. They break up the solid mass, reveal structure, and give the tree its characteristic density or lacy quality. Ignoring them produces a flat blob. Outlining each one precisely over-renders the detail. Sky holes should be suggested naturally through the placement of foliage masses."
+
+- question: "The most important factor in making a drawn tree look three-dimensional is establishing a value structure — distinguishing light sides, shadow sides, and sky holes across the foliage masses."
+  type: true-false
+  answer: true
+  explanation: "Value (light vs. dark) creates the illusion of three-dimensional form. A tree with correct value structure — light on sunlit outer edges, mid-tones where light partially filters through, deep shadows in interior clusters — reads as volumetric even without detailed leaf rendering. Value is more powerful than texture, color, or line complexity for creating convincing depth."
+
+- question: "To draw convincing foliage, an artist should render as many individual leaves as possible to achieve realistic texture."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception. Leaf-by-leaf rendering misses the forest for the trees: viewers perceive foliage as grouped masses, not individual leaves. Successful foliage rendering works at the scale of masses — clusters that catch light as a unit — using gestural marks (stippling, hatching, loose strokes) that suggest texture without literally depicting every leaf. Attempting individual leaves produces tedious, unconvincing results."
+
+- question: "Why is it important to identify the overall silhouette and large foliage masses before adding texture or individual details when drawing a tree?"
+  type: short-answer
+  answer: "The large masses establish the structure and value pattern that make the tree readable as a three-dimensional form. Starting with texture or individual leaves causes you to lose the overall shape and how light falls across the whole. Getting the big masses right first means all subsequent texture has a foundation — detail without structure looks random."
+  explanation: "This 'whole to part' discipline applies to all observational drawing, but trees especially reveal it. The tree's silhouette and mass groupings are its skeleton; texture and detail are its surface. A correct skeleton with rough texture reads better than precise leaf detail attached to a wrong mass. Squinting to see only large value patterns forces this mass-first thinking."
+```
+
 ## Explainer
 
 When you first attempt to draw a tree, the temptation is to outline a trunk, add some branches, and fill the top with green. The result looks like a lollipop — flat, symbolic, and nothing like the organic complexity you observe in life. The shift from symbolic drawing to convincing foliage rendering begins with the same observational discipline you developed in your prerequisite work: look at what is actually there, not what you think should be there. A real tree is not a solid mass. It is a collection of **foliage clusters** — groups of leaves that catch light as a unit — separated by gaps where sky or background shows through. These clusters are your primary building blocks.

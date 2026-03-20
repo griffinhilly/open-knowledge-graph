@@ -11,17 +11,15 @@ prerequisites:
 - id: close-reading-techniques
   type: soft
 builds-toward:
-- narrative-pacing-meaning
-- conflict-analysis-classification
+  - narrative-pacing-meaning
 tags:
 - plot
 - structure
 - development
 - progression
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Analyzing Plot Development and Progression
 
 ## Core Idea

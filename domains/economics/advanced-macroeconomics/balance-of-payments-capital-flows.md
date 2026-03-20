@@ -10,7 +10,7 @@ tags:
 - balance-of-payments
 - capital-flows
 - current-account
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

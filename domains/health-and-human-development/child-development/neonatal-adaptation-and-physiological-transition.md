@@ -14,7 +14,7 @@ tags:
 - neonatal-period
 - physiological-adaptation
 - birth-transition
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -3,7 +3,9 @@ id: hello-world-your-first-program
 title: 'Hello World: Your First Program'
 domain: computer-science
 course: programming-fundamentals
-prerequisites: []
+prerequisites:
+- id: algorithm-design-basics
+  type: soft
 builds-toward:
 - program-structure-and-anatomy
 - code-comments-and-style
@@ -11,10 +13,9 @@ tags:
 - introduction
 - getting-started
 - basic
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Hello World: Your First Program
 
 ## Core Idea

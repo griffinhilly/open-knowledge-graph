@@ -18,7 +18,7 @@ tags:
 - gpp
 - npp
 - photosynthesis
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - liberties
 - protection
 - individual-freedom
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

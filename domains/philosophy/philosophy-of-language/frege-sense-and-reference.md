@@ -30,6 +30,45 @@ Work through the morning star / evening star example and other identity puzzles 
 ## Common Misconceptions
 Sense is just what the speaker means—sense is the objective, language-determined mode of presentation, not individual psychology. Reference requires a complete description—Frege allowed incomplete descriptions to have sense.
 
+## Questions
+
+```yaml
+- question: "Which scenario best illustrates Frege's distinction between sense and reference?"
+  type: multiple-choice
+  options:
+    - "Two different speakers have different mental images when they hear 'Venus' — showing that meaning varies by individual psychology"
+    - "'The morning star' and 'the evening star' refer to the same planet but present it via different modes — explaining why learning they pick out the same object is genuinely informative"
+    - "'Venus' and 'planet' have different references, showing that different words pick out different objects"
+    - "The word 'Venus' has both a sound (Sinn) and a planet it refers to (Bedeutung)"
+  answer: 1
+  explanation: "Option B captures the core of Frege's theory: two expressions share the same reference (Venus) but have different senses (modes of presentation), which explains why the identity 'Hesperus is Phosphorus' is informative rather than trivially true. Option A is the view Frege explicitly rejected — sense is objective and public, not individual psychology. Option D confuses sound/form with sense."
+
+- question: "According to Frege, what is the reference of a declarative sentence?"
+  type: multiple-choice
+  options:
+    - "The thought or proposition the sentence expresses"
+    - "The objects named by the nouns in the sentence"
+    - "Its truth value — True or False"
+    - "The speaker's communicative intention in uttering it"
+  answer: 2
+  explanation: "Frege extended the sense/reference distinction to whole sentences: the sense of a sentence is the thought (proposition) it expresses, while the reference is its truth value. Two sentences can express different thoughts but have the same reference (both true, or both false). This architecture — sense determines reference at every level — is foundational to formal semantic theory."
+
+- question: "On Frege's view, 'Hesperus is Phosphorus' is informative in a way that 'Hesperus is Hesperus' is not, even though both sentences are true."
+  type: true-false
+  answer: true
+  explanation: "This is Frege's central motivating puzzle. Both names refer to Venus, yet the first sentence ('Hesperus is Hesperus') is a trivial logical truth knowable without any empirical investigation, while 'Hesperus is Phosphorus' was a genuine astronomical discovery. Frege explains this by appeal to sense: the two names have different modes of presentation, so the identity statement makes a non-trivial claim about the world."
+
+- question: "For Frege, the sense of a term is the set of beliefs or mental images that an individual speaker associates with it when using the word."
+  type: true-false
+  answer: false
+  explanation: "Frege explicitly held that sense is objective and public — it belongs to the language, not to individual psychology. Two competent speakers using the same expression share the same sense even if their private mental associations differ. This objectivity is essential to Frege's project: if sense were merely psychological, there would be no basis for saying speakers communicate the same thought."
+
+- question: "Explain why a pure reference theory of meaning — where the meaning of a name just is its referent — cannot account for the informativeness of 'Hesperus is Phosphorus.' How does Frege's sense/reference distinction solve this problem?"
+  type: short-answer
+  answer: "On a pure reference theory, 'Hesperus' and 'Phosphorus' both refer to Venus, so the sentence expresses the same thing as 'Venus is Venus' — a trivial logical truth. But that misses the cognitive significance: the identity was a genuine discovery. Frege solves this by introducing sense as the mode of presentation. The two names have different senses (one presents Venus as the evening star, the other as the morning star), so the identity claims that two distinct modes of presentation lead to the same object — a non-trivial, empirically discoverable fact."
+  explanation: "The key move is that identity statements are not just about objects but about how those objects are presented. Informative identity statements connect two different conceptual routes to the same destination. This is why sense must be distinguished from reference: reference alone cannot explain cognitive significance."
+```
+
 ## Explainer
 
 From your study of meaning and reference basics, you understand that words and phrases point to things in the world — a name like "Mount Everest" picks out the mountain, and a predicate like "is tall" picks out a property. A simple **reference theory** of meaning says that the meaning of a name just is its referent — the object it picks out. This theory is attractive in its economy, but Frege identified a problem that forces a more complex picture: identity statements can be informative, and a pure reference theory cannot explain why.

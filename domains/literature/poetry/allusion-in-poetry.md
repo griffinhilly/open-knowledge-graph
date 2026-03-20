@@ -12,7 +12,7 @@ tags:
 - reference
 - cultural-knowledge
 - intertextuality
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

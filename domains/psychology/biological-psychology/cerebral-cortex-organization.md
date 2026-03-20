@@ -22,7 +22,7 @@ tags:
 - columns
 - primary-areas
 - association-cortex
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - objects
 - things
 - posthuman
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

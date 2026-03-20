@@ -14,7 +14,7 @@ tags:
 - operators
 - truth-functions
 - foundational
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

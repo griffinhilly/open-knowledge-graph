@@ -15,7 +15,7 @@ tags:
 - epidemiology
 - methodology
 - study-design
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

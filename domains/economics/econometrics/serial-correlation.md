@@ -18,7 +18,7 @@ tags:
 - Durbin-Watson
 - HAC
 - AR-errors
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Serial Correlation (Autocorrelation) in Regression

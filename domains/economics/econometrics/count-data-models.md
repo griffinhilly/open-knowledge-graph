@@ -10,7 +10,7 @@ tags:
 - count-data
 - poisson
 - negative-binomial
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

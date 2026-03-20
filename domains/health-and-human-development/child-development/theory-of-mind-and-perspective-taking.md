@@ -18,7 +18,7 @@ tags:
 - mentalizing
 - perspective-taking
 - cognitive-development
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - hypothesis-testing
 - exploratory
 - confirmatory
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

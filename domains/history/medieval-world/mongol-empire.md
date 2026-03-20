@@ -22,7 +22,7 @@ tags:
 - steppe
 - conquest
 - world-empire
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 # The Mongol Empire

@@ -16,7 +16,7 @@ tags:
 - lineation
 - unit of meaning
 - white space
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

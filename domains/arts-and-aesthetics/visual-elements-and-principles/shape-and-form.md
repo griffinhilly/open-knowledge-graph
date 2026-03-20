@@ -19,7 +19,7 @@ tags:
 - 3D
 - geometric
 - organic
-stage: pre-formal
+stage: concrete-operations
 status: validated
 ---
 # Shape and Form

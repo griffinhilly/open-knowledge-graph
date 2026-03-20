@@ -16,7 +16,7 @@ tags:
 - rhythm
 - chord-duration
 - harmonic-rhythm
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

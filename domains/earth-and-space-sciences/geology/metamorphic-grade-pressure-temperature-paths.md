@@ -15,7 +15,7 @@ tags:
 - metamorphism
 - PT-diagrams
 - grade
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

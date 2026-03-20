@@ -13,7 +13,7 @@ tags:
 - single-subject
 - idiographic
 - clinical-research
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - anti-state
 - decentralization
 - mutual-aid
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

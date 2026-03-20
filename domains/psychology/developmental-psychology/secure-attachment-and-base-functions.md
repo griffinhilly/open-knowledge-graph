@@ -14,7 +14,7 @@ tags:
 - security
 - exploration
 - infancy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

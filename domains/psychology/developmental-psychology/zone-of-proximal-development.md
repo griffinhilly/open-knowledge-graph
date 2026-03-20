@@ -16,7 +16,7 @@ tags:
 - learning
 - instruction
 - sociocultural
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - morality
 - value
 - philosophy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

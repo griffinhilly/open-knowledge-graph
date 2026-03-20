@@ -14,7 +14,7 @@ tags:
 - star-clusters
 - age-dating
 - isochrones
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

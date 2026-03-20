@@ -12,7 +12,7 @@ tags:
 - ensemble
 - multi-protagonist
 - multiple-POV
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

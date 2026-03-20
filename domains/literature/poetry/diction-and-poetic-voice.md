@@ -19,7 +19,7 @@ tags:
 - vocabulary
 - idiom
 - register
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

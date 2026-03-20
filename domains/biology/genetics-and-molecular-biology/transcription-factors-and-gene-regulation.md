@@ -11,17 +11,15 @@ prerequisites:
 - id: promoters-enhancers-and-regulatory-regions
   type: hard
 builds-toward:
-- small-rnas-mirna-and-rnai
-- chromatin-remodeling-and-histone-acetylation
+  - chromatin-remodeling-and-histone-acetylation
 tags:
 - dna-binding-domains
 - transcriptional-activation
 - repression
 - combinatorial-control
-stage: formal-systems
+stage: advanced
 status: draft
 ---
-
 # Transcription Factors: DNA Binding and Gene Regulation
 
 ## Core Idea

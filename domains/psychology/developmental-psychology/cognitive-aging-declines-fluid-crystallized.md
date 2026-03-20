@@ -13,7 +13,7 @@ tags:
 - cognition
 - fluid-intelligence
 - crystallized-intelligence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

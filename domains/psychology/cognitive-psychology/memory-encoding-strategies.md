@@ -17,7 +17,7 @@ tags:
 - encoding
 - levels-of-processing
 - elaboration
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

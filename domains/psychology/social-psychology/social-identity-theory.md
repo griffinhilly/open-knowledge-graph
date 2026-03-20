@@ -17,7 +17,7 @@ tags:
 - in-group
 - out-group
 - Tajfel Turner
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Social Identity Theory

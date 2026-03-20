@@ -15,7 +15,7 @@ tags:
 - helping
 - empathy
 - kin selection
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

@@ -15,7 +15,7 @@ builds-toward:
 tags:
 - definition
 - foundations
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

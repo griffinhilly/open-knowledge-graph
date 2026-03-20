@@ -16,7 +16,7 @@ tags:
 - aggregation
 - representation
 - social-choice
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

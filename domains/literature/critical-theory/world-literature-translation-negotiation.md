@@ -15,7 +15,7 @@ tags:
 - translation
 - ethics
 - cosmopolitanism
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

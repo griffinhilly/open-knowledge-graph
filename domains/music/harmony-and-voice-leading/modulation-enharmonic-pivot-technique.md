@@ -17,7 +17,7 @@ tags:
 - enharmonic
 - pivot
 - modulation-technique
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - causation
 - correlation
 - causal-reasoning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

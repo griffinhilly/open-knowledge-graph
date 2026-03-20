@@ -14,7 +14,7 @@ tags:
 - film
 - recording
 - media
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -12,7 +12,7 @@ tags:
 - cognitive dissonance
 - Festinger
 - attitude-behavior consistency
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

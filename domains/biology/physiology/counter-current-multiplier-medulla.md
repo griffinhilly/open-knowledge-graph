@@ -17,7 +17,7 @@ tags:
 - medulla
 - osmolarity
 - urine concentration
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

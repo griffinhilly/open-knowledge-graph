@@ -14,7 +14,7 @@ tags:
 - notch
 - resonator
 - narrow-band
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

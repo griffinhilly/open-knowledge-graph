@@ -16,7 +16,7 @@ tags:
 - self-perception
 - self-esteem
 - self-evaluation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

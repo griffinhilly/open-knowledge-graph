@@ -8,17 +8,15 @@ prerequisites:
   type: hard
 - id: rna-processing
   type: hard
-builds-toward:
-- long-noncoding-rna-mechanisms
+builds-toward: []
 tags:
 - gene-regulation
 - rna-interference
 - post-transcriptional-control
 - non-coding-rna
-stage: formal-systems
+stage: advanced
 status: draft
 ---
-
 # microRNA Biogenesis and Target Recognition
 
 ## Core Idea

@@ -20,7 +20,7 @@ tags:
 - particles
 - 2D
 - free body diagram
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

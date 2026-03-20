@@ -18,7 +18,7 @@ tags:
 - CDK
 - tumor-suppressor
 - cancer
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Cell Cycle Regulation and Checkpoints

@@ -15,7 +15,7 @@ tags:
 - amino-acids
 - bioavailability
 - quality
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

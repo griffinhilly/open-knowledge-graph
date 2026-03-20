@@ -17,7 +17,7 @@ tags:
 - TCO
 - lifetime
 - purchasing-decisions
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

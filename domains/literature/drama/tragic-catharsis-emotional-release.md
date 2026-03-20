@@ -18,7 +18,7 @@ tags:
 - emotion
 - Aristotle
 - purification
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

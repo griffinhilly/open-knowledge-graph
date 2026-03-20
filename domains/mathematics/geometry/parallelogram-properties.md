@@ -37,6 +37,45 @@ Prove each property from the definition using diagonal-created triangles and alt
 - Assuming diagonals are perpendicular (that is a rhombus property).
 - Confusing necessary conditions with sufficient conditions for proving a quadrilateral is a parallelogram.
 
+## Questions
+
+```yaml
+- question: "A student is trying to prove that quadrilateral ABCD is a parallelogram. She knows that the diagonals bisect each other. Her partner says: 'That's not enough — you need to show both pairs of opposite sides are parallel to use the definition.' Who is correct?"
+  type: multiple-choice
+  options:
+    - "The partner is correct; only the original definition (both pairs of opposite sides parallel) can prove it is a parallelogram"
+    - "The student is correct; diagonals bisecting each other is a sufficient condition — a converse — that proves ABCD is a parallelogram"
+    - "Neither is correct; you must verify all four properties (opposite sides equal, opposite angles equal, consecutive angles supplementary, and diagonals bisecting) to be certain"
+    - "The student is correct, but only if the diagonals are also congruent"
+  answer: 1
+  explanation: "The converses of the parallelogram properties are just as important as the properties themselves. If a quadrilateral's diagonals bisect each other, that alone is sufficient to prove it is a parallelogram — you don't need to verify the definition directly. The partner's error is confusing necessary conditions (things that follow from being a parallelogram) with sufficient conditions (things that guarantee it is one). Several different properties can each individually serve as sufficient conditions: opposite sides congruent, both pairs of opposite angles congruent, diagonals bisecting each other, or one pair of sides both parallel and congruent."
+
+- question: "In parallelogram ABCD, both diagonals are drawn. Which of the following properties is NOT guaranteed to be true for all parallelograms?"
+  type: multiple-choice
+  options:
+    - "Opposite sides AB and CD are congruent to each other"
+    - "The diagonals bisect each other at their intersection point"
+    - "The two diagonals are congruent (equal in length) to each other"
+    - "Consecutive angles A and B are supplementary (sum to 180°)"
+  answer: 2
+  explanation: "Congruent diagonals is a property of rectangles, not of parallelograms in general. A parallelogram's diagonals always bisect each other (meeting at their mutual midpoints), but they are not necessarily the same length. To have congruent diagonals, a parallelogram must also have right angles — making it a rectangle. Students frequently assume congruent diagonals apply to all parallelograms, but this is the specific additional condition that defines rectangles within the parallelogram family. Similarly, perpendicular diagonals define rhombuses."
+
+- question: "In any parallelogram, the two diagonals are always congruent (equal in length) to each other."
+  type: true-false
+  answer: false
+  explanation: "Congruent diagonals is a property of rectangles specifically — it requires that all angles be right angles. In a general parallelogram, the diagonals bisect each other (they meet at their mutual midpoints) but are not necessarily equal in length. You can verify this by drawing a very 'slanted' parallelogram where the two diagonals are visibly different lengths. This is one of the most persistent misconceptions because students conflate 'bisect each other' (always true) with 'are congruent' (only true for rectangles)."
+
+- question: "If a quadrilateral has both pairs of opposite sides congruent, it must be a parallelogram."
+  type: true-false
+  answer: true
+  explanation: "This is one of the key converses of the parallelogram properties. The original theorem says: 'If a quadrilateral is a parallelogram, then its opposite sides are congruent.' The converse reverses the logic: 'If a quadrilateral has opposite sides congruent, then it is a parallelogram.' This converse holds. It is one of several sufficient conditions (along with diagonals bisecting each other, or one pair of sides both parallel and congruent) that can be used to prove a quadrilateral is a parallelogram without directly establishing that both pairs of sides are parallel."
+
+- question: "How do you prove that the diagonals of a parallelogram bisect each other? Identify the key geometric tools needed and explain why the argument works."
+  type: short-answer
+  answer: "Draw both diagonals AC and BD and call their intersection point E. To show AE = CE and BE = DE, identify two triangles — triangle AEB and triangle CED. Because AB ∥ CD (given), angles EAB and ECD are alternate interior angles (equal), and angles EBA and EDC are also alternate interior angles (equal). Since AB = CD (opposite sides of a parallelogram, proven separately), triangles AEB and CED are congruent by ASA. From CPCTC, AE = CE and BE = DE — proving the diagonals bisect each other."
+  explanation: "The proof depends on two prerequisites: the alternate interior angles theorem (parallel lines cut by a transversal produce equal alternate interior angles) and triangle congruence (specifically ASA or AAS). The diagonals create two triangles that can be proven congruent; CPCTC then delivers the segment equalities for free. This same diagram-drawing strategy — split the figure into triangles, prove congruence, apply CPCTC — is the core technique for all parallelogram property proofs."
+```
+
 ## Explainer
 
 A **parallelogram** is defined by a simple condition: both pairs of opposite sides are parallel. Everything else — all the properties you need to know — follows from this single definition using tools you already have: parallel lines and transversals, and triangle congruence. The key move is to draw a diagonal, splitting the parallelogram into two triangles. Those triangles will turn out to be congruent, and CPCTC then delivers the properties for free.

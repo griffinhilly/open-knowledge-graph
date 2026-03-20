@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - metrization
 - urysohn
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

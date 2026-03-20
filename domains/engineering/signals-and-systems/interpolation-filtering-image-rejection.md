@@ -6,17 +6,15 @@ course: signals-and-systems
 prerequisites:
 - id: reconstruction-filters-post-interpolation-design
   type: hard
-builds-toward:
-- polyphase-filter-decomposition-multirate
+builds-toward: []
 tags:
 - interpolation
 - upsampling
 - image-rejection
 - multirate
-stage: formal-systems
+stage: advanced
 status: draft
 ---
-
 # Interpolation, Image Rejection, and Upsampling
 
 ## Core Idea

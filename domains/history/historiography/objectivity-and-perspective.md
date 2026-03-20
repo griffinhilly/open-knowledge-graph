@@ -11,9 +11,7 @@ prerequisites:
 - id: positionality-in-history
   type: soft
 builds-toward:
-- historical-interpretation-method
-- historical-evidence-epistemology
-- postmodern-historiography
+  - postmodern-historiography
 tags:
 - objectivity
 - perspective
@@ -22,7 +20,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Objectivity in Historical Writing
 
 ## Core Idea

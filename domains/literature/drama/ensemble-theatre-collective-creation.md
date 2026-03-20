@@ -18,7 +18,7 @@ tags:
 - collective
 - creation
 - process-based
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

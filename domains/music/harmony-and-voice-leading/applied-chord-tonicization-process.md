@@ -16,7 +16,7 @@ tags:
 - applied-chords
 - tonicization
 - secondary
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

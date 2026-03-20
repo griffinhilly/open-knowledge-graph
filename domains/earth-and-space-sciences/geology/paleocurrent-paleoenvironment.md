@@ -13,7 +13,7 @@ tags:
 - paleoenvironment
 - sedimentary-structures
 - interpretation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

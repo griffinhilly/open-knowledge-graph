@@ -28,7 +28,7 @@ tags:
 - Pinter
 - implication
 - silence
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Dramatic Subtext

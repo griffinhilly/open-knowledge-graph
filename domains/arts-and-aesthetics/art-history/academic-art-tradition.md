@@ -32,6 +32,45 @@ Study the curriculum of academic training: how students progressed from cast dra
 ## Common Misconceptions
 - Academic training was rigid and stifling—academic instruction in drawing and anatomy produced skilled artists; the limitation was the narrow canon of acceptable subjects. - Academic art is inherently inferior—many academically trained artists (Ingres, Delacroix) produced great work; the issue was institutionalized taste. - The academy disappeared—academic institutions still exist; what changed was their monopoly on defining artistic legitimacy.
 
+## Questions
+
+```yaml
+- question: "A student claims that the Impressionists were rejected from the Salon simply because they lacked technical skill compared to academic painters. What is a more accurate characterization?"
+  type: multiple-choice
+  options:
+    - "The student is correct — academic training produced far more technically skilled painters than the Impressionists could achieve"
+    - "The Impressionists were rejected because their visible brushwork, modern subjects, and lack of 'finish' violated the academic canon — they were challenging institutional authority, not failing a neutral technical test"
+    - "The Impressionists were rejected on personal grounds by jury members who had prior disputes with them"
+    - "The Impressionists chose to exhibit elsewhere because they preferred the intimacy of smaller gallery shows"
+  answer: 1
+  explanation: "Impressionist painters demonstrated considerable technical ability, but their work violated academic standards in ways that weren't purely technical: visible brushwork, unblended color, and modern subject matter (leisure scenes, contemporary landscapes) all transgressed the canon. The Salon jury, composed of Académie members, enforced a value system — not just a skill threshold. Being rejected was a professional and institutional setback, not just an aesthetic judgment."
+
+- question: "In the academic hierarchy of genres, why was history painting ranked above landscape and still life?"
+  type: multiple-choice
+  options:
+    - "History painting was most profitable because wealthy patrons exclusively preferred historical subjects"
+    - "History painting required mastery of the human figure, compositional complexity, and moral imagination — it was judged the most intellectually and morally serious form"
+    - "History painting was the easiest to evaluate objectively, making it a clear and fair measure of technical skill"
+    - "History painting was the oldest form of Western art, making it most traditional and therefore most prestigious"
+  answer: 1
+  explanation: "The hierarchy was grounded in a theory of intellectual and moral seriousness. History painting — depicting mythology, religion, or classical history — required the most demanding combination of skills: accurate figure drawing, complex multi-figure composition, narrative staging, and moral imagination. Still life and landscape, requiring no human figures and less compositional complexity, were considered intellectually lesser. The hierarchy was not arbitrary tradition but a coherent theory about what demanded most of an artist."
+
+- question: "The Salon system gave academic institutions power over artists' careers because Salon placement determined an artist's access to the marketplace and public reputation."
+  type: true-false
+  answer: true
+  explanation: "The annual Salon was not merely an exhibition — it was the primary arena in which artistic reputations were made or destroyed, where buyers commissioned works, and where critics established taste. A favorable placement (eye level, main galleries) could launch a career; rejection or poor placement could end one. This gave the jury, composed of Académie members, enormous gatekeeping power over who could participate in the mainstream art market."
+
+- question: "The academic tradition was primarily a teaching method that had little influence on which artworks were considered acceptable or which artists succeeded professionally."
+  type: true-false
+  answer: false
+  explanation: "Academic training and institutional gatekeeping were inseparable. Through the Salon jury, the Prix de Rome, and Académie membership, the tradition controlled access to public exhibition, prestigious commissions, and professional legitimacy. The curriculum defined the standards, and the standards controlled careers. Artists who mastered academic technique but produced work outside the approved canon — wrong subjects, wrong finish — could still be excluded. Teaching method and institutional authority were a unified system."
+
+- question: "Why did the genre hierarchy in academic art connect directly to an artist's career prospects, not just to aesthetic evaluation?"
+  type: short-answer
+  answer: "Because the Salon jury enforced the hierarchy in determining which works were exhibited and how prominently — and the Salon controlled access to commissions, prizes, and reputation. History painters had the best chance of winning the Prix de Rome and receiving major patronage; landscape and still life painters competed for lower-status placement regardless of the quality of their work."
+  explanation: "The hierarchy wasn't a theoretical ranking that existed in criticism alone — it had material consequences. Prizes, fellowships, government commissions, and academic appointments were concentrated around history painting. The institutional structure of the Académie and the Salon translated aesthetic judgment into economic reality. This is why the Impressionists' exclusion was not just an aesthetic setback but a professional one — and why understanding the system is necessary to understand what they were rebelling against."
+```
+
 ## Explainer
 
 If you have studied Neoclassicism and Romanticism, you have already seen how European art oscillated between rational idealism and emotional intensity. The academic tradition was the institutional engine behind the classical side of that oscillation — and understanding it means understanding how Western art was taught, judged, and controlled for over two centuries.

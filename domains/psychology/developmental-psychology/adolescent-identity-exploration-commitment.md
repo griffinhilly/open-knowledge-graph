@@ -15,7 +15,7 @@ tags:
 - adolescence
 - commitment
 - exploration
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

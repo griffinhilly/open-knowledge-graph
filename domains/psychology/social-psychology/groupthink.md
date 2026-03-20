@@ -15,7 +15,7 @@ tags:
 - Janis
 - decision making
 - group cohesion
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Groupthink

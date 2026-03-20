@@ -16,7 +16,7 @@ tags:
 - genre
 - likeness
 - identity
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

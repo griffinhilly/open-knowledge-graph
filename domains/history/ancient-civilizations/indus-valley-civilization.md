@@ -19,7 +19,7 @@ tags:
 - mohenjo-daro
 - south-asia
 - bronze-age
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

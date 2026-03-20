@@ -15,7 +15,7 @@ tags:
 - personhood
 - sentience
 - marginal-cases
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

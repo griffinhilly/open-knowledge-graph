@@ -3,7 +3,9 @@ id: understanding-eggs-and-protein-basics
 title: Understanding and Cooking Eggs
 domain: practical-life-skills
 course: cooking-and-nutrition
-prerequisites: []
+prerequisites:
+- id: egg-cooking-basics
+  type: soft
 builds-toward:
 - simple-breakfast-food-preparation
 tags:
@@ -14,7 +16,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Understanding and Cooking Eggs
 
 ## Core Idea

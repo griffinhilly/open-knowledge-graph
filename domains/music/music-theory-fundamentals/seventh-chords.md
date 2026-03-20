@@ -19,7 +19,7 @@ tags:
 - major 7th
 - minor 7th
 - harmony
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

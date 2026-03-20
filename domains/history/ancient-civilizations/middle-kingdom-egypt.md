@@ -13,7 +13,7 @@ tags:
 - middle-kingdom
 - renaissance
 - literature
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

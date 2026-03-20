@@ -28,6 +28,45 @@ Practice converting mixed numbers to improper fractions until fluent (prerequisi
 - Errors in converting to improper fractions (especially forgetting to add the whole-number contribution).
 - Not simplifying the final answer.
 
+## Questions
+
+```yaml
+- question: "A student computes 2⅓ × 1½ by multiplying the whole-number parts (2 × 1 = 2) and the fraction parts (⅓ × ½ = ⅙) separately, getting 2⅙. What is wrong with this method?"
+  type: multiple-choice
+  options:
+    - "The student added the results instead of multiplying them together"
+    - "The student should multiply fractions before whole numbers"
+    - "The student missed two cross-term products: 2 × ½ and ⅓ × 1"
+    - "The student forgot to find a common denominator before multiplying"
+  answer: 2
+  explanation: "Multiplying separately misses the cross-terms required by the distributive property. The full expansion of (2 + ⅓)(1 + ½) has four terms: 2×1, 2×½, ⅓×1, and ⅓×½. The shortcut only computes the first and last. The two missing terms — 2×½ = 1 and ⅓×1 = ⅓ — contribute 1⅓ to the answer. The correct answer is 3½, not 2⅙. Converting to improper fractions (7/3 × 3/2 = 21/6 = 3½) sidesteps this problem entirely."
+
+- question: "Why is converting mixed numbers to improper fractions before multiplying more reliable than applying the distributive property directly?"
+  type: multiple-choice
+  options:
+    - "Improper fractions always have larger numerators, which makes multiplication simpler"
+    - "Improper fractions can be multiplied with a single operation rather than managing four separate partial products"
+    - "The distributive property does not apply to fractions"
+    - "Converting to improper fractions automatically simplifies the final answer"
+  answer: 1
+  explanation: "When you convert 2⅓ to 7/3 and 1½ to 3/2, you multiply numerators (7 × 3 = 21) and denominators (3 × 2 = 6) in one clean step: 21/6 = 3½. The distributive approach would require tracking four partial products and then combining them — a process with many more opportunities for error. The convert-first method is more reliable precisely because it reduces a multi-step problem to one familiar operation."
+
+- question: "Before computing 2⅓ × 1½, it is useful to estimate the answer (approximately 2 × 2 = 4) so you can check whether your final answer is reasonable."
+  type: true-false
+  answer: true
+  explanation: "Estimation is a built-in error check. 2⅓ is slightly more than 2, and 1½ is between 1 and 2, so the product should be in the range of 3 to 5. The correct answer of 3½ is comfortably in that range. If a calculation produced 21 or 0.35, the estimate would immediately reveal an error (likely a misplaced decimal or a unit error). Estimating first takes seconds and prevents accepting obviously wrong answers."
+
+- question: "To multiply 2⅓ × 1½, you can multiply the whole-number parts and fraction parts separately: the answer is (2 × 1) + (⅓ × ½) = 2⅙."
+  type: true-false
+  answer: false
+  explanation: "This is the most common error in mixed-number multiplication. The separate-parts method misses the cross-terms 2 × ½ = 1 and ⅓ × 1 = ⅓, which together add 1⅓ to the product. The correct answer is 3½. The reliable method is to convert both mixed numbers to improper fractions first: 7/3 × 3/2 = 21/6 = 3½."
+
+- question: "Why does the shortcut of 'multiply whole parts together and fraction parts together' give the wrong answer for 2⅓ × 1½? What terms does it miss, and why does converting to improper fractions avoid this problem?"
+  type: short-answer
+  answer: "The shortcut only computes 2×1 and ⅓×½, but the distributive property requires four terms: 2×1, 2×½, ⅓×1, and ⅓×½. The two cross-terms (2×½ = 1 and ⅓×1 = ⅓) are omitted, causing an error of 1⅓. Converting to improper fractions (7/3 × 3/2) collapses all four terms into a single fraction multiplication, so no cross-terms can be forgotten."
+  explanation: "A mixed number is a sum (2 + ⅓), so multiplying two mixed numbers means multiplying two sums — which requires the full distributive property (FOIL, in algebra terms). The shortcut is appealing because it feels analogous to how you add mixed numbers (add whole parts, add fraction parts), but multiplication doesn't work that way. The convert-first method sidesteps the whole issue by eliminating the addition structure before multiplying."
+```
+
 ## Explainer
 
 You already know two key skills: how to multiply fractions (multiply the numerators, multiply the denominators) and how to convert a mixed number into an improper fraction (multiply the whole number by the denominator, add the numerator, keep the denominator). Multiplying mixed numbers is simply a combination of these two skills — and the reason you convert first is to make the fraction multiplication step clean and reliable.

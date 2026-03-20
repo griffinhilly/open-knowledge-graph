@@ -14,7 +14,7 @@ tags:
 - rhythm
 - dictation
 - notation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

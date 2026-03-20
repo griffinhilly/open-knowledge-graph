@@ -23,7 +23,7 @@ tags:
 - calcium
 - PTH
 - vitamin-D
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Bone Remodeling and Calcium Homeostasis

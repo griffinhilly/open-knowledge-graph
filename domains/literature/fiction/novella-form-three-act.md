@@ -14,7 +14,7 @@ tags:
 - length
 - intensity
 - structure
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

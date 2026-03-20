@@ -18,7 +18,7 @@ tags:
 - economy
 - place
 - global
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -27,7 +27,7 @@ tags:
 - white-matter
 - brain-maturation
 - neural-transmission
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

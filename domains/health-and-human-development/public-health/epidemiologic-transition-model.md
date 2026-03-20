@@ -15,7 +15,7 @@ tags:
 - epidemiology
 - disease-patterns
 - development
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

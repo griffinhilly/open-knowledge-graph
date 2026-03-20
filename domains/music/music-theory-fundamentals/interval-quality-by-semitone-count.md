@@ -16,7 +16,7 @@ tags:
 - quality
 - semitones
 - major-minor-perfect
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - applied-chord
 - tonicization
 - voice-leading
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

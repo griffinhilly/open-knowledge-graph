@@ -17,7 +17,7 @@ tags:
 - rational-equations
 - LCD
 - extraneous-solutions
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Solving Rational Equations

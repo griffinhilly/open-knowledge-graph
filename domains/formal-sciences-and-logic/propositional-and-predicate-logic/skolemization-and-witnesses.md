@@ -15,7 +15,7 @@ tags:
 - first-order-logic
 - skolemization
 - automated-reasoning
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

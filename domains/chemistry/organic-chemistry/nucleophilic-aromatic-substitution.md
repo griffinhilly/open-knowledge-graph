@@ -12,7 +12,7 @@ tags:
 - aromatic
 - nitro-group
 - meisenheimer-complex
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

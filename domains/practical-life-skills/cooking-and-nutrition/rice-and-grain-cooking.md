@@ -16,7 +16,7 @@ tags:
 - absorption-method
 - ratios
 - whole-grains
-stage: concrete-operations
+stage: abstract-reasoning
 status: draft
 ---
 

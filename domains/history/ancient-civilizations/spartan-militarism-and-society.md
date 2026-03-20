@@ -14,7 +14,7 @@ tags:
 - militarism
 - governance
 - society
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

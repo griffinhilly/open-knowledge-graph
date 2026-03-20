@@ -13,7 +13,7 @@ tags:
 - metamorphism
 - mineral-chemistry
 - geothermometry
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

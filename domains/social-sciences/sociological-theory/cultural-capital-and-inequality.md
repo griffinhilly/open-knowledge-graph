@@ -13,7 +13,7 @@ tags:
 - cultural-capital
 - inequality
 - education
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

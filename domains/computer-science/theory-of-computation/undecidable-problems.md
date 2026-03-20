@@ -25,6 +25,45 @@ The halting problem—determining whether a Turing machine halts on a given inpu
 ## How It's Best Learned
 Follow the diagonal construction proof carefully. Understand why the self-reference ('a machine that halts iff it loops') creates a logical contradiction. Work through small examples of the argument.
 
+## Questions
+
+```yaml
+- question: "A computer scientist proposes that the halting problem might become solvable as quantum processors become exponentially faster and AI improves dramatically. This proposal is:"
+  type: multiple-choice
+  options:
+    - "Plausible — the halting problem is currently unsolvable due to processing speed and memory constraints"
+    - "Incorrect — undecidability is a mathematical theorem about the logical structure of computation, not a hardware or resource limitation"
+    - "Correct — quantum computing operates on different principles and may circumvent classical undecidability results"
+    - "Requires further research — current theory doesn't account for AI-based approaches to theorem proving"
+  answer: 1
+  explanation: "Undecidability is not an engineering problem waiting for a better computer. It is a mathematical impossibility proved by contradiction: if a halting decider existed, the diagonalization argument produces a machine that contradicts itself — a logical impossibility that no increase in speed, memory, or computational paradigm can resolve. Quantum computers still operate within the Turing model (they solve the same class of decidable problems, just faster for some), and AI does not escape formal computability limits."
+
+- question: "In the diagonalization proof, machine D runs the assumed halting decider H on the input (M, M) — a machine given its own description. Why is this self-referential step essential?"
+  type: multiple-choice
+  options:
+    - "It reduces the computational cost of the proof by reusing the same input twice"
+    - "Self-reference creates the logical contradiction that forces H's non-existence — D's behavior on its own description leads to 'D halts iff D does not halt'"
+    - "It is an arbitrary notational convention chosen for compactness; any two inputs would produce the same result"
+    - "It ensures the proof applies only to Turing machines that process their own source code"
+  answer: 1
+  explanation: "Self-reference is the entire engine of the proof. When D is run on its own description, H must return 'yes' or 'no' — but either answer forces D to behave in the opposite way, directly contradicting H's output. If H says 'D halts on D,' then D is constructed to loop. If H says 'D loops on D,' then D halts. There is no consistent answer — H's supposed correctness is refuted by the very machine it's applied to. Without self-reference, this contradiction cannot be constructed."
+
+- question: "The halting problem is currently unsolvable but will likely become solvable as computing hardware and software advance sufficiently."
+  type: true-false
+  answer: false
+  explanation: "Undecidability is a mathematical theorem, not a technological limitation. The proof shows that assuming a halting decider exists leads to a logical contradiction — which means no such decider can exist, regardless of how powerful the hardware becomes. This is not like a problem that is computationally hard (like factoring large numbers) but theoretically solvable; it is a formal impossibility. No amount of processing power, memory, or new programming technique can resolve a logical contradiction."
+
+- question: "The diagonalization proof shows that if a halting decider H existed, it would give an incorrect answer when presented with a specially constructed machine D — proving H cannot exist."
+  type: true-false
+  answer: true
+  explanation: "This is precisely what the proof demonstrates. Machine D is constructed so that it does the opposite of what H predicts: if H says 'D halts on D,' D loops; if H says 'D does not halt on D,' D halts. Either way, H is wrong about D's behavior on its own input (D, D). Since H was assumed to be correct for all inputs, this contradiction shows H cannot exist — there is no Turing machine that correctly decides the halting problem for all inputs."
+
+- question: "Explain in your own words why the diagonalization proof of the halting problem's undecidability works. What makes the self-reference essential, and what contradiction does it produce?"
+  type: short-answer
+  answer: "The proof assumes for contradiction that a machine H exists that correctly decides, for any machine M and input w, whether M halts on w. Using H, we build machine D: given a machine description M as input, D asks H whether M halts on M (its own description). If H says yes, D deliberately loops; if H says no, D halts. Now run D on its own description. If D halts, then H must have said 'no' about D — but H is supposed to be correct, meaning D should not halt. Contradiction. If D loops, then H must have said 'yes' — but that means D should halt. Contradiction again. H gives the wrong answer in either case, so H cannot exist. Self-reference is essential because only by asking about a machine's behavior on its own description can we construct a machine whose existence directly refutes H's correctness — any other input pairing doesn't close the loop."
+  explanation: "The diagonalization technique originates in Cantor's proof that real numbers are uncountable and Gödel's incompleteness theorems. In each case, self-reference constructs a statement or object that cannot consistently be classified by the system claiming to classify everything. The halting problem proof is a direct instance of this general logical pattern: self-reference + assumed completeness = unavoidable contradiction."
+```
+
 ## Explainer
 
 From your study of recognizable languages, you know that Turing machines can accept languages — saying "yes" for strings in the language, though possibly looping forever on strings outside it. A **decidable** problem is one where a Turing machine always halts with a correct yes or no answer. The halting problem asks the seemingly reasonable question: given a Turing machine M and an input w, does M halt on w? The shocking answer is that no algorithm can solve this problem in general.

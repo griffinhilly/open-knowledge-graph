@@ -13,7 +13,7 @@ tags:
 - space
 - social-reproduction
 - inequality
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

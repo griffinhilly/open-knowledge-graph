@@ -16,7 +16,7 @@ tags:
 - inductive-reasoning
 - argument-strength
 - evidence
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

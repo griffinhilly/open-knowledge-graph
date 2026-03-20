@@ -16,7 +16,7 @@ tags:
 - singing
 - vocal production
 - sight-singing
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

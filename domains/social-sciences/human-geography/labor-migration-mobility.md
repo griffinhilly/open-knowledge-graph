@@ -14,7 +14,7 @@ tags:
 - labor
 - mobility
 - economic-opportunity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

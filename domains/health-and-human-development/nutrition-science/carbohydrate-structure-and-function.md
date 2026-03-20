@@ -28,7 +28,7 @@ tags:
 - glycemic index
 - starch
 - sugars
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

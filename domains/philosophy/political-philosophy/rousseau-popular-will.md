@@ -14,7 +14,7 @@ tags:
 - rousseau
 - democracy
 - general-will
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

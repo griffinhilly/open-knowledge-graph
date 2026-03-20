@@ -15,7 +15,7 @@ tags:
 - monastic-reform
 - church
 - discipline
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

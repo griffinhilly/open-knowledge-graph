@@ -20,7 +20,7 @@ tags:
 - price-level
 - output
 - spending
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

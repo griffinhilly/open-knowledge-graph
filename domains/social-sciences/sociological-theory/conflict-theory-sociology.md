@@ -15,7 +15,7 @@ tags:
 - power
 - inequality
 - domination
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

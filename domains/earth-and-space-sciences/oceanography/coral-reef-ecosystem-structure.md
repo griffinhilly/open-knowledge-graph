@@ -17,7 +17,7 @@ tags:
 - zooxanthellae
 - biodiversity
 - ecosystem
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

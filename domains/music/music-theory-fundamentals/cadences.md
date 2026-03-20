@@ -18,7 +18,7 @@ tags:
 - deceptive
 - phrase
 - resolution
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

@@ -24,7 +24,7 @@ tags:
 - ADF-test
 - I(1)
 - random-walk
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

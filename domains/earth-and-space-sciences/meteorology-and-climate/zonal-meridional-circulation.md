@@ -20,7 +20,7 @@ tags:
 - meridional
 - heat-transport
 - Hadley-cell
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

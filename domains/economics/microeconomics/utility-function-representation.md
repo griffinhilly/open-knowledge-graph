@@ -14,7 +14,7 @@ tags:
 - preferences
 - utility
 - representation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

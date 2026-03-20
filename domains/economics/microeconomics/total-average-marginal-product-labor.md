@@ -12,7 +12,7 @@ tags:
 - production
 - productivity
 - labor
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

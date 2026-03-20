@@ -15,7 +15,7 @@ tags:
 - health-promotion
 - behavior-change
 - intervention-design
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - peptidoglycan
 - synthesis
 - antibiotic-target
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

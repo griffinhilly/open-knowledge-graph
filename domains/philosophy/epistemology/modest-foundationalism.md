@@ -14,7 +14,7 @@ tags:
 - defeasibility
 - non-inferential-justification
 - basic-beliefs
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 # Modest Foundationalism

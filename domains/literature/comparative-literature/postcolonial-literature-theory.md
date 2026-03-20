@@ -20,7 +20,7 @@ tags:
 - theory
 - global
 - resistance
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

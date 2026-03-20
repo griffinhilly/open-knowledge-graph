@@ -21,7 +21,7 @@ tags:
 - p-values
 - statistical-inference
 - significance
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -22,7 +22,7 @@ tags:
 - normality
 - inference
 - assumptions
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

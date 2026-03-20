@@ -25,7 +25,7 @@ tags:
 - renin-angiotensin
 - vasopressin
 - blood-pressure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

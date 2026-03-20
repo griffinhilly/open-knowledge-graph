@@ -23,7 +23,7 @@ tags:
 - coriolis-force
 - equilibrium
 - current-dynamics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

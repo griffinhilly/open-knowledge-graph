@@ -14,7 +14,7 @@ tags:
 - endocytosis
 - vesicular-transport
 - protein-trafficking
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - applied-chord
 - tonicization
 - tritone
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

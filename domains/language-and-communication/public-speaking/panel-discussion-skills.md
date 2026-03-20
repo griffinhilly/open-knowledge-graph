@@ -14,7 +14,7 @@ tags:
 - moderation
 - turn-taking
 - collaboration
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

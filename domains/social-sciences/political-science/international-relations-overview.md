@@ -18,7 +18,7 @@ tags:
 - balance of power
 - foreign policy
 - world politics
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ builds-toward:
   - extraordinary-claims-and-evidence-scaling
   - likelihood-ratios-and-belief-updates
 tags: ["bayesian", "reasoning", "probability", "practice", "belief-updating"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

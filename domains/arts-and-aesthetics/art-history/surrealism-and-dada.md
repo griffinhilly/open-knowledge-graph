@@ -20,7 +20,7 @@ tags:
 - readymade
 - unconscious
 - anti-art
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

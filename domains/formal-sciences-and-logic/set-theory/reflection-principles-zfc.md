@@ -16,7 +16,7 @@ tags:
 - universe
 - principles
 - large-cardinals
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

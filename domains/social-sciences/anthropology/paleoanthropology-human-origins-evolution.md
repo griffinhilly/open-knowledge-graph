@@ -14,7 +14,7 @@ tags:
 - origins
 - hominins
 - fossil-record
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

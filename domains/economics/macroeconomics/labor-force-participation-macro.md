@@ -15,7 +15,7 @@ tags:
 - labor-market
 - labor-supply
 - demographics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

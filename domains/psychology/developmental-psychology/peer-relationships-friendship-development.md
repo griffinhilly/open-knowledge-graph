@@ -17,7 +17,7 @@ tags:
 - interaction
 - peer-play
 - social-competence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

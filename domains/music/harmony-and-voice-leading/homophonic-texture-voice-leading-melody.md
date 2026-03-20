@@ -15,7 +15,7 @@ tags:
 - homophony
 - texture
 - voice-leading
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

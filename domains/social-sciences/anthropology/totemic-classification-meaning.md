@@ -16,7 +16,7 @@ tags:
 - classification
 - social-organization
 - meaning
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Contrast is the juxtaposition of different, even opposite visual elements—it's what makes things stand out and creates visual interest. Contrast can occur through color (complementary colors), value (light vs. dark), size (large vs. small), shape (geometric vs. organic), texture (smooth vs. rough), or direction (vertical vs. diagonal). Strong contrast creates visual tension and drama, captures attention, and clarifies relationships between elements.
 
+## Questions
+
+```yaml
+- question: "A portrait painter consistently places the lightest tones and deepest shadows near the subject's face, while the background uses subtler tonal differences. What design principle explains this choice?"
+  type: multiple-choice
+  options:
+    - "Unity — repeating similar tones across the whole composition creates coherence"
+    - "Balance — equal contrast throughout prevents the eye from favoring any area"
+    - "Contrast as hierarchy — the area of greatest contrast directs the viewer's eye first"
+    - "Variety — using all available tonal values improves the composition"
+  answer: 2
+  explanation: "The area of greatest contrast in a composition is where the viewer's eye naturally goes first. By concentrating the highest tonal contrast near the face, the painter ensures the focal point draws attention immediately. The lower contrast in supporting areas creates visual 'rest' that guides the eye back to the center of interest rather than scattering attention across the canvas."
+
+- question: "A designer uses maximum contrast — extreme color, size, and value differences — scattered uniformly across every part of a layout. What is the most likely result?"
+  type: multiple-choice
+  options:
+    - "A powerful composition with strong emphasis throughout"
+    - "Visual chaos, because uncontrolled contrast prevents any hierarchy from forming"
+    - "A harmonious composition because all elements receive equal attention"
+    - "Excellent readability because high contrast improves legibility everywhere"
+  answer: 1
+  explanation: "Contrast is only effective when it is managed — concentrated where emphasis is needed and reduced elsewhere. When high contrast is applied uniformly, nothing stands out more than anything else, the eye has no clear path, and the result is visual noise rather than hierarchy. Effective contrast requires deliberate gradients: maximum contrast at the focal point, diminishing contrast in supporting areas."
+
+- question: "Value contrast (light against dark) is generally considered the most powerful form of contrast because it creates visual distinction even without color."
+  type: true-false
+  answer: true
+  explanation: "Value contrast is so fundamental that it makes a composition readable even in a black-and-white photograph. All other types of contrast — color, size, shape, texture — build on this foundation. This is why artists and designers check the 'value structure' of a composition first: if the light/dark relationships don't create the intended hierarchy, no other type of contrast will fix it."
+
+- question: "The most effective compositions achieve maximum visual impact by applying high contrast uniformly across the entire surface."
+  type: true-false
+  answer: false
+  explanation: "Uniform high contrast creates visual chaos rather than emphasis. Effective compositions use a deliberate gradient: concentrated contrast at the focal point, moderate contrast in secondary areas, and low contrast in passages meant to rest the eye. The skill is in managing contrast — deciding how much and where — not simply maximizing it everywhere. Think of contrast as a spice: essential in the right places, overwhelming when applied to everything."
+
+- question: "Why must contrast be 'managed' rather than simply maximized, and what happens compositionally when you control where contrast appears?"
+  type: short-answer
+  answer: "Contrast must be managed because its function is to create hierarchy — to tell the viewer where to look first, second, and third. When contrast is concentrated at the focal point and reduced in supporting areas, the composition gains a clear visual path and a center of interest. When contrast is uncontrolled or uniform, there is no hierarchy and the eye has no guidance, resulting in visual noise."
+  explanation: "This is the difference between contrast as accident and contrast as intention. Any random collection of objects will have some contrast. A skilled composition uses contrast deliberately: the highest contrast area becomes the focal point, middle contrast areas become secondary subjects, and low-contrast areas create visual breathing room. The gradient of contrast is itself a compositional structure."
+```
+
 ## Explainer
 
 You already know from the seven design principles that composition depends on the interplay of multiple organizing forces. And from your study of value, tone, and contrast, you understand that placing light against dark creates visual distinction. **Contrast as a design principle** extends this idea beyond value alone: it is the deliberate juxtaposition of any opposing visual qualities to create tension, emphasis, and variety within a composition.

@@ -23,7 +23,7 @@ tags:
 - manipulation
 - control
 - between-subjects
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

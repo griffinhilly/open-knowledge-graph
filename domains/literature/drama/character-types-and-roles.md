@@ -15,7 +15,7 @@ tags:
 - function
 - roles
 - drama
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

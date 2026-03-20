@@ -32,6 +32,45 @@ Inspect your roof from the ground with binoculars and note the condition of shin
 - Roof replacement is needed as soon as a few shingles are missing.
 - Gutter cleaning is only necessary in fall.
 
+## Questions
+
+```yaml
+- question: "After a rainstorm, you notice water pouring over the sides of your gutters rather than flowing out the downspouts. What does this most likely indicate?"
+  type: multiple-choice
+  options:
+    - "Your roof has missing shingles and rain is bypassing the gutters entirely"
+    - "Your gutters are clogged with debris and water cannot reach the downspouts"
+    - "Your downspouts are too far from the house and need repositioning"
+    - "This is normal during heavy rain — gutters overflow when rainfall exceeds their capacity"
+  answer: 1
+  explanation: "Water spilling over the gutter edge (rather than exiting the downspout) is the diagnostic sign of a clog. Leaves and debris block the flow path, so water backs up and overflows — running directly down the siding and along the foundation wall. This leads to interior water damage and foundation problems over time. The fix is cleaning the gutters, not replacing the roof."
+
+- question: "Several asphalt shingles are missing from a section of your roof after a storm. What is the most accurate assessment of the situation?"
+  type: multiple-choice
+  options:
+    - "The roof has failed and needs immediate full replacement before any rain"
+    - "The missing shingles are purely cosmetic and need no action"
+    - "The underlayment beneath is exposed and should be repaired within a season, but the roof has not necessarily failed"
+    - "Only the affected section needs replacement — missing shingles in one area don't affect the rest"
+  answer: 2
+  explanation: "The roof is a layered redundant system: deck → underlayment → shingles. Missing shingles expose the underlayment, which provides a backup barrier — so the roof isn't immediately failed. However, underlayment degrades under UV exposure and should be addressed within a season before it loses its protective function. A few missing shingles do not require full roof replacement."
+
+- question: "Overflowing gutters can contribute to both basement flooding and ice dam formation in cold climates."
+  type: true-false
+  answer: true
+  explanation: "Both failure modes trace back to clogged gutters. In summer: overflow runs down the siding and pools at the foundation, eventually entering basements. In winter: blocked gutters trap ice, which backs up under shingles and forces meltwater through the roof deck. Regular cleaning prevents both. The same root cause — blocked water flow — produces different damage depending on the season."
+
+- question: "Gutters are optional if your roof has sufficient slope, because a steep pitch sheds water fast enough to protect the foundation."
+  type: true-false
+  answer: false
+  explanation: "Roof slope controls how quickly water runs off the shingles, but it does nothing to direct that water away from the foundation once it reaches the eaves. Without gutters, water falls off the roof edge and splashes directly against the foundation wall. Gutters collect that runoff and channel it to downspouts, which direct it at least 6 feet away from the structure. Slope and gutters solve different problems."
+
+- question: "Explain why the gutter system is essential to protecting a home's foundation, and describe the specific failure mode that occurs when gutters become clogged."
+  type: short-answer
+  answer: "Gutters collect water shed from the roof and route it through downspouts to discharge well away from the foundation. When gutters clog, water cannot reach the downspout and instead overflows the edge, running down the siding and pooling against the foundation. Over time, this saturates the soil near the foundation and can cause basement flooding or structural damage."
+  explanation: "The entire roof-and-gutter system has one goal: move water away from the structure as efficiently as possible. The roof sheds water to the gutters; the gutters channel it to downspouts; downspout extensions carry it away from the foundation. Each stage matters — a failure at any link (clogged gutters, missing extensions) sends water where it shouldn't go."
+```
+
 ## Explainer
 
 Your home's roof and gutter system solves a single problem: water falls from the sky, and the interior of your home must stay dry. Everything in the system is designed around one objective — shedding water as quickly as possible and directing it away from the structure. When any part of this system fails, water finds another path, and that path almost always leads to expensive interior damage that took months to develop invisibly.

@@ -19,7 +19,7 @@ tags:
 - cooperation
 - peer-interaction
 - peer-competence
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

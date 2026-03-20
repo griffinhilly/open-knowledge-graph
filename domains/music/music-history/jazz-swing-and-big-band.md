@@ -18,7 +18,7 @@ tags:
 - Goodman
 - dance-music
 - arrangement
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

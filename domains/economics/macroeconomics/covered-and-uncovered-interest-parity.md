@@ -14,7 +14,7 @@ tags:
 - interest-rates
 - parity
 - exchange-rates
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

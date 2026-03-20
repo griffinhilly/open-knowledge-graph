@@ -20,7 +20,7 @@ tags:
 - toast
 - tribute
 - epideictic
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Ceremonial and Special Occasion Speaking

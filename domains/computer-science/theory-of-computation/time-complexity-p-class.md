@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 The complexity class P consists of languages decidable by a deterministic Turing machine in polynomial time. Problems in P have efficient algorithmic solutions. P is considered the class of 'practically solvable' problems, though it includes problems solvable in quadratic, cubic, or higher polynomial time.
 
+## Questions
+
+```yaml
+- question: "An algorithm correctly solves a problem in O(2ⁿ) time. Why is this considered impractical for large inputs, even though it always produces the right answer?"
+  type: multiple-choice
+  options:
+    - "It is impractical because 2ⁿ is not a deterministic function — outputs become unpredictable for large n"
+    - "It is impractical because the algorithm requires more memory than any physical machine can provide"
+    - "It is impractical because the number of steps grows so rapidly that even doubling the input size squares the runtime, quickly exceeding any feasible computation time"
+    - "It is impractical because exponential algorithms are not recognized as valid Turing machine computations"
+  answer: 2
+  explanation: "Correctness is necessary but not sufficient for practicality. An O(2ⁿ) algorithm on an input of size 100 requires approximately 10^30 steps — more than the estimated number of atoms in the sun. Even on hardware doing a billion operations per second, this is physically impossible to run. By contrast, a polynomial algorithm (e.g., O(n³)) on the same input requires a million steps — trivial. The polynomial/exponential boundary defines practical computability because polynomial time scales with input growth in a manageable way."
+
+- question: "Which of the following accurately characterizes the complexity class P?"
+  type: multiple-choice
+  options:
+    - "P contains only problems solvable in linear time (O(n))"
+    - "P contains all decision problems solvable by a deterministic Turing machine in a number of steps bounded by some polynomial in the input size"
+    - "P contains problems that are easy in practice — defined as running in under one second on modern hardware"
+    - "P contains problems whose solutions can be verified in polynomial time"
+  answer: 1
+  explanation: "P is defined formally as all decision problems decidable by a deterministic Turing machine in polynomial time — meaning the step count is bounded by n^k for some constant k, where n is the input length. It includes problems in O(n), O(n²), O(n³), and higher polynomials. It is not restricted to linear time (that would exclude many problems clearly in P, like Gaussian elimination). Option C confuses practical performance with formal complexity. Option D is the definition of NP, not P."
+
+- question: "The polynomial/exponential divide is preserved across all reasonable models of computation — a problem solvable in polynomial time on a multi-tape Turing machine is also solvable in polynomial time on a single-tape Turing machine or RAM model."
+  type: true-false
+  answer: true
+  explanation: "This property, known as the extended Church-Turing thesis, is what makes P a robust and meaningful class. Unlike specific running times (which can differ by polynomial factors between models), the polynomial/exponential divide is model-independent. This is why P is defined in terms of Turing machines but is trusted as a model-agnostic characterization of efficient computability."
+
+- question: "A problem being in P means it can be solved in linear time (O(n)) on a Turing machine."
+  type: true-false
+  answer: false
+  explanation: "P includes any problem solvable in polynomial time — meaning O(n^k) for any constant k. This encompasses O(n), O(n²), O(n³), O(n^10), and so on. Linear time is a subset of polynomial time. Famous problems in P include Gaussian elimination (O(n³)) and many graph algorithms that run in O(n²) or worse. The definition requires only that some polynomial bound exists, not that the polynomial be linear."
+
+- question: "Why is polynomial time used as the definition of 'efficiently solvable' rather than a stricter bound like linear or constant time?"
+  type: short-answer
+  answer: "Polynomial time is used because it is the right threshold for robustness across computation models and input scales. The polynomial/exponential divide is preserved across all reasonable models of computation — a polynomial-time algorithm on one model translates to polynomial time on any other. Linear or constant time would exclude many problems we consider efficiently solvable in practice (sorting, shortest paths, linear algebra). Polynomial time captures the intuition that doubling the input causes at most a manageable multiplicative slowdown, while exponential time causes catastrophic growth that renders algorithms physically impossible for moderate inputs."
+  explanation: "The choice of polynomial is partly pragmatic and partly theoretically motivated. Pragmatically: O(n^3) for linear algebra and O(n^2) for graph problems are genuinely usable. Theoretically: the class is closed under composition (composing two polynomial-time algorithms gives a polynomial-time algorithm) and is model-independent. These properties make P a natural and useful boundary. The alternative — only counting linear time — would make P fragile and exclude problems we consider tractable."
+```
+
 ## Explainer
 
 Up to this point, computability theory has asked a binary question: *can* a problem be solved by a Turing machine at all? The class P shifts the question to: *how fast* can it be solved? From the Church-Turing thesis, you know that Turing machines capture the full power of computation. **Time complexity** measures how many steps a Turing machine uses as a function of input length, and the class **P** collects all decision problems solvable in polynomial time — meaning the number of steps is bounded by some polynomial n^k in the input size n.

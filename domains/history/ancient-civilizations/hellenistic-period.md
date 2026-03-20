@@ -19,7 +19,7 @@ tags:
 - ptolemaic-egypt
 - seleucid
 - cultural-diffusion
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # The Hellenistic World: Alexander and Cultural Fusion

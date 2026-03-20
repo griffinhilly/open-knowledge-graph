@@ -17,7 +17,7 @@ tags:
 - genealogy
 - biography
 - social-history
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

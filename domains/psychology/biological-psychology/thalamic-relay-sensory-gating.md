@@ -15,7 +15,7 @@ tags:
 - sensory-systems
 - consciousness
 - brain-structure
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

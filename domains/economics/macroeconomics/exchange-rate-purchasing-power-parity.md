@@ -9,8 +9,7 @@ prerequisites:
 - id: inflation-and-price-level
   type: hard
 builds-toward:
-- current-account-and-external-balance
-- capital-flows-and-financial-account
+  - current-account-and-external-balance
 tags:
 - exchange-rates
 - international
@@ -18,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Exchange Rates and Purchasing Power Parity
 
 ## Core Idea

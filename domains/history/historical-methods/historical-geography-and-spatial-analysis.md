@@ -13,7 +13,7 @@ tags:
 - space
 - spatial-analysis
 - place
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

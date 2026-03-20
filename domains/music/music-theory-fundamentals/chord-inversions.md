@@ -18,7 +18,7 @@ tags:
 - bass note
 - figured bass
 - harmony
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

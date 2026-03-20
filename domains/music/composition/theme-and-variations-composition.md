@@ -13,7 +13,7 @@ tags:
 - variation
 - development
 - composition
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

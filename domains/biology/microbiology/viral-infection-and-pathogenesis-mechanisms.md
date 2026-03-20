@@ -14,7 +14,7 @@ tags:
 - pathogenesis
 - infection
 - host-cell
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

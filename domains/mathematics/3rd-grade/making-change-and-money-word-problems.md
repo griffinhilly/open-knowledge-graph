@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 Making change requires understanding coin values and computing the difference between a price and amount paid. For example, if an item costs 37¢ and you pay 50¢, the change is 50 − 37 = 13¢. Real and modeled shopping contexts apply arithmetic skills.
 
+## Questions
+
+```yaml
+- question: "Marcus buys a pencil for 45¢ and pays with 2 quarters. How much change does he get?"
+  type: multiple-choice
+  options:
+    - "5¢ — 50¢ minus 45¢"
+    - "45¢ — the price of the pencil"
+    - "95¢ — the price plus the amount paid"
+    - "10¢ — subtracting the quarters from the price"
+  answer: 0
+  explanation: "Change = amount paid − price = 50¢ − 45¢ = 5¢. Two quarters = 50¢ (each quarter = 25¢). The price is 45¢. The subtraction is straightforward once you correctly identify both amounts. Option B confuses the price with the change; option C adds instead of subtracts; option D performs the subtraction backwards."
+
+- question: "In the problem 'Lily buys stickers for 63¢ and pays with 3 quarters. How much change does she get?' — what is the unknown quantity?"
+  type: multiple-choice
+  options:
+    - "The price of the stickers"
+    - "The number of quarters Lily used"
+    - "The amount of change she receives"
+    - "The total value of 3 quarters"
+  answer: 2
+  explanation: "Identifying the unknown is the first step in solving any word problem. The price (63¢) is given. The number of quarters (3) is given. The total value of 3 quarters (75¢) can be calculated from given information. What the problem asks for — and what is not directly stated — is the change. Translating 'how much change' into 'amount paid minus price' is the key move: 75¢ − 63¢ = 12¢."
+
+- question: "Counting up from the price to the amount paid gives a different answer than subtracting the price from the amount paid."
+  type: true-false
+  answer: false
+  explanation: "Both methods measure the same gap between two numbers — they are mathematically identical. Counting up from 37¢ to 50¢ (add 3¢ to reach 40¢, add 10¢ to reach 50¢, total = 13¢) gives the same answer as 50 − 37 = 13. Counting up mirrors the physical action of making change at a register; subtraction is the arithmetic abstraction of the same operation. Same result, different mental approach."
+
+- question: "To find the change owed, you subtract the price from the amount paid."
+  type: true-false
+  answer: true
+  explanation: "Change = amount paid − price. If you pay more than the item costs, the difference comes back to you. This direction of subtraction matters: the amount paid is the larger number, and the price is subtracted from it. Reversing the subtraction (price − amount paid) would give a negative number, which signals you've set it up backwards."
+
+- question: "Why is 'translating the situation into a calculation' the key skill in money word problems? Give an example of a translation step you would need to take."
+  type: short-answer
+  answer: "Word problems describe a real situation using language — your job is to convert that language into the numbers and operations needed to solve it. The arithmetic itself is often simple; the difficulty is identifying what is known, what is unknown, and which operation connects them. Example: 'Mia pays with 3 quarters' must be translated to '3 × 25¢ = 75¢ paid' before you can subtract the price."
+  explanation: "Students often struggle with money word problems not because of the arithmetic but because they cannot extract the right numbers and operation from the sentence. The translation habit — pausing to name the price, name the amount paid, identify what's missing, then choose the operation — applies to all applied math, not just money. Every real-world math problem requires this interpretation step before any calculation begins."
+```
+
 ## Explainer
 
 You know the value of each coin and how to count a collection of money. Now you're applying those skills in a real transaction. When you buy something, two amounts meet: the **price** of the item and the **amount you pay**. If they match exactly, no change is needed. When you pay more than the price, the difference comes back to you as **change** — and computing that difference is the core skill here.

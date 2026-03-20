@@ -16,7 +16,7 @@ tags:
 - identity
 - local
 - geography
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -22,7 +22,7 @@ tags:
 - fairness
 - welfare
 - resources
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

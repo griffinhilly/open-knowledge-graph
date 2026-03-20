@@ -28,6 +28,45 @@ Study women composers across different periods and genres, examine gender norms 
 ## Common Misconceptions
 There were no significant women composers before the 20th century; women's music is stylistically distinct from men's music; gender representation in music has been adequately addressed in contemporary scholarship.
 
+## Questions
+
+```yaml
+- question: "Why are historical women composers like Clara Schumann and Fanny Hensel concentrated primarily in piano music, lieder, and chamber works rather than symphonies and large-scale operas?"
+  type: multiple-choice
+  options:
+    - "They preferred intimate genres because of their domestic lives and personal temperament"
+    - "Symphonies and operas were technically more difficult and women had less formal training"
+    - "Social structures restricted women from genres requiring institutional roles women could not hold"
+    - "Their compositions in large-scale genres were lost due to lack of preservation efforts"
+  answer: 2
+  explanation: "Genre constraints were institutional, not personal. Sacred composition was closed because women couldn't hold church positions; opera required patronage networks dominated by men. Keyboard and chamber music were acceptable because they could be practiced privately. This is not about temperament or technical ability — it reflects the concrete social structures governing what musical roles women could occupy."
+
+- question: "Clara Schumann was one of the most celebrated concert pianists of her century, yet she described herself primarily as a performer and wife of Robert Schumann and suppressed much of her compositional output. This most likely reflects:"
+  type: multiple-choice
+  options:
+    - "Her genuine preference for performance over composition"
+    - "The limited quality of her compositions compared to her performance ability"
+    - "The social expectations and identity constraints placed on women in musical life"
+    - "A strategic decision to avoid competition with her husband's compositions"
+  answer: 2
+  explanation: "Clara Schumann's self-presentation reflects the gender norms of her era, not a personal preference or lack of compositional talent. Women in musical life were defined by relational roles (wife, performer) while the composer role was coded as masculine. Her case illustrates how internal self-description can be as much a product of social constraint as external exclusion."
+
+- question: "The absence of women composers from the standard Western musical canon reflects historiographical decisions made in the 19th and 20th centuries, not the absence of compositional activity by women."
+  type: true-false
+  answer: true
+  explanation: "The recovery project that began in the 1970s did not find previously unknown women — it found evidence that had always been in the archives. When 19th- and early 20th-century scholars constructed the canon, they inherited and reproduced the exclusions of their era without questioning them. The canon's gaps are as much a story about how history was written as about what actually happened."
+
+- question: "Women were largely absent from composition in the 17th through 19th centuries because musical culture of that era did not produce many women with serious compositional interests or training."
+  type: true-false
+  answer: false
+  explanation: "Women like Barbara Strozzi (17th century), Clara Schumann, Fanny Hensel, and Amy Beach demonstrate active compositional engagement across centuries. The issue was not lack of interest or talent but structural exclusion: women were barred from genres, institutions, and patronage networks through which composers built careers and reputations. The absence in canonical accounts is a historiographical problem, not evidence of historical absence."
+
+- question: "Why do scholars say that gender analysis 'revises the center' of music history rather than simply adding women as a supplementary topic?"
+  type: short-answer
+  answer: "Adding women as a supplementary topic would mean inserting a few female composers into an unchanged narrative. But taking gender seriously requires revising the analytical frameworks themselves: understanding why the canon was constructed as it was, why certain genres became prestigious while women were confined to others, how the concert hall and the recording industry encoded gendered assumptions. A history of Romantic art song that omits Schumann and Hensel misrepresents the genre, not just its gender representation. The center — not just the margins — needs revision."
+  explanation: "This question tests whether students understand gender analysis as a methodological revision rather than just a diversity supplement. The key move is recognizing that exclusions from the canon shaped what stories got told about the central repertoire itself."
+```
+
 ## Explainer
 
 Music history, as you've learned, is shaped by cultural context — the social forces that determine which music gets composed, performed, and preserved. Gender is one of the most consequential of those forces. For most of Western music history, women were systematically excluded from professional composition and public performance not because they lacked musical talent or interest, but because the social structures governing musical production defined the composer and public performer as masculine roles. Understanding this requires applying the same analytical lens you used when studying how patronage systems, court culture, and religious institutions shaped what music got made.

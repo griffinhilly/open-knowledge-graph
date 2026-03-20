@@ -18,7 +18,7 @@ tags:
 - binary-outcome
 - MLE
 - marginal-effects
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

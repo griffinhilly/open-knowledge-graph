@@ -15,7 +15,7 @@ tags:
 - periodization
 - transition
 - rome-decline
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

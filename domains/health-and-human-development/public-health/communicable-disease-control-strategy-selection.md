@@ -14,7 +14,7 @@ tags:
 - disease-control
 - infection-prevention
 - epidemiology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

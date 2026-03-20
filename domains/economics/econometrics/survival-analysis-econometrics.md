@@ -12,7 +12,7 @@ tags:
 - survival-analysis
 - duration
 - hazard-rate
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

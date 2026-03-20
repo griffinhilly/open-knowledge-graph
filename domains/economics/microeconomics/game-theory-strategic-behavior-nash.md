@@ -15,7 +15,7 @@ tags:
 - game-theory
 - strategic-interaction
 - equilibrium
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

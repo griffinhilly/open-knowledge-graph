@@ -19,7 +19,7 @@ tags:
 - reproduction
 - value
 - forgery
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

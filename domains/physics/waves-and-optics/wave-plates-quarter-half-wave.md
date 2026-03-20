@@ -14,7 +14,7 @@ tags:
 - wave-plates
 - birefringent-materials
 - polarization-control
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

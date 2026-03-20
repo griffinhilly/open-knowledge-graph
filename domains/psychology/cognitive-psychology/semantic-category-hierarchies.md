@@ -14,7 +14,7 @@ tags:
 - semantic-memory
 - categorization
 - knowledge
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

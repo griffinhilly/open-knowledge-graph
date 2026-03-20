@@ -12,7 +12,7 @@ tags:
 - productivity
 - growth
 - tfp
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

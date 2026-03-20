@@ -17,7 +17,7 @@ tags:
 - juxtaposition
 - compression
 - truth
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

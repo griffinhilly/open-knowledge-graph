@@ -23,7 +23,7 @@ tags:
 - Mussolini
 - Hitler
 - totalitarianism
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # The Rise of Fascism

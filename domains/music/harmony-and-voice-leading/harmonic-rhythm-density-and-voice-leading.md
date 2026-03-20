@@ -15,7 +15,7 @@ tags:
 - texture
 - voice-leading
 - pacing
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

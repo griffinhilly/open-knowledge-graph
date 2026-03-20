@@ -15,7 +15,7 @@ tags:
 - retrieval
 - encoding-specificity
 - context
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

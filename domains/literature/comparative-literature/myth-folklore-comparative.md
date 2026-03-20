@@ -15,7 +15,7 @@ tags:
 - folklore
 - comparative
 - culture
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

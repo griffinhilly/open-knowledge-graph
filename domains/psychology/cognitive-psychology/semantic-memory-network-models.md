@@ -15,7 +15,7 @@ tags:
 - networks
 - knowledge
 - representation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

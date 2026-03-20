@@ -16,7 +16,7 @@ tags:
 - indirect-realism
 - sense-data
 - perceptual-justification
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 # Perception and Knowledge

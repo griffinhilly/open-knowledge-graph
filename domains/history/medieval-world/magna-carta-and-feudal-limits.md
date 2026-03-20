@@ -16,7 +16,7 @@ tags:
 - rule-of-law
 - parliament
 - barons
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

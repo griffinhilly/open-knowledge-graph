@@ -34,6 +34,45 @@ Start with money: $0.50 is 50 cents, half a dollar. Use base-ten blocks where th
 - Thinking longer decimals are always larger (0.125 > 0.5 because 125 > 5).
 - Not connecting decimals to fractions.
 
+## Questions
+
+```yaml
+- question: "A student compares 0.47 and 0.6 and concludes that 0.47 is larger because 47 is greater than 6. What error is the student making?"
+  type: multiple-choice
+  options:
+    - "The student should add a zero to get 0.60 first, then compare"
+    - "The student is treating the decimal digits as whole numbers instead of reading them by place value (0.47 = 47/100; 0.6 = 60/100)"
+    - "The student needs to convert both to percentages before comparing"
+    - "The student forgot that numbers after the decimal point count in reverse order"
+  answer: 1
+  explanation: "0.47 means 47 hundredths (47/100), and 0.6 means 6 tenths (60/100). Written with a common denominator, 47/100 < 60/100, so 0.6 is greater. The student's error is treating '.47' and '.6' as bare whole numbers (47 vs 6) rather than reading them by their place values. Reading decimals correctly — 'forty-seven hundredths' vs 'six tenths' — immediately reveals that 60 hundredths beats 47 hundredths."
+
+- question: "Which of the following correctly expresses the value of the decimal 0.3?"
+  type: multiple-choice
+  options:
+    - "3 hundredths, or 3/100"
+    - "30 tenths, or 30/10"
+    - "3 tenths, or 3/10"
+    - "0.3 is a unique type of number that cannot be written as a fraction"
+  answer: 2
+  explanation: "The first digit after the decimal point is the tenths place — it represents how many tenths you have. So 0.3 = 3/10, three tenths. Students who say '3 hundredths' are confusing the tenths place (first after the decimal) with the hundredths place (second after the decimal). Reading the decimal aloud correctly — 'three tenths' — forces you to say the denominator, which builds accurate place value understanding."
+
+- question: "The decimal 0.25 and the fraction 1/4 represent exactly the same quantity."
+  type: true-false
+  answer: true
+  explanation: "True. 0.25 = 25/100. Simplifying: 25/100 ÷ 25/25 = 1/4. Decimals and fractions are not two different types of numbers — they are two different notations for the same quantities. Every terminating decimal can be written as a fraction with a power-of-ten denominator. Recognizing this connection is essential for comparing, adding, and making sense of decimal arithmetic."
+
+- question: "A decimal with more digits after the decimal point always represents a larger number than one with fewer digits."
+  type: true-false
+  answer: false
+  explanation: "False. 0.125 has three decimal places, but it equals 125/1000 = 1/8, which is less than 0.5 (= 1/2). More digits do not mean a larger value — place value determines size. This is exactly the misconception the Explainer warns about: treating 0.125 as 'bigger' because 125 > 5 ignores what those digits actually represent (125 thousandths vs 500 thousandths)."
+
+- question: "Explain why reading '0.47' as 'forty-seven hundredths' rather than 'point four seven' helps you correctly compare it to 0.6."
+  type: short-answer
+  answer: "Reading '0.47' as 'forty-seven hundredths' tells you the denominator is 100, giving you 47/100. Reading '0.6' as 'six tenths' gives you 6/10 = 60/100. Now both fractions share the same denominator, and it's obvious that 47/100 < 60/100. The verbal reading forces you to name the place value, which is all the information you need to compare accurately."
+  explanation: "This is the deepest practical implication of decimals-as-fractions. When you read decimals as bare digits ('point four seven'), you lose the denominator information. When you read them as fractions out loud, you immediately see that the comparison is 47 hundredths vs 60 hundredths — and 47 < 60 is obvious. The verbal habit encodes the mathematical relationship. This same habit prevents errors in ordering decimals, adding and subtracting them, and later in understanding decimal multiplication."
+```
+
 ## Explainer
 
 You already understand **place value** for whole numbers: each position in a number is worth ten times more than the position to its right. Ones, tens, hundreds, thousands — each step left multiplies by 10. The **decimal point** simply extends that pattern in the other direction. Each step right of the decimal point *divides* by 10: tenths (1/10), hundredths (1/100), thousandths (1/1000), and so on. The system is symmetric around the ones place. There is nothing new to memorize — the same base-ten logic you already know keeps on going past the point.

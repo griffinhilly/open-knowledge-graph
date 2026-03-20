@@ -16,7 +16,7 @@ tags:
 - transformation
 - social-structure
 - community
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

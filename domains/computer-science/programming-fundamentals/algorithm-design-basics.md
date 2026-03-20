@@ -29,7 +29,7 @@ tags:
 - search
 - sort
 - complexity
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Algorithm Design Basics

@@ -17,7 +17,7 @@ tags:
 - context
 - cognitive-activation
 - self-concept
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

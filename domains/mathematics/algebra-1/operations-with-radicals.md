@@ -33,6 +33,45 @@ Draw the analogy to like terms explicitly: just as 3x + 7x = 10x, 3sqrt(5) + 7sq
 - Not simplifying before combining (missing that sqrt(12) + sqrt(27) can be combined after simplification).
 - Thinking you cannot multiply unlike radicals (you can: sqrt(3) × sqrt(5) = sqrt(15)).
 
+## Questions
+
+```yaml
+- question: "A student wants to simplify √12 + √75. What must they do first, and what is the final simplified result?"
+  type: multiple-choice
+  options:
+    - "Add the radicands: √12 + √75 = √87"
+    - "Simplify each radical first: √12 = 2√3 and √75 = 5√3, then combine like radicals to get 7√3"
+    - "Multiply using the product rule: √12 × √75 = √900 = 30"
+    - "Recognize that 12 and 75 are different radicands, so the expression cannot be simplified"
+  answer: 1
+  explanation: "The critical first step is simplification: √12 = √(4×3) = 2√3, and √75 = √(25×3) = 5√3. Once simplified, both radicals share the radicand 3 — they are like radicals — and combine exactly like like terms: 2√3 + 5√3 = 7√3. Option A is the most dangerous misconception: adding radicands (√12 + √75 ≠ √87) violates the rule that you can only combine radicals with matching radicands. Option D is a common mistake when students skip the simplification step."
+
+- question: "Which of the following is correct?"
+  type: multiple-choice
+  options:
+    - "√3 + √5 = √8, because you add the radicands just as you add the numbers under the radical"
+    - "√3 × √5 = √15, because the product rule allows multiplication of unlike radicals"
+    - "√3 + √5 = √15, because you multiply the radicands when the radicals are unlike"
+    - "√3 × √5 cannot be simplified because the radicands are different"
+  answer: 1
+  explanation: "The product rule states √a × √b = √(ab) for a,b ≥ 0 — unlike radicals CAN be multiplied. √3 × √5 = √15 (which cannot be further simplified). In contrast, √3 + √5 cannot be combined because addition of radicals requires identical radicands. Option A (√3 + √5 = √8) is the most common misconception — adding radicands as if they were ordinary numbers. The operations of multiplication and addition follow completely different rules for radicals: unlike radicals can be multiplied but not added."
+
+- question: "3√5 + 7√5 = 10√5, for the same reason that 3x + 7x = 10x — in both cases, the coefficients count how many of the same 'unit' you have."
+  type: true-false
+  answer: true
+  explanation: "This analogy is the key conceptual insight: the radical √5 acts exactly like a variable. The coefficients (3 and 7) count how many copies of that unit you have, and like any like-terms combination, you add the coefficients while keeping the shared unit unchanged. 3√5 + 7√5 = (3 + 7)√5 = 10√5, just as 3x + 7x = 10x. The rule only applies when the radicands are identical — you cannot combine 3√5 and 7√3 for the same reason you cannot combine 3x and 7y."
+
+- question: "√2 + √8 cannot be simplified because 2 and 8 are different radicands."
+  type: true-false
+  answer: false
+  explanation: "This is incorrect — simplification reveals hidden like radicals. √8 = √(4×2) = 2√2. After simplification, √2 + √8 = √2 + 2√2 = 3√2. The lesson: always simplify each radical fully before concluding that radicals are unlike. Two radicals may appear to have different radicands but become like radicals after simplification. The procedure is: simplify first, then check for matching radicands, then combine."
+
+- question: "Explain why √12 + √27 can be simplified even though 12 and 27 are different numbers. What makes two radicals 'like radicals,' and why does simplification matter?"
+  type: short-answer
+  answer: "√12 = 2√3 (because 12 = 4 × 3, and √4 = 2) and √27 = 3√3 (because 27 = 9 × 3, and √9 = 3). After simplification, both radicals share the radicand 3, making them like radicals. Like radicals are those with identical radicands after full simplification — they function as the same unit. Since 2√3 + 3√3 = (2+3)√3 = 5√3, the sum simplifies. Without simplifying first, the different surface radicands (12 and 27) make the radicals appear unlike, leading to the wrong conclusion that they cannot be combined."
+  explanation: "Simplification is the unlocking step. Different radicands do not necessarily mean unlike radicals — they may share a common simplified form. The reliable procedure is always: fully simplify each radical by extracting the largest perfect-square factor, then check whether the simplified radicands match. Only after this step can you correctly determine whether addition or subtraction is possible."
+```
+
 ## Explainer
 
 You already know how to simplify radical expressions — for example, √12 = 2√3 — and you know how to combine like terms, such as 3x + 7x = 10x. Operations with radicals bring these two skills together. The central principle is that **like radicals** — radicals sharing the same radicand — behave exactly like like terms. Just as 3x and 7x combine to give 10x because they share the same "unit" x, the expressions 3√5 and 7√5 combine to give 10√5 because they share the same unit √5. The radical acts as the variable; the coefficient counts how many of it you have.

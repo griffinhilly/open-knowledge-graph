@@ -16,7 +16,7 @@ tags:
 - singularity
 - geometric-effects
 - notch-strength
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

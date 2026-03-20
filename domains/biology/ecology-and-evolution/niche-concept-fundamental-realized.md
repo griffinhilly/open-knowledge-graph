@@ -18,7 +18,7 @@ tags:
 - fundamental
 - realized
 - competition
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - economy
 - integration
 - exchange
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -3,17 +3,18 @@ id: constraint-driven-creative-problem-solving
 title: Constraint-Driven Creative Problem Solving
 domain: arts-and-aesthetics
 course: design-principles
-prerequisites: []
+prerequisites:
+- id: dramatic-structure
+  type: soft
 tags:
 - constraints
 - creative-problem-solving
 - limitations
 - iteration
 - strategy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Constraint-Driven Creative Problem Solving
 
 ## Core Idea

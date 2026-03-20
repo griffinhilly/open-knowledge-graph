@@ -14,7 +14,7 @@ tags:
 - perdurantism
 - temporal parts
 - change
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

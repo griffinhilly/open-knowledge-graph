@@ -14,7 +14,7 @@ tags:
 - status
 - age
 - transition
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

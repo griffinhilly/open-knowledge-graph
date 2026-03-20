@@ -15,7 +15,7 @@ tags:
 - renal
 - autoregulation
 - GFR
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

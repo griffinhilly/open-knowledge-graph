@@ -34,7 +34,7 @@ tags:
 - unit-price
 - seasonal
 - shopping-list
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 

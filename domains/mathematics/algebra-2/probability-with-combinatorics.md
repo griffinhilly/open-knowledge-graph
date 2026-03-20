@@ -17,7 +17,7 @@ tags:
 - combinatorics
 - counting
 - applications
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Probability with Combinatorics

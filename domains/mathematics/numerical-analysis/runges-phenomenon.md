@@ -13,7 +13,7 @@ tags:
 - runges-phenomenon
 - oscillation
 - interpolation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

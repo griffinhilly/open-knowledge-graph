@@ -17,7 +17,7 @@ tags:
 - distortion
 - color
 - intensity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

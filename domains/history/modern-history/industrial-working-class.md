@@ -15,7 +15,7 @@ tags:
 - labor
 - class-consciousness
 - proletariat
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

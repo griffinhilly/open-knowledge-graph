@@ -12,7 +12,7 @@ tags:
 - equity-valuation
 - eva
 - performance-measurement
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

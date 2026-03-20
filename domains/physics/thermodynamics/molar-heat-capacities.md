@@ -7,8 +7,7 @@ prerequisites:
 - id: heat-capacity-of-gases
   type: hard
 builds-toward:
-- degrees-of-freedom-polyatomic
-- third-law-absolute-entropy
+  - third-law-absolute-entropy
 tags:
 - heat-capacity
 - properties
@@ -16,7 +15,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Molar Heat Capacities and Their Relations
 
 ## Core Idea

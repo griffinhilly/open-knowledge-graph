@@ -15,7 +15,7 @@ tags:
 - perspective
 - interpretation
 - access
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

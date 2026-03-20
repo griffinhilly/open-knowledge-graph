@@ -12,7 +12,7 @@ tags:
 - justice
 - procedures
 - legal
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

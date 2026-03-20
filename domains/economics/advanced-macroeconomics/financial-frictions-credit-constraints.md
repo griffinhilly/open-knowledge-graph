@@ -12,7 +12,7 @@ tags:
 - financial-frictions
 - credit-constraints
 - lending
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - crime
 - subculture
 - socialization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

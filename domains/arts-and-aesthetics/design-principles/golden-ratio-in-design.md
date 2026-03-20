@@ -31,6 +31,45 @@ Measure the proportions of classical buildings, paintings, and natural forms. Cr
 - The golden ratio is a magic formula that guarantees beautiful design; context and execution matter infinitely more.
 - Modern design always requires the golden ratio; many successful designs ignore it entirely.
 
+## Questions
+
+```yaml
+- question: "A designer divides a webpage layout into a 62% main content area and a 38% sidebar, citing the golden ratio. A critic says: 'Any layout that uses the golden ratio is guaranteed to look beautiful.' The designer should respond:"
+  type: multiple-choice
+  options:
+    - "The critic is right — mathematically derived proportions always produce better results than intuitive ones"
+    - "The golden ratio ensures visual harmony, but other proportions like the rule of thirds can achieve similar results"
+    - "The critic is wrong — the golden ratio is a useful starting point, but context, execution, and content determine whether the design succeeds"
+    - "The golden ratio is the only proportion with documented psychological effects on viewers"
+  answer: 2
+  explanation: "The key insight is that the golden ratio is a useful proportional tool, not a guarantee of beauty. The claim that any application of φ automatically produces beautiful design is the overclaim this topic warns against. Design success depends on context, execution, content requirements, and audience — not on whether a specific ratio is applied. The golden ratio provides a reliable, harmonious default proportion, but many excellent designs use other proportions (rule of thirds, musical intervals, pragmatic screen ratios) and work just as well or better for their specific purpose."
+
+- question: "Researchers show participants a lineup of rectangles — including a golden ratio rectangle, a square, and several non-golden rectangles — and ask which is most beautiful. What do most studies find?"
+  type: multiple-choice
+  options:
+    - "Participants consistently identify the golden rectangle as most beautiful, confirming its universal aesthetic value"
+    - "Participants prefer very wide rectangles regardless of the specific proportions"
+    - "Participants show mixed preferences and cannot reliably identify the golden rectangle as distinctly more beautiful than others"
+    - "Only participants with design training prefer the golden ratio; untrained viewers prefer square proportions"
+  answer: 2
+  explanation: "The empirical evidence for the golden ratio's supposed universal appeal is weak. Most studies find that people prefer a range of proportions and cannot reliably pick out the golden rectangle from alternatives. This challenges the popular mythology that humans are innately wired to find φ beautiful. The ratio is genuinely useful as a design tool — it produces proportions that are neither too narrow nor too wide, and its mathematical self-similarity has real applications in type scales and layout grids — but its status as a 'law of beauty' is a cultural overstatement, not a scientific finding."
+
+- question: "The golden ratio appears in nautilus shells, sunflower seed patterns, and other natural forms because nature independently evolved this proportion as an efficient solution to growth and packing problems."
+  type: true-false
+  answer: true
+  explanation: "Unlike the overstated claims about the Parthenon or the Mona Lisa, the golden ratio's appearance in natural growth patterns is well-supported. The Fibonacci sequence (where each number is the sum of the two preceding ones) governs many biological growth patterns — petal counts, seed packing, branching structures — and the ratio between consecutive Fibonacci numbers converges to φ. This emerges from efficiency: logarithmic spirals based on the golden ratio allow for space-efficient packing as structures grow. Nature's 'discovery' of this proportion is a consequence of optimizing for growth, not an aesthetic preference — which is a reason to be cautious about inferring that it must therefore be aesthetically privileged for humans."
+
+- question: "Historical claims that the Parthenon and the Mona Lisa were deliberately designed using the golden ratio are well-documented by contemporary sources from those periods."
+  type: true-false
+  answer: false
+  explanation: "Most historical claims that classical buildings and artworks were intentionally designed around φ are retroactive — they involve measuring existing works and noting that some dimensions approximate the golden ratio, then concluding the ratio was used deliberately. Contemporary documentary evidence of intentional golden ratio use is sparse for ancient and Renaissance works. This is the 'retrofitting' problem: with enough measurements and enough flexibility in what you call a 'match,' almost any building can be made to look like it used the golden ratio. This does not mean those works are not beautiful or well-proportioned — it means the golden ratio is not the explanation for their beauty."
+
+- question: "Why is it more useful to think of the golden ratio as 'one proportion among many useful options' rather than a universal law of aesthetic beauty?"
+  type: short-answer
+  answer: "Treating the golden ratio as a universal law encourages designers to apply it mechanically regardless of context — dividing layouts at 62/38 even when content, screen dimensions, or user needs suggest a different split. In reality, proportion decisions depend on context: what the content is, who the audience is, what medium is being used, and what emotional effect is intended. The golden ratio is a reliable default when you need a proportional relationship that is likely to feel balanced and harmonious, but musical intervals (2:3, 3:4), the rule of thirds, and pragmatic content-driven ratios are all legitimate alternatives that produce excellent designs. Understanding the golden ratio as a tool rather than a law frees designers to make context-appropriate proportion decisions."
+  explanation: "The deeper point is that no single mathematical relationship defines beauty. If the golden ratio were a universal law, then every design deviating from it would feel worse — but in practice, we can point to countless beautifully proportioned works that ignore it entirely. The golden ratio works because it produces proportions in a range humans tend to find harmonious — neither too extreme nor too uniform — but that range is not infinitely narrow, and other proportions can occupy the same perceptual space."
+```
+
 ## Explainer
 
 From your work with proportion and scale, you understand that the relative sizes of elements matter more than their absolute dimensions — a heading that is twice the size of body text creates a different visual hierarchy than one that is only slightly larger. The **golden ratio** (φ ≈ 1.618) is one specific proportional relationship that has fascinated artists, architects, and mathematicians for over two thousand years. Understanding what it actually is, where it genuinely appears, and where its reputation is overblown will help you use it as a tool rather than treat it as a mystical formula.

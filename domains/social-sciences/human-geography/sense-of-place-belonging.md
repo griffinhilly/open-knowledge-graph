@@ -29,6 +29,45 @@ Conduct oral history interviews exploring what places mean to long-term resident
 ## Common Misconceptions
 Sense of place is not inherent in locations but constructed through social practices and memory. Place attachment is not universally positive—it can exclude newcomers and outsiders. Nostalgia for place can obscure historical injustices and oppressions that occurred there.
 
+## Questions
+
+```yaml
+- question: "Long-term residents of a neighborhood oppose a proposed affordable housing development, arguing it will 'destroy the character of the neighborhood.' A geographer studying sense of place would most likely interpret this as:"
+  type: multiple-choice
+  options:
+    - "A purely aesthetic concern about architectural style that has no geographic significance"
+    - "An expression of place attachment that simultaneously functions as territorial exclusion of prospective newcomers"
+    - "Evidence that sense of place is an inherent property of the neighborhood's physical environment"
+    - "A legitimate concern that should automatically override all urban planning decisions"
+  answer: 1
+  explanation: "Geographers recognize that place attachment is double-edged. The same sense of belonging that roots long-term residents in community can produce 'this is our place' territorial thinking that excludes newcomers, especially those from different class or ethnic backgrounds. This doesn't make the attachment illegitimate, but it reveals that sense of place has political consequences — it can be mobilized both for community cohesion and for the exclusion of those deemed not to 'belong.' The physical environment is not the source of this feeling; it is socially constructed through memory and social relationship."
+
+- question: "When community activists march against gentrification to protect a neighborhood they have lived in for decades, geographers understand them to be defending:"
+  type: multiple-choice
+  options:
+    - "Primarily their financial interest in maintaining property values"
+    - "A social world, collective memory, and a dimension of personal identity that has been encoded in that physical space over time"
+    - "The architectural heritage of buildings, not the social relationships within them"
+    - "The legal property rights of homeowners against commercial developers"
+  answer: 1
+  explanation: "Geographers use the concept of 'place identity' — the part of one's self-concept tied to places one is from — to explain why displacement feels like more than a housing transaction. When you lose the street where you built your life, the corner store you've frequented for decades, and the neighbors who know your history, you lose an externalized dimension of your own identity. This is what makes gentrification a geographic as well as an economic phenomenon — it erases social worlds, not just affordable units."
+
+- question: "The same sense of place that creates belonging and security for established residents can simultaneously produce exclusion or hostility toward people perceived as outsiders."
+  type: true-false
+  answer: true
+  explanation: "This is the critical dimension that complicates romanticized notions of community and rootedness. Topophilia — love of place — is real and positive for those who belong, but it shades into territorial belonging ('this is our place') that can make newcomers, ethnic minorities, or anyone perceived as not fitting the community's self-image feel unwelcome or unsafe. Geographers treat this not as a corruption of place attachment but as one of its inherent possibilities."
+
+- question: "Sense of place is an inherent property of locations themselves — certain physical environments naturally generate strong emotional attachment because of their landscape features."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception to avoid. Place attachment is socially constructed through lived experience, memory, social relationships, and shared identity — not deposited in the physical environment. The same vacant lot means nothing to a stranger and everything to someone who played there as a child. Two people standing on the same corner may have entirely different sense-of-place experiences based on their social position, history in the community, and who they are. The landscape provides the stage; humans create the meaning."
+
+- question: "What does it mean to say that geographic memory is 'contested'? Why might the same place be remembered very differently by different groups?"
+  type: short-answer
+  answer: "Geographic memory is contested because different groups encode different — sometimes incompatible — meanings onto the same physical space based on their different social positions and histories. A neighborhood remembered fondly by one group as a tight-knit community may be remembered by another group as a site of segregation, exclusion, or harassment. Whose memories get institutionalized in monuments, street names, and official histories — and whose are silenced — reflects how power operates through space."
+  explanation: "This contestation is a window into social power: the dominant group's sense of place tends to be institutionalized (memorialized, preserved, commemorated) while marginalized groups' experiences of the same space are often erased or rendered invisible. Asking 'whose sense of place?' is therefore a political question, not just a cultural one."
+```
+
 ## Explainer
 
 Your prerequisite work on place as a social construction established that places are not merely locations with fixed physical properties — they are meanings-laden spaces produced through human activity, interpretation, and relationship. Sense of place builds on this foundation: it asks what happens when people develop deep emotional and psychological bonds to those produced spaces, and what that bond does to identity, community, and social belonging.

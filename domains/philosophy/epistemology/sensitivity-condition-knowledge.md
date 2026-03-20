@@ -15,7 +15,7 @@ tags:
 - sensitivity
 - tracking
 - gettier
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

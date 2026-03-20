@@ -17,7 +17,7 @@ tags:
 - oxides
 - chemical-gradients
 - mixing-zones
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - bandwidth
 - cascade
 - cascode
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

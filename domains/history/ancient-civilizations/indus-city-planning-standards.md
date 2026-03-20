@@ -15,7 +15,7 @@ tags:
 - urbanization
 - city-planning
 - standards
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

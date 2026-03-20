@@ -13,7 +13,7 @@ tags:
 - spatial
 - typography
 - form
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

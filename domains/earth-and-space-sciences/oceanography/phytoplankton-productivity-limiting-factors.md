@@ -17,7 +17,7 @@ tags:
 - light
 - nutrients
 - temperature
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

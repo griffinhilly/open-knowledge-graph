@@ -22,7 +22,7 @@ tags:
 - MRS
 - convexity
 - preferences
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Indifference Curves

@@ -10,7 +10,7 @@ tags:
 - rhyme
 - line-structure
 - musicality
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

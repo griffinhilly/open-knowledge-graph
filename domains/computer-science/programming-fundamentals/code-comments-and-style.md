@@ -12,7 +12,7 @@ tags:
 - documentation
 - readability
 - best-practices
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

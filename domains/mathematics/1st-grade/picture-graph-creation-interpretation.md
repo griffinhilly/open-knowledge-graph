@@ -15,7 +15,7 @@ tags:
 - data
 - representation
 - graphs
-stage: pre-formal
+stage: concrete-operations
 status: draft
 ---
 

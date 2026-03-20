@@ -20,7 +20,7 @@ tags:
 - colonization
 - extinction
 - fragmentation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Island Biogeography and the Species-Area Relationship

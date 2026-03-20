@@ -13,7 +13,7 @@ tags:
 - design
 - repeated-measures
 - order-effects
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

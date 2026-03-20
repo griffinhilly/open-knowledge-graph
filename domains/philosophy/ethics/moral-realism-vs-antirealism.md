@@ -17,7 +17,7 @@ tags:
 - realism
 - antirealism
 - ontology
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

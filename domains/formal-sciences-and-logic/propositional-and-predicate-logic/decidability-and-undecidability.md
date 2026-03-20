@@ -16,7 +16,7 @@ tags:
 - halting-problem-formal
 - Church-Turing
 - decision-procedure
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

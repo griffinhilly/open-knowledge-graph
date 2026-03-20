@@ -17,7 +17,7 @@ tags:
 - affect
 - phenomenology
 - intentionality
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

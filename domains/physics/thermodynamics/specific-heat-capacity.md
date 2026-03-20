@@ -14,7 +14,7 @@ tags:
 - specific-heat
 - heat-capacity
 - thermal-mass
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - demand
 - investment
 - capital
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

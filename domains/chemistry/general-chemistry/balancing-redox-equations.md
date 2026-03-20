@@ -15,7 +15,7 @@ tags:
 - balancing redox
 - half-reaction method
 - electron balance
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

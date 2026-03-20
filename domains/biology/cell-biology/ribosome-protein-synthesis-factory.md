@@ -15,7 +15,7 @@ tags:
 - ribosome
 - translation
 - protein
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - ordering
 - sequence
 - number-sense
-stage: pre-formal
+stage: concrete-operations
 status: draft
 ---
 

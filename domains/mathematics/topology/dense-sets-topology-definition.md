@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - dense
 - separability
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

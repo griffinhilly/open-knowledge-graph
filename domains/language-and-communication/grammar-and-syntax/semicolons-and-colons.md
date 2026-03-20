@@ -32,6 +32,45 @@ Apply the 'substitution test': can a period replace the semicolon without breaki
 - Using a semicolon anywhere a comma seems too light and a period too heavy, without checking clause status.
 - Placing a colon after a verb or preposition (She enjoys: reading and hiking) — the clause before the colon must be grammatically complete.
 
+## Questions
+
+```yaml
+- question: "Which sentence uses a semicolon correctly?"
+  type: multiple-choice
+  options:
+    - "She packed her bag; because it was getting late."
+    - "The storm was fierce; trees snapped under the wind."
+    - "He enjoys three things; hiking, reading, and cooking."
+    - "I was tired; but I stayed awake."
+  answer: 1
+  explanation: "A semicolon must connect two independent clauses — two groups of words that could each stand alone as a sentence. Option B is correct: 'The storm was fierce' and 'trees snapped under the wind' are both independent clauses. Option A fails because 'because it was getting late' is a dependent clause. Option C should use a colon to introduce the list, not a semicolon. Option D should use a comma before 'but,' not a semicolon."
+
+- question: "A student writes: 'My three favorite subjects are: math, science, and art.' Is the colon used correctly?"
+  type: multiple-choice
+  options:
+    - "Yes — the colon correctly introduces a list"
+    - "No — the clause before the colon is not complete because 'are' requires a complement to finish the sentence"
+    - "No — colons can only introduce a single item, not a list of three"
+    - "Yes — any time you introduce a list, a colon is appropriate"
+  answer: 1
+  explanation: "The clause before a colon must be a grammatically complete, independent sentence. 'My three favorite subjects are' is not complete — 'are' is a linking verb that requires its complement. A correct version: 'I have three favorite subjects: math, science, and art.' The clause 'I have three favorite subjects' stands alone, so the colon is legitimate."
+
+- question: "A semicolon can always be replaced with a period and have both resulting sentences remain grammatically correct."
+  type: true-false
+  answer: true
+  explanation: "This is the 'period substitution test' for semicolons. Because a semicolon joins two independent clauses, each clause can stand alone as its own sentence. If replacing the semicolon with a period breaks the grammar of either half, the semicolon was used incorrectly — one of the clauses was not truly independent. This test is the most reliable way to check semicolon usage."
+
+- question: "A colon and a semicolon are interchangeable when you want to create a pause before additional information."
+  type: true-false
+  answer: false
+  explanation: "Semicolons and colons serve distinct purposes and are not interchangeable. A semicolon joins two parallel independent clauses of roughly equal weight. A colon announces that what follows will elaborate or specify what came before — and requires a complete independent clause before it. Using one where the other belongs produces a grammatically wrong or logically muddled sentence."
+
+- question: "Why is 'She enjoys: hiking, reading, and cooking' incorrect, even though a colon is being used to introduce a list?"
+  type: short-answer
+  answer: "Because the clause before the colon ('She enjoys') is not grammatically complete — 'enjoys' is a transitive verb that requires its object to finish the sentence. A colon must be preceded by an independent clause. A correct version: 'She has three hobbies: hiking, reading, and cooking.'"
+  explanation: "Placing a colon directly after a verb or preposition (enjoys:, is:, such as:) violates the rule that what precedes a colon must stand alone as a sentence. The test: can the text before the colon be a complete sentence on its own? If not, the colon is misplaced."
+```
+
 ## Explainer
 
 You already know what an independent clause is — a group of words with a subject and a verb that can stand alone as a sentence. You've also worked with compound sentences, which join two independent clauses together. The question this topic addresses is: once you have two closely related complete thoughts, how do you punctuate the join? A period fully separates them; a comma-plus-conjunction links them; but sometimes neither option quite captures the relationship you intend. That's where semicolons and colons earn their place.

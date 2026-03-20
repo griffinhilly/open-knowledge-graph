@@ -12,7 +12,7 @@ tags:
 - management
 - ecology
 - rights
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

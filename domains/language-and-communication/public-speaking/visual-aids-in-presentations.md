@@ -16,7 +16,7 @@ tags:
 - design
 - presentation
 - multimedia
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

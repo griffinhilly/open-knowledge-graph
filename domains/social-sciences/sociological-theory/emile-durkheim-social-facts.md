@@ -15,7 +15,7 @@ tags:
 - durkheim
 - social-facts
 - methodology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

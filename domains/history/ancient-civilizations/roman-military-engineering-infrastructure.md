@@ -13,7 +13,7 @@ tags:
 - military
 - engineering
 - infrastructure
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - sorting
 - alluvial
 - fluvial
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - manipulation
 - representation
 - fairness
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

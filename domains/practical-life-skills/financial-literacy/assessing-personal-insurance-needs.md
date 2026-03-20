@@ -25,7 +25,7 @@ status: draft
 # Assessing Personal Insurance Needs
 
 ## Core Idea
-TODO
+Insurance is a tool for transferring financial risk you cannot afford to absorb yourself. The core question in assessing your needs is not "what insurance can I buy?" but "what financial losses would be catastrophic for me, and which ones can I handle out of pocket?" From your prerequisite work on insurance principles, you know that premiums are the cost of transferring risk to a pool of other policyholders.
 
 ## Explainer
 

@@ -15,7 +15,7 @@ tags:
 - relative
 - inflation
 - exchange-rates
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

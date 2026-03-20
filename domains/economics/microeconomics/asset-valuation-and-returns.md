@@ -10,7 +10,7 @@ tags:
 - asset pricing
 - capital
 - investment
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

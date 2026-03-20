@@ -19,7 +19,7 @@ tags:
 - cation
 - anion
 - crystal-lattice
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

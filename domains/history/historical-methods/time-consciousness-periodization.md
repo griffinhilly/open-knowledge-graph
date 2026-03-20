@@ -15,7 +15,7 @@ tags:
 - periodization
 - concepts
 - methodology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

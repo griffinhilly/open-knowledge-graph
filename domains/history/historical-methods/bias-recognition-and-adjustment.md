@@ -15,7 +15,7 @@ tags:
 - methodology
 - epistemology
 - sources
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

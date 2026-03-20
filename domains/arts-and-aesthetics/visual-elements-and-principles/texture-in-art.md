@@ -32,6 +32,45 @@ Do rubbings of real textured surfaces (coins, tree bark, fabric) to understand h
 ## Common Misconceptions
 - Texture and pattern are the same — texture refers to surface quality while pattern refers to a repeated design; a pattern can create the illusion of texture, but they are distinct concepts.
 
+## Questions
+
+```yaml
+- question: "An artist uses crosshatching in a pencil drawing to make a stone wall look rough. A classmate says 'this drawing has texture because the pencil strokes feel rough on the paper.' What is the most accurate description of the texture in this drawing?"
+  type: multiple-choice
+  options:
+    - "The classmate is right — any texture in art must be physically touchable"
+    - "The drawing has visual texture — an illusion of roughness created by marks on a surface that is actually smooth"
+    - "The drawing has no texture because texture only applies to sculpture and collage"
+    - "The drawing has actual texture because pencil marks physically raise the paper surface"
+  answer: 1
+  explanation: "Crosshatching creates visual (implied) texture — the viewer's eye reads the pattern of marks and perceives roughness, but the paper itself is smooth. This is the core distinction: actual texture is physically present and touchable; visual texture is an illusion produced through mark-making. The classmate is confusing the perception of roughness with the physical reality of the surface."
+
+- question: "Which of the following is an example of ACTUAL (tactile) texture in an artwork?"
+  type: multiple-choice
+  options:
+    - "Crosshatching lines that suggest the roughness of tree bark in a drawing"
+    - "Stippling dots of varying density that imply a sandy beach"
+    - "Thick impasto paint built up in ridges that you can feel with a fingertip"
+    - "Brushwork that creates the visual impression of soft fur"
+  answer: 2
+  explanation: "Actual texture is physically present on the artwork's surface — you can literally touch and feel it. Thick impasto paint (like in many Van Gogh paintings) creates real ridges and bumps. All the other options describe visual texture: marks and patterns on a surface that is itself flat, producing only the illusion of a surface quality."
+
+- question: "Visual texture in a drawing is built from lines and value patterns — it is not physically present on the surface but is perceived by the viewer's eye."
+  type: true-false
+  answer: true
+  explanation: "This is precisely what visual (implied) texture is. When you use crosshatching, stippling, or varied mark-making, you are arranging lines and value contrasts so the viewer's visual system interprets them as surface qualities — roughness, smoothness, softness, coarseness. The paper or canvas is flat; the texture exists only in the perception triggered by the marks. This connects directly to the role of line and value as prerequisite skills."
+
+- question: "Texture and pattern are the same visual element — any artwork that contains a repeated pattern automatically has texture."
+  type: true-false
+  answer: false
+  explanation: "Texture and pattern are related but distinct concepts. Texture refers to the surface quality of a work (real or implied) — the sense of how something would feel. Pattern refers to a repeated design element. A repeating geometric pattern on a flat wall might suggest no texture at all. Conversely, an artist can create the impression of texture using irregular, non-repeating marks. A pattern can create the illusion of texture, but they are not the same thing."
+
+- question: "Why do areas of heavy, complex texture attract the viewer's eye in a composition, and how can an artist use this strategically?"
+  type: short-answer
+  answer: "Heavy texture is visually 'loud' — the density and complexity of marks demands attention because the eye is drawn to visual activity and contrast. An artist can exploit this by concentrating detailed texture at the focal point of a composition and leaving surrounding areas smoother or less textured. The contrast between a highly textured area and a quiet, smooth area creates visual hierarchy: the eye goes to where there is more to look at, allowing the artist to guide the viewer's attention deliberately."
+  explanation: "This is texture working as a compositional tool rather than just a surface description. Understanding that texture has visual weight — that it pulls attention — transforms it from a passive material quality into an active design choice. The same logic applies to depth: nearby objects rendered with more texture while distant objects are rendered smooth creates convincing spatial recession."
+```
+
 ## Explainer
 
 You have already worked with line as a mark-making tool and value as the lightness-to-darkness scale. **Texture** is what happens when those tools are used to evoke the feel of a surface — the roughness of bark, the smoothness of glass, the softness of velvet. It is the visual element that most directly engages your sense of touch, even when you are only looking.

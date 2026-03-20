@@ -12,7 +12,7 @@ tags:
 - monopoly
 - regulation
 - natural monopoly
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

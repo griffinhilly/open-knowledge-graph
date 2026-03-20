@@ -3,7 +3,9 @@ id: mesopotamian-irrigation-technology
 title: Mesopotamian Irrigation and Water Management
 domain: history
 course: ancient-civilizations
-prerequisites: []
+prerequisites:
+- id: mesopotamia-origins
+  type: soft
 builds-toward:
 - sumerian-governance-administration
 tags:
@@ -11,10 +13,9 @@ tags:
 - technology
 - agriculture
 - irrigation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Mesopotamian Irrigation and Water Management
 
 ## Core Idea

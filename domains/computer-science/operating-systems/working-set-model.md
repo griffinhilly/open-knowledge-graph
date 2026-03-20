@@ -12,7 +12,7 @@ tags:
 - virtual-memory
 - working-set
 - thrashing
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

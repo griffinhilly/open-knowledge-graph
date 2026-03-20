@@ -15,7 +15,7 @@ tags:
 - diversity
 - adaptation
 - strategy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

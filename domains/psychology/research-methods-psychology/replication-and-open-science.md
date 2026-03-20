@@ -18,7 +18,7 @@ tags:
 - open-science
 - preregistration
 - publication-bias
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

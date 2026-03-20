@@ -13,7 +13,7 @@ tags:
 - estate-planning
 - legal
 - long-term-planning
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 
@@ -29,6 +29,45 @@ Start by listing your assets, debts, and important accounts, then identify who y
 - Estate planning is only for wealthy people — anyone with a bank account, dependents, or preferences about medical care benefits from basic estate documents.
 - A will avoids probate — wills actually go through probate; it is trusts and beneficiary designations that can bypass the probate process.
 - Once created, estate plans are done forever — life changes like marriage, divorce, births, deaths, and major financial shifts all warrant updating your documents.
+
+## Questions
+
+```yaml
+- question: "A person has a will that leaves their retirement account to their sister. However, the beneficiary designation on the retirement account still names their ex-spouse from a marriage that ended five years ago. Who receives the retirement account?"
+  type: multiple-choice
+  options:
+    - "The sister — the will represents the person's most recently expressed wishes and overrides outdated designations"
+    - "The ex-spouse — beneficiary designations on retirement accounts pass outside of probate and override the will"
+    - "The estate — conflicting documents cause the account to enter probate for a judge to decide"
+    - "It depends on state law, but the sister is the more likely recipient in most jurisdictions"
+  answer: 1
+  explanation: "This is the single most consequential misunderstanding in estate planning. Accounts with beneficiary designations — retirement accounts, life insurance policies, bank accounts with a named beneficiary — pass directly to the named beneficiary outside of probate, regardless of what the will says. The will only controls assets that go through the probate process. Because the beneficiary designation overrides the will, an outdated designation can completely nullify careful estate planning. This is why reviewing and updating beneficiary designations after every major life event (marriage, divorce, births, deaths) is just as important as updating the will itself."
+
+- question: "A person says: 'I have a will, so my estate will avoid the probate process.' This statement is:"
+  type: multiple-choice
+  options:
+    - "Correct — a validly executed will directs assets to beneficiaries without court involvement"
+    - "Incorrect — wills must go through probate; it is trusts and beneficiary designations that can bypass probate"
+    - "Partially correct — only assets explicitly listed in the will avoid probate; unlisted assets still go through court"
+    - "Correct in most states, but a few states require probate even with a valid will"
+  answer: 1
+  explanation: "This is a widespread and costly misconception. A will does not avoid probate — it goes through probate. Probate is the court-supervised process for authenticating the will, paying debts, and distributing assets according to its instructions. The tools that actually bypass probate are living trusts (which hold assets that transfer directly to beneficiaries upon death) and beneficiary designations on accounts (which pass directly outside of probate). Many people create wills believing they have solved the probate problem, only for their estates to spend months in the court process their families expected to avoid."
+
+- question: "Estate planning is primarily useful for wealthy people — someone with modest assets and no dependents has little reason to create estate documents."
+  type: true-false
+  answer: false
+  explanation: "This misconception leads many people to postpone estate planning until it is too late. Anyone with a bank account, a preference about medical care, or a person they trust to make decisions for them benefits from basic estate documents. The healthcare directive and durable power of attorney are particularly critical regardless of wealth: without them, family members may face a court process just to manage affairs if you become incapacitated, and medical staff may make treatment decisions contrary to your preferences. For parents of minor children, the will's guardian designation is essential regardless of asset level — it answers 'who will raise my children' if both parents die."
+
+- question: "A 'durable' power of attorney remains effective even if the person who granted it becomes mentally incapacitated — this is precisely what makes it useful for estate planning."
+  type: true-false
+  answer: true
+  explanation: "The distinction between a regular and a durable power of attorney is critical. A regular power of attorney is automatically terminated if the person granting it loses mental capacity — which is exactly when it would be most needed. A durable power of attorney includes explicit language stating that it survives incapacity, allowing the designated agent to continue managing financial affairs (paying bills, managing investments, signing contracts) even when the grantor cannot. Estate plans should always specify a durable power of attorney for this reason; a regular power of attorney provides no protection in a medical emergency or cognitive decline scenario."
+
+- question: "Why must beneficiary designations be regularly reviewed and updated, and what happens if they become outdated?"
+  type: short-answer
+  answer: "Beneficiary designations override the will — they pass assets directly to the named person outside of probate, regardless of the will's instructions. If a designation names someone who has since died, divorced you, or otherwise become an inappropriate recipient, those assets go to that person (or their estate) rather than to whoever the will names. Life changes that make beneficiary review essential include marriage, divorce, the birth of a child, the death of a named beneficiary, and the naming of minor children (who may need a trust rather than a direct designation). A mismatch between a will and an outdated beneficiary designation is one of the most common causes of estate distributions that contradict the deceased's actual wishes."
+  explanation: "This also illustrates why estate planning is not a one-time event but an ongoing process. The documents themselves are created once, but they require maintenance. The practical habit is to review all beneficiary designations and estate documents after every major life event and at regular intervals (many attorneys suggest annually) to ensure they still reflect current wishes and circumstances."
+```
 
 ## Explainer
 

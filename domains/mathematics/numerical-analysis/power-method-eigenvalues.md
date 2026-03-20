@@ -12,7 +12,7 @@ tags:
 - power-method
 - eigenvalues
 - iteration
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -3,7 +3,9 @@ id: salon-culture-academic-training-and-artistic-authority
 title: Salon Culture, Academic Training, and Artistic Authority
 domain: arts-and-aesthetics
 course: art-history
-prerequisites: []
+prerequisites:
+- id: dramatic-structure
+  type: soft
 builds-toward:
 - conceptual-art-and-art-definition
 - postmodern-art-and-contemporary-plurality
@@ -14,10 +16,9 @@ tags:
 - artistic-authority
 - nineteenth-century
 - modernist-rebellion
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
-
 # Salon Culture, Academic Training, and Artistic Authority
 
 ## Core Idea

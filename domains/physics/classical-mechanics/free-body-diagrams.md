@@ -20,7 +20,7 @@ tags:
 - free-body-diagram
 - force-analysis
 - problem-solving
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

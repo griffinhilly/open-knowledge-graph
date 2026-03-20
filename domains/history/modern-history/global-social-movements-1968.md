@@ -17,7 +17,7 @@ tags:
 - revolution
 - counterculture
 - global-movements
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

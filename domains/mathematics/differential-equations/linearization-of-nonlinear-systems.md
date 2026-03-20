@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: hard
-builds-toward:
-- bifurcation-in-odes
+builds-toward: []
 tags:
 - nonlinear
 - approximation
@@ -17,7 +16,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Linearization of Nonlinear Systems
 
 ## Core Idea

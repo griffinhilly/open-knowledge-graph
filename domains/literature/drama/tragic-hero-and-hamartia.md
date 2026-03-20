@@ -19,7 +19,7 @@ tags:
 - hubris
 - peripeteia
 - anagnorisis
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # The Tragic Hero and Hamartia

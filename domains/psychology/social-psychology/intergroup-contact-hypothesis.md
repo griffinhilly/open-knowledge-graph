@@ -15,7 +15,7 @@ tags:
 - prejudice reduction
 - Allport
 - intergroup relations
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

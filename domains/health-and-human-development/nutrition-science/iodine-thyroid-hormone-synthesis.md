@@ -13,7 +13,7 @@ tags:
 - thyroid-hormone
 - thyroxine
 - metabolic-rate
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

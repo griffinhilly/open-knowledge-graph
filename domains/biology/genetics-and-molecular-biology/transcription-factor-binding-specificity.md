@@ -9,17 +9,15 @@ prerequisites:
 - id: protein-tertiary-structure
   type: hard
 builds-toward:
-- enhancer-elements-and-interaction
-- chromatin-remodeling-swi-snf
+  - chromatin-remodeling-swi-snf
 tags:
 - dna-binding
 - transcription-factors
 - binding-motifs
 - protein-dna-interactions
-stage: formal-systems
+stage: advanced
 status: draft
 ---
-
 # Transcription Factor Binding Specificity and DNA Recognition
 
 ## Core Idea

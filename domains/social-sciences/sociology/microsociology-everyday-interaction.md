@@ -17,7 +17,7 @@ tags:
 - everyday-life
 - social-order
 - face-to-face
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

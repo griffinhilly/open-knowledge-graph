@@ -9,9 +9,8 @@ prerequisites:
 - id: isentropic-efficiency-devices
   type: soft
 builds-toward:
-- absorption-refrigeration-systems
-- heat-pump-cycles-detailed
-- throttling-expansion-isenthalpic-process
+  - absorption-refrigeration-systems
+  - heat-pump-cycles-detailed
 tags:
 - refrigeration
 - vapor-compression
@@ -20,7 +19,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Vapor-Compression Refrigeration Cycles
 
 ## Core Idea

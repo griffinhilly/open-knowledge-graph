@@ -15,7 +15,7 @@ tags:
 - spread
 - distribution
 - synthesis
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Descriptive Statistics Synthesis

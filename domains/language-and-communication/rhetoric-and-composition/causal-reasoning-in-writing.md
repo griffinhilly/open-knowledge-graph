@@ -33,6 +33,45 @@ Analyze a published argument that makes a causal claim and map the causal chain 
 - If two things happen together or in sequence, one must cause the other; temporal or statistical correlation alone never establishes causation without evidence for a mechanism.
 - Causal arguments only matter in science; arguments about policy, history, literature, and ethics all depend on claims about what causes what.
 
+## Questions
+
+```yaml
+- question: "Ice cream sales and drowning rates both rise in summer. A writer concludes: 'Ice cream consumption causes drowning because the data clearly shows they increase together.' What is the fundamental flaw in this argument?"
+  type: multiple-choice
+  options:
+    - "The dataset is too small to draw any conclusions"
+    - "The writer mistakes correlation for causation — a third variable (summer heat) plausibly causes both, and no mechanism linking ice cream to drowning is established"
+    - "The causal chain is too long to be credible"
+    - "The writer confused necessary and sufficient conditions"
+  answer: 1
+  explanation: "This is the classic confounding-variable problem. Two things can correlate perfectly while being entirely unrelated causally. A causal argument must provide a plausible mechanism (how does A produce B?) and rule out rival explanations — including third variables that could drive both. Without this, even striking correlations prove nothing about causation."
+
+- question: "A student argues: 'Countries with higher chocolate consumption have more Nobel Prize winners per capita. Therefore, eating chocolate improves cognitive ability.' Which addition would most strengthen this causal argument?"
+  type: multiple-choice
+  options:
+    - "A larger dataset covering more countries over more years"
+    - "A proposed biological mechanism — e.g., flavonoids in chocolate improving blood flow to the brain — supported by experimental evidence"
+    - "Testimonials from Nobel winners describing their chocolate habits"
+    - "A timeline showing that chocolate consumption in each country rose before its Nobel wins increased"
+  answer: 1
+  explanation: "A mechanism — an account of *how* A produces B — is the core requirement a causal argument must supply. More data strengthens correlation but still leaves causation unestablished. Testimonials are anecdote, not evidence. A timeline addresses temporal order (A before B) but still doesn't rule out confounders. Only a demonstrated biological mechanism, especially one supported by controlled experiments, actually closes the gap between correlation and causation."
+
+- question: "A causal chain argument becomes weaker with each additional link, because each link requires its own evidence and a single unsupported link breaks the entire chain."
+  type: true-false
+  answer: true
+  explanation: "Causal chains compound uncertainty: to argue that poverty causes poor nutrition, which causes reduced cognitive development, which causes lower test scores, you need separate evidence for each causal link and a mechanism for each. If any one link fails, the chain fails. This is why contested policy arguments often dispute not the endpoints but one intermediate step — that single broken link is enough to defeat the whole argument."
+
+- question: "If event A reliably occurs before event B in every documented case, that temporal precedence is sufficient to establish that A causes B."
+  type: true-false
+  answer: false
+  explanation: "Temporal precedence (A always before B) is a necessary but not sufficient condition for causation. The logical fallacy of assuming otherwise is called *post hoc ergo propter hoc* — 'after this, therefore because of this.' The rooster crows before sunrise every day, but the crowing doesn't cause the sun to rise. Causation requires a mechanism explaining how A produces B, and the ruling-out of alternative explanations (confounding variables, coincidence, reverse causation)."
+
+- question: "Why is identifying a mechanism necessary for a causal argument, and what does a mechanism explain that correlation alone cannot?"
+  type: short-answer
+  answer: "A mechanism explains *how* A produces B — the process, pathway, or relationship through which the cause generates the effect. Correlation shows that A and B tend to occur together, but it cannot distinguish between: A causes B, B causes A, a third variable causes both, or the pattern is coincidence. A mechanism rules out those alternatives by providing a plausible account of the causal process, which can then be tested independently."
+  explanation: "Without a mechanism, a causal claim is vulnerable to the objection that the observed correlation could have any number of alternative explanations. Establishing mechanism is what transforms a pattern observation ('these two things go together') into a causal argument ('here is why one produces the other'). In Toulmin terms, the mechanism is the warrant: the logical bridge that licenses the move from evidence to claim."
+```
+
 ## Explainer
 
 From your work on Toulmin argument structure, you know that arguments require claims, grounds, and warrants — the logical bridge connecting evidence to a claim. Causal reasoning takes this further by asking not just "what happened?" but "why did it happen, and how do we know?" The difference matters enormously: you might observe that wealthy neighborhoods have better schools and better health outcomes, but this correlation alone tells you nothing about what causes what, or whether both are caused by a third factor like resource allocation. Causal claims must do more work than simply pointing to a pattern.

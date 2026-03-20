@@ -17,7 +17,7 @@ tags:
 - polyphony
 - troubadour
 - Notre-Dame
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

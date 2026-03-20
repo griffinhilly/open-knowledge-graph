@@ -23,7 +23,7 @@ tags:
 - galant
 - symphony
 - string-quartet
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # The Classical Period: Clarity, Form, and Balance

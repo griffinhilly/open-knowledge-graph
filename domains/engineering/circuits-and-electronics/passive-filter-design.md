@@ -22,7 +22,7 @@ tags:
 - RC-filter
 - RLC-filter
 - cutoff-frequency
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

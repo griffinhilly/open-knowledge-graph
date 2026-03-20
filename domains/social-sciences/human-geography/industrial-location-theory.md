@@ -24,7 +24,7 @@ tags:
 - footloose industry
 - deindustrialization
 - export processing zones
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - anti-markovnikov
 - syn-addition
 - alcohols
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

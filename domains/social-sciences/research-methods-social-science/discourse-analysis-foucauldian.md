@@ -3,7 +3,9 @@ id: discourse-analysis-foucauldian
 title: 'Discourse Analysis: Foucauldian Approaches'
 domain: social-sciences
 course: research-methods-social-science
-prerequisites: []
+prerequisites:
+- id: research-design-advanced
+  type: soft
 builds-toward:
 - critical-discourse-analysis
 - narrative-analysis-methods
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Discourse Analysis: Foucauldian Approaches
 
 ## Core Idea

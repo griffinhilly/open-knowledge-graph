@@ -18,7 +18,7 @@ tags:
 - anticyclone
 - cyclone
 - geostrophic-wind
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

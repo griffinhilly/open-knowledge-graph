@@ -15,7 +15,7 @@ tags:
 - Hobbes
 - sovereignty
 - absolutism
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

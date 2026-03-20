@@ -12,7 +12,7 @@ tags:
 - lenz-law
 - direction
 - opposition
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

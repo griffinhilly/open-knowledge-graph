@@ -17,7 +17,7 @@ tags:
 - fever
 - shivering
 - sweating
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

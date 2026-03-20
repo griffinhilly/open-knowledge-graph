@@ -23,7 +23,7 @@ tags:
 - segregation
 - gentrification
 - urban-sociology
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

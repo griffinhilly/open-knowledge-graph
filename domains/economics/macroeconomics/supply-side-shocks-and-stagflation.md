@@ -14,7 +14,7 @@ tags:
 - shocks
 - inflation
 - unemployment
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

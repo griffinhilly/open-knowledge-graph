@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - open-sets
 - fundamental
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

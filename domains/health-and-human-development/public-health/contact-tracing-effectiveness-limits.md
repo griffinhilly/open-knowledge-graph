@@ -15,7 +15,7 @@ tags:
 - contact-tracing
 - outbreak-control
 - prevention
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

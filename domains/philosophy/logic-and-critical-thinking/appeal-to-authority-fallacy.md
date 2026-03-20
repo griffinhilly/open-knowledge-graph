@@ -13,7 +13,7 @@ tags:
 - expertise
 - evidence
 - fallacies
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

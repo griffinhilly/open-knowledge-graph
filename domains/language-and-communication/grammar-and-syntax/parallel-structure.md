@@ -32,6 +32,45 @@ Underline the coordinated elements in sentences and check whether they share the
 - Thinking parallelism applies only to lists; it is equally important in comparisons (more X than Y), paired constructions (not only...but also), and compound predicates.
 - Fixing faulty parallelism by changing meaning rather than form; the goal is to express the same ideas in matching grammatical structures, not to alter what is being said.
 
+## Questions
+
+```yaml
+- question: "Which of the following sentences contains faulty parallelism?"
+  type: multiple-choice
+  options:
+    - "She enjoys hiking, swimming, and cycling on weekends"
+    - "The report was thorough, well-organized, and it contained useful recommendations"
+    - "He is both a skilled negotiator and a patient listener"
+    - "We need to reduce costs, improve efficiency, and retain top talent"
+  answer: 1
+  explanation: "Option B mixes two adjectives ('thorough,' 'well-organized') with a full predicate clause ('it contained useful recommendations'). The coordinated elements after 'was' should all be the same grammatical form. Fixed version: 'The report was thorough, well-organized, and full of useful recommendations' (three adjective phrases) or 'The report was thorough, was well-organized, and contained useful recommendations' (three predicate phrases). Options A, C, and D are all parallel: A has three gerunds, C has two noun phrases after 'both...and,' D has three infinitive phrases."
+
+- question: "A student writes: 'She not only revised the draft but also proofreading the final copy.' What is the error, and how should it be fixed?"
+  type: multiple-choice
+  options:
+    - "The correlative conjunction is wrong — 'not only...but also' cannot coordinate verbs"
+    - "The elements after the two conjunctions don't match: 'revised' (past tense verb) follows 'not only,' but 'proofreading' (participle) follows 'but also.' Fix: 'She not only revised the draft but also proofread the final copy'"
+    - "The sentence needs a comma before 'but also' to be grammatically correct"
+    - "The error is in verb tense: both verbs should be present tense"
+  answer: 1
+  explanation: "With correlative conjunctions like 'not only...but also,' the grammatical form immediately following each conjunction must match. After 'not only' comes 'revised' (simple past verb); after 'but also' should also come a simple past verb. 'Proofreading' is a participle, not a simple past verb — the forms don't match. The fix 'not only revised...but also proofread' makes both elements simple past verbs. This is the strictest parallelism requirement: correlative conjunctions demand exact grammatical symmetry between their two halves."
+
+- question: "Parallelism applies not only to items in a list but also to comparisons, compound predicates, and correlative conjunction constructions."
+  type: true-false
+  answer: true
+  explanation: "Parallelism is a broad principle governing any coordinated grammatical elements. It applies whenever two or more elements are joined by a conjunction and must function at the same grammatical level. 'The policy saves time and is cheaper' is faulty parallelism in a compound predicate (not a list). 'More X than Y' comparisons require matching forms on both sides. 'Both...and' and 'not only...but also' constructions are the strictest cases. The misconception that parallelism is a list rule causes writers to miss violations in all these other contexts."
+
+- question: "Fixing faulty parallelism always requires rewriting the entire sentence rather than just changing the non-parallel element."
+  type: true-false
+  answer: false
+  explanation: "In most cases, fixing faulty parallelism requires only changing the non-conforming element to match the form established by the other elements. 'She enjoys hiking, to swim, and cycling' can be fixed by changing only the middle element: 'hiking, swimming, and cycling.' The rest of the sentence stays the same. Only when the existing forms genuinely conflict — and no single form works for all elements — does more extensive rewriting become necessary. The repair is targeted, not wholesale."
+
+- question: "Explain what 'parallel structure' means in terms of grammatical form, and explain why correlative conjunctions like 'both...and' and 'not only...but also' impose especially strict requirements compared to a simple list."
+  type: short-answer
+  answer: "Parallel structure means that coordinated elements — items joined by a conjunction — must be expressed in the same grammatical form (all nouns, all infinitives, all prepositional phrases, etc.). In a simple list, the first item establishes the pattern and the rest must follow it. Correlative conjunctions are stricter because they have two separate conjunction words, each introducing one element, and those two elements must mirror each other exactly. More importantly, the placement of the first conjunction determines what grammatical unit follows it, and the second half must match that same unit — so 'both is a doctor and practices law' fails not just in form but in the structural symmetry the correlative construction demands."
+  explanation: "The deeper reason correlative conjunctions are strict is that they create a two-part symmetrical frame: the reader expects the second half to complete the pattern set up by the first. When the two halves don't match grammatically, the sentence creates a structural imbalance that readers feel as awkward even if they can't name the rule. Fixing it often requires repositioning the first conjunction: 'She both is a doctor and practices law' → 'She is both a doctor and a lawyer' (move 'both' so both halves are noun phrases)."
+```
+
 ## Explainer
 
 You already know from sentence structure that sentences combine words into functional units — subjects, verbs, objects, modifiers — and that coordinating conjunctions like *and*, *but*, and *or* join elements of equal grammatical rank. **Parallel structure** is the rule that governs what "equal rank" means in practice: when elements are joined by a conjunction, they must be expressed in the same grammatical form.

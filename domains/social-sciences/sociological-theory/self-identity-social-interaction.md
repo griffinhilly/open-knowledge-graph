@@ -11,7 +11,7 @@ tags:
 - identity
 - interaction
 - symbolic-interactionism
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

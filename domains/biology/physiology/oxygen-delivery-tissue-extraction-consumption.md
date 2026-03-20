@@ -15,7 +15,7 @@ tags:
 - aerobic metabolism
 - tissue extraction
 - exercise
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

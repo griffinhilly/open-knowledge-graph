@@ -21,7 +21,7 @@ tags:
 - form
 - compression
 - prose-fiction
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 # The Short Story as a Literary Form

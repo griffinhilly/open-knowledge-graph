@@ -15,7 +15,7 @@ tags:
 - income-effect
 - substitution-effect
 - decomposition
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

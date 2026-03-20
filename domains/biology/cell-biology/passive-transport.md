@@ -14,7 +14,7 @@ tags:
 - osmosis
 - facilitated-diffusion
 - transport
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

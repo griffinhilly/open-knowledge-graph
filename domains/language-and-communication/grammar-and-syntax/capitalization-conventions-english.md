@@ -12,7 +12,7 @@ tags:
 - capitalization
 - orthography
 - writing-conventions
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
 

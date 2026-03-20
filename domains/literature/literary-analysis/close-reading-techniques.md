@@ -29,7 +29,7 @@ tags:
 - reading
 - interpretation
 - foundational
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

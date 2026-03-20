@@ -16,7 +16,7 @@ tags:
 - goffman
 - resocialization
 - identity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

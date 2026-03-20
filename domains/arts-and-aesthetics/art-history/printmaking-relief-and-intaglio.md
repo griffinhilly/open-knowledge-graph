@@ -17,7 +17,7 @@ tags:
 - engraving
 - etching
 - reproduction
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

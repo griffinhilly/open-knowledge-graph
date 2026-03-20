@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - subbasis
 - construction
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

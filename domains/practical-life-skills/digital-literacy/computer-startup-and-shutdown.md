@@ -30,6 +30,45 @@ Practice starting and shutting down your own computer following proper steps. No
 - It's fine to turn off by holding the power button. (This can corrupt files; use the shutdown menu instead.)
 - Restarting is identical to shutting down. (Restarting shuts down then immediately starts; shutdown leaves it off.)
 
+## Questions
+
+```yaml
+- question: "You're editing a document and your computer freezes completely. You hold the power button to force it off, then turn it back on. You find the document is corrupted and unreadable. What most likely caused the corruption?"
+  type: multiple-choice
+  options:
+    - "The power button sent an electrical surge that damaged the file"
+    - "Data in the write cache was never flushed to storage before power cut"
+    - "The operating system deleted the file as a safety measure"
+    - "The document was too large to save properly"
+  answer: 1
+  explanation: "Modern storage devices use a write cache — a fast buffer that accepts data quickly and flushes it to actual storage slightly later. A forced power-off cuts power before that flush can happen, leaving the file partially written and unreadable. The OS never gets the chance to complete the write sequence. This is why forced shutdowns are an emergency-only option."
+
+- question: "You're leaving your laptop overnight and want to conserve battery completely. Which option accomplishes this?"
+  type: multiple-choice
+  options:
+    - "Sleep mode — it pauses all activity and uses no power"
+    - "Hibernate — it saves memory to disk and cuts power entirely"
+    - "Restart — it shuts the computer off until you press power"
+    - "Closing the lid — this always cuts power"
+  answer: 1
+  explanation: "Sleep mode keeps the computer's memory alive with a trickle of power, so it is NOT battery-safe for overnight use. Hibernate writes the memory contents to disk and then cuts power entirely — the battery isn't drained. Restart is not a persistent off state; it immediately boots back up. Closing the lid typically triggers sleep, not hibernate, though this can be configured."
+
+- question: "A forced power-off (holding the power button) can cause file corruption because the operating system may not have finished writing data to storage."
+  type: true-false
+  answer: true
+  explanation: "The OS manages a write cache, and during normal operation data sits in that buffer before being physically written to disk. A proper shutdown flushes the cache and signals every program to save its state. Forcing power off skips all of this, potentially leaving files in a partially written state that the file system cannot read back correctly."
+
+- question: "Sleep mode and shutting down are effectively the same — both cut power to the computer and end your session."
+  type: true-false
+  answer: false
+  explanation: "Sleep mode keeps your session alive in memory using a small amount of power — your open programs, windows, and unsaved work are preserved and resume in seconds. Shutdown closes all programs, saves system state, and cuts power entirely. Sleep is appropriate for short breaks; shutdown is appropriate for extended periods or before hardware work. Confusing them leads to unexpected battery drain or data loss during a power outage."
+
+- question: "Why does the proper shutdown process protect your files, and what happens when you skip it by forcing a power-off?"
+  type: short-answer
+  answer: "Proper shutdown signals all running programs to save and close, then flushes the storage write cache before cutting power. Forcing a power-off skips these steps, potentially leaving data trapped in the write cache — partially written to storage — resulting in corrupted files that the system can't read."
+  explanation: "The write cache exists to speed up storage by batching small writes together. It's a performance optimization, but it creates a vulnerability window: between when data enters the cache and when it's written to disk, a sudden power loss will lose or corrupt that data. The OS shutdown sequence exists precisely to close this window before power is removed."
+```
+
 ## Explainer
 
 A computer isn't like a lamp — you can't just flip it off and on without consequences. During normal operation, the computer is constantly writing information to files: documents you're editing, browser sessions, system logs, and configuration updates. A proper **startup** and **shutdown** sequence exists to make sure all that activity is completed and saved cleanly before power changes.

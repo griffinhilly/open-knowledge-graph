@@ -17,7 +17,7 @@ tags:
 - semantics
 - meaning
 - interconnection
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -32,6 +32,45 @@ Act out simple sentences with toys or puppets ("The bear hugs the rabbit" -- whi
 - That children who can repeat a sentence understand its structure -- repetition and comprehension are different skills.
 - That sentence understanding develops entirely on its own from conversation -- some children benefit from explicit practice with identifying who did what in a sentence.
 
+## Questions
+
+```yaml
+- question: "A child hears 'The bone was buried by the dog' and, when asked who did the burying, points to 'the bone.' What most likely explains this error?"
+  type: multiple-choice
+  options:
+    - "The child doesn't know what 'buried' means"
+    - "The child is applying the SVO word-order strategy, treating the first noun as the agent"
+    - "The sentence is too long for the child to hold in memory"
+    - "The child is confusing nouns with verbs"
+  answer: 1
+  explanation: "Children around ages 2–3 develop the SVO strategy: treat the first noun as the doer, the second as the receiver. This works for active sentences but fails for passives like this one, where the grammatical subject ('the bone') is actually the patient, not the agent. The error isn't about vocabulary or memory — it's a structural comprehension problem caused by over-relying on word order."
+
+- question: "Which of the following best demonstrates that a child truly understands 'The cat chased the dog' — rather than just recognizing the words?"
+  type: multiple-choice
+  options:
+    - "The child can repeat the sentence back correctly"
+    - "The child can point to which animal was doing the chasing"
+    - "The child knows the meanings of 'cat,' 'dog,' and 'chased' individually"
+    - "The child can count the number of words in the sentence"
+  answer: 1
+  explanation: "Repeating a sentence and knowing individual words are surface-level skills that don't require structural comprehension. Pointing to the correct agent shows that the child has mapped the grammatical structure onto semantic roles — they know who did what to whom. That role-assignment is the heart of sentence understanding."
+
+- question: "A child who can repeat a sentence correctly has demonstrated that they understand its meaning."
+  type: true-false
+  answer: false
+  explanation: "Repetition and comprehension are distinct skills. A child can echo a sentence phonetically without parsing its structure — without knowing who is the agent, who is the patient, or what the relationship between them is. Comprehension requires assigning semantic roles, not just reproducing the sound sequence."
+
+- question: "Because English word order reliably places the subject before the verb and the object after it, children who know all the vocabulary in a sentence can understand any English sentence."
+  type: true-false
+  answer: false
+  explanation: "The SVO strategy works for simple active sentences but breaks down with non-canonical structures like passives ('The cat was chased by the dog'), relative clauses, and ditransitives. Understanding these requires building a grammatical model that tracks syntactic roles independently of linear word position — vocabulary alone is insufficient."
+
+- question: "Why does acting out a sentence with toys or puppets help young children understand its meaning better than simply explaining what each word means?"
+  type: short-answer
+  answer: "Acting out a sentence forces the child to externalize semantic roles — they must assign who is the agent, who is the patient, and what the action is, making their comprehension visible and checkable. Explaining vocabulary only addresses individual word meanings; the sentence's meaning comes from the structure that connects those words. Physical enactment bridges grammatical structure and real-world event schemas in a way that vocabulary instruction alone cannot."
+  explanation: "Sentence comprehension is fundamentally about role assignment (agent, patient, recipient, location), not word recognition. Acting out a sentence requires the child to 'perform' that role assignment concretely, revealing whether they truly understand who did what to whom — which is exactly what reading comprehension will demand once written language is introduced."
+```
+
 ## Explainer
 
 From your work on vocabulary building, you know that words are the building blocks of language — children learn to associate sounds with meanings, gradually accumulating a lexicon. From spoken language basics, you know that children first communicate through gesture, single words, and simple two-word combinations. Simple sentence understanding is the next leap: connecting multiple words in a structured sequence where the *arrangement* carries meaning, not just the individual words. The dog biting the cat is not the same as the cat biting the dog, even though both sentences use the same words. Understanding a sentence means understanding the structure, not just the vocabulary.

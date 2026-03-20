@@ -17,7 +17,7 @@ tags:
 - institutional-dynamics
 - transformation
 - innovation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

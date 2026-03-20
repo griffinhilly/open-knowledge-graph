@@ -29,6 +29,45 @@ Compare a late-Romantic orchestral work to an impressionist work by Debussy, obs
 ## Common Misconceptions
 - That impressionism in music directly parallels impressionism in painting; the relationship is more metaphorical than literal. - That impressionist harmony is arbitrary or formless; it follows sophisticated structural logic. - That impressionism represented music's decline rather than its liberation and expansion of expressive possibilities.
 
+## Questions
+
+```yaml
+- question: "In a Wagner opera, a dominant seventh chord creates intense harmonic tension that drives toward resolution. In a Debussy piece, the same chord type is likely to:"
+  type: multiple-choice
+  options:
+    - "Resolve more slowly but still arrive at the expected tonic"
+    - "Function as pure timbral color — a beautiful sonic texture that may lead nowhere, suspending expectation rather than fulfilling it"
+    - "Create even greater dissonance to intensify the dramatic moment before a larger resolution"
+    - "Never appear, since Debussy rejected all chromatic harmony as too Romantic"
+  answer: 1
+  explanation: "This is the central harmonic revolution of impressionism. Where Wagner used harmonic tension as a narrative engine — creating urgency that demanded resolution — Debussy liberated chords from their functional obligations. A chord could simply exist as a color, a texture, an atmosphere, without needing to 'go' anywhere. This dissolution of harmonic expectation is what gives Debussy's music its quality of suspended time."
+
+- question: "Debussy's use of whole-tone scales and pentatonic patterns borrowed from Javanese gamelan music was primarily intended to:"
+  type: multiple-choice
+  options:
+    - "Make his music more accessible to audiences unfamiliar with Western harmony"
+    - "Pay direct tribute to non-Western musical traditions as an act of cultural appreciation"
+    - "Dissolve the sense of tonal gravity and directional pull built into Western diatonic scales, allowing chords to float without implied resolution"
+    - "Return to the simplicity of pre-Baroque modal harmony"
+  answer: 2
+  explanation: "The whole-tone scale has no leading tone and no dominant-tonic relationship — every step feels equally distant, so there is no 'home' key pulling the music toward it. The pentatonic scale similarly lacks the tritone tension that drives tonal harmony. Both scales gave Debussy a harmonic palette that could create atmosphere without generating the functional tensions and expectations that common-practice tonality builds on. This was a tool for achieving impressionism's defining goal: suspension over direction."
+
+- question: "The relationship between Debussy's musical impressionism and Monet's visual impressionism is more metaphorical than literal — both movements valued suggestion and atmosphere over statement and sharp outline, but Debussy was not systematically translating specific paintings into sound."
+  type: true-false
+  answer: true
+  explanation: "The connection is aesthetic kinship, not direct translation. Both movements favored the impression of an experience over its precise depiction — the shimmer of light on water rather than a photographic rendering, the atmosphere of a summer afternoon rather than a narrative account of it. Debussy borrowed the *spirit* of visual impressionism (indirection, suspended resolution, texture as substance) rather than mapping visual images onto notes."
+
+- question: "Impressionist harmony is structurally arbitrary — Debussy abandoned all musical logic in favor of momentary atmospheric effect, which is why his music sounds formless."
+  type: true-false
+  answer: false
+  explanation: "This is a common misconception. Debussy's harmonic language follows sophisticated structural logic — it just operates by different rules than common-practice tonality. Parallel chord motion, the use of whole-tone and pentatonic scales, the placement of timbral blocks and textural contrasts — all these are deliberate compositional decisions that create their own form of organization. The music isn't going to a tonic, but it has internal coherence. Calling it 'formless' mistakes 'different from Beethoven' for 'without logic.'"
+
+- question: "How did Debussy's approach to harmonic tension differ fundamentally from Wagner's, and what compositional goal did this difference serve?"
+  type: short-answer
+  answer: "Wagner used chromaticism to intensify harmonic tension and force it toward resolution — every dissonance was a coiled spring. Debussy used chromaticism (along with whole-tone scales, pentatonic patterns, parallel chord motion) to *dissolve* harmonic tension entirely, treating chords as colors or textures with no obligation to resolve. The goal was to create atmosphere and suspension — the impression of a frozen moment — rather than dramatic narrative arc. Where Wagner's music moves *toward* something, Debussy's music *is* something."
+  explanation: "This contrast encapsulates the impressionist aesthetic position. For Debussy, the goal of music was not to tell a story with a climax and resolution but to create a momentary sensory experience — like the shimmer of light, the sound of wind, the feeling of being near water. Functional harmony with its tensions and resolutions is inherently goal-directed and narrative; Debussy needed harmonic tools that could exist in the present without pulling toward a future."
+```
+
 ## Explainer
 
 You've already encountered Wagner — the titan of late Romanticism who transformed opera into a total artwork of overwhelming emotional and dramatic power. Wagner's music saturated every moment with chromatic harmony, thick orchestration, and the relentless drive toward climax and resolution. To understand impressionism, it helps to see it as a conscious aesthetic reaction against this weight. Composers like Claude Debussy and Maurice Ravel sought something different: not grandeur but atmosphere, not dramatic resolution but suspension, not narrative arc but the impression of a single moment frozen in sound.

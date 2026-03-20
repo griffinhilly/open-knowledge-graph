@@ -29,6 +29,45 @@ Use grid paper and count squares directly. See how multiplication relates to are
 ## Common Misconceptions
 Confusing area with perimeter; counting only the border; misunderstanding unit squares.
 
+## Questions
+
+```yaml
+- question: "A rectangle on grid paper is 4 units long and 3 units tall. What is its area?"
+  type: multiple-choice
+  options:
+    - "14 square units — add all four sides (4+3+4+3)"
+    - "7 square units — add length plus width"
+    - "12 square units — count all unit squares inside the rectangle"
+    - "12 units — count the squares but use length units"
+  answer: 2
+  explanation: "Area is found by counting all unit squares inside the shape: 3 rows of 4 = 12. Option A (14) computes the perimeter, not the area. Option B (7) confuses area with half the perimeter. Option D gets the count right but uses the wrong unit — area must always be expressed in *square* units because you are covering a two-dimensional surface."
+
+- question: "Two rectangles both have a perimeter of 12 units. Must they have the same area?"
+  type: multiple-choice
+  options:
+    - "Yes — if the perimeters are equal, the areas must be equal"
+    - "No — a 1×5 rectangle has perimeter 12 and area 5; a 2×4 rectangle also has perimeter 12 but area 8"
+    - "Yes — perimeter and area are always proportional"
+    - "No — but only for very large rectangles"
+  answer: 1
+  explanation: "Perimeter and area measure completely different things: perimeter is the distance around the outside, area is the space inside. Two shapes with the same perimeter can have very different areas. A 1×5 rectangle: perimeter = 1+5+1+5 = 12, area = 5. A 2×4 rectangle: perimeter = 2+4+2+4 = 12, area = 8. Same perimeter, different area — they are independent measurements."
+
+- question: "The area of a shape is the distance around its outside edge."
+  type: true-false
+  answer: false
+  explanation: "That's the definition of perimeter, not area. Area is the total space a shape covers — measured by counting how many unit squares fit inside it. Perimeter is the total length of all the edges. A 3×4 rectangle has perimeter 3+4+3+4 = 14 units and area 3×4 = 12 square units. They even use different units: perimeter uses plain length units, area uses square units."
+
+- question: "Area is measured in square units because you are covering a two-dimensional surface by tiling it with unit squares."
+  type: true-false
+  answer: true
+  explanation: "Each unit square is a small square with sides of one unit length. Area counts how many of these fit inside a shape. Because you are filling a flat (two-dimensional) surface rather than measuring a single length, the unit must reflect two dimensions — hence 'square units' (like square centimeters or square inches). The word 'square' in the unit is a direct reminder of what you are measuring."
+
+- question: "A student finds the area of a rectangle by counting only the squares along the edges. Why is this wrong, and what should she count instead?"
+  type: short-answer
+  answer: "Counting only the border squares measures a ring around the shape, not the total interior. Area includes every unit square inside the boundary — both the edge squares and all the interior squares. For a 4×3 rectangle, the border has 10 squares but the total area is 12 square units. She should count all squares inside the shape, systematically row by row."
+  explanation: "The confusion arises because the border squares are easy to see and trace. But area is about the entire interior, not just the outline. Drawing grid lines inside the shape and counting row by row (or using rows × columns multiplication) is the reliable method. A helpful check: does your count feel like 'going around' the shape or 'filling it in'? Area is always about filling in."
+```
+
 ## Explainer
 
 **Area** is the mathematical name for the total space a flat surface covers. The most concrete way to measure it is to count how many identical squares fit inside a shape without gaps or overlaps. Each of those squares is called a **unit square** — a square that measures one unit on each side — and area is always expressed in **square units** (like square centimeters or square inches).

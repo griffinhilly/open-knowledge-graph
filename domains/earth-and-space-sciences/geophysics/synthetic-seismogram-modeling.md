@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: elastic-wave-propagation-in-solids
   type: hard
-builds-toward:
-- seismic-reflection-surveys
+builds-toward: []
 tags:
 - seismic
 - modeling
@@ -18,7 +17,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Synthetic Seismogram Generation and Forward Modeling
 
 ## Core Idea

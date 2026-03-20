@@ -13,7 +13,7 @@ tags:
 - cognitive-development
 - theory-of-mind
 - social-cognition
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

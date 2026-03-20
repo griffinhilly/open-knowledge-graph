@@ -11,9 +11,8 @@ prerequisites:
 - id: historical-argument-structure
   type: soft
 builds-toward:
-- temporality-and-time
-- contingency-and-inevitability
-- explanation-in-history
+  - temporality-and-time
+  - explanation-in-history
 tags:
 - explanation
 - narrative
@@ -22,7 +21,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Narrative as Historical Explanation
 
 ## Core Idea

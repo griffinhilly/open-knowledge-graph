@@ -14,7 +14,7 @@ tags:
 - transcription
 - harmony
 - bass clef
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

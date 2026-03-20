@@ -17,7 +17,7 @@ tags:
 - full-employment
 - long-run
 - self-correction
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

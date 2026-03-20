@@ -3,7 +3,9 @@ id: separation-anxiety-and-stranger-anxiety
 title: Separation Anxiety and Stranger Anxiety
 domain: psychology
 course: developmental-psychology
-prerequisites: []
+prerequisites:
+- id: developmental-psychology-overview
+  type: soft
 builds-toward:
 - secure-attachment-and-base-functions
 - emotional-development-and-regulation-infancy
@@ -15,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Separation Anxiety and Stranger Anxiety
 
 ## Core Idea

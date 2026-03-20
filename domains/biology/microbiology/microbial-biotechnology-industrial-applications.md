@@ -15,7 +15,7 @@ tags:
 - industrial
 - fermentation
 - recombinant-proteins
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

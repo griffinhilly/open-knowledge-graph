@@ -17,7 +17,7 @@ tags:
 - technology
 - computation
 - new-media
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

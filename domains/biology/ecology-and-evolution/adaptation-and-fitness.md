@@ -19,7 +19,7 @@ tags:
 - fitness
 - phenotype
 - evolution
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

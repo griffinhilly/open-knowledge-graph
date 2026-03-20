@@ -18,7 +18,7 @@ tags:
 - total war
 - home front
 - technology
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

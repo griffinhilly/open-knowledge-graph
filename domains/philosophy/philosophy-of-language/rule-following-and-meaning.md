@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: wittgenstein-private-language-argument
   type: soft
-builds-toward:
-- language-games-wittgenstein
+builds-toward: []
 tags:
 - rule-following
 - semantics
@@ -18,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Rule-Following and Meaning Constitution
 
 ## Core Idea

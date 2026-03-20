@@ -15,7 +15,7 @@ tags:
 - marginal cost
 - average cost
 - short run
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

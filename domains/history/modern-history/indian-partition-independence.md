@@ -17,7 +17,7 @@ tags:
 - partition
 - Gandhi
 - religious-conflict
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

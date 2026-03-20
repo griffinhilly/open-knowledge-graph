@@ -34,7 +34,7 @@ tags:
 - log-likelihood
 - consistency
 - asymptotic
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

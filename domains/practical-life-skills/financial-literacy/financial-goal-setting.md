@@ -22,7 +22,7 @@ tags:
 - goals
 - budgeting
 - motivation
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 

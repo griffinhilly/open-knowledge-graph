@@ -22,7 +22,7 @@ tags:
 - wind stress
 - trade winds
 - westerlies
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

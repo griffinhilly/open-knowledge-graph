@@ -16,7 +16,7 @@ tags:
 - bravais
 - cubic
 - hexagonal
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

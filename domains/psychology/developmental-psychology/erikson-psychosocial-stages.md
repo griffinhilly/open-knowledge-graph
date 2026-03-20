@@ -18,7 +18,7 @@ tags:
 - identity vs role confusion
 - generativity
 - integrity
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

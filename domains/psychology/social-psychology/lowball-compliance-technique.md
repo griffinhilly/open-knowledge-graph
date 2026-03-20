@@ -17,7 +17,7 @@ tags:
 - commitment
 - cognitive dissonance
 - deception
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

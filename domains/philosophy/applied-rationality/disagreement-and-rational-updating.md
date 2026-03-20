@@ -11,7 +11,7 @@ prerequisites:
   - id: epistemology-of-disagreement
     type: soft
 tags: ["epistemics", "disagreement", "aumann", "updating", "social-epistemology"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

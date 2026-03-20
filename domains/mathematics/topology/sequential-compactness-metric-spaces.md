@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - sequential-compactness
 - metric-spaces
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

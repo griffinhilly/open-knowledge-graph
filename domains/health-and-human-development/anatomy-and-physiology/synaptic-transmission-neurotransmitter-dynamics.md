@@ -14,7 +14,7 @@ tags:
 - synaptic-transmission
 - neurotransmitters
 - integration
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

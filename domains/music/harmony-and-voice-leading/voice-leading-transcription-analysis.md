@@ -14,7 +14,7 @@ tags:
 - analysis
 - transcription
 - voice-leading
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

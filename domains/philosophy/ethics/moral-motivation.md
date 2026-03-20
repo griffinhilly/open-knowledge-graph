@@ -17,7 +17,7 @@ tags:
 - externalism
 - Humean-theory
 - moral-judgment
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - welfare
 - efficiency
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

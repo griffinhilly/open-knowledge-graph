@@ -3,7 +3,9 @@ id: theory-of-computation-overview
 title: Theory of Computation Overview
 domain: computer-science
 course: theory-of-computation
-prerequisites: []
+prerequisites:
+- id: formal-languages-and-strings
+  type: soft
 builds-toward:
 - formal-languages-and-strings
 - automata-fundamentals-and-models
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Theory of Computation Overview
 
 ## Core Idea

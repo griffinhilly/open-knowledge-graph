@@ -16,7 +16,7 @@ tags:
 - labor
 - manorial
 - peasant
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

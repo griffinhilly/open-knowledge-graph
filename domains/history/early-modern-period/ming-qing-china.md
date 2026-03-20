@@ -20,7 +20,7 @@ tags:
 - silver trade
 - tributary system
 - haijin
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

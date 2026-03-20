@@ -14,7 +14,7 @@ builds-toward:
   - absence-of-evidence
   - calibration-training
 tags: ["bayesian", "evidence", "probability", "rationality"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

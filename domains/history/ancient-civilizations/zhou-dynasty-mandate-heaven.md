@@ -14,7 +14,7 @@ tags:
 - mandate-of-heaven
 - governance
 - philosophy
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

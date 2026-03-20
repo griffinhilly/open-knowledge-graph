@@ -16,7 +16,7 @@ tags:
 - feedback
 - regulation
 - physiology
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

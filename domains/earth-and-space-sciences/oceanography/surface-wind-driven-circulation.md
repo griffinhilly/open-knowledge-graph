@@ -18,7 +18,7 @@ tags:
 - gyres
 - Ekman
 - Coriolis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

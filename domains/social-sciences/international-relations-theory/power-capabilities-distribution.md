@@ -7,8 +7,7 @@ prerequisites:
 - id: international-relations-overview
   type: hard
 builds-toward:
-- balance-of-power
-- hegemonic-stability-theory
+  - hegemonic-stability-theory
 tags:
 - power
 - measurement
@@ -17,7 +16,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Power and Capabilities Distribution
 
 ## Core Idea

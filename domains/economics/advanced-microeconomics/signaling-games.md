@@ -16,7 +16,7 @@ tags:
 - contract-theory
 - signaling
 - information-revelation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

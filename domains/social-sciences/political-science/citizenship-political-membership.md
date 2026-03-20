@@ -16,7 +16,7 @@ tags:
 - membership
 - rights
 - belonging
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

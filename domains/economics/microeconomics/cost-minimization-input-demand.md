@@ -16,7 +16,7 @@ tags:
 - costs
 - optimization
 - factor demand
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

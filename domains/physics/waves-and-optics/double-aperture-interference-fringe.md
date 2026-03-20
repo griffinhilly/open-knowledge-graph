@@ -13,7 +13,7 @@ tags:
 - interference
 - experiment
 - light
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

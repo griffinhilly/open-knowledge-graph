@@ -23,7 +23,7 @@ tags:
 - Zagzebski
 - intellectual-virtues
 - credit
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Virtue Epistemology

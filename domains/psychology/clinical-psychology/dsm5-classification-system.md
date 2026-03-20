@@ -3,7 +3,9 @@ id: dsm5-classification-system
 title: DSM-5 Classification System
 domain: psychology
 course: clinical-psychology
-prerequisites: []
+prerequisites:
+- id: dsm-5-diagnostic-criteria-and-classification
+  type: soft
 builds-toward:
 - clinical-assessment-overview
 - anxiety-disorders-overview
@@ -16,7 +18,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # DSM-5 Classification System
 
 ## Core Idea

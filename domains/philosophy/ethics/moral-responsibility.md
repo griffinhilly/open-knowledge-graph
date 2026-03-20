@@ -16,7 +16,7 @@ tags:
 - agency
 - blameworthiness
 - free-will
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

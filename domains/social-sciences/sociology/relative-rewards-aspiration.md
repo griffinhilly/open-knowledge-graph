@@ -13,7 +13,7 @@ tags:
 - income-inequality
 - aspirations
 - satisfaction
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

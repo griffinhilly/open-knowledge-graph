@@ -22,7 +22,7 @@ tags:
 - agonist
 - antagonist
 - lever-systems
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Muscular System: Gross Anatomy and Muscle Mechanics

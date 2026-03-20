@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - product-topology
 - products
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -10,7 +10,7 @@ tags:
 - form
 - rhyme
 - closure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

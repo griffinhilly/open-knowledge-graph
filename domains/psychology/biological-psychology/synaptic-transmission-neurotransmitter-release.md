@@ -20,7 +20,7 @@ tags:
 - synapses
 - communication
 - vesicle-dynamics
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

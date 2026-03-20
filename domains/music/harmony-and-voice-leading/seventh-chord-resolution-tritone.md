@@ -16,7 +16,7 @@ tags:
 - tritone
 - dissonance-resolution
 - voice-leading
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

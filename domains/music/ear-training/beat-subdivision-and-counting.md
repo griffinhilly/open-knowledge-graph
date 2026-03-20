@@ -14,7 +14,7 @@ tags:
 - meter
 - beat
 - subdivisions
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

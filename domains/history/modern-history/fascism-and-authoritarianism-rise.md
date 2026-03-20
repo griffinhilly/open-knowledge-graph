@@ -15,7 +15,7 @@ tags:
 - authoritarianism
 - totalitarianism
 - ideology
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - Jackson
 - physicalism
 - qualia
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

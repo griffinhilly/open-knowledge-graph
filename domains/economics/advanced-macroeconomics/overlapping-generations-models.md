@@ -17,7 +17,7 @@ tags:
 - generations
 - lifecycle
 - overlapping
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

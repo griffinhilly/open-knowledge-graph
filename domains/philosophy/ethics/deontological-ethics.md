@@ -19,7 +19,7 @@ tags:
 - duties
 - rights
 - constraints
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

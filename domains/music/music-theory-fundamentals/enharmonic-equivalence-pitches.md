@@ -16,7 +16,7 @@ tags:
 - equivalence
 - spelling
 - accidental
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

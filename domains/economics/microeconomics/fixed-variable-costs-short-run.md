@@ -12,7 +12,7 @@ tags:
 - costs
 - short-run
 - cost-structure
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -16,7 +16,7 @@ tags:
 - liberalism
 - rights
 - enlightenment
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

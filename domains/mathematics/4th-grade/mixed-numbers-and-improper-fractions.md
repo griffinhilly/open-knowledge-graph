@@ -33,6 +33,45 @@ Use fraction strips or circles: show that 7 quarter-pieces fill one whole (4 qua
 - Thinking improper fractions are "wrong" or "bad" -- the name is misleading.
 - Not recognizing that 4/4, 3/3, etc. equal 1.
 
+## Questions
+
+```yaml
+- question: "A student converts 11/3 to a mixed number. She calculates 11 ÷ 3 = 3 remainder 2, then writes '2 3/3' as her answer. What error did she make?"
+  type: multiple-choice
+  options:
+    - "She should have divided 3 by 11 instead of 11 by 3"
+    - "She reversed the quotient and remainder: the quotient (3) should be the whole number and the remainder (2) the new numerator, giving 3 2/3"
+    - "She forgot to simplify — 3/3 should be reduced to 1"
+    - "She should have multiplied 3 × 11 instead of dividing"
+  answer: 1
+  explanation: "When converting an improper fraction to a mixed number, the quotient becomes the whole number and the remainder becomes the new numerator (denominator stays the same). For 11/3: 11 ÷ 3 = 3 remainder 2, so the answer is 3 2/3 — not 2 3/3. The student swapped quotient and remainder. A quick check confirms: 3 × 3 + 2 = 11 ✓. Note that 2 3/3 would equal 2 + 1 = 3, which is clearly not the same as 11/3 ≈ 3.67."
+
+- question: "Which correctly explains why 9/4 = 2 1/4?"
+  type: multiple-choice
+  options:
+    - "Because 9 − 4 = 5 and 5 − 4 = 1, leaving a remainder of 1"
+    - "Because 4/4 = 1 whole, so 9/4 = 4/4 + 4/4 + 1/4 = 2 wholes and 1 quarter"
+    - "Because you divide 4 by 9 to get the decimal 0.44, which rounds to 1/4"
+    - "Because 2 and 4 share a common factor of 2"
+  answer: 1
+  explanation: "The key insight is that 'one whole' equals denominator-many parts: 1 = 4/4. So 9/4 contains two complete groups of 4/4 (= 2 wholes) with 1 quarter left over: 4/4 + 4/4 + 1/4 = 2 1/4. Verify: 2 × 4 + 1 = 9, so 9/4 ✓. Both 9/4 and 2 1/4 label exactly the same point on the number line — they are two representations of the same quantity."
+
+- question: "An improper fraction is mathematically incorrect — a numerator can never be larger than its denominator in a valid fraction."
+  type: true-false
+  answer: false
+  explanation: "The name 'improper' is misleading — there is nothing mathematically wrong with an improper fraction. It simply represents a quantity of 1 or more. 7/4 is a perfectly valid number meaning seven quarter-pieces, equal to 1 3/4. Improper fractions are not errors; in computation they are often preferred because they keep all value in a single numerator-denominator pair."
+
+- question: "A mixed number and its equivalent improper fraction represent the same point on the number line."
+  type: true-false
+  answer: true
+  explanation: "1 3/4 and 7/4 are two ways to name the exact same value. On a number line, both would be plotted at the same location — three-quarters of the way between 1 and 2. Equivalent representations don't name different quantities; they're simply written in different forms. This is why you can convert freely between them depending on which is more useful for a given task."
+
+- question: "When would you prefer to write a value as an improper fraction rather than a mixed number? Give an example and explain your reasoning."
+  type: short-answer
+  answer: "Improper fractions are preferred for computation — adding, subtracting, or multiplying — because they keep the value as a single fraction without a separate whole-number part to manage. For example, to multiply 1 3/4 × 2, it is easier to convert to 7/4 × 2 = 14/4 = 3 1/2 than to handle the whole and fractional parts separately."
+  explanation: "Mixed numbers are more intuitive for communication and measurement ('2 and a half cups'), but they create complexity during calculation. Keeping everything as a single numerator over denominator allows standard fraction multiplication and addition rules to apply cleanly. The ability to move fluidly between representations — choosing the form that makes each task simpler — is the practical payoff of understanding both."
+```
+
 ## Explainer
 
 From your work with fractions, you know that 3/4 represents three pieces of a whole cut into four equal parts — and that 3/4 is less than 1 because you have fewer pieces than needed to complete one whole. An **improper fraction** simply pushes past that boundary: 7/4 means seven quarter-pieces when only four make a whole. You have more than enough for one complete whole, so this fraction is greater than 1. The name "improper" is misleading — there is nothing mathematically wrong with it.

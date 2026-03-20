@@ -17,7 +17,7 @@ tags:
 - piagetian
 - symbolic-thought
 - logical-operations
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

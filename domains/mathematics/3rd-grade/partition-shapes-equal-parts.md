@@ -35,6 +35,45 @@ Use folding and cutting activities — fold paper rectangles and circles into eq
 - Students may draw unequal parts and still name them as fractions. Emphasize that equal area is required.
 - Partitioning a circle into thirds is harder to draw than halves or fourths; students may not space the sections evenly.
 
+## Questions
+
+```yaml
+- question: "A rectangle is divided into 4 parts — two large triangles and two small triangles. A student labels each part 'one-fourth.' Is this correct?"
+  type: multiple-choice
+  options:
+    - "Yes, because there are 4 parts total"
+    - "No, because the parts are different shapes"
+    - "No, because the parts are not equal in area and therefore cannot be called fourths"
+    - "Yes, because fractions only require counting the number of parts"
+  answer: 2
+  explanation: "One-fourth means each part is exactly 1/4 of the whole area. If some parts are larger and others are smaller, they cannot all be 1/4 — the fraction name does not apply. Equal area is the requirement, not equal count or equal shape. This is why partitioning specifically means dividing into equal-area parts."
+
+- question: "A square and a circle are the same size. The square is divided into 4 equal parts and the circle is divided into 6 equal parts. Which shape has smaller individual pieces?"
+  type: multiple-choice
+  options:
+    - "The square, because squares have more area"
+    - "The circle, because it is divided into more pieces"
+    - "They are the same size since both shapes are equal"
+    - "The square, because fourths are bigger than sixths"
+  answer: 1
+  explanation: "When the whole is the same size, more equal pieces means each piece is smaller. The circle divided into 6 equal pieces produces sixths (each 1/6 of the total). The square divided into 4 equal pieces produces fourths (each 1/4 of the total). Since 1/6 < 1/4, the circle's pieces are smaller. The pattern: more parts always means smaller parts, when the whole stays the same."
+
+- question: "When a rectangle is partitioned into 8 equal columns, each column represents one-eighth of the rectangle."
+  type: true-false
+  answer: true
+  explanation: "Partitioning into 8 equal parts produces 8 pieces, each covering exactly 1/8 of the total area. As long as the columns are truly equal in size, each one is legitimately called one-eighth."
+
+- question: "Two parts of a shape cannot be equal if they look different from each other."
+  type: true-false
+  answer: false
+  explanation: "This is the key misconception about equal parts. 'Equal' means equal in area — not equal in appearance. For example, a square can be cut diagonally into two right triangles that look different from the horizontal-cut rectangles you might expect, yet both triangles have exactly the same area (half the square). Equal parts must cover the same amount, but their shape can differ."
+
+- question: "Why is it not enough to just count the number of parts when naming a fraction? What else must be true?"
+  type: short-answer
+  answer: "The parts must be equal in area. If a shape is cut into 4 pieces of different sizes, none of them is correctly called one-fourth — because one-fourth means exactly 1/4 of the total area. Equal area is the defining requirement for partitioning."
+  explanation: "A fraction's denominator tells you how many equal pieces the whole is divided into. If pieces differ in size, the fraction name does not accurately describe any of them. This is why partitioning means dividing into equal-area parts — and it is the foundation for all later fraction work."
+```
+
 ## Explainer
 
 You already know about halves, quarters, and thirds as fraction names from your prerequisites. **Partitioning** is the geometric side of the same idea: when you draw lines to divide a shape into equal parts, each part represents one fraction of the whole. The critical word is *equal* — if the parts have different sizes, they can't be named as unit fractions of the whole.

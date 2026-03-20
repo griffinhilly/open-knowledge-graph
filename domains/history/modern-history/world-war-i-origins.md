@@ -21,7 +21,7 @@ tags:
 - Balkans
 - imperialism
 - 1914
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Origins of World War I

@@ -15,7 +15,7 @@ tags:
 - attachment
 - receptor-binding
 - tropism
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

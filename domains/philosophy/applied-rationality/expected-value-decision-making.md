@@ -17,7 +17,7 @@ builds-toward:
   - tail-risk-and-black-swans
   - sunk-cost-recognition
 tags: ["decision-theory", "expected-value", "risk", "quantitative-reasoning"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

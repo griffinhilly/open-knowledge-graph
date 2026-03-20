@@ -15,7 +15,7 @@ tags:
 - rhetoric
 - appeals
 - synthesis
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

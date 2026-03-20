@@ -12,7 +12,7 @@ tags:
 - diffraction
 - fresnel
 - wavefront
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

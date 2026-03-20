@@ -13,7 +13,7 @@ tags:
 - cities
 - industrial-growth
 - society
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

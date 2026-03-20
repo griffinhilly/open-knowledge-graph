@@ -20,7 +20,7 @@ tags:
 - serfs
 - manorialism
 - hierarchy
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

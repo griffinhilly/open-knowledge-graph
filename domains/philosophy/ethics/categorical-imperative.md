@@ -15,7 +15,7 @@ tags:
 - universalizability
 - autonomy
 - formula-of-humanity
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

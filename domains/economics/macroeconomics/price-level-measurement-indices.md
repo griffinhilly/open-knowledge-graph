@@ -9,8 +9,7 @@ prerequisites:
 - id: gdp-components
   type: soft
 builds-toward:
-- inflation-dynamics-and-persistence
-- nominal-and-real-macroeconomic-variables
+  - inflation-dynamics-and-persistence
 tags:
 - measurement
 - inflation
@@ -18,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Price Level Measurement and Price Indices
 
 ## Core Idea

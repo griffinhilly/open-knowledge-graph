@@ -27,7 +27,7 @@ tags:
 - Schubert
 - Brahms
 - Liszt
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # The Romantic Period: Emotion, Expression, and Expansion

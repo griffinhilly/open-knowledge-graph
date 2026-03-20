@@ -17,7 +17,7 @@ tags:
 - compression
 - rarefaction
 - speed of sound
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

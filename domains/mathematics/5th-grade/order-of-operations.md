@@ -28,6 +28,45 @@ Evaluate expressions step by step, showing only one operation per step. Use colo
 - Evaluating strictly left to right, ignoring operation hierarchy.
 - Misinterpreting PEMDAS as six levels instead of four (P, E, MD, AS).
 
+## Questions
+
+```yaml
+- question: "What is the value of 12 ÷ 3 × 2?"
+  type: multiple-choice
+  options:
+    - "2 — divide last because multiplication comes before division in PEMDAS"
+    - "8 — multiplication and division have equal priority, so evaluate left to right"
+    - "18 — multiply 3 × 2 first because M comes before D in the acronym"
+    - "4 — work right to left when operations have the same letter pair"
+  answer: 1
+  explanation: "Multiplication and division are the same priority level — neither always comes first. The rule is to evaluate them left to right. So: 12 ÷ 3 = 4, then 4 × 2 = 8. Option A is the most common wrong answer — treating PEMDAS as six separate ranked levels causes students to always multiply before dividing, which is incorrect."
+
+- question: "A student evaluates 20 − 4 + 3 by doing 4 + 3 = 7 first, then 20 − 7 = 13. What went wrong?"
+  type: multiple-choice
+  options:
+    - "They should have subtracted before adding because subtraction comes before addition"
+    - "They should have added before subtracting because A comes before S in PEMDAS"
+    - "Addition and subtraction have equal priority and must go left to right; 20 − 4 should come first, giving 16 + 3 = 19"
+    - "Nothing went wrong; 13 is the correct answer"
+  answer: 2
+  explanation: "Addition and subtraction, like multiplication and division, are equal-priority partners — neither always precedes the other. The correct approach is left to right: 20 − 4 = 16, then 16 + 3 = 19. The student treated 'AS' as meaning 'addition first,' which is a misreading of the acronym. PEMDAS has four levels, not six."
+
+- question: "Placing parentheses around part of an expression can change its value even if the operations inside are the same."
+  type: true-false
+  answer: true
+  explanation: "Parentheses override the default priority order. Without parentheses, 2 + 3 × 4 = 14 (multiply first). With parentheses, (2 + 3) × 4 = 20 (add first). The parentheses force the addition to happen before the multiplication, producing a different result. This is precisely their purpose: communicating which operation should happen first."
+
+- question: "In PEMDAS, multiplication always comes before division because M appears before D in the acronym."
+  type: true-false
+  answer: false
+  explanation: "This is one of the most common misconceptions about order of operations. M and D represent a single priority level, not two separate ones. When an expression contains both multiplication and division (with no parentheses separating them), you evaluate left to right — whichever appears first gets done first. The acronym groups them together for a reason: MD is one level, AS is one level."
+
+- question: "Why does 2 + 3 × 4 equal 14 and not 20? Explain using the purpose of the order of operations convention."
+  type: short-answer
+  answer: "The order of operations is a shared convention that ensures every mathematical expression has exactly one value. Under the convention, multiplication is evaluated before addition, so 3 × 4 = 12 is computed first, then 2 + 12 = 14. If we added first, (2 + 3) × 4 = 20 — a different answer. The convention exists so writers and readers of expressions always agree on meaning."
+  explanation: "The key insight is that the order of operations is not an arbitrary rule but a necessary agreement. Without it, an expression like 2 + 3 × 4 would be ambiguous — two mathematicians could read it and get different answers. The convention resolves that ambiguity by specifying which operations bind more tightly. Parentheses let you override the convention when you need a different grouping."
+```
+
 ## Explainer
 
 You've been introduced to the idea that operations must be evaluated in a specific order. Now you're working with the full rule, including exponents and the subtle left-to-right rule within priority levels. The reason this convention exists is simple: an expression like 2 + 3 × 4 is ambiguous without it. If you add first: (2 + 3) × 4 = 20. If you multiply first: 2 + (3 × 4) = 14. Both can't be right. Mathematicians agreed on a convention so that every correctly formed expression has exactly one value. That convention is what PEMDAS (or GEMDAS) describes.

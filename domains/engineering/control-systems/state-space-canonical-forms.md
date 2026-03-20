@@ -17,7 +17,7 @@ tags:
 - canonical-forms
 - controllable
 - observable
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

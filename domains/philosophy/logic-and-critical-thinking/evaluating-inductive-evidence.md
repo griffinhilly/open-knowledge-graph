@@ -15,7 +15,7 @@ tags:
 - inductive-reasoning
 - evidence-evaluation
 - critical-thinking
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

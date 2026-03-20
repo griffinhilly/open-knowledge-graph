@@ -15,7 +15,7 @@ tags:
 - economy
 - manorialism
 - village
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

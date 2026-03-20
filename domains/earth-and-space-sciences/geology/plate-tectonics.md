@@ -14,8 +14,6 @@ prerequisites:
   type: soft
 - id: stress-strain-rock-deformation
   type: soft
-- id: mantle-convection-and-dynamics
-  type: soft
 - id: heat-transfer-conduction
   type: soft
 builds-toward:
@@ -28,7 +26,7 @@ tags:
 - mantle-convection
 - continental-drift
 - seafloor-spreading
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

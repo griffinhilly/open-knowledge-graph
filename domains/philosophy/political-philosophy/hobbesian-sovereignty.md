@@ -14,7 +14,7 @@ tags:
 - sovereignty
 - absolute-authority
 - Leviathan
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

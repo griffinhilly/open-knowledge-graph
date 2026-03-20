@@ -12,7 +12,7 @@ tags:
 - polarization
 - polarizer
 - analyzer
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

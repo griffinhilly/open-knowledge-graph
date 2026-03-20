@@ -15,7 +15,7 @@ tags:
 - NPSH
 - pump selection
 - cavitation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 # Pump and System Curves

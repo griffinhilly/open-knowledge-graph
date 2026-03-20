@@ -16,7 +16,7 @@ tags:
 - iconography
 - religious-art
 - visual-codes
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

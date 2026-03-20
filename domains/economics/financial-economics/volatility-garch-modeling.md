@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: expected-value-and-variance-of-assets
   type: soft
-builds-toward:
-- options-implied-volatility-extraction
+builds-toward: []
 tags:
 - volatility
 - garch
@@ -20,7 +19,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Modeling Time-Varying Volatility with GARCH
 
 ## Core Idea

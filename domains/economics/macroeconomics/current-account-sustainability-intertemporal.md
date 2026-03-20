@@ -14,7 +14,7 @@ tags:
 - current-account
 - sustainability
 - international
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

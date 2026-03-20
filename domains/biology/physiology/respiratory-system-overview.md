@@ -17,7 +17,7 @@ tags:
 - alveoli
 - ventilation
 - surfactant
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

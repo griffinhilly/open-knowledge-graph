@@ -14,7 +14,7 @@ tags:
 - protestantism
 - huguenots
 - religious-conflict
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

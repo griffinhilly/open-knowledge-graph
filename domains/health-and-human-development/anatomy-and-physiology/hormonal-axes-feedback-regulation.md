@@ -19,7 +19,7 @@ tags:
 - hormonal-axes
 - negative-feedback
 - homeostasis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

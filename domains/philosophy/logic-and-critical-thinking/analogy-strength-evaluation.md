@@ -14,7 +14,7 @@ tags:
 - analogies
 - induction
 - argument-evaluation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

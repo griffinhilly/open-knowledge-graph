@@ -6,8 +6,7 @@ course: distributed-systems
 prerequisites:
 - id: read-repair-anti-entropy
   type: hard
-builds-toward:
-- bloom-filters-distributed-systems
+builds-toward: []
 tags:
 - merkle-trees
 - consistency
@@ -16,7 +15,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Merkle Trees for Distributed Data Consistency
 
 ## Core Idea

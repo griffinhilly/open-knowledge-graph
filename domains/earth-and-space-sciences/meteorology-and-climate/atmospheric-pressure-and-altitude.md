@@ -20,7 +20,7 @@ tags:
 - altitude
 - hydrostatic
 - density
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

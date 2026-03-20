@@ -12,7 +12,7 @@ tags:
 - definition
 - demonstration
 - clarity
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

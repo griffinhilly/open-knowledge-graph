@@ -16,7 +16,7 @@ tags:
 - lifetime
 - mass-luminosity
 - scaling
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

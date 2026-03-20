@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - perturbation-theory
 - degeneracy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

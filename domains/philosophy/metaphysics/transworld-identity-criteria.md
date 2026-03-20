@@ -11,18 +11,16 @@ prerequisites:
 - id: rigid-designators-modal-reference
   type: soft
 builds-toward:
-- actualism-in-metaphysics
-- haecceity-primitive-identity
+  - haecceity-primitive-identity
 tags:
 - modality
 - identity
 - possible-worlds
 - transworld
 - essentialism
-stage: formal-systems
+stage: advanced
 status: draft
 ---
-
 # Transworld Identity and Identity Across Possible Worlds
 
 ## Core Idea

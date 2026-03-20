@@ -13,7 +13,7 @@ tags:
 - solidarity
 - social-integration
 - social-change
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

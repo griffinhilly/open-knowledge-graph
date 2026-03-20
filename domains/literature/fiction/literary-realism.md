@@ -18,7 +18,7 @@ tags:
 - verisimilitude
 - social-fiction
 - naturalism
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

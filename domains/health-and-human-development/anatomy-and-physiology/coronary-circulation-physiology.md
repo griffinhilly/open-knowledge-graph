@@ -15,7 +15,7 @@ tags:
 - autoregulation
 - metabolic-demand
 - perfusion-pressure
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

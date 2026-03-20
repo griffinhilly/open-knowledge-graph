@@ -15,7 +15,7 @@ tags:
 - triads
 - diminished
 - augmented
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

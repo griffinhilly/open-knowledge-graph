@@ -17,7 +17,7 @@ tags:
 - circuits
 - non-uniform-computation
 - P/poly
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

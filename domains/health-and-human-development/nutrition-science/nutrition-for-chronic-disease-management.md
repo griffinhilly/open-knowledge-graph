@@ -16,7 +16,7 @@ tags:
 - medical-nutrition-therapy
 - disease-management
 - therapeutic-diet
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

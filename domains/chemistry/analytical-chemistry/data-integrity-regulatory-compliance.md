@@ -9,8 +9,7 @@ prerequisites:
 - id: quality-control-and-quality-assurance
   type: hard
 builds-toward:
-- iso-iec-17025-laboratory-accreditation
-- analytical-standard-operating-procedures
+  - iso-iec-17025-laboratory-accreditation
 tags:
 - data-integrity
 - compliance
@@ -18,7 +17,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Data Integrity and Regulatory Compliance
 
 ## Core Idea

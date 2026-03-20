@@ -21,7 +21,7 @@ tags:
 - essentialism
 - modality
 - reference
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

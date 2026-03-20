@@ -16,7 +16,7 @@ tags:
 - novel
 - structure
 - scope
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

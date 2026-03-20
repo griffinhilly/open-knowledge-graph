@@ -18,7 +18,7 @@ tags:
 - tonic
 - dominant
 - subdominant
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

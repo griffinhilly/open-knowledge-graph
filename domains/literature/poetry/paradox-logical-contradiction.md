@@ -3,15 +3,16 @@ id: paradox-logical-contradiction
 title: Paradox and Logical Contradiction in Poetry
 domain: literature
 course: poetry
-prerequisites: []
+prerequisites:
+- id: poetic-form-overview
+  type: soft
 tags:
 - figurative-language
 - paradox
 - contradiction
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Paradox and Logical Contradiction in Poetry
 
 ## Core Idea

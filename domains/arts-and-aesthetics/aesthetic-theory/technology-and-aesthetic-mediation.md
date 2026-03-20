@@ -11,18 +11,16 @@ prerequisites:
 - id: art-historical-methods
   type: soft
 builds-toward:
-- artistic-authenticity-and-copies
-- art-political-intervention
+  - art-political-intervention
 tags:
 - technology
 - mediation
 - aesthetics
 - medium
 - experience
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Technology and Aesthetic Mediation
 
 ## Core Idea

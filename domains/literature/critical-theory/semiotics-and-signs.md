@@ -28,7 +28,7 @@ tags:
 - signifier
 - signified
 - myth
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

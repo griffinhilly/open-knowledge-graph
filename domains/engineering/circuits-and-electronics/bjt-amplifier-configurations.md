@@ -21,7 +21,7 @@ tags:
 - hybrid-pi-model
 - voltage-gain
 - input-impedance
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

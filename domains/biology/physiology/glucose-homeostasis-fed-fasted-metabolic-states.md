@@ -15,7 +15,7 @@ tags:
 - metabolism
 - hormones
 - fed-fasted states
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

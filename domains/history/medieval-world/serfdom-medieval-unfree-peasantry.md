@@ -17,7 +17,7 @@ tags:
 - unfree
 - status
 - legal
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -25,7 +25,7 @@ tags:
 - Hunds-rule
 - valence-electrons
 - subshells
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

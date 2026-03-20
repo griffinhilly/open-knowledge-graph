@@ -15,7 +15,7 @@ tags:
 - pressure
 - energy
 - compressible-flow
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

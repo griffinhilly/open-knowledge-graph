@@ -9,7 +9,7 @@ prerequisites:
   - id: expected-value-decision-making
     type: hard
 tags: ["decision-theory", "causation", "evidence", "rationality", "philosophy"]
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

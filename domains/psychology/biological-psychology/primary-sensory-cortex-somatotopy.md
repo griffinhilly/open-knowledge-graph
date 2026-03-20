@@ -15,7 +15,7 @@ tags:
 - sensory-systems
 - cortex
 - organization
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

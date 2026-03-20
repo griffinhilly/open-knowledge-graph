@@ -12,7 +12,7 @@ tags:
 - manometry
 - pressure-measurement
 - instrumentation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

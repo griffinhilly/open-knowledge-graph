@@ -16,7 +16,7 @@ tags:
 - stocks
 - investing
 - markets
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

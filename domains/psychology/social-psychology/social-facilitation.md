@@ -13,7 +13,7 @@ tags:
 - arousal
 - audience effects
 - Zajonc
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

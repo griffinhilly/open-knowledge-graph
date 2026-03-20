@@ -27,6 +27,45 @@ Show the pattern: 2⁴ = 16, 2³ = 8, 2² = 4, 2¹ = 2, 2⁰ = ? Each step divid
 - Not distinguishing between (3x)⁰ = 1 and 3x⁰ = 3.
 - Thinking 0⁰ = 0 or 0⁰ = 1 without recognizing the ambiguity.
 
+## Questions
+
+```yaml
+- question: "What is the value of −5⁰?"
+  type: multiple-choice
+  options:
+    - "1"
+    - "−1"
+    - "0"
+    - "5"
+  answer: 1
+  explanation: "By order of operations, exponentiation is applied before negation unless parentheses indicate otherwise. −5⁰ means −(5⁰) = −(1) = −1. If the negative sign were part of the base, it would be written (−5)⁰ = 1. This distinction is critical: the exponent applies only to what is directly beneath it — the 5 — not to the minus sign in front."
+
+- question: "A student claims that x⁰ = 1 is 'just an arbitrary mathematical convention with no deeper justification.' Which argument best refutes this?"
+  type: multiple-choice
+  options:
+    - "Mathematicians never make arbitrary definitions — all mathematical rules are derived from physical observation"
+    - "The quotient rule requires xⁿ / xⁿ = x^(n−n) = x⁰, and any nonzero value divided by itself equals 1, so x⁰ = 1 is the only value that keeps the rule consistent"
+    - "The rule is useful in polynomials and scientific notation, which confirms it must be correct"
+    - "It cannot be justified — x⁰ = 1 is indeed a convention chosen for convenience"
+  answer: 1
+  explanation: "x⁰ = 1 is not arbitrary — it is the unique value required by the quotient rule. x^n / x^n = x^(n−n) = x⁰, and any nonzero number divided by itself equals 1. So x⁰ must equal 1 or the quotient rule breaks. The rule isn't chosen for convenience; it's forced by consistency with the rest of the exponent system."
+
+- question: "x⁰ = 0 because exponents count how many times you multiply, and multiplying zero times produces nothing — so zero is the natural result."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about zero exponents. 'Multiplying zero times' corresponds to an empty product, which in mathematics equals 1 (the multiplicative identity) — not 0. More rigorously, x⁰ = 1 follows from the quotient rule: x^n / x^n = x⁰ = 1 for any nonzero x. The 'multiply by zero' intuition confuses exponentiation with multiplication."
+
+- question: "The expressions (3x)⁰ and 3x⁰ are not equal: (3x)⁰ = 1, while 3x⁰ = 3."
+  type: true-false
+  answer: true
+  explanation: "This is a direct test of what the exponent applies to. In (3x)⁰, the entire expression 3x is the base, so the result is 1. In 3x⁰, only x is raised to the zero power: x⁰ = 1, and the coefficient 3 is unaffected, giving 3 × 1 = 3. Parentheses determine the base; without them, exponentiation applies only to the immediately preceding term."
+
+- question: "Why is 0⁰ considered undefined or indeterminate in algebra, even though x⁰ = 1 holds for every other nonzero value of x?"
+  type: short-answer
+  answer: "The standard proof that x⁰ = 1 relies on the quotient rule: x^n / x^n = 1 because any nonzero value divided by itself is 1. But this requires the base to be nonzero, since 0/0 is undefined — not 1. With a base of 0, the quotient rule cannot be used to establish the value, so 0⁰ is undefined (or indeterminate, depending on context)."
+  explanation: "In calculus and combinatorics, 0⁰ is sometimes defined as 1 for convenience in formulas, but this is a contextual convention, not a consequence of the exponent rules. In algebra, the safe answer is that 0⁰ is undefined. This matters practically: expressions like (x − 3)⁰ implicitly assume x ≠ 3."
+```
+
 ## Explainer
 
 The zero exponent rule feels strange at first — why should raising something to the zeroth power give 1 rather than 0? The answer lies in the exponent rules you already know, and the logic is cleaner than you might expect. You learned the **quotient rule**: xⁿ / xⁿ = x^(n−n) = x⁰. But any nonzero number divided by itself is exactly 1 — that is just the definition of division. So x⁰ = 1 is not an arbitrary convention; it is the *only* value that keeps the quotient rule consistent. The rule forces the result.

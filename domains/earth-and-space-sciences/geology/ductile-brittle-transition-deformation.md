@@ -4,8 +4,6 @@ title: The Brittle-Ductile Transition in Crustal Rocks
 domain: earth-and-space-sciences
 course: geology
 prerequisites:
-- id: rock-rheology-elastic-plastic-deformation
-  type: soft
 - id: earthquakes-and-seismology
   type: soft
 builds-toward:
@@ -15,7 +13,7 @@ tags:
 - deformation
 - rheology
 - mechanics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

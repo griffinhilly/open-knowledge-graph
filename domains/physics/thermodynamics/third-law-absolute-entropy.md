@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: statistical-interpretation-of-entropy
   type: soft
-builds-toward:
-- molar-heat-capacities
+builds-toward: []
 tags:
 - entropy
 - third-law
@@ -17,7 +16,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # The Third Law of Thermodynamics and Absolute Entropy
 
 ## Core Idea

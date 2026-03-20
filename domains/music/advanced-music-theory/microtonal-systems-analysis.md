@@ -23,7 +23,7 @@ tags:
 - harmony
 - tuning
 - systems
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

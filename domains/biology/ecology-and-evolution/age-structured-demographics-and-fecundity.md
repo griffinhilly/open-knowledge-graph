@@ -16,7 +16,7 @@ tags:
 - age-structure
 - population
 - fecundity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -11,7 +11,7 @@ tags:
 - vagueness
 - knowledge
 - williamson
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

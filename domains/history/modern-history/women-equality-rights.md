@@ -13,7 +13,7 @@ tags:
 - gender-equality
 - women-rights
 - liberation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

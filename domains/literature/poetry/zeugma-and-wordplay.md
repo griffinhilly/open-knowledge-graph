@@ -13,7 +13,7 @@ tags:
 - wordplay
 - pun
 - meaning
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

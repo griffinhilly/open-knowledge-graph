@@ -16,7 +16,7 @@ tags:
 - vocabulary
 - language
 - formalization
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

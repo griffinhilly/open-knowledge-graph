@@ -14,7 +14,7 @@ tags:
 - buoyancy
 - stability
 - naval-architecture
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

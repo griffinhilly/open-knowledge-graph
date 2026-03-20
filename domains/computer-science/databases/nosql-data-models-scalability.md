@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: relational-data-model
   type: soft
-builds-toward:
-- distributed-replication-consistency-models
+builds-toward: []
 tags:
 - NoSQL
 - document
@@ -19,7 +18,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # NoSQL Data Models: Document, Key-Value, Columnar, and Graph
 
 ## Core Idea

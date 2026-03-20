@@ -12,7 +12,7 @@ tags:
 - phonology
 - constraints
 - OT
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - phases
 - g1-s-g2-m
 - cyclin-cdk
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

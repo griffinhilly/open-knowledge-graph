@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - homotopy
 - paths
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

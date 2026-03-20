@@ -20,7 +20,7 @@ tags:
 - inequality
 - multinational corporations
 - neoliberalism
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Globalization in the Late Twentieth Century

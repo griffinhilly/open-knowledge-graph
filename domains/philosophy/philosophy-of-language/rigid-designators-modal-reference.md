@@ -16,7 +16,7 @@ tags:
 - names
 - possible-worlds
 - modal
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - 3d-geometry
 - strain
 - energy
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

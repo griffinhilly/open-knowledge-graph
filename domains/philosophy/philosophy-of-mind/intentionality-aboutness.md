@@ -33,6 +33,45 @@ Begin with concrete examples: your belief that Paris is in France, your desire f
 - Intentionality in the philosophical sense is not the same as 'having intentions' or 'doing something on purpose'; it is the general property of mental directedness toward objects.
 - Brentano's thesis does not claim that only conscious states are intentional; dispositional beliefs and unconscious desires can also exhibit aboutness.
 
+## Questions
+
+```yaml
+- question: "You think about Sherlock Holmes — a fictional character who does not exist. Which feature of intentionality does this best illustrate?"
+  type: multiple-choice
+  options:
+    - "That intentionality requires conscious awareness of one's own mental processes"
+    - "Intentional inexistence — mental states can be directed toward objects that have no reality outside the mind"
+    - "That beliefs are always caused by real-world objects that trigger the mental state"
+    - "That intentionality is the same property as acting deliberately or 'on purpose'"
+  answer: 1
+  explanation: "Brentano's concept of intentional inexistence captures the fact that the object of a mental state need not exist for the state to be genuinely directed toward it. Thinking about Sherlock Holmes is a real mental state with a definite object, even though that object has no physical existence. This is philosophically significant because physical states don't behave this way — a rock's shape doesn't 'point to' something nonexistent. The ability to intend nonexistent objects is part of what makes intentionality hard to reduce to purely physical causation."
+
+- question: "A philosopher proposes that a thermostat 'represents' temperature — when temperature rises, the thermostat registers it. Why would Brentano's framework reject this as genuine intentionality?"
+  type: multiple-choice
+  options:
+    - "Thermostats are not biological organisms, and intentionality requires organic life"
+    - "Thermostats cannot have beliefs or desires, which are the only genuinely intentional states"
+    - "A thermostat's response is purely causal and lacks the normative standard of correctness that genuine representation requires — it cannot misrepresent"
+    - "Thermostats do not have consciousness, and for Brentano only conscious states are intentional"
+  answer: 2
+  explanation: "The key distinction is normative: a genuine mental representation can be correct or incorrect — a belief can be false, a fear can be unfounded. But a thermostat that is miscalibrated doesn't 'misrepresent' temperature in any philosophically loaded sense; it simply responds causally to stimuli. Intentionality involves a standard of correctness that pure causal responsiveness lacks. This normative dimension is what makes mental representation hard to fully explain in terms of physical causal relations."
+
+- question: "In philosophy of mind, 'intentionality' refers primarily to the property of doing something deliberately or with conscious purpose."
+  type: true-false
+  answer: false
+  explanation: "This is the most common misconception about the term. In philosophy of mind, 'intentionality' derives from the Latin intentio (a directing toward) and refers to the general property of mental states being directed at or about something — their aboutness. This applies even to non-deliberate states like background beliefs, unconscious desires, or a momentary perception. It has nothing to do with 'intending' in the everyday sense of purposeful action."
+
+- question: "A mental state can exhibit intentionality even when the object it is directed toward does not exist in reality."
+  type: true-false
+  answer: true
+  explanation: "This is exactly Brentano's point about intentional inexistence. You can fear a nonexistent monster, desire an impossible outcome, or hold a belief about a historical figure who never lived. In each case, the mental state is genuinely directed at something, even though that something has no independent existence. This is unlike physical states: a rock is not 'about' anything, existent or nonexistent."
+
+- question: "Why does intentionality pose a distinctive challenge for physicalist theories of mind — beyond the general mind-body problem?"
+  type: short-answer
+  answer: "Physical states are related to other things only through causation — one physical event causes another. But intentional states have content: they are about or of something, and that aboutness includes a normative dimension (a belief can be true or false, a desire satisfied or frustrated). A complete physical description of a brain — every neuron firing, every chemical concentration — says nothing about what those states are of. The content seems underdetermined by the physical description alone. Intentionality also extends to nonexistent objects, which physical causation cannot: you cannot be physically caused by something that doesn't exist, but you can think about it. These two features — normativity and intentional inexistence — are what make intentionality specifically hard to naturalize, not just consciousness."
+  explanation: "This is why philosophers of mind distinguish the 'hard problem of consciousness' (why there is subjective experience) from the 'intentionality problem' (how physical states can have representational content). Both are challenges for physicalism, but intentionality raises its own distinct puzzles that must be addressed by any complete theory of mind."
+```
+
 ## Explainer
 
 You already know from your study of intentionality that mental states are directed — a belief is always a belief *about* something, a fear is always a fear *of* something. Brentano's contribution was to argue that this directedness — this **aboutness** — is the defining mark of the mental as such. If you want a criterion that separates mental from non-mental states, intentionality is it: rocks don't represent anything, but even the simplest mental state points beyond itself to something else.

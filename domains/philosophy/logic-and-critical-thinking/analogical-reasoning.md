@@ -13,7 +13,7 @@ tags:
 - analogical-reasoning
 - similarity
 - induction
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

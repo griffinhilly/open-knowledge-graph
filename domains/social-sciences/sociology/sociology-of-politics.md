@@ -18,7 +18,7 @@ tags:
 - political-behavior
 - political-institutions
 - political-participation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -18,7 +18,7 @@ tags:
 - fees
 - expenses
 - investing-costs
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -28,7 +28,7 @@ tags:
 - description
 - demonstration
 - clarity
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Informative Speaking

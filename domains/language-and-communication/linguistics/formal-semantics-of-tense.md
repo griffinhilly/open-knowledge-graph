@@ -12,7 +12,7 @@ tags:
 - semantics
 - tense
 - logic
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

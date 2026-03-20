@@ -18,7 +18,7 @@ tags:
 - user-research
 - intuition
 - convention
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

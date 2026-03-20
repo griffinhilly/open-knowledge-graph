@@ -17,7 +17,7 @@ tags:
 - organizations
 - league-of-nations
 - united-nations
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

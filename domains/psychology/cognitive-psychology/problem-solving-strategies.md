@@ -18,7 +18,7 @@ tags:
 - heuristics
 - algorithms
 - insight
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

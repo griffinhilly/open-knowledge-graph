@@ -17,7 +17,7 @@ tags:
 - function
 - tonic
 - dominant
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

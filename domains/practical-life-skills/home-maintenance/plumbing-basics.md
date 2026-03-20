@@ -28,6 +28,45 @@ Walk through your home and physically locate every shut-off valve. Test each one
 - Hot and cold supply pipes are interchangeable — they carry the same water but are at different temperatures and must be routed correctly to fixtures.
 - Drain clogs are always in the visible trap — many clogs form farther down the line and are not solved by cleaning the trap.
 
+## Questions
+
+```yaml
+- question: "A pipe under your bathroom sink suddenly starts spraying water. What is the single most important thing to do first?"
+  type: multiple-choice
+  options:
+    - "Call a plumber immediately and wait for them to arrive"
+    - "Place towels and buckets to contain the water"
+    - "Close the shut-off valve under the sink to stop the water flow"
+    - "Turn off the hot water heater to reduce pressure"
+  answer: 2
+  explanation: "The first action is always to stop the water at the nearest shut-off valve — the two valves on the supply lines directly under the sink. This stops the damage in seconds, giving you time to assess and call for help if needed. Towels and buckets can help but do not address the source. Calling a plumber while water sprays freely can result in thousands of dollars of water damage before they arrive. The hot water heater is irrelevant here — the issue is with the supply valve at the fixture."
+
+- question: "Which of the following correctly describes the difference between supply lines and drain-waste-vent lines?"
+  type: multiple-choice
+  options:
+    - "Supply lines carry wastewater by gravity; drain lines carry fresh water under pressure"
+    - "Supply lines carry pressurized fresh water in; drain lines carry wastewater out by gravity"
+    - "Both systems use pressure, but supply lines carry hot water and drain lines carry cold water"
+    - "They are the same system — water flows in and out through the same pipes"
+  answer: 1
+  explanation: "Home plumbing is two completely separate systems. Supply lines are pressurized — they push clean water from the municipal main to every fixture. Drain-waste-vent lines are not pressurized; they rely on gravity to carry wastewater away, which is why they must slope downhill and why a clog is a very different problem than a burst supply pipe. They never mix. Knowing which system you're dealing with is the first step in diagnosing any plumbing problem."
+
+- question: "Both the supply lines and the drain-waste-vent lines in a home use water pressure to move water."
+  type: true-false
+  answer: false
+  explanation: "Only the supply lines are pressurized. Drain-waste-vent lines carry wastewater away by gravity — they are not pressurized, which is why they must slope consistently downhill and must be vented to the outside to allow air in. This distinction matters practically: a clogged drain is a gravity-flow problem (something is blocking the slope), while a burst supply pipe is a pressure problem (pressurized water escaping). Different systems, different diagnostics, different fixes."
+
+- question: "Every plumbing fixture in a home has its own individual shut-off valve that can stop water to that fixture without shutting off the whole house."
+  type: true-false
+  answer: true
+  explanation: "Yes — local shut-off valves are standard on all fixtures. Under each sink you'll find two (one hot, one cold) on the supply lines. Behind each toilet there's typically one valve on the wall or floor. Washing machines have valves on the supply hoses. These let you isolate a single fixture for repairs without affecting the rest of the house. Knowing where all of them are — and verifying they work before an emergency — is the most important plumbing preparation a homeowner can do."
+
+- question: "Why is it important to know where your plumbing shut-off valves are before a leak or pipe burst happens?"
+  type: short-answer
+  answer: "Because water damage can happen extremely fast — within minutes, a burst pipe or failed connection can soak floors, walls, and ceilings. If you have to search for the shut-off valve during the emergency, water continues flowing the entire time. Knowing the valve's location in advance means you can close it in seconds, stopping the damage almost immediately."
+  explanation: "Shut-off valves are only useful if you can find them quickly under stress. Older valves may also be corroded or stiff from disuse — a valve you can't turn during a crisis is no valve at all. The practical advice of the topic is to walk through your home now, locate every valve, test each one, and note any that need servicing. This one preventive action can save thousands of dollars when an emergency occurs."
+```
+
 ## Explainer
 
 A home's plumbing performs two completely separate jobs, handled by two completely separate sets of pipes that never mix. **Supply lines** carry fresh water under pressure from the municipal main (or a well) to every fixture — sinks, showers, toilets, dishwashers, and washing machines. **Drain-waste-vent (DWV) lines** carry used water away by gravity: they are not pressurized, which is why they must slope consistently downhill and why a clog is a fundamentally different kind of problem than a burst supply pipe. Understanding which system is involved in any given problem immediately narrows down both the diagnosis and the fix.

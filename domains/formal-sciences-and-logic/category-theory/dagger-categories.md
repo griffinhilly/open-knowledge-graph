@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: functors
   type: soft
-builds-toward:
-- compact-closed-categories
+builds-toward: []
 tags:
 - dagger
 - involution
@@ -19,7 +18,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Dagger Categories and Involutions
 
 ## Core Idea

@@ -15,7 +15,7 @@ tags:
 - context
 - contingency
 - specificity
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

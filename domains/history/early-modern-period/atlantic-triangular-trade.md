@@ -15,7 +15,7 @@ tags:
 - slavery
 - economics
 - atlantic
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

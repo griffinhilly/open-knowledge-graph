@@ -14,7 +14,7 @@ tags:
 - chromatic
 - approach-notes
 - voice-leading
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

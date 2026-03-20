@@ -17,7 +17,7 @@ tags:
 - form
 - meaning
 - spatial
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

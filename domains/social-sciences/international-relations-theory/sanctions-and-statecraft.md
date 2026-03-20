@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: bargaining-and-war
   type: soft
-builds-toward:
-- economic-interdependence-peace
+builds-toward: []
 tags:
 - sanctions
 - coercion
@@ -18,7 +17,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Sanctions and Economic Statecraft
 
 ## Core Idea

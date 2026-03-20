@@ -14,7 +14,7 @@ tags:
 - synthesis
 - technology
 - innovation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

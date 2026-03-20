@@ -16,7 +16,7 @@ tags:
 - nonviolence
 - civil-disobedience
 - movements
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

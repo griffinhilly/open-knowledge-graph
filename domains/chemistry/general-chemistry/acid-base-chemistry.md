@@ -20,7 +20,7 @@ tags:
 - strong-acid
 - weak-acid
 - amphoteric
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

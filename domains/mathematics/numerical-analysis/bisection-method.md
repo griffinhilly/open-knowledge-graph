@@ -12,7 +12,7 @@ tags:
 - root-finding
 - bisection
 - convergence
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

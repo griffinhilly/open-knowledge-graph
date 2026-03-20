@@ -20,7 +20,7 @@ tags:
 - appeasement
 - Poland
 - '1939'
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

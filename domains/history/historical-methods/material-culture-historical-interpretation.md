@@ -14,7 +14,7 @@ tags:
 - material-culture
 - objects
 - evidence
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

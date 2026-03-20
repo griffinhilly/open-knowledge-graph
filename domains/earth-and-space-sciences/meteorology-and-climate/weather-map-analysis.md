@@ -18,7 +18,7 @@ tags:
 - synoptic-map
 - weather-forecasting
 - surface-analysis
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

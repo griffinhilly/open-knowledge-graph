@@ -18,7 +18,7 @@ tags:
 - competence
 - friendship
 - cooperation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

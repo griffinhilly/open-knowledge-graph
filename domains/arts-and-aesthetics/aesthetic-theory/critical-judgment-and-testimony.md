@@ -11,18 +11,16 @@ prerequisites:
 - id: aesthetics-and-philosophy-of-art-intro
   type: soft
 builds-toward:
-- aesthetic-normativity-in-criticism
-- aesthetic-universalism-and-relativism
+  - aesthetic-universalism-and-relativism
 tags:
 - testimony
 - judgment
 - criticism
 - authority
 - expertise
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
-
 # Critical Judgment and Aesthetic Testimony
 
 ## Core Idea

@@ -20,7 +20,7 @@ tags:
 - regulation
 - homeostasis
 - transporters
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

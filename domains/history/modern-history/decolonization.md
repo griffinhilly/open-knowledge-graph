@@ -25,7 +25,7 @@ tags:
 - Africa
 - Asia
 - non-aligned movement
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Decolonization and Independence Movements

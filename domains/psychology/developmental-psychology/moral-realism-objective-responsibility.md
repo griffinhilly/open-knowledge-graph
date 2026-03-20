@@ -14,7 +14,7 @@ tags:
 - kohlberg
 - preconventional
 - responsibility
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

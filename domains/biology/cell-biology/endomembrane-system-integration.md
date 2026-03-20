@@ -15,7 +15,7 @@ tags:
 - vesicular-transport
 - secretion
 - membrane-trafficking
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - credit-theory
 - reliabilism
 - responsibilism
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 # Virtue Epistemology

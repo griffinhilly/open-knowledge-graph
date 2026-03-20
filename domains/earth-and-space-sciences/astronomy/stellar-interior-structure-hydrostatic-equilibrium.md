@@ -16,7 +16,7 @@ tags:
 - stellar-structure
 - physics
 - hydrostatic-equilibrium
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

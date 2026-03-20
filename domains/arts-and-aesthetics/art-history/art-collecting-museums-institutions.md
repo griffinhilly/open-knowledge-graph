@@ -16,7 +16,7 @@ tags:
 - institutions
 - display
 - canon
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

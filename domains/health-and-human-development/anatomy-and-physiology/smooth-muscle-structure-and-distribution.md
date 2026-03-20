@@ -14,7 +14,7 @@ tags:
 - visceral
 - autonomic
 - contraction
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

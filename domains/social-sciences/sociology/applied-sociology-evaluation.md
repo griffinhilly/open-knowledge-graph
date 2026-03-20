@@ -16,7 +16,7 @@ tags:
 - evaluation-research
 - program-evaluation
 - community-partnerships
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

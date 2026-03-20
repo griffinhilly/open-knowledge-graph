@@ -17,7 +17,7 @@ tags:
 - diol
 - osmium
 - permanganate
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

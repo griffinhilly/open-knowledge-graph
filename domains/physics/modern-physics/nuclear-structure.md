@@ -20,7 +20,7 @@ tags:
 - binding-energy
 - strong-force
 - mass-defect
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

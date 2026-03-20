@@ -14,7 +14,7 @@ tags:
 - transformation
 - competence
 - dna-uptake
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

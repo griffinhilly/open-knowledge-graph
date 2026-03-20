@@ -16,7 +16,7 @@ tags:
 - cnv
 - genomic-variation
 - disease-association
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

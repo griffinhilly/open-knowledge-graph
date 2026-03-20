@@ -14,7 +14,7 @@ tags:
 - electron sharing
 - polar covalent
 - nonpolar covalent
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

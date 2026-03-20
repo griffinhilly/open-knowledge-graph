@@ -13,7 +13,7 @@ tags:
 - social development
 - peer relations
 - childhood
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

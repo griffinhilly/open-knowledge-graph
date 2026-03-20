@@ -14,7 +14,7 @@ tags:
 - input-costs
 - cost-minimization
 - isocost
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

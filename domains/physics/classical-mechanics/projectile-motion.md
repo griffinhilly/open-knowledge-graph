@@ -21,7 +21,7 @@ tags:
 - parabolic-trajectory
 - kinematics
 - 2d
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

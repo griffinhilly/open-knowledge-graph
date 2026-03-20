@@ -3,7 +3,9 @@ id: temperature-and-thermometers-3rd
 title: Temperature and Using Thermometers
 domain: mathematics
 course: 3rd-grade
-prerequisites: []
+prerequisites:
+- id: area-by-counting-squares
+  type: soft
 builds-toward:
 - temperature-measurement
 tags:
@@ -13,7 +15,6 @@ tags:
 stage: concrete-operations
 status: draft
 ---
-
 # Temperature and Using Thermometers
 
 ## Core Idea

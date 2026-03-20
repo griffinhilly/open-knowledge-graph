@@ -18,7 +18,7 @@ tags:
 - perception
 - neural-integration
 - multimodal
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

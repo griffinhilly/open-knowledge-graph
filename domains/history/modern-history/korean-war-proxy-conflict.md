@@ -17,7 +17,7 @@ tags:
 - United-States
 - Soviet-Union
 - China
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

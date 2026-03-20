@@ -33,6 +33,45 @@ Distinguish between flow (deficit) and stock (debt) — a country can run surplu
 - Government debt is not simply 'money borrowed from future generations' — it is also a financial asset held by current bondholders.
 - A country with its own currency faces different constraints than a household or eurozone member.
 
+## Questions
+
+```yaml
+- question: "A country has run budget surpluses for the past three years. Which of the following is necessarily true?"
+  type: multiple-choice
+  options:
+    - "The national debt is now zero"
+    - "The national debt has decreased over those three years"
+    - "The country now owes nothing to foreign creditors"
+    - "The structural deficit has been eliminated"
+  answer: 1
+  explanation: "The national debt is a stock — the accumulated total of all past deficits, net of surpluses. Three years of surpluses reduce the debt, but they cannot eliminate a debt built up over decades. Only if every prior year's deficit had been fully offset by surpluses would the debt be zero. Options A and C are not necessarily true; option D conflates the cyclical and structural components."
+
+- question: "During a recession, a government's budget deficit increases significantly — but no new spending legislation was passed and no tax cuts were enacted. What explains the higher deficit?"
+  type: multiple-choice
+  options:
+    - "The structural deficit automatically rises during downturns"
+    - "Automatic stabilizers: tax revenues fell and social spending rose without any legislative action"
+    - "The central bank printed money, which counts as deficit spending"
+    - "Higher interest payments on the debt increased total government outlays"
+  answer: 1
+  explanation: "Automatic stabilizers are built into the fiscal system: income tax revenues fall when incomes fall, unemployment insurance payments rise when employment falls — all without new legislation. This is the cyclical component of the deficit. The structural deficit (what the deficit would be at full employment) need not have changed at all. This distinction matters because a large recession-driven deficit may shrink on its own as the economy recovers, while a large structural deficit represents a persistent policy choice."
+
+- question: "A country can run three consecutive years of budget surpluses and still carry a large national debt."
+  type: true-false
+  answer: true
+  explanation: "Debt is a stock accumulated over all prior years, while a surplus is an annual flow. Three surpluses chip away at that accumulated stock, but unless the total surpluses exceed the total prior deficits, debt remains. Think of it like a credit card: paying more than the minimum each month reduces the balance, but the balance doesn't disappear until cumulative payments exceed cumulative charges."
+
+- question: "Eliminating the annual budget deficit — getting spending to exactly equal revenues — will eliminate the national debt within a few years."
+  type: true-false
+  answer: false
+  explanation: "A balanced budget means debt stops growing, but the existing debt remains. To reduce the national debt, you need a surplus — revenues exceeding spending. Moreover, even a 'balanced' budget must still pay interest on existing debt, which means primary spending must actually be less than revenues to keep total debt stable. Confusing 'no new debt' with 'debt reduction' is one of the most common errors in fiscal policy discussion."
+
+- question: "What is the difference between a budget deficit and the national debt, and why does the distinction matter for evaluating a country's fiscal health?"
+  type: short-answer
+  answer: "A deficit is a flow — the shortfall between spending and revenues in one year. The national debt is a stock — the accumulated total of all past deficits, minus any surpluses. A country can have a small current deficit but enormous debt from past borrowing, or vice versa. The distinction matters because policy responses differ: reducing a deficit is about adjusting current spending and revenues, while managing a large debt also requires addressing interest costs and long-run sustainability."
+  explanation: "Confusing deficit and debt leads to statements like 'we fixed the deficit, so the debt is solved' — which misses that the debt continues to compound interest even when deficits are small. Fiscal sustainability requires looking at both: the current flow (is the deficit shrinking?) and the stock dynamics (is debt-to-GDP falling or rising?)."
+```
+
 ## Explainer
 
 The most persistent confusion in fiscal policy discussions is the conflation of two distinct concepts that operate at different timescales. The **budget deficit** is a *flow*: the difference between government spending and tax revenues within a single year. If the government spends $6 trillion and collects $5 trillion in taxes, the deficit is $1 trillion. The **national debt** is a *stock*: the accumulated total of all past deficits, net of any surpluses. A government that has run deficits for decades has a large debt even if this year's deficit is modest. From your understanding of GDP and national income, you can see that the debt-to-GDP ratio normalizes this stock against the size of the economy — it answers "how many years of output would it take to pay off the debt?" rather than asking about raw dollar amounts.

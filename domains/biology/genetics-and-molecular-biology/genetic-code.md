@@ -17,7 +17,7 @@ tags:
 - triplet code
 - degeneracy
 - start-stop codons
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

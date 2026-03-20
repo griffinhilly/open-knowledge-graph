@@ -13,7 +13,7 @@ tags:
 - art
 - gothic
 - romanesque
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

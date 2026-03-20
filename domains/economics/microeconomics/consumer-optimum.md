@@ -22,7 +22,7 @@ tags:
 - tangency condition
 - MRS
 - utility maximization
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

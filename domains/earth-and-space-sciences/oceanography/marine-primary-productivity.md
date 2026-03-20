@@ -20,7 +20,7 @@ tags:
 - chlorophyll
 - euphotic zone
 - biological pump
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

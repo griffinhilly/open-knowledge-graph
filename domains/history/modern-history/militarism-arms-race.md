@@ -15,7 +15,7 @@ tags:
 - arms-race
 - military-buildup
 - deterrence
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

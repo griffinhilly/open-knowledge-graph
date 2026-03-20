@@ -12,7 +12,7 @@ tags:
 - knowledge-argument
 - qualia
 - physicalism
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

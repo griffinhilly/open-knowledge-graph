@@ -15,7 +15,7 @@ tags:
 - religion
 - place
 - meaning
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

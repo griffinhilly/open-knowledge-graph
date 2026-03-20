@@ -14,7 +14,7 @@ tags:
 - phase-transitions
 - equilibrium
 - chemical-potential
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

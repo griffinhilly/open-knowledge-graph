@@ -21,7 +21,7 @@ tags:
 - systems-collapse
 - crisis
 - turning-points
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # The Bronze Age Collapse (c. 1200 BCE)

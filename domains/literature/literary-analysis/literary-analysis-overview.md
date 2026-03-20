@@ -15,7 +15,7 @@ tags:
 - foundations
 - methodology
 - interpretation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

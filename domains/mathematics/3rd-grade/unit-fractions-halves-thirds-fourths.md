@@ -23,6 +23,45 @@ status: draft
 ## Core Idea
 A unit fraction has numerator 1 and represents one equal part of a whole: ½ (one of two equal parts), ⅓ (one of three), ¼ (one of four). The denominator indicates how many equal parts partition the whole.
 
+## Questions
+
+```yaml
+- question: "A pizza is cut into 8 equal slices and you get one slice (⅛). Your friend's pizza is the same size but is cut into 4 equal slices and she gets one slice (¼). Who has more pizza?"
+  type: multiple-choice
+  options:
+    - "You do — ⅛ is bigger because 8 is bigger than 4"
+    - "Your friend does — ¼ is bigger because fewer cuts means larger pieces"
+    - "You have the same amount — both got one slice"
+    - "It depends on how large the pizza is"
+  answer: 1
+  explanation: "Your friend has more pizza. When a whole is cut into fewer pieces, each piece is larger. 4 cuts give bigger slices than 8 cuts from the same pizza. So ¼ > ⅛ — even though 4 is smaller than 8. This is the crucial counterintuitive insight: for unit fractions, a larger denominator means a smaller piece, not a larger one. Option A is the most common wrong answer, reflecting the tempting but false idea that bigger numbers mean bigger fractions."
+
+- question: "Which of the following correctly orders these unit fractions from smallest to largest: ½, ¼, ⅓?"
+  type: multiple-choice
+  options:
+    - "½, ⅓, ¼ — ordered by denominator from smallest to largest"
+    - "¼, ⅓, ½ — larger denominator means smaller piece, so ¼ is smallest"
+    - "¼, ½, ⅓ — fourths are smallest, then halves, then thirds"
+    - "They are all equal because each is exactly one part of a whole"
+  answer: 1
+  explanation: "¼ < ⅓ < ½ — as the denominator increases, each piece gets smaller because the whole is being divided into more parts. Cutting something into 4 equal pieces gives smaller pieces than cutting into 3 or 2. The correct order from smallest to largest is ¼, ⅓, ½. Option D is wrong because the pieces are only equal if the wholes are divided the same way."
+
+- question: "Because 4 is larger than 2, the fraction ¼ is larger than ½."
+  type: true-false
+  answer: false
+  explanation: "This is the central misconception about unit fractions. ¼ is actually smaller than ½. The denominator counts how many equal pieces the whole is divided into — more pieces means smaller pieces. Think of cutting a sandwich: 4 equal cuts produce smaller pieces than 2 equal cuts. The 'bigger number = bigger fraction' intuition from whole numbers works in reverse for unit fractions."
+
+- question: "The denominator of a fraction tells you how many equal parts the whole has been divided into."
+  type: true-false
+  answer: true
+  explanation: "This is the precise meaning of the denominator. In ¾, the denominator 4 tells you the whole is divided into 4 equal parts; the numerator 3 tells you how many of those parts you have. For unit fractions, the numerator is always 1, so all that changes between ½, ⅓, and ¼ is how finely the whole is divided — which the denominator tracks."
+
+- question: "Why does a unit fraction get smaller as the denominator gets larger? Explain using the idea of equal parts."
+  type: short-answer
+  answer: "When you divide a whole into more equal parts, each individual part must be smaller, because the same total amount is shared among more pieces. For example, dividing a pizza into 8 equal slices gives smaller slices than dividing it into 2 slices. So ⅛ (one of eight pieces) is a smaller amount than ½ (one of two pieces). Larger denominator = more pieces = each piece is smaller."
+  explanation: "This insight reverses the usual 'bigger number = bigger amount' intuition from counting, and that reversal is the hardest thing to internalize about fractions. Anchoring the explanation in a physical image — slices of pizza or pieces of ribbon — makes the logic concrete and memorable. Once students truly understand why the reversal happens, they stop relying on the faulty shortcut."
+```
+
 ## Explainer
 
 You've already worked with shapes divided into equal parts and given them names like halves, thirds, and fourths. Now you're building the formal notation for what you already understand. A **fraction** is a way of writing down what happens when you divide a whole into equal parts and take some of them. A **unit fraction** is the simplest case — you take exactly one of those equal parts.

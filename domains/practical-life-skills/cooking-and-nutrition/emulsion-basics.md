@@ -15,7 +15,7 @@ tags:
 - emulsion
 - sauce
 - chemistry
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - homeomorphism
 - equivalence
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

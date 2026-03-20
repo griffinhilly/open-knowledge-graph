@@ -16,7 +16,7 @@ tags:
 - carthage
 - expansion
 - mediterranean
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - doppler-effect
 - frequency-shift
 - relative-motion
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

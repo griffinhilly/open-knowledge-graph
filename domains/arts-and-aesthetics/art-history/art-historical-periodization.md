@@ -3,7 +3,9 @@ id: art-historical-periodization
 title: Periodization in Art History
 domain: arts-and-aesthetics
 course: art-history
-prerequisites: []
+prerequisites:
+- id: periodization
+  type: soft
 builds-toward:
 - art-historical-contextualization
 - art-nationalism-and-identity
@@ -14,7 +16,6 @@ tags:
 stage: abstract-reasoning
 status: draft
 ---
-
 # Periodization in Art History
 
 ## Core Idea

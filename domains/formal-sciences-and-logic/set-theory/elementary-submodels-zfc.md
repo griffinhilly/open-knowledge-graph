@@ -16,7 +16,7 @@ tags:
 - preservation
 - models
 - zfc
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

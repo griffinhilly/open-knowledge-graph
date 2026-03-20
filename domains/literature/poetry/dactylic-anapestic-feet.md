@@ -10,7 +10,7 @@ tags:
 - meter
 - triple-meter
 - epic
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

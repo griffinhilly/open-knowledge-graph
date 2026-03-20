@@ -12,7 +12,7 @@ tags:
 - consciousness
 - interior-monologue
 - psychology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

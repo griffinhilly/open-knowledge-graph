@@ -16,7 +16,7 @@ tags:
 - multiculturalism
 - cultural-integration
 - intergroup-relations
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

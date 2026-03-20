@@ -13,7 +13,7 @@ tags:
 - digital
 - composition
 - sound-design
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

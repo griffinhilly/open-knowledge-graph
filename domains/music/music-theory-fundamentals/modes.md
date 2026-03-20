@@ -23,7 +23,7 @@ tags:
 - Lydian
 - Mixolydian
 - scales
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 # Modes of the Major Scale

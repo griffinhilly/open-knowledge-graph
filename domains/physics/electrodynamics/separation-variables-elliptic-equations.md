@@ -8,15 +8,13 @@ prerequisites:
   type: hard
 - id: separation-variables-pde
   type: soft
-builds-toward:
-- laplace-poisson-equations-electrostatics
+builds-toward: []
 tags:
 - separation-of-variables
 - pde-solution
 stage: advanced
 status: draft
 ---
-
 # Separation of Variables for Elliptic PDEs
 
 ## Core Idea

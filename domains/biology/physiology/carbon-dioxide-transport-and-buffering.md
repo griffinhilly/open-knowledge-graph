@@ -14,7 +14,7 @@ tags:
 - bicarbonate
 - carbaminohemoglobin
 - haldane-effect
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

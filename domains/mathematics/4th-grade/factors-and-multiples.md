@@ -39,6 +39,45 @@ Use arrays: a number's factor pairs correspond to the different rectangles you c
 - Missing factor pairs by not checking systematically (skipping divisors).
 - Forgetting that 1 and the number itself are always factors.
 
+## Questions
+
+```yaml
+- question: "Is the following statement true, partially true, or false: '5 is a factor of 35, and 35 is a multiple of 5'?"
+  type: multiple-choice
+  options:
+    - "False — a number can only be one or the other, not both"
+    - "Partially true — 35 is a multiple of 5, but 5 cannot be a factor because it is smaller than 35"
+    - "True — both statements describe the same multiplication relationship from different directions"
+    - "Partially true — 5 is a factor of 35, but 35 is too large to be a multiple of 5"
+  answer: 2
+  explanation: "Both statements are simultaneously and completely true. Because 5 × 7 = 35, we know that 5 is a factor of 35 (it divides evenly into 35) AND that 35 is a multiple of 5 (it results from multiplying 5 by a whole number). Factors and multiples are two sides of the same multiplication relationship, not competing labels."
+
+- question: "A student claims that the factors of 15 include the number 30 because 30 is related to 15 by multiplication. What is wrong with this reasoning?"
+  type: multiple-choice
+  options:
+    - "Nothing — 30 is indeed a factor of 15"
+    - "Factors of a number must be less than or equal to the number, and 30 is larger than 15"
+    - "30 is only a factor if it divides into 15 with no remainder, and 30 × 0.5 = 15 counts"
+    - "Factors only include odd numbers"
+  answer: 1
+  explanation: "A factor of a number must divide into it evenly — and a factor is always less than or equal to the original number. 30 does not divide into 15 evenly (15 ÷ 30 = 0.5, which is not a whole number), so 30 is not a factor of 15. 30 is actually a multiple of 15. The common misconception is thinking factors can be larger than the number they divide; they cannot."
+
+- question: "Since factors come from multiplication, the factors of a number can sometimes be larger than the number itself."
+  type: true-false
+  answer: false
+  explanation: "Factors must divide into the number evenly, which means every factor is less than or equal to the number. A factor of n is a whole number that divides n with no remainder — this automatically means it cannot exceed n. The only way a × b = n with a > n would require b to be less than 1, which is not a whole number. Multiples, not factors, grow larger than the original number."
+
+- question: "The number 6 is simultaneously a factor of 6 and the smallest positive multiple of 6."
+  type: true-false
+  answer: true
+  explanation: "Every number is a factor of itself (n × 1 = n, so n divides n evenly) and is also its own smallest positive multiple (n × 1 = n). The number sits at the top of its own factor list and at the bottom of its own multiple list. This is not a special case — it applies to every positive whole number."
+
+- question: "A classmate says '12 is a factor of 3 because 3 goes into 12.' What is the error, and what is the correct relationship between 3 and 12?"
+  type: short-answer
+  answer: "The error is a common confusion of direction. '3 goes into 12' means 3 divides 12 evenly — so 3 is a factor of 12, not the other way around. 12 is a multiple of 3 (because 3 × 4 = 12). The classmate has the labels reversed: the smaller number (3) is the factor, and the larger number (12) is the multiple."
+  explanation: "A reliable memory tool: factors are smaller (or equal), multiples are larger (or equal). Because 3 × 4 = 12, we say '3 is a factor of 12' and '12 is a multiple of 3.' The phrase '3 goes into 12' is a division way of expressing the same fact — and the number doing the dividing (3) is the factor."
+```
+
 ## Explainer
 
 You have already worked with multiples — the endless chain of products you get by multiplying a number by 1, 2, 3, and so on. Now you are going to look at the same multiplication relationship from the opposite direction. While a **multiple** asks "what do I get by multiplying this number by something?", a **factor** asks "what numbers multiply together to make this number?" They are two sides of one coin: because 4 × 6 = 24, you simultaneously know that 4 and 6 are factors of 24, and that 24 is a multiple of both 4 and 6.

@@ -29,6 +29,45 @@ Start by writing large and small numbers in standard form and counting decimal p
 - Getting the sign of the exponent wrong for small numbers (0.005 = 5 × 10⁻³, not 5 × 10³).
 - Confusing the exponent with the number of zeros rather than the number of places the decimal moves.
 
+## Questions
+
+```yaml
+- question: "A student writes 0.000053 in scientific notation as 53 × 10⁻⁶. What is wrong with this notation?"
+  type: multiple-choice
+  options:
+    - "The exponent should be positive, not negative, for a number less than 1"
+    - "The coefficient 53 violates the requirement that it must be at least 1 and less than 10"
+    - "Scientific notation cannot represent numbers smaller than 0.001"
+    - "The exponent should be −4, not −6, because there are only 4 zeros"
+  answer: 1
+  explanation: "Scientific notation requires the coefficient to satisfy 1 ≤ a < 10. The coefficient 53 fails this — it has two digits before the decimal. The correct form is 5.3 × 10⁻⁵: move the decimal in 53 one place left to get 5.3, which means one fewer negative power, giving 10⁻⁵. Option D is a common confusion between counting zeros and counting decimal place shifts — 0.000053 requires shifting the decimal 5 places to get 5.3, so the exponent is −5."
+
+- question: "Two measurements are given: 3.2 × 10⁵ meters and 8.0 × 10⁻³ meters. How many orders of magnitude larger is the first measurement than the second?"
+  type: multiple-choice
+  options:
+    - "2 orders of magnitude"
+    - "5 orders of magnitude"
+    - "8 orders of magnitude"
+    - "Cannot be determined without converting both to standard form first"
+  answer: 2
+  explanation: "Orders of magnitude are compared by subtracting exponents: 5 − (−3) = 8. The first measurement is 10⁸ times larger than the second — 8 orders of magnitude. This is one of scientific notation's most powerful features: comparing magnitudes requires only looking at the exponents. You don't need to write out 320,000 and 0.008 to see that one is 40 million times bigger than the other. Option D is wrong — the whole point of scientific notation is that the exponent directly encodes the scale, making comparison immediate."
+
+- question: "The number 45 × 10³ is a valid example of scientific notation."
+  type: true-false
+  answer: false
+  explanation: "Scientific notation requires the coefficient to be at least 1 and less than 10. The coefficient 45 has two digits before the decimal, violating this rule. The correct form is 4.5 × 10⁴: move the decimal one place left (dividing by 10), which increases the exponent by 1. The requirement is not arbitrary — it ensures every number has exactly one correct scientific notation representation. Without it, 45,000 could be 45 × 10³, or 4.5 × 10⁴, or 450 × 10², none of which would be 'more correct.'"
+
+- question: "In scientific notation, a negative exponent indicates that the original number is less than 1."
+  type: true-false
+  answer: true
+  explanation: "The sign of the exponent encodes the direction of the decimal shift. A positive exponent means you shift the decimal right (making a large number): 4.5 × 10⁴ = 45,000. A negative exponent means you shift the decimal left (making a small number less than 1): 4.5 × 10⁻⁴ = 0.00045. This is a direct consequence of how negative exponents work: 10⁻⁴ = 1/10⁴ = 0.0001. So any number of the form a × 10ⁿ where n is negative must be less than 1 (assuming 1 ≤ a < 10)."
+
+- question: "Why does scientific notation require the coefficient to be between 1 and 10, rather than allowing any value?"
+  type: short-answer
+  answer: "The requirement ensures that every number has exactly one correct scientific notation form — a unique representation. Without this rule, the same number could be written multiple ways: 93,000,000 could be 9.3 × 10⁷, or 0.93 × 10⁸, or 93 × 10⁶. Requiring exactly one non-zero digit to the left of the decimal point eliminates ambiguity and makes scientific notation a shared, universal language where any two people converting the same number produce identical notation."
+  explanation: "Uniqueness of representation is a mathematical property called a 'normal form.' Scientific notation is useful as a communication tool precisely because it is standardized — when a physicist writes 3 × 10⁸ m/s, any reader in any country interprets it identically. This also makes arithmetic systematic: multiplying in scientific notation means multiplying the (now-bounded) coefficients and adding the exponents, with a clear rule for when to adjust the coefficient back into [1, 10)."
+```
+
 ## Explainer
 
 Scientific notation is a way of writing any number as a product of two factors: a **coefficient** between 1 and 10, and a **power of 10**. You already know both ingredients — from exponents, you know that 10² = 100 and 10⁻³ = 0.001; from place value, you know that each position in a decimal number represents a power of 10. Scientific notation combines these ideas into a compact, universal system for numbers of any magnitude.

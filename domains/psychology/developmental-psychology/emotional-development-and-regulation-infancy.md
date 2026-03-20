@@ -17,7 +17,7 @@ tags:
 - infancy
 - regulation
 - self-control
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

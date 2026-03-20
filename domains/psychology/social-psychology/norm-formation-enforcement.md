@@ -16,7 +16,7 @@ tags:
 - enforcement
 - sanctions
 - deviance
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -17,7 +17,7 @@ tags:
 - membrane-transport
 - ion-channels
 - selectivity
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

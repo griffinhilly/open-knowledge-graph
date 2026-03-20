@@ -12,7 +12,7 @@ tags:
 - labor economics
 - wages
 - equilibrium
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

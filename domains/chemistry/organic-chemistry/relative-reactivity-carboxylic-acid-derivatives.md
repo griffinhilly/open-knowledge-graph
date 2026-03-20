@@ -16,7 +16,7 @@ tags:
 - acyl-chloride
 - ester
 - amide
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

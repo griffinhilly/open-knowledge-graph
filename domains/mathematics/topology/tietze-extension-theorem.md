@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - tietze
 - extension
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

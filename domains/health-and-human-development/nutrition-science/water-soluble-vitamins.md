@@ -21,7 +21,7 @@ tags:
 - coenzymes
 - folate
 - B12
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

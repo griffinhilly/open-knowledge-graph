@@ -12,7 +12,7 @@ tags:
 - rhyme
 - near-rhyme
 - modernist-technique
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

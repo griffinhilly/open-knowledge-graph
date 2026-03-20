@@ -36,6 +36,45 @@ Act out subtraction stories with physical objects before using symbols. Connect 
 - Trying to subtract the larger number from the smaller (e.g., computing 3 − 5 as 2).
 - Confusing which number to start with in a subtraction sentence.
 
+## Questions
+
+```yaml
+- question: "Lena has 9 stickers. Mia has 6 stickers. How many MORE stickers does Lena have than Mia?"
+  type: multiple-choice
+  options:
+    - "3, found by subtracting: 9 − 6 = 3"
+    - "15, found by adding: 9 + 6 = 15"
+    - "You cannot subtract here — nothing is being taken away"
+    - "6, because Mia's amount is the answer"
+  answer: 0
+  explanation: "Even though nothing is physically removed, subtraction works for comparison problems. The question asks for the gap between two quantities: 9 − 6 = 3. Option C reflects the most common misconception — that subtraction only means 'take away.' Subtraction also describes comparison (how many more?) and missing part."
+
+- question: "If you know that 4 + 3 = 7, which subtraction fact can you figure out without counting?"
+  type: multiple-choice
+  options:
+    - "7 − 3 = 4"
+    - "4 − 3 = 1"
+    - "7 − 2 = 5"
+    - "You must count to find subtraction facts"
+  answer: 0
+  explanation: "Addition and subtraction are inverse operations. The fact family for 3, 4, and 7 includes 3+4=7, 4+3=7, 7−3=4, and 7−4=3. Knowing an addition fact immediately gives you two related subtraction facts — no counting needed. This is the power of part-part-whole thinking."
+
+- question: "7 − 4 = 3 and 3 + 4 = 7 are part of the same fact family."
+  type: true-false
+  answer: true
+  explanation: "A fact family shares the same three numbers and shows how addition and subtraction relate. The numbers 3, 4, and 7 form a family: 3+4=7, 4+3=7, 7−3=4, and 7−4=3. All four equations describe the same part-part-whole relationship from different angles."
+
+- question: "Subtraction can only be used when something is physically taken away."
+  type: true-false
+  answer: false
+  explanation: "Subtraction has three distinct meanings: take-away (start with 7, remove 3), comparison (how many more?), and missing part (whole is 7, one part is 3, find the other). All three produce subtraction equations. 'Taking away' only describes the first type, which is why relying on it alone causes errors on comparison and missing-part problems."
+
+- question: "Why can knowing an addition fact help you solve a subtraction problem?"
+  type: short-answer
+  answer: "Because addition and subtraction are inverse operations — they undo each other. If you know 5 + 3 = 8, you automatically know 8 − 3 = 5 and 8 − 5 = 3. The same three numbers describe the same part-part-whole relationship, just expressed as addition or subtraction."
+  explanation: "This is the core insight behind fact families. Rather than treating addition and subtraction as separate topics, understanding them as two ways of describing the same relationship between a whole and its parts makes both operations stronger. When stuck on a subtraction fact, asking 'what do I add to get back to the start?' converts it to a known addition fact."
+```
+
 ## Explainer
 
 You already know how to count to 10 and how to add small numbers together. Subtraction is the flip side of that same coin. When you add, you put groups together; when you subtract, you take a group apart or find the gap between two groups. Both operations work with the same three numbers — that underlying symmetry is the key to understanding subtraction deeply.

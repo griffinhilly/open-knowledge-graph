@@ -15,7 +15,7 @@ tags:
 - voice-leading
 - progressions
 - technique
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

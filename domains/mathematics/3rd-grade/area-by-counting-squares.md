@@ -36,6 +36,45 @@ Start with grid paper and have students draw and count squares inside shapes. Th
 - Forgetting the 'square' unit — writing 24 inches instead of 24 square inches.
 - For non-rectangular shapes, students sometimes count partial squares or miss covered squares.
 
+## Questions
+
+```yaml
+- question: "A rectangle is 5 units long and 3 units wide. A student writes its area as '8 units.' What errors did this student make?"
+  type: multiple-choice
+  options:
+    - "The student multiplied incorrectly; the correct product is 15 units"
+    - "The student found the perimeter of two sides instead of the area"
+    - "The student added the two dimensions instead of multiplying, and wrote 'units' instead of 'square units'"
+    - "The student forgot to count the corners, which adds 4 to the total"
+  answer: 2
+  explanation: "Area requires multiplying length × width (3 × 5 = 15), not adding them (3 + 5 = 8). The student also used 'units' when area must be expressed in 'square units' — because area counts two-dimensional unit squares, not one-dimensional lengths. Both errors reflect common confusions: mixing up area with perimeter, and forgetting that the unit is two-dimensional."
+
+- question: "A 4×6 rectangle and a 4-by-6 array of tiles are placed side by side. Which statement best explains their connection to area?"
+  type: multiple-choice
+  options:
+    - "They are unrelated — arrays are for multiplication and area is for measurement"
+    - "The array shows repeated addition while area uses multiplication, so they work differently"
+    - "Both show the same thing: 4 rows of 6 unit squares, giving an area of 24 square units"
+    - "The array counts individual objects while area counts the empty space between them"
+  answer: 2
+  explanation: "An array and a filled rectangle are mathematically identical structures. Both arrange unit squares in rows and columns. The area of a rectangle is the number of unit squares that fit inside it — which is exactly what the array counts. This is why area of a rectangle equals length × width: it's a shortcut for counting the array."
+
+- question: "A shape with an area of 12 square centimeters contains exactly 12 squares, each measuring 1 centimeter on every side."
+  type: true-false
+  answer: true
+  explanation: "This is the definition of area measured in square centimeters. Each unit square has sides of 1 cm and covers 1 cm² of space. An area of 12 cm² means exactly 12 such squares fit inside the shape without gaps or overlaps. The number and the unit together tell the complete story."
+
+- question: "Two shapes with the same perimeter always have the same area."
+  type: true-false
+  answer: false
+  explanation: "Perimeter (the total boundary length) and area (the interior space) are independent measurements. A 1×5 rectangle has perimeter 12 and area 5; a 3×3 square also has perimeter 12 but area 9. Same perimeter, different area. Confusing the two is the most common misconception in early measurement."
+
+- question: "Why is area measured in 'square units' rather than just 'units'? What does the word 'square' add that a plain number would not convey?"
+  type: short-answer
+  answer: "Area measures two-dimensional space — how much flat surface a shape covers. A 'square unit' is a 1×1 tile, which has two dimensions (length and width). Saying '15 cm' suggests a length (one dimension); saying '15 square cm' specifies a surface area (two dimensions). The word 'square' identifies the kind of unit being counted and signals that the measurement is of flat space, not distance along a line."
+  explanation: "Units communicate what type of quantity is being measured. Linear units (cm, inches) measure one-dimensional distance. Square units (cm², in²) measure two-dimensional area. Omitting 'square' from an area answer is mathematically incomplete — like writing a weight without a unit."
+```
+
 ## Explainer
 
 You've worked with arrays before — rows and columns of objects arranged in a grid. Area is that exact same idea applied to flat space. When you fill a rectangle with small squares and count them, you're measuring its **area**: the amount of flat surface it covers. The unit you're counting is the **unit square**, a square with a side length of 1 (one inch, one centimeter, one foot — whichever unit you're working in).

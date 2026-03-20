@@ -14,7 +14,7 @@ tags:
 - romantic
 - instrumentation
 - color
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

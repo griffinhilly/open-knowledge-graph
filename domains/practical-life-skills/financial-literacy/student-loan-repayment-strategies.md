@@ -17,7 +17,7 @@ tags:
 - income-driven
 - refinancing
 - PSLF
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

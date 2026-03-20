@@ -14,7 +14,7 @@ tags:
 - implicit
 - explicit
 - elimination
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

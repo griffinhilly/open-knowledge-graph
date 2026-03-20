@@ -13,7 +13,7 @@ tags:
 - malaysian
 - interlocking
 - repetition
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

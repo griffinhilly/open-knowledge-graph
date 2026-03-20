@@ -18,7 +18,7 @@ tags:
 - diplomacy
 - arms-control
 - Soviet-United-States
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -11,8 +11,7 @@ prerequisites:
 - id: temporal-logic
   type: soft
 builds-toward:
-- counterfactual-conditionals
-- anaphora-and-discourse-dynamics
+  - anaphora-and-discourse-dynamics
 tags:
 - temporality
 - tense
@@ -21,7 +20,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Temporal Semantics and Linguistic Tense
 
 ## Core Idea

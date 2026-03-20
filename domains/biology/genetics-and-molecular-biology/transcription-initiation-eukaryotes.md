@@ -21,7 +21,7 @@ tags:
 - initiator-elements
 - mediator-complex
 - chromatin-accessibility
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

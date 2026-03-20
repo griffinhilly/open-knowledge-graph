@@ -3,7 +3,9 @@ id: drawing-and-painting-course-introduction
 title: Drawing & Painting Course Overview
 domain: arts-and-aesthetics
 course: drawing-and-painting
-prerequisites: []
+prerequisites:
+- id: dramatic-structure
+  type: soft
 builds-toward:
 - basic-mark-making-and-line-control
 - drawing-tools-papers-and-substrates
@@ -12,10 +14,9 @@ tags:
 - drawing
 - painting
 - visual-arts
-stage: concrete-operations
+stage: formal-systems
 status: draft
 ---
-
 # Drawing & Painting Course Overview
 
 ## Core Idea

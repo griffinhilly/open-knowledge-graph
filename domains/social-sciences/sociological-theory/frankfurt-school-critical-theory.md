@@ -14,7 +14,7 @@ tags:
 - frankfurt-school
 - ideology
 - domination
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

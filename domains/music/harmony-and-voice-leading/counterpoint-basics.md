@@ -23,7 +23,7 @@ tags:
 - dissonance
 - two-voice
 - polyphony
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Counterpoint Basics

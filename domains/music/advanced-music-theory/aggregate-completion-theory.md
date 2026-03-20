@@ -19,7 +19,7 @@ tags:
 - aggregate
 - completeness
 - form
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

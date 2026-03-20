@@ -13,7 +13,7 @@ tags:
 - meter
 - prosody
 - rhythm
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

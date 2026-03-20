@@ -16,7 +16,7 @@ tags:
 - voicing
 - chord-position
 - bass-note
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

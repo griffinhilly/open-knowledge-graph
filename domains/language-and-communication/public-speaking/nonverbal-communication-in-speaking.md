@@ -33,6 +33,45 @@ Video recording is indispensable — most speakers are unaware of their own habi
 - 'Making eye contact' does not mean staring at one person; it means distributing brief, genuine glances across the full audience.
 - Smiling is not always appropriate — emotional congruence between expression and content is the real goal.
 
+## Questions
+
+```yaml
+- question: "A speaker's words express enthusiasm for their topic, but their posture is slumped and they avoid eye contact throughout. What does the audience most likely take away?"
+  type: multiple-choice
+  options:
+    - "They absorb the verbal message because words carry the most explicit information"
+    - "They sense a mismatch and trust the nonverbal signals, doubting the speaker's sincerity"
+    - "They ignore both channels and evaluate only the logical structure of the argument"
+    - "They find the contrast interesting and pay closer attention to the verbal content"
+  answer: 1
+  explanation: "When nonverbal cues contradict verbal content, audiences trust the nonverbal channel. The body communicates emotional truth that the words cannot override. This is why congruence — alignment between what you say and how your body says it — is the central goal of nonverbal delivery. Option A reflects the common misconception that verbal content dominates; in practice, a slumped posture and averted gaze undermine even the most enthusiastic words."
+
+- question: "A speaker distributes eye contact by sweeping their gaze rhythmically from left to right across the room every 10 seconds. How effective is this technique?"
+  type: multiple-choice
+  options:
+    - "Effective — it ensures every audience member receives equal attention over time"
+    - "Problematic — it feels mechanical and fails to create genuine individual connection"
+    - "Recommended — it prevents the speaker from dwelling too long on any single person"
+    - "Neutral — eye contact technique matters only in persuasive speeches, not informational ones"
+  answer: 1
+  explanation: "Real eye contact means landing briefly on individual faces — two to four seconds per person — distributed genuinely across the full room. A rhythmic sweep is the 'surveillance scan' the explainer warns against: the eye moves but never actually connects with anyone. Audiences feel the difference between being looked at and being looked through."
+
+- question: "Speakers should minimize gestures to avoid distracting the audience from the verbal message."
+  type: true-false
+  answer: false
+  explanation: "Gestures serve a cognitive function for both speaker and audience. Research on speaker cognition shows that gestures aid the speaker's own retrieval of ideas and give audiences visual handles on complex content. Suppressing gestures entirely produces stiff, uncomfortable delivery. The goal is purposeful, congruent gesture — not elimination. Filler gestures (swaying, hair-touching) should be reduced, but meaningful gesture should be encouraged."
+
+- question: "Nonverbal communication is always active — even a motionless speaker standing silently at a podium is communicating something to the audience."
+  type: true-false
+  answer: true
+  explanation: "The key insight of this topic is that 'nonverbal channels are always on.' You cannot opt out of nonverbal communication; every posture, expression, and gaze direction transmits a signal. The question for a speaker is never whether to use nonverbal communication but whether they are using it intentionally and congruently with their words."
+
+- question: "What does 'congruence' mean in the context of nonverbal communication, and why does it matter for speaker credibility?"
+  type: short-answer
+  answer: "Congruence means alignment between what you say verbally and what your body communicates nonverbally. It matters because when the two channels conflict, audiences default to trusting the body — and when they conflict, your credibility suffers. A speaker who says 'I'm passionate about this topic' while standing rigid and avoiding eye contact sends contradictory signals; the audience perceives inauthenticity. When the channels reinforce each other, they amplify each other's effect."
+  explanation: "Congruence is the synthesis concept that ties together eye contact, gesture, posture, and expression. Each channel works best not in isolation but in coordination with the others and with the verbal content. A speaker who masters individual nonverbal skills but deploys them incongruently (e.g., smiling while delivering somber news) loses credibility precisely because the misalignment is so visible."
+```
+
 ## Explainer
 
 You already know that managing speech anxiety involves gaining control over your physical state — breathing, grounding yourself, channeling nervous energy into presence. Nonverbal communication is the next layer: once you are physically settled enough to speak, your body continues to communicate, whether you intend it to or not. The key insight is that **nonverbal channels are always on**. Even a speaker who is standing completely still at a podium, saying nothing, is communicating something through their posture, their gaze, and their expression. The question is not whether to use nonverbal communication — you can't opt out — but whether you're using it intentionally.

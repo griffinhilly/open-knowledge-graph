@@ -9,8 +9,7 @@ prerequisites:
 - id: home-inspection-fundamentals
   type: hard
 builds-toward:
-- moisture-and-mold-prevention-strategy
-- foundation-and-structural-assessment
+  - moisture-and-mold-prevention-strategy
 tags:
 - foundation
 - structure
@@ -18,7 +17,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Foundation and Structural Inspection Basics
 
 ## Core Idea

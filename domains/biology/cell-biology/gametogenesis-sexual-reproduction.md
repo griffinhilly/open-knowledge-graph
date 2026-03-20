@@ -11,7 +11,7 @@ tags:
 - spermatogenesis
 - oogenesis
 - gametes
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

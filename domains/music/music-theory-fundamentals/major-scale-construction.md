@@ -17,7 +17,7 @@ tags:
 - construction
 - whole-half
 - intervals
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

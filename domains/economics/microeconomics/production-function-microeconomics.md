@@ -20,7 +20,7 @@ tags:
 - returns to scale
 - marginal product
 - isoquant
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

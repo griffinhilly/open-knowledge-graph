@@ -35,6 +35,45 @@ Mix all possible combinations of your primary colors to learn their behavior. Pr
 - More colors mean more mixing freedom; constraints improve color harmony.
 - Mixing on the canvas looks transparent and luminous; muddiness comes from overworking.
 
+## Questions
+
+```yaml
+- question: "An artist has a palette of 15 different paint colors and finds that every mixture turns out muddy and flat. A classmate uses only 6 carefully chosen colors and achieves vivid, harmonious results. What most likely explains the difference?"
+  type: multiple-choice
+  options:
+    - "The first artist is accidentally mixing color families that chemically react badly"
+    - "The first artist's paints are lower quality than the classmate's"
+    - "With 15 colors, most mixes involve more pigments, each absorbing more light; more pigments per mixture means darker, less saturated, muddier results"
+    - "The classmate is using a special medium that prevents muddiness regardless of palette size"
+  answer: 2
+  explanation: "This is the subtractive nature of pigment mixing in practice. Each pigment in a mixture absorbs another slice of the visible spectrum, so every additional color you mix in takes saturation and value away. With 15 colors, it becomes easy to accidentally mix three, four, or five pigments together in an attempt to match a target color — and each step darkens and dulls the result. A limited palette forces you to reach your target color in fewer steps, keeping mixtures cleaner."
+
+- question: "You have mixed two pigments to get close to a target olive green. Adding a third color to fine-tune it will most likely:"
+  type: multiple-choice
+  options:
+    - "Make the color cleaner and more vibrant by adding another dimension of hue"
+    - "Darken and desaturate the mix further, risking muddiness"
+    - "Have no effect if the third color is a complementary color to the mixture"
+    - "Lighten the value because you are adding more total pigment"
+  answer: 1
+  explanation: "Pigment mixing is subtractive: every additional pigment absorbs more light. A third pigment will always push the mixture darker and less saturated. Complementary colors (option C) are actually the most powerful desaturators — mixing complements doesn't have 'no effect,' it produces a gray or brown. The practical lesson is to reach your target in as few pigments as possible, starting with the tube color closest to your goal and adjusting in small increments."
+
+- question: "A limited palette of 6 well-chosen colors can produce a wider range of clean, harmonious colors than an unlimted palette of 20 colors."
+  type: true-false
+  answer: true
+  explanation: "This seems counterintuitive but follows directly from how pigment mixing works. With 6 colors (a warm and cool version of each primary), you can mix most of the color wheel in two-pigment combinations, which stay clean and saturated. With 20 colors, it is hard to avoid accidentally incorporating extra pigments, and the resulting mixtures are more likely to be muddy. Constraint also produces harmony: all colors in a limited-palette painting share the same parent pigments, creating visual coherence."
+
+- question: "Mixing two complementary colors together produces a vivid, saturated result because their hues reinforce each other."
+  type: true-false
+  answer: false
+  explanation: "This is the opposite of what happens. Complementary colors cancel each other's hue — red mixed with green, or blue mixed with orange, produces a neutral gray or brown. This is because complementary pairs together cover the full visible spectrum, absorbing nearly all wavelengths when mixed as pigments. Painters deliberately use this to desaturate a color or create neutral shadows: adding a touch of a color's complement knocks down its saturation without adding white or black."
+
+- question: "Why does every additional pigment you add to a paint mixture tend to make the result darker and less saturated? What is the underlying principle?"
+  type: short-answer
+  answer: "Pigments work by absorbing light. Each pigment reflects only certain wavelengths and absorbs the rest. When you mix pigments, you combine their absorption patterns — the mixture absorbs the sum of what each component absorbs. More pigments means more total absorption, which means less light reflected back to your eye: darker and less saturated. This is called subtractive color mixing, and it means mixing more colors always moves you toward a neutral gray or brown."
+  explanation: "Understanding that paint mixing is subtractive (not additive like light mixing) is foundational to color control. Artists who treat mixing as 'additive' — assuming more colors create richer results — keep making muddy work because they are fighting the physics of pigment. The goal of palette discipline is to stay on the 'clean' side of this process: keep mixes to two or three pigments maximum and know which pigments to avoid combining."
+```
+
 ## Explainer
 
 You already understand from color mixing and the color wheel that primary colors combine to produce secondaries, and that color temperature describes the warm-cool axis. Now the challenge shifts from theory to practice: how do you actually mix the specific color you see in front of you, and how do you keep your palette organized so that your colors stay clean throughout a painting session?

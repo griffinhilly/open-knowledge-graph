@@ -15,7 +15,7 @@ tags:
 - environment
 - adaptation
 - resilience
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -23,7 +23,7 @@ tags:
 - avalanche-method
 - snowball-method
 - interest-rates
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Debt Management Strategies

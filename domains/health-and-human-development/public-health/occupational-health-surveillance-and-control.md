@@ -12,7 +12,7 @@ tags:
 - occupational-health
 - surveillance
 - hazard-control
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

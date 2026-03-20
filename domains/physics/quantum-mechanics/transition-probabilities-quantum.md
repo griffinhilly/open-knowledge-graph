@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - transitions
 - selection-rules
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

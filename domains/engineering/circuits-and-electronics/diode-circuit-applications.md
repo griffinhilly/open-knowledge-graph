@@ -21,7 +21,7 @@ tags:
 - clamp
 - voltage-regulator
 - ripple
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

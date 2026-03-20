@@ -15,7 +15,7 @@ tags:
 - tradition
 - hierarchy
 - gradual-change
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

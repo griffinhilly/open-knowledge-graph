@@ -18,7 +18,7 @@ tags:
 - loss-aversion
 - cognitive-bias
 - heuristics
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

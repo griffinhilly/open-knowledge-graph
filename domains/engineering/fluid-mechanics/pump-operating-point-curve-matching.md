@@ -17,7 +17,7 @@ tags:
 - pump
 - operating-point
 - system-curve
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

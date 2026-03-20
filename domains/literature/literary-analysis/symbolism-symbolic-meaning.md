@@ -16,7 +16,7 @@ tags:
 - symbol
 - interpretation
 - meaning
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

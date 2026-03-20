@@ -16,7 +16,7 @@ tags:
 - Bentham
 - Mill
 - happiness
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - emic
 - etic
 - analysis
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

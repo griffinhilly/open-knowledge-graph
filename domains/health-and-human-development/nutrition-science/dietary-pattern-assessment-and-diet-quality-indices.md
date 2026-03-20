@@ -13,7 +13,7 @@ tags:
 - diet-quality
 - assessment
 - epidemiology
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

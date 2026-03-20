@@ -19,7 +19,7 @@ tags:
 - principate
 - julius-caesar
 - imperialism
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 # The Rise of the Roman Empire

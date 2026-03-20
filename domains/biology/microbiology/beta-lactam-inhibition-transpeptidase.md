@@ -14,7 +14,7 @@ tags:
 - beta-lactams
 - penicillins
 - mechanism-of-action
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

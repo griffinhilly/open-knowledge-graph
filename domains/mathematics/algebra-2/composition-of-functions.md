@@ -10,7 +10,7 @@ builds-toward:
   - inverse-functions
   - chain-rule
 tags: [functions, composition, substitution]
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -30,6 +30,45 @@ Focus on the most frequent irregular verbs first (be, have, do) since these appe
 ## Common Misconceptions
 Students often regularize irregular verbs ('goed' instead of 'went', 'eated' instead of 'ate'). They may confuse the past participle with past tense ('I have went' instead of 'I have gone'). Some mix up similar-sounding pairs (lay/laid vs. lie).
 
+## Questions
+
+```yaml
+- question: "Which sentence uses an irregular verb correctly?"
+  type: multiple-choice
+  options:
+    - "She has went to the market already."
+    - "She has gone to the market already."
+    - "She have went to the market already."
+    - "She go to the market already."
+  answer: 1
+  explanation: "'Gone' is the past participle of 'go,' and past participles are required with auxiliary verbs like 'has.' The simple past 'went' is used alone without an auxiliary: 'She went to the market.' 'She has went' incorrectly combines the auxiliary 'has' with the simple past form — a direct result of confusing which of the three principal parts (base, simple past, past participle) belongs in each construction."
+
+- question: "Why do verbs like 'go,' 'eat,' and 'see' remain irregular in English today, while a new verb like 'texted' always takes -ed?"
+  type: multiple-choice
+  options:
+    - "Old verbs are exempt from grammar rules invented after English was standardized"
+    - "These verbs are used so frequently that speakers heard their irregular forms constantly, preserving those forms over centuries — new verbs lack this history of repeated use"
+    - "The -ed rule only applies to action verbs; 'go' and 'see' are state verbs"
+    - "New verbs come from other languages that already use -ed endings"
+  answer: 1
+  explanation: "High frequency is the key. Verbs used thousands of times daily were heard in their irregular forms so consistently that even young children internalized them without needing a rule. Rarer verbs gradually regularized because speakers defaulted to -ed when uncertain. A brand-new verb like 'texted' is always regular because it has never had centuries of daily use to entrench an irregular pattern."
+
+- question: "The past participle of a verb can be used as the main verb in a past-tense sentence without any auxiliary: 'She gone home yesterday' is grammatically correct."
+  type: true-false
+  answer: false
+  explanation: "The past participle is the auxiliary-dependent form — it never stands alone as the main past-tense verb. 'She gone home' is ungrammatical. To use 'gone,' you need an auxiliary: 'She has gone home' or 'She was gone.' The simple past 'went' is what stands alone: 'She went home.' Confusing these two forms produces the most common irregular verb error in student writing."
+
+- question: "Many irregular verbs have identical simple past and past participle forms, such as 'say/said/said' and 'make/made/made.'"
+  type: true-false
+  answer: true
+  explanation: "While some irregular verbs form a distinct trio (go/went/gone; sing/sang/sung), many others have simple past and past participle forms that are identical. 'Said' is both 'She said it' and 'She has said it.' 'Made' is both 'She made it' and 'She has made it.' Recognizing these patterns reduces the memorization burden — once you know 'said,' you know both forms. Errors arise mainly with verbs where all three forms differ."
+
+- question: "Explain the difference between the simple past and the past participle of an irregular verb, and give an example of an error caused by confusing the two."
+  type: short-answer
+  answer: "The simple past is used alone as the main verb to describe a completed action: 'She saw the film.' The past participle is used with an auxiliary verb: 'She has seen the film.' Error example: 'I have saw that movie' — 'saw' is the simple past; the correct form with 'have' is the past participle 'seen.'"
+  explanation: "The three principal parts each have specific roles. The base form is used for present tense and infinitives. The simple past stands alone for completed past actions. The past participle always pairs with an auxiliary (have, has, had, was, been) to form perfect or passive constructions. When students substitute the simple past for the past participle — 'I have went,' 'She has did,' 'They have came' — they are using the wrong principal part in a construction that requires a different one."
+```
+
 ## Explainer
 
 You already understand that verbs carry tense — that English marks the difference between what is happening now and what happened in the past. For most verbs, the past tense is formed predictably by adding **-ed**: "walk" becomes "walked," "talk" becomes "talked." Once you've learned that rule, you've learned hundreds of past tenses at once. Irregular verbs refuse that deal. Each one has to be learned individually, which feels like extra work — but there's a reason they exist, and understanding it makes memorization easier.

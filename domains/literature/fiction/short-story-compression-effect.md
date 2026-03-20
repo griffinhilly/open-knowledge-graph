@@ -16,7 +16,7 @@ tags:
 - short-story
 - compression
 - effect
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

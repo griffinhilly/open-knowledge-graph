@@ -17,7 +17,7 @@ tags:
 - adiabatic
 - temperature
 - lapse-rate
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - integration
 - lebesgue-integral
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

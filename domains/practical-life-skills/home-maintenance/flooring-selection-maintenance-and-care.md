@@ -29,6 +29,45 @@ Homes have different flooring types—wood, tile, carpet, vinyl—each requiring
 ## How It's Best Learned
 Identify the flooring types in different rooms. Learn what products and tools are appropriate for each type. Practice proper cleaning for each type under adult guidance.
 
+## Questions
+
+```yaml
+- question: "A homeowner notices a single cracked tile in their bathroom floor. The tile is still in place and the crack is small. Why does this warrant prompt repair rather than waiting for a full renovation?"
+  type: multiple-choice
+  options:
+    - "Tile is the most expensive flooring material, so any damage reduces home resale value immediately"
+    - "Cracked tile exposes the grout and subfloor to water, which can silently rot the structural subfloor even while the surface looks intact"
+    - "Hairline cracks indicate the tile was improperly installed and the entire floor must be replaced"
+    - "Cracked tiles are a slip hazard only in dry areas, not in bathrooms"
+  answer: 1
+  explanation: "Tile itself is nearly indestructible, but a crack creates a pathway for water to bypass the tile and grout and penetrate to the subfloor. In a wet area like a bathroom, water infiltration silently causes rot, mold, and structural damage — often invisible until the floor becomes spongy or a tile loosens. The tile is only as good as the moisture barrier it maintains; once that's compromised, the damage clock starts."
+
+- question: "What is the primary mechanism by which carpet wears out prematurely, even in rooms that appear lightly used?"
+  type: multiple-choice
+  options:
+    - "Sunlight bleaches the fibers and causes them to become brittle over time"
+    - "Foot traffic compresses the padding beneath the carpet, reducing its cushion"
+    - "Grit and dirt work down into the carpet fibers and cut them at the base, causing wear from the inside out"
+    - "Carpet adhesive degrades with temperature changes, loosening the backing"
+  answer: 2
+  explanation: "Grit particles — sand, dirt, fine debris — are abrasive. When they settle into carpet fibers, foot traffic works them deeper toward the backing where they act like sandpaper, slicing the fibers over time. This damage is invisible until the carpet looks flat and dull. Frequent vacuuming (especially in high-traffic areas) removes grit before it can work its way down. This is why vacuuming frequency matters more than vacuuming intensity."
+
+- question: "Because tile is nearly indestructible, the grout between tiles is equally durable and requires no special maintenance."
+  type: true-false
+  answer: false
+  explanation: "Tile and grout are very different materials. Tile (ceramic or porcelain) is dense and water-resistant; grout is porous and stains easily. Grout also cracks if the substrate beneath flexes. Without periodic sealing, grout absorbs water, stains, and mold. In high-use areas, grout should be sealed annually and cleaned with pH-neutral products — harsh acids etch grout and some tile finishes. The weakest point in tile flooring is almost always the grout."
+
+- question: "When ordering flooring material, you should purchase approximately 10% more than the measured square footage of the room to account for cuts and waste."
+  type: true-false
+  answer: true
+  explanation: "Flooring installation always produces waste: boards or tiles must be cut to fit at walls, around obstacles, and in corners. For straight installations, 10% extra is a reliable rule of thumb; diagonal installations may require 15% or more because the angled cuts waste more material. Ordering too little means returning to the store for a new batch, which may not match the original dye lot — a visible and frustrating problem."
+
+- question: "Why should you avoid using a wet mop on hardwood floors, and what does this reveal about hardwood's fundamental material property?"
+  type: short-answer
+  answer: "Hardwood is dimensionally unstable — it absorbs moisture and expands, then contracts as it dries. Standing water or a soaking wet mop drives moisture into the wood, causing warping, buckling, and gaps over time. The correct approach is to remove grit with dry sweeping (grit scratches the finish) and clean spills immediately. This reflects hardwood's core vulnerability: it is an organic material responding to its environment, not an inert surface."
+  explanation: "Contrast this with tile or vinyl, where water is not a threat to the material itself. Hardwood care is essentially humidity management — keeping moisture low and stable. This is also why hardwood floors need time to acclimate when installed in a new environment, and why radiant floor heating (which dries the air) must be managed carefully with hardwood."
+```
+
 ## Explainer
 
 From your study of home structure and systems, you know that a home is a layered assembly of materials, each with different properties and maintenance needs. Flooring is the most physically demanding surface in a home — walked on daily, exposed to moisture, grit, and impact — and different materials handle those stresses in fundamentally different ways. Understanding what your floor is made of is the starting point for keeping it in good condition.

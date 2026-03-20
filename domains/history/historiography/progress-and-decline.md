@@ -11,9 +11,8 @@ prerequisites:
 - id: schools-of-historical-interpretation
   type: soft
 builds-toward:
-- contingency-and-inevitability
-- postmodern-historiography
-- postcolonial-historiography
+  - postmodern-historiography
+  - postcolonial-historiography
 tags:
 - progress
 - teleology
@@ -22,7 +21,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Progress and Teleology in Historical Thought
 
 ## Core Idea

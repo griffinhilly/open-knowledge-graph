@@ -18,7 +18,7 @@ tags:
 - radicals
 - rational-exponents
 - conversion
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Rational Exponents

@@ -24,6 +24,45 @@ status: draft
 ## Core Idea
 Students master multiplication facts for 3s, 4s, 6s, 7s, 8s, and 9s through skip-counting, repeated addition, and arrays. Fluency with these facts (retrievable within 5 seconds) is essential for multi-digit multiplication and division.
 
+## Questions
+
+```yaml
+- question: "You forget 8 × 7. Using the doubling strategy, which known fact gives you the most direct path to the answer?"
+  type: multiple-choice
+  options:
+    - "4 × 7 = 28, then double it to get 56"
+    - "8 × 10 = 80, then subtract 8 + 8 + 8"
+    - "8 × 5 = 40, then add 8 + 8 + 8"
+    - "Skip-count by 8 seven times"
+  answer: 0
+  explanation: "The doubling strategy says the 8s are the 4s doubled: since 4 × 7 = 28, then 8 × 7 = 56 (double 28). This requires knowing one simpler fact and performing one doubling — far faster than skip-counting. Options C and D work but are slower and more error-prone. Option B requires subtracting three 8s, which is harder than simply doubling 28."
+
+- question: "A student uses the 9s digit pattern: 'The tens digit is one less than the factor, and the digits add up to 9.' She is solving 9 × 6. What is her answer?"
+  type: multiple-choice
+  options:
+    - "54, because the tens digit is 5 (one less than 6) and 5 + 4 = 9"
+    - "63, because the tens digit is 6 and 6 + 3 = 9"
+    - "45, because the tens digit is 4 and 4 + 5 = 9"
+    - "56, because 9 is close to 10 and 10 × 6 = 60"
+  answer: 0
+  explanation: "For 9 × 6: the tens digit is one less than the factor 6, which is 5. The ones digit must make the sum equal 9, so 9 − 5 = 4. Answer: 54. Option B applies the pattern incorrectly (using the factor itself as the tens digit). This pattern works for all 9× facts up to 9 × 9 — it's a reliable shortcut that doesn't require any other fact."
+
+- question: "Knowing that 3 × 8 = 24 is enough to immediately find 6 × 8 using the doubling strategy."
+  type: true-false
+  answer: true
+  explanation: "The 6s are the 3s doubled: 6 × 8 = 2 × (3 × 8) = 2 × 24 = 48. This works because multiplication distributes: 6 groups of 8 is the same as two sets of 3 groups of 8. The doubling strategy turns 6s into 3s, 4s into 2s, and 8s into 4s — meaning you can derive many unfamiliar facts from ones you already know."
+
+- question: "A student who can always reconstruct 7 × 8 by skip-counting has achieved fluency with that fact."
+  type: true-false
+  answer: false
+  explanation: "Fluency means automatic retrieval in 3–5 seconds — not reconstruction. Skip-counting by 7s to reach 56 takes considerably longer and demands significant working memory. Fluency matters because multiplication facts are used constantly inside larger procedures. If a student must reconstruct a basic fact mid-problem (e.g., during long division), it consumes cognitive resources that should go toward understanding the larger concept. The goal is instant recall, not the ability to derive."
+
+- question: "Why does fluency with multiplication facts (automatic recall) matter more than the ability to reconstruct facts through strategies like skip-counting?"
+  type: short-answer
+  answer: "Fluency frees up working memory for more complex thinking. Multiplication facts appear constantly inside larger procedures — multi-digit multiplication, long division, simplifying fractions. If a student must stop and skip-count every time a fact appears, that reconstruction effort crowds out their attention to the bigger mathematical idea. Automatic recall lets facts become 'transparent' tools, letting the student focus on the structure of the problem rather than its arithmetic building blocks."
+  explanation: "This is sometimes called 'automaticity': when basic skills become automatic, cognitive capacity opens up for higher-order reasoning. The same principle applies in reading (fluent decoding frees attention for comprehension) and in many other skill domains."
+```
+
 ## Explainer
 
 You already know the easiest multiplication facts: the 2s (doubles), the 5s (end in 0 or 5), and the 10s (append a zero). Those three families account for a large chunk of the multiplication table. Now you're filling in the rest — 3s, 4s, 6s, 7s, 8s, and 9s — and several of these can be learned by **building on facts you already know**, rather than memorizing each one from scratch.

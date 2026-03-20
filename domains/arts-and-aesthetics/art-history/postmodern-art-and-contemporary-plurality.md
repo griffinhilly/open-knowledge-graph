@@ -15,7 +15,7 @@ tags:
 - institutional-critique
 - identity-politics
 - appropriation
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

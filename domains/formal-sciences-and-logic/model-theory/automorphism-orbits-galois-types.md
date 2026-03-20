@@ -14,7 +14,7 @@ tags:
 - Galois
 - type
 - symmetry
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

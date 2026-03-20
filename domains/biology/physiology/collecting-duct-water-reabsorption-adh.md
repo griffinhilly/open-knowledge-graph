@@ -17,7 +17,7 @@ tags:
 - ADH
 - collecting duct
 - homeostasis
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

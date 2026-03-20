@@ -14,7 +14,7 @@ tags:
 - non-reductive
 - emergence
 - multiple-realization
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

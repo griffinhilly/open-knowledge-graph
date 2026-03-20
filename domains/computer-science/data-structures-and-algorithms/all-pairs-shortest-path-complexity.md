@@ -10,7 +10,7 @@ tags:
 - shortest-paths
 - algorithms
 - dynamic-programming
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

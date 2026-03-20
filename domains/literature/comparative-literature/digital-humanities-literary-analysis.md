@@ -15,7 +15,7 @@ tags:
 - methods
 - distant-reading
 - computational
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

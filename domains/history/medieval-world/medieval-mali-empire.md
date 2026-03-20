@@ -18,7 +18,7 @@ tags:
 - gold
 - islam
 - timbuktu
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 # The Mali Empire and West African Statecraft

@@ -13,7 +13,7 @@ tags:
 - voice-leading
 - counterpoint
 - rules
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

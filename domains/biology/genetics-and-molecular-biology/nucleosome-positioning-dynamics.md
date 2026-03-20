@@ -15,7 +15,7 @@ tags:
 - chromatin-organization
 - nucleosome-occupancy
 - gene-activation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

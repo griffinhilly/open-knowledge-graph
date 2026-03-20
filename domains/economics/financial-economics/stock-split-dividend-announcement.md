@@ -13,7 +13,7 @@ tags:
 - dividends
 - stock-splits
 - valuation
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

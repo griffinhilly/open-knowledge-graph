@@ -9,8 +9,7 @@ prerequisites:
 - id: support-reactions-beams
   type: soft
 builds-toward:
-- shear-force-bending-moment-diagrams
-- distributed-loads-beams
+  - shear-force-bending-moment-diagrams
 tags:
 - statics
 - internal forces
@@ -21,7 +20,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Internal Forces in Structural Members
 
 ## Core Idea

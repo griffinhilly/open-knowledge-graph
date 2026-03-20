@@ -17,7 +17,7 @@ tags:
 - structure
 - emphasis
 - form
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

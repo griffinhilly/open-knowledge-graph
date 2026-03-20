@@ -16,7 +16,7 @@ tags:
 - property-rights
 - labor
 - natural-rights
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

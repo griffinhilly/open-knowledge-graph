@@ -16,7 +16,7 @@ tags:
 - religion
 - community
 - Christianity
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

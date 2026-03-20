@@ -15,7 +15,7 @@ tags:
 - plagal-cadence
 - IV-I
 - voice-leading
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

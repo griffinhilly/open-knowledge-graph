@@ -17,7 +17,7 @@ tags:
 - growth
 - capacity
 - long-run
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

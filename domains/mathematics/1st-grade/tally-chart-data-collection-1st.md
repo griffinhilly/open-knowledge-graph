@@ -15,7 +15,7 @@ tags:
 - data
 - representation
 - tally-marks
-stage: pre-formal
+stage: concrete-operations
 status: draft
 ---
 
@@ -24,12 +24,28 @@ status: draft
 ## Core Idea
 Tally marks (||||) record data quickly. Groups of 5 (||||/) make counting and reading easier. A tally chart organizes categories with their tallies (e.g., favorite color: red, blue, green) and helps answer 'how many?' questions.
 
-## Explainer
+## Questions
 
-Tally charts are a tool for turning a stream of observations into something organized and easy to count. Imagine you ask your classmates "What is your favorite color?" and want to track every answer. Instead of writing out every word — "red, blue, blue, red, green, blue..." — you make a quick mark next to the right category each time. That mark is a **tally mark**, and it lets you record answers fast without losing track or going back to recount.
+```yaml
+- question: "A student draws ||||/ |||| under 'Blue' in a tally chart. How many votes does Blue have?"
+  type: multiple-choice
+  options:
+    - "2 — there are 2 groups drawn"
+    - "5 — only the complete bundle of five counts"
+    - "9 — one bundle of five plus four single marks"
+    - "8 — four marks plus four marks, ignoring the diagonal"
+  answer: 2
+  explanation: "The diagonal slash through four vertical marks creates a bundle of five. After it come four more individual marks. Total: 5 + 4 = 9. Option A misreads the number of groups as individual votes. Option D ignores the bundle-of-five structure entirely. The whole point of the diagonal mark is to visually separate groups of five so they can be counted quickly."
 
-The most important trick with tally marks is the bundle-of-five rule. After you draw four straight marks (||||), the fifth one goes diagonally across them (||||/). This creates a **group of five** that is easy to spot at a glance. Because you already know how to count by fives, reading a tally chart becomes quick: count the bundles, multiply by five, then add any leftover single marks. A row showing ||||/ |||| means one group of five plus four more — that is nine.
+- question: "Why do tally marks use a diagonal fifth mark (||||/) instead of just five vertical marks (|||||)?"
+  type: multiple-choice
+  options:
+    - "It is traditional but has no practical advantage"
+    - "The diagonal groups marks into visible bundles of five, making totals fast to read"
+    - "Five vertical marks would be confused with Roman numeral V"
+    - "Diagonal marks take less space on the page"
+  answer: 1
+  explanation: "The diagonal cross groups the four vertical marks into a clearly visible unit of five. When reading the chart, you count bundles of five (using familiar skip-counting-by-fives) and add any remainders. Without this grouping, you'd count every individual mark from scratch. The visual bundling is the core efficiency of the system."
 
-A **tally chart** arranges all of this into a simple table with categories down one side and tally marks in the next column. Once every answer has been recorded, you can look at the chart and immediately answer questions like "Which color got the most votes?" or "How many more people chose blue than red?" The chart has already done the counting work for you — you just read the totals.
-
-Tally charts are especially useful because they are built while data is being collected, not afterward. Every mark captures a fact that would otherwise be forgotten. Later, when you make bar graphs or picture graphs, you will start from the totals in a tally chart — so learning to create and read them carefully now makes every future data task easier.
+- question: "A tally chart is built while data is being collected, with each mark recorded as each observation happens."
+  type: true-false

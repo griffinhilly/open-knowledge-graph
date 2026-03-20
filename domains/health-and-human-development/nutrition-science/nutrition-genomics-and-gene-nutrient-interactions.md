@@ -17,7 +17,7 @@ tags:
 - snps
 - personalized-nutrition
 - precision
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

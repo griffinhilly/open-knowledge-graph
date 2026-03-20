@@ -22,7 +22,7 @@ tags:
 - republicanism
 - colonial grievances
 - Constitution
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

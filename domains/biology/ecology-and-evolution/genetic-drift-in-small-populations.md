@@ -17,18 +17,16 @@ prerequisites:
 - id: stochastic-processes
   type: soft
 builds-toward:
-- mutation-as-evolutionary-force
-- population-genetic-structure-metapopulations
-- conservation-genetics-effective-size
+  - population-genetic-structure-metapopulations
+  - conservation-genetics-effective-size
 tags:
 - genetic-drift
 - random-sampling
 - bottleneck
 - founder-effect
-stage: formal-systems
+stage: advanced
 status: draft
 ---
-
 # Genetic Drift and Random Change in Small Populations
 
 ## Core Idea

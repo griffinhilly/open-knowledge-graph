@@ -15,7 +15,7 @@ tags:
 - diplomacy
 - post-war
 - institutions
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

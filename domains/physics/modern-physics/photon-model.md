@@ -18,7 +18,7 @@ tags:
 - energy
 - momentum
 - E=hf
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

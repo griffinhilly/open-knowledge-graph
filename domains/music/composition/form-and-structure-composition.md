@@ -19,7 +19,7 @@ tags:
 - structure
 - composition
 - large-scale
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

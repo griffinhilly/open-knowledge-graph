@@ -20,7 +20,7 @@ tags:
 - heating
 - convection
 - dynamics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

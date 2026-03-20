@@ -16,7 +16,7 @@ tags:
 - calcite-preservation
 - sediment-composition
 - paleoclimate
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

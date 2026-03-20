@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - measure-theory
 - measure-spaces
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

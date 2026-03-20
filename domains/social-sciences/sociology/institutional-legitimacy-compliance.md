@@ -17,7 +17,7 @@ tags:
 - compliance
 - weber
 - institutions
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -29,6 +29,45 @@ Identify linking verbs by testing if they can be replaced with "is" or "am" whil
 - Confusing linking verbs with action verbs ("The soup smells good" uses linking "smells," not action "smells" as in "the dog smells the food").
 - Not recognizing less common linking verbs like "prove," "turn," "stay," and "grow."
 
+## Questions
+
+```yaml
+- question: "In which sentence is the verb used as a linking verb?"
+  type: multiple-choice
+  options:
+    - "The detective smelled the roses carefully."
+    - "The roses smelled wonderful after the rain."
+    - "She tasted the broth and added more salt."
+    - "He felt around in the dark for the light switch."
+  answer: 1
+  explanation: "In option B, 'smelled' connects the subject 'roses' to the adjective complement 'wonderful' — it describes what the roses ARE, not what they DO. The substitution test confirms it: 'The roses were wonderful' makes sense, so 'smelled' is linking here. In the other options, the verbs describe actions the subjects are performing: the detective is actively smelling, she is actively tasting, he is actively feeling. Substituting 'is/are' would produce nonsense in each of those cases."
+
+- question: "A student writes: 'After the long hike, she felt badly.' What is the grammatical error?"
+  type: multiple-choice
+  options:
+    - "'Felt' is an action verb here, so it should be modified by an adjective"
+    - "'Felt' is a linking verb connecting the subject to a complement, so the complement must be the adjective 'bad,' not the adverb 'badly'"
+    - "There is no error — adverbs are always correct after verbs of sensation"
+    - "'Badly' is acceptable here as an idiomatic expression meaning unwell"
+  answer: 1
+  explanation: "After a linking verb, the complement describes the subject — and adjectives (not adverbs) describe nouns. 'She felt bad' means the subject is in a bad state — which is what we want to say. 'She felt badly' would mean her sense of touch is impaired, which is almost certainly not the intended meaning. The test: replace 'felt' with 'was' — 'she was bad' (not 'she was badly') confirms that 'bad' is correct."
+
+- question: "In the sentence 'The music sounds beautiful,' the word 'beautiful' is a subject complement describing the music, not an adverb modifying the verb."
+  type: true-false
+  answer: true
+  explanation: "'Sounds' is a linking verb here — 'the music is beautiful' passes the substitution test. Because 'sounds' links the subject 'music' (a noun) to a description of it, the description must be an adjective ('beautiful'), not an adverb ('beautifully'). Subject complements always describe or rename the subject, so they must be adjectives or nouns, never adverbs."
+
+- question: "In 'The soup smells good' and 'The chef smells the soup,' the word 'smells' functions as the same type of verb."
+  type: true-false
+  answer: false
+  explanation: "In the first sentence, 'smells' is a linking verb: 'the soup is good' makes sense, and 'good' is an adjective complement describing the soup. In the second sentence, 'smells' is an action verb: 'the chef is the soup' is nonsense. The chef is actively using their sense of smell. The same word can function as either a linking or action verb depending on sentence structure — which is why the substitution test, not word recognition, is the reliable method."
+
+- question: "How can you determine whether a verb like 'feel,' 'look,' or 'smell' is functioning as a linking verb or an action verb in a given sentence?"
+  type: short-answer
+  answer: "Replace the verb with a form of 'be' (is, are, was) and check whether the sentence still makes sense. If the substitution preserves the meaning, the verb is linking — the word after it is an adjective complement describing the subject. If the substitution produces nonsense, the verb is an action verb describing something the subject is doing."
+  explanation: "The substitution test works because linking verbs and 'be' share the same grammatical job: attributing a quality to the subject. Action uses of these verbs describe physical acts (actively tasting, touching, perceiving) that 'be' cannot replace. This test is more reliable than trying to memorize every possible linking verb, because many verbs can function both ways."
+```
+
 ## Explainer
 
 From your study of verbs, you know that verbs are the engine of a sentence — they express what happens. Most verbs express actions: run, build, think, destroy. But a special class of verbs does something fundamentally different: instead of expressing an action, they express a **state of being** or a condition. These are **copular verbs** (from the Latin for "link"), and the most common of them is simply *be* in all its forms — is, are, was, were, will be.

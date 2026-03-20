@@ -15,7 +15,7 @@ tags:
 - form
 - structure
 - classical
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - assemblage
 - becoming
 - rhizome
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

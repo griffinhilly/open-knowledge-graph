@@ -12,7 +12,7 @@ tags:
 - systems
 - brand
 - documentation
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -15,7 +15,7 @@ tags:
 - countable-models
 - spectrum
 - cardinality-bound
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

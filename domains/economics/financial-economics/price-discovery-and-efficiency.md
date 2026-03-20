@@ -12,7 +12,7 @@ tags:
 - price-discovery
 - efficiency
 - information
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

@@ -14,7 +14,7 @@ tags:
 - burden-of-disease
 - health-metrics
 - comparative-health
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

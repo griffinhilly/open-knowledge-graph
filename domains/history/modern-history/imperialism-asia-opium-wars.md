@@ -13,7 +13,7 @@ tags:
 - asia
 - opium-wars
 - colonialism
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

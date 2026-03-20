@@ -12,7 +12,7 @@ tags:
 - gender
 - power
 - authority
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

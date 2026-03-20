@@ -25,7 +25,7 @@ tags:
 - syntax
 - register
 - word choice
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

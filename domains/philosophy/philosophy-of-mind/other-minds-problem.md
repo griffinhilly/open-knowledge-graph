@@ -16,7 +16,7 @@ tags:
 - consciousness
 - skepticism
 - other-minds
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

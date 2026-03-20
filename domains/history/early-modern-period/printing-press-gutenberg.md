@@ -19,7 +19,7 @@ tags:
 - communication
 - literacy
 - media
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

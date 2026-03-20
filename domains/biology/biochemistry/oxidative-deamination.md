@@ -11,9 +11,8 @@ prerequisites:
 - id: oxidation-reduction-basics
   type: soft
 builds-toward:
-- urea-cycle
-- ammonia-metabolism
-- amino-acid-degradation-overview
+  - urea-cycle
+  - ammonia-metabolism
 tags:
 - amino-acids
 - redox-chemistry
@@ -21,7 +20,6 @@ tags:
 stage: advanced
 status: draft
 ---
-
 # Oxidative Deamination
 
 ## Core Idea

@@ -17,7 +17,7 @@ tags:
 - pH
 - homeostasis
 - buffering
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

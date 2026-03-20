@@ -15,7 +15,7 @@ tags:
 - perfectionism
 - communal-living
 - idealism
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

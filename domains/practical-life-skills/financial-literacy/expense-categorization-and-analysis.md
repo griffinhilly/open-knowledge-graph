@@ -33,6 +33,45 @@ Sort 3+ months of actual spending into multiple classification schemes and compa
 ## Common Misconceptions
 All spending decisions are individual and disconnected; small expenses don't matter; budgeting is about deprivation rather than clarity.
 
+## Questions
+
+```yaml
+- question: "A friend is trying to cut $300/month from their budget. They decide to skip coffee and pack lunch every day, saving about $150 total. They never review their $90/month gym membership (unused), $25/month cloud storage upgrade, and $40/month streaming services. What does expense categorization suggest about this strategy?"
+  type: multiple-choice
+  options:
+    - "It is the right approach — variable expenses like coffee are always the best target for cuts"
+    - "It is roughly equivalent to reviewing fixed expenses, since both categories save the same amount"
+    - "It misses higher-leverage savings: fixed expenses, once reduced, save automatically every month without ongoing willpower"
+    - "Small recurring subscriptions never add up to meaningful savings and aren't worth tracking"
+  answer: 2
+  explanation: "This illustrates the strategic advantage of targeting fixed expenses. The unused gym membership + cloud storage + streaming = $155/month in fixed recurring charges that, once cancelled, save automatically every month with zero ongoing effort. The coffee/lunch savings require daily willpower and consistent behavior. Expense categorization reveals this asymmetry: variable cuts are harder to sustain; fixed cuts are permanent. This is 'subscription creep' — small recurring charges that add up unnoticed."
+
+- question: "After 3 months of tracking, a person notices their restaurant spending is $75 in January, $210 in February (which had three birthday dinners), and $80 in March. The most useful insight from this pattern is:"
+  type: multiple-choice
+  options:
+    - "Restaurant spending should be reclassified as a 'need' since eating is essential"
+    - "Restaurant spending functions partly as a social cost, not just a food cost — it spikes with social activity"
+    - "February is an outlier and should be removed from the analysis"
+    - "Variable expenses are too unpredictable to budget for accurately"
+  answer: 1
+  explanation: "This is 'spending clustering' — the pattern reveals that restaurant spending is driven partly by social context (birthdays, events), not just hunger. This matters practically: budgeting for restaurant food as a standalone food category will miss this social dimension. The real budget variable is social activity, and restaurant spending is a downstream consequence. Recognizing this allows targeted planning (e.g., suggesting cheaper social alternatives). Option C loses the informative pattern by treating February as noise."
+
+- question: "The primary purpose of categorizing expenses is to identify which spending you should eliminate in order to spend less overall."
+  type: true-false
+  answer: false
+  explanation: "Categorization's purpose is clarity — to see clearly what your money is actually doing so you can decide whether it matches your intentions. The explainer is explicit: 'The goal of categorization is not judgment but clarity.' Some categories you'll choose to keep; others you'll choose to cut; others you'll restructure. Deprivation-as-goal is a misconception that makes budgeting feel punitive. What categorization actually produces is information — data-driven decisions rather than arbitrary cuts."
+
+- question: "A 'fixed' expense is impossible to reduce because its amount is fixed by contract and cannot be changed."
+  type: true-false
+  answer: false
+  explanation: "'Fixed' means the expense is the same amount every month, not that it is permanently unalterable. Fixed expenses can often be renegotiated, downgraded, or cancelled — rent can be reduced when leases end, insurance premiums can be shopped, subscriptions can be cancelled. The distinction is temporal: fixed expenses are hard to reduce *in the short run* but yield permanent automatic savings when you do reduce them. They cannot be cut with daily willpower alone — they require a one-time decision with ongoing effect."
+
+- question: "Why is knowing your essential (non-discretionary) monthly expenses especially important for financial planning?"
+  type: short-answer
+  answer: "Essential expenses define your financial floor — the minimum monthly outlay you cannot avoid even in a genuine emergency. Knowing this number tells you how large your emergency fund needs to be, how long you could survive on reduced income, and which expenses must be protected before any discretionary spending. Without this baseline, you cannot accurately assess financial resilience."
+  explanation: "Your financial floor is your true survival budget: housing, utilities, minimum debt payments, food, transportation to work. Expressing this as a concrete number (and as a percentage of income) gives you real information about your margin of safety. Someone with $3,000/month in essential expenses needs a different emergency fund than someone with $1,500/month. The floor also clarifies which budget cuts are optional and which are impossible — critical for planning during income disruptions."
+```
+
 ## Explainer
 
 A budget without categorized expenses is like trying to manage your weight without knowing what you eat. The raw number — total spending — tells you very little. Categorization is what converts a transaction list into information you can actually act on. And as your prerequisite work on income classification showed, the distinctions you draw matter: different categories reveal different problems and point toward different solutions.

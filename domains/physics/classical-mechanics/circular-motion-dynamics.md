@@ -25,7 +25,7 @@ tags:
 - dynamics
 - tension
 - normal-force
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

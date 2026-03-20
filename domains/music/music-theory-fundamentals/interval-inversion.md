@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - intervals
 - inversion
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -32,6 +32,45 @@ Convert active sentences to passive and vice versa, noting what information move
 - Passive voice is not a grammatical error; it is a legitimate construction with specific rhetorical uses, though overuse can make writing feel evasive or flat.
 - "Was" does not automatically signal passive voice — "She was happy" is active (a linking verb with a predicate adjective), not passive.
 
+## Questions
+
+```yaml
+- question: "A scientist writes: 'The samples were heated to 200°C.' An editor marks this passive construction as a grammar error and insists on: 'We heated the samples to 200°C.' Which statement best evaluates the editor's suggestion?"
+  type: multiple-choice
+  options:
+    - "The editor is correct — passive voice is grammatically inferior and should always be converted to active"
+    - "The editor is wrong — the passive is appropriate here because scientific writing conventionally suppresses individual agents to foreground the procedure"
+    - "The editor is correct — the passive creates ambiguity about who performed the heating"
+    - "The editor is wrong — the original isn't passive because it omits a 'by' phrase"
+  answer: 1
+  explanation: "Passive voice is not a grammatical error; it is a rhetorical choice. Scientific writing routinely uses passive to depersonalize procedures and focus attention on what was done rather than who did it. 'The samples were heated' is appropriate here. Option D is also incorrect: a 'by' phrase is optional in passive constructions, not required."
+
+- question: "Which of the following is a passive voice sentence?"
+  type: multiple-choice
+  options:
+    - "She was exhausted after the marathon."
+    - "The trophy was awarded to the champion by the committee."
+    - "He became interested in photography."
+    - "The storm was fierce and unexpected."
+  answer: 1
+  explanation: "Option B uses 'be' + past participle ('was awarded') with an identifiable agent-patient relationship — the committee performed the action on the champion. Options A and D use 'was' as a linking verb with adjectives (exhausted, fierce), not past participles. Option C uses 'became' as a linking verb. The key test: is there an agent acting on a patient, with the patient in the subject position?"
+
+- question: "The sentence 'She was nervous before the speech' is in passive voice because it contains the word 'was.'"
+  type: true-false
+  answer: false
+  explanation: "'Was' here is a linking verb connecting the subject to an adjective ('nervous'). Passive voice requires a form of 'be' plus a *past participle*, with an underlying agent-patient relationship. 'Nervous' is an adjective, not a past participle, and no one performed an action on her. The reliable test is structural, not just the presence of 'was.'"
+
+- question: "Passive voice can be the better stylistic choice when the agent of an action is unknown or irrelevant to the point being made."
+  type: true-false
+  answer: true
+  explanation: "This is one of passive voice's core legitimate uses. 'The window was broken' efficiently reports a fact without speculating about who broke it. Forcing active voice ('Someone broke the window') would introduce an unknown and irrelevant agent. Passive is the right tool whenever the receiver of the action, or the action itself, matters more than the doer."
+
+- question: "Explain why 'was' alone is not a reliable test for passive voice. What is the actual test?"
+  type: short-answer
+  answer: "'Was' can appear as a linking verb (with adjectives) or in progressive constructions — neither of which is passive. The actual test is structural: passive voice requires (1) a form of 'be' plus a past participle, AND (2) an underlying agent-patient relationship where the grammatical subject is the thing acted upon. A useful check: can you add a meaningful 'by [agent]' phrase? 'The report was written by the intern' — yes. 'She was happy by the end' — no (no one performed an action on her)."
+  explanation: "Conflating 'was' with passive voice leads to mis-identifying linking-verb sentences as passive and to false corrections. The two-part test (be + past participle + agent-patient relationship) correctly identifies passive constructions and excludes false positives."
+```
+
 ## Explainer
 
 You already understand verb phrases — the combinations of auxiliary and main verbs that form the predicate. Passive voice is a specific verb phrase construction: **a form of *be* plus the past participle**. "The report was written by the intern" contains the auxiliary *was* plus the past participle *written*. That two-part structure is the signature of passive voice. The optional *by* phrase tells you who the agent is; when it's omitted ("The report was written"), the agent disappears entirely from the sentence. This disappearing act is one of passive voice's most important rhetorical powers.

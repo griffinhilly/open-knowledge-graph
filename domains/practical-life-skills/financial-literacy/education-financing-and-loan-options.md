@@ -16,7 +16,7 @@ tags:
 - financing
 - scholarships
 - college-costs
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

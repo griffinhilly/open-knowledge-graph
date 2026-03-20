@@ -16,7 +16,7 @@ tags:
 - user-interaction
 - perception
 - usability
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

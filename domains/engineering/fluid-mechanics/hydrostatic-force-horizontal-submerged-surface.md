@@ -13,7 +13,7 @@ tags:
 - forces
 - horizontal-surfaces
 - tanks
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

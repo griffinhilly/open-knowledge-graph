@@ -20,7 +20,7 @@ tags:
 - instability
 - waves
 - dynamics
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

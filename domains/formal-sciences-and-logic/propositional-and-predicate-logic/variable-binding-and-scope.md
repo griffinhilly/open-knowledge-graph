@@ -7,8 +7,7 @@ prerequisites:
 - id: first-order-logic-syntax
   type: hard
 builds-toward:
-- substitution-and-unification
-- quantifier-scope-ambiguity
+  - substitution-and-unification
 tags:
 - free-variables
 - bound-variables
@@ -18,7 +17,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # Variable Binding and Scope
 
 ## Core Idea

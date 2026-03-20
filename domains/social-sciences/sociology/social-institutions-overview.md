@@ -19,7 +19,7 @@ tags:
 - religion
 - economy
 - government
-stage: concrete-operations
+stage: advanced
 status: validated
 ---
 

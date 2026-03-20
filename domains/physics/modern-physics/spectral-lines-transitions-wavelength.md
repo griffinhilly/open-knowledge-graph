@@ -14,7 +14,7 @@ tags:
 - quantum
 - spectroscopy
 - atoms
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

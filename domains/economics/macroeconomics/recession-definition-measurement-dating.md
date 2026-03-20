@@ -14,7 +14,7 @@ tags:
 - business-cycles
 - measurement
 - definitions
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -9,8 +9,7 @@ prerequisites:
 - id: second-law-of-thermodynamics
   type: hard
 builds-toward:
-- rankine-cycle-steam-power
-- brayton-cycle-gas-turbine
+  - brayton-cycle-gas-turbine
 tags:
 - visualization
 - entropy
@@ -18,7 +17,6 @@ tags:
 stage: formal-systems
 status: draft
 ---
-
 # T-S Diagrams: Temperature-Entropy Diagrams
 
 ## Core Idea

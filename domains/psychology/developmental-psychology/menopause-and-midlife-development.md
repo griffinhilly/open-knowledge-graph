@@ -11,7 +11,7 @@ tags:
 - women's health
 - menopause
 - development
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

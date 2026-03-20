@@ -15,7 +15,7 @@ tags:
 - pacing
 - climax
 - tension
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

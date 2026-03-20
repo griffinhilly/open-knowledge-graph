@@ -28,6 +28,45 @@ Practice plotting individual points, then connect them to form shapes or paths. 
 - Not using a consistent scale on the axes.
 - Confusing "3 on the x-axis" with "the point (3, 0)" versus "(3, y)" for arbitrary y.
 
+## Questions
+
+```yaml
+- question: "A student is asked to plot the point (3, 7). She starts at the origin, moves 7 units to the right, then 3 units up, and places her point. What error did she make?"
+  type: multiple-choice
+  options:
+    - "She should have moved left instead of right for positive coordinates"
+    - "She reversed the coordinates — she should have moved 3 units right, then 7 units up"
+    - "She should not have started at the origin"
+    - "She plotted the point correctly — both methods land on the same location"
+  answer: 1
+  explanation: "In an ordered pair (x, y), the first number is always x (horizontal movement) and the second is always y (vertical movement). For (3, 7): move 3 right, then 7 up. The student moved 7 right and 3 up, which lands on the point (7, 3) — a completely different location. This is the most common plotting error and exactly why the word 'ordered' matters: (3, 7) and (7, 3) are not the same point."
+
+- question: "A rule says y = x + 2. A student generates the ordered pairs (1, 3), (2, 4), (3, 5), (4, 6) and plots them on the coordinate plane. What pattern should she observe?"
+  type: multiple-choice
+  options:
+    - "The points form a curve that gets steeper as x increases"
+    - "The points are scattered without any clear pattern"
+    - "The points all fall on a single straight line"
+    - "The points form a circle centered at the origin"
+  answer: 2
+  explanation: "When a rule connects x and y by adding or subtracting a constant (y = x + 2), the plotted pairs always form a straight line. Each time x increases by 1, y also increases by 1 — the relationship is constant and linear. This is a key insight: plotting a table of values makes the underlying mathematical structure visible. The straight line reveals that this is a linear relationship, something the list of numbers alone doesn't show as clearly."
+
+- question: "The point (0, 4) lies on the x-axis."
+  type: true-false
+  answer: false
+  explanation: "The x-axis is the horizontal number line, where y = 0. Points on the x-axis have the form (x, 0). The point (0, 4) has x = 0, which means it lies on the y-axis (the vertical number line). Starting at the origin and moving 0 units right but 4 units up places the point directly on the y-axis. Confusing which coordinate controls which axis is one of the most common errors in coordinate geometry."
+
+- question: "The ordered pairs (5, 2) and (2, 5) represent two different locations on the coordinate plane."
+  type: true-false
+  answer: true
+  explanation: "Order matters completely in ordered pairs — that's why they're called 'ordered.' (5, 2) means 5 units right and 2 units up; (2, 5) means 2 units right and 5 units up. These are entirely different points. The only time (a, b) and (b, a) represent the same point is when a = b (for example, (3, 3) is the same regardless of order). For all other pairs, swapping the coordinates moves you to a different location."
+
+- question: "Why is the word 'ordered' in 'ordered pairs' important? What happens if you ignore the order?"
+  type: short-answer
+  answer: "The word 'ordered' signals that the sequence of the two numbers is not interchangeable — (x, y) always means x first (horizontal) and y second (vertical), never the reverse. If you ignore the order and treat (4, 7) as (7, 4), you plot the wrong point entirely. The convention exists because the coordinate plane has two distinct axes with different roles; without a fixed order, you'd have no way to know which number controls which direction."
+  explanation: "This is the definitional key to coordinate geometry. The entire system of graphing depends on the convention that the first number always specifies horizontal position and the second always specifies vertical. Breaking this convention makes every graph meaningless. Understanding why the order is fixed — because x and y axes are distinct and serve different purposes — is more valuable than simply memorizing 'x comes first.'"
+```
+
 ## Explainer
 
 You've already learned how the coordinate plane is set up — two number lines crossing at right angles at the **origin** (0, 0), with the horizontal axis called x and the vertical axis called y. Plotting an ordered pair means using those two numbers as navigation instructions: the first number (x) tells you how far to travel horizontally, and the second (y) tells you how far to travel vertically.

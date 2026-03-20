@@ -15,7 +15,7 @@ tags:
 - persuasion
 - culture
 - values
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

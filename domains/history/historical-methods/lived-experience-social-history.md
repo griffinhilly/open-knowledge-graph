@@ -17,7 +17,7 @@ tags:
 - lived-experience
 - methodology
 - non-elites
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 

@@ -25,7 +25,7 @@ tags:
 - Columbus
 - Vasco da Gama
 - caravel
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 # The Age of Exploration and European Expansion

@@ -12,7 +12,7 @@ tags:
 - dialogue
 - formatting
 - attribution
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

@@ -13,7 +13,7 @@ tags:
 - reharmonization
 - substitution
 - harmony
-stage: formal-systems
+stage: advanced
 status: draft
 ---
 

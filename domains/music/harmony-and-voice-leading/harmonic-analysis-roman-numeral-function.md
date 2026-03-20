@@ -17,7 +17,7 @@ tags:
 - roman-numeral
 - function
 - chord-inversion
-stage: abstract-reasoning
+stage: formal-systems
 status: draft
 ---
 

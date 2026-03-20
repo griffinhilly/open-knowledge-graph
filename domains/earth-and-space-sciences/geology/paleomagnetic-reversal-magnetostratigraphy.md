@@ -4,15 +4,13 @@ title: Paleomagnetic Reversals and Magnetostratigraphy
 domain: earth-and-space-sciences
 course: geology
 prerequisites:
-- id: geomagnetic-reversal-chronology
-  type: soft
 - id: stratigraphy
   type: soft
 tags:
 - paleomagnetism
 - dating
 - stratigraphy
-stage: abstract-reasoning
+stage: advanced
 status: draft
 ---
 
