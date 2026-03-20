@@ -7,3 +7,5 @@ output/
 .DS_Store
 Thumbs.db
 nohup*.out
+tools/validation/
+tools/qa_report.json
