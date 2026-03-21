@@ -17,7 +17,7 @@ Each domain has `_domain.yml` + course subdirectories containing topic `.md` fil
 | Domain | Path | Topics | Courses |
 |--------|------|--------|---------|
 | Mathematics | `domains/mathematics/` | 1,920 | 28 |
-| Computer Science | `domains/computer-science/` | 1,059 | 11 |
+| Computer Science | `domains/computer-science/` | 1,059 | 10 |
 | Biology | `domains/biology/` | 924 | 9 |
 | Physics | `domains/physics/` | 856 | 8 |
 | Engineering | `domains/engineering/` | 722 | 7 |
@@ -44,7 +44,15 @@ Each domain has `_domain.yml` + course subdirectories containing topic `.md` fil
 - `tools/visualize.py` — Alternative force-directed rendering (pyvis/matplotlib)
 - `tools/stats.py` — Coverage statistics
 - `tools/qa_analyze.py` — Structural QA analysis (hubs, chains, islands, thin courses, shallow content)
-- `tools/apply_bidirectional_fixes.py` — Bidirectional builds-toward pair resolver (39 pairs, completed)
+- `tools/apply_bidirectional_fixes.py` — Bidirectional builds-toward pair resolver (39 pairs, Phase 6)
+- `tools/fix_bidirectional_pairs.py` — Bidirectional pair resolver v2 (198 pairs, Phase 8 expansion)
+- `tools/fix_orphans_islands.py` — Connected 57 orphans + 72 island components to main graph
+- `tools/fix_shallow_content.py` — Expanded 25 topics below 50-word threshold
+- `tools/fix_stage_inversions.py` — Cascading stage promotion (5,979 fixes)
+- `tools/fix_todo_placeholders.py` — Generated Core Ideas from Explainer content (6 topics)
+- `tools/fix_one_offs.py` — Non-ASCII prereq ID + dangling reference fixes
+- `tools/fix_manual_reviews.py` — Dialectic-reviewed geology/music/anatomy fixes (18 topics)
+- `tools/prepare_validation_batches.py` — Batch generator for Haiku validation agents
 - `tools/reconcile.py` — Builds-toward reconciliation (adds missing prereqs, handles merges/removals)
 - `tools/reconcile_analyze.py` — Mismatch analysis and categorization (outputs reconcile_analysis.json)
 - `tools/reconcile_analysis.json` — Analysis data (1,599 mismatches categorized)
@@ -55,6 +63,7 @@ Each domain has `_domain.yml` + course subdirectories containing topic `.md` fil
 - `tools/diagnose_radial_order.py` — Finds prerequisite edges violating radial ordering (prereq more advanced than successor)
 - `tools/trace_topic.py` — Traces positioning math for a specific topic (debug tool)
 - `tools/generate_rationality_course.py` — Generates all 30 Applied Rationality topic files under philosophy
+- `tools/test_fluency.html` — Browser-based test suite for fluency engine (25+ assertions)
 - `tools/overnight/` — Autonomous generation orchestrator
   - `orchestrator.py` — Main runner (invokes `claude --print` per course)
   - `subjects.py` — Subject queue definitions (all 19 domains, 117 courses)
@@ -76,11 +85,15 @@ Each domain has `_domain.yml` + course subdirectories containing topic `.md` fil
 - `output/topics/` — 13,518 individual topic detail pages (Core Idea, explainer, prerequisite chains, successors)
 - `output/topics/*-questions.html` — Interactive question pages (1,006 topics with Q+E)
 - `output/topics/tags/` — 20,531 tag pages + tag index
+- `output/js/fluency.js` — Fluency engine (copied from `lib/fluency.js` during generation)
 
 ## Meta
 - `meta/schema.md` — YAML frontmatter schema definition
 - `meta/developmental-stages.md` — Stage definitions (pre-formal through advanced)
 - `meta/course-list.md` — Course directory listing
 
-## Other
-- `legacy/` — Legacy JS libraries (vis.js, tom-select, bindings)
+## Libraries
+- `lib/fluency.js` — Bayesian fluency engine (source; copied to `output/js/` during generation). Tracks per-topic mastery, prerequisite propagation, frontier detection, two color modes.
+- `lib/bindings/` — Legacy vis.js bindings (not actively used)
+- `lib/tom-select/` — Autocomplete library
+- `lib/vis-9.1.2/` — vis-network bundle (not actively used)

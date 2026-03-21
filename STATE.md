@@ -1,28 +1,25 @@
 # State
 
 ## Current Phase
-Phase 9: Learning Platform — PLANNING
-Phase 8: Community Launch — IN PROGRESS (questions generation + remaining items)
+Phase 9: Learning Platform — IN PROGRESS (9A complete, 9B next)
+Phase 8: Community Launch — nearly complete (cleanup pass + announcement remaining)
 
-## Last Worked On (Mar 19, 2026)
-- Designed comprehensive usability overhaul: 9 features transforming OKG from knowledge map → learning tool
-- Designed new assessment system: Bayesian fluency model, 3-phase adaptive assessment with actual questions (not self-report), prerequisite propagation, continuous fluency scores (0-100)
-- Added Applied Rationality course (30 topics) under Philosophy — placement validated via 3-agent dialectic
-- Resolved domain ordering via 8-agent dialectic: swapped Earth & Space ↔ Chemistry for better natural science adjacency
-- Domain narrative: "From formal foundations, through engineering and the physical sciences, through life and the mind, through society, to creative expression"
+## Last Worked On (Mar 21, 2026)
+- **Q5 question generation swarm**: 60-shard Sonnet swarm generated 5-question sets for ~10,100 topics
+- **Question coverage**: ~11,100/13,518 topics now have questions (82%)
+- **~2,285 topics failed** during generation (rate limit exhaustion across 60 concurrent workers)
+- **Committed and ready to push**
 
 ## Known Issues / Blockers
+- ~2,285 topics still missing questions (failed items from Q5 swarm — need cleanup pass)
 - ~229 topics may still be missing explainers (shard 22 partial completion)
-- 2,325 edges (8%) still violate radial ordering; 676 have 2+ stage gap
-- ~11,035 expansion topics still at status: draft
-- Questions generation for ~12,512 topics waiting for token reset (Saturday Mar 21)
-- Assessment redesign depends on question bank coverage (currently 1,006/13,518)
-- 247 dangling prerequisite references (mostly from expansion topics referencing not-yet-created topics)
+- ~11,035 expansion topics still at status: draft (content validated, promotion deferred by choice)
+- Phase 9A deferred items: hub topic labels at moderate zoom, directional edge rendering
 
 ## Next Steps (in priority order)
-1. Phase 9A: Fluency model + localStorage + visual integration
-2. Questions generation swarm (after Mar 21 token reset)
+1. Push questions commit to GitHub
+2. Cleanup pass: retry ~2,285 failed question generation items (fewer workers, less contention)
 3. Phase 9B: Assessment engine — Phases 1 & 2
 4. Phase 9C: Assessment Phase 3 + Results screen
 5. Phase 9D: Landing page + domain toggle + progress bars + polish
-6. Remaining Phase 8 items (radial ordering triage, draft→validated, announcement)
+6. Remaining Phase 8 items (draft→validated promotion decision, announcement)

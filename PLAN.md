@@ -163,21 +163,33 @@ Expanding non-math domains from ~20 topics/course toward ~35-40 topics/course.
 - [ ] Questions generation for remaining ~12,512 topics (30-worker Sonnet swarm)
   - Manifests built, prioritized by hub connectivity + younger developmental stages
   - Resume after weekly token limit resets (Saturday Mar 21)
-- [ ] Triage top radial ordering violations (676 edges with 2+ stage gap)
+- [x] Full-coverage validation audit (50 Haiku + 4 Sonnet + Opus dialectic referee)
+  - 11,035 draft topics validated. 97.5% pass rate (98.7% after false positive filtering)
+  - 6,200+ files fixed: stage inversions, bidirectional pairs, orphans/islands, shallow content, TODO placeholders
+  - Dialectic-reviewed: geology prereqs, music staging, anatomy prereq direction
+- [x] Stage inversion cascade fix (5,979 promotions across 8 passes)
+  - Eliminated radial ordering violations caused by stage misassignment
+- [ ] Questions generation for remaining ~12,512 topics (30-worker Sonnet swarm)
+  - Manifests built, prioritized by hub connectivity + younger developmental stages
+  - Resume after weekly token limit resets (Saturday Mar 21)
+- [ ] Promote draft topics to validated (content validated, decision deferred)
 - [ ] Add assessment generation to GitHub Actions workflow
-- [ ] Promote new draft topics to validated after review
 - [ ] Write announcement post
 
 ## Phase 9: Learning Platform — PLANNED (Mar 19, 2026)
 Transform OKG from a static knowledge map into an interactive learning tool. Inspired by Math Academy's adaptive learning model. Nine features across four implementation phases.
 
-### Phase 9A: Fluency Model + Visual Integration
-- [ ] Define fluency data model: continuous 0-100 per topic, Bayesian log-odds updates
-- [ ] Implement localStorage schema (`okg-fluency`, `okg-fluency-meta`, `okg-goals`, `okg-adjustments`)
-- [ ] Implement prerequisite propagation (backward: 0.85^hops decay, forward: ceiling on successors)
-- [ ] Add fluency toggle on topic pages (manually mark known)
-- [ ] Modify graph views to color nodes by fluency (gray→dim→medium→bright→glow)
-- [ ] Better visual differentiation: perceptually uniform color palette, hub topic labels at moderate zoom, directional edge rendering
+### Phase 9A: Fluency Model + Visual Integration — DONE (Mar 19, 2026)
+- [x] Define fluency data model: continuous 0-100 per topic, Bayesian log-odds updates
+- [x] Implement localStorage schema (`okg-fluency`, `okg-fluency-meta`, `okg-goals`, `okg-adjustments`)
+- [x] Implement prerequisite propagation (backward: 0.85^hops decay, forward: ceiling on successors)
+  - Forward cap only uses direct evidence (not backward-inferred scores) to avoid circular reasoning
+- [x] Add fluency toggle on topic pages (manually mark known)
+- [x] Modify graph views to color nodes by fluency
+  - Radial + cross-domain hierarchy: domain-hue mode (saturation/lightness by mastery)
+  - Per-domain hierarchy: universal mastery gradient (gray→red→amber→green)
+  - Frontier topics get gold borders on all views
+- [ ] Better visual differentiation: hub topic labels at moderate zoom, directional edge rendering (DEFERRED)
 
 ### Phase 9B: Assessment Engine — Phases 1 & 2
 - [ ] Build `generate_assessment_questions.py` — extract question bank, prioritize by hub connectivity

@@ -34,11 +34,11 @@ Visualization design: see `guides/visualization.md`
 
 ## Current Status
 - **13,518 topics** across **19 domains**, **149 courses**, **29,609 prerequisite edges**
-- **~13,260 topics** have Explainer sections; **1,006 topics** have Questions
+- **~13,260 topics** have Explainer sections; **~11,100 topics** have Questions (82%)
 - GitHub Pages live at `griffinhilly.github.io/open-knowledge-graph/`
 - GitHub Actions CI: validates graph + deploys visualizations on every push
 - New topics at `status: draft` pending review; original 2,628 at `status: validated`
-- **Phase 9 (Learning Platform) planned**: Bayesian fluency model, redesigned assessment with actual questions, semantic zoom, learning paths. See PLAN.md for details.
+- **Phase 9A (Fluency Model) DONE**: `lib/fluency.js` with Bayesian updates, prerequisite propagation, two color modes. Fluency toggle on all graph views + topic pages. Phase 9B (Assessment Engine) is next.
 
 ## Related Projects
 - `~/knowledge-architecture/` — Prose-based concept sequences (predecessor project)
